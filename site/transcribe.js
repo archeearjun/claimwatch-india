@@ -222,10 +222,21 @@ function renderLiveClaims() {
   }
 
   const candidates = extractor(transcriptText).slice(0, 20);
-  const checkedCount = candidates.filter(item => liveCheckCache.has(item.sentence)).length;
+  const checked = candidates
+    .map(item => liveCheckCache.get(item.sentence))
+    .filter(Boolean);
+  const checkedCount = checked.length;
   const checkingCount = candidates.filter(item => liveCheckInFlight.has(item.sentence)).length;
+  const supportedCount = checked.filter(result =>
+    (result.verdict || result.signal?.verdict) === "supported"
+  ).length;
+  const contradictedCount = checked.filter(result =>
+    (result.verdict || result.signal?.verdict) === "contradicted"
+  ).length;
+  const pendingCount = checkedCount - supportedCount - contradictedCount;
+
   count.textContent =
-    `${candidates.length} candidate${candidates.length === 1 ? "" : "s"} · ${checkedCount} checked${checkingCount ? ` · ${checkingCount} checking` : ""}`;
+    `${candidates.length} candidates · ${checkedCount} checked · ${supportedCount} supported · ${contradictedCount} contradicted · ${pendingCount} pending${checkingCount ? ` · ${checkingCount} checking` : ""}`;
 
   if (!candidates.length) {
     root.innerHTML =
