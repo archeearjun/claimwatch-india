@@ -325,7 +325,13 @@ function quantityMentions(text) {
       kind: ["%","percent","प्रतिशत"].includes(unit) ? "percent" : "count"
     });
   }
-  return out;
+  const seen = new Set();
+  return out.filter(item => {
+    const key = item.kind + ":" + Number(item.value).toPrecision(12);
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
 }
 
 function numericOperator(text) {
