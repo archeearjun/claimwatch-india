@@ -3,136 +3,254 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Evidence-first verification of political claims and election promises." />
+  <meta name="description" content="ClaimWatch India: evidence-first tracking of political claims, speeches, and election commitments." />
+  <meta name="color-scheme" content="dark" />
   <title>ClaimWatch India</title>
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
   <header class="topbar">
-    <a class="brand" href="#">ClaimWatch <span>India</span></a>
-    <nav>
-      <a href="#discoveries">Discoveries</a>
-      <a href="#live">Live Check</a>
+    <a class="brand" href="#top" aria-label="ClaimWatch India home">
+      <span class="brand-mark">CW</span>
+      <span>ClaimWatch <b>India</b></span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#intelligence">Intelligence</a>
+      <a href="#evidence">Evidence</a>
       <a href="#promises">Promises</a>
+      <a href="#manual">Check</a>
       <a href="#method">Method</a>
     </nav>
+    <span class="scope-chip">Current scope · Modi / BJP</span>
   </header>
 
-  <main>
+  <main id="top">
     <section class="hero">
-      <div>
-        <p class="eyebrow">EVIDENCE, NOT ASSERTION</p>
-        <h1>Track claims. Find the record. Show the evidence.</h1>
-        <p class="lede">Initial research scope: public Modi/BJP statements and election commitments. ClaimWatch is being built to discover public statements automatically, preserve the original source, and compare checkable claims and promises against inspectable evidence.</p>
-      </div>
-      <div class="hero-card">
-        <div class="dot"></div>
-        <div>
-          <strong>V0.2 · Discovery connected</strong>
-          <p>PMIndia and web/news discovery are wired into an hourly scanner. YouTube discovery activates once the free API key is added. Automated evidence verification is the next layer.</p>
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="live-dot"></span> PUBLIC-RECORD INTELLIGENCE</p>
+        <h1>Claims are easy.<br /><span>The record is harder.</span></h1>
+        <p class="lede">ClaimWatch discovers public speeches, videos and reporting, extracts checkable claims, remembers election commitments, and builds evidence packets from inspectable sources.</p>
+        <div class="hero-pills">
+          <span>Hourly discovery</span>
+          <span>2014 · 2019 · 2024 manifestos</span>
+          <span>Primary-source-first</span>
+          <span>₹0 core infrastructure</span>
         </div>
       </div>
+
+      <aside class="pipeline-card" aria-label="ClaimWatch pipeline">
+        <div class="pipeline-head">
+          <div>
+            <span class="kicker">SYSTEM STATUS</span>
+            <strong id="pipeline-state">Loading intelligence…</strong>
+          </div>
+          <span class="pulse"></span>
+        </div>
+        <div class="pipeline-step">
+          <span class="step-no">01</span>
+          <div><strong>Discover</strong><small>PMIndia · YouTube · news/web</small></div>
+          <span class="step-state ok">LIVE</span>
+        </div>
+        <div class="pipeline-step">
+          <span class="step-no">02</span>
+          <div><strong>Extract</strong><small>claims · promises · metrics · deadlines</small></div>
+          <span class="step-state ok">LIVE</span>
+        </div>
+        <div class="pipeline-step">
+          <span class="step-no">03</span>
+          <div><strong>Match</strong><small>history · manifestos · current evidence</small></div>
+          <span class="step-state ok">LIVE</span>
+        </div>
+        <div class="pipeline-step">
+          <span class="step-no">04</span>
+          <div><strong>Verify</strong><small>publish only when evidence is sufficient</small></div>
+          <span class="step-state cautious">GUARDED</span>
+        </div>
+      </aside>
     </section>
 
-    <section class="stats" aria-label="Current review summary">
-      <article><span id="total-count">0</span><small>Reviewed claims</small></article>
-      <article><span id="supported-count">0</span><small>Supported</small></article>
-      <article><span id="contradicted-count">0</span><small>Contradicted</small></article>
-      <article><span id="context-count">0</span><small>Missing context</small></article>
-      <article><span id="pending-count">0</span><small>Pending / insufficient</small></article>
+    <section class="metric-grid" aria-label="ClaimWatch coverage">
+      <article>
+        <span class="metric-label">Sources discovered</span>
+        <strong id="metric-sources">—</strong>
+        <small id="metric-sources-detail">Loading feed</small>
+      </article>
+      <article>
+        <span class="metric-label">Promise candidates</span>
+        <strong id="metric-promises">—</strong>
+        <small id="metric-promises-detail">2014 · 2019 · 2024</small>
+      </article>
+      <article>
+        <span class="metric-label">Evidence packets</span>
+        <strong id="metric-packets">—</strong>
+        <small id="metric-packets-detail">Claims + promises</small>
+      </article>
+      <article>
+        <span class="metric-label">Primary-source candidates</span>
+        <strong id="metric-primary">—</strong>
+        <small>Official-data leads</small>
+      </article>
+      <article>
+        <span class="metric-label">Published verdicts</span>
+        <strong id="metric-verdicts">0</strong>
+        <small>Never inferred from retrieval alone</small>
+      </article>
     </section>
 
-    <section id="discoveries" class="panel">
-      <div class="section-head">
+    <section id="intelligence" class="section-block">
+      <div class="section-heading">
         <div>
           <p class="eyebrow">AUTONOMOUS DISCOVERY</p>
-          <h2>Recent speeches, videos and reporting found by ClaimWatch</h2>
+          <h2>What ClaimWatch is seeing now</h2>
+          <p class="section-copy">Recent official speeches, public videos and reporting. Discovery is not a verdict; it is the queue from which claims enter verification.</p>
         </div>
-        <button id="refresh-discoveries" class="secondary">Refresh discoveries</button>
-      </div>
-      <p class="muted">These are source discoveries and candidate factual claims, not truth verdicts. A source only becomes a verdict after the evidence engine has checked it.</p>
-      <div class="scanner-bar">
-        <div>
-          <span class="scanner-label">Scanner status</span>
-          <strong id="scanner-status">Loading discovery feed…</strong>
-        </div>
-        <div>
-          <span class="scanner-label">Last scan</span>
-          <strong id="scanner-time">—</strong>
-        </div>
-        <div>
-          <span class="scanner-label">Sources found</span>
-          <strong id="scanner-count">0</strong>
+        <div class="section-meta">
+          <span>Last scan</span>
+          <strong id="discovery-updated">—</strong>
+          <button id="refresh-all" class="subtle-button">Refresh</button>
         </div>
       </div>
-      <div id="scanner-notices" class="scanner-notices"></div>
-      <div id="discovery-list" class="discovery-list"></div>
+
+      <div class="filter-row" role="group" aria-label="Discovery filter">
+        <button class="filter active" data-discovery-filter="all">All</button>
+        <button class="filter" data-discovery-filter="official_speech_or_video">Official speeches</button>
+        <button class="filter" data-discovery-filter="youtube_video">YouTube</button>
+        <button class="filter" data-discovery-filter="news">News / web</button>
+      </div>
+
+      <div id="discovery-notices" class="notice-stack"></div>
+      <div id="discovery-grid" class="discovery-grid">
+        <div class="loading-card">Loading source intelligence…</div>
+      </div>
     </section>
 
-    <section id="live" class="panel">
-      <div class="section-head">
+    <section id="evidence" class="section-block">
+      <div class="section-heading">
         <div>
-          <p class="eyebrow">MANUAL CHECK / TEST BENCH</p>
-          <h2>Extract checkable claims from a transcript</h2>
+          <p class="eyebrow">EVIDENCE ENGINE</p>
+          <h2>Claims moving through verification</h2>
+          <p class="section-copy">Each packet keeps the original statement separate from the evidence found for it. Automatic signals help triage; they do not become a published verdict by themselves.</p>
         </div>
-        <span class="local-badge">Runs locally in your browser</span>
+        <div class="legend">
+          <span><i class="legend-dot primary-dot"></i> Primary-source candidate</span>
+          <span><i class="legend-dot secondary-dot"></i> Reporting</span>
+          <span><i class="legend-dot fact-dot"></i> Prior fact-check</span>
+        </div>
       </div>
-      <p class="muted">Paste a speech transcript to test the local first-pass claim extractor. It prioritizes measurable quantities, dates, comparisons, and factual accomplishment claims. Extraction is not a truth verdict.</p>
-      <textarea id="transcript" placeholder="Paste a rally, interview, TV or speech transcript here…"></textarea>
-      <div class="actions">
-        <button id="extract-btn" class="primary">Extract candidate claims</button>
-        <button id="demo-btn" class="secondary">Load safe demo text</button>
-        <button id="clear-btn" class="ghost">Clear</button>
+
+      <div id="evidence-summary" class="evidence-summary"></div>
+      <div id="evidence-list" class="evidence-list">
+        <div class="loading-card">Building evidence view…</div>
       </div>
-      <div id="extract-status" class="status" role="status"></div>
+    </section>
+
+    <section id="promises" class="section-block promise-atlas">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">PROMISE ATLAS</p>
+          <h2>2014 → 2019 → 2024</h2>
+          <p class="section-copy">Machine-extracted commitment candidates from BJP manifestos, with page provenance, measurable targets, deadlines, cross-election similarity and current evidence leads.</p>
+        </div>
+        <div class="promise-health" id="promise-health">
+          <span>Corpus status</span>
+          <strong>Loading…</strong>
+        </div>
+      </div>
+
+      <div class="promise-controls">
+        <label class="searchbox">
+          <span>Search</span>
+          <input id="promise-search" type="search" placeholder="jobs, farmers, health, railways…" />
+        </label>
+        <div class="filter-row compact" role="group" aria-label="Promise year">
+          <button class="filter promise-year active" data-year="all">All years</button>
+          <button class="filter promise-year" data-year="2014">2014</button>
+          <button class="filter promise-year" data-year="2019">2019</button>
+          <button class="filter promise-year" data-year="2024">2024</button>
+        </div>
+        <label class="toggle">
+          <input id="measurable-only" type="checkbox" />
+          <span>Measurable only</span>
+        </label>
+      </div>
+
+      <div id="promise-year-stats" class="year-stats"></div>
+      <div id="promise-list" class="promise-list">
+        <div class="loading-card">Loading manifesto corpus…</div>
+      </div>
+      <button id="show-more-promises" class="wide-button hidden">Show more promise candidates</button>
+    </section>
+
+    <section id="manual" class="section-block manual-check">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">LOCAL TEST BENCH</p>
+          <h2>Drop in a transcript yourself</h2>
+          <p class="section-copy">This first-pass extractor runs in your browser and highlights statements that look objectively checkable. It does not assign truth from wording alone.</p>
+        </div>
+        <span class="privacy-chip">No upload required</span>
+      </div>
+
+      <textarea id="transcript" placeholder="Paste a rally, TV interview, speech or transcript here…"></textarea>
+      <div class="manual-actions">
+        <button id="extract-btn" class="primary-button">Extract candidate claims</button>
+        <button id="demo-btn" class="subtle-button">Load demo</button>
+        <button id="clear-btn" class="text-button">Clear</button>
+      </div>
+      <div id="extract-status" class="extract-status" role="status"></div>
       <div id="candidate-list" class="candidate-list"></div>
     </section>
 
-    <section class="grid-two">
-      <section class="panel">
-        <div class="section-head">
-          <div>
-            <p class="eyebrow">CLAIM LEDGER</p>
-            <h2>Auditable verdicts</h2>
-          </div>
+    <section id="method" class="section-block method-block">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">METHODOLOGY</p>
+          <h2>Fast retrieval. Slow conclusions.</h2>
+          <p class="section-copy">The system is designed to be aggressive about finding evidence and conservative about declaring what that evidence proves.</p>
         </div>
-        <div id="claim-ledger"></div>
-      </section>
-
-      <section id="promises" class="panel">
-        <div class="section-head">
-          <div>
-            <p class="eyebrow">PROMISE TRACKER</p>
-            <h2>Election commitments</h2>
-          </div>
-        </div>
-        <div class="filters" role="group" aria-label="Promise election year">
-          <button class="filter active" data-year="all">All</button>
-          <button class="filter" data-year="2014">2014</button>
-          <button class="filter" data-year="2019">2019</button>
-          <button class="filter" data-year="2024">2024</button>
-        </div>
-        <div id="promise-list"></div>
-      </section>
-    </section>
-
-    <section id="method" class="panel method">
-      <p class="eyebrow">METHODOLOGY</p>
-      <h2>What the system is allowed to conclude</h2>
-      <div class="method-grid">
-        <article><strong>Supported</strong><p>Available evidence supports the material factual proposition using comparable definitions and dates.</p></article>
-        <article><strong>Contradicted</strong><p>Reliable evidence directly conflicts with the material factual proposition.</p></article>
-        <article><strong>Missing context</strong><p>A number or fact may be technically correct but omits information necessary to interpret it accurately.</p></article>
-        <article><strong>Insufficient evidence</strong><p>The available record is not strong enough for a defensible conclusion.</p></article>
-        <article><strong>Not checkable</strong><p>Opinion, prediction, rhetoric, value judgment, or a proposition without an objective verification test.</p></article>
-        <article><strong>Pending</strong><p>A checkable claim has been detected but the evidence packet has not been completed.</p></article>
       </div>
-      <p class="method-note">ClaimWatch evaluates the relationship between a public claim and available evidence. It does not infer a speaker's private intent from a contradiction.</p>
+
+      <div class="method-grid">
+        <article>
+          <span class="method-no">01</span>
+          <strong>Preserve the claim</strong>
+          <p>Keep the exact source, date, speaker and video/page location before interpretation begins.</p>
+        </article>
+        <article>
+          <span class="method-no">02</span>
+          <strong>Prefer primary evidence</strong>
+          <p>Official statistics, legislation, audit reports, parliamentary records and original manifestos come before commentary.</p>
+        </article>
+        <article>
+          <span class="method-no">03</span>
+          <strong>Check comparability</strong>
+          <p>Dates, denominators, geography, definitions, units and methodology must line up before numbers are compared.</p>
+        </article>
+        <article>
+          <span class="method-no">04</span>
+          <strong>Attribute outside ratings</strong>
+          <p>Prior fact-checks are useful evidence leads; their ratings remain attributed to their publishers rather than silently becoming ours.</p>
+        </article>
+        <article>
+          <span class="method-no">05</span>
+          <strong>Keep uncertainty visible</strong>
+          <p>Pending, insufficient and not-checkable are valid outcomes. The system does not manufacture certainty to fill a dashboard.</p>
+        </article>
+        <article>
+          <span class="method-no">06</span>
+          <strong>Do not infer intent</strong>
+          <p>A factual contradiction can be documented. Whether someone knowingly deceived is a different claim requiring different evidence.</p>
+        </article>
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>ClaimWatch India · Open methodology · Primary-source-first · No paid AI API required for the core project</p>
+    <div>
+      <strong>ClaimWatch India</strong>
+      <span>Open methodology · inspectable sources · current research scope: Modi / BJP</span>
+    </div>
+    <a href="https://github.com/archeearjun/claimwatch-india" target="_blank" rel="noopener noreferrer">Source on GitHub ↗</a>
   </footer>
 
   <script src="./app.js" defer></script>
