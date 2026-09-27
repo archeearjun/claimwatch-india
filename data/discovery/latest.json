@@ -1,9 +1,28 @@
 {
-  "generated_at": null,
+  "generated_at": "2026-09-27T17:17:26.413871+00:00",
   "scope": "Initial research scope: Narendra Modi / BJP public statements and commitments",
   "items": [],
-  "errors": [],
+  "errors": [
+    {
+      "source": "https://www.pmindia.gov.in/en/pms-speeches/",
+      "error": "HTTPError"
+    },
+    {
+      "source": "https://www.pmindia.gov.in/en/speeches/",
+      "error": "HTTPError"
+    },
+    {
+      "source": "gdelt",
+      "error": "HTTPError"
+    },
+    {
+      "source": "youtube",
+      "error": "YOUTUBE_API_KEY_not_configured"
+    }
+  ],
   "notes": [
-    "Waiting for first scheduled or manual discovery scan."
+    "Discovery is not a truth verdict.",
+    "News text is read transiently for candidate-claim extraction; the feed stores URLs and short fragments, not full articles.",
+    "YouTube caption download is not assumed to be available for arbitrary public videos."
   ]
 }
