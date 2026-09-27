@@ -1402,6 +1402,197 @@ def build_promise_packets(promises):
 
     return packets, errors
 
+def previous_claim_families():
+    if not OUT_PATH.exists():
+        return []
+    try:
+        payload = json.loads(OUT_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        return []
+    return list(payload.get("claim_families", []) or [])
+
+
+def normalized_claim_key(text):
+    return re.sub(r"\W+", " ", (text or "").lower()).strip()
+
+
+def claim_number_signature(text):
+    return tuple(sorted(numeric_tokens(text)))
+
+
+def claim_lexical_similarity(a, b):
+    aa = keywords(a, limit=16)
+    bb = keywords(b, limit=16)
+    if not aa or not bb:
+        return 0.0
+    aset, bset = set(aa), set(bb)
+    shared = len(aset & bset)
+    j = shared / max(1, len(aset | bset))
+    containment = shared / max(1, min(len(aset), len(bset)))
+    return 0.55 * j + 0.45 * containment
+
+
+def claim_family_similarity(a, b):
+    a_nums = set(claim_number_signature(a))
+    b_nums = set(claim_number_signature(b))
+    if a_nums or b_nums:
+        if not a_nums or not b_nums or not (a_nums & b_nums):
+            return 0.0
+
+    lexical = claim_lexical_similarity(a, b)
+    if lexical < 0.18:
+        return lexical
+
+    forward = nli_scores(a, b)
+    backward = nli_scores(b, a)
+    if forward and backward:
+        semantic = min(
+            forward.get("entailment", 0.0),
+            backward.get("entailment", 0.0),
+        )
+        return max(lexical, semantic)
+    return lexical
+
+
+def merge_claim_families(claim_packets):
+    families = previous_claim_families()
+    by_exact = {
+        normalized_claim_key(family.get("canonical_claim")): family
+        for family in families
+        if family.get("canonical_claim")
+    }
+
+    for family in families:
+        family.setdefault("occurrences", [])
+        family.setdefault("current_verdict", None)
+        family.setdefault("evidence_state", "pending")
+        family.setdefault("human_reviewed", False)
+
+    for packet in claim_packets:
+        claim = packet.get("claim") or ""
+        if not claim:
+            continue
+
+        exact_key = normalized_claim_key(claim)
+        family = by_exact.get(exact_key)
+        match_score = 1.0 if family else 0.0
+
+        if family is None:
+            lexical_candidates = []
+            for candidate in families:
+                canonical = candidate.get("canonical_claim") or ""
+                score = claim_lexical_similarity(claim, canonical)
+                if score >= 0.18:
+                    lexical_candidates.append((score, candidate))
+            lexical_candidates.sort(key=lambda row: -row[0])
+
+            for _, candidate in lexical_candidates[:4]:
+                score = claim_family_similarity(
+                    claim,
+                    candidate.get("canonical_claim") or "",
+                )
+                if score > match_score:
+                    match_score = score
+                    family = candidate
+
+            if match_score < 0.86:
+                family = None
+
+        if family is None:
+            family = {
+                "id": stable_id("claim_family", claim),
+                "canonical_claim": claim,
+                "occurrences": [],
+                "current_verdict": None,
+                "evidence_state": "pending",
+                "human_reviewed": False,
+                "created_at": now_iso(),
+            }
+            families.append(family)
+            by_exact[exact_key] = family
+            match_score = 1.0
+
+        source = packet.get("claim_source") or {}
+        occurrence_id = stable_id(
+            "occurrence",
+            source.get("url"),
+            source.get("published_at"),
+            claim,
+        )
+        existing_ids = {
+            occurrence.get("id")
+            for occurrence in family.get("occurrences", [])
+        }
+        if occurrence_id not in existing_ids:
+            family["occurrences"].append({
+                "id": occurrence_id,
+                "text": claim,
+                "source_title": source.get("title"),
+                "source": source.get("source") or source.get("channel_title"),
+                "url": source.get("url"),
+                "published_at": source.get("published_at"),
+                "match_score": round(match_score, 4),
+            })
+
+        family["occurrences"] = sorted(
+            family["occurrences"],
+            key=lambda row: row.get("published_at") or "",
+        )[-60:]
+        family["occurrence_count"] = len(family["occurrences"])
+        family["first_seen"] = (
+            family["occurrences"][0].get("published_at")
+            if family["occurrences"] else None
+        )
+        family["last_seen"] = (
+            family["occurrences"][-1].get("published_at")
+            if family["occurrences"] else None
+        )
+
+        signal = packet.get("signal") or {}
+        family["evidence_state"] = signal.get("level") or packet.get("verdict") or "pending"
+        family["latest_checked_at"] = now_iso()
+        family["latest_claim_packet_id"] = packet.get("id")
+
+        if signal.get("publishable_verdict"):
+            family["current_verdict"] = packet.get("verdict")
+            family["verdict_reason"] = signal.get("reason")
+            family["verdict_evidence_id"] = signal.get("evidence_id")
+            family["verdict_updated_at"] = now_iso()
+
+    families.sort(
+        key=lambda family: (
+            -int(family.get("occurrence_count") or 0),
+            family.get("canonical_claim") or "",
+        )
+    )
+    return families[:1000]
+
+
+def claim_family_summary(families):
+    repeated = [
+        family for family in families
+        if int(family.get("occurrence_count") or 0) >= 2
+    ]
+    contradicted = [
+        family for family in repeated
+        if family.get("current_verdict") == "contradicted"
+    ]
+    supported = [
+        family for family in repeated
+        if family.get("current_verdict") == "supported"
+    ]
+    return {
+        "families_total": len(families),
+        "repeated_families": len(repeated),
+        "repeated_contradicted_families": len(contradicted),
+        "repeated_supported_families": len(supported),
+        "occurrences_total": sum(
+            int(family.get("occurrence_count") or 0)
+            for family in families
+        ),
+    }
+
+
 def main():
     discovery = (
         json.loads(DISCOVERY_PATH.read_text(encoding="utf-8"))
@@ -1416,6 +1607,7 @@ def main():
     promises = promise_data.get("promises", [])
 
     claim_packets, claim_errors = build_claim_packets(discovery, promises)
+    claim_families = merge_claim_families(claim_packets)
 
     promise_batch = select_promise_batch(promises, batch_size=30)
     fresh_promise_packets, promise_errors = build_promise_packets(promise_batch)
@@ -1502,8 +1694,10 @@ def main():
                 if packet.get("signal", {}).get("publishable_verdict")
             ),
             "promise_outcomes": promise_outcome_summary(promise_packets),
+            "claim_memory": claim_family_summary(claim_families),
         },
         "claim_packets": claim_packets,
+        "claim_families": claim_families,
         "promise_packets": promise_packets,
         "errors": claim_errors + promise_errors,
         "notes": [
@@ -1514,6 +1708,7 @@ def main():
             "Automated supported/contradicted verdicts require a strict verified-primary NLI gate; uncertain cases remain pending.",
             "Promise evidence scanning rotates through the corpus and preserves prior checks so coverage accumulates over time.",
             "The promise dashboard distinguishes proven outcome states from overdue-but-unresolved commitments; an expired deadline alone is not proof of non-fulfilment.",
+            "Repeated claims are grouped into semantic families only after numeric compatibility and bidirectional multilingual entailment checks.",
             "A contradiction is not treated as proof of deliberate deception.",
         ],
     }
