@@ -751,6 +751,45 @@ def build_claim_packets(discovery, promises):
 
     return packets, errors
 
+def select_promise_batch(promises, batch_size=30):
+    if not promises:
+        return []
+
+    priority = sorted(
+        promises,
+        key=lambda p: (
+            not p.get("measurable"),
+            not bool(p.get("deadline_hints")),
+            -int(p.get("candidate_score", 0)),
+            -int(p.get("year", 0)),
+            p.get("id", ""),
+        ),
+    )
+
+    # Advance by one batch each UTC hour. 781 current candidates and a batch of
+    # 30 are coprime, so repeated hourly scans eventually visit every candidate
+    # rather than getting stuck in a subset.
+    now = datetime.now(timezone.utc)
+    epoch_hours = int(now.timestamp() // 3600)
+    start = (epoch_hours * batch_size) % len(priority)
+    return [
+        priority[(start + offset) % len(priority)]
+        for offset in range(min(batch_size, len(priority)))
+    ]
+
+def previous_promise_packets():
+    if not OUT_PATH.exists():
+        return {}
+    try:
+        payload = json.loads(OUT_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+    return {
+        packet.get("promise_id"): packet
+        for packet in payload.get("promise_packets", [])
+        if packet.get("promise_id")
+    }
+
 def build_promise_packets(promises):
     priority = sorted(
         promises,
@@ -854,6 +893,7 @@ def build_promise_packets(promises):
 
         packets.append({
             "id": stable_id("promise_packet", promise["id"], query),
+            "checked_at": now_iso(),
             "promise_id": promise["id"],
             "year": promise["year"],
             "category": promise["category"],
@@ -893,7 +933,20 @@ def main():
     promises = promise_data.get("promises", [])
 
     claim_packets, claim_errors = build_claim_packets(discovery, promises)
-    promise_packets, promise_errors = build_promise_packets(promises)
+
+    promise_batch = select_promise_batch(promises, batch_size=30)
+    fresh_promise_packets, promise_errors = build_promise_packets(promise_batch)
+    merged_promises = previous_promise_packets()
+    for packet in fresh_promise_packets:
+        merged_promises[packet["promise_id"]] = packet
+    promise_packets = list(merged_promises.values())
+    promise_packets.sort(
+        key=lambda p: (
+            -int(p.get("year", 0)),
+            p.get("page", 0),
+            p.get("promise_id", ""),
+        )
+    )
 
     all_evidence = [
         e
@@ -923,6 +976,12 @@ def main():
         "summary": {
             "claim_packets": len(claim_packets),
             "promise_packets": len(promise_packets),
+            "promise_checked_this_run": len(fresh_promise_packets),
+            "promise_total_candidates": len(promises),
+            "promise_coverage_pct": round(
+                (len(promise_packets) / len(promises) * 100) if promises else 0,
+                1,
+            ),
             "primary_candidates": sum(
                 1 for e in all_evidence if e.get("tier") == "primary"
             ),
@@ -944,6 +1003,7 @@ def main():
             "Google Fact Check Tools matches are attributed to their publishers and are not adopted as ClaimWatch verdicts automatically.",
             "PMIndia/party material is provenance for what was said, not independent proof that the claim is true.",
             "Automated supported/contradicted verdicts require a strict independent-primary NLI gate; uncertain cases remain pending.",
+            "Promise evidence scanning rotates through the corpus and preserves prior checks so coverage accumulates over time.",
             "A contradiction is not treated as proof of deliberate deception.",
         ],
     }
