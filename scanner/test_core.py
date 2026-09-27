@@ -232,8 +232,8 @@ class EvidenceRankingTests(unittest.TestCase):
             "source": "Statistics Department",
             "source_url": "https://stats.example.gov.in/gdp",
             "url": "https://stats.example.gov.in/gdp",
-            "title": "GDP growth in 2026",
-            "snippet": "Official estimates show growth of 7.8 percent in 2026.",
+            "title": "GDP growth rate in 2026",
+            "snippet": "Official estimates show the GDP growth rate was 7.8 percent in 2026.",
             "relevance": 0.8,
             "matched_terms": ["growth", "rate", "2026"],
             "shared_numbers": ["7.8", "2026"],
@@ -259,6 +259,33 @@ class EvidenceRankingTests(unittest.TestCase):
         signal = evidence.structured_claim_numeric_signal(claim, rows)
         self.assertEqual(signal["verdict"], "contradicted")
         self.assertTrue(signal["publishable_verdict"])
+
+    def test_compound_lakh_crore_is_parsed_as_currency(self):
+        rows = evidence.parse_quantity_mentions(
+            "About 1 lakh crore rupees are being spent on this scheme."
+        )
+        self.assertEqual(len(rows), 1)
+        self.assertEqual(rows[0]["kind"], "currency_rupees")
+        self.assertEqual(rows[0]["value"], 1_000_000_000_000.0)
+
+    def test_disbursement_does_not_contradict_total_spending(self):
+        claim = "About 1 lakh crore rupees are being spent on this scheme."
+        rows = [{
+            "id": "finance-1",
+            "tier": "primary",
+            "source": "PIB",
+            "source_url": "https://www.pib.gov.in",
+            "url": "https://www.pib.gov.in",
+            "title": (
+                "Prime Minister disburses ₹2,400 crore under the employment scheme"
+            ),
+            "snippet": "",
+            "relevance": 0.9,
+            "matched_terms": ["employment", "scheme", "crore"],
+            "shared_numbers": [],
+        }]
+        signal = evidence.structured_claim_numeric_signal(claim, rows)
+        self.assertIsNone(signal)
 
     def test_rozgar_mela_numeric_claim_support(self):
         claim = (
