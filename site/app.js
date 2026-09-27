@@ -505,6 +505,13 @@ function renderPromises() {
         <h3>${escapeHtml(item.anchor || item.keywords?.join(" · ") || "Promise candidate")}</h3>
         <p class="promise-source">Primary manifesto · page ${item.page} · source text fingerprint preserved</p>
 
+        ${item.exact_text ? `
+          <details class="promise-text">
+            <summary>Read extracted manifesto text</summary>
+            <p>${escapeHtml(item.exact_text)}</p>
+          </details>
+        ` : ""}
+
         <div class="promise-tags">
           ${item.measurable ? '<span class="mini-tag measurable">MEASURABLE SIGNAL</span>' : '<span class="mini-tag">QUALITATIVE</span>'}
           ${tags.map(tag => `<span class="mini-tag">${escapeHtml(tag)}</span>`).join("")}
