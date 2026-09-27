@@ -55,7 +55,7 @@ SUBJECTIVE_RE = re.compile(
 )
 QUESTION_RE = re.compile(r"\?$")
 BOILERPLATE_RE = re.compile(
-    r"\b(?:click here|view more|share this|download|subscribe|follow us|copyright|privacy policy|news updates)\b",
+    r"\b(?:click here|view more|share this|download|subscribe|follow us|copyright|privacy policy|news updates|updated at|updated -|published at|read later|see all)\b",
     re.I,
 )
 
@@ -87,6 +87,8 @@ def sanitize_text(text):
     text = html.unescape(text or "")
     text = re.sub(r"<[^>]{1,500}>", " ", text)
     text = re.sub(r"&#?\w+;", " ", text)
+    text = re.sub(r"\b[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}\b", " ", text)
+    text = re.sub(r"\b\d{3,4}[\s-]+\d{3}[\s-]+\d{4}\b", " ", text)
     return re.sub(r"\s+", " ", text).strip()
 
 
@@ -452,9 +454,17 @@ def resolve_news_article(title, publisher_url=""):
 
     for entry in feed.entries[:5]:
         url = entry.get("link") or ""
-        host = urlparse(url).netloc.replace("www.", "")
         if not url:
             continue
+
+        parsed = urlparse(url)
+        host = parsed.netloc.replace("www.", "")
+        if host.endswith("bing.com"):
+            target = dict(parse_qsl(parsed.query)).get("url") or ""
+            if target:
+                url = target
+                host = urlparse(url).netloc.replace("www.", "")
+
         if publisher_host and not (
             host == publisher_host
             or host.endswith("." + publisher_host)
