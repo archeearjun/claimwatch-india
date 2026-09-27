@@ -351,6 +351,12 @@ function relationHolds(operator, claimed, observed) {
 }
 
 function instantNumericProof(claim, evidence) {
+  // Financial numbers need the deep verifier to distinguish total outlay,
+  // expenditure, allocation and individual disbursements.
+  if (/(?:₹|\brs\.?\b|rupees?|crore|lakh|करोड़|करोड|लाख)/iu.test(String(claim || ""))) {
+    return null;
+  }
+
   const claimed = quantityMentions(claim);
   if (claimed.length !== 1) return null;
   const target = claimed[0];
@@ -383,17 +389,9 @@ function instantNumericProof(claim, evidence) {
         proof: { claimed: target, observed: result, operator, evidence_url: row.source_url || row.url, evidence_title: row.title || row.source }
       };
     }
-    if (Number(row.relevance || 0) >= 0.45) {
-      return {
-        level: "automated_contradicted",
-        label: "Contradicted by direct primary-source numeric comparison",
-        verdict: "contradicted",
-        publishable_verdict: true,
-        reason: "A highly relevant official source reports a conflicting directly comparable numeric value.",
-        assessment_mode: "instant_deterministic_numeric_gate",
-        proof: { claimed: target, observed: result, operator, evidence_url: row.source_url || row.url, evidence_title: row.title || row.source }
-      };
-    }
+    // Do not publish a new contradiction from a headline-level mismatch.
+    // The scheduled deep verifier must establish metric/unit/period comparability.
+    continue;
   }
   return null;
 }
