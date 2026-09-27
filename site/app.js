@@ -1,38 +1,10 @@
+const DISCOVERY_FEED =
+  "https://raw.githubusercontent.com/archeearjun/claimwatch-india/main/data/discovery/latest.json";
+
 const state = {
-  // Demonstration records only. No real political verdicts are shipped as sample data.
-  claims: [
-    {
-      id: "DEMO-C-001",
-      speaker: "Demonstration record",
-      date: "—",
-      text: "This is a placeholder showing how a reviewed factual claim will appear.",
-      verdict: "pending",
-      evidence: 0
-    }
-  ],
-  promises: [
-    {
-      id: "DEMO-P-001",
-      electionYear: 2014,
-      text: "Placeholder commitment — replace with exact primary-source wording during ingestion.",
-      status: "pending",
-      source: "Primary-source import required"
-    },
-    {
-      id: "DEMO-P-002",
-      electionYear: 2019,
-      text: "Placeholder commitment — no substantive verdict is included in demo data.",
-      status: "pending",
-      source: "Primary-source import required"
-    },
-    {
-      id: "DEMO-P-003",
-      electionYear: 2024,
-      text: "Placeholder commitment — status remains pending until an evidence packet is reviewed.",
-      status: "pending",
-      source: "Primary-source import required"
-    }
-  ]
+  claims: [],
+  promises: [],
+  discoveries: []
 };
 
 const verdictLabel = {
@@ -41,12 +13,32 @@ const verdictLabel = {
   context: "MISSING CONTEXT",
   insufficient: "INSUFFICIENT EVIDENCE",
   pending: "PENDING",
-  not_checkable: "NOT CHECKABLE"
+  not_checkable: "NOT CHECKABLE",
+  complete: "COMPLETE",
+  partial: "PARTIAL",
+  no_documented_implementation: "NO DOCUMENTED IMPLEMENTATION",
+  not_measurable: "NOT MEASURABLE",
+  deadline_not_reached: "DEADLINE NOT REACHED"
 };
 
 const transcript = document.querySelector("#transcript");
 const candidateList = document.querySelector("#candidate-list");
 const statusEl = document.querySelector("#extract-status");
+
+function escapeHtml(value) {
+  return String(value ?? "").replace(/[&<>'"]/g, char => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;"
+  }[char]));
+}
+
+function safeUrl(value) {
+  try {
+    const url = new URL(value);
+    return ["http:", "https:"].includes(url.protocol) ? url.href : "#";
+  } catch {
+    return "#";
+  }
+}
 
 function splitSentences(text) {
   return text
@@ -95,7 +87,10 @@ function renderCandidates(candidates) {
     statusEl.textContent = "No strong factual-claim candidates detected. Try a longer transcript with dates, quantities, comparisons or concrete accomplishments.";
     return;
   }
-  statusEl.textContent = `${candidates.length} candidate factual claim${candidates.length === 1 ? "" : "s"} detected. No truth verdict has been assigned.`;
+
+  statusEl.textContent =
+    `${candidates.length} candidate factual claim${candidates.length === 1 ? "" : "s"} detected. No truth verdict has been assigned.`;
+
   candidates.forEach((item, index) => {
     const card = document.createElement("article");
     card.className = "candidate";
@@ -108,35 +103,181 @@ function renderCandidates(candidates) {
   });
 }
 
-function escapeHtml(value) {
-  return value.replace(/[&<>'"]/g, char => ({
-    "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;"
-  }[char]));
+function formatTime(value) {
+  if (!value) return "—";
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return String(value);
+  return new Intl.DateTimeFormat(undefined, {
+    dateStyle: "medium",
+    timeStyle: "short"
+  }).format(date);
+}
+
+function discoveryKindLabel(kind) {
+  return ({
+    news: "NEWS / WEB",
+    official_speech_or_video: "OFFICIAL SPEECH",
+    youtube_video: "YOUTUBE"
+  })[kind] || String(kind || "SOURCE").toUpperCase();
+}
+
+function renderDiscoveryFeed(feed) {
+  const items = Array.isArray(feed.items) ? feed.items : [];
+  const errors = Array.isArray(feed.errors) ? feed.errors : [];
+  state.discoveries = items;
+
+  document.querySelector("#scanner-count").textContent = items.length;
+  document.querySelector("#scanner-time").textContent = formatTime(feed.generated_at);
+
+  const status = document.querySelector("#scanner-status");
+  if (!feed.generated_at) {
+    status.textContent = "Waiting for the first scanner run";
+  } else if (items.length) {
+    status.textContent = "Scanner feed available";
+  } else {
+    status.textContent = "Scan completed; no matching sources found";
+  }
+
+  const notices = document.querySelector("#scanner-notices");
+  const youtubeMissing = errors.some(e =>
+    e && e.source === "youtube" && String(e.error || "").includes("not_configured")
+  );
+
+  const noticeRows = [];
+  if (youtubeMissing) {
+    noticeRows.push(
+      '<div class="notice warn"><strong>YouTube discovery not connected yet.</strong> Add the free YouTube Data API key as the GitHub secret <code>YOUTUBE_API_KEY</code>.</div>'
+    );
+  }
+
+  errors
+    .filter(e => !(e && e.source === "youtube" && String(e.error || "").includes("not_configured")))
+    .slice(0, 3)
+    .forEach(e => {
+      noticeRows.push(
+        `<div class="notice"><strong>${escapeHtml(e.source || "Scanner")}:</strong> ${escapeHtml(e.error || "scanner notice")}</div>`
+      );
+    });
+
+  notices.innerHTML = noticeRows.join("");
+
+  const root = document.querySelector("#discovery-list");
+  if (!items.length) {
+    root.innerHTML = `
+      <div class="empty-state">
+        <strong>No discovery records are available yet.</strong>
+        <p>The scheduled GitHub scanner may not have completed its first run. Once it does, recent sources will appear here automatically.</p>
+      </div>
+    `;
+    return;
+  }
+
+  root.innerHTML = items.slice(0, 24).map(item => {
+    const claims = Array.isArray(item.candidate_claims) ? item.candidate_claims : [];
+    const firstClaim = claims[0];
+    const url = safeUrl(item.url);
+
+    return `
+      <article class="discovery-card">
+        <div class="discovery-top">
+          <div>
+            <span class="source-type">${escapeHtml(discoveryKindLabel(item.kind))}</span>
+            <span class="meta">${escapeHtml(item.source || item.channel_title || "Source")}</span>
+          </div>
+          <span class="meta">${escapeHtml(formatTime(item.published_at))}</span>
+        </div>
+        <h3>${escapeHtml(item.title || "Untitled source")}</h3>
+        ${firstClaim ? `
+          <div class="candidate-claim">
+            <span>Candidate claim · unverified</span>
+            <p>${escapeHtml(firstClaim)}</p>
+          </div>
+        ` : ""}
+        <div class="discovery-footer">
+          <span class="meta">${claims.length} candidate claim${claims.length === 1 ? "" : "s"} extracted</span>
+          <a class="source-link" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">Open source ↗</a>
+        </div>
+      </article>
+    `;
+  }).join("");
+}
+
+async function loadDiscoveryFeed() {
+  const status = document.querySelector("#scanner-status");
+  status.textContent = "Loading discovery feed…";
+
+  try {
+    const response = await fetch(
+      `${DISCOVERY_FEED}?t=${Date.now()}`,
+      { cache: "no-store" }
+    );
+
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`);
+    }
+
+    const feed = await response.json();
+    renderDiscoveryFeed(feed);
+  } catch (error) {
+    status.textContent = "Discovery feed unavailable";
+    document.querySelector("#discovery-list").innerHTML = `
+      <div class="empty-state">
+        <strong>Could not load the public discovery feed.</strong>
+        <p>${escapeHtml(error.message || "Unknown error")}</p>
+      </div>
+    `;
+  }
 }
 
 function renderClaims() {
   const root = document.querySelector("#claim-ledger");
+
+  if (!state.claims.length) {
+    root.innerHTML = `
+      <div class="empty-state">
+        <strong>No reviewed verdicts published yet.</strong>
+        <p>ClaimWatch will only publish a substantive verdict after its evidence packet exists.</p>
+      </div>
+    `;
+    updateStats();
+    return;
+  }
+
   root.innerHTML = state.claims.map(claim => `
     <article class="claim-card">
       <div class="claim-top">
         <span class="meta">${escapeHtml(claim.id)} · ${escapeHtml(claim.speaker)}</span>
-        <span class="verdict v-${claim.verdict}">${verdictLabel[claim.verdict]}</span>
+        <span class="verdict v-${claim.verdict}">${escapeHtml(verdictLabel[claim.verdict] || claim.verdict)}</span>
       </div>
       <p>${escapeHtml(claim.text)}</p>
-      <span class="meta">Evidence items: ${claim.evidence}</span>
+      <span class="meta">Evidence items: ${Number(claim.evidence || 0)}</span>
     </article>
   `).join("");
+
   updateStats();
 }
 
 function renderPromises(year = "all") {
   const root = document.querySelector("#promise-list");
-  const items = state.promises.filter(p => year === "all" || String(p.electionYear) === String(year));
+  const items = state.promises.filter(
+    p => year === "all" || String(p.electionYear) === String(year)
+  );
+
+  if (!items.length) {
+    root.innerHTML = `
+      <div class="empty-state">
+        <strong>No reviewed promise records published yet.</strong>
+        <p>The 2014, 2019 and 2024 primary-source manifesto corpus is the next data layer.</p>
+      </div>
+    `;
+    return;
+  }
+
   root.innerHTML = items.map(p => `
     <article class="promise-card">
       <div class="promise-top">
         <span class="meta">${escapeHtml(p.id)} · ${p.electionYear}</span>
-        <span class="verdict v-${p.status}">${verdictLabel[p.status]}</span>
+        <span class="verdict v-${p.status}">${escapeHtml(verdictLabel[p.status] || p.status)}</span>
       </div>
       <p>${escapeHtml(p.text)}</p>
       <span class="meta">${escapeHtml(p.source)}</span>
@@ -145,16 +286,18 @@ function renderPromises(year = "all") {
 }
 
 function updateStats() {
-  const counts = state.claims.reduce((acc, c) => {
+  const counts = state.claims.reduce((acc, claim) => {
     acc.total += 1;
-    acc[c.verdict] = (acc[c.verdict] || 0) + 1;
+    acc[claim.verdict] = (acc[claim.verdict] || 0) + 1;
     return acc;
   }, { total: 0 });
+
   document.querySelector("#total-count").textContent = counts.total || 0;
   document.querySelector("#supported-count").textContent = counts.supported || 0;
   document.querySelector("#contradicted-count").textContent = counts.contradicted || 0;
   document.querySelector("#context-count").textContent = counts.context || 0;
-  document.querySelector("#pending-count").textContent = (counts.pending || 0) + (counts.insufficient || 0);
+  document.querySelector("#pending-count").textContent =
+    (counts.pending || 0) + (counts.insufficient || 0);
 }
 
 document.querySelector("#extract-btn").addEventListener("click", () => {
@@ -168,7 +311,8 @@ document.querySelector("#extract-btn").addEventListener("click", () => {
 });
 
 document.querySelector("#demo-btn").addEventListener("click", () => {
-  transcript.value = "In this demonstration speech, the city opened 12 new clinics in 2025. The speaker says the number of covered households doubled from 20 percent to 40 percent. I believe this is a great achievement. We will complete 50 additional projects by 2028.";
+  transcript.value =
+    "In this demonstration speech, the city opened 12 new clinics in 2025. The speaker says the number of covered households doubled from 20 percent to 40 percent. I believe this is a great achievement. We will complete 50 additional projects by 2028.";
   renderCandidates(extractCandidates(transcript.value));
 });
 
@@ -177,6 +321,8 @@ document.querySelector("#clear-btn").addEventListener("click", () => {
   candidateList.innerHTML = "";
   statusEl.textContent = "";
 });
+
+document.querySelector("#refresh-discoveries").addEventListener("click", loadDiscoveryFeed);
 
 document.querySelectorAll(".filter").forEach(button => {
   button.addEventListener("click", () => {
@@ -188,3 +334,4 @@ document.querySelectorAll(".filter").forEach(button => {
 
 renderClaims();
 renderPromises();
+loadDiscoveryFeed();
