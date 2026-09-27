@@ -382,7 +382,7 @@ def rank_evidence(query_text, rows, limit=8):
 
         # Being returned by an official-domain query is not enough.
         # The result must actually overlap with the subject of the claim.
-        if len(matched_terms) < 2 and not shared_numbers:
+        if len(matched_terms) < 2 and not (shared_numbers and len(matched_terms) >= 1):
             continue
 
         generic_title = clean_html(row.get("title", "")).lower().split(" - ")[0].strip()
@@ -846,33 +846,23 @@ def promise_outcome(packet):
     deadline_year = promise_deadline_year(packet)
     signal = packet.get("implementation_signal") or "needs_research"
 
-    verified_primary = [
-        row for row in packet.get("evidence", [])
-        if row.get("tier") == "primary" and is_verified_primary(row)
-    ]
-
     result = {
         "status": "insufficient_evidence",
         "deadline_year": deadline_year,
         "proof_strength": "none",
         "proof_evidence_id": None,
+        "proof": None,
         "reason": "Available evidence is not yet sufficient for a documented outcome.",
     }
 
-    if signal == "target_evidence_detected":
-        proof = next(
-            (
-                row for row in verified_primary
-                if row.get("shared_numbers")
-            ),
-            verified_primary[0] if verified_primary else None,
-        )
+    deterministic = structured_promise_proof(packet)
+    if deterministic:
+        proof = deterministic.get("proof") or {}
         return {
             **result,
-            "status": "fulfilled_evidence",
-            "proof_strength": "verified_primary_target_match",
-            "proof_evidence_id": proof.get("id") if proof else None,
-            "reason": "Verified primary evidence contains completion language and the target value.",
+            **deterministic,
+            "deadline_year": deadline_year,
+            "proof_evidence_id": proof.get("evidence_id"),
         }
 
     if deadline_year and current_year <= deadline_year:
@@ -882,31 +872,63 @@ def promise_outcome(packet):
             "reason": f"The extracted deadline is {deadline_year}, so the promise is not yet overdue.",
         }
 
+    verified_primary = [
+        row for row in packet.get("evidence", [])
+        if row.get("tier") == "primary"
+        and is_verified_primary(row)
+        and len(row.get("promise_core_overlap") or []) >= 2
+    ]
+
+    if signal == "target_evidence_detected":
+        proof = next(
+            (row for row in verified_primary if row.get("shared_numbers")),
+            verified_primary[0] if verified_primary else None,
+        )
+        return {
+            **result,
+            "status": "target_reached_evidence",
+            "proof_strength": "verified_primary_target_language",
+            "proof_evidence_id": proof.get("id") if proof else None,
+            "reason": (
+                "Verified primary evidence uses completion/target language, but the structured "
+                "comparison does not yet prove whether the target was met by the deadline."
+            ),
+        }
+
     if signal in {
         "action_detected",
         "current_primary_and_reporting_found",
         "current_primary_evidence_found",
-    }:
+    } and verified_primary:
         return {
             **result,
             "status": "progress_documented",
-            "proof_strength": "verified_primary_action",
-            "proof_evidence_id": verified_primary[0].get("id") if verified_primary else None,
-            "reason": "Verified primary evidence shows implementation activity, but not enough to establish the promised outcome.",
+            "proof_strength": "verified_primary_action_with_object_overlap",
+            "proof_evidence_id": verified_primary[0].get("id"),
+            "reason": (
+                "Verified primary evidence overlaps the subject of the promise and documents "
+                "implementation activity, but not the promised outcome."
+            ),
         }
 
     if deadline_year and current_year > deadline_year:
         return {
             **result,
             "status": "deadline_passed_unresolved",
-            "reason": f"The extracted deadline ({deadline_year}) has passed, but ClaimWatch does not yet have direct comparable evidence proving fulfilment or non-fulfilment.",
+            "reason": (
+                f"The extracted deadline ({deadline_year}) has passed, but ClaimWatch does not "
+                "have direct comparable post-deadline evidence proving fulfilment or non-fulfilment."
+            ),
         }
 
     if not packet.get("measurable"):
         return {
             **result,
             "status": "not_machine_measurable",
-            "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof.",
+            "reason": (
+                "The extracted commitment does not contain a sufficiently specific numeric or "
+                "time-bound target for automatic outcome proof."
+            ),
         }
 
     return result
@@ -919,7 +941,8 @@ def promise_outcome_summary(promise_packets):
         counts[outcome.get("status") or "insufficient_evidence"] += 1
 
     return {
-        "fulfilled_evidence": counts["fulfilled_evidence"],
+        "fulfilled_by_deadline": counts["fulfilled_by_deadline"],
+        "target_reached_evidence": counts["target_reached_evidence"],
         "proven_unfulfilled_by_deadline": counts["proven_unfulfilled_by_deadline"],
         "progress_documented": counts["progress_documented"],
         "deadline_passed_unresolved": counts["deadline_passed_unresolved"],
@@ -928,6 +951,331 @@ def promise_outcome_summary(promise_packets):
         "not_machine_measurable": counts["not_machine_measurable"],
         "audited_total": sum(counts.values()),
     }
+
+
+PROMISE_GENERIC_TERMS = {
+    "will","would","shall","ensure","provide","continue","make","work","develop",
+    "establish","create","launch","introduce","implement","expand","increase",
+    "strengthen","support","promote","scheme","mission","programme","program",
+    "government","bharat","india","country","people","citizens","modi","guarantee",
+    "towards","further","focus","facilitate","enable","committed","commitment",
+}
+
+PROMISE_ACTION_RE = re.compile(
+    r"\b(?:launched|implemented|notified|approved|operationali[sz]ed|"
+    r"rolled out|expanded|extended|completed|achieved|reached|introduced|"
+    r"established|set up|sanctioned|allocated|started|commenced|covered|"
+    r"provided|increased|created|constructed|formed|built|delivered)\b",
+    re.I,
+)
+PROMISE_COMPLETION_RE = re.compile(
+    r"\b(?:completed|achieved|fully implemented|target achieved|"
+    r"reached the target|operationali[sz]ed|completed the target)\b",
+    re.I,
+)
+OBSERVATION_RE = re.compile(
+    r"\b(?:as of|so far|till date|to date|total|have been|has been|were|"
+    r"created|constructed|formed|established|completed|achieved|covered|"
+    r"provided|reached|registered|sanctioned)\b",
+    re.I,
+)
+REDUCTION_RE = re.compile(
+    r"\b(?:reduce|reduced|decrease|decreased|lower|lowered|bring down|cut)\b",
+    re.I,
+)
+QUANTITY_RE = re.compile(
+    r"(?<!\w)(\d{1,3}(?:,\d{3})+|\d+(?:\.\d+)?)\s*"
+    r"(%|percent|crore|lakh|million|billion|trillion)?\b",
+    re.I,
+)
+SCALE_FACTORS = {
+    "crore": 10_000_000.0,
+    "lakh": 100_000.0,
+    "million": 1_000_000.0,
+    "billion": 1_000_000_000.0,
+    "trillion": 1_000_000_000_000.0,
+}
+
+
+def promise_core_terms(promise):
+    source = promise.get("exact_text") or promise.get("anchor") or ""
+    out = []
+    for term in tokens(source):
+        if term in PROMISE_GENERIC_TERMS or len(term) < 4:
+            continue
+        if term not in out:
+            out.append(term)
+        if len(out) >= 14:
+            break
+    return out
+
+
+def promise_core_overlap(promise, evidence_text):
+    core = set(promise_core_terms(promise))
+    if not core:
+        return []
+    evidence_terms = set(tokens(evidence_text))
+    return sorted(core & evidence_terms)
+
+
+def sanitize_promise_evidence(promise, rows):
+    cleaned = []
+    for original in rows or []:
+        row = dict(original)
+        if row.get("tier") == "primary" and not is_verified_primary(row):
+            row["tier"] = "secondary"
+
+        evidence_text = " ".join([
+            row.get("title") or "",
+            row.get("snippet") or "",
+            row.get("claim_text") or "",
+        ])
+        core_overlap = promise_core_overlap(promise, evidence_text)
+        row["promise_core_overlap"] = core_overlap
+
+        matched_terms = row.get("matched_terms") or []
+        shared_numbers = row.get("shared_numbers") or []
+        relevance = float(row.get("relevance") or 0)
+
+        # A number match without the promise's subject/metric is noise.
+        if len(core_overlap) < 1 and len(matched_terms) < 2:
+            continue
+        if row.get("tier") == "secondary" and relevance < 0.18 and len(core_overlap) < 2:
+            continue
+        if shared_numbers and not core_overlap:
+            continue
+
+        cleaned.append(row)
+
+    cleaned.sort(
+        key=lambda row: (
+            0 if row.get("tier") == "primary" and is_verified_primary(row) else 1,
+            -float(row.get("relevance") or 0),
+        )
+    )
+    return cleaned[:10]
+
+
+def classify_promise_evidence(promise, evidence):
+    verified_primary = [
+        row for row in evidence
+        if row.get("tier") == "primary"
+        and is_verified_primary(row)
+        and len(row.get("promise_core_overlap") or []) >= 2
+        and float(row.get("relevance") or 0) >= 0.22
+    ]
+    secondary = [
+        row for row in evidence
+        if row.get("tier") == "secondary"
+        and len(row.get("promise_core_overlap") or []) >= 2
+        and float(row.get("relevance") or 0) >= 0.20
+    ]
+
+    promise_numbers = numeric_tokens(
+        " ".join([
+            promise.get("exact_text") or "",
+            " ".join(promise.get("numbers") or []),
+        ])
+    )
+
+    action_evidence = []
+    target_evidence = []
+    for row in verified_primary:
+        evidence_text = " ".join([
+            row.get("title") or "",
+            row.get("snippet") or "",
+        ])
+        if PROMISE_ACTION_RE.search(evidence_text):
+            action_evidence.append(row)
+            evidence_numbers = numeric_tokens(evidence_text)
+            if (
+                promise.get("measurable")
+                and promise_numbers
+                and promise_numbers & evidence_numbers
+                and PROMISE_COMPLETION_RE.search(evidence_text)
+                and len(row.get("promise_core_overlap") or []) >= 2
+            ):
+                target_evidence.append(row)
+
+    if target_evidence:
+        return "target_evidence_detected"
+    if action_evidence:
+        return "action_detected"
+    if verified_primary and secondary:
+        return "current_primary_and_reporting_found"
+    if verified_primary:
+        return "current_primary_evidence_found"
+    if secondary:
+        return "current_reporting_found"
+    return "needs_research"
+
+
+def parse_quantity_mentions(text):
+    rows = []
+    for match in QUANTITY_RE.finditer(text or ""):
+        raw_number = match.group(1)
+        unit = (match.group(2) or "").lower()
+        try:
+            base = float(raw_number.replace(",", ""))
+        except ValueError:
+            continue
+        if not unit and 1900 <= base <= 2100:
+            continue
+
+        if unit in {"%", "percent"}:
+            normalized = base
+            kind = "percent"
+        else:
+            normalized = base * SCALE_FACTORS.get(unit, 1.0)
+            kind = "count"
+
+        rows.append({
+            "raw": match.group(0).strip(),
+            "value": normalized,
+            "kind": kind,
+            "start": match.start(),
+            "end": match.end(),
+        })
+    return rows
+
+
+def promise_target_quantity(promise):
+    candidates = []
+    for raw in promise.get("numbers") or []:
+        candidates.extend(parse_quantity_mentions(raw))
+    if len(candidates) != 1:
+        return None
+    return candidates[0]
+
+
+def evidence_year(row):
+    published = row.get("published_at")
+    if published:
+        try:
+            return datetime.fromisoformat(str(published).replace("Z", "+00:00")).year
+        except Exception:
+            pass
+
+    text = " ".join([
+        row.get("title") or "",
+        row.get("snippet") or "",
+    ])
+    years = [
+        int(value)
+        for value in re.findall(r"\b20\d{2}\b", text)
+        if 2000 <= int(value) <= datetime.now(timezone.utc).year
+    ]
+    return max(years) if years else None
+
+
+def comparable_observed_quantity(promise, row, target):
+    evidence_text = " ".join([
+        row.get("title") or "",
+        row.get("snippet") or "",
+    ])
+    if len(promise_core_overlap(promise, evidence_text)) < 2:
+        return None
+    if not OBSERVATION_RE.search(evidence_text):
+        return None
+
+    quantities = [
+        q for q in parse_quantity_mentions(evidence_text)
+        if q["kind"] == target["kind"]
+    ]
+    if not quantities:
+        return None
+
+    # If the evidence contains the target number and one other number, prefer
+    # the other number as the observed value only when the sentence explicitly
+    # frames progress/achievement.
+    different = [
+        q for q in quantities
+        if abs(q["value"] - target["value"]) > max(1.0, target["value"] * 1e-9)
+    ]
+    if len(different) == 1:
+        return different[0]
+    if len(quantities) == 1:
+        return quantities[0]
+    return None
+
+
+def structured_promise_proof(packet):
+    deadline_year = promise_deadline_year(packet)
+    target = promise_target_quantity(packet)
+    if not deadline_year or not target:
+        return None
+
+    current_year = datetime.now(timezone.utc).year
+    direction = "lte" if REDUCTION_RE.search(packet.get("exact_text") or "") else "gte"
+
+    verified_primary = [
+        row for row in packet.get("evidence", [])
+        if row.get("tier") == "primary"
+        and is_verified_primary(row)
+        and len(row.get("promise_core_overlap") or []) >= 2
+    ]
+
+    for row in verified_primary:
+        year = evidence_year(row)
+        if not year:
+            continue
+        observed = comparable_observed_quantity(packet, row, target)
+        if not observed:
+            continue
+
+        met = (
+            observed["value"] <= target["value"]
+            if direction == "lte"
+            else observed["value"] >= target["value"]
+        )
+
+        proof = {
+            "target": target,
+            "observed": observed,
+            "evidence_year": year,
+            "evidence_id": row.get("id"),
+            "evidence_url": row.get("source_url") or row.get("url"),
+            "direction": direction,
+        }
+
+        if met:
+            if year <= deadline_year:
+                return {
+                    "status": "fulfilled_by_deadline",
+                    "proof_strength": "deterministic_numeric_comparison",
+                    "proof": proof,
+                    "reason": (
+                        f"Verified primary evidence dated {year} reports an observed value "
+                        f"meeting the target before or at the {deadline_year} deadline."
+                    ),
+                }
+            return {
+                "status": "target_reached_evidence",
+                "proof_strength": "deterministic_numeric_comparison",
+                "proof": proof,
+                "reason": (
+                    f"Verified primary evidence dated {year} reports the target value as reached, "
+                    f"but this alone does not prove it was reached by the {deadline_year} deadline."
+                ),
+            }
+
+        # A red-bar failure requires evidence near the deadline, not simply a
+        # later absence of evidence. This makes non-fulfilment a positive proof.
+        if (
+            current_year > deadline_year
+            and deadline_year <= year <= deadline_year + 1
+        ):
+            return {
+                "status": "proven_unfulfilled_by_deadline",
+                "proof_strength": "deterministic_numeric_comparison",
+                "proof": proof,
+                "reason": (
+                    f"Verified primary evidence dated {year} reports an observed value below "
+                    f"the promised target after the {deadline_year} deadline."
+                ),
+            }
+
+    return None
 
 
 def build_promise_packets(promises):
@@ -969,67 +1317,8 @@ def build_promise_packets(promises):
                 "error": type(exc).__name__,
             })
 
-        primary_count = sum(
-            1 for e in evidence
-            if e.get("tier") == "primary"
-            and is_verified_primary(e)
-            and e.get("relevance", 0) >= 0.20
-            and len(e.get("matched_terms", [])) >= 2
-        )
-        secondary_count = sum(
-            1 for e in evidence
-            if e.get("tier") == "secondary"
-            and e.get("relevance", 0) >= 0.18
-        )
-
-        independent_primary = [
-            e for e in evidence
-            if e.get("tier") == "primary" and is_verified_primary(e)
-        ]
-        action_terms = re.compile(
-            r"\b(?:launched|implemented|notified|approved|operationali[sz]ed|"
-            r"rolled out|expanded|extended|completed|achieved|reached|introduced|"
-            r"established|set up|sanctioned|allocated|started|commenced|covered|"
-            r"provided|increased|created)\b",
-            re.I,
-        )
-        completion_terms = re.compile(
-            r"\b(?:completed|achieved|fully implemented|target achieved|"
-            r"reached the target|operationali[sz]ed)\b",
-            re.I,
-        )
-        promise_numbers = numeric_tokens(pseudo_text)
-        action_evidence = []
-        target_evidence = []
-
-        for e in independent_primary:
-            evidence_text = " ".join([
-                e.get("title") or "",
-                e.get("snippet") or "",
-            ])
-            if action_terms.search(evidence_text):
-                action_evidence.append(e)
-                evidence_numbers = numeric_tokens(evidence_text)
-                if (
-                    promise.get("measurable")
-                    and promise_numbers
-                    and promise_numbers & evidence_numbers
-                    and completion_terms.search(evidence_text)
-                ):
-                    target_evidence.append(e)
-
-        if target_evidence:
-            signal = "target_evidence_detected"
-        elif action_evidence:
-            signal = "action_detected"
-        elif primary_count and secondary_count:
-            signal = "current_primary_and_reporting_found"
-        elif primary_count:
-            signal = "current_primary_evidence_found"
-        elif secondary_count:
-            signal = "current_reporting_found"
-        else:
-            signal = "needs_research"
+        evidence = sanitize_promise_evidence(promise, evidence)
+        signal = classify_promise_evidence(promise, evidence)
 
         packet = {
             "id": stable_id("promise_packet", promise["id"], query),
@@ -1084,6 +1373,14 @@ def main():
         merged_promises[packet["promise_id"]] = packet
     promise_packets = list(merged_promises.values())
     for packet in promise_packets:
+        packet["evidence"] = sanitize_promise_evidence(
+            packet,
+            packet.get("evidence", []),
+        )
+        packet["implementation_signal"] = classify_promise_evidence(
+            packet,
+            packet.get("evidence", []),
+        )
         packet["outcome"] = promise_outcome(packet)
     promise_packets.sort(
         key=lambda p: (
