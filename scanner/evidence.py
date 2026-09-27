@@ -1781,6 +1781,22 @@ def main():
                 1 for packet in claim_packets
                 if packet.get("signal", {}).get("publishable_verdict")
             ),
+            "claim_verdicts": {
+                "supported": sum(
+                    1 for packet in claim_packets
+                    if packet.get("signal", {}).get("publishable_verdict")
+                    and packet.get("verdict") == "supported"
+                ),
+                "contradicted": sum(
+                    1 for packet in claim_packets
+                    if packet.get("signal", {}).get("publishable_verdict")
+                    and packet.get("verdict") == "contradicted"
+                ),
+                "pending": sum(
+                    1 for packet in claim_packets
+                    if not packet.get("signal", {}).get("publishable_verdict")
+                ),
+            },
             "promise_outcomes": promise_outcome_summary(promise_packets),
             "claim_memory": claim_family_summary(claim_families),
         },
