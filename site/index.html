@@ -98,6 +98,50 @@
       </article>
     </section>
 
+    <section id="promise-outcomes" class="section-block outcome-board">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">PROMISE OUTCOME AUDIT</p>
+          <h2>What the evidence proves about dated commitments</h2>
+          <p class="section-copy">The bar below counts only audited promise records. A passed deadline is shown separately from a proven non-fulfilment: ClaimWatch does not call a promise unfulfilled merely because it cannot find proof.</p>
+        </div>
+        <div class="promise-health" id="outcome-health">
+          <span>Audit coverage</span>
+          <strong>Loading…</strong>
+        </div>
+      </div>
+
+      <div id="outcome-bar" class="outcome-bar" aria-label="Promise outcome distribution"></div>
+
+      <div class="outcome-grid">
+        <article class="outcome-stat fulfilled">
+          <span>Fulfilled by evidence</span>
+          <strong id="outcome-fulfilled">0</strong>
+          <small>Verified primary target/completion match</small>
+        </article>
+        <article class="outcome-stat unfulfilled">
+          <span>Proven not fulfilled by deadline</span>
+          <strong id="outcome-unfulfilled">0</strong>
+          <small>Requires direct comparable post-deadline evidence</small>
+        </article>
+        <article class="outcome-stat progress">
+          <span>Progress documented</span>
+          <strong id="outcome-progress">0</strong>
+          <small>Action exists; target outcome not yet established</small>
+        </article>
+        <article class="outcome-stat overdue">
+          <span>Deadline passed · unresolved</span>
+          <strong id="outcome-overdue">0</strong>
+          <small>Overdue, but evidence is not enough for a final status</small>
+        </article>
+        <article class="outcome-stat pending">
+          <span>Other / insufficient</span>
+          <strong id="outcome-other">0</strong>
+          <small>Includes future deadlines and non-machine-measurable items</small>
+        </article>
+      </div>
+    </section>
+
     <section id="intelligence" class="section-block">
       <div class="section-heading">
         <div>
