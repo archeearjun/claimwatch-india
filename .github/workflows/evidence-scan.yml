@@ -5,6 +5,8 @@ on:
   push:
     paths:
       - "scanner/evidence.py"
+      - "data/discovery/latest.json"
+      - "data/promises/candidates.json"
       - ".github/workflows/evidence-scan.yml"
   schedule:
     - cron: "47 */6 * * *"
@@ -34,38 +36,21 @@ jobs:
       - name: Install dependencies
         run: pip install -r scanner/requirements.txt
 
-      - name: Refresh manifesto corpus when empty
-        shell: bash
-        run: |
-          python - <<'PY'
-          import json
-          from pathlib import Path
-          p = Path("data/promises/candidates.json")
-          data = json.loads(p.read_text()) if p.exists() else {}
-          raise SystemExit(0 if data.get("promises") else 10)
-          PY
-        continue-on-error: true
-        id: corpus_check
-
-      - name: Build manifesto corpus if needed
-        if: steps.corpus_check.outcome == 'failure'
-        run: python scanner/manifestos.py
-
       - name: Build evidence packets
         env:
           FACTCHECK_API_KEY: ${{ secrets.FACTCHECK_API_KEY }}
         run: python scanner/evidence.py
 
-      - name: Commit generated intelligence if changed
+      - name: Commit evidence feed if changed
         shell: bash
         run: |
-          if git diff --quiet -- data/promises/candidates.json data/evidence/latest.json; then
+          if git diff --quiet -- data/evidence/latest.json; then
             echo "No evidence-feed change."
             exit 0
           fi
           git config user.name "claimwatch-bot"
           git config user.email "claimwatch-bot@users.noreply.github.com"
-          git add data/promises/candidates.json data/evidence/latest.json
+          git add data/evidence/latest.json
           git commit -m "data: refresh evidence intelligence"
           git pull --rebase origin main
           git push
