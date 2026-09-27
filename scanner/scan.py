@@ -27,7 +27,7 @@ SESSION.headers.update({
 })
 
 NUMBER_RE = re.compile(
-    r"(?<!\w)(?:₹|Rs\.?\s*)?\d+(?:[.,]\d+)*(?:\s*(?:%|percent|crore|lakh|million|billion|trillion|km|years?|months?|days?|rupees?|dollars?))?",
+    r"(?<!\w)(?:₹|Rs\.?\s*)?\d+(?:[.,]\d+)*(?:\s*(?:%|percent|crore|lakh|million|billion|trillion|km|years?|months?|days?|rupees?|dollars?|प्रतिशत|करोड़|करोड|लाख|साल|वर्ष|महीने?|दिन))?",
     re.I,
 )
 RANK_RE = re.compile(
@@ -53,6 +53,15 @@ FUTURE_RE = re.compile(
 SUBJECTIVE_RE = re.compile(
     r"\b(?:i believe|i think|i feel|affection|love|trust|warmth|happiness|proud|great|wonderful|historic|immense|aspiration|hope|confidence)\b",
     re.I,
+)
+HINDI_COMPARISON_RE = re.compile(
+    r"(?:दोगुना|तीन गुना|बढ़ा|बढ़ी|बढ़े|घटा|घटी|कम हुआ|सबसे अधिक|सबसे कम|से अधिक|से कम)"
+)
+HINDI_ACTION_RE = re.compile(
+    r"(?:बनाया|बनाए|दिया|दिए|प्रदान किया|पूरा किया|शुरू किया|लॉन्च किया|खोला|जोड़ा)"
+)
+HINDI_FUTURE_RE = re.compile(
+    r"(?:हम करेंगे|हम बनाएंगे|हम देंगे|वादा|लक्ष्य|तक पूरा)"
 )
 QUESTION_RE = re.compile(r"\?$")
 BOILERPLATE_RE = re.compile(
@@ -111,9 +120,9 @@ def classify_sentence(sentence):
     numbers = NUMBER_RE.findall(sentence)
     has_number = bool(numbers)
     has_rank = bool(RANK_RE.search(sentence))
-    has_comparison = bool(COMPARISON_RE.search(sentence))
-    has_accomplishment = bool(ACCOMPLISHMENT_RE.search(sentence))
-    has_future = bool(FUTURE_RE.search(sentence))
+    has_comparison = bool(COMPARISON_RE.search(sentence) or HINDI_COMPARISON_RE.search(sentence))
+    has_accomplishment = bool(ACCOMPLISHMENT_RE.search(sentence) or HINDI_ACTION_RE.search(sentence))
+    has_future = bool(FUTURE_RE.search(sentence) or HINDI_FUTURE_RE.search(sentence))
     subjective = bool(SUBJECTIVE_RE.search(sentence))
     boilerplate = bool(BOILERPLATE_RE.search(sentence))
     question = bool(QUESTION_RE.search(sentence))
