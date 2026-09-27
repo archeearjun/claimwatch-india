@@ -597,7 +597,133 @@ def nli_scores(evidence_text, claim_text):
         "contradiction": float(probs[2]),
     }
 
+def numeric_claim_operator(text):
+    low = (text or "").lower()
+    if re.search(r"\b(?:more than|over|above|greater than|at least)\b", low):
+        return "gte"
+    if re.search(r"\b(?:less than|under|below|at most)\b", low):
+        return "lte"
+    if re.search(r"\b(?:nearly|about|around|approximately|approx\.?|roughly)\b", low):
+        return "approx"
+    return "eq"
+
+
+def numeric_relation_holds(operator, claimed, observed):
+    if claimed == 0:
+        tolerance = 0.01
+    else:
+        tolerance = max(abs(claimed) * 0.005, 1e-9)
+
+    if operator == "gte":
+        return observed >= claimed
+    if operator == "lte":
+        return observed <= claimed
+    if operator == "approx":
+        return abs(observed - claimed) <= max(abs(claimed) * 0.05, tolerance)
+    return abs(observed - claimed) <= tolerance
+
+
+def structured_claim_numeric_signal(text, evidence):
+    claim_quantities = parse_quantity_mentions(text)
+    if len(claim_quantities) != 1:
+        return None
+
+    claim_quantity = claim_quantities[0]
+    claim_years = set(re.findall(r"\b20\d{2}\b", text or ""))
+    operator = numeric_claim_operator(text)
+
+    for row in evidence:
+        if not (
+            row.get("tier") == "primary"
+            and is_verified_primary(row)
+            and float(row.get("relevance") or 0) >= 0.30
+            and len(row.get("matched_terms") or []) >= 3
+        ):
+            continue
+
+        evidence_text = " ".join([
+            row.get("title") or "",
+            row.get("snippet") or "",
+        ])
+        if claim_years and not claim_years.intersection(
+            set(re.findall(r"\b20\d{2}\b", evidence_text))
+        ):
+            continue
+
+        observed = [
+            q for q in parse_quantity_mentions(evidence_text)
+            if q["kind"] == claim_quantity["kind"]
+        ]
+
+        # Multiple numbers make an automated comparison ambiguous unless one
+        # value exactly matches the claim and no conflicting candidate exists.
+        if len(observed) != 1:
+            matching = [
+                q for q in observed
+                if numeric_relation_holds(
+                    "eq",
+                    claim_quantity["value"],
+                    q["value"],
+                )
+            ]
+            if len(matching) == 1:
+                observed = matching
+            else:
+                continue
+
+        observed_quantity = observed[0]
+        holds = numeric_relation_holds(
+            operator,
+            claim_quantity["value"],
+            observed_quantity["value"],
+        )
+
+        proof = {
+            "claimed": claim_quantity,
+            "observed": observed_quantity,
+            "operator": operator,
+            "evidence_id": row.get("id"),
+            "evidence_url": row.get("source_url") or row.get("url"),
+            "evidence_title": row.get("title"),
+        }
+
+        if holds:
+            return {
+                "level": "automated_supported",
+                "label": "Supported by deterministic primary-source comparison",
+                "publishable_verdict": True,
+                "verdict": "supported",
+                "reason": (
+                    "The numerical claim and the verified primary-source value are directly "
+                    "comparable under the structured numeric rule."
+                ),
+                "evidence_id": row.get("id"),
+                "assessment_mode": "deterministic_numeric_primary_gate",
+                "proof": proof,
+            }
+
+        return {
+            "level": "automated_contradicted",
+            "label": "Contradicted by deterministic primary-source comparison",
+            "publishable_verdict": True,
+            "verdict": "contradicted",
+            "reason": (
+                "The verified primary-source value conflicts with the numerical claim under "
+                "the structured numeric rule."
+            ),
+            "evidence_id": row.get("id"),
+            "assessment_mode": "deterministic_numeric_primary_gate",
+            "proof": proof,
+        }
+
+    return None
+
+
 def strict_signal(text, evidence, factchecks):
+    deterministic = structured_claim_numeric_signal(text, evidence)
+    if deterministic:
+        return deterministic
+
     primary = [
         e for e in evidence
         if e.get("tier") == "primary"
