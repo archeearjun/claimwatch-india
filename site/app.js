@@ -74,6 +74,59 @@ function compactNumber(value) {
   return new Intl.NumberFormat("en-IN", { notation: n >= 1000 ? "compact" : "standard" }).format(n);
 }
 
+function renderOutcomeBoard() {
+  const summary = state.evidence?.summary || {};
+  const outcomes = summary.promise_outcomes || {};
+
+  const fulfilled = Number(outcomes.fulfilled_evidence || 0);
+  const unfulfilled = Number(outcomes.proven_unfulfilled_by_deadline || 0);
+  const progress = Number(outcomes.progress_documented || 0);
+  const overdue = Number(outcomes.deadline_passed_unresolved || 0);
+  const deadlineFuture = Number(outcomes.deadline_not_reached || 0);
+  const insufficient = Number(outcomes.insufficient_evidence || 0);
+  const qualitative = Number(outcomes.not_machine_measurable || 0);
+  const total = Number(outcomes.audited_total || 0);
+  const other = deadlineFuture + insufficient + qualitative;
+
+  const set = (id, value) => {
+    const node = document.querySelector(id);
+    if (node) node.textContent = compactNumber(value);
+  };
+
+  set("#outcome-fulfilled", fulfilled);
+  set("#outcome-unfulfilled", unfulfilled);
+  set("#outcome-progress", progress);
+  set("#outcome-overdue", overdue);
+  set("#outcome-other", other);
+
+  const coverage = Number(summary.promise_coverage_pct || 0);
+  const health = document.querySelector("#outcome-health");
+  if (health) {
+    health.innerHTML = `<span>Audit coverage</span><strong>${compactNumber(total)} checked · ${coverage.toFixed(1)}% of extracted candidates</strong>`;
+  }
+
+  const bar = document.querySelector("#outcome-bar");
+  if (!bar) return;
+
+  if (!total) {
+    bar.innerHTML = '<div class="outcome-empty">Waiting for audited promise outcomes…</div>';
+    return;
+  }
+
+  const segments = [
+    ["fulfilled", fulfilled, "Fulfilled by evidence"],
+    ["unfulfilled", unfulfilled, "Proven not fulfilled by deadline"],
+    ["progress", progress, "Progress documented"],
+    ["overdue", overdue, "Deadline passed · unresolved"],
+    ["other", other, "Other / insufficient"]
+  ].filter(([, value]) => value > 0);
+
+  bar.innerHTML = segments.map(([kind, value, label]) => {
+    const pct = Math.max(1.5, (value / total) * 100);
+    return `<div class="outcome-segment ${kind}" style="width:${pct}%" title="${escapeHtml(label)}: ${value}"><span>${value}</span></div>`;
+  }).join("");
+}
+
 async function loadJson(url) {
   const response = await fetch(`${url}?v=${Date.now()}`, { cache: "no-store" });
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
@@ -217,6 +270,8 @@ function renderMetrics() {
   $("#metric-packets").textContent = compactNumber(claimPackets + promisePackets);
   $("#metric-packets-detail").textContent = `${claimPackets} claims · ${promisePackets} promises`;
   $("#metric-primary").textContent = compactNumber(evidence.summary?.primary_candidates || 0);
+  $("#metric-verdicts").textContent = compactNumber(evidence.summary?.publishable_auto_verdicts || 0);
+  renderOutcomeBoard();
 
   const ready =
     Boolean(state.discovery) &&
