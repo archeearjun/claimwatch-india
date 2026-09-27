@@ -18,6 +18,7 @@
       <a href="#intelligence">Intelligence</a>
       <a href="#evidence">Evidence</a>
       <a href="#promises">Promises</a>
+      <a href="#live-transcribe">Live transcript</a>
       <a href="#manual">Check</a>
       <a href="#method">Method</a>
     </nav>
@@ -181,6 +182,55 @@
       <button id="show-more-promises" class="wide-button hidden">Show more promise candidates</button>
     </section>
 
+
+    <section id="live-transcribe" class="section-block live-transcribe">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">LIVE TAB TRANSCRIPTION · LOCAL AI</p>
+          <h2>Listen to a rally or TV stream without paying a transcription API.</h2>
+          <p class="section-copy">Open the speech or YouTube video in a browser tab, click Start, choose that tab in Chrome/Edge and enable <strong>Share tab audio</strong>. Whisper runs in your browser using Transformers.js; ClaimWatch does not upload the captured audio to its own server.</p>
+        </div>
+        <span class="privacy-chip">Whisper · browser inference</span>
+      </div>
+
+      <div class="transcribe-grid">
+        <div class="transcribe-controls">
+          <label>
+            <span>Language hint</span>
+            <select id="live-language">
+              <option value="auto">Auto-detect (Hindi / English / Hinglish)</option>
+              <option value="hi">Hindi</option>
+              <option value="en">English</option>
+            </select>
+          </label>
+          <div class="manual-actions">
+            <button id="live-start" class="primary-button">Start tab audio</button>
+            <button id="live-stop" class="subtle-button" disabled>Stop</button>
+            <button id="live-clear" class="text-button">Clear transcript</button>
+          </div>
+          <p id="live-status" class="extract-status" role="status">Idle. The first run downloads a small Whisper model and can take a while.</p>
+          <div class="model-progress" aria-hidden="true"><span id="model-progress-bar"></span></div>
+          <p class="quiet-note">Best on Chromium with WebGPU. CPU/WASM is used as a fallback. Each audio segment is transcribed locally after capture.</p>
+        </div>
+
+        <div class="transcribe-output">
+          <div class="transcribe-output-head">
+            <strong>Live transcript</strong>
+            <span id="live-chunk-count">0 segments</span>
+          </div>
+          <div id="live-transcript" class="live-transcript" aria-live="polite">Transcript will appear here…</div>
+        </div>
+      </div>
+
+      <div class="live-claims">
+        <div class="transcribe-output-head">
+          <strong>Checkable claims detected from the live transcript</strong>
+          <span id="live-claim-count">0 candidates</span>
+        </div>
+        <div id="live-claim-list" class="candidate-list"></div>
+      </div>
+    </section>
+
     <section id="manual" class="section-block manual-check">
       <div class="section-heading">
         <div>
@@ -254,5 +304,6 @@
   </footer>
 
   <script src="./app.js" defer></script>
+  <script type="module" src="./transcribe.js"></script>
 </body>
 </html>
