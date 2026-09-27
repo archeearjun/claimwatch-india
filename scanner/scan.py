@@ -5,7 +5,7 @@ import re
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
-from urllib.parse import urlencode
+from urllib.parse import urlencode, urlparse, urlunparse, parse_qsl
 
 import feedparser
 import requests
@@ -15,7 +15,7 @@ OUT = Path("data/discovery/latest.json")
 TIMEOUT = 20
 USER_AGENT = (
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
-    "(KHTML, like Gecko) Chrome/124.0 Safari/537.36 ClaimWatchIndia/0.3"
+    "(KHTML, like Gecko) Chrome/124.0 Safari/537.36 ClaimWatchIndia/0.4"
 )
 
 SESSION = requests.Session()
@@ -24,11 +24,33 @@ SESSION.headers.update({
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 })
 
-CHECKABLE_RE = re.compile(
-    r"(\b\d+(?:\.\d+)?\s*(?:%|percent|crore|lakh|million|billion|km|years?|months?|days?)?\b"
-    r"|\b(?:19|20)\d{2}\b"
-    r"|\b(?:doubled|tripled|increased|decreased|reduced|highest|lowest|more than|less than|only|never|always)\b"
-    r"|\b(?:created|built|provided|delivered|achieved|completed|launched|opened|closed|added|removed)\b)",
+NUMBER_RE = re.compile(
+    r"(?<!\w)(?:₹|Rs\.?\s*)?\d+(?:[.,]\d+)*(?:\s*(?:%|percent|crore|lakh|million|billion|trillion|km|years?|months?|days?|rupees?|dollars?))?",
+    re.I,
+)
+RANK_RE = re.compile(
+    r"\b(?:largest|smallest|highest|lowest|fastest|third largest|top\s*\d+|number\s*one|no\.\s*\d+)\b",
+    re.I,
+)
+COMPARISON_RE = re.compile(
+    r"\b(?:doubled|tripled|increased|decreased|reduced|rose|fell|grew|declined|more than|less than|nearly|around|about|only|record|highest|lowest)\b",
+    re.I,
+)
+ACCOMPLISHMENT_RE = re.compile(
+    r"\b(?:created|built|provided|delivered|achieved|completed|launched|opened|closed|connected|covered|reached|added|removed|signed|approved|implemented|established|joined|received)\b",
+    re.I,
+)
+FUTURE_RE = re.compile(
+    r"\b(?:we will|will be|will become|will make|will ensure|will provide|will launch|will create|will develop|will establish|will expand|will increase|will continue|aim to|target|goal|by\s+20\d{2})\b",
+    re.I,
+)
+SUBJECTIVE_RE = re.compile(
+    r"\b(?:i believe|i think|i feel|affection|love|trust|warmth|happiness|proud|great|wonderful|historic|immense|aspiration|hope|confidence)\b",
+    re.I,
+)
+QUESTION_RE = re.compile(r"\?$")
+BOILERPLATE_RE = re.compile(
+    r"\b(?:click here|view more|share this|download|subscribe|follow us|copyright|privacy policy)\b",
     re.I,
 )
 
@@ -58,40 +80,77 @@ def clean_html(value):
 
 def split_sentences(text):
     text = re.sub(r"\s+", " ", text or "").strip()
+    rows = re.split(r"(?<=[.!?।])\s+", text)
     return [
         sentence.strip()
-        for sentence in re.split(r"(?<=[.!?।])\s+", text)
-        if 20 <= len(sentence.strip()) <= 900
+        for sentence in rows
+        if 25 <= len(sentence.strip()) <= 1000
     ]
 
 
-BOILERPLATE_RE = re.compile(
-    r"(subscribe|follow\s+(?:us|pm)|social\s+media|facebook\.com|twitter\.com|x\.com|"
-    r"instagram\.com|linkedin\.com|youtube\.com/@|whatsapp\.com|download\s+the\s+app)",
-    re.I,
-)
+def classify_sentence(sentence):
+    lower = sentence.lower()
+    numbers = NUMBER_RE.findall(sentence)
+    has_number = bool(numbers)
+    has_rank = bool(RANK_RE.search(sentence))
+    has_comparison = bool(COMPARISON_RE.search(sentence))
+    has_accomplishment = bool(ACCOMPLISHMENT_RE.search(sentence))
+    has_future = bool(FUTURE_RE.search(sentence))
+    subjective = bool(SUBJECTIVE_RE.search(sentence))
+    boilerplate = bool(BOILERPLATE_RE.search(sentence))
+    question = bool(QUESTION_RE.search(sentence))
 
-def candidate_claims(text, limit=10):
-    rows = []
-    seen = set()
+    if boilerplate or question:
+        return "ignore", []
+
+    reasons = []
+    if has_number:
+        reasons.append("number")
+    if has_rank:
+        reasons.append("rank")
+    if has_comparison:
+        reasons.append("comparison")
+    if has_accomplishment:
+        reasons.append("accomplishment")
+
+    # Explicit commitments are routed to the promise matcher, not the factual
+    # truth checker, unless the same sentence also contains a current/past fact.
+    if has_future and not (has_accomplishment or has_comparison):
+        return "promise", reasons + ["future_commitment"]
+
+    # Require at least one objective hook. A date/goal alone is not enough.
+    objective = has_number or has_rank or has_comparison or has_accomplishment
+    if not objective:
+        return "ignore", []
+
+    # Subjective rhetoric is excluded unless there is an independently
+    # checkable quantitative/accomplishment proposition.
+    if subjective and not (has_number or has_accomplishment or has_rank):
+        return "ignore", []
+
+    # "2047 goal" and similar aspirations are not factual truth claims.
+    if has_future and ("goal" in lower or "aim" in lower or "target" in lower):
+        return "promise", reasons + ["future_commitment"]
+
+    return "claim", reasons
+
+
+def extract_candidates(text, claim_limit=25, promise_limit=12):
+    claims, promises = [], []
+
     for sentence in split_sentences(text):
-        # Remove link-heavy channel boilerplate before claim extraction.
-        clean = re.sub(r"https?://\S+|www\.\S+", " ", sentence)
-        clean = re.sub(r"\s+", " ", clean).strip(" -–—|►👉🔔")
-        if len(clean) < 25 or BOILERPLATE_RE.search(clean):
-            continue
-        if len(re.findall(r"[A-Za-z\u0900-\u097F]{2,}", clean)) < 5:
-            continue
-        if not CHECKABLE_RE.search(clean):
-            continue
-        key = re.sub(r"\W+", " ", clean.lower()).strip()
-        if key in seen:
-            continue
-        seen.add(key)
-        rows.append(clean[:320])
-        if len(rows) >= limit:
-            break
-    return rows
+        kind, reasons = classify_sentence(sentence)
+        row = {
+            "text": sentence[:700],
+            "reasons": reasons,
+            "numbers": NUMBER_RE.findall(sentence),
+        }
+        if kind == "claim" and len(claims) < claim_limit:
+            claims.append(row)
+        elif kind == "promise" and len(promises) < promise_limit:
+            promises.append(row)
+
+    return claims, promises
 
 
 def parse_date(value):
@@ -111,6 +170,68 @@ def get_feed(url, params=None):
     return feedparser.parse(response.content), response.url
 
 
+def with_query(url, **params):
+    parsed = urlparse(url)
+    query = dict(parse_qsl(parsed.query))
+    query.update({k: v for k, v in params.items() if v is not None})
+    return urlunparse(parsed._replace(query=urlencode(query)))
+
+
+def extract_page_text(html):
+    soup = BeautifulSoup(html, "html.parser")
+    for tag in soup(["script", "style", "noscript", "svg", "nav", "footer", "header", "form", "aside"]):
+        tag.decompose()
+
+    candidates = []
+    selectors = [
+        "article",
+        ".entry-content",
+        ".news-content",
+        ".news-detail",
+        ".news-bg",
+        ".content-area",
+        "main",
+    ]
+    for selector in selectors:
+        for node in soup.select(selector):
+            text = re.sub(r"\s+", " ", node.get_text(" ", strip=True)).strip()
+            if 300 <= len(text) <= 100000:
+                candidates.append(text)
+
+    if candidates:
+        # The largest meaningful article/main block usually contains the full
+        # speech and avoids short cards from the same page.
+        return max(candidates, key=len)
+
+    if soup.body:
+        return re.sub(r"\s+", " ", soup.body.get_text(" ", strip=True)).strip()
+    return ""
+
+
+def fetch_pmindia_transcript(url):
+    # PMIndia exposes an English rendering with this query flag on speech pages.
+    candidate_urls = [
+        with_query(url, comment="disable"),
+        url,
+    ]
+    last_error = None
+
+    for target in candidate_urls:
+        try:
+            response = SESSION.get(target, timeout=TIMEOUT)
+            if response.status_code != 200:
+                last_error = f"http_{response.status_code}"
+                continue
+            text = extract_page_text(response.text)
+            if len(text) >= 500:
+                return text, target, "full_page"
+            last_error = "page_text_too_short"
+        except Exception as exc:
+            last_error = type(exc).__name__
+
+    return "", url, last_error or "unavailable"
+
+
 def entry_text(entry):
     chunks = []
     for content in entry.get("content", []) or []:
@@ -127,12 +248,26 @@ def scan_pmindia():
     except Exception as exc:
         return [], [{"source": "PMIndia RSS", "error": type(exc).__name__}]
 
-    rows = []
-    for entry in feed.entries[:30]:
+    rows, errors = [], []
+
+    # Limit full-page fetches so each hourly run is cheap and respectful.
+    for entry in feed.entries[:12]:
         url = entry.get("link")
         if not url:
             continue
-        text = entry_text(entry)
+
+        rss_text = entry_text(entry)
+        transcript, transcript_url, transcript_status = fetch_pmindia_transcript(url)
+        source_text = transcript or rss_text
+        claims, promises = extract_candidates(source_text)
+
+        if transcript_status not in {"full_page"}:
+            errors.append({
+                "source": "PMIndia transcript",
+                "url": url,
+                "error": transcript_status,
+            })
+
         rows.append({
             "id": stable_id("pmindia", url),
             "kind": "official_speech_or_video",
@@ -140,12 +275,14 @@ def scan_pmindia():
             "title": clean_html(entry.get("title", "PM speech")),
             "url": url,
             "published_at": parse_date(entry.get("published")),
-            "candidate_claims": candidate_claims(text),
-            "transcript_status": "publisher_text_available" if text else "publisher_text_missing",
+            "candidate_claims": claims,
+            "candidate_promises": promises,
+            "transcript_status": transcript_status,
+            "transcript_url": transcript_url,
             "transcript_strategy": "publisher_text_first_else_local_audio_transcription",
         })
 
-    return rows, []
+    return rows, errors
 
 
 def scan_google_news():
@@ -181,10 +318,13 @@ def scan_google_news():
             source = "Google News"
             if entry.get("source") and entry.source.get("title"):
                 source = entry.source.get("title")
+
             text = " ".join([
                 clean_html(entry.get("title", "")),
                 entry_text(entry),
             ]).strip()
+            claims, promises = extract_candidates(text, claim_limit=4, promise_limit=2)
+
             rows.append({
                 "id": stable_id("news", url),
                 "kind": "news",
@@ -192,7 +332,8 @@ def scan_google_news():
                 "title": clean_html(entry.get("title", "News result")),
                 "url": url,
                 "published_at": parse_date(entry.get("published")),
-                "candidate_claims": candidate_claims(text, limit=4),
+                "candidate_claims": claims,
+                "candidate_promises": promises,
                 "read_status": "rss_discovery",
             })
 
@@ -222,6 +363,7 @@ def scan_youtube_channel_feeds():
                 continue
 
             description = entry_text(entry)
+            claims, promises = extract_candidates(description, claim_limit=3, promise_limit=2)
             rows.append({
                 "id": stable_id("youtube", video_id or watch_url),
                 "kind": "youtube_video",
@@ -233,7 +375,8 @@ def scan_youtube_channel_feeds():
                 "description": description[:500],
                 "url": watch_url,
                 "published_at": parse_date(entry.get("published")),
-                "candidate_claims": candidate_claims(description, limit=3),
+                "candidate_claims": claims,
+                "candidate_promises": promises,
                 "transcript_status": "match_to_publisher_text_or_transcribe_locally",
                 "transcript_strategy": "official_publisher_text_else_browser_local_whisper",
             })
@@ -291,6 +434,7 @@ def scan_optional_youtube_search():
                 "url": f"https://www.youtube.com/watch?v={video_id}",
                 "published_at": snippet.get("publishedAt"),
                 "candidate_claims": [],
+                "candidate_promises": [],
                 "transcript_status": "match_to_publisher_text_or_transcribe_locally",
                 "transcript_strategy": "official_publisher_text_else_browser_local_whisper",
             })
@@ -310,8 +454,7 @@ def dedupe(items):
 
 
 def sort_key(item):
-    value = item.get("published_at") or ""
-    return value
+    return item.get("published_at") or ""
 
 
 def main():
@@ -333,11 +476,11 @@ def main():
     payload = {
         "generated_at": now_iso(),
         "scope": "Initial research scope: Narendra Modi / BJP public statements and commitments",
-        "items": items[:100],
+        "items": items[:120],
         "errors": errors,
         "notes": [
             "Discovery is not a truth verdict.",
-            "PMIndia publisher text is preferred over generated transcription when available.",
+            "PMIndia full publisher text is preferred over generated transcription when available.",
             "Core YouTube discovery uses public channel feeds and requires no API key.",
             "A YouTube API key is optional and only expands discovery beyond the core channels.",
             "News RSS is discovery/context evidence, not proof of a political claim by itself.",
