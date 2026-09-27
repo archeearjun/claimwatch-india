@@ -136,7 +136,7 @@ def hostname(value):
     except Exception:
         return ""
 
-def is_independent_primary(row):
+def is_verified_primary(row):
     source_name = str(row.get("source") or "").strip().lower()
     if source_name in NON_VERIFYING_SOURCE_NAMES:
         return False
@@ -265,7 +265,7 @@ def best_page_excerpt(text, query_text):
     return max(sentences, key=score)[:520]
 
 def hydrate_official_row(row, query_text):
-    if row.get("tier") != "primary" or not is_independent_primary(row):
+    if row.get("tier") != "primary" or not is_verified_primary(row):
         return row
 
     url = row.get("source_url") or row.get("url")
@@ -555,7 +555,7 @@ def strict_signal(text, evidence, factchecks):
     primary = [
         e for e in evidence
         if e.get("tier") == "primary"
-        and is_independent_primary(e)
+        and is_verified_primary(e)
         and e.get("relevance", 0) >= 0.22
         and len(e.get("matched_terms", [])) >= 2
     ]
@@ -604,19 +604,19 @@ def strict_signal(text, evidence, factchecks):
     if best_support and best_contradiction:
         return {
             "level": "conflicting_primary_evidence",
-            "label": "Conflicting independent primary evidence found",
+            "label": "Conflicting verified primary evidence found",
             "publishable_verdict": False,
             "verdict": "insufficient",
-            "reason": "Independent official evidence produced conflicting machine signals; human review is required.",
+            "reason": "Verified primary-source evidence produced conflicting machine signals; human review is required.",
         }
 
     if best_support:
         return {
             "level": "automated_supported",
-            "label": "Supported by independent primary evidence",
+            "label": "Supported by verified primary evidence",
             "publishable_verdict": True,
             "verdict": "supported",
-            "reason": "A highly relevant independent official source entails the claim under the strict automated threshold.",
+            "reason": "A highly relevant verified primary source entails the claim under the strict automated threshold.",
             "evidence_id": best_support.get("id"),
             "assessment_mode": "strict_nli_primary_gate",
         }
@@ -624,10 +624,10 @@ def strict_signal(text, evidence, factchecks):
     if best_contradiction:
         return {
             "level": "automated_contradicted",
-            "label": "Contradicted by independent primary evidence",
+            "label": "Contradicted by verified primary evidence",
             "publishable_verdict": True,
             "verdict": "contradicted",
-            "reason": "A highly relevant independent official source contradicts the numerical claim under the strict automated threshold.",
+            "reason": "A highly relevant verified primary source contradicts the numerical claim under the strict automated threshold.",
             "evidence_id": best_contradiction.get("id"),
             "assessment_mode": "strict_nli_primary_gate",
         }
@@ -653,7 +653,7 @@ def strict_signal(text, evidence, factchecks):
     if primary:
         return {
             "level": "primary_evidence_found",
-            "label": "Relevant independent primary evidence candidate found",
+            "label": "Relevant verified primary evidence candidate found",
             "publishable_verdict": False,
             "verdict": "pending",
         }
@@ -842,7 +842,7 @@ def build_promise_packets(promises):
         primary_count = sum(
             1 for e in evidence
             if e.get("tier") == "primary"
-            and is_independent_primary(e)
+            and is_verified_primary(e)
             and e.get("relevance", 0) >= 0.20
             and len(e.get("matched_terms", [])) >= 2
         )
@@ -854,7 +854,7 @@ def build_promise_packets(promises):
 
         independent_primary = [
             e for e in evidence
-            if e.get("tier") == "primary" and is_independent_primary(e)
+            if e.get("tier") == "primary" and is_verified_primary(e)
         ]
         action_terms = re.compile(
             r"\b(?:launched|implemented|notified|approved|operationali[sz]ed|"
@@ -974,7 +974,7 @@ def main():
         "generated_at": now_iso(),
         "capabilities": {
             "official_evidence_search": True,
-            "independent_primary_gate": True,
+            "verified_primary_gate": True,
             "automated_nli": bool(get_nli()),
             "nli_model": NLI_MODEL_NAME if get_nli() else None,
             "nli_error": _NLI_ERROR,
@@ -1012,8 +1012,8 @@ def main():
             "Evidence candidates are not verdicts.",
             "Official-search results are discarded unless they share substantive terms or numeric values with the claim.",
             "Google Fact Check Tools matches are attributed to their publishers and are not adopted as ClaimWatch verdicts automatically.",
-            "PMIndia/party material is provenance for what was said, not independent proof that the claim is true.",
-            "Automated supported/contradicted verdicts require a strict independent-primary NLI gate; uncertain cases remain pending.",
+            "PMIndia/party material is provenance for what was said, not proof that the claim is true.",
+            "Automated supported/contradicted verdicts require a strict verified-primary NLI gate; uncertain cases remain pending.",
             "Promise evidence scanning rotates through the corpus and preserves prior checks so coverage accumulates over time.",
             "A contradiction is not treated as proof of deliberate deception.",
         ],
