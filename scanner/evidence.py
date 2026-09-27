@@ -1185,7 +1185,7 @@ REDUCTION_RE = re.compile(
 )
 QUANTITY_RE = re.compile(
     r"(?<!\w)(\d{1,3}(?:,\d{3})+|\d+(?:\.\d+)?)\s*"
-    r"(%|percent|crore|lakh|million|billion|trillion)?\b",
+    r"(%|percent|crore|lakh|million|billion|trillion|mw|gw)?\b",
     re.I,
 )
 SCALE_FACTORS = {
@@ -1194,6 +1194,8 @@ SCALE_FACTORS = {
     "million": 1_000_000.0,
     "billion": 1_000_000_000.0,
     "trillion": 1_000_000_000_000.0,
+    "mw": 1.0,
+    "gw": 1_000.0,
 }
 
 
@@ -1334,6 +1336,9 @@ def parse_quantity_mentions(text):
         if unit in {"%", "percent"}:
             normalized = base
             kind = "percent"
+        elif unit in {"mw", "gw"}:
+            normalized = base * SCALE_FACTORS.get(unit, 1.0)
+            kind = "power_mw"
         else:
             normalized = base * SCALE_FACTORS.get(unit, 1.0)
             kind = "count"
@@ -1349,12 +1354,55 @@ def parse_quantity_mentions(text):
 
 
 def promise_target_quantity(promise):
+    text = promise.get("exact_text") or ""
+    deadline_year = promise_deadline_year(promise)
+
     candidates = []
-    for raw in promise.get("numbers") or []:
-        candidates.extend(parse_quantity_mentions(raw))
-    if len(candidates) != 1:
+    for match in QUANTITY_RE.finditer(text):
+        raw = match.group(0).strip()
+        following = text[match.end():match.end() + 16].lower()
+        if re.match(r"\s*(?:years?|months?|days?)\b", following):
+            continue
+
+        rows = parse_quantity_mentions(raw)
+        if not rows:
+            continue
+        quantity = rows[0]
+
+        context = text[max(0, match.start() - 100):match.end() + 100].lower()
+        score = 0
+
+        if re.search(r"\b(?:we will|will|aim to|target|commit|achieve|reach|create|build|provide|increase|reduce)\b", context):
+            score += 3
+        if deadline_year and str(deadline_year) in context:
+            score += 4
+        if re.search(r"\b(?:target of|target|by 20\d{2}|within|next five years|next 5 years)\b", context):
+            score += 2
+        if re.search(r"\b(?:already|currently|existing|achieved|as on|baseline|so far)\b", context):
+            score -= 4
+
+        candidates.append((score, match.start(), quantity))
+
+    if not candidates:
+        # Fall back to parsed target-like fields from the corpus.
+        for raw in promise.get("numbers") or []:
+            if re.search(r"\b(?:years?|months?|days?)\b", raw, re.I):
+                continue
+            rows = parse_quantity_mentions(raw)
+            if rows:
+                candidates.append((0, 0, rows[0]))
+
+    if not candidates:
         return None
-    return candidates[0]
+
+    candidates.sort(key=lambda item: (-item[0], item[1]))
+    best_score = candidates[0][0]
+    best = [item for item in candidates if item[0] == best_score]
+
+    # Multiple equally plausible targets are not safe for an automatic proof.
+    if len(best) != 1:
+        return None
+    return best[0][2]
 
 
 def evidence_year(row):
