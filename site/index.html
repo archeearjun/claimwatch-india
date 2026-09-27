@@ -83,19 +83,19 @@
         <small id="metric-promises-detail">2014 · 2019 · 2024</small>
       </article>
       <article>
-        <span class="metric-label">Evidence packets</span>
-        <strong id="metric-packets">—</strong>
-        <small id="metric-packets-detail">Claims + promises</small>
+        <span class="metric-label">Promises audited</span>
+        <strong id="metric-audited-promises">—</strong>
+        <small id="metric-audited-promises-detail">Outcome evidence checked</small>
       </article>
       <article>
-        <span class="metric-label">Primary-source candidates</span>
-        <strong id="metric-primary">—</strong>
-        <small>Official-data leads</small>
+        <span class="metric-label">Proven missed deadlines</span>
+        <strong id="metric-unfulfilled">0</strong>
+        <small>Direct comparable evidence only</small>
       </article>
       <article>
-        <span class="metric-label">Published verdicts</span>
+        <span class="metric-label">Claim verdicts</span>
         <strong id="metric-verdicts">0</strong>
-        <small>Never inferred from retrieval alone</small>
+        <small id="metric-verdicts-detail">Supported 0 · Contradicted 0</small>
       </article>
     </section>
 
@@ -113,6 +113,16 @@
       </div>
 
       <div id="outcome-bar" class="outcome-bar" aria-label="Promise outcome distribution"></div>
+
+      <div class="filter-row outcome-filters" role="group" aria-label="Promise outcome filter">
+        <button class="filter outcome-filter active" data-outcome-filter="all">All</button>
+        <button class="filter outcome-filter" data-outcome-filter="fulfilled">Fulfilled by deadline</button>
+        <button class="filter outcome-filter" data-outcome-filter="target">Target reached</button>
+        <button class="filter outcome-filter" data-outcome-filter="unfulfilled">Proven not fulfilled</button>
+        <button class="filter outcome-filter" data-outcome-filter="progress">Progress</button>
+        <button class="filter outcome-filter" data-outcome-filter="overdue">Deadline passed · unresolved</button>
+        <button class="filter outcome-filter" data-outcome-filter="other">Other / insufficient</button>
+      </div>
 
       <div class="outcome-grid">
         <article class="outcome-stat fulfilled">
