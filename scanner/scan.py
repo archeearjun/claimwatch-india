@@ -164,6 +164,12 @@ def extract_candidates(text, claim_limit=25, promise_limit=12):
     return claims, promises
 
 
+def candidate_claims(text, limit=12):
+    """Backward-compatible string view used by tests and small callers."""
+    claims, _ = extract_candidates(text, claim_limit=limit, promise_limit=0)
+    return [row["text"] for row in claims]
+
+
 def parse_date(value):
     if not value:
         return None
