@@ -536,6 +536,24 @@ function renderPromises() {
   if (state.measurableOnly) {
     items = items.filter(item => item.measurable);
   }
+
+  const evidenceMap = promiseEvidenceMap();
+
+  if (state.promiseOutcome !== "all") {
+    items = items.filter(item => {
+      const status = evidenceMap.get(item.id)?.outcome?.status || "unaudited";
+      if (state.promiseOutcome === "other") {
+        return ["deadline_not_reached","insufficient_evidence","not_machine_measurable","unaudited"].includes(status);
+      }
+      if (state.promiseOutcome === "target") return status === "target_reached_evidence";
+      if (state.promiseOutcome === "fulfilled") return status === "fulfilled_by_deadline";
+      if (state.promiseOutcome === "unfulfilled") return status === "proven_unfulfilled_by_deadline";
+      if (state.promiseOutcome === "progress") return status === "progress_documented";
+      if (state.promiseOutcome === "overdue") return status === "deadline_passed_unresolved";
+      return true;
+    });
+  }
+
   if (state.promiseSearch.trim()) {
     const q = state.promiseSearch.trim().toLowerCase();
     items = items.filter(item => {
@@ -550,7 +568,6 @@ function renderPromises() {
     });
   }
 
-  const evidenceMap = promiseEvidenceMap();
   const visible = items.slice(0, state.promiseLimit);
 
   if (!visible.length) {
@@ -569,6 +586,8 @@ function renderPromises() {
     const evidenceCount = packet?.evidence?.length || 0;
     const relatedYears = [...new Set((item.related_promises || []).map(x => x.year))];
     const currentSignal = packet?.implementation_signal || "awaiting_evidence_scan";
+    const outcome = packet?.outcome || { status: "unaudited" };
+    const proof = outcome?.proof || null;
     const tags = [
       ...(item.numbers || []).slice(0, 2),
       ...(item.deadline_hints || []).slice(0, 1)
