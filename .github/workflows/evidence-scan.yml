@@ -2,11 +2,15 @@ name: Evidence scan
 
 on:
   workflow_dispatch:
+  workflow_run:
+    workflows:
+      - "Discovery scan"
+      - "Manifesto corpus"
+    types:
+      - completed
   push:
     paths:
       - "scanner/evidence.py"
-      - "data/discovery/latest.json"
-      - "data/promises/candidates.json"
       - ".github/workflows/evidence-scan.yml"
   schedule:
     - cron: "47 */6 * * *"
@@ -20,6 +24,7 @@ concurrency:
 
 jobs:
   scan:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
