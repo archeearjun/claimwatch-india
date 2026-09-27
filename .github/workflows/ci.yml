@@ -47,7 +47,20 @@ jobs:
           PY
 
       - name: JavaScript syntax
-        run: node --check site/app.js && node --check site/transcribe.js && node --check functions/api/check.js && node --check functions/api/check.js
+        run: node --check site/app.js && node --check site/transcribe.js && node --check functions/api/check.js
+
+      - name: Dashboard startup selector guard
+        run: |
+          python - <<'PY'
+          import re
+          from pathlib import Path
+          text = Path("site/app.js").read_text(encoding="utf-8")
+          bad_single = re.findall(r'(?<!\\$)\\$\\("[^"]+"\\)\\.forEach', text)
+          bad_many = re.findall(r'\\${3,}\\("[^"]+"\\)\\.forEach', text)
+          assert not bad_single, "querySelector used with forEach: " + repr(bad_single)
+          assert not bad_many, "invalid selector helper prefix: " + repr(bad_many)
+          print("Dashboard selector smoke check passed")
+          PY
 
       - name: Validate JSON feeds
         run: |
