@@ -895,11 +895,7 @@ def promise_outcome(packet):
             ),
         }
 
-    if signal in {
-        "action_detected",
-        "current_primary_and_reporting_found",
-        "current_primary_evidence_found",
-    } and verified_primary:
+    if signal == "action_detected" and verified_primary:
         return {
             **result,
             "status": "progress_documented",
@@ -1019,12 +1015,22 @@ def promise_core_overlap(promise, evidence_text):
 
 
 def sanitize_promise_evidence(promise, rows):
-    cleaned = []
+    normalized = []
     for original in rows or []:
         row = dict(original)
         if row.get("tier") == "primary" and not is_verified_primary(row):
             row["tier"] = "secondary"
+        normalized.append(row)
 
+    promise_text = " ".join([
+        promise.get("exact_text") or promise.get("anchor") or "",
+        " ".join(promise.get("numbers") or []),
+        " ".join(promise.get("deadline_hints") or []),
+    ])
+    reranked = rank_evidence(promise_text, normalized, limit=10)
+
+    cleaned = []
+    for row in reranked:
         evidence_text = " ".join([
             row.get("title") or "",
             row.get("snippet") or "",
@@ -1037,7 +1043,6 @@ def sanitize_promise_evidence(promise, rows):
         shared_numbers = row.get("shared_numbers") or []
         relevance = float(row.get("relevance") or 0)
 
-        # A number match without the promise's subject/metric is noise.
         if len(core_overlap) < 1 and len(matched_terms) < 2:
             continue
         if row.get("tier") == "secondary" and relevance < 0.18 and len(core_overlap) < 2:
@@ -1308,7 +1313,7 @@ def build_promise_packets(promises):
         ])
 
         try:
-            evidence = retrieve_evidence(query, pseudo_text, hydrate_primary=False)
+            evidence = retrieve_evidence(query, pseudo_text, hydrate_primary=True)
         except Exception as exc:
             evidence = []
             errors.append({
@@ -1371,8 +1376,23 @@ def main():
     merged_promises = previous_promise_packets()
     for packet in fresh_promise_packets:
         merged_promises[packet["promise_id"]] = packet
+
+    current_promise_map = {
+        promise.get("id"): promise
+        for promise in promises
+        if promise.get("id")
+    }
+
     promise_packets = list(merged_promises.values())
     for packet in promise_packets:
+        current = current_promise_map.get(packet.get("promise_id"))
+        if current:
+            for field in (
+                "year","category","page","anchor","exact_text","keywords","numbers",
+                "deadline_hints","measurable","source_url","pdf_url","related_promises",
+            ):
+                packet[field] = current.get(field)
+
         packet["evidence"] = sanitize_promise_evidence(
             packet,
             packet.get("evidence", []),
