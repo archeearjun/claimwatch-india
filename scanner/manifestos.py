@@ -150,9 +150,27 @@ def jaccard(a, b):
     return len(aa & bb) / len(aa | bb)
 
 def parse_manifesto(source):
-    response = SESSION.get(source["pdf_url"], timeout=TIMEOUT)
-    response.raise_for_status()
-    pdf_bytes = response.content
+    urls = [source["pdf_url"], *(source.get("fallback_pdf_urls") or [])]
+    pdf_bytes = None
+    download_url_used = None
+    failures = []
+
+    for url in urls:
+        try:
+            response = SESSION.get(url, timeout=(20, 150))
+            response.raise_for_status()
+            candidate = response.content
+            if not candidate.startswith(b"%PDF"):
+                raise ValueError("response was not a PDF")
+            pdf_bytes = candidate
+            download_url_used = url
+            break
+        except Exception as exc:
+            failures.append(f"{url}: {type(exc).__name__}")
+
+    if pdf_bytes is None:
+        raise RuntimeError("all manifesto download URLs failed: " + " | ".join(failures))
+
     sha256 = hashlib.sha256(pdf_bytes).hexdigest()
     reader = PdfReader(io.BytesIO(pdf_bytes))
 
@@ -202,6 +220,8 @@ def parse_manifesto(source):
         "title": source["title"],
         "landing_url": source["landing_url"],
         "pdf_url": source["pdf_url"],
+        "download_url_used": download_url_used,
+        "used_fallback": download_url_used != source["pdf_url"],
         "pdf_sha256": sha256,
         "pages": len(reader.pages),
         "candidate_count": len(rows),
