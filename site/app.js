@@ -80,6 +80,57 @@ async function loadJson(url) {
   return response.json();
 }
 
+async function instantCheck(claim) {
+  const response = await fetch("/api/check", {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify({ claim })
+  });
+  const payload = await response.json().catch(() => ({}));
+  if (!response.ok) {
+    throw new Error(payload.error || `Evidence API HTTP ${response.status}`);
+  }
+  return payload;
+}
+
+function instantResultHtml(result) {
+  const signal = result?.signal || {};
+  const evidence = (result?.evidence || []).slice(0, 5);
+  const promises = (result?.promise_matches || []).slice(0, 4);
+
+  return `
+    <div class="instant-signal ${escapeHtml(signalClass(signal.level || "pending"))}">
+      <strong>${escapeHtml(signal.label || "Verification pending")}</strong>
+      <p>${escapeHtml(signal.reason || "ClaimWatch has not established a final verdict.")}</p>
+    </div>
+    ${evidence.length ? `
+      <div class="instant-evidence">
+        <span class="instant-heading">EVIDENCE LEADS</span>
+        ${evidence.map(item => `
+          <a href="${escapeHtml(safeUrl(item.url))}" target="_blank" rel="noopener noreferrer">
+            <span class="tier ${escapeHtml(item.tier || "reporting")}">${escapeHtml(evidenceTierLabel(item.tier || "reporting"))}</span>
+            <span>${escapeHtml(item.title || item.source || "Evidence source")}</span>
+            <small>${Math.round((item.relevance || 0) * 100)}%</small>
+          </a>
+        `).join("")}
+      </div>
+    ` : '<div class="quiet-note">No strong evidence lead was found in the instant search.</div>'}
+    ${promises.length ? `
+      <div class="instant-promises">
+        <span class="instant-heading">HISTORICAL PROMISE MATCHES</span>
+        ${promises.map(item => `
+          <a href="#promises">
+            <b>${item.year}</b>
+            <span>${escapeHtml(item.anchor || humanize(item.category))}</span>
+            <small>${Math.round((item.similarity || 0) * 100)}%</small>
+          </a>
+        `).join("")}
+      </div>
+    ` : ""}
+    <p class="instant-disclaimer">Instant retrieval is a triage step, not a final truth verdict. Comparable dates, units, populations and definitions must still line up.</p>
+  `;
+}
+
 function kindLabel(kind) {
   return ({
     official_speech_or_video: "OFFICIAL SPEECH",
@@ -520,6 +571,10 @@ function renderCandidates(candidates) {
         <div class="candidate-reasons">
           ${item.reasons.map(reason => `<span>${escapeHtml(reason)}</span>`).join("")}
         </div>
+        <div class="candidate-check-row">
+          <button class="mini-check" data-instant-check="${encodeURIComponent(item.sentence)}">Check evidence now</button>
+        </div>
+        <div class="instant-result" data-instant-result></div>
       </div>
     </article>
   `).join("");
@@ -550,6 +605,32 @@ async function loadAll() {
 }
 
 $("#refresh-all").addEventListener("click", loadAll);
+
+$("#candidate-list").addEventListener("click", async event => {
+  const button = event.target.closest("[data-instant-check]");
+  if (!button) return;
+
+  const claim = decodeURIComponent(button.dataset.instantCheck || "");
+  const card = button.closest(".candidate-card");
+  const resultRoot = card?.querySelector("[data-instant-result]");
+  if (!claim || !resultRoot) return;
+
+  button.disabled = true;
+  button.textContent = "Searching evidence…";
+  resultRoot.innerHTML = '<div class="quiet-note">Searching official-source leads, reporting and historical promises…</div>';
+
+  try {
+    const result = await instantCheck(claim);
+    resultRoot.innerHTML = instantResultHtml(result);
+    button.textContent = "Refresh evidence";
+  } catch (error) {
+    resultRoot.innerHTML = `<div class="notice"><strong>Instant check unavailable</strong><span>${escapeHtml(error.message || error)}</span></div>`;
+    button.textContent = "Try again";
+  } finally {
+    button.disabled = false;
+  }
+});
+
 
 $$("[data-discovery-filter]").forEach(button => {
   button.addEventListener("click", () => {
@@ -625,7 +706,9 @@ $("#clear-btn").addEventListener("click", () => {
 
 window.ClaimWatch = {
   extractCandidates,
-  scoreSentence
+  scoreSentence,
+  instantCheck,
+  instantResultHtml
 };
 
 loadAll();
