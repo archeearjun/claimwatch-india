@@ -260,6 +260,30 @@ class EvidenceRankingTests(unittest.TestCase):
         self.assertEqual(signal["verdict"], "contradicted")
         self.assertTrue(signal["publishable_verdict"])
 
+    def test_rozgar_mela_numeric_claim_support(self):
+        claim = (
+            "Today, more than 51,000 youth across the nation are receiving "
+            "appointment letters for government service."
+        )
+        rows = [{
+            "id": "rozgar-1",
+            "tier": "primary",
+            "source": "PIB",
+            "source_url": "https://www.pib.gov.in",
+            "url": "https://www.pib.gov.in",
+            "title": (
+                "Under 20th Rozgar Mela, PM to distribute more than 51,000 "
+                "appointment letters to the newly appointed youth in Government on 19 September"
+            ),
+            "snippet": "",
+            "relevance": 0.535,
+            "matched_terms": ["appointment", "letters", "than", "youth"],
+            "shared_numbers": ["51000"],
+        }]
+        signal = evidence.structured_claim_numeric_signal(claim, rows)
+        self.assertEqual(signal["verdict"], "supported")
+        self.assertTrue(signal["publishable_verdict"])
+
 
 if __name__ == "__main__":
     unittest.main()
