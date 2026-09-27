@@ -139,6 +139,17 @@ def extract_numbers(text):
         value = match.group(0).strip()
         if YEAR_TOKEN_RE.fullmatch(value):
             continue
+
+        prefix = text[max(0, match.start() - 14):match.start()].lower()
+        if re.search(r"(?:tier|phase|chapter|section|part)[\s-]*$", prefix):
+            continue
+
+        # A bare one/two-digit token is far more often PDF numbering than a
+        # measurable target. Keep small quantities when the extractor captured
+        # an explicit unit, but ignore unqualified layout-like numbers.
+        if re.fullmatch(r"\d{1,2}", value):
+            continue
+
         if value not in found:
             found.append(value)
     return found[:5]
@@ -204,6 +215,10 @@ def parse_manifesto(source):
 
     for page_index, page in enumerate(reader.pages, start=1):
         raw = page.extract_text() or ""
+        # Remove standalone printed page/section numbers before newlines are
+        # collapsed; otherwise "13\nCreating High Value Jobs..." becomes a
+        # fake numeric target.
+        raw = re.sub(r"(?m)^\s*\d{1,3}\s*$", " ", raw)
         for sentence in split_sentences(raw):
             score = candidate_score(sentence)
             if score < 5:
