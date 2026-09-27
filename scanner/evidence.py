@@ -264,11 +264,57 @@ def best_page_excerpt(text, query_text):
 
     return max(sentences, key=score)[:520]
 
+def resolve_official_destination(row):
+    direct_url = row.get("url") or ""
+    direct_host = hostname(direct_url)
+    source_url = row.get("source_url") or ""
+    source_host = hostname(source_url)
+
+    def official_host(host):
+        return bool(host) and (
+            host.endswith(".gov.in")
+            or host.endswith(".nic.in")
+            or any(host == h or host.endswith("." + h) for h in INDEPENDENT_OFFICIAL_HOSTS)
+        )
+
+    parsed_direct = urlparse(direct_url) if direct_url else None
+    if official_host(direct_host) and parsed_direct and parsed_direct.path not in {"", "/"}:
+        return direct_url
+
+    if not official_host(source_host):
+        return source_url or direct_url
+
+    title = clean_html(row.get("title") or "")
+    title = re.sub(r"\s+-\s+[^-]{2,60}$", "", title).strip()
+    if title:
+        try:
+            results = bing_web(
+                f'"{title[:180]}" site:{source_host}',
+                "official_title_resolve",
+                "primary",
+                limit=5,
+            )
+            for candidate in results:
+                url = candidate.get("url") or candidate.get("source_url") or ""
+                host = hostname(url)
+                parsed = urlparse(url) if url else None
+                if (
+                    parsed
+                    and parsed.path not in {"", "/"}
+                    and (host == source_host or host.endswith("." + source_host))
+                ):
+                    return url
+        except Exception:
+            pass
+
+    return source_url or direct_url
+
+
 def hydrate_official_row(row, query_text):
     if row.get("tier") != "primary" or not is_verified_primary(row):
         return row
 
-    url = row.get("source_url") or row.get("url")
+    url = resolve_official_destination(row)
     host = hostname(url)
     if not url or not (
         host.endswith(".gov.in")
