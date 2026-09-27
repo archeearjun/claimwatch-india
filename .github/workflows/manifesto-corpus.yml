@@ -1,0 +1,53 @@
+name: Manifesto corpus
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "scanner/manifestos.py"
+      - "corpus/manifesto_sources.json"
+      - ".github/workflows/manifesto-corpus.yml"
+  schedule:
+    - cron: "31 3 * * 1"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: manifesto-corpus
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: scanner/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r scanner/requirements.txt
+
+      - name: Extract promise candidates
+        run: python scanner/manifestos.py
+
+      - name: Commit corpus if changed
+        shell: bash
+        run: |
+          if git diff --quiet -- data/promises/candidates.json; then
+            echo "No manifesto-corpus change."
+            exit 0
+          fi
+          git config user.name "claimwatch-bot"
+          git config user.email "claimwatch-bot@users.noreply.github.com"
+          git add data/promises/candidates.json
+          git commit -m "data: refresh manifesto promise corpus"
+          git pull --rebase origin main
+          git push
