@@ -108,6 +108,10 @@ function renderOutcomeBoard() {
     health.innerHTML = `<span>Audit coverage</span><strong>${compactNumber(total)} checked · ${coverage.toFixed(1)}% of extracted candidates</strong>`;
   }
 
+  document.querySelectorAll(".outcome-filter").forEach(button => {
+    button.classList.toggle("active", button.dataset.outcomeFilter === state.promiseOutcome);
+  });
+
   const bar = document.querySelector("#outcome-bar");
   if (!bar) return;
 
@@ -291,12 +295,23 @@ function renderMetrics() {
   $("#metric-promises-detail").textContent =
     `2014: ${years["2014"] || 0} · 2019: ${years["2019"] || 0} · 2024: ${years["2024"] || 0}`;
 
-  const claimPackets = evidence.summary?.claim_packets || 0;
-  const promisePackets = evidence.summary?.promise_packets || 0;
-  $("#metric-packets").textContent = compactNumber(claimPackets + promisePackets);
-  $("#metric-packets-detail").textContent = `${claimPackets} claims · ${promisePackets} promises`;
-  $("#metric-primary").textContent = compactNumber(evidence.summary?.primary_candidates || 0);
-  $("#metric-verdicts").textContent = compactNumber(evidence.summary?.publishable_auto_verdicts || 0);
+  const promisePackets = Number(evidence.summary?.promise_packets || 0);
+  const totalPromises = Number(evidence.summary?.promise_total_candidates || promises.summary?.total || 0);
+  const outcomes = evidence.summary?.promise_outcomes || {};
+  const verdicts = evidence.summary?.claim_verdicts || {};
+
+  $("#metric-audited-promises").textContent = compactNumber(promisePackets);
+  $("#metric-audited-promises-detail").textContent =
+    totalPromises ? `${Number(evidence.summary?.promise_coverage_pct || 0).toFixed(1)}% of ${compactNumber(totalPromises)}` : "Outcome evidence checked";
+
+  $("#metric-unfulfilled").textContent =
+    compactNumber(outcomes.proven_unfulfilled_by_deadline || 0);
+
+  $("#metric-verdicts").textContent =
+    compactNumber(evidence.summary?.publishable_auto_verdicts || 0);
+  $("#metric-verdicts-detail").textContent =
+    `Supported ${verdicts.supported || 0} · Contradicted ${verdicts.contradicted || 0}`;
+
   renderOutcomeBoard();
 
   const ready =
@@ -852,13 +867,24 @@ $$("[data-discovery-filter]").forEach(button => {
   });
 });
 
+function setPromiseOutcomeFilter(value) {
+  state.promiseOutcome = value || "all";
+  state.promiseLimit = 18;
+  renderOutcomeBoard();
+  renderPromises();
+}
+
 $("#outcome-bar")?.addEventListener("click", event => {
   const button = event.target.closest("[data-outcome-segment]");
   if (!button) return;
-  state.promiseOutcome = button.dataset.outcomeSegment || "all";
-  state.promiseLimit = 18;
-  renderPromises();
+  setPromiseOutcomeFilter(button.dataset.outcomeSegment || "all");
   document.querySelector("#promises")?.scrollIntoView({ behavior: "smooth", block: "start" });
+});
+
+$(".outcome-filter").forEach(button => {
+  button.addEventListener("click", () => {
+    setPromiseOutcomeFilter(button.dataset.outcomeFilter || "all");
+  });
 });
 $(".promise-year").forEach(button => {
   button.addEventListener("click", () => {
