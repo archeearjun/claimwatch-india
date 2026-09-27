@@ -414,6 +414,92 @@ h3 {
   font-weight: 800;
 }
 
+.outcome-board {
+  overflow: hidden;
+}
+
+.outcome-bar {
+  display: flex;
+  min-height: 42px;
+  margin: 22px 0 14px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #0f1217;
+}
+
+.outcome-segment {
+  min-width: 0;
+  display: grid;
+  place-items: center;
+  border-right: 1px solid rgba(255,255,255,.08);
+  font-size: .72rem;
+  font-weight: 850;
+}
+
+.outcome-segment:last-child { border-right: 0; }
+.outcome-segment.fulfilled { background: rgba(123,214,163,.34); color: #d8ffea; }
+.outcome-segment.unfulfilled { background: rgba(255,143,143,.34); color: #ffe0e0; }
+.outcome-segment.progress { background: rgba(244,184,74,.28); color: #ffedc2; }
+.outcome-segment.overdue { background: rgba(199,162,255,.25); color: #eee2ff; }
+.outcome-segment.other { background: rgba(137,181,255,.20); color: #dde9ff; }
+
+.outcome-empty {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  color: var(--muted);
+  font-size: .8rem;
+}
+
+.outcome-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.outcome-stat {
+  min-height: 126px;
+  padding: 17px;
+  border-right: 1px solid var(--line);
+  background: #11151b;
+}
+
+.outcome-stat:last-child { border-right: 0; }
+
+.outcome-stat span,
+.outcome-stat small {
+  display: block;
+  color: var(--muted);
+  line-height: 1.35;
+  font-size: .69rem;
+}
+
+.outcome-stat strong {
+  display: block;
+  margin: 9px 0 5px;
+  font-size: 2rem;
+  letter-spacing: -.04em;
+}
+
+.outcome-stat.fulfilled strong { color: var(--green); }
+.outcome-stat.unfulfilled strong { color: var(--red); }
+.outcome-stat.progress strong { color: var(--accent); }
+.outcome-stat.overdue strong { color: var(--purple); }
+.outcome-stat.pending strong { color: var(--blue); }
+
+@media (max-width: 900px) {
+  .outcome-grid { grid-template-columns: repeat(2, 1fr); }
+  .outcome-stat { border-bottom: 1px solid var(--line); }
+}
+
+@media (max-width: 520px) {
+  .outcome-grid { grid-template-columns: 1fr; }
+  .outcome-stat { border-right: 0; }
+}
+
 .notice-stack {
   display: grid;
   gap: 8px;
