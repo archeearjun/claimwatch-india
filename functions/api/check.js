@@ -78,8 +78,8 @@ function parseRss(xml, limit = 8) {
 }
 
 function tokens(text) {
-  return (String(text || "").toLowerCase().match(/[a-z][a-z0-9-]{2,}/g) || [])
-    .filter(token => !STOPWORDS.has(token));
+  return (String(text || "").toLowerCase().match(/[^\\W\\d_][\\w-]{1,}/gu) || [])
+    .filter(token => token.length >= 2 && !STOPWORDS.has(token));
 }
 
 function keywords(text, limit = 8) {
@@ -95,13 +95,15 @@ function numericTokens(text) {
   return [...new Set(String(text || "").match(/\b\d+(?:\.\d+)?\b/g) || [])];
 }
 
-function overlap(queryTerms, evidenceText) {
+function matchingTerms(queryTerms, evidenceText) {
   const q = new Set(queryTerms);
-  const e = new Set(keywords(evidenceText, 14));
-  if (!q.size) return 0;
-  let shared = 0;
-  for (const term of q) if (e.has(term)) shared += 1;
-  return shared / q.size;
+  const e = new Set(keywords(evidenceText, 16));
+  return [...q].filter(term => e.has(term));
+}
+
+function overlap(queryTerms, evidenceText) {
+  if (!queryTerms.length) return 0;
+  return matchingTerms(queryTerms, evidenceText).length / queryTerms.length;
 }
 
 function hostname(value) {
@@ -195,6 +197,7 @@ async function promiseMatches(claim) {
           ...(item.numbers || []),
           ...(item.deadline_hints || [])
         ].join(" ");
+        const matched = matchingTerms(qTerms, text);
         return {
           id: item.id,
           year: item.year,
@@ -203,10 +206,11 @@ async function promiseMatches(claim) {
           anchor: item.anchor,
           source_url: item.source_url,
           pdf_url: item.pdf_url,
-          similarity: overlap(qTerms, text)
+          similarity: qTerms.length ? matched.length / qTerms.length : 0,
+          matched_terms: matched.slice(0, 6)
         };
       })
-      .filter(item => item.similarity >= 0.18)
+      .filter(item => item.similarity >= 0.15 && item.matched_terms.length >= 2)
       .sort((a, b) => b.similarity - a.similarity)
       .slice(0, 5)
       .map(item => ({ ...item, similarity: Number(item.similarity.toFixed(3)) }));
@@ -216,7 +220,7 @@ async function promiseMatches(claim) {
 }
 
 function rankEvidence(claim, rows) {
-  const qTerms = keywords(claim, 10);
+  const qTerms = keywords(claim, 12);
   const qNumbers = new Set(numericTokens(claim));
 
   return rows
@@ -224,26 +228,39 @@ function rankEvidence(claim, rows) {
       const evidenceText = [row.title, row.description, row.claim_text].filter(Boolean).join(" ");
       const evidenceNumbers = numericTokens(evidenceText);
       const sharedNumbers = evidenceNumbers.filter(value => qNumbers.has(value));
+      const matchedTerms = matchingTerms(qTerms, evidenceText);
       const official = isOfficial(row);
-      let relevance = overlap(qTerms, evidenceText);
-      if (official) relevance += 0.25;
-      if (sharedNumbers.length) relevance += 0.15;
+
+      let relevance = qTerms.length ? matchedTerms.length / qTerms.length : 0;
+      relevance += Math.min(0.18, matchedTerms.length * 0.035);
+      if (sharedNumbers.length) relevance += Math.min(0.22, sharedNumbers.length * 0.11);
+      if (official) relevance += 0.05;
+
       return {
         ...row,
-        tier: row.tier || (official ? "primary" : "reporting"),
+        tier: row.tier || (official ? "primary" : "secondary"),
         relevance: Number(Math.min(1, relevance).toFixed(3)),
+        matched_terms: matchedTerms.slice(0, 8),
         shared_numbers: sharedNumbers,
         evidence_numbers: evidenceNumbers.slice(0, 8)
       };
     })
-    .filter(row => row.relevance >= 0.08 || row.tier === "fact_check")
+    .filter(row =>
+      row.tier === "fact_check" ||
+      row.shared_numbers.length ||
+      (row.matched_terms.length >= 2 && row.relevance >= 0.13)
+    )
     .sort((a, b) => b.relevance - a.relevance)
     .slice(0, 10);
 }
 
 function buildSignal(claim, evidence) {
   const claimNumbers = numericTokens(claim);
-  const primary = evidence.filter(item => item.tier === "primary" && item.relevance >= 0.3);
+  const primary = evidence.filter(item =>
+    item.tier === "primary" &&
+    item.relevance >= 0.22 &&
+    (item.matched_terms?.length || 0) >= 2
+  );
   const primaryShared = primary.filter(item => item.shared_numbers?.length);
 
   if (primaryShared.length) {
