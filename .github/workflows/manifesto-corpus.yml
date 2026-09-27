@@ -52,4 +52,8 @@ jobs:
           git config user.email "claimwatch-bot@users.noreply.github.com"
           git add data/promises/candidates.json
           git commit -m "data: refresh manifesto promise corpus"
-          git push
+          if ! git push; then
+            echo "Remote advanced during generation; rebasing generated data and retrying."
+            git pull --rebase -X theirs origin main
+            git push
+          fi
