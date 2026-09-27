@@ -78,7 +78,7 @@ function parseRss(xml, limit = 8) {
 }
 
 function tokens(text) {
-  return (String(text || "").toLowerCase().match(/[^\\W\\d_][\\w-]{1,}/gu) || [])
+  return (String(text || "").toLowerCase().match(/\p{L}[\p{L}\p{M}\p{N}-]{1,}/gu) || [])
     .filter(token => token.length >= 2 && !STOPWORDS.has(token));
 }
 
