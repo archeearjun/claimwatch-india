@@ -1165,3 +1165,96 @@ footer strong { color: var(--text); }
   .promise-card-foot,
   .promise-evidence-line { align-items: flex-start; flex-direction: column; }
 }
+
+
+/* Live browser transcription */
+.live-transcribe {
+  position: relative;
+  overflow: hidden;
+}
+.live-transcribe::before {
+  content: "";
+  position: absolute;
+  width: 360px;
+  height: 360px;
+  right: -180px;
+  top: -180px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(241,178,74,.10), rgba(241,178,74,0) 70%);
+  pointer-events: none;
+}
+.transcribe-grid {
+  display: grid;
+  grid-template-columns: .78fr 1.22fr;
+  gap: 16px;
+  margin-top: 22px;
+}
+.transcribe-controls,
+.transcribe-output,
+.live-claims {
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--panel-2);
+  padding: 18px;
+}
+.transcribe-controls label {
+  display: grid;
+  gap: 8px;
+  color: var(--muted);
+  font-size: .82rem;
+}
+.transcribe-controls select {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 10px 12px;
+  background: #0f1115;
+  color: var(--text);
+  font: inherit;
+}
+.transcribe-output-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.transcribe-output-head > span {
+  color: var(--muted);
+  font-size: .78rem;
+}
+.live-transcript {
+  min-height: 220px;
+  max-height: 420px;
+  overflow: auto;
+  white-space: pre-wrap;
+  color: #e6e9ef;
+  line-height: 1.7;
+  font-size: .96rem;
+}
+.live-claims {
+  margin-top: 16px;
+}
+.model-progress {
+  height: 5px;
+  overflow: hidden;
+  background: #0f1115;
+  border-radius: 999px;
+  margin: 10px 0 12px;
+}
+.model-progress span {
+  display: block;
+  width: 0;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--accent);
+  transition: width .2s ease;
+}
+#live-status[data-kind="error"] { color: var(--bad); }
+#live-status[data-kind="ready"] { color: var(--good); }
+#live-status[data-kind="working"],
+#live-status[data-kind="loading"] { color: var(--warn); }
+
+@media (max-width: 900px) {
+  .transcribe-grid { grid-template-columns: 1fr; }
+}
