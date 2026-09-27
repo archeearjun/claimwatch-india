@@ -2,6 +2,10 @@ name: Discovery scan
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - "scanner/**"
+      - ".github/workflows/discovery-scan.yml"
   schedule:
     - cron: "17 * * * *"
 
