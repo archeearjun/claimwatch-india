@@ -142,6 +142,30 @@ class EvidenceRankingTests(unittest.TestCase):
         }
         self.assertEqual(evidence.promise_deadline_year(promise), 2019)
 
+    def test_target_selector_prefers_future_target_over_baseline(self):
+        promise = {
+            "year": 2019,
+            "exact_text": (
+                "We have achieved 76.87 GW of renewable capacity as on 2019. "
+                "We will achieve 175 GW by 2022."
+            ),
+            "numbers": ["76.87 GW", "175 GW"],
+            "deadline_hints": ["by 2022"],
+        }
+        target = evidence.promise_target_quantity(promise)
+        self.assertEqual(target["kind"], "power_mw")
+        self.assertEqual(target["value"], 175000.0)
+
+    def test_duration_is_not_selected_as_outcome_target(self):
+        promise = {
+            "year": 2019,
+            "exact_text": "In the next 5 years we will create 200 new schools.",
+            "numbers": ["5 years", "200 schools"],
+            "deadline_hints": ["next 5 years"],
+        }
+        target = evidence.promise_target_quantity(promise)
+        self.assertEqual(target["value"], 200.0)
+
     def test_structured_proof_can_prove_deadline_miss(self):
         packet = {
             "year": 2014,
