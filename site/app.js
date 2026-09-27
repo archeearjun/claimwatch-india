@@ -906,7 +906,7 @@ $$(".outcome-filter").forEach(button => {
 });
 $$(".promise-year").forEach(button => {
   button.addEventListener("click", () => {
-    $$$(".promise-year").forEach(b => b.classList.remove("active"));
+    $$(".promise-year").forEach(b => b.classList.remove("active"));
     button.classList.add("active");
     state.promiseYear = button.dataset.year;
     state.promiseLimit = 18;
