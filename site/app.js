@@ -97,11 +97,14 @@ function instantResultHtml(result) {
   const signal = result?.signal || {};
   const evidence = (result?.evidence || []).slice(0, 5);
   const promises = (result?.promise_matches || []).slice(0, 4);
+  const publishable = Boolean(signal.publishable_verdict);
+  const verdict = result?.verdict || signal.verdict || "pending";
 
   return `
     <div class="instant-signal ${escapeHtml(signalClass(signal.level || "pending"))}">
-      <strong>${escapeHtml(signal.label || "Verification pending")}</strong>
+      <strong>${publishable ? `Automated verdict · ${escapeHtml(verdictLabel(verdict))}` : escapeHtml(signal.label || "Verification pending")}</strong>
       <p>${escapeHtml(signal.reason || "ClaimWatch has not established a final verdict.")}</p>
+      ${result?.cached ? `<small class="cache-note">Matched a previously checked claim · ${Math.round((result.cache_similarity || 0) * 100)}% similarity</small>` : ""}
     </div>
     ${evidence.length ? `
       <div class="instant-evidence">
@@ -148,11 +151,31 @@ function kindClass(kind) {
 }
 
 function signalClass(level) {
-  if (String(level).includes("structured")) return "strong";
-  if (String(level).includes("primary")) return "primary";
-  if (String(level).includes("fact")) return "fact";
-  if (String(level).includes("reporting")) return "secondary";
+  const value = String(level || "");
+  if (value.includes("contradicted") || value.includes("conflict")) return "danger";
+  if (value.includes("supported") || value.includes("target_evidence")) return "strong";
+  if (value.includes("action_detected")) return "action";
+  if (value.includes("structured")) return "strong";
+  if (value.includes("primary")) return "primary";
+  if (value.includes("fact")) return "fact";
+  if (value.includes("reporting")) return "secondary";
   return "pending";
+}
+
+function verdictLabel(value) {
+  return ({
+    supported: "SUPPORTED",
+    contradicted: "CONTRADICTED",
+    insufficient: "INSUFFICIENT EVIDENCE",
+    context: "MISSING CONTEXT",
+    pending: "PENDING"
+  })[value] || humanize(value || "pending").toUpperCase();
+}
+
+function candidateText(raw) {
+  if (typeof raw === "string") return raw;
+  if (raw && typeof raw === "object") return raw.text || "";
+  return "";
 }
 
 function signalLabel(signal) {
@@ -246,7 +269,8 @@ function renderDiscovery() {
 
   root.innerHTML = items.slice(0, 24).map(item => {
     const claims = item.candidate_claims || [];
-    const claim = claims[0];
+    const promises = item.candidate_promises || [];
+    const claim = candidateText(claims[0]);
     const sourceName = item.channel_title || item.source || "Source";
     return `
       <article class="source-card">
@@ -265,7 +289,7 @@ function renderDiscovery() {
           <div class="quiet-note">No high-confidence factual sentence extracted from the available feed text.</div>
         `}
         <div class="source-card-footer">
-          <span>${claims.length} candidate${claims.length === 1 ? "" : "s"}</span>
+          <span>${claims.length} factual candidate${claims.length === 1 ? "" : "s"}${promises.length ? ` · ${promises.length} promise candidate${promises.length === 1 ? "" : "s"}` : ""}</span>
           <a href="${escapeHtml(safeUrl(item.url))}" target="_blank" rel="noopener noreferrer">Open source ↗</a>
         </div>
       </article>
@@ -311,6 +335,8 @@ function renderEvidence() {
     const factChecks = (packet.fact_checks || []).slice(0, 3);
     const signal = packet.signal || {};
     const level = signal.level || "pending";
+    const verdict = packet.verdict || signal.verdict || "pending";
+    const publishable = Boolean(signal.publishable_verdict);
 
     return `
       <article class="evidence-card">
@@ -360,9 +386,14 @@ function renderEvidence() {
           </div>
         ` : ""}
 
+        ${signal.reason ? `<p class="machine-reason">${escapeHtml(signal.reason)}</p>` : ""}
         <div class="evidence-card-foot">
           <a href="${escapeHtml(safeUrl(source.url))}" target="_blank" rel="noopener noreferrer">Original statement ↗</a>
-          <span>Verdict: <b>PENDING</b></span>
+          <span class="verdict-readout ${publishable ? signalClass(level) : "pending"}">
+            ${publishable ? "Automated verdict" : "Evidence state"}:
+            <b>${escapeHtml(verdictLabel(verdict))}</b>
+            ${publishable ? "<small>strict independent-primary gate</small>" : ""}
+          </span>
         </div>
       </article>
     `;
@@ -487,10 +518,12 @@ function renderPromises() {
           <span class="signal ${signalClass(currentSignal)}">${escapeHtml(humanize(currentSignal))}</span>
         </div>
 
+        ${packet?.status_reason ? `<p class="machine-reason">${escapeHtml(packet.status_reason)}</p>` : ""}
+
         <div class="promise-card-foot">
           <a href="${escapeHtml(safeUrl(item.source_url))}" target="_blank" rel="noopener noreferrer">Manifesto record ↗</a>
           <a href="${escapeHtml(safeUrl(item.pdf_url))}" target="_blank" rel="noopener noreferrer">PDF ↗</a>
-          <span>Status: <b>PENDING</b></span>
+          <span>Automated action signal: <b>${escapeHtml(humanize(currentSignal))}</b></span>
         </div>
       </article>
     `;
