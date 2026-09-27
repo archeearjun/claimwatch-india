@@ -22,6 +22,20 @@ class ManifestoExtractionTests(unittest.TestCase):
             [],
         )
 
+    def test_pdf_fi_ligature_and_nav_numbers_are_cleaned(self):
+        cleaned = manifestos.normalize_text(
+            "Road Connectivity 13 14 15 16 We will improve \x00nancial access in the next \x00ve years."
+        )
+        self.assertIn("financial access", cleaned)
+        self.assertIn("five years", cleaned)
+        self.assertNotIn("13 14 15 16", cleaned)
+
+    def test_navigation_numbers_do_not_create_measurable_target(self):
+        cleaned = manifestos.normalize_text(
+            "Road Connectivity 13 14 15 16 We will complete the dedicated freight corridor project."
+        )
+        self.assertEqual(manifestos.extract_numbers(cleaned), [])
+
 
 class DiscoveryExtractionTests(unittest.TestCase):
     def test_social_footer_is_not_a_claim(self):
@@ -41,6 +55,18 @@ class DiscoveryExtractionTests(unittest.TestCase):
         )
         rows = scan.candidate_claims(text)
         self.assertEqual(len(rows), 1)
+
+    def test_not_only_is_not_a_statistical_comparison(self):
+        rows = scan.candidate_claims(
+            "Behind this achievement is not only your hard work but also your family's support."
+        )
+        self.assertEqual(rows, [])
+
+    def test_embedded_editor_markup_is_not_a_claim(self):
+        rows = scan.candidate_claims(
+            'News Updates <span data-mce-type="bookmark">65279</span> PM remarks 19 Sep 2026.'
+        )
+        self.assertEqual(rows, [])
 
 
 class EvidenceRankingTests(unittest.TestCase):
@@ -68,6 +94,24 @@ class EvidenceRankingTests(unittest.TestCase):
         self.assertEqual(len(ranked), 1)
         self.assertIn("100", ranked[0]["shared_numbers"])
         self.assertGreaterEqual(len(ranked[0]["matched_terms"]), 2)
+
+    def test_claim_object_is_normalized(self):
+        row = evidence.normalize_claim({
+            "text": "More than 51,000 youth received appointment letters.",
+            "reasons": ["number"],
+            "numbers": ["51,000"],
+        })
+        self.assertEqual(row["text"], "More than 51,000 youth received appointment letters.")
+        self.assertEqual(row["numbers"], ["51,000"])
+
+    def test_claim_maker_source_is_not_independent_primary(self):
+        row = {
+            "tier": "primary",
+            "source": "PM India",
+            "source_url": "https://www.pmindia.gov.in/en/news_updates/example/",
+            "url": "https://news.google.com/rss/articles/example",
+        }
+        self.assertFalse(evidence.is_independent_primary(row))
 
 
 if __name__ == "__main__":
