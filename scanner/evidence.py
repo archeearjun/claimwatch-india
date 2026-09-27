@@ -118,6 +118,7 @@ def normalize_claim(raw):
             "text": raw.strip(),
             "reasons": [],
             "numbers": sorted(numeric_tokens(raw)),
+            "context_before": "",
         }
     if isinstance(raw, dict):
         text = str(raw.get("text") or "").strip()
@@ -125,8 +126,9 @@ def normalize_claim(raw):
             "text": text,
             "reasons": list(raw.get("reasons") or []),
             "numbers": list(raw.get("numbers") or sorted(numeric_tokens(text))),
+            "context_before": str(raw.get("context_before") or "").strip(),
         }
-    return {"text": "", "reasons": [], "numbers": []}
+    return {"text": "", "reasons": [], "numbers": [], "context_before": ""}
 
 def hostname(value):
     try:
@@ -700,12 +702,16 @@ def build_claim_packets(discovery, promises):
 
     for item, idx, claim_record in candidates[:14]:
         claim = claim_record["text"]
-        query = query_from_text(claim)
+        context_before = claim_record.get("context_before", "")
+        retrieval_text = " ".join(
+            part for part in (context_before, claim) if part
+        ).strip()
+        query = query_from_text(retrieval_text)
         if not query:
             continue
 
         try:
-            evidence = retrieve_evidence(query, claim, hydrate_primary=True)
+            evidence = retrieve_evidence(query, retrieval_text, hydrate_primary=True)
         except Exception as exc:
             evidence = []
             errors.append({
@@ -732,6 +738,7 @@ def build_claim_packets(discovery, promises):
             "extraction": {
                 "reasons": claim_record.get("reasons", []),
                 "numbers": claim_record.get("numbers", []),
+                "context_before": context_before,
             },
             "claim_source": {
                 "id": item.get("id"),
