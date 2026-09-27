@@ -1258,3 +1258,100 @@ footer strong { color: var(--text); }
 @media (max-width: 900px) {
   .transcribe-grid { grid-template-columns: 1fr; }
 }
+
+
+/* Instant evidence checks */
+.candidate-check-row {
+  margin-top: 11px;
+}
+.mini-check {
+  border: 1px solid rgba(241,178,74,.34);
+  background: rgba(241,178,74,.08);
+  color: var(--accent);
+  border-radius: 9px;
+  padding: 7px 10px;
+  font: inherit;
+  font-size: .78rem;
+  font-weight: 750;
+  cursor: pointer;
+}
+.mini-check:disabled {
+  opacity: .55;
+  cursor: wait;
+}
+.instant-result {
+  margin-top: 12px;
+}
+.instant-signal {
+  border: 1px solid var(--line);
+  border-left-width: 3px;
+  border-radius: 10px;
+  padding: 11px 12px;
+  background: #101217;
+}
+.instant-signal strong {
+  display: block;
+  font-size: .86rem;
+}
+.instant-signal p {
+  color: var(--muted);
+  margin: 5px 0 0;
+  line-height: 1.45;
+  font-size: .82rem;
+}
+.instant-signal.strong,
+.instant-signal.primary {
+  border-left-color: var(--good);
+}
+.instant-signal.fact {
+  border-left-color: var(--info);
+}
+.instant-signal.secondary {
+  border-left-color: var(--warn);
+}
+.instant-signal.pending {
+  border-left-color: var(--muted);
+}
+.instant-evidence,
+.instant-promises {
+  display: grid;
+  gap: 6px;
+  margin-top: 10px;
+}
+.instant-heading {
+  color: var(--muted);
+  font-size: .66rem;
+  font-weight: 800;
+  letter-spacing: .09em;
+}
+.instant-evidence a,
+.instant-promises a {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 8px;
+  align-items: center;
+  color: #dfe3ea;
+  text-decoration: none;
+  border: 1px solid var(--line);
+  background: #101217;
+  border-radius: 9px;
+  padding: 8px 9px;
+  font-size: .78rem;
+}
+.instant-evidence a:hover,
+.instant-promises a:hover {
+  border-color: rgba(241,178,74,.45);
+}
+.instant-evidence small,
+.instant-promises small {
+  color: var(--muted);
+}
+.instant-promises b {
+  color: var(--accent);
+}
+.instant-disclaimer {
+  color: var(--muted);
+  font-size: .72rem;
+  line-height: 1.4;
+  margin: 9px 0 0;
+}
