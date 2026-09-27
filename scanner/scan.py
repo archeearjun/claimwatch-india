@@ -45,8 +45,9 @@ ACCOMPLISHMENT_RE = re.compile(
 FUTURE_RE = re.compile(
     r"\b(?:we will|bjp will|government will|our government will|"
     r"will make|will ensure|will provide|will launch|will create|will develop|"
-    r"will establish|will expand|will increase|will continue|will implement|"
-    r"will introduce|will set up|aim to|target|goal|by\s+20\d{2})\b",
+    r"will establish|will expand|will increase|will implement|"
+    r"will introduce|will set up|we aim to|our aim is|our target|our goal|"
+    r"goal of making|target of|by\s+20\d{2})\b",
     re.I,
 )
 SUBJECTIVE_RE = re.compile(
