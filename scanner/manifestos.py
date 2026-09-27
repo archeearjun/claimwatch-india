@@ -44,8 +44,8 @@ ACTION_RE = re.compile(
 )
 
 NUMBER_RE = re.compile(
-    r"\b\d+(?:\.\d+)?\s*(?:%|percent|crore|lakh|million|billion|trillion|km|mw|gw|"
-    r"years?|months?|days?|houses?|jobs?|schools?|hospitals?|colleges?|universities?)?\b",
+    r"\b(?:\d{1,3}(?:,\d{3})+|\d+)(?:\.\d+)?\s*(?:%|percent|crore|lakh|million|billion|trillion|km|mw|gw|"
+    r"years?|months?|days?|houses?|jobs?|schools?|hospitals?|colleges?|universities?|fpos?)?\b",
     re.I,
 )
 
