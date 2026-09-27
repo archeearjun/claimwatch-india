@@ -26,7 +26,7 @@ SESSION.headers.update({
 
 NLI_MODEL_NAME = os.getenv(
     "NLI_MODEL",
-    "cross-encoder/nli-MiniLM2-L6-H768",
+    "MoritzLaurer/multilingual-MiniLMv2-L6-mnli-xnli",
 )
 ENABLE_NLI = os.getenv("ENABLE_NLI", "1") != "0"
 _NLI_BUNDLE = None
@@ -543,12 +543,12 @@ def nli_scores(evidence_text, claim_text):
         logits = model(**features).logits[0]
         probs = torch.softmax(logits, dim=-1).tolist()
 
-    # cross-encoder/nli-MiniLM2-L6-H768 label order:
-    # contradiction, entailment, neutral.
+    # MoritzLaurer/multilingual-MiniLMv2-L6-mnli-xnli label order:
+    # entailment, neutral, contradiction.
     return {
-        "contradiction": float(probs[0]),
-        "entailment": float(probs[1]),
-        "neutral": float(probs[2]),
+        "entailment": float(probs[0]),
+        "neutral": float(probs[1]),
+        "contradiction": float(probs[2]),
     }
 
 def strict_signal(text, evidence, factchecks):
@@ -800,6 +800,136 @@ def previous_promise_packets():
         if packet.get("promise_id")
     }
 
+WORD_NUMBERS = {
+    "one": 1,
+    "two": 2,
+    "three": 3,
+    "four": 4,
+    "five": 5,
+    "six": 6,
+    "seven": 7,
+    "eight": 8,
+    "nine": 9,
+    "ten": 10,
+}
+
+
+def promise_deadline_year(promise):
+    year = int(promise.get("year") or 0)
+    hints = " ".join(promise.get("deadline_hints") or []).lower()
+    text = " ".join([
+        promise.get("exact_text") or "",
+        hints,
+    ]).lower()
+
+    explicit = re.search(r"\b(?:by|before|until|through)\s+(20\d{2})\b", text)
+    if explicit:
+        return int(explicit.group(1))
+
+    numeric = re.search(r"\b(?:within|next|over the next|in the next)\s+(\d+)\s+years?\b", text)
+    if numeric and year:
+        return year + int(numeric.group(1))
+
+    words = re.search(
+        r"\b(?:within|next|over the next|in the next)\s+"
+        r"(one|two|three|four|five|six|seven|eight|nine|ten)\s+years?\b",
+        text,
+    )
+    if words and year:
+        return year + WORD_NUMBERS[words.group(1)]
+
+    return None
+
+
+def promise_outcome(packet):
+    current_year = datetime.now(timezone.utc).year
+    deadline_year = promise_deadline_year(packet)
+    signal = packet.get("implementation_signal") or "needs_research"
+
+    verified_primary = [
+        row for row in packet.get("evidence", [])
+        if row.get("tier") == "primary" and is_verified_primary(row)
+    ]
+
+    result = {
+        "status": "insufficient_evidence",
+        "deadline_year": deadline_year,
+        "proof_strength": "none",
+        "proof_evidence_id": None,
+        "reason": "Available evidence is not yet sufficient for a documented outcome.",
+    }
+
+    if signal == "target_evidence_detected":
+        proof = next(
+            (
+                row for row in verified_primary
+                if row.get("shared_numbers")
+            ),
+            verified_primary[0] if verified_primary else None,
+        )
+        return {
+            **result,
+            "status": "fulfilled_evidence",
+            "proof_strength": "verified_primary_target_match",
+            "proof_evidence_id": proof.get("id") if proof else None,
+            "reason": "Verified primary evidence contains completion language and the target value.",
+        }
+
+    if deadline_year and current_year <= deadline_year:
+        return {
+            **result,
+            "status": "deadline_not_reached",
+            "reason": f"The extracted deadline is {deadline_year}, so the promise is not yet overdue.",
+        }
+
+    if signal in {
+        "action_detected",
+        "current_primary_and_reporting_found",
+        "current_primary_evidence_found",
+    }:
+        return {
+            **result,
+            "status": "progress_documented",
+            "proof_strength": "verified_primary_action",
+            "proof_evidence_id": verified_primary[0].get("id") if verified_primary else None,
+            "reason": "Verified primary evidence shows implementation activity, but not enough to establish the promised outcome.",
+        }
+
+    if deadline_year and current_year > deadline_year:
+        return {
+            **result,
+            "status": "deadline_passed_unresolved",
+            "reason": f"The extracted deadline ({deadline_year}) has passed, but ClaimWatch does not yet have direct comparable evidence proving fulfilment or non-fulfilment.",
+        }
+
+    if not packet.get("measurable"):
+        return {
+            **result,
+            "status": "not_machine_measurable",
+            "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof.",
+        }
+
+    return result
+
+
+def promise_outcome_summary(promise_packets):
+    counts = Counter()
+    for packet in promise_packets:
+        outcome = packet.get("outcome") or promise_outcome(packet)
+        counts[outcome.get("status") or "insufficient_evidence"] += 1
+
+    return {
+        "fulfilled_evidence": counts["fulfilled_evidence"],
+        "proven_unfulfilled_by_deadline": counts["proven_unfulfilled_by_deadline"],
+        "progress_documented": counts["progress_documented"],
+        "deadline_passed_unresolved": counts["deadline_passed_unresolved"],
+        "deadline_not_reached": counts["deadline_not_reached"],
+        "insufficient_evidence": counts["insufficient_evidence"],
+        "not_machine_measurable": counts["not_machine_measurable"],
+        "audited_total": sum(counts.values()),
+    }
+
+
 def build_promise_packets(promises):
     priority = sorted(
         promises,
@@ -901,7 +1031,7 @@ def build_promise_packets(promises):
         else:
             signal = "needs_research"
 
-        packets.append({
+        packet = {
             "id": stable_id("promise_packet", promise["id"], query),
             "checked_at": now_iso(),
             "promise_id": promise["id"],
@@ -926,7 +1056,9 @@ def build_promise_packets(promises):
                 "This is an automated implementation-evidence signal. Final fulfilment "
                 "requires the original target and current metric to be directly comparable."
             ),
-        })
+        }
+        packet["outcome"] = promise_outcome(packet)
+        packets.append(packet)
 
     return packets, errors
 
@@ -951,6 +1083,8 @@ def main():
     for packet in fresh_promise_packets:
         merged_promises[packet["promise_id"]] = packet
     promise_packets = list(merged_promises.values())
+    for packet in promise_packets:
+        packet["outcome"] = promise_outcome(packet)
     promise_packets.sort(
         key=lambda p: (
             -int(p.get("year", 0)),
@@ -1004,6 +1138,7 @@ def main():
                 1 for packet in claim_packets
                 if packet.get("signal", {}).get("publishable_verdict")
             ),
+            "promise_outcomes": promise_outcome_summary(promise_packets),
         },
         "claim_packets": claim_packets,
         "promise_packets": promise_packets,
@@ -1015,6 +1150,7 @@ def main():
             "PMIndia/party material is provenance for what was said, not proof that the claim is true.",
             "Automated supported/contradicted verdicts require a strict verified-primary NLI gate; uncertain cases remain pending.",
             "Promise evidence scanning rotates through the corpus and preserves prior checks so coverage accumulates over time.",
+            "The promise dashboard distinguishes proven outcome states from overdue-but-unresolved commitments; an expired deadline alone is not proof of non-fulfilment.",
             "A contradiction is not treated as proof of deliberate deception.",
         ],
     }
