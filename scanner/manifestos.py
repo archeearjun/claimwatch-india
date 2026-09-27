@@ -79,7 +79,15 @@ def stable_id(*parts):
     return hashlib.sha256("|".join(str(x) for x in parts).encode("utf-8")).hexdigest()[:18]
 
 def normalize_text(text):
-    text = text.replace("\u00ad", "")
+    # pypdf occasionally emits the common "fi" ligature as a NUL marker.
+    # Repair it before tokenisation so "financial", "five", "profitability",
+    # etc. do not become corrupted corpus terms.
+    text = (text or "").replace("\u00ad", "")
+    text = text.replace("\x00", "fi").replace("ﬁ", "fi").replace("ﬂ", "fl")
+    text = re.sub(r"/?circle\d+", " ", text, flags=re.I)
+    # Design-heavy manifesto PDFs sometimes leak navigation/page sequences
+    # such as "13 14 15 16" into the extracted sentence.
+    text = re.sub(r"(?:\b\d{1,2}\b[\s|/,:-]*){3,}", " ", text)
     text = re.sub(r"(?<=\w)-\s+(?=\w)", "", text)
     text = re.sub(r"\s+", " ", text)
     return text.strip()
