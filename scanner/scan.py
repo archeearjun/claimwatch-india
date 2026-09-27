@@ -7,6 +7,7 @@ from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from urllib.parse import urlencode, urlparse, urlunparse, parse_qsl
+from urllib.robotparser import RobotFileParser
 
 import feedparser
 import requests
@@ -248,6 +249,105 @@ def extract_page_text(html):
     if soup.body:
         return sanitize_text(soup.body.get_text(" ", strip=True))
     return ""
+
+
+def robots_allowed(url):
+    parsed = urlparse(str(url or ""))
+    if parsed.scheme not in {"http", "https"} or not parsed.netloc:
+        return False
+    try:
+        response = SESSION.get(
+            f"{parsed.scheme}://{parsed.netloc}/robots.txt",
+            timeout=7,
+        )
+        if response.status_code >= 400:
+            return True
+        robot = RobotFileParser()
+        robot.parse(response.text.splitlines())
+        return robot.can_fetch(USER_AGENT, url)
+    except Exception:
+        return True
+
+
+def fetch_news_article(url):
+    if not robots_allowed(url):
+        return "", "robots_disallowed"
+    try:
+        response = SESSION.get(url, timeout=TIMEOUT, allow_redirects=True)
+        if response.status_code != 200:
+            return "", f"http_{response.status_code}"
+        ctype = response.headers.get("content-type", "").lower()
+        if "html" not in ctype:
+            return "", "non_html"
+        text = extract_page_text(response.text[:4_000_000])
+        if len(text) < 400:
+            return "", "page_text_too_short"
+        return text, "full_page"
+    except Exception as exc:
+        return "", f"fetch_error:{type(exc).__name__}"
+
+
+def scan_bing_news():
+    queries = [
+        '"Narendra Modi"',
+        '"Bharatiya Janata Party" BJP',
+    ]
+    rows, errors = [], []
+    read_budget = 8
+
+    for query in queries:
+        try:
+            response = SESSION.get(
+                "https://www.bing.com/news/search",
+                params={"q": query, "format": "rss"},
+                timeout=TIMEOUT,
+            )
+            response.raise_for_status()
+            feed = feedparser.parse(response.content)
+        except Exception as exc:
+            errors.append({
+                "source": "Bing News RSS",
+                "query": query,
+                "error": type(exc).__name__,
+            })
+            continue
+
+        for entry in feed.entries[:20]:
+            url = entry.get("link")
+            if not url:
+                continue
+
+            metadata_text = " ".join([
+                clean_html(entry.get("title", "")),
+                entry_text(entry),
+            ]).strip()
+
+            article_text = ""
+            read_status = "rss_discovery"
+            if read_budget > 0:
+                article_text, read_status = fetch_news_article(url)
+                read_budget -= 1
+
+            source_text = article_text or metadata_text
+            claims, promises = extract_candidates(
+                source_text,
+                claim_limit=5,
+                promise_limit=2,
+            )
+            rows.append({
+                "id": stable_id("bing_news", url),
+                "kind": "news",
+                "source": urlparse(url).netloc.replace("www.", "") or "Bing News",
+                "title": clean_html(entry.get("title", "News result")),
+                "url": url,
+                "published_at": parse_date(entry.get("published")),
+                "candidate_claims": claims,
+                "candidate_promises": promises,
+                "read_status": read_status,
+                "body_read": bool(article_text),
+            })
+
+    return rows, errors
 
 
 def fetch_pmindia_transcript(url):
@@ -505,6 +605,7 @@ def main():
     for scanner in (
         scan_pmindia,
         scan_google_news,
+        scan_bing_news,
         scan_youtube_channel_feeds,
         scan_optional_youtube_search,
     ):
@@ -525,7 +626,8 @@ def main():
             "PMIndia full publisher text is preferred over generated transcription when available.",
             "Core YouTube discovery uses public channel feeds and requires no API key.",
             "A YouTube API key is optional and only expands discovery beyond the core channels.",
-            "News RSS is discovery/context evidence, not proof of a political claim by itself.",
+            "Recent news article bodies are read only where publisher robots/access rules allow; stored output contains short extracted claim/context fragments, not article copies.",
+            "News is discovery/context evidence, not proof of a political claim by itself.",
         ],
     }
 
