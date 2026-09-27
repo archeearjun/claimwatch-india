@@ -966,6 +966,129 @@ footer a {
 
 .evidence-card-foot b { color: var(--yellow); }
 
+.memory-summary {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 20px 0 14px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 13px;
+}
+
+.memory-summary div {
+  padding: 14px;
+  border-right: 1px solid var(--line);
+  background: var(--bg-soft);
+}
+
+.memory-summary div:last-child { border-right: 0; }
+
+.memory-summary span {
+  display: block;
+  color: var(--muted);
+  font-size: .68rem;
+}
+
+.memory-summary strong {
+  display: block;
+  margin-top: 4px;
+  font-size: 1.4rem;
+}
+
+.claim-family-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.claim-family-card {
+  padding: 17px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--panel-2);
+}
+
+.claim-family-head,
+.claim-family-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.occurrence-count {
+  color: var(--accent);
+  font-size: .75rem;
+  font-weight: 850;
+}
+
+.claim-family-card blockquote {
+  margin: 14px 0;
+  padding-left: 13px;
+  border-left: 3px solid var(--purple);
+  line-height: 1.5;
+  color: #e8eaf0;
+}
+
+.claim-family-meta {
+  justify-content: flex-start;
+  color: var(--muted);
+  font-size: .7rem;
+}
+
+.claim-family-card details {
+  margin-top: 13px;
+  border-top: 1px solid var(--line);
+  padding-top: 10px;
+}
+
+.claim-family-card summary {
+  cursor: pointer;
+  color: var(--muted);
+  font-size: .75rem;
+  font-weight: 750;
+}
+
+.occurrence-list {
+  display: grid;
+  gap: 7px;
+  margin-top: 9px;
+}
+
+.occurrence-list a {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  gap: 5px 9px;
+  padding: 9px;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  color: inherit;
+  background: #101318;
+  text-decoration: none;
+}
+
+.occurrence-list span {
+  color: var(--muted);
+  font-size: .68rem;
+}
+
+.occurrence-list strong {
+  font-size: .76rem;
+}
+
+.occurrence-list small {
+  grid-column: 1 / -1;
+  color: #cfd4dc;
+  line-height: 1.4;
+}
+
+@media (max-width: 780px) {
+  .memory-summary,
+  .claim-family-list { grid-template-columns: 1fr; }
+  .memory-summary div { border-right: 0; border-bottom: 1px solid var(--line); }
+}
+
 .promise-controls {
   display: grid;
   grid-template-columns: minmax(260px, 1fr) auto auto;
