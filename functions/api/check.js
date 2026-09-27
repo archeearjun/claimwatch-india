@@ -93,7 +93,8 @@ function keywords(text, limit = 8) {
 }
 
 function numericTokens(text) {
-  return [...new Set(String(text || "").match(/\b\d+(?:\.\d+)?\b/g) || [])];
+  const values = String(text || "").match(/\b(?:\d{1,3}(?:,\d{3})+|\d+)(?:\.\d+)?\b/g) || [];
+  return [...new Set(values.map(value => value.replace(/,/g, "")))];
 }
 
 function matchingTerms(queryTerms, evidenceText) {
