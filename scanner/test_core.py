@@ -111,7 +111,22 @@ class EvidenceRankingTests(unittest.TestCase):
             "source_url": "https://www.pmindia.gov.in/en/news_updates/example/",
             "url": "https://news.google.com/rss/articles/example",
         }
-        self.assertFalse(evidence.is_independent_primary(row))
+        self.assertFalse(evidence.is_verified_primary(row))
+
+    def test_comma_grouped_number_is_one_token(self):
+        self.assertEqual(
+            evidence.numeric_tokens("More than 51,000 appointment letters"),
+            {"51000"},
+        )
+
+    def test_non_official_result_cannot_inherit_primary_tier(self):
+        row = {
+            "tier": "primary",
+            "source": "Reader's Digest",
+            "source_url": "https://www.rd.com/article/example/",
+            "url": "https://www.rd.com/article/example/",
+        }
+        self.assertFalse(evidence.is_verified_primary(row))
 
 
 if __name__ == "__main__":
