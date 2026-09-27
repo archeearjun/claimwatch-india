@@ -251,7 +251,7 @@ class EvidenceRankingTests(unittest.TestCase):
             "source_url": "https://stats.example.gov.in/gdp",
             "url": "https://stats.example.gov.in/gdp",
             "title": "GDP growth in 2026",
-            "snippet": "Official estimates show growth of 7.8 percent in 2026.",
+            "snippet": "Official estimates show the GDP growth rate was 7.8 percent in 2026.",
             "relevance": 0.8,
             "matched_terms": ["growth", "rate", "2026"],
             "shared_numbers": ["2026"],
