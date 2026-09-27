@@ -1,11 +1,10 @@
-name: Discovery + evidence scan
+name: Discovery scan
 
 on:
   workflow_dispatch:
   push:
     paths:
       - "scanner/scan.py"
-      - "scanner/evidence.py"
       - "scanner/requirements.txt"
       - ".github/workflows/discovery-scan.yml"
   schedule:
@@ -21,7 +20,7 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
         with:
@@ -36,26 +35,23 @@ jobs:
       - name: Install scanner dependencies
         run: pip install -r scanner/requirements.txt
 
+      - name: Rebase to latest main before generating
+        run: git pull --rebase origin main
+
       - name: Discover current sources
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: python scanner/scan.py
 
-      - name: Build evidence packets from this scan
-        env:
-          FACTCHECK_API_KEY: ${{ secrets.FACTCHECK_API_KEY }}
-        run: python scanner/evidence.py
-
-      - name: Commit discovery and evidence feeds if changed
+      - name: Commit discovery feed if changed
         shell: bash
         run: |
-          if git diff --quiet -- data/discovery/latest.json data/evidence/latest.json; then
-            echo "No intelligence-feed change."
+          if git diff --quiet -- data/discovery/latest.json; then
+            echo "No discovery-feed change."
             exit 0
           fi
           git config user.name "claimwatch-bot"
           git config user.email "claimwatch-bot@users.noreply.github.com"
-          git add data/discovery/latest.json data/evidence/latest.json
-          git commit -m "data: refresh discovery and evidence"
-          git pull --rebase origin main
+          git add data/discovery/latest.json
+          git commit -m "data: refresh discovery feed"
           git push
