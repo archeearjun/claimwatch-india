@@ -27,6 +27,11 @@ jobs:
     if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    env:
+      ENABLE_NLI: "1"
+      NLI_MODEL: cross-encoder/nli-MiniLM2-L6-H768
+      HF_HOME: ~/.cache/huggingface
+
     steps:
       - uses: actions/checkout@v4
         with:
@@ -39,8 +44,17 @@ jobs:
           cache: "pip"
           cache-dependency-path: scanner/requirements.txt
 
+      - name: Cache evidence model
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: claimwatch-nli-minilm2-v1
+
       - name: Install dependencies
-        run: pip install -r scanner/requirements.txt
+        run: |
+          pip install -r scanner/requirements.txt
+          pip install --index-url https://download.pytorch.org/whl/cpu torch
+          pip install transformers==4.56.2
 
       - name: Sync latest main
         run: git pull --rebase origin main
