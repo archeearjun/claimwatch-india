@@ -122,9 +122,19 @@ def extract_deadlines(text):
     return found[:3]
 
 def extract_numbers(text):
+    """Return target-like numeric expressions, excluding bare calendar years."""
     found = []
     for match in NUMBER_RE.finditer(text):
         value = match.group(0).strip()
+        if YEAR_RE.fullmatch(value):
+            continue
+        if value not in found:
+            found.append(value)
+    return found[:5]
+
+def extract_years(text):
+    found = []
+    for value in re.findall(r"\\b(?:19|20)\\d{2}\\b", text):
         if value not in found:
             found.append(value)
     return found[:5]
@@ -150,14 +160,18 @@ def jaccard(a, b):
     return len(aa & bb) / len(aa | bb)
 
 def parse_manifesto(source):
-    urls = [source["pdf_url"], *(source.get("fallback_pdf_urls") or [])]
+    # Some official sites throttle automated runners.  When an explicitly
+    # registered fallback points to the same official document, try that copy
+    # first while preserving the canonical BJP URL as provenance.
+    fallbacks = source.get("fallback_pdf_urls") or []
+    urls = [*fallbacks, source["pdf_url"]] if fallbacks else [source["pdf_url"]]
     pdf_bytes = None
     download_url_used = None
     failures = []
 
     for url in urls:
         try:
-            response = SESSION.get(url, timeout=(20, 150))
+            response = SESSION.get(url, timeout=(15, 55))
             response.raise_for_status()
             candidate = response.content
             if not candidate.startswith(b"%PDF"):
@@ -195,6 +209,7 @@ def parse_manifesto(source):
             terms = key_terms(sentence)
             deadlines = extract_deadlines(sentence)
             numbers = extract_numbers(sentence)
+            historical_years = extract_years(sentence)
             measurable = bool(numbers or deadlines)
 
             rows.append({
@@ -206,6 +221,7 @@ def parse_manifesto(source):
                 "keywords": terms,
                 "numbers": numbers,
                 "deadline_hints": deadlines,
+                "historical_years": historical_years,
                 "measurable": measurable,
                 "candidate_score": score,
                 "source_url": source["landing_url"],
@@ -247,11 +263,16 @@ def link_related(promises):
                 if score > best_score:
                     best_score = score
                     best = other
-            if best and best_score >= 0.28:
+            overlap = (
+                set(promise["keywords"]) & set(best["keywords"])
+                if best else set()
+            )
+            if best and best_score >= 0.20 and len(overlap) >= 2:
                 related.append({
                     "id": best["id"],
                     "year": best["year"],
                     "similarity": round(best_score, 3),
+                    "matched_terms": sorted(overlap)[:6],
                 })
         promise["related_promises"] = sorted(related, key=lambda x: -x["similarity"])[:3]
 
