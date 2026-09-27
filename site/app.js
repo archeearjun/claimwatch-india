@@ -558,7 +558,7 @@ function scoreSentence(sentence) {
     score += 2;
     reasons.push("date / year");
   }
-  if (/\b(doubled|tripled|increased|decreased|reduced|highest|lowest|more than|less than|only|never|always)\b/i.test(lower)) {
+  if (/\b(doubled|tripled|increased|decreased|reduced|highest|lowest|more than|less than|never|always)\b/i.test(lower)) {
     score += 2;
     reasons.push("comparison");
   }
