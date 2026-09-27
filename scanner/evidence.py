@@ -154,10 +154,9 @@ def is_independent_primary(row):
         if host.endswith(".gov.in") or host.endswith(".nic.in"):
             return True
 
-    # Search results produced by an explicit official-domain query can be
-    # provisionally treated as primary only when the publisher itself is not
-    # the claim-maker. The NLI gate below remains much stricter.
-    return row.get("tier") == "primary" and source_name not in NON_VERIFYING_SOURCE_NAMES
+    # Never trust the query that produced a result as evidence of provenance.
+    # The publisher/resolved host itself must be an approved official domain.
+    return False
 
 def robots_allowed(url):
     parsed = urlparse(str(url or ""))
