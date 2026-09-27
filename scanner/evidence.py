@@ -56,8 +56,8 @@ def clean_html(value):
 
 def tokens(text):
     return [
-        t for t in re.findall(r"[a-z][a-z0-9-]{2,}", (text or "").lower())
-        if t not in STOPWORDS
+        t for t in re.findall(r"[^\\W\\d_][\\w-]{1,}", (text or "").lower(), flags=re.UNICODE)
+        if t not in STOPWORDS and len(t) >= 2
     ]
 
 def keywords(text, limit=8):
@@ -166,7 +166,7 @@ def rank_evidence(query_text, rows, limit=8):
 
         # Being returned by an official-domain query is not enough.
         # The result must actually overlap with the subject of the claim.
-        if not matched_terms and not shared_numbers:
+        if len(matched_terms) < 2 and not shared_numbers:
             continue
 
         generic_title = clean_html(row.get("title", "")).lower().split(" - ")[0].strip()
@@ -180,7 +180,7 @@ def rank_evidence(query_text, rows, limit=8):
         if row.get("tier") == "primary":
             relevance += 0.05
 
-        if relevance < 0.105:
+        if relevance < 0.13:
             continue
 
         enriched = dict(row)
