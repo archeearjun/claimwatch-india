@@ -366,7 +366,7 @@ def rank_evidence(query_text, rows, limit=8):
     ranked = []
 
     for row in rows:
-        if row.get("tier") == "primary" and not is_independent_primary(row):
+        if row.get("tier") == "primary" and not is_verified_primary(row):
             continue
 
         evidence_text = " ".join([
