@@ -26,7 +26,7 @@ jobs:
         run: python -m py_compile scanner/scan.py scanner/manifestos.py scanner/evidence.py
 
       - name: JavaScript syntax
-        run: node --check site/app.js && node --check site/transcribe.js
+        run: node --check site/app.js && node --check site/transcribe.js && node --check functions/api/check.js
 
       - name: Validate JSON feeds
         run: |
