@@ -49,15 +49,14 @@ NUMBER_RE = re.compile(
     re.I,
 )
 
-YEAR_RE = re.compile(r"\\b(?:19|20)\\d{2}\\b")
+YEAR_TOKEN_RE = re.compile(r"^(?:19|20)\d{2}$")
+YEAR_FIND_RE = re.compile(r"\b(?:19|20)\d{2}\b")
 
 DEADLINE_RE = re.compile(
-    r"\\b(?:by\\s+(?:20\\d{2}|the\\s+year\\s+20\\d{2})|within\\s+\\d+\\s+(?:years?|months?)|"
-    r"next\\s+(?:five|5|ten|10)\\s+years?|before\\s+20\\d{2})\\b",
+    r"\b(?:by\s+(?:20\d{2}|the\s+year\s+20\d{2})|within\s+\d+\s+(?:years?|months?)|"
+    r"next\s+(?:five|5|ten|10)\s+years?|before\s+20\d{2}|until\s+20\d{2}|through\s+20\d{2})\b",
     re.I,
 )
-
-YEAR_RE = re.compile(r"^(?:19|20)\\d{2}$")
 
 CATEGORY_RULES = {
     "jobs_economy": ["job","employment","employ","economy","economic","manufactur","msme","startup","industry","business","trade","gdp","income"],
@@ -130,7 +129,7 @@ def extract_numbers(text):
     found = []
     for match in NUMBER_RE.finditer(text):
         value = match.group(0).strip()
-        if YEAR_RE.fullmatch(value):
+        if YEAR_TOKEN_RE.fullmatch(value):
             continue
         if value not in found:
             found.append(value)
@@ -138,7 +137,7 @@ def extract_numbers(text):
 
 def extract_years(text):
     found = []
-    for value in YEAR_RE.findall(text):
+    for value in YEAR_FIND_RE.findall(text):
         if value not in found:
             found.append(value)
     return found[:5]
