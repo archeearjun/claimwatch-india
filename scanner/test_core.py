@@ -285,5 +285,20 @@ class EvidenceRankingTests(unittest.TestCase):
         self.assertTrue(signal["publishable_verdict"])
 
 
+    def test_current_generated_rozgar_packet_replays_to_support(self):
+        feed_path = Path(__file__).resolve().parents[1] / "data" / "evidence" / "latest.json"
+        payload = __import__("json").loads(feed_path.read_text(encoding="utf-8"))
+        packet = next(
+            item for item in payload.get("claim_packets", [])
+            if "51,000 youth" in (item.get("claim") or "")
+        )
+        signal = evidence.structured_claim_numeric_signal(
+            packet["claim"],
+            packet.get("evidence", []),
+        )
+        self.assertIsNotNone(signal)
+        self.assertEqual(signal["verdict"], "supported")
+
+
 if __name__ == "__main__":
     unittest.main()
