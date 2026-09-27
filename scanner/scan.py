@@ -1,4 +1,5 @@
 import hashlib
+import html
 import json
 import os
 import re
@@ -33,11 +34,11 @@ RANK_RE = re.compile(
     re.I,
 )
 COMPARISON_RE = re.compile(
-    r"\b(?:doubled|tripled|increased|decreased|reduced|rose|fell|grew|declined|more than|less than|nearly|around|about|only|record|highest|lowest)\b",
+    r"\b(?:doubled|tripled|increased|decreased|reduced|rose|fell|grew|declined|more than|less than|nearly|around|about|record|highest|lowest)\b",
     re.I,
 )
 ACCOMPLISHMENT_RE = re.compile(
-    r"\b(?:created|built|provided|delivered|achieved|completed|launched|opened|closed|connected|covered|reached|added|removed|signed|approved|implemented|established|joined|received)\b",
+    r"\b(?:created|built|provided|delivered|achieved|completed|launched|opened|closed|connected|covered|added|removed|signed|approved|implemented|established|joined|received)\b",
     re.I,
 )
 FUTURE_RE = re.compile(
@@ -50,7 +51,7 @@ SUBJECTIVE_RE = re.compile(
 )
 QUESTION_RE = re.compile(r"\?$")
 BOILERPLATE_RE = re.compile(
-    r"\b(?:click here|view more|share this|download|subscribe|follow us|copyright|privacy policy)\b",
+    r"\b(?:click here|view more|share this|download|subscribe|follow us|copyright|privacy policy|news updates)\b",
     re.I,
 )
 
@@ -78,8 +79,15 @@ def clean_html(value):
     return re.sub(r"\s+", " ", soup.get_text(" ", strip=True)).strip()
 
 
+def sanitize_text(text):
+    text = html.unescape(text or "")
+    text = re.sub(r"<[^>]{1,500}>", " ", text)
+    text = re.sub(r"&#?\w+;", " ", text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
 def split_sentences(text):
-    text = re.sub(r"\s+", " ", text or "").strip()
+    text = sanitize_text(text)
     rows = re.split(r"(?<=[.!?।])\s+", text)
     return [
         sentence.strip()
@@ -90,6 +98,9 @@ def split_sentences(text):
 
 def classify_sentence(sentence):
     lower = sentence.lower()
+    if "data-mce-type" in lower or "mce_selres" in lower or "65279" in lower:
+        return "ignore", []
+
     numbers = NUMBER_RE.findall(sentence)
     has_number = bool(numbers)
     has_rank = bool(RANK_RE.search(sentence))
@@ -194,7 +205,7 @@ def extract_page_text(html):
     ]
     for selector in selectors:
         for node in soup.select(selector):
-            text = re.sub(r"\s+", " ", node.get_text(" ", strip=True)).strip()
+            text = sanitize_text(node.get_text(" ", strip=True))
             if 300 <= len(text) <= 100000:
                 candidates.append(text)
 
@@ -204,7 +215,7 @@ def extract_page_text(html):
         return max(candidates, key=len)
 
     if soup.body:
-        return re.sub(r"\s+", " ", soup.body.get_text(" ", strip=True)).strip()
+        return sanitize_text(soup.body.get_text(" ", strip=True))
     return ""
 
 
