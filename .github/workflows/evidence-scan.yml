@@ -29,7 +29,7 @@ jobs:
     timeout-minutes: 20
     env:
       ENABLE_NLI: "1"
-      NLI_MODEL: cross-encoder/nli-MiniLM2-L6-H768
+      NLI_MODEL: MoritzLaurer/multilingual-MiniLMv2-L6-mnli-xnli
       HF_HOME: ~/.cache/huggingface
 
     steps:
@@ -48,7 +48,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.cache/huggingface
-          key: claimwatch-nli-minilm2-v1
+          key: claimwatch-nli-multilingual-minilm-v1
 
       - name: Install dependencies
         run: |
