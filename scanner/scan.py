@@ -667,6 +667,79 @@ def scan_optional_youtube_search():
     return rows, errors
 
 
+TITLE_STOPWORDS = {
+    "narendra", "modi", "prime", "minister", "india", "bjp", "pmo",
+    "live", "speech", "address", "remarks", "video", "official", "the",
+    "and", "for", "from", "with", "during", "via",
+}
+
+
+def title_terms(value):
+    return {
+        token
+        for token in re.findall(r"[a-z0-9][a-z0-9-]{2,}", (value or "").lower())
+        if token not in TITLE_STOPWORDS
+    }
+
+
+def parsed_iso(value):
+    try:
+        return datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+    except Exception:
+        return None
+
+
+def attach_publisher_transcripts(items):
+    speeches = [
+        item for item in items
+        if item.get("kind") == "official_speech_or_video"
+        and item.get("candidate_claims")
+    ]
+    videos = [item for item in items if item.get("kind") == "youtube_video"]
+
+    for video in videos:
+        vt = title_terms(video.get("title"))
+        vd = parsed_iso(video.get("published_at"))
+        if not vt:
+            continue
+
+        best = None
+        best_score = 0.0
+        best_overlap = set()
+
+        for speech in speeches:
+            sd = parsed_iso(speech.get("published_at"))
+            if vd and sd and abs((vd - sd).total_seconds()) > 3 * 86400:
+                continue
+
+            st = title_terms(speech.get("title"))
+            overlap = vt & st
+            if len(overlap) < 2:
+                continue
+
+            score = len(overlap) / max(1, len(vt | st))
+            if score > best_score:
+                best = speech
+                best_score = score
+                best_overlap = overlap
+
+        if best and (len(best_overlap) >= 3 or best_score >= 0.34):
+            video["matched_transcript_url"] = best.get("transcript_url") or best.get("url")
+            video["matched_transcript_source"] = "PMIndia"
+            video["transcript_status"] = "matched_publisher_transcript"
+            video["candidate_claim_source"] = "publisher_transcript_match"
+            video["candidate_claims"] = best.get("candidate_claims", [])
+            video["candidate_promises"] = best.get("candidate_promises", [])
+            video["transcript_match"] = {
+                "speech_id": best.get("id"),
+                "speech_title": best.get("title"),
+                "similarity": round(best_score, 3),
+                "matched_terms": sorted(best_overlap),
+            }
+
+    return items
+
+
 def dedupe(items):
     seen, out = set(), []
     for item in items:
@@ -697,6 +770,7 @@ def main():
         errors.extend(notices)
 
     items = dedupe(items)
+    items = attach_publisher_transcripts(items)
     items.sort(key=sort_key, reverse=True)
 
     payload = {
