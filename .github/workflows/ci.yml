@@ -25,6 +25,18 @@ jobs:
       - name: Python syntax
         run: python -m py_compile scanner/scan.py scanner/manifestos.py scanner/evidence.py
 
+      - name: Manifesto extraction semantics
+        run: |
+          python - <<'PY'
+          import scanner.manifestos as m
+          assert m.YEAR_TOKEN_RE.fullmatch("2024")
+          assert m.extract_years("Started in 2014 and targeted by 2030.") == ["2014", "2030"]
+          assert "2024" not in m.extract_numbers("The programme began in 2024.")
+          assert m.extract_deadlines("We will complete it by 2030.") == ["by 2030"]
+          assert m.extract_deadlines("The programme began in 2019.") == []
+          print("Manifesto semantic checks passed")
+          PY
+
       - name: JavaScript syntax
         run: node --check site/app.js && node --check site/transcribe.js && node --check functions/api/check.js && node --check functions/api/check.js
 
