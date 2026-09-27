@@ -115,19 +115,24 @@
 
       <div class="outcome-grid">
         <article class="outcome-stat fulfilled">
-          <span>Fulfilled by evidence</span>
-          <strong id="outcome-fulfilled">0</strong>
-          <small>Verified primary target/completion match</small>
+          <span>Fulfilled by deadline</span>
+          <strong id="outcome-fulfilled-deadline">0</strong>
+          <small>Deterministic target/result comparison at or before deadline</small>
+        </article>
+        <article class="outcome-stat target">
+          <span>Target reached · timing unresolved</span>
+          <strong id="outcome-target-reached">0</strong>
+          <small>Outcome reached, but evidence does not prove it was on time</small>
         </article>
         <article class="outcome-stat unfulfilled">
           <span>Proven not fulfilled by deadline</span>
           <strong id="outcome-unfulfilled">0</strong>
-          <small>Requires direct comparable post-deadline evidence</small>
+          <small>Direct comparable post-deadline evidence falls short of target</small>
         </article>
         <article class="outcome-stat progress">
           <span>Progress documented</span>
           <strong id="outcome-progress">0</strong>
-          <small>Action exists; target outcome not yet established</small>
+          <small>Implementation activity exists; promised outcome not established</small>
         </article>
         <article class="outcome-stat overdue">
           <span>Deadline passed · unresolved</span>
@@ -137,7 +142,7 @@
         <article class="outcome-stat pending">
           <span>Other / insufficient</span>
           <strong id="outcome-other">0</strong>
-          <small>Includes future deadlines and non-machine-measurable items</small>
+          <small>Future deadlines, insufficient evidence, or non-measurable commitments</small>
         </article>
       </div>
     </section>
