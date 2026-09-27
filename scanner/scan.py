@@ -65,11 +65,30 @@ def split_sentences(text):
     ]
 
 
+BOILERPLATE_RE = re.compile(
+    r"(subscribe|follow\s+(?:us|pm)|social\s+media|facebook\.com|twitter\.com|x\.com|"
+    r"instagram\.com|linkedin\.com|youtube\.com/@|whatsapp\.com|download\s+the\s+app)",
+    re.I,
+)
+
 def candidate_claims(text, limit=10):
     rows = []
+    seen = set()
     for sentence in split_sentences(text):
-        if CHECKABLE_RE.search(sentence):
-            rows.append(sentence[:320])
+        # Remove link-heavy channel boilerplate before claim extraction.
+        clean = re.sub(r"https?://\S+|www\.\S+", " ", sentence)
+        clean = re.sub(r"\s+", " ", clean).strip(" -–—|►👉🔔")
+        if len(clean) < 25 or BOILERPLATE_RE.search(clean):
+            continue
+        if len(re.findall(r"[A-Za-z\u0900-\u097F]{2,}", clean)) < 5:
+            continue
+        if not CHECKABLE_RE.search(clean):
+            continue
+        key = re.sub(r"\W+", " ", clean.lower()).strip()
+        if key in seen:
+            continue
+        seen.add(key)
+        rows.append(clean[:320])
         if len(rows) >= limit:
             break
     return rows
