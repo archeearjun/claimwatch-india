@@ -899,14 +899,14 @@ $("#outcome-bar")?.addEventListener("click", event => {
   document.querySelector("#promises")?.scrollIntoView({ behavior: "smooth", block: "start" });
 });
 
-$(".outcome-filter").forEach(button => {
+$$(".outcome-filter").forEach(button => {
   button.addEventListener("click", () => {
     setPromiseOutcomeFilter(button.dataset.outcomeFilter || "all");
   });
 });
-$(".promise-year").forEach(button => {
+$$(".promise-year").forEach(button => {
   button.addEventListener("click", () => {
-    $$(".promise-year").forEach(b => b.classList.remove("active"));
+    $$$(".promise-year").forEach(b => b.classList.remove("active"));
     button.classList.add("active");
     state.promiseYear = button.dataset.year;
     state.promiseLimit = 18;
