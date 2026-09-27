@@ -56,7 +56,7 @@ def clean_html(value):
 
 def tokens(text):
     return [
-        t for t in re.findall(r"[^\\W\\d_][\\w-]{1,}", (text or "").lower(), flags=re.UNICODE)
+        t for t in re.findall(r"[^\W\d_][\w-]{1,}", (text or "").lower(), flags=re.UNICODE)
         if t not in STOPWORDS and len(t) >= 2
     ]
 
