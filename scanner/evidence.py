@@ -597,6 +597,77 @@ def nli_scores(evidence_text, claim_text):
         "contradiction": float(probs[2]),
     }
 
+CLAIM_METRIC_STOPWORDS = STOPWORDS | {
+    "about","around","approximately","approx","nearly","more","less","than",
+    "under","over","today","current","currently","scheme","programme","program",
+    "pradhan","mantri","yojana","bharat","viksit","new","first",
+    "rupees","rupee","rs","crore","lakh","million","billion","trillion",
+    "percent","percentage","mw","gw",
+}
+
+FINANCE_OUTLAY_RE = re.compile(
+    r"\b(?:outlay|budget|allocation|allocated|investment|invested|cost|worth|earmarked)\b",
+    re.I,
+)
+FINANCE_EXPENDITURE_RE = re.compile(
+    r"\b(?:spent|spending|expenditure|expended|incurred)\b",
+    re.I,
+)
+FINANCE_DISBURSEMENT_RE = re.compile(
+    r"\b(?:disburs(?:e|ed|es|ing)|released|release|paid|payment|incentive|payout)\b",
+    re.I,
+)
+
+
+def financial_metric(text):
+    value = text or ""
+    if FINANCE_OUTLAY_RE.search(value):
+        return "outlay"
+    if FINANCE_EXPENDITURE_RE.search(value):
+        return "expenditure"
+    if FINANCE_DISBURSEMENT_RE.search(value):
+        return "disbursement"
+    return None
+
+
+def quantity_context_terms(text, quantity, radius=95):
+    if not quantity:
+        return set()
+    start = max(0, int(quantity.get("start") or 0) - radius)
+    end = min(len(text or ""), int(quantity.get("end") or 0) + radius)
+    window = (text or "")[start:end]
+    return {
+        term for term in tokens(window)
+        if term not in CLAIM_METRIC_STOPWORDS and len(term) >= 3
+    }
+
+
+def metric_context_overlap(claim_text, claim_quantity, evidence_text, evidence_quantity):
+    claim_terms = quantity_context_terms(claim_text, claim_quantity)
+    evidence_terms = quantity_context_terms(evidence_text, evidence_quantity)
+    return sorted(claim_terms & evidence_terms)
+
+
+def quantity_metric_compatible(claim_text, claim_quantity, evidence_text, evidence_quantity):
+    overlap = metric_context_overlap(
+        claim_text,
+        claim_quantity,
+        evidence_text,
+        evidence_quantity,
+    )
+
+    claim_finance = financial_metric(claim_text)
+    evidence_finance = financial_metric(evidence_text)
+    if claim_finance or evidence_finance:
+        # Financial quantities are especially easy to confuse: total outlay,
+        # actual expenditure and one disbursement are different metrics.
+        if not claim_finance or not evidence_finance or claim_finance != evidence_finance:
+            return False, overlap
+        return len(overlap) >= 1, overlap
+
+    return len(overlap) >= 2, overlap
+
+
 def numeric_claim_operator(text):
     low = (text or "").lower()
     if re.search(r"\b(?:more than|over|above|greater than|at least)\b", low) or re.search(r"(?:से अधिक|से ज्यादा|कम से कम)", low):
@@ -672,6 +743,15 @@ def structured_claim_numeric_signal(text, evidence):
                 continue
 
         observed_quantity = observed[0]
+        metric_ok, metric_overlap = quantity_metric_compatible(
+            text,
+            claim_quantity,
+            evidence_text,
+            observed_quantity,
+        )
+        if not metric_ok:
+            continue
+
         holds = numeric_relation_holds(
             operator,
             claim_quantity["value"],
@@ -685,6 +765,8 @@ def structured_claim_numeric_signal(text, evidence):
             "evidence_id": row.get("id"),
             "evidence_url": row.get("source_url") or row.get("url"),
             "evidence_title": row.get("title"),
+            "metric_overlap": metric_overlap,
+            "metric_type": financial_metric(text),
         }
 
         if holds:
@@ -749,8 +831,28 @@ def strict_signal(text, evidence, factchecks):
         row["nli"] = {k: round(v, 4) for k, v in scores.items()}
         shared_numbers = set(row.get("shared_numbers") or [])
         row_numbers = numeric_tokens(premise)
-        numeric_support_ok = not claim_numbers or bool(claim_numbers & shared_numbers)
-        numeric_conflict_possible = bool(claim_numbers and row_numbers and not shared_numbers)
+
+        numeric_metric_ok = True
+        if claim_numbers:
+            claim_quantities = unique_quantities(parse_quantity_mentions(text))
+            premise_quantities = unique_quantities(parse_quantity_mentions(premise))
+            compatible_pairs = []
+            for cq in claim_quantities:
+                for pq in premise_quantities:
+                    if cq.get("kind") != pq.get("kind"):
+                        continue
+                    metric_ok, _ = quantity_metric_compatible(text, cq, premise, pq)
+                    if metric_ok:
+                        compatible_pairs.append((cq, pq))
+            numeric_metric_ok = bool(compatible_pairs)
+
+        numeric_support_ok = (
+            (not claim_numbers or bool(claim_numbers & shared_numbers))
+            and numeric_metric_ok
+        )
+        numeric_conflict_possible = bool(
+            claim_numbers and row_numbers and not shared_numbers and numeric_metric_ok
+        )
 
         if (
             scores["entailment"] >= 0.92
@@ -1185,7 +1287,8 @@ REDUCTION_RE = re.compile(
 )
 QUANTITY_RE = re.compile(
     r"(?<!\w)(\d{1,3}(?:,\d{3})+|\d+(?:\.\d+)?)\s*"
-    r"(%|percent|crore|lakh|million|billion|trillion|mw|gw|प्रतिशत|करोड़|करोड|लाख)?\b",
+    r"(%|percent|lakh\s+crore|crore|lakh|million|billion|trillion|mw|gw|"
+    r"प्रतिशत|लाख\s+करोड़|लाख\s+करोड|करोड़|करोड|लाख)?\b",
     re.I,
 )
 SCALE_FACTORS = {
@@ -1196,6 +1299,9 @@ SCALE_FACTORS = {
     "trillion": 1_000_000_000_000.0,
     "mw": 1.0,
     "gw": 1_000.0,
+    "lakh crore": 1_000_000_000_000.0,
+    "लाख करोड़": 1_000_000_000_000.0,
+    "लाख करोड": 1_000_000_000_000.0,
     "करोड़": 10_000_000.0,
     "करोड": 10_000_000.0,
     "लाख": 100_000.0,
@@ -1336,12 +1442,23 @@ def parse_quantity_mentions(text):
         if not unit and 1900 <= base <= 2100:
             continue
 
+        context = (text or "")[max(0, match.start() - 8):match.end() + 18]
         if unit in {"%", "percent", "प्रतिशत"}:
             normalized = base
             kind = "percent"
         elif unit in {"mw", "gw"}:
             normalized = base * SCALE_FACTORS.get(unit, 1.0)
             kind = "power_mw"
+        elif (
+            "₹" in context
+            or re.search(r"\b(?:rs\.?|rupees?|रुपये|रुपया)\b", context, re.I)
+            or unit in {
+                "crore","lakh","million","billion","trillion","lakh crore",
+                "करोड़","करोड","लाख","लाख करोड़","लाख करोड",
+            }
+        ):
+            normalized = base * SCALE_FACTORS.get(unit, 1.0)
+            kind = "currency_rupees"
         else:
             normalized = base * SCALE_FACTORS.get(unit, 1.0)
             kind = "count"
