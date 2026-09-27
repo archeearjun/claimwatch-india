@@ -22,8 +22,14 @@ jobs:
         with:
           node-version: "22"
 
+      - name: Install Python test dependencies
+        run: pip install -r scanner/requirements.txt
+
       - name: Python syntax
-        run: python -m py_compile scanner/scan.py scanner/manifestos.py scanner/evidence.py
+        run: python -m py_compile scanner/scan.py scanner/manifestos.py scanner/evidence.py scanner/test_core.py
+
+      - name: Core regression tests
+        run: python scanner/test_core.py
 
       - name: Manifesto extraction semantics
         run: |
