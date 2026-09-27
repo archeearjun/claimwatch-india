@@ -392,7 +392,7 @@ function renderEvidence() {
           <span class="verdict-readout ${publishable ? signalClass(level) : "pending"}">
             ${publishable ? "Automated verdict" : "Evidence state"}:
             <b>${escapeHtml(verdictLabel(verdict))}</b>
-            ${publishable ? "<small>strict independent-primary gate</small>" : ""}
+            ${publishable ? "<small>strict verified-primary gate</small>" : ""}
           </span>
         </div>
       </article>
