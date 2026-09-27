@@ -246,7 +246,7 @@ async function promiseMatches(claim) {
     return (payload.promises || [])
       .map(item => {
         const text = [
-          item.anchor || "",
+          item.exact_text || item.anchor || "",
           ...(item.keywords || []),
           ...(item.numbers || []),
           ...(item.deadline_hints || [])
