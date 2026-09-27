@@ -623,4 +623,9 @@ $("#clear-btn").addEventListener("click", () => {
   $("#candidate-list").innerHTML = "";
 });
 
+window.ClaimWatch = {
+  extractCandidates,
+  scoreSentence
+};
+
 loadAll();
