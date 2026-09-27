@@ -289,6 +289,15 @@ def fetch_news_article(url):
         return "", f"fetch_error:{type(exc).__name__}"
 
 
+def unwrap_bing_redirect(url):
+    parsed = urlparse(str(url or ""))
+    host = parsed.netloc.replace("www.", "")
+    if not host.endswith("bing.com"):
+        return url
+    target = dict(parse_qsl(parsed.query)).get("url") or ""
+    return target or url
+
+
 def scan_bing_news():
     queries = [
         '"Narendra Modi"',
@@ -315,7 +324,7 @@ def scan_bing_news():
             continue
 
         for entry in feed.entries[:20]:
-            url = entry.get("link")
+            url = unwrap_bing_redirect(entry.get("link") or "")
             if not url:
                 continue
 
