@@ -811,27 +811,59 @@ def select_promise_batch(promises, batch_size=30):
     if not promises:
         return []
 
-    priority = sorted(
-        promises,
+    current_year = datetime.now(timezone.utc).year
+    deadline_priority = []
+    remainder = []
+
+    for promise in promises:
+        deadline = promise_deadline_year(promise)
+        if (
+            promise.get("measurable")
+            and deadline
+            and deadline < current_year
+        ):
+            deadline_priority.append(promise)
+        else:
+            remainder.append(promise)
+
+    deadline_priority.sort(
+        key=lambda p: (
+            promise_deadline_year(p) or 9999,
+            -int(p.get("candidate_score", 0)),
+            p.get("id", ""),
+        )
+    )
+
+    # Keep a fixed tranche of overdue measurable commitments under frequent
+    # scrutiny while rotating the rest of the corpus.
+    fixed_count = min(10, batch_size, len(deadline_priority))
+    fixed = deadline_priority[:fixed_count]
+
+    pool = [
+        p for p in deadline_priority[fixed_count:] + remainder
+        if p.get("id") not in {x.get("id") for x in fixed}
+    ]
+    if not pool or len(fixed) >= batch_size:
+        return fixed[:batch_size]
+
+    pool.sort(
         key=lambda p: (
             not p.get("measurable"),
             not bool(p.get("deadline_hints")),
             -int(p.get("candidate_score", 0)),
             -int(p.get("year", 0)),
             p.get("id", ""),
-        ),
+        )
     )
-
-    # Advance by one batch each UTC hour. 781 current candidates and a batch of
-    # 30 are coprime, so repeated hourly scans eventually visit every candidate
-    # rather than getting stuck in a subset.
-    now = datetime.now(timezone.utc)
-    epoch_hours = int(now.timestamp() // 3600)
-    start = (epoch_hours * batch_size) % len(priority)
-    return [
-        priority[(start + offset) % len(priority)]
-        for offset in range(min(batch_size, len(priority)))
+    epoch_hours = int(datetime.now(timezone.utc).timestamp() // 3600)
+    remaining = batch_size - len(fixed)
+    start = (epoch_hours * max(1, remaining)) % len(pool)
+    rotating = [
+        pool[(start + offset) % len(pool)]
+        for offset in range(min(remaining, len(pool)))
     ]
+    return fixed + rotating
+
 
 def previous_promise_packets():
     if not OUT_PATH.exists():
@@ -1329,6 +1361,58 @@ def structured_promise_proof(packet):
     return None
 
 
+def retrieve_promise_evidence(promise, base_query, pseudo_text):
+    evidence = retrieve_evidence(
+        base_query,
+        pseudo_text,
+        hydrate_primary=True,
+    )
+
+    deadline = promise_deadline_year(promise)
+    current_year = datetime.now(timezone.utc).year
+    if not (
+        promise.get("measurable")
+        and deadline
+        and deadline < current_year
+    ):
+        return evidence
+
+    target = promise_target_quantity(promise)
+    core = promise_core_terms(promise)[:6]
+    target_text = target.get("raw") if target else ""
+    deadline_query = " ".join(
+        part for part in (
+            target_text,
+            " ".join(core),
+            str(deadline),
+            "target achieved progress as of",
+        )
+        if part
+    )[:260]
+
+    if not deadline_query or deadline_query == base_query:
+        return evidence
+
+    try:
+        extra = retrieve_evidence(
+            deadline_query,
+            pseudo_text,
+            hydrate_primary=True,
+        )
+    except Exception:
+        extra = []
+
+    seen = set()
+    merged = []
+    for row in evidence + extra:
+        key = row.get("id") or row.get("source_url") or row.get("url") or row.get("title")
+        if not key or key in seen:
+            continue
+        seen.add(key)
+        merged.append(row)
+    return merged
+
+
 def build_promise_packets(promises):
     priority = sorted(
         promises,
@@ -1359,7 +1443,11 @@ def build_promise_packets(promises):
         ])
 
         try:
-            evidence = retrieve_evidence(query, pseudo_text, hydrate_primary=True)
+            evidence = retrieve_promise_evidence(
+                promise,
+                query,
+                pseudo_text,
+            )
         except Exception as exc:
             evidence = []
             errors.append({
