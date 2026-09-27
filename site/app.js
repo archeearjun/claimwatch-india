@@ -12,6 +12,7 @@ const state = {
   promiseYear: "all",
   promiseSearch: "",
   measurableOnly: false,
+  promiseOutcome: "all",
   promiseLimit: 18
 };
 
@@ -78,7 +79,8 @@ function renderOutcomeBoard() {
   const summary = state.evidence?.summary || {};
   const outcomes = summary.promise_outcomes || {};
 
-  const fulfilled = Number(outcomes.fulfilled_evidence || 0);
+  const fulfilledByDeadline = Number(outcomes.fulfilled_by_deadline || 0);
+  const targetReached = Number(outcomes.target_reached_evidence || 0);
   const unfulfilled = Number(outcomes.proven_unfulfilled_by_deadline || 0);
   const progress = Number(outcomes.progress_documented || 0);
   const overdue = Number(outcomes.deadline_passed_unresolved || 0);
@@ -93,7 +95,8 @@ function renderOutcomeBoard() {
     if (node) node.textContent = compactNumber(value);
   };
 
-  set("#outcome-fulfilled", fulfilled);
+  set("#outcome-fulfilled-deadline", fulfilledByDeadline);
+  set("#outcome-target-reached", targetReached);
   set("#outcome-unfulfilled", unfulfilled);
   set("#outcome-progress", progress);
   set("#outcome-overdue", overdue);
@@ -114,7 +117,8 @@ function renderOutcomeBoard() {
   }
 
   const segments = [
-    ["fulfilled", fulfilled, "Fulfilled by evidence"],
+    ["fulfilled", fulfilledByDeadline, "Fulfilled by deadline"],
+    ["target", targetReached, "Target reached; deadline timing not proven"],
     ["unfulfilled", unfulfilled, "Proven not fulfilled by deadline"],
     ["progress", progress, "Progress documented"],
     ["overdue", overdue, "Deadline passed · unresolved"],
@@ -123,8 +127,30 @@ function renderOutcomeBoard() {
 
   bar.innerHTML = segments.map(([kind, value, label]) => {
     const pct = Math.max(1.5, (value / total) * 100);
-    return `<div class="outcome-segment ${kind}" style="width:${pct}%" title="${escapeHtml(label)}: ${value}"><span>${value}</span></div>`;
+    return `<button class="outcome-segment ${kind}" data-outcome-segment="${kind}" style="width:${pct}%" title="${escapeHtml(label)}: ${value}"><span>${value}</span></button>`;
   }).join("");
+}
+
+function promiseOutcomeLabel(status) {
+  return ({
+    fulfilled_by_deadline: "FULFILLED BY DEADLINE",
+    target_reached_evidence: "TARGET REACHED · TIMING UNRESOLVED",
+    proven_unfulfilled_by_deadline: "PROVEN NOT FULFILLED BY DEADLINE",
+    progress_documented: "PROGRESS DOCUMENTED",
+    deadline_passed_unresolved: "DEADLINE PASSED · UNRESOLVED",
+    deadline_not_reached: "DEADLINE NOT REACHED",
+    insufficient_evidence: "INSUFFICIENT EVIDENCE",
+    not_machine_measurable: "NOT MACHINE-MEASURABLE"
+  })[status] || humanize(status || "unaudited").toUpperCase();
+}
+
+function promiseOutcomeClass(status) {
+  if (status === "proven_unfulfilled_by_deadline") return "danger";
+  if (status === "fulfilled_by_deadline") return "strong";
+  if (status === "target_reached_evidence") return "target";
+  if (status === "progress_documented") return "action";
+  if (status === "deadline_passed_unresolved") return "fact";
+  return "pending";
 }
 
 async function loadJson(url) {
