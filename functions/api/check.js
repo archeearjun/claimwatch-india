@@ -8,7 +8,6 @@ const STOPWORDS = new Set([
 
 const OFFICIAL_HOSTS = [
   "pib.gov.in",
-  "pmindia.gov.in",
   "rbi.org.in",
   "mospi.gov.in",
   "cag.gov.in",
@@ -21,6 +20,8 @@ const OFFICIAL_HOSTS = [
 
 const PROMISE_FEED =
   "https://raw.githubusercontent.com/archeearjun/claimwatch-india/main/data/promises/candidates.json";
+const EVIDENCE_FEED =
+  "https://raw.githubusercontent.com/archeearjun/claimwatch-india/main/data/evidence/latest.json";
 
 function json(body, status = 200) {
   return new Response(JSON.stringify(body, null, 2), {
@@ -104,6 +105,58 @@ function matchingTerms(queryTerms, evidenceText) {
 function overlap(queryTerms, evidenceText) {
   if (!queryTerms.length) return 0;
   return matchingTerms(queryTerms, evidenceText).length / queryTerms.length;
+}
+
+function claimSimilarity(a, b) {
+  const aa = new Set(keywords(a, 16));
+  const bb = new Set(keywords(b, 16));
+  if (!aa.size || !bb.size) return 0;
+  let shared = 0;
+  for (const term of aa) if (bb.has(term)) shared += 1;
+  const lexical = shared / Math.max(aa.size, bb.size);
+
+  const an = new Set(numericTokens(a));
+  const bn = new Set(numericTokens(b));
+  let numeric = 1;
+  if (an.size || bn.size) {
+    const sharedNums = [...an].filter(value => bn.has(value)).length;
+    numeric = sharedNums / Math.max(an.size, bn.size, 1);
+  }
+
+  return lexical * 0.78 + numeric * 0.22;
+}
+
+async function cachedAssessment(claim) {
+  try {
+    const response = await fetch(EVIDENCE_FEED, {
+      cf: { cacheTtl: 120, cacheEverything: true }
+    });
+    if (!response.ok) return null;
+    const payload = await response.json();
+
+    let best = null;
+    for (const packet of payload.claim_packets || []) {
+      if (!packet?.signal?.publishable_verdict) continue;
+      const score = claimSimilarity(claim, packet.claim || "");
+      if (!best || score > best.score) best = { packet, score };
+    }
+
+    if (!best || best.score < 0.78) return null;
+
+    const claimNums = new Set(numericTokens(claim));
+    const cachedNums = new Set(numericTokens(best.packet.claim || ""));
+    if (claimNums.size || cachedNums.size) {
+      const shared = [...claimNums].filter(value => cachedNums.has(value)).length;
+      if (shared === 0) return null;
+    }
+
+    return {
+      ...best.packet,
+      cache_similarity: Number(best.score.toFixed(3)),
+    };
+  } catch {
+    return null;
+  }
 }
 
 function hostname(value) {
@@ -334,12 +387,30 @@ export async function onRequestPost(context) {
     return json({ error: "Claim must be between 12 and 1200 characters." }, 400);
   }
 
+  const cached = await cachedAssessment(claim);
+  if (cached) {
+    return json({
+      checked_at: new Date().toISOString(),
+      claim,
+      cached: true,
+      matched_claim: cached.claim,
+      cache_similarity: cached.cache_similarity,
+      signal: cached.signal,
+      verdict: cached.verdict,
+      evidence: cached.evidence || [],
+      fact_checks: cached.fact_checks || [],
+      promise_matches: cached.promise_matches || [],
+      claim_source: cached.claim_source || null,
+      note: "Returned from a previously generated strict evidence packet for a near-duplicate claim."
+    });
+  }
+
   const terms = keywords(claim, 7);
   const numbers = numericTokens(claim).slice(0, 3);
   const core = [...numbers, ...terms].join(" ").slice(0, 240);
 
   const officialDomains =
-    "(site:pib.gov.in OR site:rbi.org.in OR site:mospi.gov.in OR site:cag.gov.in OR site:gov.in OR site:indiabudget.gov.in OR site:sansad.in)";
+    "(site:pib.gov.in OR site:rbi.org.in OR site:mospi.gov.in OR site:cag.gov.in OR site:data.gov.in OR site:indiabudget.gov.in OR site:sansad.in OR site:indiacode.nic.in)";
 
   const tasks = await Promise.allSettled([
     googleNews(`${core} ${officialDomains}`, 8),
