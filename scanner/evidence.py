@@ -522,13 +522,22 @@ def strict_signal(text, evidence, factchecks):
 
 def build_claim_packets(discovery, promises):
     candidates = []
+    seen_claims = set()
     for item in discovery.get("items", []):
-        if item.get("kind") not in {"official_speech_or_video", "youtube_video"}:
+        # Scheduled truth checks require statement text, not video metadata.
+        # PMIndia rows contain publisher speech text. YouTube descriptions stay
+        # in discovery until matched to a publisher transcript or transcribed
+        # locally through the browser workflow.
+        if item.get("kind") != "official_speech_or_video":
             continue
+
         for idx, raw_claim in enumerate(item.get("candidate_claims", []) or []):
             normalized = normalize_claim(raw_claim)
-            if normalized["text"]:
-                candidates.append((item, idx, normalized))
+            text_key = re.sub(r"\W+", " ", normalized["text"].lower()).strip()
+            if not normalized["text"] or text_key in seen_claims:
+                continue
+            seen_claims.add(text_key)
+            candidates.append((item, idx, normalized))
 
     candidates.sort(
         key=lambda row: row[0].get("published_at") or "",
