@@ -52,10 +52,12 @@ NUMBER_RE = re.compile(
 YEAR_RE = re.compile(r"\\b(?:19|20)\\d{2}\\b")
 
 DEADLINE_RE = re.compile(
-    r"\b(?:by\s+(?:20\d{2}|the\s+year\s+20\d{2})|within\s+\d+\s+(?:years?|months?)|"
-    r"next\s+(?:five|5|ten|10)\s+years?|before\s+20\d{2}|20\d{2})\b",
+    r"\\b(?:by\\s+(?:20\\d{2}|the\\s+year\\s+20\\d{2})|within\\s+\\d+\\s+(?:years?|months?)|"
+    r"next\\s+(?:five|5|ten|10)\\s+years?|before\\s+20\\d{2})\\b",
     re.I,
 )
+
+YEAR_RE = re.compile(r"^(?:19|20)\\d{2}$")
 
 CATEGORY_RULES = {
     "jobs_economy": ["job","employment","employ","economy","economic","manufactur","msme","startup","industry","business","trade","gdp","income"],
