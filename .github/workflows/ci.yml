@@ -25,6 +25,9 @@ jobs:
       - name: Install Python test dependencies
         run: pip install -r scanner/requirements.txt
 
+      - name: Install scanner dependencies
+        run: pip install -r scanner/requirements.txt
+
       - name: Python syntax
         run: python -m py_compile scanner/scan.py scanner/manifestos.py scanner/evidence.py scanner/test_core.py
 
