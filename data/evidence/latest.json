@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-27T20:10:26.014122+00:00",
+  "generated_at": "2026-09-27T20:42:57.358599+00:00",
   "capabilities": {
     "official_evidence_search": true,
     "verified_primary_gate": true,
     "automated_nli": true,
-    "nli_model": "cross-encoder/nli-MiniLM2-L6-H768",
+    "nli_model": "MoritzLaurer/multilingual-MiniLMv2-L6-mnli-xnli",
     "nli_error": null,
     "news_context_search": true,
     "fact_check_api_configured": false,
@@ -17,9 +17,19 @@
     "promise_total_candidates": 841,
     "promise_coverage_pct": 14.3,
     "primary_candidates": 204,
-    "secondary_candidates": 195,
+    "secondary_candidates": 197,
     "prior_fact_checks": 0,
-    "publishable_auto_verdicts": 0
+    "publishable_auto_verdicts": 0,
+    "promise_outcomes": {
+      "fulfilled_evidence": 2,
+      "proven_unfulfilled_by_deadline": 0,
+      "progress_documented": 34,
+      "deadline_passed_unresolved": 22,
+      "deadline_not_reached": 6,
+      "insufficient_evidence": 15,
+      "not_machine_measurable": 41,
+      "audited_total": 120
+    }
   },
   "claim_packets": [
     {
@@ -72,9 +82,9 @@
             "51000"
           ],
           "nli": {
-            "contradiction": 0.002,
-            "entailment": 0.1838,
-            "neutral": 0.8142
+            "entailment": 0.2509,
+            "neutral": 0.7348,
+            "contradiction": 0.0144
           }
         },
         {
@@ -120,21 +130,21 @@
             "51000"
           ],
           "nli": {
-            "contradiction": 0.0016,
-            "entailment": 0.0221,
-            "neutral": 0.9762
+            "entailment": 0.0182,
+            "neutral": 0.9773,
+            "contradiction": 0.0045
           }
         },
         {
-          "id": "9c229968a0b345a866",
+          "id": "f34a263239b3bf11be",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "The News Mill",
+          "source": "thenewsmill.com",
           "source_url": "https://thenewsmill.com",
-          "title": "Over 51,000 youth receive appointment letters at 20th Rozgar Mela - The News Mill",
+          "title": "Over 51,000 youth receive appointment letters at 20th Rozgar Mela - thenewsmill.com",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVjZxWGx1R3JmcDcwMDR0OU1uN1dSUEltelE5bXdkVXBRcVlFYmlSdk1uSWI5cEtLQnpORnBBOFVKaS1BdHB6ZDhOT0s0SnZTVGU5LWZOb1FNcWVZOWUzQVZVQzFUZWNESzh0eTFmcmNLV0hFRlpFRHh5RlB3SnhsNXZSaEpxSGRWY1NBRm1Xekt2MXQ5NGdRQmw1TzA2Zw?oc=5",
           "published_at": "2026-09-19T08:12:25+00:00",
-          "snippet": "Over 51,000 youth receive appointment letters at 20th Rozgar Mela The News Mill",
+          "snippet": "Over 51,000 youth receive appointment letters at 20th Rozgar Mela thenewsmill.com",
           "lexical_overlap": 0.231,
           "relevance": 0.446,
           "matched_terms": [
@@ -207,9 +217,9 @@
           ],
           "shared_numbers": [],
           "nli": {
-            "contradiction": 0.0036,
             "entailment": 0.0018,
-            "neutral": 0.9946
+            "neutral": 0.9912,
+            "contradiction": 0.007
           }
         },
         {
@@ -231,9 +241,9 @@
           ],
           "shared_numbers": [],
           "nli": {
-            "contradiction": 0.0062,
-            "entailment": 0.0017,
-            "neutral": 0.9921
+            "entailment": 0.002,
+            "neutral": 0.9904,
+            "contradiction": 0.0076
           }
         },
         {
@@ -274,9 +284,9 @@
           ],
           "shared_numbers": [],
           "nli": {
-            "contradiction": 0.0029,
-            "entailment": 0.0019,
-            "neutral": 0.9952
+            "entailment": 0.0014,
+            "neutral": 0.9914,
+            "contradiction": 0.0072
           }
         }
       ],
@@ -346,9 +356,9 @@
           ],
           "shared_numbers": [],
           "nli": {
-            "contradiction": 0.0027,
-            "entailment": 0.0027,
-            "neutral": 0.9945
+            "entailment": 0.0259,
+            "neutral": 0.9702,
+            "contradiction": 0.004
           }
         },
         {
@@ -370,15 +380,35 @@
           "shared_numbers": []
         },
         {
-          "id": "4e0a144bc319ee5364",
+          "id": "7af77cdb67cfa45304",
+          "scope": "official_web_search",
+          "tier": "primary",
+          "source": "brics2026.gov.in",
+          "source_url": "https://www.brics2026.gov.in/",
+          "title": "BRICS – Building for Resilience, Innovation, Cooperation and Sustainability",
+          "url": "https://www.brics2026.gov.in/",
+          "published_at": "2026-09-26T19:55:00+00:00",
+          "snippet": "The BRICS is a group formed by eleven countries: Brazil, China, Egypt, Ethiopia, India, Indonesia, Iran, Russia, Saudi Arabia, South Africa, United Arab Emirates.",
+          "retrieval": "http_403",
+          "lexical_overlap": 0.083,
+          "relevance": 0.203,
+          "matched_terms": [
+            "brics",
+            "cooperation"
+          ],
+          "shared_numbers": [],
+          "resolved_url": "https://www.brics2026.gov.in/"
+        },
+        {
+          "id": "b52f3ac44371d1445b",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Outlook Money",
+          "source": "outlookmoney.com",
           "source_url": "https://www.outlookmoney.com",
-          "title": "BRICS CONNECT To Focus On Skills, Jobs, Women In Workforce, Social Security - Outlook Money",
+          "title": "BRICS CONNECT To Focus On Skills, Jobs, Women In Workforce, Social Security - outlookmoney.com",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSzFTVU5ydEJQMm1aSHlqMmpUdDE0WDNmSm1ZSXNqR2JOXzRqTEdKVVpkZ1haV1dUcG1iN2ZFZGFZY0dXS3hZQ3dwR3pxUzlKa1NhbnFwY3Y5cThnLUVIWl93VjJwQWhBWGNiLTNiRnA2eWtqbmgyUEc0NnhHZkN5Qko5bEFadnRja1pIWGpOMFRLMVBQWHMzMkx3MjMyRjVLV3BMeW9KRFM3Z9IBtwFBVV95cUxOR2FGTHNGRjRJYXFjR2g3S3Y5MGl5cDRlV2pONF9WWkNnU1h0RHY5VTNXaVNmMk5nd2FVeV9KNXB2cXdpQXM5Z0JKQjNBWURHZVBVRFZ4OWh1eC1YcU83Rk93Q2Y1UXFjV29RbWE2WmFxcExkOGk1TVBKUVhyR0hSNUp3YWpHN0VpeGJlLTdnZTlacUc2cWJnck01RkpDNzNzRDRoTGlKLWhMZlpWeU56SlBuNDVOdDg?oc=5",
           "published_at": "2026-09-13T07:00:00+00:00",
-          "snippet": "BRICS CONNECT To Focus On Skills, Jobs, Women In Workforce, Social Security Outlook Money",
+          "snippet": "BRICS CONNECT To Focus On Skills, Jobs, Women In Workforce, Social Security outlookmoney.com",
           "lexical_overlap": 0.105,
           "relevance": 0.175,
           "matched_terms": [
@@ -428,17 +458,17 @@
       "promise_matches": [],
       "evidence": [
         {
-          "id": "429e9b75b85fb48dd1",
+          "id": "7c49bb8bc4677306ee",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "BBC",
+          "source": "bbc.com",
           "source_url": "https://www.bbc.com",
-          "title": "Trade agreement: Why India made a U-turn on free trade deals - BBC",
+          "title": "Trade agreement: Why India made a U-turn on free trade deals - bbc.com",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB5OUloWVNuZTBpZmFRa1dYb2VxY1ZGTlFJbG42b0ZvREhHUVJ3T2JpQWVvZjFkUFlkN20weXFjVmFUMExvSWtWMFBpRmV2SUt3LW5NSGdGaFBFbFZUVHY0?oc=5",
           "published_at": "2022-08-25T07:00:00+00:00",
-          "snippet": "Trade agreement: Why India made a U-turn on free trade deals BBC",
-          "lexical_overlap": 0.133,
-          "relevance": 0.203,
+          "snippet": "Trade agreement: Why India made a U-turn on free trade deals bbc.com",
+          "lexical_overlap": 0.125,
+          "relevance": 0.195,
           "matched_terms": [
             "free",
             "trade"
@@ -478,7 +508,7 @@
         "url": "https://www.pmindia.gov.in/en/news_updates/pms-remarks-during-20th-rozgar-mela-via-vc/",
         "published_at": "2026-09-19T08:41:02+00:00"
       },
-      "query": "60000 1000 education national policy skill mission pradhan",
+      "query": "1000 60000 education national policy skill mission pradhan",
       "numbers": [
         "1000",
         "60000"
@@ -519,9 +549,9 @@
           ],
           "shared_numbers": [],
           "nli": {
-            "contradiction": 0.0022,
-            "entailment": 0.0024,
-            "neutral": 0.9954
+            "entailment": 0.0012,
+            "neutral": 0.9898,
+            "contradiction": 0.009
           }
         },
         {
@@ -715,9 +745,9 @@
       "promise_matches": [],
       "evidence": [
         {
-          "id": "25eeb6131dac407bd4",
-          "scope": "broad_official_search",
-          "tier": "primary",
+          "id": "dbcf5b03b0a22d57be",
+          "scope": "news_search",
+          "tier": "secondary",
           "source": "DD News",
           "source_url": "https://ddnews.gov.in",
           "title": "Nearly half of recognised startups based in Tier-2, Tier-3 cities: PM Modi - DD News",
@@ -725,25 +755,20 @@
           "published_at": "2026-09-19T08:33:00+00:00",
           "snippet": "Nearly half of recognised startups based in Tier-2, Tier-3 cities: PM Modi DD News",
           "lexical_overlap": 0.267,
-          "relevance": 0.457,
+          "relevance": 0.407,
           "matched_terms": [
             "cities",
             "half",
             "nearly",
             "startups"
           ],
-          "shared_numbers": [],
-          "nli": {
-            "contradiction": 0.0082,
-            "entailment": 0.8511,
-            "neutral": 0.1408
-          }
+          "shared_numbers": []
         }
       ],
       "fact_checks": [],
       "signal": {
-        "level": "primary_evidence_found",
-        "label": "Relevant verified primary evidence candidate found",
+        "level": "reporting_found",
+        "label": "Relevant reporting found; primary evidence still needed",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -849,9 +874,9 @@
           ],
           "shared_numbers": [],
           "nli": {
-            "contradiction": 0.0043,
-            "entailment": 0.6791,
-            "neutral": 0.3167
+            "entailment": 0.1713,
+            "neutral": 0.8243,
+            "contradiction": 0.0043
           }
         },
         {
@@ -875,9 +900,9 @@
           ],
           "shared_numbers": [],
           "nli": {
-            "contradiction": 0.0099,
-            "entailment": 0.2556,
-            "neutral": 0.7345
+            "entailment": 0.0159,
+            "neutral": 0.978,
+            "contradiction": 0.0061
           }
         },
         {
@@ -900,9 +925,9 @@
           ],
           "shared_numbers": [],
           "nli": {
-            "contradiction": 0.0042,
-            "entailment": 0.4014,
-            "neutral": 0.5944
+            "entailment": 0.0251,
+            "neutral": 0.9691,
+            "contradiction": 0.0058
           }
         },
         {
@@ -947,9 +972,9 @@
           ],
           "shared_numbers": [],
           "nli": {
-            "contradiction": 0.0084,
-            "entailment": 0.2189,
-            "neutral": 0.7727
+            "entailment": 0.0172,
+            "neutral": 0.9753,
+            "contradiction": 0.0075
           }
         },
         {
@@ -1081,9 +1106,9 @@
           ],
           "shared_numbers": [],
           "nli": {
-            "contradiction": 0.2121,
-            "entailment": 0.0857,
-            "neutral": 0.7022
+            "entailment": 0.0392,
+            "neutral": 0.9506,
+            "contradiction": 0.0102
           }
         },
         {
@@ -1108,9 +1133,9 @@
           ],
           "shared_numbers": [],
           "nli": {
-            "contradiction": 0.0023,
-            "entailment": 0.0021,
-            "neutral": 0.9956
+            "entailment": 0.0026,
+            "neutral": 0.9931,
+            "contradiction": 0.0043
           }
         },
         {
@@ -1134,9 +1159,9 @@
           ],
           "shared_numbers": [],
           "nli": {
-            "contradiction": 0.0033,
-            "entailment": 0.0018,
-            "neutral": 0.995
+            "entailment": 0.0021,
+            "neutral": 0.9914,
+            "contradiction": 0.0065
           }
         },
         {
@@ -1159,9 +1184,9 @@
           ],
           "shared_numbers": [],
           "nli": {
-            "contradiction": 0.0025,
-            "entailment": 0.002,
-            "neutral": 0.9955
+            "entailment": 0.0027,
+            "neutral": 0.9912,
+            "contradiction": 0.0061
           }
         },
         {
@@ -1224,9 +1249,9 @@
           ],
           "shared_numbers": [],
           "nli": {
-            "contradiction": 0.0032,
-            "entailment": 0.0018,
-            "neutral": 0.9951
+            "entailment": 0.0025,
+            "neutral": 0.9934,
+            "contradiction": 0.0041
           }
         },
         {
@@ -1298,7 +1323,7 @@
         "url": "https://www.pmindia.gov.in/en/news_updates/pms-remarks-during-20th-rozgar-mela-via-vc/",
         "published_at": "2026-09-19T08:41:02+00:00"
       },
-      "query": "20 1 about lakh crore rupees spent scheme",
+      "query": "1 20 about lakh crore rupees spent scheme",
       "numbers": [
         "20"
       ],
@@ -1363,15 +1388,15 @@
           "shared_numbers": []
         },
         {
-          "id": "e57ee94ae4a81437ef",
+          "id": "a3678fb59a162f54ce",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "Comptroller and Auditor General of India",
+          "source": "cag.gov.in",
           "source_url": "https://cag.gov.in",
-          "title": "Section 1 Page No. 01-05 - Comptroller and Auditor General of India",
+          "title": "Section 1 Page No. 01-05 - cag.gov.in",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOb1lWZjZ5bVN0RzlCREVOb0d5bERNb1hIQklibC1xbHNQa1JMUElKZWJVWDhNYTl2c2EybWpJY1lGZzlSS3RxWUxuNGtNLVZuRFRaRVgwUUp2Z1BTSmFmSXhjMWlvRVp5cVhVNDdRTjVEcWpDOU1CYjdQenBzNjBrdEJDUUlkaEk?oc=5",
           "published_at": "2021-03-31T09:56:23+00:00",
-          "snippet": "Section 1 Page No. 01-05 Comptroller and Auditor General of India",
+          "snippet": "Section 1 Page No. 01-05 cag.gov.in",
           "lexical_overlap": 0.0,
           "relevance": 0.16,
           "matched_terms": [],
@@ -1581,25 +1606,6 @@
           "shared_numbers": []
         },
         {
-          "id": "aab74bfd3a7d419f39",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "ANI News",
-          "source_url": "https://www.aninews.in",
-          "title": "India remains one of fastest-growing major economies despite global uncertainties: Jitin Prasada - ANI News",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPMDcwZWtQMnFNejJLOVRVQ1hzN2duWjNzTVc3WFBEWWVkRkhobk0tbHVDUG9xMWl0Nk1WdDdXRVVNVjl2MzNDVW1JdGVXQ0RxNXVfVlBGWUlqTTVXLURSSjZ2V0lwbjQ1LUZKaF8tenI3MlhnWUNWdzhvRVpma3ctMk9kRm1sdXlfQlk2RXA0WFY2T3NlcnZINF93d3lxZFZWSmRBMy1iNVRRZWRRQU1RRWVwVV9DSWV2S2NzLVNEcDF2N0FVVlZMR2podFNuLXlXVEQ0UlY0Q1cxR3BlZFA0?oc=5",
-          "published_at": "2026-06-04T07:00:00+00:00",
-          "snippet": "India remains one of fastest-growing major economies despite global uncertainties: Jitin Prasada ANI News",
-          "lexical_overlap": 0.214,
-          "relevance": 0.319,
-          "matched_terms": [
-            "economies",
-            "major",
-            "one"
-          ],
-          "shared_numbers": []
-        },
-        {
           "id": "6ed854bfc50fed8b91",
           "scope": "news_search",
           "tier": "secondary",
@@ -1712,32 +1718,32 @@
           ],
           "shared_numbers": [],
           "nli": {
-            "contradiction": 0.0509,
-            "entailment": 0.0019,
-            "neutral": 0.9471
+            "entailment": 0.002,
+            "neutral": 0.9888,
+            "contradiction": 0.0092
           }
         },
         {
-          "id": "b21dc751dc00139af3",
+          "id": "1ea88c88e90585787f",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "mospi.gov.in",
+          "source": "Ministry of Statistics and Program Implementation",
           "source_url": "https://www.mospi.gov.in",
-          "title": "PRESS NOTE ON QUARTERLY ESTIMATES OF GROSS DOMESTIC PRODUCT FOR THE FIRST QUARTER (APRIL- JUNE) OF 2026-27 - mospi.gov.in",
+          "title": "PRESS NOTE ON QUARTERLY ESTIMATES OF GROSS DOMESTIC PRODUCT FOR THE FIRST QUARTER (APRIL- JUNE) OF 2026-27 - Ministry of Statistics and Program Implementation",
           "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPTGh1dnRNSUdSc2VULUNfOUQxeGx1dHRGZzFRQXM0ejY5OWFrcU81ZzFMc3NIak01MVRYZVM4Vk5wRXJZM1hxejhCWWNhNDBFZ25MNmJkaVE2bVlTU1RFc0VjY0ZxektPRXVHMDYtU0lqTVhiQ19YcU5BaGlwNmtBTFVSU0lCNkxxMlJHdHBZME9nZWhjUXRHRS1GRTh5WUFMTzlJVmNIVExGYlpjaXR5ZDNNbHJtU0hOWUI3NjlEWjBjZWVfblR1LVhuT2oxTHFLRk0weVFndmZQclhVRTF4bWhpaUdkR3dVU0UxVEk2VC1mUQ?oc=5",
           "published_at": "2026-08-31T07:00:00+00:00",
-          "snippet": "PRESS NOTE ON QUARTERLY ESTIMATES OF GROSS DOMESTIC PRODUCT FOR THE FIRST QUARTER (APRIL- JUNE) OF 2026-27 mospi.gov.in",
-          "lexical_overlap": 0.111,
-          "relevance": 0.231,
+          "snippet": "PRESS NOTE ON QUARTERLY ESTIMATES OF GROSS DOMESTIC PRODUCT FOR THE FIRST QUARTER (APRIL- JUNE) OF 2026-27 Ministry of Statistics and Program Implementation",
+          "lexical_overlap": 0.1,
+          "relevance": 0.22,
           "matched_terms": [
             "first",
             "quarter"
           ],
           "shared_numbers": [],
           "nli": {
-            "contradiction": 0.0101,
             "entailment": 0.0019,
-            "neutral": 0.988
+            "neutral": 0.9916,
+            "contradiction": 0.0065
           }
         },
         {
@@ -1820,11 +1826,18 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "b785d48cfb43e23f24",
-      "checked_at": "2026-09-27T20:09:52.313548+00:00",
+      "checked_at": "2026-09-27T20:42:21.331644+00:00",
       "promise_id": "BJP-2024-4ccae3ff0ac0f85b18",
       "year": 2024,
       "category": "health_welfare",
@@ -2007,11 +2020,18 @@
       "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "progress_documented",
+        "deadline_year": null,
+        "proof_strength": "verified_primary_action",
+        "proof_evidence_id": "160922da63deacd876",
+        "reason": "Verified primary evidence shows implementation activity, but not enough to establish the promised outcome."
+      }
     },
     {
       "id": "04f819ac1cc5aa81f2",
-      "checked_at": "2026-09-27T20:09:56.747438+00:00",
+      "checked_at": "2026-09-27T20:42:25.840237+00:00",
       "promise_id": "BJP-2024-5339a477acf791aaa1",
       "year": 2024,
       "category": "jobs_economy",
@@ -2057,11 +2077,18 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "84a37138302d0ea24f",
-      "checked_at": "2026-09-27T20:10:09.542213+00:00",
+      "checked_at": "2026-09-27T20:42:40.093661+00:00",
       "promise_id": "BJP-2024-655f124c198f6b9ede",
       "year": 2024,
       "category": "health_welfare",
@@ -2145,11 +2172,18 @@
       "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "9142cc4222ae957237",
-      "checked_at": "2026-09-27T20:10:14.532373+00:00",
+      "checked_at": "2026-09-27T20:42:45.369525+00:00",
       "promise_id": "BJP-2024-6f083d2624397d2590",
       "year": 2024,
       "category": "health_welfare",
@@ -2212,17 +2246,17 @@
           "shared_numbers": []
         },
         {
-          "id": "0957a6f240f223a87a",
+          "id": "fa5284b1ae108751d4",
           "scope": "broad_official_search",
           "tier": "primary",
-          "source": "ग्रामविकास विभाग",
+          "source": "rdd.maharashtra.gov.in",
           "source_url": "https://rdd.maharashtra.gov.in",
-          "title": "Pradhan Mantri Awas Yojana – Rural | Rural Development and Panchayat Raj Department | India - ग्रामविकास विभाग",
+          "title": "Pradhan Mantri Awas Yojana – Rural | Rural Development and Panchayat Raj Department | India - rdd.maharashtra.gov.in",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBYY3pQSUF1SUsxaU95OU90RDAwdWJjbVQxVUh1RkpldlBpbVIybzZ6Tm55U1JQYnBIMWZJbU1xc0JIWVFjbDRfb0lQaWtaUjBGTWZrTWJBc1hWcGVjcVZyRml1bmZBamtfQUpickZ1U1V5ZzQ1ZEF0dmRqM2NOZzA?oc=5",
           "published_at": "2025-01-29T08:00:00+00:00",
-          "snippet": "Pradhan Mantri Awas Yojana – Rural | Rural Development and Panchayat Raj Department | India ग्रामविकास विभाग",
-          "lexical_overlap": 0.1,
-          "relevance": 0.22,
+          "snippet": "Pradhan Mantri Awas Yojana – Rural | Rural Development and Panchayat Raj Department | India rdd.maharashtra.gov.in",
+          "lexical_overlap": 0.091,
+          "relevance": 0.211,
           "matched_terms": [
             "awas",
             "yojana"
@@ -2248,17 +2282,17 @@
           "shared_numbers": []
         },
         {
-          "id": "5de65684771d6f9425",
+          "id": "ccc2a60e8dcdef3d3a",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "therealtytoday.com",
+          "source": "Realty Today",
           "source_url": "https://therealtytoday.com",
-          "title": "NMC to Build 392 Flats for Sanitation Workers Under Ambedkar Awas Yojana - therealtytoday.com",
+          "title": "NMC to Build 392 Flats for Sanitation Workers Under Ambedkar Awas Yojana - Realty Today",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPc2I0bUlXQm9GbEFEaXhvcFY4d3VzT1VhQnFCd3Z5RTNQVVhXZ3NFS0ZKWmk3bXpHTEg5eTVJRmQ3UFdqUnJ3WjlJcFc3SURscUNuMG1UVVNIUEVXaG9YTlJmM1R6WkdENl9obkRxMWFTTlBVbTc0Y1FnanZfS2wySE0wVVoxRWVnVWI5MFdxeEhucDlSbFJXb3FIQWdPT1N1TVNBdmZSYUUxeU5LYkdj?oc=5",
           "published_at": "2025-09-22T07:00:00+00:00",
-          "snippet": "NMC to Build 392 Flats for Sanitation Workers Under Ambedkar Awas Yojana therealtytoday.com",
-          "lexical_overlap": 0.1,
-          "relevance": 0.17,
+          "snippet": "NMC to Build 392 Flats for Sanitation Workers Under Ambedkar Awas Yojana Realty Today",
+          "lexical_overlap": 0.105,
+          "relevance": 0.175,
           "matched_terms": [
             "awas",
             "yojana"
@@ -2269,11 +2303,18 @@
       "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "progress_documented",
+        "deadline_year": null,
+        "proof_strength": "verified_primary_action",
+        "proof_evidence_id": "fa5284b1ae108751d4",
+        "reason": "Verified primary evidence shows implementation activity, but not enough to establish the promised outcome."
+      }
     },
     {
       "id": "922a69a41a45f72313",
-      "checked_at": "2026-09-27T20:10:17.093492+00:00",
+      "checked_at": "2026-09-27T20:42:47.980691+00:00",
       "promise_id": "BJP-2024-7149cef59f2dec82cb",
       "year": 2024,
       "category": "jobs_economy",
@@ -2300,7 +2341,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "f1f532bb9890bfedec",
@@ -2331,7 +2379,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "e5e78eced80576b77b",
@@ -2382,11 +2437,18 @@
       "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "0c1ecd38d1e0f89805",
-      "checked_at": "2026-09-27T20:10:16.135361+00:00",
+      "checked_at": "2026-09-27T20:42:47.004349+00:00",
       "promise_id": "BJP-2024-704ff770d89d64ede9",
       "year": 2024,
       "category": "education_skills",
@@ -2450,11 +2512,18 @@
       "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "progress_documented",
+        "deadline_year": null,
+        "proof_strength": "verified_primary_action",
+        "proof_evidence_id": "adc9ed409885c295f3",
+        "reason": "Verified primary evidence shows implementation activity, but not enough to establish the promised outcome."
+      }
     },
     {
       "id": "f14ce852e96594361c",
-      "checked_at": "2026-09-27T20:09:47.614398+00:00",
+      "checked_at": "2026-09-27T20:42:15.687021+00:00",
       "promise_id": "BJP-2024-49984a50e85c1ffa9d",
       "year": 2024,
       "category": "infrastructure",
@@ -2500,11 +2569,18 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "7cae623e8c3ed07bff",
-      "checked_at": "2026-09-27T20:09:57.611668+00:00",
+      "checked_at": "2026-09-27T20:42:26.779913+00:00",
       "promise_id": "BJP-2024-5496879b7e0603a149",
       "year": 2024,
       "category": "jobs_economy",
@@ -2529,17 +2605,17 @@
       "query": "guarantee nari shakti creating high value",
       "evidence": [
         {
-          "id": "ca5c9f78213e72d48f",
+          "id": "ed64ed4422437b6157",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "New India Samachar",
+          "source": "newindiasamachar.pib.gov.in",
           "source_url": "https://newindiasamachar.pib.gov.in",
-          "title": "NARI SHAKTI - New India Samachar",
+          "title": "NARI SHAKTI - newindiasamachar.pib.gov.in",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSEpsZnB1cXZsYjFkb2RRX1c1TkdjamtaUVFxNjQyMnk2VDJuMmpmeWV2TmNYOVZod3diSHpLMjJwQld2Zk50SmVDRnlRQk9LMjBoSzlUOXZuOFFCcjkzN3JKN0RlcGVGRDZrdVQ1Y3Z0b2dlZ1ItWHg5c3E1MmdreF8yMGNFN1V3Zmc?oc=5",
           "published_at": "2023-10-16T07:00:00+00:00",
-          "snippet": "NARI SHAKTI New India Samachar",
-          "lexical_overlap": 0.154,
-          "relevance": 0.274,
+          "snippet": "NARI SHAKTI newindiasamachar.pib.gov.in",
+          "lexical_overlap": 0.133,
+          "relevance": 0.253,
           "matched_terms": [
             "nari",
             "shakti"
@@ -2604,11 +2680,18 @@
       "implementation_signal": "current_primary_evidence_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "progress_documented",
+        "deadline_year": null,
+        "proof_strength": "verified_primary_action",
+        "proof_evidence_id": "ed64ed4422437b6157",
+        "reason": "Verified primary evidence shows implementation activity, but not enough to establish the promised outcome."
+      }
     },
     {
       "id": "c45d622adfdfce52a6",
-      "checked_at": "2026-09-27T20:10:06.550957+00:00",
+      "checked_at": "2026-09-27T20:42:36.585630+00:00",
       "promise_id": "BJP-2024-63e8532ead1ce8f088",
       "year": 2024,
       "category": "health_welfare",
@@ -2672,7 +2755,14 @@
       "implementation_signal": "current_primary_evidence_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "progress_documented",
+        "deadline_year": null,
+        "proof_strength": "verified_primary_action",
+        "proof_evidence_id": "956541380a59c83e19",
+        "reason": "Verified primary evidence shows implementation activity, but not enough to establish the promised outcome."
+      }
     },
     {
       "id": "472b43d0646de307a2",
@@ -2722,11 +2812,18 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "3d3a9f93030d0a72e8",
-      "checked_at": "2026-09-27T20:10:00.885776+00:00",
+      "checked_at": "2026-09-27T20:42:30.556778+00:00",
       "promise_id": "BJP-2024-5740f34361ee57a981",
       "year": 2024,
       "category": "jobs_economy",
@@ -2751,15 +2848,15 @@
       "query": "expand startup scheme funding startups existing",
       "evidence": [
         {
-          "id": "55af8310a3f9cf6e46",
+          "id": "f2f8d6f38f7107d20e",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "airtel.in",
+          "source": "Airtel",
           "source_url": "https://www.airtel.in",
-          "title": "Startup India Seed Fund Scheme: Eligibility, Funding & Process - airtel.in",
+          "title": "Startup India Seed Fund Scheme: Eligibility, Funding & Process - Airtel",
           "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5rb1JaS3JMcmM3VEZMTG1MZzc3U01iaHJNdHNGT3hIQXE3WEJ2MXVSN01tVlZvLVJ2S3ZWTENTYk1mY0JUNG1vRWtsTkVkNTc3T0VLNnh5ZXB1T3VmcmlDUHVoWHRibUFPbVkxNnJ4R3lXdlF2VWxWMGJRN2g?oc=5",
           "published_at": "2026-03-13T07:00:00+00:00",
-          "snippet": "Startup India Seed Fund Scheme: Eligibility, Funding & Process airtel.in",
+          "snippet": "Startup India Seed Fund Scheme: Eligibility, Funding & Process Airtel",
           "lexical_overlap": 0.333,
           "relevance": 0.508,
           "matched_terms": [
@@ -2848,15 +2945,15 @@
           "shared_numbers": []
         },
         {
-          "id": "35b2788eafbf8fddae",
+          "id": "b969a3fdab83e34b20",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "CNBC TV18",
+          "source": "cnbctv18.com",
           "source_url": "https://www.cnbctv18.com",
-          "title": "India May Expand Startup Definition to Boost Deep-Tech Innovation and AI, DPIIT Considers New Criteria for Sta - CNBC TV18",
+          "title": "India May Expand Startup Definition to Boost Deep-Tech Innovation and AI, DPIIT Considers New Criteria for Sta - cnbctv18.com",
           "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNVGU2VUdDeDZNY0Jsem5HU3lWRjEza0c4ZG9ULUM0bjZrMU16SFd2OTZHcUpoUXlHR1UxNGQxUHBxelVNOF9HalVOUHJpLU0ySllzWWhhR1h2TURpWGF5VHBwc3RQSS1uejFTRXJ5V2tIVWRIV2stVXJObTZqQXh4UnhNaFNTMGtQM1g0bDlfQ3hzUzJSUkcxenlFZ190SWlVOTZYU2R1bXdFekIzdGVWeE1KLVdYNlB6TFR5cTlQUzVVa29MdUtnOVgyVl9jSE1tVDc1d1BkTGxUdUdHUU1EeNIB5gFBVV95cUxPNlMtUk83ejZWYWg3S1NZQWhJd0czUHB2bEJjN3c0YzNxbWk1NTE2aThEdnl0Y0VES0pZMmJFRWNWdFBBWUFTa1R6M1dKVG91RjdvQmhodG1wZzJkUDdBbUpQaUNlWERNQXFRMmJpanN1eEsxbkxEV3I1U09kYjZ4S3Q0YkxaYVJwcXczRXRLaG4wUEpETmZuZWN6eHR6NWZ6Z3g4WjRrRHNLU2d2ekwxR2JTbmFwcjQ1UHAzZy00LUJ0M2VDSG9SN29ZSXRNQnBCYWF5UkVXaVlRMkRpVFEyMU43OXBqQQ?oc=5",
           "published_at": "2026-01-28T08:00:00+00:00",
-          "snippet": "India May Expand Startup Definition to Boost Deep-Tech Innovation and AI, DPIIT Considers New Criteria for Sta CNBC TV18",
+          "snippet": "India May Expand Startup Definition to Boost Deep-Tech Innovation and AI, DPIIT Considers New Criteria for Sta cnbctv18.com",
           "lexical_overlap": 0.087,
           "relevance": 0.157,
           "matched_terms": [
@@ -2869,7 +2966,14 @@
       "implementation_signal": "action_detected",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "progress_documented",
+        "deadline_year": null,
+        "proof_strength": "verified_primary_action",
+        "proof_evidence_id": "022337f9c88068e97a",
+        "reason": "Verified primary evidence shows implementation activity, but not enough to establish the promised outcome."
+      }
     },
     {
       "id": "620a3ab8b7d156ba01",
@@ -2937,7 +3041,14 @@
       "implementation_signal": "current_primary_evidence_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "progress_documented",
+        "deadline_year": null,
+        "proof_strength": "verified_primary_action",
+        "proof_evidence_id": "ff894078230c70b8c0",
+        "reason": "Verified primary evidence shows implementation activity, but not enough to establish the promised outcome."
+      }
     },
     {
       "id": "0047ee2ab85bef68ca",
@@ -3102,7 +3213,14 @@
       "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "progress_documented",
+        "deadline_year": null,
+        "proof_strength": "verified_primary_action",
+        "proof_evidence_id": "fdb6448dcb3e76fe8a",
+        "reason": "Verified primary evidence shows implementation activity, but not enough to establish the promised outcome."
+      }
     },
     {
       "id": "c726f53f535d59633b",
@@ -3171,7 +3289,14 @@
       "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "progress_documented",
+        "deadline_year": null,
+        "proof_strength": "verified_primary_action",
+        "proof_evidence_id": "da1d7d45eabfd84e51",
+        "reason": "Verified primary evidence shows implementation activity, but not enough to establish the promised outcome."
+      }
     },
     {
       "id": "574ad05a147dea48a4",
@@ -3221,7 +3346,14 @@
       "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "b514031e47535ff152",
@@ -3290,11 +3422,18 @@
       "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "9bda7356353f0039d7",
-      "checked_at": "2026-09-27T20:09:53.411098+00:00",
+      "checked_at": "2026-09-27T20:42:22.394213+00:00",
       "promise_id": "BJP-2024-4ede65101fee542999",
       "year": 2024,
       "category": "agriculture",
@@ -3352,6 +3491,25 @@
           "relevance": 0.351,
           "matched_terms": [
             "agriculture",
+            "digital",
+            "infrastructure",
+            "public"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "3f0b818afb663dc9fa",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Gates Foundation",
+          "source_url": "https://www.gatesfoundation.org",
+          "title": "Why digital public infrastructure matters - Gates Foundation",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUENYcEE0eDJuY3ZkY1drQklHZ3F0anl3X3QxNzd3cVZwMTZldEFOR0Y2UlZiMnhJQVBpTm5ObUNvVkVOWUVtZ0FwSFZLWmRwREszNXRKZTVqNWlSeHItWndGcXJ2RGZIeEFEUVpsYWptSnRGR081STlUSjNtZzI0c0xiU2NZeFFfNTY0Nw?oc=5",
+          "published_at": "2023-08-16T07:00:00+00:00",
+          "snippet": "Why digital public infrastructure matters Gates Foundation",
+          "lexical_overlap": 0.188,
+          "relevance": 0.292,
+          "matched_terms": [
             "digital",
             "infrastructure",
             "public"
@@ -3437,11 +3595,18 @@
       "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "progress_documented",
+        "deadline_year": null,
+        "proof_strength": "verified_primary_action",
+        "proof_evidence_id": "099740b8df545dd368",
+        "reason": "Verified primary evidence shows implementation activity, but not enough to establish the promised outcome."
+      }
     },
     {
       "id": "ed9a513b89d099f43a",
-      "checked_at": "2026-09-27T20:10:20.285677+00:00",
+      "checked_at": "2026-09-27T20:42:51.135074+00:00",
       "promise_id": "BJP-2024-72b047514af8695c55",
       "year": 2024,
       "category": "agriculture",
@@ -3468,11 +3633,18 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "31796104f8c289dc80",
-      "checked_at": "2026-09-27T20:10:26.010091+00:00",
+      "checked_at": "2026-09-27T20:42:57.349196+00:00",
       "promise_id": "BJP-2024-7a6c96d4de2d80a70d",
       "year": 2024,
       "category": "other",
@@ -3519,15 +3691,15 @@
           "shared_numbers": []
         },
         {
-          "id": "61da000cbe30469d3a",
+          "id": "e07215a00d81426445",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "ipr.nagaland.gov.in",
+          "source": "DIPR Nagaland",
           "source_url": "https://ipr.nagaland.gov.in",
-          "title": "LAUNCHING OF FOOT AND MOUTH DISEASE VACCINATION MISSION ROUND 4 IN NAGALAND STATE UNDER NATIONAL ANIMAL DISEASE CONTROL PROGRAMME | DIPR Nagaland-Department of Information & Public Relations, Nagaland - ipr.nagaland.gov.in",
+          "title": "LAUNCHING OF FOOT AND MOUTH DISEASE VACCINATION MISSION ROUND 4 IN NAGALAND STATE UNDER NATIONAL ANIMAL DISEASE CONTROL PROGRAMME | DIPR Nagaland-Department of Information & Public Relations, Nagaland - DIPR Nagaland",
           "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOLUpybF9kUGVyMzB0RzRYS05IM0h4eUswajdOcXFRNUo1aXV1bmQyTHBNV3lfMUFVWWFzaXNpdVVTdUFQTUtub054X1hXdGVYMWZpYWZ5Y2U4UHNlem9tZVVacmJGMjUyOUxqMWFjVy1TR01CSFBiaU1xQm9odUVNUVVFQUZuZjR4Z05rd0tKams0RmtlaVhmOVBPa2k0ZFQ2TDI0YnNMUmtqeXpubklaZC1GemRQYTJlaS1GdmZhWFlmQms4dklkNUJNQUw0QmtDR3gxQ3oyQmw0VHl3bF81dWJNdzJqamEyblA0N1p3?oc=5",
           "published_at": "2024-09-11T07:00:00+00:00",
-          "snippet": "LAUNCHING OF FOOT AND MOUTH DISEASE VACCINATION MISSION ROUND 4 IN NAGALAND STATE UNDER NATIONAL ANIMAL DISEASE CONTROL PROGRAMME | DIPR Nagaland-Department of Information & Public Relations, Nagaland ipr.nagaland.gov.in",
+          "snippet": "LAUNCHING OF FOOT AND MOUTH DISEASE VACCINATION MISSION ROUND 4 IN NAGALAND STATE UNDER NATIONAL ANIMAL DISEASE CONTROL PROGRAMME | DIPR Nagaland-Department of Information & Public Relations, Nagaland DIPR Nagaland",
           "lexical_overlap": 0.167,
           "relevance": 0.307,
           "matched_terms": [
@@ -3616,7 +3788,14 @@
       "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "progress_documented",
+        "deadline_year": null,
+        "proof_strength": "verified_primary_action",
+        "proof_evidence_id": "73f23d6630c7409415",
+        "reason": "Verified primary evidence shows implementation activity, but not enough to establish the promised outcome."
+      }
     },
     {
       "id": "45e96a3f27027ff600",
@@ -3666,7 +3845,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "b1f163f50f0c1e8fb0",
@@ -3697,11 +3883,18 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "8c090e7b432e74f3c1",
-      "checked_at": "2026-09-27T20:09:59.770486+00:00",
+      "checked_at": "2026-09-27T20:42:29.237823+00:00",
       "promise_id": "BJP-2024-569866eb783f1566f3",
       "year": 2024,
       "category": "infrastructure",
@@ -3728,7 +3921,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "3a63cdce8c71abdad5",
@@ -3856,7 +4056,14 @@
       "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "progress_documented",
+        "deadline_year": null,
+        "proof_strength": "verified_primary_action",
+        "proof_evidence_id": "9983c2cf0068d90433",
+        "reason": "Verified primary evidence shows implementation activity, but not enough to establish the promised outcome."
+      }
     },
     {
       "id": "ad605cb52d09b94f54",
@@ -3941,7 +4148,14 @@
       "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "progress_documented",
+        "deadline_year": null,
+        "proof_strength": "verified_primary_action",
+        "proof_evidence_id": "7774086e5c014b2fa7",
+        "reason": "Verified primary evidence shows implementation activity, but not enough to establish the promised outcome."
+      }
     },
     {
       "id": "4f529881d45b75697e",
@@ -3972,7 +4186,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "44293987a398f2508d",
@@ -4003,11 +4224,18 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "440c771abffdc3ef92",
-      "checked_at": "2026-09-27T20:09:51.150450+00:00",
+      "checked_at": "2026-09-27T20:42:19.487609+00:00",
       "promise_id": "BJP-2024-4c5cd608c744089808",
       "year": 2024,
       "category": "women_social_justice",
@@ -4107,11 +4335,18 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "769e85497ef35d04bb",
-      "checked_at": "2026-09-27T20:10:03.607998+00:00",
+      "checked_at": "2026-09-27T20:42:33.355636+00:00",
       "promise_id": "BJP-2024-5a502a961387696185",
       "year": 2024,
       "category": "health_welfare",
@@ -4194,7 +4429,14 @@
       "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "progress_documented",
+        "deadline_year": null,
+        "proof_strength": "verified_primary_action",
+        "proof_evidence_id": "2c81427d0df5293776",
+        "reason": "Verified primary evidence shows implementation activity, but not enough to establish the promised outcome."
+      }
     },
     {
       "id": "9f4612bd339c681562",
@@ -4235,7 +4477,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "9047c7a7906f5a4bdc",
@@ -4285,11 +4534,18 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "f2ebb5fd1c626d0a64",
-      "checked_at": "2026-09-27T20:10:05.001031+00:00",
+      "checked_at": "2026-09-27T20:42:34.817216+00:00",
       "promise_id": "BJP-2024-624d03ea5c16f4e1f8",
       "year": 2024,
       "category": "other",
@@ -4329,12 +4585,37 @@
             "yoga"
           ],
           "shared_numbers": []
+        },
+        {
+          "id": "986c406ccf52ed3d93",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "organiser.org",
+          "source_url": "https://organiser.org",
+          "title": "What does triple ISO certification for AIIA mean for the future of ayurveda research? - organiser.org",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcnQ2SzRPTDBoTXFuSGczeUJyUFBZOVJWdHk0YTQ2dGFkblJUdFNBNnFDSVczQ0Nmc3kxTWM5SnBjUlBsc2JSNHBlM256OWNOTUx4YUpvLVUwejBSTHhzZHZ3UWRpZEhSN2VEbzJkSEFZR2FFWU9qYlY2QW5uN3RrTm10NmliaHliZVJYY2pPR2h3a0NKelVUTWNMYVZTWmRvQ1JkckFwSFRwTngwdE1BTkxlM3c3djFzc203aWYxUVdpaFgwTk5ldUZCTlDSAdIBQVVfeXFMT2NzeUN4amY3MGZrWnNCSU1CNk1BREY4allVa0tZSFBhQkEydjJ5WHBFYjFPbWdsemhhTWowOFJ3RmlUM0hHektQOTVNR3gyeUM4eVI1MjJ4MTZLclRyTDh4SXJ2Q3BxcmRhVUs5WE1leWNqdnlUdEFmLVNscjg0dnRzLWdSZXQ1bkhNUzA3SEFtYzZWZkJTazFBSG96a2g3R0VYS0JCQlhuSGJaMDU4VzZJV0dKOWc1dHFCOWRxX1lLREZzLTNiRG1ST0NwLVREb0VR?oc=5",
+          "published_at": "2025-11-10T08:00:00+00:00",
+          "snippet": "What does triple ISO certification for AIIA mean for the future of ayurveda research? organiser.org",
+          "lexical_overlap": 0.118,
+          "relevance": 0.188,
+          "matched_terms": [
+            "ayurveda",
+            "certification"
+          ],
+          "shared_numbers": []
         }
       ],
-      "implementation_signal": "current_primary_evidence_found",
+      "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "progress_documented",
+        "deadline_year": null,
+        "proof_strength": "verified_primary_action",
+        "proof_evidence_id": "50befadcb4f8c8f370",
+        "reason": "Verified primary evidence shows implementation activity, but not enough to establish the promised outcome."
+      }
     },
     {
       "id": "f5ee8b15dcb1c3d21b",
@@ -4404,7 +4685,14 @@
       "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "progress_documented",
+        "deadline_year": null,
+        "proof_strength": "verified_primary_action",
+        "proof_evidence_id": "d72d235d0712654386",
+        "reason": "Verified primary evidence shows implementation activity, but not enough to establish the promised outcome."
+      }
     },
     {
       "id": "78e334b06e2ff59902",
@@ -4454,7 +4742,14 @@
       "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "575671097750722b58",
@@ -4580,7 +4875,14 @@
       "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "de62435ae626c6ed5f",
@@ -4677,7 +4979,14 @@
       "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "deadline_not_reached",
+        "deadline_year": 2047,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted deadline is 2047, so the promise is not yet overdue."
+      }
     },
     {
       "id": "41e121c4ede1157338",
@@ -4744,7 +5053,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "15f7c4e47befb8c973",
@@ -4793,11 +5109,18 @@
       "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "b4cfb445909843964d",
-      "checked_at": "2026-09-27T20:09:58.741912+00:00",
+      "checked_at": "2026-09-27T20:42:28.063758+00:00",
       "promise_id": "BJP-2024-5504692ba2cfb6cdf4",
       "year": 2024,
       "category": "jobs_economy",
@@ -4878,15 +5201,15 @@
           "shared_numbers": []
         },
         {
-          "id": "1f85d1a03dd6c4d007",
+          "id": "e5522d78972ae3330e",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "marketdataforecast.com",
+          "source": "Market Data Forecast",
           "source_url": "https://www.marketdataforecast.com",
-          "title": "Europe Lab-Grown Diamonds Market Size, Share & Growth, 2034 - marketdataforecast.com",
+          "title": "Europe Lab-Grown Diamonds Market Size, Share & Growth, 2034 - Market Data Forecast",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcTktbjlYZGh1MjF4Q2pRRTNJaHVldjdQSEM0Smp3SHlSbG96TG9mZEdhaElFNXZoVlZtUW53SmdMQnpDRHdqVEFKTE41SnlTbnFDLUlHUGk0eHFUbm53MF9LbU5QLXFCczNOMi1FTExBaUVwSFFKZGM4SUVDNlZGckI3U3RIS2ptQmc?oc=5",
           "published_at": "2026-07-01T07:00:00+00:00",
-          "snippet": "Europe Lab-Grown Diamonds Market Size, Share & Growth, 2034 marketdataforecast.com",
+          "snippet": "Europe Lab-Grown Diamonds Market Size, Share & Growth, 2034 Market Data Forecast",
           "lexical_overlap": 0.105,
           "relevance": 0.175,
           "matched_terms": [
@@ -4953,11 +5276,18 @@
       "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "progress_documented",
+        "deadline_year": null,
+        "proof_strength": "verified_primary_action",
+        "proof_evidence_id": "8708e99f0197a868bb",
+        "reason": "Verified primary evidence shows implementation activity, but not enough to establish the promised outcome."
+      }
     },
     {
       "id": "a850056f360a74ccf4",
-      "checked_at": "2026-09-27T20:10:23.371779+00:00",
+      "checked_at": "2026-09-27T20:42:54.470537+00:00",
       "promise_id": "BJP-2024-7487313c21c6a9979d",
       "year": 2024,
       "category": "jobs_economy",
@@ -5041,17 +5371,17 @@
           "shared_numbers": []
         },
         {
-          "id": "8adba95b9755d39f14",
+          "id": "7fc447803d8eda89ed",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "gulf-times.com",
+          "source": "Gulf Times",
           "source_url": "https://www.gulf-times.com",
-          "title": "Qatar seeks to consolidate itself as a regional hub for innovation | Gulf Times - gulf-times.com",
+          "title": "Qatar seeks to consolidate itself as a regional hub for innovation | Gulf Times - Gulf Times",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTlNHeURscWVDNnBIcFUzQVMwenhjVWNNRVhkYjFBUjY3OWxxYzE4NkpzbzN2S1dyVkJoeWkxLVg0WUlCc1BzaGx3M3I5WlMteFVDdnNodWNPcHJLcVpjelBiWDVpS05aTHFKUldPNXdhU2JkZUMzOVVISEpQSGtMVG53LWlJbEg4SlZDb2xNMU8tWVVfS3lyV3JySF9HWVFDT2VGbEdxbFdEd1VuOEptY3ZlbzVwa0nSAbwBQVVfeXFMTl8xZi13ZlJEeWdsVFpzY1dZVXZCamJ6Q0hRQ3hJWlJZbUdacExjQWx1TEJjcGJ5TkN2UGNSODF2bXFGTmVRdk8wSU9YQ1RNbHBrZTRuZE16YjBtdWxjVmVqa0VGdlhDbUpJMzRVenlac0RhVkVxQkpJWGVwSXpPOVFFVTgzdGZpSjYxX2lsZVJVNElTU2I0ODFRM1ZkTjlHM2h4Qkg0MTJyZ0pyb0tndTFYcGM0NVk3S3Iya0o?oc=5",
           "published_at": "2026-04-22T07:00:00+00:00",
-          "snippet": "Qatar seeks to consolidate itself as a regional hub for innovation | Gulf Times gulf-times.com",
-          "lexical_overlap": 0.15,
-          "relevance": 0.255,
+          "snippet": "Qatar seeks to consolidate itself as a regional hub for innovation | Gulf Times Gulf Times",
+          "lexical_overlap": 0.167,
+          "relevance": 0.272,
           "matched_terms": [
             "consolidate",
             "hub",
@@ -5081,7 +5411,14 @@
       "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "c94fe9d59245bdbb0a",
@@ -5167,7 +5504,14 @@
       "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "709575374a1e615caf",
@@ -5209,7 +5553,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "deadline_not_reached",
+        "deadline_year": 2030,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted deadline is 2030, so the promise is not yet overdue."
+      }
     },
     {
       "id": "3c343f742248303007",
@@ -5248,7 +5599,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "533125f754ade9ea71",
@@ -5352,11 +5710,18 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "3670a3464dd4243db5",
-      "checked_at": "2026-09-27T20:10:02.623457+00:00",
+      "checked_at": "2026-09-27T20:42:32.261097+00:00",
       "promise_id": "BJP-2024-5830e52423a342f405",
       "year": 2024,
       "category": "other",
@@ -5383,7 +5748,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "9d9f94c01754bbba5d",
@@ -5434,7 +5806,14 @@
       "implementation_signal": "current_primary_evidence_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "progress_documented",
+        "deadline_year": null,
+        "proof_strength": "verified_primary_action",
+        "proof_evidence_id": "4e6dd939ca428cd186",
+        "reason": "Verified primary evidence shows implementation activity, but not enough to establish the promised outcome."
+      }
     },
     {
       "id": "8d18f29cbcaff81c64",
@@ -5648,7 +6027,14 @@
       "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "progress_documented",
+        "deadline_year": null,
+        "proof_strength": "verified_primary_action",
+        "proof_evidence_id": "0fd293d3bcb4072bcb",
+        "reason": "Verified primary evidence shows implementation activity, but not enough to establish the promised outcome."
+      }
     },
     {
       "id": "bffff8469f15f6cfbf",
@@ -5825,7 +6211,14 @@
       "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "progress_documented",
+        "deadline_year": null,
+        "proof_strength": "verified_primary_action",
+        "proof_evidence_id": "14c5952d862fc84315",
+        "reason": "Verified primary evidence shows implementation activity, but not enough to establish the promised outcome."
+      }
     },
     {
       "id": "47bdc65718e1c78ccb",
@@ -5931,11 +6324,18 @@
       "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "deadline_not_reached",
+        "deadline_year": 2047,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted deadline is 2047, so the promise is not yet overdue."
+      }
     },
     {
       "id": "58d6d93bbb18507c54",
-      "checked_at": "2026-09-27T20:10:25.204048+00:00",
+      "checked_at": "2026-09-27T20:42:56.467134+00:00",
       "promise_id": "BJP-2024-7983f343e0ca238278",
       "year": 2024,
       "category": "security_defence",
@@ -6018,7 +6418,14 @@
       "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "progress_documented",
+        "deadline_year": null,
+        "proof_strength": "verified_primary_action",
+        "proof_evidence_id": "ee7dc90e0ff151a008",
+        "reason": "Verified primary evidence shows implementation activity, but not enough to establish the promised outcome."
+      }
     },
     {
       "id": "061cd0e60148738643",
@@ -6122,7 +6529,14 @@
       "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "deadline_not_reached",
+        "deadline_year": 2047,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted deadline is 2047, so the promise is not yet overdue."
+      }
     },
     {
       "id": "fbe7b52e8e512268a5",
@@ -6172,7 +6586,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "fa5b8cd6e625973a42",
@@ -6258,7 +6679,14 @@
       "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "50aa97228a989a8f26",
@@ -6366,11 +6794,18 @@
       "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "6807150703a04201e1",
-      "checked_at": "2026-09-27T20:09:49.506907+00:00",
+      "checked_at": "2026-09-27T20:42:17.550166+00:00",
       "promise_id": "BJP-2024-4add7a580782d9779b",
       "year": 2024,
       "category": "other",
@@ -6396,7 +6831,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "862863324e36335e42",
@@ -6426,7 +6868,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "1d1dd6f9d855b05ba4",
@@ -6456,7 +6905,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "c039b3c6c6ae0b6d2e",
@@ -6557,11 +7013,18 @@
       "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "217ee4f3ad126d485d",
-      "checked_at": "2026-09-27T20:09:46.021101+00:00",
+      "checked_at": "2026-09-27T20:42:13.983647+00:00",
       "promise_id": "BJP-2024-497a67d763cb67757f",
       "year": 2024,
       "category": "governance",
@@ -6703,15 +7166,15 @@
           "shared_numbers": []
         },
         {
-          "id": "7b72b2c9d3a5a31aa1",
+          "id": "d83b8a641a73ce4baf",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "opengovasia.com",
+          "source": "OpenGov Asia",
           "source_url": "https://opengovasia.com",
-          "title": "India Accelerates Digital Court Reforms Under e-Courts Phase III - opengovasia.com",
+          "title": "India Accelerates Digital Court Reforms Under e-Courts Phase III - OpenGov Asia",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOV3c2bEJLZTJCQ2FIQWVlaHhobzhPWVo3WHpaRFhQODRGdzBSdjdNMi1JUU5BalhET0kzdFlET1E0Mnp0dlBtYTNad3BiR3l3OWlQcUxEdkJmaTV3Qk44Q0dyYnVqSUhrN1p5MmhjYzJicXo2ZGxUeGpfSjdwVHo1bzVUQ2xEdUpyNEczS3ZqQU9kc2c?oc=5",
           "published_at": "2026-07-26T07:00:00+00:00",
-          "snippet": "India Accelerates Digital Court Reforms Under e-Courts Phase III opengovasia.com",
+          "snippet": "India Accelerates Digital Court Reforms Under e-Courts Phase III OpenGov Asia",
           "lexical_overlap": 0.105,
           "relevance": 0.175,
           "matched_terms": [
@@ -6760,11 +7223,18 @@
       "implementation_signal": "action_detected",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "progress_documented",
+        "deadline_year": null,
+        "proof_strength": "verified_primary_action",
+        "proof_evidence_id": "5a8c91ca4191af63b3",
+        "reason": "Verified primary evidence shows implementation activity, but not enough to establish the promised outcome."
+      }
     },
     {
       "id": "dd9607f6ad8bde361d",
-      "checked_at": "2026-09-27T20:10:18.770449+00:00",
+      "checked_at": "2026-09-27T20:42:49.731025+00:00",
       "promise_id": "BJP-2024-714e22f47c05a87b9c",
       "year": 2024,
       "category": "technology_digital",
@@ -6828,11 +7298,18 @@
       "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "56a2bb331eb4a6cc11",
-      "checked_at": "2026-09-27T20:10:21.826803+00:00",
+      "checked_at": "2026-09-27T20:42:52.841657+00:00",
       "promise_id": "BJP-2024-74392a1b409490ac51",
       "year": 2024,
       "category": "jobs_economy",
@@ -6878,7 +7355,14 @@
       "implementation_signal": "current_primary_evidence_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "progress_documented",
+        "deadline_year": null,
+        "proof_strength": "verified_primary_action",
+        "proof_evidence_id": "5423008da10244fae6",
+        "reason": "Verified primary evidence shows implementation activity, but not enough to establish the promised outcome."
+      }
     },
     {
       "id": "0d25143190c9587861",
@@ -6909,11 +7393,18 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "f3ec796b655fc1acdb",
-      "checked_at": "2026-09-27T20:10:08.033637+00:00",
+      "checked_at": "2026-09-27T20:42:38.172753+00:00",
       "promise_id": "BJP-2024-651016faed4182476c",
       "year": 2024,
       "category": "health_welfare",
@@ -6955,24 +7446,6 @@
           "shared_numbers": []
         },
         {
-          "id": "eef26fe4e6aed724e6",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Outlook India",
-          "source_url": "https://www.outlookindia.com",
-          "title": "AIIMS Delhi Unites Network To Launch Pan-India Research Consortium - Outlook India",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNnZvS21TRFNOczBHVTZDWFJUNkJmcGgyNEhwemE4ZFdOMHRPVVpqWmdiNVp0YWF5b1F1S1d3Z0NjVXJ3WHBIM090OXF1enc0Si1JZlNwRUdDTGRkSGxDYVN0cnpCVDdPQU1JZk5tdlBpZHFLM1g2aFlmZmFCb2lzMEF1VEdTNllEbGllVUN4R3Q0ZGliS1ZfZzZoNUd5aUNGRWN6T2NVMllFUTdzbnpqZnpETE5qR28?oc=5",
-          "published_at": "2026-01-31T08:00:00+00:00",
-          "snippet": "AIIMS Delhi Unites Network To Launch Pan-India Research Consortium Outlook India",
-          "lexical_overlap": 0.154,
-          "relevance": 0.224,
-          "matched_terms": [
-            "aiims",
-            "network"
-          ],
-          "shared_numbers": []
-        },
-        {
           "id": "e9a7abc63c7bae7091",
           "scope": "news_search",
           "tier": "secondary",
@@ -6984,6 +7457,24 @@
           "snippet": "Nadda Calls for AI Integration and Faster Recruitment Across AIIMS Network The Indian Practitioner",
           "lexical_overlap": 0.154,
           "relevance": 0.224,
+          "matched_terms": [
+            "aiims",
+            "network"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "b7c12545299e648d7c",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "outlookindia.com",
+          "source_url": "https://www.outlookindia.com",
+          "title": "AIIMS Delhi Unites Network To Launch Pan-India Research Consortium - outlookindia.com",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNnZvS21TRFNOczBHVTZDWFJUNkJmcGgyNEhwemE4ZFdOMHRPVVpqWmdiNVp0YWF5b1F1S1d3Z0NjVXJ3WHBIM090OXF1enc0Si1JZlNwRUdDTGRkSGxDYVN0cnpCVDdPQU1JZk5tdlBpZHFLM1g2aFlmZmFCb2lzMEF1VEdTNllEbGllVUN4R3Q0ZGliS1ZfZzZoNUd5aUNGRWN6T2NVMllFUTdzbnpqZnpETE5qR28?oc=5",
+          "published_at": "2026-01-31T08:00:00+00:00",
+          "snippet": "AIIMS Delhi Unites Network To Launch Pan-India Research Consortium outlookindia.com",
+          "lexical_overlap": 0.143,
+          "relevance": 0.213,
           "matched_terms": [
             "aiims",
             "network"
@@ -7048,11 +7539,18 @@
       "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "c00ee53c09d1e78a1c",
-      "checked_at": "2026-09-27T20:10:11.359240+00:00",
+      "checked_at": "2026-09-27T20:42:41.906986+00:00",
       "promise_id": "BJP-2024-6ae9d0766a138184f2",
       "year": 2024,
       "category": "other",
@@ -7098,11 +7596,18 @@
       "implementation_signal": "current_primary_evidence_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "progress_documented",
+        "deadline_year": null,
+        "proof_strength": "verified_primary_action",
+        "proof_evidence_id": "83765c3398395b6f29",
+        "reason": "Verified primary evidence shows implementation activity, but not enough to establish the promised outcome."
+      }
     },
     {
       "id": "ee021c9df9163414ed",
-      "checked_at": "2026-09-27T20:10:13.012372+00:00",
+      "checked_at": "2026-09-27T20:42:43.783172+00:00",
       "promise_id": "BJP-2024-6c42cab0fef7bcdf50",
       "year": 2024,
       "category": "jobs_economy",
@@ -7145,17 +7650,17 @@
           "shared_numbers": []
         },
         {
-          "id": "83315d228a34d7cae6",
+          "id": "9444c5094393612078",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "CII Blog",
+          "source": "ciiblog.in",
           "source_url": "https://ciiblog.in",
-          "title": "Skilling India’s Gig Workers: Policy Gaps and Industry’s Role - CII Blog",
+          "title": "Skilling India’s Gig Workers: Policy Gaps and Industry’s Role - ciiblog.in",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZnQzeE9KX3ZUcFR3QkJ2WGVrTlBYSTl1UTFvUG43QTZFXzN6N0JaMzlsSEU3RG5YZlFPVzB1bFl4Y19GYndmWkozNnc4bjJkNDZSS0NEdW9RQnYwWFZ6c01uNG9pT0Nqa0xoUEw2Z3BUQlI5eGtNVmIxd3lpNXRCMUJ1VHU?oc=5",
           "published_at": "2026-08-17T07:00:00+00:00",
-          "snippet": "Skilling India’s Gig Workers: Policy Gaps and Industry’s Role CII Blog",
-          "lexical_overlap": 0.125,
-          "relevance": 0.195,
+          "snippet": "Skilling India’s Gig Workers: Policy Gaps and Industry’s Role ciiblog.in",
+          "lexical_overlap": 0.133,
+          "relevance": 0.203,
           "matched_terms": [
             "industry",
             "skilling"
@@ -7163,15 +7668,15 @@
           "shared_numbers": []
         },
         {
-          "id": "f9a1127c13263db56d",
+          "id": "657cbd282a12e42b48",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Daily Excelsior",
+          "source": "dailyexcelsior.com",
           "source_url": "https://www.dailyexcelsior.com",
-          "title": "FTAs, skilling incentives opening new employment avenues for youth: Modi - Daily Excelsior",
+          "title": "FTAs, skilling incentives opening new employment avenues for youth: Modi - dailyexcelsior.com",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQ3FNTjNTY0ZyOWVXXzRPWlNrWEZRVGxXRXNDcVZ4MmtnamFVWXlndk40Z0kxc2ZHV2lObDM1VUc5bzcwY3VDRUxyeEtpWFZnVzdLci1wSVdZYjJ0OGc1U3pmQS00V2Jlb001aC1JbGtIVF85aGtQeE12MjFLb1I5TXVFdENHeFFxYnVtSF9ZYWRRUE4wbmM1Xy1XYTNvWUZja0xDV9IBqAFBVV95cUxONkFiek5uQll1bXR1SGlLUnhhQmxWaXpDTU1sckZuNHRpOW9ibTA0SGlHWHIyaHAydWVRV0ZQdEsybnVHZGJvcTRtNWhxZ0U0Q2NmUFhrLWU0eERXVTVVaGJMa1hBUHJ1dmVtV2hwRnIyZ0FfbUpOSTVkQi1kbGJybDZOS080dzJjOTZNOFVIOFdzQWU3NjdoWE9jMmdNSWVucHBnODJRU2E?oc=5",
           "published_at": "2026-09-19T23:05:26+00:00",
-          "snippet": "FTAs, skilling incentives opening new employment avenues for youth: Modi Daily Excelsior",
+          "snippet": "FTAs, skilling incentives opening new employment avenues for youth: Modi dailyexcelsior.com",
           "lexical_overlap": 0.125,
           "relevance": 0.195,
           "matched_terms": [
@@ -7202,7 +7707,14 @@
       "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "progress_documented",
+        "deadline_year": null,
+        "proof_strength": "verified_primary_action",
+        "proof_evidence_id": "3e9ebca2d42dab7a72",
+        "reason": "Verified primary evidence shows implementation activity, but not enough to establish the promised outcome."
+      }
     },
     {
       "id": "e9f79088948e3453ae",
@@ -7233,7 +7745,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "defd3abadb25339b14",
@@ -7264,7 +7783,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "e1179c117edcce53cd",
@@ -7405,7 +7931,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "insufficient_evidence",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "Available evidence is not yet sufficient for a documented outcome."
+      }
     },
     {
       "id": "58cc26e1b899ef064d",
@@ -7455,11 +7988,18 @@
       "implementation_signal": "current_primary_evidence_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "progress_documented",
+        "deadline_year": null,
+        "proof_strength": "verified_primary_action",
+        "proof_evidence_id": "9cec490de08369c20e",
+        "reason": "Verified primary evidence shows implementation activity, but not enough to establish the promised outcome."
+      }
     },
     {
       "id": "1ef58b1b4ebcd0fefe",
-      "checked_at": "2026-09-27T20:10:24.082984+00:00",
+      "checked_at": "2026-09-27T20:42:55.333190+00:00",
       "promise_id": "BJP-2024-77e66648d636c61a7c",
       "year": 2024,
       "category": "environment",
@@ -7523,17 +8063,17 @@
           "shared_numbers": []
         },
         {
-          "id": "dbb114f476c4100657",
+          "id": "baf7576290f1c73dc7",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "ETV Bharat",
+          "source": "etvbharat.com",
           "source_url": "https://www.etvbharat.com",
-          "title": "‘Mission Mausam’: India Keeps A Weather Eye On The Skies, Installs Advanced System - ETV Bharat",
+          "title": "‘Mission Mausam’: India Keeps A Weather Eye On The Skies, Installs Advanced System - etvbharat.com",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOa21fZUlSU0hWWkhkbUdScUxxT29sMERlcm9oZklJNjg1a2wxRE0xUFZvRkFBYUtOVV93UWdaTjhLa1h3U2lJV1dsa3lZRGl0UnlpZko2aXRlU2hiWDZhLVRWUkt2RlR0Z2pSTndvOEV5MmNqQmU4TWZ1YmF0Q1NHQnlCYTJoUVhGZFNNRmRpTzFRaThmMVl1YjJ6dWZ2NDZ3RzBPRmRtdHNMOWl6eXRsbmQ0dk5NVVZhdlM5cWhYUXFPcTlzal8zSdIBzgFBVV95cUxQeTI1WkJjUFRVNDZjV05QaUl6dTBMOTBGMThvd3hiQy1UMHlwR0ktaW5RZmhwajFLa25jWjVKQm8zRWxkVnh6VFREaGg4UDJ6UWx3NGVLMl9WX1RPMXh0MDhuRmJ1NEt3QlNPZ1J0NHBBTnV6bHRNRkRUcWFNdnlfYTNKUXpLLS1pRmJDUjEwc0Y3UU9iRzNyd05FV2ZyMkNSX2FGN296X0VEcU02anFfWUpWU0JjWWhic0FOc0ZTRGlvemx6bUFNNzQyUlNBQQ?oc=5",
           "published_at": "2026-05-29T07:00:00+00:00",
-          "snippet": "‘Mission Mausam’: India Keeps A Weather Eye On The Skies, Installs Advanced System ETV Bharat",
-          "lexical_overlap": 0.158,
-          "relevance": 0.263,
+          "snippet": "‘Mission Mausam’: India Keeps A Weather Eye On The Skies, Installs Advanced System etvbharat.com",
+          "lexical_overlap": 0.15,
+          "relevance": 0.255,
           "matched_terms": [
             "mausam",
             "mission",
@@ -7618,7 +8158,14 @@
       "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "progress_documented",
+        "deadline_year": null,
+        "proof_strength": "verified_primary_action",
+        "proof_evidence_id": "9ce93beb31109193c6",
+        "reason": "Verified primary evidence shows implementation activity, but not enough to establish the promised outcome."
+      }
     },
     {
       "id": "19d73d4d9750f35325",
@@ -7744,7 +8291,14 @@
       "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "deadline_not_reached",
+        "deadline_year": 2070,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted deadline is 2070, so the promise is not yet overdue."
+      }
     },
     {
       "id": "87ae85991bbbfdfa65",
@@ -7777,11 +8331,18 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "deadline_not_reached",
+        "deadline_year": 2029,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted deadline is 2029, so the promise is not yet overdue."
+      }
     },
     {
       "id": "f23a54f7244a831031",
-      "checked_at": "2026-09-27T20:09:55.144583+00:00",
+      "checked_at": "2026-09-27T20:42:24.121382+00:00",
       "promise_id": "BJP-2024-505924d951d195621a",
       "year": 2024,
       "category": "other",
@@ -7818,7 +8379,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "3f8a3c61033e082d19",
@@ -7977,7 +8545,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "insufficient_evidence",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "Available evidence is not yet sufficient for a documented outcome."
+      }
     },
     {
       "id": "781b14a81eb8d0676d",
@@ -8010,7 +8585,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "deadline_passed_unresolved",
+        "deadline_year": 2024,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted deadline (2024) has passed, but ClaimWatch does not yet have direct comparable evidence proving fulfilment or non-fulfilment."
+      }
     },
     {
       "id": "d68c778fd733ba5c28",
@@ -8046,7 +8628,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "deadline_passed_unresolved",
+        "deadline_year": 2024,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted deadline (2024) has passed, but ClaimWatch does not yet have direct comparable evidence proving fulfilment or non-fulfilment."
+      }
     },
     {
       "id": "c5d553d32373ec130a",
@@ -8141,7 +8730,14 @@
       "implementation_signal": "target_evidence_detected",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "fulfilled_evidence",
+        "deadline_year": 2022,
+        "proof_strength": "verified_primary_target_match",
+        "proof_evidence_id": "640e272e9fd8456cce",
+        "reason": "Verified primary evidence contains completion language and the target value."
+      }
     },
     {
       "id": "5e7d5f05c1feb4961e",
@@ -8298,7 +8894,14 @@
       "implementation_signal": "action_detected",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "progress_documented",
+        "deadline_year": null,
+        "proof_strength": "verified_primary_action",
+        "proof_evidence_id": "d54004a5f03e8a1675",
+        "reason": "Verified primary evidence shows implementation activity, but not enough to establish the promised outcome."
+      }
     },
     {
       "id": "f5811520c1d5623f19",
@@ -8347,7 +8950,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "deadline_passed_unresolved",
+        "deadline_year": 2022,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted deadline (2022) has passed, but ClaimWatch does not yet have direct comparable evidence proving fulfilment or non-fulfilment."
+      }
     },
     {
       "id": "cbc14c56facc048cc5",
@@ -8378,7 +8988,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "deadline_passed_unresolved",
+        "deadline_year": 2022,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted deadline (2022) has passed, but ClaimWatch does not yet have direct comparable evidence proving fulfilment or non-fulfilment."
+      }
     },
     {
       "id": "bd2b23c6702feca8a3",
@@ -8427,7 +9044,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "deadline_passed_unresolved",
+        "deadline_year": 2024,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted deadline (2024) has passed, but ClaimWatch does not yet have direct comparable evidence proving fulfilment or non-fulfilment."
+      }
     },
     {
       "id": "1b64b47c5cb69a8da9",
@@ -8498,7 +9122,14 @@
       "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "deadline_passed_unresolved",
+        "deadline_year": 2024,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted deadline (2024) has passed, but ClaimWatch does not yet have direct comparable evidence proving fulfilment or non-fulfilment."
+      }
     },
     {
       "id": "9d98490f30d23fa911",
@@ -8590,7 +9221,14 @@
       "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "deadline_passed_unresolved",
+        "deadline_year": 2025,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted deadline (2025) has passed, but ClaimWatch does not yet have direct comparable evidence proving fulfilment or non-fulfilment."
+      }
     },
     {
       "id": "e5172a1f587fa231e2",
@@ -8732,7 +9370,14 @@
       "implementation_signal": "action_detected",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "progress_documented",
+        "deadline_year": null,
+        "proof_strength": "verified_primary_action",
+        "proof_evidence_id": null,
+        "reason": "Verified primary evidence shows implementation activity, but not enough to establish the promised outcome."
+      }
     },
     {
       "id": "421c875ad634cd92dd",
@@ -8784,7 +9429,14 @@
       "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "deadline_passed_unresolved",
+        "deadline_year": 2024,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted deadline (2024) has passed, but ClaimWatch does not yet have direct comparable evidence proving fulfilment or non-fulfilment."
+      }
     },
     {
       "id": "d143770390be34d674",
@@ -8980,7 +9632,14 @@
       "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "insufficient_evidence",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "Available evidence is not yet sufficient for a documented outcome."
+      }
     },
     {
       "id": "4d087ae7f729fba4b0",
@@ -9054,7 +9713,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "deadline_passed_unresolved",
+        "deadline_year": 2024,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted deadline (2024) has passed, but ClaimWatch does not yet have direct comparable evidence proving fulfilment or non-fulfilment."
+      }
     },
     {
       "id": "ea2497281eafa154fd",
@@ -9092,7 +9758,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "deadline_passed_unresolved",
+        "deadline_year": 2022,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted deadline (2022) has passed, but ClaimWatch does not yet have direct comparable evidence proving fulfilment or non-fulfilment."
+      }
     },
     {
       "id": "b666d4a9aaa0088fee",
@@ -9184,7 +9857,14 @@
       "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "deadline_passed_unresolved",
+        "deadline_year": 2022,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted deadline (2022) has passed, but ClaimWatch does not yet have direct comparable evidence proving fulfilment or non-fulfilment."
+      }
     },
     {
       "id": "c1c807d23f10102201",
@@ -9214,7 +9894,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "deadline_passed_unresolved",
+        "deadline_year": 2022,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted deadline (2022) has passed, but ClaimWatch does not yet have direct comparable evidence proving fulfilment or non-fulfilment."
+      }
     },
     {
       "id": "da7b6e606e38a631dd",
@@ -9300,7 +9987,14 @@
       "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "deadline_passed_unresolved",
+        "deadline_year": 2022,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted deadline (2022) has passed, but ClaimWatch does not yet have direct comparable evidence proving fulfilment or non-fulfilment."
+      }
     },
     {
       "id": "2ecfae5819ee71d53f",
@@ -9477,7 +10171,14 @@
       "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "progress_documented",
+        "deadline_year": 2024,
+        "proof_strength": "verified_primary_action",
+        "proof_evidence_id": "670aa9c35b7432ed1b",
+        "reason": "Verified primary evidence shows implementation activity, but not enough to establish the promised outcome."
+      }
     },
     {
       "id": "47f030299e7dcb1e7f",
@@ -9623,7 +10324,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "insufficient_evidence",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "Available evidence is not yet sufficient for a documented outcome."
+      }
     },
     {
       "id": "2a73985ad6491a8c14",
@@ -9673,7 +10381,14 @@
       "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "deadline_passed_unresolved",
+        "deadline_year": 2024,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted deadline (2024) has passed, but ClaimWatch does not yet have direct comparable evidence proving fulfilment or non-fulfilment."
+      }
     },
     {
       "id": "a255c448cfe6a1275e",
@@ -9741,7 +10456,14 @@
       "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "deadline_passed_unresolved",
+        "deadline_year": 2024,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted deadline (2024) has passed, but ClaimWatch does not yet have direct comparable evidence proving fulfilment or non-fulfilment."
+      }
     },
     {
       "id": "93bb9754ab7125c8f1",
@@ -9790,7 +10512,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "deadline_passed_unresolved",
+        "deadline_year": 2022,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted deadline (2022) has passed, but ClaimWatch does not yet have direct comparable evidence proving fulfilment or non-fulfilment."
+      }
     },
     {
       "id": "1d1782ad81aa54afcd",
@@ -9856,7 +10585,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "deadline_passed_unresolved",
+        "deadline_year": 2022,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted deadline (2022) has passed, but ClaimWatch does not yet have direct comparable evidence proving fulfilment or non-fulfilment."
+      }
     },
     {
       "id": "aecdcbe7e770f555e9",
@@ -9888,7 +10624,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "insufficient_evidence",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "Available evidence is not yet sufficient for a documented outcome."
+      }
     },
     {
       "id": "aff9cc4b6fdce50a8d",
@@ -10029,7 +10772,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "insufficient_evidence",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "Available evidence is not yet sufficient for a documented outcome."
+      }
     },
     {
       "id": "c25c0b738ee0519bdd",
@@ -10061,7 +10811,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "insufficient_evidence",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "Available evidence is not yet sufficient for a documented outcome."
+      }
     },
     {
       "id": "56b0ee71e9b381ae41",
@@ -10202,7 +10959,14 @@
       "implementation_signal": "action_detected",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "progress_documented",
+        "deadline_year": null,
+        "proof_strength": "verified_primary_action",
+        "proof_evidence_id": null,
+        "reason": "Verified primary evidence shows implementation activity, but not enough to establish the promised outcome."
+      }
     },
     {
       "id": "f0892d52574fe9cae3",
@@ -10289,7 +11053,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "deadline_passed_unresolved",
+        "deadline_year": 2024,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted deadline (2024) has passed, but ClaimWatch does not yet have direct comparable evidence proving fulfilment or non-fulfilment."
+      }
     },
     {
       "id": "c0def6b58b66891281",
@@ -10430,7 +11201,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "insufficient_evidence",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "Available evidence is not yet sufficient for a documented outcome."
+      }
     },
     {
       "id": "2e31df12ced4f85daa",
@@ -10490,7 +11268,14 @@
       "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "deadline_passed_unresolved",
+        "deadline_year": 2024,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted deadline (2024) has passed, but ClaimWatch does not yet have direct comparable evidence proving fulfilment or non-fulfilment."
+      }
     },
     {
       "id": "5a632ed269fea33c24",
@@ -10542,7 +11327,14 @@
       "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "deadline_passed_unresolved",
+        "deadline_year": 2024,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted deadline (2024) has passed, but ClaimWatch does not yet have direct comparable evidence proving fulfilment or non-fulfilment."
+      }
     },
     {
       "id": "21c782a6ad2ecb8987",
@@ -10590,7 +11382,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "deadline_passed_unresolved",
+        "deadline_year": 2022,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted deadline (2022) has passed, but ClaimWatch does not yet have direct comparable evidence proving fulfilment or non-fulfilment."
+      }
     },
     {
       "id": "f731b47c07756b9533",
@@ -10641,7 +11440,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "deadline_passed_unresolved",
+        "deadline_year": 2022,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "The extracted deadline (2022) has passed, but ClaimWatch does not yet have direct comparable evidence proving fulfilment or non-fulfilment."
+      }
     },
     {
       "id": "6d91826b7d8321bd8f",
@@ -10783,7 +11589,14 @@
       "implementation_signal": "action_detected",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "progress_documented",
+        "deadline_year": null,
+        "proof_strength": "verified_primary_action",
+        "proof_evidence_id": null,
+        "reason": "Verified primary evidence shows implementation activity, but not enough to establish the promised outcome."
+      }
     },
     {
       "id": "98b680f1f639010680",
@@ -10924,7 +11737,14 @@
       "implementation_signal": "action_detected",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "progress_documented",
+        "deadline_year": null,
+        "proof_strength": "verified_primary_action",
+        "proof_evidence_id": null,
+        "reason": "Verified primary evidence shows implementation activity, but not enough to establish the promised outcome."
+      }
     },
     {
       "id": "f3122d4647973bdd01",
@@ -11065,7 +11885,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "insufficient_evidence",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "Available evidence is not yet sufficient for a documented outcome."
+      }
     },
     {
       "id": "7a219374ab6f26ac7b",
@@ -11207,7 +12034,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "insufficient_evidence",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "Available evidence is not yet sufficient for a documented outcome."
+      }
     },
     {
       "id": "23d32295233273fbf2",
@@ -11239,7 +12073,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "insufficient_evidence",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "Available evidence is not yet sufficient for a documented outcome."
+      }
     },
     {
       "id": "318239ec4174163680",
@@ -11271,7 +12112,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "insufficient_evidence",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "Available evidence is not yet sufficient for a documented outcome."
+      }
     },
     {
       "id": "be95b6c560de8e4ac0",
@@ -11412,7 +12260,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "insufficient_evidence",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "Available evidence is not yet sufficient for a documented outcome."
+      }
     },
     {
       "id": "5fc81ea986809e4058",
@@ -11553,7 +12408,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "insufficient_evidence",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "Available evidence is not yet sufficient for a documented outcome."
+      }
     },
     {
       "id": "860ca00998c278eb02",
@@ -11765,7 +12627,14 @@
       "implementation_signal": "target_evidence_detected",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "fulfilled_evidence",
+        "deadline_year": null,
+        "proof_strength": "verified_primary_target_match",
+        "proof_evidence_id": null,
+        "reason": "Verified primary evidence contains completion language and the target value."
+      }
     },
     {
       "id": "2482fdf9f212e426b2",
@@ -11870,7 +12739,14 @@
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "insufficient_evidence",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "reason": "Available evidence is not yet sufficient for a documented outcome."
+      }
     },
     {
       "id": "20b82f80c1b5bb244c",
@@ -12065,7 +12941,14 @@
       "implementation_signal": "action_detected",
       "status": "pending",
       "human_reviewed": false,
-      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable."
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "progress_documented",
+        "deadline_year": null,
+        "proof_strength": "verified_primary_action",
+        "proof_evidence_id": null,
+        "reason": "Verified primary evidence shows implementation activity, but not enough to establish the promised outcome."
+      }
     }
   ],
   "errors": [],
@@ -12076,6 +12959,7 @@
     "PMIndia/party material is provenance for what was said, not proof that the claim is true.",
     "Automated supported/contradicted verdicts require a strict verified-primary NLI gate; uncertain cases remain pending.",
     "Promise evidence scanning rotates through the corpus and preserves prior checks so coverage accumulates over time.",
+    "The promise dashboard distinguishes proven outcome states from overdue-but-unresolved commitments; an expired deadline alone is not proof of non-fulfilment.",
     "A contradiction is not treated as proof of deliberate deception."
   ]
 }
