@@ -823,7 +823,7 @@ def build_promise_packets(promises):
             continue
 
         pseudo_text = " ".join([
-            promise.get("anchor") or "",
+            promise.get("exact_text") or promise.get("anchor") or "",
             " ".join(promise.get("keywords") or []),
             " ".join(promise.get("numbers") or []),
             " ".join(promise.get("deadline_hints") or []),
@@ -909,6 +909,7 @@ def build_promise_packets(promises):
             "category": promise["category"],
             "page": promise["page"],
             "anchor": promise.get("anchor"),
+            "exact_text": promise.get("exact_text"),
             "keywords": promise.get("keywords"),
             "numbers": promise.get("numbers"),
             "deadline_hints": promise.get("deadline_hints"),
