@@ -7,6 +7,7 @@ from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from urllib.parse import urlencode, urlparse
+from urllib.robotparser import RobotFileParser
 
 import feedparser
 import requests
@@ -154,6 +155,21 @@ def is_independent_primary(row):
     # the claim-maker. The NLI gate below remains much stricter.
     return row.get("tier") == "primary" and source_name not in NON_VERIFYING_SOURCE_NAMES
 
+def robots_allowed(url):
+    parsed = urlparse(str(url or ""))
+    if parsed.scheme not in {"http", "https"} or not parsed.netloc:
+        return False
+    robots_url = f"{parsed.scheme}://{parsed.netloc}/robots.txt"
+    try:
+        response = SESSION.get(robots_url, timeout=7)
+        if response.status_code >= 400:
+            return True
+        robot = RobotFileParser()
+        robot.parse(response.text.splitlines())
+        return robot.can_fetch(SESSION.headers.get("User-Agent", "*"), url)
+    except Exception:
+        return True
+
 def google_news(query, scope, tier, limit=8):
     params = {
         "q": query,
@@ -187,6 +203,120 @@ def google_news(query, scope, tier, limit=8):
             "snippet": summary[:320],
         })
     return rows
+
+def bing_web(query, scope, tier, limit=8):
+    params = {
+        "q": query,
+        "format": "rss",
+        "count": str(limit),
+    }
+    response = SESSION.get(
+        "https://www.bing.com/search",
+        params=params,
+        timeout=TIMEOUT,
+    )
+    response.raise_for_status()
+    feed = feedparser.parse(response.content)
+    rows = []
+    for entry in feed.entries[:limit]:
+        url = entry.get("link") or ""
+        title = clean_html(entry.get("title", ""))
+        summary = clean_html(entry.get("summary", "") or entry.get("description", ""))
+        rows.append({
+            "id": stable_id(scope, url, title),
+            "scope": scope,
+            "tier": tier,
+            "source": hostname(url) or "Web",
+            "source_url": url,
+            "title": title,
+            "url": url,
+            "published_at": parse_date(entry.get("published")),
+            "snippet": summary[:420],
+            "retrieval": "search_result",
+        })
+    return rows
+
+def best_page_excerpt(text, query_text):
+    text = re.sub(r"\s+", " ", text or "").strip()
+    if not text:
+        return ""
+    sentences = [
+        part.strip()
+        for part in re.split(r"(?<=[.!?।])\s+", text)
+        if 35 <= len(part.strip()) <= 850
+    ]
+    if not sentences:
+        return text[:420]
+
+    query_terms = keywords(query_text, limit=12)
+    query_numbers = numeric_tokens(query_text)
+
+    def score(sentence):
+        terms = keywords(sentence, limit=18)
+        lexical = jaccard(query_terms, terms)
+        shared = query_numbers & numeric_tokens(sentence)
+        return lexical + min(0.4, len(shared) * 0.18)
+
+    return max(sentences, key=score)[:520]
+
+def hydrate_official_row(row, query_text):
+    if row.get("tier") != "primary" or not is_independent_primary(row):
+        return row
+
+    url = row.get("source_url") or row.get("url")
+    host = hostname(url)
+    if not url or not (
+        host.endswith(".gov.in")
+        or host.endswith(".nic.in")
+        or any(host == h or host.endswith("." + h) for h in INDEPENDENT_OFFICIAL_HOSTS)
+    ):
+        return row
+
+    if not robots_allowed(url):
+        return {**row, "retrieval": "robots_disallowed"}
+
+    try:
+        response = SESSION.get(url, timeout=TIMEOUT, allow_redirects=True)
+        resolved = response.url
+        if response.status_code != 200:
+            return {**row, "retrieval": f"http_{response.status_code}", "resolved_url": resolved}
+
+        ctype = response.headers.get("content-type", "").lower()
+        if "html" not in ctype:
+            return {**row, "retrieval": "non_html", "resolved_url": resolved}
+
+        html = response.text[:4_000_000]
+        soup = BeautifulSoup(html, "html.parser")
+        for tag in soup(["script","style","noscript","svg","nav","footer","header","form","aside"]):
+            tag.decompose()
+
+        blocks = []
+        for selector in ("article", ".entry-content", ".content", ".content-area", "main", "body"):
+            node = soup.select_one(selector)
+            if not node:
+                continue
+            value = clean_html(node.get_text(" ", strip=True))
+            if len(value) >= 150:
+                blocks.append(value)
+
+        if not blocks:
+            return {**row, "retrieval": "no_page_text", "resolved_url": resolved}
+
+        page_text = max(blocks, key=len)
+        excerpt = best_page_excerpt(page_text, query_text)
+        if not excerpt:
+            return {**row, "retrieval": "no_relevant_excerpt", "resolved_url": resolved}
+
+        return {
+            **row,
+            "url": resolved,
+            "source_url": resolved,
+            "resolved_url": resolved,
+            "snippet": excerpt,
+            "retrieval": "official_page_excerpt",
+        }
+    except Exception as exc:
+        return {**row, "retrieval": f"fetch_error:{type(exc).__name__}"}
 
 def factcheck_search(query):
     key = os.getenv("FACTCHECK_API_KEY", "").strip()
@@ -298,8 +428,28 @@ def query_from_text(text, fallback_terms=None):
     nums = list(numeric_tokens(text))[:2]
     return " ".join(nums + terms)[:240].strip()
 
-def retrieve_evidence(query, query_text):
+def retrieve_evidence(query, query_text, hydrate_primary=False):
     collected = []
+
+    # Direct-web RSS produces inspectable destination URLs. It is preferred for
+    # automated truth checks because we can fetch the actual government page.
+    try:
+        direct = bing_web(
+            f"{query} {PREFERRED_OFFICIAL_SCOPE}",
+            "official_web_search",
+            "primary",
+            limit=8,
+        )
+        direct_ranked = rank_evidence(query_text, direct, limit=6)
+        if hydrate_primary:
+            direct_ranked = [
+                hydrate_official_row(row, query_text)
+                for row in direct_ranked[:4]
+            ]
+            direct_ranked = rank_evidence(query_text, direct_ranked, limit=6)
+        collected.extend(direct_ranked)
+    except Exception:
+        direct_ranked = []
 
     preferred = google_news(
         f"{query} {PREFERRED_OFFICIAL_SCOPE}",
@@ -310,7 +460,7 @@ def retrieve_evidence(query, query_text):
     preferred_ranked = rank_evidence(query_text, preferred, limit=6)
     collected.extend(preferred_ranked)
 
-    if len(preferred_ranked) < 2:
+    if len(direct_ranked) + len(preferred_ranked) < 2:
         broad = google_news(
             f"{query} {BROAD_OFFICIAL_SCOPE}",
             "broad_official_search",
@@ -322,7 +472,7 @@ def retrieve_evidence(query, query_text):
     news = google_news(query, "news_search", "secondary", limit=8)
     collected.extend(rank_evidence(query_text, news, limit=6))
 
-    return rank_evidence(query_text, collected, limit=8)
+    return rank_evidence(query_text, collected, limit=10)
 
 def promise_matches(claim_text, promises, limit=4):
     claim_terms = keywords(claim_text, limit=12)
@@ -552,7 +702,7 @@ def build_claim_packets(discovery, promises):
             continue
 
         try:
-            evidence = retrieve_evidence(query, claim)
+            evidence = retrieve_evidence(query, claim, hydrate_primary=True)
         except Exception as exc:
             evidence = []
             errors.append({
@@ -631,7 +781,7 @@ def build_promise_packets(promises):
         ])
 
         try:
-            evidence = retrieve_evidence(query, pseudo_text)
+            evidence = retrieve_evidence(query, pseudo_text, hydrate_primary=False)
         except Exception as exc:
             evidence = []
             errors.append({
