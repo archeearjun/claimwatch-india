@@ -599,11 +599,11 @@ def nli_scores(evidence_text, claim_text):
 
 def numeric_claim_operator(text):
     low = (text or "").lower()
-    if re.search(r"\b(?:more than|over|above|greater than|at least)\b", low):
+    if re.search(r"\b(?:more than|over|above|greater than|at least)\b", low) or re.search(r"(?:से अधिक|से ज्यादा|कम से कम)", low):
         return "gte"
-    if re.search(r"\b(?:less than|under|below|at most)\b", low):
+    if re.search(r"\b(?:less than|under|below|at most)\b", low) or re.search(r"(?:से कम|अधिकतम)", low):
         return "lte"
-    if re.search(r"\b(?:nearly|about|around|approximately|approx\.?|roughly)\b", low):
+    if re.search(r"\b(?:nearly|about|around|approximately|approx\.?|roughly)\b", low) or re.search(r"(?:लगभग|करीब)", low):
         return "approx"
     return "eq"
 
@@ -1185,7 +1185,7 @@ REDUCTION_RE = re.compile(
 )
 QUANTITY_RE = re.compile(
     r"(?<!\w)(\d{1,3}(?:,\d{3})+|\d+(?:\.\d+)?)\s*"
-    r"(%|percent|crore|lakh|million|billion|trillion|mw|gw)?\b",
+    r"(%|percent|crore|lakh|million|billion|trillion|mw|gw|प्रतिशत|करोड़|करोड|लाख)?\b",
     re.I,
 )
 SCALE_FACTORS = {
@@ -1196,6 +1196,9 @@ SCALE_FACTORS = {
     "trillion": 1_000_000_000_000.0,
     "mw": 1.0,
     "gw": 1_000.0,
+    "करोड़": 10_000_000.0,
+    "करोड": 10_000_000.0,
+    "लाख": 100_000.0,
 }
 
 
@@ -1333,7 +1336,7 @@ def parse_quantity_mentions(text):
         if not unit and 1900 <= base <= 2100:
             continue
 
-        if unit in {"%", "percent"}:
+        if unit in {"%", "percent", "प्रतिशत"}:
             normalized = base
             kind = "percent"
         elif unit in {"mw", "gw"}:
