@@ -292,6 +292,39 @@ class EvidenceRankingTests(unittest.TestCase):
             item for item in payload.get("claim_packets", [])
             if "51,000 youth" in (item.get("claim") or "")
         )
+
+        claim_quantities = evidence.parse_quantity_mentions(packet["claim"])
+        self.assertEqual(len(claim_quantities), 1)
+        self.assertEqual(claim_quantities[0]["value"], 51000.0)
+
+        candidates = [
+            row for row in packet.get("evidence", [])
+            if row.get("tier") == "primary"
+            and evidence.is_verified_primary(row)
+            and float(row.get("relevance") or 0) >= 0.30
+            and len(row.get("matched_terms") or []) >= 3
+        ]
+        self.assertTrue(candidates)
+
+        row = candidates[0]
+        evidence_text = " ".join([
+            row.get("title") or "",
+            row.get("snippet") or "",
+        ])
+        observed = [
+            q for q in evidence.parse_quantity_mentions(evidence_text)
+            if q["kind"] == claim_quantities[0]["kind"]
+        ]
+        exact = [
+            q for q in observed
+            if evidence.numeric_relation_holds(
+                "eq",
+                claim_quantities[0]["value"],
+                q["value"],
+            )
+        ]
+        self.assertEqual(len(exact), 1)
+
         signal = evidence.structured_claim_numeric_signal(
             packet["claim"],
             packet.get("evidence", []),
