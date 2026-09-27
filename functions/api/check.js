@@ -308,7 +308,93 @@ function rankEvidence(claim, rows) {
     .slice(0, 10);
 }
 
+function quantityMentions(text) {
+  const regex = /(?:^|[^\w])(\d{1,3}(?:,\d{3})+|\d+(?:\.\d+)?)\s*(%|percent|crore|lakh|million|billion|trillion)?\b/gi;
+  const factors = { crore: 1e7, lakh: 1e5, million: 1e6, billion: 1e9, trillion: 1e12 };
+  const out = [];
+  let match;
+  while ((match = regex.exec(String(text || ""))) !== null) {
+    const rawNumber = match[1];
+    const unit = String(match[2] || "").toLowerCase();
+    const base = Number(rawNumber.replace(/,/g, ""));
+    if (!Number.isFinite(base)) continue;
+    if (!unit && base >= 1900 && base <= 2100) continue;
+    out.push({
+      raw: rawNumber + (unit ? " " + unit : ""),
+      value: unit === "%" || unit === "percent" ? base : base * (factors[unit] || 1),
+      kind: unit === "%" || unit === "percent" ? "percent" : "count"
+    });
+  }
+  return out;
+}
+
+function numericOperator(text) {
+  const value = String(text || "").toLowerCase();
+  if (/\b(more than|over|above|greater than|at least)\b/.test(value)) return "gte";
+  if (/\b(less than|under|below|at most)\b/.test(value)) return "lte";
+  if (/\b(nearly|about|around|approximately|roughly)\b/.test(value)) return "approx";
+  return "eq";
+}
+
+function relationHolds(operator, claimed, observed) {
+  const tolerance = Math.max(Math.abs(claimed) * 0.005, 1e-9);
+  if (operator === "gte") return observed >= claimed;
+  if (operator === "lte") return observed <= claimed;
+  if (operator === "approx") return Math.abs(observed - claimed) <= Math.max(Math.abs(claimed) * 0.05, tolerance);
+  return Math.abs(observed - claimed) <= tolerance;
+}
+
+function instantNumericProof(claim, evidence) {
+  const claimed = quantityMentions(claim);
+  if (claimed.length !== 1) return null;
+  const target = claimed[0];
+  const years = new Set(String(claim).match(/\b20\d{2}\b/g) || []);
+  const operator = numericOperator(claim);
+
+  for (const row of evidence) {
+    if (row.tier !== "primary" || !isOfficial(row) || Number(row.relevance || 0) < 0.35 || (row.matched_terms?.length || 0) < 3) continue;
+    const evidenceText = [row.title, row.description, row.claim_text].filter(Boolean).join(" ");
+    if (years.size) {
+      const evidenceYears = new Set(evidenceText.match(/\b20\d{2}\b/g) || []);
+      if (![...years].some(year => evidenceYears.has(year))) continue;
+    }
+    let observed = quantityMentions(evidenceText).filter(item => item.kind === target.kind);
+    if (observed.length !== 1) {
+      const exact = observed.filter(item => relationHolds("eq", target.value, item.value));
+      if (exact.length === 1) observed = exact;
+      else continue;
+    }
+    const result = observed[0];
+    const holds = relationHolds(operator, target.value, result.value);
+    if (holds) {
+      return {
+        level: "automated_supported",
+        label: "Supported by direct primary-source numeric comparison",
+        verdict: "supported",
+        publishable_verdict: true,
+        reason: "A highly relevant official source reports a directly compatible numeric value.",
+        assessment_mode: "instant_deterministic_numeric_gate",
+        proof: { claimed: target, observed: result, operator, evidence_url: row.source_url || row.url, evidence_title: row.title || row.source }
+      };
+    }
+    if (Number(row.relevance || 0) >= 0.45) {
+      return {
+        level: "automated_contradicted",
+        label: "Contradicted by direct primary-source numeric comparison",
+        verdict: "contradicted",
+        publishable_verdict: true,
+        reason: "A highly relevant official source reports a conflicting directly comparable numeric value.",
+        assessment_mode: "instant_deterministic_numeric_gate",
+        proof: { claimed: target, observed: result, operator, evidence_url: row.source_url || row.url, evidence_title: row.title || row.source }
+      };
+    }
+  }
+  return null;
+}
 function buildSignal(claim, evidence) {
+  const deterministic = instantNumericProof(claim, evidence);
+  if (deterministic) return deterministic;
+
   const claimNumbers = numericTokens(claim);
   const primary = evidence.filter(item =>
     item.tier === "primary" &&
