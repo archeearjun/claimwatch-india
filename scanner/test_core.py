@@ -311,10 +311,10 @@ class EvidenceRankingTests(unittest.TestCase):
             row.get("title") or "",
             row.get("snippet") or "",
         ])
-        observed = [
+        observed = evidence.unique_quantities([
             q for q in evidence.parse_quantity_mentions(evidence_text)
             if q["kind"] == claim_quantities[0]["kind"]
-        ]
+        ])
         exact = [
             q for q in observed
             if evidence.numeric_relation_holds(
