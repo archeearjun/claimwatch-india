@@ -427,6 +427,45 @@ def scan_pmindia():
     return rows, errors
 
 
+def resolve_news_article(title, publisher_url=""):
+    clean_title = clean_html(title)
+    if not clean_title:
+        return ""
+
+    # Strip the common " - Publisher" suffix before exact-title search.
+    search_title = re.sub(r"\s+-\s+[^-]{2,80}$", "", clean_title).strip()
+    publisher_host = urlparse(publisher_url or "").netloc.replace("www.", "")
+    query = f'"{search_title[:180]}"'
+    if publisher_host:
+        query += f" site:{publisher_host}"
+
+    try:
+        response = SESSION.get(
+            "https://www.bing.com/search",
+            params={"q": query, "format": "rss", "count": "5"},
+            timeout=TIMEOUT,
+        )
+        response.raise_for_status()
+        feed = feedparser.parse(response.content)
+    except Exception:
+        return ""
+
+    for entry in feed.entries[:5]:
+        url = entry.get("link") or ""
+        host = urlparse(url).netloc.replace("www.", "")
+        if not url:
+            continue
+        if publisher_host and not (
+            host == publisher_host
+            or host.endswith("." + publisher_host)
+            or publisher_host.endswith("." + host)
+        ):
+            continue
+        return url
+
+    return ""
+
+
 def scan_google_news():
     queries = [
         '"Narendra Modi"',
@@ -434,6 +473,7 @@ def scan_google_news():
     ]
 
     rows, errors = [], []
+    article_read_budget = 8
     for query in queries:
         try:
             feed, _ = get_feed(
@@ -454,29 +494,52 @@ def scan_google_news():
             continue
 
         for entry in feed.entries[:30]:
-            url = entry.get("link")
-            if not url:
+            aggregator_url = entry.get("link")
+            if not aggregator_url:
                 continue
-            source = "Google News"
-            if entry.get("source") and entry.source.get("title"):
-                source = entry.source.get("title")
 
-            text = " ".join([
-                clean_html(entry.get("title", "")),
+            source = "Google News"
+            publisher_url = ""
+            if entry.get("source"):
+                source = entry.source.get("title") or source
+                publisher_url = entry.source.get("href") or ""
+
+            title = clean_html(entry.get("title", "News result"))
+            metadata_text = " ".join([
+                title,
                 entry_text(entry),
             ]).strip()
-            claims, promises = extract_candidates(text, claim_limit=4, promise_limit=2)
+
+            direct_url = ""
+            article_text = ""
+            read_status = "rss_discovery"
+
+            if article_read_budget > 0:
+                direct_url = resolve_news_article(title, publisher_url)
+                if direct_url:
+                    article_text, read_status = fetch_news_article(direct_url)
+                article_read_budget -= 1
+
+            source_text = article_text or metadata_text
+            claims, promises = extract_candidates(
+                source_text,
+                claim_limit=5,
+                promise_limit=2,
+            )
 
             rows.append({
-                "id": stable_id("news", url),
+                "id": stable_id("news", direct_url or aggregator_url),
                 "kind": "news",
                 "source": source,
-                "title": clean_html(entry.get("title", "News result")),
-                "url": url,
+                "title": title,
+                "url": direct_url or aggregator_url,
+                "aggregator_url": aggregator_url,
+                "publisher_url": publisher_url,
                 "published_at": parse_date(entry.get("published")),
                 "candidate_claims": claims,
                 "candidate_promises": promises,
-                "read_status": "rss_discovery",
+                "read_status": read_status,
+                "body_read": bool(article_text),
             })
 
     return rows, errors
