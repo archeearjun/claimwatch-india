@@ -13,6 +13,9 @@ let transcriptText = "";
 let segmentCount = 0;
 let audioContext = null;
 const liveCheckCache = new Map();
+const liveCheckInFlight = new Set();
+const liveCheckFailures = new Map();
+let autoCheckChain = Promise.resolve();
 
 function setStatus(message, kind = "") {
   const el = $("#live-status");
@@ -181,6 +184,32 @@ function appendTranscript(text) {
   renderLiveClaims();
 }
 
+function queueAutomaticChecks(candidates) {
+  if (!window.ClaimWatch?.instantCheck) return;
+
+  for (const item of candidates) {
+    const claim = item.sentence;
+    if (!claim || liveCheckCache.has(claim) || liveCheckInFlight.has(claim)) continue;
+
+    const lastFailure = liveCheckFailures.get(claim) || 0;
+    if (Date.now() - lastFailure < 60_000) continue;
+
+    liveCheckInFlight.add(claim);
+    autoCheckChain = autoCheckChain.then(async () => {
+      try {
+        const result = await window.ClaimWatch.instantCheck(claim);
+        liveCheckCache.set(claim, result);
+      } catch (error) {
+        console.warn("ClaimWatch automatic evidence check failed", error);
+        liveCheckFailures.set(claim, Date.now());
+      } finally {
+        liveCheckInFlight.delete(claim);
+        renderLiveClaims();
+      }
+    });
+  }
+}
+
 function renderLiveClaims() {
   const root = $("#live-claim-list");
   const count = $("#live-claim-count");
@@ -193,8 +222,10 @@ function renderLiveClaims() {
   }
 
   const candidates = extractor(transcriptText).slice(0, 20);
+  const checkedCount = candidates.filter(item => liveCheckCache.has(item.sentence)).length;
+  const checkingCount = candidates.filter(item => liveCheckInFlight.has(item.sentence)).length;
   count.textContent =
-    `${candidates.length} candidate${candidates.length === 1 ? "" : "s"}`;
+    `${candidates.length} candidate${candidates.length === 1 ? "" : "s"} · ${checkedCount} checked${checkingCount ? ` · ${checkingCount} checking` : ""}`;
 
   if (!candidates.length) {
     root.innerHTML =
@@ -214,7 +245,7 @@ function renderLiveClaims() {
           </div>
           <div class="candidate-check-row">
             <button class="mini-check" data-live-check="${encodeURIComponent(item.sentence)}">
-              ${cached ? "Refresh evidence" : "Check evidence now"}
+              ${cached ? "Refresh evidence" : (liveCheckInFlight.has(item.sentence) ? "Checking automatically…" : "Check now")}
             </button>
           </div>
           <div class="instant-result">
@@ -224,6 +255,8 @@ function renderLiveClaims() {
       </article>
     `;
   }).join("");
+
+  queueAutomaticChecks(candidates);
 }
 
 function escapeHtml(value) {
@@ -393,6 +426,8 @@ function clearTranscript() {
   transcriptText = "";
   segmentCount = 0;
   liveCheckCache.clear();
+  liveCheckInFlight.clear();
+  liveCheckFailures.clear();
   $("#live-transcript").textContent = "Transcript will appear here…";
   $("#live-chunk-count").textContent = "0 segments";
   $("#live-claim-count").textContent = "0 candidates";
