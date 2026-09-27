@@ -622,15 +622,25 @@ function renderPromises() {
           <span>
             <b>${evidenceCount}</b> current evidence candidate${evidenceCount === 1 ? "" : "s"}
           </span>
-          <span class="signal ${signalClass(currentSignal)}">${escapeHtml(humanize(currentSignal))}</span>
+          <span class="signal ${promiseOutcomeClass(outcome.status)}">${escapeHtml(promiseOutcomeLabel(outcome.status))}</span>
         </div>
 
-        ${packet?.status_reason ? `<p class="machine-reason">${escapeHtml(packet.status_reason)}</p>` : ""}
+        ${outcome?.reason ? `<p class="machine-reason">${escapeHtml(outcome.reason)}</p>` : ""}
+
+        ${proof ? `
+          <div class="proof-box">
+            <span>STRUCTURED PROOF</span>
+            <div><b>Target</b><strong>${escapeHtml(proof.target?.raw || proof.target?.value)}</strong></div>
+            <div><b>Observed</b><strong>${escapeHtml(proof.observed?.raw || proof.observed?.value)}</strong></div>
+            <div><b>Evidence year</b><strong>${escapeHtml(proof.evidence_year || "—")}</strong></div>
+            <a href="${escapeHtml(safeUrl(proof.evidence_url))}" target="_blank" rel="noopener noreferrer">Open proof source ↗</a>
+          </div>
+        ` : ""}
 
         <div class="promise-card-foot">
           <a href="${escapeHtml(safeUrl(item.source_url))}" target="_blank" rel="noopener noreferrer">Manifesto record ↗</a>
           <a href="${escapeHtml(safeUrl(item.pdf_url))}" target="_blank" rel="noopener noreferrer">PDF ↗</a>
-          <span>Automated action signal: <b>${escapeHtml(humanize(currentSignal))}</b></span>
+          <span>Evidence signal: <b>${escapeHtml(humanize(currentSignal))}</b></span>
         </div>
       </article>
     `;
@@ -781,7 +791,15 @@ $$("[data-discovery-filter]").forEach(button => {
   });
 });
 
-$$(".promise-year").forEach(button => {
+$("#outcome-bar")?.addEventListener("click", event => {
+  const button = event.target.closest("[data-outcome-segment]");
+  if (!button) return;
+  state.promiseOutcome = button.dataset.outcomeSegment || "all";
+  state.promiseLimit = 18;
+  renderPromises();
+  document.querySelector("#promises")?.scrollIntoView({ behavior: "smooth", block: "start" });
+});
+$(".promise-year").forEach(button => {
   button.addEventListener("click", () => {
     $$(".promise-year").forEach(b => b.classList.remove("active"));
     button.classList.add("active");
