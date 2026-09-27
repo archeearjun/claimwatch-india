@@ -650,10 +650,10 @@ def structured_claim_numeric_signal(text, evidence):
         ):
             continue
 
-        observed = [
+        observed = unique_quantities([
             q for q in parse_quantity_mentions(evidence_text)
             if q["kind"] == claim_quantity["kind"]
-        ]
+        ])
 
         # Multiple numbers make an automated comparison ambiguous unless one
         # value exactly matches the claim and no conflicting candidate exists.
@@ -1356,6 +1356,21 @@ def parse_quantity_mentions(text):
     return rows
 
 
+def unique_quantities(rows):
+    unique = []
+    seen = set()
+    for row in rows or []:
+        key = (
+            row.get("kind"),
+            round(float(row.get("value") or 0), 9),
+        )
+        if key in seen:
+            continue
+        seen.add(key)
+        unique.append(row)
+    return unique
+
+
 def promise_target_quantity(promise):
     text = promise.get("exact_text") or ""
     deadline_year = promise_deadline_year(promise)
@@ -1450,10 +1465,10 @@ def comparable_observed_quantity(promise, row, target):
     if not OBSERVATION_RE.search(evidence_text):
         return None
 
-    quantities = [
+    quantities = unique_quantities([
         q for q in parse_quantity_mentions(evidence_text)
         if q["kind"] == target["kind"]
-    ]
+    ])
     if not quantities:
         return None
 
