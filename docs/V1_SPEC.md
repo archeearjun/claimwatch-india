@@ -10,8 +10,8 @@ The initial research scope is public statements and election commitments by Nare
 
 1. **Discover**
    - Scan official PMIndia speech/video pages.
-   - Scan recent web/news coverage through GDELT.
-   - Discover recent YouTube videos through the official YouTube Data API when a free API key is configured.
+   - Discover recent reporting through RSS/search and read a bounded set of publisher article bodies where access rules permit.
+   - Monitor the public feeds of core YouTube channels with no API key; optionally expand discovery with the YouTube Data API when a free key is configured.
    - Preserve canonical source URLs, timestamps and publisher/channel metadata.
 
 2. **Transcribe / extract text**
@@ -57,8 +57,9 @@ The initial research scope is public statements and election commitments by Nare
 - GitHub Actions: public-repository scheduled scanner.
 - Cloudflare Pages: public frontend.
 - Cloudflare Worker + D1: API and structured evidence database.
-- GDELT: recent news discovery.
-- YouTube Data API: video discovery within free quota.
+- RSS/open web: recent news discovery plus bounded publisher-page reading.
+- Public YouTube channel feeds: core video discovery without an API key.
+- YouTube Data API: optional broader discovery within free quota.
 - Google Fact Check Tools API: prior fact-check discovery when configured.
 - whisper.cpp / Transformers.js: client-side transcription and model inference.
 
