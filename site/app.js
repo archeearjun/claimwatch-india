@@ -481,6 +481,66 @@ function renderEvidence() {
   }).join("");
 }
 
+function renderClaimMemory() {
+  const summary = state.evidence?.summary?.claim_memory || {};
+  const families = state.evidence?.claim_families || [];
+  const summaryRoot = $("#claim-memory-summary");
+  const root = $("#claim-family-list");
+
+  if (!summaryRoot || !root) return;
+
+  summaryRoot.innerHTML = `
+    <div><span>Claim families</span><strong>${compactNumber(summary.families_total || 0)}</strong></div>
+    <div><span>Total occurrences</span><strong>${compactNumber(summary.occurrences_total || 0)}</strong></div>
+    <div><span>Repeated families</span><strong>${compactNumber(summary.repeated_families || 0)}</strong></div>
+    <div><span>Repeated contradicted</span><strong>${compactNumber(summary.repeated_contradicted_families || 0)}</strong></div>
+  `;
+
+  const repeated = families
+    .filter(family => Number(family.occurrence_count || 0) >= 2)
+    .slice(0, 16);
+
+  if (!repeated.length) {
+    root.innerHTML = `
+      <div class="empty-panel">
+        <strong>No repeated claim family has been established yet.</strong>
+        <p>The memory grows as the same factual proposition appears in later speeches.</p>
+      </div>
+    `;
+    return;
+  }
+
+  root.innerHTML = repeated.map(family => {
+    const occurrences = family.occurrences || [];
+    const verdict = family.current_verdict || "pending";
+    return `
+      <article class="claim-family-card">
+        <div class="claim-family-head">
+          <span class="occurrence-count">${family.occurrence_count || occurrences.length} occurrences</span>
+          <span class="signal ${verdict === "contradicted" ? "danger" : verdict === "supported" ? "strong" : "pending"}">${escapeHtml(verdictLabel(verdict))}</span>
+        </div>
+        <blockquote>${escapeHtml(family.canonical_claim || "")}</blockquote>
+        <div class="claim-family-meta">
+          <span>First seen · ${escapeHtml(formatDate(family.first_seen))}</span>
+          <span>Latest · ${escapeHtml(formatDate(family.last_seen))}</span>
+          <span>Evidence state · ${escapeHtml(humanize(family.evidence_state || "pending"))}</span>
+        </div>
+        <details>
+          <summary>Show occurrences</summary>
+          <div class="occurrence-list">
+            ${occurrences.slice().reverse().map(item => `
+              <a href="${escapeHtml(safeUrl(item.url))}" target="_blank" rel="noopener noreferrer">
+                <span>${escapeHtml(formatDate(item.published_at))}</span>
+                <strong>${escapeHtml(item.source_title || item.source || "Source")}</strong>
+                <small>${escapeHtml(item.text || "")}</small>
+              </a>
+            `).join("")}
+          </div>
+        </details>
+      </article>
+    `;
+  }).join("");
+}
 function promiseEvidenceMap() {
   const map = new Map();
   for (const packet of state.evidence?.promise_packets || []) {
@@ -745,6 +805,7 @@ async function loadAll() {
   renderMetrics();
   renderDiscovery();
   renderEvidence();
+  renderClaimMemory();
   renderPromises();
 
   const loaded = [state.discovery, state.promises, state.evidence].filter(Boolean).length;
