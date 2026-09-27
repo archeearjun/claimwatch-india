@@ -92,7 +92,11 @@ def keywords(text, limit=8):
     return [word for word, _ in Counter(tokens(text)).most_common(limit)]
 
 def numeric_tokens(text):
-    return set(re.findall(r"\b\d+(?:\.\d+)?\b", text or ""))
+    values = re.findall(
+        r"\b(?:\d{1,3}(?:,\d{3})+|\d+)(?:\.\d+)?\b",
+        text or "",
+    )
+    return {value.replace(",", "") for value in values}
 
 def jaccard(a, b):
     aa, bb = set(a), set(b)
