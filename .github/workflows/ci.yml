@@ -1,0 +1,44 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Python syntax
+        run: python -m py_compile scanner/scan.py scanner/manifestos.py scanner/evidence.py
+
+      - name: JavaScript syntax
+        run: node --check site/app.js
+
+      - name: Validate JSON feeds
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          for p in [
+              Path("corpus/manifesto_sources.json"),
+              Path("data/discovery/latest.json"),
+              Path("data/promises/candidates.json"),
+              Path("data/evidence/latest.json"),
+          ]:
+              json.loads(p.read_text(encoding="utf-8"))
+              print("OK", p)
+          PY
