@@ -1369,17 +1369,29 @@ def promise_target_quantity(promise):
             continue
         quantity = rows[0]
 
-        context = text[max(0, match.start() - 100):match.end() + 100].lower()
+        context = text[max(0, match.start() - 55):match.end() + 55].lower()
         score = 0
 
         if re.search(r"\b(?:we will|will|aim to|target|commit|achieve|reach|create|build|provide|increase|reduce)\b", context):
             score += 3
-        if deadline_year and str(deadline_year) in context:
-            score += 4
         if re.search(r"\b(?:target of|target|by 20\d{2}|within|next five years|next 5 years)\b", context):
             score += 2
         if re.search(r"\b(?:already|currently|existing|achieved|as on|baseline|so far)\b", context):
-            score -= 4
+            score -= 5
+
+        if deadline_year:
+            deadline_positions = [
+                m.start()
+                for m in re.finditer(re.escape(str(deadline_year)), text)
+            ]
+            if deadline_positions:
+                distance = min(abs(match.start() - pos) for pos in deadline_positions)
+                if distance <= 45:
+                    score += 7
+                elif distance <= 100:
+                    score += 4
+                elif distance <= 180:
+                    score += 1
 
         candidates.append((score, match.start(), quantity))
 
