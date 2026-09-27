@@ -760,7 +760,7 @@ function scoreSentence(sentence) {
   let score = 0;
   const reasons = [];
 
-  if (/\b\d+(?:\.\d+)?\s*(?:%|percent|crore|lakh|million|billion|km|years?|months?|days?)?\b/i.test(sentence)) {
+  if (/\b\d+(?:\.\d+)?\s*(?:%|percent|crore|lakh|million|billion|km|years?|months?|days?|प्रतिशत|करोड़|करोड|लाख|साल|वर्ष|महीने?|दिन)?\b/iu.test(sentence)) {
     score += 3;
     reasons.push("number / quantity");
   }
@@ -768,15 +768,15 @@ function scoreSentence(sentence) {
     score += 2;
     reasons.push("date / year");
   }
-  if (/\b(doubled|tripled|increased|decreased|reduced|highest|lowest|more than|less than|never|always)\b/i.test(lower)) {
+  if (/\b(doubled|tripled|increased|decreased|reduced|highest|lowest|more than|less than|never|always)\b/i.test(lower) || /(दोगुना|तीन गुना|बढ़ा|बढ़ी|बढ़े|घटा|घटी|कम हुआ|सबसे अधिक|सबसे कम|से अधिक|से कम)/u.test(sentence)) {
     score += 2;
     reasons.push("comparison");
   }
-  if (/\b(created|built|provided|delivered|achieved|completed|launched|opened|closed|added|removed)\b/i.test(lower)) {
+  if (/\b(created|built|provided|delivered|achieved|completed|launched|opened|closed|added|removed)\b/i.test(lower) || /(बनाया|बनाए|दिया|दिए|प्रदान किया|पूरा किया|शुरू किया|लॉन्च किया|खोला|जोड़ा)/u.test(sentence)) {
     score += 2;
     reasons.push("accomplishment");
   }
-  if (/\b(will|promise|target|by \d{4}|within \d+)\b/i.test(lower)) {
+  if (/\b(will|promise|target|by \d{4}|within \d+)\b/i.test(lower) || /(हम करेंगे|हम बनाएंगे|हम देंगे|वादा|लक्ष्य|तक पूरा)/u.test(sentence)) {
     score += 1;
     reasons.push("commitment");
   }
