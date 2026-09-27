@@ -6,7 +6,7 @@ from collections import Counter
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
-from urllib.parse import urlencode
+from urllib.parse import urlencode, urlparse
 
 import feedparser
 import requests
@@ -20,8 +20,34 @@ OUT_PATH = ROOT / "data" / "evidence" / "latest.json"
 TIMEOUT = 18
 SESSION = requests.Session()
 SESSION.headers.update({
-    "User-Agent": "Mozilla/5.0 ClaimWatchIndia/0.5 (+https://github.com/archeearjun/claimwatch-india)"
+    "User-Agent": "Mozilla/5.0 ClaimWatchIndia/0.6 (+https://github.com/archeearjun/claimwatch-india)"
 })
+
+NLI_MODEL_NAME = os.getenv(
+    "NLI_MODEL",
+    "cross-encoder/nli-MiniLM2-L6-H768",
+)
+ENABLE_NLI = os.getenv("ENABLE_NLI", "1") != "0"
+_NLI_BUNDLE = None
+_NLI_ERROR = None
+
+INDEPENDENT_OFFICIAL_HOSTS = {
+    "pib.gov.in",
+    "rbi.org.in",
+    "mospi.gov.in",
+    "cag.gov.in",
+    "indiabudget.gov.in",
+    "data.gov.in",
+    "sansad.in",
+    "parliamentofindia.nic.in",
+    "indiacode.nic.in",
+}
+NON_VERIFYING_SOURCE_NAMES = {
+    "pm india",
+    "narendra modi",
+    "bharatiya janata party",
+    "bjp",
+}
 
 STOPWORDS = {
     "the","a","an","and","or","of","to","in","for","on","with","by","from","as","at","that","this",
@@ -32,8 +58,9 @@ STOPWORDS = {
 }
 
 PREFERRED_OFFICIAL_SCOPE = (
-    '(site:pib.gov.in OR site:pmindia.gov.in OR site:rbi.org.in '
-    'OR site:mospi.gov.in OR site:cag.gov.in OR site:indiabudget.gov.in)'
+    '(site:pib.gov.in OR site:rbi.org.in OR site:mospi.gov.in '
+    'OR site:cag.gov.in OR site:indiabudget.gov.in OR site:data.gov.in '
+    'OR site:sansad.in OR site:indiacode.nic.in)'
 )
 BROAD_OFFICIAL_SCOPE = "site:gov.in"
 
@@ -80,6 +107,53 @@ def parse_date(value):
     except Exception:
         return value
 
+def normalize_claim(raw):
+    if isinstance(raw, str):
+        return {
+            "text": raw.strip(),
+            "reasons": [],
+            "numbers": sorted(numeric_tokens(raw)),
+        }
+    if isinstance(raw, dict):
+        text = str(raw.get("text") or "").strip()
+        return {
+            "text": text,
+            "reasons": list(raw.get("reasons") or []),
+            "numbers": list(raw.get("numbers") or sorted(numeric_tokens(text))),
+        }
+    return {"text": "", "reasons": [], "numbers": []}
+
+def hostname(value):
+    try:
+        return urlparse(str(value or "")).hostname.lower().replace("www.", "", 1)
+    except Exception:
+        return ""
+
+def is_independent_primary(row):
+    source_name = str(row.get("source") or "").strip().lower()
+    if source_name in NON_VERIFYING_SOURCE_NAMES:
+        return False
+
+    hosts = {
+        hostname(row.get("source_url")),
+        hostname(row.get("resolved_url")),
+        hostname(row.get("url")),
+    }
+    hosts.discard("")
+
+    for host in hosts:
+        if host in {"pmindia.gov.in", "narendramodi.in", "bjp.org", "library.bjp.org"}:
+            return False
+        if any(host == official or host.endswith("." + official) for official in INDEPENDENT_OFFICIAL_HOSTS):
+            return True
+        if host.endswith(".gov.in") or host.endswith(".nic.in"):
+            return True
+
+    # Search results produced by an explicit official-domain query can be
+    # provisionally treated as primary only when the publisher itself is not
+    # the claim-maker. The NLI gate below remains much stricter.
+    return row.get("tier") == "primary" and source_name not in NON_VERIFYING_SOURCE_NAMES
+
 def google_news(query, scope, tier, limit=8):
     params = {
         "q": query,
@@ -98,11 +172,15 @@ def google_news(query, scope, tier, limit=8):
             source = entry.source.get("title")
         title = clean_html(entry.get("title", ""))
         summary = clean_html(entry.get("summary", ""))
+        source_url = ""
+        if entry.get("source") and entry.source.get("href"):
+            source_url = entry.source.get("href") or ""
         rows.append({
             "id": stable_id(scope, entry.get("link"), title),
             "scope": scope,
             "tier": tier,
             "source": source,
+            "source_url": source_url,
             "title": title,
             "url": entry.get("link"),
             "published_at": parse_date(entry.get("published")),
@@ -153,6 +231,9 @@ def rank_evidence(query_text, rows, limit=8):
     ranked = []
 
     for row in rows:
+        if row.get("tier") == "primary" and not is_independent_primary(row):
+            continue
+
         evidence_text = " ".join([
             row.get("title") or "",
             row.get("snippet") or "",
@@ -267,35 +348,159 @@ def promise_matches(claim_text, promises, limit=4):
         key=lambda x: (-x["similarity"], -len(x["matched_terms"]))
     )[:limit]
 
+def get_nli():
+    global _NLI_BUNDLE, _NLI_ERROR
+    if not ENABLE_NLI:
+        return None
+    if _NLI_BUNDLE is not None:
+        return _NLI_BUNDLE
+    if _NLI_ERROR is not None:
+        return None
+
+    try:
+        import torch
+        from transformers import AutoModelForSequenceClassification, AutoTokenizer
+
+        tokenizer = AutoTokenizer.from_pretrained(NLI_MODEL_NAME)
+        model = AutoModelForSequenceClassification.from_pretrained(NLI_MODEL_NAME)
+        model.eval()
+        _NLI_BUNDLE = (tokenizer, model, torch)
+        return _NLI_BUNDLE
+    except Exception as exc:
+        _NLI_ERROR = f"{type(exc).__name__}: {exc}"
+        return None
+
+def nli_scores(evidence_text, claim_text):
+    bundle = get_nli()
+    if not bundle:
+        return None
+
+    tokenizer, model, torch = bundle
+    features = tokenizer(
+        evidence_text,
+        claim_text,
+        padding=True,
+        truncation=True,
+        max_length=512,
+        return_tensors="pt",
+    )
+    with torch.no_grad():
+        logits = model(**features).logits[0]
+        probs = torch.softmax(logits, dim=-1).tolist()
+
+    # cross-encoder/nli-MiniLM2-L6-H768 label order:
+    # contradiction, entailment, neutral.
+    return {
+        "contradiction": float(probs[0]),
+        "entailment": float(probs[1]),
+        "neutral": float(probs[2]),
+    }
+
 def strict_signal(text, evidence, factchecks):
     primary = [
         e for e in evidence
         if e.get("tier") == "primary"
+        and is_independent_primary(e)
         and e.get("relevance", 0) >= 0.22
         and len(e.get("matched_terms", [])) >= 2
     ]
+    claim_numbers = numeric_tokens(text)
+
+    best_support = None
+    best_contradiction = None
+
+    for row in primary[:6]:
+        premise = " ".join([
+            row.get("title") or "",
+            row.get("snippet") or "",
+            row.get("claim_text") or "",
+        ]).strip()
+        scores = nli_scores(premise, text)
+        if not scores:
+            continue
+
+        row["nli"] = {k: round(v, 4) for k, v in scores.items()}
+        shared_numbers = set(row.get("shared_numbers") or [])
+        row_numbers = numeric_tokens(premise)
+        numeric_support_ok = not claim_numbers or bool(claim_numbers & shared_numbers)
+        numeric_conflict_possible = bool(claim_numbers and row_numbers and not shared_numbers)
+
+        if (
+            scores["entailment"] >= 0.92
+            and row.get("relevance", 0) >= 0.28
+            and len(row.get("matched_terms", [])) >= 3
+            and numeric_support_ok
+        ):
+            if best_support is None or scores["entailment"] > best_support["nli"]["entailment"]:
+                best_support = row
+
+        if (
+            scores["contradiction"] >= 0.97
+            and row.get("relevance", 0) >= 0.30
+            and len(row.get("matched_terms", [])) >= 3
+            and numeric_conflict_possible
+        ):
+            if (
+                best_contradiction is None
+                or scores["contradiction"] > best_contradiction["nli"]["contradiction"]
+            ):
+                best_contradiction = row
+
+    if best_support and best_contradiction:
+        return {
+            "level": "conflicting_primary_evidence",
+            "label": "Conflicting independent primary evidence found",
+            "publishable_verdict": False,
+            "verdict": "insufficient",
+            "reason": "Independent official evidence produced conflicting machine signals; human review is required.",
+        }
+
+    if best_support:
+        return {
+            "level": "automated_supported",
+            "label": "Supported by independent primary evidence",
+            "publishable_verdict": True,
+            "verdict": "supported",
+            "reason": "A highly relevant independent official source entails the claim under the strict automated threshold.",
+            "evidence_id": best_support.get("id"),
+            "assessment_mode": "strict_nli_primary_gate",
+        }
+
+    if best_contradiction:
+        return {
+            "level": "automated_contradicted",
+            "label": "Contradicted by independent primary evidence",
+            "publishable_verdict": True,
+            "verdict": "contradicted",
+            "reason": "A highly relevant independent official source contradicts the numerical claim under the strict automated threshold.",
+            "evidence_id": best_contradiction.get("id"),
+            "assessment_mode": "strict_nli_primary_gate",
+        }
+
     shared_numeric = [
         e for e in primary
         if e.get("shared_numbers") and e.get("lexical_overlap", 0) >= 0.12
     ]
-
     if shared_numeric:
         return {
             "level": "structured_support_candidate",
             "label": "Relevant primary evidence shares claim terms and numeric values",
             "publishable_verdict": False,
+            "verdict": "pending",
         }
     if factchecks:
         return {
             "level": "prior_fact_checks_found",
             "label": "Prior fact-check reviews found; ratings remain attributed",
             "publishable_verdict": False,
+            "verdict": "pending",
         }
     if primary:
         return {
             "level": "primary_evidence_found",
-            "label": "Relevant primary evidence candidate found",
+            "label": "Relevant independent primary evidence candidate found",
             "publishable_verdict": False,
+            "verdict": "pending",
         }
     secondary = [
         e for e in evidence
@@ -306,11 +511,13 @@ def strict_signal(text, evidence, factchecks):
             "level": "reporting_found",
             "label": "Relevant reporting found; primary evidence still needed",
             "publishable_verdict": False,
+            "verdict": "pending",
         }
     return {
         "level": "needs_research",
         "label": "No sufficiently relevant evidence candidate found automatically",
         "publishable_verdict": False,
+        "verdict": "pending",
     }
 
 def build_claim_packets(discovery, promises):
@@ -318,8 +525,10 @@ def build_claim_packets(discovery, promises):
     for item in discovery.get("items", []):
         if item.get("kind") not in {"official_speech_or_video", "youtube_video"}:
             continue
-        for idx, claim in enumerate(item.get("candidate_claims", []) or []):
-            candidates.append((item, idx, claim))
+        for idx, raw_claim in enumerate(item.get("candidate_claims", []) or []):
+            normalized = normalize_claim(raw_claim)
+            if normalized["text"]:
+                candidates.append((item, idx, normalized))
 
     candidates.sort(
         key=lambda row: row[0].get("published_at") or "",
@@ -327,7 +536,8 @@ def build_claim_packets(discovery, promises):
     )
     packets, errors = [], []
 
-    for item, idx, claim in candidates[:14]:
+    for item, idx, claim_record in candidates[:14]:
+        claim = claim_record["text"]
         query = query_from_text(claim)
         if not query:
             continue
@@ -352,9 +562,15 @@ def build_claim_packets(discovery, promises):
                 "error": type(exc).__name__,
             })
 
+        signal = strict_signal(claim, evidence, factchecks)
+
         packets.append({
             "id": stable_id("claim_packet", item.get("id"), idx, claim),
             "claim": claim,
+            "extraction": {
+                "reasons": claim_record.get("reasons", []),
+                "numbers": claim_record.get("numbers", []),
+            },
             "claim_source": {
                 "id": item.get("id"),
                 "kind": item.get("kind"),
@@ -369,8 +585,9 @@ def build_claim_packets(discovery, promises):
             "promise_matches": promise_matches(claim, promises),
             "evidence": evidence,
             "fact_checks": factchecks,
-            "signal": strict_signal(claim, evidence, factchecks),
-            "verdict": "pending",
+            "signal": signal,
+            "verdict": signal.get("verdict", "pending"),
+            "human_reviewed": False,
         })
 
     return packets, errors
@@ -417,6 +634,7 @@ def build_promise_packets(promises):
         primary_count = sum(
             1 for e in evidence
             if e.get("tier") == "primary"
+            and is_independent_primary(e)
             and e.get("relevance", 0) >= 0.20
             and len(e.get("matched_terms", [])) >= 2
         )
@@ -426,7 +644,47 @@ def build_promise_packets(promises):
             and e.get("relevance", 0) >= 0.18
         )
 
-        if primary_count and secondary_count:
+        independent_primary = [
+            e for e in evidence
+            if e.get("tier") == "primary" and is_independent_primary(e)
+        ]
+        action_terms = re.compile(
+            r"\b(?:launched|implemented|notified|approved|operationali[sz]ed|"
+            r"rolled out|expanded|extended|completed|achieved|reached|introduced|"
+            r"established|set up|sanctioned|allocated|started|commenced|covered|"
+            r"provided|increased|created)\b",
+            re.I,
+        )
+        completion_terms = re.compile(
+            r"\b(?:completed|achieved|fully implemented|target achieved|"
+            r"reached the target|operationali[sz]ed)\b",
+            re.I,
+        )
+        promise_numbers = numeric_tokens(pseudo_text)
+        action_evidence = []
+        target_evidence = []
+
+        for e in independent_primary:
+            evidence_text = " ".join([
+                e.get("title") or "",
+                e.get("snippet") or "",
+            ])
+            if action_terms.search(evidence_text):
+                action_evidence.append(e)
+                evidence_numbers = numeric_tokens(evidence_text)
+                if (
+                    promise.get("measurable")
+                    and promise_numbers
+                    and promise_numbers & evidence_numbers
+                    and completion_terms.search(evidence_text)
+                ):
+                    target_evidence.append(e)
+
+        if target_evidence:
+            signal = "target_evidence_detected"
+        elif action_evidence:
+            signal = "action_detected"
+        elif primary_count and secondary_count:
             signal = "current_primary_and_reporting_found"
         elif primary_count:
             signal = "current_primary_evidence_found"
@@ -453,9 +711,10 @@ def build_promise_packets(promises):
             "evidence": evidence,
             "implementation_signal": signal,
             "status": "pending",
+            "human_reviewed": False,
             "status_reason": (
-                "Retrieval can identify current evidence, but fulfilment requires "
-                "the original target and current metric to be directly comparable."
+                "This is an automated implementation-evidence signal. Final fulfilment "
+                "requires the original target and current metric to be directly comparable."
             ),
         })
 
@@ -492,6 +751,10 @@ def main():
         "generated_at": now_iso(),
         "capabilities": {
             "official_evidence_search": True,
+            "independent_primary_gate": True,
+            "automated_nli": bool(get_nli()),
+            "nli_model": NLI_MODEL_NAME if get_nli() else None,
+            "nli_error": _NLI_ERROR,
             "news_context_search": True,
             "fact_check_api_configured": bool(
                 os.getenv("FACTCHECK_API_KEY", "").strip()
@@ -508,7 +771,10 @@ def main():
                 1 for e in all_evidence if e.get("tier") == "secondary"
             ),
             "prior_fact_checks": len(fact_checks),
-            "publishable_auto_verdicts": 0,
+            "publishable_auto_verdicts": sum(
+                1 for packet in claim_packets
+                if packet.get("signal", {}).get("publishable_verdict")
+            ),
         },
         "claim_packets": claim_packets,
         "promise_packets": promise_packets,
@@ -517,6 +783,8 @@ def main():
             "Evidence candidates are not verdicts.",
             "Official-search results are discarded unless they share substantive terms or numeric values with the claim.",
             "Google Fact Check Tools matches are attributed to their publishers and are not adopted as ClaimWatch verdicts automatically.",
+            "PMIndia/party material is provenance for what was said, not independent proof that the claim is true.",
+            "Automated supported/contradicted verdicts require a strict independent-primary NLI gate; uncertain cases remain pending.",
             "A contradiction is not treated as proof of deliberate deception.",
         ],
     }
