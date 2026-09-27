@@ -24,6 +24,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 0
 
       - uses: actions/setup-python@v5
@@ -35,7 +36,7 @@ jobs:
       - name: Install scanner dependencies
         run: pip install -r scanner/requirements.txt
 
-      - name: Rebase to latest main before generating
+      - name: Sync latest main
         run: git pull --rebase origin main
 
       - name: Discover current sources
@@ -54,8 +55,12 @@ jobs:
           git config user.email "claimwatch-bot@users.noreply.github.com"
           git add data/discovery/latest.json
           git commit -m "data: refresh discovery feed"
-          if ! git push; then
-            echo "Remote advanced during generation; rebasing generated data and retrying."
+          for attempt in 1 2 3; do
+            if git push; then
+              exit 0
+            fi
+            echo "Push attempt $attempt failed because main advanced; rebasing generated data."
             git pull --rebase -X theirs origin main
-            git push
-          fi
+          done
+          echo "Unable to push generated data after 3 attempts."
+          exit 1
