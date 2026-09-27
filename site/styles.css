@@ -636,6 +636,55 @@ footer a {
   background: rgba(241,209,127,.08);
 }
 
+.signal.danger {
+  color: var(--red);
+  background: rgba(255,143,143,.09);
+}
+
+.signal.action {
+  color: var(--accent);
+  background: rgba(241,178,74,.09);
+}
+
+.machine-reason {
+  margin: 12px 0 0;
+  color: var(--muted);
+  font-size: .78rem;
+  line-height: 1.5;
+}
+
+.verdict-readout {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 5px;
+  color: var(--muted);
+  font-size: .75rem;
+}
+
+.verdict-readout b {
+  letter-spacing: .035em;
+}
+
+.verdict-readout.strong b { color: var(--green); }
+.verdict-readout.danger b { color: var(--red); }
+.verdict-readout.pending b { color: var(--yellow); }
+
+.verdict-readout small {
+  width: 100%;
+  color: var(--muted-2);
+  text-align: right;
+  font-size: .65rem;
+}
+
+.cache-note {
+  display: block;
+  margin-top: 7px;
+  color: var(--muted-2);
+  font-size: .7rem;
+}
+
 .evidence-card blockquote {
   margin: 17px 0;
   padding-left: 15px;
@@ -1311,6 +1360,13 @@ footer strong { color: var(--text); }
 }
 .instant-signal.pending {
   border-left-color: var(--muted);
+}
+
+.instant-signal.danger {
+  border-left-color: var(--red);
+}
+.instant-signal.action {
+  border-left-color: var(--accent);
 }
 .instant-evidence,
 .instant-promises {
