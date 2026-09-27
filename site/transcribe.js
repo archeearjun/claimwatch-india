@@ -12,6 +12,7 @@ let transcriberPromise = null;
 let transcriptText = "";
 let segmentCount = 0;
 let audioContext = null;
+const liveCheckCache = new Map();
 
 function setStatus(message, kind = "") {
   const el = $("#live-status");
@@ -201,17 +202,28 @@ function renderLiveClaims() {
     return;
   }
 
-  root.innerHTML = candidates.map((item, index) => `
-    <article class="candidate-card">
-      <span class="candidate-number">${String(index + 1).padStart(2, "0")}</span>
-      <div>
-        <p>${escapeHtml(item.sentence)}</p>
-        <div class="candidate-reasons">
-          ${item.reasons.map(reason => `<span>${escapeHtml(reason)}</span>`).join("")}
+  root.innerHTML = candidates.map((item, index) => {
+    const cached = liveCheckCache.get(item.sentence);
+    return `
+      <article class="candidate-card">
+        <span class="candidate-number">${String(index + 1).padStart(2, "0")}</span>
+        <div>
+          <p>${escapeHtml(item.sentence)}</p>
+          <div class="candidate-reasons">
+            ${item.reasons.map(reason => `<span>${escapeHtml(reason)}</span>`).join("")}
+          </div>
+          <div class="candidate-check-row">
+            <button class="mini-check" data-live-check="${encodeURIComponent(item.sentence)}">
+              ${cached ? "Refresh evidence" : "Check evidence now"}
+            </button>
+          </div>
+          <div class="instant-result">
+            ${cached ? window.ClaimWatch.instantResultHtml(cached) : ""}
+          </div>
         </div>
-      </div>
-    </article>
-  `).join("");
+      </article>
+    `;
+  }).join("");
 }
 
 function escapeHtml(value) {
@@ -380,6 +392,7 @@ function stopCapture() {
 function clearTranscript() {
   transcriptText = "";
   segmentCount = 0;
+  liveCheckCache.clear();
   $("#live-transcript").textContent = "Transcript will appear here…";
   $("#live-chunk-count").textContent = "0 segments";
   $("#live-claim-count").textContent = "0 candidates";
@@ -387,6 +400,34 @@ function clearTranscript() {
   const manual = $("#transcript");
   if (manual) manual.value = "";
 }
+
+$("#live-claim-list")?.addEventListener("click", async event => {
+  const button = event.target.closest("[data-live-check]");
+  if (!button) return;
+
+  const claim = decodeURIComponent(button.dataset.liveCheck || "");
+  const card = button.closest(".candidate-card");
+  const resultRoot = card?.querySelector(".instant-result");
+  if (!claim || !resultRoot || !window.ClaimWatch?.instantCheck) return;
+
+  button.disabled = true;
+  button.textContent = "Searching evidence…";
+  resultRoot.innerHTML =
+    '<div class="quiet-note">Searching official-source leads, reporting and historical promises…</div>';
+
+  try {
+    const result = await window.ClaimWatch.instantCheck(claim);
+    liveCheckCache.set(claim, result);
+    resultRoot.innerHTML = window.ClaimWatch.instantResultHtml(result);
+    button.textContent = "Refresh evidence";
+  } catch (error) {
+    resultRoot.innerHTML =
+      `<div class="notice"><strong>Instant check unavailable</strong><span>${escapeHtml(error?.message || error)}</span></div>`;
+    button.textContent = "Try again";
+  } finally {
+    button.disabled = false;
+  }
+});
 
 $("#live-start")?.addEventListener("click", startCapture);
 $("#live-stop")?.addEventListener("click", stopCapture);
