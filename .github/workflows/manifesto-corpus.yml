@@ -55,5 +55,9 @@ jobs:
           if ! git push; then
             echo "Remote advanced during generation; rebasing generated data and retrying."
             git pull --rebase -X theirs origin main
+            if ! git push; then
+            echo "Remote advanced during generation; rebasing generated data and retrying."
+            git pull --rebase -X theirs origin main
             git push
+          fi
           fi
