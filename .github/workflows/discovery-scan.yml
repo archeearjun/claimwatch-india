@@ -4,7 +4,8 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - "scanner/**"
+      - "scanner/scan.py"
+      - "scanner/requirements.txt"
       - ".github/workflows/discovery-scan.yml"
   schedule:
     - cron: "17 * * * *"
@@ -22,6 +23,8 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -48,4 +51,5 @@ jobs:
           git config user.email "claimwatch-bot@users.noreply.github.com"
           git add data/discovery/latest.json
           git commit -m "data: refresh discovery feed"
+          git pull --rebase origin main
           git push
