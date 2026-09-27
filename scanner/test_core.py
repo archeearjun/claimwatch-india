@@ -36,6 +36,12 @@ class ManifestoExtractionTests(unittest.TestCase):
         )
         self.assertEqual(manifestos.extract_numbers(cleaned), [])
 
+    def test_comma_grouped_target_stays_one_number(self):
+        self.assertEqual(
+            manifestos.extract_numbers("We will create 10,000 FPOs by 2022."),
+            ["10,000 FPOs"],
+        )
+
 
 class DiscoveryExtractionTests(unittest.TestCase):
     def test_social_footer_is_not_a_claim(self):
@@ -127,6 +133,72 @@ class EvidenceRankingTests(unittest.TestCase):
             "url": "https://www.rd.com/article/example/",
         }
         self.assertFalse(evidence.is_verified_primary(row))
+
+    def test_five_year_promise_derives_deadline(self):
+        promise = {
+            "year": 2014,
+            "exact_text": "We will build 100 houses in the district in the next five years.",
+            "deadline_hints": ["next five years"],
+        }
+        self.assertEqual(evidence.promise_deadline_year(promise), 2019)
+
+    def test_structured_proof_can_prove_deadline_miss(self):
+        packet = {
+            "year": 2014,
+            "exact_text": "We will build 100 houses in the district in the next five years.",
+            "anchor": "We will build 100 houses in the district",
+            "numbers": ["100 houses"],
+            "deadline_hints": ["next five years"],
+            "measurable": True,
+            "evidence": [{
+                "id": "official-1",
+                "tier": "primary",
+                "source": "District Department",
+                "source_url": "https://housing.example.gov.in/report",
+                "url": "https://housing.example.gov.in/report",
+                "title": "District housing progress",
+                "snippet": "As of 2020, 80 houses have been constructed in the district.",
+                "published_at": "2020-05-01T00:00:00+00:00",
+                "relevance": 0.8,
+                "matched_terms": ["district", "houses"],
+                "shared_numbers": [],
+            }],
+        }
+        packet["evidence"] = evidence.sanitize_promise_evidence(
+            packet, packet["evidence"]
+        )
+        proof = evidence.structured_promise_proof(packet)
+        self.assertEqual(proof["status"], "proven_unfulfilled_by_deadline")
+        self.assertEqual(proof["proof"]["target"]["value"], 100.0)
+        self.assertEqual(proof["proof"]["observed"]["value"], 80.0)
+
+    def test_structured_proof_can_prove_fulfilled_by_deadline(self):
+        packet = {
+            "year": 2014,
+            "exact_text": "We will build 100 houses in the district in the next five years.",
+            "anchor": "We will build 100 houses in the district",
+            "numbers": ["100 houses"],
+            "deadline_hints": ["next five years"],
+            "measurable": True,
+            "evidence": [{
+                "id": "official-2",
+                "tier": "primary",
+                "source": "District Department",
+                "source_url": "https://housing.example.gov.in/report",
+                "url": "https://housing.example.gov.in/report",
+                "title": "District housing target achieved",
+                "snippet": "In 2019, 100 houses were completed in the district.",
+                "published_at": "2019-12-01T00:00:00+00:00",
+                "relevance": 0.8,
+                "matched_terms": ["district", "houses"],
+                "shared_numbers": ["100"],
+            }],
+        }
+        packet["evidence"] = evidence.sanitize_promise_evidence(
+            packet, packet["evidence"]
+        )
+        proof = evidence.structured_promise_proof(packet)
+        self.assertEqual(proof["status"], "fulfilled_by_deadline")
 
 
 if __name__ == "__main__":
