@@ -244,6 +244,7 @@ def parse_manifesto(source):
                 "category": category_for(sentence),
                 "page": page_index,
                 "anchor": anchor(sentence),
+                "exact_text": normalize_text(sentence)[:1800],
                 "keywords": terms,
                 "numbers": numbers,
                 "deadline_hints": deadlines,
