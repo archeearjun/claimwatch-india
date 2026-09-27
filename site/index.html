@@ -11,6 +11,7 @@
   <header class="topbar">
     <a class="brand" href="#">ClaimWatch <span>India</span></a>
     <nav>
+      <a href="#discoveries">Discoveries</a>
       <a href="#live">Live Check</a>
       <a href="#promises">Promises</a>
       <a href="#method">Method</a>
@@ -21,35 +22,62 @@
     <section class="hero">
       <div>
         <p class="eyebrow">EVIDENCE, NOT ASSERTION</p>
-        <h1>Check political claims against inspectable evidence.</h1>
-        <p class="lede">Initial research scope: public Modi/BJP statements and election commitments. Every verdict must show its sources, definitions, dates, and calculations.</p>
+        <h1>Track claims. Find the record. Show the evidence.</h1>
+        <p class="lede">Initial research scope: public Modi/BJP statements and election commitments. ClaimWatch is being built to discover public statements automatically, preserve the original source, and compare checkable claims and promises against inspectable evidence.</p>
       </div>
       <div class="hero-card">
         <div class="dot"></div>
         <div>
-          <strong>V0.1</strong>
-          <p>Browser-side claim extraction is working. Live audio transcription and automatic evidence retrieval are next.</p>
+          <strong>V0.2 · Discovery connected</strong>
+          <p>PMIndia and web/news discovery are wired into an hourly scanner. YouTube discovery activates once the free API key is added. Automated evidence verification is the next layer.</p>
         </div>
       </div>
     </section>
 
     <section class="stats" aria-label="Current review summary">
-      <article><span id="total-count">0</span><small>Claims in review</small></article>
+      <article><span id="total-count">0</span><small>Reviewed claims</small></article>
       <article><span id="supported-count">0</span><small>Supported</small></article>
       <article><span id="contradicted-count">0</span><small>Contradicted</small></article>
       <article><span id="context-count">0</span><small>Missing context</small></article>
       <article><span id="pending-count">0</span><small>Pending / insufficient</small></article>
     </section>
 
+    <section id="discoveries" class="panel">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">AUTONOMOUS DISCOVERY</p>
+          <h2>Recent speeches, videos and reporting found by ClaimWatch</h2>
+        </div>
+        <button id="refresh-discoveries" class="secondary">Refresh discoveries</button>
+      </div>
+      <p class="muted">These are source discoveries and candidate factual claims, not truth verdicts. A source only becomes a verdict after the evidence engine has checked it.</p>
+      <div class="scanner-bar">
+        <div>
+          <span class="scanner-label">Scanner status</span>
+          <strong id="scanner-status">Loading discovery feed…</strong>
+        </div>
+        <div>
+          <span class="scanner-label">Last scan</span>
+          <strong id="scanner-time">—</strong>
+        </div>
+        <div>
+          <span class="scanner-label">Sources found</span>
+          <strong id="scanner-count">0</strong>
+        </div>
+      </div>
+      <div id="scanner-notices" class="scanner-notices"></div>
+      <div id="discovery-list" class="discovery-list"></div>
+    </section>
+
     <section id="live" class="panel">
       <div class="section-head">
         <div>
-          <p class="eyebrow">LIVE CHECK</p>
+          <p class="eyebrow">MANUAL CHECK / TEST BENCH</p>
           <h2>Extract checkable claims from a transcript</h2>
         </div>
         <span class="local-badge">Runs locally in your browser</span>
       </div>
-      <p class="muted">Paste a speech transcript. This first-pass extractor prioritizes sentences containing measurable quantities, dates, comparisons, or factual accomplishment claims. It does not decide whether they are true.</p>
+      <p class="muted">Paste a speech transcript to test the local first-pass claim extractor. It prioritizes measurable quantities, dates, comparisons, and factual accomplishment claims. Extraction is not a truth verdict.</p>
       <textarea id="transcript" placeholder="Paste a rally, interview, TV or speech transcript here…"></textarea>
       <div class="actions">
         <button id="extract-btn" class="primary">Extract candidate claims</button>
@@ -99,12 +127,12 @@
         <article><strong>Not checkable</strong><p>Opinion, prediction, rhetoric, value judgment, or a proposition without an objective verification test.</p></article>
         <article><strong>Pending</strong><p>A checkable claim has been detected but the evidence packet has not been completed.</p></article>
       </div>
-      <p class="method-note">The product should not label a statement a “lie” unless intent is independently established. Its job is to show what the record supports or contradicts.</p>
+      <p class="method-note">ClaimWatch evaluates the relationship between a public claim and available evidence. It does not infer a speaker's private intent from a contradiction.</p>
     </section>
   </main>
 
   <footer>
-    <p>ClaimWatch India · Open methodology · Primary-source-first · No paid API required for the core project</p>
+    <p>ClaimWatch India · Open methodology · Primary-source-first · No paid AI API required for the core project</p>
   </footer>
 
   <script src="./app.js" defer></script>
