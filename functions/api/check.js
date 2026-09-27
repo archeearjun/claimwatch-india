@@ -309,8 +309,8 @@ function rankEvidence(claim, rows) {
 }
 
 function quantityMentions(text) {
-  const regex = /(?:^|[^\w])(\d{1,3}(?:,\d{3})+|\d+(?:\.\d+)?)\s*(%|percent|crore|lakh|million|billion|trillion)?\b/gi;
-  const factors = { crore: 1e7, lakh: 1e5, million: 1e6, billion: 1e9, trillion: 1e12 };
+  const regex = /(?:^|[^\w])(\d{1,3}(?:,\d{3})+|\d+(?:\.\d+)?)\s*(%|percent|crore|lakh|million|billion|trillion|प्रतिशत|करोड़|करोड|लाख)?\b/giu;
+  const factors = { crore: 1e7, lakh: 1e5, million: 1e6, billion: 1e9, trillion: 1e12, "करोड़": 1e7, "करोड": 1e7, "लाख": 1e5 };
   const out = [];
   let match;
   while ((match = regex.exec(String(text || ""))) !== null) {
@@ -321,8 +321,8 @@ function quantityMentions(text) {
     if (!unit && base >= 1900 && base <= 2100) continue;
     out.push({
       raw: rawNumber + (unit ? " " + unit : ""),
-      value: unit === "%" || unit === "percent" ? base : base * (factors[unit] || 1),
-      kind: unit === "%" || unit === "percent" ? "percent" : "count"
+      value: ["%","percent","प्रतिशत"].includes(unit) ? base : base * (factors[unit] || 1),
+      kind: ["%","percent","प्रतिशत"].includes(unit) ? "percent" : "count"
     });
   }
   return out;
@@ -330,9 +330,9 @@ function quantityMentions(text) {
 
 function numericOperator(text) {
   const value = String(text || "").toLowerCase();
-  if (/\b(more than|over|above|greater than|at least)\b/.test(value)) return "gte";
-  if (/\b(less than|under|below|at most)\b/.test(value)) return "lte";
-  if (/\b(nearly|about|around|approximately|roughly)\b/.test(value)) return "approx";
+  if (/\b(more than|over|above|greater than|at least)\b/.test(value) || /(से अधिक|से ज्यादा|कम से कम)/u.test(value)) return "gte";
+  if (/\b(less than|under|below|at most)\b/.test(value) || /(से कम|अधिकतम)/u.test(value)) return "lte";
+  if (/\b(nearly|about|around|approximately|roughly)\b/.test(value) || /(लगभग|करीब)/u.test(value)) return "approx";
   return "eq";
 }
 
