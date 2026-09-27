@@ -189,6 +189,15 @@ function instantResultHtml(result) {
       <p>${escapeHtml(signal.reason || "ClaimWatch has not established a final verdict.")}</p>
       ${result?.cached ? `<small class="cache-note">Matched a previously checked claim · ${Math.round((result.cache_similarity || 0) * 100)}% similarity</small>` : ""}
     </div>
+    ${signal?.proof ? `
+      <div class="proof-box claim-proof">
+        <span>STRUCTURED CLAIM PROOF</span>
+        <div><b>Claimed</b><strong>${escapeHtml(signal.proof.claimed?.raw || signal.proof.claimed?.value)}</strong></div>
+        <div><b>Official value</b><strong>${escapeHtml(signal.proof.observed?.raw || signal.proof.observed?.value)}</strong></div>
+        <div><b>Rule</b><strong>${escapeHtml(humanize(signal.proof.operator || "eq"))}</strong></div>
+        <a href="${escapeHtml(safeUrl(signal.proof.evidence_url))}" target="_blank" rel="noopener noreferrer">Open proof source ↗</a>
+      </div>
+    ` : ""}
     ${evidence.length ? `
       <div class="instant-evidence">
         <span class="instant-heading">EVIDENCE LEADS</span>
@@ -445,6 +454,15 @@ function renderEvidence() {
         </div>
 
         <blockquote>${escapeHtml(packet.claim)}</blockquote>
+        ${signal?.proof ? `
+          <div class="proof-box claim-proof">
+            <span>STRUCTURED CLAIM PROOF</span>
+            <div><b>Claimed</b><strong>${escapeHtml(signal.proof.claimed?.raw || signal.proof.claimed?.value)}</strong></div>
+            <div><b>Official value</b><strong>${escapeHtml(signal.proof.observed?.raw || signal.proof.observed?.value)}</strong></div>
+            <div><b>Rule</b><strong>${escapeHtml(humanize(signal.proof.operator || "eq"))}</strong></div>
+            <a href="${escapeHtml(safeUrl(signal.proof.evidence_url))}" target="_blank" rel="noopener noreferrer">Open proof source ↗</a>
+          </div>
+        ` : ""}
 
         ${matches.length ? `
           <div class="history-strip">
