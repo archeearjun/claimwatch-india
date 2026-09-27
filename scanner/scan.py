@@ -148,13 +148,25 @@ def classify_sentence(sentence):
 
 def extract_candidates(text, claim_limit=25, promise_limit=12):
     claims, promises = [], []
+    sentences = split_sentences(text)
+    anaphora = re.compile(
+        r"\b(?:this scheme|this programme|this program|this initiative|"
+        r"under this|through this|with its help|under it|through it|"
+        r"this mission|this yojana|this policy)\b",
+        re.I,
+    )
 
-    for sentence in split_sentences(text):
+    for index, sentence in enumerate(sentences):
         kind, reasons = classify_sentence(sentence)
+        context_before = ""
+        if index > 0 and anaphora.search(sentence):
+            context_before = sentences[index - 1][-500:]
+
         row = {
             "text": sentence[:700],
             "reasons": reasons,
             "numbers": NUMBER_RE.findall(sentence),
+            "context_before": context_before,
         }
         if kind == "claim" and len(claims) < claim_limit:
             claims.append(row)
