@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T20:51:48.889296+00:00",
+  "generated_at": "2026-09-30T22:40:38.770530+00:00",
   "capabilities": {
     "official_evidence_search": true,
     "verified_primary_gate": true,
@@ -12,12 +12,12 @@
   },
   "summary": {
     "claim_packets": 14,
-    "promise_packets": 474,
+    "promise_packets": 494,
     "promise_checked_this_run": 30,
     "promise_total_candidates": 841,
-    "promise_coverage_pct": 56.4,
-    "primary_candidates": 241,
-    "secondary_candidates": 616,
+    "promise_coverage_pct": 58.7,
+    "primary_candidates": 261,
+    "secondary_candidates": 657,
     "prior_fact_checks": 0,
     "publishable_auto_verdicts": 0,
     "claim_verdicts": {
@@ -33,8 +33,8 @@
       "deadline_passed_unresolved": 38,
       "deadline_not_reached": 9,
       "insufficient_evidence": 27,
-      "not_machine_measurable": 393,
-      "audited_total": 474
+      "not_machine_measurable": 413,
+      "audited_total": 494
     },
     "claim_memory": {
       "families_total": 28,
@@ -177,7 +177,7 @@
         "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-in-the-138th-episode-of-mann-ki-baat/",
         "published_at": "2026-09-27T06:45:05+00:00"
       },
-      "query": "29 28 ten ago september army carried out",
+      "query": "28 2016 ten ago september army carried out",
       "numbers": [
         "2016",
         "28",
@@ -312,7 +312,7 @@
         "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-in-the-138th-episode-of-mann-ki-baat/",
         "published_at": "2026-09-27T06:45:05+00:00"
       },
-      "query": "2008 13 september was very month specifically many",
+      "query": "13 2008 september was very month specifically many",
       "numbers": [
         "13",
         "2008"
@@ -351,17 +351,37 @@
         "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-in-the-138th-episode-of-mann-ki-baat/",
         "published_at": "2026-09-27T06:45:05+00:00"
       },
-      "query": "11 26 just few weeks later massive attack",
+      "query": "26 11 just few weeks later massive attack",
       "numbers": [
         "11",
         "26"
       ],
       "promise_matches": [],
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "3b6233db710fdd5b51",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Economist",
+          "source_url": "https://www.economist.com",
+          "title": "America has few good options for a “massive attack” on Iran - The Economist",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRlJrQkIxS1NZR09mLVM4OE9iTjBPU0hjWEh1ZUUtcFFTdHJDbTlMR3NyUC1idUFfT0ZLeWZ3UlZCTTI2UXExbnhQZUJrVkFNNjVmRXFsSVJ4OFdmWjZtREZmZURtLWpuY3Z3bF8xOVpRRGg5THA4RHg4STJIQ080b1Z3RS1JRDduRlZyWnhKQ0ZKVDgybmlWVHZsem1WVWVON0RXcDJlVkZPZ0FqZ25KVFN3NHRKR2Z6?oc=5",
+          "published_at": "2026-07-26T07:00:00+00:00",
+          "snippet": "America has few good options for a “massive attack” on Iran The Economist",
+          "lexical_overlap": 0.2,
+          "relevance": 0.305,
+          "matched_terms": [
+            "attack",
+            "few",
+            "massive"
+          ],
+          "shared_numbers": []
+        }
+      ],
       "fact_checks": [],
       "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
+        "level": "reporting_found",
+        "label": "Relevant reporting found; primary evidence still needed",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -800,19 +820,19 @@
       "promise_matches": [],
       "evidence": [
         {
-          "id": "07dbee5bcc84431d3d",
+          "id": "b7ff46b964839c7848",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "ByteStart",
-          "source_url": "https://www.bytestart.co.uk",
-          "title": "How to cancel your VAT registration if you’re self-employed - ByteStart",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBRblN4Rjhvc2VsdjYxdGlpWGxiU3Z2ZWxtYlVYSXpFWXB1V3NOOTVFZE9SY19RSmNPY3VtNUVVTWw5ek1KVzUxU18wRW53aUQ2d3RMOEdqRnNWbGQ2LXZ4elhhZUVTUS1GUms5SWRUMWhQWVVWbVFEYTdB?oc=5",
-          "published_at": "2026-07-09T07:00:00+00:00",
-          "snippet": "How to cancel your VAT registration if you’re self-employed ByteStart",
+          "source": "CalMatters",
+          "source_url": "https://calmatters.org",
+          "title": "Get ready for California’s 2026 primary. Your questions about voting, answered - CalMatters",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQN3kwM2xEcG9qU2hXR1c4SE9mb2w3NERoUG1PYjhfUG9mdldDaVpoemNDVVFqbHhJRkJ2QkZXTlpBbE5haUVUbTdRZUJxY0M3VURsX09fSUkwYkdhazM2RFNtU0ZjSjFqS1N4X1VOeHJ1elVCM09TMzFwbTVxUEs4U1FWMlVBOVBNYVE?oc=5",
+          "published_at": "2026-03-13T07:00:00+00:00",
+          "snippet": "Get ready for California’s 2026 primary. Your questions about voting, answered CalMatters",
           "lexical_overlap": 0.118,
           "relevance": 0.188,
           "matched_terms": [
-            "you",
+            "about",
             "your"
           ],
           "shared_numbers": []
@@ -1067,7 +1087,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-09-27T06:45:05+00:00",
       "last_seen": "2026-09-27T06:45:05+00:00",
-      "latest_checked_at": "2026-09-30T20:50:55.615757+00:00",
+      "latest_checked_at": "2026-09-30T22:39:40.126720+00:00",
       "latest_claim_packet_id": "984358f75bcd291df9"
     },
     {
@@ -1091,7 +1111,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-09-27T06:45:05+00:00",
       "last_seen": "2026-09-27T06:45:05+00:00",
-      "latest_checked_at": "2026-09-30T20:50:55.615744+00:00",
+      "latest_checked_at": "2026-09-30T22:39:40.126706+00:00",
       "latest_claim_packet_id": "327641d78134b992b9"
     },
     {
@@ -1115,7 +1135,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-09-27T06:45:05+00:00",
       "last_seen": "2026-09-27T06:45:05+00:00",
-      "latest_checked_at": "2026-09-30T20:50:55.615700+00:00",
+      "latest_checked_at": "2026-09-30T22:39:40.126646+00:00",
       "latest_claim_packet_id": "adb5adc7da09a0ae68"
     },
     {
@@ -1211,7 +1231,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-09-27T06:45:05+00:00",
       "last_seen": "2026-09-27T06:45:05+00:00",
-      "latest_checked_at": "2026-09-30T20:50:55.615689+00:00",
+      "latest_checked_at": "2026-09-30T22:39:40.126635+00:00",
       "latest_claim_packet_id": "71aa213d13ff043097"
     },
     {
@@ -1235,7 +1255,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-09-27T06:45:05+00:00",
       "last_seen": "2026-09-27T06:45:05+00:00",
-      "latest_checked_at": "2026-09-30T20:50:55.615709+00:00",
+      "latest_checked_at": "2026-09-30T22:39:40.126655+00:00",
       "latest_claim_packet_id": "5188ec0a1ee72de85f"
     },
     {
@@ -1283,7 +1303,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-09-27T06:45:05+00:00",
       "last_seen": "2026-09-27T06:45:05+00:00",
-      "latest_checked_at": "2026-09-30T20:50:55.615675+00:00",
+      "latest_checked_at": "2026-09-30T22:39:40.126617+00:00",
       "latest_claim_packet_id": "ad3b32e921b40f7e17"
     },
     {
@@ -1301,13 +1321,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "needs_research",
+      "evidence_state": "reporting_found",
       "human_reviewed": false,
       "created_at": "2026-09-29T09:48:20.366799+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-09-27T06:45:05+00:00",
       "last_seen": "2026-09-27T06:45:05+00:00",
-      "latest_checked_at": "2026-09-30T20:50:55.615682+00:00",
+      "latest_checked_at": "2026-09-30T22:39:40.126626+00:00",
       "latest_claim_packet_id": "e660ab2e87c0220e7e"
     },
     {
@@ -1331,7 +1351,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-09-27T06:45:05+00:00",
       "last_seen": "2026-09-27T06:45:05+00:00",
-      "latest_checked_at": "2026-09-30T20:50:55.615732+00:00",
+      "latest_checked_at": "2026-09-30T22:39:40.126691+00:00",
       "latest_claim_packet_id": "267787130e54f91150"
     },
     {
@@ -1355,7 +1375,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-09-27T06:45:05+00:00",
       "last_seen": "2026-09-27T06:45:05+00:00",
-      "latest_checked_at": "2026-09-30T20:50:55.615635+00:00",
+      "latest_checked_at": "2026-09-30T22:39:40.126572+00:00",
       "latest_claim_packet_id": "573f79da4c07b8fd82"
     },
     {
@@ -1379,7 +1399,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-09-27T06:45:05+00:00",
       "last_seen": "2026-09-27T06:45:05+00:00",
-      "latest_checked_at": "2026-09-30T20:50:55.615661+00:00",
+      "latest_checked_at": "2026-09-30T22:39:40.126603+00:00",
       "latest_claim_packet_id": "996d9590b2e6e7dad8"
     },
     {
@@ -1403,7 +1423,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-09-27T06:45:05+00:00",
       "last_seen": "2026-09-27T06:45:05+00:00",
-      "latest_checked_at": "2026-09-30T20:50:55.615750+00:00",
+      "latest_checked_at": "2026-09-30T22:39:40.126713+00:00",
       "latest_claim_packet_id": "17f4b42900643e8e88"
     },
     {
@@ -1427,7 +1447,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-09-27T06:45:05+00:00",
       "last_seen": "2026-09-27T06:45:05+00:00",
-      "latest_checked_at": "2026-09-30T20:50:55.615719+00:00",
+      "latest_checked_at": "2026-09-30T22:39:40.126669+00:00",
       "latest_claim_packet_id": "f8b649ac14178cd070"
     },
     {
@@ -1451,7 +1471,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-09-27T06:45:05+00:00",
       "last_seen": "2026-09-27T06:45:05+00:00",
-      "latest_checked_at": "2026-09-30T20:50:55.615725+00:00",
+      "latest_checked_at": "2026-09-30T22:39:40.126676+00:00",
       "latest_claim_packet_id": "e5dfba58007d029fbc"
     },
     {
@@ -1694,7 +1714,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-09-27T06:45:05+00:00",
       "last_seen": "2026-09-27T06:45:05+00:00",
-      "latest_checked_at": "2026-09-30T20:50:55.615738+00:00",
+      "latest_checked_at": "2026-09-30T22:39:40.126700+00:00",
       "latest_claim_packet_id": "2e8d57f376cc59ac01"
     }
   ],
@@ -2375,6 +2395,251 @@
       }
     },
     {
+      "id": "778bfd7f9406a97173",
+      "checked_at": "2026-09-30T22:40:06.545180+00:00",
+      "promise_id": "BJP-2024-a7f7710b2e08f2eb06",
+      "year": 2024,
+      "category": "infrastructure",
+      "page": 14,
+      "anchor": "Har Ghar Nal se Jal We will ensure clean drinking water, Har Ghar Nal …",
+      "exact_text": "Har Ghar Nal se Jal We will ensure clean drinking water, Har Ghar Nal se Jal for all households in villages, towns and cities.",
+      "keywords": [
+        "har",
+        "ghar",
+        "nal",
+        "jal",
+        "clean",
+        "drinking",
+        "water"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
+      "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
+      "related_promises": [],
+      "query": "har ghar nal jal clean drinking",
+      "evidence": [
+        {
+          "id": "3b6373abaac211fde3",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "'HAR GHAR NAL SE JAL' UNDER JAL JEEVAN MISSION - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE53bWJTb25FRHVBNkUyYzVCdHNMd2t4SEc4T05SYXVzTnFOVXJKalNqZFBwX1NmZHplSUdLanNsMHdPcW5XTjJleVBxSk1aNlFNaXp4RFFtc05YSTRSSWJZX1htZlZVSXZzTTR5UDEwSUxsNTNfcHctUm13?oc=5",
+          "published_at": "2026-02-12T08:00:00+00:00",
+          "snippet": "'HAR GHAR NAL SE JAL' UNDER JAL JEEVAN MISSION PIB",
+          "lexical_overlap": 0.333,
+          "relevance": 0.558,
+          "matched_terms": [
+            "ghar",
+            "har",
+            "jal",
+            "nal",
+            "se"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "ghar"
+          ]
+        },
+        {
+          "id": "491ef7fc07c5a2e5bd",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "NAL SE JAL MISSION - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB3Smw4WEpVc2JPUnhUMmoxTVVnS1gwR2dHdlppaG1RRDFpNTBQVzRTVTZtSk9ubHdnelRCd1MyWFBodGNtV1pkYnRkb2dpOTdCb2F5dDVoT2Y2V1R2aGZ1aVdENzdMNTV0?oc=5",
+          "published_at": "2025-08-21T07:00:00+00:00",
+          "snippet": "NAL SE JAL MISSION PIB",
+          "lexical_overlap": 0.214,
+          "relevance": 0.369,
+          "matched_terms": [
+            "jal",
+            "nal",
+            "se"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": []
+        },
+        {
+          "id": "22350675b51a718f39",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Status of NAL SE Jal Yojana - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5tM21NWFJIV1FKdFhDZkFzaFNFR0ZfQjlHWE54VTUwQ2NuVThvcVA3LXpwcGExY0dsVk1kRm5yZU45VENRVC0tbUV5dVVBVUw4YUtUNVEwYU9XbFgtc2tvMzJ1NGk2TmwxSFE?oc=5",
+          "published_at": "2025-05-14T22:08:06+00:00",
+          "snippet": "Status of NAL SE Jal Yojana PIB",
+          "lexical_overlap": 0.2,
+          "relevance": 0.355,
+          "matched_terms": [
+            "jal",
+            "nal",
+            "se"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": []
+        },
+        {
+          "id": "7ac90b52fc29466d77",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Year End Review – Department of Drinking Water and Sanitation, Ministry of Jal Shakti - PIB",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1hSHdUME9uWmVNbkREeVRWT1RvcWJLQmlzZkJfdUpERVlySXBSbGhqMGZpam04Uzgyc2E3Y1hoMzZfMmhsbzNOUUEwZV9lRFVWRy1rekNyamFNMEsyTkdvV29SYmRxQlpid0kw?oc=5",
+          "published_at": "2025-01-01T08:00:00+00:00",
+          "snippet": "Year End Review – Department of Drinking Water and Sanitation, Ministry of Jal Shakti PIB",
+          "lexical_overlap": 0.158,
+          "relevance": 0.313,
+          "matched_terms": [
+            "drinking",
+            "jal",
+            "water"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "drinking",
+            "water"
+          ]
+        },
+        {
+          "id": "86678b46725408c1b2",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Digital Sansad",
+          "source_url": "https://sansad.in",
+          "title": "GOVERNMENT OF INDIA MINISTRY OF JAL SHAKTI DEPARTMENT OF DRINKING WATER AND SANITATION RAJYA SABHA UNSTARRED QUESTION NO. 92 ANS - Digital Sansad",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5oRWVUX3M3ck1odVViNHpPc2JRWFB4Ni1DTW1JR1FBeU5oV3lLcWRhSzdncWVpMUZzVDVteWFOTnQwbUNfVzl4TEVpX3E5MEVCMW9pOWFyRUZEd25vendXZ2I5ZEhVdEhyZ0RMcFVsSDdWUQ?oc=5",
+          "published_at": "2025-02-03T08:00:00+00:00",
+          "snippet": "GOVERNMENT OF INDIA MINISTRY OF JAL SHAKTI DEPARTMENT OF DRINKING WATER AND SANITATION RAJYA SABHA UNSTARRED QUESTION NO. 92 ANS Digital Sansad",
+          "lexical_overlap": 0.125,
+          "relevance": 0.28,
+          "matched_terms": [
+            "drinking",
+            "jal",
+            "water"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "drinking",
+            "water"
+          ]
+        },
+        {
+          "id": "2f87b8477f92fe1fa5",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "usthadian.com",
+          "source_url": "https://www.usthadian.com",
+          "title": "Har Ghar Nal Scheme in Uttar Pradesh: Ensuring Clean Water for Every Household - usthadian.com",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbUlWSlJWaHRnUWNmYVpYMDIwb1FFelAyTUJEMDBXcVhSNnN2dHpCaU5lY2N0ZUhRRFZHSFM0azZONlhuUUlYR01ZeWNpWDJnNVBmUzhFQ3dtR1I2ZUswNFRHN3NBSnAxR3l5a1RUTVRXMDJCM0J4MDJKbmZOVzVCd1dhTnZaZzByNUdXS2NFSDJyQW1EOXZsQTBaa0ZYYlk3eTZlU1dpWQ?oc=5",
+          "published_at": "2025-07-14T21:10:50+00:00",
+          "snippet": "Har Ghar Nal Scheme in Uttar Pradesh: Ensuring Clean Water for Every Household usthadian.com",
+          "lexical_overlap": 0.25,
+          "relevance": 0.425,
+          "matched_terms": [
+            "clean",
+            "ghar",
+            "har",
+            "nal",
+            "water"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "clean",
+            "ghar",
+            "water"
+          ]
+        },
+        {
+          "id": "2e6990e1215e4a0614",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Indian Express",
+          "source_url": "https://indianexpress.com",
+          "title": "Har Ghar Nal Ka Jal: How Bihar’s showpiece scheme plugs many gaps, and opens some - The Indian Express",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMTJqU2V5QzdWNE1hWGpTSVE4ZmxrSUpuME1KdXhXZDFpRHktN2E0LVd2amFPX3M5M2tQamx5cnpzbUFLdXduemhwNzI3MjJRUzB2RE5lclNHNmh4aVBLYTNNemd1VVRfYlpldXFoNThvNlZYN3E5UG54ck9qcFNWb3FOT0FPa2VIVXo4NVJ4U2RGRXdNT1pYeXFsOURQaWgwY2hQeVBoRmh3ZGRxZ0dZb3A2YnYyUXktSlBtazM1VGdpa2xHRGNN0gHOAUFVX3lxTE54Ujc1NS1VQmxpM2JkVG5oaGtVNWc0X3M5Wng5Z0hxQ2tqOUs3dEMtNEZzMTdKU2VwcDJuZ2V2SFVudUdJVFpiWmFpa1FDUFlVZ0hZeXVJZ0YwNFNfS1BhYlJaWU5DSTJicmtWMUljQjEzMXNFUkRnNGdfSXpEUHY5U0NWUTlmN1JyS0taTkNaR1ZaUnJXQ0JubEZtbHRoZjlmbk5nUzdTUDdNMUZPY1lja0Rod2NFTVBxSXZ1M0tFYXNRTV9OaHRTQllyQnpR?oc=5",
+          "published_at": "2021-09-22T07:00:00+00:00",
+          "snippet": "Har Ghar Nal Ka Jal: How Bihar’s showpiece scheme plugs many gaps, and opens some The Indian Express",
+          "lexical_overlap": 0.174,
+          "relevance": 0.314,
+          "matched_terms": [
+            "ghar",
+            "har",
+            "jal",
+            "nal"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "ghar"
+          ]
+        },
+        {
+          "id": "3282e228a851497241",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "hindustantimes.com",
+          "source_url": "https://www.hindustantimes.com",
+          "title": "Har Ghar Nal: Adequate funds allocated for piped water in every rural household in UP | Hindustan Times - hindustantimes.com",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOQ0tLRnI1aUMzQzIzQzJ2bC1GYS1LX0kxMHlhbmNoN3BtQUdBb1FaSU5kdWF4ZFowaDFGbHpiNlEzUWdJNHYybVhaX3V2YU9CZmZMakJnUUZyZ0dzT25nWmlPemlRcG1wcExTd3M4cXRyX2JrSGMyOU9HSEtmX3Y0OHY3NjZ1bDV4bEZZeDlBMEtTN3NHQ2x4V2tlMlgwZ25LMVNUVkRodENua1Z6SWQxU0t4R1ZxQ3lqbmt4blYxWURiSlRqMGptNFJvVkNhTWJobXJ5X3QxYjllQ2Z1MGctS3kzQXdYX2t3aTFieNIB8gFBVV95cUxNZWNXX0pWOGx0QUNDU3FxRWEzY3VZZlRYQ3JJb2JGUFNmSi1ndFBLR1BQRVBvMmpVUFZuVWJ4WDdqZ01RMjJvT3JOUzktYVZVRDdDZGhYb2RIMGhBZ1VQRDU2OERrRElkbGU3OUpMVXF6WnJIa0duNC05Q2dUaVA4b3RYY1lzQzBNZXdhSG9TMnRRWlY1ODZ6aTJxWDNwOUVhd2hsdmNRZXpEX19yU0daYWtnTmMwcEd1VVRTcTZ1eXlYMmFVVzR4ZHBRSU56SlR0a29GZm9IbG1LM09SMk94U3FYNjd5VDI0a1o3T241QXRZQQ?oc=5",
+          "published_at": "2026-05-11T07:00:00+00:00",
+          "snippet": "Har Ghar Nal: Adequate funds allocated for piped water in every rural household in UP | Hindustan Times hindustantimes.com",
+          "lexical_overlap": 0.167,
+          "relevance": 0.307,
+          "matched_terms": [
+            "ghar",
+            "har",
+            "nal",
+            "water"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "ghar",
+            "water"
+          ]
+        },
+        {
+          "id": "1568ad11fd0a0a582a",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Times of India",
+          "source_url": "https://timesofindia.indiatimes.com",
+          "title": "A stream of hope flows in Bundelkhand through 'Har Ghar Nal' - The Times of India",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNm12bzd4bzdNVzhvMWxzTElyN2ZOb3FsaTdKOUQ3RndNZHdQNUVSZkFNc0Q1ME1mVDBuVF9JOTVtdDYxb2lfMkFSQnN3M1g3RFBseTBVWmp1SUlZRjlzcE52bDdKWmJSU0VmTE5VUWc2dVN6S3hUX3JObC1wejkwTUV4R2NFdndmdzRBaUJxQU5WNWdPQ2hwM1RhQXhhWE5ZaFFid3ZwSlltYWpJd09fX3FqTnN3TjBHVHZXTkJyaV95QUFL0gHKAUFVX3lxTE9KcUZqc0RvaEpZZV9URkdhNWZMVEs5NFFUbktnZmRMVlo3ZVpwNGF0V243aFdKTXhfaDZ5bE1tbmNsOU9ZdHlRS3VaNkcyZW84aDNfa1ByckIzSWZHLUhjUGQ4c2s1RHJyMUxIYWU4cFRGOVRDVm5vVzZSRlBOQmhkTFMyNEdURmE3R2lCQi1jdzk4NEtXeEVpUTFaSTRhemVUZzhaMXQzTHVsWXFLQjM3UlgyMVd3Uy1KRUE4TGhhMmRvUnZENjRPcmc?oc=5",
+          "published_at": "2026-02-08T08:00:00+00:00",
+          "snippet": "A stream of hope flows in Bundelkhand through 'Har Ghar Nal' The Times of India",
+          "lexical_overlap": 0.176,
+          "relevance": 0.281,
+          "matched_terms": [
+            "ghar",
+            "har",
+            "nal"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "ghar"
+          ]
+        }
+      ],
+      "implementation_signal": "current_primary_and_reporting_found",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
       "id": "a72ccb6bca8e90052b",
       "checked_at": "2026-09-30T13:03:10.828665+00:00",
       "promise_id": "BJP-2024-bf5dea090094eab88e",
@@ -3035,6 +3300,370 @@
       "query": "state governments facilitate home ownership middle-class",
       "evidence": [],
       "implementation_signal": "needs_research",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
+      "id": "85f411aee5ab379e68",
+      "checked_at": "2026-09-30T22:40:07.727889+00:00",
+      "promise_id": "BJP-2024-a96acf96cfda8197a7",
+      "year": 2024,
+      "category": "health_welfare",
+      "page": 16,
+      "anchor": "We will continue to expand these services for our middle class families to ensure …",
+      "exact_text": "We will continue to expand these services for our middle class families to ensure accessible high quality healthcare services.",
+      "keywords": [
+        "services",
+        "expand",
+        "middle",
+        "class",
+        "families",
+        "accessible",
+        "high"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
+      "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
+      "related_promises": [],
+      "query": "services expand middle class families accessible",
+      "evidence": [
+        {
+          "id": "057c0400bd0d1e30ac",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://static.pib.gov.in",
+          "title": "The Middle Class Story - PIB",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVVBxRlgyTS1XaEVDSGlCaDdNSWJ3Y0o3YmtBT1VfMnV1Z0F5Zks5TlFEQXV3eVBsVkwzWFZzR1Nfdm5GZkZDdlNLNUtqVVR4QWk5NnU2bHoxMGZha0VXV2tKcUV0ZDBNM3MyM0tkNTFxeEp1TmduUmpkSnZGMmVUTEFlcTRNbm1nOHdFMXA2Wi1peWhRcFE?oc=5",
+          "published_at": "2025-06-05T07:00:00+00:00",
+          "snippet": "The Middle Class Story PIB",
+          "lexical_overlap": 0.154,
+          "relevance": 0.274,
+          "matched_terms": [
+            "class",
+            "middle"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "class",
+            "middle"
+          ]
+        },
+        {
+          "id": "801ca606f5ee0233bd",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "The Middle Class Journey: Progress Powered by Policy - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE41eEIwT2NIZWtTMFZldW8xS1NCRTB5RDNkU20yb1pSaGNaVllkZ2xmaEhTbTVqY0ZpNHdBekNMeHFjUEstT1VsNDdHN01wYnpPOFlic3JKRmJaTlA0UHFRbDFjQjFNS3Bt?oc=5",
+          "published_at": "2026-06-03T07:00:00+00:00",
+          "snippet": "The Middle Class Journey: Progress Powered by Policy PIB",
+          "lexical_overlap": 0.125,
+          "relevance": 0.245,
+          "matched_terms": [
+            "class",
+            "middle"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "class",
+            "middle"
+          ]
+        },
+        {
+          "id": "2a6e7d6f2a9458ce09",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Vajiram & Ravi",
+          "source_url": "https://vajiramandravi.com",
+          "title": "Growth of India’s Middle Class: Impact of 12 Years of Governance Reforms - Vajiram & Ravi",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOWRIRjBwZ0k0UjdpM2EyeGhlU0NHcC0xeTZZQ0RlaHdZQlpCZm9KTC04RExST2ZQQXh5YndBUHlNTWkwenhOcWlWTWVnVS1zbDZVVXJPVkpnMHlwWjZHVXVFcFlyeERLcWZ5c0FHNlZMS0NlMl96XzE3a01sN05zMDZZdERocnRhcjlTb18zTVRvd1d6VkQ0aHBoOXNnWW9KVXkyemUtLVNFdFdJTnZGQW5qZXY?oc=5",
+          "published_at": "2026-06-05T07:00:00+00:00",
+          "snippet": "Growth of India’s Middle Class: Impact of 12 Years of Governance Reforms Vajiram & Ravi",
+          "lexical_overlap": 0.118,
+          "relevance": 0.188,
+          "matched_terms": [
+            "class",
+            "middle"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "class",
+            "middle"
+          ]
+        },
+        {
+          "id": "a3acee7631af1a58b6",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Vietnam Briefing",
+          "source_url": "https://www.vietnam-briefing.com",
+          "title": "Vietnam’s Middle Class: Size, Consumer Trends, & Business Opportunities - Vietnam Briefing",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPM0ZHUF9yemU5c0QzOWxtelN5dVpLZHR5VEdaaFdqakNmdjB1VFc4REtuNmQ5U3pOLVVVeUhqSThNT3ZIN0ExQlFDRGZqbFRNX3o4US1vaVZud1k1ajJ5ZENUTHpLSVdYT1hFY3l0U1Z1Q3M5YWFRMnVnTnUxQ015TmdNZTY1alNQcU5iTHF2TkV1UElkTjJ2ZGQ2SFd2MzdyY05GRGxWZGdzU2JhYk9vRWJCWTRSamhqa0FhZTlXcW9mMWtKOHlGUkRVUzlxWUlX?oc=5",
+          "published_at": "2026-07-28T07:00:00+00:00",
+          "snippet": "Vietnam’s Middle Class: Size, Consumer Trends, & Business Opportunities Vietnam Briefing",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
+          "matched_terms": [
+            "class",
+            "middle"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "class",
+            "middle"
+          ]
+        },
+        {
+          "id": "986f10209f8ef05469",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "organiser.org",
+          "source_url": "https://organiser.org",
+          "title": "The Middle Class Story: How governance reforms are powering India’s next growth engine - organiser.org",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOT3pUVmQ3LWMwQkxoTTJmam0yeE9PWVRxLUkxZTNHSi02bUM5VGNYWFVLTHZFMjA1OHg2UHhmT25zWUZvMkllYzlpM0N2QlBzcFFQZ1hkRXpLQUZlWm44d0VJeHk5QkYtVjlONkJ6YjdoQU9iSEZmd0V0ckxNb3ZZb3FRdUR4VjlLNDJ1aUU4UV9aUzBqS2UxdnotM2RIRjhORUp1dnJ2aFd2Z25fWUUyaklCZzhtaVZUYklMYncyNGtSbzRySzZ2THZ4Tm3SAdIBQVVfeXFMTTZqZVMwcWNGbDBaM0EwWHRaY2lQYmR6NUluRzZkUHRmX2k3ellLS1dOS1l6al9Walp5cjVjMGl1V2dEWDVsdFVhbGVlaGhVMDV6c244Y2RpX3NYb3ozSzlBTC1hZ2FLeDFaTGgxY2lqYWR4U25SQUE3bF94UTA2TElIemRjS2NxRjFpZVU0WXpmU3dFelpmLXFqR3lvQl9hS0RIeV9HakpaSS1PWDFEdkY1ZkZUMW9wd3BlTlI2OVFFZG13M2pNeVRWSjc5RWNwS0tR?oc=5",
+          "published_at": "2026-06-06T07:00:00+00:00",
+          "snippet": "The Middle Class Story: How governance reforms are powering India’s next growth engine organiser.org",
+          "lexical_overlap": 0.095,
+          "relevance": 0.165,
+          "matched_terms": [
+            "class",
+            "middle"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "class",
+            "middle"
+          ]
+        }
+      ],
+      "implementation_signal": "current_primary_evidence_found",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
+      "id": "50bae68f81da8dc1f2",
+      "checked_at": "2026-09-30T22:40:18.687846+00:00",
+      "promise_id": "BJP-2024-aa7f9994c22f73694c",
+      "year": 2024,
+      "category": "jobs_economy",
+      "page": 16,
+      "anchor": "Further, we will transform Bharat into a global centre for high quality services including …",
+      "exact_text": "Further, we will transform Bharat into a global centre for high quality services including tourism to generate high value and diverse employment opportunities nationwide.",
+      "keywords": [
+        "high",
+        "further",
+        "transform",
+        "global",
+        "centre",
+        "quality",
+        "services"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
+      "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
+      "related_promises": [],
+      "query": "high further transform global centre quality",
+      "evidence": [
+        {
+          "id": "4d1cfef0d23d386f52",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Times Higher Education",
+          "source_url": "https://www.timeshighereducation.com",
+          "title": "Indonesian government joins forces with Times Higher Education to host pivotal global sustainability congress as Southeast Asia takes centre stage - Times Higher Education",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOeEFBVVRtQ2tKOGMzcFowS1l3STVsdGR0TlZHNWU3Z0VwTDZiWkNVVEI3V0d0UUNQcE1uM1RZcGxOZGQ0c0lkM0stdzlkakdnc3lCWlo4OEpqWm5ITS05UkJDaFhRd3BaR1hhczRvR05oM0k1UzdlaklMVTBzQTlsdVUwU0ZnOHdRWTBvVHpkWHFKVnE4WE84VGFId1lHUlJpNVVEUjFCOHZlNm1Id0tUWVJrX0cyeGRyd3dDRUNSRkVBYWk0VzE1eQ?oc=5",
+          "published_at": "2026-03-25T07:00:00+00:00",
+          "snippet": "Indonesian government joins forces with Times Higher Education to host pivotal global sustainability congress as Southeast Asia takes centre stage Times Higher Education",
+          "lexical_overlap": 0.077,
+          "relevance": 0.147,
+          "matched_terms": [
+            "centre",
+            "global"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "centre",
+            "global"
+          ]
+        }
+      ],
+      "implementation_signal": "needs_research",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
+      "id": "d9d6fe2c34d91a723e",
+      "checked_at": "2026-09-30T22:40:23.384735+00:00",
+      "promise_id": "BJP-2024-ae75d82b6bc71bbc1c",
+      "year": 2024,
+      "category": "infrastructure",
+      "page": 16,
+      "anchor": "Improving Infrastructure for Ease of Living We will focus on the modern road network, …",
+      "exact_text": "Improving Infrastructure for Ease of Living We will focus on the modern road network, enhance rail and metro connectivity with new-age trains and expanded networks, develop comprehensive EV charging stations, construct new airports and advance our telecom infrastructure with affordable 5G and innovative 6G technology, promoting ease of living for middle class families.",
+      "keywords": [
+        "infrastructure",
+        "ease",
+        "living",
+        "improving",
+        "focus",
+        "modern",
+        "road"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
+      "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
+      "related_promises": [],
+      "query": "infrastructure ease living improving focus modern",
+      "evidence": [
+        {
+          "id": "481be638f4701635e2",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "CMO Gujarat",
+          "source_url": "https://cmogujarat.gov.in",
+          "title": "Two Decades of Urban Development: Chief Minister’s Consistent Efforts to Enhance Ease of Living - CMO Gujarat",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQnI4MzZqaXEzc3lZbnVWOVlGeW5sRG5FNEN4YjdhakpiZVExS1U0ZWxiVmc2WkNtU3lHbDJjZWxZRmJMUVNJZi1VejZaUmFna2laYWRVeFF1UG5DekFxa3RZZ0MwN1hybjdqZjNndEJidmxyVzE3UlJIdGFSQ3J1S3U3eVc3S1BNRnZsU0dxOXNUZG9mdlFXQlpn?oc=5",
+          "published_at": "2025-07-19T07:00:00+00:00",
+          "snippet": "Two Decades of Urban Development: Chief Minister’s Consistent Efforts to Enhance Ease of Living CMO Gujarat",
+          "lexical_overlap": 0.143,
+          "relevance": 0.248,
+          "matched_terms": [
+            "ease",
+            "enhance",
+            "living"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "ease",
+            "enhance",
+            "living"
+          ]
+        },
+        {
+          "id": "6b41340421b74c91f5",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Vajiram & Ravi",
+          "source_url": "https://vajiramandravi.com",
+          "title": "Ease of Living, India’s Journey of Inclusive Progress - Vajiram & Ravi",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNS3ZDc2llV0RINDlXY0FfSjRGdXZocjBvLVZoczIxNUdRNHh1TE5xSE9JREQzeVQwZVBIbGhTbWhDUGtSaEU3YzgzMW1ZRGNlZ0JSMU4yZWc5eENidXk3TWp1RFU4Slc1MTV6Rlp2M0ZJNFlQVVNubnVtNmdCQjRiVFA5ZWhVYnM4NnBHbFVFaDZlajIyb1ZxUnEyQQ?oc=5",
+          "published_at": "2026-07-04T07:00:00+00:00",
+          "snippet": "Ease of Living, India’s Journey of Inclusive Progress Vajiram & Ravi",
+          "lexical_overlap": 0.118,
+          "relevance": 0.188,
+          "matched_terms": [
+            "ease",
+            "living"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "ease",
+            "living"
+          ]
+        },
+        {
+          "id": "64083d7c3ddaf0b635",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "PM News Nigeria",
+          "source_url": "https://pmnewsnigeria.com",
+          "title": "Tinubu unveils key Lagos projects, signals push for modern infrastructure - PM News Nigeria",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZC12bDRWRGZGN0k1Z3hEOEt4SUZXRzFvYnN4VnBtdWNyRjhuZ2dIdHZIVElVUDJUelB3eWU2YjBSWkFGMFNXa05zaE9FNXRhZHdpbVJrSlA5UjFpNnJYeU9KbkJjTklLSmhuWEdyc05TZ1VvNW9KaTl2WEw3YzhYSFQtQVUwa3IwaFhtMDEwY3NtMnRqTkplX0dseFJDX3RmMjhlajIyZDdZUndlbDdR?oc=5",
+          "published_at": "2026-04-08T07:00:00+00:00",
+          "snippet": "Tinubu unveils key Lagos projects, signals push for modern infrastructure PM News Nigeria",
+          "lexical_overlap": 0.091,
+          "relevance": 0.161,
+          "matched_terms": [
+            "infrastructure",
+            "modern"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "infrastructure",
+            "modern"
+          ]
+        },
+        {
+          "id": "de64f61127ffe768af",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Philippine News Agency",
+          "source_url": "https://www.pna.gov.ph",
+          "title": "Senate sets 5-point agenda to spur growth, ease living costs - Philippine News Agency",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9iMW5xUk5La1h5UE5zcTQwNmI2dXVFV3hjeFdTclR4UU9LMk5PVGlJSXgzaFlBaFdQQ2FMR1Bubm44VjNPM1RHZHdyZEQyRUVK?oc=5",
+          "published_at": "2026-07-27T07:00:00+00:00",
+          "snippet": "Senate sets 5-point agenda to spur growth, ease living costs Philippine News Agency",
+          "lexical_overlap": 0.091,
+          "relevance": 0.161,
+          "matched_terms": [
+            "ease",
+            "living"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "ease",
+            "living"
+          ]
+        },
+        {
+          "id": "4b94d3beaf0dc6362b",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "India Hosts 5th BRICS SAI Leaders’ Summit in Bengaluru to Champion ‘Ease of Living’ and Urban Accountability - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBkdHVyclRfdzVvQlAtTjlfb0Q4NGtwdENfN0VCNkg4Sml1WmM3YVVLRjVWTksweXJUeHkzQlJ5VzhwQ1k3aW1BalBpNjF3azVZRXhXT2xsZ3RLR1M0UW5kbGZCVklEcG5MU2gtOVlvazZ3anVEajFIeld3?oc=5",
+          "published_at": "2026-05-07T07:00:00+00:00",
+          "snippet": "India Hosts 5th BRICS SAI Leaders’ Summit in Bengaluru to Champion ‘Ease of Living’ and Urban Accountability PIB",
+          "lexical_overlap": 0.087,
+          "relevance": 0.157,
+          "matched_terms": [
+            "ease",
+            "living"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "ease",
+            "living"
+          ]
+        }
+      ],
+      "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -5301,6 +5930,134 @@
       }
     },
     {
+      "id": "79176aa667e4b4fc98",
+      "checked_at": "2026-09-30T22:40:35.805596+00:00",
+      "promise_id": "BJP-2024-b4572facd39269d2f5",
+      "year": 2024,
+      "category": "education_skills",
+      "page": 23,
+      "anchor": "Digital Empowerment for Senior Citizens We will provide senior citizens with comprehensive training in …",
+      "exact_text": "Digital Empowerment for Senior Citizens We will provide senior citizens with comprehensive training in using UPI and other online payment methods, while also educating them on how to recognize and avoid digital scams.",
+      "keywords": [
+        "digital",
+        "senior",
+        "citizens",
+        "empowerment",
+        "comprehensive",
+        "training",
+        "using"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
+      "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
+      "related_promises": [],
+      "query": "digital senior citizens empowerment comprehensive training",
+      "evidence": [
+        {
+          "id": "c6f56a966c5558b3bb",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "PM-AJAY",
+          "source_url": "https://pmajay.dosje.gov.in",
+          "title": "Portal Migration Notice — Senior Citizens Portal - PM-AJAY",
+          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBSNGdXRDNUcS10eHpPTDRkd0F0UnliUjdaMzZ0TzdBR1BGZlBPLUtONEdTRnMwbjk3Q2hMT1QxZnBVUQ?oc=5",
+          "published_at": "2021-09-22T11:04:05+00:00",
+          "snippet": "Portal Migration Notice — Senior Citizens Portal PM-AJAY",
+          "lexical_overlap": 0.125,
+          "relevance": 0.245,
+          "matched_terms": [
+            "citizens",
+            "senior"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "senior"
+          ]
+        },
+        {
+          "id": "d60a36e42aef90b229",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "National e-Governance Division (NeGD)",
+          "source_url": "https://negd.gov.in",
+          "title": "NeGD – National e-Governance Division – Your Gateway to e-Governance and Digital Empowerment - National e-Governance Division (NeGD)",
+          "url": "https://news.google.com/rss/articles/CBMiN0FVX3lxTFBwTm1OWnNyb05vV3I5NlpFRnVuc1ZnaUhwcDB2NTQxb2lNWExITjVCNnAxd21qelU?oc=5",
+          "published_at": "2016-08-26T08:04:30+00:00",
+          "snippet": "NeGD – National e-Governance Division – Your Gateway to e-Governance and Digital Empowerment National e-Governance Division (NeGD)",
+          "lexical_overlap": 0.111,
+          "relevance": 0.231,
+          "matched_terms": [
+            "digital",
+            "empowerment"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "digital",
+            "empowerment"
+          ]
+        },
+        {
+          "id": "4dc5bbcda94857290e",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Hindu",
+          "source_url": "https://www.thehindu.com",
+          "title": "Kerala Assembly | ‘IT@Elderly’ mooted for digital literacy of senior citizens - The Hindu",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOYUNFSEpqblZZdjMzX0gycUVBb3dkcHo4THhCcHJlRTh0a1VSZ1A2bHlva24yUS1QZ25GSEhrWmQ0TDF1SHJNWkRhdnJrVUprQzJHZDdCdjdpcFpnUjRJWU0wX2V5MWd5dUhLdUhGRm15NnFCYUw2WVlDVE1VSm8zVnZEaE00eG5HSGlvNHZVSnhoTGhKVnpEbmNJMndWM0FCU3NHNVVKNFY4Rnh6ZTkwQ1BzRGl1T3BXUUs0VFRraVMzYkh2aE14V0NCZEdHYmNQSXNxetIB2wFBVV95cUxPTk9VMGp0M2s0TUVqd3dLbzVoRHJyVFVUckljOEFPYnlpRFpMWkVWbUxqSlBnUjZmalk1UFN3QTJYWlVROWY3WVBrMFhJWE12eGhuNjgweURuZG5YOUpFb3BZWjNJWGRQaFhkNXJlUmU3UGpyQm1IV3l6OXVMU0gxOVpsdUJzUlJhVldCdm5lRnIxaXJQQUhnSGxock1FdzNqb0ltMk1iR255UnlHSE45ME9UamRfV1ZPWFBGdDhncDBZSGVHNS1xbllDVmpBZUxlUzMwUVB2RF9OM1U?oc=5",
+          "published_at": "2024-01-25T08:00:00+00:00",
+          "snippet": "Kerala Assembly | ‘IT@Elderly’ mooted for digital literacy of senior citizens The Hindu",
+          "lexical_overlap": 0.167,
+          "relevance": 0.272,
+          "matched_terms": [
+            "citizens",
+            "digital",
+            "senior"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "digital",
+            "senior"
+          ]
+        },
+        {
+          "id": "bec5b9d22064930948",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Frontiers",
+          "source_url": "https://www.frontiersin.org",
+          "title": "From online to offline: the impact of digital communication on activity participation among older adults - Frontiers",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxON0dicm1CQXdKZmY4WXZaQW81TkdsSWJGVjUtMzFzQlNNZTF3LVVmVzhUekluTW9iNi0zazFTQ2Z2N3ZRV280bW5ReGlDaTcydkcyeXR0SUxyS1dVNHE5bmgyRW5ibjRCWTQ5T1k2Xzd3WFN4OXprM2piaF9ZVXFqUmFlSkpDMHdEMGkyWXg3bHFLYnVoQ1E?oc=5",
+          "published_at": "2026-04-13T20:06:36+00:00",
+          "snippet": "From online to offline: the impact of digital communication on activity participation among older adults Frontiers",
+          "lexical_overlap": 0.095,
+          "relevance": 0.165,
+          "matched_terms": [
+            "digital",
+            "online"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "digital",
+            "online"
+          ]
+        }
+      ],
+      "implementation_signal": "current_primary_and_reporting_found",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
       "id": "701eb0b593ec3fd3e6",
       "checked_at": "2026-09-29T06:17:01.417492+00:00",
       "promise_id": "BJP-2024-c89f10b16ceb7a32bc",
@@ -6626,6 +7383,65 @@
       }
     },
     {
+      "id": "0b4a6297e3e574726b",
+      "checked_at": "2026-09-30T22:40:29.264601+00:00",
+      "promise_id": "BJP-2024-b379fbd940cafb4972",
+      "year": 2024,
+      "category": "agriculture",
+      "page": 25,
+      "anchor": "Building on this, we are committed to further expand crop diversification to make agriculture …",
+      "exact_text": "Building on this, we are committed to further expand crop diversification to make agriculture sustainable and remunerative.",
+      "keywords": [
+        "building",
+        "committed",
+        "further",
+        "expand",
+        "crop",
+        "diversification",
+        "agriculture"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
+      "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
+      "related_promises": [],
+      "query": "building committed further expand crop diversification",
+      "evidence": [
+        {
+          "id": "b042a7cb7b863ec48e",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Hindu",
+          "source_url": "https://www.thehindu.com",
+          "title": "Govt. committed to further strengthen PACS for making them more viable, says CS - The Hindu",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPYnZELVhpZjJHQXNDYlh2dnJSZ1R3M05JcUF0cXo2RU5la0ppVC1faXQ0cWJRM1pkcVVVdUtua2hkbFhQV1lsYk9tSHloUm5vMDR3SGU1NnIzMzJYX1hZczM3QURsQzk3YzJNRm4zMWl5MkJEQzlvcE5IazZBUVFJSHB0NnhhX2dfS3VZVG8zY05YcW5QZWxOa2hwLXptTTFnX3kzejhkcGEzYS1SbXlDUk9UQ0I5bGJjN1hkeU1MSGh5c0JLZ1JPeFJwdmdTOXNycDFRejdCdER3Y3Y4Q2dZ0gHmAUFVX3lxTFBBS1M3WjNyTEtWTkk2LWtxaXZ0TVhnOHgwX09KaVNUWm5TeldHTjA0VmxsM2J1dm9IdnFTQVRBTVBEd0tNYUZ4cm5DNG1WTUFZMzlqeFdhR0RKa0RWS1RscEtyTGl5clFGVlZnVEJDQzM0ZVNMZnB6OFZzNG9kSC00dmZDWmh4YTQ4ZFJzRDlNTkpLVG5Zdng3TnByd2pKQWFRZUZKSkVhMkFBbHlhbk84SXBCbTRtbS0wcHlKWXBzSWxIM1BJeXZobkp5SzVWX1NCX3c5aUVHRU9WQmQ5UmVnczNmM2l3?oc=5",
+          "published_at": "2026-05-15T07:00:00+00:00",
+          "snippet": "Govt. committed to further strengthen PACS for making them more viable, says CS The Hindu",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
+          "matched_terms": [
+            "committed",
+            "further"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": []
+        }
+      ],
+      "implementation_signal": "needs_research",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
       "id": "9ac0731c0868889e2d",
       "checked_at": "2026-09-29T06:17:06.077483+00:00",
       "promise_id": "BJP-2024-cb0be7182938df29ea",
@@ -7633,6 +8449,68 @@
       }
     },
     {
+      "id": "a0a2bfed81287193f6",
+      "checked_at": "2026-09-30T22:40:04.654297+00:00",
+      "promise_id": "BJP-2024-a1b312d02a797924f6",
+      "year": 2024,
+      "category": "women_social_justice",
+      "page": 29,
+      "anchor": "Developing Production and Processing Clusters for Fishermen We will develop production and processing clusters …",
+      "exact_text": "Developing Production and Processing Clusters for Fishermen We will develop production and processing clusters with special attention to women of coastal communities MODI KI GUARANTEE FOR FISHERMEN FAMILIES Seaweed Farming We will boost seaweed cultivation under the Pradhan Mantri Matsya Sampada Yojana to increase income of fishermen.",
+      "keywords": [
+        "fishermen",
+        "production",
+        "processing",
+        "clusters",
+        "seaweed",
+        "developing",
+        "special"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
+      "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
+      "related_promises": [],
+      "query": "fishermen production processing clusters seaweed developing",
+      "evidence": [
+        {
+          "id": "57371cbaed0bff2b3f",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "etvbharat.com",
+          "source_url": "https://www.etvbharat.com",
+          "title": "Cluster-Based Development Model For Fishermen To Increase Production Capacity, Generate Jobs - etvbharat.com",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQazNwaVRIV05BZ2NEUjFUZUNkUFhJSERnUURwT1dvanE2dF9Rc3V4U1VJcjMzT1V5Y1F1amNDQXl3VjZMbE1welFvMFhzODNtVS1RMGlKR0RiLTdMX2szcTNTTVBJNTFkb3I1S2NDU2ZBdzRjZURXUGx3QUxNX2VVZ2J1ODV1b2ZHaWxYU0Z4RFJvU1NkdnEwUllTekYxSTBkelJ1Z2RyaWJCMXBuUk5vMGRoX0dRUFcxVTdySTNoNm16amxSbWdoTkdXdEVpLW15WWVBMmR4T2xsdFHSAeABQVVfeXFMTlBBa19JNklGTGptdE5hSmRZR3QyNzFUQzdtOW1jRXd0X3VHNFVCeWlfUW50N1R2Zy1oTjlPeDhmZnJub0xTT3VDTTlhVU5MYlVRY3pJUEttRmNVZF93NkZZVHBNNDBXakNwQkQ1Y2R3b0s1dWRxaHRJMXRrQVotdl84QkVtVGRkSE1YVDBVWTdWOXB4LTRWVFQ2LVZUcjZBR2FsWF96dnM4em5CSTNYdGIwOGtsMEVhUTVOUEVBMWVMVjRmM3IyZHp5MnpOd3VuaXc3MUJvUFpqdTQtMHhBRW4?oc=5",
+          "published_at": "2025-06-06T07:00:00+00:00",
+          "snippet": "Cluster-Based Development Model For Fishermen To Increase Production Capacity, Generate Jobs etvbharat.com",
+          "lexical_overlap": 0.095,
+          "relevance": 0.165,
+          "matched_terms": [
+            "fishermen",
+            "production"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "fishermen",
+            "production"
+          ]
+        }
+      ],
+      "implementation_signal": "needs_research",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
       "id": "8c090e7b432e74f3c1",
       "checked_at": "2026-09-27T20:50:54.714509+00:00",
       "promise_id": "BJP-2024-569866eb783f1566f3",
@@ -8462,6 +9340,199 @@
         }
       ],
       "implementation_signal": "current_primary_evidence_found",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
+      "id": "638b3daa6d944bc06e",
+      "checked_at": "2026-09-30T22:40:17.006933+00:00",
+      "promise_id": "BJP-2024-a9e93b11f83bbc3542",
+      "year": 2024,
+      "category": "jobs_economy",
+      "page": 33,
+      "anchor": "GST Portal We will further simplify the GST portal to increase accessibility to users, …",
+      "exact_text": "GST Portal We will further simplify the GST portal to increase accessibility to users, especially MSMEs and small traders.",
+      "keywords": [
+        "gst",
+        "portal",
+        "further",
+        "simplify",
+        "increase",
+        "accessibility",
+        "users"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
+      "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
+      "related_promises": [],
+      "query": "gst portal further simplify increase accessibility",
+      "evidence": [
+        {
+          "id": "22d6ac997934790bb9",
+          "scope": "official_web_search",
+          "tier": "primary",
+          "source": "reg.gst.gov.in",
+          "source_url": "https://reg.gst.gov.in/registration/",
+          "title": "Goods & Services Tax (GST) | Registration",
+          "url": "https://reg.gst.gov.in/registration/",
+          "published_at": "2026-09-30T19:29:00+00:00",
+          "snippet": "Access the official portal for GST registration and related services in India.",
+          "retrieval": "http_503",
+          "lexical_overlap": 0.111,
+          "relevance": 0.231,
+          "matched_terms": [
+            "gst",
+            "portal"
+          ],
+          "shared_numbers": [],
+          "resolved_url": "https://reg.gst.gov.in/registration/",
+          "promise_core_overlap": [
+            "portal"
+          ]
+        },
+        {
+          "id": "54527f246a4d62ea4b",
+          "scope": "official_web_search",
+          "tier": "primary",
+          "source": "services.gst.gov.in",
+          "source_url": "https://services.gst.gov.in/services/newlogin",
+          "title": "Goods & Services Tax (GST) | Login",
+          "url": "https://services.gst.gov.in/services/newlogin",
+          "published_at": "2026-09-30T01:07:00+00:00",
+          "snippet": "Login to the GST portal to manage your tax-related activities and access various services efficiently.",
+          "retrieval": "http_503",
+          "lexical_overlap": 0.091,
+          "relevance": 0.211,
+          "matched_terms": [
+            "gst",
+            "portal"
+          ],
+          "shared_numbers": [],
+          "resolved_url": "https://services.gst.gov.in/services/newlogin",
+          "promise_core_overlap": [
+            "portal"
+          ]
+        },
+        {
+          "id": "b2463380869c636c9c",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "blog.saginfotech.com",
+          "source_url": "https://blog.saginfotech.com",
+          "title": "GST Registration Online for New Users on GSTN Portal - blog.saginfotech.com",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE56RHRBNmdlbWpsVnQ0a3hhTWFiS2VQazBqZ2ZNOXN2bjZpLXBQYm11bUs3UVNNd09lRERYa1JkVm9zQ2NSWkdoUHRTY1RjUnk5TEVQcTJYX2xVUG1RRTBiaVl3?oc=5",
+          "published_at": "2026-09-17T07:00:00+00:00",
+          "snippet": "GST Registration Online for New Users on GSTN Portal blog.saginfotech.com",
+          "lexical_overlap": 0.176,
+          "relevance": 0.281,
+          "matched_terms": [
+            "gst",
+            "portal",
+            "users"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "portal",
+            "users"
+          ]
+        }
+      ],
+      "implementation_signal": "current_reporting_found",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
+      "id": "0e5b0a53c63c7fbc1b",
+      "checked_at": "2026-09-30T22:40:37.560027+00:00",
+      "promise_id": "BJP-2024-b49463d7085e6ecddc",
+      "year": 2024,
+      "category": "education_skills",
+      "page": 33,
+      "anchor": "Transforming Traditional Handicraft We will modernise traditional crafts by facilitating design interventions by collaborating …",
+      "exact_text": "Transforming Traditional Handicraft We will modernise traditional crafts by facilitating design interventions by collaborating with design skill institutes and setting up a Handicraft Design Bank to upskill traditional artisans, opening doors to global market opportunities and transforming their craft into sustainable livelihood.",
+      "keywords": [
+        "traditional",
+        "design",
+        "transforming",
+        "handicraft",
+        "modernise",
+        "crafts",
+        "facilitating"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
+      "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
+      "related_promises": [],
+      "query": "traditional design transforming handicraft modernise crafts",
+      "evidence": [
+        {
+          "id": "001b3db10f9a6db05d",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "organiser.org",
+          "source_url": "https://organiser.org",
+          "title": "Indiahandmade: How Digital India is empowering artisans and transforming India’s handloom and handicraft sector - organiser.org",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxONTc4dUhfVlNhUE5HT29VVThsZVRNRlJjZHJRek1CNHdRRVpSZzE3THZYOXlmenM0U3JOZURHb2JFZHFGRXl0WFlkSnNpWW5Hck9yXzJUYmZZM2ljUWNKbmdPUEc2SFY1ZXkxTnpoVjdVMVMydXBDcThTQXdvQ2pReVp6d09nVjhsUGdUZjNCTzJWeXdOSk1KMGNoYWlYTDN3cFBfeWN4NnpWd3N3M1NqNWltN3ZGRzdUdlMyTDltVzNkV3RxcENZZ21uMVlJcy0wVjdXNFpNTWdiSS1UWThLc2NzV1drd2lYUGlDTXh30gHzAUFVX3lxTFBaVURvWHBPSDZ2R19ncHlxRVd2TDBjaWViVDlBbU1pVzBfLXZhajV2VXhnUVlfbHptenI1T2paazlvQ0hDTHJ0RUNrVHpvSXdVcF9ieXhwZlR3c0NCbm5xM1FpSFBXYld2RlNsY3FacmhYaDBac043STdFNy1WRUpiYlNPZl9NX01jQkV4eFpBc3c4eVNkNnVINDJzWkxJbG56M1k5dHRzb29XZEQ5V2ZPOTR1WnZLN2tLUkZhb0FmckdyNG9CMkp0Qk1tTUh6aldIQWx4ZG5hLV9EbHRXVUo4b2hXMUhTM3hnVVBrN05fc1ozcw?oc=5",
+          "published_at": "2026-07-07T07:00:00+00:00",
+          "snippet": "Indiahandmade: How Digital India is empowering artisans and transforming India’s handloom and handicraft sector organiser.org",
+          "lexical_overlap": 0.095,
+          "relevance": 0.165,
+          "matched_terms": [
+            "handicraft",
+            "transforming"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "handicraft",
+            "transforming"
+          ]
+        },
+        {
+          "id": "02b0b20e6d27ae85f3",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "freeyork.org",
+          "source_url": "https://freeyork.org",
+          "title": "Larry Tchogninou’s Gankéké Speaker Melds Traditional Beninese Craft with Modern Audio Design - freeyork.org",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZUt0Q0NNTkZKWVhkRF9NczVKVFhxdGQydW42WEp6YVpDMGUtemlVeEF2c0VTSmYyalg3a3UzV005OHNpVkV2NXh0UzVWZmFIS3N3NmxhUlZkMWlLdlY0ZmJ6TlNMQUgxdzNucjlzMzRuRng2QjBpMVdLa2dFamFRdU9mSmJmUQ?oc=5",
+          "published_at": "2026-09-25T21:35:37+00:00",
+          "snippet": "Larry Tchogninou’s Gankéké Speaker Melds Traditional Beninese Craft with Modern Audio Design freeyork.org",
+          "lexical_overlap": 0.087,
+          "relevance": 0.157,
+          "matched_terms": [
+            "design",
+            "traditional"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "design",
+            "traditional"
+          ]
+        }
+      ],
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -9940,6 +11011,103 @@
       }
     },
     {
+      "id": "cea6d97a7101ce0d25",
+      "checked_at": "2026-09-30T22:40:24.478925+00:00",
+      "promise_id": "BJP-2024-af793930f19719721f",
+      "year": 2024,
+      "category": "women_social_justice",
+      "page": 35,
+      "anchor": "We will ensure adequate representation for SC,ST and OBCs in this committee.",
+      "exact_text": "We will ensure adequate representation for SC,ST and OBCs in this committee.",
+      "keywords": [
+        "adequate",
+        "representation",
+        "obcs",
+        "committee"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
+      "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
+      "related_promises": [],
+      "query": "adequate representation obcs committee",
+      "evidence": [
+        {
+          "id": "1d394ace6797feee27",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Reservation for SC/ST and OBC - PIB",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ySjhlamhIbEt0UUhRaGVlU19uZkpRMXVDc0tLMUg4TExhck1Lb0JHUERqMTNyVkxaeWlxXzBOcU82VXhBdFJTM1dVZ1hsdnBQNmJWVVA4bHJrMDhIXzdrWDhpQ0hHN3J4UmFQd2dB?oc=5",
+          "published_at": "2016-07-20T07:00:00+00:00",
+          "snippet": "Reservation for SC/ST and OBC PIB",
+          "lexical_overlap": 0.2,
+          "relevance": 0.32,
+          "matched_terms": [
+            "sc",
+            "st"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": []
+        },
+        {
+          "id": "0a69478d8671212e85",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Eligibility Criteria for Reservation for SC/ST/OBC in Higher Education - PIB",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5aQmMzenhNbGREYjRHajlXUmMyTlVTamFPTmwxQmVab1VsLThFQW9XZEVPRzUzT29pZ3RnMmJCX2E1cXpmdlRoeDBrMTFWR0hoaDl4Z2dwRHJidkZGT2V0QTUtQnF4TF80WGhvSThR?oc=5",
+          "published_at": "2016-07-25T07:00:00+00:00",
+          "snippet": "Eligibility Criteria for Reservation for SC/ST/OBC in Higher Education PIB",
+          "lexical_overlap": 0.143,
+          "relevance": 0.263,
+          "matched_terms": [
+            "sc",
+            "st"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": []
+        },
+        {
+          "id": "1e519f49f0a6e054a4",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Hindu",
+          "source_url": "https://www.thehindu.com",
+          "title": "Panel to recommend political representation for OBCs formed - The Hindu",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOOHR1c1JrV1FVbVhaWVhGQzcyTlNCMnc1d0xST3o4VEVOU1I3WjFnQ2Z6cFdRSldfYmhoM25wTVFQaTlsUktqUDZaQlp4WXQxTjJCRzZBSnhYZXA1NHJvUzV3QkVybXJwbFJjRmpTU2RPNFFSclFJdUZDeXhuUVBsR3A4d0MzdDFSbVF3RnptZFZXSEd0akN6ZmQxQmVKRXhXTk96RUtkckFsZjVLbWFURGRHdmRqWlQ1QnY2b0RXbHRadmJQOHNr0gHOAUFVX3lxTE5mbTRHMExKY1ZaTVhvM01sbjJONXRnRjJjUTF6S0tyU08wckI4SlM0bXFnazVJekpVVWxFazN5UWlBNDQ3NTl6cm1IX1RfRXlkd1ctZEJ2TWltUHpwempYLTFmN2xHblFUdnZLbllWczkzQnNscy0zZEF2S2c0ZzJVdjI1aE1MTzRteVdMTlhTdXJ5YzV4NkF2VTRfeTF6RXhyUmVLS2NQTnVGdTBZSGxOM0FSRnFFa1ZVTjNTd1BGVEZxeWVOMjlweVBjSFBR?oc=5",
+          "published_at": "2022-05-08T07:00:00+00:00",
+          "snippet": "Panel to recommend political representation for OBCs formed The Hindu",
+          "lexical_overlap": 0.167,
+          "relevance": 0.237,
+          "matched_terms": [
+            "obcs",
+            "representation"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "obcs",
+            "representation"
+          ]
+        }
+      ],
+      "implementation_signal": "current_reporting_found",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
       "id": "480038ad1cb59739ec",
       "checked_at": "2026-09-29T06:16:50.349159+00:00",
       "promise_id": "BJP-2024-c1e2ba4f123a2da120",
@@ -11089,6 +12257,277 @@
       }
     },
     {
+      "id": "8ada85767c923637bd",
+      "checked_at": "2026-09-30T22:40:19.681202+00:00",
+      "promise_id": "BJP-2024-ad3a3e76ef99878d70",
+      "year": 2024,
+      "category": "culture_heritage",
+      "page": 39,
+      "anchor": "Establishing Thiruvalluvar Cultural Centres Globally We will establish Thiruvalluvar Cultural Centres across the globe …",
+      "exact_text": "Establishing Thiruvalluvar Cultural Centres Globally We will establish Thiruvalluvar Cultural Centres across the globe to showcase Bharat’s rich culture and offer training in yoga, ayurveda, Bharatiya languages, classical music etc.",
+      "keywords": [
+        "thiruvalluvar",
+        "cultural",
+        "centres",
+        "establishing",
+        "globally",
+        "globe",
+        "showcase"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
+      "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
+      "related_promises": [],
+      "query": "thiruvalluvar cultural centres establishing globally globe",
+      "evidence": [
+        {
+          "id": "ef9875a0bcc47d4003",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "ThePrint",
+          "source_url": "https://theprint.in",
+          "title": "First-ever Thiruvalluvar Cultural Centre, Invest India office to be set up in Singapore - ThePrint",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOR2k4bHlaUkdnWmFrLTk5OGh2U0tXOFBpWDA4cU9yWEtwOExDSWV4UE1raDk5aEJQbVdkVHlDNlprbjNFWVYzcmhONU45cUFUT3BCM2ZPODZOcjVGelM5MXhfekxROU5ILWxxMkpCMUJ0R2dGUER5dGdrVmRqeTBwa0MxSUNHdkI2YmlSeWxkb0pSSjVxVGIzM3RNQU10SmhjSFBhZGh4LTBhaUxHU200ZjNXWHJmSHh4ZmVoOVd30gHDAUFVX3lxTE1vcFptcU5fY0c5QlNwNWwzS2w0ZTBINFg4M0ZBNDM0dTQ3ZlhqZndSTnZsYTBTQ0NkV3JUNTQ0TDVyZVFPeGhFVTVscG1wYjRlWlZYdzZkeTJ2cFdWazlGQW15dXdzd1VDMWJGM3VaLS1hRlgxYUJWWU5CZGl3YkNWb01rcjcxSFBfV1JiUnJMOElmc2N5dElVNWpZaWw1RVdZbmdZbzlrNFhhajI5QTkxZzFaOFVpSE9lQUtQX1VXQ00ycw?oc=5",
+          "published_at": "2024-09-05T07:00:00+00:00",
+          "snippet": "First-ever Thiruvalluvar Cultural Centre, Invest India office to be set up in Singapore ThePrint",
+          "lexical_overlap": 0.1,
+          "relevance": 0.17,
+          "matched_terms": [
+            "cultural",
+            "thiruvalluvar"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "cultural",
+            "thiruvalluvar"
+          ]
+        }
+      ],
+      "implementation_signal": "needs_research",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
+      "id": "d5447567825e3661da",
+      "checked_at": "2026-09-30T22:40:27.658150+00:00",
+      "promise_id": "BJP-2024-b261a29f9897250cdc",
+      "year": 2024,
+      "category": "other",
+      "page": 39,
+      "anchor": "Expanding Bharat’s Diplomatic Network We will further expand the network of our missions and …",
+      "exact_text": "Expanding Bharat’s Diplomatic Network We will further expand the network of our missions and diplomats to pursue the global interests that have been secured by Bharat’s unprecedented rise in the global order.",
+      "keywords": [
+        "network",
+        "global",
+        "expanding",
+        "diplomatic",
+        "further",
+        "expand",
+        "missions"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
+      "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
+      "related_promises": [],
+      "query": "network global expanding diplomatic further expand",
+      "evidence": [
+        {
+          "id": "8f69164dc26bab0ae6",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Korea Post",
+          "source_url": "http://www.koreapost.com",
+          "title": "Saemaul Movement expands global public diplomacy network as diplomats from 52 countries gather in Seoul - The Korea Post",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE05WWlyV1ZqU3Q4LTJhd3V0VGloOUdFX0NOQkU0RGdjVk1JRXg0ZzBFd21jd01qc0l4cUFsQVRwTVlrdF9CMEJHOEM5YjM0ZFBJU3BjQ0FKWlRSNG11X3N4c3ZNemg2d0R2alHSAW5BVV95cUxOcUpKSEd4cEwzSHZNVjQtbUJfNGY2Z1p2cmhUM0pSRVIwdkxLaDBicklXMGxPcXNaUVF3MGlsOC1aZE9sdlA2d242dGRjd2luRXRqdlZlWUlQUGtONHN4T0JieFB2N0tuUzhOeTM2QQ?oc=5",
+          "published_at": "2026-06-16T07:00:00+00:00",
+          "snippet": "Saemaul Movement expands global public diplomacy network as diplomats from 52 countries gather in Seoul The Korea Post",
+          "lexical_overlap": 0.136,
+          "relevance": 0.241,
+          "matched_terms": [
+            "diplomats",
+            "global",
+            "network"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "diplomats",
+            "global",
+            "network"
+          ]
+        },
+        {
+          "id": "31c1efe14657ec005c",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "ENA English",
+          "source_url": "https://www.ena.et",
+          "title": "Ethiopia’s Diplomatic Momentum—From Regional Weight to Global Reach - ENA English",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBxSzZuYTVmNS1LaEFjLTZCZVhJYUJyUGdVaVNuZ1BSVFFkOVV5empGSU1xZ1J0aGRGU3RTSTAwcnNSUkFCMmlSdzU2QmxnWkt1RFE?oc=5",
+          "published_at": "2026-09-27T11:21:51+00:00",
+          "snippet": "Ethiopia’s Diplomatic Momentum—From Regional Weight to Global Reach ENA English",
+          "lexical_overlap": 0.105,
+          "relevance": 0.175,
+          "matched_terms": [
+            "diplomatic",
+            "global"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "diplomatic",
+            "global"
+          ]
+        }
+      ],
+      "implementation_signal": "current_reporting_found",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
+      "id": "516966a96e17b679e3",
+      "checked_at": "2026-09-30T22:40:30.943045+00:00",
+      "promise_id": "BJP-2024-b3ae777003ac0077fa",
+      "year": 2024,
+      "category": "security_defence",
+      "page": 39,
+      "anchor": "Creating a Global Consensus on Fight Against Terrorism We will continue our efforts to …",
+      "exact_text": "Creating a Global Consensus on Fight Against Terrorism We will continue our efforts to create a consensus among all members of the United Nations on the Comprehensive Convention against International Terrorism and other such efforts to combat terrorism.",
+      "keywords": [
+        "terrorism",
+        "consensus",
+        "against",
+        "efforts",
+        "creating",
+        "global",
+        "fight"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
+      "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
+      "related_promises": [],
+      "query": "terrorism consensus against efforts creating global",
+      "evidence": [
+        {
+          "id": "12d40d816af4edd518",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Terrorism is a crime against humanity, says Shri Rajnath Singh - PIB",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE92U1FkcWx6djVfQXhDNHZ2NHR0SlRHeWtjTndtZkRmWFpEa1R5M2doX1JDYVlNWUdJYjBRamd3TWxVdmtLdHhTcVlSMkNZMkF2eUc3Y18wMGRVUzcwUlRMclZWR0FPVWQ5akpoVU93?oc=5",
+          "published_at": "2016-02-03T08:00:00+00:00",
+          "snippet": "Terrorism is a crime against humanity, says Shri Rajnath Singh PIB",
+          "lexical_overlap": 0.111,
+          "relevance": 0.231,
+          "matched_terms": [
+            "against",
+            "terrorism"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "against",
+            "terrorism"
+          ]
+        },
+        {
+          "id": "9b53a0c59906899cee",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "orfonline.org",
+          "source_url": "https://www.orfonline.org",
+          "title": "UNSC Politics and the Fragility of the Global Counter- Terrorism Regime - orfonline.org",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcUxNLVJSM3RYeW9LeUFpUXhFZ0NpWE5iZDA4WjBMYURXd3hLYTRoU1cwaUdKYk1mOFJ2SlFWbENUYV9nWWFwUW5GSkVTMWlTaWlCaGl0VXI2QUNmUG90Y2J6dDlocW40VnlMcmc2eDcxeGc5Tk9MTUZFcmJKczh2TzdrcEs3NjhIcDJtVW9mMm83X2tFckduaGNna3FZeHdzM1J0LXA4NEhEREkwcFE?oc=5",
+          "published_at": "2025-06-21T07:00:00+00:00",
+          "snippet": "UNSC Politics and the Fragility of the Global Counter- Terrorism Regime orfonline.org",
+          "lexical_overlap": 0.105,
+          "relevance": 0.175,
+          "matched_terms": [
+            "global",
+            "terrorism"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "global",
+            "terrorism"
+          ]
+        }
+      ],
+      "implementation_signal": "current_primary_evidence_found",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
+      "id": "64e9b95a6297c21d5e",
+      "checked_at": "2026-09-30T22:40:32.594157+00:00",
+      "promise_id": "BJP-2024-b3c6ac07495bbcea79",
+      "year": 2024,
+      "category": "other",
+      "page": 39,
+      "anchor": "We will launch a global outreach program for documenting and promoting the tangible and …",
+      "exact_text": "We will launch a global outreach program for documenting and promoting the tangible and intangible legacy of Lord Ram in all countries.",
+      "keywords": [
+        "launch",
+        "global",
+        "outreach",
+        "program",
+        "documenting",
+        "promoting",
+        "tangible"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
+      "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
+      "related_promises": [],
+      "query": "launch global outreach program documenting promoting",
+      "evidence": [],
+      "implementation_signal": "needs_research",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
       "id": "f5ee8b15dcb1c3d21b",
       "checked_at": "2026-09-28T23:33:10.331149+00:00",
       "promise_id": "BJP-2024-0dfd3ce47ea54c5692",
@@ -11733,6 +13172,45 @@
       }
     },
     {
+      "id": "43cad4cce7b0ce82e7",
+      "checked_at": "2026-09-30T22:40:20.934236+00:00",
+      "promise_id": "BJP-2024-ae2edd00fa7a39f87b",
+      "year": 2024,
+      "category": "infrastructure",
+      "page": 41,
+      "anchor": "National Forensics Mission To move away from ‘punishment to justice, and improve the current …",
+      "exact_text": "National Forensics Mission To move away from ‘punishment to justice, and improve the current conviction rate in the country, we will launch a National Forensics Mission to strengthen the forensic infrastructure.",
+      "keywords": [
+        "forensics",
+        "mission",
+        "move",
+        "away",
+        "punishment",
+        "justice",
+        "improve"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
+      "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
+      "related_promises": [],
+      "query": "forensics mission move away punishment justice",
+      "evidence": [],
+      "implementation_signal": "needs_research",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
       "id": "f3e09bd08f97a68825",
       "checked_at": "2026-09-30T01:19:30.146477+00:00",
       "promise_id": "BJP-2024-dce95689c6b56ad80e",
@@ -12174,6 +13652,45 @@
         "proof_evidence_id": null,
         "proof": null,
         "reason": "The extracted deadline is 2047, so the promise is not yet overdue."
+      }
+    },
+    {
+      "id": "2e60f3a9a7c6b8e601",
+      "checked_at": "2026-09-30T22:40:34.251319+00:00",
+      "promise_id": "BJP-2024-b40b705dc50888a344",
+      "year": 2024,
+      "category": "jobs_economy",
+      "page": 43,
+      "anchor": "We are committed to launch an exercise to completely revamp our economic and commercial …",
+      "exact_text": "We are committed to launch an exercise to completely revamp our economic and commercial legislations to suit our economic needs.",
+      "keywords": [
+        "economic",
+        "committed",
+        "launch",
+        "exercise",
+        "completely",
+        "revamp",
+        "commercial"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
+      "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
+      "related_promises": [],
+      "query": "economic committed launch exercise completely revamp",
+      "evidence": [],
+      "implementation_signal": "needs_research",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
       }
     },
     {
@@ -16964,6 +18481,151 @@
       }
     },
     {
+      "id": "d6b8bb2c605a24d768",
+      "checked_at": "2026-09-30T22:40:26.102524+00:00",
+      "promise_id": "BJP-2024-af7eebcdcdf0ccce61",
+      "year": 2024,
+      "category": "other",
+      "page": 51,
+      "anchor": "Land Records Digitization We will implement next generation ‘Land Record Digitization’ and the integration …",
+      "exact_text": "Land Records Digitization We will implement next generation ‘Land Record Digitization’ and the integration of various institutions like Revenue Courts and Registration Offices.",
+      "keywords": [
+        "land",
+        "digitization",
+        "records",
+        "implement",
+        "next",
+        "generation",
+        "record"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
+      "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
+      "related_promises": [
+        {
+          "id": "BJP-2019-6e2d4437094bce3c69",
+          "year": 2019,
+          "similarity": 0.273,
+          "matched_terms": [
+            "digitization",
+            "land",
+            "records"
+          ]
+        }
+      ],
+      "query": "land digitization records implement next generation",
+      "evidence": [
+        {
+          "id": "18e79f18610f73470e",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Union Budget 2024-25: India's Next Generation Reforms and Strategic Policies - PIB",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5sMW96dU5HaVNkUnY0UUk1UURzbWtwUnRXeVdVNk5PQU1uNnRKd2pELTh6TWFiWHltck5DdkR2eHJydFdxYld3UzZEV2ZSY0JsWjgwQXJsZm5qSC1NNG5jSGVaMWlEdFZxVFVQTmlfbkg?oc=5",
+          "published_at": "2024-07-24T07:00:00+00:00",
+          "snippet": "Union Budget 2024-25: India's Next Generation Reforms and Strategic Policies PIB",
+          "lexical_overlap": 0.111,
+          "relevance": 0.231,
+          "matched_terms": [
+            "generation",
+            "next"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "generation",
+            "next"
+          ]
+        },
+        {
+          "id": "f4ebea39271cc6b632",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Livemint",
+          "source_url": "https://www.livemint.com",
+          "title": "Budget 2024: Centre to digitize land records, bring in labour reforms as part of next generation of reforms - Livemint",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTDYyTkdMclFmcmFQbWdUamw3Q2JodF9zRktrQ1Nkbjd4ZjFCa0d5WU05WGVLanhGU3hJa096SlpKZ3F5MFVEX2dxX1RrN3pXRUxQUnhlNXpiU0Y4NVlva3lLbmJzeTU4VlFqNDZjWXFTYU55MEVDUDY4c01mdVlKMTQwQXg1YTRJVGFibGxhQnBFWDBJanJNcWk1RGtIdEtMZFVUWTRMMNIBrAFBVV95cUxNR1p4a2hpNUdyUUZHbDRKWDI4ekdXXzNMVXY0NmlhVzdBRnNBQmJHQzdVY2dNME1kNlpzUFZhS0hVRThEZ2h3dE1sMGdmYW8ybERZbFAxOHFZa3JjRFJFb3I3b1Fwa0xVMWtuQmNNVlJfVUlXMkJOcl9xekxKQVZ2Z1IwYWsycUVmNGxRb0tWSWZPUFUycmJpOXN3ZXBYUmhFemluS1B5enRwSlcw?oc=5",
+          "published_at": "2024-07-23T07:00:00+00:00",
+          "snippet": "Budget 2024: Centre to digitize land records, bring in labour reforms as part of next generation of reforms Livemint",
+          "lexical_overlap": 0.2,
+          "relevance": 0.34,
+          "matched_terms": [
+            "generation",
+            "land",
+            "next",
+            "records"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "generation",
+            "land",
+            "next",
+            "records"
+          ]
+        },
+        {
+          "id": "ca00516ac0dd35fee2",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Greater Kashmir",
+          "source_url": "https://www.greaterkashmir.com",
+          "title": "Chief Secretary takes stock of key land records digitization initiatives - Greater Kashmir",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOC1vRENhU05Dc3pxUVlEd1RMalRpd3ZmQWNfZUhXUXRzRU1WS1U1U2JOMkRHSDlsOUJnLWp3bDdjSUJ2TEoxWFgwcUgtbTZ5N2xyOHViZlFTYUNFTk9HLWFIM1JpRHZCb05kZWtiNW45dmgtR2ZYZTQxQ3FhQWJIQlJpQkNMSFZrMllQdlNLV08ycXgtVWRyTVRoellYWVVvd1NfRVRNaWloS29tbnBz0gGzAUFVX3lxTE9ESFJ2RlRieWx3YjN6M211ZW0zTVZLU0tMYmtKNVBhSmhSRmVXT0t6NUQwV0o1X3BhOU9yWFJfaUlVSW1OQ2pWeGNUdUZROEZicURLNF9XNXdaSFc2cGp2enFHOHF1T3dSM1BZN2JGNWxqSVJNQUpUUGpHLWdlay1hNm9QZEc2N0szeXlNcEhzOGdTVXBtVVV3MW5SQVNoUFFsWU9uNXNuWXZ4UTNqdW9xWk4w?oc=5",
+          "published_at": "2026-03-15T07:00:00+00:00",
+          "snippet": "Chief Secretary takes stock of key land records digitization initiatives Greater Kashmir",
+          "lexical_overlap": 0.15,
+          "relevance": 0.255,
+          "matched_terms": [
+            "digitization",
+            "land",
+            "records"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "digitization",
+            "land",
+            "records"
+          ]
+        },
+        {
+          "id": "0f58403666fc3e1569",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The New Indian Express",
+          "source_url": "https://www.newindianexpress.com",
+          "title": "CM Naidu vows clean land records in Andhra by 2027 - The New Indian Express",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRVZYeXRfblRaNDNUNmtzSk8wU0JjSmVXRWp2S2xsSFRfWGEzUzhfS3QzV25VVzdZU2J5U2ZYTl9FRmVoTzh3c2ZXMmQ1NllSU3B2OVpVc21DSFhlaUJtaHEzeF9OWXVmZ29DclNET203d29HT00zc3p4c3JDSGV3Y2tMY1ZnUm84LXMxTW81cG1VZVJfQjJZdWpUb1hQcXc5eWE4LVRkNGU0MjhCbm5oNllJZ0w1Q2xD0gHGAUFVX3lxTE5ROVJGb2ZWam9iY3cxMGJUM2pVT1I2YkllT1NxSzJCenlSUkRheU1wUGY5cUVrMFB1OFgxTlRGYzJQRmEtdlllZTFiT0FmNmNDVjBwR1E3SmpIeG9EWWNibDlnekJwZElWSm52Uk9rVENyYXFZYWJIcVpjdUZvZG9yWHRoel9uUHVzM3FyQmNxU2t6SFpEQVE4djh6YmhBSW45NzJBc21vamZybVJSc1ZENW5oekREM2ZBNm5jd1RpajBjMF9WUQ?oc=5",
+          "published_at": "2026-06-09T07:00:00+00:00",
+          "snippet": "CM Naidu vows clean land records in Andhra by 2027 The New Indian Express",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
+          "matched_terms": [
+            "land",
+            "records"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "land",
+            "records"
+          ]
+        }
+      ],
+      "implementation_signal": "current_primary_and_reporting_found",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
       "id": "061cd0e60148738643",
       "checked_at": "2026-09-30T13:03:09.940528+00:00",
       "promise_id": "BJP-2024-aab2bb669485d5b256",
@@ -20268,6 +21930,461 @@
       }
     },
     {
+      "id": "064bd79bff4c009a5c",
+      "checked_at": "2026-09-30T22:40:05.534092+00:00",
+      "promise_id": "BJP-2024-a276e1cca801c9e683",
+      "year": 2024,
+      "category": "health_welfare",
+      "page": 60,
+      "anchor": "MODI KI GUARANTEE FOR SWASTHA BHARAT Strengthening Ayushman Arogya Mandirs We will further strengthen …",
+      "exact_text": "MODI KI GUARANTEE FOR SWASTHA BHARAT Strengthening Ayushman Arogya Mandirs We will further strengthen the Ayushman Arogya Mandirs and upgrade district hospitals and other secondary healthcare centres by expanding the full functionality of all packages for comprehensive healthcare.",
+      "keywords": [
+        "ayushman",
+        "arogya",
+        "mandirs",
+        "healthcare",
+        "modi",
+        "guarantee",
+        "swastha"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
+      "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
+      "related_promises": [],
+      "query": "ayushman arogya mandirs healthcare guarantee swastha",
+      "evidence": [
+        {
+          "id": "482ef6bfded4309d56",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Steps taken to strengthen the public healthcare system - PIB",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5KejlISF9wU05qemI1U19NbUl3SndOS2NxSHFhZEttd2VWVmNPVXhKXzhSeXk1WllBQ2lRWWtKSTJlcG1UOHBZdUhXR1lOT3V4TERFUjJ1NExYRERSaC1wNWxTUnFWWjR2VDhndXlCLUthNGY4REhESXl3UQ?oc=5",
+          "published_at": "2025-08-08T07:00:00+00:00",
+          "snippet": "Steps taken to strengthen the public healthcare system PIB",
+          "lexical_overlap": 0.118,
+          "relevance": 0.238,
+          "matched_terms": [
+            "healthcare",
+            "strengthen"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "healthcare"
+          ]
+        },
+        {
+          "id": "5867e2626a0bbbd338",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Union Health Minister Shri JP Nadda chairs breakaway session, “Promoting Swasth Bharat through Ayushman Bharat PM Jan Arogya Yojana and Ayushman Arogya Mandir” during Civil Services Day Celebrations in New Delhi - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE41ZGhBSmtZaVVLVkRqMy1nZy1CT2JicjhjYTdzbmxrSnA1U3Y4anVBS3RwaWlVZzM1X0ZDcEdzTjRvNHdCcUxXNEJXQlowUUlvUnVZeGt0UFliMUs3aXRmS245MVNhTGxD?oc=5",
+          "published_at": "2025-04-21T07:00:00+00:00",
+          "snippet": "Union Health Minister Shri JP Nadda chairs breakaway session, “Promoting Swasth Bharat through Ayushman Bharat PM Jan Arogya Yojana and Ayushman Arogya Mandir” during Civil Services Day Celebrations in New Delhi PIB",
+          "lexical_overlap": 0.077,
+          "relevance": 0.197,
+          "matched_terms": [
+            "arogya",
+            "ayushman"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "arogya",
+            "ayushman"
+          ]
+        },
+        {
+          "id": "3612bd3620b5d9fcf9",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Medical Dialogues",
+          "source_url": "https://medicaldialogues.in",
+          "title": "Haryana to set up 100 new health sub-centres and Ayushman Arogya Mandirs - Medical Dialogues",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMDMwZmpUUlZXRTdnRmxDMVNDSTgzZmJZTGJ2a1V5eXBTbUdXejlJelR3eG1UMHpSWmR0YjlHYjFZMnMtaVlVQ3J4UGViaXJrVmt4ZUhxcThuZ1Y5QVdSdU5EQVozYk9PNUhkc3g4dkNBcDhsM0YyVzA4ZzlmdmZCWTBHV2pyQ2tPYXFEaXRQd2NLa2hZYTFsc2dId0IyYWVZMzZpbkhxQXJWbVF1enZHOXpYQ2Z5amVsWlBvSC1tem13cVdF0gHKAUFVX3lxTFBBVU05WTc0bnNtZFFFODRncnN5eDQ0eXd3TGwwN1p0M3NIOVBaVEhzRnYxcnl5SUtPQVhyTmFaUG9WSXYxcUJWWDdnVXVOZ01LLUZqWldGMmwzVS1CTGRvSXotWWFJdmlEQ1NDRDdNekpsbkJVX25FbEJ5MTJPVURJTlZDLW16eGpaazZMWE5HbWtWdGgwQ2UwUWNRMGZITWJOUWl5Tm0yUThST1JyQ0FHX0Y3cVl1RUtNb2ZrVWRTWHgxV2ZveFpHRUE?oc=5",
+          "published_at": "2026-03-04T08:00:00+00:00",
+          "snippet": "Haryana to set up 100 new health sub-centres and Ayushman Arogya Mandirs Medical Dialogues",
+          "lexical_overlap": 0.158,
+          "relevance": 0.263,
+          "matched_terms": [
+            "arogya",
+            "ayushman",
+            "mandirs"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "arogya",
+            "ayushman",
+            "mandirs"
+          ]
+        },
+        {
+          "id": "107071bcd838328769",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Outlook Money",
+          "source_url": "https://www.outlookmoney.com",
+          "title": "Modi’s 75th Birthday: 75,000 Health Camps At Ayushman Arogya Mandirs under Swasth Nari Sashakt Parivar Abhiyaan - Outlook Money",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQRER6VVNTUG5zM2JEVDhDeERSdThTVHRsZnRubW5DXzF0SHhyR08zQ0pUeGlsNXQyR1h3c2t0WUdVLVRXWldkZW52TGJaYlVCLUtOcnJuOC1MQmVNR0JEaW5nOFlpX1dHckZHdG5qVk1pcUdjV2NnbGt5cE4yVy1qY0VSWWp0NW5mY0pzNERjT1NBZ1hrSF9DWmRNc0x5UnJzOVU1MktVZXpYVUlyOW1FeVZwR1FjVnJIbnYtR1gyMGVqLVhNYmY5dTdFYm12N3BXeFF3bkFpOXUtRDY5bDdQeTB6SFJ0NFJsN0HSAfcBQVVfeXFMT1hDaC03bE05VmU5MHpQRUxJakJ2VnZxN3JELXVUVFl0aEtESGk0WTgtaWNMVlVUSHNEZDFYaU8zQXpNUGZOSTlRTEVTVm00MHdKZl84Y203alo0Wk8tTkNVMWtzSlJ0azFkSGJlOV9kMGwzSkRTaE1XeDVCQWI3RDc5el9QVnktdE1lbmRvNTJHUi1XRTVLZkJVREFfMElNWTNFbzZVcGQ4Nncyczg4VlVaRlF0U2huVjBTQzhjejJkWmVoOU93SmJpZjRMc2Y3WEliR3lhSTlQUTlkWUtITUVvRWVJOUpFR09zcENyVHYxU3NCaG1aUQ?oc=5",
+          "published_at": "2025-09-09T07:00:00+00:00",
+          "snippet": "Modi’s 75th Birthday: 75,000 Health Camps At Ayushman Arogya Mandirs under Swasth Nari Sashakt Parivar Abhiyaan Outlook Money",
+          "lexical_overlap": 0.13,
+          "relevance": 0.235,
+          "matched_terms": [
+            "arogya",
+            "ayushman",
+            "mandirs"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "arogya",
+            "ayushman",
+            "mandirs"
+          ]
+        },
+        {
+          "id": "a1fa77ce9aa0d300bd",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The New Indian Express",
+          "source_url": "https://www.newindianexpress.com",
+          "title": "Delhi government launches 33 Arogya Mandirs, 17 Jan Aushadhi Kendras - The New Indian Express",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNU19Na2NzV1lCVzhJNHVmQ1RXM0J0ekdzZ2hUZVREa2l3a09SeW85YWt6TWpkRWcwT3F0S0MwUTdzMzNSTVdENVZULUUwc0pWN3JfNXlkNHIzOHNHaDZxRG5zRHFWeGlzanZ4X0dMWnk0V2VDWkoxcWF4em1PUmN3WGx0N1JSX0ItR1ktUTRqa0xzdFJHc2hhdmFLempRRHVKandid3FPTEhTOEstaFd4UzBwVEQwalM1SXNoUnQ0dm9jdTjSAdABQVVfeXFMTUJ3RkVwYUNhM0NyRnNubzlvS2pqT1N5d2NsS3pTMjR0ekEzNVViSWZFYWh2U0lKQ2xSUTFKdHRTRks5RTVsSEtVaXhfWUlTZ3pHZy1FWjVHenhUM0pRQ1JwQVp3QThVRnh2M29CeWF5b3RMVXo4Ym1TSnMzcFR4MFNXdTFWVjZOV1RsTXdCZXNLb0NabTd3R0RuQVM4Qy02M18wclFRV0RJSUNBQjJaSEFfUHlCbms1M1BWVWpCbC1PRExjem1RLUo2M0JybHFUSw?oc=5",
+          "published_at": "2025-06-18T07:00:00+00:00",
+          "snippet": "Delhi government launches 33 Arogya Mandirs, 17 Jan Aushadhi Kendras The New Indian Express",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
+          "matched_terms": [
+            "arogya",
+            "mandirs"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "arogya",
+            "mandirs"
+          ]
+        },
+        {
+          "id": "f56e6c03990a9cd829",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Shillong Times",
+          "source_url": "https://theshillongtimes.com",
+          "title": "On ’12 years of Swasth Bharat’, PM Modi highlights affordable healthcare under Ayushman Bharat - The Shillong Times",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVHA1R2RmaGNOTTBLNU9TcGZ4TTlxZFpXWGMwMnVRN3RaamlnejNvZDZJQUpGaEV2bFlKYXJkU0VNMk9IT3c5UDRySFdqeWVxWmF3YTNkSk9OWF9mR3dvSG9KNktPQnVVMXd1TjlPaXlzQU9PVFJ6OWlyWmlrYVBodTRJaGxkSHB6QkhvU2tweGtCZFN3bmlDYjEwcndUWkhxZUVLNlFXNUQ0V2VOS2lKSmU0RFU5Uy1KOU9INFRSZjlibDFqQjZtSHNqb3k?oc=5",
+          "published_at": "2026-06-14T07:00:00+00:00",
+          "snippet": "On ’12 years of Swasth Bharat’, PM Modi highlights affordable healthcare under Ayushman Bharat The Shillong Times",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
+          "matched_terms": [
+            "ayushman",
+            "healthcare"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "ayushman",
+            "healthcare"
+          ]
+        },
+        {
+          "id": "6bdceded59a2e0c56b",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "dailypioneer.com",
+          "source_url": "https://dailypioneer.com",
+          "title": "Ayushman Arogya Mandir: Building India's Path to Universal Health Coverage - dailypioneer.com",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbGtIZkg3ekFjRkRHamhsSC1paC1wVkc5ckRCQU1MTk14ajVXV2JNbXctMU5VWnJOTldlTzU1dkhsUElzMlpaVE0tamtvbUlZYWlUSGxGYy1HWGd6RURxS0laWEtJR2d5cVJIUmlUR2RnQVpCNXRTZUFIR3BYa25sa2RBMUxmeGJuTzBlamZjbEVjRTduaW9qWlN3?oc=5",
+          "published_at": "2026-06-16T07:00:00+00:00",
+          "snippet": "Ayushman Arogya Mandir: Building India's Path to Universal Health Coverage dailypioneer.com",
+          "lexical_overlap": 0.1,
+          "relevance": 0.17,
+          "matched_terms": [
+            "arogya",
+            "ayushman"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "arogya",
+            "ayushman"
+          ]
+        }
+      ],
+      "implementation_signal": "current_reporting_found",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
+      "id": "a87c65f0c8d6734dc6",
+      "checked_at": "2026-09-30T22:40:38.645864+00:00",
+      "promise_id": "BJP-2024-b4c5f575d319bc3b6b",
+      "year": 2024,
+      "category": "education_skills",
+      "page": 60,
+      "anchor": "Increasing Seats In Medical Education Through the increased number of AIIMS and various medical …",
+      "exact_text": "Increasing Seats In Medical Education Through the increased number of AIIMS and various medical colleges, we will increase the number of UG and PG seats in medical education.",
+      "keywords": [
+        "medical",
+        "seats",
+        "education",
+        "number",
+        "increasing",
+        "increased",
+        "aiims"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
+      "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
+      "related_promises": [],
+      "query": "medical seats education number increasing increased",
+      "evidence": [
+        {
+          "id": "1e59be1ada59421a9f",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Steps taken to Increase Medical Colleges and MBBS Seats - PIB",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4zQXpqZmtncUNLc2NJc256M3R5d0FVS3QyREdhd0tXVzFGNy1aNDJHZGJGdmpiRHBkWkF1TVlFSjlXcU9UY2Z0QWViekRveXNkT2ZHeGU1Nkp0WWQ4SURCUFJ1eFhNbGROenBidE5sNHA?oc=5",
+          "published_at": "2025-05-18T16:07:48+00:00",
+          "snippet": "Steps taken to Increase Medical Colleges and MBBS Seats PIB",
+          "lexical_overlap": 0.25,
+          "relevance": 0.44,
+          "matched_terms": [
+            "colleges",
+            "increase",
+            "medical",
+            "seats"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "colleges",
+            "medical",
+            "seats"
+          ]
+        },
+        {
+          "id": "acc11c583d20818001",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Update on Medical Education - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5pS1k1TnY4T2gxNnRBZFRydGxpZGNCUi1VZnJxWTlRa2VIRVdVbVd1ZnUtNFJPQUpFd3pMdW1qU2F5Q180WTNCZy0zSnFnNE9jamItUDVjS1YwdTRTUVdOU21GeEJwRVdw?oc=5",
+          "published_at": "2023-08-11T07:00:00+00:00",
+          "snippet": "Update on Medical Education PIB",
+          "lexical_overlap": 0.143,
+          "relevance": 0.263,
+          "matched_terms": [
+            "education",
+            "medical"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "education",
+            "medical"
+          ]
+        },
+        {
+          "id": "3c89dafd211b77aa55",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Steps Taken to Strengthen Medical Education Infrastructure in the Country - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9JYWV5SnNjbWlDRzIycndSTnBIZTN5ZVczNlB2TUFFd19aWk9mc1lUdGdJajRyTVgxQlN0ZzRxcFhBQ3c1SV83dXkybzlncWU1XzFrb3I0bjBfS2hQWWhuUnU4bzNRTGxrcUJ3WlpZbGtLam5qdzY4S3JR?oc=5",
+          "published_at": "2026-08-07T07:00:00+00:00",
+          "snippet": "Steps Taken to Strengthen Medical Education Infrastructure in the Country PIB",
+          "lexical_overlap": 0.118,
+          "relevance": 0.238,
+          "matched_terms": [
+            "education",
+            "medical"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "education",
+            "medical"
+          ]
+        },
+        {
+          "id": "cce37c20be1f9503c6",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Economic Times",
+          "source_url": "https://m.economictimes.com",
+          "title": "India expands medical education; number of medical colleges more than doubled since 2014 - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOb05wZWtOOHBvVFNJdkJVLWY1Wl9xQjN5cy1WbEtXUmMxN3ZGQVpCZWRDOFFPX0ZTRWdUQjJlY21JOW10Ulg1QjZDT0xFeDI5WWxBSUxfN2gtY2J4VGMzQ0dreEtReEpmUXlCTE42bUlrUXUzMDNseDlsdVkwX3lVc2owUUxyWU9ZOXQwUUJCb3VHYkYyLUhtaGJvbnJ0SWIzaVNoRy1BTDVPbmE0Uk83aGFpdFZOQW9nSGZCcTNDMS1xTUxZRHFvYUd0MFV5RVp4T1ZVNE5tSE9CQmPSAeABQVVfeXFMT0FkNjFRN1g1bEpibmlWVlBJaHk5Sjg3dkFkY3Q4QWRrYTltTkNSUy1jTVRRSlFSY1NUcTMxbURNb0lSWC01a0RmbWdnOVVKU2tnTFBnZlI1VzdrTTVBVTRUVnhUaVJaUDFkSW5QZUFiTmI2UnBPWU00Q19yUmNUbEVDaEtGSXpSMW5RSnBfZ1NjQ1ZZNk1ST0lwVXp4cXlGQ2FUd1htSGFsSWF2Z1V2aHRyQjZTZE04alk5a1VqV20yR1p2OG1sUGZOQU50UTlETlRmalE4Q19oN0JnZnp6LXk?oc=5",
+          "published_at": "2026-07-24T07:00:00+00:00",
+          "snippet": "India expands medical education; number of medical colleges more than doubled since 2014 The Economic Times",
+          "lexical_overlap": 0.222,
+          "relevance": 0.362,
+          "matched_terms": [
+            "colleges",
+            "education",
+            "medical",
+            "number"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "colleges",
+            "education",
+            "medical",
+            "number"
+          ]
+        },
+        {
+          "id": "5ec99f784434972c4b",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Telegraph India",
+          "source_url": "https://www.telegraphindia.com",
+          "title": "Colleges Double Since 2014, MBBS Seats Cross 1.39 Lakh: Check Medical Education Highlights - Telegraph India",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQNEYzeXc2dXdEUDlheUxubG55d0ZoY293UG4zOXU0R1I5cEJCamVkbHNoSm5wbGZxQ3NIMURLTU9TcnkyWFFJOTlTak85QnNiSEtoenNIdU9LNFhwVTlXaXBRN0FXZHJ4TEdJcDliRlZCVk1BSUtkVm5UeEJYcjRUeHhBc0poRjk0ZUZOdlUzT05kWTRYY1BxRU03VzdVamhiOVdMTlVXMGVwcGFnaHhPazhscW52QzhFOTFRMFhaenRKMG4tX0ZIbi1vTUxJcWUtOGpuTzNOUHZGdEY3OVHSAeMBQVVfeXFMTUtwOTdVY3JxeEkzd1BWdDhYbTlMRVBXTUFvclVWYm1GVGhqbm5PU0xJN25acG1ESzU4Y0FEaTAySXdLSGlLY0hNN01idkpmNGJSdjhRaE45LWNnX1UxYk1xRUVZdmNfZEEwdkwtOTBkRFF0amlqaXlLUFFQUnhKVU9Nb0h5RUFnRl9nT0QzUnhwZDlad00yM203MjhTRHpxSER4eDh6MU15aEgzSEo5TFJldktBSTBpSVRmRzRBOV9IUm8tUGNmUFdjUzREai1obFktcS1VWlliNjVaUWowSUkwbW8?oc=5",
+          "published_at": "2026-07-28T07:00:00+00:00",
+          "snippet": "Colleges Double Since 2014, MBBS Seats Cross 1.39 Lakh: Check Medical Education Highlights Telegraph India",
+          "lexical_overlap": 0.2,
+          "relevance": 0.34,
+          "matched_terms": [
+            "colleges",
+            "education",
+            "medical",
+            "seats"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "colleges",
+            "education",
+            "medical",
+            "seats"
+          ]
+        },
+        {
+          "id": "d4b5ff5804c77478ac",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "TRIPURAINFO",
+          "source_url": "https://tripurainfo.com",
+          "title": "AGMC MBBS Intake Increased to 200 AGMC Gets 50 More MBBS Seats, Tripura’s Medical Education Capacity Rises to 500 - TRIPURAINFO",
+          "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNUUkxSHRkcFhjOGJTblRIaXhITnc4LXRmRFJEWkEzRDFmMmNQSjZQeVFmT1gxb1pDVWQ4bkZCcC15dUFyRi00UGVtM0NJWU1OZzlubmFtMFJ4ZXVrd1dUOHFxbFU1QXZROFNzV005bHV5c2dFUjBpZHVvLXQ0S1NTT3FhYVNfbTJ1RnliQ1RwNmsyTFI3d3FMeXlVZ21kSVRmb0R3TWNGTEZfZ005dklPQldtMTVNVlZKNWR3djNCSXd0VEM0R0t4WGVQTGxVS0dMOEVwTnhRUTl0U2U4UXFGN1pJbjEtYlNsaEQ0RnNuYUdsZ0FxUWFxT0J0a3JNUG5nTGYzanRFWURldDg?oc=5",
+          "published_at": "2026-09-17T04:27:19+00:00",
+          "snippet": "AGMC MBBS Intake Increased to 200 AGMC Gets 50 More MBBS Seats, Tripura’s Medical Education Capacity Rises to 500 TRIPURAINFO",
+          "lexical_overlap": 0.2,
+          "relevance": 0.34,
+          "matched_terms": [
+            "education",
+            "increased",
+            "medical",
+            "seats"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "education",
+            "increased",
+            "medical",
+            "seats"
+          ]
+        },
+        {
+          "id": "6b26a54a69d2f3d4a8",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Times of India",
+          "source_url": "https://timesofindia.indiatimes.com",
+          "title": "With 15,395 MBBS seats, Karnataka now leads medical education race - The Times of India",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQeFdRNVBGZ3VINVVlRUQ1UUx0bjBfb2lxNHAyUWVEb3B3RFc1NWtqRm1CTEpSU2Y2MXpxS2JqVlRBRnJibnBIUWZOazhEU1hKWGpSZFl4V2NKT2FaaFE5T2VLb1N0cHJDb2lFV0J3TVBEeWhtZzNGWEIwMkJDMDVaTS0xSnFrRGJ0UjVDeXd1X2YyVnRxRzBSTlo3a0MtODlvdzZTalptWlhISU9FUjRmSXlydG5GS0FPQXlQNlVHYkF2VkZuak5ON0l5aUNxVDRwckFwUXc5bVLSAd4BQVVfeXFMTnRsc1U1UjFPWERzN2o3MHM5NGJ2MDZXN0U5VmVtcFg5TzZ4WFlLdG1yNVNiT0RxSmRfUjlNdWJmUjFZSmd2OW1ia3RDWkhJZTIyRjIxUzhGdzM5SFluNlhjT0hNNjZpN0pjbDVXNlkzbExwX19vRmFWYi1EMlhEWm5Sa25jOEo5SURpYUpwX3J3X2FJSXF5NDlrQ01rQlhiMkdHVGVxemZOdm5wcmdqeHNIcUFwRnZoVWcxdTJHR3NQcXFfVTNQQl9RSzVwRTEzTmRVZEUwQXdfVk5aN0N3?oc=5",
+          "published_at": "2026-07-19T07:00:00+00:00",
+          "snippet": "With 15,395 MBBS seats, Karnataka now leads medical education race The Times of India",
+          "lexical_overlap": 0.167,
+          "relevance": 0.272,
+          "matched_terms": [
+            "education",
+            "medical",
+            "seats"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "education",
+            "medical",
+            "seats"
+          ]
+        },
+        {
+          "id": "d2c03ddb4363385dd9",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The New Indian Express",
+          "source_url": "https://www.newindianexpress.com",
+          "title": "Delhi govt to augment medical education capacity with 408 additional seats - The New Indian Express",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSThlUjRFZ0xZT1Y2dlNiSDJfM3RKQW9IVkJLdmlZVklhamVvN3lnMGIydld0bWdSZXZQVDVnWlZTb0I1QUhaSVNldXVkN0t3bWZvQ1drRHhrdy1na0R2T1NZS1RHWUtwLVA0dERlQk8xNW1jWlF4djJ5bzRBQ3NhNDNOUTc0cWpiTzZaME9CQjljdXFzQWlWZktndnFGVEJCTzBLUy1sbmN1a0U5Y0pRbnVrdjNoYUVtUXdjaXNFRlFSczBkT0x3QVFueWbSAdoBQVVfeXFMUFRFS0lZZEIzaWtlNlB6bUp5dW9ISnpMRDFIOG0yYnpRMmFpVThETGJzUWQyRHBTN1ZPc3Y2ZVNoTU0yY0Z3ZjE4bm9XRlo4RWV3aGFsQ2RGNHJCcDRqTmREbE50ZkQ3eElIbl92amw4ZW1RRUFVQnAyOWsyQmduLWNMSjdBbVZuX2s0TFRkT09lSnhSQkE5bVFmWkhtUzhWZmpFekJkckpIdTdqZ1U1cXJFQ21ObzRPZU5DNEhlOVhOQWJQUjU2bE9zdFJtYzBBbUJwbkxlTGlvdnc?oc=5",
+          "published_at": "2026-08-18T07:00:00+00:00",
+          "snippet": "Delhi govt to augment medical education capacity with 408 additional seats The New Indian Express",
+          "lexical_overlap": 0.167,
+          "relevance": 0.272,
+          "matched_terms": [
+            "education",
+            "medical",
+            "seats"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "education",
+            "medical",
+            "seats"
+          ]
+        },
+        {
+          "id": "218e3777b87f18c6f0",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Business Wire",
+          "source_url": "https://www.businesswire.com",
+          "title": "Afya Limited Announces Medical Seats Increase in AFYA Cruzeiro do Sul - Business Wire",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObDgzdFNueUo2UlNSTEJKR2ZUVnVHejhOMnhlZmlsb1oxZW1Dd3hQaHBRUWZpX3pmWHVSWFlUOVpHM3lHNjlmQlBLaW9YTl9UcU9zSDNCbVZjb2c4X0hCRWlXYUh4czZkUldZbUFnR3RJT0FyckJyOUxvYV9sNkNFaDB3SWVXZHNwcHk4eWZ2cVhSSExjR2F2NWlROWwwa19CeXUzQ2pOS1NkVzVuWENFd1ZrX2FPT1FxMFppZlVVUmg1SXFL?oc=5",
+          "published_at": "2026-09-18T13:22:00+00:00",
+          "snippet": "Afya Limited Announces Medical Seats Increase in AFYA Cruzeiro do Sul Business Wire",
+          "lexical_overlap": 0.15,
+          "relevance": 0.255,
+          "matched_terms": [
+            "increase",
+            "medical",
+            "seats"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "medical",
+            "seats"
+          ]
+        }
+      ],
+      "implementation_signal": "current_primary_and_reporting_found",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
       "id": "e1099552d9d05256e2",
       "checked_at": "2026-09-29T06:16:53.373403+00:00",
       "promise_id": "BJP-2024-c2ad8a3b075c41f15f",
@@ -22242,6 +24359,70 @@
         }
       ],
       "implementation_signal": "current_primary_and_reporting_found",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
+      "id": "b0f0762696b7f18e5c",
+      "checked_at": "2026-09-30T22:40:21.757105+00:00",
+      "promise_id": "BJP-2024-ae5fabb8e547fc0dc2",
+      "year": 2024,
+      "category": "infrastructure",
+      "page": 68,
+      "anchor": "We will also establish a spaceforum that positions Bharat as a leading space power …",
+      "exact_text": "We will also establish a spaceforum that positions Bharat as a leading space power and assist Global South countries in using space and space-tech services.",
+      "keywords": [
+        "space",
+        "spaceforum",
+        "positions",
+        "leading",
+        "power",
+        "assist",
+        "global"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
+      "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
+      "related_promises": [],
+      "query": "space spaceforum positions leading power assist",
+      "evidence": [
+        {
+          "id": "56bb4adffa2caedb0f",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Nature",
+          "source_url": "https://www.nature.com",
+          "title": "Does South Korea have what it takes to become a leading space nation? - Nature",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9Ca05Tcm5jM2NSY3VqZTdlNktNajhEWFAxNHE3cWtDZ01McGI0b05POGlnLTVCeGM1b0tGMzVrcDNTNkxsRzAyQTU3VU5lZEJNd0laUHlQMm9SU0NkVVg4?oc=5",
+          "published_at": "2024-11-19T08:00:00+00:00",
+          "snippet": "Does South Korea have what it takes to become a leading space nation? Nature",
+          "lexical_overlap": 0.15,
+          "relevance": 0.255,
+          "matched_terms": [
+            "leading",
+            "south",
+            "space"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "leading",
+            "south",
+            "space"
+          ]
+        }
+      ],
+      "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -24783,7 +26964,7 @@
     },
     {
       "id": "05e0979e7f32ba2f72",
-      "checked_at": "2026-09-30T20:50:58.041783+00:00",
+      "checked_at": "2026-09-30T22:39:42.312076+00:00",
       "promise_id": "BJP-2019-18c0750d5ed71bc3d1",
       "year": 2019,
       "category": "agriculture",
@@ -24952,15 +27133,15 @@
           ]
         },
         {
-          "id": "39358a03f2f466fdd5",
+          "id": "1af39614098ce2c5d1",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "yourstory.com",
+          "source": "YourStory.com",
           "source_url": "https://yourstory.com",
-          "title": "Flipkart signs MoU with SERP to enable market access, growth for FPOs, SHGs in Telangana - yourstory.com",
+          "title": "Flipkart signs MoU with SERP to enable market access, growth for FPOs, SHGs in Telangana - YourStory.com",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdGxJNXQ4NFR1ZldsQi1veEx3MUEzLW1keWV6d0kySm5zd0pVVVZrUnZiLWhQQlhTWkFfLUJvVVp2aFFNQzBZMGg2a0M2SWxSQUpEZFRsWDJUblpsb21JTDNiTVJ4OE8ycHplcVJyZlV3Z3pmTzhRZUhZN1VqQzVlUDFaNVQ1a21PSld0T093?oc=5",
           "published_at": "2022-06-25T07:00:00+00:00",
-          "snippet": "Flipkart signs MoU with SERP to enable market access, growth for FPOs, SHGs in Telangana yourstory.com",
+          "snippet": "Flipkart signs MoU with SERP to enable market access, growth for FPOs, SHGs in Telangana YourStory.com",
           "lexical_overlap": 0.136,
           "relevance": 0.241,
           "matched_terms": [
@@ -25411,7 +27592,7 @@
     },
     {
       "id": "f5811520c1d5623f19",
-      "checked_at": "2026-09-30T20:50:59.683132+00:00",
+      "checked_at": "2026-09-30T22:39:44.225684+00:00",
       "promise_id": "BJP-2019-1d3e95fa9344e842f3",
       "year": 2019,
       "category": "infrastructure",
@@ -25532,7 +27713,7 @@
     },
     {
       "id": "92d6920a15fb42f812",
-      "checked_at": "2026-09-30T20:51:18.279443+00:00",
+      "checked_at": "2026-09-30T22:40:01.023141+00:00",
       "promise_id": "BJP-2019-6abf03adda773fec98",
       "year": 2019,
       "category": "governance",
@@ -27407,7 +29588,7 @@
     },
     {
       "id": "1e0abc9f94016f3c7a",
-      "checked_at": "2026-09-30T20:51:01.163266+00:00",
+      "checked_at": "2026-09-30T22:39:45.664753+00:00",
       "promise_id": "BJP-2019-2af396deaf778cac73",
       "year": 2019,
       "category": "infrastructure",
@@ -27492,7 +29673,7 @@
     },
     {
       "id": "4af70c5cc4e5dd31ea",
-      "checked_at": "2026-09-30T20:51:07.720056+00:00",
+      "checked_at": "2026-09-30T22:39:51.354817+00:00",
       "promise_id": "BJP-2019-34c03859f07f1329c5",
       "year": 2019,
       "category": "infrastructure",
@@ -28601,7 +30782,7 @@
     },
     {
       "id": "93bb9754ab7125c8f1",
-      "checked_at": "2026-09-30T20:51:12.830974+00:00",
+      "checked_at": "2026-09-30T22:39:55.839644+00:00",
       "promise_id": "BJP-2019-6013bbae5c9fbd8c5a",
       "year": 2019,
       "category": "women_social_justice",
@@ -28628,31 +30809,29 @@
       "query": "2022 continuing pace full immunization coverage children",
       "evidence": [
         {
-          "id": "6f94fc3ecd6739dff7",
+          "id": "510a1625ef815de7e7",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "AffairsCloud.com",
-          "source_url": "https://affairscloud.com",
-          "title": "Health Minister Mansukh Mandaviya Launches IMI 4.0 for Children, Pregnant Women - AffairsCloud.com",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObGd6WGlIM2stZmdFb05hNldZbFJtRS1iYW5lWnpWdkxCTE5UbFUyclJ5Ml9hRlhLRHhxOGR4ankxTjVtUEJCSjRGc2pZUndOXzBkOXRyWFJBaU11SW5EV2c0bUNtaWRsZzVNTGRKMnQ4WFUtTkFyc0VwQXYzanFXamV3blVMenJ1endsZzZ3Q1ZqazlmQ0gyaVExWjBPeDFyaU8zdnduM0RORXNSU1M1SmxpcVQyeWJ0OF9HdnBn?oc=5",
-          "published_at": "2022-02-08T08:00:00+00:00",
-          "snippet": "Health Minister Mansukh Mandaviya Launches IMI 4.0 for Children, Pregnant Women AffairsCloud.com",
-          "lexical_overlap": 0.188,
-          "relevance": 0.292,
+          "source": "Johns Hopkins Bloomberg School of Public Health",
+          "source_url": "https://publichealth.jhu.edu",
+          "title": "As Immunization Coverage Begins to Recover, Inequities Remain | International Vaccine Access Center - Johns Hopkins Bloomberg School of Public Health",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTEJFek9zR0l6XzdNREUtbGRBUzg2ZjZlYTU1bTdseFRZVU5Fb1h2TDNoMkk4cVRnNE45WXM4b1VYN0hhVmp4WGR0RzVwdzVxbUZLM0VCMDdEczdmcXNfNTBYTWMtZFVXRDBBOWtjN2ktRkdQQ2ZTa3BYdHBreEFQMWRtZ3pGWWotMTZRanU2dWduZU11VTYtcy02LXg3Z3Fq?oc=5",
+          "published_at": "2023-07-26T07:00:00+00:00",
+          "snippet": "As Immunization Coverage Begins to Recover, Inequities Remain | International Vaccine Access Center Johns Hopkins Bloomberg School of Public Health",
+          "lexical_overlap": 0.087,
+          "relevance": 0.157,
           "matched_terms": [
-            "children",
-            "pregnant",
-            "women"
+            "coverage",
+            "immunization"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "children",
-            "pregnant",
-            "women"
+            "coverage",
+            "immunization"
           ]
         }
       ],
-      "implementation_signal": "current_reporting_found",
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -28667,7 +30846,7 @@
     },
     {
       "id": "1d1782ad81aa54afcd",
-      "checked_at": "2026-09-30T20:51:15.188317+00:00",
+      "checked_at": "2026-09-30T22:39:57.944821+00:00",
       "promise_id": "BJP-2019-63e2ccda189fa85e2c",
       "year": 2019,
       "category": "health_welfare",
@@ -31059,7 +33238,7 @@
     },
     {
       "id": "21c782a6ad2ecb8987",
-      "checked_at": "2026-09-30T20:51:04.442792+00:00",
+      "checked_at": "2026-09-30T22:39:48.228137+00:00",
       "promise_id": "BJP-2019-2cfa1375f165d41707",
       "year": 2019,
       "category": "other",
@@ -31684,7 +33863,7 @@
     },
     {
       "id": "09db92a7679f9e887b",
-      "checked_at": "2026-09-30T20:51:09.657076+00:00",
+      "checked_at": "2026-09-30T22:39:53.090906+00:00",
       "promise_id": "BJP-2019-4fc8289de8caed52ff",
       "year": 2019,
       "category": "other",
@@ -34259,7 +36438,7 @@
     },
     {
       "id": "df076e7dea8ba67624",
-      "checked_at": "2026-09-30T20:51:21.686453+00:00",
+      "checked_at": "2026-09-30T22:40:03.433187+00:00",
       "promise_id": "BJP-2014-078252941779345656",
       "year": 2014,
       "category": "women_social_justice",
