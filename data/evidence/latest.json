@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T14:29:09.190956+00:00",
+  "generated_at": "2026-10-01T20:23:08.918215+00:00",
   "capabilities": {
     "official_evidence_search": true,
     "verified_primary_gate": true,
@@ -12,12 +12,12 @@
   },
   "summary": {
     "claim_packets": 14,
-    "promise_packets": 552,
+    "promise_packets": 569,
     "promise_checked_this_run": 30,
     "promise_total_candidates": 841,
-    "promise_coverage_pct": 65.6,
-    "primary_candidates": 313,
-    "secondary_candidates": 739,
+    "promise_coverage_pct": 67.7,
+    "primary_candidates": 320,
+    "secondary_candidates": 746,
     "prior_fact_checks": 0,
     "publishable_auto_verdicts": 0,
     "claim_verdicts": {
@@ -33,757 +33,44 @@
       "deadline_passed_unresolved": 38,
       "deadline_not_reached": 9,
       "insufficient_evidence": 27,
-      "not_machine_measurable": 471,
-      "audited_total": 552
+      "not_machine_measurable": 488,
+      "audited_total": 569
     },
     "claim_memory": {
-      "families_total": 28,
+      "families_total": 42,
       "repeated_families": 0,
       "repeated_contradicted_families": 0,
       "repeated_supported_families": 0,
-      "occurrences_total": 28
+      "occurrences_total": 42
     }
   },
   "claim_packets": [
     {
-      "id": "573f79da4c07b8fd82",
-      "claim": "One such major, historic achievement of India is set to mark its 10th anniversary in just a day – this achievement is the ‘Surgical Strike’.",
+      "id": "63b703ab25dbb97e26",
+      "claim": "The manner in which India’s Captain Smita displayed patience, prudence, and courage, and as the Prime Minister of Israel said today, this Indian prevented another 9/11 from taking place.",
       "extraction": {
         "reasons": [
           "number"
         ],
         "numbers": [
-          "10"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7ead97be2e6532244839",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address in the 138th Episode of Mann Ki Baat",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-in-the-138th-episode-of-mann-ki-baat/",
-        "published_at": "2026-09-27T06:45:05+00:00"
-      },
-      "query": "achievement one major historic set mark",
-      "numbers": [],
-      "promise_matches": [],
-      "evidence": [
-        {
-          "id": "03e4776171e2cb8df4",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Historic Moment for Rural India : Prime Minister Shri Narendra Modi to Distribute 65 Lakh Property Cards on a Single Day under SVAMITVA Scheme, tomorrow - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBnRTh2ZFhRN1dWcTRzLUQzem1HeDVqTGh5VGg5MnhpWGlVUWY1QmxLd2JwRUs5RXAtejVuYVdpbHJTZG1oRzRoMkhCWjBGRjJYY3liOTNCd1lpLWJiWFNvRXdCelE3ZHBJ?oc=5",
-          "published_at": "2025-01-17T08:00:00+00:00",
-          "snippet": "Historic Moment for Rural India : Prime Minister Shri Narendra Modi to Distribute 65 Lakh Property Cards on a Single Day under SVAMITVA Scheme, tomorrow PIB",
-          "lexical_overlap": 0.083,
-          "relevance": 0.203,
-          "matched_terms": [
-            "day",
-            "historic"
-          ],
-          "shared_numbers": []
-        },
-        {
-          "id": "671369747ed756c905",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "International IDEA",
-          "source_url": "https://www.idea.int",
-          "title": "Marking a major achievement in the fight for stronger political transparency and accountability - International IDEA",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbVh3SzBRU0ZXMzU3c0gtTFdiRTFzRnZWY0ZyS2ZMaDFQejBvRVh5ZXdmMDVDUldBN2hLSHQxQjFYNktRMHU0YzRHcnVZZnhvSDhOUU1Xamd5ZnBQNm5EUjNZUFFGNW9iLWhrajg2QzJKaE5lSm9RTkVwTWt1aF9XZjZhVE8ycno1clo2R0loQ25TejJDaVNjT1pubWViTnFVcm5lazdkR2tGa3k4?oc=5",
-          "published_at": "2026-01-29T08:00:00+00:00",
-          "snippet": "Marking a major achievement in the fight for stronger political transparency and accountability International IDEA",
-          "lexical_overlap": 0.1,
-          "relevance": 0.17,
-          "matched_terms": [
-            "achievement",
-            "major"
-          ],
-          "shared_numbers": []
-        },
-        {
-          "id": "b4c502186cc7cdc33a",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Yahoo Sports",
-          "source_url": "https://sports.yahoo.com",
-          "title": "Falcons news: Bijan Robinson pulls off historic achievement amid TNF vs. Packers - Yahoo Sports",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWnluMjdUNHVhc1lFYk1qd29GYzVRZTdoY01nRUl5ajBlaVVjVHZ1eVJvcl9hVDFXTDV4a2FnaENHcmNMR1NtQnZneHNwM1pXTktIcVdTeE9jX0Y3U3BZaDhrT01hSkZidk1sanM0VTRFek9PWFJmVnVoWXh0NFZqQnp6MllqVF9TMVE?oc=5",
-          "published_at": "2026-09-25T03:46:00+00:00",
-          "snippet": "Falcons news: Bijan Robinson pulls off historic achievement amid TNF vs. Packers Yahoo Sports",
-          "lexical_overlap": 0.083,
-          "relevance": 0.153,
-          "matched_terms": [
-            "achievement",
-            "historic"
-          ],
-          "shared_numbers": []
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "996d9590b2e6e7dad8",
-      "claim": "Ten years ago, on September 28-29, 2016, the Indian Army carried out surgical strikes on terrorist hideouts in Pakistan.",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "28",
-          "29",
-          "2016"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7ead97be2e6532244839",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address in the 138th Episode of Mann Ki Baat",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-in-the-138th-episode-of-mann-ki-baat/",
-        "published_at": "2026-09-27T06:45:05+00:00"
-      },
-      "query": "2016 28 ten ago september army carried out",
-      "numbers": [
-        "2016",
-        "28",
-        "29"
-      ],
-      "promise_matches": [],
-      "evidence": [
-        {
-          "id": "b5a8402ca43a87e10a",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Telangana Today",
-          "source_url": "https://telanganatoday.com",
-          "title": "PM Modi recalls 2016 surgical strikes, says India follows zero-tolerance policy - Telangana Today",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdGo5QktocGdfQ2NDSXJyZ1ZjN1d5U3FWQmh1TUpnVFVTTUk5Y0hXSFUxZnRMaUhyU1R0bDdYXy11Wm14Q2IyRWFqQmdTc1d1SVBrZlpsemxWdVA5TnJjY1JzNlEyc1hRT0F6ZzRfYmZMSzRSek9TQTdmTjlfdno4N3VNVWNRYktNWjRPNTMweXFCY1pzckZZV0pFLWtMMXpPR2l3YnRUTmY?oc=5",
-          "published_at": "2026-09-27T09:59:46+00:00",
-          "snippet": "PM Modi recalls 2016 surgical strikes, says India follows zero-tolerance policy Telangana Today",
-          "lexical_overlap": 0.118,
-          "relevance": 0.298,
-          "matched_terms": [
-            "strikes",
-            "surgical"
-          ],
-          "shared_numbers": [
-            "2016"
-          ]
-        },
-        {
-          "id": "e9a3555cac3352beb0",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Federal",
-          "source_url": "https://thefederal.com",
-          "title": "2016 surgical strikes sent clear message’ on India’s response to terrorism: PM Modi - The Federal",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTFJSUDM5SXNYNExobWd6QnRjbDMxQ2VGREdtZEU1QWFybnc3YXBfWXJtcFhVWGFNUVd0TGtFNXE1SVNjUGNsODF0TTJMb0RwNF9MM0dESkdLUWlHOEVrWjBsR29ITzBWdzZQQndDN24wUVMxSXFid0UzdVJFa2lIeDYxcDUwdjBFT1JsQkYzMXV6QnFWRnQwR0w4U1BFeUZsZzlETjd5U1dtUkRXelE0NlNBZ2UxVGRrZERKVnhZZzVaUQ?oc=5",
-          "published_at": "2026-09-27T07:21:41+00:00",
-          "snippet": "2016 surgical strikes sent clear message’ on India’s response to terrorism: PM Modi The Federal",
-          "lexical_overlap": 0.111,
-          "relevance": 0.291,
-          "matched_terms": [
-            "strikes",
-            "surgical"
-          ],
-          "shared_numbers": [
-            "2016"
-          ]
-        },
-        {
-          "id": "df6bb76f290d27c7fb",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "ANI News",
-          "source_url": "https://www.aninews.in",
-          "title": "PM Modi recalls 2016 surgical strikes on terror launchpads, says India has displayed firm resolve against terrorism - ANI News",
-          "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQRkZMZWJ6dzJVRms0Y3kyWXp3Y1RaMmVNenFtTHpMTTg3UmxNUDFfY0ZpV29sZU56WmFNQndTbWhQYlYxOUtXNWlpOTVfNGRNWlM1WlFlZVQ4T3YwLTAwUnVWTTR0WHpYemJraWhaaEJNRDRieVFVZDAtVmdKeDJBd3VXaTdmbTJnV0FHWFdvaWg0aDhOMm11eHB3SzBnaTluSmhwNW9RdmlGZjdKbDBNdG5ZTlNaamxLeW5SME9SUzFaUU5WbDBXVllnLWZrTVZOcVZyaTZRYVJldG5MdjRXUDkydVd2dTZoSjF3bVlqMmNZenl2SFQ2RUdORXpBUnVjS044YXhIWjRXVlQzS0E?oc=5",
-          "published_at": "2026-09-27T05:58:00+00:00",
-          "snippet": "PM Modi recalls 2016 surgical strikes on terror launchpads, says India has displayed firm resolve against terrorism ANI News",
-          "lexical_overlap": 0.087,
-          "relevance": 0.267,
-          "matched_terms": [
-            "strikes",
-            "surgical"
-          ],
-          "shared_numbers": [
-            "2016"
-          ]
-        },
-        {
-          "id": "74b7fb22d5adf65d8d",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Times of India",
-          "source_url": "https://timesofindia.indiatimes.com",
-          "title": "The Backstory: 10 years of surgical strikes, the 10 days after Uri - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQdmdNOEV4MHY4TkhNOHQ3ZU5SbzFrTldCaW42a1ZKQURnc2tqMlBwWml6SlgxSkM5V09nby0ycEpFb2V1MlZ3QUxZNnRrQ2pNZk8tWGtBcGlGVVdQLXRfdGstaF8tN0Z5R28tNFZKOXk5MEhTSkozeGNzc2hYaWJxNU5kc1dMNWIwME1XOE1DTU1WWFJRdDhrbWQ4RjQ0NTQyc1FPcndFUWNKZE9wMnJyeVJSN19RVE84YVRPN2V6YlF0aXNaQ241Zzc0S1NWNXZoODNpMDJzRVRBampWRFhQeVZZams4X09uSjhyVGFlOTROU201Zkt3Nm14YmZjUWNuVmRyc3BR0gGLAkFVX3lxTE9UaS1VOUcxTzVyRjkzY2IwT0l6Z0JFZFhBNHlNRVRsc2UyU0YzS0REazVqQUZtNEpkbDZZTGEzcER6WUd2Z1lIbndMZldTWGRKVFBERzlta1FLSjFTa0ZlLVhfbm16UGhDWDc4NVRiU25tMF95ZkJFUE1IQnpkdnlMaTlYMmZLb1I4R3RGNnRXZUZERTFqRkMzN3FNNlRzOXE1OGRReWc4T3NXVkZuc0UzWjVYd3JwemMta1psRnY2Y0FRT0xPNmhQZjBDR0lURXIwS0hXOE9UVl9kYklZN21TaXZIMHdzUjNJUnRwbEJkbnlDcjc4cHZtYk5GYUtETXdvVmVrRHM1N01CQQ?oc=5",
-          "published_at": "2026-09-29T11:55:00+00:00",
-          "snippet": "The Backstory: 10 years of surgical strikes, the 10 days after Uri The Times of India",
-          "lexical_overlap": 0.125,
-          "relevance": 0.195,
-          "matched_terms": [
-            "strikes",
-            "surgical"
-          ],
-          "shared_numbers": []
-        },
-        {
-          "id": "8528ab9f89d03c3e68",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "indianexpress.com",
-          "source_url": "https://indianexpress.com",
-          "title": "10 years after surgical strikes, more eyes on ground and sky, focus on Jammu - indianexpress.com",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWXdibHJUbDVXMXhmMWxXRGVYblVxUXBYU3VHMzJhT3ZqWWp1aTRmN1cwYnRzR0pBMDgyQVdXOTg4OVkwM21JZXNVcF9MR0p0ZW9lV3EtaURzSUR2WndNRkdTVXJNbFNBSmRCQzlXX2F1SHNfVkwzZ00xRnY1dTlKb0hZZ1R0VTlKekthNEdKMWMtWXFfZTVTdVllTlFsRG9wSmlYM0Q0RFlCZzR1RFhoMTJR0gG4AUFVX3lxTE52X1B6RXRwSkwzbmI4TDgzYlNfdF9VWVpEMDVBQlhJS0VkR2tGdXF5TzJac191eEctZFpscG5xVF94VzZIRjkwODV2NFgzTkZtdDB4d0FNSVQyQm9XbDdHcUxuX2xuN2ExcGZmNDhoNVBmaExoS2Z2QjU0c25BRm9ibF9HVmhzbkY0NUJUSm9DV3k4ZlhaZjFCNnphVExmeWhlQ3NhYUpUc1dNcHU5Tkhldm9PUGNScl8?oc=5",
-          "published_at": "2026-09-29T00:24:38+00:00",
-          "snippet": "10 years after surgical strikes, more eyes on ground and sky, focus on Jammu indianexpress.com",
-          "lexical_overlap": 0.105,
-          "relevance": 0.175,
-          "matched_terms": [
-            "strikes",
-            "surgical"
-          ],
-          "shared_numbers": []
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "ad3b32e921b40f7e17",
-      "claim": "It was in this very month of September – specifically on September 13, 2008 – that many innocent lives were lost in the serial blasts in Delhi.",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "13",
-          "2008"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7ead97be2e6532244839",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address in the 138th Episode of Mann Ki Baat",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-in-the-138th-episode-of-mann-ki-baat/",
-        "published_at": "2026-09-27T06:45:05+00:00"
-      },
-      "query": "2008 13 september was very month specifically many",
-      "numbers": [
-        "13",
-        "2008"
-      ],
-      "promise_matches": [],
-      "evidence": [],
-      "fact_checks": [],
-      "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "e660ab2e87c0220e7e",
-      "claim": "Just a few weeks later, the massive 26/11 attack took place in Mumbai.",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "26",
-          "11"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7ead97be2e6532244839",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address in the 138th Episode of Mann Ki Baat",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-in-the-138th-episode-of-mann-ki-baat/",
-        "published_at": "2026-09-27T06:45:05+00:00"
-      },
-      "query": "11 26 just few weeks later massive attack",
-      "numbers": [
-        "11",
-        "26"
-      ],
-      "promise_matches": [],
-      "evidence": [
-        {
-          "id": "b54757ea4899c81d91",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Washington Post",
-          "source_url": "https://www.washingtonpost.com",
-          "title": "Two members of Massive Attack banned from Singapore after pro-Palestinian display - The Washington Post",
-          "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNWmpoUk5KOUdWY0MweDhKMjJ1ejdpZDlMWjlYWWtXTGYwOXo3YUZ5bFBLeDZMdy1GSURPanJVY0NMME8xY19FaDNkdzF5TGI0NXNYUDZmUnZ6dndod3M4czBlVmF4RXFDMFM1ZF84SGdidDkzTEYySkJNMzhRekRrSy1TaG5Ma0ZDajVDakdyV1dpV3NkMldiSlZPVjlja2k1N0R6NFJFVWNwTXBqQ01oeXR4LVJsdHdBLVEyeTI5bkJFYzgyQ1JueklvY0ZRLUEwdUhaTlVpZExpVHpibGlrbXBiOHctcEFiUjZUWTBOWGxVMi1HMHFqMGJ6TTBfdjdZZy02bTJUREprS05WYmpvYg?oc=5",
-          "published_at": "2026-08-04T07:00:00+00:00",
-          "snippet": "Two members of Massive Attack banned from Singapore after pro-Palestinian display The Washington Post",
-          "lexical_overlap": 0.111,
-          "relevance": 0.181,
-          "matched_terms": [
-            "attack",
-            "massive"
-          ],
-          "shared_numbers": []
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "71aa213d13ff043097",
-      "claim": "Friends, This year also marks 25 years since the 9/11 terrorist attacks.",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "25 years",
           "9",
           "11"
         ],
         "context_before": ""
       },
       "claim_source": {
-        "id": "7ead97be2e6532244839",
+        "id": "f69d64ba78b07d9988d1",
         "kind": "official_speech_or_video",
-        "title": "PM’s address in the 138th Episode of Mann Ki Baat",
+        "title": "PM’s address at the Centenary Celebrations of UPSC",
         "source": "PMIndia",
         "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-in-the-138th-episode-of-mann-ki-baat/",
-        "published_at": "2026-09-27T06:45:05+00:00"
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
+        "published_at": "2026-10-01T09:05:21+00:00"
       },
-      "query": "11 25 friends marks since terrorist attacks",
+      "query": "9 11 manner which captain smita displayed patience",
       "numbers": [
         "11",
-        "25",
         "9"
-      ],
-      "promise_matches": [],
-      "evidence": [
-        {
-          "id": "f9fa204d6afc1fbadf",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Spectrum News NY1",
-          "source_url": "https://ny1.com",
-          "title": "New York City marks 25 years since 9/11 attacks - Spectrum News NY1",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYjdXNVhEbGVwQkhzckljeU1SOXpXVGtNLUVWN3dYcHBoQXgxYnpVUFBCZ1NpaFhPQ2lFZjBYenNWOEFxTEQ0OTlEWVFOQll6TENmX3VSSXRrWHgyRDcyYUZncmdnel9XX3RzMm5ma25DUFl6djB4cEJCbDJFVHRhdG13cTVGN05IZV9Bbw?oc=5",
-          "published_at": "2026-09-11T07:00:00+00:00",
-          "snippet": "New York City marks 25 years since 9/11 attacks Spectrum News NY1",
-          "lexical_overlap": 0.3,
-          "relevance": 0.625,
-          "matched_terms": [
-            "attacks",
-            "marks",
-            "since"
-          ],
-          "shared_numbers": [
-            "11",
-            "25",
-            "9"
-          ]
-        },
-        {
-          "id": "561121eeb30c400af8",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "WBOC TV",
-          "source_url": "https://www.wboc.com",
-          "title": "Ocean City marks 25 years since 9/11 with the promise to remember and pass on | Latest News - WBOC TV",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOY25rSk1fcndYRjd1dVNHRWxpUnlNSk03M0ZyNjU0MjRfMHpWMU5hZ1A2RTd2YTByNHpja184SlE2Q2xSS0xHM0F4UFJRd2VmaFNnWTRIWXNnb2xmUHhpNjRBZl9PTjFmV29mYWlDS0FVZ01aaEhKc29OWTZUekhmZ2NmakswN2l2dG84WlY1a2c4QUhxUTUxWk5kbzBReVkwZDRxcVloel9DTDNyNWdHaGJJcUxVekVEdWs3YnowdUJIQVBmNEp0TjlsSFlOMDZ3My00a3o3UDlwYk5XWHM4UFB6ejc?oc=5",
-          "published_at": "2026-09-11T07:00:00+00:00",
-          "snippet": "Ocean City marks 25 years since 9/11 with the promise to remember and pass on | Latest News WBOC TV",
-          "lexical_overlap": 0.143,
-          "relevance": 0.433,
-          "matched_terms": [
-            "marks",
-            "since"
-          ],
-          "shared_numbers": [
-            "11",
-            "25",
-            "9"
-          ]
-        },
-        {
-          "id": "586e303940eb0ba03b",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "6abc Philadelphia",
-          "source_url": "https://6abc.com",
-          "title": "Bucks County honors local 9/11 victims 25 years after the attacks - 6abc Philadelphia",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPM05qRWpnV3ZZbkh1RDJBZGJDQUxvV3Q2QkFBSDhzaEd0LTRSRkFZYzg5TWZyWkZ2VG0zWk9mOHpnQmQtTzRVNGZQZnZ6NmJBM0Q5R3k1RnM5a0pQQ2ZPbHQ5bzlwRWxiNXpkQy1PbkZUSnJoUmJFSVhCcUFQNkZxenhoaXpuYVVQb2hOUjVHWdIBlAFBVV95cUxPMFo0RDJoaWRLVjBNSnlBSVExSHNUSllmVXp1N1QxdUdLemxOSDBKRnNMT1dmcy1lN2dKRGFYeDUxd2hWeHNSVFpXVXFSTHlsS2N6UVNZaWozYkdpMS1EZzRQZnhVdGp4VzBYV3pLODBQM0tKNHVJNFJsM0czdW5BZWFuQWE3cWVUc1NtazRrV0NVMVFB?oc=5",
-          "published_at": "2026-09-11T07:00:00+00:00",
-          "snippet": "Bucks County honors local 9/11 victims 25 years after the attacks 6abc Philadelphia",
-          "lexical_overlap": 0.077,
-          "relevance": 0.332,
-          "matched_terms": [
-            "attacks"
-          ],
-          "shared_numbers": [
-            "11",
-            "25",
-            "9"
-          ]
-        },
-        {
-          "id": "46ebdbce573f22b41b",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Pocono Record",
-          "source_url": "https://www.poconorecord.com",
-          "title": "Event marks 25 years and over 7,000 troops lost in war on terrorism - Pocono Record",
-          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQSTJsTExzdVB5VFpHblpGN2wzUzBfTkk1VjJJUjJVU2kxcFFrTkZoOTY2VTdfcWN3T240eXBsbFVVc0x0bnFRazRzUXlGME0zSjY3TjRMbFhkWGRUSmV0ZW9aUWZpZmFRVlZNdGNUczVOcFNlS0FBZk5mTENrTVpqb2dnU3oycE1weklydEJQVG1iMENGajE1YjVmeVdkYmRZSjZPaWtqeFJ3aUtuQUlUeV8yV0Q1b3JpUjVfczY0UFNLSC0xeE5fLVEzUnFKVENYemtWUk5McDNnR21GcHJFcnh1WGhrV3lQVEliSm9oWnhDQ0hndzhCMGxWRQ?oc=5",
-          "published_at": "2026-10-01T08:39:00+00:00",
-          "snippet": "Event marks 25 years and over 7,000 troops lost in war on terrorism Pocono Record",
-          "lexical_overlap": 0.083,
-          "relevance": 0.228,
-          "matched_terms": [
-            "marks"
-          ],
-          "shared_numbers": [
-            "25"
-          ]
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "adb5adc7da09a0ae68",
-      "claim": "Among the innocent lives lost at the World Trade Center in the US, the highest number of victims—after Americans – was Indians.",
-      "extraction": {
-        "reasons": [
-          "rank",
-          "comparison"
-        ],
-        "numbers": [],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7ead97be2e6532244839",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address in the 138th Episode of Mann Ki Baat",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-in-the-138th-episode-of-mann-ki-baat/",
-        "published_at": "2026-09-27T06:45:05+00:00"
-      },
-      "query": "among innocent lives lost world trade",
-      "numbers": [],
-      "promise_matches": [],
-      "evidence": [
-        {
-          "id": "65bd8ccb705c9bf5db",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "ABC News - Breaking News, Latest News and Videos",
-          "source_url": "https://abcnews.com",
-          "title": "The steel 'embodies his soul': 9/11 family takes World Trade Center beam across US - ABC News - Breaking News, Latest News and Videos",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObGtnX0xMLU9VQXlvUk9UR1J3clF5QXBaUUd6Mm9XcXNXaTk0TEVMdkQ5VXE1T0hMbXNqRkVXZE0zUHBndzNnc3VfbS1LTW91cE1RRFd3Q2FKOGxkdzRHQlJ3dzJhbWZGV3ZROGhncXdXRzJiRnhlb1A0Qk5PSC1ENEw4d0Fxc3NMUWRBSFozX1FpR0JP0gGaAUFVX3lxTE1jbFNEUGFacXNIS01MUk94RDc1V05vWlViSkhnaUtET2F4TjUzLV9QcEotb284RTY1UmRiTXFpOTJRbmFsQU5tOEtKSl8yRHF4UGJiYmdvNF9vT053d3BNZENoNHNWaUNiR1h0NTlCWkJuVENRMk5RdWdieXBkV19VOTkwUG1YN25McmVSelZPVXZlZU1pNEh6eGc?oc=5",
-          "published_at": "2026-09-07T07:00:00+00:00",
-          "snippet": "The steel 'embodies his soul': 9/11 family takes World Trade Center beam across US ABC News - Breaking News, Latest News and Videos",
-          "lexical_overlap": 0.167,
-          "relevance": 0.307,
-          "matched_terms": [
-            "center",
-            "trade",
-            "us",
-            "world"
-          ],
-          "shared_numbers": []
-        },
-        {
-          "id": "246607b63e7b2d53ac",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "ThePrint",
-          "source_url": "https://theprint.in",
-          "title": "Mann Ki Baat: Modi recalls 9/11 attacks—’highest no of victims after Americans were Indians’ - ThePrint",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYzZYVFItTlFCY2I0UVItQTdSUF9VLWlSTTZsLVpJcXRKc2o3aHZOT2FxeFMyUEx4WHVHU1hBY1JoR0Ywd1ZfRFVndzVYeGg5eTVtSkFqbm1LeXEyRkxoWWlxQ2pXamgxOXhVTldmbEk0YkVoMFNVU3d1YTVIRk5fUVZ5bDNVWWZfaW1ld1RKYUlBN0k1MTd0XzA3R3pDNjY5NXZCU1JnRzRuaHljOE8xRHRqOWdOa2J2cTVsd1hGZHRMdURpdHRB0gHMAUFVX3lxTFB1TXVVLUtQSDVvOTEyUWdRWTdEVml3RVBQRGVrbzJQZHlBY3ZIcWViWTdiSzY0d1paXzNUSWZmbmNfaXBEcGkxYlhZcmxDRG5FWmg5YmFYOE9vcF9HREpQdnNPbzVZUGF6dkQzY0pMX1prYm85TFJIb1Y3RGxpcjRBM2lUZHF2dHBWVDR1RjRFd0xzODR2V2NEdUpEOGhwY3ZNV280OU03elZmWmVvNkIxU0dVYjFxUXJhbjhVZVhIcVN2bWI0UU0taGI1dw?oc=5",
-          "published_at": "2026-09-27T11:19:41+00:00",
-          "snippet": "Mann Ki Baat: Modi recalls 9/11 attacks—’highest no of victims after Americans were Indians’ ThePrint",
-          "lexical_overlap": 0.136,
-          "relevance": 0.241,
-          "matched_terms": [
-            "after",
-            "highest",
-            "victims"
-          ],
-          "shared_numbers": []
-        },
-        {
-          "id": "50fa5ee92f9b42f9d5",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "villagegreennj.com",
-          "source_url": "https://villagegreennj.com",
-          "title": "South Orange, Maplewood, South Essex Fire Dept to Remember Lives Lost on Sept. 11, 2001 - villagegreennj.com",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYUhzVEtUOTJxZXhTamVPV2F6b3piUm9vb01tVXhucnJvYXVWZ3ljeUhXYWNqZlM1NXdoOHFaMXhzcjBRZWpUTlJFbW4ySU0zalBVTUlGbFBseVBBYUc4SmF1VXhSTl9PUFpIcW0yUWZDZWVpUVhyLWtFa0ZuT1lpcDFEd21CaDVPQ1NJN24zLWR3Z2tNN1E3amw0Z1p4TnRKSlRPU29FY3BqZlcxcEVTNkdKYV91MERxZ0VtcEd3?oc=5",
-          "published_at": "2026-09-08T07:00:00+00:00",
-          "snippet": "South Orange, Maplewood, South Essex Fire Dept to Remember Lives Lost on Sept. 11, 2001 villagegreennj.com",
-          "lexical_overlap": 0.091,
-          "relevance": 0.161,
-          "matched_terms": [
-            "lives",
-            "lost"
-          ],
-          "shared_numbers": []
-        },
-        {
-          "id": "adb061a0a2d128a336",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "facebook.com",
-          "source_url": "https://www.facebook.com",
-          "title": "Solemn ceremonies in New York City and across the U.S. are mourning the thousands of lives lost on Sept. 11, 2001. A new moment of silence at ground zero will honor those who have perished from illness because of the toxic dust they inhaled after the attac - facebook.com",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTkhkemh0Nl9BNXpJcXZ2S1ZHNE80clNPVjctajZ5aVhJeHRCdVJiTXNQYkRPNE5jWTdTTmhXMDJHSUplOGFmMW03TGdtbncxSnFpWWhxYk4zZ2tWdEtOdHRSZXFpSTdLN0MzZ3JxX01kdm1UZnl4am1sci13V3U2SFF5UEFvV0hlZnd4X3puOERScld5bjU2V1RBUllOTnFvd0RycWNtdkZNYXdweEVmWEtwTm1zai13dnlvdGxmWldseEhrUW0tX2s4dnR5dk1Sa1J3?oc=5",
-          "published_at": "2026-09-11T07:00:00+00:00",
-          "snippet": "Solemn ceremonies in New York City and across the U.S. are mourning the thousands of lives lost on Sept. 11, 2001. A new moment of silence at ground zero will honor those who have perished from illness because of the toxic dust they inhaled after the attac facebook.com",
-          "lexical_overlap": 0.077,
-          "relevance": 0.147,
-          "matched_terms": [
-            "lives",
-            "lost"
-          ],
-          "shared_numbers": []
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "5188ec0a1ee72de85f",
-      "claim": "I recall that after becoming Prime Minister in 2014, when I visited the US, I had reached New York to pay my homage to those innocent citizens.",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "2014"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7ead97be2e6532244839",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address in the 138th Episode of Mann Ki Baat",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-in-the-138th-episode-of-mann-ki-baat/",
-        "published_at": "2026-09-27T06:45:05+00:00"
-      },
-      "query": "2014 recall after becoming when visited us",
-      "numbers": [
-        "2014"
-      ],
-      "promise_matches": [],
-      "evidence": [
-        {
-          "id": "2e63ceec797b68eba3",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "indianexpress.com",
-          "source_url": "https://indianexpress.com",
-          "title": "As Moshe comes visiting after 9 years, locals recall Chabad House without its walls - indianexpress.com",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQaTZLZVMtOWJ3V0g2aEMxWjRkSnZqODRxZWRsOW9TV0hkRkZKaTFIV2JtdUtxamdPelBHMmFIMmFWT3BlTktmWEdKbF9VNjNCc0tVS2s0MFp0QlRwWWlMeDNPQjRGQ0VVVWRLZXJKQ2F3dUhNVml2dzVXUXBxQXl6TWFNTEg5QkgySW0yUU5hSlRCVXoxRU5pMDBqcHJLM19lTG5RbkxFNXQzM0NPTVRiV2VBNWs0dll0aVg5bEV1X3hucTRWUVRnV2VVdXZBcnpHZHZxSFh30gHcAUFVX3lxTE1OM2RDbUpkUzZPaklWT1Y1R2RsZ1hOUUIxWlM0RVJXUEp2MHNYVE0tMzFOREtEUnU3YnBEVm1DZUJCQ0FrU2ttSnhVQmgzeV8tQlpjR0ZwZ0tTcmlMcXlDcTZIa1h3RjB3UnJDUFNkR0l1NU94VGo4ZHZfVlgtbC1jVTktZXpYQWdSVWtiSDhsdG1wN051YXRuOE9SVVNMYXR0RjZRV3p2d2Z1UVdONXVNT2ZLWGVZVE5Ta1FpdFFZdWtudUMzTFU4aXVaZkpua3UybHlyY21oUDR3eFE?oc=5",
-          "published_at": "2018-01-17T08:00:00+00:00",
-          "snippet": "As Moshe comes visiting after 9 years, locals recall Chabad House without its walls indianexpress.com",
-          "lexical_overlap": 0.091,
-          "relevance": 0.161,
-          "matched_terms": [
-            "after",
-            "recall"
-          ],
-          "shared_numbers": []
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "f8b649ac14178cd070",
-      "claim": "The first phase of this exercise is nearly complete across all states and union territories; data of over 32 crore families has already been recorded.",
-      "extraction": {
-        "reasons": [
-          "number",
-          "comparison"
-        ],
-        "numbers": [
-          "32 crore"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7ead97be2e6532244839",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address in the 138th Episode of Mann Ki Baat",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-in-the-138th-episode-of-mann-ki-baat/",
-        "published_at": "2026-09-27T06:45:05+00:00"
-      },
-      "query": "32 first phase exercise nearly complete states",
-      "numbers": [
-        "32"
-      ],
-      "promise_matches": [],
-      "evidence": [
-        {
-          "id": "165ac5d11f54be789f",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Deccan Herald",
-          "source_url": "https://www.deccanherald.com",
-          "title": "'Census is national responsibility, 1st phase nearly complete across all states and UTs': PM Modi - Deccan Herald",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQaGZFc0ZRNWJ3cVFuNlBhUWhrbUlHV3hSeVp5Xy0xN25QV0cydzVaSUdaTlF5c29oNm11ak1fQ3pxa19JLXBoRlBuSmNZT2JLUEZEeTFvZ2tEVDBqWWNvX3U2QnZqZi1mZ0tjalRrME9vRGw5ZEFJb3EwY3oyTGYya1hpNk5BRUdkeW1WeGpRaUVydWh1VVFCb256NlQtbG1ySmRuSW1VWlk4S0UxUXFHY0RDUm1hZ3h5Nkp2ME9fc0JkdFR5cTJfdUkyaGdHVW4ybUE?oc=5",
-          "published_at": "2026-09-27T10:20:36+00:00",
-          "snippet": "'Census is national responsibility, 1st phase nearly complete across all states and UTs': PM Modi Deccan Herald",
-          "lexical_overlap": 0.2,
-          "relevance": 0.34,
-          "matched_terms": [
-            "complete",
-            "nearly",
-            "phase",
-            "states"
-          ],
-          "shared_numbers": []
-        },
-        {
-          "id": "72d16fa0cf3a18fe1c",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "thehindu.com",
-          "source_url": "https://www.thehindu.com",
-          "title": "Enrolment in third phase clinical trials for India’s first dengue vaccine nearly complete, says ICMR - thehindu.com",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQRG9QNnNlREY3UzFtaUY2enJleWd3OWFDZEttd3Z2WS14QmptOEl5ellvcUIxTFNtaENSQ1JMNXBjVTA4UDBMSjVLcGJZSDBaRXdFcjNOd1B2WXNYRTFZVnJRcHRKRFpPdFR0QmpURjlKQ1RNSGtLUlN4TnJJR3dUaG5Rc0hld2YyTXRRQ085VGJKWGNUS1VHUHpDVXdwNHFJYmZBekxOdFZQSmx0c2FlNmprYVVOOFp5SXA3M1pLUXBwdTB3Sm9aR0M3YVVfZ2RLcXVYRXI0dnM5YnczTnZpWnRWYm1pX051UkVXQTAzRnTSAfcBQVVfeXFMTkJoUjg3alY3S3hrRVJ5UVN1X0ZhX05qWHBKZHd1ZDJoSDZGei1XMi1wNWMyVEh4ZkdwanJiX1ZkTm5BNzZ2Zl96RXYwdkpiWkZZUDdCMXNsR3Bha1dyRkRKZFB5di02cXZnWG8wRC1ETmhSbWVCaW90TUxsdkJ0UmtkT2hRSjJDUWhUdThfNTZvUXJldjM5bXFTUXBxSnJLcGRnUlM0T0kzVndzd0VMRFZUM0ZrRkV0NzRHdWkyZURISzdVQlphVjBiSG0wbkd5VTBHN2Y0UFdLcnFuZVJCRnNDSUhDVjBIdE5iNl9xbDRvQ0ExaEpXWQ?oc=5",
-          "published_at": "2025-07-12T07:00:00+00:00",
-          "snippet": "Enrolment in third phase clinical trials for India’s first dengue vaccine nearly complete, says ICMR thehindu.com",
-          "lexical_overlap": 0.19,
-          "relevance": 0.33,
-          "matched_terms": [
-            "complete",
-            "first",
-            "nearly",
-            "phase"
-          ],
-          "shared_numbers": []
-        },
-        {
-          "id": "1d220345f2c4738cc3",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Union Home Minister and Minister of Cooperation Shri Amit Shah intervenes in the discussion in the Lok Sabha on the Delimitation Bill, 2026, the Constitution (131st Amendment) Bill, 2026, and the Union Territories Laws (Amendment) Bill, 2026 - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9tb252aGZZLU41R01UVkc1X2dHdzU3SGJVUzdBZ3FyT0hHSU04U05rcmFCRWFzSzVRNy00c256WnYzUFk1NWpqWFlPSXhNNVczUWhiVlVkOFJ6cjhrdVVsdzRaTTBIWVh4?oc=5",
-          "published_at": "2026-04-16T07:00:00+00:00",
-          "snippet": "Union Home Minister and Minister of Cooperation Shri Amit Shah intervenes in the discussion in the Lok Sabha on the Delimitation Bill, 2026, the Constitution (131st Amendment) Bill, 2026, and the Union Territories Laws (Amendment) Bill, 2026 PIB",
-          "lexical_overlap": 0.077,
-          "relevance": 0.197,
-          "matched_terms": [
-            "territories",
-            "union"
-          ],
-          "shared_numbers": []
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "e5dfba58007d029fbc",
-      "claim": "The process there started with 83-year-old Purnima Rawat ji.",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "83"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7ead97be2e6532244839",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address in the 138th Episode of Mann Ki Baat",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-in-the-138th-episode-of-mann-ki-baat/",
-        "published_at": "2026-09-27T06:45:05+00:00"
-      },
-      "query": "83 process there started year-old purnima rawat",
-      "numbers": [
-        "83"
       ],
       "promise_matches": [],
       "evidence": [],
@@ -798,28 +85,353 @@
       "human_reviewed": false
     },
     {
-      "id": "267787130e54f91150",
-      "claim": "On 15th August also, I had urged my countrymen to take time out for that.",
+      "id": "88113c4cc7679dfe59",
+      "claim": "Friends, Today is not only a celebration of 100 years of the UPSC, but also a celebration of a legacy.",
       "extraction": {
         "reasons": [
           "number"
         ],
         "numbers": [
+          "100 years"
+        ],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "f69d64ba78b07d9988d1",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address at the Centenary Celebrations of UPSC",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
+        "published_at": "2026-10-01T09:05:21+00:00"
+      },
+      "query": "100 celebration friends not only upsc but",
+      "numbers": [
+        "100"
+      ],
+      "promise_matches": [
+        {
+          "id": "BJP-2014-57bcf542e13c9c5e0a",
+          "year": 2014,
+          "category": "infrastructure",
+          "page": 23,
+          "anchor": "We will not only empower our citizens with the ability to dream; we will …",
+          "source_url": "https://library.bjp.org/jspui/handle/123456789/252",
+          "similarity": 0.167,
+          "matched_terms": [
+            "not",
+            "only"
+          ]
+        },
+        {
+          "id": "BJP-2019-2d472e66c61e44c78f",
+          "year": 2019,
+          "category": "jobs_economy",
+          "page": 25,
+          "anchor": "The supercomputer, Afiificial Intelligence and Quantum Missions will make India not only Industry 5.0 …",
+          "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
+          "similarity": 0.167,
+          "matched_terms": [
+            "not",
+            "only"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "fd5dc1627142a90060",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Times of India",
+          "source_url": "https://timesofindia.indiatimes.com",
+          "title": "UPSC turns 100: The story of India’s civil services recruitment body - The Times of India",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORUhBemg4djBROG5pclR6NHFvQU5zZ0tRbmdCcDRBZGQ1enRTNFlBaFRFd3ctc0dvWDl6UDhuc2xPa3N5aXBHQ3lYeU9rYmdIUGdJVmlvbi1zMTJ6ell4TWFOYUNWNmg3YzVWanZVcjdJOFk0MDRvbnNrMnNjaXJWVHdLdVRZQV9qTldSNlpsM1JWXzhPRzZxR1ZMcjZSMFEyam4tZnZub1Q4cWg0UHYxRjJNczNCbWF5emlFM29QOW14OVpaS0NnMXJ2czhnNVpZNkpDWTR6eThrTTDSAeABQVVfeXFMTlVUNE8zODlESmZ6d2s1XzN4U2lNa19nY3EyVlUwVHNTMWxMbWgyYjJvLUdCMlVGSHBLcEZUVVU1aVVyR2E3Rk5BOXgycFhSa09zUjJnRkNXSnlyTEVoUzE3eXM2QktKSHhMTU5wY0w0Q1A4eWdzdUo1VDBzcWtsUFlnSXNKOXRiVkU1eE1jQ01WdW4xTFNRMzBTdU5fRnJ6Zmg2WmFhYU94MU5xVTVpTXU2U0ljc0ZiWF9TdUVOVjdRa1FLRlM4MXY0RFpwTXk4WVJRalhaR3VTVlo2LWMycGY?oc=5",
+          "published_at": "2026-10-01T06:48:00+00:00",
+          "snippet": "UPSC turns 100: The story of India’s civil services recruitment body The Times of India",
+          "lexical_overlap": 0.071,
+          "relevance": 0.216,
+          "matched_terms": [
+            "upsc"
+          ],
+          "shared_numbers": [
+            "100"
+          ]
+        },
+        {
+          "id": "26914ba3b76f717a88",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Times of India",
+          "source_url": "https://timesofindia.indiatimes.com",
+          "title": "PM Modi urges UPSC to test aspirants’ motivation for joining civil services, not just academic knowledge - The Times of India",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNQjI5cE96MUtKWS11M0JwQ08xVUxYeWpjbVZybENQYUtNQnFOX1VMRGJDWXpDNU1WTGpWSUNPdy1WS1NjRW90Q3J2YmxKdlVYcDFVZDdlN1FCRUoyYVJDcTFSb1dPMTBrSmhqZnJKSEpaWXBVRlZ0dDkxdjNISDJlWXRIdUF6eG9nR0Z5S1BRYTVsWmtXd25HbV9TT19EV3hOTExNdElPRnAtQTA3T2ktZFRkVlN4MXZHNUswaHlObGxhY0VrdGlPWUJsa3c3dTRnVkdKZUYyMnZFeE5YeTBldXVxdlBNVWl6OGpXaWxUbWFlWjBWMnpWcFJiMXM2RDjSAYQCQVVfeXFMTlpkTXAweHpYbE1QYU81SEVxcUV6d21ZUnFBLTM1XzhxcjB4WjQtODA1UFlIRFppdVNNamZ3SF9uazZnZGlQYUZlbWpPUkhjeUJ4NEpwdEs1YjB1bE96Y0t1SmtwZDNlWU9NNExtSW0yQ0hXdXd3WVc4THk4MlNBM2hleG5OSnRWNmF5R09ocVJFR0FiZ2Y0VE50b1lLNlFoMmhJLVJ4U3JNdkd1RUdWeDRzSXI0dGZYR1VXbWk4M0VnNGZWT1c0TWFITk04UjlwVWZZc2JjMFI3NDMtWlEwVTc3TWFhbmVHM3pLWXB6aGF4akVPUWhMdDJMOWZtSDdnaFgyaTM?oc=5",
+          "published_at": "2026-10-01T13:48:00+00:00",
+          "snippet": "PM Modi urges UPSC to test aspirants’ motivation for joining civil services, not just academic knowledge The Times of India",
+          "lexical_overlap": 0.105,
+          "relevance": 0.175,
+          "matched_terms": [
+            "not",
+            "upsc"
+          ],
+          "shared_numbers": []
+        }
+      ],
+      "fact_checks": [],
+      "signal": {
+        "level": "reporting_found",
+        "label": "Relevant reporting found; primary evidence still needed",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "6627bae11c2e4166b3",
+      "claim": "A commemorative postage stamp and coin marking this 100-year journey have just been released.",
+      "extraction": {
+        "reasons": [
+          "number"
+        ],
+        "numbers": [
+          "100"
+        ],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "f69d64ba78b07d9988d1",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address at the Centenary Celebrations of UPSC",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
+        "published_at": "2026-10-01T09:05:21+00:00"
+      },
+      "query": "100 commemorative postage stamp coin marking journey",
+      "numbers": [
+        "100"
+      ],
+      "promise_matches": [],
+      "evidence": [
+        {
+          "id": "e771b2c69725b6d832",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "DD News",
+          "source_url": "https://ddnews.gov.in",
+          "title": "PM Modi releases commemorative stamp marking 100 years of RSS - DD News",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWVBydEM0X0MxSW9ZbEN5cl84Nm11aFg4djMtSkJyM1AzRGxwQ2dOZWhDOEF1MnducEVNeGlycFNqMWw0cFU3ZUl5blhFTS1MUHF3UE9lQVVIcURvNjZUdmFmQ0cweFJnb0xxd2FjYUtJb3I3VmhZRTluSHUwaHY4QThybmxvdXZjMTdGdnZsbUQ?oc=5",
+          "published_at": "2025-10-01T06:45:32+00:00",
+          "snippet": "PM Modi releases commemorative stamp marking 100 years of RSS DD News",
+          "lexical_overlap": 0.214,
+          "relevance": 0.479,
+          "matched_terms": [
+            "commemorative",
+            "marking",
+            "stamp"
+          ],
+          "shared_numbers": [
+            "100"
+          ],
+          "nli": {
+            "entailment": 0.0157,
+            "neutral": 0.8986,
+            "contradiction": 0.0857
+          }
+        },
+        {
+          "id": "fff486b797f65318d6",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "India Today",
+          "source_url": "https://www.indiatoday.in",
+          "title": "UPSC turns 100: PM Modi to release commemorative coin, stamp on October 1 - India Today",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQdklMUERRWFVsWlBqZGFNT1RBdGw5TjVUUVRQRW91cHBKZTE2NFJVX1p1QU5VbHh2ZHRHLUNjVV9GTUJFbnFTOTdJWFpyck5CUDR0OV94cmxLNTNUUW1ndUl5T0t2U1dNVUdiSkloQmJ3bm9FSW1NTURHNy05TElOOTFLdGx3ak9wQmMtVk1MTFJrVmpzUEhtLTZybUR4Q0hMNm05V2ZVcXVraVVkd0VOeldzc1lXVEIxVFlyaVR3TlI2eG9aVnpWZ3VLb0QtNmZLcTI1VGNQS0dXZFE4aUhTbUxRbHZQSjZpM1lvcNIB7AFBVV95cUxQdklMUERRWFVsWlBqZGFNT1RBdGw5TjVUUVRQRW91cHBKZTE2NFJVX1p1QU5VbHh2ZHRHLUNjVV9GTUJFbnFTOTdJWFpyck5CUDR0OV94cmxLNTNUUW1ndUl5T0t2U1dNVUdiSkloQmJ3bm9FSW1NTURHNy05TElOOTFLdGx3ak9wQmMtVk1MTFJrVmpzUEhtLTZybUR4Q0hMNm05V2ZVcXVraVVkd0VOeldzc1lXVEIxVFlyaVR3TlI2eG9aVnpWZ3VLb0QtNmZLcTI1VGNQS0dXZFE4aUhTbUxRbHZQSjZpM1lvcA?oc=5",
+          "published_at": "2026-09-30T11:06:28+00:00",
+          "snippet": "UPSC turns 100: PM Modi to release commemorative coin, stamp on October 1 India Today",
+          "lexical_overlap": 0.214,
+          "relevance": 0.429,
+          "matched_terms": [
+            "coin",
+            "commemorative",
+            "stamp"
+          ],
+          "shared_numbers": [
+            "100"
+          ]
+        },
+        {
+          "id": "c2609b02c2e4e84993",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Times of India",
+          "source_url": "https://timesofindia.indiatimes.com",
+          "title": "'Example of sacrifice, selfless service': PM Modi hails RSS' 100-year journey; releases postage stamp - The Times of India",
+          "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNMjNBYTJnVks4Y2xtbGR5WkNsNlZ6VmgzRmZqOVc3VVlIcVJMOWpNZzNyOW45QXBNODBnV0ZrclhnSVVYWWxkN2daRWNKV1hZb0t4RHBYUDI4T2Vxc1gtZkFEN2V4aGdiMEptRlA5OHUxa0NsNFhuUmxjTkpzcTFaWWtTZVRmU201WFhySV9GUGZCN3dKaV9wVjJOWjRibVpyclFKVFhCS3B4c3k3QUdUMG1iQ1dDSlJjVlg1YkwzTmVneXdSWUFaTUZkVS0xcXhUemtCdG1LeTFaWi0tcUViTzNRR3ZvcHlReVJDcVBHZ2tTM1NPUHNoQklBc0pmSDR0YURwMVMta3d2YWx3OU1IVERn0gGXAkFVX3lxTE1CR2dXak01SmVTamt1VG9JWV9yTWdGOHdWYlZYaEVNT0NVZGRPOUgwZUdxWGlPSmtSX2p2VkFDc0ZDdDYzZHdhcEUxVVFZR1NMZTBEUzY2TWJlVGlqQ04zVTNSS1RDY0VpZ1hVSlkxaVhDNnRTUjFCTjBNcklqWEFnSlF3YXJPcmQxLUljVTR6elR3X3hiUzVGZVR3NFR4ZHFkMlJxREhLbnQta3hPd3dDOEFMb3d1SS10NXdoQ01rRkx0U2xyLUp5VzdiVmxiRWdKUUdxbzNOWkFvUWxnLWpHUUk3TmlWT3huLWVrWDlneU15aG9tRXItc1hmdGNmNWVtVEg2R2l2RlVxc3A4RUVwWWotUDlKTQ?oc=5",
+          "published_at": "2025-10-02T07:00:00+00:00",
+          "snippet": "'Example of sacrifice, selfless service': PM Modi hails RSS' 100-year journey; releases postage stamp The Times of India",
+          "lexical_overlap": 0.167,
+          "relevance": 0.382,
+          "matched_terms": [
+            "journey",
+            "postage",
+            "stamp"
+          ],
+          "shared_numbers": [
+            "100"
+          ]
+        },
+        {
+          "id": "8b50bde9763ea5dead",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Deccan Chronicle",
+          "source_url": "https://www.deccanchronicle.com",
+          "title": "AU Marks Centenary With Commemorative Coin, Stamp - Deccan Chronicle",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNV09lSXlldFlWR2xaMm55Tm1ZME1oWm0tWmUtMHBXVFRRYzRHZlc2UFR0RjJfYW54eHlEVUk3RUQtNUt2NnZNSmtKOVY4TzdxS2xIRVBhVXFDZEVKc0g2emFneUU0Z1RRdmwyV3RXVDlrQ0xkc0tFeU5SOW1NOThzd25kVmFoVEdqMUhhRmJlb09UblhVUm5PUTk3anNrZXNieUk4UW0tM01JT0hNbmt3MzZXTFQyb3NzajY40gHAAUFVX3lxTE5WeWR6SzRtWk9Xd096WHVjUGFEQTdoSmxGNGlIX3JuZHVNR280UG1fWHpJbGJ5eEhfNmo5a1lzTHc2b0hfYXotbTljcmJMRmVMX0t3SXhiaXBkYnhydmc3SWNLbGtFTWRjc2tKempKT3g0d3R2UE96YkNzbF9XLThVRTlQMFMtbEpuUC1SUmlHY0xwUDNrTllzRllRSDRfemZHZjRoZzl5UEJGbm1lQkdST3d0VEh6dG9uVG5CNUppeg?oc=5",
+          "published_at": "2026-04-27T07:00:00+00:00",
+          "snippet": "AU Marks Centenary With Commemorative Coin, Stamp Deccan Chronicle",
+          "lexical_overlap": 0.214,
+          "relevance": 0.319,
+          "matched_terms": [
+            "coin",
+            "commemorative",
+            "stamp"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "0a97d1dba11a4839dd",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "thehindu.com",
+          "source_url": "https://www.thehindu.com",
+          "title": "PM unveils ₹100 coin, stamp at RSS centenary; first-ever depiction of Bharat Mata on Indian currency - thehindu.com",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQb1Z6XzJOZXd4a0U0VVkwaWNEY2ZTeUpoeFBqOGJVMEJlTEIyZGFZNVZxTVc5N0UzS0FtVjJreXlkYjFJQmRzbldkMEJFZlFZb0lFcDhCZF96cE1mY25OeFcwd2ZqNU9WZlBqTURtWTQydDZLa1gxM2pTd05Cb2Zmc0lESFpBLVRlVHZuelBxTEF2TTcxMFh0UjYzc04yUGJLT0JlTzZGelB3SWpBdUtXREU2aEZHUVdrQXczZmE3dVBBeVF5U0VIVHZiVDNZeUlyUEx0QkRXbG5EZWNtN2I2Si1rZk1fZVdHTDQ5NdIB8wFBVV95cUxNZkJLSTBSMzlkRGpqeVN0OExIMDdvbGVJWmhPN2NtX1AzcmhPWDNETzdlelhKb1N4VDhtQXM0ci01c0c5cmh2amczb21rTW1jR0lfWldzZ1BvU2NmN2dOcmRrV2lRZ3dtTjN3bVlKQ3IxdTZnek9YeThsQ1RfQlFxNTNrZEFHWDVmbmwyeUY0dDF5TmdwQ3BfSW01ZE5Gako0LWtsQlR3M29EMTRxVHZORm1uSkxNVTg0MC05TEoxdktZSGRGdlNaTVFVRHFGOEE3eEFYdENMamU3Y3NzUkpTMVMxQmpKNW1qUTE4YmYzSmZtejg?oc=5",
+          "published_at": "2025-10-01T07:00:00+00:00",
+          "snippet": "PM unveils ₹100 coin, stamp at RSS centenary; first-ever depiction of Bharat Mata on Indian currency thehindu.com",
+          "lexical_overlap": 0.105,
+          "relevance": 0.285,
+          "matched_terms": [
+            "coin",
+            "stamp"
+          ],
+          "shared_numbers": [
+            "100"
+          ]
+        },
+        {
+          "id": "e4eb90407989fc9551",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "TheWire.in",
+          "source_url": "https://m.thewire.in",
+          "title": "‘Falsifying History’ Says Opposition as Modi Releases Stamp, Coin to Mark RSSs Centenary - TheWire.in",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPLURFd1NrdGV5VFRpemk1Qm4zMXBNV0dIY2dOOC1xQXpBTENnZ1Q1MG9ZQUg4NWhiQVZOTmlrX2IxS1BydXhMNm0tVmtxckJIM1ktVm9Nb2hwMHNOb2JrWGtCU1gyZGVDUE1fdFdvYVE2Z3Jvc201N0hrODlFRGlhQnVkMzdINUhUMVdzQmFNc3d3OFVDT1h1ZHJBQzjSAaIBQVVfeXFMT2RTbjI0aUxMZW1UMzVBLXR0Nmo3dlkyckdRQlk5NFQ0X0JyaDVLRkZLVlFKNFZGb1hlN2hYYWpQMFY0MUhQMWc0aG9sMnNZSEFrWWZfMXczUURtZlVzak01Qno2eHJZQUxWYUhhZ3BxLWVyLUtFenpxSnUzSTB6LV91X0JWWG9hQzJMUl9SWm1VTXJLSkVrYUJSTUlIVU52ZUJB?oc=5",
+          "published_at": "2025-10-01T07:00:00+00:00",
+          "snippet": "‘Falsifying History’ Says Opposition as Modi Releases Stamp, Coin to Mark RSSs Centenary TheWire.in",
+          "lexical_overlap": 0.118,
+          "relevance": 0.188,
+          "matched_terms": [
+            "coin",
+            "stamp"
+          ],
+          "shared_numbers": []
+        }
+      ],
+      "fact_checks": [],
+      "signal": {
+        "level": "structured_support_candidate",
+        "label": "Relevant primary evidence shares claim terms and numeric values",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "d443adc2a0e2470ae9",
+      "claim": "A compilation of 100 important case laws has also been published.",
+      "extraction": {
+        "reasons": [
+          "number"
+        ],
+        "numbers": [
+          "100"
+        ],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "f69d64ba78b07d9988d1",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address at the Centenary Celebrations of UPSC",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
+        "published_at": "2026-10-01T09:05:21+00:00"
+      },
+      "query": "100 compilation important case laws has published",
+      "numbers": [
+        "100"
+      ],
+      "promise_matches": [],
+      "evidence": [
+        {
+          "id": "2ad33682c50a0e4648",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Landmark Chambers",
+          "source_url": "https://www.landmarkchambers.co.uk",
+          "title": "86 - A new ACCC case law collection has landed - Landmark Chambers",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPM1FHRkVDUngtU1c0TjQyY05RNUxHd2pybVVuY2lSdGhfTmo0blJndzNOeFNOZ3lLLTRBb0JVOWNMRHdjazc5UDh0YWFWQVNFSTd2cGlERlJYbXVhV3NZVWVWbTJiNU9NSEc2LTBWcG42RGl0a2gtSzdFS3Jxb2xHOGJBUjU5RmhPYjFYVmdKR3BJMWh4eVc5ZEFJYkRCUVlMY25tUFNiZXR6Zw?oc=5",
+          "published_at": "2026-09-09T07:00:00+00:00",
+          "snippet": "86 - A new ACCC case law collection has landed Landmark Chambers",
+          "lexical_overlap": 0.167,
+          "relevance": 0.237,
+          "matched_terms": [
+            "case",
+            "has"
+          ],
+          "shared_numbers": []
+        }
+      ],
+      "fact_checks": [],
+      "signal": {
+        "level": "reporting_found",
+        "label": "Relevant reporting found; primary evidence still needed",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "c2a19aa48972aa09e4",
+      "claim": "A little while ago, I was visiting the gallery that has been set up here, and I would encourage all of you to spend 10 to 15 minutes exploring it.",
+      "extraction": {
+        "reasons": [
+          "number"
+        ],
+        "numbers": [
+          "10",
           "15"
         ],
         "context_before": ""
       },
       "claim_source": {
-        "id": "7ead97be2e6532244839",
+        "id": "f69d64ba78b07d9988d1",
         "kind": "official_speech_or_video",
-        "title": "PM’s address in the 138th Episode of Mann Ki Baat",
+        "title": "PM’s address at the Centenary Celebrations of UPSC",
         "source": "PMIndia",
         "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-in-the-138th-episode-of-mann-ki-baat/",
-        "published_at": "2026-09-27T06:45:05+00:00"
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
+        "published_at": "2026-10-01T09:05:21+00:00"
       },
-      "query": "th august had urged my countrymen",
-      "numbers": [],
+      "query": "10 15 little while ago was visiting gallery",
+      "numbers": [
+        "10",
+        "15"
+      ],
       "promise_matches": [],
       "evidence": [],
       "fact_checks": [],
@@ -833,69 +445,119 @@
       "human_reviewed": false
     },
     {
-      "id": "2e8d57f376cc59ac01",
-      "claim": "You can register information about yourself and your family from your mobile itself.",
+      "id": "f6a1dd2c05d49c3e3c",
+      "claim": "I noticed a photograph from the 75th anniversary celebrations in which Lt.",
       "extraction": {
         "reasons": [
-          "comparison"
+          "number"
         ],
-        "numbers": [],
+        "numbers": [
+          "75"
+        ],
         "context_before": ""
       },
       "claim_source": {
-        "id": "7ead97be2e6532244839",
+        "id": "f69d64ba78b07d9988d1",
         "kind": "official_speech_or_video",
-        "title": "PM’s address in the 138th Episode of Mann Ki Baat",
+        "title": "PM’s address at the Centenary Celebrations of UPSC",
         "source": "PMIndia",
         "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-in-the-138th-episode-of-mann-ki-baat/",
-        "published_at": "2026-09-27T06:45:05+00:00"
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
+        "published_at": "2026-10-01T09:05:21+00:00"
       },
-      "query": "your you register information about yourself",
+      "query": "noticed photograph th anniversary celebrations which",
       "numbers": [],
       "promise_matches": [],
       "evidence": [
         {
-          "id": "b7ff46b964839c7848",
+          "id": "da7a554c3d581bcc7a",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Vice President Graces 140th Anniversary Celebrations of Deepika Malayalam Daily in Kottayam - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5xVWp1NmZ6c0xyZFpuVlpseUkzRDNmVGxTdXpLWEdQNU03V0dNQktJZTl5R01rei05RDRuaGpUSWJScEJLQjZtNjFoOUZ6MGQwa3pMcDF5V0ltTC1DamdxSUs4SnFHSFlpYV9DQlZoOVJCclF4dF9GbU5B?oc=5",
+          "published_at": "2026-05-31T07:00:00+00:00",
+          "snippet": "Vice President Graces 140th Anniversary Celebrations of Deepika Malayalam Daily in Kottayam PIB",
+          "lexical_overlap": 0.2,
+          "relevance": 0.355,
+          "matched_terms": [
+            "anniversary",
+            "celebrations",
+            "th"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.0032,
+            "neutral": 0.9308,
+            "contradiction": 0.066
+          }
+        },
+        {
+          "id": "2c13ec6d7302e890d1",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Prime Minister Shri Narendra Modi addresses the 100th birth anniversary celebrations of Bharat Ratna Dr. Bhupen Hazarika in Guwahati, Assam - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5VZkV2Q1dOV1pyRDNBZHBxNkV5Qjh1clRHc2hKSmlYTDYwa1BsT2RHQ1V2Mm9uakhnRllDUXYzT0YyaFoyN2s5emRuSmZqXzF4bERVYmxDV2tTMm4tUGtzVmdMeFpBSlZr?oc=5",
+          "published_at": "2025-09-13T07:00:00+00:00",
+          "snippet": "Prime Minister Shri Narendra Modi addresses the 100th birth anniversary celebrations of Bharat Ratna Dr. Bhupen Hazarika in Guwahati, Assam PIB",
+          "lexical_overlap": 0.176,
+          "relevance": 0.331,
+          "matched_terms": [
+            "anniversary",
+            "celebrations",
+            "th"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.0047,
+            "neutral": 0.8441,
+            "contradiction": 0.1512
+          }
+        },
+        {
+          "id": "dffef2ab2745a3b8ac",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "CalMatters",
-          "source_url": "https://calmatters.org",
-          "title": "Get ready for California’s 2026 primary. Your questions about voting, answered - CalMatters",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQN3kwM2xEcG9qU2hXR1c4SE9mb2w3NERoUG1PYjhfUG9mdldDaVpoemNDVVFqbHhJRkJ2QkZXTlpBbE5haUVUbTdRZUJxY0M3VURsX09fSUkwYkdhazM2RFNtU0ZjSjFqS1N4X1VOeHJ1elVCM09TMzFwbTVxUEs4U1FWMlVBOVBNYVE?oc=5",
-          "published_at": "2026-03-13T07:00:00+00:00",
-          "snippet": "Get ready for California’s 2026 primary. Your questions about voting, answered CalMatters",
-          "lexical_overlap": 0.118,
-          "relevance": 0.188,
+          "source": "tribdem.com",
+          "source_url": "https://www.tribdem.com",
+          "title": "PHOTO GALLERY | Quecreek mine rescue's 24th anniversary noted quietly - tribdem.com",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQTGRaaDFnUWVNNmh6LVJDc2pMQ2hRb2dqbTgwdU9Kb25BYnZWenhwandxc1I0Ui0ycVVZM19sQ3ZNSENqZ3h2aWp5Y3VWSVY1azBJYUhqSlZHUGJPekVnOFI3QjlqM24xYWZ3UWRaUmZ6WFNtSU9UZ0g0ek9hSzBfbGlaVU5pMk1fLXVkRUpxcHBGLThqQVhkY3hDa0JUNUlIS2lpWkQwckxHa2czNWVqMExYcjlsZ1JOajNXU3lwR19iRmktTGdUT2ZTMkQ2NWtTekRPWlRuREtBaWFzU01NRlJocnRFeXUxWFp4QQ?oc=5",
+          "published_at": "2026-07-29T07:00:00+00:00",
+          "snippet": "PHOTO GALLERY | Quecreek mine rescue's 24th anniversary noted quietly tribdem.com",
+          "lexical_overlap": 0.125,
+          "relevance": 0.195,
           "matched_terms": [
-            "about",
-            "your"
+            "anniversary",
+            "th"
           ],
           "shared_numbers": []
         },
         {
-          "id": "501c386dcbb5a19746",
+          "id": "7e9e5997f3ca2c9b71",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Livemint",
-          "source_url": "https://www.livemint.com",
-          "title": "SBI WhatsApp Banking: How to register yourself, check balance, get mini statement and more - Livemint",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNOWVRT3p0NVpyaEdYak1GYmk0d3c1WjhtTDdoUEpOeUI4bW9VeW0zV2JSY1FDNi1TOHpudFV1RDZBUzAwWVBXeU1xUFBWRWNaeWwtcDBRNGp2dE40aG1qY3haV0lwZ1BxdU0xdHIzMzJsUUhpZDkyUWVwUnJqdm52S0dnUVJDeGhxVDVFa0NxLS1GSXdDbFlOc3YtNnN0cU1iQXhQb0k1MW1BNUNOeHgxbTJzamN5MGlHd2hfQVRhN3VMTzFHVFRlWmZtYXg1cl9weWlrT0tOcXhaZGRxbTVUWXdvamFSbmtoODhZ0gHwAUFVX3lxTE5VT2ljSHBCLXI2TjJTUmNTVVZBQWU5UmMyai1NcEY3Mjl1eDM5MlZQSlJqckxIWEE4cnhtNUVWaGxnTXZub0xiTjE5Rl9iRDZFRmlkZUkzTjRMY2ExYUhyTTBpYklLMDJCS0RFMWNKNXliMm50UkZzVTd0bFNLcFh5REVYQk9QNkRhNWt6YklxYlp4TVUwQURTTEZVazV5Q3RkUGxwZDFLeDF2WS01eUF6ODJkU0ljQVNyakNETmZHSG95eHNKZVRhdlp1N0hsUTQyd0NoaTVjYW84TU1yWUJBVk5xbEFyYlJaQkpGMV9sTA?oc=5",
-          "published_at": "2026-04-13T07:00:00+00:00",
-          "snippet": "SBI WhatsApp Banking: How to register yourself, check balance, get mini statement and more Livemint",
-          "lexical_overlap": 0.105,
-          "relevance": 0.175,
+          "source": "dst.gov.mo",
+          "source_url": "https://www.dst.gov.mo",
+          "title": "【5th inauguration anniversary】Macao Grand Prix Museum offers free admission and special fun activities for the public on 1 June - MACAO GOVERNMENT TOURISM OFFICE - dst.gov.mo",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcV9kNjB6ZUtHOG5vdDh1dmxIV2h4cWJ6ZzJwU041RVBPeDhPQkpneWNlS2tOY0FKcEtBTmotbnAzdGJiMUg4SnN2N0NhZTFRb2RMZm5uQm1qTzdOclBPYU80TnN2RW5MZ2RCZjNnSjhZVUdHNi0xd3dMRHRQcXdoVmJXbF9HY2dIYWxWNlV5WQ?oc=5",
+          "published_at": "2026-05-31T07:00:00+00:00",
+          "snippet": "【5th inauguration anniversary】Macao Grand Prix Museum offers free admission and special fun activities for the public on 1 June - MACAO GOVERNMENT TOURISM OFFICE dst.gov.mo",
+          "lexical_overlap": 0.095,
+          "relevance": 0.165,
           "matched_terms": [
-            "register",
-            "yourself"
+            "anniversary",
+            "th"
           ],
           "shared_numbers": []
         }
       ],
       "fact_checks": [],
       "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
+        "level": "primary_evidence_found",
+        "label": "Relevant verified primary evidence candidate found",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -903,49 +565,68 @@
       "human_reviewed": false
     },
     {
-      "id": "327641d78134b992b9",
-      "claim": "Along with Hindi, this facility is available in 16 languages.",
+      "id": "69276105583e101638",
+      "claim": "Today, at the age of 90, he is present among us.",
       "extraction": {
         "reasons": [
           "number"
         ],
         "numbers": [
-          "16"
+          "90"
         ],
         "context_before": ""
       },
       "claim_source": {
-        "id": "7ead97be2e6532244839",
+        "id": "f69d64ba78b07d9988d1",
         "kind": "official_speech_or_video",
-        "title": "PM’s address in the 138th Episode of Mann Ki Baat",
+        "title": "PM’s address at the Centenary Celebrations of UPSC",
         "source": "PMIndia",
         "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-in-the-138th-episode-of-mann-ki-baat/",
-        "published_at": "2026-09-27T06:45:05+00:00"
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
+        "published_at": "2026-10-01T09:05:21+00:00"
       },
-      "query": "16 along hindi facility available languages",
+      "query": "90 age he present among us",
       "numbers": [
-        "16"
+        "90"
       ],
       "promise_matches": [],
       "evidence": [
         {
-          "id": "eb2b5a55f1b42177e2",
+          "id": "c5983a2ba360fb93ea",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "indianexpress.com",
-          "source_url": "https://indianexpress.com",
-          "title": "16 languages, 1 portal, 1 reference ID: How Census 2027 self-enumeration will work - indianexpress.com",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQY0NhZDhqZ0JsWHZJRkZOeTdhb1hZV0tGbkJvNnUzLWhFT1RTdjJIaFR3RTJDTk9DcDBsZkJvSmNiRmtTV1hDaU54MFJocHZaemJPaGw3V0tsdzhXRllWMnQ1aTFjd0lTS0EyTDRjNFktRVJld1NqdEEtZXpta0tScV9RU0h3OGl6eGxwNEFwNXNWRWd4R1ZYYmZfMG5IYWhxX0FsNjhBeHVkMTFLRkpsZ1VDXzhGYlpWZ2UtMlllemFzeWFUWmJ2NNIBzwFBVV95cUxNMzI5UV9DS3cxcjFnczgtczJrWUhKckp2QmNWeTdlUmtGM2VnekliNXd4aU1sMEx2UTRSZy1HdVBldzlRdlYyWDg3UUtZOXB4bjZ4NzJZY0FLdHc5Yzk4OTAyOG9HMnVULVdyS3lSVkg1UWJfd2preUhma1VLaGlCQUxTTXlSYmNYRVRpWVdXVU9XYzJOVWlqbllRak5KdmVfMWVpRmdsUW1pZkE1Yjh1UVNXcTNUeW82ZWhtZV9fUUEwVktyLUhVcWRJeThjZEE?oc=5",
-          "published_at": "2026-01-27T08:00:00+00:00",
-          "snippet": "16 languages, 1 portal, 1 reference ID: How Census 2027 self-enumeration will work indianexpress.com",
-          "lexical_overlap": 0.071,
-          "relevance": 0.216,
+          "source": "Nature",
+          "source_url": "https://www.nature.com",
+          "title": "Age at type 2 diabetes diagnosis and the risk of mortality among US population - Nature",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9BWTdiUE1CZ0tTX09acS1jM0xUVWdZNlRoMWh3VURSa3J4NGhhV1Y1RHlMUzRxbUdCZkk3Y0FHeHVjdFpSdFBjSGpIUDRLeFNZOE1CaGhZYlFNMzJ5NUlv?oc=5",
+          "published_at": "2024-11-25T08:00:00+00:00",
+          "snippet": "Age at type 2 diabetes diagnosis and the risk of mortality among US population Nature",
+          "lexical_overlap": 0.25,
+          "relevance": 0.355,
           "matched_terms": [
-            "languages"
+            "age",
+            "among",
+            "us"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "093c5e48aab37dc212",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Kansas City Jewish Chronicle",
+          "source_url": "https://www.kcjc.com",
+          "title": "Blanche Sosland, community pillar, educator and advocate, dies at age 90 - Kansas City Jewish Chronicle",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWlVvUUhZR0RvcXNWYzVhT2lkVmpPdGdxeDZEN2pOejhXbVBmNHBFajdYbDB2VjhEMXJneG45MjhiTmZ4SmdIZGFXY2tMb1o0dDZjUWJpNmdSUGhxZmctVlNQX3RxU1Zqd3hZV0N4VEEzOU1QZW1HVjNJR0ZkS212MUlzX0JMQQ?oc=5",
+          "published_at": "2026-07-09T07:00:00+00:00",
+          "snippet": "Blanche Sosland, community pillar, educator and advocate, dies at age 90 Kansas City Jewish Chronicle",
+          "lexical_overlap": 0.062,
+          "relevance": 0.208,
+          "matched_terms": [
+            "age"
           ],
           "shared_numbers": [
-            "16"
+            "90"
           ]
         }
       ],
@@ -960,60 +641,37 @@
       "human_reviewed": false
     },
     {
-      "id": "17f4b42900643e8e88",
-      "claim": "The entire process takes about 15 to 20 minutes.",
+      "id": "6df0bf295350af0cd6",
+      "claim": "While looking through the gallery, I noticed that it also contains information about how Subhas Chandra Bose went through this very process in 1920.",
       "extraction": {
         "reasons": [
           "number",
           "comparison"
         ],
         "numbers": [
-          "15",
-          "20"
+          "1920"
         ],
-        "context_before": ""
+        "context_before": "Every one of them deserves appreciation and recognition."
       },
       "claim_source": {
-        "id": "7ead97be2e6532244839",
+        "id": "f69d64ba78b07d9988d1",
         "kind": "official_speech_or_video",
-        "title": "PM’s address in the 138th Episode of Mann Ki Baat",
+        "title": "PM’s address at the Centenary Celebrations of UPSC",
         "source": "PMIndia",
         "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-in-the-138th-episode-of-mann-ki-baat/",
-        "published_at": "2026-09-27T06:45:05+00:00"
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
+        "published_at": "2026-10-01T09:05:21+00:00"
       },
-      "query": "15 20 entire process takes about minutes",
+      "query": "1920 every one them deserves appreciation recognition",
       "numbers": [
-        "15",
-        "20"
+        "1920"
       ],
       "promise_matches": [],
-      "evidence": [
-        {
-          "id": "ffbc3fcfcb36634c26",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "AsiaOne",
-          "source_url": "https://www.asiaone.com",
-          "title": "Jobless in 15 minutes? Singapore-based Muslim Pro owner Bitsmedia lays off 21 staff, ex-employees question retrenchment process - AsiaOne",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPN3ZaTGc2MFdiUEtVaThBenhjMEdWdjZRYUlGSmlGVk1qd1VtV1pQMVpWN2x5YXpVRGNhS25TWnkxUEVxTFFrTUlxMTNiZXpmLUd4bS1jVFR2U2dBTE44UkZvUUlTZkZQNWRwWXBLc2lldE11WEFwN1kydUZRcXFpRnlmbTMwbldkcGpGaXF2TEhheGpwcFE?oc=5",
-          "published_at": "2026-09-30T01:45:00+00:00",
-          "snippet": "Jobless in 15 minutes? Singapore-based Muslim Pro owner Bitsmedia lays off 21 staff, ex-employees question retrenchment process AsiaOne",
-          "lexical_overlap": 0.111,
-          "relevance": 0.291,
-          "matched_terms": [
-            "minutes",
-            "process"
-          ],
-          "shared_numbers": [
-            "15"
-          ]
-        }
-      ],
+      "evidence": [],
       "fact_checks": [],
       "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -1021,48 +679,319 @@
       "human_reviewed": false
     },
     {
-      "id": "984358f75bcd291df9",
-      "claim": "After the information you provided is verified, it will become part of the census record.",
+      "id": "8627b9532420ebafc0",
+      "claim": "The steel frame that was required for the reconstruction of the nation was provided by Sardar Vallabhbhai Patel.",
       "extraction": {
         "reasons": [
-          "comparison",
           "accomplishment"
         ],
         "numbers": [],
         "context_before": ""
       },
       "claim_source": {
-        "id": "7ead97be2e6532244839",
+        "id": "f69d64ba78b07d9988d1",
         "kind": "official_speech_or_video",
-        "title": "PM’s address in the 138th Episode of Mann Ki Baat",
+        "title": "PM’s address at the Centenary Celebrations of UPSC",
         "source": "PMIndia",
         "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-in-the-138th-episode-of-mann-ki-baat/",
-        "published_at": "2026-09-27T06:45:05+00:00"
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
+        "published_at": "2026-10-01T09:05:21+00:00"
       },
-      "query": "after information you provided verified become",
+      "query": "was steel frame required reconstruction nation",
       "numbers": [],
       "promise_matches": [],
       "evidence": [
         {
-          "id": "a1bc3a171471adf3aa",
+          "id": "f493d31a57406ba143",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Sardar Patel - Man who United India - PIB",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5UNnF4Y09ONVJsMXczdEZ0SlowbFE3ODItSVhPZWxVMFg0eGJpckhRN1NuTFBMZUlUMVdsdFpmWFB2YkxnU2htVVVrMXNXeU5MX1RhRmNPYzZUTkdiMVEyMUVMSUZDZ29fZXJwT3lR?oc=5",
+          "published_at": "2017-10-30T07:00:00+00:00",
+          "snippet": "Sardar Patel - Man who United India PIB",
+          "lexical_overlap": 0.143,
+          "relevance": 0.263,
+          "matched_terms": [
+            "patel",
+            "sardar"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.007,
+            "neutral": 0.9792,
+            "contradiction": 0.0138
+          }
+        }
+      ],
+      "fact_checks": [],
+      "signal": {
+        "level": "primary_evidence_found",
+        "label": "Relevant verified primary evidence candidate found",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "bd7cb3b38ff534451f",
+      "claim": "Friends, When the foundation of this institution was laid in 1926, the priorities of that era were different.",
+      "extraction": {
+        "reasons": [
+          "number"
+        ],
+        "numbers": [
+          "1926"
+        ],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "f69d64ba78b07d9988d1",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address at the Centenary Celebrations of UPSC",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
+        "published_at": "2026-10-01T09:05:21+00:00"
+      },
+      "query": "1926 friends when foundation institution was laid",
+      "numbers": [
+        "1926"
+      ],
+      "promise_matches": [],
+      "evidence": [],
+      "fact_checks": [],
+      "signal": {
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "e0aa9aa37e5a72091f",
+      "claim": "Much has already been said from this stage about its achievements and contributions.",
+      "extraction": {
+        "reasons": [
+          "comparison"
+        ],
+        "numbers": [],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "f69d64ba78b07d9988d1",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address at the Centenary Celebrations of UPSC",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
+        "published_at": "2026-10-01T09:05:21+00:00"
+      },
+      "query": "much has already stage about achievements",
+      "numbers": [],
+      "promise_matches": [],
+      "evidence": [],
+      "fact_checks": [],
+      "signal": {
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "d9ed8629ebcb7a572c",
+      "claim": "Therefore, I neither wish to repeat those points nor go into detail about them.",
+      "extraction": {
+        "reasons": [
+          "comparison"
+        ],
+        "numbers": [],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "f69d64ba78b07d9988d1",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address at the Centenary Celebrations of UPSC",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
+        "published_at": "2026-10-01T09:05:21+00:00"
+      },
+      "query": "therefore neither wish repeat points nor",
+      "numbers": [],
+      "promise_matches": [],
+      "evidence": [],
+      "fact_checks": [],
+      "signal": {
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "d31336725037d6edfc",
+      "claim": "One quarter of the 21st century, twenty-five years, has already passed.",
+      "extraction": {
+        "reasons": [
+          "number"
+        ],
+        "numbers": [
+          "21"
+        ],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "f69d64ba78b07d9988d1",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address at the Centenary Celebrations of UPSC",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
+        "published_at": "2026-10-01T09:05:21+00:00"
+      },
+      "query": "one quarter st century twenty-five has",
+      "numbers": [],
+      "promise_matches": [],
+      "evidence": [
+        {
+          "id": "088d3763a9526ad314",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Business.com",
-          "source_url": "https://www.business.com",
-          "title": "Why You Should Verify Your Brand on Social Media: A Guide to Meta Verified - Business.com",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXbk0zVzVkZFIwQXdMb2ZKLVdqdDNPTzRYZ0FLZm9DSmxVZDViVFpNWDZ3cTdZNUVSTzNwLW1zZDRiYWw5ZURtd2pKaE45LU1rR0Y2bXBKOE9MSGtKeTZGeENzaUZwMnpxb18tLQ?oc=5",
-          "published_at": "2026-07-23T07:00:00+00:00",
-          "snippet": "Why You Should Verify Your Brand on Social Media: A Guide to Meta Verified Business.com",
-          "lexical_overlap": 0.1,
-          "relevance": 0.17,
+          "source": "WikiMedia.org",
+          "source_url": "https://diff.wikimedia.org",
+          "title": "Twenty-Five Years of Free Knowledge: Wiki Palestine Celebrates a Quarter Century of Wikipedia - WikiMedia.org",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdHZxSXRWdnhiLUd1Q1RCZVBwMURqTG1BcW1qTUpOYmZJak1HaHp1TG11ZkVxWWVNalBqdkZFZXZnaml4OWNhR0F1ZjZRdG9tR0VjbGYzUVo0VkdNdk82SXQwUVlyM3dKYXRzUjVtUFhGWDdUTnZtYzVQb1lUeE0zdGhCcnU2bFR5T0dTMmlXMEdqM3Ffa0N0M1J2cjZkZmVBMHd6b3QxamVvd3ZrZDhzbTJ1SzUxR1BrYjR4UTc4Rzg0eU43TUlhc2phQQ?oc=5",
+          "published_at": "2026-03-25T07:00:00+00:00",
+          "snippet": "Twenty-Five Years of Free Knowledge: Wiki Palestine Celebrates a Quarter Century of Wikipedia WikiMedia.org",
+          "lexical_overlap": 0.188,
+          "relevance": 0.292,
           "matched_terms": [
-            "verified",
-            "you"
+            "century",
+            "quarter",
+            "twenty-five"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "ee6aa18f37586c0481",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "NDTV",
+          "source_url": "https://www.ndtv.com",
+          "title": "Opinion | 9/11, And The Price Of Fighting Terror For A Quarter Century - NDTV",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTHR3MXlJQ0E4SmgtRVVKUWM0X1pNZm5RWXhmcjVWSkV1WWdpV0VXN21YZGVSNzFRX0xOUnBIQ0dVLXJ4TEdaNWgzNTVJN2F1ZHJJTnJ6RjNTNnJ0QTNGUnFFOVdfMzhwR1lSOVlQcWVmWTI3UEpjNU1KMURpSmh3eUpacGxrM2RSbUdtMTJZbEwyQVkzTVB1TmJWX1JwMjFVa0hLVG9ucTFnRFNGUnFYczZiZzdKQQ?oc=5",
+          "published_at": "2026-09-11T06:47:22+00:00",
+          "snippet": "Opinion | 9/11, And The Price Of Fighting Terror For A Quarter Century NDTV",
+          "lexical_overlap": 0.154,
+          "relevance": 0.224,
+          "matched_terms": [
+            "century",
+            "quarter"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "a905a2f6c5bf8e5f87",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "TheWire.in",
+          "source_url": "https://m.thewire.in",
+          "title": "9/11, After a Quarter Century: Lessons Learnt and Unlearnt - TheWire.in",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVjNZNVR1enJxYVF2bFRLNFAyYU9TcGM4dzlVemVCa044aFJUS1p3Y1FyUWZBYmRUdUxVR0d3OVlna1RPbVlYQUNXZW5tcElyYnRCZDBpUEVFRWJYb3U2bFdMT0dNOEtGa2Y0Q3FVQ1hIZWhHNzg1NVg3WEFqTWF4bkNqdHdyYnF0c29jWlNfX1NrTktLbVHSAZsBQVVfeXFMT01uLW1NYnJORUpWMDNzRXU4TzVRMzR1UVljWkVHT3FkYWVQbWJPNy1OcE05QmtCb0g0ejg1NGdKWmVfbllBSEFNbkh0MjA1NEdCX09VeVF1eHFhR1pQUjZDekZkamFTYnRTaEltQ1pETExvRlNTTGZhSVY1dVV2UWxJbV9YUWRNY3ZicXBHQUY5Q0R1MmtJLXpKSHc?oc=5",
+          "published_at": "2026-09-11T07:00:00+00:00",
+          "snippet": "9/11, After a Quarter Century: Lessons Learnt and Unlearnt TheWire.in",
+          "lexical_overlap": 0.154,
+          "relevance": 0.224,
+          "matched_terms": [
+            "century",
+            "quarter"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "f1f258f198fd264e36",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Times of India",
+          "source_url": "https://timesofindia.indiatimes.com",
+          "title": "A quarter century after 9/11: 25 ways America's darkest day changed the world - The Times of India",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQN3dFR0JEQmNrSHBMNnhfdE9US2RBZFlqUFlnWUdYMmJoWHpGNDRSV0xUT2xHaUhNRkpjVy1qbFN3SEVLZmFkeEd3RDBHeWVOdll6dXlfR3NyYmJNZHlLNTBfY0lzdXU3S2x6aExTaWpZV2ZUSXNmblVtRjJUOFAyNUpUdkZ3TTJSN3lSV2pjTi00eVFOQjVVY3ZZNmRYMjhkVi1RT2NSZUxxMjRlVENCZlRDdEhNZm9DVXBMY0h1NldQNEtPaXV3UThDeDU5SVQ3SWU3T1dtWkdDVEcwRW5V?oc=5",
+          "published_at": "2026-09-11T07:00:00+00:00",
+          "snippet": "A quarter century after 9/11: 25 ways America's darkest day changed the world The Times of India",
+          "lexical_overlap": 0.125,
+          "relevance": 0.195,
+          "matched_terms": [
+            "century",
+            "quarter"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "63aa1c7a53feee30b8",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "YES! Weekly",
+          "source_url": "https://www.yesweekly.com",
+          "title": "A Quarter of a Century: Winston-Salem Theatre Alliance artistic director celebrates 25 years - YES! Weekly",
+          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNTDBXemY2Ni1OXzk2S09IekpVMTctUmRCZE84N3c4dms2eHBaaDJWWDBzaEtqMEdPOUxTa0EtcHJURzN5UkhxYXI0di1aYjdkdzlkd1J4Ukd6M2dmaGdtdmNvMlQ1aHBSY2Vka2dBTml3Tktxb3J4NTNOV0NEZ2VJNTZybGZ0Wmp3Q1dhT2hkb0RiUnZhOUZUNWlLUlpsaEhpRjdBT1Q5ZnpKWDBmem5HU21oZW11ejQ1UTlvdXVVbFV2RHpOYzNZUHRzMVE4MnNEZlNRYkhqbTNHb3dRbEJ3Tm56TjkzR0tkd2RyRkhaem5VSGZVb21zZ3lMcUsycnp2LTlPaWhB?oc=5",
+          "published_at": "2026-09-30T14:15:00+00:00",
+          "snippet": "A Quarter of a Century: Winston-Salem Theatre Alliance artistic director celebrates 25 years YES! Weekly",
+          "lexical_overlap": 0.125,
+          "relevance": 0.195,
+          "matched_terms": [
+            "century",
+            "quarter"
           ],
           "shared_numbers": []
         }
       ],
+      "fact_checks": [],
+      "signal": {
+        "level": "reporting_found",
+        "label": "Relevant reporting found; primary evidence still needed",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "e9ef5ba17322492eb6",
+      "claim": "Friends, India in 2047 will be very different from the India of today.",
+      "extraction": {
+        "reasons": [
+          "number"
+        ],
+        "numbers": [
+          "2047"
+        ],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "f69d64ba78b07d9988d1",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address at the Centenary Celebrations of UPSC",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
+        "published_at": "2026-10-01T09:05:21+00:00"
+      },
+      "query": "2047 friends very different",
+      "numbers": [
+        "2047"
+      ],
+      "promise_matches": [],
+      "evidence": [],
       "fact_checks": [],
       "signal": {
         "level": "needs_research",
@@ -1075,6 +1004,78 @@
     }
   ],
   "claim_families": [
+    {
+      "id": "1876deedf04e66b7b2",
+      "canonical_claim": "A commemorative postage stamp and coin marking this 100-year journey have just been released.",
+      "occurrences": [
+        {
+          "id": "15f379eccead072938",
+          "text": "A commemorative postage stamp and coin marking this 100-year journey have just been released.",
+          "source_title": "PM’s address at the Centenary Celebrations of UPSC",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
+          "published_at": "2026-10-01T09:05:21+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "structured_support_candidate",
+      "human_reviewed": false,
+      "created_at": "2026-10-01T20:22:13.940638+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-01T09:05:21+00:00",
+      "last_seen": "2026-10-01T09:05:21+00:00",
+      "latest_checked_at": "2026-10-01T20:22:13.940652+00:00",
+      "latest_claim_packet_id": "6627bae11c2e4166b3"
+    },
+    {
+      "id": "f2c8aaf537d8eb089b",
+      "canonical_claim": "A compilation of 100 important case laws has also been published.",
+      "occurrences": [
+        {
+          "id": "c05ba03cb4c117f37e",
+          "text": "A compilation of 100 important case laws has also been published.",
+          "source_title": "PM’s address at the Centenary Celebrations of UPSC",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
+          "published_at": "2026-10-01T09:05:21+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "reporting_found",
+      "human_reviewed": false,
+      "created_at": "2026-10-01T20:22:13.941324+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-01T09:05:21+00:00",
+      "last_seen": "2026-10-01T09:05:21+00:00",
+      "latest_checked_at": "2026-10-01T20:22:13.941338+00:00",
+      "latest_claim_packet_id": "d443adc2a0e2470ae9"
+    },
+    {
+      "id": "127f11520f5d871ac8",
+      "canonical_claim": "A little while ago, I was visiting the gallery that has been set up here, and I would encourage all of you to spend 10 to 15 minutes exploring it.",
+      "occurrences": [
+        {
+          "id": "7dcef6682de794d94c",
+          "text": "A little while ago, I was visiting the gallery that has been set up here, and I would encourage all of you to spend 10 to 15 minutes exploring it.",
+          "source_title": "PM’s address at the Centenary Celebrations of UPSC",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
+          "published_at": "2026-10-01T09:05:21+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-10-01T20:22:13.942216+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-01T09:05:21+00:00",
+      "last_seen": "2026-10-01T09:05:21+00:00",
+      "latest_checked_at": "2026-10-01T20:22:13.942229+00:00",
+      "latest_claim_packet_id": "c2a19aa48972aa09e4"
+    },
     {
       "id": "f8d1c60320c62e7358",
       "canonical_claim": "About 1 lakh crore rupees are being spent on this scheme.",
@@ -1223,6 +1224,30 @@
       "latest_claim_packet_id": "0ec79f33fc0e647baf"
     },
     {
+      "id": "d5174b41d182975c1b",
+      "canonical_claim": "Friends, India in 2047 will be very different from the India of today.",
+      "occurrences": [
+        {
+          "id": "444317bac5cb4b17aa",
+          "text": "Friends, India in 2047 will be very different from the India of today.",
+          "source_title": "PM’s address at the Centenary Celebrations of UPSC",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
+          "published_at": "2026-10-01T09:05:21+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-10-01T20:22:14.009553+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-01T09:05:21+00:00",
+      "last_seen": "2026-10-01T09:05:21+00:00",
+      "latest_checked_at": "2026-10-01T20:22:14.009570+00:00",
+      "latest_claim_packet_id": "e9ef5ba17322492eb6"
+    },
+    {
       "id": "668ffb0340c95c433d",
       "canonical_claim": "Friends, New opportunities for youth are created only when the country’s economy grows, when investment increases, new industries are set up, and new sectors expand.",
       "occurrences": [
@@ -1269,6 +1294,78 @@
       "last_seen": "2026-09-27T06:45:05+00:00",
       "latest_checked_at": "2026-10-01T14:28:22.324492+00:00",
       "latest_claim_packet_id": "71aa213d13ff043097"
+    },
+    {
+      "id": "9f9d2d3d4b74c7d730",
+      "canonical_claim": "Friends, Today is not only a celebration of 100 years of the UPSC, but also a celebration of a legacy.",
+      "occurrences": [
+        {
+          "id": "3dab8b2ca3f3e159ff",
+          "text": "Friends, Today is not only a celebration of 100 years of the UPSC, but also a celebration of a legacy.",
+          "source_title": "PM’s address at the Centenary Celebrations of UPSC",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
+          "published_at": "2026-10-01T09:05:21+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "reporting_found",
+      "human_reviewed": false,
+      "created_at": "2026-10-01T20:22:13.939921+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-01T09:05:21+00:00",
+      "last_seen": "2026-10-01T09:05:21+00:00",
+      "latest_checked_at": "2026-10-01T20:22:13.939936+00:00",
+      "latest_claim_packet_id": "88113c4cc7679dfe59"
+    },
+    {
+      "id": "a54263880f3e50c2a8",
+      "canonical_claim": "Friends, When the foundation of this institution was laid in 1926, the priorities of that era were different.",
+      "occurrences": [
+        {
+          "id": "72050c972a44cca331",
+          "text": "Friends, When the foundation of this institution was laid in 1926, the priorities of that era were different.",
+          "source_title": "PM’s address at the Centenary Celebrations of UPSC",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
+          "published_at": "2026-10-01T09:05:21+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-10-01T20:22:13.980193+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-01T09:05:21+00:00",
+      "last_seen": "2026-10-01T09:05:21+00:00",
+      "latest_checked_at": "2026-10-01T20:22:13.980206+00:00",
+      "latest_claim_packet_id": "bd7cb3b38ff534451f"
+    },
+    {
+      "id": "05404517a8b9d15751",
+      "canonical_claim": "I noticed a photograph from the 75th anniversary celebrations in which Lt.",
+      "occurrences": [
+        {
+          "id": "001dba0437fede6dc4",
+          "text": "I noticed a photograph from the 75th anniversary celebrations in which Lt.",
+          "source_title": "PM’s address at the Centenary Celebrations of UPSC",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
+          "published_at": "2026-10-01T09:05:21+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "primary_evidence_found",
+      "human_reviewed": false,
+      "created_at": "2026-10-01T20:22:13.976596+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-01T09:05:21+00:00",
+      "last_seen": "2026-10-01T09:05:21+00:00",
+      "latest_checked_at": "2026-10-01T20:22:13.976633+00:00",
+      "latest_claim_packet_id": "f6a1dd2c05d49c3e3c"
     },
     {
       "id": "0b3d02b1b9e213e876",
@@ -1367,6 +1464,30 @@
       "latest_claim_packet_id": "e660ab2e87c0220e7e"
     },
     {
+      "id": "b32c6a9c05899ce9c9",
+      "canonical_claim": "Much has already been said from this stage about its achievements and contributions.",
+      "occurrences": [
+        {
+          "id": "77777f32ae21e70d27",
+          "text": "Much has already been said from this stage about its achievements and contributions.",
+          "source_title": "PM’s address at the Centenary Celebrations of UPSC",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
+          "published_at": "2026-10-01T09:05:21+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-10-01T20:22:13.981025+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-01T09:05:21+00:00",
+      "last_seen": "2026-10-01T09:05:21+00:00",
+      "latest_checked_at": "2026-10-01T20:22:13.981037+00:00",
+      "latest_claim_packet_id": "e0aa9aa37e5a72091f"
+    },
+    {
       "id": "addd15d0595d2d6ae0",
       "canonical_claim": "On 15th August also, I had urged my countrymen to take time out for that.",
       "occurrences": [
@@ -1389,6 +1510,30 @@
       "last_seen": "2026-09-27T06:45:05+00:00",
       "latest_checked_at": "2026-10-01T14:28:22.324531+00:00",
       "latest_claim_packet_id": "267787130e54f91150"
+    },
+    {
+      "id": "fcf2c9b3e230f3aed9",
+      "canonical_claim": "One quarter of the 21st century, twenty-five years, has already passed.",
+      "occurrences": [
+        {
+          "id": "34bf3ac900994a662d",
+          "text": "One quarter of the 21st century, twenty-five years, has already passed.",
+          "source_title": "PM’s address at the Centenary Celebrations of UPSC",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
+          "published_at": "2026-10-01T09:05:21+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "reporting_found",
+      "human_reviewed": false,
+      "created_at": "2026-10-01T20:22:14.008486+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-01T09:05:21+00:00",
+      "last_seen": "2026-10-01T09:05:21+00:00",
+      "latest_checked_at": "2026-10-01T20:22:14.008522+00:00",
+      "latest_claim_packet_id": "d31336725037d6edfc"
     },
     {
       "id": "fc82bfa969c12dbd9c",
@@ -1487,6 +1632,30 @@
       "latest_claim_packet_id": "f8b649ac14178cd070"
     },
     {
+      "id": "c3553e9a75031885c3",
+      "canonical_claim": "The manner in which India’s Captain Smita displayed patience, prudence, and courage, and as the Prime Minister of Israel said today, this Indian prevented another 9/11 from taking place.",
+      "occurrences": [
+        {
+          "id": "9f1d89cc2b5cd1ecfc",
+          "text": "The manner in which India’s Captain Smita displayed patience, prudence, and courage, and as the Prime Minister of Israel said today, this Indian prevented another 9/11 from taking place.",
+          "source_title": "PM’s address at the Centenary Celebrations of UPSC",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
+          "published_at": "2026-10-01T09:05:21+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-10-01T20:22:13.939170+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-01T09:05:21+00:00",
+      "last_seen": "2026-10-01T09:05:21+00:00",
+      "latest_checked_at": "2026-10-01T20:22:13.939206+00:00",
+      "latest_claim_packet_id": "63b703ab25dbb97e26"
+    },
+    {
       "id": "bfef4217d0e086f575",
       "canonical_claim": "The process there started with 83-year-old Purnima Rawat ji.",
       "occurrences": [
@@ -1509,6 +1678,54 @@
       "last_seen": "2026-09-27T06:45:05+00:00",
       "latest_checked_at": "2026-10-01T14:28:22.324523+00:00",
       "latest_claim_packet_id": "e5dfba58007d029fbc"
+    },
+    {
+      "id": "8ee6e625ac2315ff5a",
+      "canonical_claim": "The steel frame that was required for the reconstruction of the nation was provided by Sardar Vallabhbhai Patel.",
+      "occurrences": [
+        {
+          "id": "e0774f7c0844be0615",
+          "text": "The steel frame that was required for the reconstruction of the nation was provided by Sardar Vallabhbhai Patel.",
+          "source_title": "PM’s address at the Centenary Celebrations of UPSC",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
+          "published_at": "2026-10-01T09:05:21+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "primary_evidence_found",
+      "human_reviewed": false,
+      "created_at": "2026-10-01T20:22:13.979312+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-01T09:05:21+00:00",
+      "last_seen": "2026-10-01T09:05:21+00:00",
+      "latest_checked_at": "2026-10-01T20:22:13.979326+00:00",
+      "latest_claim_packet_id": "8627b9532420ebafc0"
+    },
+    {
+      "id": "49d5e5450c6969191f",
+      "canonical_claim": "Therefore, I neither wish to repeat those points nor go into detail about them.",
+      "occurrences": [
+        {
+          "id": "a857114348dff5561e",
+          "text": "Therefore, I neither wish to repeat those points nor go into detail about them.",
+          "source_title": "PM’s address at the Centenary Celebrations of UPSC",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
+          "published_at": "2026-10-01T09:05:21+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-10-01T20:22:13.981904+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-01T09:05:21+00:00",
+      "last_seen": "2026-10-01T09:05:21+00:00",
+      "latest_checked_at": "2026-10-01T20:22:13.981917+00:00",
+      "latest_claim_packet_id": "d9ed8629ebcb7a572c"
     },
     {
       "id": "5009d9e2cdfc706117",
@@ -1581,6 +1798,30 @@
       "last_seen": "2026-09-19T08:41:02+00:00",
       "latest_checked_at": "2026-09-29T06:16:21.734805+00:00",
       "latest_claim_packet_id": "ec5a3ff341e75db6b8"
+    },
+    {
+      "id": "0903ecf4ec768e2426",
+      "canonical_claim": "Today, at the age of 90, he is present among us.",
+      "occurrences": [
+        {
+          "id": "b5adc1db7db8dc1347",
+          "text": "Today, at the age of 90, he is present among us.",
+          "source_title": "PM’s address at the Centenary Celebrations of UPSC",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
+          "published_at": "2026-10-01T09:05:21+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "reporting_found",
+      "human_reviewed": false,
+      "created_at": "2026-10-01T20:22:13.977470+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-01T09:05:21+00:00",
+      "last_seen": "2026-10-01T09:05:21+00:00",
+      "latest_checked_at": "2026-10-01T20:22:13.977487+00:00",
+      "latest_claim_packet_id": "69276105583e101638"
     },
     {
       "id": "d9b035f06d511cb491",
@@ -1656,6 +1897,30 @@
       "last_seen": "2026-09-19T08:41:02+00:00",
       "latest_checked_at": "2026-09-29T06:16:21.734865+00:00",
       "latest_claim_packet_id": "39fc4bbea929682819"
+    },
+    {
+      "id": "4a1cf1452386f1d90f",
+      "canonical_claim": "While looking through the gallery, I noticed that it also contains information about how Subhas Chandra Bose went through this very process in 1920.",
+      "occurrences": [
+        {
+          "id": "b0cf2f92e0275f7d59",
+          "text": "While looking through the gallery, I noticed that it also contains information about how Subhas Chandra Bose went through this very process in 1920.",
+          "source_title": "PM’s address at the Centenary Celebrations of UPSC",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
+          "published_at": "2026-10-01T09:05:21+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-10-01T20:22:13.978434+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-01T09:05:21+00:00",
+      "last_seen": "2026-10-01T09:05:21+00:00",
+      "latest_checked_at": "2026-10-01T20:22:13.978447+00:00",
+      "latest_claim_packet_id": "6df0bf295350af0cd6"
     },
     {
       "id": "89ec21713eb8e3bda8",
@@ -12820,6 +13085,115 @@
       }
     },
     {
+      "id": "c19836344dc71ca6a0",
+      "checked_at": "2026-10-01T20:22:47.228481+00:00",
+      "promise_id": "BJP-2024-fee94768c5bae25328",
+      "year": 2024,
+      "category": "health_welfare",
+      "page": 35,
+      "anchor": "Providing Affordable Housing Priority to Divyangs under the PM Awas Yojana We will continue …",
+      "exact_text": "Providing Affordable Housing Priority to Divyangs under the PM Awas Yojana We will continue to prioritize the housing needs of divyangs under the Pradhan Mantri Awas Yojana, guaranteeing affordable and accessible housing solutions that cater to their unique requirements.",
+      "keywords": [
+        "housing",
+        "affordable",
+        "divyangs",
+        "awas",
+        "yojana",
+        "providing",
+        "priority"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
+      "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
+      "related_promises": [],
+      "query": "housing affordable divyangs awas yojana providing",
+      "evidence": [
+        {
+          "id": "0957a6f240f223a87a",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "ग्रामविकास विभाग",
+          "source_url": "https://rdd.maharashtra.gov.in",
+          "title": "Pradhan Mantri Awas Yojana – Rural | Rural Development and Panchayat Raj Department | India - ग्रामविकास विभाग",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBYY3pQSUF1SUsxaU95OU90RDAwdWJjbVQxVUh1RkpldlBpbVIybzZ6Tm55U1JQYnBIMWZJbU1xc0JIWVFjbDRfb0lQaWtaUjBGTWZrTWJBc1hWcGVjcVZyRml1bmZBamtfQUpickZ1U1V5ZzQ1ZEF0dmRqM2NOZzA?oc=5",
+          "published_at": "2025-01-29T08:00:00+00:00",
+          "snippet": "Pradhan Mantri Awas Yojana – Rural | Rural Development and Panchayat Raj Department | India ग्रामविकास विभाग",
+          "lexical_overlap": 0.158,
+          "relevance": 0.313,
+          "matched_terms": [
+            "awas",
+            "pradhan",
+            "yojana"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "awas",
+            "mantri",
+            "pradhan",
+            "yojana"
+          ]
+        },
+        {
+          "id": "6d90d2e66f80bb7d23",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "nagpurtoday.in",
+          "source_url": "https://www.nagpurtoday.in",
+          "title": "Big boost to ‘Housing for All’: NMC to build 2,561 affordable homes under PMAY 2.0 - nagpurtoday.in",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYy1KcWpaNE9oeXpqWVpBbXJDNUs4YUVtR2tLVGxRMFEwaVM4a1VjS3pvNEVfU2ZzWTFUMUl6TFVLUmdBaVkxczZLVXBLYjBDYVJxamlZSHpjNHlqblNYVkJyWlBwUGExOHlUOVhJTUlfYXNneTMzZEpOLVlVeFpDYWxYMVIzSG92ODJ5bE1NOFprWDZOUE15MlE5cmk3Z0NmbE41a1RGcGw5dw?oc=5",
+          "published_at": "2026-03-17T07:00:00+00:00",
+          "snippet": "Big boost to ‘Housing for All’: NMC to build 2,561 affordable homes under PMAY 2.0 nagpurtoday.in",
+          "lexical_overlap": 0.105,
+          "relevance": 0.175,
+          "matched_terms": [
+            "affordable",
+            "housing"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "affordable",
+            "housing"
+          ]
+        },
+        {
+          "id": "50186d976e520c5af7",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "ET Realty",
+          "source_url": "https://realty.economictimes.indiatimes.com",
+          "title": "Uttar Pradesh cabinet approves affordable rental housing scheme for urban poor - ET Realty",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPQl9NVl94N2dJX1Z2NkZlNFdJRmNiUGkya0U0U29HYUZ4ZlAxeW5EazFQNFA5YTMyTDR0Q1NKME5aUm9WRVlZaEZNckUtTVVSQ1hubnBLLXlOcnVCX2o1UUFKdVhoR0VEV3lza2RzZy1vckpBTk9ORmRLT0lpM1BQX3VYc29UWi1waUhEZEo1Z1lxOVlyWGlhQ2VJbkFjNGZsTjBUdzNVZVg3T0JwaXNSTU4xTF9GSXhIV2RHWkJubzFPb3otV3RuQXpDVjR4djMteGR1ZlhkWkFWWUdRMzJQSEpR0gHnAUFVX3lxTE1qSE1aTnRtNG13ZnhfYS1La1pBbV9udlFvOGVPUWNYQ0lQaXpWQjBmN296b3BnbW9VN1dMMVFET2k0NVRCcktfSXdGRjlrUE9Tc0w3LThiR3RkbEdtb2Z1YlAwTDFHZENUd3V6NnJOWmN6Sk5vQ2JDcVdVaEo5RlNEUW96NW1xOG5aQlFONHpSU014VGsxSVMtUnQySG1BODczblI2VXZLazE5Qlc0TG9ac3hLdU5fNEIyM3VIRnRVU19UTlVmRXBTOXU0UmJXOWN0X2NCb1EyX0J6SklWZnFabTBUV2lWcw?oc=5",
+          "published_at": "2021-03-26T07:00:00+00:00",
+          "snippet": "Uttar Pradesh cabinet approves affordable rental housing scheme for urban poor ET Realty",
+          "lexical_overlap": 0.091,
+          "relevance": 0.161,
+          "matched_terms": [
+            "affordable",
+            "housing"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "affordable",
+            "housing"
+          ]
+        }
+      ],
+      "implementation_signal": "current_primary_evidence_found",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
       "id": "0958ba9d2c2254d483",
       "checked_at": "2026-09-28T01:40:36.489224+00:00",
       "promise_id": "BJP-2024-0fe72f887380b5487d",
@@ -17827,7 +18201,7 @@
     },
     {
       "id": "447f92ab799a937809",
-      "checked_at": "2026-09-28T08:42:38.794690+00:00",
+      "checked_at": "2026-10-01T20:22:44.104728+00:00",
       "promise_id": "BJP-2024-fea947ffa9a240e4cc",
       "year": 2024,
       "category": "jobs_economy",
@@ -17849,31 +18223,8 @@
       "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
       "related_promises": [],
       "query": "support industries adopt greener manufacturing processes",
-      "evidence": [
-        {
-          "id": "a5601ab4da1f632c7e",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "ABB",
-          "source_url": "https://www.abb.com",
-          "title": "Powering a greener future: How ABB is driving emission reductions across industries - ABB",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYmxhTWVuR2hTYlk4SjRpVmlTRlluYVhwVTd2dTNRS1VNMWxCbVlhNFNnaGpHdzdyaF9NTW1qY3lNNVlySURGVDg2T2hIUnJHN01OSHBPTWI4MkpYTnR0VWxIS3RQc1pKVkJhMjRDZjVpaHhoVUtqUHhLX3ZnN3lvSVRKRmVEeWJTY0Zpb0dWTUtMd3loV0tfYzZBNFRTTUgzbnFWOENwNEVpYXJkVUMyWkthaEZCb0ZnWE9YajVaX2Izdw?oc=5",
-          "published_at": "2026-04-21T07:00:00+00:00",
-          "snippet": "Powering a greener future: How ABB is driving emission reductions across industries ABB",
-          "lexical_overlap": 0.154,
-          "relevance": 0.224,
-          "matched_terms": [
-            "greener",
-            "industries"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "greener",
-            "industries"
-          ]
-        }
-      ],
-      "implementation_signal": "current_reporting_found",
+      "evidence": [],
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -22886,6 +23237,45 @@
       }
     },
     {
+      "id": "9359de497a278d07cf",
+      "checked_at": "2026-10-01T20:22:46.063712+00:00",
+      "promise_id": "BJP-2024-feb5a281e6f5784a93",
+      "year": 2024,
+      "category": "other",
+      "page": 55,
+      "anchor": "Developing Legal Standards For Cultural IP Protection We will collaborate with domestic and international …",
+      "exact_text": "Developing Legal Standards For Cultural IP Protection We will collaborate with domestic and international organizations like WIPO & UNESCO to develop harmonised legal standards for cultural IP protection.",
+      "keywords": [
+        "legal",
+        "standards",
+        "cultural",
+        "protection",
+        "developing",
+        "collaborate",
+        "domestic"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
+      "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
+      "related_promises": [],
+      "query": "legal standards cultural protection developing collaborate",
+      "evidence": [],
+      "implementation_signal": "needs_research",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
       "id": "c039b3c6c6ae0b6d2e",
       "checked_at": "2026-09-28T23:33:00.912279+00:00",
       "promise_id": "BJP-2024-04b5ac5d0c64910672",
@@ -27372,7 +27762,7 @@
     },
     {
       "id": "7f4b7c11a76c0f6d7e",
-      "checked_at": "2026-09-28T08:42:37.172746+00:00",
+      "checked_at": "2026-10-01T20:22:42.078891+00:00",
       "promise_id": "BJP-2024-fe272834cb68580e41",
       "year": 2024,
       "category": "other",
@@ -27441,6 +27831,30 @@
           ]
         },
         {
+          "id": "ecc7b286494bdbf71c",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "CHS Capitol Hill Seattle News",
+          "source_url": "https://www.capitolhillseattle.com",
+          "title": "Seattle approves reforms to protect development and affordable housing legislation from environmental appeals - CHS Capitol Hill Seattle News",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQZTVMQnI1RXdUTXp4eVFMOUgxa0w2Tl9BY2t5WFVWS212cW0yVFNXUXY4YzE0eXFLOEowdVZPc2dyMWc3T2NZSWo1RjZjUjhhV21FaEhqTUtQWEh6cWhNazV6ZkVPMVhTUmx5Y2F4N3dXUHdkN0tuc3kyQXZKdlNHNUZnV1lBOGVGUXZfbU10TkFWbzdSRXZKcFlLQTA5S2s1ZWNTVlhDVjNBYnRpM2gyemZQaGtWTnNhbmY0czdCa2NkcjZ1Z3Y4bGxzcjZ4MlhfSlJfeXNSWnR0dUdEYU1yNkVyYk4tSGk1?oc=5",
+          "published_at": "2026-07-29T07:00:00+00:00",
+          "snippet": "Seattle approves reforms to protect development and affordable housing legislation from environmental appeals CHS Capitol Hill Seattle News",
+          "lexical_overlap": 0.136,
+          "relevance": 0.241,
+          "matched_terms": [
+            "development",
+            "hill",
+            "protect"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "development",
+            "hill",
+            "protect"
+          ]
+        },
+        {
           "id": "9c538106693b89dc0b",
           "scope": "news_search",
           "tier": "secondary",
@@ -27463,7 +27877,7 @@
           ]
         }
       ],
-      "implementation_signal": "current_primary_evidence_found",
+      "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -29809,6 +30223,45 @@
       }
     },
     {
+      "id": "f19e1b490a861edac9",
+      "checked_at": "2026-10-01T20:23:08.679955+00:00",
+      "promise_id": "BJP-2019-253a2cc725aa76f7ee",
+      "year": 2019,
+      "category": "governance",
+      "page": 5,
+      "anchor": "Today, when we are at this juncture of elections and facing the electorate, I …",
+      "exact_text": "Today, when we are at this juncture of elections and facing the electorate, I can assefi with immense pride and satisfaction that the journey of resolves and commitments that began in 2014 will continue to be carried forward in accordance with the wishes of the people.",
+      "keywords": [
+        "today",
+        "when",
+        "juncture",
+        "elections",
+        "facing",
+        "electorate",
+        "assefi"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
+      "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
+      "related_promises": [],
+      "query": "when juncture elections facing electorate assefi",
+      "evidence": [],
+      "implementation_signal": "needs_research",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
       "id": "8f23037618495cb5b6",
       "checked_at": "2026-09-29T09:48:47.202671+00:00",
       "promise_id": "BJP-2019-18c0d077aa33db700e",
@@ -30298,6 +30751,178 @@
           "promise_core_overlap": [
             "invest",
             "research"
+          ]
+        }
+      ],
+      "implementation_signal": "needs_research",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
+      "id": "6aea403d082d672d8f",
+      "checked_at": "2026-10-01T20:22:56.499374+00:00",
+      "promise_id": "BJP-2019-0f8b9a70b8e17fc406",
+      "year": 2019,
+      "category": "governance",
+      "page": 11,
+      "anchor": "We will encourage expedited police reforms in the states so as to enable the …",
+      "exact_text": "We will encourage expedited police reforms in the states so as to enable the State police forces to deal with new types of crimes like cyber crime and help them to be more sensitive to the citizens, especially the weak and vulnerable sections of the society.",
+      "keywords": [
+        "police",
+        "encourage",
+        "expedited",
+        "reforms",
+        "states",
+        "enable",
+        "state"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
+      "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
+      "related_promises": [],
+      "query": "police encourage expedited reforms states enable",
+      "evidence": [
+        {
+          "id": "8127be2c986bfc55e5",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "THISDAYLIVE",
+          "source_url": "https://www.thisdaylive.com",
+          "title": "Group Commends Tinubu, Urges Accelerated Action on State Police - THISDAYLIVE",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWFlaX1dhSXRzY1JFeVFYUTN1M3FTVWJVcUVpY21uZFhCLWp2VU9lOU9LdGsyOUEwc1ZYbkhzd1huanpab29WaHdZQWxGa3d4V1RHTDRVcEJ0NzhFVlZYOFJ3UmlSNkoyV1c0aUVCUjBtQnFDb3JobXg4bmt5Y3ZLdjdidkZUSzBqUTRRVjFiLTlnU3BZTkNOTFBFTU05bnBvMVl5Yw?oc=5",
+          "published_at": "2026-03-26T07:00:00+00:00",
+          "snippet": "Group Commends Tinubu, Urges Accelerated Action on State Police THISDAYLIVE",
+          "lexical_overlap": 0.105,
+          "relevance": 0.175,
+          "matched_terms": [
+            "police",
+            "state"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "police",
+            "state"
+          ]
+        },
+        {
+          "id": "f68a8f4b2171262e45",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Peoples Gazette Nigeria",
+          "source_url": "https://gazettengr.com",
+          "title": "Lagos assembly endorses Tinubu’s state police move - Peoples Gazette Nigeria",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE11SllPUW9obTl0UmluRFhKZ1ZuMUMzVjJPY29MTTR4QkliR1l3TzliMTN1eUlxbUJzNmhITHVXbENxNmE0ZFhRNVkzTDdWOHlQVnNteW05QUNZdjcwUW5tSVRUbmlwSThEcjVJZTNveW9TU3N4VElFNk0xTFRfZw?oc=5",
+          "published_at": "2026-07-09T07:00:00+00:00",
+          "snippet": "Lagos assembly endorses Tinubu’s state police move Peoples Gazette Nigeria",
+          "lexical_overlap": 0.1,
+          "relevance": 0.17,
+          "matched_terms": [
+            "police",
+            "state"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "police",
+            "state"
+          ]
+        },
+        {
+          "id": "d60acf6195364985f7",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Vanguard News",
+          "source_url": "https://www.vanguardngr.com",
+          "title": "Adams, Alao urge Tinubu, Senate to fast-track state police bill - Vanguard News",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOOUlrX0VWeUxyZkhQTTVWSF9Vc1RwZlUwcGtySGd5VWlkT1hCQkJEZmZqRWU3T0dpYXZsQnBZOGI2QnYzam5DOHYwSFEwel9GQXk3cmVYc0xXMG8tdDFSTmlsdy1nMGUzLVVveGFBSFdqSDhLVC1aMlFzT0RxUHRhWHViRUFuREh3RUtfbUNCWm5GTEtHeC1HSzVBVUo1R03SAaQBQVVfeXFMTTNZSDIyNmlndFRfb0ZhZXQzLUZiU3lTaEN6YjJaQUw2cGFjT1RPNU0ycnFpZW9JZExQNG5Mb3ZJZk8yNGZXeWFNQzJNa1pITkZRZ0g0VzFvSXRYcXdmZ0dmWWJ2Njh1Zm1uX1ExOU5KdTlHcGJnNnhpaHVVUEdqTDBlb3daQjNzNXEzWWNvYnZTZnRFYl9FYXlibVFhSUhZbmlYd1M?oc=5",
+          "published_at": "2026-06-17T07:00:00+00:00",
+          "snippet": "Adams, Alao urge Tinubu, Senate to fast-track state police bill Vanguard News",
+          "lexical_overlap": 0.095,
+          "relevance": 0.165,
+          "matched_terms": [
+            "police",
+            "state"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "police",
+            "state"
+          ]
+        },
+        {
+          "id": "df5ab163e2214fd1da",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Guardian Nigeria News",
+          "source_url": "https://guardian.ng",
+          "title": "Why Nigeria can no longer afford to wait on State Police – Ex-AIG - The Guardian Nigeria News",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVzVpRUZsck00U1R4NXBVdTNHU01Uamt5bEJVNnEtMU11ZXc3OGdRQzdpMlFlenl1SE1xTkMwcmQ4OVpBN3RRU1d2SllKWUhVd0NOSnpqM1pwNFl2U3JpaU52cWgyV0lNZkVCZTRIbVNwSEJaNzgwYjQ2ZlZCVFVWb21ENS1oWTExZUxNem8zQ05wTDg?oc=5",
+          "published_at": "2026-06-17T07:00:00+00:00",
+          "snippet": "Why Nigeria can no longer afford to wait on State Police – Ex-AIG The Guardian Nigeria News",
+          "lexical_overlap": 0.095,
+          "relevance": 0.165,
+          "matched_terms": [
+            "police",
+            "state"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "police",
+            "state"
+          ]
+        },
+        {
+          "id": "f0c525828a225d1def",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Guardian Nigeria News",
+          "source_url": "https://guardian.ng",
+          "title": "Senate clears path for state police, retains federal oversight, guardrails - The Guardian Nigeria News",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRXRzODE1c3BtbjZySkFJeTRpMmh0emhuY2doYTV1N0Q5aFF5OTNRZ1hYSjcxZUNIQnkzYVFOSDR4cV96R2phWjl1UTExbHVNVEx3UUhXak9EanI3bndUN3FxOGtjcXdaUGl2R1ZVUXc2NVVJYkdvODA1aU1Xem9TdVl0YlByNThnaGtNVjRQajdGY3VyUE9tNWN2MW44RTUxWjJ1NA?oc=5",
+          "published_at": "2026-06-25T07:00:00+00:00",
+          "snippet": "Senate clears path for state police, retains federal oversight, guardrails The Guardian Nigeria News",
+          "lexical_overlap": 0.091,
+          "relevance": 0.161,
+          "matched_terms": [
+            "police",
+            "state"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "police",
+            "state"
+          ]
+        },
+        {
+          "id": "40eed0d9de5f301ad9",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Guardian Nigeria News",
+          "source_url": "https://guardian.ng",
+          "title": "NCYP applauds Tinubu, lawmakers over amendment of bill seeking State Police - The Guardian Nigeria News",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTWhpZG5aQ25Rbk4xMnMzM3lJblZGRUdWal80UUJuMVZfX29Bek9oejh1NnVSenRuV0pjekRqNmdoYlE2eWlqdENPSWVobmtpU3B5eWo4aWpHMmNOS2MtNkRvaEtBVTRMdmtwX3B2ZVZ1NUR0WVFyZlM5Rmp1dWVQMXFibVFRZ3hjSDNUZV85TWF1cUVqMU9tX1JabmY2QXE0d0E?oc=5",
+          "published_at": "2026-06-26T07:00:00+00:00",
+          "snippet": "NCYP applauds Tinubu, lawmakers over amendment of bill seeking State Police The Guardian Nigeria News",
+          "lexical_overlap": 0.091,
+          "relevance": 0.161,
+          "matched_terms": [
+            "police",
+            "state"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "police",
+            "state"
           ]
         }
       ],
@@ -31426,7 +32051,7 @@
     },
     {
       "id": "0764c49dce738dbbee",
-      "checked_at": "2026-10-01T14:28:24.263377+00:00",
+      "checked_at": "2026-10-01T20:22:16.548041+00:00",
       "promise_id": "BJP-2019-18c0750d5ed71bc3d1",
       "year": 2019,
       "category": "agriculture",
@@ -31836,6 +32461,74 @@
       }
     },
     {
+      "id": "d3c9bbec44ad465d98",
+      "checked_at": "2026-10-01T20:22:48.727629+00:00",
+      "promise_id": "BJP-2019-03d15b3af9df588858",
+      "year": 2019,
+      "category": "health_welfare",
+      "page": 15,
+      "anchor": "We will bring all fishermen under the ambit of all welfare programmes and social …",
+      "exact_text": "We will bring all fishermen under the ambit of all welfare programmes and social security schemes with expanded coverage for accident insurance.",
+      "keywords": [
+        "bring",
+        "fishermen",
+        "ambit",
+        "welfare",
+        "programmes",
+        "social",
+        "security"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
+      "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
+      "related_promises": [],
+      "query": "bring fishermen ambit welfare programmes social",
+      "evidence": [
+        {
+          "id": "95e31f2bb54408413c",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Times of India",
+          "source_url": "https://timesofindia.indiatimes.com",
+          "title": "Social Security Board to bring commercial vehicle operators under welfare ambit - The Times of India",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPYi0zVWN3aUJ0Y285aUo2LXlMTHRuVGFXQXFfOEVIbm02QmNrajFUQnVnZXlFUnhGT0ZDMTRmUnVBUWl0QjZGb3BVUVBWZkRSMm5WdnFoZllBUkk0UTBUR0FKTXVuS2doeVNBdURMN2FQRENHUTJaakROMWFRczRFTzJIc3p2dkl0cFpQTVhpUFVKdXZlcndSZ1B4MzVsZnpMQmpjX1ozMmxkQVZwTDhHeVB4YUk4VnQwR0NPeWNZeGJTVnd0VjZKX05DVUwzRHlmdGR0WDUweEE0WkNIOWpCRFJ2VEZCRV9NOGfSAe8BQVVfeXFMUFI3bWxTX0pESzgxclVPN2dIRFUzaUM3ZDlNZXNNVVRMMFQzeFpKQ1dySWRIcl9VN2tCX3Jka2FRWkQzZFFKUXBVdEtjVWNqVVJ1cWhvOXpEdlVYdDQ5YUp6dGxEVWc1WTlnY3FsZWdfM0RCNGFpbjczdVozYmZidXdObGwwLTBsTnJYa0RneElPcXVSSkJycXRyVmFSbGcwM2htSEpwaUJ5Q0tZTmNXSDd0dnpsLU04WElfU09TN3BvWjNQUGpOanR6NXVHUEJrSzRYemNtaERxbE5keGJIdjFObnBQajRYdkthYjVCdmM?oc=5",
+          "published_at": "2026-04-27T07:00:00+00:00",
+          "snippet": "Social Security Board to bring commercial vehicle operators under welfare ambit The Times of India",
+          "lexical_overlap": 0.294,
+          "relevance": 0.469,
+          "matched_terms": [
+            "ambit",
+            "bring",
+            "security",
+            "social",
+            "welfare"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "ambit",
+            "bring",
+            "security",
+            "social",
+            "welfare"
+          ]
+        }
+      ],
+      "implementation_signal": "current_reporting_found",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
       "id": "403d085e0efe3cb417",
       "checked_at": "2026-09-29T09:48:45.674131+00:00",
       "promise_id": "BJP-2019-1660ba3c42c4b983cf",
@@ -32093,7 +32786,7 @@
     },
     {
       "id": "f5811520c1d5623f19",
-      "checked_at": "2026-10-01T14:28:25.783407+00:00",
+      "checked_at": "2026-10-01T20:22:18.606546+00:00",
       "promise_id": "BJP-2019-1d3e95fa9344e842f3",
       "year": 2019,
       "category": "infrastructure",
@@ -32214,7 +32907,7 @@
     },
     {
       "id": "92d6920a15fb42f812",
-      "checked_at": "2026-10-01T14:28:41.075121+00:00",
+      "checked_at": "2026-10-01T20:22:37.475265+00:00",
       "promise_id": "BJP-2019-6abf03adda773fec98",
       "year": 2019,
       "category": "governance",
@@ -32463,6 +33156,45 @@
         "proof_evidence_id": null,
         "proof": null,
         "reason": "The extracted deadline (2024) has passed, but ClaimWatch does not have direct comparable post-deadline evidence proving fulfilment or non-fulfilment."
+      }
+    },
+    {
+      "id": "7f51ae159cad191abb",
+      "checked_at": "2026-10-01T20:22:59.558809+00:00",
+      "promise_id": "BJP-2019-13a4a86da64f48071c",
+      "year": 2019,
+      "category": "governance",
+      "page": 17,
+      "anchor": "We will continue with our policy in the similar manner – lowering of tax …",
+      "exact_text": "We will continue with our policy in the similar manner – lowering of tax rate thereby rewarding honest tax payers and improving compliance.",
+      "keywords": [
+        "tax",
+        "policy",
+        "similar",
+        "manner",
+        "lowering",
+        "rate",
+        "thereby"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
+      "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
+      "related_promises": [],
+      "query": "tax policy similar manner lowering rate",
+      "evidence": [],
+      "implementation_signal": "needs_research",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
       }
     },
     {
@@ -33165,13 +33897,14 @@
       }
     },
     {
-      "id": "d143770390be34d674",
-      "checked_at": "2026-09-27T19:30:40.747671+00:00",
+      "id": "675769104f01398dbe",
+      "checked_at": "2026-10-01T20:23:03.520025+00:00",
       "promise_id": "BJP-2019-183199ef4b892c8e54",
       "year": 2019,
       "category": "other",
       "page": 19,
       "anchor": "We will guarantee 50% of the loan amount for female entrepreneurs and 25% of …",
+      "exact_text": "We will guarantee 50% of the loan amount for female entrepreneurs and 25% of the loan amount for male entrepreneurs.",
       "keywords": [
         "loan",
         "amount",
@@ -33186,54 +33919,53 @@
       "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
-      "query": "25 50 loan amount entrepreneurs guarantee female male",
+      "query": "loan amount entrepreneurs guarantee female male",
       "evidence": [
         {
-          "id": "5ba7f839eb61a7c095",
+          "id": "a231436bcdc184cf48",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "The Business Standard",
-          "source_url": "https://www.tbsnews.net",
-          "title": "Women entrepreneurs can get collateral-free loan up to Tk50 lakh - The Business Standard",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxONmdUYldpSTdSM3BNY1kxMzVmbmNlRUFYYm1fWWFDdkx2Nm5INjRRY2ZELWJqNUJaUjJWZmhCS19vdVJRUUkxUjFTbWpibXliOGhKdDBibzRHQnZoQnFrUHZncXc0RExxZTA0ZzdjekJmaWZ4ck8yM2xpWW5oaEFUUDVoQU9rQklURlh2MXhSbENFbDVSSlVELTFDbmNsdw?oc=5",
-          "published_at": "2023-11-08T16:32:28+00:00",
-          "snippet": "Women entrepreneurs can get collateral-free loan up to Tk50 lakh The Business Standard",
-          "lexical_overlap": 0.143,
-          "relevance": 0.213,
+          "source": "Airtel",
+          "source_url": "https://www.airtel.in",
+          "title": "MSME Guarantee Scheme 2025: Empowering Entrepreneurs - Airtel",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9FYlE0dzN0eUc1UzdyRmd0ZnlLX2RwdEZZaVE2Qld0S0lIYnVPZy1jNF9ISml0WUJXR3RyalpYZXJTZ2Vwek1JV1Fhb3BJcHNJYVNTSkFhTWZDVWFYblZ6QV9LUEF5dEZmSjB0UFVNMUhCb2l3ZXow?oc=5",
+          "published_at": "2025-12-04T08:00:00+00:00",
+          "snippet": "MSME Guarantee Scheme 2025: Empowering Entrepreneurs Airtel",
+          "lexical_overlap": 0.2,
+          "relevance": 0.27,
           "matched_terms": [
             "entrepreneurs",
-            "loan"
+            "guarantee"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "entrepreneurs",
-            "loan"
+            "entrepreneurs"
           ]
         },
         {
-          "id": "9e735f1cb9ba12370a",
+          "id": "9e497062f396474913",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "YourStory.com",
-          "source_url": "https://yourstory.com",
-          "title": "From Mudra Yojana to Annapurna scheme: here are 9 business loan schemes for women entrepreneurs - YourStory.com",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWEo2Ykx1LVM1c09kUm42NmFadm1CNEtmcTB6RkFmUFF3b1B6dlprVlBMRnZzS0JIamhOTExoS3VqVWJFQkRSYWVDWFN1Rlp6ZVU1a3ZQUlFYQnhmYk5QZGYxeHhSWjFRTFZQem5vNE9YSnVGcE1wX0NOc1pDdnBPVEVRU0pNTXU2VWM1NzNwMWtPeXc?oc=5",
-          "published_at": "2021-03-03T08:00:00+00:00",
-          "snippet": "From Mudra Yojana to Annapurna scheme: here are 9 business loan schemes for women entrepreneurs YourStory.com",
-          "lexical_overlap": 0.125,
-          "relevance": 0.195,
+          "source": "Nature",
+          "source_url": "https://www.nature.com",
+          "title": "The potential of digital loans to reduce gender disparities in financial inclusion among female health entrepreneurs in Kenya - Nature",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBkN2dRcmF2MHBWUHYzSC1GbDkteEI1c1BNUG1MZE40Um9LS0tjQXZMaHZvcXZJdG5CUGFJNTNYeFZlbUg0dzlmT1lLT2h0R2ZVMkY0V0VzbjJnWGZMb2RV?oc=5",
+          "published_at": "2025-11-11T08:00:00+00:00",
+          "snippet": "The potential of digital loans to reduce gender disparities in financial inclusion among female health entrepreneurs in Kenya Nature",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
           "matched_terms": [
             "entrepreneurs",
-            "loan"
+            "female"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
             "entrepreneurs",
-            "loan"
+            "female"
           ]
         }
       ],
-      "implementation_signal": "current_reporting_found",
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -33244,8 +33976,85 @@
         "proof_evidence_id": null,
         "proof": null,
         "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
-      },
-      "exact_text": "We will guarantee 50% of the loan amount for female entrepreneurs and 25% of the loan amount for male entrepreneurs."
+      }
+    },
+    {
+      "id": "37e4ab3975803e46be",
+      "checked_at": "2026-10-01T20:23:04.221447+00:00",
+      "promise_id": "BJP-2019-1b0f88eb1723da919d",
+      "year": 2019,
+      "category": "jobs_economy",
+      "page": 19,
+      "anchor": "We will also expedite our actions to bring fugitive economic ofienders back to India …",
+      "exact_text": "We will also expedite our actions to bring fugitive economic ofienders back to India and prosecute them for their crimes.",
+      "keywords": [
+        "expedite",
+        "actions",
+        "bring",
+        "fugitive",
+        "economic",
+        "ofienders",
+        "back"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
+      "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
+      "related_promises": [],
+      "query": "expedite actions bring fugitive economic ofienders",
+      "evidence": [],
+      "implementation_signal": "needs_research",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
+      "id": "a0668ac8c1060d31b7",
+      "checked_at": "2026-10-01T20:23:04.913870+00:00",
+      "promise_id": "BJP-2019-1b424568ca88b46af9",
+      "year": 2019,
+      "category": "other",
+      "page": 19,
+      "anchor": "In pafiicular, we will identify specific places of cultural or natural impofiance in order …",
+      "exact_text": "In pafiicular, we will identify specific places of cultural or natural impofiance in order to develop them as comprehensive destinations instead of leaving them as isolated sites.",
+      "keywords": [
+        "them",
+        "pafiicular",
+        "identify",
+        "specific",
+        "places",
+        "cultural",
+        "natural"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
+      "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
+      "related_promises": [],
+      "query": "them pafiicular identify specific places cultural",
+      "evidence": [],
+      "implementation_signal": "needs_research",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
     },
     {
       "id": "0776a8af50f3895f56",
@@ -34039,6 +34848,45 @@
       }
     },
     {
+      "id": "490d5ce988a8d6cc5f",
+      "checked_at": "2026-10-01T20:22:51.635662+00:00",
+      "promise_id": "BJP-2019-06efa7edd4c8569780",
+      "year": 2019,
+      "category": "infrastructure",
+      "page": 21,
+      "anchor": "We will continue the pace of work in this regard and encourage private pafiicipation …",
+      "exact_text": "We will continue the pace of work in this regard and encourage private pafiicipation in the development of railway amenities and infrastructure and provision of services.",
+      "keywords": [
+        "pace",
+        "regard",
+        "encourage",
+        "private",
+        "pafiicipation",
+        "development",
+        "railway"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
+      "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
+      "related_promises": [],
+      "query": "pace regard encourage private pafiicipation development",
+      "evidence": [],
+      "implementation_signal": "needs_research",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
       "id": "0b7f6764d3703262bc",
       "checked_at": "2026-09-30T13:03:36.921647+00:00",
       "promise_id": "BJP-2019-0a3bfba9651e13130f",
@@ -34162,6 +35010,70 @@
         "proof_evidence_id": null,
         "proof": null,
         "reason": "The extracted deadline (2024) has passed, but ClaimWatch does not have direct comparable post-deadline evidence proving fulfilment or non-fulfilment."
+      }
+    },
+    {
+      "id": "e03b559b2e478ecbfc",
+      "checked_at": "2026-10-01T20:23:01.558348+00:00",
+      "promise_id": "BJP-2019-14816de03a0c4b331a",
+      "year": 2019,
+      "category": "infrastructure",
+      "page": 21,
+      "anchor": "We will bring in new technologies and designs in road construction, operation and maintenance.",
+      "exact_text": "We will bring in new technologies and designs in road construction, operation and maintenance.",
+      "keywords": [
+        "bring",
+        "technologies",
+        "designs",
+        "road",
+        "construction",
+        "operation",
+        "maintenance"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
+      "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
+      "related_promises": [],
+      "query": "bring technologies designs road construction operation",
+      "evidence": [
+        {
+          "id": "3b3bf5acc76a5e7db2",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Wiley Online Library",
+          "source_url": "https://onlinelibrary.wiley.com",
+          "title": "Investigating the Applicability of Industry 4.0 Technologies in Road Construction Projects: A Quantitative Research Design From Construction 4.0 Perspectives - Wiley Online Library",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8tcGg4MUh3eUhPOFE2TFRtVERHX1NmVXBDVzNKcGlzZkl2bFFtMHNpNjBqZEZzaDJBNTZvcnVsMTZQRS04cnQwai1TV2NkYzVUbWdVcUJEWWFWYWY4OFRHN1BEYV81ZkQwNEh3?oc=5",
+          "published_at": "2025-10-10T07:00:00+00:00",
+          "snippet": "Investigating the Applicability of Industry 4.0 Technologies in Road Construction Projects: A Quantitative Research Design From Construction 4.0 Perspectives Wiley Online Library",
+          "lexical_overlap": 0.167,
+          "relevance": 0.272,
+          "matched_terms": [
+            "construction",
+            "road",
+            "technologies"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "construction",
+            "road",
+            "technologies"
+          ]
+        }
+      ],
+      "implementation_signal": "current_reporting_found",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
       }
     },
     {
@@ -34296,7 +35208,7 @@
     },
     {
       "id": "1e0abc9f94016f3c7a",
-      "checked_at": "2026-10-01T14:28:26.955060+00:00",
+      "checked_at": "2026-10-01T20:22:20.085197+00:00",
       "promise_id": "BJP-2019-2af396deaf778cac73",
       "year": 2019,
       "category": "infrastructure",
@@ -34381,7 +35293,7 @@
     },
     {
       "id": "4af70c5cc4e5dd31ea",
-      "checked_at": "2026-10-01T14:28:32.741141+00:00",
+      "checked_at": "2026-10-01T20:22:27.218310+00:00",
       "promise_id": "BJP-2019-34c03859f07f1329c5",
       "year": 2019,
       "category": "infrastructure",
@@ -34496,28 +35408,6 @@
           "shared_numbers": [],
           "promise_core_overlap": [
             "dedicated",
-            "freight"
-          ]
-        },
-        {
-          "id": "57f26ed201c7e8010e",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Business Standard",
-          "source_url": "https://www.business-standard.com",
-          "title": "Western freight corridor goes all the way, to cut transit time 60% - Business Standard",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNYm1rdEZsMVBIMDB3ZEVFWktuSkgyYUhPVTdSVmZhWUhXSjhHRkUxS3FJZXdUSEhRdzh6TjA2NlkySm94cUpKYkdJbEJmd2R0NHpoSnFsWlVFeDY4TmdTajlIdUdxOF9Rd3pFV0ZsVXRCRUhOZHh0X2puRkl3OWFndm1KWHlRNlIyTDdObnRnYUpNWXdpWFRDbWJ3TnFzUE54Wmd3UkMwS2d2WVg5UWhud254STkwbVZ0X2F0dHFNek5HbWFwVkhSdEEtLW3SAdIBQVVfeXFMTk5DbVVFRWhSMzlzb2RzLWxFeXR3TTVVbXNFVTZhdHlaM0dlYU1iempnYnVsa1Rjdk9qNm9qM3h6RnNISU9ONjlGLV9YcUlzeFBSRkk5RllYM1RUTzVGR3JkWjNjbVhTTnIwN2w2VFM3SVdVRmRFWklJQmZMcFFPMDFYQk94NjNKRHYxRXVwU0N6LUZJeDk4N2t4NHVqd2hWWFVyQzRCSUJ6MjI5QkxYd2E4VjRmWmVBUENpOVFFcTBoR0tNTWszQm9vdDNGTzFHZ01R?oc=5",
-          "published_at": "2026-09-08T07:00:00+00:00",
-          "snippet": "Western freight corridor goes all the way, to cut transit time 60% Business Standard",
-          "lexical_overlap": 0.133,
-          "relevance": 0.203,
-          "matched_terms": [
-            "corridor",
-            "freight"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "corridor",
             "freight"
           ]
         }
@@ -34942,6 +35832,45 @@
       }
     },
     {
+      "id": "5c56e5035a5cd9e4b4",
+      "checked_at": "2026-10-01T20:23:05.730136+00:00",
+      "promise_id": "BJP-2019-1b5917690123e91614",
+      "year": 2019,
+      "category": "other",
+      "page": 22,
+      "anchor": "We will fufiher encourage integrated development of coastal areas including coastal cities, coastal transpofi …",
+      "exact_text": "We will fufiher encourage integrated development of coastal areas including coastal cities, coastal transpofi and coastal industrialization.",
+      "keywords": [
+        "coastal",
+        "fufiher",
+        "encourage",
+        "integrated",
+        "development",
+        "areas",
+        "including"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
+      "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
+      "related_promises": [],
+      "query": "coastal fufiher encourage integrated development areas",
+      "evidence": [],
+      "implementation_signal": "needs_research",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
       "id": "28f131b6a144585a8d",
       "checked_at": "2026-09-30T13:03:40.275225+00:00",
       "promise_id": "BJP-2019-226d3883fc83caaf60",
@@ -34980,6 +35909,160 @@
         "proof_evidence_id": null,
         "proof": null,
         "reason": "The extracted deadline (2024) has passed, but ClaimWatch does not have direct comparable post-deadline evidence proving fulfilment or non-fulfilment."
+      }
+    },
+    {
+      "id": "f89fbe33f372467c6f",
+      "checked_at": "2026-10-01T20:23:06.550196+00:00",
+      "promise_id": "BJP-2019-2467e36c31b338bd14",
+      "year": 2019,
+      "category": "infrastructure",
+      "page": 22,
+      "anchor": "We will continue to focus on development of inland waterways for shifiing inland cargo …",
+      "exact_text": "We will continue to focus on development of inland waterways for shifiing inland cargo movement from road and rail to water transpofi.",
+      "keywords": [
+        "inland",
+        "focus",
+        "development",
+        "waterways",
+        "shifiing",
+        "cargo",
+        "movement"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
+      "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
+      "related_promises": [],
+      "query": "inland focus development waterways shifiing cargo",
+      "evidence": [
+        {
+          "id": "fbf262554087f8c91c",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "India’s Record Cargo Movement on Inland Waterways - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE01R09OaGJxeGg0NF9oUWpDSmtYUTF0VUpMa0IweWlrcHptWDlkX1pHdGF5eDdWVVVKdUZDS1ZUSmpUZUZkemRmRTZyQ2tUdHI4UmtzUkVUTktfY0lXVlltaHRWWmR3LVRs?oc=5",
+          "published_at": "2025-04-24T07:00:00+00:00",
+          "snippet": "India’s Record Cargo Movement on Inland Waterways PIB",
+          "lexical_overlap": 0.286,
+          "relevance": 0.476,
+          "matched_terms": [
+            "cargo",
+            "inland",
+            "movement",
+            "waterways"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "cargo",
+            "inland",
+            "movement",
+            "waterways"
+          ]
+        },
+        {
+          "id": "71149bda7ab44557d2",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "A Ride through the Inland Waterways of India - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9yNE5tVUlYUWxGTXlwWVI4MmdIMG80RVB5dnd2WW9EVl9vRG9SRnZnb1ZpcUMtdzZxNWpzcHc2ZUtVbTV5d19GNUlsaDN6RkI3ZHBwX0JKR0JrVnItVDhoMjBWT0pvOHhUNEVER0pNUDRiREtRUkt5ODV3?oc=5",
+          "published_at": "2026-04-27T07:00:00+00:00",
+          "snippet": "A Ride through the Inland Waterways of India PIB",
+          "lexical_overlap": 0.143,
+          "relevance": 0.263,
+          "matched_terms": [
+            "inland",
+            "waterways"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "inland",
+            "waterways"
+          ]
+        },
+        {
+          "id": "69e6dd6ac1dedfe6e0",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Digital Sansad",
+          "source_url": "https://sansad.in",
+          "title": "PARLIAMEN ‘Development and Expansion of PARLIAMENT OF INDIA RAJYA SABHA ment and Expansion of Existing and New National Inland - Digital Sansad",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdU1oVzhZXzdmbVRVcURBTFY1aUMtVl9zWkVuMDY5bU1WN20yaXhvM1A0ekNkQ3A5UUFIaWktSGdkY1Zwelg1cnBrSDllNUFoc19OOTgxVlo1Qml1VE9kQmV5ZDkxUnZTdFNkOTRWVlkzX0ZqM0llQUliMkZyMS1mRU44WHNFTlBPQUd2Y0lOYnQ1WFRYRlJhdHo2MzZ5eWhpTTQ1dURtWGxRclZEUnJTQXBIUi0yQQ?oc=5",
+          "published_at": "2023-10-04T02:25:44+00:00",
+          "snippet": "PARLIAMEN ‘Development and Expansion of PARLIAMENT OF INDIA RAJYA SABHA ment and Expansion of Existing and New National Inland Digital Sansad",
+          "lexical_overlap": 0.091,
+          "relevance": 0.211,
+          "matched_terms": [
+            "development",
+            "inland"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "development",
+            "inland"
+          ]
+        },
+        {
+          "id": "bbb4c29a4c3e7e33c5",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "ET Infra",
+          "source_url": "https://infra.economictimes.indiatimes.com",
+          "title": "Budgeting for a sustainable transport system: Unprecedented thrust to inland waterways - ET Infra",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOakVXZmtGUHZtMDNpbWREVS10WVJnd2Y5c09VeEFTVFZ4TWJ1S0Y0czZQWndUUXAyLWFtT0hxX0FCMHR4SGJGdE1seXVHNV95bDl0V1pCUzZULVNNenZHb3hqY0pXRUJzU05JTFZJOW5JUXg5SEU1ZzlNbTJTbklFbDh0YmVtazNDQk1lSkR2cmVmUUpvbEc0a0RWLXd5RGFyb2M5cE5QRUtodGE2RVBZZURSdjhUb3FVZEZGR1hTbGJvYnloVzVBU0g4YU11b2tnNkJsa25zRGlfeXROR040QVpnbUQ5bUV2RTRzR1NQbWJ1MTNYczNkWk85TjJGVnPSAYQCQVVfeXFMTmx4NWN0MFgtcU1fUC1EbjltYjBiRU5kcWMtR3F5Z0NRcDJTbTNTNHQwekRrT2YwcHQ1LUNUQmdzRmF6aU52azl4cEZhRm5Vc0NZdmFWWGc0aHE2N1YtUmdKUEVYZEZ6Zmd3alBNYU52c0JuYkFDeWJpcDZoelVEM0pBYk44S015d2FPYzhKYVJEVGQ4UEtfRWo5QnFXd0pUWTJnU3hRcVFRQjRhMmJhS2J4aEFoejBxZVdlMFpJcmptckU0M29KVmEyaWx3NUVkbDZ2SUpKZ3NxVjBSYTRmYWx2RUdzWFBjYjJsaEZ2d0QyNUdDNXoxY2IySnpRSTVFa1RQbFg?oc=5",
+          "published_at": "2026-02-25T08:00:00+00:00",
+          "snippet": "Budgeting for a sustainable transport system: Unprecedented thrust to inland waterways ET Infra",
+          "lexical_overlap": 0.1,
+          "relevance": 0.17,
+          "matched_terms": [
+            "inland",
+            "waterways"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "inland",
+            "waterways"
+          ]
+        },
+        {
+          "id": "86f75e8cdbf44920f0",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The New Indian Express",
+          "source_url": "https://www.newindianexpress.com",
+          "title": "Centre will give Kerala Rs 1,500 crore for national waterways development: Union min - The New Indian Express",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPOXNldnBESFdGLThXa3FVVjNFRGtFeGdaSnhQdDZTcG01eTNzYWtPSHdlTFFhUTExd1ZqOHhJM0xJSkREQlYzb2NzVHQ5WjlyVkVmQjJvLV8yNER4MUJvdUYtTUswSTNraEdWV1NXaXJtT2dZMzdsVGVzdGdfSDFpZXJOYkRmWnhWNTgxOVJPczc5Q0hKa3AtMDh3U3RfR2g5VmVpc2xOYWxjWG1mUHNWSVEtcWtyb1NZbTYydjNxdGJqQ3B2X0dpRDlsYmxOOVotNXZDdFhIMUXSAeYBQVVfeXFMUEFRTzdLa0hOV21pa2hZUVI3SU5SUUNSd1ZIM3IxU0NyVWRlZFVNTm1ZSlNROGt1XzA4dlFGellDZUh6cWlqNUNHdTFpZ3RYLUNXMlJNZnFtTERsYXhMRktZOXcxajNZX3BOVkJqaGxxY3FIbnllRm5Eb0N6VGhIS3cycHhuU3M4bkZPSGVoNWJZWlFMQVlRVDR1VmZBZTRTeS1ZT3VQM3pyaVEzQk5oVGlNNlVEU0JNY3lmaEJ2OVRfRzJKVEpCZ1BjNEMxblZaQVVDaThXWnNfUExkSndIcFNhTXljclE?oc=5",
+          "published_at": "2026-01-24T08:00:00+00:00",
+          "snippet": "Centre will give Kerala Rs 1,500 crore for national waterways development: Union min The New Indian Express",
+          "lexical_overlap": 0.095,
+          "relevance": 0.165,
+          "matched_terms": [
+            "development",
+            "waterways"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "development",
+            "waterways"
+          ]
+        }
+      ],
+      "implementation_signal": "current_primary_evidence_found",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
       }
     },
     {
@@ -35490,7 +36573,7 @@
     },
     {
       "id": "93bb9754ab7125c8f1",
-      "checked_at": "2026-10-01T14:28:36.891097+00:00",
+      "checked_at": "2026-10-01T20:22:32.320674+00:00",
       "promise_id": "BJP-2019-6013bbae5c9fbd8c5a",
       "year": 2019,
       "category": "women_social_justice",
@@ -35554,7 +36637,7 @@
     },
     {
       "id": "1d1782ad81aa54afcd",
-      "checked_at": "2026-10-01T14:28:38.884440+00:00",
+      "checked_at": "2026-10-01T20:22:34.798729+00:00",
       "promise_id": "BJP-2019-63e2ccda189fa85e2c",
       "year": 2019,
       "category": "health_welfare",
@@ -35986,6 +37069,118 @@
         }
       ],
       "implementation_signal": "needs_research",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
+      "id": "a7b759d3e47ce2ff0c",
+      "checked_at": "2026-10-01T20:22:53.110067+00:00",
+      "promise_id": "BJP-2019-076a0a2858076eff99",
+      "year": 2019,
+      "category": "other",
+      "page": 25,
+      "anchor": "We will also take all necessary steps to make India a hub of arbitration …",
+      "exact_text": "We will also take all necessary steps to make India a hub of arbitration services.",
+      "keywords": [
+        "necessary",
+        "steps",
+        "hub",
+        "arbitration",
+        "services"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
+      "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
+      "related_promises": [
+        {
+          "id": "BJP-2014-2bd93b1482e42832f3",
+          "year": 2014,
+          "similarity": 0.222,
+          "matched_terms": [
+            "necessary",
+            "steps"
+          ]
+        }
+      ],
+      "query": "necessary steps hub arbitration services",
+      "evidence": [
+        {
+          "id": "cc5b72bc74c296af0c",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "International Financial Services Centres Authority (IFSCA)",
+          "source_url": "https://ifsca.gov.in",
+          "title": "INTERNATIONAL ARBITRATION CENTRE AT GIFT IFSC - International Financial Services Centres Authority (IFSCA)",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMDdTOTJfRlZLYmlyTTAyODZkT2hiT1ZzdVZKZEp2ZmtnSWNqRVhtb3lpNmtBOVp5aVhJWWRPWm9TODljTTA2RWxxRVVEWHhPWVZTTHFld0pENW5KUF9Eek1LRW9KV3lfLXZWY1FhaUdlY1NnMGhOenUyUWJtUlA1dHY1a09XSEt2RUJ4TGxsYmZFVF84enNXUzFTYndwY1BLRnNmT2N6OE9UWk0tUlQw?oc=5",
+          "published_at": "2024-07-16T07:00:00+00:00",
+          "snippet": "INTERNATIONAL ARBITRATION CENTRE AT GIFT IFSC International Financial Services Centres Authority (IFSCA)",
+          "lexical_overlap": 0.133,
+          "relevance": 0.253,
+          "matched_terms": [
+            "arbitration",
+            "services"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "arbitration",
+            "services"
+          ]
+        },
+        {
+          "id": "eaf40084bf889b7a8d",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Wansom AI",
+          "source_url": "https://www.wansom.ai",
+          "title": "India Digital ADR Summit 2026 Arbitration: Strategizing Global Hub Status - Wansom AI",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNcUxzSEhYQmlGamQxb18ycUsxejdUVnloRHNURVdFX3lkM3ZKMHlXbVFNMVpWaVQ4TlRBTjg5dkdKVjJKQkpfWlRqWEc3Q3dqd3hBTE8zdGxHTEFSNzMydGZzV294My1rVUM4aGhLMVBUcGdIWmdVLVhfU1hNMERROUZ5cmowMUFIaWc1ejVlVjE5ZE5nMkM4UWFTZThkems2MlhhOGFGTkhUQUhTQVZPRmdmeUxzTXBNb01jZERjUQ?oc=5",
+          "published_at": "2026-09-14T07:00:00+00:00",
+          "snippet": "India Digital ADR Summit 2026 Arbitration: Strategizing Global Hub Status Wansom AI",
+          "lexical_overlap": 0.133,
+          "relevance": 0.203,
+          "matched_terms": [
+            "arbitration",
+            "hub"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "arbitration"
+          ]
+        },
+        {
+          "id": "8489e64722be55e978",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Legal Service India",
+          "source_url": "https://www.legalserviceindia.com",
+          "title": "The Evolution of the UAE as a Global Arbitration Hub: Legislative, Jurisdictional, and Enforcement Developments - Legal Service India",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOODE0QVk4Z1Q3dzY1cE56MUtMTnUybXVUZy1jWDFWdHlOMTNXTzQxWkNWZC14bXR1Smx6OHloejMtVHo3RzJKT0ZUZU5rdjMtdWJ4YkZzN0VqdTZIOFdIeW50RGJWYlBwRlhUSkZIb1lKdXhCOFhjZE5USktOakpmNjlqUC1SV2VjWThZc0Fod1pibkVnSVZzMXRRR0VVeDk5WG9UX29VczU4WlRpOGdRWlV5VVlITko4OC03cElvQU8wT0VFcVJKcEJfZUZuSDA3ZUIxTU1USVJCRWlTb29HRDRuZEp3S21XX05MWTNLYw?oc=5",
+          "published_at": "2026-08-17T07:00:00+00:00",
+          "snippet": "The Evolution of the UAE as a Global Arbitration Hub: Legislative, Jurisdictional, and Enforcement Developments Legal Service India",
+          "lexical_overlap": 0.125,
+          "relevance": 0.195,
+          "matched_terms": [
+            "arbitration",
+            "hub"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "arbitration"
+          ]
+        }
+      ],
+      "implementation_signal": "current_primary_evidence_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -36723,6 +37918,45 @@
       }
     },
     {
+      "id": "ed231904ac58738907",
+      "checked_at": "2026-10-01T20:23:07.938464+00:00",
+      "promise_id": "BJP-2019-24f93b2d2800e99dab",
+      "year": 2019,
+      "category": "culture_heritage",
+      "page": 26,
+      "anchor": "We will continue to take the necessary steps to leverage the tremendous potential of …",
+      "exact_text": "We will continue to take the necessary steps to leverage the tremendous potential of hydroelectric, tourism, hofiiculture etc in the Nofiheastern states.",
+      "keywords": [
+        "necessary",
+        "steps",
+        "leverage",
+        "tremendous",
+        "potential",
+        "hydroelectric",
+        "tourism"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
+      "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
+      "related_promises": [],
+      "query": "necessary steps leverage tremendous potential hydroelectric",
+      "evidence": [],
+      "implementation_signal": "needs_research",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
       "id": "b8b461ee892176fcca",
       "checked_at": "2026-09-28T10:05:05.904467+00:00",
       "promise_id": "BJP-2019-59c85f19322d124b76",
@@ -37192,6 +38426,45 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
       "query": "spofis order fufiher introduce practical courses",
+      "evidence": [],
+      "implementation_signal": "needs_research",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
+      "id": "7bea1c9aa30f89d560",
+      "checked_at": "2026-10-01T20:22:57.469672+00:00",
+      "promise_id": "BJP-2019-10122bac2895d9d8e9",
+      "year": 2019,
+      "category": "education_skills",
+      "page": 29,
+      "anchor": "We will set up an Afis, Culture and Music University with a focus on …",
+      "exact_text": "We will set up an Afis, Culture and Music University with a focus on fine afis such as music and dance.",
+      "keywords": [
+        "afis",
+        "music",
+        "set",
+        "culture",
+        "university",
+        "focus",
+        "fine"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
+      "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
+      "related_promises": [],
+      "query": "afis music set culture university focus",
       "evidence": [],
       "implementation_signal": "needs_research",
       "status": "pending",
@@ -38255,7 +39528,7 @@
     },
     {
       "id": "21c782a6ad2ecb8987",
-      "checked_at": "2026-10-01T14:28:29.896482+00:00",
+      "checked_at": "2026-10-01T20:22:23.614297+00:00",
       "promise_id": "BJP-2019-2cfa1375f165d41707",
       "year": 2019,
       "category": "other",
@@ -38942,7 +40215,7 @@
     },
     {
       "id": "09db92a7679f9e887b",
-      "checked_at": "2026-10-01T14:28:34.463227+00:00",
+      "checked_at": "2026-10-01T20:22:29.248177+00:00",
       "promise_id": "BJP-2019-4fc8289de8caed52ff",
       "year": 2019,
       "category": "other",
@@ -40425,6 +41698,107 @@
       }
     },
     {
+      "id": "2334f2cef4088efec2",
+      "checked_at": "2026-10-01T20:22:50.894726+00:00",
+      "promise_id": "BJP-2019-06001e293d9fd7c2c8",
+      "year": 2019,
+      "category": "jobs_economy",
+      "page": 38,
+      "anchor": "To forward our ‘Neighbourhood First’ policy, we will extensively leverage forums such as BIMSTEC, …",
+      "exact_text": "To forward our ‘Neighbourhood First’ policy, we will extensively leverage forums such as BIMSTEC, to accelerate regional coordination and economic co-operation with countries in our neighbourhood.",
+      "keywords": [
+        "neighbourhood",
+        "forward",
+        "first",
+        "policy",
+        "extensively",
+        "leverage",
+        "forums"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
+      "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
+      "related_promises": [],
+      "query": "neighbourhood forward first policy extensively leverage",
+      "evidence": [],
+      "implementation_signal": "needs_research",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
+      "id": "0329bd7f4d8a1ffb47",
+      "checked_at": "2026-10-01T20:22:54.911933+00:00",
+      "promise_id": "BJP-2019-07f11700b842d1424b",
+      "year": 2019,
+      "category": "security_defence",
+      "page": 38,
+      "anchor": "Global Coordination on Knowledge and Technology We are commified to taking concrete steps on …",
+      "exact_text": "Global Coordination on Knowledge and Technology We are commified to taking concrete steps on international forums against countries and organizations suppofiing terrorism, and we will take all necessary measures to isolate such countries and organizations on the global stage.",
+      "keywords": [
+        "global",
+        "countries",
+        "organizations",
+        "coordination",
+        "knowledge",
+        "technology",
+        "commified"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
+      "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
+      "related_promises": [],
+      "query": "global countries organizations coordination knowledge technology",
+      "evidence": [
+        {
+          "id": "96a4fc44285af37598",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "wam.ae",
+          "source_url": "https://www.wam.ae",
+          "title": "'Operation Confrontation Ghost' to continue with 30 countries, two international organisations: MOI - wam.ae",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVHZaNFNsSEI2Z05oM3hKNjl1emZtWTBYelE4emtCSTZSM1ZiQkMxaURsNmpUNi1Nd055Z095Rld3eTlianVteWQ0R0xYX1lzNW5vR1dNczk1VGZsNW1VbmlUNGV2LTdVb2dTU0RxSXBjQ1FyLXVJdkxPcFJkeFJzRWRBX2Fsb0dM?oc=5",
+          "published_at": "2026-09-29T07:57:12+00:00",
+          "snippet": "'Operation Confrontation Ghost' to continue with 30 countries, two international organisations: MOI wam.ae",
+          "lexical_overlap": 0.095,
+          "relevance": 0.165,
+          "matched_terms": [
+            "countries",
+            "international"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "countries",
+            "international"
+          ]
+        }
+      ],
+      "implementation_signal": "needs_research",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
       "id": "64f8462c038659ca06",
       "checked_at": "2026-09-29T09:48:46.597704+00:00",
       "promise_id": "BJP-2019-1716a2baac377302c3",
@@ -41842,7 +43216,7 @@
     },
     {
       "id": "df076e7dea8ba67624",
-      "checked_at": "2026-10-01T14:28:43.210502+00:00",
+      "checked_at": "2026-10-01T20:22:40.565067+00:00",
       "promise_id": "BJP-2014-078252941779345656",
       "year": 2014,
       "category": "women_social_justice",
@@ -41869,14 +43243,14 @@
       "query": "next five courts cases arbitration judiciary",
       "evidence": [
         {
-          "id": "028f4e7c6c9f4685f5",
+          "id": "6cc2f8809e29b60a8c",
           "scope": "broad_official_search",
           "tier": "primary",
           "source": "eCourt India High Courts Services",
           "source_url": "https://hcservices.ecourts.gov.in",
           "title": "Case Status : Search by Case Number - eCourt India High Courts Services",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQ1BtbUZBeTd5UHFsV0dxeTRtMy00MjdBcllJRm1vUko0Slo0cXJoazJSTzdsMW5GYjZta01iU1ZnTnRycC1XckFIVXhzOGRQbS1SckVNRXNsVFFTNktfek1KRy1jb2lKQzFlMVRzN1JES1o3WWE5NjUwaWlKcUNNRmRROFkwVHBxTWtFSFBlbnl3ME42Z3pqdGhySHN4T05adFM5X0NlVFZSWktJWG5UUUxmYVREbTI2UmJxLS1Jam1HUQ?oc=5",
-          "published_at": "2022-06-17T04:06:30+00:00",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNT0V6eGN5WVhxYzRUd2dtWlotLUdOejhwb3lra0VSaVp6bEthT1dQTHpmbm5uVHJYaWcza0pLZVBFckpNQXY5Mjc4Wmd5a2Fzd3Zab3NtMjdaMU5jNnVtTXpVdTFDOEdMczlGT0JpOVdMNTQ3aDVhTmlHOUxacHNwRmNCTHplbnB1VFhGVG5KNzI2ZXV0SHMtUUVUU1dCYVpabFFyUGpCT0w5eHVWVENGVHNodw?oc=5",
+          "published_at": "2022-06-02T15:32:07+00:00",
           "snippet": "Case Status : Search by Case Number eCourt India High Courts Services",
           "lexical_overlap": 0.111,
           "relevance": 0.231,
