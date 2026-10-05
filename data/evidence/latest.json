@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T00:56:55.599855+00:00",
+  "generated_at": "2026-10-05T06:17:28.568309+00:00",
   "capabilities": {
     "official_evidence_search": true,
     "verified_primary_gate": true,
@@ -16,8 +16,8 @@
     "promise_checked_this_run": 30,
     "promise_total_candidates": 841,
     "promise_coverage_pct": 85.4,
-    "primary_candidates": 433,
-    "secondary_candidates": 933,
+    "primary_candidates": 435,
+    "secondary_candidates": 930,
     "prior_fact_checks": 0,
     "publishable_auto_verdicts": 0,
     "claim_verdicts": {
@@ -67,7 +67,7 @@
         "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
         "published_at": "2026-10-01T09:05:21+00:00"
       },
-      "query": "11 9 manner which captain smita displayed patience",
+      "query": "9 11 manner which captain smita displayed patience",
       "numbers": [
         "11",
         "9"
@@ -455,6 +455,47 @@
           }
         },
         {
+          "id": "7188aef28e0b735f89",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Vice President inaugurates 75th Year Celebrations of Pujya Dr. Basavalinga Pattadevaru Mahaswamiji in Bhalki, Karnataka - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1jclBtWVRxSDRqVDR3Nm1SWER6eTNLeWJ5anl2ZEdQV2l0anBNMDZ2eVFTM05QRlJtZ09nMFNXbGpDd0VqR1h5cmdzaGZWZENJeFJDaWY3WmtlYnMxeXZoNlJ3cmNyRTJw?oc=5",
+          "published_at": "2026-04-22T07:00:00+00:00",
+          "snippet": "Vice President inaugurates 75th Year Celebrations of Pujya Dr. Basavalinga Pattadevaru Mahaswamiji in Bhalki, Karnataka PIB",
+          "lexical_overlap": 0.111,
+          "relevance": 0.231,
+          "matched_terms": [
+            "celebrations",
+            "th"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.0071,
+            "neutral": 0.9802,
+            "contradiction": 0.0127
+          }
+        },
+        {
+          "id": "4f083245a595995ddf",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Weverse",
+          "source_url": "https://weverse.io",
+          "title": "[EVENT] WINNER 12th ANNIVERSARY Special Gift Notice - Weverse",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE91MGluMHNFb2NPTHdscVBYRFp5anVqM1p3WGdTR0RoMmpvR1c2WjdvaWpZRW9nTFdGeW9DblNfRGVacHNPVkdIdlU2RGJlVlU?oc=5",
+          "published_at": "2026-08-12T07:20:42+00:00",
+          "snippet": "[EVENT] WINNER 12th ANNIVERSARY Special Gift Notice Weverse",
+          "lexical_overlap": 0.154,
+          "relevance": 0.224,
+          "matched_terms": [
+            "anniversary",
+            "th"
+          ],
+          "shared_numbers": []
+        },
+        {
           "id": "a43ebe630d5ecab72d",
           "scope": "news_search",
           "tier": "secondary",
@@ -548,22 +589,23 @@
           ]
         },
         {
-          "id": "644f6859de710b01f1",
+          "id": "093c5e48aab37dc212",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "AsiaOne",
-          "source_url": "https://www.asiaone.com",
-          "title": "Secret pregnancy, 21-year age gap: Singaporean joins US reality show with American boyfriend - AsiaOne",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNd25NUkE0VjNUM3hXRmNqSk1Wc21EaW94WmVPdnY1MVE1TktoNkt6QTVQX2lPblRZU1VlNXlFbUpoaDFoOHZ6dU55TWx1NS1GYy04Z2lReHB0UHNmRklmaGtlTXRQanIzTnN0bWlaYWZuWWJRRnQwVEpzcHRZZGdzVThuUUM?oc=5",
-          "published_at": "2026-10-03T00:30:00+00:00",
-          "snippet": "Secret pregnancy, 21-year age gap: Singaporean joins US reality show with American boyfriend AsiaOne",
-          "lexical_overlap": 0.133,
-          "relevance": 0.203,
+          "source": "Kansas City Jewish Chronicle",
+          "source_url": "https://www.kcjc.com",
+          "title": "Blanche Sosland, community pillar, educator and advocate, dies at age 90 - Kansas City Jewish Chronicle",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWlVvUUhZR0RvcXNWYzVhT2lkVmpPdGdxeDZEN2pOejhXbVBmNHBFajdYbDB2VjhEMXJneG45MjhiTmZ4SmdIZGFXY2tMb1o0dDZjUWJpNmdSUGhxZmctVlNQX3RxU1Zqd3hZV0N4VEEzOU1QZW1HVjNJR0ZkS212MUlzX0JMQQ?oc=5",
+          "published_at": "2026-07-09T07:00:00+00:00",
+          "snippet": "Blanche Sosland, community pillar, educator and advocate, dies at age 90 Kansas City Jewish Chronicle",
+          "lexical_overlap": 0.062,
+          "relevance": 0.208,
           "matched_terms": [
-            "age",
-            "us"
+            "age"
           ],
-          "shared_numbers": []
+          "shared_numbers": [
+            "90"
+          ]
         }
       ],
       "fact_checks": [],
@@ -960,7 +1002,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-05T00:56:02.578564+00:00",
+      "latest_checked_at": "2026-10-05T06:16:37.540289+00:00",
       "latest_claim_packet_id": "6627bae11c2e4166b3"
     },
     {
@@ -984,7 +1026,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-05T00:56:02.578577+00:00",
+      "latest_checked_at": "2026-10-05T06:16:37.540297+00:00",
       "latest_claim_packet_id": "d443adc2a0e2470ae9"
     },
     {
@@ -1008,7 +1050,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-05T00:56:02.578594+00:00",
+      "latest_checked_at": "2026-10-05T06:16:37.540308+00:00",
       "latest_claim_packet_id": "c2a19aa48972aa09e4"
     },
     {
@@ -1179,7 +1221,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-05T00:56:02.578734+00:00",
+      "latest_checked_at": "2026-10-05T06:16:37.540376+00:00",
       "latest_claim_packet_id": "e9ef5ba17322492eb6"
     },
     {
@@ -1251,7 +1293,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-05T00:56:02.578546+00:00",
+      "latest_checked_at": "2026-10-05T06:16:37.540277+00:00",
       "latest_claim_packet_id": "88113c4cc7679dfe59"
     },
     {
@@ -1275,7 +1317,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-05T00:56:02.578686+00:00",
+      "latest_checked_at": "2026-10-05T06:16:37.540348+00:00",
       "latest_claim_packet_id": "bd7cb3b38ff534451f"
     },
     {
@@ -1299,7 +1341,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-05T00:56:02.578608+00:00",
+      "latest_checked_at": "2026-10-05T06:16:37.540315+00:00",
       "latest_claim_packet_id": "f6a1dd2c05d49c3e3c"
     },
     {
@@ -1419,7 +1461,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-05T00:56:02.578699+00:00",
+      "latest_checked_at": "2026-10-05T06:16:37.540355+00:00",
       "latest_claim_packet_id": "e0aa9aa37e5a72091f"
     },
     {
@@ -1467,7 +1509,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-05T00:56:02.578722+00:00",
+      "latest_checked_at": "2026-10-05T06:16:37.540369+00:00",
       "latest_claim_packet_id": "d31336725037d6edfc"
     },
     {
@@ -1587,7 +1629,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-05T00:56:02.578506+00:00",
+      "latest_checked_at": "2026-10-05T06:16:37.540242+00:00",
       "latest_claim_packet_id": "63b703ab25dbb97e26"
     },
     {
@@ -1635,7 +1677,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-05T00:56:02.578673+00:00",
+      "latest_checked_at": "2026-10-05T06:16:37.540340+00:00",
       "latest_claim_packet_id": "8627b9532420ebafc0"
     },
     {
@@ -1659,7 +1701,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-05T00:56:02.578711+00:00",
+      "latest_checked_at": "2026-10-05T06:16:37.540362+00:00",
       "latest_claim_packet_id": "d9ed8629ebcb7a572c"
     },
     {
@@ -1755,7 +1797,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-05T00:56:02.578640+00:00",
+      "latest_checked_at": "2026-10-05T06:16:37.540323+00:00",
       "latest_claim_packet_id": "69276105583e101638"
     },
     {
@@ -1854,7 +1896,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-05T00:56:02.578658+00:00",
+      "latest_checked_at": "2026-10-05T06:16:37.540331+00:00",
       "latest_claim_packet_id": "6df0bf295350af0cd6"
     },
     {
@@ -4530,7 +4572,7 @@
     },
     {
       "id": "9a09056193ae53add3",
-      "checked_at": "2026-10-03T12:05:34.807296+00:00",
+      "checked_at": "2026-10-05T06:17:09.346100+00:00",
       "promise_id": "BJP-2024-e2c56bf1b843d968d0",
       "year": 2024,
       "category": "infrastructure",
@@ -9446,7 +9488,7 @@
     },
     {
       "id": "3faa89af6fa5f52561",
-      "checked_at": "2026-10-03T13:23:44.204642+00:00",
+      "checked_at": "2026-10-05T06:17:19.134352+00:00",
       "promise_id": "BJP-2024-f1be6c985ee5bcf4f0",
       "year": 2024,
       "category": "agriculture",
@@ -9471,17 +9513,17 @@
       "query": "high-yielding seeds ensuring encourage farmers use",
       "evidence": [
         {
-          "id": "ea4782333fd0ea0869",
+          "id": "12f59f7b0096e3bd94",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "pib.gov.in",
+          "source": "PIB",
           "source_url": "https://www.pib.gov.in",
-          "title": "Government Ensures Timely Availability of Seeds and Fertilizers for Farmers - pib.gov.in",
+          "title": "Government Ensures Timely Availability of Seeds and Fertilizers for Farmers - PIB",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBjcGZ1VDBqb1JyZkI2YVVBNG8tWFMyNVZEN3g5ZFFob0V3aEpQOE1oODEwNDNDdEdBa3N4TkJGMFVTUkxqZlhlYjZSb08wdmJudExVYzNXaXZrS1NCMG9HNGVMS2JXMFI5OVdlMUJUcF82UmtNLUJyaFFn?oc=5",
           "published_at": "2026-02-03T08:00:00+00:00",
-          "snippet": "Government Ensures Timely Availability of Seeds and Fertilizers for Farmers pib.gov.in",
-          "lexical_overlap": 0.125,
-          "relevance": 0.245,
+          "snippet": "Government Ensures Timely Availability of Seeds and Fertilizers for Farmers PIB",
+          "lexical_overlap": 0.133,
+          "relevance": 0.253,
           "matched_terms": [
             "farmers",
             "seeds"
@@ -9552,7 +9594,7 @@
     },
     {
       "id": "2129d2882792edba65",
-      "checked_at": "2026-10-03T13:23:54.544419+00:00",
+      "checked_at": "2026-10-05T06:17:28.412605+00:00",
       "promise_id": "BJP-2024-fb8b1056071c25fd32",
       "year": 2024,
       "category": "agriculture",
@@ -9634,7 +9676,7 @@
     },
     {
       "id": "79bcdcbeb054504d7a",
-      "checked_at": "2026-10-03T13:23:45.590008+00:00",
+      "checked_at": "2026-10-05T06:17:20.332003+00:00",
       "promise_id": "BJP-2024-f3758d3852eeea49df",
       "year": 2024,
       "category": "infrastructure",
@@ -9684,17 +9726,17 @@
           ]
         },
         {
-          "id": "ebb071cb2ba505cc29",
+          "id": "ebab79737868c12628",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "agrospectrumindia.com",
+          "source": "AgroSpectrum India",
           "source_url": "https://agrospectrumindia.com",
-          "title": "Centre distributes Seed Minikits to boost Pulses, Oil Seeds production - agrospectrumindia.com",
+          "title": "Centre distributes Seed Minikits to boost Pulses, Oil Seeds production - AgroSpectrum India",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTHpJWkxabl9zQ0djblk2RUd1OHVLemRTYmxPUWZ5WmZMWVNuWkRxbTZiWURIS09aVDVkbGtyejdhQXhPeWt6SGVhVXF6dk0tak80aTVydUhOMTl4aE5CZkZTbWxWUmgzZ25rYWxTVWZKSzJjMkxDZjFBamQzSkNldkRTRy15RmxXOXhoa1hTdl9DZHpOQllWVWNMaVNvdGhvQTVxM19IWXM2U3d4ZkpETTZSVXpQeVZEa1E?oc=5",
           "published_at": "2026-08-01T03:05:23+00:00",
-          "snippet": "Centre distributes Seed Minikits to boost Pulses, Oil Seeds production agrospectrumindia.com",
-          "lexical_overlap": 0.15,
-          "relevance": 0.255,
+          "snippet": "Centre distributes Seed Minikits to boost Pulses, Oil Seeds production AgroSpectrum India",
+          "lexical_overlap": 0.158,
+          "relevance": 0.263,
           "matched_terms": [
             "oil",
             "production",
@@ -11183,7 +11225,7 @@
     },
     {
       "id": "e645c09ccd2aed2501",
-      "checked_at": "2026-10-03T12:05:39.017628+00:00",
+      "checked_at": "2026-10-05T06:17:13.257446+00:00",
       "promise_id": "BJP-2024-ebe0c7fac98c0bc110",
       "year": 2024,
       "category": "other",
@@ -11362,15 +11404,15 @@
           ]
         },
         {
-          "id": "209a9d87a0a5a920ef",
+          "id": "6663e9c260f3684b81",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "bwpeople.in",
+          "source": "BW People",
           "source_url": "https://www.bwpeople.in",
-          "title": "Urban Company, ILO Partner To Expand e-Shram Coverage For Gig Workers - bwpeople.in",
+          "title": "Urban Company, ILO Partner To Expand e-Shram Coverage For Gig Workers - BW People",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOR3JZbE1KZFZCRHBrdWNhcWgzYlc3dHdxSTVTbFNKeXA5OXE4T0JUekRtSVNaN3VXaVhxODJFamdBVkVHbF9LRGZ2WWtaNi1oQmpFc2xLYWFZVHBfNWhJVGRuMUl0emxJemNlb2JFdFZwVnN3U2pla1c5ZjRJSDhXYWJ5NkxoNFUyQkt0aEhfSWROTUE1LVc0bUNqVjdUSExZY2pabEZHREx4U2s?oc=5",
           "published_at": "2026-03-02T08:00:00+00:00",
-          "snippet": "Urban Company, ILO Partner To Expand e-Shram Coverage For Gig Workers bwpeople.in",
+          "snippet": "Urban Company, ILO Partner To Expand e-Shram Coverage For Gig Workers BW People",
           "lexical_overlap": 0.158,
           "relevance": 0.263,
           "matched_terms": [
@@ -11382,28 +11424,6 @@
           "promise_core_overlap": [
             "e-shram",
             "workers"
-          ]
-        },
-        {
-          "id": "421442cabe7c20d805",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "scanx.trade",
-          "source_url": "https://scanx.trade",
-          "title": "Urban Company Announces Structured E-Shram Registration Drive with ILO Partnership - scanx.trade",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPYVZxdk5UQ0NZdE5DZnNvMFRGa0hQZVk1ZFByNlFoOGpZcVFLaWhabExNR1NPRlJPQ0lwd0RSVW1YTXUxa1dJTFJGei1PVkl4M2tOM1BsUmRFQ2dmWVN1dXNHcy1lR1QwbW9QazZEU0hlV0p0Y0tXdTI4Zy1NdjRVeDZYMlFsdnRyY2o0V0RBLWpCX2tKbVNXcFRrY3BUVU0tM2V4bXMwLVBhVHVFVjFVa1lZX2lPZDZrSm03OVZlLVhoeDUwWHR1OW9nVlNwSFJG?oc=5",
-          "published_at": "2026-03-02T08:00:00+00:00",
-          "snippet": "Urban Company Announces Structured E-Shram Registration Drive with ILO Partnership scanx.trade",
-          "lexical_overlap": 0.095,
-          "relevance": 0.165,
-          "matched_terms": [
-            "e-shram",
-            "registration"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "e-shram",
-            "registration"
           ]
         },
         {
@@ -14573,7 +14593,7 @@
     },
     {
       "id": "d3fe9a59b4a1f8d7ff",
-      "checked_at": "2026-10-03T13:23:50.713604+00:00",
+      "checked_at": "2026-10-05T06:17:25.323729+00:00",
       "promise_id": "BJP-2024-f6fc96b757eb60656e",
       "year": 2024,
       "category": "other",
@@ -14598,17 +14618,17 @@
       "query": "global south leading further consolidate position",
       "evidence": [
         {
-          "id": "9da4283e920dae36b2",
+          "id": "8ec7e4ce03f05e4150",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "pib.gov.in",
+          "source": "PIB",
           "source_url": "https://www.pib.gov.in",
-          "title": "Rio de Janeiro Declaration- Strengthening Global South Cooperation for a More Inclusive and Sustainable Governance - pib.gov.in",
+          "title": "Rio de Janeiro Declaration- Strengthening Global South Cooperation for a More Inclusive and Sustainable Governance - PIB",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5UaFd4aWJHcXlETmVTQUVNaHNPUlh0bXpvS3RIYjgxUDBCUmtuSnpoZVp6N0RCVkJhSWl3NDVncGw3ajB5SloxbEJBR0JaaG9MeUlKSW9wRGgtcmFqWU44c0swMGgydFl6?oc=5",
           "published_at": "2025-07-07T07:00:00+00:00",
-          "snippet": "Rio de Janeiro Declaration- Strengthening Global South Cooperation for a More Inclusive and Sustainable Governance pib.gov.in",
-          "lexical_overlap": 0.087,
-          "relevance": 0.207,
+          "snippet": "Rio de Janeiro Declaration- Strengthening Global South Cooperation for a More Inclusive and Sustainable Governance PIB",
+          "lexical_overlap": 0.091,
+          "relevance": 0.211,
           "matched_terms": [
             "global",
             "south"
@@ -14631,28 +14651,6 @@
           "snippet": "Is China really a champion of the Global South? Mail & Guardian",
           "lexical_overlap": 0.118,
           "relevance": 0.188,
-          "matched_terms": [
-            "global",
-            "south"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "global",
-            "south"
-          ]
-        },
-        {
-          "id": "74fb604f53bf5e8c89",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "orfonline.org",
-          "source_url": "https://www.orfonline.org",
-          "title": "Targeting Collective Action: Europe And the Global South - orfonline.org",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQkFRTTJ4ZFZ3cHhRR2JISE5XVTJzX0Y3d2wwLXBwTnRhN2YxajJhOU00RzlCbUFZcmpGcWU2NEU0VEpqSlVpYXV3Zkg4VnJNN0FGWnA0WjhKVDBoT0U4N00wVlEtc3MzRXBJSERPYm9UZlZUcU9HbVg4bHFwRGVmc2NWY01iQXRsWE9IWV9KbHdCNUpW?oc=5",
-          "published_at": "2025-12-15T08:00:00+00:00",
-          "snippet": "Targeting Collective Action: Europe And the Global South orfonline.org",
-          "lexical_overlap": 0.111,
-          "relevance": 0.181,
           "matched_terms": [
             "global",
             "south"
@@ -14701,7 +14699,7 @@
     },
     {
       "id": "bce2fd9b0dcbe868f7",
-      "checked_at": "2026-10-03T13:23:52.593760+00:00",
+      "checked_at": "2026-10-05T06:17:26.863450+00:00",
       "promise_id": "BJP-2024-faaa24f429880cad16",
       "year": 2024,
       "category": "security_defence",
@@ -14726,15 +14724,15 @@
       "query": "permanent security council becoming member committed",
       "evidence": [
         {
-          "id": "d4f394fa6fa041c76e",
+          "id": "900dbd8d06cc6526f3",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "cyprus-mail.com",
+          "source": "Cyprus Mail",
           "source_url": "https://cyprus-mail.com",
-          "title": "Christodoulides calls for India to become permanent member of UN security council - cyprus-mail.com",
+          "title": "Christodoulides calls for India to become permanent member of UN security council - Cyprus Mail",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPN0Q3Wm1PTkVpbUFjS2FmVVhOMHljb1lwQlZzOGRkVFdMUFNSd0ZpOFQzX3kzM0ZlbUJfUkJRQ3kwZUtkZFBpanAtOXlVcmNRWXp1MVBHaTlvRER4UTRUdk1NNE82VV9qbFVXUlJLT1Y2SGlEWnpuWFZDdDNZbk90SVdwTEN5Nko3dkZ1Z0htWDRWVl9Md0dJbS0wenI4dS05THREMjdxdGlaaWg0c0VxVEI2clE3N2s?oc=5",
           "published_at": "2026-05-22T07:00:00+00:00",
-          "snippet": "Christodoulides calls for India to become permanent member of UN security council cyprus-mail.com",
+          "snippet": "Christodoulides calls for India to become permanent member of UN security council Cyprus Mail",
           "lexical_overlap": 0.294,
           "relevance": 0.469,
           "matched_terms": [
@@ -17040,7 +17038,7 @@
     },
     {
       "id": "cfa916d643c17b635c",
-      "checked_at": "2026-10-03T12:05:36.781998+00:00",
+      "checked_at": "2026-10-05T06:17:11.121558+00:00",
       "promise_id": "BJP-2024-e2fd9c38c7a053f36b",
       "year": 2024,
       "category": "other",
@@ -17063,17 +17061,17 @@
       "query": "remain committed keep citizens safe",
       "evidence": [
         {
-          "id": "f0f36af3fb52416fb0",
+          "id": "80e4e2e71543ba95c7",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "news.ontario.ca",
+          "source": "ontario.ca",
           "source_url": "https://news.ontario.ca",
-          "title": "Ontario Introduces Legislation to Protect Communities and Keep Streets Safe - news.ontario.ca",
+          "title": "Ontario Introduces Legislation to Protect Communities and Keep Streets Safe - ontario.ca",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVnVHNnBiS3lMaGNKNEo0eUdqTTFvZ3ljLUU5eWEyU0xQM1htbDFmUVRtaUJJLXFlQnF4NnctUkNqeS10WllBai1jTVRlbHYwMXg3YkVVOS1QdURHLWZ0UURGUWNWRjUyZHlhY1RBb1BYdU9uanZoR1Z0SEV0cThHOHZvcUs1Q2FBQ1YwZnNrNzBzWWxJaHRVSFNCRkxFcTVvbmhVREk5ZXpYSDJkYng2d2pPVlBnQUs5anc?oc=5",
           "published_at": "2026-05-25T07:00:00+00:00",
-          "snippet": "Ontario Introduces Legislation to Protect Communities and Keep Streets Safe news.ontario.ca",
-          "lexical_overlap": 0.154,
-          "relevance": 0.224,
+          "snippet": "Ontario Introduces Legislation to Protect Communities and Keep Streets Safe ontario.ca",
+          "lexical_overlap": 0.167,
+          "relevance": 0.237,
           "matched_terms": [
             "keep",
             "safe"
@@ -17100,7 +17098,7 @@
     },
     {
       "id": "32520424c31a1febad",
-      "checked_at": "2026-10-03T13:23:40.501188+00:00",
+      "checked_at": "2026-10-05T06:17:16.009459+00:00",
       "promise_id": "BJP-2024-eccccfcb5363d52ba2",
       "year": 2024,
       "category": "other",
@@ -17120,31 +17118,8 @@
       "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
       "related_promises": [],
       "query": "enforcement reducing demand drugs",
-      "evidence": [
-        {
-          "id": "6dc160e7f943f2dc3b",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Guardian",
-          "source_url": "https://www.theguardian.com",
-          "title": "By tackling both supply and demand, our strategy will reduce the misery of drugs | Sajid Javid - The Guardian",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWVhvRlgtSXhXTWZ0TDFrek5MQkpiWHd5Q0Y0RnduLU9ZSXVPZW1RNzdETElvRzVQaVVRTkdHMHJqSDFyUkw0am5CTWVoVTZvdnNvcEV5VWVGTnJXUU9wTkhXLWJpZG9nc2ZmOU4zSU9QMnZJQkQ2RFM0OHNxdnZIblp3d1NUMFJ6X09XdFlWUHpKTWRqS1UxZ3pHbGFZZ2c?oc=5",
-          "published_at": "2021-12-07T08:00:00+00:00",
-          "snippet": "By tackling both supply and demand, our strategy will reduce the misery of drugs | Sajid Javid The Guardian",
-          "lexical_overlap": 0.143,
-          "relevance": 0.213,
-          "matched_terms": [
-            "demand",
-            "drugs"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "demand",
-            "drugs"
-          ]
-        }
-      ],
-      "implementation_signal": "current_reporting_found",
+      "evidence": [],
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -17312,7 +17287,7 @@
     },
     {
       "id": "25d5fd8907bc66d49f",
-      "checked_at": "2026-10-03T13:23:48.926067+00:00",
+      "checked_at": "2026-10-05T06:17:23.579680+00:00",
       "promise_id": "BJP-2024-f42cc804093aaa0dc9",
       "year": 2024,
       "category": "technology_digital",
@@ -17361,6 +17336,30 @@
           ]
         },
         {
+          "id": "4300e39128e792dc80",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "facebook.com",
+          "source_url": "https://www.facebook.com",
+          "title": "𝙒𝙚 𝙖𝙧𝙚 𝙥𝙧𝙚𝙥𝙖𝙧𝙞𝙣𝙜 𝙛𝙤𝙧 𝙩𝙝𝙚 𝙛𝙪𝙩𝙪𝙧𝙚. 𝙉𝙤𝙬 ​ As we build a more digital 𝘗𝘩𝘪𝘭𝘪𝘱𝘱𝘪𝘯𝘦𝘴, we are also strengthening our digital sovereignty and ensuring that our data remains secure and under our own control. ​ The 𝗖𝗼𝗻𝘃𝗲𝗿𝗴𝗲 𝗔𝗻𝗴𝗲𝗹𝗲𝘀 𝗗𝗮𝘁 - facebook.com",
+          "url": "https://news.google.com/rss/articles/CBMipwZBVV95cUxOTmJ5Vi1iQ3ROODRtVi1yZEtnZ3J4d3Q0NDVGdWNDdDlWaW13U2VsSUVVWnl0TmF0cmpfZzBMNTIyTXVkbF9VLXZXM3JscnZGeDhqdHhFbkJhLUp0MnR4dzdPTVpkQjlNeFNmTnNuVWpxNUJjZk9meG5JZkk4cXNfZmd6dmpvZXpmMWh5OU1TTzJvVkFXYks0eVZDTlVuZkZqME5wajFiNGpNZnJOaXQ0Njduc1BEZkVoc3ZqMGlvbWZtTmlmS21JSGF5TEdBNmlsUW9WUDlYVHRHSmNTR3J0QkFpbjZTb2JfVmZ2Q2dQNmUta0pJdXJWMFowWXJZa1kwTjJtV2llLVZ0OVhxNkpmem9Sai1lVzFCbGdXdERGVWJiMTZiVHUtcE12NGJra25tOTVubTBsWHlnRGhJRnBIQWNVMjJnSDFudEV1Yl9SQkNBaVVzb29ZM1RfSmthMF9nbVRjc01xM3l3X1FSejI4N09xTEpYQW9uNWNtdWNDS3VuZXllRkdYVnl0M1FQeEdKZm43YUlfX0Q3dmRQVHhIRFNGWVZvcXhON1F4VDdEbXItcGl1TXc0dFRsRVB3UkRIT0RSMFJBRWI2MmY5aUhHaTJ2NWFkemNITGpYd0h2NkgtbVNIZjZSdEZvRklWUHpEU3ViVnRFenVpOU1NVkxxZmV5UVZLVDlodjZ3VFMzWEtPdW1RYmQ1c0lMRlJWZS05ZDg2anJ2czVjZjFydUZiakFXa25LbWo2RkN5ekZGQlRMSE1Vc29ITFYtQ3lWMU1zdTZ5bmdMR3lQV3N2bTlWLUs5MkJFdG0xLXBabTh3NHFUSTJkU0NVc2V1c3Vibm5vWERQcDhPOTg2dUpLcnZ5aDhsVUZob29vMDlyM3lkTGU1djJJUkhhQnBpUVd3ejJSQnd6Q29KVC1hLTRPNVpSSkhSZ2JXZzU2dlhDLW1iaTQyWjgtcUY0OGtxcEtLenZrd1o5V2lJc3lNZk9IUnJ6WW8zdmxweEVVeFA0Sm02VlZWd0tSRU5jTTl0OTg5WjVJbUZVeTJTVVM4em90b0hBTkI2dUZxWXM?oc=5",
+          "published_at": "2026-07-24T07:00:00+00:00",
+          "snippet": "𝙒𝙚 𝙖𝙧𝙚 𝙥𝙧𝙚𝙥𝙖𝙧𝙞𝙣𝙜 𝙛𝙤𝙧 𝙩𝙝𝙚 𝙛𝙪𝙩𝙪𝙧𝙚. 𝙉𝙤𝙬 ​ As we build a more digital 𝘗𝘩𝘪𝘭𝘪𝘱𝘱𝘪𝘯𝘦𝘴, we are also strengthening our digital sovereignty and ensuring that our data remains secure and under our own control. ​ The 𝗖𝗼𝗻𝘃𝗲𝗿𝗴𝗲 𝗔𝗻𝗴𝗲𝗹𝗲𝘀 𝗗𝗮𝘁 facebook.com",
+          "lexical_overlap": 0.12,
+          "relevance": 0.225,
+          "matched_terms": [
+            "digital",
+            "sovereignty",
+            "strengthening"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "digital",
+            "sovereignty",
+            "strengthening"
+          ]
+        },
+        {
           "id": "b130ddfc4eb6d59ea0",
           "scope": "news_search",
           "tier": "secondary",
@@ -17368,7 +17367,7 @@
           "source_url": "https://www.capgemini.com",
           "title": "Open source: Key to reclaiming public sector digital sovereignty - Capgemini",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQOUVNX1A0blhvYlVfWlJ0cVE0VkFOWDV1TlNCbE91RGg5Q0J4anZja3lWZnNZRnVrSW5zN2lKYVdJTmUxdV9fWHIzdWQ5cHBERENIbmRFOEMxbTBOVGdQZS14UGlJUVZIVzBUeVF6eTZBUExvd19XVDgzc3BBYWs1amZUNjBILTdiYmlCdmZOdE5aUGZBWUt5Tw?oc=5",
-          "published_at": "2026-07-15T13:45:32+00:00",
+          "published_at": "2026-09-21T12:41:25+00:00",
           "snippet": "Open source: Key to reclaiming public sector digital sovereignty Capgemini",
           "lexical_overlap": 0.105,
           "relevance": 0.175,
@@ -17733,7 +17732,7 @@
     },
     {
       "id": "ebbc915b86a9c320ab",
-      "checked_at": "2026-10-03T13:23:42.361618+00:00",
+      "checked_at": "2026-10-05T06:17:17.599402+00:00",
       "promise_id": "BJP-2024-ed23e61ee7f766da6a",
       "year": 2024,
       "category": "infrastructure",
@@ -17758,30 +17757,6 @@
       "query": "exports tax increasing international cooperation infrastructure",
       "evidence": [
         {
-          "id": "26106911ded9799070",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "mofa.go.jp",
-          "source_url": "https://www.mofa.go.jp",
-          "title": "White Paper on Development Cooperation 2024 Japan’s International Cooperation - mofa.go.jp",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1rd21JV3lxTmlKNGNSS25TSjVpYjg3MUl5QVNHQXRrZl90QmxKaDZZUEpYZnZuZTI3LVhvMmlxc3I3OTV2NjFTX1pPS19SenVwWS0yUUc4MXkwelFuRUkxbnJtWmRFd05FNlE2ZWg1eXQzdXRONklIZQ?oc=5",
-          "published_at": "2026-02-25T16:17:04+00:00",
-          "snippet": "White Paper on Development Cooperation 2024 Japan’s International Cooperation mofa.go.jp",
-          "lexical_overlap": 0.167,
-          "relevance": 0.272,
-          "matched_terms": [
-            "cooperation",
-            "development",
-            "international"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "cooperation",
-            "development",
-            "international"
-          ]
-        },
-        {
           "id": "9bf3f1a546c50e4d69",
           "scope": "news_search",
           "tier": "secondary",
@@ -17804,7 +17779,7 @@
           ]
         }
       ],
-      "implementation_signal": "current_reporting_found",
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -19839,7 +19814,7 @@
     },
     {
       "id": "faad94cf2acfe2a874",
-      "checked_at": "2026-10-03T12:05:29.430977+00:00",
+      "checked_at": "2026-10-05T06:17:04.415002+00:00",
       "promise_id": "BJP-2024-df3fd79d58dde49a8e",
       "year": 2024,
       "category": "jobs_economy",
@@ -19925,7 +19900,7 @@
     },
     {
       "id": "604f3de682d842e15f",
-      "checked_at": "2026-10-03T12:05:33.772688+00:00",
+      "checked_at": "2026-10-05T06:17:08.362948+00:00",
       "promise_id": "BJP-2024-e218339ec7826483b1",
       "year": 2024,
       "category": "infrastructure",
@@ -19987,7 +19962,7 @@
     },
     {
       "id": "f3c4a3b15d081a142a",
-      "checked_at": "2026-10-03T12:05:38.449903+00:00",
+      "checked_at": "2026-10-05T06:17:12.639371+00:00",
       "promise_id": "BJP-2024-e7b762a638f707b49f",
       "year": 2024,
       "category": "jobs_economy",
@@ -20079,29 +20054,6 @@
             "global",
             "manufacturing",
             "sectors"
-          ]
-        },
-        {
-          "id": "2819fe2869420f8d3a",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "India Briefing",
-          "source_url": "https://www.india-briefing.com",
-          "title": "India As an Emerging Global Manufacturing Hub - India Briefing",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPd1RnMy1JTnJfUzZVWWxaT2RPWkNEMHFZeDctM2lRM2pWX3V6ODYwX0RDRDI3a3Nzamlwc3ZNekZyLUt5YVlhRFBBM3RJMGtiNlpsYmpwcnJHbEhneE5VY0FsbXdieFNXVVEzdFRtaTZHanRvbWJBaGcyTTdhd3NERVFBb21ZSFhsRXphVmhOa0lSMFo3cWpITw?oc=5",
-          "published_at": "2024-05-22T07:00:00+00:00",
-          "snippet": "India As an Emerging Global Manufacturing Hub India Briefing",
-          "lexical_overlap": 0.25,
-          "relevance": 0.355,
-          "matched_terms": [
-            "global",
-            "hub",
-            "manufacturing"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "global",
-            "manufacturing"
           ]
         }
       ],
@@ -25932,7 +25884,7 @@
     },
     {
       "id": "c925205f171a3686e4",
-      "checked_at": "2026-10-03T12:05:30.097955+00:00",
+      "checked_at": "2026-10-05T06:17:05.211959+00:00",
       "promise_id": "BJP-2024-e0aa5c1710cf81ccf3",
       "year": 2024,
       "category": "women_social_justice",
@@ -27115,7 +27067,7 @@
     },
     {
       "id": "bd4bed7c9e8fcc3178",
-      "checked_at": "2026-10-03T12:05:26.123727+00:00",
+      "checked_at": "2026-10-05T06:17:01.423600+00:00",
       "promise_id": "BJP-2024-ddb9f580fbae289a86",
       "year": 2024,
       "category": "infrastructure",
@@ -27247,7 +27199,7 @@
     },
     {
       "id": "abff7bc7b6b1c4b13b",
-      "checked_at": "2026-10-03T12:05:27.708958+00:00",
+      "checked_at": "2026-10-05T06:17:02.824662+00:00",
       "promise_id": "BJP-2024-ddda8446dbb28e2c3b",
       "year": 2024,
       "category": "other",
@@ -27302,25 +27254,25 @@
           ]
         },
         {
-          "id": "35eead1dd4a18d5100",
+          "id": "d2755bf211c7501d7c",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "The Hindu",
-          "source_url": "https://www.thehindu.com",
-          "title": "Supreme Court vindication of Manmohan Singh should initiate reform of criminal justice system: Ashwani Kumar - The Hindu",
-          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPVVJjSFdJZ3BfT0hGbENUZGlvc0kzU2QwN1AxQXFXWmJqNjd1UDExTEdJdVN0UFl3b3M1MzF3REFoTElPWHlGdGNBTk82NWpxWGgwSXVvb2hpc3U0OUlXcTlXV2RmTWs1a2l3SlhfcUw0NU9TMlE0dDBWNTcyZnVTZHFVUW5GMmpWUEtVNWUyTXRWZHV2a0phLVNEZHRYNGx4YjdybEpMZnJUMkJ4Vl9ySnd1T3J1V2tkOUVtX2JfRERhRlktRzR5ejAzSGp1Rl9DeTc1eENwOHdZLXdrWVZ3TzZFSkstQXBkOW1PR1R4X2Zmb2ZSeUhYSmlB0gGAAkFVX3lxTE1lTEtmYkp6d3d1cm52aENUYjR2RGRoQ3JFMmp1SjlKYlo3UllEOW1URFBRVXNLV3FUMjZKdGlWYUZUQ1NYQkdDQVo1TTlMNnEwRFF5RDZ6a0puejN6eGpVcmdRWThfVEo0WGJyZmFROElPanNycTdHekx1UFltOHBjQV9iR0tOYmFtU0ZpZUg3NElGTjZYT0ZqVUFPQ25Ba05TSE0waUJtS3FUTDh6SGp4V1IzWkV2SGt6ZXJJYWF1eENmT0Vja0xJVEQxTjEwTFNKdzBQMm13d1ZYOWYzaUduSUlPbGxPSzZmTHFKam9EeTBHZXRTeHZNZlF0UXlqRTk?oc=5",
-          "published_at": "2026-07-30T07:00:00+00:00",
-          "snippet": "Supreme Court vindication of Manmohan Singh should initiate reform of criminal justice system: Ashwani Kumar The Hindu",
-          "lexical_overlap": 0.087,
-          "relevance": 0.157,
+          "source": "Justice and Equity Centre",
+          "source_url": "https://jec.org.au",
+          "title": "AEMC gas network reforms - Justice and Equity Centre",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOZ0FkejQzSG9QOGU4ZkZLd2VxUnhkdjYxbGM4ZnA4emJ4T3ZBcVl5VDg4U2swdm1OQXlkWVA1WTFKRUxlVjBzVU1DaU1lZ3g3ZFNjTkdMVEFjbTEyZ2tyTVZESTk4UjEzd1Z1Y21veDd4aVpyMC1zcVdHWExlUUUxci1ZWDM2YlhEM193WW9JWkpIVmJFWFR0Tlk0Nmo0clpKWUNNZk9jMk5pbFZDZVJaY2hUUDdBemJ0bmpVMVhKUUg2bzdLQkxyNWtIT2JLS0VwSlNyMUNtc1BkamV3cmdMMEtn?oc=5",
+          "published_at": "2026-03-19T07:00:00+00:00",
+          "snippet": "AEMC gas network reforms Justice and Equity Centre",
+          "lexical_overlap": 0.125,
+          "relevance": 0.195,
           "matched_terms": [
-            "criminal",
-            "justice"
+            "justice",
+            "reforms"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "criminal",
-            "justice"
+            "justice",
+            "reforms"
           ]
         }
       ],
@@ -27339,7 +27291,7 @@
     },
     {
       "id": "e09d0c4f1dddbcea61",
-      "checked_at": "2026-10-03T12:05:31.928057+00:00",
+      "checked_at": "2026-10-05T06:17:06.855700+00:00",
       "promise_id": "BJP-2024-e151295e4197926a01",
       "year": 2024,
       "category": "governance",
@@ -27559,7 +27511,7 @@
     },
     {
       "id": "cfa4605dd19e29f911",
-      "checked_at": "2026-10-03T13:23:47.219573+00:00",
+      "checked_at": "2026-10-05T06:17:21.976598+00:00",
       "promise_id": "BJP-2024-f3a44ee99f82f53155",
       "year": 2024,
       "category": "governance",
@@ -27584,17 +27536,17 @@
       "query": "police modernising forces assist states transforming",
       "evidence": [
         {
-          "id": "930078bfc37d000723",
+          "id": "f03019d88a5283e055",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "pib.gov.in",
+          "source": "PIB",
           "source_url": "https://www.pib.gov.in",
-          "title": "WOMEN REPRESENTATION IN POLICE FORCES - pib.gov.in",
+          "title": "WOMEN REPRESENTATION IN POLICE FORCES - PIB",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5VSGI0dG9COWdwN3ZRZmx2WFRZX2dnQTRlN1RWdTJMZ0x5U0tkc3h4TGc2MzRyNGRTekl1M0F0RlFEU1hKM2xaa3EyOXNuZXFZOUhjSGhhMzBESVI1VDZGS1BZa1FTS29LbjFmYmFJZks?oc=5",
           "published_at": "2023-12-13T08:00:00+00:00",
-          "snippet": "WOMEN REPRESENTATION IN POLICE FORCES pib.gov.in",
-          "lexical_overlap": 0.125,
-          "relevance": 0.245,
+          "snippet": "WOMEN REPRESENTATION IN POLICE FORCES PIB",
+          "lexical_overlap": 0.133,
+          "relevance": 0.253,
           "matched_terms": [
             "forces",
             "police"
@@ -31101,7 +31053,7 @@
     },
     {
       "id": "7d4028f2d3f6de7b36",
-      "checked_at": "2026-10-03T12:05:40.526184+00:00",
+      "checked_at": "2026-10-05T06:17:14.504548+00:00",
       "promise_id": "BJP-2024-ecbcec75143e745638",
       "year": 2024,
       "category": "infrastructure",
@@ -37189,8 +37141,8 @@
       }
     },
     {
-      "id": "0764c49dce738dbbee",
-      "checked_at": "2026-10-05T00:56:04.691187+00:00",
+      "id": "05e0979e7f32ba2f72",
+      "checked_at": "2026-10-05T06:16:39.490149+00:00",
       "promise_id": "BJP-2019-18c0750d5ed71bc3d1",
       "year": 2019,
       "category": "agriculture",
@@ -37216,7 +37168,7 @@
       "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
-      "query": "2022 10000 enable creation farmer producer organisations fpos",
+      "query": "10000 2022 enable creation farmer producer organisations fpos",
       "evidence": [
         {
           "id": "d36584f707d0cd0bec",
@@ -37284,6 +37236,32 @@
           ],
           "promise_core_overlap": [
             "farmers"
+          ]
+        },
+        {
+          "id": "f01c6cce754d006ea9",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "India Development Review",
+          "source_url": "https://idronline.org",
+          "title": "IDR Explains | Farmer producer organisations (FPOs) - India Development Review",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNS18tSjZWcjBOdHZpU0dHWm40RmlXdmZ2bTdrV2hfb3ozUnFBTEYtQUd2UmhmcnN0R0NUZUdCTW0zR2loWkRrdXJlMUVoaUdiZWxZQzlqNkN3eWo2eXRNTkFKN0l0WVRrZzUtb0ZhYkRZaDRma1NPXzdkREl4LWgxYml4aUE1S3NhMU9raEdBc3d2YWNrQUM0?oc=5",
+          "published_at": "2023-08-10T07:00:00+00:00",
+          "snippet": "IDR Explains | Farmer producer organisations (FPOs) India Development Review",
+          "lexical_overlap": 0.25,
+          "relevance": 0.39,
+          "matched_terms": [
+            "farmer",
+            "fpos",
+            "organisations",
+            "producer"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "farmer",
+            "fpos",
+            "organisations",
+            "producer"
           ]
         },
         {
@@ -37356,29 +37334,6 @@
             "farmer",
             "organisations",
             "producer"
-          ]
-        },
-        {
-          "id": "1af39614098ce2c5d1",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "YourStory.com",
-          "source_url": "https://yourstory.com",
-          "title": "Flipkart signs MoU with SERP to enable market access, growth for FPOs, SHGs in Telangana - YourStory.com",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdGxJNXQ4NFR1ZldsQi1veEx3MUEzLW1keWV6d0kySm5zd0pVVVZrUnZiLWhQQlhTWkFfLUJvVVp2aFFNQzBZMGg2a0M2SWxSQUpEZFRsWDJUblpsb21JTDNiTVJ4OE8ycHplcVJyZlV3Z3pmTzhRZUhZN1VqQzVlUDFaNVQ1a21PSld0T093?oc=5",
-          "published_at": "2022-06-25T07:00:00+00:00",
-          "snippet": "Flipkart signs MoU with SERP to enable market access, growth for FPOs, SHGs in Telangana YourStory.com",
-          "lexical_overlap": 0.136,
-          "relevance": 0.241,
-          "matched_terms": [
-            "access",
-            "enable",
-            "fpos"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "access",
-            "fpos"
           ]
         },
         {
@@ -38831,7 +38786,7 @@
     },
     {
       "id": "f5811520c1d5623f19",
-      "checked_at": "2026-10-05T00:56:06.516467+00:00",
+      "checked_at": "2026-10-05T06:16:41.151927+00:00",
       "promise_id": "BJP-2019-1d3e95fa9344e842f3",
       "year": 2019,
       "category": "infrastructure",
@@ -38952,7 +38907,7 @@
     },
     {
       "id": "92d6920a15fb42f812",
-      "checked_at": "2026-10-05T00:56:24.338804+00:00",
+      "checked_at": "2026-10-05T06:16:57.725158+00:00",
       "promise_id": "BJP-2019-6abf03adda773fec98",
       "year": 2019,
       "category": "governance",
@@ -42040,7 +41995,7 @@
     },
     {
       "id": "1e0abc9f94016f3c7a",
-      "checked_at": "2026-10-05T00:56:07.867728+00:00",
+      "checked_at": "2026-10-05T06:16:42.434682+00:00",
       "promise_id": "BJP-2019-2af396deaf778cac73",
       "year": 2019,
       "category": "infrastructure",
@@ -42125,7 +42080,7 @@
     },
     {
       "id": "4af70c5cc4e5dd31ea",
-      "checked_at": "2026-10-05T00:56:14.105146+00:00",
+      "checked_at": "2026-10-05T06:16:48.427219+00:00",
       "promise_id": "BJP-2019-34c03859f07f1329c5",
       "year": 2019,
       "category": "infrastructure",
@@ -43595,7 +43550,7 @@
     },
     {
       "id": "93bb9754ab7125c8f1",
-      "checked_at": "2026-10-05T00:56:18.777726+00:00",
+      "checked_at": "2026-10-05T06:16:52.863749+00:00",
       "promise_id": "BJP-2019-6013bbae5c9fbd8c5a",
       "year": 2019,
       "category": "women_social_justice",
@@ -43661,7 +43616,7 @@
     },
     {
       "id": "1d1782ad81aa54afcd",
-      "checked_at": "2026-10-05T00:56:20.924798+00:00",
+      "checked_at": "2026-10-05T06:16:54.889976+00:00",
       "promise_id": "BJP-2019-63e2ccda189fa85e2c",
       "year": 2019,
       "category": "health_welfare",
@@ -48144,7 +48099,7 @@
     },
     {
       "id": "21c782a6ad2ecb8987",
-      "checked_at": "2026-10-05T00:56:10.912493+00:00",
+      "checked_at": "2026-10-05T06:16:45.481940+00:00",
       "promise_id": "BJP-2019-2cfa1375f165d41707",
       "year": 2019,
       "category": "other",
@@ -49432,7 +49387,7 @@
     },
     {
       "id": "09db92a7679f9e887b",
-      "checked_at": "2026-10-05T00:56:16.001000+00:00",
+      "checked_at": "2026-10-05T06:16:50.271123+00:00",
       "promise_id": "BJP-2019-4fc8289de8caed52ff",
       "year": 2019,
       "category": "other",
@@ -53713,7 +53668,7 @@
     },
     {
       "id": "df076e7dea8ba67624",
-      "checked_at": "2026-10-05T00:56:26.857839+00:00",
+      "checked_at": "2026-10-05T06:16:59.925484+00:00",
       "promise_id": "BJP-2014-078252941779345656",
       "year": 2014,
       "category": "women_social_justice",
@@ -53739,6 +53694,27 @@
       "related_promises": [],
       "query": "next five courts cases arbitration judiciary",
       "evidence": [
+        {
+          "id": "028f4e7c6c9f4685f5",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "eCourt India High Courts Services",
+          "source_url": "https://hcservices.ecourts.gov.in",
+          "title": "Case Status : Search by Case Number - eCourt India High Courts Services",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQ1BtbUZBeTd5UHFsV0dxeTRtMy00MjdBcllJRm1vUko0Slo0cXJoazJSTzdsMW5GYjZta01iU1ZnTnRycC1XckFIVXhzOGRQbS1SckVNRXNsVFFTNktfek1KRy1jb2lKQzFlMVRzN1JES1o3WWE5NjUwaWlKcUNNRmRROFkwVHBxTWtFSFBlbnl3ME42Z3pqdGhySHN4T05adFM5X0NlVFZSWktJWG5UUUxmYVREbTI2UmJxLS1Jam1HUQ?oc=5",
+          "published_at": "2022-06-17T04:06:30+00:00",
+          "snippet": "Case Status : Search by Case Number eCourt India High Courts Services",
+          "lexical_overlap": 0.111,
+          "relevance": 0.231,
+          "matched_terms": [
+            "courts",
+            "number"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "courts"
+          ]
+        },
         {
           "id": "3708845dd265cc69b2",
           "scope": "news_search",
