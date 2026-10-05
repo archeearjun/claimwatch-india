@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T07:03:16.842315+00:00",
+  "generated_at": "2026-10-05T10:46:05.454178+00:00",
   "capabilities": {
     "official_evidence_search": true,
     "verified_primary_gate": true,
@@ -17,7 +17,7 @@
     "promise_total_candidates": 841,
     "promise_coverage_pct": 85.4,
     "primary_candidates": 436,
-    "secondary_candidates": 930,
+    "secondary_candidates": 933,
     "prior_fact_checks": 0,
     "publishable_auto_verdicts": 0,
     "claim_verdicts": {
@@ -214,9 +214,9 @@
       "promise_matches": [],
       "evidence": [
         {
-          "id": "e771b2c69725b6d832",
-          "scope": "broad_official_search",
-          "tier": "primary",
+          "id": "d92d684ad84cab716f",
+          "scope": "news_search",
+          "tier": "secondary",
           "source": "DD News",
           "source_url": "https://ddnews.gov.in",
           "title": "PM Modi releases commemorative stamp marking 100 years of RSS - DD News",
@@ -224,7 +224,7 @@
           "published_at": "2025-10-01T07:00:00+00:00",
           "snippet": "PM Modi releases commemorative stamp marking 100 years of RSS DD News",
           "lexical_overlap": 0.214,
-          "relevance": 0.479,
+          "relevance": 0.429,
           "matched_terms": [
             "commemorative",
             "marking",
@@ -232,12 +232,7 @@
           ],
           "shared_numbers": [
             "100"
-          ],
-          "nli": {
-            "entailment": 0.0157,
-            "neutral": 0.8986,
-            "contradiction": 0.0857
-          }
+          ]
         },
         {
           "id": "c2609b02c2e4e84993",
@@ -302,8 +297,8 @@
       ],
       "fact_checks": [],
       "signal": {
-        "level": "structured_support_candidate",
-        "label": "Relevant primary evidence shares claim terms and numeric values",
+        "level": "reporting_found",
+        "label": "Relevant reporting found; primary evidence still needed",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -338,17 +333,17 @@
       "promise_matches": [],
       "evidence": [
         {
-          "id": "2ad33682c50a0e4648",
+          "id": "9247f57fbacca8e60a",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Landmark Chambers",
+          "source": "landmarkchambers.co.uk",
           "source_url": "https://www.landmarkchambers.co.uk",
-          "title": "86 - A new ACCC case law collection has landed - Landmark Chambers",
+          "title": "86 - A new ACCC case law collection has landed - landmarkchambers.co.uk",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPM1FHRkVDUngtU1c0TjQyY05RNUxHd2pybVVuY2lSdGhfTmo0blJndzNOeFNOZ3lLLTRBb0JVOWNMRHdjazc5UDh0YWFWQVNFSTd2cGlERlJYbXVhV3NZVWVWbTJiNU9NSEc2LTBWcG42RGl0a2gtSzdFS3Jxb2xHOGJBUjU5RmhPYjFYVmdKR3BJMWh4eVc5ZEFJYkRCUVlMY25tUFNiZXR6Zw?oc=5",
           "published_at": "2026-09-09T07:00:00+00:00",
-          "snippet": "86 - A new ACCC case law collection has landed Landmark Chambers",
-          "lexical_overlap": 0.167,
-          "relevance": 0.237,
+          "snippet": "86 - A new ACCC case law collection has landed landmarkchambers.co.uk",
+          "lexical_overlap": 0.154,
+          "relevance": 0.224,
           "matched_terms": [
             "case",
             "has"
@@ -388,7 +383,7 @@
         "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
         "published_at": "2026-10-01T09:05:21+00:00"
       },
-      "query": "10 15 little while ago was visiting gallery",
+      "query": "15 10 little while ago was visiting gallery",
       "numbers": [
         "10",
         "15"
@@ -478,15 +473,33 @@
           }
         },
         {
-          "id": "783931df6c61bf3fc0",
+          "id": "4f083245a595995ddf",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "digitalcameraworld.com",
+          "source": "Weverse",
+          "source_url": "https://weverse.io",
+          "title": "[EVENT] WINNER 12th ANNIVERSARY Special Gift Notice - Weverse",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE91MGluMHNFb2NPTHdscVBYRFp5anVqM1p3WGdTR0RoMmpvR1c2WjdvaWpZRW9nTFdGeW9DblNfRGVacHNPVkdIdlU2RGJlVlU?oc=5",
+          "published_at": "2026-08-12T07:20:42+00:00",
+          "snippet": "[EVENT] WINNER 12th ANNIVERSARY Special Gift Notice Weverse",
+          "lexical_overlap": 0.154,
+          "relevance": 0.224,
+          "matched_terms": [
+            "anniversary",
+            "th"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "a43ebe630d5ecab72d",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Digital Camera World",
           "source_url": "https://www.digitalcameraworld.com",
-          "title": "Happy World Photography Day! 🥳 This year marks the 200th anniversary of the first ever photo… but what IS World Photography Day and why is it today? - digitalcameraworld.com",
+          "title": "Happy World Photography Day! 🥳 This year marks the 200th anniversary of the first ever photo… but what IS World Photography Day and why is it today? - Digital Camera World",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcVZ1RndTdGJsOHI1T21QbFlKcFZ4OTdsa1pWQ0FwNFFCdmhDb1I3N1ZVMnY3Q3hjM3o1eEp3a19jamtZWHNNNkpud0dxQjFqb3FzUThram14QjJrS3E3U1ppT1RWSUhjd3liOHRHSTNPY241eEttYkctTFVqYnhPNGlZZmE1cTZqNlozVlJoY2V0alpRdUY5MVFoX3VqTmdVckE?oc=5",
           "published_at": "2026-08-19T07:00:00+00:00",
-          "snippet": "Happy World Photography Day! 🥳 This year marks the 200th anniversary of the first ever photo… but what IS World Photography Day and why is it today? digitalcameraworld.com",
+          "snippet": "Happy World Photography Day! 🥳 This year marks the 200th anniversary of the first ever photo… but what IS World Photography Day and why is it today? Digital Camera World",
           "lexical_overlap": 0.1,
           "relevance": 0.17,
           "matched_terms": [
@@ -978,13 +991,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "structured_support_candidate",
+      "evidence_state": "reporting_found",
       "human_reviewed": false,
       "created_at": "2026-10-01T20:22:13.940638+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-05T07:02:31.220671+00:00",
+      "latest_checked_at": "2026-10-05T10:45:18.008429+00:00",
       "latest_claim_packet_id": "6627bae11c2e4166b3"
     },
     {
@@ -1008,7 +1021,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-05T07:02:31.220685+00:00",
+      "latest_checked_at": "2026-10-05T10:45:18.008439+00:00",
       "latest_claim_packet_id": "d443adc2a0e2470ae9"
     },
     {
@@ -1032,7 +1045,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-05T07:02:31.220703+00:00",
+      "latest_checked_at": "2026-10-05T10:45:18.008452+00:00",
       "latest_claim_packet_id": "c2a19aa48972aa09e4"
     },
     {
@@ -1203,7 +1216,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-05T07:02:31.220821+00:00",
+      "latest_checked_at": "2026-10-05T10:45:18.008563+00:00",
       "latest_claim_packet_id": "e9ef5ba17322492eb6"
     },
     {
@@ -1275,7 +1288,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-05T07:02:31.220653+00:00",
+      "latest_checked_at": "2026-10-05T10:45:18.008416+00:00",
       "latest_claim_packet_id": "88113c4cc7679dfe59"
     },
     {
@@ -1299,7 +1312,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-05T07:02:31.220772+00:00",
+      "latest_checked_at": "2026-10-05T10:45:18.008501+00:00",
       "latest_claim_packet_id": "bd7cb3b38ff534451f"
     },
     {
@@ -1323,7 +1336,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-05T07:02:31.220716+00:00",
+      "latest_checked_at": "2026-10-05T10:45:18.008462+00:00",
       "latest_claim_packet_id": "f6a1dd2c05d49c3e3c"
     },
     {
@@ -1443,7 +1456,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-05T07:02:31.220784+00:00",
+      "latest_checked_at": "2026-10-05T10:45:18.008509+00:00",
       "latest_claim_packet_id": "e0aa9aa37e5a72091f"
     },
     {
@@ -1491,7 +1504,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-05T07:02:31.220809+00:00",
+      "latest_checked_at": "2026-10-05T10:45:18.008548+00:00",
       "latest_claim_packet_id": "d31336725037d6edfc"
     },
     {
@@ -1611,7 +1624,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-05T07:02:31.220611+00:00",
+      "latest_checked_at": "2026-10-05T10:45:18.008386+00:00",
       "latest_claim_packet_id": "63b703ab25dbb97e26"
     },
     {
@@ -1659,7 +1672,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-05T07:02:31.220758+00:00",
+      "latest_checked_at": "2026-10-05T10:45:18.008491+00:00",
       "latest_claim_packet_id": "8627b9532420ebafc0"
     },
     {
@@ -1683,7 +1696,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-05T07:02:31.220797+00:00",
+      "latest_checked_at": "2026-10-05T10:45:18.008519+00:00",
       "latest_claim_packet_id": "d9ed8629ebcb7a572c"
     },
     {
@@ -1779,7 +1792,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-05T07:02:31.220729+00:00",
+      "latest_checked_at": "2026-10-05T10:45:18.008470+00:00",
       "latest_claim_packet_id": "69276105583e101638"
     },
     {
@@ -1878,7 +1891,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-05T07:02:31.220744+00:00",
+      "latest_checked_at": "2026-10-05T10:45:18.008481+00:00",
       "latest_claim_packet_id": "6df0bf295350af0cd6"
     },
     {
@@ -34751,7 +34764,7 @@
     },
     {
       "id": "bd4a85830bef2c2627",
-      "checked_at": "2026-10-03T17:58:09.043902+00:00",
+      "checked_at": "2026-10-05T10:45:55.082848+00:00",
       "promise_id": "BJP-2019-b7bb1d10c9d36cf722",
       "year": 2019,
       "category": "other",
@@ -34876,7 +34889,7 @@
     },
     {
       "id": "693e19e11db5fd9470",
-      "checked_at": "2026-10-03T17:58:16.443171+00:00",
+      "checked_at": "2026-10-05T10:46:01.852941+00:00",
       "promise_id": "BJP-2019-c1f3b63b4df70e8541",
       "year": 2019,
       "category": "other",
@@ -35460,7 +35473,7 @@
     },
     {
       "id": "7b0664c6ab207389ca",
-      "checked_at": "2026-10-03T16:46:40.084328+00:00",
+      "checked_at": "2026-10-05T10:45:48.686913+00:00",
       "promise_id": "BJP-2019-98cf7321ee347d7f34",
       "year": 2019,
       "category": "security_defence",
@@ -35610,15 +35623,15 @@
           ]
         },
         {
-          "id": "466423b9f4e55f637f",
+          "id": "515572ffdf7c84546a",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "ddnews.gov.in",
+          "source": "DD News",
           "source_url": "https://ddnews.gov.in",
-          "title": "Gujarat CM Patel pays tribute to Pahalgam victims, reiterates zero tolerance - ddnews.gov.in",
+          "title": "Gujarat CM Patel pays tribute to Pahalgam victims, reiterates zero tolerance - DD News",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbklKZnVISUlmYkRsb29pRjgzWWtlLVkzY2xqWWxXcF9sZVYydF9SUkZES29XUk1fTmplUjNxSUJxMVpWdlRja1Bta1l2Ykg3TjdVZ0FvQU5jMTVFcXZPRzZUR3pkWmY5dXNJVHhkQ1RIcUw3c1JPNzBBMXNZXy1qR2FXOHB2SjJHMDFEbGpXSS1zdENGQ2p4OG1YRUM1dlZYVFpj?oc=5",
           "published_at": "2026-04-22T07:00:00+00:00",
-          "snippet": "Gujarat CM Patel pays tribute to Pahalgam victims, reiterates zero tolerance ddnews.gov.in",
+          "snippet": "Gujarat CM Patel pays tribute to Pahalgam victims, reiterates zero tolerance DD News",
           "lexical_overlap": 0.091,
           "relevance": 0.161,
           "matched_terms": [
@@ -36681,7 +36694,7 @@
     },
     {
       "id": "8f53cf81db3538d314",
-      "checked_at": "2026-10-03T17:58:15.006206+00:00",
+      "checked_at": "2026-10-05T10:46:00.625975+00:00",
       "promise_id": "BJP-2019-beccd20b2d57ff3b50",
       "year": 2019,
       "category": "agriculture",
@@ -37146,7 +37159,7 @@
     },
     {
       "id": "0764c49dce738dbbee",
-      "checked_at": "2026-10-05T07:02:33.247500+00:00",
+      "checked_at": "2026-10-05T10:45:20.289208+00:00",
       "promise_id": "BJP-2019-18c0750d5ed71bc3d1",
       "year": 2019,
       "category": "agriculture",
@@ -37850,7 +37863,7 @@
     },
     {
       "id": "ea11c276b842f8c9b7",
-      "checked_at": "2026-10-03T16:46:36.212255+00:00",
+      "checked_at": "2026-10-05T10:45:45.098465+00:00",
       "promise_id": "BJP-2019-9335e1bbb1f80b372a",
       "year": 2019,
       "category": "agriculture",
@@ -37900,23 +37913,25 @@
           ]
         },
         {
-          "id": "261642f1fe10d8c7df",
+          "id": "0316e48db0c6c6e467",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "indiashippingnews.com",
-          "source_url": "https://indiashippingnews.com",
-          "title": "Vadhvan Port Project compensation rates approved; more than Rs 2 crore per hectare for agri land - indiashippingnews.com",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOUWxKbzUtQUMxWVRMVXlHMXpyaHFmS3B5Um5XYW94eFFDODNDNk1VSkxBRF8zOFotUkVLdmJZaGIyLVQyM3lHYWN6SmRHS3hjVDE3cUJEMkVWNlF5OXR0TDcxLTNoc1Q2UWtKazFyNy02ZEM5ZU1BVThQaVA1ZXFQdzJRWXE0WDZabWFfRS1FMXFzNnBYTmFRSTBHcThodjQ1cW9UcGRZLXgyVjZralFVZzhGNEdITXN6M1h2S18xbmx5MTJCWFNlb3VaUFRBU1ZTVU8tdWRYOA?oc=5",
-          "published_at": "2026-02-19T08:00:00+00:00",
-          "snippet": "Vadhvan Port Project compensation rates approved; more than Rs 2 crore per hectare for agri land indiashippingnews.com",
-          "lexical_overlap": 0.08,
-          "relevance": 0.15,
+          "source": "The Times of India",
+          "source_url": "https://timesofindia.indiatimes.com",
+          "title": "Manoj Bajpayee acquires 4.45 acres of agricultural land near Lonavla for Rs 1.37 crore: Report - The Times of India",
+          "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNV19IQmN6dkZPbVd2RVVQdHBuSHg0M3Z0OEJrdWxlYm80d2ZfQllwMGZlcWlranpwaGFDRzJWQnVmUU90dF8xc0FtSXR5ZUR3WWlsYy1sYlplYXI3QmV0YzFaemFBTzlqYTFEemJBbFF5Wm16WUFETG5QSnI5UXRoajhJQzMtSFg1ZWoyajVWMlphSVZKTDRSaHB2aVZLNnJseVJvTzNXRU8tTGstSVFTZ3N1WWpwZ2ZkT09xZXBxQ2ZwTjZNVjVQNVRYczYwU1IwbkFua0Jycjd5SjdyazhWcU05VHUxM0NzZzZzdHd2bW95UmI3cTJMZF9waGlVckZXemxPY2ZUVHZIUy1GdWR6cWhxNlVDMnhhQ1dN0gGgAkFVX3lxTFBsbmNqMmRHTS01eDd2ZTNZa3R1THJnMjNxcXhxTFA5VDFlcjYxOHdVTnNHTXpjTms3LVJNa0p1T3hqU05xVlcxbUVyV192X2xiY1VaTms5MGJaU2pRSWtFelUwRlU3UmItR3RQWWZjTDJTVldBOGd1NXRwWXZqeEhZZV9ZaS1uQ0Q2a0VDTkJtZXRLa3VPUmZtVXZXaGRMLTlObGJSTlRXXzl1WXhjV0wzWUFrUmkwRFptLW5ILThwVlB2VEpueVdsRGZkbnlEaVdnWUJvQmhxNVRCOWJKQ1d2bDFSR0FtdUFLc21DTzNzYVhJYXhsLXJqcUZrcTd6MXVRdDRfeUJGMzg3eF9ORGJRWkk1dHZHek1TMjhIQkFDZQ?oc=5",
+          "published_at": "2026-08-28T07:00:00+00:00",
+          "snippet": "Manoj Bajpayee acquires 4.45 acres of agricultural land near Lonavla for Rs 1.37 crore: Report The Times of India",
+          "lexical_overlap": 0.143,
+          "relevance": 0.248,
           "matched_terms": [
+            "agricultural",
             "crore",
             "land"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
+            "agricultural",
             "crore",
             "land"
           ]
@@ -38574,7 +38589,7 @@
     },
     {
       "id": "ddcf4ce09a58bc3a59",
-      "checked_at": "2026-10-03T17:58:10.558091+00:00",
+      "checked_at": "2026-10-05T10:45:56.536715+00:00",
       "promise_id": "BJP-2019-ba18eae04645246ad6",
       "year": 2019,
       "category": "culture_heritage",
@@ -38598,17 +38613,17 @@
       "query": "animal husbandry aquaculture easy access credit",
       "evidence": [
         {
-          "id": "dff8477a5d6fe78ddc",
-          "scope": "preferred_official_search",
+          "id": "13b730052fe7780cd7",
+          "scope": "broad_official_search",
           "tier": "primary",
-          "source": "Digital Sansad",
-          "source_url": "https://sansad.in",
-          "title": "GOVERNMENT OF INDIA MINISTRY OF FISHERIES, ANIMAL HUSBANDRY AND DAIRYING DEPARTMENT OF ANIMAL HUSBANDRY AND DAIRYING RAJYA SAB - Digital Sansad",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5lVzNDTHJ1WE5LUmFrcW92TklqX1RSX25WWUR2TzNTQlZONG9lT2JKVjBrV1huVzRpM1VwSF9mblFmVG9nUXduV0prU05rVHBReUhCTEhRbjNhS2ppT21nQTc0Tjh5WmpfRXluY245ekpscVV6?oc=5",
-          "published_at": "2026-09-03T06:15:33+00:00",
-          "snippet": "GOVERNMENT OF INDIA MINISTRY OF FISHERIES, ANIMAL HUSBANDRY AND DAIRYING DEPARTMENT OF ANIMAL HUSBANDRY AND DAIRYING RAJYA SAB Digital Sansad",
-          "lexical_overlap": 0.133,
-          "relevance": 0.253,
+          "source": "| Department of animal husbandry and dairying",
+          "source_url": "https://dahd.gov.in",
+          "title": "Untitled - | Department of animal husbandry and dairying",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5xZnNVLVJzeU0ySWpQM25oU2JUZXB0ajlRaXFvWHh4dTFNOGcxTmo3ZU9LQm1zc1ZNSzJRLTk2ZTdINElGNjRqbmpfekV6SHhiVC15eXZjNTJUdkZpQU5DT1ZwWE90QlNSaUJrSFI5RFJxQkREOUg0Y2F2aw?oc=5",
+          "published_at": "2026-04-29T14:41:35+00:00",
+          "snippet": "Untitled | Department of animal husbandry and dairying",
+          "lexical_overlap": 0.2,
+          "relevance": 0.32,
           "matched_terms": [
             "animal",
             "husbandry"
@@ -38787,7 +38802,7 @@
     },
     {
       "id": "f5811520c1d5623f19",
-      "checked_at": "2026-10-05T07:02:34.928700+00:00",
+      "checked_at": "2026-10-05T10:45:21.878509+00:00",
       "promise_id": "BJP-2019-1d3e95fa9344e842f3",
       "year": 2019,
       "category": "infrastructure",
@@ -38908,7 +38923,7 @@
     },
     {
       "id": "92d6920a15fb42f812",
-      "checked_at": "2026-10-05T07:02:52.027432+00:00",
+      "checked_at": "2026-10-05T10:45:38.537241+00:00",
       "promise_id": "BJP-2019-6abf03adda773fec98",
       "year": 2019,
       "category": "governance",
@@ -38934,6 +38949,28 @@
       "related_promises": [],
       "query": "2022 every gram panchayat connected high speed",
       "evidence": [
+        {
+          "id": "369d382b6f919c3769",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "grammanchitra.gov.in",
+          "source_url": "https://grammanchitra.gov.in",
+          "title": "Gram Panchayat - grammanchitra.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5nLWtWZTgtdXZ2VUcyeF9FeE9MOVRUTUtvcGl3TW1FVHVrVkRpSkhXUXBhR1NFLXBlY3VwMjRZX1dFOWs?oc=5",
+          "published_at": "2019-10-25T02:05:25+00:00",
+          "snippet": "Gram Panchayat grammanchitra.gov.in",
+          "lexical_overlap": 0.167,
+          "relevance": 0.287,
+          "matched_terms": [
+            "gram",
+            "panchayat"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "gram",
+            "panchayat"
+          ]
+        },
         {
           "id": "31d510b5bcba13bd5b",
           "scope": "preferred_official_search",
@@ -38979,7 +39016,7 @@
           ]
         }
       ],
-      "implementation_signal": "needs_research",
+      "implementation_signal": "current_primary_evidence_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -39444,7 +39481,7 @@
     },
     {
       "id": "e7830fb4120ad56b15",
-      "checked_at": "2026-10-03T16:46:43.953240+00:00",
+      "checked_at": "2026-10-05T10:45:51.796443+00:00",
       "promise_id": "BJP-2019-aa77def8cc401cb502",
       "year": 2019,
       "category": "agriculture",
@@ -39469,30 +39506,49 @@
       "query": "goods service tax while social security",
       "evidence": [
         {
-          "id": "67fc1f31eb6adf9f99",
-          "scope": "broad_official_search",
+          "id": "94761a068e844345e9",
+          "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "CBIC GST portal",
-          "source_url": "https://cbic-gst.gov.in",
-          "title": "Goods & Service Tax, CBIC, Government of India :: Home - CBIC GST portal",
-          "url": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE5nMnVpbTdHMG16UWFvVVFWMGNxZHgzZkxBUnFkbk1DckZ0Q0NER3FocEgyQnUyVXVfT3EwWg?oc=5",
-          "published_at": "2019-04-26T18:23:42+00:00",
-          "snippet": "Goods & Service Tax, CBIC, Government of India :: Home CBIC GST portal",
-          "lexical_overlap": 0.188,
-          "relevance": 0.342,
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Frequently Asked Questions (FAQs) on Goods and Services Tax (GST) - PIB",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8zc0Z5enRjZ19RaUVFdjRjbVgxMWdFYmNMNllCV3VFdVNNNjBrRFg0Q2RZbU9xM3hGMjRDNWdiMVFGX2ktVFo0SWhycnRCNmN4emY5S09ldks1NG50RFVGODk5anNQNDRkWnRUZHFB?oc=5",
+          "published_at": "2016-08-03T07:00:00+00:00",
+          "snippet": "Frequently Asked Questions (FAQs) on Goods and Services Tax (GST) PIB",
+          "lexical_overlap": 0.105,
+          "relevance": 0.225,
           "matched_terms": [
             "goods",
-            "service",
             "tax"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
+            "goods"
+          ]
+        },
+        {
+          "id": "230b04aca9db53724a",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "MultiState",
+          "source_url": "https://www.multistate.us",
+          "title": "State Digital Advertising Tax Laws & Digital Goods Taxes 2026 - MultiState",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcG1RcjcxSVlSY3gzRnliZlZqQ0hwbFJtamE1c2ZpQ3NEMDNOMUhKRGJlell4VVRjcEx4alF5aEZJeWM3WFNsa0g5QmJWem55Z3ozZEFjVVZSQ05qeWJtc3puRVhJa1dKcE16RXFUYU9KZnY1MWM2V01vQnFLV19OUnVCZDZYVVA4UVVZOVE0bm9rb0NmN2ttZjRwMnhSZ3d2WVphb0dDQnlacDNYSFNtb0VBb0RCZl9k?oc=5",
+          "published_at": "2026-07-30T07:00:00+00:00",
+          "snippet": "State Digital Advertising Tax Laws & Digital Goods Taxes 2026 MultiState",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
+          "matched_terms": [
             "goods",
-            "service"
+            "tax"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "goods"
           ]
         }
       ],
-      "implementation_signal": "current_primary_evidence_found",
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -39720,7 +39776,7 @@
     },
     {
       "id": "e3720e0156a529b604",
-      "checked_at": "2026-10-03T17:58:13.514994+00:00",
+      "checked_at": "2026-10-05T10:45:59.279727+00:00",
       "promise_id": "BJP-2019-bc8cb3730dd00f12d7",
       "year": 2019,
       "category": "jobs_economy",
@@ -40361,7 +40417,7 @@
     },
     {
       "id": "5a2808291029bf45c0",
-      "checked_at": "2026-10-03T16:46:33.628303+00:00",
+      "checked_at": "2026-10-05T10:45:42.771491+00:00",
       "promise_id": "BJP-2019-922eaf72168d01aebd",
       "year": 2019,
       "category": "jobs_economy",
@@ -41159,7 +41215,7 @@
     },
     {
       "id": "04dddb4c6ce90476bc",
-      "checked_at": "2026-10-03T16:46:45.893569+00:00",
+      "checked_at": "2026-10-05T10:45:53.321270+00:00",
       "promise_id": "BJP-2019-b6046cf982ba083d0d",
       "year": 2019,
       "category": "infrastructure",
@@ -41184,6 +41240,30 @@
       "query": "set five regional centres excellence urban",
       "evidence": [
         {
+          "id": "25830a1026f37cf9c9",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Ministry of Education Approves Five Centres of Excellence for Studies in Classical Languages - PIB",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1wUlVjRVRmOTFFa2ZsS2ZXLTVrZjRwNS0ybVAyakp5SjRRNm02R1RMemRlbW5ZcU1oWTFrdVVYSEVlTFFkcUs5NjRZN0FjWkd2T2piN3RFdHhWREJwOXNFVTc1MGJKVVRUN1ExTjBWYkZTREtudndlaUU5eVg?oc=5",
+          "published_at": "2026-10-03T12:10:00+00:00",
+          "snippet": "Ministry of Education Approves Five Centres of Excellence for Studies in Classical Languages PIB",
+          "lexical_overlap": 0.2,
+          "relevance": 0.355,
+          "matched_terms": [
+            "centres",
+            "excellence",
+            "five"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "centres",
+            "excellence",
+            "five"
+          ]
+        },
+        {
           "id": "a374ed884916f3092a",
           "scope": "preferred_official_search",
           "tier": "primary",
@@ -41205,28 +41285,6 @@
             "centres",
             "excellence",
             "five"
-          ]
-        },
-        {
-          "id": "685e9af437c7d10d82",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Second Batch of Phase 2 of the NAKSHA Capacity Building Programme to be inaugurated across Four National Centres of Excellence from June 16 - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1nbTEyVEtwbVJDNW5qSlpMRzlIcXdLQjdzdmE0ZTFXMUlqektEVGE2UnhCbXBud0Y3X3Z1QjJmSGhzOHBTaFVTcmt5OFVpMV9WZENfeDBnY1Z4YVBFQ1dWdHYyYWNFMHN3?oc=5",
-          "published_at": "2025-06-15T07:00:00+00:00",
-          "snippet": "Second Batch of Phase 2 of the NAKSHA Capacity Building Programme to be inaugurated across Four National Centres of Excellence from June 16 PIB",
-          "lexical_overlap": 0.1,
-          "relevance": 0.22,
-          "matched_terms": [
-            "centres",
-            "excellence"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "centres",
-            "excellence"
           ]
         },
         {
@@ -41264,7 +41322,7 @@
         "status": "progress_documented",
         "deadline_year": null,
         "proof_strength": "verified_primary_action_with_object_overlap",
-        "proof_evidence_id": "a374ed884916f3092a",
+        "proof_evidence_id": "25830a1026f37cf9c9",
         "proof": null,
         "reason": "Verified primary evidence overlaps the subject of the promise and documents implementation activity, but not the promised outcome."
       }
@@ -41996,7 +42054,7 @@
     },
     {
       "id": "1e0abc9f94016f3c7a",
-      "checked_at": "2026-10-05T07:02:36.226937+00:00",
+      "checked_at": "2026-10-05T10:45:23.139524+00:00",
       "promise_id": "BJP-2019-2af396deaf778cac73",
       "year": 2019,
       "category": "infrastructure",
@@ -42081,7 +42139,7 @@
     },
     {
       "id": "4af70c5cc4e5dd31ea",
-      "checked_at": "2026-10-05T07:02:42.289778+00:00",
+      "checked_at": "2026-10-05T10:45:29.139118+00:00",
       "promise_id": "BJP-2019-34c03859f07f1329c5",
       "year": 2019,
       "category": "infrastructure",
@@ -43551,7 +43609,7 @@
     },
     {
       "id": "93bb9754ab7125c8f1",
-      "checked_at": "2026-10-05T07:02:47.355024+00:00",
+      "checked_at": "2026-10-05T10:45:33.615481+00:00",
       "promise_id": "BJP-2019-6013bbae5c9fbd8c5a",
       "year": 2019,
       "category": "women_social_justice",
@@ -43617,7 +43675,7 @@
     },
     {
       "id": "1d1782ad81aa54afcd",
-      "checked_at": "2026-10-05T07:02:49.233975+00:00",
+      "checked_at": "2026-10-05T10:45:35.693414+00:00",
       "promise_id": "BJP-2019-63e2ccda189fa85e2c",
       "year": 2019,
       "category": "health_welfare",
@@ -44993,7 +45051,7 @@
     },
     {
       "id": "243957e0a5fa1edab5",
-      "checked_at": "2026-10-03T16:46:42.048609+00:00",
+      "checked_at": "2026-10-05T10:45:50.272420+00:00",
       "promise_id": "BJP-2019-9b88005a89e22e2e00",
       "year": 2019,
       "category": "jobs_economy",
@@ -45254,7 +45312,7 @@
     },
     {
       "id": "19743a23dbc6e6cd3b",
-      "checked_at": "2026-10-03T17:58:11.865318+00:00",
+      "checked_at": "2026-10-05T10:45:57.713935+00:00",
       "promise_id": "BJP-2019-ba551e363dbc574aed",
       "year": 2019,
       "category": "education_skills",
@@ -46445,7 +46503,7 @@
     },
     {
       "id": "8ffcfcf4d9f6e9a84c",
-      "checked_at": "2026-10-03T16:46:39.003122+00:00",
+      "checked_at": "2026-10-05T10:45:47.735170+00:00",
       "promise_id": "BJP-2019-986f2b5edfbd336896",
       "year": 2019,
       "category": "other",
@@ -46606,7 +46664,7 @@
     },
     {
       "id": "39dd6148a8ed1ad929",
-      "checked_at": "2026-10-03T16:46:34.513945+00:00",
+      "checked_at": "2026-10-05T10:45:43.560479+00:00",
       "promise_id": "BJP-2019-9271dae6e5c2bb22c4",
       "year": 2019,
       "category": "infrastructure",
@@ -47259,7 +47317,7 @@
     },
     {
       "id": "a65f572baa587c53db",
-      "checked_at": "2026-10-03T16:46:37.796821+00:00",
+      "checked_at": "2026-10-05T10:45:46.488970+00:00",
       "promise_id": "BJP-2019-9793b8740f642378fc",
       "year": 2019,
       "category": "education_skills",
@@ -47652,7 +47710,7 @@
     },
     {
       "id": "b165f00dc2a90a9570",
-      "checked_at": "2026-10-03T16:46:32.652860+00:00",
+      "checked_at": "2026-10-05T10:45:41.865775+00:00",
       "promise_id": "BJP-2019-8fdd13769d35c9976c",
       "year": 2019,
       "category": "jobs_economy",
@@ -47959,7 +48017,7 @@
     },
     {
       "id": "5037c453746c8d1979",
-      "checked_at": "2026-10-03T17:58:15.685188+00:00",
+      "checked_at": "2026-10-05T10:46:01.221890+00:00",
       "promise_id": "BJP-2019-c00c5b4524f79914fc",
       "year": 2019,
       "category": "education_skills",
@@ -48101,7 +48159,7 @@
     },
     {
       "id": "21c782a6ad2ecb8987",
-      "checked_at": "2026-10-05T07:02:39.150794+00:00",
+      "checked_at": "2026-10-05T10:45:26.133400+00:00",
       "promise_id": "BJP-2019-2cfa1375f165d41707",
       "year": 2019,
       "category": "other",
@@ -48723,7 +48781,7 @@
     },
     {
       "id": "5f89213c5b03e185b8",
-      "checked_at": "2026-10-03T17:58:19.893399+00:00",
+      "checked_at": "2026-10-05T10:46:05.131483+00:00",
       "promise_id": "BJP-2019-c549aa8b717639cbed",
       "year": 2019,
       "category": "jobs_economy",
@@ -49389,7 +49447,7 @@
     },
     {
       "id": "09db92a7679f9e887b",
-      "checked_at": "2026-10-05T07:02:44.243927+00:00",
+      "checked_at": "2026-10-05T10:45:30.921637+00:00",
       "promise_id": "BJP-2019-4fc8289de8caed52ff",
       "year": 2019,
       "category": "other",
@@ -50077,7 +50135,7 @@
     },
     {
       "id": "ae076585e8155b45e0",
-      "checked_at": "2026-10-03T16:46:44.751668+00:00",
+      "checked_at": "2026-10-05T10:45:52.431433+00:00",
       "promise_id": "BJP-2019-aed9f5538fecc49274",
       "year": 2019,
       "category": "women_social_justice",
@@ -51436,7 +51494,7 @@
     },
     {
       "id": "cf6c1e4cbd0aebbbe8",
-      "checked_at": "2026-10-03T17:58:18.173211+00:00",
+      "checked_at": "2026-10-05T10:46:03.540282+00:00",
       "promise_id": "BJP-2019-c4f200516237de6067",
       "year": 2019,
       "category": "women_social_justice",
@@ -53692,7 +53750,7 @@
     },
     {
       "id": "df076e7dea8ba67624",
-      "checked_at": "2026-10-05T07:02:54.331907+00:00",
+      "checked_at": "2026-10-05T10:45:40.792914+00:00",
       "promise_id": "BJP-2014-078252941779345656",
       "year": 2014,
       "category": "women_social_justice",
@@ -53719,14 +53777,14 @@
       "query": "next five courts cases arbitration judiciary",
       "evidence": [
         {
-          "id": "028f4e7c6c9f4685f5",
+          "id": "6cc2f8809e29b60a8c",
           "scope": "broad_official_search",
           "tier": "primary",
           "source": "eCourt India High Courts Services",
           "source_url": "https://hcservices.ecourts.gov.in",
           "title": "Case Status : Search by Case Number - eCourt India High Courts Services",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQ1BtbUZBeTd5UHFsV0dxeTRtMy00MjdBcllJRm1vUko0Slo0cXJoazJSTzdsMW5GYjZta01iU1ZnTnRycC1XckFIVXhzOGRQbS1SckVNRXNsVFFTNktfek1KRy1jb2lKQzFlMVRzN1JES1o3WWE5NjUwaWlKcUNNRmRROFkwVHBxTWtFSFBlbnl3ME42Z3pqdGhySHN4T05adFM5X0NlVFZSWktJWG5UUUxmYVREbTI2UmJxLS1Jam1HUQ?oc=5",
-          "published_at": "2022-06-17T04:06:30+00:00",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNT0V6eGN5WVhxYzRUd2dtWlotLUdOejhwb3lra0VSaVp6bEthT1dQTHpmbm5uVHJYaWcza0pLZVBFckpNQXY5Mjc4Wmd5a2Fzd3Zab3NtMjdaMU5jNnVtTXpVdTFDOEdMczlGT0JpOVdMNTQ3aDVhTmlHOUxacHNwRmNCTHplbnB1VFhGVG5KNzI2ZXV0SHMtUUVUU1dCYVpabFFyUGpCT0w5eHVWVENGVHNodw?oc=5",
+          "published_at": "2022-06-02T15:32:07+00:00",
           "snippet": "Case Status : Search by Case Number eCourt India High Courts Services",
           "lexical_overlap": 0.111,
           "relevance": 0.231,
