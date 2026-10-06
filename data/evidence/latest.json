@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T06:54:43.219179+00:00",
+  "generated_at": "2026-10-06T10:16:36.421015+00:00",
   "capabilities": {
     "official_evidence_search": true,
     "verified_primary_gate": true,
@@ -16,8 +16,8 @@
     "promise_checked_this_run": 30,
     "promise_total_candidates": 841,
     "promise_coverage_pct": 86.9,
-    "primary_candidates": 445,
-    "secondary_candidates": 951,
+    "primary_candidates": 444,
+    "secondary_candidates": 949,
     "prior_fact_checks": 0,
     "publishable_auto_verdicts": 0,
     "claim_verdicts": {
@@ -29,8 +29,8 @@
       "fulfilled_by_deadline": 0,
       "target_reached_evidence": 0,
       "proven_unfulfilled_by_deadline": 0,
-      "progress_documented": 9,
-      "deadline_passed_unresolved": 47,
+      "progress_documented": 10,
+      "deadline_passed_unresolved": 46,
       "deadline_not_reached": 13,
       "insufficient_evidence": 27,
       "not_machine_measurable": 635,
@@ -196,20 +196,41 @@
       "promise_matches": [],
       "evidence": [
         {
-          "id": "d92d684ad84cab716f",
+          "id": "4fff681b0eb97886ae",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "DD News",
+          "source": "ddnews.gov.in",
           "source_url": "https://ddnews.gov.in",
-          "title": "PM Modi releases commemorative stamp marking 100 years of RSS - DD News",
+          "title": "PM Modi releases commemorative stamp marking 100 years of RSS - ddnews.gov.in",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWVBydEM0X0MxSW9ZbEN5cl84Nm11aFg4djMtSkJyM1AzRGxwQ2dOZWhDOEF1MnducEVNeGlycFNqMWw0cFU3ZUl5blhFTS1MUHF3UE9lQVVIcURvNjZUdmFmQ0cweFJnb0xxd2FjYUtJb3I3VmhZRTluSHUwaHY4QThybmxvdXZjMTdGdnZsbUQ?oc=5",
           "published_at": "2025-10-01T07:00:00+00:00",
-          "snippet": "PM Modi releases commemorative stamp marking 100 years of RSS DD News",
+          "snippet": "PM Modi releases commemorative stamp marking 100 years of RSS ddnews.gov.in",
           "lexical_overlap": 0.214,
           "relevance": 0.429,
           "matched_terms": [
             "commemorative",
             "marking",
+            "stamp"
+          ],
+          "shared_numbers": [
+            "100"
+          ]
+        },
+        {
+          "id": "1db71a8bcf43e0b288",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "indiatoday.in",
+          "source_url": "https://www.indiatoday.in",
+          "title": "UPSC turns 100: PM Modi to release commemorative coin, stamp on October 1 - indiatoday.in",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPZnJvSTNMU0pRMXlMLVp0dEFxbkg5T2FuQ0NpamNzRWplWmRDbjRtVnVFQVVLZ3pzVGVQcUtPaXhWT0dWMkRfd0pZdXpvNnQ4YjJVTTZaa3F5a3hTc0ZRdTQ0RUl0T1FXUWtFTVpjVUdrem03Q2pVUklobVpsQzlzYnhka2ZwdVBBVWlSakJKZzN1aXFfaU92TnBWSGF4RGxqbnd0dm9XUGtTOW5WVlpoaG9WMENxaU1OY3JzV0RXUldiOGpYSk1aNUh0RFNiaFBSNU5ZMWFkbGZRN1BSTjdjb1lQdnJaU3fSAewBQVVfeXFMUHZJTFBEUVhVbFpQamRhTU9UQXRsOU41VFFUUEVvdXBwSmUxNjRSVV9adUFOVWx4dmR0Ry1DY1VfRk1CRW5xUzk3SVhacnJOQlA0dDlfeHJsSzUzVFFtZ3VJeU9LdlNXTVVHYkpJaEJid25vRUltTU1ERzctOUxJTjkxS3Rsd2pPcEJjLVZNTExSa1Zqc1BIbS02cm1EeENITDZtOVdmVXF1a2lVZHdFTnpXc3NZV1RCMVRZcmlUd05SNnhvWlZ6Vmd1S29ELTZmS3EyNVRjUEtHV2RROGlIU21MUWx2UEo2aTNZb3A?oc=5",
+          "published_at": "2026-09-30T11:06:28+00:00",
+          "snippet": "UPSC turns 100: PM Modi to release commemorative coin, stamp on October 1 indiatoday.in",
+          "lexical_overlap": 0.2,
+          "relevance": 0.415,
+          "matched_terms": [
+            "coin",
+            "commemorative",
             "stamp"
           ],
           "shared_numbers": [
@@ -252,24 +273,6 @@
           "matched_terms": [
             "coin",
             "commemorative",
-            "stamp"
-          ],
-          "shared_numbers": []
-        },
-        {
-          "id": "2b6a61a4ee061c72d8",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "maktoobmedia.com",
-          "source_url": "https://maktoobmedia.com",
-          "title": "Modi releases stamp, coin to mark RSS centenary; Oppn calls it an “insult” to India’s freedom struggle, constitution - maktoobmedia.com",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNM0NUYjhmay1TTWRaTXpKd2JuZF9XUi1tUXpMYlpULVRsb09ULTQzTTllaGVQbHZLQXZtUUpXWUdZU3JHaEoybVFqa09KTlZ4NFJtOHRYSldpUldFbENaMTlEcXFEbXp3aXJITUVMcjNUTWFtamJEMjJIT1plcEZDU091SHR3bmktVlZvS3BkaGxYLVdyTU9sb3MyblRHM1pWSXVEdDZHRUhnaFNRa1VIcmJjZVpua1N5c21GaVRraU53ODA5NFJ5NV9OZHFhYmhjT2g3QlVaLUxFWkpVZDVMbThYa3hCWEtwZURz?oc=5",
-          "published_at": "2025-10-02T07:00:00+00:00",
-          "snippet": "Modi releases stamp, coin to mark RSS centenary; Oppn calls it an “insult” to India’s freedom struggle, constitution maktoobmedia.com",
-          "lexical_overlap": 0.095,
-          "relevance": 0.165,
-          "matched_terms": [
-            "coin",
             "stamp"
           ],
           "shared_numbers": []
@@ -363,7 +366,7 @@
         "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
         "published_at": "2026-10-01T09:05:21+00:00"
       },
-      "query": "10 15 little while ago was visiting gallery",
+      "query": "15 10 little while ago was visiting gallery",
       "numbers": [
         "10",
         "15"
@@ -451,24 +454,6 @@
             "neutral": 0.9802,
             "contradiction": 0.0127
           }
-        },
-        {
-          "id": "c35a3856b7c9c5f212",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "weverse.io",
-          "source_url": "https://weverse.io",
-          "title": "[EVENT] WINNER 12th ANNIVERSARY Special Gift Notice - weverse.io",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE91MGluMHNFb2NPTHdscVBYRFp5anVqM1p3WGdTR0RoMmpvR1c2WjdvaWpZRW9nTFdGeW9DblNfRGVacHNPVkdIdlU2RGJlVlU?oc=5",
-          "published_at": "2026-08-12T07:20:42+00:00",
-          "snippet": "[EVENT] WINNER 12th ANNIVERSARY Special Gift Notice weverse.io",
-          "lexical_overlap": 0.143,
-          "relevance": 0.213,
-          "matched_terms": [
-            "anniversary",
-            "th"
-          ],
-          "shared_numbers": []
         },
         {
           "id": "a43ebe630d5ecab72d",
@@ -564,17 +549,17 @@
           ]
         },
         {
-          "id": "a224d5ff676b38a77b",
+          "id": "093c5e48aab37dc212",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "kcjc.com",
+          "source": "Kansas City Jewish Chronicle",
           "source_url": "https://www.kcjc.com",
-          "title": "Blanche Sosland, community pillar, educator and advocate, dies at age 90 - kcjc.com",
+          "title": "Blanche Sosland, community pillar, educator and advocate, dies at age 90 - Kansas City Jewish Chronicle",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWlVvUUhZR0RvcXNWYzVhT2lkVmpPdGdxeDZEN2pOejhXbVBmNHBFajdYbDB2VjhEMXJneG45MjhiTmZ4SmdIZGFXY2tMb1o0dDZjUWJpNmdSUGhxZmctVlNQX3RxU1Zqd3hZV0N4VEEzOU1QZW1HVjNJR0ZkS212MUlzX0JMQQ?oc=5",
           "published_at": "2026-07-09T07:00:00+00:00",
-          "snippet": "Blanche Sosland, community pillar, educator and advocate, dies at age 90 kcjc.com",
-          "lexical_overlap": 0.071,
-          "relevance": 0.216,
+          "snippet": "Blanche Sosland, community pillar, educator and advocate, dies at age 90 Kansas City Jewish Chronicle",
+          "lexical_overlap": 0.062,
+          "relevance": 0.208,
           "matched_terms": [
             "age"
           ],
@@ -817,6 +802,24 @@
       "promise_matches": [],
       "evidence": [
         {
+          "id": "ee6aa18f37586c0481",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "NDTV",
+          "source_url": "https://www.ndtv.com",
+          "title": "Opinion | 9/11, And The Price Of Fighting Terror For A Quarter Century - NDTV",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTHR3MXlJQ0E4SmgtRVVKUWM0X1pNZm5RWXhmcjVWSkV1WWdpV0VXN21YZGVSNzFRX0xOUnBIQ0dVLXJ4TEdaNWgzNTVJN2F1ZHJJTnJ6RjNTNnJ0QTNGUnFFOVdfMzhwR1lSOVlQcWVmWTI3UEpjNU1KMURpSmh3eUpacGxrM2RSbUdtMTJZbEwyQVkzTVB1TmJWX1JwMjFVa0hLVG9ucTFnRFNGUnFYczZiZzdKQQ?oc=5",
+          "published_at": "2026-09-11T06:47:22+00:00",
+          "snippet": "Opinion | 9/11, And The Price Of Fighting Terror For A Quarter Century NDTV",
+          "lexical_overlap": 0.154,
+          "relevance": 0.224,
+          "matched_terms": [
+            "century",
+            "quarter"
+          ],
+          "shared_numbers": []
+        },
+        {
           "id": "a905a2f6c5bf8e5f87",
           "scope": "news_search",
           "tier": "secondary",
@@ -835,35 +838,17 @@
           "shared_numbers": []
         },
         {
-          "id": "48033ebd7058a3d86c",
+          "id": "b4c15fa324157cea92",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "City Lifestyle",
+          "source": "citylifestyle.com",
           "source_url": "https://citylifestyle.com",
-          "title": "A Quarter Century of Raising a Glass for a Cause - City Lifestyle",
+          "title": "A Quarter Century of Raising a Glass for a Cause - citylifestyle.com",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNalAzSnJPeUpyLVppLXZLVkNwTG81MkJwTFpfdFVuVkROZ3RTVW1icGNGQVVXckN4YnFWdmI2UlFXSWp2NHFsdVk5TnlxOU1hNGxCbVZWdFUtbHQ3WENPeWR2YVJBQmR4VlZicXdXTWloampmLVQ5bHBraTlmRlFFcEx3TlViMjJvR21V?oc=5",
           "published_at": "2026-09-28T08:07:36+00:00",
-          "snippet": "A Quarter Century of Raising a Glass for a Cause City Lifestyle",
+          "snippet": "A Quarter Century of Raising a Glass for a Cause citylifestyle.com",
           "lexical_overlap": 0.154,
           "relevance": 0.224,
-          "matched_terms": [
-            "century",
-            "quarter"
-          ],
-          "shared_numbers": []
-        },
-        {
-          "id": "b2fcbbb60bbd701a07",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "ndtv.com",
-          "source_url": "https://www.ndtv.com",
-          "title": "Opinion | 9/11, And The Price Of Fighting Terror For A Quarter Century - ndtv.com",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTHR3MXlJQ0E4SmgtRVVKUWM0X1pNZm5RWXhmcjVWSkV1WWdpV0VXN21YZGVSNzFRX0xOUnBIQ0dVLXJ4TEdaNWgzNTVJN2F1ZHJJTnJ6RjNTNnJ0QTNGUnFFOVdfMzhwR1lSOVlQcWVmWTI3UEpjNU1KMURpSmh3eUpacGxrM2RSbUdtMTJZbEwyQVkzTVB1TmJWX1JwMjFVa0hLVG9ucTFnRFNGUnFYczZiZzdKQQ?oc=5",
-          "published_at": "2026-09-11T06:47:22+00:00",
-          "snippet": "Opinion | 9/11, And The Price Of Fighting Terror For A Quarter Century ndtv.com",
-          "lexical_overlap": 0.143,
-          "relevance": 0.213,
           "matched_terms": [
             "century",
             "quarter"
@@ -889,15 +874,15 @@
           "shared_numbers": []
         },
         {
-          "id": "63aa1c7a53feee30b8",
+          "id": "906a4e6b658ae708c2",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "YES! Weekly",
+          "source": "yesweekly.com",
           "source_url": "https://www.yesweekly.com",
-          "title": "A Quarter of a Century: Winston-Salem Theatre Alliance artistic director celebrates 25 years - YES! Weekly",
+          "title": "A Quarter of a Century: Winston-Salem Theatre Alliance artistic director celebrates 25 years - yesweekly.com",
           "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNTDBXemY2Ni1OXzk2S09IekpVMTctUmRCZE84N3c4dms2eHBaaDJWWDBzaEtqMEdPOUxTa0EtcHJURzN5UkhxYXI0di1aYjdkdzlkd1J4Ukd6M2dmaGdtdmNvMlQ1aHBSY2Vka2dBTml3Tktxb3J4NTNOV0NEZ2VJNTZybGZ0Wmp3Q1dhT2hkb0RiUnZhOUZUNWlLUlpsaEhpRjdBT1Q5ZnpKWDBmem5HU21oZW11ejQ1UTlvdXVVbFV2RHpOYzNZUHRzMVE4MnNEZlNRYkhqbTNHb3dRbEJ3Tm56TjkzR0tkd2RyRkhaem5VSGZVb21zZ3lMcUsycnp2LTlPaWhB?oc=5",
           "published_at": "2026-09-30T14:15:00+00:00",
-          "snippet": "A Quarter of a Century: Winston-Salem Theatre Alliance artistic director celebrates 25 years YES! Weekly",
+          "snippet": "A Quarter of a Century: Winston-Salem Theatre Alliance artistic director celebrates 25 years yesweekly.com",
           "lexical_overlap": 0.125,
           "relevance": 0.195,
           "matched_terms": [
@@ -977,7 +962,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-06T06:53:51.464525+00:00",
+      "latest_checked_at": "2026-10-06T10:15:47.995180+00:00",
       "latest_claim_packet_id": "6627bae11c2e4166b3"
     },
     {
@@ -1001,7 +986,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-06T06:53:51.464534+00:00",
+      "latest_checked_at": "2026-10-06T10:15:47.995192+00:00",
       "latest_claim_packet_id": "d443adc2a0e2470ae9"
     },
     {
@@ -1025,7 +1010,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-06T06:53:51.464546+00:00",
+      "latest_checked_at": "2026-10-06T10:15:47.995206+00:00",
       "latest_claim_packet_id": "c2a19aa48972aa09e4"
     },
     {
@@ -1196,7 +1181,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-06T06:53:51.464619+00:00",
+      "latest_checked_at": "2026-10-06T10:15:47.995298+00:00",
       "latest_claim_packet_id": "e9ef5ba17322492eb6"
     },
     {
@@ -1268,7 +1253,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-06T06:53:51.464514+00:00",
+      "latest_checked_at": "2026-10-06T10:15:47.995167+00:00",
       "latest_claim_packet_id": "88113c4cc7679dfe59"
     },
     {
@@ -1292,7 +1277,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-06T06:53:51.464590+00:00",
+      "latest_checked_at": "2026-10-06T10:15:47.995261+00:00",
       "latest_claim_packet_id": "bd7cb3b38ff534451f"
     },
     {
@@ -1316,7 +1301,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-06T06:53:51.464555+00:00",
+      "latest_checked_at": "2026-10-06T10:15:47.995217+00:00",
       "latest_claim_packet_id": "f6a1dd2c05d49c3e3c"
     },
     {
@@ -1436,7 +1421,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-06T06:53:51.464598+00:00",
+      "latest_checked_at": "2026-10-06T10:15:47.995270+00:00",
       "latest_claim_packet_id": "e0aa9aa37e5a72091f"
     },
     {
@@ -1484,7 +1469,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-06T06:53:51.464613+00:00",
+      "latest_checked_at": "2026-10-06T10:15:47.995290+00:00",
       "latest_claim_packet_id": "d31336725037d6edfc"
     },
     {
@@ -1604,7 +1589,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-06T06:53:51.464477+00:00",
+      "latest_checked_at": "2026-10-06T10:15:47.995127+00:00",
       "latest_claim_packet_id": "63b703ab25dbb97e26"
     },
     {
@@ -1652,7 +1637,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-06T06:53:51.464582+00:00",
+      "latest_checked_at": "2026-10-06T10:15:47.995250+00:00",
       "latest_claim_packet_id": "8627b9532420ebafc0"
     },
     {
@@ -1676,7 +1661,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-06T06:53:51.464605+00:00",
+      "latest_checked_at": "2026-10-06T10:15:47.995280+00:00",
       "latest_claim_packet_id": "d9ed8629ebcb7a572c"
     },
     {
@@ -1772,7 +1757,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-06T06:53:51.464563+00:00",
+      "latest_checked_at": "2026-10-06T10:15:47.995227+00:00",
       "latest_claim_packet_id": "69276105583e101638"
     },
     {
@@ -1871,7 +1856,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-06T06:53:51.464573+00:00",
+      "latest_checked_at": "2026-10-06T10:15:47.995239+00:00",
       "latest_claim_packet_id": "6df0bf295350af0cd6"
     },
     {
@@ -36503,7 +36488,7 @@
     },
     {
       "id": "20baf23bfeeafa4afb",
-      "checked_at": "2026-10-02T23:01:26.030688+00:00",
+      "checked_at": "2026-10-06T10:16:24.331371+00:00",
       "promise_id": "BJP-2019-84c0f420969b8905d7",
       "year": 2019,
       "category": "security_defence",
@@ -36539,7 +36524,7 @@
     },
     {
       "id": "f9b160c5ba9245033b",
-      "checked_at": "2026-10-04T17:35:55.261353+00:00",
+      "checked_at": "2026-10-06T10:16:34.602962+00:00",
       "promise_id": "BJP-2019-983d288d89149606cf",
       "year": 2019,
       "category": "security_defence",
@@ -37098,7 +37083,7 @@
     },
     {
       "id": "2e355a1e601e212c64",
-      "checked_at": "2026-10-02T23:01:19.083896+00:00",
+      "checked_at": "2026-10-06T10:16:16.807908+00:00",
       "promise_id": "BJP-2019-73a7dd0adbbdb69fef",
       "year": 2019,
       "category": "environment",
@@ -37405,7 +37390,7 @@
     },
     {
       "id": "a03f6a43aaf9532c2d",
-      "checked_at": "2026-10-02T23:01:24.716257+00:00",
+      "checked_at": "2026-10-06T10:16:22.866743+00:00",
       "promise_id": "BJP-2019-7f04923b98ecf1dcab",
       "year": 2019,
       "category": "agriculture",
@@ -38264,7 +38249,7 @@
     },
     {
       "id": "0764c49dce738dbbee",
-      "checked_at": "2026-10-06T06:53:53.439967+00:00",
+      "checked_at": "2026-10-06T10:15:50.091956+00:00",
       "promise_id": "BJP-2019-18c0750d5ed71bc3d1",
       "year": 2019,
       "category": "agriculture",
@@ -38916,7 +38901,7 @@
     },
     {
       "id": "0bf4fc0291281e3f3a",
-      "checked_at": "2026-10-02T22:36:49.436335+00:00",
+      "checked_at": "2026-10-06T10:16:15.168152+00:00",
       "promise_id": "BJP-2019-72dce6558ca06c274c",
       "year": 2019,
       "category": "other",
@@ -38955,7 +38940,7 @@
     },
     {
       "id": "815b7706767e8c3356",
-      "checked_at": "2026-10-02T23:01:22.303660+00:00",
+      "checked_at": "2026-10-06T10:16:20.338762+00:00",
       "promise_id": "BJP-2019-7a4ba8d4c9d51a7f0d",
       "year": 2019,
       "category": "agriculture",
@@ -39659,7 +39644,7 @@
     },
     {
       "id": "18d74b9130695f1671",
-      "checked_at": "2026-10-04T17:35:52.890912+00:00",
+      "checked_at": "2026-10-06T10:16:32.259325+00:00",
       "promise_id": "BJP-2019-92a09a1477b5007974",
       "year": 2019,
       "category": "agriculture",
@@ -39911,7 +39896,7 @@
     },
     {
       "id": "f5811520c1d5623f19",
-      "checked_at": "2026-10-06T06:53:55.080893+00:00",
+      "checked_at": "2026-10-06T10:15:51.826248+00:00",
       "promise_id": "BJP-2019-1d3e95fa9344e842f3",
       "year": 2019,
       "category": "infrastructure",
@@ -40032,7 +40017,7 @@
     },
     {
       "id": "92d6920a15fb42f812",
-      "checked_at": "2026-10-06T06:54:11.343983+00:00",
+      "checked_at": "2026-10-06T10:16:09.250203+00:00",
       "promise_id": "BJP-2019-6abf03adda773fec98",
       "year": 2019,
       "category": "governance",
@@ -40201,7 +40186,7 @@
     },
     {
       "id": "23a0efdb460017ae64",
-      "checked_at": "2026-10-04T17:35:54.563647+00:00",
+      "checked_at": "2026-10-06T10:16:33.899415+00:00",
       "promise_id": "BJP-2019-938a7fc15c48c17563",
       "year": 2019,
       "category": "agriculture",
@@ -40224,30 +40209,7 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
       "query": "rural centres launch massive road upgradation",
-      "evidence": [
-        {
-          "id": "64e1b14932a0cfce3f",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Gulf Business",
-          "source_url": "https://gulfbusiness.com",
-          "title": "Emirates Road upgrade: Massive overhaul to handle 9,000 vehicles per hour - Gulf Business",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcDhtbmJRbHI0TEgwWE5GcHBGOE4zbjZyeElOMnU3aWpiZ0tmaWlyQXJaeDdxUTIwVjVrOGNrYjVZNWRXTXlaeWhreVNMU29yX1JSRGZiemRWLW9qdHZKNHhMN0VGeHl4d2hpUEtZTU9MZk9yczh1NmpZekhRUTRKSjVJM1ppdw?oc=5",
-          "published_at": "2025-09-28T07:00:00+00:00",
-          "snippet": "Emirates Road upgrade: Massive overhaul to handle 9,000 vehicles per hour Gulf Business",
-          "lexical_overlap": 0.095,
-          "relevance": 0.165,
-          "matched_terms": [
-            "massive",
-            "road"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "massive",
-            "road"
-          ]
-        }
-      ],
+      "evidence": [],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -42053,7 +42015,7 @@
     },
     {
       "id": "0745b92baf20c3302e",
-      "checked_at": "2026-10-04T17:35:48.432664+00:00",
+      "checked_at": "2026-10-06T10:16:28.414211+00:00",
       "promise_id": "BJP-2019-88aced438b118cd7c9",
       "year": 2019,
       "category": "other",
@@ -42246,7 +42208,7 @@
     },
     {
       "id": "ccef1b5237b02f111a",
-      "checked_at": "2026-10-04T17:35:51.502284+00:00",
+      "checked_at": "2026-10-06T10:16:31.151299+00:00",
       "promise_id": "BJP-2019-90ffa8d284a47dffb6",
       "year": 2019,
       "category": "infrastructure",
@@ -43163,7 +43125,7 @@
     },
     {
       "id": "1e0abc9f94016f3c7a",
-      "checked_at": "2026-10-06T06:53:56.349703+00:00",
+      "checked_at": "2026-10-06T10:15:53.233244+00:00",
       "promise_id": "BJP-2019-2af396deaf778cac73",
       "year": 2019,
       "category": "infrastructure",
@@ -43248,7 +43210,7 @@
     },
     {
       "id": "4af70c5cc4e5dd31ea",
-      "checked_at": "2026-10-06T06:54:02.249381+00:00",
+      "checked_at": "2026-10-06T10:15:59.604158+00:00",
       "promise_id": "BJP-2019-34c03859f07f1329c5",
       "year": 2019,
       "category": "infrastructure",
@@ -43274,6 +43236,28 @@
       "related_promises": [],
       "query": "2022 road connectivity complete dedicated freight corridor",
       "evidence": [
+        {
+          "id": "657f4e89a489a2c490",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Project for Chennai Port to Maduravoyal corridor in Tamil Nadu to be completed by December 2024 - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8tMjQ1c25OS1pTWS1EaXhENG1RWnIxS1F3dU1mYW16TnJXRGdEVmc1VE5IVHBOZnI2YVZ3LWVlTkVJT0M0VThZYmpSTHNsX2lVdGhVM0lHem1pbFBrZzNiTHZCS0dXTlo3?oc=5",
+          "published_at": "2022-10-03T07:00:00+00:00",
+          "snippet": "Project for Chennai Port to Maduravoyal corridor in Tamil Nadu to be completed by December 2024 PIB",
+          "lexical_overlap": 0.133,
+          "relevance": 0.253,
+          "matched_terms": [
+            "corridor",
+            "project"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "corridor",
+            "project"
+          ]
+        },
         {
           "id": "ec1d0cc8a5a0c1eb96",
           "scope": "news_search",
@@ -43389,17 +43373,17 @@
           ]
         }
       ],
-      "implementation_signal": "current_reporting_found",
+      "implementation_signal": "action_detected",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
       "outcome": {
-        "status": "deadline_passed_unresolved",
+        "status": "progress_documented",
         "deadline_year": 2022,
-        "proof_strength": "none",
-        "proof_evidence_id": null,
+        "proof_strength": "verified_primary_action_with_object_overlap",
+        "proof_evidence_id": "657f4e89a489a2c490",
         "proof": null,
-        "reason": "The extracted deadline (2022) has passed, but ClaimWatch does not have direct comparable post-deadline evidence proving fulfilment or non-fulfilment."
+        "reason": "Verified primary evidence overlaps the subject of the promise and documents implementation activity, but not the promised outcome."
       }
     },
     {
@@ -44740,7 +44724,7 @@
     },
     {
       "id": "93bb9754ab7125c8f1",
-      "checked_at": "2026-10-06T06:54:06.546979+00:00",
+      "checked_at": "2026-10-06T10:16:04.290916+00:00",
       "promise_id": "BJP-2019-6013bbae5c9fbd8c5a",
       "year": 2019,
       "category": "women_social_justice",
@@ -44767,17 +44751,17 @@
       "query": "2022 continuing pace full immunization coverage children",
       "evidence": [
         {
-          "id": "a83cec3ca9a28c51c7",
+          "id": "99e9e7676763dc3d7d",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "affairscloud.com",
+          "source": "AffairsCloud",
           "source_url": "https://affairscloud.com",
-          "title": "Health Minister Mansukh Mandaviya Launches IMI 4.0 for Children, Pregnant Women - affairscloud.com",
+          "title": "Health Minister Mansukh Mandaviya Launches IMI 4.0 for Children, Pregnant Women - AffairsCloud",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObGd6WGlIM2stZmdFb05hNldZbFJtRS1iYW5lWnpWdkxCTE5UbFUyclJ5Ml9hRlhLRHhxOGR4ankxTjVtUEJCSjRGc2pZUndOXzBkOXRyWFJBaU11SW5EV2c0bUNtaWRsZzVNTGRKMnQ4WFUtTkFyc0VwQXYzanFXamV3blVMenJ1endsZzZ3Q1ZqazlmQ0gyaVExWjBPeDFyaU8zdnduM0RORXNSU1M1SmxpcVQyeWJ0OF9HdnBn?oc=5",
           "published_at": "2022-02-08T08:00:00+00:00",
-          "snippet": "Health Minister Mansukh Mandaviya Launches IMI 4.0 for Children, Pregnant Women affairscloud.com",
-          "lexical_overlap": 0.188,
-          "relevance": 0.292,
+          "snippet": "Health Minister Mansukh Mandaviya Launches IMI 4.0 for Children, Pregnant Women AffairsCloud",
+          "lexical_overlap": 0.2,
+          "relevance": 0.305,
           "matched_terms": [
             "children",
             "pregnant",
@@ -44806,7 +44790,7 @@
     },
     {
       "id": "1d1782ad81aa54afcd",
-      "checked_at": "2026-10-06T06:54:08.560450+00:00",
+      "checked_at": "2026-10-06T10:16:06.376994+00:00",
       "promise_id": "BJP-2019-63e2ccda189fa85e2c",
       "year": 2019,
       "category": "health_welfare",
@@ -46143,7 +46127,7 @@
     },
     {
       "id": "2ce9cc5c8a526cb264",
-      "checked_at": "2026-10-02T23:01:25.427279+00:00",
+      "checked_at": "2026-10-06T10:16:23.616570+00:00",
       "promise_id": "BJP-2019-7f9ced925aebc37c90",
       "year": 2019,
       "category": "technology_digital",
@@ -46229,7 +46213,7 @@
     },
     {
       "id": "81f241d8bca496938a",
-      "checked_at": "2026-10-04T17:35:56.481374+00:00",
+      "checked_at": "2026-10-06T10:16:36.054758+00:00",
       "promise_id": "BJP-2019-9bbf28883b24ddfdad",
       "year": 2019,
       "category": "other",
@@ -46278,28 +46262,6 @@
           ]
         },
         {
-          "id": "6cd90c15bdbb683319",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Three daylong Global Conference to Make India the Centre for Arbitration gets underway in New Delhi tomorrow - PIB",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9HRng3UDBVWGVlUjlqQ2Vrc3lJZUN1aEd1WTFRVXV5T1dXT2VGZm0wQjItWDg0dGx3R3FGUDdHck9VQTdSTWY0NmxQcVIxVXlad3FVRjNlTUNwcDFwNXF6aWgxdDNRc3phLTN5d0xn?oc=5",
-          "published_at": "2016-10-20T07:00:00+00:00",
-          "snippet": "Three daylong Global Conference to Make India the Centre for Arbitration gets underway in New Delhi tomorrow PIB",
-          "lexical_overlap": 0.091,
-          "relevance": 0.211,
-          "matched_terms": [
-            "arbitration",
-            "centre"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "arbitration",
-            "centre"
-          ]
-        },
-        {
           "id": "ac9ad5eff3d430d4ca",
           "scope": "news_search",
           "tier": "secondary",
@@ -46344,17 +46306,17 @@
           ]
         },
         {
-          "id": "e94c0751bebdb5b29b",
+          "id": "88a38df1a2a6338e55",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "noerr.com",
+          "source": "Noerr",
           "source_url": "https://www.noerr.com",
-          "title": "New Arbitration Rules of the Singapore International Arbitration Centre (SIAC): Advancing procedural efficiency - noerr.com",
+          "title": "New Arbitration Rules of the Singapore International Arbitration Centre (SIAC): Advancing procedural efficiency - Noerr",
           "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRWU1a3VhRHBSRThwd0k4dXJVSVo3Z2w3a2tFbkVWN2s1WV9IWHVqTWhBMFpZRWpSbXdEeWtyTVdoS0hvb0NVd2hPam5WbjFPME8yRDFCV3R4b0ZwbksxMFpIdW94NEZQaXJzcE9wa2tjbUJlVkE5UnZXREg4NkJ4VTEyMFNYY0FyS2JlS0VjNlU5X0pYM0F0TGJpZmYxQUlKbHVDdGQtUElSaEx4c0ZNYzNnOVUzNzJYUDBELTVCQ3Q5LVRlUlluRzFTbEVid3ZGdTJV?oc=5",
           "published_at": "2025-01-03T08:00:00+00:00",
-          "snippet": "New Arbitration Rules of the Singapore International Arbitration Centre (SIAC): Advancing procedural efficiency noerr.com",
-          "lexical_overlap": 0.095,
-          "relevance": 0.165,
+          "snippet": "New Arbitration Rules of the Singapore International Arbitration Centre (SIAC): Advancing procedural efficiency Noerr",
+          "lexical_overlap": 0.1,
+          "relevance": 0.17,
           "matched_terms": [
             "arbitration",
             "centre"
@@ -47515,7 +47477,7 @@
     },
     {
       "id": "4e7a0f5f928129259e",
-      "checked_at": "2026-10-02T23:01:20.722430+00:00",
+      "checked_at": "2026-10-06T10:16:18.552465+00:00",
       "promise_id": "BJP-2019-7537077a5eb58be3d7",
       "year": 2019,
       "category": "governance",
@@ -48324,7 +48286,7 @@
     },
     {
       "id": "8b21ffa2fbbdee33b7",
-      "checked_at": "2026-10-02T23:01:28.159449+00:00",
+      "checked_at": "2026-10-06T10:16:26.520195+00:00",
       "promise_id": "BJP-2019-85035841aaa38876e9",
       "year": 2019,
       "category": "other",
@@ -48410,7 +48372,7 @@
     },
     {
       "id": "04363bc92f6ef533fa",
-      "checked_at": "2026-10-04T17:35:47.239558+00:00",
+      "checked_at": "2026-10-06T10:16:27.276975+00:00",
       "promise_id": "BJP-2019-86a5c56c931cc9cd75",
       "year": 2019,
       "category": "education_skills",
@@ -49290,7 +49252,7 @@
     },
     {
       "id": "21c782a6ad2ecb8987",
-      "checked_at": "2026-10-06T06:53:59.320810+00:00",
+      "checked_at": "2026-10-06T10:15:56.412224+00:00",
       "promise_id": "BJP-2019-2cfa1375f165d41707",
       "year": 2019,
       "category": "other",
@@ -49410,7 +49372,7 @@
     },
     {
       "id": "cde5dc88c95c978816",
-      "checked_at": "2026-10-04T17:35:49.093570+00:00",
+      "checked_at": "2026-10-06T10:16:29.056832+00:00",
       "promise_id": "BJP-2019-8a73fc7b1d2e669989",
       "year": 2019,
       "category": "education_skills",
@@ -50578,7 +50540,7 @@
     },
     {
       "id": "09db92a7679f9e887b",
-      "checked_at": "2026-10-06T06:54:03.986252+00:00",
+      "checked_at": "2026-10-06T10:16:01.531086+00:00",
       "promise_id": "BJP-2019-4fc8289de8caed52ff",
       "year": 2019,
       "category": "other",
@@ -50767,7 +50729,7 @@
     },
     {
       "id": "e56b60946d8f9ca652",
-      "checked_at": "2026-10-02T23:01:26.689631+00:00",
+      "checked_at": "2026-10-06T10:16:24.997246+00:00",
       "promise_id": "BJP-2019-84fd448a16d2392123",
       "year": 2019,
       "category": "infrastructure",
@@ -52284,7 +52246,7 @@
     },
     {
       "id": "902b8e2fb6b6ba0c0e",
-      "checked_at": "2026-10-02T22:36:47.876033+00:00",
+      "checked_at": "2026-10-06T10:16:13.412970+00:00",
       "promise_id": "BJP-2019-7206567d6d22fc8eb5",
       "year": 2019,
       "category": "culture_heritage",
@@ -52307,31 +52269,8 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
       "query": "increase accessibility culturally historically significant heritage",
-      "evidence": [
-        {
-          "id": "fcd73c0c716825de81",
-          "scope": "broad_official_search",
-          "tier": "primary",
-          "source": "News On AIR",
-          "source_url": "https://newsonair.gov.in",
-          "title": "Five new heritage sites and proposals added to India’s UNESCO Tentative List - News On AIR",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdVJOaDV1RHdtZ2tOZVR3TzY2SlZOYnlqZHJCSzlZQXJxQXFjQmsxaHQ0bE9UME1MbnpNdVI0bjgtOGp3TDRHckktOWxnWXNsdTdUTS1fVVo3WFNyR2plN2NmbXdEdllVbF9vU0ZFWG4xTlZncktVNDIxYlp4NU1aNGtKankxenVQNEtRQk1xcGRGSlh6bWZkaGhsTlR5SnVVWGJZ?oc=5",
-          "published_at": "2026-09-29T07:50:00+00:00",
-          "snippet": "Five new heritage sites and proposals added to India’s UNESCO Tentative List News On AIR",
-          "lexical_overlap": 0.1,
-          "relevance": 0.22,
-          "matched_terms": [
-            "heritage",
-            "sites"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "heritage",
-            "sites"
-          ]
-        }
-      ],
-      "implementation_signal": "current_primary_evidence_found",
+      "evidence": [],
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -53158,7 +53097,7 @@
     },
     {
       "id": "706203f0a4cd32b359",
-      "checked_at": "2026-10-02T23:01:23.276755+00:00",
+      "checked_at": "2026-10-06T10:16:21.354094+00:00",
       "promise_id": "BJP-2019-7d80579de0d0866f5e",
       "year": 2019,
       "category": "health_welfare",
@@ -53251,17 +53190,17 @@
           ]
         },
         {
-          "id": "37ec070c9a34da22a8",
+          "id": "45d28485f038a3a7a6",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Adda247",
+          "source": "adda247.com",
           "source_url": "https://www.adda247.com",
-          "title": "Poshan Abhiyaan Scheme Impact, Policy and Importance - Adda247",
+          "title": "Poshan Abhiyaan Scheme Impact, Policy and Importance - adda247.com",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE43Y3pjR2NZS20zaHhPZXB3b3VwTkNQZDczeUkyb0ZwYkFTbkxlczJzX0EwMWRUWlE3T0pKU1o4aHdNa005OUFpN2Z2RzdpNzZZbmVhRU5JcXprWXpSRklz?oc=5",
           "published_at": "2024-04-29T07:00:00+00:00",
-          "snippet": "Poshan Abhiyaan Scheme Impact, Policy and Importance Adda247",
-          "lexical_overlap": 0.125,
-          "relevance": 0.195,
+          "snippet": "Poshan Abhiyaan Scheme Impact, Policy and Importance adda247.com",
+          "lexical_overlap": 0.118,
+          "relevance": 0.188,
           "matched_terms": [
             "abhiyaan",
             "poshan"
@@ -53351,7 +53290,7 @@
     },
     {
       "id": "3d26c3a146ec71c5b7",
-      "checked_at": "2026-10-04T17:35:50.632193+00:00",
+      "checked_at": "2026-10-06T10:16:30.439187+00:00",
       "promise_id": "BJP-2019-8b6c730e97b6b29ebc",
       "year": 2019,
       "category": "other",
@@ -54881,7 +54820,7 @@
     },
     {
       "id": "df076e7dea8ba67624",
-      "checked_at": "2026-10-06T06:54:13.592672+00:00",
+      "checked_at": "2026-10-06T10:16:11.654842+00:00",
       "promise_id": "BJP-2014-078252941779345656",
       "year": 2014,
       "category": "women_social_justice",
