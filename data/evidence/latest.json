@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T14:00:14.472515+00:00",
+  "generated_at": "2026-10-07T16:28:17.945567+00:00",
   "capabilities": {
     "official_evidence_search": true,
     "verified_primary_gate": true,
@@ -11,19 +11,19 @@
     "manifesto_memory_loaded": true
   },
   "summary": {
-    "claim_packets": 14,
+    "claim_packets": 0,
     "promise_packets": 765,
     "promise_checked_this_run": 30,
     "promise_total_candidates": 841,
     "promise_coverage_pct": 91.0,
-    "primary_candidates": 452,
-    "secondary_candidates": 1004,
+    "primary_candidates": 447,
+    "secondary_candidates": 982,
     "prior_fact_checks": 0,
     "publishable_auto_verdicts": 0,
     "claim_verdicts": {
       "supported": 0,
       "contradicted": 0,
-      "pending": 14
+      "pending": 0
     },
     "promise_outcomes": {
       "fulfilled_by_deadline": 0,
@@ -44,894 +44,7 @@
       "occurrences_total": 42
     }
   },
-  "claim_packets": [
-    {
-      "id": "63b703ab25dbb97e26",
-      "claim": "The manner in which India’s Captain Smita displayed patience, prudence, and courage, and as the Prime Minister of Israel said today, this Indian prevented another 9/11 from taking place.",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "9",
-          "11"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "f69d64ba78b07d9988d1",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address at the Centenary Celebrations of UPSC",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
-        "published_at": "2026-10-01T09:05:21+00:00"
-      },
-      "query": "11 9 manner which captain smita displayed patience",
-      "numbers": [
-        "11",
-        "9"
-      ],
-      "promise_matches": [],
-      "evidence": [],
-      "fact_checks": [],
-      "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "88113c4cc7679dfe59",
-      "claim": "Friends, Today is not only a celebration of 100 years of the UPSC, but also a celebration of a legacy.",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "100 years"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "f69d64ba78b07d9988d1",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address at the Centenary Celebrations of UPSC",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
-        "published_at": "2026-10-01T09:05:21+00:00"
-      },
-      "query": "100 celebration friends not only upsc but",
-      "numbers": [
-        "100"
-      ],
-      "promise_matches": [
-        {
-          "id": "BJP-2014-57bcf542e13c9c5e0a",
-          "year": 2014,
-          "category": "infrastructure",
-          "page": 23,
-          "anchor": "We will not only empower our citizens with the ability to dream; we will …",
-          "source_url": "https://library.bjp.org/jspui/handle/123456789/252",
-          "similarity": 0.167,
-          "matched_terms": [
-            "not",
-            "only"
-          ]
-        },
-        {
-          "id": "BJP-2019-2d472e66c61e44c78f",
-          "year": 2019,
-          "category": "jobs_economy",
-          "page": 25,
-          "anchor": "The supercomputer, Afiificial Intelligence and Quantum Missions will make India not only Industry 5.0 …",
-          "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
-          "similarity": 0.167,
-          "matched_terms": [
-            "not",
-            "only"
-          ]
-        }
-      ],
-      "evidence": [
-        {
-          "id": "fd5dc1627142a90060",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Times of India",
-          "source_url": "https://timesofindia.indiatimes.com",
-          "title": "UPSC turns 100: The story of India’s civil services recruitment body - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORUhBemg4djBROG5pclR6NHFvQU5zZ0tRbmdCcDRBZGQ1enRTNFlBaFRFd3ctc0dvWDl6UDhuc2xPa3N5aXBHQ3lYeU9rYmdIUGdJVmlvbi1zMTJ6ell4TWFOYUNWNmg3YzVWanZVcjdJOFk0MDRvbnNrMnNjaXJWVHdLdVRZQV9qTldSNlpsM1JWXzhPRzZxR1ZMcjZSMFEyam4tZnZub1Q4cWg0UHYxRjJNczNCbWF5emlFM29QOW14OVpaS0NnMXJ2czhnNVpZNkpDWTR6eThrTTDSAeABQVVfeXFMTlVUNE8zODlESmZ6d2s1XzN4U2lNa19nY3EyVlUwVHNTMWxMbWgyYjJvLUdCMlVGSHBLcEZUVVU1aVVyR2E3Rk5BOXgycFhSa09zUjJnRkNXSnlyTEVoUzE3eXM2QktKSHhMTU5wY0w0Q1A4eWdzdUo1VDBzcWtsUFlnSXNKOXRiVkU1eE1jQ01WdW4xTFNRMzBTdU5fRnJ6Zmg2WmFhYU94MU5xVTVpTXU2U0ljc0ZiWF9TdUVOVjdRa1FLRlM4MXY0RFpwTXk4WVJRalhaR3VTVlo2LWMycGY?oc=5",
-          "published_at": "2026-10-01T06:48:00+00:00",
-          "snippet": "UPSC turns 100: The story of India’s civil services recruitment body The Times of India",
-          "lexical_overlap": 0.071,
-          "relevance": 0.216,
-          "matched_terms": [
-            "upsc"
-          ],
-          "shared_numbers": [
-            "100"
-          ]
-        },
-        {
-          "id": "26914ba3b76f717a88",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Times of India",
-          "source_url": "https://timesofindia.indiatimes.com",
-          "title": "PM Modi urges UPSC to test aspirants’ motivation for joining civil services, not just academic knowledge - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNQjI5cE96MUtKWS11M0JwQ08xVUxYeWpjbVZybENQYUtNQnFOX1VMRGJDWXpDNU1WTGpWSUNPdy1WS1NjRW90Q3J2YmxKdlVYcDFVZDdlN1FCRUoyYVJDcTFSb1dPMTBrSmhqZnJKSEpaWXBVRlZ0dDkxdjNISDJlWXRIdUF6eG9nR0Z5S1BRYTVsWmtXd25HbV9TT19EV3hOTExNdElPRnAtQTA3T2ktZFRkVlN4MXZHNUswaHlObGxhY0VrdGlPWUJsa3c3dTRnVkdKZUYyMnZFeE5YeTBldXVxdlBNVWl6OGpXaWxUbWFlWjBWMnpWcFJiMXM2RDjSAYQCQVVfeXFMTlpkTXAweHpYbE1QYU81SEVxcUV6d21ZUnFBLTM1XzhxcjB4WjQtODA1UFlIRFppdVNNamZ3SF9uazZnZGlQYUZlbWpPUkhjeUJ4NEpwdEs1YjB1bE96Y0t1SmtwZDNlWU9NNExtSW0yQ0hXdXd3WVc4THk4MlNBM2hleG5OSnRWNmF5R09ocVJFR0FiZ2Y0VE50b1lLNlFoMmhJLVJ4U3JNdkd1RUdWeDRzSXI0dGZYR1VXbWk4M0VnNGZWT1c0TWFITk04UjlwVWZZc2JjMFI3NDMtWlEwVTc3TWFhbmVHM3pLWXB6aGF4akVPUWhMdDJMOWZtSDdnaFgyaTM?oc=5",
-          "published_at": "2026-10-01T13:48:00+00:00",
-          "snippet": "PM Modi urges UPSC to test aspirants’ motivation for joining civil services, not just academic knowledge The Times of India",
-          "lexical_overlap": 0.105,
-          "relevance": 0.175,
-          "matched_terms": [
-            "not",
-            "upsc"
-          ],
-          "shared_numbers": []
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "6627bae11c2e4166b3",
-      "claim": "A commemorative postage stamp and coin marking this 100-year journey have just been released.",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "100"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "f69d64ba78b07d9988d1",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address at the Centenary Celebrations of UPSC",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
-        "published_at": "2026-10-01T09:05:21+00:00"
-      },
-      "query": "100 commemorative postage stamp coin marking journey",
-      "numbers": [
-        "100"
-      ],
-      "promise_matches": [],
-      "evidence": [
-        {
-          "id": "d92d684ad84cab716f",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "DD News",
-          "source_url": "https://ddnews.gov.in",
-          "title": "PM Modi releases commemorative stamp marking 100 years of RSS - DD News",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWVBydEM0X0MxSW9ZbEN5cl84Nm11aFg4djMtSkJyM1AzRGxwQ2dOZWhDOEF1MnducEVNeGlycFNqMWw0cFU3ZUl5blhFTS1MUHF3UE9lQVVIcURvNjZUdmFmQ0cweFJnb0xxd2FjYUtJb3I3VmhZRTluSHUwaHY4QThybmxvdXZjMTdGdnZsbUQ?oc=5",
-          "published_at": "2025-10-01T07:00:00+00:00",
-          "snippet": "PM Modi releases commemorative stamp marking 100 years of RSS DD News",
-          "lexical_overlap": 0.214,
-          "relevance": 0.429,
-          "matched_terms": [
-            "commemorative",
-            "marking",
-            "stamp"
-          ],
-          "shared_numbers": [
-            "100"
-          ]
-        },
-        {
-          "id": "2dba10a9f27998ca30",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "India Today",
-          "source_url": "https://www.indiatoday.in",
-          "title": "UPSC turns 100: PM Modi to release commemorative coin, stamp on October 1 - India Today",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPZnJvSTNMU0pRMXlMLVp0dEFxbkg5T2FuQ0NpamNzRWplWmRDbjRtVnVFQVVLZ3pzVGVQcUtPaXhWT0dWMkRfd0pZdXpvNnQ4YjJVTTZaa3F5a3hTc0ZRdTQ0RUl0T1FXUWtFTVpjVUdrem03Q2pVUklobVpsQzlzYnhka2ZwdVBBVWlSakJKZzN1aXFfaU92TnBWSGF4RGxqbnd0dm9XUGtTOW5WVlpoaG9WMENxaU1OY3JzV0RXUldiOGpYSk1aNUh0RFNiaFBSNU5ZMWFkbGZRN1BSTjdjb1lQdnJaU3fSAewBQVVfeXFMUHZJTFBEUVhVbFpQamRhTU9UQXRsOU41VFFUUEVvdXBwSmUxNjRSVV9adUFOVWx4dmR0Ry1DY1VfRk1CRW5xUzk3SVhacnJOQlA0dDlfeHJsSzUzVFFtZ3VJeU9LdlNXTVVHYkpJaEJid25vRUltTU1ERzctOUxJTjkxS3Rsd2pPcEJjLVZNTExSa1Zqc1BIbS02cm1EeENITDZtOVdmVXF1a2lVZHdFTnpXc3NZV1RCMVRZcmlUd05SNnhvWlZ6Vmd1S29ELTZmS3EyNVRjUEtHV2RROGlIU21MUWx2UEo2aTNZb3A?oc=5",
-          "published_at": "2026-09-30T11:06:28+00:00",
-          "snippet": "UPSC turns 100: PM Modi to release commemorative coin, stamp on October 1 India Today",
-          "lexical_overlap": 0.214,
-          "relevance": 0.429,
-          "matched_terms": [
-            "coin",
-            "commemorative",
-            "stamp"
-          ],
-          "shared_numbers": [
-            "100"
-          ]
-        },
-        {
-          "id": "8b50bde9763ea5dead",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Deccan Chronicle",
-          "source_url": "https://www.deccanchronicle.com",
-          "title": "AU Marks Centenary With Commemorative Coin, Stamp - Deccan Chronicle",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNV09lSXlldFlWR2xaMm55Tm1ZME1oWm0tWmUtMHBXVFRRYzRHZlc2UFR0RjJfYW54eHlEVUk3RUQtNUt2NnZNSmtKOVY4TzdxS2xIRVBhVXFDZEVKc0g2emFneUU0Z1RRdmwyV3RXVDlrQ0xkc0tFeU5SOW1NOThzd25kVmFoVEdqMUhhRmJlb09UblhVUm5PUTk3anNrZXNieUk4UW0tM01JT0hNbmt3MzZXTFQyb3NzajY40gHAAUFVX3lxTE5WeWR6SzRtWk9Xd096WHVjUGFEQTdoSmxGNGlIX3JuZHVNR280UG1fWHpJbGJ5eEhfNmo5a1lzTHc2b0hfYXotbTljcmJMRmVMX0t3SXhiaXBkYnhydmc3SWNLbGtFTWRjc2tKempKT3g0d3R2UE96YkNzbF9XLThVRTlQMFMtbEpuUC1SUmlHY0xwUDNrTllzRllRSDRfemZHZjRoZzl5UEJGbm1lQkdST3d0VEh6dG9uVG5CNUppeg?oc=5",
-          "published_at": "2026-04-27T07:00:00+00:00",
-          "snippet": "AU Marks Centenary With Commemorative Coin, Stamp Deccan Chronicle",
-          "lexical_overlap": 0.214,
-          "relevance": 0.319,
-          "matched_terms": [
-            "coin",
-            "commemorative",
-            "stamp"
-          ],
-          "shared_numbers": []
-        },
-        {
-          "id": "e4eb90407989fc9551",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "TheWire.in",
-          "source_url": "https://m.thewire.in",
-          "title": "‘Falsifying History’ Says Opposition as Modi Releases Stamp, Coin to Mark RSSs Centenary - TheWire.in",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPLURFd1NrdGV5VFRpemk1Qm4zMXBNV0dIY2dOOC1xQXpBTENnZ1Q1MG9ZQUg4NWhiQVZOTmlrX2IxS1BydXhMNm0tVmtxckJIM1ktVm9Nb2hwMHNOb2JrWGtCU1gyZGVDUE1fdFdvYVE2Z3Jvc201N0hrODlFRGlhQnVkMzdINUhUMVdzQmFNc3d3OFVDT1h1ZHJBQzjSAaIBQVVfeXFMT2RTbjI0aUxMZW1UMzVBLXR0Nmo3dlkyckdRQlk5NFQ0X0JyaDVLRkZLVlFKNFZGb1hlN2hYYWpQMFY0MUhQMWc0aG9sMnNZSEFrWWZfMXczUURtZlVzak01Qno2eHJZQUxWYUhhZ3BxLWVyLUtFenpxSnUzSTB6LV91X0JWWG9hQzJMUl9SWm1VTXJLSkVrYUJSTUlIVU52ZUJB?oc=5",
-          "published_at": "2025-10-01T07:00:00+00:00",
-          "snippet": "‘Falsifying History’ Says Opposition as Modi Releases Stamp, Coin to Mark RSSs Centenary TheWire.in",
-          "lexical_overlap": 0.118,
-          "relevance": 0.188,
-          "matched_terms": [
-            "coin",
-            "stamp"
-          ],
-          "shared_numbers": []
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "d443adc2a0e2470ae9",
-      "claim": "A compilation of 100 important case laws has also been published.",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "100"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "f69d64ba78b07d9988d1",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address at the Centenary Celebrations of UPSC",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
-        "published_at": "2026-10-01T09:05:21+00:00"
-      },
-      "query": "100 compilation important case laws has published",
-      "numbers": [
-        "100"
-      ],
-      "promise_matches": [],
-      "evidence": [
-        {
-          "id": "2ad33682c50a0e4648",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Landmark Chambers",
-          "source_url": "https://www.landmarkchambers.co.uk",
-          "title": "86 - A new ACCC case law collection has landed - Landmark Chambers",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPM1FHRkVDUngtU1c0TjQyY05RNUxHd2pybVVuY2lSdGhfTmo0blJndzNOeFNOZ3lLLTRBb0JVOWNMRHdjazc5UDh0YWFWQVNFSTd2cGlERlJYbXVhV3NZVWVWbTJiNU9NSEc2LTBWcG42RGl0a2gtSzdFS3Jxb2xHOGJBUjU5RmhPYjFYVmdKR3BJMWh4eVc5ZEFJYkRCUVlMY25tUFNiZXR6Zw?oc=5",
-          "published_at": "2026-09-09T07:00:00+00:00",
-          "snippet": "86 - A new ACCC case law collection has landed Landmark Chambers",
-          "lexical_overlap": 0.167,
-          "relevance": 0.237,
-          "matched_terms": [
-            "case",
-            "has"
-          ],
-          "shared_numbers": []
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "c2a19aa48972aa09e4",
-      "claim": "A little while ago, I was visiting the gallery that has been set up here, and I would encourage all of you to spend 10 to 15 minutes exploring it.",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "10",
-          "15"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "f69d64ba78b07d9988d1",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address at the Centenary Celebrations of UPSC",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
-        "published_at": "2026-10-01T09:05:21+00:00"
-      },
-      "query": "15 10 little while ago was visiting gallery",
-      "numbers": [
-        "10",
-        "15"
-      ],
-      "promise_matches": [],
-      "evidence": [],
-      "fact_checks": [],
-      "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "f6a1dd2c05d49c3e3c",
-      "claim": "I noticed a photograph from the 75th anniversary celebrations in which Lt.",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "75"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "f69d64ba78b07d9988d1",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address at the Centenary Celebrations of UPSC",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
-        "published_at": "2026-10-01T09:05:21+00:00"
-      },
-      "query": "noticed photograph th anniversary celebrations which",
-      "numbers": [],
-      "promise_matches": [],
-      "evidence": [
-        {
-          "id": "2c13ec6d7302e890d1",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Prime Minister Shri Narendra Modi addresses the 100th birth anniversary celebrations of Bharat Ratna Dr. Bhupen Hazarika in Guwahati, Assam - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5VZkV2Q1dOV1pyRDNBZHBxNkV5Qjh1clRHc2hKSmlYTDYwa1BsT2RHQ1V2Mm9uakhnRllDUXYzT0YyaFoyN2s5emRuSmZqXzF4bERVYmxDV2tTMm4tUGtzVmdMeFpBSlZr?oc=5",
-          "published_at": "2025-09-13T07:00:00+00:00",
-          "snippet": "Prime Minister Shri Narendra Modi addresses the 100th birth anniversary celebrations of Bharat Ratna Dr. Bhupen Hazarika in Guwahati, Assam PIB",
-          "lexical_overlap": 0.176,
-          "relevance": 0.331,
-          "matched_terms": [
-            "anniversary",
-            "celebrations",
-            "th"
-          ],
-          "shared_numbers": [],
-          "nli": {
-            "entailment": 0.0047,
-            "neutral": 0.8441,
-            "contradiction": 0.1512
-          }
-        },
-        {
-          "id": "7188aef28e0b735f89",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Vice President inaugurates 75th Year Celebrations of Pujya Dr. Basavalinga Pattadevaru Mahaswamiji in Bhalki, Karnataka - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1jclBtWVRxSDRqVDR3Nm1SWER6eTNLeWJ5anl2ZEdQV2l0anBNMDZ2eVFTM05QRlJtZ09nMFNXbGpDd0VqR1h5cmdzaGZWZENJeFJDaWY3WmtlYnMxeXZoNlJ3cmNyRTJw?oc=5",
-          "published_at": "2026-04-22T07:00:00+00:00",
-          "snippet": "Vice President inaugurates 75th Year Celebrations of Pujya Dr. Basavalinga Pattadevaru Mahaswamiji in Bhalki, Karnataka PIB",
-          "lexical_overlap": 0.111,
-          "relevance": 0.231,
-          "matched_terms": [
-            "celebrations",
-            "th"
-          ],
-          "shared_numbers": [],
-          "nli": {
-            "entailment": 0.0071,
-            "neutral": 0.9802,
-            "contradiction": 0.0127
-          }
-        },
-        {
-          "id": "4f083245a595995ddf",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Weverse",
-          "source_url": "https://weverse.io",
-          "title": "[EVENT] WINNER 12th ANNIVERSARY Special Gift Notice - Weverse",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE91MGluMHNFb2NPTHdscVBYRFp5anVqM1p3WGdTR0RoMmpvR1c2WjdvaWpZRW9nTFdGeW9DblNfRGVacHNPVkdIdlU2RGJlVlU?oc=5",
-          "published_at": "2026-08-12T07:20:42+00:00",
-          "snippet": "[EVENT] WINNER 12th ANNIVERSARY Special Gift Notice Weverse",
-          "lexical_overlap": 0.154,
-          "relevance": 0.224,
-          "matched_terms": [
-            "anniversary",
-            "th"
-          ],
-          "shared_numbers": []
-        },
-        {
-          "id": "a43ebe630d5ecab72d",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Digital Camera World",
-          "source_url": "https://www.digitalcameraworld.com",
-          "title": "Happy World Photography Day! 🥳 This year marks the 200th anniversary of the first ever photo… but what IS World Photography Day and why is it today? - Digital Camera World",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcVZ1RndTdGJsOHI1T21QbFlKcFZ4OTdsa1pWQ0FwNFFCdmhDb1I3N1ZVMnY3Q3hjM3o1eEp3a19jamtZWHNNNkpud0dxQjFqb3FzUThram14QjJrS3E3U1ppT1RWSUhjd3liOHRHSTNPY241eEttYkctTFVqYnhPNGlZZmE1cTZqNlozVlJoY2V0alpRdUY5MVFoX3VqTmdVckE?oc=5",
-          "published_at": "2026-08-19T07:00:00+00:00",
-          "snippet": "Happy World Photography Day! 🥳 This year marks the 200th anniversary of the first ever photo… but what IS World Photography Day and why is it today? Digital Camera World",
-          "lexical_overlap": 0.1,
-          "relevance": 0.17,
-          "matched_terms": [
-            "anniversary",
-            "th"
-          ],
-          "shared_numbers": []
-        },
-        {
-          "id": "7e9e5997f3ca2c9b71",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "dst.gov.mo",
-          "source_url": "https://www.dst.gov.mo",
-          "title": "【5th inauguration anniversary】Macao Grand Prix Museum offers free admission and special fun activities for the public on 1 June - MACAO GOVERNMENT TOURISM OFFICE - dst.gov.mo",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcV9kNjB6ZUtHOG5vdDh1dmxIV2h4cWJ6ZzJwU041RVBPeDhPQkpneWNlS2tOY0FKcEtBTmotbnAzdGJiMUg4SnN2N0NhZTFRb2RMZm5uQm1qTzdOclBPYU80TnN2RW5MZ2RCZjNnSjhZVUdHNi0xd3dMRHRQcXdoVmJXbF9HY2dIYWxWNlV5WQ?oc=5",
-          "published_at": "2026-05-31T07:00:00+00:00",
-          "snippet": "【5th inauguration anniversary】Macao Grand Prix Museum offers free admission and special fun activities for the public on 1 June - MACAO GOVERNMENT TOURISM OFFICE dst.gov.mo",
-          "lexical_overlap": 0.095,
-          "relevance": 0.165,
-          "matched_terms": [
-            "anniversary",
-            "th"
-          ],
-          "shared_numbers": []
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "primary_evidence_found",
-        "label": "Relevant verified primary evidence candidate found",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "69276105583e101638",
-      "claim": "Today, at the age of 90, he is present among us.",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "90"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "f69d64ba78b07d9988d1",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address at the Centenary Celebrations of UPSC",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
-        "published_at": "2026-10-01T09:05:21+00:00"
-      },
-      "query": "90 age he present among us",
-      "numbers": [
-        "90"
-      ],
-      "promise_matches": [],
-      "evidence": [
-        {
-          "id": "f5944ee62b358b0134",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Reuters",
-          "source_url": "https://www.reuters.com",
-          "title": "Steve Reich on making music at age 90 - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZnQ1QlVlTXVBeEZJU0RZYVJRbFdvUllvclRydFFQcy15cGZaQWZsRmQwMTE4czVYdmpfaDZKREh6dUQ3RFdQdjE4QV9Bd0xwRmJrc0dOQkFSdWhFMzRndTAzdDRubkh2QldwLVpwMTBkME82N0JocGhjQXpoQ0M1S3VqTnRlaVM4UXJnT1pjY2FrUDlPeDNVVg?oc=5",
-          "published_at": "2026-10-03T10:47:38+00:00",
-          "snippet": "Steve Reich on making music at age 90 Reuters",
-          "lexical_overlap": 0.1,
-          "relevance": 0.245,
-          "matched_terms": [
-            "age"
-          ],
-          "shared_numbers": [
-            "90"
-          ]
-        },
-        {
-          "id": "093c5e48aab37dc212",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Kansas City Jewish Chronicle",
-          "source_url": "https://www.kcjc.com",
-          "title": "Blanche Sosland, community pillar, educator and advocate, dies at age 90 - Kansas City Jewish Chronicle",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWlVvUUhZR0RvcXNWYzVhT2lkVmpPdGdxeDZEN2pOejhXbVBmNHBFajdYbDB2VjhEMXJneG45MjhiTmZ4SmdIZGFXY2tMb1o0dDZjUWJpNmdSUGhxZmctVlNQX3RxU1Zqd3hZV0N4VEEzOU1QZW1HVjNJR0ZkS212MUlzX0JMQQ?oc=5",
-          "published_at": "2026-07-09T07:00:00+00:00",
-          "snippet": "Blanche Sosland, community pillar, educator and advocate, dies at age 90 Kansas City Jewish Chronicle",
-          "lexical_overlap": 0.062,
-          "relevance": 0.208,
-          "matched_terms": [
-            "age"
-          ],
-          "shared_numbers": [
-            "90"
-          ]
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "6df0bf295350af0cd6",
-      "claim": "While looking through the gallery, I noticed that it also contains information about how Subhas Chandra Bose went through this very process in 1920.",
-      "extraction": {
-        "reasons": [
-          "number",
-          "comparison"
-        ],
-        "numbers": [
-          "1920"
-        ],
-        "context_before": "Every one of them deserves appreciation and recognition."
-      },
-      "claim_source": {
-        "id": "f69d64ba78b07d9988d1",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address at the Centenary Celebrations of UPSC",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
-        "published_at": "2026-10-01T09:05:21+00:00"
-      },
-      "query": "1920 every one them deserves appreciation recognition",
-      "numbers": [
-        "1920"
-      ],
-      "promise_matches": [],
-      "evidence": [],
-      "fact_checks": [],
-      "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "8627b9532420ebafc0",
-      "claim": "The steel frame that was required for the reconstruction of the nation was provided by Sardar Vallabhbhai Patel.",
-      "extraction": {
-        "reasons": [
-          "accomplishment"
-        ],
-        "numbers": [],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "f69d64ba78b07d9988d1",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address at the Centenary Celebrations of UPSC",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
-        "published_at": "2026-10-01T09:05:21+00:00"
-      },
-      "query": "was steel frame required reconstruction nation",
-      "numbers": [],
-      "promise_matches": [],
-      "evidence": [],
-      "fact_checks": [],
-      "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "bd7cb3b38ff534451f",
-      "claim": "Friends, When the foundation of this institution was laid in 1926, the priorities of that era were different.",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "1926"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "f69d64ba78b07d9988d1",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address at the Centenary Celebrations of UPSC",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
-        "published_at": "2026-10-01T09:05:21+00:00"
-      },
-      "query": "1926 friends when foundation institution was laid",
-      "numbers": [
-        "1926"
-      ],
-      "promise_matches": [],
-      "evidence": [],
-      "fact_checks": [],
-      "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "e0aa9aa37e5a72091f",
-      "claim": "Much has already been said from this stage about its achievements and contributions.",
-      "extraction": {
-        "reasons": [
-          "comparison"
-        ],
-        "numbers": [],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "f69d64ba78b07d9988d1",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address at the Centenary Celebrations of UPSC",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
-        "published_at": "2026-10-01T09:05:21+00:00"
-      },
-      "query": "much has already stage about achievements",
-      "numbers": [],
-      "promise_matches": [],
-      "evidence": [],
-      "fact_checks": [],
-      "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "d9ed8629ebcb7a572c",
-      "claim": "Therefore, I neither wish to repeat those points nor go into detail about them.",
-      "extraction": {
-        "reasons": [
-          "comparison"
-        ],
-        "numbers": [],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "f69d64ba78b07d9988d1",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address at the Centenary Celebrations of UPSC",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
-        "published_at": "2026-10-01T09:05:21+00:00"
-      },
-      "query": "therefore neither wish repeat points nor",
-      "numbers": [],
-      "promise_matches": [],
-      "evidence": [],
-      "fact_checks": [],
-      "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "d31336725037d6edfc",
-      "claim": "One quarter of the 21st century, twenty-five years, has already passed.",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "21"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "f69d64ba78b07d9988d1",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address at the Centenary Celebrations of UPSC",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
-        "published_at": "2026-10-01T09:05:21+00:00"
-      },
-      "query": "one quarter st century twenty-five has",
-      "numbers": [],
-      "promise_matches": [],
-      "evidence": [
-        {
-          "id": "088d3763a9526ad314",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "WikiMedia.org",
-          "source_url": "https://diff.wikimedia.org",
-          "title": "Twenty-Five Years of Free Knowledge: Wiki Palestine Celebrates a Quarter Century of Wikipedia - WikiMedia.org",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdHZxSXRWdnhiLUd1Q1RCZVBwMURqTG1BcW1qTUpOYmZJak1HaHp1TG11ZkVxWWVNalBqdkZFZXZnaml4OWNhR0F1ZjZRdG9tR0VjbGYzUVo0VkdNdk82SXQwUVlyM3dKYXRzUjVtUFhGWDdUTnZtYzVQb1lUeE0zdGhCcnU2bFR5T0dTMmlXMEdqM3Ffa0N0M1J2cjZkZmVBMHd6b3QxamVvd3ZrZDhzbTJ1SzUxR1BrYjR4UTc4Rzg0eU43TUlhc2phQQ?oc=5",
-          "published_at": "2026-03-25T07:00:00+00:00",
-          "snippet": "Twenty-Five Years of Free Knowledge: Wiki Palestine Celebrates a Quarter Century of Wikipedia WikiMedia.org",
-          "lexical_overlap": 0.188,
-          "relevance": 0.292,
-          "matched_terms": [
-            "century",
-            "quarter",
-            "twenty-five"
-          ],
-          "shared_numbers": []
-        },
-        {
-          "id": "ee6aa18f37586c0481",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "NDTV",
-          "source_url": "https://www.ndtv.com",
-          "title": "Opinion | 9/11, And The Price Of Fighting Terror For A Quarter Century - NDTV",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTHR3MXlJQ0E4SmgtRVVKUWM0X1pNZm5RWXhmcjVWSkV1WWdpV0VXN21YZGVSNzFRX0xOUnBIQ0dVLXJ4TEdaNWgzNTVJN2F1ZHJJTnJ6RjNTNnJ0QTNGUnFFOVdfMzhwR1lSOVlQcWVmWTI3UEpjNU1KMURpSmh3eUpacGxrM2RSbUdtMTJZbEwyQVkzTVB1TmJWX1JwMjFVa0hLVG9ucTFnRFNGUnFYczZiZzdKQQ?oc=5",
-          "published_at": "2026-09-11T06:47:22+00:00",
-          "snippet": "Opinion | 9/11, And The Price Of Fighting Terror For A Quarter Century NDTV",
-          "lexical_overlap": 0.154,
-          "relevance": 0.224,
-          "matched_terms": [
-            "century",
-            "quarter"
-          ],
-          "shared_numbers": []
-        },
-        {
-          "id": "a905a2f6c5bf8e5f87",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "TheWire.in",
-          "source_url": "https://m.thewire.in",
-          "title": "9/11, After a Quarter Century: Lessons Learnt and Unlearnt - TheWire.in",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVjNZNVR1enJxYVF2bFRLNFAyYU9TcGM4dzlVemVCa044aFJUS1p3Y1FyUWZBYmRUdUxVR0d3OVlna1RPbVlYQUNXZW5tcElyYnRCZDBpUEVFRWJYb3U2bFdMT0dNOEtGa2Y0Q3FVQ1hIZWhHNzg1NVg3WEFqTWF4bkNqdHdyYnF0c29jWlNfX1NrTktLbVHSAZsBQVVfeXFMT01uLW1NYnJORUpWMDNzRXU4TzVRMzR1UVljWkVHT3FkYWVQbWJPNy1OcE05QmtCb0g0ejg1NGdKWmVfbllBSEFNbkh0MjA1NEdCX09VeVF1eHFhR1pQUjZDekZkamFTYnRTaEltQ1pETExvRlNTTGZhSVY1dVV2UWxJbV9YUWRNY3ZicXBHQUY5Q0R1MmtJLXpKSHc?oc=5",
-          "published_at": "2026-09-11T07:00:00+00:00",
-          "snippet": "9/11, After a Quarter Century: Lessons Learnt and Unlearnt TheWire.in",
-          "lexical_overlap": 0.154,
-          "relevance": 0.224,
-          "matched_terms": [
-            "century",
-            "quarter"
-          ],
-          "shared_numbers": []
-        },
-        {
-          "id": "63aa1c7a53feee30b8",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "YES! Weekly",
-          "source_url": "https://www.yesweekly.com",
-          "title": "A Quarter of a Century: Winston-Salem Theatre Alliance artistic director celebrates 25 years - YES! Weekly",
-          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNTDBXemY2Ni1OXzk2S09IekpVMTctUmRCZE84N3c4dms2eHBaaDJWWDBzaEtqMEdPOUxTa0EtcHJURzN5UkhxYXI0di1aYjdkdzlkd1J4Ukd6M2dmaGdtdmNvMlQ1aHBSY2Vka2dBTml3Tktxb3J4NTNOV0NEZ2VJNTZybGZ0Wmp3Q1dhT2hkb0RiUnZhOUZUNWlLUlpsaEhpRjdBT1Q5ZnpKWDBmem5HU21oZW11ejQ1UTlvdXVVbFV2RHpOYzNZUHRzMVE4MnNEZlNRYkhqbTNHb3dRbEJ3Tm56TjkzR0tkd2RyRkhaem5VSGZVb21zZ3lMcUsycnp2LTlPaWhB?oc=5",
-          "published_at": "2026-09-30T14:15:00+00:00",
-          "snippet": "A Quarter of a Century: Winston-Salem Theatre Alliance artistic director celebrates 25 years YES! Weekly",
-          "lexical_overlap": 0.125,
-          "relevance": 0.195,
-          "matched_terms": [
-            "century",
-            "quarter"
-          ],
-          "shared_numbers": []
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "e9ef5ba17322492eb6",
-      "claim": "Friends, India in 2047 will be very different from the India of today.",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "2047"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "f69d64ba78b07d9988d1",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address at the Centenary Celebrations of UPSC",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
-        "published_at": "2026-10-01T09:05:21+00:00"
-      },
-      "query": "2047 friends very different",
-      "numbers": [
-        "2047"
-      ],
-      "promise_matches": [],
-      "evidence": [],
-      "fact_checks": [],
-      "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    }
-  ],
+  "claim_packets": [],
   "claim_families": [
     {
       "id": "1876deedf04e66b7b2",
@@ -3771,7 +2884,7 @@
     },
     {
       "id": "f1f532bb9890bfedec",
-      "checked_at": "2026-10-05T22:38:51.583055+00:00",
+      "checked_at": "2026-10-07T16:28:01.860928+00:00",
       "promise_id": "BJP-2024-34e9e45122e2d51dd1",
       "year": 2024,
       "category": "other",
@@ -5755,7 +4868,7 @@
     },
     {
       "id": "472b43d0646de307a2",
-      "checked_at": "2026-10-04T05:51:21.092054+00:00",
+      "checked_at": "2026-10-07T16:28:14.121661+00:00",
       "promise_id": "BJP-2024-4223346cf530021227",
       "year": 2024,
       "category": "infrastructure",
@@ -5778,7 +4891,30 @@
       "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
       "related_promises": [],
       "query": "expand credit programmes like mudra support",
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "fd23c16ec91333fdba",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "bfsi.economictimes.indiatimes.com",
+          "source_url": "https://bfsi.economictimes.indiatimes.com",
+          "title": "KCC, MUDRA credit gets UPI push, bringing sanctioned loans closer to point of purchase - bfsi.economictimes.indiatimes.com",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQTll1c1FNR3pjMDM3U3Jhc1dkdmJkenZUT1A2bnhiN2JxOUlJbjNWd1BsMTFlMlJ6UkFZa3k5akEwSmxGOGJQSnE1XzBfTmtuemMxZWI1R2lsZmdqYkxDWjdyaXhFek9MNTNGeldGY2RjcGxOVDNZOGJZTWpVMWc4QVNtQVRJeEdpMWdiUE94bHdYRFdVQTdrbVVZaTFHSDZQXzZXWFhlUUhzRTBZY2hlR0JySEZNbWt2MUVwV0N5LTQ2eFRzUVBCOHotdFc0anpyZUdnZ0I0RE1RQU5raWfSAeMBQVVfeXFMTVZGcWFPdDR6M21NQnRTUTJKTWVvT015cGwyWElfb0JMVzRQNlIzN3BZYU9WWGl1dDF0VnpzNGtvbk5aZzQxZm9sZG8xNXpLMnUwUGFtQ3h0aGtjN25uRGFHWU01aXZQNXhmbU1tTnN2RllFTXZ0dlp5NVdOVGR2X0x5bUY0Qm42ZzhlbFRzOU1pOUw0THhnUDJqWHJ5aDVMcUtBWWJqbjk1SWpXZmlqSnViQjdvalFaUW96YTFZc2JNSk5BTm5PTUxhMFZpVXFDN0drbm5mVUp2NDBjRFhJU2Fvblk?oc=5",
+          "published_at": "2026-09-10T07:00:00+00:00",
+          "snippet": "KCC, MUDRA credit gets UPI push, bringing sanctioned loans closer to point of purchase bfsi.economictimes.indiatimes.com",
+          "lexical_overlap": 0.08,
+          "relevance": 0.15,
+          "matched_terms": [
+            "credit",
+            "mudra"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "credit",
+            "mudra"
+          ]
+        }
+      ],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -6620,7 +5756,7 @@
     },
     {
       "id": "0047ee2ab85bef68ca",
-      "checked_at": "2026-10-04T05:51:15.531501+00:00",
+      "checked_at": "2026-10-07T16:28:08.053488+00:00",
       "promise_id": "BJP-2024-3c8782ec12a6965a76",
       "year": 2024,
       "category": "health_welfare",
@@ -6645,15 +5781,15 @@
       "query": "ayushman senior citizens expand yojana cover",
       "evidence": [
         {
-          "id": "6204f595b724c7456e",
+          "id": "fdb6448dcb3e76fe8a",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "pib.gov.in",
+          "source": "PIB",
           "source_url": "https://www.pib.gov.in",
-          "title": "Cabinet approves health coverage to all senior citizens of the age 70 years and above irrespective of income under Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB PM-JAY) - pib.gov.in",
+          "title": "Cabinet approves health coverage to all senior citizens of the age 70 years and above irrespective of income under Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB PM-JAY) - PIB",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1kOFpHLVloT0JoUm1SSUg5cmFDM0QtekJ5ekRhT1JpWXlWMmVHNjVZOURZMk5vMGlFT2dmZGtuMVRjSWxYY3RlTVNxUWtyUTVhcEttdzFNOTFqemN2cnAxVWo0VTQyMUd3RkE?oc=5",
           "published_at": "2025-05-19T21:51:29+00:00",
-          "snippet": "Cabinet approves health coverage to all senior citizens of the age 70 years and above irrespective of income under Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB PM-JAY) pib.gov.in",
+          "snippet": "Cabinet approves health coverage to all senior citizens of the age 70 years and above irrespective of income under Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB PM-JAY) PIB",
           "lexical_overlap": 0.167,
           "relevance": 0.357,
           "matched_terms": [
@@ -6670,17 +5806,17 @@
           ]
         },
         {
-          "id": "1c904d7fdc12a4c37b",
+          "id": "4f290b7115561f2d45",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "pib.gov.in",
+          "source": "PIB",
           "source_url": "https://www.pib.gov.in",
-          "title": "Update on Ayushman Vay Vandana Yojana - pib.gov.in",
+          "title": "Update on Ayushman Vay Vandana Yojana - PIB",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8xanYyQ0twQ1lIVy1DV1pLZ1FlOGJPNXhrRTV0akFEVDJfbHNHMjRSRUxaUTFmcEdzNDlVNHMzcWY0YWltYk15REhMZ01TenZRckkwZVNNX085TDVWdW9YZjNmOUxoV1dr?oc=5",
           "published_at": "2025-12-12T08:00:00+00:00",
-          "snippet": "Update on Ayushman Vay Vandana Yojana pib.gov.in",
-          "lexical_overlap": 0.118,
-          "relevance": 0.238,
+          "snippet": "Update on Ayushman Vay Vandana Yojana PIB",
+          "lexical_overlap": 0.125,
+          "relevance": 0.245,
           "matched_terms": [
             "ayushman",
             "yojana"
@@ -6707,29 +5843,6 @@
             "ayushman",
             "citizens",
             "provide",
-            "senior"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "ayushman",
-            "senior"
-          ]
-        },
-        {
-          "id": "13c4c6589b0a8f7caa",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Indian Express",
-          "source_url": "https://indianexpress.com",
-          "title": "BJP promises to extend Ayushman Bharat to all senior citizens: What is the significance? - The Indian Express",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQ1I3N3V5NlFSbTBtUkpjQ3lvclNkTWVMcGs5aFE2ZWI2Uk5ZVkJRV2t1VkZ3blhnNk16ZWFESEx3R2lLX2lxZlc3ZU1uYTg4RlZhR09aM2ZuVGt6Z0lzZS1hN2lVTDBOcERYYmtJa2JQcXY2WEhiN3A0MXgzZ0hYdVZlS0NwV2RuTlVuQ2V1RW9FdXZUbVVtZHRqV3R2Y2VMLWQwRk5PS3XSAa8BQVVfeXFMTzBJLS12ZURFTFhHWXZZYUJ6UTBVVVdENFZjNFJ4eHNBeEVydU5lWGw3T2FvQm1oZmRkT0h6MTV0M050ZTVRNzlLNTFkaG5HbFMxWWhCc2ljbXdicEd2dGtqQ2FPdm45RUJ1dHpYOF81Nk9qXzZlVEZmSjBqc1VvdWlPZUlpWVFjRUF5OEtFalk2emhmQm5wZGtiMDI0S1ZQc1dkRmh2M2JIcGM3QTR5MA?oc=5",
-          "published_at": "2024-04-16T07:00:00+00:00",
-          "snippet": "BJP promises to extend Ayushman Bharat to all senior citizens: What is the significance? The Indian Express",
-          "lexical_overlap": 0.176,
-          "relevance": 0.281,
-          "matched_terms": [
-            "ayushman",
-            "citizens",
             "senior"
           ],
           "shared_numbers": [],
@@ -6786,17 +5899,17 @@
           ]
         },
         {
-          "id": "33c50d895f59cc7868",
+          "id": "9c0b328109cbcb2a1d",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "timesofindia.indiatimes.com",
+          "source": "The Times of India",
           "source_url": "https://timesofindia.indiatimes.com",
-          "title": "Ayushman Bharat insurance scheme expanded to cover elderly above 70 - timesofindia.indiatimes.com",
+          "title": "Ayushman Bharat insurance scheme expanded to cover elderly above 70 - The Times of India",
           "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWGtfekR1VTNpRm5PTEo2UFFNaEtlemc1dEtublhnVExfeEtURkg4TkZJSDNULS0tX1N0a2dxczdvZnhpWXM5bGlkM2w0UC1rVEtwVlZ0clVpVHdYWmNWcnZCcmVTTEJWWm0zTWlya0JxU3hDY3VsbjN5dUUtekFvRjU1UmZDTUxlTXBUdUlVNTl3amY1RTNwTTdERzZtb0JDNllOalZWYnJVbG04TDR5XzBYdmhWazBqQjFPTHR3dEhIOUlMQU1BTDluaFlwdl9B0gHWAUFVX3lxTE9TUF9JU0NUX2RDbVVGOGQxc3l0TzlRblZhWDdfRkxGVklKa0JMYmoyLV9uQWNMX0lFbTlYSnhXVEhBaHE1MXdJZVpyTU52THIzeFBWalFxZTJTN09sYm11VG9rYzJUN3BJZnlVRGpiT2NJcUdreUZVZU1QTFp5WWRGSFlKWTFuLXlsTmZmb1VsLURtdlRhNC1UZGJ6WGMwU21VSHhCQ0pnUlhVZUcwS1VLQmJiblMwN19HTGxPTW12dXN5QWIwd05xSnN0NTZVMkhoLXVlb3c?oc=5",
           "published_at": "2024-09-11T07:00:00+00:00",
-          "snippet": "Ayushman Bharat insurance scheme expanded to cover elderly above 70 timesofindia.indiatimes.com",
-          "lexical_overlap": 0.1,
-          "relevance": 0.17,
+          "snippet": "Ayushman Bharat insurance scheme expanded to cover elderly above 70 The Times of India",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
           "matched_terms": [
             "ayushman",
             "cover"
@@ -6805,6 +5918,28 @@
           "promise_core_overlap": [
             "ayushman",
             "cover"
+          ]
+        },
+        {
+          "id": "c8ceaa819e29070c54",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Hindu",
+          "source_url": "https://www.thehindu.com",
+          "title": "Tamil Nadu yet to implement expanded ‘Ayushman Bharat Pradhan Mantri-Jan Arogya Yojana’ for people aged over 70 years - The Hindu",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOYU1hZERMMFlHOTR3bjNUNUJxNFhRRlR5SlJWbkFMQjJXdllKMl85LVlJbk1RQ0ZCU3liQVFYTHNiWEowWWR5Z1R4cGtyUHhsazFBSlBpR0J4SFpDdldlMWM5OGF1eEh1SzNDN1dDOW1meEd1UVNFWEN2TmZGVHl3M0dFOEtiLTdqZFUyblRiTnY2S2xGNXUzZWwwb3k2ME5NckNRRFJudFhTczlhbWNhSjF3ZHd5Y2hjRlZsYkdoQ0k3S21QNGpaa1R0WXc1OHFScklHQXZ6cHLSAd8BQVVfeXFMUFBxS3ljcUlTZk05Z2ZHcnBCRHhmcWE0QUptU1h4R2lDcDVobjNHMTJDWFhYaHhyLVVJcGlZVXFtOVA2M0x5S0xtSGhoamtpd1pqYXVOOFlQeGFDY2JEUUg2R3F6dFhHMWl2Tzg5VjVSWWtjTTFBUzAydTVkZWRFcGJMcTlraG5RQ2pVVlFLRzZYbFl4bkVWZTM5cC1UdDJqREh4Q0hGeUlITjNpYUNWaW9xTDZ4YnIxdEZZYnhVUnJvcUJ5NmNma3V3dlRfLXM5OUxTZ29fQWx0WDVzell3Yw?oc=5",
+          "published_at": "2025-09-14T07:00:00+00:00",
+          "snippet": "Tamil Nadu yet to implement expanded ‘Ayushman Bharat Pradhan Mantri-Jan Arogya Yojana’ for people aged over 70 years The Hindu",
+          "lexical_overlap": 0.091,
+          "relevance": 0.161,
+          "matched_terms": [
+            "ayushman",
+            "yojana"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "ayushman",
+            "yojana"
           ]
         }
       ],
@@ -7932,7 +7067,7 @@
     },
     {
       "id": "574ad05a147dea48a4",
-      "checked_at": "2026-10-05T22:38:42.909458+00:00",
+      "checked_at": "2026-10-07T16:27:52.739928+00:00",
       "promise_id": "BJP-2024-2b0c6bc5a8bdcb8d5a",
       "year": 2024,
       "category": "other",
@@ -7957,15 +7092,15 @@
       "query": "further expand access encourage adoption nano",
       "evidence": [
         {
-          "id": "59af0728370c38c83a",
+          "id": "8f02675f5113d1d58a",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "indianchemicalnews.com",
+          "source": "Indian Chemical News",
           "source_url": "https://www.indianchemicalnews.com",
-          "title": "Coromandel and Samunnati join forces to expand agri-input access for India’s farmer producer organisations - indianchemicalnews.com",
+          "title": "Coromandel and Samunnati join forces to expand agri-input access for India’s farmer producer organisations - Indian Chemical News",
           "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOZXhleERyMlNzdlVPWUZvT1FTa2E1dmpOOUhOb1daMER1bXUyLXRKNnlqY2oxU2NaVzZSWnlPRV9xX0lFdGNZbmVoOVJ5UWppejQ2OUlYTDZUbjlaNDdodENIWjJIaVprWEpqYUNKc3NjQTJTTWFCODk1Nkh0eS1OYldlV1hLd2MwZU5lenlNVlpNM2Z4eEFrcUdwLWpvWkc2eUQwTV9uRDRDelVfdC02akROX3RQWUxJV25DS2EyUnd5Y3NIeDJSbWhxc2hlclNNYllPTjh0ZHRuU0U3cFFYdE00WkE2MzU3X256MDRqSHHSAfcBQVVfeXFMUG5fNWNNZ3hzY1Y2X0lETldxUmQwemwzdnFHTkFiNHN5LTB2SXRuRmhmdmJ3ZG9hLUctQVBKa1ZBQlcwRmVnak5HM2lTZk9nVmdmMDZqUUpSZWxKLXpleERHMVYyS2NHXzJ2bkRyZnBfd2FmRE1WWW9ldm1XdXhPbXBsRTVrb2hRYkN1S2VPUDgzS2Q0b3hGQVZkMjNxeHFVbjVMZ0FmVVhRX3d0bFZhV1Z5V1NQTm9EaG9FdXl6U053Z2tBYy03QXNFbGloaUpRVnFfSEJxRXNtdU5sQlgxd3dUTlc4a2t4SnVZWTdvd0tzX2l0b0gwMA?oc=5",
           "published_at": "2026-06-10T04:20:18+00:00",
-          "snippet": "Coromandel and Samunnati join forces to expand agri-input access for India’s farmer producer organisations indianchemicalnews.com",
+          "snippet": "Coromandel and Samunnati join forces to expand agri-input access for India’s farmer producer organisations Indian Chemical News",
           "lexical_overlap": 0.118,
           "relevance": 0.188,
           "matched_terms": [
@@ -7993,7 +7128,7 @@
     },
     {
       "id": "b514031e47535ff152",
-      "checked_at": "2026-10-05T22:38:50.210853+00:00",
+      "checked_at": "2026-10-07T16:28:00.540495+00:00",
       "promise_id": "BJP-2024-3290f5a31aca0752bb",
       "year": 2024,
       "category": "agriculture",
@@ -8018,28 +7153,29 @@
       "query": "natural farming strengthening launch mission nature-friendly",
       "evidence": [
         {
-          "id": "17f8e4eaaa3e9bf508",
+          "id": "c040b54cf386545284",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Union Environment Minister Shri Bhupender Yadav launches Guidelines for National Coastal Mission 2.0 - PIB",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1yMV9sb0dDRUcxZTlCblBhcUJCTjBKUUc2MWZ0VVRBT1FfV0cwOGRsLUprcHNiNTNvTVlwZTBZY3JGZTB4TjBLYkFpM0t3OHMtQm50VVk4bUM0RW9PblhRV1FGcmJIbWJtM3hLalJKUHZJUmg0Wk1NTE1YbmNOUQ?oc=5",
-          "published_at": "2026-09-30T14:01:00+00:00",
-          "snippet": "Union Environment Minister Shri Bhupender Yadav launches Guidelines for National Coastal Mission 2.0 PIB",
-          "lexical_overlap": 0.095,
-          "relevance": 0.215,
+          "source": "India Budget",
+          "source_url": "https://www.indiabudget.gov.in",
+          "title": "AGRICULTURE AND FOOD MANAGEMENT: RAISING PRODUCTIVITY, SECURING INCOMES AND ENSURING FOOD SECURITY - India Budget",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9aQnFyZWVmWkFPMHZ3WHJQYlhOZmtaN1VFMFFYQXVXWTJIT3VldlpFR3VmMndqNUdoRVhzNzg5bUpjb3JobjVSUFZfaU1qSG9CeDd4b0lLNzBCV0VfQVBCQ0Fxam5Ga2NqT0xmREZrbWlzdXM0ejBHb3FZMA?oc=5",
+          "published_at": "2025-10-07T07:00:00+00:00",
+          "snippet": "AGRICULTURE AND FOOD MANAGEMENT: RAISING PRODUCTIVITY, SECURING INCOMES AND ENSURING FOOD SECURITY India Budget",
+          "lexical_overlap": 0.1,
+          "relevance": 0.22,
           "matched_terms": [
-            "mission",
-            "national"
+            "agriculture",
+            "food"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "national"
+            "agriculture",
+            "food"
           ]
         }
       ],
-      "implementation_signal": "needs_research",
+      "implementation_signal": "current_primary_evidence_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -10578,7 +9714,7 @@
     },
     {
       "id": "b1f163f50f0c1e8fb0",
-      "checked_at": "2026-10-04T05:51:14.638463+00:00",
+      "checked_at": "2026-10-07T16:28:06.966385+00:00",
       "promise_id": "BJP-2024-3b7c0cac25ab721839",
       "year": 2024,
       "category": "health_welfare",
@@ -12265,7 +11401,7 @@
     },
     {
       "id": "3a63cdce8c71abdad5",
-      "checked_at": "2026-10-04T05:51:17.939920+00:00",
+      "checked_at": "2026-10-07T16:28:10.723135+00:00",
       "promise_id": "BJP-2024-3eae8e157fe7a9b336",
       "year": 2024,
       "category": "jobs_economy",
@@ -12290,17 +11426,17 @@
       "query": "small traders msmes ondc empowering encourage",
       "evidence": [
         {
-          "id": "0cb6dcbce251e72d56",
+          "id": "9983c2cf0068d90433",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "pib.gov.in",
+          "source": "PIB",
           "source_url": "https://www.pib.gov.in",
-          "title": "ONDC Revolutionizes India's E commerce: Empowering Small Businesses, Lowering Costs, and Expanding Buyer Choices - pib.gov.in",
+          "title": "ONDC Revolutionizes India's E commerce: Empowering Small Businesses, Lowering Costs, and Expanding Buyer Choices - PIB",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9rNG91V1RnU2ZodGNqZDB4U3NSLVl5czlkNk82Q0JQX1dodm1OLVZlRXVvbzZoNUFSenIyTmlqWmlmMnhvZnU5WHlZZ2xsSlZRSEhfMnZrdy1qblNWclpudk5jYk1vQ3JD?oc=5",
           "published_at": "2025-07-22T07:00:00+00:00",
-          "snippet": "ONDC Revolutionizes India's E commerce: Empowering Small Businesses, Lowering Costs, and Expanding Buyer Choices pib.gov.in",
-          "lexical_overlap": 0.19,
-          "relevance": 0.38,
+          "snippet": "ONDC Revolutionizes India's E commerce: Empowering Small Businesses, Lowering Costs, and Expanding Buyer Choices PIB",
+          "lexical_overlap": 0.2,
+          "relevance": 0.39,
           "matched_terms": [
             "businesses",
             "empowering",
@@ -12316,17 +11452,17 @@
           ]
         },
         {
-          "id": "f290013fcf02694faa",
+          "id": "f1f10d2366a4c0d31b",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "pib.gov.in",
+          "source": "PIB",
           "source_url": "https://www.pib.gov.in",
-          "title": "Quality Council of India and Open Network for Digital Commerce launch DigiReady Certification Portal to empower MSMEs and small retailers - pib.gov.in",
+          "title": "Quality Council of India and Open Network for Digital Commerce launch DigiReady Certification Portal to empower MSMEs and small retailers - PIB",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1CVS0wcUxaNFJsZjBhRXdXa011WU9mM0w3TjNuLVlNamZ5ZjFXdjVndmhXaEJ3TERmeUVvTUQ5SGxqUnRNdTFOemdKVGZjdGNYTUxDeC1xZ0VLRFFzRkExejR1ZlFnRHR1MUM3blBsWnM?oc=5",
           "published_at": "2024-02-08T08:00:00+00:00",
-          "snippet": "Quality Council of India and Open Network for Digital Commerce launch DigiReady Certification Portal to empower MSMEs and small retailers pib.gov.in",
-          "lexical_overlap": 0.077,
-          "relevance": 0.197,
+          "snippet": "Quality Council of India and Open Network for Digital Commerce launch DigiReady Certification Portal to empower MSMEs and small retailers PIB",
+          "lexical_overlap": 0.08,
+          "relevance": 0.2,
           "matched_terms": [
             "msmes",
             "small"
@@ -12364,25 +11500,23 @@
           ]
         },
         {
-          "id": "719387f1ba23b99b38",
+          "id": "c0658fe010dd0f5431",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Taxscan",
-          "source_url": "https://www.taxscan.in",
-          "title": "ONDC Strengthens Fair and Open E‑Commerce Access for Small Sellers, MSMEs and Women‑Led Enterprises Across 630+ Cities - Taxscan",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPUVVxc1hfSFo2QXVHUDdlMjlsM0Ixdm0ydk1mc0t6ZjBqSHM3OXRTQml2YWFpRFJFUE5ZTGZVYjRWaGJNZUVaOHBBSEowUzlLUW93VE9QNEMzYllteTNMMEV4ay1aa0R1dEkwdnRFbTk1bzBtdFNkd2ktNU03Um5UaUpFbElnQVZpckdpdHlQbXJSbFdpdlVpNVplNmxRWXlMTnVyRjB3cll4Z3BxR2VMY2EwQnB2RTRYTjgzNTVNUUdQR1FPck9PUU54dlVlMHNWd3dSVDluaU1paGZ2YVJQTlZMVXo3ek82QmdSNGJn?oc=5",
-          "published_at": "2025-12-19T08:00:00+00:00",
-          "snippet": "ONDC Strengthens Fair and Open E‑Commerce Access for Small Sellers, MSMEs and Women‑Led Enterprises Across 630+ Cities Taxscan",
-          "lexical_overlap": 0.13,
-          "relevance": 0.235,
+          "source": "SMEStreet",
+          "source_url": "https://smestreet.in",
+          "title": "A Complete Breakdown of ONDC and How It Empowers Small Sellers - SMEStreet",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVENGd25FZjI0OXF0aERvdnRTbUN4YzFzemhYaGlMVmdBS0J6Z2ROX3FKRkdWNEl1bDJCbEMwOEdDbnBLejNPWlZzRjlqWFh6MTQtc01DZWVhdWFhMWNCWS1BX3VybDJ4WFI4ZU1fVzJySkNZNkxlYm9YT2dTcmE2RlljaHBhRlpRRHZLZUhhVFpFbGwzYTZQS25zN0JybG0tTno5R3BfSi1JeXZVYWZLVmFMc9IBswFBVV95cUxPVENGd25FZjI0OXF0aERvdnRTbUN4YzFzemhYaGlMVmdBS0J6Z2ROX3FKRkdWNEl1bDJCbEMwOEdDbnBLejNPWlZzRjlqWFh6MTQtc01DZWVhdWFhMWNCWS1BX3VybDJ4WFI4ZU1fVzJySkNZNkxlYm9YT2dTcmE2RlljaHBhRlpRRHZLZUhhVFpFbGwzYTZQS25zN0JybG0tTno5R3BfSi1JeXZVYWZLVmFMcw?oc=5",
+          "published_at": "2025-05-29T07:00:00+00:00",
+          "snippet": "A Complete Breakdown of ONDC and How It Empowers Small Sellers SMEStreet",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
           "matched_terms": [
-            "msmes",
             "ondc",
             "small"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "msmes",
             "ondc",
             "small"
           ]
@@ -13888,7 +13022,7 @@
     },
     {
       "id": "4f529881d45b75697e",
-      "checked_at": "2026-10-05T22:38:52.830718+00:00",
+      "checked_at": "2026-10-07T16:28:03.384830+00:00",
       "promise_id": "BJP-2024-35732dca24d36c6bdc",
       "year": 2024,
       "category": "women_social_justice",
@@ -15185,7 +14319,7 @@
     },
     {
       "id": "9f4612bd339c681562",
-      "checked_at": "2026-10-04T05:51:17.131292+00:00",
+      "checked_at": "2026-10-07T16:28:09.895878+00:00",
       "promise_id": "BJP-2024-3e669a0255a923c24b",
       "year": 2024,
       "category": "other",
@@ -15957,7 +15091,7 @@
     },
     {
       "id": "9047c7a7906f5a4bdc",
-      "checked_at": "2026-10-05T22:38:47.054301+00:00",
+      "checked_at": "2026-10-07T16:27:56.925406+00:00",
       "promise_id": "BJP-2024-30e720b25f5807900b",
       "year": 2024,
       "category": "security_defence",
@@ -17225,7 +16359,7 @@
     },
     {
       "id": "78e334b06e2ff59902",
-      "checked_at": "2026-10-04T05:51:13.073759+00:00",
+      "checked_at": "2026-10-07T16:28:05.212236+00:00",
       "promise_id": "BJP-2024-3ae5d30890debaf04d",
       "year": 2024,
       "category": "infrastructure",
@@ -17287,7 +16421,7 @@
     },
     {
       "id": "575671097750722b58",
-      "checked_at": "2026-10-04T05:51:22.826781+00:00",
+      "checked_at": "2026-10-07T16:28:16.000514+00:00",
       "promise_id": "BJP-2024-4354b75494165146a1",
       "year": 2024,
       "category": "health_welfare",
@@ -17312,28 +16446,6 @@
       "query": "development welfare schemes reach living areas",
       "evidence": [
         {
-          "id": "a2ecc053c6ec22bf34",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "pib.gov.in",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Media should help take welfare schemes of Union, State governments to public: Vellore Collector Shri Kumaravel Pandian - pib.gov.in",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5TUGc4ck10WXZBN0FOa1J5Z2FFa2lXc01tYXRsbGhxVENPQWc4am44U00zWVNBMVNHWjFqNGZMYlZjejVGdzJJQUhGal9zaVQ3Q2YycjJ4MDVGaVJYWDRabU1yOGZMcEM1?oc=5",
-          "published_at": "2021-12-27T08:00:00+00:00",
-          "snippet": "Media should help take welfare schemes of Union, State governments to public: Vellore Collector Shri Kumaravel Pandian pib.gov.in",
-          "lexical_overlap": 0.08,
-          "relevance": 0.2,
-          "matched_terms": [
-            "schemes",
-            "welfare"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "schemes",
-            "welfare"
-          ]
-        },
-        {
           "id": "91c83c65495376736a",
           "scope": "news_search",
           "tier": "secondary",
@@ -17345,30 +16457,6 @@
           "snippet": "Welfare schemes for women, children should reach beneficiaries: DC The Hindu",
           "lexical_overlap": 0.176,
           "relevance": 0.281,
-          "matched_terms": [
-            "reach",
-            "schemes",
-            "welfare"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "reach",
-            "schemes",
-            "welfare"
-          ]
-        },
-        {
-          "id": "790d53f52c29043ba2",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Greater Kashmir",
-          "source_url": "https://www.greaterkashmir.com",
-          "title": "Reach out to poor women with Omar-govt's welfare schemes: Sadhotra - Greater Kashmir",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSlFWUktVMEVGX0FHMENIRzhYSy1ZZWcxaWVoLTlqcjg2czRlNklLdWQ2ZE85M2JhRkgtODlqN184OUJUNENaRUJSemo2ME5UX3V5Qm9pYjY3a3ZVMmtnTXZiOHp1UlEzZ3g4WFlGZFByZUF2M01FVzFfaU9Yd1J4WXJ1bElmUU83dm8xRU5sUVhVMk9FTlVqSjNDRDFaNmVrd2N1bGJYLWFwZzJuRERrNkFhSdIBuAFBVV95cUxPT09NRk5QckkteFNCWEgyenNJclVURUU4ZFZFU0dJSzhPaUZxeGNmMC1KbHdxOC0xbWxtWk9DMUN3Y2lCbGdKNnRUWVd2MDEyUjA1ZVNIdkoxNkNlMVVoTmY3STdJcEdFODNVSUNLbzZ1SExHTnRqOW9RdEtiZXg2NWVhZWxaNWhMMlh6aV9qSWl0UmdrbmN5dUxmNXpDYUpvTjFBcXROdDVNVE9HSy1Td1U3U05LNXN1?oc=5",
-          "published_at": "2026-09-17T07:00:00+00:00",
-          "snippet": "Reach out to poor women with Omar-govt's welfare schemes: Sadhotra Greater Kashmir",
-          "lexical_overlap": 0.167,
-          "relevance": 0.272,
           "matched_terms": [
             "reach",
             "schemes",
@@ -17425,28 +16513,6 @@
           "promise_core_overlap": [
             "reach",
             "schemes"
-          ]
-        },
-        {
-          "id": "ff012a97c5e3acee3d",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Down To Earth",
-          "source_url": "https://www.downtoearth.org.in",
-          "title": "More than half of Odisha’s PVTG population missed out on welfare schemes, CAG finds - Down To Earth",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUElNYmJNQTNCZmtWNm9ycW5jU1NXS25uMnhjVVl2UFlqNGJxU01xcUYyaTR0QjVDWjNvU1ZIcGEwd1J5eU1DNjgzOHlsWVhNQkZxSXlBMU9hY1BseXE2Y290b3pEVTVEdHJPakw0NWNoU0hKbnR1aWx5UHpaZEpLQWNqbmpuZUtuakVySkhLOTJ5eGdaSnBMWWxRVVZ0Ty00ZUtJNlN2QVdwaVI0alBrMHR1NjM2UzJJZTJCUVJfVzLSAc4BQVVfeXFMUDZoVHAxMGdkbEhaanFvWEZ5UHBBcnUxUFU2cUh0UjNvb0RYbEdrc2pkMGpuY0FrbGMyZy1fLWhzVTFiYlA1S1NLSG0tVUd1ZFNpQ2l5MldhaU8yWGszcGQwRmR3R2Ffak9ib2xkYUtBYUs3eVcxQ0xiWlp3QjduNWRsWVBBcDdrZXg5WXpPNlV2SzdYSE1HRm8tb0V4RU5VQTF1cFBNT3FNcE5CZXVnRVg4NlBLOHlZbHJ5azg5RWJWZ1AxVndaZnN2SG9JaFE?oc=5",
-          "published_at": "2026-04-08T07:00:00+00:00",
-          "snippet": "More than half of Odisha’s PVTG population missed out on welfare schemes, CAG finds Down To Earth",
-          "lexical_overlap": 0.091,
-          "relevance": 0.161,
-          "matched_terms": [
-            "schemes",
-            "welfare"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "schemes",
-            "welfare"
           ]
         }
       ],
@@ -21499,7 +20565,7 @@
     },
     {
       "id": "c94fe9d59245bdbb0a",
-      "checked_at": "2026-10-04T05:51:24.296263+00:00",
+      "checked_at": "2026-10-07T16:28:17.665338+00:00",
       "promise_id": "BJP-2024-4388c41410c36bc854",
       "year": 2024,
       "category": "jobs_economy",
@@ -21543,28 +20609,6 @@
           "promise_core_overlap": [
             "electronics",
             "global"
-          ]
-        },
-        {
-          "id": "66ace12ec108bef537",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Manufacturing Today India",
-          "source_url": "https://www.manufacturingtodayindia.com",
-          "title": "RRP Electronics to build 101-acre semiconductor campus in Khalapur - Manufacturing Today India",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9xZ24xbWEtdzRaM0FoY0NtUGZnZXNRS1VSM09ZeVMxcGpoRmNyZ0c2ZzNrVk8wTlMxUUNQblBLbER0NEhnN1ZDLTRxTkpGNVNmTnhYbnlnVlU4VDZEQkZ6a2Fja2xkQ3lWb0RBRjZ6MnRGVXpycTJ2Y1h6UQ?oc=5",
-          "published_at": "2026-03-04T08:00:00+00:00",
-          "snippet": "RRP Electronics to build 101-acre semiconductor campus in Khalapur Manufacturing Today India",
-          "lexical_overlap": 0.111,
-          "relevance": 0.181,
-          "matched_terms": [
-            "electronics",
-            "manufacturing"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "electronics",
-            "manufacturing"
           ]
         },
         {
@@ -21930,7 +20974,7 @@
     },
     {
       "id": "3c343f742248303007",
-      "checked_at": "2026-10-05T22:38:37.596064+00:00",
+      "checked_at": "2026-10-07T16:27:46.767120+00:00",
       "promise_id": "BJP-2024-24825a771a67a33746",
       "year": 2024,
       "category": "other",
@@ -21961,31 +21005,8 @@
         }
       ],
       "query": "further expand network age trains",
-      "evidence": [
-        {
-          "id": "5467f3bf974675b2d2",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "News18",
-          "source_url": "https://www.news18.com",
-          "title": "50 New Trains With 24 Coaches Each: India's Vande Bharat Sleeper Network Is Set To Grow - News18",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPeUFYNXFVdkd5cWdKdGYtNHRKMjUyZkdYempCUUtPajA3WEpIOV9hbDl5MUJCYXJUZDd6SHNJNnlYRmNEdDNBNHlaem5tWUsyMGVoaU43ZjFNMDV5cFBOWTR6ZVRlTFd1cDlUQXBqbGFxeURna1lCQnhFckFhbVI1Y2xUVXV1Q1RSNDdxRldWRkZNNUcwcGZ1TnphMktMMGpGbWV2SkNQamxPN2dpd2ItNGMtZjZyaHhQRkwyb2daazQ5VVE5LWl5blJ5MzZHTHZkbFpjeEpLcGFwNUpDV3J0adIB5gFBVV95cUxNWTJ4VEJXcUI2T2ZSb211MkFsM1BVZTlMMW5RcjI4dExLODVnbF9DUnl2ZUd3aXZPZ1lNek9leWtxLXM4N0hDdVlhWkJpU0s1Wmw2dFd0b3Fqei01b095Z2w0LXdtTTBjZVJLV2hFMEZUcGtNb3dJVnhXdUV1WS1CRjRmTnF0SVVQMmRpY0w3ZFVaSVlrNmh2MGNFdXk1TFBXblh3TFpHTGpOY3kyS3pxMzdSZllTMDhTRnVhMUlXX1BWdGxzTHYtWTYwdE5VT181M3RfU1kxNUpVcDg2RHdYZ0ZBZXk4QQ?oc=5",
-          "published_at": "2026-08-19T07:00:00+00:00",
-          "snippet": "50 New Trains With 24 Coaches Each: India's Vande Bharat Sleeper Network Is Set To Grow News18",
-          "lexical_overlap": 0.167,
-          "relevance": 0.237,
-          "matched_terms": [
-            "network",
-            "trains"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "network",
-            "trains"
-          ]
-        }
-      ],
-      "implementation_signal": "current_reporting_found",
+      "evidence": [],
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -22000,7 +21021,7 @@
     },
     {
       "id": "533125f754ade9ea71",
-      "checked_at": "2026-10-05T22:38:41.315920+00:00",
+      "checked_at": "2026-10-07T16:27:50.805741+00:00",
       "promise_id": "BJP-2024-28c5859b0f3b1be1cc",
       "year": 2024,
       "category": "women_social_justice",
@@ -22025,61 +21046,15 @@
       "query": "other regional connectivity further expand services",
       "evidence": [
         {
-          "id": "e1572ecf9fbf328546",
+          "id": "51dabf3bc1c43fbbd8",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "TRP | The Rakyat Post",
-          "source_url": "https://www.therakyatpost.com",
-          "title": "Malaysia Aviation Group Strengthens Regional Connectivity: New Catering Facility Underway To Expand Capabilities & Elevate In-Flight Dining - TRP | The Rakyat Post",
-          "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPZDJXNVZMSEZtNnE4bUpQSlVIZG5jakRHaHpaamItZ1I5TkU0N0JYcTZ5WE0zanRiLVpyOG5ucTRWRDBZZU5KQ0c2VjBYSFVwcEpKamRLd3Z5QmpaN1FCQXA0Z3Y1clFyeG5xeElPd1lkZGZyXzJFMFJvVktZZkN0dXdyNnYxZGZMS1owOVNmUFRXeUhTc2oxUEhGa0NKMGt2ZG9sTjhHWTJPYjE3NHJWcV9mbDl1VmowT1YtOGF6UEtpM0xUakc2eURjR1J6ZGlXSng4bUtaWmtDaHlpYTZVOXlSTElXLThvazRfajBQY21ncmE2NHpJNWt6NnhGRk5ZT0JmWjJRbi1jNHFETmgzYVgtNA?oc=5",
-          "published_at": "2026-09-04T07:00:00+00:00",
-          "snippet": "Malaysia Aviation Group Strengthens Regional Connectivity: New Catering Facility Underway To Expand Capabilities & Elevate In-Flight Dining TRP | The Rakyat Post",
-          "lexical_overlap": 0.12,
-          "relevance": 0.225,
-          "matched_terms": [
-            "connectivity",
-            "expand",
-            "regional"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "connectivity",
-            "regional"
-          ]
-        },
-        {
-          "id": "723f88e9fcbbf2b2f8",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Global Times",
-          "source_url": "https://www.globaltimes.cn",
-          "title": "Xinjiang’s expanding connectivity unlocks potential for regional economies - Global Times",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE42NGZ6bzdJVS0yeHJzZ09CRDhLTXFRekpvZjVvZXBmTUs2V0hRTkFucUhsY1pkMkxnbVJnZ3pxRElxYUZFN2NKamNfTXBYa0pXR2hBdUR6NFNSSGczQi1HTlBn?oc=5",
-          "published_at": "2026-04-20T07:00:00+00:00",
-          "snippet": "Xinjiang’s expanding connectivity unlocks potential for regional economies Global Times",
-          "lexical_overlap": 0.105,
-          "relevance": 0.175,
-          "matched_terms": [
-            "connectivity",
-            "regional"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "connectivity",
-            "economies",
-            "regional"
-          ]
-        },
-        {
-          "id": "dc1549dac7fcadbdea",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Guardian Nigeria News",
-          "source_url": "https://guardian.ng",
-          "title": "New regional routes to enhance connectivity – Air Peace - The Guardian Nigeria News",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTkdsQk9BZWJKRFVNTnFXbF9PRThZLXV1ZXBjZEFhWEFlbDJReDdTUHM4OTYzUEF6UzdWTjlmdWIwZVVYUDFvZGhreE5Kd3BtM2o3ZG43NXBMY3BwanVJNVN4MkV0YV9kZEZLRTZrVTRZVE9SSzM5RlRxWWp5S21rMm9kYVFvNEprY09VVTMzNEtNQWxnUnlja0VobHBzbU1uRjU2eEdUOU82ellxVDh3?oc=5",
-          "published_at": "2026-07-31T07:00:00+00:00",
-          "snippet": "New regional routes to enhance connectivity – Air Peace The Guardian Nigeria News",
+          "source": "The Assam Tribune",
+          "source_url": "https://assamtribune.com",
+          "title": "20 new trains rolled out by NFR in 2025–26, expands regional connectivity - The Assam Tribune",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeUlHTGV4YzdaTjQxVG1YcW16X2R4eW5DNmY3SGlBY1cydnJGTUpGcWZkaERxMkJsd0xObDh0NTMyZVEwaTY0LU1JWVUyX21HYmlzVFNBZTgtYVp0QUxYQzZPa3BCZzRyRkM5TEVTMlQ2NEY0encxMnpPREV1NU9HVWN5WEtqUUYtX3p3bFdsbHkxZTVhVndpV2hHREowWEpVSmV1MFdBWEczdW0yNFBUS1BzM2FVZ9IBuwFBVV95cUxNaFJJWWllQ214NER3SnNOeTFaVHQ2MWZYeGdnNmJsWnk3SGlyTmVVeUtPRU9rQTdaejdjRG1oWU1NR1VaTzRodl9OZjFzSmJlOGNzQXk2eXRlQWJfWXp5a1hZUVpFVG1JeTJmS3ZpbWppVWJZd3dfTTBEWExuY193emVhTV9lMUNUSzNWelVzZEpXSHBIc0pKVjhFZnUxekVZYzdsaUx6aFdFdW1fc015eXoyd0plNmZtUGhV?oc=5",
+          "published_at": "2026-03-25T07:00:00+00:00",
+          "snippet": "20 new trains rolled out by NFR in 2025–26, expands regional connectivity The Assam Tribune",
           "lexical_overlap": 0.105,
           "relevance": 0.175,
           "matched_terms": [
@@ -22137,7 +21112,7 @@
           ]
         }
       ],
-      "implementation_signal": "current_reporting_found",
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -23980,7 +22955,7 @@
     },
     {
       "id": "8d18f29cbcaff81c64",
-      "checked_at": "2026-10-05T22:38:45.436776+00:00",
+      "checked_at": "2026-10-07T16:27:55.167032+00:00",
       "promise_id": "BJP-2024-2cdce0011a45a7f314",
       "year": 2024,
       "category": "agriculture",
@@ -24004,29 +22979,6 @@
       "related_promises": [],
       "query": "further increase ethanol blending petrol mitigate",
       "evidence": [
-        {
-          "id": "0fd293d3bcb4072bcb",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Government measures to increase Ethanol Blending beyond 20% - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtYWxwSVVBa0FiZHRYUEZHYkwyaTJqWHBoN0hBeFoxYTdyNXlTdjlMY01xVE94bVBiZXJQLTNTSnAyMXA5SFBQQ0tEaFp2VUJZQVZtUUYwQjNveFpyRFRxemJDMFZBbVpQ?oc=5",
-          "published_at": "2025-03-20T07:00:00+00:00",
-          "snippet": "Government measures to increase Ethanol Blending beyond 20% PIB",
-          "lexical_overlap": 0.2,
-          "relevance": 0.355,
-          "matched_terms": [
-            "blending",
-            "ethanol",
-            "increase"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "blending",
-            "ethanol"
-          ]
-        },
         {
           "id": "ec9e8642670382b437",
           "scope": "preferred_official_search",
@@ -24083,28 +23035,6 @@
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBfWGlxRDNIc2dwZ0xTeWFvZjUwb0VGdmE4MVNqRnJoNU9YSC0xN1BNVzF0SW5HMVNrNzBzYnJMeGM2c1Rqa25hTEprYjBRR0NET21LMlJLak1hMlNqUFhBSE9NLUV0Y1RW?oc=5",
           "published_at": "2026-07-10T07:00:00+00:00",
           "snippet": "Ethanol Blended Petrol Programme- Q&A PIB",
-          "lexical_overlap": 0.133,
-          "relevance": 0.253,
-          "matched_terms": [
-            "ethanol",
-            "petrol"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "ethanol",
-            "petrol"
-          ]
-        },
-        {
-          "id": "e3682f426c5f40552f",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Ethanol Blended Petrol Programme - PIB",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9vRkFjX3pYLXRIcjc1QUFOeHc4b1ZCNHFiUVFtVjFJMDlraVl0ZkJxd0NWb0NBUEY2LTZXR2E2WkdVbFFIcFJBRWhuRUsxemFYeUJpRkg0bjEwaU1udFF0XzJQd1dXNGlaWG0xZGdJYjZvdG96X1F2bkp1Yw?oc=5",
-          "published_at": "2026-07-10T07:00:00+00:00",
-          "snippet": "Ethanol Blended Petrol Programme PIB",
           "lexical_overlap": 0.133,
           "relevance": 0.253,
           "matched_terms": [
@@ -24182,28 +23112,6 @@
           "promise_core_overlap": [
             "ethanol",
             "petrol"
-          ]
-        },
-        {
-          "id": "1f4c0920dec35931c3",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "tennews.in",
-          "source_url": "https://tennews.in",
-          "title": "India not alone in E20 transition as countries worldwide push higher ethanol blending - tennews.in",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdXh0X09MU2dFZU5CaU5NRUpCLUNxeFBuZU1XdEZFWTVsQWZpUkFCVnpCMWNGeTQydXNndzNKM3puNlRNS3M4bGYzUmIzS0JsQkhpLXlWNHg3bW53YkN3UndVU2tkcFk3VXFodGpUTDdqWFNIZU4wLUVoNHhOak92d01fczNwWWxiZUlDLXEyd3dYNlJ4TXVqVHV0M3E5Y0FHd3JNcDR3RjQ?oc=5",
-          "published_at": "2026-07-14T07:00:00+00:00",
-          "snippet": "India not alone in E20 transition as countries worldwide push higher ethanol blending tennews.in",
-          "lexical_overlap": 0.095,
-          "relevance": 0.165,
-          "matched_terms": [
-            "blending",
-            "ethanol"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "blending",
-            "ethanol"
           ]
         },
         {
@@ -26286,7 +25194,7 @@
     },
     {
       "id": "fa5b8cd6e625973a42",
-      "checked_at": "2026-10-05T22:38:39.440368+00:00",
+      "checked_at": "2026-10-07T16:27:48.835535+00:00",
       "promise_id": "BJP-2024-283f9cb6afd30aaced",
       "year": 2024,
       "category": "infrastructure",
@@ -26356,17 +25264,17 @@
           ]
         },
         {
-          "id": "5d0e2919f40eb21592",
+          "id": "099c6564f0f7053167",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "newindianexpress.com",
+          "source": "The New Indian Express",
           "source_url": "https://www.newindianexpress.com",
-          "title": "TN allocates Rs 29,863 crore for urban development; Cooum, Adyar rivers revival announced - newindianexpress.com",
+          "title": "TN allocates Rs 29,863 crore for urban development; Cooum, Adyar rivers revival announced - The New Indian Express",
           "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPMm8yYXJWU25GN251LVliQmtRQVVNMUs0NjNFV1IyOW1yM2NuMW95d19mb0JfejFEUVh6aUkzUlZCajY3UFRsMWpQSDFYcjkxZGpJSldYQXk1OWNlRnhQc1pWRzZhLTdxMW5kSmtWbHF1X1lRZ1NoQlpfbER2SjdYd055VUloOThEMWc4aFpmOGo1NGljVzVuWENnajN6SThXbXQ4S19YMWRsSHpHcXZTZ2t0WjBTMzlTVWl3VUw1bk5BdXVqSWpGVEhIdFp6czAtZUdXSmdTYVlPX3pBcHhCd19lY9IB8AFBVV95cUxOREthOVB3c0VxUHhiVDc4Qm1sSmtYY2FDUUVGdzdocWdaX1o5ZkYzcExEVnJCNDdHeUo3VTlBUmVWdjBnZVJ3SjJYV01pNVpHVWZSd0QtTHJWQkNXRlZiNURGcFNWRGMxOHR4bVZfUGYwLWlqcDVDWjE5RzB2Unh1ZEJNckVTT25PemgzelZkUHVWQjFLMHM4QkE3YlczYlk2dzk1Tm9WUzV2VXd6Y0N6SGlwOFp3S1VPeFFEZWpVNklXRjJzb0dBUVlFRmMyVTZQa3hGeDc5Y2JqTm0zTEQxZDNVanA3TldpRHVkV2VpcW4?oc=5",
           "published_at": "2026-08-05T07:00:00+00:00",
-          "snippet": "TN allocates Rs 29,863 crore for urban development; Cooum, Adyar rivers revival announced newindianexpress.com",
-          "lexical_overlap": 0.087,
-          "relevance": 0.157,
+          "snippet": "TN allocates Rs 29,863 crore for urban development; Cooum, Adyar rivers revival announced The New Indian Express",
+          "lexical_overlap": 0.091,
+          "relevance": 0.161,
           "matched_terms": [
             "development",
             "urban"
@@ -26545,7 +25453,7 @@
     },
     {
       "id": "50aa97228a989a8f26",
-      "checked_at": "2026-10-05T22:38:48.485953+00:00",
+      "checked_at": "2026-10-07T16:27:58.727929+00:00",
       "promise_id": "BJP-2024-3163b27d1a3cf4fddb",
       "year": 2024,
       "category": "infrastructure",
@@ -26644,17 +25552,17 @@
           ]
         },
         {
-          "id": "1ad0da69ae38b9a0fb",
+          "id": "71d48b494160287b0f",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "urbanacres.in",
+          "source": "Urban Acres",
           "source_url": "https://urbanacres.in",
-          "title": "Chennai Unified Mobility Card Transforms Metro Travel - urbanacres.in",
+          "title": "Chennai Unified Mobility Card Transforms Metro Travel - Urban Acres",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNm0tVFo1Ny1lYkljRElyQzUzOHk5S3FYSmsySnc3RUJ2Ym1mWmx3RXVYTzFpZ2Z3c052aWNPT0E0c3F3WnZLeDJpZVI5RThHY2gxZEFKcGxlVE1feHRlUWJHbzdxMHZKWlRHTTJKN29LRk1BdjZ3VTNmMEFpdEhod0Nn?oc=5",
           "published_at": "2026-04-23T07:00:00+00:00",
-          "snippet": "Chennai Unified Mobility Card Transforms Metro Travel urbanacres.in",
-          "lexical_overlap": 0.111,
-          "relevance": 0.181,
+          "snippet": "Chennai Unified Mobility Card Transforms Metro Travel Urban Acres",
+          "lexical_overlap": 0.105,
+          "relevance": 0.175,
           "matched_terms": [
             "mobility",
             "unified"
@@ -26688,25 +25596,25 @@
           ]
         },
         {
-          "id": "99f8789c0d057583a2",
+          "id": "42bb68235daebe87a4",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "newindianexpress.com",
-          "source_url": "https://www.newindianexpress.com",
-          "title": "Chennai Peripheral Ring Road to be strengthened to ease traffic on western, southern metropolitan region - newindianexpress.com",
-          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOMU51T0JLMjlMRUZsb1JDNTE3SmpsZWQ1Si16N0xJOUo0aVhFbDA1dy12cGNzeDdDZGM2R2R2aGQ2XzJYZkZWV3ZIQjJhc3pKN1J5QVFDazNUSFlqRGJ4a3NyMlpGb0ZRLWRtZXdYbm45UjlJN3JRWms1OC14UDl0YkQ3WE5lbmxsUVpkdmVEY3VsWFRCZTJZNFUwQmpVdlUtVEp2Ukt6MnI1QTJuTXo0Wkd2ZHlhOU5aUDRjZ3YxR00tRVdRTUpGRGlIY1B6ZTVmbWZaV1ZONmZPWXA0X1NVQmdiS0JUMWtsQ0NjRTdsSTdMWm1SNmfSAYMCQVVfeXFMTzZMSmt0eDJYQVBCMjdpT0N1UkdNS3JDUTE5ODYyRzFYTkR2Wk1UVjd4d0thM0JPakdZS2hZUEVHRXkzRGtMSWJZNm5wYUdHSXJZZFMxcHI4enU4UTNBTnk4NGFVbXFWck9TelNZVnd4TXo3aU9yMzBHT00wckxyMEV6YVMxZDIyT20ybHBpUERrbURfMnNMMjBLbUc3RU9BVGkxcXI3eXBQSkVVZ1dwaWduODJyenlZUE9MVlhEU0RHMktIZmRTb043VlZGRGV3UFBpOUZwT3ZZMlFaUHo4NzE0Sjl2TG5tVnlnSFpMRTdtNFVSMmFCV3FvcHAwak85VHhxUQ?oc=5",
-          "published_at": "2025-11-17T08:00:00+00:00",
-          "snippet": "Chennai Peripheral Ring Road to be strengthened to ease traffic on western, southern metropolitan region newindianexpress.com",
+          "source": "The Times of India",
+          "source_url": "https://timesofindia.indiatimes.com",
+          "title": "Gujarat government approves proposal to set up Urban Transport Fund to ease traffic woes of Ahmedabad and - The Times of India",
+          "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPRUdXanZwdXZTcW9ZU3hmVlh1enB5RWE4elc0UWx2dkVpSktWMmptQU5WWmE1dGk1OGs5YzQ5aURsY01feGV2aHFGd1BPaC1UTl9LTjd0VHdrcjlKS0NJdzlLSm9MZGxzbGFZdm80MXVUSkFzTmR4c1l2Y0JicU9BN3hENVNDek9Fd3J6RWs3eDlFUnNDc2hLMEYtN3NLa0NZX0tYcG5HSlAwOW1qcmRySV9aRkJjZVlRMXdpNzBOZVpzNG82ZTdJZEZhMXFZaERWSFMtUW1Fb2NoaTdtaDhaWWZyMWxRWlM2NjJ6M3dOSkJnd0QzZm5DTGVST2daQl95REg0Z3JSems1eS1tMFNJb1JjMFNSUVXSAZwCQVVfeXFMTTRJb3lWRnNFWWNWLS0xUnkyWGZySVpPQVJKdjF3OUpwU29HSEFYNW1WOUw0ZmhsTGloemhDQVVDVDVEVVZPNEZNSmpKc1RsM2JJR0Fwc1luaTlrUnVTRFkxbVpmUnBiN293bHptaFZXOWZiY0F2Nm5oYVk5MHFXMU9BbEh0NnhRY3g0VzcxNVZmYjJJdzV2ZzQ1S0VTYU9tQzR6VnhOX0gtQTZYMzBpeTRfZVJzeDF3OGRkdHdSdVFHd0ttY3lVdG9wMkZNVGswcTAtTnU2ajc3bjl2dDgzeTVYSFJzMmh6bzZHQ01wOWtQdnUwVW9RU2tQN2pWdTVua0hUajJFS01VNjNuWHNIQ0dOTWFFTU5VQkREbzg?oc=5",
+          "published_at": "2026-02-07T08:00:00+00:00",
+          "snippet": "Gujarat government approves proposal to set up Urban Transport Fund to ease traffic woes of Ahmedabad and The Times of India",
           "lexical_overlap": 0.087,
           "relevance": 0.157,
           "matched_terms": [
             "ease",
-            "metropolitan"
+            "transport"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
             "ease",
-            "metropolitan"
+            "transport"
           ]
         }
       ],
@@ -32952,7 +31860,7 @@
     },
     {
       "id": "e9f79088948e3453ae",
-      "checked_at": "2026-10-05T22:38:44.395377+00:00",
+      "checked_at": "2026-10-07T16:27:54.033252+00:00",
       "promise_id": "BJP-2024-2c12e7198285e08f8a",
       "year": 2024,
       "category": "infrastructure",
@@ -32977,17 +31885,17 @@
       "query": "universal access sports infrastructure expand khelo",
       "evidence": [
         {
-          "id": "cd2bab32ce4d7f50b5",
+          "id": "05cdb31f2adaa374f9",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "urbanacres.in",
+          "source": "Urban Acres",
           "source_url": "https://urbanacres.in",
-          "title": "Maharashtra Set For Wider Khelo India Sports Network - urbanacres.in",
+          "title": "Maharashtra Set For Wider Khelo India Sports Network - Urban Acres",
           "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPc1lJdFhqcU5taG0wSVl3XzFqMzZoTV83S3lBS3g0b2FGdENjMFZnNHJkX1QzZGlEMjROZklxakZHMVNLTU5wSnRad2ZweEVQMEVyM1NRV2gtOER3TkhRc0tRcExVMFBoLUlGekNYbGluNjF1VFRHV3RTTVc5RkwxZw?oc=5",
           "published_at": "2026-08-19T16:48:52+00:00",
-          "snippet": "Maharashtra Set For Wider Khelo India Sports Network urbanacres.in",
-          "lexical_overlap": 0.188,
-          "relevance": 0.292,
+          "snippet": "Maharashtra Set For Wider Khelo India Sports Network Urban Acres",
+          "lexical_overlap": 0.176,
+          "relevance": 0.281,
           "matched_terms": [
             "khelo",
             "network",
@@ -34343,7 +33251,7 @@
     },
     {
       "id": "58cc26e1b899ef064d",
-      "checked_at": "2026-10-04T05:51:19.593619+00:00",
+      "checked_at": "2026-10-07T16:28:12.375314+00:00",
       "promise_id": "BJP-2024-41cac87abfdc35e40d",
       "year": 2024,
       "category": "infrastructure",
@@ -34368,17 +33276,17 @@
       "query": "space aim significantly increase value economy",
       "evidence": [
         {
-          "id": "522d89f10520ce6db3",
+          "id": "9cec490de08369c20e",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "pib.gov.in",
+          "source": "PIB",
           "source_url": "https://www.pib.gov.in",
-          "title": "India’s space economy at $8.4 billion, nearly 400 start-ups active after sector opened to private players: Dr. Jitendra Singh - pib.gov.in",
+          "title": "India’s space economy at $8.4 billion, nearly 400 start-ups active after sector opened to private players: Dr. Jitendra Singh - PIB",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBISFBSUXhnY3dIdmxMWWQwU1BoUnhDVEc3b2hvbmxSeExhZ2dNeHdFSUYxSGxQTWs4NUFyVzZkZV9VSnl1T2d0UnVvOHNJOERQelZhZkJIWmp5VnA0dDVmdkF2QTU2dlpU?oc=5",
           "published_at": "2026-01-29T08:00:00+00:00",
-          "snippet": "India’s space economy at $8.4 billion, nearly 400 start-ups active after sector opened to private players: Dr. Jitendra Singh pib.gov.in",
-          "lexical_overlap": 0.077,
-          "relevance": 0.197,
+          "snippet": "India’s space economy at $8.4 billion, nearly 400 start-ups active after sector opened to private players: Dr. Jitendra Singh PIB",
+          "lexical_overlap": 0.08,
+          "relevance": 0.2,
           "matched_terms": [
             "economy",
             "space"
@@ -40731,7 +39639,7 @@
     },
     {
       "id": "05e0979e7f32ba2f72",
-      "checked_at": "2026-10-07T13:59:25.274962+00:00",
+      "checked_at": "2026-10-07T16:27:20.955253+00:00",
       "promise_id": "BJP-2019-18c0750d5ed71bc3d1",
       "year": 2019,
       "category": "agriculture",
@@ -42385,7 +41293,7 @@
     },
     {
       "id": "f5811520c1d5623f19",
-      "checked_at": "2026-10-07T13:59:26.969777+00:00",
+      "checked_at": "2026-10-07T16:27:22.761587+00:00",
       "promise_id": "BJP-2019-1d3e95fa9344e842f3",
       "year": 2019,
       "category": "infrastructure",
@@ -42506,7 +41414,7 @@
     },
     {
       "id": "92d6920a15fb42f812",
-      "checked_at": "2026-10-07T13:59:45.754257+00:00",
+      "checked_at": "2026-10-07T16:27:41.882216+00:00",
       "promise_id": "BJP-2019-6abf03adda773fec98",
       "year": 2019,
       "category": "governance",
@@ -45630,7 +44538,7 @@
     },
     {
       "id": "1e0abc9f94016f3c7a",
-      "checked_at": "2026-10-07T13:59:28.322767+00:00",
+      "checked_at": "2026-10-07T16:27:24.197897+00:00",
       "promise_id": "BJP-2019-2af396deaf778cac73",
       "year": 2019,
       "category": "infrastructure",
@@ -45715,7 +44623,7 @@
     },
     {
       "id": "4af70c5cc4e5dd31ea",
-      "checked_at": "2026-10-07T13:59:35.159044+00:00",
+      "checked_at": "2026-10-07T16:27:31.053126+00:00",
       "promise_id": "BJP-2019-34c03859f07f1329c5",
       "year": 2019,
       "category": "infrastructure",
@@ -47207,7 +46115,7 @@
     },
     {
       "id": "93bb9754ab7125c8f1",
-      "checked_at": "2026-10-07T13:59:40.319979+00:00",
+      "checked_at": "2026-10-07T16:27:36.212113+00:00",
       "promise_id": "BJP-2019-6013bbae5c9fbd8c5a",
       "year": 2019,
       "category": "women_social_justice",
@@ -47273,7 +46181,7 @@
     },
     {
       "id": "1d1782ad81aa54afcd",
-      "checked_at": "2026-10-07T13:59:42.670167+00:00",
+      "checked_at": "2026-10-07T16:27:38.731014+00:00",
       "promise_id": "BJP-2019-63e2ccda189fa85e2c",
       "year": 2019,
       "category": "health_welfare",
@@ -51779,7 +50687,7 @@
     },
     {
       "id": "21c782a6ad2ecb8987",
-      "checked_at": "2026-10-07T13:59:31.608989+00:00",
+      "checked_at": "2026-10-07T16:27:27.464122+00:00",
       "promise_id": "BJP-2019-2cfa1375f165d41707",
       "year": 2019,
       "category": "other",
@@ -53046,7 +51954,7 @@
     },
     {
       "id": "09db92a7679f9e887b",
-      "checked_at": "2026-10-07T13:59:37.073170+00:00",
+      "checked_at": "2026-10-07T16:27:33.116302+00:00",
       "promise_id": "BJP-2019-4fc8289de8caed52ff",
       "year": 2019,
       "category": "other",
@@ -57249,7 +56157,7 @@
     },
     {
       "id": "df076e7dea8ba67624",
-      "checked_at": "2026-10-07T13:59:48.516534+00:00",
+      "checked_at": "2026-10-07T16:27:44.799904+00:00",
       "promise_id": "BJP-2014-078252941779345656",
       "year": 2014,
       "category": "women_social_justice",
