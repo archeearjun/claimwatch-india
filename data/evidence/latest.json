@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T06:26:08.692339+00:00",
+  "generated_at": "2026-10-10T07:06:22.514202+00:00",
   "capabilities": {
     "official_evidence_search": true,
     "verified_primary_gate": true,
@@ -16,8 +16,8 @@
     "promise_checked_this_run": 30,
     "promise_total_candidates": 841,
     "promise_coverage_pct": 95.1,
-    "primary_candidates": 461,
-    "secondary_candidates": 1039,
+    "primary_candidates": 460,
+    "secondary_candidates": 1037,
     "prior_fact_checks": 0,
     "publishable_auto_verdicts": 0,
     "claim_verdicts": {
@@ -67,11 +67,36 @@
       "query": "trade october last his personal support",
       "numbers": [],
       "promise_matches": [],
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "a4d0793c8adc6ada57",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "15th Meeting of ASEAN-India Trade in Goods Agreement (AITIGA) Joint Committee held during 6-9 October 2026 - PIB",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBfWmxfM3VzYXZ5enlhOW1CWXR6TnoxaWM1Nkk2LTRRTWtwdUE0TE1uZnhwdnFpN1hNV0V0ZUZLZlVOalZ3b3JQcFUyYnRLQXl2LURhWWxtbHA4cGt6SEJ4NjZJbkIxbVFKWEJHVVdrWEpBTzhJTnVYTGlweU12dw?oc=5",
+          "published_at": "2026-10-09T07:01:00+00:00",
+          "snippet": "15th Meeting of ASEAN-India Trade in Goods Agreement (AITIGA) Joint Committee held during 6-9 October 2026 PIB",
+          "lexical_overlap": 0.136,
+          "relevance": 0.291,
+          "matched_terms": [
+            "agreement",
+            "october",
+            "trade"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.0044,
+            "neutral": 0.9823,
+            "contradiction": 0.0132
+          }
+        }
+      ],
       "fact_checks": [],
       "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
+        "level": "primary_evidence_found",
+        "label": "Relevant verified primary evidence candidate found",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -914,13 +939,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "needs_research",
+      "evidence_state": "primary_evidence_found",
       "human_reviewed": false,
       "created_at": "2026-10-08T08:56:46.391704+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-10-05T10:24:58+00:00",
       "last_seen": "2026-10-05T10:24:58+00:00",
-      "latest_checked_at": "2026-10-10T06:25:15.631939+00:00",
+      "latest_checked_at": "2026-10-10T07:05:29.489615+00:00",
       "latest_claim_packet_id": "36af41d1f474135176"
     },
     {
@@ -944,7 +969,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-05T10:24:58+00:00",
       "last_seen": "2026-10-05T10:24:58+00:00",
-      "latest_checked_at": "2026-10-10T06:25:15.631980+00:00",
+      "latest_checked_at": "2026-10-10T07:05:29.489642+00:00",
       "latest_claim_packet_id": "64350ab72af5545228"
     },
     {
@@ -1160,7 +1185,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-05T10:24:58+00:00",
       "last_seen": "2026-10-05T10:24:58+00:00",
-      "latest_checked_at": "2026-10-10T06:25:15.632018+00:00",
+      "latest_checked_at": "2026-10-10T07:05:29.489670+00:00",
       "latest_claim_packet_id": "775a9a25cc5414cbea"
     },
     {
@@ -1352,7 +1377,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-05T10:24:58+00:00",
       "last_seen": "2026-10-05T10:24:58+00:00",
-      "latest_checked_at": "2026-10-10T06:25:15.631998+00:00",
+      "latest_checked_at": "2026-10-10T07:05:29.489656+00:00",
       "latest_claim_packet_id": "0e71e9aca86b4c154c"
     },
     {
@@ -1643,7 +1668,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-05T10:24:58+00:00",
       "last_seen": "2026-10-05T10:24:58+00:00",
-      "latest_checked_at": "2026-10-10T06:25:15.632034+00:00",
+      "latest_checked_at": "2026-10-10T07:05:29.489681+00:00",
       "latest_claim_packet_id": "aceda866d7e8ef92a8"
     }
   ],
@@ -4626,7 +4651,7 @@
     },
     {
       "id": "1639b6bb8e8fcf16cb",
-      "checked_at": "2026-10-03T08:06:31.516987+00:00",
+      "checked_at": "2026-10-10T07:05:57.834276+00:00",
       "promise_id": "BJP-2024-6b0dfb49a975b3ea0c",
       "year": 2024,
       "category": "agriculture",
@@ -4650,28 +4675,6 @@
       "related_promises": [],
       "query": "now empower three crore rural women",
       "evidence": [
-        {
-          "id": "688683a9df2c9a6f61",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "TARGET FOR LAKHPATI DIDI TO BE ENHANCED FROM 2 CRORE TO 3 CRORE: FINANCE MINISTER - PIB",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE91dWYtckJuOHE4MDZDcUM5dE9Dc0VRaUd3ODIwM0czbndzWG52a1ZfQjNfRTFmenRxeXB2NExSUTNVRDVabmg4ODZxRDFLaVVBdF9POE5Kc2FVSXlFQjVUcVhkQ0tDOGpaa3d4bTJPbDI?oc=5",
-          "published_at": "2025-05-19T05:25:29+00:00",
-          "snippet": "TARGET FOR LAKHPATI DIDI TO BE ENHANCED FROM 2 CRORE TO 3 CRORE: FINANCE MINISTER PIB",
-          "lexical_overlap": 0.143,
-          "relevance": 0.263,
-          "matched_terms": [
-            "crore",
-            "lakhpati"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "crore",
-            "lakhpati"
-          ]
-        },
         {
           "id": "281ac2558652f5aa6c",
           "scope": "preferred_official_search",
@@ -4769,6 +4772,30 @@
           ]
         },
         {
+          "id": "591bfcca70f9fa3cc3",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Business Standard",
+          "source_url": "https://www.business-standard.com",
+          "title": "Uttar Pradesh govt launches new scheme to empower rural women entreprenuers - Business Standard",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOeHJleUdlN0JXU20zc1daajFLV2RCZjVQaDdIMkZXSGdDTVdtalA2WEkzcUVtY2VhMTBNc0ZlRkowMDRwTkwyNjM5Z2ZEQzFhY1BPbUc2TzNVMlpkWUNKNjNJYzBJLWNac2FRZXJ6NmFhTkxneTFPVGR0bHpGcVVKX1FuV1BpNEdxd1pZY1VLOGgzZ1BjenMzU0VXSnhvTlJ0TDVQVFRBY1VKUVpnbGFtWnBUU05NamlwQUNGMUNhWndwLThjc3fSAcsBQVVfeXFMTzAwRHVDNnFuejl3a3ZTQlV6LTRsbVYzUnREaFNBM21FTTZobUJPU0hJSnNLQTQzNjJra2xGVVpFd3AtMHduSm9JNkJPVVVNSnJ1OHlKdm5Yb0hTMFdURnpoeUxVZXRLTmdRVXlQZzNCMTJNcURhT0NSM1M3NzE4U3R6eHltZkg1UUhjS1JjYmlNMklfY1lQV2VrMTVBS3NBS21MTEZQNXF6UWRSN3NNa1V4eU9NS2d4QmJWcjNHRnZxYy0yUW1XZXg3UXM?oc=5",
+          "published_at": "2026-02-24T08:00:00+00:00",
+          "snippet": "Uttar Pradesh govt launches new scheme to empower rural women entreprenuers Business Standard",
+          "lexical_overlap": 0.176,
+          "relevance": 0.281,
+          "matched_terms": [
+            "empower",
+            "rural",
+            "women"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "empower",
+            "rural",
+            "women"
+          ]
+        },
+        {
           "id": "fb64e522211a8148b4",
           "scope": "news_search",
           "tier": "secondary",
@@ -4789,53 +4816,9 @@
             "rural",
             "women"
           ]
-        },
-        {
-          "id": "26efbdb18c101983ae",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "India Today NE",
-          "source_url": "https://www.indiatodayne.in",
-          "title": "TRLM signs MoU with IIM Kolkata to empower women entrepreneurs - India Today NE",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcXAzSDcyYU5teVc0NFZETE5oOVF1OF85R284YktEWDJKMlRfdk1yZ0Q4RWNKOGE0LWc5LVVzQVB4YjE3LXhtSnpHZHNZZ2hRM3lOaDFhMktSYjh6T3BvRUpIYzRuWnh0aElqcUlzUU5fSkNTbmFoUlJETmlqTElheVJna1pWdkg3M0YwdjQ3U1RIeTFSR0JFVy1nNjJtaEtnLUN4NzJmaVpqZm1qNGlYQWp3QTZZVVdTbVVxQ0hOcE7SAcYBQVVfeXFMTlhlbHNyaVBkeGI3anNQNFo2Y2YwcnlDS0ZHeVN1ZXpmZXZFajk4Z083dHByblRneFQzOTAzUzhTUE9Xb0swbm9VWmRodk5ZMHRFOUtWZHN2YWM0N05VU2lDSVBVTnBJdEdfUUVDcGhQSjdZeFV4alhhMXhhSTNWX3ota1NIQUlCY3R1OHpIRk9IeVRqY0xhYkhBamhOdGtYRG9GNVc4RFpkeDIzbXRRQWdWSDZhQTgycEg3RllWald6Sk5WZkNn?oc=5",
-          "published_at": "2026-02-12T08:00:00+00:00",
-          "snippet": "TRLM signs MoU with IIM Kolkata to empower women entrepreneurs India Today NE",
-          "lexical_overlap": 0.125,
-          "relevance": 0.195,
-          "matched_terms": [
-            "empower",
-            "women"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "empower",
-            "women"
-          ]
-        },
-        {
-          "id": "f640ad8aa94a423ec1",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "ANI News",
-          "source_url": "https://www.aninews.in",
-          "title": "Lakhpati Didi and Namo Drone Didi schemes make women self-reliant in Gujarat - ANI News",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQUlJuVVVQc1lMRlowM0pKcVFVcndPZXdVSDdwZGVTYmpCMnVWQ1FBeUxSMnEwLTlxTEtxc2FNVVNhS1ZoYUpWYkVQYUdDQ25pLThLR3ljSFF2YnBiUjljMEx3UC1iQ0N6SURVX3BFWURXN2R4dTFsdjlpUXREZlM4RWh4YmQ1NndMai1EX3pVT1lEOWhSVE53Q3UxWEphWkgxeHk0NHI2eExqeElsNUFNU0x6UEVUQUZ0V3MtcFJMdmRWWXRWR0hWTE91TkJPUkFHN0Jtdi1xUQ?oc=5",
-          "published_at": "2025-12-20T08:00:00+00:00",
-          "snippet": "Lakhpati Didi and Namo Drone Didi schemes make women self-reliant in Gujarat ANI News",
-          "lexical_overlap": 0.111,
-          "relevance": 0.181,
-          "matched_terms": [
-            "lakhpati",
-            "women"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "lakhpati",
-            "women"
-          ]
         }
       ],
-      "implementation_signal": "current_primary_and_reporting_found",
+      "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -5125,7 +5108,7 @@
     },
     {
       "id": "b3b760b89a4e78b8b0",
-      "checked_at": "2026-10-08T14:05:08.367786+00:00",
+      "checked_at": "2026-10-10T07:06:22.286069+00:00",
       "promise_id": "BJP-2024-8a281628fc19d1b1db",
       "year": 2024,
       "category": "agriculture",
@@ -8830,7 +8813,7 @@
     },
     {
       "id": "75ffb5ce26acb76e25",
-      "checked_at": "2026-09-29T22:40:59.699544+00:00",
+      "checked_at": "2026-10-10T07:06:03.547014+00:00",
       "promise_id": "BJP-2024-797bca88d7ccaee982",
       "year": 2024,
       "category": "other",
@@ -9142,7 +9125,7 @@
     },
     {
       "id": "4535b0b1e9dd0c7c76",
-      "checked_at": "2026-10-08T14:05:04.961348+00:00",
+      "checked_at": "2026-10-10T07:06:19.005095+00:00",
       "promise_id": "BJP-2024-85c85c656add7b1a48",
       "year": 2024,
       "category": "other",
@@ -10366,7 +10349,7 @@
     },
     {
       "id": "904396dbeefa1b36b2",
-      "checked_at": "2026-10-08T14:05:01.185525+00:00",
+      "checked_at": "2026-10-10T07:06:15.864430+00:00",
       "promise_id": "BJP-2024-8545cc40d9daa22eab",
       "year": 2024,
       "category": "infrastructure",
@@ -10409,30 +10392,6 @@
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "production",
-            "pulses"
-          ]
-        },
-        {
-          "id": "22adf84e7519601def",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "thepublicworld.com",
-          "source_url": "https://thepublicworld.com",
-          "title": "Government Highlights Progress Under Edible Oils and Pulses Missions; Production Rises, Imports Decline - thepublicworld.com",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5IdEFxd0V0dDRRLVVYMUl0SUFOTmxaZmk4OXp3WjZzR1hheHJDT0hnQmNmMFJBSk1TZlpTWXBSZUU4eEI3WTlJZzJmcjFSVVJuUFA2Zg?oc=5",
-          "published_at": "2026-10-02T16:37:52+00:00",
-          "snippet": "Government Highlights Progress Under Edible Oils and Pulses Missions; Production Rises, Imports Decline thepublicworld.com",
-          "lexical_overlap": 0.143,
-          "relevance": 0.248,
-          "matched_terms": [
-            "edible",
-            "production",
-            "pulses"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "edible",
             "production",
             "pulses"
           ]
@@ -10786,7 +10745,7 @@
     },
     {
       "id": "7eb335a9663152ea2f",
-      "checked_at": "2026-10-08T14:04:57.105907+00:00",
+      "checked_at": "2026-10-10T07:06:11.771534+00:00",
       "promise_id": "BJP-2024-816ce822693e9cc283",
       "year": 2024,
       "category": "agriculture",
@@ -10809,7 +10768,30 @@
       "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
       "related_promises": [],
       "query": "using technology aid fishermen use series",
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "9f31b6ed70ca943634",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "NOAA Fisheries (.gov)",
+          "source_url": "https://www.fisheries.noaa.gov",
+          "title": "Giving North Atlantic Right Whales a Check-Up Using Advanced Technology - NOAA Fisheries (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNS1GRU5uc01hdVlfekNhUEhqd3BnZHJLUmZ0YlIzbTI1eDJhU2xPZllqVmNiOEJYWE9nd2VmTE1vZUxta2xuT2ZlZHdQX3h5TVZpbFVMXzJEZ1BsU2pja2xOYkEwVk9JdDdKOEc1NHkxWktQb1FrdWlkdExNQkFMNElWRGJJa2xGLUE5eTkteHU2ai1GRndseWZvQ3FTUDJSc1VLcFRjaWpscDd3ZFpQSA?oc=5",
+          "published_at": "2026-08-17T07:00:00+00:00",
+          "snippet": "Giving North Atlantic Right Whales a Check-Up Using Advanced Technology NOAA Fisheries (.gov)",
+          "lexical_overlap": 0.091,
+          "relevance": 0.161,
+          "matched_terms": [
+            "technology",
+            "using"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "technology",
+            "using"
+          ]
+        }
+      ],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -11355,7 +11337,7 @@
     },
     {
       "id": "fd783bb4e887293817",
-      "checked_at": "2026-10-03T08:06:29.040925+00:00",
+      "checked_at": "2026-10-10T07:05:55.382246+00:00",
       "promise_id": "BJP-2024-6952eec8cf12a450ce",
       "year": 2024,
       "category": "other",
@@ -16837,7 +16819,7 @@
     },
     {
       "id": "b8870c39cdd218b7a1",
-      "checked_at": "2026-09-29T21:26:01.136458+00:00",
+      "checked_at": "2026-10-10T07:05:59.915538+00:00",
       "promise_id": "BJP-2024-70e521d4c5aa4506ab",
       "year": 2024,
       "category": "other",
@@ -20408,7 +20390,7 @@
     },
     {
       "id": "719fc46937f31189f4",
-      "checked_at": "2026-09-29T21:26:02.657061+00:00",
+      "checked_at": "2026-10-10T07:06:01.434631+00:00",
       "promise_id": "BJP-2024-74501c0b9415478795",
       "year": 2024,
       "category": "other",
@@ -20440,7 +20422,7 @@
           "source_url": "https://tribuneonlineng.com",
           "title": "Experts call for investment in indigenous knowledge, local industries - Tribune Online",
           "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBzTTRXSUZGRlA1N1NlYmJnd29PQXZ2cWY3dkhKQTBwbnRYbEdIdVh6RWRRZFh0dG9uMW1sREJWSGVNUDBnTXVJZXV6d2ZxOXc?oc=5",
-          "published_at": "2026-09-16T01:55:00+00:00",
+          "published_at": "2026-09-16T07:00:00+00:00",
           "snippet": "Experts call for investment in indigenous knowledge, local industries Tribune Online",
           "lexical_overlap": 0.118,
           "relevance": 0.188,
@@ -20474,28 +20456,6 @@
           "promise_core_overlap": [
             "global",
             "indigenous"
-          ]
-        },
-        {
-          "id": "ded413755972e94d3c",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "vanguardngr.com",
-          "source_url": "https://www.vanguardngr.com",
-          "title": "How I’m taking indigenous African textiles to the world stage — Juliet Onyanta - vanguardngr.com",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQM1l1Vk5Xb1BldTE4eHhUU0lxWmIta0FMVnhPNm5yYWxJVTJiR0JTWGFxVGtVenptY0lfRjNfeFB6UmZpNmFpdW9GTUVsQjBidV9mUzcySmUzVlFvckx1aHpSU24yZEpfYmJzTXZidk80RmdvM2RycTJkTGpyNTl2ZTQ4MF9aT3NGVTlyaFJYVmRuTlc3UmV1ckpCYTYwOXc0akRXSHoySEV3MHVGWXpPbUln0gG3AUFVX3lxTFBURVN6VFR3YWtudk4xX1hsaHVLMkt6MjVLLWdBUUdxSGZKRlJXYzQ0ZzlqdldHaUlUV0JKaTJhdGhjTW9hWXZzWEF5VHFxTThtUG5oOFdtZHZTZ1JZZE5mZDVxZmQzZGxKTGN1WWNTU2RYeG93eTRjUHRVSEtmN0FISG82YzROQ3drNUFxQjVrTXM2VUpTQk0zcjNTZ1Q5ZS0yQ1VCLW9mVzJxZGN6LW0xRHJVTy1tMA?oc=5",
-          "published_at": "2026-08-04T07:00:00+00:00",
-          "snippet": "How I’m taking indigenous African textiles to the world stage — Juliet Onyanta vanguardngr.com",
-          "lexical_overlap": 0.105,
-          "relevance": 0.175,
-          "matched_terms": [
-            "indigenous",
-            "stage"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "indigenous",
-            "stage"
           ]
         }
       ],
@@ -20912,7 +20872,7 @@
     },
     {
       "id": "3da94c86f089c444bc",
-      "checked_at": "2026-10-08T14:04:58.540158+00:00",
+      "checked_at": "2026-10-10T07:06:13.166649+00:00",
       "promise_id": "BJP-2024-823451b3fe24bccbae",
       "year": 2024,
       "category": "infrastructure",
@@ -20937,29 +20897,6 @@
       "query": "invest establishing nationwide charger infrastructure encourage",
       "evidence": [
         {
-          "id": "91c96b7e98083d2547",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Vocal",
-          "source_url": "https://vocal.media",
-          "title": "Philippines Electric Vehicle Charging Station Market 2026: EV Adoption, Infrastructure Expansion & Government Support Driving Rapid Growth - Vocal",
-          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQalhzUDJoUV8yWlVHa3FReGpGNldNN240MTNqNlY1VjV6UndFbGpPMHBJVnlDaEtTZExCd3g2dXFTd3JuWGdYWWZIcGJlcHl2empjWjZNX0FTY1lRQjZfbG51dTQ3Vk9XM0VjNHhhVUczV0QzNUJLa0I2M2JWLWZDS2kybHRHejdZU3hBaGEyZFYxTHBXWnFiaVBJMlBwVDBTcmZJdXVjWkhZRGU1RkdpNFVrWFA4UmRYeU1waUQ4emtfb3ZlRkVFak81YmVzcmZDUUozM0tNaS1VLVBDNUlfODhpTnRnY3ZaTjdkck9mTGhHNHRnbC1sRQ?oc=5",
-          "published_at": "2026-06-22T06:05:45+00:00",
-          "snippet": "Philippines Electric Vehicle Charging Station Market 2026: EV Adoption, Infrastructure Expansion & Government Support Driving Rapid Growth Vocal",
-          "lexical_overlap": 0.15,
-          "relevance": 0.255,
-          "matched_terms": [
-            "adoption",
-            "ev",
-            "infrastructure"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "adoption",
-            "infrastructure"
-          ]
-        },
-        {
           "id": "a4ebeaa66446a50401",
           "scope": "news_search",
           "tier": "secondary",
@@ -20979,9 +20916,30 @@
           "promise_core_overlap": [
             "nationwide"
           ]
+        },
+        {
+          "id": "6b27a4f16aa2dbb725",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Vietnam Investment Review - VIR",
+          "source_url": "https://vir.com.vn",
+          "title": "V-Green commits $400 million to nationwide ultra-fast EV charging network - Vietnam Investment Review - VIR",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMXU5S1RuVjh1eWJaTnl6bC03RldrMS03WXlELUNZdC1pR09IbG1IS0Mwazh0a21ZQzZfa19OVzNWbWVNTzA5eGdYTE1YdUZ3V1NmTEZMZ0oxNHdvWlV6Q3FVeHdJTTM2MmxiOTE1blZ3b19Ua3IxRXhtYkk4Snl2aXRnOW9aVDFHdmNZWjR3b3hRS2drU3Q0cHdhSHJ4RGZROUp6cWpn?oc=5",
+          "published_at": "2026-03-19T07:00:00+00:00",
+          "snippet": "V-Green commits $400 million to nationwide ultra-fast EV charging network Vietnam Investment Review - VIR",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
+          "matched_terms": [
+            "ev",
+            "nationwide"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "nationwide"
+          ]
         }
       ],
-      "implementation_signal": "current_reporting_found",
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -20996,7 +20954,7 @@
     },
     {
       "id": "827adadeacecd12b44",
-      "checked_at": "2026-10-08T14:05:03.098071+00:00",
+      "checked_at": "2026-10-10T07:06:17.386536+00:00",
       "promise_id": "BJP-2024-85827e906a110df664",
       "year": 2024,
       "category": "jobs_economy",
@@ -22750,7 +22708,7 @@
     },
     {
       "id": "81e0b40550b8b4a684",
-      "checked_at": "2026-09-29T22:41:04.436722+00:00",
+      "checked_at": "2026-10-10T07:06:08.628968+00:00",
       "promise_id": "BJP-2024-7f7c71c055328e1e0e",
       "year": 2024,
       "category": "women_social_justice",
@@ -22814,7 +22772,7 @@
     },
     {
       "id": "1406d5dae22611c004",
-      "checked_at": "2026-10-08T14:05:06.637250+00:00",
+      "checked_at": "2026-10-10T07:06:20.607352+00:00",
       "promise_id": "BJP-2024-865c6bc1c54f12411c",
       "year": 2024,
       "category": "other",
@@ -25770,7 +25728,7 @@
     },
     {
       "id": "b88f8d122e89f2273b",
-      "checked_at": "2026-09-29T22:41:00.943439+00:00",
+      "checked_at": "2026-10-10T07:06:05.305324+00:00",
       "promise_id": "BJP-2024-7c5ca3ca61fa063e20",
       "year": 2024,
       "category": "women_social_justice",
@@ -25795,30 +25753,6 @@
       "query": "green hydrogen production increasing capacity clear",
       "evidence": [
         {
-          "id": "38a592e96abe90729e",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Unlocking India’s Green Hydrogen Production Potential - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1GN2xDSExtWFhremVTVlUwWkpFbVcycTlnaTcyT1NXRXdwZUF5dW5Oallqb250VE9vSFFtTm1oSko3Unp3LTRaM3R4eE5Nc0pua3VnMGNmcllDX3BhcGYzLURBOUlkOGRP?oc=5",
-          "published_at": "2025-11-12T08:00:00+00:00",
-          "snippet": "Unlocking India’s Green Hydrogen Production Potential PIB",
-          "lexical_overlap": 0.2,
-          "relevance": 0.355,
-          "matched_terms": [
-            "green",
-            "hydrogen",
-            "production"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "green",
-            "hydrogen",
-            "production"
-          ]
-        },
-        {
           "id": "debfb13d3d01899375",
           "scope": "preferred_official_search",
           "tier": "primary",
@@ -25841,59 +25775,15 @@
           ]
         },
         {
-          "id": "52cb8048c00ca95f1c",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "India Advances Global Green Hydrogen Leadership under National Green Hydrogen Mission - PIB",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE53bWFaUXg3d0I4MU0xbUc5NVdFOGJrUE5wdU9qVHcyREZiVEtlRlhsQjVLV0dIT2tXek9YbU5WQ2tqQ2E3ODZua1JXMnh5M3JpaWpqemhCVENWUDlvc1hmRHpZaU82V0RfSUVTYTZSSWo1NTFnQzJMTmlpaw?oc=5",
-          "published_at": "2026-07-02T07:00:00+00:00",
-          "snippet": "India Advances Global Green Hydrogen Leadership under National Green Hydrogen Mission PIB",
-          "lexical_overlap": 0.111,
-          "relevance": 0.231,
-          "matched_terms": [
-            "green",
-            "hydrogen"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "green",
-            "hydrogen"
-          ]
-        },
-        {
-          "id": "afe49bd2a4f6fef98c",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "India's First Port-based e-Methanol Production Facility to Produce and Supply Green Fuel to Ships - PIB",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAzczZPQmd0akZDLVkxbGt0azlqZjhTc0dQQjB3V0x1andEWW9LYjQ0M0dsbUtTZ19WWmpXSXFDcjYxb1NoSS16aTRWcDNjYnJtcHZmLWp0TmhSMmtmLW9RNE0yMFZpSVpxVUVSZ1FuR1VES0llazN5UHRkWEtSQQ?oc=5",
-          "published_at": "2026-09-26T12:43:00+00:00",
-          "snippet": "India's First Port-based e-Methanol Production Facility to Produce and Supply Green Fuel to Ships PIB",
-          "lexical_overlap": 0.095,
-          "relevance": 0.215,
-          "matched_terms": [
-            "green",
-            "production"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "green",
-            "production"
-          ]
-        },
-        {
-          "id": "d2cb176ac005414eb5",
+          "id": "153ab4a1e1dc2ff483",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "imarcgroup.com",
+          "source": "IMARC Group",
           "source_url": "https://www.imarcgroup.com",
-          "title": "Green Hydrogen Production Cost Model: Clean Molecules, Clear Costs - imarcgroup.com",
+          "title": "Green Hydrogen Production Cost Model: Clean Molecules, Clear Costs - IMARC Group",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5jTnRrSC1LX3RHd1ZwazAwcjltWUVTQ2JCMFZGcTBESHVMMUEwSmtHVzlySE0zSFhHY2RCTUNOdTFCSFZrSlFJUk1za1NXS0pLc0VwWXVmQkc5OGNyV1NXV2ZGZ0dwYkJlYWI0QXJZMXRRUkNaNENQWGtGVQ?oc=5",
           "published_at": "2025-11-18T12:52:49+00:00",
-          "snippet": "Green Hydrogen Production Cost Model: Clean Molecules, Clear Costs imarcgroup.com",
+          "snippet": "Green Hydrogen Production Cost Model: Clean Molecules, Clear Costs IMARC Group",
           "lexical_overlap": 0.211,
           "relevance": 0.351,
           "matched_terms": [
@@ -25908,6 +25798,28 @@
             "green",
             "hydrogen",
             "production"
+          ]
+        },
+        {
+          "id": "1ac9b4405da61049f8",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Fuel Cells Works",
+          "source_url": "https://fuelcellsworks.com",
+          "title": "Colombia's Green Hydrogen Ambitions Face Challenges - Fuel Cells Works",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUGFYcExocnpLM0p3NlE5QTVrT2o5R3VIZWpPRlhVVmRyVXVtMExBbWJLbEVEX0IycTVJQ1FJbFViWHpITU12WVIwWmxBX1cxcUlCQVRjb2I3ZE9RM001QnFFZ1g1WWU1czlMYnNXVW9wQmZFVjNxREt1b3cwWjJoNVFRN0ZHdU1IRzlnWVRPQzl5enJKZTM4bllZWnhrY3kwcFViSHoyU1ZkT28?oc=5",
+          "published_at": "2026-02-26T08:00:00+00:00",
+          "snippet": "Colombia's Green Hydrogen Ambitions Face Challenges Fuel Cells Works",
+          "lexical_overlap": 0.105,
+          "relevance": 0.175,
+          "matched_terms": [
+            "green",
+            "hydrogen"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "green",
+            "hydrogen"
           ]
         },
         {
@@ -25933,39 +25845,17 @@
           ]
         },
         {
-          "id": "4c7432b1c20ebf867b",
+          "id": "f9021f4ac8ad6aa69f",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "vocal.media",
-          "source_url": "https://vocal.media",
-          "title": "Stanislav Kondrashov on Green Hydrogen and the Changing Cost Equation in Europe - vocal.media",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbEFnT3piWnNibUtIMEVhR2xFUUF4TGFzSXlDZVNMZUZNUFBNR09xRzdqMXBlV2Uyd0M2MW5sRXh4MWQ5TDNwbG9kdzZjRE1CcGh2R0tOeGNuMVdqbkdZU2tNNW1mVHZMN1ZmYlIwVGNGUmphV1BhMVNuT2p6NHVQeHJpRlNybG1udm42QjQ4VUphbGNqSk5zQ2pjVlJKbjFZRk95a2F2VXhNQQ?oc=5",
-          "published_at": "2026-09-22T12:40:28+00:00",
-          "snippet": "Stanislav Kondrashov on Green Hydrogen and the Changing Cost Equation in Europe vocal.media",
-          "lexical_overlap": 0.1,
-          "relevance": 0.17,
-          "matched_terms": [
-            "green",
-            "hydrogen"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "green",
-            "hydrogen"
-          ]
-        },
-        {
-          "id": "427188ebc695e2d693",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "solarquarter.com",
+          "source": "SolarQuarter",
           "source_url": "https://solarquarter.com",
-          "title": "Wood Mackenzie Highlights Growing Momentum Europe’s Green Hydrogen Market As Refinery Projects Lead Development - solarquarter.com",
+          "title": "Wood Mackenzie Highlights Growing Momentum Europe’s Green Hydrogen Market As Refinery Projects Lead Development - SolarQuarter",
           "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPNVl4cE9MS1ktbDJ6ZUQ0QlJSdVQyangwNDc1X1BkWFFCRTkxUUFGTzZ3alA3WmZFNFpnbWhvdi1Xc0dnMUdLdXJMLW1wVFJFWERZOEFfY2MtMkg5bWptWTJRdG1RME1WWVNiT1dlNzFtbzRjZ3pucXkybHpMdFdyWEd0MXRhNllyVEZ5WGtYQmFlalVoZWNJX2k0dm5rbU90dE5lYWxvSE5QNndwcWcwTnI3U2ExT3Y2MDFVMmFyMUJjQVZfclZKWWhtTGFJZkJjSERNRDNoVjlJNDlTSW9iTw?oc=5",
           "published_at": "2026-06-18T07:00:00+00:00",
-          "snippet": "Wood Mackenzie Highlights Growing Momentum Europe’s Green Hydrogen Market As Refinery Projects Lead Development solarquarter.com",
-          "lexical_overlap": 0.08,
-          "relevance": 0.15,
+          "snippet": "Wood Mackenzie Highlights Growing Momentum Europe’s Green Hydrogen Market As Refinery Projects Lead Development SolarQuarter",
+          "lexical_overlap": 0.083,
+          "relevance": 0.153,
           "matched_terms": [
             "green",
             "hydrogen"
@@ -28897,7 +28787,7 @@
     },
     {
       "id": "d9c32ace2272c720cb",
-      "checked_at": "2026-10-08T14:04:55.240370+00:00",
+      "checked_at": "2026-10-10T07:06:10.123612+00:00",
       "promise_id": "BJP-2024-807a7d2e13ae171de0",
       "year": 2024,
       "category": "infrastructure",
@@ -29784,7 +29674,7 @@
     },
     {
       "id": "3f2ca476806230920c",
-      "checked_at": "2026-09-29T22:40:58.280256+00:00",
+      "checked_at": "2026-10-10T07:06:02.307998+00:00",
       "promise_id": "BJP-2024-79039b52fd171d6f74",
       "year": 2024,
       "category": "women_social_justice",
@@ -29874,6 +29764,28 @@
           "promise_core_overlap": [
             "delivery",
             "public"
+          ]
+        },
+        {
+          "id": "82e96fef496947b377",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The News Mill",
+          "source_url": "https://thenewsmill.com",
+          "title": "Government expands digital public services in India through UMANG and DigiLocker - The News Mill",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNVM4M09adUV3T3ZMcG94QWZTSmtjYkpFbUFxc3lNNVVDUHVuUDVQS1BRUUNqLS1DOFNNRGd6NDA0MDhaMmpjczZTLUZEM0YxVGl4b3ZzZVlrNGsxa3AyS3R2MVFiaWhDdDduWkJSMzRUWXRmLTl6cVc1Rjd1dlZYalNJOHBBcWtBUllhN1JlNUVwTV8yZ1VwaXR3SjM1bXVNYWdvUGtzNlFZNHlLY0czbU5Xdmk?oc=5",
+          "published_at": "2026-08-12T07:00:00+00:00",
+          "snippet": "Government expands digital public services in India through UMANG and DigiLocker The News Mill",
+          "lexical_overlap": 0.125,
+          "relevance": 0.195,
+          "matched_terms": [
+            "public",
+            "services"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "public",
+            "services"
           ]
         },
         {
@@ -34688,7 +34600,7 @@
     },
     {
       "id": "3271ef18d8d3b6c40f",
-      "checked_at": "2026-09-29T22:41:02.826001+00:00",
+      "checked_at": "2026-10-10T07:06:07.153015+00:00",
       "promise_id": "BJP-2024-7ce070c3c2b5e9a2a5",
       "year": 2024,
       "category": "other",
@@ -34713,50 +34625,6 @@
       "query": "state governments local communities prepare master",
       "evidence": [
         {
-          "id": "63d1b6e7b8a807aa07",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Queensland Health",
-          "source_url": "https://www.health.qld.gov.au",
-          "title": "Cairns Hospital Campus Master Plan - Queensland Health",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxON002LU1JaWtvY29Td2h4X3JqRHkxWk5zOW53RjFwZC13eUM3LUFpRjU1TktrM0xCYndxTGppU2FUTVdvUlQ4T3JOblBkeGNNUEtmS01wWC1ST1g1cVZrZEJocFpnbkxRUFkycWtMVnBZM0wtV0lNbVR6eDR3TWY4WUpzNEJKOF8zaVE2NXVFYV9ISWdyNEJUbXZ0aDdQX3Nack5UNm94bTJKM1pSaUpGa09Rb0hwTVc5Sm56S3Z3?oc=5",
-          "published_at": "2026-08-06T07:00:00+00:00",
-          "snippet": "Cairns Hospital Campus Master Plan Queensland Health",
-          "lexical_overlap": 0.118,
-          "relevance": 0.188,
-          "matched_terms": [
-            "master",
-            "plan"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "master",
-            "plan"
-          ]
-        },
-        {
-          "id": "ff2ccb99206ab05e4e",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Ohio University",
-          "source_url": "https://www.ohio.edu",
-          "title": "Voinovich School graduate helps local governments across Ohio - Ohio University",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOX250cmFmaUg3UnNLc0YtUGNvbG92c3hVYTNwYWVNYnpFZ2dLTFV5UFBtZWlySk5TNWMzTnVtTC1CcUlrY3hIekJ1U0MtX0VOMG1DekxBTFRqaWY2SUhuQnpjdVMyLWg2Wl9KZlJ3bVRXQXphSFp3aF8zdWJ0VlFndFYyVjR3Ympkdk81TWM4ZURHeTl5RXBsazdkTQ?oc=5",
-          "published_at": "2026-09-26T02:55:19+00:00",
-          "snippet": "Voinovich School graduate helps local governments across Ohio Ohio University",
-          "lexical_overlap": 0.111,
-          "relevance": 0.181,
-          "matched_terms": [
-            "governments",
-            "local"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "governments",
-            "local"
-          ]
-        },
-        {
           "id": "5319fca885c805823a",
           "scope": "news_search",
           "tier": "secondary",
@@ -34777,28 +34645,6 @@
             "communities",
             "local"
           ]
-        },
-        {
-          "id": "c6a1b71ed63a2e6791",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The New Indian Express",
-          "source_url": "https://www.newindianexpress.com",
-          "title": "TN government mandates GIS-based Master Plans for urban local bodies, development authorities - The New Indian Express",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNNjBEcmdRWm5zWGlmTWI0Ymh3UTE4dG1WRnE1NzJBQjNMcGd4bGRxOWx2R0tTcUtWc2N1TWVsSVdyNnlCZ0R4MGlXNmo5cC1GMkxWM2VVV3V3TVJhSV81ZlJhWGphUGpjZ0VBdkV3b01UcUFoQlM2TjZvT2w3Zk54clkzcW80RnBoQy1QeEZEY01xMl9HNEF6R2F3aHpSdTUzbDZoSHZiMnJFaUFrVERoV3FJZWtNWEZZcGN1Y3FhSWZSd0JtVnV5V28wQlZkWjhaSEhRUEhSN2JqWTY4ekpPY3JINTVJcURZN2Y00gH4AUFVX3lxTE13N2x2dkdvZzlJNlVMdjhQc3dndVFZdk1fdlc1WnBVLTVtNjdfVHlTa0poejZYYWhsY0dkT3hVY054NjJZOE8yUG1qU0hrVGVJVGQyNWMtLTJZR3k2aFBVX0JkcmNVOEpyNkNUbGw2bzdKR29fY1JsZ2V6c1c1TmVueWhHQkVKWUdvb1RMenowY2JlMGxsMkJ3MGh5MEd0dUNRcFhRV3hSY0pjekVWNkpWT3J4d0VORjAzSWc2UWtQVTdId29PRWI3dGY1bnhGS0tlOXlxOTYyVEFOUXdUWV9MZk5Na3Z2dnBpU2RiSWxPYmZjTTJRdkdw?oc=5",
-          "published_at": "2026-08-27T07:00:00+00:00",
-          "snippet": "TN government mandates GIS-based Master Plans for urban local bodies, development authorities The New Indian Express",
-          "lexical_overlap": 0.095,
-          "relevance": 0.165,
-          "matched_terms": [
-            "local",
-            "master"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "local",
-            "master"
-          ]
         }
       ],
       "implementation_signal": "needs_research",
@@ -34816,7 +34662,7 @@
     },
     {
       "id": "e3a45bf3ffd1b0782a",
-      "checked_at": "2026-10-08T14:04:59.827562+00:00",
+      "checked_at": "2026-10-10T07:06:14.466442+00:00",
       "promise_id": "BJP-2024-84a1f88960072331da",
       "year": 2024,
       "category": "security_defence",
@@ -34865,6 +34711,28 @@
           ]
         },
         {
+          "id": "fcbc22e56c2965da24",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Inter-State River Water Sharing Disputes - PIB",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE84ZGVPR3BueE8yZjVBV0JSaERfVEVHNGRYcFNxTnRCTGFTS1ZyWEZobXBLQ0dRaWdpNV9vV0pxZ3BCb2d4N2ltdzYzbXVyaUZnX3UzbUxFZC1VZ0wtRUpKS1ZmT29DRE1vWnZDVWR3?oc=5",
+          "published_at": "2017-08-03T07:00:00+00:00",
+          "snippet": "Inter-State River Water Sharing Disputes PIB",
+          "lexical_overlap": 0.125,
+          "relevance": 0.245,
+          "matched_terms": [
+            "disputes",
+            "inter-state"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "disputes",
+            "inter-state"
+          ]
+        },
+        {
           "id": "04ca0c0d1edf883d6a",
           "scope": "preferred_official_search",
           "tier": "primary",
@@ -34884,6 +34752,50 @@
           "promise_core_overlap": [
             "border",
             "inter-state"
+          ]
+        },
+        {
+          "id": "2afdc11851a8330ab4",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "In presence of Union Home Minister Shri Amit Shah, the Chief Ministers of Assam and Meghalaya signed historic agreement for settlement of inter-state border dispute in New Delhi today - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1CaEZUcEFpQmRjT0lPa09iYWh6djJGbXN0QlUtOHBPQ08xOWxQdlU5TWttX1g4bk9tTWo3WDVyN3FkalFVQzFWc1FFUnk2Z0ZfWWR3VjlOX0xpcHFMbjJYQkQtOU53QTVw?oc=5",
+          "published_at": "2022-03-29T07:00:00+00:00",
+          "snippet": "In presence of Union Home Minister Shri Amit Shah, the Chief Ministers of Assam and Meghalaya signed historic agreement for settlement of inter-state border dispute in New Delhi today PIB",
+          "lexical_overlap": 0.077,
+          "relevance": 0.197,
+          "matched_terms": [
+            "border",
+            "inter-state"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "border",
+            "inter-state"
+          ]
+        },
+        {
+          "id": "b5e258f4b9c3c1702f",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Premium Times Nigeria",
+          "source_url": "https://www.premiumtimesng.com",
+          "title": "Abia, Anambra commit to peaceful resolution of boundary disputes - Premium Times Nigeria",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORVFhZTRRbkVWQ1ppcGF0bF9TU181emJBRGt5Mm1uN1d4M2dzQTNWQ3QzdTh4c0RVdEFVSDVBT3RlVEt1TFJtQjFwMFUyM2xHLWdxdzh0THpXMEdRT1NLRHRsTS13akxIVm1ZcV80NkFwMFNDZ0J0S0tHZHRwRFVNeEtLUi0xSWJJSUpIQ1NaNDl4RTQ1WWxiUU9xRVRTZmVWdW40a0U3MVBiS3dpak53Z2JDdTZpYWZlZDlqU2N3?oc=5",
+          "published_at": "2026-07-03T07:00:00+00:00",
+          "snippet": "Abia, Anambra commit to peaceful resolution of boundary disputes Premium Times Nigeria",
+          "lexical_overlap": 0.1,
+          "relevance": 0.17,
+          "matched_terms": [
+            "disputes",
+            "resolution"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "disputes",
+            "resolution"
           ]
         },
         {
@@ -35612,7 +35524,7 @@
     },
     {
       "id": "b3c6a01c34b3835929",
-      "checked_at": "2026-10-03T08:06:32.719530+00:00",
+      "checked_at": "2026-10-10T07:05:59.030123+00:00",
       "promise_id": "BJP-2024-6ea15e7ed9d6f1f93a",
       "year": 2024,
       "category": "technology_digital",
@@ -38001,7 +37913,7 @@
     },
     {
       "id": "4431b37645f2009191",
-      "checked_at": "2026-10-03T08:06:30.544847+00:00",
+      "checked_at": "2026-10-10T07:05:56.895320+00:00",
       "promise_id": "BJP-2024-696fe456affe0ff0c9",
       "year": 2024,
       "category": "environment",
@@ -38024,7 +37936,30 @@
       "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
       "related_promises": [],
       "query": "expanding green credit programme lead scope",
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "9d6896cbc230a9b85d",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Trellis Group",
+          "source_url": "https://trellis.net",
+          "title": "Leading carbon credit registries expand into supply-chain decarbonization - Trellis Group",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNa01LRVFzTjZEM1UxQTNIaUt3X1h0SWlhR0pSTWxneVRiczJBLXJibVdBVzdwMEVCS3Z5Y1hZa2VVdzRrbVVPUE12M09ZYUtLcFFUdFI4QjNhVzM1ekhkYU9YQmwtekNYRy1nekV1dk5XYTVHTlhIbDBaTzBvZ1doVFhB?oc=5",
+          "published_at": "2026-04-23T07:00:00+00:00",
+          "snippet": "Leading carbon credit registries expand into supply-chain decarbonization Trellis Group",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
+          "matched_terms": [
+            "credit",
+            "decarbonization"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "credit",
+            "decarbonization"
+          ]
+        }
+      ],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -41999,8 +41934,8 @@
       }
     },
     {
-      "id": "05e0979e7f32ba2f72",
-      "checked_at": "2026-10-10T06:25:17.817732+00:00",
+      "id": "0764c49dce738dbbee",
+      "checked_at": "2026-10-10T07:05:31.840368+00:00",
       "promise_id": "BJP-2019-18c0750d5ed71bc3d1",
       "year": 2019,
       "category": "agriculture",
@@ -42026,7 +41961,7 @@
       "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
-      "query": "10000 2022 enable creation farmer producer organisations fpos",
+      "query": "2022 10000 enable creation farmer producer organisations fpos",
       "evidence": [
         {
           "id": "8cd391cfb62be9602f",
@@ -42173,32 +42108,6 @@
           ]
         },
         {
-          "id": "f01c6cce754d006ea9",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "India Development Review",
-          "source_url": "https://idronline.org",
-          "title": "IDR Explains | Farmer producer organisations (FPOs) - India Development Review",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNS18tSjZWcjBOdHZpU0dHWm40RmlXdmZ2bTdrV2hfb3ozUnFBTEYtQUd2UmhmcnN0R0NUZUdCTW0zR2loWkRrdXJlMUVoaUdiZWxZQzlqNkN3eWo2eXRNTkFKN0l0WVRrZzUtb0ZhYkRZaDRma1NPXzdkREl4LWgxYml4aUE1S3NhMU9raEdBc3d2YWNrQUM0?oc=5",
-          "published_at": "2023-08-10T07:00:00+00:00",
-          "snippet": "IDR Explains | Farmer producer organisations (FPOs) India Development Review",
-          "lexical_overlap": 0.25,
-          "relevance": 0.39,
-          "matched_terms": [
-            "farmer",
-            "fpos",
-            "organisations",
-            "producer"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "farmer",
-            "fpos",
-            "organisations",
-            "producer"
-          ]
-        },
-        {
           "id": "531ed5a861c168b322",
           "scope": "news_search",
           "tier": "secondary",
@@ -42268,6 +42177,29 @@
             "farmer",
             "organisations",
             "producer"
+          ]
+        },
+        {
+          "id": "1af39614098ce2c5d1",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "YourStory.com",
+          "source_url": "https://yourstory.com",
+          "title": "Flipkart signs MoU with SERP to enable market access, growth for FPOs, SHGs in Telangana - YourStory.com",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdGxJNXQ4NFR1ZldsQi1veEx3MUEzLW1keWV6d0kySm5zd0pVVVZrUnZiLWhQQlhTWkFfLUJvVVp2aFFNQzBZMGg2a0M2SWxSQUpEZFRsWDJUblpsb21JTDNiTVJ4OE8ycHplcVJyZlV3Z3pmTzhRZUhZN1VqQzVlUDFaNVQ1a21PSld0T093?oc=5",
+          "published_at": "2022-06-25T07:00:00+00:00",
+          "snippet": "Flipkart signs MoU with SERP to enable market access, growth for FPOs, SHGs in Telangana YourStory.com",
+          "lexical_overlap": 0.136,
+          "relevance": 0.241,
+          "matched_terms": [
+            "access",
+            "enable",
+            "fpos"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "access",
+            "fpos"
           ]
         }
       ],
@@ -43653,7 +43585,7 @@
     },
     {
       "id": "f5811520c1d5623f19",
-      "checked_at": "2026-10-10T06:25:19.485317+00:00",
+      "checked_at": "2026-10-10T07:05:33.619790+00:00",
       "promise_id": "BJP-2019-1d3e95fa9344e842f3",
       "year": 2019,
       "category": "infrastructure",
@@ -43774,7 +43706,7 @@
     },
     {
       "id": "92d6920a15fb42f812",
-      "checked_at": "2026-10-10T06:25:36.945876+00:00",
+      "checked_at": "2026-10-10T07:05:52.076028+00:00",
       "promise_id": "BJP-2019-6abf03adda773fec98",
       "year": 2019,
       "category": "governance",
@@ -46937,7 +46869,7 @@
     },
     {
       "id": "1e0abc9f94016f3c7a",
-      "checked_at": "2026-10-10T06:25:20.832742+00:00",
+      "checked_at": "2026-10-10T07:05:35.165072+00:00",
       "promise_id": "BJP-2019-2af396deaf778cac73",
       "year": 2019,
       "category": "infrastructure",
@@ -47022,7 +46954,7 @@
     },
     {
       "id": "4af70c5cc4e5dd31ea",
-      "checked_at": "2026-10-10T06:25:27.270249+00:00",
+      "checked_at": "2026-10-10T07:05:42.259886+00:00",
       "promise_id": "BJP-2019-34c03859f07f1329c5",
       "year": 2019,
       "category": "infrastructure",
@@ -48916,7 +48848,7 @@
     },
     {
       "id": "93bb9754ab7125c8f1",
-      "checked_at": "2026-10-10T06:25:32.014426+00:00",
+      "checked_at": "2026-10-10T07:05:47.183850+00:00",
       "promise_id": "BJP-2019-6013bbae5c9fbd8c5a",
       "year": 2019,
       "category": "women_social_justice",
@@ -48982,7 +48914,7 @@
     },
     {
       "id": "1d1782ad81aa54afcd",
-      "checked_at": "2026-10-10T06:25:34.192719+00:00",
+      "checked_at": "2026-10-10T07:05:49.554743+00:00",
       "promise_id": "BJP-2019-63e2ccda189fa85e2c",
       "year": 2019,
       "category": "health_welfare",
@@ -53636,7 +53568,7 @@
     },
     {
       "id": "21c782a6ad2ecb8987",
-      "checked_at": "2026-10-10T06:25:24.029403+00:00",
+      "checked_at": "2026-10-10T07:05:38.610767+00:00",
       "promise_id": "BJP-2019-2cfa1375f165d41707",
       "year": 2019,
       "category": "other",
@@ -54837,7 +54769,7 @@
     },
     {
       "id": "09db92a7679f9e887b",
-      "checked_at": "2026-10-10T06:25:29.179290+00:00",
+      "checked_at": "2026-10-10T07:05:44.303632+00:00",
       "promise_id": "BJP-2019-4fc8289de8caed52ff",
       "year": 2019,
       "category": "other",
@@ -59130,7 +59062,7 @@
     },
     {
       "id": "df076e7dea8ba67624",
-      "checked_at": "2026-10-10T06:25:39.416390+00:00",
+      "checked_at": "2026-10-10T07:05:54.660985+00:00",
       "promise_id": "BJP-2014-078252941779345656",
       "year": 2014,
       "category": "women_social_justice",
