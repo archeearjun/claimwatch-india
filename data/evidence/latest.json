@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T13:40:46.196460+00:00",
+  "generated_at": "2026-10-10T18:35:12.398834+00:00",
   "capabilities": {
     "official_evidence_search": true,
     "verified_primary_gate": true,
@@ -11,30 +11,30 @@
     "manifesto_memory_loaded": true
   },
   "summary": {
-    "claim_packets": 14,
-    "promise_packets": 800,
+    "claim_packets": 5,
+    "promise_packets": 814,
     "promise_checked_this_run": 30,
     "promise_total_candidates": 841,
-    "promise_coverage_pct": 95.1,
-    "primary_candidates": 461,
-    "secondary_candidates": 1047,
+    "promise_coverage_pct": 96.8,
+    "primary_candidates": 464,
+    "secondary_candidates": 1061,
     "prior_fact_checks": 0,
     "publishable_auto_verdicts": 0,
     "claim_verdicts": {
       "supported": 0,
       "contradicted": 0,
-      "pending": 14
+      "pending": 5
     },
     "promise_outcomes": {
       "fulfilled_by_deadline": 0,
       "target_reached_evidence": 0,
       "proven_unfulfilled_by_deadline": 0,
-      "progress_documented": 10,
+      "progress_documented": 11,
       "deadline_passed_unresolved": 47,
       "deadline_not_reached": 13,
       "insufficient_evidence": 36,
-      "not_machine_measurable": 694,
-      "audited_total": 800
+      "not_machine_measurable": 707,
+      "audited_total": 814
     },
     "claim_memory": {
       "families_total": 47,
@@ -417,24 +417,6 @@
             "mobility"
           ],
           "shared_numbers": []
-        },
-        {
-          "id": "6d45a2d8204ddf76d6",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Open Magazine",
-          "source_url": "https://openthemagazine.com",
-          "title": "‘First Trade Deal With a European Bloc’: India, Switzerland Seal Pacts as Modi Eyes $100 Bn Investment - Open Magazine",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQeVhOdnpTRC1ZQTJwWG10cnpLYVVVOEozSGFFV2MyZWx4UkFzazhoMS1EM2FhZXFyN1hCb0M2SjBIQVgyUkgtZjBlY2tUU3Rha1NjQmVNT3NRN2EyRVlYNFpncGRMazlHdThJTVZUQW5vcjNmT2V2N2VuSXhSTnZZWUdxMzVXRnhFNjNHSnNwbmpOZFdlMnJJSms4NzJjeDNiMlRma0ljRktWZjZMbWlwWGdGZTJVM3RYamJaX2d2RFlPR28tUXJvM0dUaWlXcmgtNm9XaC0xa0xWSnpTOUE?oc=5",
-          "published_at": "2026-10-05T09:11:12+00:00",
-          "snippet": "‘First Trade Deal With a European Bloc’: India, Switzerland Seal Pacts as Modi Eyes $100 Bn Investment Open Magazine",
-          "lexical_overlap": 0.087,
-          "relevance": 0.157,
-          "matched_terms": [
-            "open",
-            "switzerland"
-          ],
-          "shared_numbers": []
         }
       ],
       "fact_checks": [],
@@ -511,637 +493,6 @@
       "signal": {
         "level": "reporting_found",
         "label": "Relevant reporting found; primary evidence still needed",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "63b703ab25dbb97e26",
-      "claim": "The manner in which India’s Captain Smita displayed patience, prudence, and courage, and as the Prime Minister of Israel said today, this Indian prevented another 9/11 from taking place.",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "9",
-          "11"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "f69d64ba78b07d9988d1",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address at the Centenary Celebrations of UPSC",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
-        "published_at": "2026-10-01T09:05:21+00:00"
-      },
-      "query": "9 11 manner which captain smita displayed patience",
-      "numbers": [
-        "11",
-        "9"
-      ],
-      "promise_matches": [],
-      "evidence": [],
-      "fact_checks": [],
-      "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "88113c4cc7679dfe59",
-      "claim": "Friends, Today is not only a celebration of 100 years of the UPSC, but also a celebration of a legacy.",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "100 years"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "f69d64ba78b07d9988d1",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address at the Centenary Celebrations of UPSC",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
-        "published_at": "2026-10-01T09:05:21+00:00"
-      },
-      "query": "100 celebration friends not only upsc but",
-      "numbers": [
-        "100"
-      ],
-      "promise_matches": [
-        {
-          "id": "BJP-2014-57bcf542e13c9c5e0a",
-          "year": 2014,
-          "category": "infrastructure",
-          "page": 23,
-          "anchor": "We will not only empower our citizens with the ability to dream; we will …",
-          "source_url": "https://library.bjp.org/jspui/handle/123456789/252",
-          "similarity": 0.167,
-          "matched_terms": [
-            "not",
-            "only"
-          ]
-        },
-        {
-          "id": "BJP-2019-2d472e66c61e44c78f",
-          "year": 2019,
-          "category": "jobs_economy",
-          "page": 25,
-          "anchor": "The supercomputer, Afiificial Intelligence and Quantum Missions will make India not only Industry 5.0 …",
-          "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
-          "similarity": 0.167,
-          "matched_terms": [
-            "not",
-            "only"
-          ]
-        }
-      ],
-      "evidence": [
-        {
-          "id": "fd5dc1627142a90060",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Times of India",
-          "source_url": "https://timesofindia.indiatimes.com",
-          "title": "UPSC turns 100: The story of India’s civil services recruitment body - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORUhBemg4djBROG5pclR6NHFvQU5zZ0tRbmdCcDRBZGQ1enRTNFlBaFRFd3ctc0dvWDl6UDhuc2xPa3N5aXBHQ3lYeU9rYmdIUGdJVmlvbi1zMTJ6ell4TWFOYUNWNmg3YzVWanZVcjdJOFk0MDRvbnNrMnNjaXJWVHdLdVRZQV9qTldSNlpsM1JWXzhPRzZxR1ZMcjZSMFEyam4tZnZub1Q4cWg0UHYxRjJNczNCbWF5emlFM29QOW14OVpaS0NnMXJ2czhnNVpZNkpDWTR6eThrTTDSAeABQVVfeXFMTlVUNE8zODlESmZ6d2s1XzN4U2lNa19nY3EyVlUwVHNTMWxMbWgyYjJvLUdCMlVGSHBLcEZUVVU1aVVyR2E3Rk5BOXgycFhSa09zUjJnRkNXSnlyTEVoUzE3eXM2QktKSHhMTU5wY0w0Q1A4eWdzdUo1VDBzcWtsUFlnSXNKOXRiVkU1eE1jQ01WdW4xTFNRMzBTdU5fRnJ6Zmg2WmFhYU94MU5xVTVpTXU2U0ljc0ZiWF9TdUVOVjdRa1FLRlM4MXY0RFpwTXk4WVJRalhaR3VTVlo2LWMycGY?oc=5",
-          "published_at": "2026-10-01T06:48:00+00:00",
-          "snippet": "UPSC turns 100: The story of India’s civil services recruitment body The Times of India",
-          "lexical_overlap": 0.071,
-          "relevance": 0.216,
-          "matched_terms": [
-            "upsc"
-          ],
-          "shared_numbers": [
-            "100"
-          ]
-        },
-        {
-          "id": "26914ba3b76f717a88",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Times of India",
-          "source_url": "https://timesofindia.indiatimes.com",
-          "title": "PM Modi urges UPSC to test aspirants’ motivation for joining civil services, not just academic knowledge - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNQjI5cE96MUtKWS11M0JwQ08xVUxYeWpjbVZybENQYUtNQnFOX1VMRGJDWXpDNU1WTGpWSUNPdy1WS1NjRW90Q3J2YmxKdlVYcDFVZDdlN1FCRUoyYVJDcTFSb1dPMTBrSmhqZnJKSEpaWXBVRlZ0dDkxdjNISDJlWXRIdUF6eG9nR0Z5S1BRYTVsWmtXd25HbV9TT19EV3hOTExNdElPRnAtQTA3T2ktZFRkVlN4MXZHNUswaHlObGxhY0VrdGlPWUJsa3c3dTRnVkdKZUYyMnZFeE5YeTBldXVxdlBNVWl6OGpXaWxUbWFlWjBWMnpWcFJiMXM2RDjSAYQCQVVfeXFMTlpkTXAweHpYbE1QYU81SEVxcUV6d21ZUnFBLTM1XzhxcjB4WjQtODA1UFlIRFppdVNNamZ3SF9uazZnZGlQYUZlbWpPUkhjeUJ4NEpwdEs1YjB1bE96Y0t1SmtwZDNlWU9NNExtSW0yQ0hXdXd3WVc4THk4MlNBM2hleG5OSnRWNmF5R09ocVJFR0FiZ2Y0VE50b1lLNlFoMmhJLVJ4U3JNdkd1RUdWeDRzSXI0dGZYR1VXbWk4M0VnNGZWT1c0TWFITk04UjlwVWZZc2JjMFI3NDMtWlEwVTc3TWFhbmVHM3pLWXB6aGF4akVPUWhMdDJMOWZtSDdnaFgyaTM?oc=5",
-          "published_at": "2026-10-01T13:48:00+00:00",
-          "snippet": "PM Modi urges UPSC to test aspirants’ motivation for joining civil services, not just academic knowledge The Times of India",
-          "lexical_overlap": 0.105,
-          "relevance": 0.175,
-          "matched_terms": [
-            "not",
-            "upsc"
-          ],
-          "shared_numbers": []
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "6627bae11c2e4166b3",
-      "claim": "A commemorative postage stamp and coin marking this 100-year journey have just been released.",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "100"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "f69d64ba78b07d9988d1",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address at the Centenary Celebrations of UPSC",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
-        "published_at": "2026-10-01T09:05:21+00:00"
-      },
-      "query": "100 commemorative postage stamp coin marking journey",
-      "numbers": [
-        "100"
-      ],
-      "promise_matches": [],
-      "evidence": [
-        {
-          "id": "e771b2c69725b6d832",
-          "scope": "broad_official_search",
-          "tier": "primary",
-          "source": "DD News",
-          "source_url": "https://ddnews.gov.in",
-          "title": "PM Modi releases commemorative stamp marking 100 years of RSS - DD News",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWVBydEM0X0MxSW9ZbEN5cl84Nm11aFg4djMtSkJyM1AzRGxwQ2dOZWhDOEF1MnducEVNeGlycFNqMWw0cFU3ZUl5blhFTS1MUHF3UE9lQVVIcURvNjZUdmFmQ0cweFJnb0xxd2FjYUtJb3I3VmhZRTluSHUwaHY4QThybmxvdXZjMTdGdnZsbUQ?oc=5",
-          "published_at": "2025-10-01T07:00:00+00:00",
-          "snippet": "PM Modi releases commemorative stamp marking 100 years of RSS DD News",
-          "lexical_overlap": 0.214,
-          "relevance": 0.479,
-          "matched_terms": [
-            "commemorative",
-            "marking",
-            "stamp"
-          ],
-          "shared_numbers": [
-            "100"
-          ],
-          "nli": {
-            "entailment": 0.0157,
-            "neutral": 0.8986,
-            "contradiction": 0.0857
-          }
-        },
-        {
-          "id": "c2609b02c2e4e84993",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Times of India",
-          "source_url": "https://timesofindia.indiatimes.com",
-          "title": "'Example of sacrifice, selfless service': PM Modi hails RSS' 100-year journey; releases postage stamp - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNMjNBYTJnVks4Y2xtbGR5WkNsNlZ6VmgzRmZqOVc3VVlIcVJMOWpNZzNyOW45QXBNODBnV0ZrclhnSVVYWWxkN2daRWNKV1hZb0t4RHBYUDI4T2Vxc1gtZkFEN2V4aGdiMEptRlA5OHUxa0NsNFhuUmxjTkpzcTFaWWtTZVRmU201WFhySV9GUGZCN3dKaV9wVjJOWjRibVpyclFKVFhCS3B4c3k3QUdUMG1iQ1dDSlJjVlg1YkwzTmVneXdSWUFaTUZkVS0xcXhUemtCdG1LeTFaWi0tcUViTzNRR3ZvcHlReVJDcVBHZ2tTM1NPUHNoQklBc0pmSDR0YURwMVMta3d2YWx3OU1IVERn0gGXAkFVX3lxTE1CR2dXak01SmVTamt1VG9JWV9yTWdGOHdWYlZYaEVNT0NVZGRPOUgwZUdxWGlPSmtSX2p2VkFDc0ZDdDYzZHdhcEUxVVFZR1NMZTBEUzY2TWJlVGlqQ04zVTNSS1RDY0VpZ1hVSlkxaVhDNnRTUjFCTjBNcklqWEFnSlF3YXJPcmQxLUljVTR6elR3X3hiUzVGZVR3NFR4ZHFkMlJxREhLbnQta3hPd3dDOEFMb3d1SS10NXdoQ01rRkx0U2xyLUp5VzdiVmxiRWdKUUdxbzNOWkFvUWxnLWpHUUk3TmlWT3huLWVrWDlneU15aG9tRXItc1hmdGNmNWVtVEg2R2l2RlVxc3A4RUVwWWotUDlKTQ?oc=5",
-          "published_at": "2025-10-02T07:00:00+00:00",
-          "snippet": "'Example of sacrifice, selfless service': PM Modi hails RSS' 100-year journey; releases postage stamp The Times of India",
-          "lexical_overlap": 0.167,
-          "relevance": 0.382,
-          "matched_terms": [
-            "journey",
-            "postage",
-            "stamp"
-          ],
-          "shared_numbers": [
-            "100"
-          ]
-        },
-        {
-          "id": "8b50bde9763ea5dead",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Deccan Chronicle",
-          "source_url": "https://www.deccanchronicle.com",
-          "title": "AU Marks Centenary With Commemorative Coin, Stamp - Deccan Chronicle",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNV09lSXlldFlWR2xaMm55Tm1ZME1oWm0tWmUtMHBXVFRRYzRHZlc2UFR0RjJfYW54eHlEVUk3RUQtNUt2NnZNSmtKOVY4TzdxS2xIRVBhVXFDZEVKc0g2emFneUU0Z1RRdmwyV3RXVDlrQ0xkc0tFeU5SOW1NOThzd25kVmFoVEdqMUhhRmJlb09UblhVUm5PUTk3anNrZXNieUk4UW0tM01JT0hNbmt3MzZXTFQyb3NzajY40gHAAUFVX3lxTE5WeWR6SzRtWk9Xd096WHVjUGFEQTdoSmxGNGlIX3JuZHVNR280UG1fWHpJbGJ5eEhfNmo5a1lzTHc2b0hfYXotbTljcmJMRmVMX0t3SXhiaXBkYnhydmc3SWNLbGtFTWRjc2tKempKT3g0d3R2UE96YkNzbF9XLThVRTlQMFMtbEpuUC1SUmlHY0xwUDNrTllzRllRSDRfemZHZjRoZzl5UEJGbm1lQkdST3d0VEh6dG9uVG5CNUppeg?oc=5",
-          "published_at": "2026-04-27T07:00:00+00:00",
-          "snippet": "AU Marks Centenary With Commemorative Coin, Stamp Deccan Chronicle",
-          "lexical_overlap": 0.214,
-          "relevance": 0.319,
-          "matched_terms": [
-            "coin",
-            "commemorative",
-            "stamp"
-          ],
-          "shared_numbers": []
-        },
-        {
-          "id": "e4eb90407989fc9551",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "TheWire.in",
-          "source_url": "https://m.thewire.in",
-          "title": "‘Falsifying History’ Says Opposition as Modi Releases Stamp, Coin to Mark RSSs Centenary - TheWire.in",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPLURFd1NrdGV5VFRpemk1Qm4zMXBNV0dIY2dOOC1xQXpBTENnZ1Q1MG9ZQUg4NWhiQVZOTmlrX2IxS1BydXhMNm0tVmtxckJIM1ktVm9Nb2hwMHNOb2JrWGtCU1gyZGVDUE1fdFdvYVE2Z3Jvc201N0hrODlFRGlhQnVkMzdINUhUMVdzQmFNc3d3OFVDT1h1ZHJBQzjSAaIBQVVfeXFMT2RTbjI0aUxMZW1UMzVBLXR0Nmo3dlkyckdRQlk5NFQ0X0JyaDVLRkZLVlFKNFZGb1hlN2hYYWpQMFY0MUhQMWc0aG9sMnNZSEFrWWZfMXczUURtZlVzak01Qno2eHJZQUxWYUhhZ3BxLWVyLUtFenpxSnUzSTB6LV91X0JWWG9hQzJMUl9SWm1VTXJLSkVrYUJSTUlIVU52ZUJB?oc=5",
-          "published_at": "2025-10-01T07:00:00+00:00",
-          "snippet": "‘Falsifying History’ Says Opposition as Modi Releases Stamp, Coin to Mark RSSs Centenary TheWire.in",
-          "lexical_overlap": 0.118,
-          "relevance": 0.188,
-          "matched_terms": [
-            "coin",
-            "stamp"
-          ],
-          "shared_numbers": []
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "structured_support_candidate",
-        "label": "Relevant primary evidence shares claim terms and numeric values",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "d443adc2a0e2470ae9",
-      "claim": "A compilation of 100 important case laws has also been published.",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "100"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "f69d64ba78b07d9988d1",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address at the Centenary Celebrations of UPSC",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
-        "published_at": "2026-10-01T09:05:21+00:00"
-      },
-      "query": "100 compilation important case laws has published",
-      "numbers": [
-        "100"
-      ],
-      "promise_matches": [],
-      "evidence": [
-        {
-          "id": "2ad33682c50a0e4648",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Landmark Chambers",
-          "source_url": "https://www.landmarkchambers.co.uk",
-          "title": "86 - A new ACCC case law collection has landed - Landmark Chambers",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPM1FHRkVDUngtU1c0TjQyY05RNUxHd2pybVVuY2lSdGhfTmo0blJndzNOeFNOZ3lLLTRBb0JVOWNMRHdjazc5UDh0YWFWQVNFSTd2cGlERlJYbXVhV3NZVWVWbTJiNU9NSEc2LTBWcG42RGl0a2gtSzdFS3Jxb2xHOGJBUjU5RmhPYjFYVmdKR3BJMWh4eVc5ZEFJYkRCUVlMY25tUFNiZXR6Zw?oc=5",
-          "published_at": "2026-09-09T07:00:00+00:00",
-          "snippet": "86 - A new ACCC case law collection has landed Landmark Chambers",
-          "lexical_overlap": 0.167,
-          "relevance": 0.237,
-          "matched_terms": [
-            "case",
-            "has"
-          ],
-          "shared_numbers": []
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "c2a19aa48972aa09e4",
-      "claim": "A little while ago, I was visiting the gallery that has been set up here, and I would encourage all of you to spend 10 to 15 minutes exploring it.",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "10",
-          "15"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "f69d64ba78b07d9988d1",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address at the Centenary Celebrations of UPSC",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
-        "published_at": "2026-10-01T09:05:21+00:00"
-      },
-      "query": "15 10 little while ago was visiting gallery",
-      "numbers": [
-        "10",
-        "15"
-      ],
-      "promise_matches": [],
-      "evidence": [],
-      "fact_checks": [],
-      "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "f6a1dd2c05d49c3e3c",
-      "claim": "I noticed a photograph from the 75th anniversary celebrations in which Lt.",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "75"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "f69d64ba78b07d9988d1",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address at the Centenary Celebrations of UPSC",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
-        "published_at": "2026-10-01T09:05:21+00:00"
-      },
-      "query": "noticed photograph th anniversary celebrations which",
-      "numbers": [],
-      "promise_matches": [],
-      "evidence": [
-        {
-          "id": "da7a554c3d581bcc7a",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Vice President Graces 140th Anniversary Celebrations of Deepika Malayalam Daily in Kottayam - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5xVWp1NmZ6c0xyZFpuVlpseUkzRDNmVGxTdXpLWEdQNU03V0dNQktJZTl5R01rei05RDRuaGpUSWJScEJLQjZtNjFoOUZ6MGQwa3pMcDF5V0ltTC1DamdxSUs4SnFHSFlpYV9DQlZoOVJCclF4dF9GbU5B?oc=5",
-          "published_at": "2026-05-31T07:00:00+00:00",
-          "snippet": "Vice President Graces 140th Anniversary Celebrations of Deepika Malayalam Daily in Kottayam PIB",
-          "lexical_overlap": 0.2,
-          "relevance": 0.355,
-          "matched_terms": [
-            "anniversary",
-            "celebrations",
-            "th"
-          ],
-          "shared_numbers": [],
-          "nli": {
-            "entailment": 0.0032,
-            "neutral": 0.9308,
-            "contradiction": 0.066
-          }
-        },
-        {
-          "id": "2c13ec6d7302e890d1",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Prime Minister Shri Narendra Modi addresses the 100th birth anniversary celebrations of Bharat Ratna Dr. Bhupen Hazarika in Guwahati, Assam - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5VZkV2Q1dOV1pyRDNBZHBxNkV5Qjh1clRHc2hKSmlYTDYwa1BsT2RHQ1V2Mm9uakhnRllDUXYzT0YyaFoyN2s5emRuSmZqXzF4bERVYmxDV2tTMm4tUGtzVmdMeFpBSlZr?oc=5",
-          "published_at": "2025-09-13T07:00:00+00:00",
-          "snippet": "Prime Minister Shri Narendra Modi addresses the 100th birth anniversary celebrations of Bharat Ratna Dr. Bhupen Hazarika in Guwahati, Assam PIB",
-          "lexical_overlap": 0.176,
-          "relevance": 0.331,
-          "matched_terms": [
-            "anniversary",
-            "celebrations",
-            "th"
-          ],
-          "shared_numbers": [],
-          "nli": {
-            "entailment": 0.0047,
-            "neutral": 0.8441,
-            "contradiction": 0.1512
-          }
-        },
-        {
-          "id": "a43ebe630d5ecab72d",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Digital Camera World",
-          "source_url": "https://www.digitalcameraworld.com",
-          "title": "Happy World Photography Day! 🥳 This year marks the 200th anniversary of the first ever photo… but what IS World Photography Day and why is it today? - Digital Camera World",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcVZ1RndTdGJsOHI1T21QbFlKcFZ4OTdsa1pWQ0FwNFFCdmhDb1I3N1ZVMnY3Q3hjM3o1eEp3a19jamtZWHNNNkpud0dxQjFqb3FzUThram14QjJrS3E3U1ppT1RWSUhjd3liOHRHSTNPY241eEttYkctTFVqYnhPNGlZZmE1cTZqNlozVlJoY2V0alpRdUY5MVFoX3VqTmdVckE?oc=5",
-          "published_at": "2026-08-19T07:00:00+00:00",
-          "snippet": "Happy World Photography Day! 🥳 This year marks the 200th anniversary of the first ever photo… but what IS World Photography Day and why is it today? Digital Camera World",
-          "lexical_overlap": 0.1,
-          "relevance": 0.17,
-          "matched_terms": [
-            "anniversary",
-            "th"
-          ],
-          "shared_numbers": []
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "primary_evidence_found",
-        "label": "Relevant verified primary evidence candidate found",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "69276105583e101638",
-      "claim": "Today, at the age of 90, he is present among us.",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "90"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "f69d64ba78b07d9988d1",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address at the Centenary Celebrations of UPSC",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
-        "published_at": "2026-10-01T09:05:21+00:00"
-      },
-      "query": "90 age he present among us",
-      "numbers": [
-        "90"
-      ],
-      "promise_matches": [],
-      "evidence": [
-        {
-          "id": "f5944ee62b358b0134",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Reuters",
-          "source_url": "https://www.reuters.com",
-          "title": "Steve Reich on making music at age 90 - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZnQ1QlVlTXVBeEZJU0RZYVJRbFdvUllvclRydFFQcy15cGZaQWZsRmQwMTE4czVYdmpfaDZKREh6dUQ3RFdQdjE4QV9Bd0xwRmJrc0dOQkFSdWhFMzRndTAzdDRubkh2QldwLVpwMTBkME82N0JocGhjQXpoQ0M1S3VqTnRlaVM4UXJnT1pjY2FrUDlPeDNVVg?oc=5",
-          "published_at": "2026-10-03T10:47:38+00:00",
-          "snippet": "Steve Reich on making music at age 90 Reuters",
-          "lexical_overlap": 0.1,
-          "relevance": 0.245,
-          "matched_terms": [
-            "age"
-          ],
-          "shared_numbers": [
-            "90"
-          ]
-        },
-        {
-          "id": "093c5e48aab37dc212",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Kansas City Jewish Chronicle",
-          "source_url": "https://www.kcjc.com",
-          "title": "Blanche Sosland, community pillar, educator and advocate, dies at age 90 - Kansas City Jewish Chronicle",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWlVvUUhZR0RvcXNWYzVhT2lkVmpPdGdxeDZEN2pOejhXbVBmNHBFajdYbDB2VjhEMXJneG45MjhiTmZ4SmdIZGFXY2tMb1o0dDZjUWJpNmdSUGhxZmctVlNQX3RxU1Zqd3hZV0N4VEEzOU1QZW1HVjNJR0ZkS212MUlzX0JMQQ?oc=5",
-          "published_at": "2026-07-09T07:00:00+00:00",
-          "snippet": "Blanche Sosland, community pillar, educator and advocate, dies at age 90 Kansas City Jewish Chronicle",
-          "lexical_overlap": 0.062,
-          "relevance": 0.208,
-          "matched_terms": [
-            "age"
-          ],
-          "shared_numbers": [
-            "90"
-          ]
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "6df0bf295350af0cd6",
-      "claim": "While looking through the gallery, I noticed that it also contains information about how Subhas Chandra Bose went through this very process in 1920.",
-      "extraction": {
-        "reasons": [
-          "number",
-          "comparison"
-        ],
-        "numbers": [
-          "1920"
-        ],
-        "context_before": "Every one of them deserves appreciation and recognition."
-      },
-      "claim_source": {
-        "id": "f69d64ba78b07d9988d1",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address at the Centenary Celebrations of UPSC",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
-        "published_at": "2026-10-01T09:05:21+00:00"
-      },
-      "query": "1920 every one them deserves appreciation recognition",
-      "numbers": [
-        "1920"
-      ],
-      "promise_matches": [],
-      "evidence": [],
-      "fact_checks": [],
-      "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "8627b9532420ebafc0",
-      "claim": "The steel frame that was required for the reconstruction of the nation was provided by Sardar Vallabhbhai Patel.",
-      "extraction": {
-        "reasons": [
-          "accomplishment"
-        ],
-        "numbers": [],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "f69d64ba78b07d9988d1",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address at the Centenary Celebrations of UPSC",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
-        "published_at": "2026-10-01T09:05:21+00:00"
-      },
-      "query": "was steel frame required reconstruction nation",
-      "numbers": [],
-      "promise_matches": [],
-      "evidence": [
-        {
-          "id": "f493d31a57406ba143",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Sardar Patel - Man who United India - PIB",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5UNnF4Y09ONVJsMXczdEZ0SlowbFE3ODItSVhPZWxVMFg0eGJpckhRN1NuTFBMZUlUMVdsdFpmWFB2YkxnU2htVVVrMXNXeU5MX1RhRmNPYzZUTkdiMVEyMUVMSUZDZ29fZXJwT3lR?oc=5",
-          "published_at": "2017-10-30T07:00:00+00:00",
-          "snippet": "Sardar Patel - Man who United India PIB",
-          "lexical_overlap": 0.143,
-          "relevance": 0.263,
-          "matched_terms": [
-            "patel",
-            "sardar"
-          ],
-          "shared_numbers": [],
-          "nli": {
-            "entailment": 0.007,
-            "neutral": 0.9792,
-            "contradiction": 0.0138
-          }
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "primary_evidence_found",
-        "label": "Relevant verified primary evidence candidate found",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -1558,7 +909,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-05T10:24:58+00:00",
       "last_seen": "2026-10-05T10:24:58+00:00",
-      "latest_checked_at": "2026-10-10T13:39:57.426485+00:00",
+      "latest_checked_at": "2026-10-10T18:34:14.858619+00:00",
       "latest_claim_packet_id": "36af41d1f474135176"
     },
     {
@@ -1582,7 +933,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-05T10:24:58+00:00",
       "last_seen": "2026-10-05T10:24:58+00:00",
-      "latest_checked_at": "2026-10-10T13:39:57.426523+00:00",
+      "latest_checked_at": "2026-10-10T18:34:14.858660+00:00",
       "latest_claim_packet_id": "64350ab72af5545228"
     },
     {
@@ -1798,7 +1149,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-05T10:24:58+00:00",
       "last_seen": "2026-10-05T10:24:58+00:00",
-      "latest_checked_at": "2026-10-10T13:39:57.426560+00:00",
+      "latest_checked_at": "2026-10-10T18:34:14.858700+00:00",
       "latest_claim_packet_id": "775a9a25cc5414cbea"
     },
     {
@@ -1990,7 +1341,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-05T10:24:58+00:00",
       "last_seen": "2026-10-05T10:24:58+00:00",
-      "latest_checked_at": "2026-10-10T13:39:57.426541+00:00",
+      "latest_checked_at": "2026-10-10T18:34:14.858679+00:00",
       "latest_claim_packet_id": "0e71e9aca86b4c154c"
     },
     {
@@ -2281,7 +1632,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-05T10:24:58+00:00",
       "last_seen": "2026-10-05T10:24:58+00:00",
-      "latest_checked_at": "2026-10-10T13:39:57.426576+00:00",
+      "latest_checked_at": "2026-10-10T18:34:14.858717+00:00",
       "latest_claim_packet_id": "aceda866d7e8ef92a8"
     }
   ],
@@ -42475,8 +41826,8 @@
       }
     },
     {
-      "id": "05e0979e7f32ba2f72",
-      "checked_at": "2026-10-10T13:39:59.642739+00:00",
+      "id": "0764c49dce738dbbee",
+      "checked_at": "2026-10-10T18:34:17.278534+00:00",
       "promise_id": "BJP-2019-18c0750d5ed71bc3d1",
       "year": 2019,
       "category": "agriculture",
@@ -42502,7 +41853,7 @@
       "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
-      "query": "10000 2022 enable creation farmer producer organisations fpos",
+      "query": "2022 10000 enable creation farmer producer organisations fpos",
       "evidence": [
         {
           "id": "8cd391cfb62be9602f",
@@ -42553,30 +41904,6 @@
           "promise_core_overlap": [
             "farmer",
             "fpos",
-            "producer"
-          ]
-        },
-        {
-          "id": "6dba73a6b672f68e0e",
-          "scope": "broad_official_search",
-          "tier": "primary",
-          "source": "Ministry of Food Processing Industries",
-          "source_url": "https://www.mofpi.gov.in",
-          "title": "FARMER PRODUCER ORGANISATIONS POLICY & PROCESS GUIDELINES FOR - Ministry of Food Processing Industries",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNemRUS3BtTVBEWTdvNW13TEt4RVNGT05vRllBUmpUR1huVnJzdEp4NUFaNzN3Tk41ajVwcUtXVEU0N3owdWlqYkVDUlduUXdsRU43WmpnOFBDSDVOd21TZTJmM3Ita29WNVJTVTJGYlE4a2ZfWkQyZFRLSFJoOUZuWFYtY0ZfVmpaNkVOQ1AxVWVNYVBkTGc?oc=5",
-          "published_at": "2021-12-22T16:16:57+00:00",
-          "snippet": "FARMER PRODUCER ORGANISATIONS POLICY & PROCESS GUIDELINES FOR Ministry of Food Processing Industries",
-          "lexical_overlap": 0.158,
-          "relevance": 0.313,
-          "matched_terms": [
-            "farmer",
-            "organisations",
-            "producer"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "farmer",
-            "organisations",
             "producer"
           ]
         },
@@ -42649,32 +41976,6 @@
           ]
         },
         {
-          "id": "f01c6cce754d006ea9",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "India Development Review",
-          "source_url": "https://idronline.org",
-          "title": "IDR Explains | Farmer producer organisations (FPOs) - India Development Review",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNS18tSjZWcjBOdHZpU0dHWm40RmlXdmZ2bTdrV2hfb3ozUnFBTEYtQUd2UmhmcnN0R0NUZUdCTW0zR2loWkRrdXJlMUVoaUdiZWxZQzlqNkN3eWo2eXRNTkFKN0l0WVRrZzUtb0ZhYkRZaDRma1NPXzdkREl4LWgxYml4aUE1S3NhMU9raEdBc3d2YWNrQUM0?oc=5",
-          "published_at": "2023-08-10T07:00:00+00:00",
-          "snippet": "IDR Explains | Farmer producer organisations (FPOs) India Development Review",
-          "lexical_overlap": 0.25,
-          "relevance": 0.39,
-          "matched_terms": [
-            "farmer",
-            "fpos",
-            "organisations",
-            "producer"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "farmer",
-            "fpos",
-            "organisations",
-            "producer"
-          ]
-        },
-        {
           "id": "531ed5a861c168b322",
           "scope": "news_search",
           "tier": "secondary",
@@ -42744,6 +42045,51 @@
             "farmer",
             "organisations",
             "producer"
+          ]
+        },
+        {
+          "id": "1af39614098ce2c5d1",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "YourStory.com",
+          "source_url": "https://yourstory.com",
+          "title": "Flipkart signs MoU with SERP to enable market access, growth for FPOs, SHGs in Telangana - YourStory.com",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdGxJNXQ4NFR1ZldsQi1veEx3MUEzLW1keWV6d0kySm5zd0pVVVZrUnZiLWhQQlhTWkFfLUJvVVp2aFFNQzBZMGg2a0M2SWxSQUpEZFRsWDJUblpsb21JTDNiTVJ4OE8ycHplcVJyZlV3Z3pmTzhRZUhZN1VqQzVlUDFaNVQ1a21PSld0T093?oc=5",
+          "published_at": "2022-06-25T07:00:00+00:00",
+          "snippet": "Flipkart signs MoU with SERP to enable market access, growth for FPOs, SHGs in Telangana YourStory.com",
+          "lexical_overlap": 0.136,
+          "relevance": 0.241,
+          "matched_terms": [
+            "access",
+            "enable",
+            "fpos"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "access",
+            "fpos"
+          ]
+        },
+        {
+          "id": "634c286094b85d4f4a",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Down To Earth",
+          "source_url": "https://www.downtoearth.org.in",
+          "title": "Doubling farmers’ income by 2022 a challenge: NABARD official - Down To Earth",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVmJGN1R2NjhlaV9LV3R0a01JeHVQbGZLT3hFTGtfVmNDaVlXbVpRSm9BYmRub3hsVlVndWQzZTNhSjFQNUpFX0FqeHVHOVRCSzRlYzJCbVFJYjBHRXlTWDJrYjk0OFdrbE81TkY3YzFxMjNTQUl0OTR3Vm5kRGRNTWRpZm4tVGlOTmFPNVNCdHF5WHZoT3VybnFKa0FDZ1B1ZXAyMElBYzBhWkdn0gG6AUFVX3lxTE8yZ1NVbnduTHQzMEpadDBJa1h1cHlPVXgyWmtBclJiUDlaNXliWXV4Ykc4bWdnSFJESEpBZjBlOGYwbTNxU0Q0MEREMGE1UnlHb0tPRzdiZ1NWYXpTVnF4cl91LVlDS2FZXzJ4bGxvZmF3ak9uY2lEb25IQVNTV2JwYlZEcXhmODBYQkNORUszYmliRHd0UmltRGtIVENwVEJwX0xCSUpyWlNQeUxUQnpvSDM3X1F5SW45Zw?oc=5",
+          "published_at": "2017-12-29T08:00:00+00:00",
+          "snippet": "Doubling farmers’ income by 2022 a challenge: NABARD official Down To Earth",
+          "lexical_overlap": 0.053,
+          "relevance": 0.198,
+          "matched_terms": [
+            "farmers"
+          ],
+          "shared_numbers": [
+            "2022"
+          ],
+          "promise_core_overlap": [
+            "farmers"
           ]
         }
       ],
@@ -44129,7 +43475,7 @@
     },
     {
       "id": "f5811520c1d5623f19",
-      "checked_at": "2026-10-10T13:40:01.473072+00:00",
+      "checked_at": "2026-10-10T18:34:19.079314+00:00",
       "promise_id": "BJP-2019-1d3e95fa9344e842f3",
       "year": 2019,
       "category": "infrastructure",
@@ -44250,7 +43596,7 @@
     },
     {
       "id": "92d6920a15fb42f812",
-      "checked_at": "2026-10-10T13:40:18.483158+00:00",
+      "checked_at": "2026-10-10T18:34:37.526382+00:00",
       "promise_id": "BJP-2019-6abf03adda773fec98",
       "year": 2019,
       "category": "governance",
@@ -47436,7 +46782,7 @@
     },
     {
       "id": "1e0abc9f94016f3c7a",
-      "checked_at": "2026-10-10T13:40:02.942795+00:00",
+      "checked_at": "2026-10-10T18:34:20.669694+00:00",
       "promise_id": "BJP-2019-2af396deaf778cac73",
       "year": 2019,
       "category": "infrastructure",
@@ -47521,7 +46867,7 @@
     },
     {
       "id": "4af70c5cc4e5dd31ea",
-      "checked_at": "2026-10-10T13:40:09.110420+00:00",
+      "checked_at": "2026-10-10T18:34:27.414899+00:00",
       "promise_id": "BJP-2019-34c03859f07f1329c5",
       "year": 2019,
       "category": "infrastructure",
@@ -49415,7 +48761,7 @@
     },
     {
       "id": "93bb9754ab7125c8f1",
-      "checked_at": "2026-10-10T13:40:14.156337+00:00",
+      "checked_at": "2026-10-10T18:34:32.637964+00:00",
       "promise_id": "BJP-2019-6013bbae5c9fbd8c5a",
       "year": 2019,
       "category": "women_social_justice",
@@ -49481,7 +48827,7 @@
     },
     {
       "id": "1d1782ad81aa54afcd",
-      "checked_at": "2026-10-10T13:40:16.302985+00:00",
+      "checked_at": "2026-10-10T18:34:34.994103+00:00",
       "promise_id": "BJP-2019-63e2ccda189fa85e2c",
       "year": 2019,
       "category": "health_welfare",
@@ -54157,7 +53503,7 @@
     },
     {
       "id": "21c782a6ad2ecb8987",
-      "checked_at": "2026-10-10T13:40:05.979073+00:00",
+      "checked_at": "2026-10-10T18:34:24.110347+00:00",
       "promise_id": "BJP-2019-2cfa1375f165d41707",
       "year": 2019,
       "category": "other",
@@ -55358,7 +54704,7 @@
     },
     {
       "id": "09db92a7679f9e887b",
-      "checked_at": "2026-10-10T13:40:11.143876+00:00",
+      "checked_at": "2026-10-10T18:34:29.505655+00:00",
       "promise_id": "BJP-2019-4fc8289de8caed52ff",
       "year": 2019,
       "category": "other",
@@ -58161,7 +57507,7 @@
     },
     {
       "id": "92f4f289aa6bff6bae",
-      "checked_at": "2026-09-30T08:33:10.105609+00:00",
+      "checked_at": "2026-10-10T18:34:49.421638+00:00",
       "promise_id": "BJP-2014-57d26610af4e3fb2a1",
       "year": 2014,
       "category": "women_social_justice",
@@ -58184,30 +57530,7 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/252/1/bjp_lection_manifesto_english_2014.pdf",
       "related_promises": [],
       "query": "ancient times almost religions practiced different",
-      "evidence": [
-        {
-          "id": "b5b215d820f4111e6e",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "people.howstuffworks.com",
-          "source_url": "https://people.howstuffworks.com",
-          "title": "6 Largest Religions in the World and Population Growth Trends - people.howstuffworks.com",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA2cTFUbk1vck16dVhPcHlJQU9KOWdId0FOOHR2Y1puTkZhaVNrMUVCeXZYWmp5cGtxUk8tTm1tbUdnVlhkN1VtVmIyU0Z6d0Jib0gyYnp6MFNac01ETWRCYjBhdFFGY0dKbTZUb1lRdHNjb3JWSUE?oc=5",
-          "published_at": "2026-06-04T07:00:00+00:00",
-          "snippet": "6 Largest Religions in the World and Population Growth Trends people.howstuffworks.com",
-          "lexical_overlap": 0.111,
-          "relevance": 0.181,
-          "matched_terms": [
-            "religions",
-            "world"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "religions",
-            "world"
-          ]
-        }
-      ],
+      "evidence": [],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -58347,6 +57670,68 @@
           "promise_core_overlap": [
             "need",
             "political"
+          ]
+        }
+      ],
+      "implementation_signal": "needs_research",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
+      "id": "a4cff9b778015d622f",
+      "checked_at": "2026-10-10T18:34:57.301743+00:00",
+      "promise_id": "BJP-2014-61938de067ca524401",
+      "year": 2014,
+      "category": "other",
+      "page": 12,
+      "anchor": "BJP will take immediate and decisive action to address these issues on a priority …",
+      "exact_text": "BJP will take immediate and decisive action to address these issues on a priority basis.",
+      "keywords": [
+        "immediate",
+        "decisive",
+        "action",
+        "address",
+        "issues",
+        "priority",
+        "basis"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://library.bjp.org/jspui/handle/123456789/252",
+      "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/252/1/bjp_lection_manifesto_english_2014.pdf",
+      "related_promises": [],
+      "query": "immediate decisive action address issues priority",
+      "evidence": [
+        {
+          "id": "6be1a2c718f6d6b04d",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "ANI News",
+          "source_url": "https://www.aninews.in",
+          "title": "\"Urgent need for us to collaborate, take decisive actions\": NSA Ajit Doval at 5th BIMSTEC security meeting - ANI News",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPVEhsTmdWaV9PaGp6dlBXa095NnlFanVpdkxIQW8yVDRRTTQxUUt3ZUJaa3hieEJhNDFGeGoyRmcwRkJJS0toZUh2YzZuM3RINGhfRVZ1LUM1eDd0YlRSOFRVRWFFVE9yLU9TclpYcVR2QTQwdjRiaUV6TkVEendUdHViVlJ4LXE1U1RBYlpSejY1UVlYVzJjSTFhb1JSUmVKam84SzY1QjU5UnYydzZ4MlI5b1ZCT1RDZ1JOdmtxcVNoMktBcU56ZmtOXzZ6Mmd5OTdfTzBaU0hiS1Jtd25sQjhMLUNFdXdiM3RB?oc=5",
+          "published_at": "2026-07-16T07:00:00+00:00",
+          "snippet": "\"Urgent need for us to collaborate, take decisive actions\": NSA Ajit Doval at 5th BIMSTEC security meeting ANI News",
+          "lexical_overlap": 0.091,
+          "relevance": 0.161,
+          "matched_terms": [
+            "decisive",
+            "take"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "decisive",
+            "take"
           ]
         }
       ],
@@ -58549,6 +57934,291 @@
       }
     },
     {
+      "id": "5283952a3e45d32b4c",
+      "checked_at": "2026-10-10T18:35:00.239757+00:00",
+      "promise_id": "BJP-2014-641b033773bdf7a1f9",
+      "year": 2014,
+      "category": "other",
+      "page": 13,
+      "anchor": "We will set up a Task Force for this purpose and to recommend amendments …",
+      "exact_text": "We will set up a Task Force for this purpose and to recommend amendments to existing laws or enact new laws.",
+      "keywords": [
+        "laws",
+        "set",
+        "task",
+        "force",
+        "purpose",
+        "recommend",
+        "amendments"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://library.bjp.org/jspui/handle/123456789/252",
+      "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/252/1/bjp_lection_manifesto_english_2014.pdf",
+      "related_promises": [],
+      "query": "laws set task force purpose recommend",
+      "evidence": [
+        {
+          "id": "e6946ed40514ec3948",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Task Force set up to examine matters pertaining to age of motherhood, imperatives of lowering MMR, improvement of nutritional levels and related issues - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFByTjNDWXF2aVd3U3lOZUdkZUQ5YmdIeDZ1aGRmOGhwMVhzZkZfUGdmVmtpa0xnenRqZFdIX1NiNnBvbkhZdDJwU1JSQlBwZ2dHTTVwcjRLRHdybllEd08wV0s2aWNwdGs5?oc=5",
+          "published_at": "2020-06-06T07:00:00+00:00",
+          "snippet": "Task Force set up to examine matters pertaining to age of motherhood, imperatives of lowering MMR, improvement of nutritional levels and related issues PIB",
+          "lexical_overlap": 0.182,
+          "relevance": 0.372,
+          "matched_terms": [
+            "force",
+            "set",
+            "task",
+            "up"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "force",
+            "task"
+          ]
+        },
+        {
+          "id": "9d68d28173e869b4c9",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Task Force on Shell Companies takes pro-active and coordinated steps to check the menace of shell companies - PIB",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB3WDlRNmU2Ry1UX1QwUXZteEE3dlhYcE02VWZtT0JMUmFUcDFoVi1PVERQenQ1dE5rWlVIeWtqekE3TkdCRTZqazVrc05kemRoNlVTNWJxM0E4M1Rna1JEVWFTejlpYnBUVXFUYUd3?oc=5",
+          "published_at": "2018-06-08T07:00:00+00:00",
+          "snippet": "Task Force on Shell Companies takes pro-active and coordinated steps to check the menace of shell companies PIB",
+          "lexical_overlap": 0.105,
+          "relevance": 0.225,
+          "matched_terms": [
+            "force",
+            "task"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "force",
+            "task"
+          ]
+        },
+        {
+          "id": "bd34bd44768f19c236",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Hindu",
+          "source_url": "https://www.thehindu.com",
+          "title": "Task force to be set up as child safety efforts against internet use falling short: Maharashtra Minister - The Hindu",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQZkZGSDRRb1FtX05USVZMVlIxbGYzZEJsLTNudG5UQ1hZM0gyOUwzMzk5NWN2aWxuaVNJNHVucHpaRlZiMVpDSXgtdHh5MFl0anNkd21iaVNvMmN4SnZaS3d4Y29jY2ZMRmx4QWYzcGpPMzNKenhDellpQmRZZkotUm9meDZIRllYS1ZiV3Z0ZV80TEJJUWlPZUhTbjR5VE5abkp5MEc2eEx4Vzl6UTlfaEdsc1pXanc4MEZwNDdSeENjeU1jRjlwMnZwaVJhRTBKRVMxc3ZsSGNjcGZyc1VzLV9OOTVoTk3SAe4BQVVfeXFMTmE3dEs2SGVGWUtsNmE1bTE4WFNmNWJMenhfQk9kT0xRT1lUbFpFVm44NENSWnZIM0NESGhBMFdTWFZzYVl2OXRtbkJibkZxaEUxbFlDVkJORlFTdi1aemNlTTJobko1b2JRWnowUjNZZnR2RGJmQ3l2TUZiRlJTYjJUTVZaenY3b09WajFiLTFMTjRJdE92b1pIc3ZxMWhYbW5ZNXdwaFVoblZPRnczRTJiUVI5RUNaaEtQeTd3NUt4ako4dkRuV2xYMTdTSlVFREdVam1RdjBfTWFYNFdxRG1ObTNXcFl4UWx1SU9MUQ?oc=5",
+          "published_at": "2026-03-18T07:00:00+00:00",
+          "snippet": "Task force to be set up as child safety efforts against internet use falling short: Maharashtra Minister The Hindu",
+          "lexical_overlap": 0.2,
+          "relevance": 0.34,
+          "matched_terms": [
+            "force",
+            "set",
+            "task",
+            "up"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "force",
+            "task"
+          ]
+        },
+        {
+          "id": "53924d6f1eb20baa1b",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Free Malaysia Today",
+          "source_url": "https://www.freemalaysiatoday.com",
+          "title": "MACC sets up task force to review Tabung Haji RCI findings - Free Malaysia Today",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNHZoQ1FNSU9oWjlELUU1VGhEb20zWHl3VERXekZSTHNTbW5HZUh6aXRZZ1pQZU1qMUNNaDNTeTNCWGNFQ0FOZ2lQa2Y5a1c1ekl4TmxjUzZpSTdmTHZmZFFPZVM2dmZuQ3ZHUzRYQWxtZlJBM09SOENxOWpUQXBXM2lhS0FNX1VFRGY2clZOdWNhaTVnZFQ3WjdKNm1qbTlmY1BzNXEzc1FqaTRoVkZkRTdJdjJibzNwNVI0?oc=5",
+          "published_at": "2026-07-30T07:00:00+00:00",
+          "snippet": "MACC sets up task force to review Tabung Haji RCI findings Free Malaysia Today",
+          "lexical_overlap": 0.158,
+          "relevance": 0.263,
+          "matched_terms": [
+            "force",
+            "task",
+            "up"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "force",
+            "task"
+          ]
+        },
+        {
+          "id": "00ccaf6ea8205e6e3b",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "World of Showjumping",
+          "source_url": "https://www.worldofshowjumping.com",
+          "title": "FEI sets up multi-discipline Task Force to review horse welfare protocols across the sport - World of Showjumping",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPNC14YzFPUDl3Qk82UGJYTFpZSjB5U1o3V01LSWRVdjliTU5zRmlhbGRadm4yWU5SUEppSW10cmpIcGtpbDRQQ09iM0dSTDdzYTd4cTdiVWZBRUdOandvVGJ4V1pYTE1DNnJNYW1pYnk4N0FaZzRDamNlc2tYemRHZVlqNkoyVU9tdTlfeXRyNEJ0QWI0WjlJNUdJalpSMDV0djVmZllNS2Z1TDBJZnJVZ2M5TVJHamQzd1B1VDduYWZENGgxRVNjWDFONFZGS1pHWkZyNg?oc=5",
+          "published_at": "2026-05-29T07:00:00+00:00",
+          "snippet": "FEI sets up multi-discipline Task Force to review horse welfare protocols across the sport World of Showjumping",
+          "lexical_overlap": 0.15,
+          "relevance": 0.255,
+          "matched_terms": [
+            "force",
+            "task",
+            "up"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "force",
+            "task"
+          ]
+        },
+        {
+          "id": "826f927c8229c370c9",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Standard (HK)",
+          "source_url": "https://www.thestandard.com.hk",
+          "title": "Govt sets up task force to review AI legal frameworks, Paul Lam says - The Standard (HK)",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMW9GWkgtMlNERnl0cVlYcWl5TzFjOUZHWHRsR2djYnRCcGxwbkp5eXJCUkQ1Vk9vQ0NMSXVMRndlcGN3SUN4U2l6SFM1ZlFpSE9vMUhhUlpnQ3h0WGROVEctOTRCWThOSjl0YUhXZXEzUDV3UlYyV2xLcVk0dk1FQUpDdXlLUVFwOUF5MUl4eFJ6N3I3NndhYVAwOXJRN1FkOXlEUDZuUXVsNDRxWGpoMFEwOEt1blFHQXc?oc=5",
+          "published_at": "2026-06-10T07:00:00+00:00",
+          "snippet": "Govt sets up task force to review AI legal frameworks, Paul Lam says The Standard (HK)",
+          "lexical_overlap": 0.15,
+          "relevance": 0.255,
+          "matched_terms": [
+            "force",
+            "task",
+            "up"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "force",
+            "task"
+          ]
+        },
+        {
+          "id": "5b5347278292aa9c81",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Axios",
+          "source_url": "https://www.axios.com",
+          "title": "Kennedy fires heads of task force that sets insurance coverage rules - Axios",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNc21FN3ozSFZXWmRCVWJQbkMzdkN3YUlyOTFENmtId2VvS2xtOGxPSWV5R0diY0xheDI3eERQdjVrWEd5VElDNVVSVHpPSjlkaEpqTVF4TGFIcEozTWw4bGdaUzJRdmNfRXY5Rk9vdlR5ZHZCVmhLMjhZVU9jTzNSTi01Q0xTcUhLZlBRQnF1cHJzOWZOcEV1V1d6UkpDUGRFWTVn?oc=5",
+          "published_at": "2026-05-20T07:00:00+00:00",
+          "snippet": "Kennedy fires heads of task force that sets insurance coverage rules Axios",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
+          "matched_terms": [
+            "force",
+            "task"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "force",
+            "task"
+          ]
+        }
+      ],
+      "implementation_signal": "action_detected",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "progress_documented",
+        "deadline_year": null,
+        "proof_strength": "verified_primary_action_with_object_overlap",
+        "proof_evidence_id": "e6946ed40514ec3948",
+        "proof": null,
+        "reason": "Verified primary evidence overlaps the subject of the promise and documents implementation activity, but not the promised outcome."
+      }
+    },
+    {
+      "id": "6c9e5904a2af32fcb0",
+      "checked_at": "2026-10-10T18:35:01.394195+00:00",
+      "promise_id": "BJP-2014-662eef1961ece261eb",
+      "year": 2014,
+      "category": "other",
+      "page": 13,
+      "anchor": "We will also proactively engage with foreign Governments to facilitate information sharing on black …",
+      "exact_text": "We will also proactively engage with foreign Governments to facilitate information sharing on black money.",
+      "keywords": [
+        "proactively",
+        "engage",
+        "foreign",
+        "governments",
+        "facilitate",
+        "information",
+        "sharing"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://library.bjp.org/jspui/handle/123456789/252",
+      "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/252/1/bjp_lection_manifesto_english_2014.pdf",
+      "related_promises": [],
+      "query": "proactively engage foreign governments facilitate information",
+      "evidence": [
+        {
+          "id": "63f2206988a9e92b6f",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Generation of Black Money in the Country - PIB",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5TeXZQd1lLeV9pTWVuS3pNTkpmR2w1Y2tjVFdXTnpYV1BrREFIZjhuVzdQWE9qNi1jYUdzTDdyem1uZmI0ejU1QWUtZnUtVlp2ZllteFp4bXluN1lLRC1nREFjT2ozTFJhdXdUaXZn?oc=5",
+          "published_at": "2015-05-05T07:00:00+00:00",
+          "snippet": "Generation of Black Money in the Country PIB",
+          "lexical_overlap": 0.182,
+          "relevance": 0.302,
+          "matched_terms": [
+            "black",
+            "money"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "black",
+            "money"
+          ]
+        },
+        {
+          "id": "ef1dd6173a92bcae0c",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Steps taken by Government to curb the generation of black money - PIB",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE02czg2VEJyX0pTaDd2amJTNlh3WUYwTU9TdUJTX2VVMWwtVjI3WmZnWFg0WHRNbmlWVUZXTUVFOUhBSHp0cDZTN0N5N0NpUzlSQWhQVUpvRXR1UnNDdjhNMkloS2g5cU1KZjBUWnZ3?oc=5",
+          "published_at": "2017-03-10T08:00:00+00:00",
+          "snippet": "Steps taken by Government to curb the generation of black money PIB",
+          "lexical_overlap": 0.143,
+          "relevance": 0.263,
+          "matched_terms": [
+            "black",
+            "money"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "black",
+            "money"
+          ]
+        }
+      ],
+      "implementation_signal": "current_primary_evidence_found",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
       "id": "0a0233c8baf4083a9c",
       "checked_at": "2026-10-07T08:39:06.338080+00:00",
       "promise_id": "BJP-2014-7f677fe9b12086274b",
@@ -58726,6 +58396,132 @@
       "query": "mind remove bottlenecks missing links sectors",
       "evidence": [],
       "implementation_signal": "needs_research",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
+      "id": "730ffb0f2e521d7680",
+      "checked_at": "2026-10-10T18:35:04.939224+00:00",
+      "promise_id": "BJP-2014-6ac49251bc279cba86",
+      "year": 2014,
+      "category": "women_social_justice",
+      "page": 14,
+      "anchor": "The BJP will work for restoring the trust and credibility of the Government.",
+      "exact_text": "The BJP will work for restoring the trust and credibility of the Government.",
+      "keywords": [
+        "restoring",
+        "trust",
+        "credibility"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://library.bjp.org/jspui/handle/123456789/252",
+      "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/252/1/bjp_lection_manifesto_english_2014.pdf",
+      "related_promises": [],
+      "query": "restoring trust credibility",
+      "evidence": [
+        {
+          "id": "75421a66b6a23f6026",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "CIRSD",
+          "source_url": "https://cirsd.org",
+          "title": "Restoring Credibility, Delivering Results - CIRSD",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNc00wZW1lSGhwN3VET25nSnRRU2xveXJqUHZ6VVhBamlXMmFzbjVwV3lyWm81bEs3N3BzX2lxZnA3c3Nzc3hQQ0ZaVzhONVpjeG44SHI0Mi1SRUM2TlhTMXpWN1pfM2R5SGxBOV9SdzF6aWVCZ19EeWVZU3B0cndBMg?oc=5",
+          "published_at": "2026-07-28T12:15:01+00:00",
+          "snippet": "Restoring Credibility, Delivering Results CIRSD",
+          "lexical_overlap": 0.286,
+          "relevance": 0.356,
+          "matched_terms": [
+            "credibility",
+            "restoring"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "credibility",
+            "restoring"
+          ]
+        },
+        {
+          "id": "7ebd0a1075c027aa25",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Asian Network for Free Elections",
+          "source_url": "https://anfrel.org",
+          "title": "Rebuilding Trust, Restoring Credibility: Accountability and Electoral Integrity in Nepal 2026 - Asian Network for Free Elections",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbDBteG5RN3h5RkZtR0h5RXNHcktzZ0trN1lhUVczTHVkUUJsS293Y3owYU1VVjhVd0xlQXZ5bE0tXzdXaS02QVEtWFRiWkdqS3dVODRVU0tXUkJfazZ5SmYxcHU0bGlKTmYySFNNMmZXMlZMVWZEYWQ4SU9iZUZ1YVNpWUtad3lDeTVucGVJWVpYWlV2LUlZZTAyS09KbHgxcUc0a3FsTWRCZ09jX2RCWQ?oc=5",
+          "published_at": "2026-05-13T07:00:00+00:00",
+          "snippet": "Rebuilding Trust, Restoring Credibility: Accountability and Electoral Integrity in Nepal 2026 Asian Network for Free Elections",
+          "lexical_overlap": 0.231,
+          "relevance": 0.336,
+          "matched_terms": [
+            "credibility",
+            "restoring",
+            "trust"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "credibility",
+            "restoring",
+            "trust"
+          ]
+        },
+        {
+          "id": "874533855775eb3df3",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The South First",
+          "source_url": "https://thesouthfirst.com",
+          "title": "Jantar Mantar protests and restoring trust in India’s education system - The South First",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUUJGYUFoVmFhMGgwOWxINHY2WDRsNW1UWjNrYjBwc0cxdVIxUjZsdUpOM2c0UDNZM190SDFWQXVSNGtXeUJyblR5YVJXMXg1d1hyN2NXbV84eXJDYkc0MXNYRVJnU2M2dy1qSGF5S3JvekxOekt0LXI4VEtncHhlV1FzQksySmJUanAzcS1yMHRHMFBvMzh5cG1yUHJxbl94UWxlZ1U5OA?oc=5",
+          "published_at": "2026-07-25T07:00:00+00:00",
+          "snippet": "Jantar Mantar protests and restoring trust in India’s education system The South First",
+          "lexical_overlap": 0.182,
+          "relevance": 0.252,
+          "matched_terms": [
+            "restoring",
+            "trust"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "restoring",
+            "trust"
+          ]
+        },
+        {
+          "id": "a548ed5e8c2fde5cce",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "TheCable",
+          "source_url": "https://www.thecable.ng",
+          "title": "Restoring trust, managing transformation: Has the United Nations lost its way? - TheCable",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbDNyM0xiODlMVFhNb25tRFpZQmlySjRuZ1pKUHF5bVBoa3U4a3lCN1gyQWxZRXpBVFJZa0pQQUUyR0NqTHpwS1lHcDFTel9yQWx0dVdnVVQxSkt4N19FNTFOa21WZm94eC1BTFBjbUhtdVN0bG5SeThOTEUtYzR4M2c3SEtfd3hGS3ZMM1cwLVVqNk9pNUd4UnJXbnRDZFZ0Z1E?oc=5",
+          "published_at": "2026-09-22T07:00:00+00:00",
+          "snippet": "Restoring trust, managing transformation: Has the United Nations lost its way? TheCable",
+          "lexical_overlap": 0.167,
+          "relevance": 0.237,
+          "matched_terms": [
+            "restoring",
+            "trust"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "restoring",
+            "trust"
+          ]
+        }
+      ],
+      "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -58930,7 +58726,7 @@
     },
     {
       "id": "4b09958de42662f9eb",
-      "checked_at": "2026-09-30T08:33:07.090347+00:00",
+      "checked_at": "2026-10-10T18:34:45.993956+00:00",
       "promise_id": "BJP-2014-4e29817d170c4c4929",
       "year": 2014,
       "category": "other",
@@ -59078,6 +58874,113 @@
         }
       ],
       "implementation_signal": "current_primary_evidence_found",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
+      "id": "2b3f599b16be0fadf5",
+      "checked_at": "2026-10-10T18:34:52.944006+00:00",
+      "promise_id": "BJP-2014-5920b5d6acbfbfd42e",
+      "year": 2014,
+      "category": "women_social_justice",
+      "page": 16,
+      "anchor": "We shall give the highest priority towards bringing the eastern parts of the country …",
+      "exact_text": "We shall give the highest priority towards bringing the eastern parts of the country on par with the western parts.",
+      "keywords": [
+        "parts",
+        "give",
+        "highest",
+        "priority",
+        "towards",
+        "bringing",
+        "eastern"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://library.bjp.org/jspui/handle/123456789/252",
+      "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/252/1/bjp_lection_manifesto_english_2014.pdf",
+      "related_promises": [],
+      "query": "parts give highest priority towards bringing",
+      "evidence": [
+        {
+          "id": "6f05bdd03a435bd24c",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Rozgar Melas organized at 45 locations across the country as part of the Prime Minister’s commitment to accord highest priority towards employment generation - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1HNmtWSkFyajBaUW1UQjlNbGJBRFZyT1lTQ0hKMi1wWkJsWmVrdnI3ZEx5ZnJYYTRVRFVwdXN4NmN3MXlqV0x4el94aUdRYWpfRlBTNmtHa09yZmhDWHNXWjR6VDMtRlVy?oc=5",
+          "published_at": "2023-05-16T07:00:00+00:00",
+          "snippet": "Rozgar Melas organized at 45 locations across the country as part of the Prime Minister’s commitment to accord highest priority towards employment generation PIB",
+          "lexical_overlap": 0.158,
+          "relevance": 0.313,
+          "matched_terms": [
+            "highest",
+            "priority",
+            "towards"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "highest",
+            "priority"
+          ]
+        },
+        {
+          "id": "c5141e8cdf7f59e8ad",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "ET Government",
+          "source_url": "https://government.economictimes.indiatimes.com",
+          "title": "Assam Budget gives highest priority to power sector: BJP - ET Government",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWXdkQUJ6VlJKTEZQMXdPY1dMV1FjYzNxcVhHQ0xkNGd3Sm84Q1NPRGFDYkFRVW9aemFBQm5kVC02bE9xSFRBT0JHXzRoNnZHT2F4SVpCUGFyZk9sWU9VRGJQNEJzT2hmak9uTW52QTA2OGRQbWd0STlDbkxneHRBQ0xYUWxhdmJTcV9lVHlFSHdYZVF6dmJ4YkhIUmI1QkNqeXVaVlRWR3c0aGFxVDJQZGFUc043d0RCSjVEUkN0b0UzRHRw0gHKAUFVX3lxTE5KNlJic1pXM2tFUmZDMTBCSWtsMFU1M1oxc2t3aXRuMEo1dHRvWlpjWlpaZ1h6Rk0yNnhGQS1CWG9QQUZhaTdyUC11QXFlS0pxV25td2xfZWhjZ3BEMGxJTDlrYTRIcFVGZVB2WHR6Z3VOMS01cE45LVJ6WkxvWnRNaEhjVmxmSjhvenN3WVhoV19mcWl2Sm95VnZpWDNPYmEwZkF5aGZ5RWtaZVlzX0FLbmdERmg5R0JxMW5fR0drRzFfTUdsQk5obUE?oc=5",
+          "published_at": "2026-07-12T07:00:00+00:00",
+          "snippet": "Assam Budget gives highest priority to power sector: BJP ET Government",
+          "lexical_overlap": 0.133,
+          "relevance": 0.203,
+          "matched_terms": [
+            "highest",
+            "priority"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "highest",
+            "priority"
+          ]
+        },
+        {
+          "id": "ba6414ed2ca893a8e6",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Statesman Journal",
+          "source_url": "https://www.statesmanjournal.com",
+          "title": "Grasshopper Fire near Mount Hood grows, is Oregon's highest priority - Statesman Journal",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOanAxV2JIbkhrWHJIUmpQQ1VyWFNsaVlhN05iWHlrMmtPWHdXWW5wY21pOE5IT2ZfRG1GbXh1V1psbTJRcHU1MkZFd0U1bzN3ZE1fdEZrZm1NR0hicXR0cVZuc0I2TTEwcm11MmRJQllmcWU5OXI5dHhsN3k2aUFvRVdlcnducHR1Mi0zQmxuN1BtN18yWTQwWmhSNHRKeEtka200SkNXbGlXOVhGNmNETkNnWWZQbS1LSW14dVowLWVVN2FyN1E?oc=5",
+          "published_at": "2026-08-05T07:00:00+00:00",
+          "snippet": "Grasshopper Fire near Mount Hood grows, is Oregon's highest priority Statesman Journal",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
+          "matched_terms": [
+            "highest",
+            "priority"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "highest",
+            "priority"
+          ]
+        }
+      ],
+      "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -59318,6 +59221,108 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/252/1/bjp_lection_manifesto_english_2014.pdf",
       "related_promises": [],
       "query": "engagement pro-active pro-people good governance itself",
+      "evidence": [],
+      "implementation_signal": "needs_research",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
+      "id": "fb0978ce47d3fe26da",
+      "checked_at": "2026-10-10T18:34:59.044617+00:00",
+      "promise_id": "BJP-2014-630be916e0739b9509",
+      "year": 2014,
+      "category": "other",
+      "page": 17,
+      "anchor": "We will further evolve the Public Private Partnership (PPP) model into a People-Public-Private Partnership …",
+      "exact_text": "We will further evolve the Public Private Partnership (PPP) model into a People-Public-Private Partnership (PPPP) model.",
+      "keywords": [
+        "partnership",
+        "model",
+        "further",
+        "evolve",
+        "public",
+        "private",
+        "ppp"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://library.bjp.org/jspui/handle/123456789/252",
+      "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/252/1/bjp_lection_manifesto_english_2014.pdf",
+      "related_promises": [],
+      "query": "partnership model further evolve public private",
+      "evidence": [
+        {
+          "id": "90e301218851bb18a8",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Business Times",
+          "source_url": "https://www.businesstimes.com.sg",
+          "title": "Singapore’s public-private partnership model must evolve as other countries ‘roll out red carpet’ for investments: panellists - The Business Times",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQSVRLZ2lSZ0lySzh4N1hCajBpa0wxQlBfMDZlUi1Xa2dvODhBWEVXRjZ4RlVzbVVMQU9XeUU3MnlIM252M2g3OTVZaDNCcHMxRHRnZ01BdDRDS2V0QzNZUHVjQUdKYTlSbjlxY1FIR2JxeHFMZkJacnBSb0ZfVVprZnVDenpLYW1yNENtSjFsQ1hrdjBWbkx0TDgtbDdCMWdtVHUzZXNDQzBRZUVMMjRFRlByZ2RKaUx5RW1DcHE4Ylk5aWtaYS0tOVE0ZndIY2M?oc=5",
+          "published_at": "2026-05-13T07:00:00+00:00",
+          "snippet": "Singapore’s public-private partnership model must evolve as other countries ‘roll out red carpet’ for investments: panellists The Business Times",
+          "lexical_overlap": 0.136,
+          "relevance": 0.241,
+          "matched_terms": [
+            "evolve",
+            "model",
+            "partnership"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "evolve",
+            "model",
+            "partnership"
+          ]
+        }
+      ],
+      "implementation_signal": "current_reporting_found",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
+      "id": "d35fb9a7d05255c58b",
+      "checked_at": "2026-10-10T18:35:08.955452+00:00",
+      "promise_id": "BJP-2014-6e1eb964accd464386",
+      "year": 2014,
+      "category": "other",
+      "page": 17,
+      "anchor": "We will encourage Openness in the Government, involving all stakeholders in the decision-making processes.",
+      "exact_text": "We will encourage Openness in the Government, involving all stakeholders in the decision-making processes.",
+      "keywords": [
+        "encourage",
+        "openness",
+        "involving",
+        "stakeholders",
+        "decision-making",
+        "processes"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://library.bjp.org/jspui/handle/123456789/252",
+      "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/252/1/bjp_lection_manifesto_english_2014.pdf",
+      "related_promises": [],
+      "query": "encourage openness involving stakeholders decision-making processes",
       "evidence": [],
       "implementation_signal": "needs_research",
       "status": "pending",
@@ -59646,7 +59651,7 @@
     },
     {
       "id": "df076e7dea8ba67624",
-      "checked_at": "2026-10-10T13:40:21.007783+00:00",
+      "checked_at": "2026-10-10T18:34:40.164445+00:00",
       "promise_id": "BJP-2014-078252941779345656",
       "year": 2014,
       "category": "women_social_justice",
@@ -60053,7 +60058,7 @@
     },
     {
       "id": "4b0325d3a7148fa2b3",
-      "checked_at": "2026-09-30T08:33:08.514015+00:00",
+      "checked_at": "2026-10-10T18:34:47.636528+00:00",
       "promise_id": "BJP-2014-57bcf542e13c9c5e0a",
       "year": 2014,
       "category": "infrastructure",
@@ -61091,6 +61096,123 @@
       }
     },
     {
+      "id": "c8876fda93a8c2e623",
+      "checked_at": "2026-10-10T18:34:54.195963+00:00",
+      "promise_id": "BJP-2014-5c45ee737181996ba5",
+      "year": 2014,
+      "category": "culture_heritage",
+      "page": 25,
+      "anchor": "BJP is thus committed to the preservation of the rich culture and heritage of …",
+      "exact_text": "BJP is thus committed to the preservation of the rich culture and heritage of India's minority communities; alongside their social and economic empowerment.",
+      "keywords": [
+        "thus",
+        "committed",
+        "preservation",
+        "rich",
+        "culture",
+        "heritage",
+        "minority"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://library.bjp.org/jspui/handle/123456789/252",
+      "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/252/1/bjp_lection_manifesto_english_2014.pdf",
+      "related_promises": [
+        {
+          "id": "BJP-2024-0fe72f887380b5487d",
+          "year": 2024,
+          "similarity": 0.273,
+          "matched_terms": [
+            "culture",
+            "heritage",
+            "rich"
+          ]
+        }
+      ],
+      "query": "thus committed preservation rich culture heritage",
+      "evidence": [
+        {
+          "id": "d36ee871976cc2b7b9",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Preserving India's Rich Heritage - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSFJmdEpyOXU3MmZpLW9TNGVMeTE0bDVNdVM0MEg2dG50R09INFg0WGlUQUxwNXdtVHY3Unp3RlVIQ3FtUDJkV1ZTcnZZbTd5VDZiV3pGbS0zY042aTFjSkc3Ykw5cDNpTDBZREN0UlpHZDRndEljWUVRSXhPb0I5SFZHUVFLbmpW?oc=5",
+          "published_at": "2023-06-20T07:00:00+00:00",
+          "snippet": "Preserving India's Rich Heritage PIB",
+          "lexical_overlap": 0.143,
+          "relevance": 0.263,
+          "matched_terms": [
+            "heritage",
+            "rich"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "heritage",
+            "rich"
+          ]
+        },
+        {
+          "id": "eeeac2e365f938ef7c",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "India’s Journey of Heritage Preservation - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE52YkdwSUJ6bjZSd0RJQk1oZFR6ZDhKRDFqSEUzWkl2eXd0SGgxT2xPeUZMZTVMd3Z2cTMtUVR4S09WS1MzaHd4d2JQTUZQUzNROEQ3X2NHeUhnM1VJOTdSTmtnOVNIeW9F?oc=5",
+          "published_at": "2025-04-17T07:00:00+00:00",
+          "snippet": "India’s Journey of Heritage Preservation PIB",
+          "lexical_overlap": 0.143,
+          "relevance": 0.263,
+          "matched_terms": [
+            "heritage",
+            "preservation"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "heritage",
+            "preservation"
+          ]
+        },
+        {
+          "id": "a4a39d4a520fa3ee2b",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Ministry of Culture and Ministry of Tourism partner with Netflix to showcase India's cultural heritage and tourism destinations through authentic storytelling - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBBNEt5akdVT0F0cGFQdDVTdDlBTzYzRmJUWF9UQXRDV2RoSVhkSVdhLXAtUllXcEJJampCNzNSRF90VXRQRU96c3VZdUJnSk52dDZ5MHBtRFdSM0ZPUlRmRGhScU90bWpqMzlMVy15TF8yd21Ja19MQ0Vn?oc=5",
+          "published_at": "2026-08-05T07:00:00+00:00",
+          "snippet": "Ministry of Culture and Ministry of Tourism partner with Netflix to showcase India's cultural heritage and tourism destinations through authentic storytelling PIB",
+          "lexical_overlap": 0.091,
+          "relevance": 0.161,
+          "matched_terms": [
+            "culture",
+            "heritage"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "culture",
+            "heritage"
+          ]
+        }
+      ],
+      "implementation_signal": "current_primary_evidence_found",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
       "id": "3a0f86c4603300e298",
       "checked_at": "2026-10-08T08:57:26.492125+00:00",
       "promise_id": "BJP-2014-8d90de0353f3d0f22a",
@@ -61252,6 +61374,96 @@
         }
       ],
       "implementation_signal": "current_primary_and_reporting_found",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
+      "id": "048b1cc1d79fcf0f6c",
+      "checked_at": "2026-10-10T18:34:55.587716+00:00",
+      "promise_id": "BJP-2014-60e8e57052807a642a",
+      "year": 2014,
+      "category": "agriculture",
+      "page": 26,
+      "anchor": "Through the idea of Rurban, we will bring urban amenities to our rural areas, …",
+      "exact_text": "Through the idea of Rurban, we will bring urban amenities to our rural areas, while retaining the soul of the village.",
+      "keywords": [
+        "idea",
+        "rurban",
+        "bring",
+        "urban",
+        "amenities",
+        "rural",
+        "areas"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://library.bjp.org/jspui/handle/123456789/252",
+      "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/252/1/bjp_lection_manifesto_english_2014.pdf",
+      "related_promises": [],
+      "query": "idea rurban bring urban amenities rural",
+      "evidence": [
+        {
+          "id": "5d06d9dd9aef710043",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "GK Today",
+          "source_url": "https://www.gktoday.in",
+          "title": "Provision of Urban Amenities to Rural Areas (PURA) - GK Today",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1mWld3WVlZdDd5MlJzTU5IQXVWTUlrekdrcmczZ3kzbGxtbkhFMFBEUkhlZ1VsRXVoc3A2MHI1aWRRWUZVczZTNzZDWUFoQmJyZnNlSU5qWlk5c1Npb2J4RGxJUmtiRkNtUXhxeTlhMk1BeUpMZExPVTBxMGw?oc=5",
+          "published_at": "2025-10-14T07:00:00+00:00",
+          "snippet": "Provision of Urban Amenities to Rural Areas (PURA) GK Today",
+          "lexical_overlap": 0.286,
+          "relevance": 0.426,
+          "matched_terms": [
+            "amenities",
+            "areas",
+            "rural",
+            "urban"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "amenities",
+            "areas",
+            "rural",
+            "urban"
+          ]
+        },
+        {
+          "id": "6df7664080391e6dd5",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "SabrangIndia",
+          "source_url": "https://sabrangindia.in",
+          "title": "Introducing Go Rurban: A social event that connects the urban with the rural - SabrangIndia",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcmJyUzVjN2V4TmRyc2pyc2RhMV9IX2RfYzBEYXBxbzhSb01nUnRIR0hfeW0xYjFNS2xBUFRUZ3lPXzZyLWMwTHR5OXRRaWNkcnJqWmVGVmpaS0FFdV9NX0lzQW0wSFVDbGJpMlA2bS1BdzhyLU1fM0xJRHBGUDAzN1RoR3RhdUpqVENPc2dyMkNPdw?oc=5",
+          "published_at": "2020-11-24T08:00:00+00:00",
+          "snippet": "Introducing Go Rurban: A social event that connects the urban with the rural SabrangIndia",
+          "lexical_overlap": 0.176,
+          "relevance": 0.281,
+          "matched_terms": [
+            "rural",
+            "rurban",
+            "urban"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "rural",
+            "rurban",
+            "urban"
+          ]
+        }
+      ],
+      "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -61641,6 +61853,92 @@
       "query": "children vulnerable dwellers following steps survival",
       "evidence": [],
       "implementation_signal": "needs_research",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
+      "id": "5e4668c4702642f3a7",
+      "checked_at": "2026-10-10T18:35:06.974108+00:00",
+      "promise_id": "BJP-2014-6c074ffccd38504925",
+      "year": 2014,
+      "category": "other",
+      "page": 27,
+      "anchor": "We will take measures to deal with the issues related to the senior citizens …",
+      "exact_text": "We will take measures to deal with the issues related to the senior citizens in a focused manner.",
+      "keywords": [
+        "measures",
+        "deal",
+        "issues",
+        "related",
+        "senior",
+        "citizens",
+        "focused"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://library.bjp.org/jspui/handle/123456789/252",
+      "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/252/1/bjp_lection_manifesto_english_2014.pdf",
+      "related_promises": [],
+      "query": "measures deal issues related senior citizens",
+      "evidence": [
+        {
+          "id": "f445f93eab5f14ab58",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Outlook Money",
+          "source_url": "https://www.outlookmoney.com",
+          "title": "Kerala Government Announces Welfare Measures, Sets Up Dedicated Department For Senior Citizens - Outlook Money",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdTBNUDROekM4cU5yM1daQTJTdU1Rc3VxY085MTNHd3Fqak5LcjVqMmFENkkxSkpKcUtRZ2RNczNIY0staWpSMmlIbjBwZWE0ZjR4RTRHT1huT2t1aEhmN181ajFiRzRUODZTOFpBbEtNT0hXTlJfRWhGTzBrRV9CVzJLMDJOUlgxV2pRVWhNckk5ZTI0QnRoUUpkVG00UlFWckpCLWxfVkVlOGZaOWhfdGNIUlphLXZBcFNnbDZuSEVfekdCWlBxazZ6QWVMQdIB2wFBVV95cUxNTDV0Y0VfaTJZdlVBa3dPcVk2MFBrX0x6SDJzRkVMZWxXdXNqYWFhWE90aFR1QzlybC0waDB3dmUxSzNwNS1DZktiY2RkZk9iZUE2QTZTbjNEYjNZLW1CMmhCSlJZR0o0bzJ4aVM2S21pcS1SVlBydjllcnJYeUo2V2lxTEpjSUc1TXZZbk1ROUJfOWtMU2U5bHdqMy1NTUdWeHhMUkp2Mm04bXFxT0lPdTZXMTB3dTNWclVoZlRWSzZXMU1sOFFsUDFic00yWGY1UUd4V3VBVHJEMTg?oc=5",
+          "published_at": "2026-05-19T07:00:00+00:00",
+          "snippet": "Kerala Government Announces Welfare Measures, Sets Up Dedicated Department For Senior Citizens Outlook Money",
+          "lexical_overlap": 0.167,
+          "relevance": 0.272,
+          "matched_terms": [
+            "citizens",
+            "measures",
+            "senior"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "measures",
+            "senior"
+          ]
+        },
+        {
+          "id": "2c2c4347e9198efaca",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Government Issues Model Guidelines for Development and Regulation of Retirement Homes for Senior Citizens: MoS for Social Justice and Empowerment Shri B. L. Verma in Written Reply in Rajya Sabha - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE92dERpWWJIX2hsT2JRUnMtY1FPRVg2TzN4UUNxNVltYk1aWUFDMFNsTlNnZ1RmdGxmSzVjZDQtNFppNVdFSGlVXzJ6bVloemFDXy0tVER2TE8ySGJvRmNPYTNicW9NY21tUlV5VFdQdUZyb3UtbE05VU13?oc=5",
+          "published_at": "2026-07-24T07:00:00+00:00",
+          "snippet": "Government Issues Model Guidelines for Development and Regulation of Retirement Homes for Senior Citizens: MoS for Social Justice and Empowerment Shri B. L. Verma in Written Reply in Rajya Sabha PIB",
+          "lexical_overlap": 0.136,
+          "relevance": 0.241,
+          "matched_terms": [
+            "citizens",
+            "issues",
+            "senior"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "issues",
+            "senior"
+          ]
+        }
+      ],
+      "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -62262,6 +62560,68 @@
       "related_promises": [],
       "query": "women welfare recognizes need security precondition",
       "evidence": [],
+      "implementation_signal": "needs_research",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
+      "id": "521acd9e5451062621",
+      "checked_at": "2026-10-10T18:35:03.116901+00:00",
+      "promise_id": "BJP-2014-6673cb30e8e8b62fbd",
+      "year": 2014,
+      "category": "infrastructure",
+      "page": 30,
+      "anchor": "We will transform the quality of life of women in Rural India by providing …",
+      "exact_text": "We will transform the quality of life of women in Rural India by providing electricity, tapped water, cleaner fuel and toilets in every home.",
+      "keywords": [
+        "transform",
+        "quality",
+        "life",
+        "women",
+        "rural",
+        "providing",
+        "electricity"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://library.bjp.org/jspui/handle/123456789/252",
+      "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/252/1/bjp_lection_manifesto_english_2014.pdf",
+      "related_promises": [],
+      "query": "transform quality life women rural providing",
+      "evidence": [
+        {
+          "id": "9037b4a5b3f6f574d6",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Indian Council Of Agricultural Research",
+          "source_url": "https://icar.org.in",
+          "title": "Drone Didi of Ayodhya: Giving Wings to Rural Women through Agri-Entrepreneurship - Indian Council Of Agricultural Research",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNV2ZuX1poREJreFpVRlB6dWhxbHlLWkhJQkVEY1Q0WUppMUpRX0lZTTBYWi1TRU9GZWVleU1oTlFBRmdFRnBLUk5BNzBjZTZCRDRlNnVnWmJyQy0tSi1YNUc5bE15V1FlNTlxZkJ3aThaLUlGVVN5S3hHQkQtcUFNNUlZTGZZcEhjSzZfcDBSRUNrcUU2anZJNEoyWTA?oc=5",
+          "published_at": "2026-10-01T11:58:34+00:00",
+          "snippet": "Drone Didi of Ayodhya: Giving Wings to Rural Women through Agri-Entrepreneurship Indian Council Of Agricultural Research",
+          "lexical_overlap": 0.095,
+          "relevance": 0.165,
+          "matched_terms": [
+            "rural",
+            "women"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "rural",
+            "women"
+          ]
+        }
+      ],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -64901,6 +65261,69 @@
       }
     },
     {
+      "id": "70a9f02600cd9199d2",
+      "checked_at": "2026-10-10T18:34:51.144637+00:00",
+      "promise_id": "BJP-2014-585ea3ade663b4d2e0",
+      "year": 2014,
+      "category": "jobs_economy",
+      "page": 37,
+      "anchor": "We will set up a task force to review and revive our MSME sector …",
+      "exact_text": "We will set up a task force to review and revive our MSME sector (Micro and Small Medium scale Enterprises); enabling it with better access to formal credit and technology for modernization.",
+      "keywords": [
+        "set",
+        "task",
+        "force",
+        "review",
+        "revive",
+        "msme",
+        "sector"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://library.bjp.org/jspui/handle/123456789/252",
+      "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/252/1/bjp_lection_manifesto_english_2014.pdf",
+      "related_promises": [],
+      "query": "set task force review revive msme",
+      "evidence": [
+        {
+          "id": "bb0c248a02765ac37c",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The New Indian Express",
+          "source_url": "https://www.newindianexpress.com",
+          "title": "CBIC probes Chennai Customs after Wintrack harassment claims; suspends broker, sets up task force - The New Indian Express",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNTC13NkpLX2x3TFZWOWNGNXVLWnF5UC1sLUltRS1qbzl4ZFJiVlpfQjB6d2hEMFZBdWdNZlc4LUwtYjFSNE85YkRMUTFHVk9XZGxZbWZkdWpURXJvY0VNMFRQRTd1dVR6cFJiekNSZ0lONjRMdV9LMHR2MzhvX3dPeEdnRTJVM0lIRkE5X3hvY2stUERUSzZmYXpOVXVIMlRHNV85SEhrWndUU0h3YWdnTUJJbEo3MlNaY3JEc0N4YWd5bXlKdDRIUl9TelR3aFZXTTlKc3VtRE5KbFpJaWw3SmFjclhJZ0hyRjM00gH4AUFVX3lxTE50Y1dHbFlBdFN6R1pidnRMeVhsc0VxN0d3T2UxdzBYTTY4SERibWFDUVFXVS16ZmNOWjk1WnZzNGdoTnQ5V0o5bHh0dGxGMUtyUHlWbFdfVmJ6NFRlS21xNHA0WXFNSGdnMWRMUi0wZ2VwVE1Fa3RRcC0wajU5VjB1MnBZX1VRQkNXYmdMc0p5ckRCUC1SeV90YlJ6N3pwSHJTekprNFhJRUh1V0Jjald2OVNEb0lHRl9yRGFZUFR6TjNJSVNBZVdsQjRYbnlqeWtEbEcyVzgya0VYbmxJMzFBWVNrV0JWS1BxSDNyak4yUi1wQlRVVE1T?oc=5",
+          "published_at": "2025-10-12T07:00:00+00:00",
+          "snippet": "CBIC probes Chennai Customs after Wintrack harassment claims; suspends broker, sets up task force The New Indian Express",
+          "lexical_overlap": 0.125,
+          "relevance": 0.23,
+          "matched_terms": [
+            "force",
+            "task",
+            "up"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "force",
+            "task"
+          ]
+        }
+      ],
+      "implementation_signal": "current_reporting_found",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
       "id": "eb3dcd50e57953d025",
       "checked_at": "2026-10-07T08:38:54.837276+00:00",
       "promise_id": "BJP-2014-75d0bd054dd766a4f2",
@@ -66029,7 +66452,7 @@
     },
     {
       "id": "1883a804ef9f04160d",
-      "checked_at": "2026-10-07T06:33:51.823582+00:00",
+      "checked_at": "2026-10-10T18:34:42.991858+00:00",
       "promise_id": "BJP-2014-46fe7842653afeca0b",
       "year": 2014,
       "category": "other",
@@ -66409,7 +66832,7 @@
     },
     {
       "id": "c47684ec686f98505d",
-      "checked_at": "2026-09-30T08:33:06.101503+00:00",
+      "checked_at": "2026-10-10T18:34:44.687205+00:00",
       "promise_id": "BJP-2014-4c560c7a333044edb6",
       "year": 2014,
       "category": "infrastructure",
@@ -66434,41 +66857,17 @@
       "query": "water encourage setting drinking supply grid",
       "evidence": [
         {
-          "id": "68ecf8c9882ccc024d",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Jal Jeevan Mission deploys first-of-its-kind sensor-based IoT devices to monitor rural drinking water supply systems - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE40MFpUOHNra0RtMGg3SFFIbVBnd2w5NVFNdzkwTS16dnMzTDNTaFhJeDV6R1Z4TG95akI3TEZWZUJOTHAxSmVTeWk0bmdsRlhwdTlJaTEwLW1sNnRJVTFYVjNIMndxSFpK?oc=5",
-          "published_at": "2021-03-31T07:00:00+00:00",
-          "snippet": "Jal Jeevan Mission deploys first-of-its-kind sensor-based IoT devices to monitor rural drinking water supply systems PIB",
-          "lexical_overlap": 0.143,
-          "relevance": 0.298,
-          "matched_terms": [
-            "drinking",
-            "supply",
-            "water"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "drinking",
-            "supply",
-            "water"
-          ]
-        },
-        {
-          "id": "d894ccb5c2e016ac15",
+          "id": "34437c2adfd86cbeb3",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "expatica.com",
+          "source": "Expatica",
           "source_url": "https://www.expatica.com",
-          "title": "Setting up utilities in Singapore: water, gas, and electricity - expatica.com",
+          "title": "Setting up utilities in Singapore: water, gas, and electricity - Expatica",
           "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5fOTR3Q19YaDF0R1VNcUVESHl0QzYyLW5rcFk3LTF2YlRPQ3ZoMHBzMUtHWFpndWFlMWhLS3E5dWtiN0N4N1htZGdKc2pXYXNDX25wQnpjMWoycWJZV2xsOHJkSnVfZUlja1R1R0I4MjVBQkI1MElzNzdNcWg?oc=5",
           "published_at": "2025-12-03T08:00:00+00:00",
-          "snippet": "Setting up utilities in Singapore: water, gas, and electricity expatica.com",
-          "lexical_overlap": 0.2,
-          "relevance": 0.305,
+          "snippet": "Setting up utilities in Singapore: water, gas, and electricity Expatica",
+          "lexical_overlap": 0.214,
+          "relevance": 0.319,
           "matched_terms": [
             "setting",
             "up",
@@ -66481,25 +66880,25 @@
           ]
         },
         {
-          "id": "8edad38079ad0236d9",
+          "id": "54748d9444265f1773",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "seqwater.com.au",
-          "source_url": "https://www.seqwater.com.au",
-          "title": "Beaudesert Water Supply Upgrade - seqwater.com.au",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1YN2dSU3RWbW10YUhGeDVqUFByR3hScmFhcjdFTHh2cXpVWE8zdUhaTGwzcmYwMmJsX1ZwZzYwRDhZVG9HWjhHcnA2R21xQjRWSlJyYjZIalVMcGt1VXRYeGFwMVdrOFNoU2VqSzRPQWp6YXE1WGc?oc=5",
-          "published_at": "2019-09-18T06:20:26+00:00",
-          "snippet": "Beaudesert Water Supply Upgrade seqwater.com.au",
-          "lexical_overlap": 0.143,
-          "relevance": 0.213,
+          "source": "The Cool Down",
+          "source_url": "https://www.thecooldown.com",
+          "title": "Grid failure cuts power to over 73,000 in Lanzarote, Spain, interrupts drinking-water supply - The Cool Down",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPeS1pNFkzQ0FiWXhnUGpsdWhtczExRnkwUDJMVVpsZmxSc1dqU2xZWVREazBqNkdNNE8zb2hMUzlLeE5EMkF6NE9tVV9lUGhnQXZuaWRQcldvVWRBU0huUmpEeTlxNktGemtreFdOQnJUWjAycGprZ2xDenJHVkhxbV9mZzFxVGJLTGEtODA1Xzc?oc=5",
+          "published_at": "2026-10-09T02:50:00+00:00",
+          "snippet": "Grid failure cuts power to over 73,000 in Lanzarote, Spain, interrupts drinking-water supply The Cool Down",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
           "matched_terms": [
-            "supply",
-            "water"
+            "grid",
+            "supply"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "supply",
-            "water"
+            "grid",
+            "supply"
           ]
         },
         {
@@ -66525,7 +66924,7 @@
           ]
         }
       ],
-      "implementation_signal": "current_primary_and_reporting_found",
+      "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -66721,6 +67120,184 @@
         }
       ],
       "implementation_signal": "current_reporting_found",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
+      "id": "2360cf986732ad1e30",
+      "checked_at": "2026-10-10T18:35:10.131130+00:00",
+      "promise_id": "BJP-2014-6fd5637e9fa69b7a58",
+      "year": 2014,
+      "category": "environment",
+      "page": 44,
+      "anchor": "We will take Climate Change mitigation initiatives with all seriousness and work with the …",
+      "exact_text": "We will take Climate Change mitigation initiatives with all seriousness and work with the global community and institutions in this regard.",
+      "keywords": [
+        "climate",
+        "change",
+        "mitigation",
+        "initiatives",
+        "seriousness",
+        "global",
+        "community"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://library.bjp.org/jspui/handle/123456789/252",
+      "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/252/1/bjp_lection_manifesto_english_2014.pdf",
+      "related_promises": [],
+      "query": "climate change mitigation initiatives seriousness global",
+      "evidence": [
+        {
+          "id": "c315b1c6ff80b39415",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "India Budget",
+          "source_url": "https://www.indiabudget.gov.in",
+          "title": "ENVIRONMENT AND CLIMATE CHANGE: BUILDING A RESILIENT, COMPETITIVE AND DEVELOPMENT-DRIVEN INDIA - India Budget",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBSOVJFTEpqNW9HbWtrOFFEa3NfX3M5TGN1NXdHV0R5djMtUkYta1FvYUM0MEVzQmFPNDc1YURMX0dCOUY4Mk0zM0ZvajBGNXFJQVJ0YkMwSWdsTEIxZm51Y1VMQy0xc1RVM1ljR0pyQlZzT0oyUGFvY29SZw?oc=5",
+          "published_at": "2025-12-28T08:00:00+00:00",
+          "snippet": "ENVIRONMENT AND CLIMATE CHANGE: BUILDING A RESILIENT, COMPETITIVE AND DEVELOPMENT-DRIVEN INDIA India Budget",
+          "lexical_overlap": 0.118,
+          "relevance": 0.238,
+          "matched_terms": [
+            "change",
+            "climate"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "change",
+            "climate"
+          ]
+        },
+        {
+          "id": "01be55db5c5faa1d66",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "PARLIAMENT QUESTION: CHANGES IN WEATHER CYCLE DUE TO CLIMATE CHANGE - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1ONkdtdUdiWWNTcFVrOER0VHVyQ3Uway1RbjVDSnZ1cjhja2RSVVBtdzNSWUtidDdnSkoxOElVbjdUTG1iVkxrb0RGVDcwcjk3YmJwOHp4VExZZUMzRWNJVGVrSXlYUVdPWm5VVVZsbTh2S3VEVmJsUjN3?oc=5",
+          "published_at": "2026-03-19T07:00:00+00:00",
+          "snippet": "PARLIAMENT QUESTION: CHANGES IN WEATHER CYCLE DUE TO CLIMATE CHANGE PIB",
+          "lexical_overlap": 0.111,
+          "relevance": 0.231,
+          "matched_terms": [
+            "change",
+            "climate"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "change",
+            "climate"
+          ]
+        },
+        {
+          "id": "4288e262bcc625da72",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Nature",
+          "source_url": "https://www.nature.com",
+          "title": "Benefit of physical activity initiatives for climate change mitigation and adaptation - Nature",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1qdHBCYmdxbDBkZ2hjWUo0dlBELW1lMUtqZmQyMmoxQnNyQ3I4ZzhIcGFHckVHdzMtc2FxZi1ReS1wem4xRDhuVThTUExEV25MU0ZvckpQX1cwZlVDZXJJ?oc=5",
+          "published_at": "2026-03-09T07:00:00+00:00",
+          "snippet": "Benefit of physical activity initiatives for climate change mitigation and adaptation Nature",
+          "lexical_overlap": 0.25,
+          "relevance": 0.39,
+          "matched_terms": [
+            "change",
+            "climate",
+            "initiatives",
+            "mitigation"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "change",
+            "climate",
+            "initiatives",
+            "mitigation"
+          ]
+        },
+        {
+          "id": "da02bae632b8f12cc3",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "European Environment Agency (EEA)",
+          "source_url": "https://www.eea.europa.eu",
+          "title": "Climate change mitigation: reducing emissions - European Environment Agency (EEA)",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUFdSeDN0M05TbDlHekNWTWFxYTVkcm5Lc0RacHVneVgyOHYtc1duUzYwRE1iVGxrYnpqQ3VKeHNnckh2d01acTh4dUc4REd6c0NJdVRXM0M4bGhpUlZ3Z1NRQjBEM3lwTF9WYW93QTJtMUw5Q0k1V0NSZDJBeFBMMldhRnh3N1FlYmY2VE5XQmRSaDg?oc=5",
+          "published_at": "2026-09-16T07:00:00+00:00",
+          "snippet": "Climate change mitigation: reducing emissions European Environment Agency (EEA)",
+          "lexical_overlap": 0.176,
+          "relevance": 0.281,
+          "matched_terms": [
+            "change",
+            "climate",
+            "mitigation"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "change",
+            "climate",
+            "mitigation"
+          ]
+        },
+        {
+          "id": "daea4a34034bcf8b1a",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Welcome to the United Nations",
+          "source_url": "https://www.un.org",
+          "title": "Causes and Effects of Climate Change - Welcome to the United Nations",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1IZ1VmLXNQdk44YW9fbzdIY2NqeWdPRmxXZTVGWDdHbEtQbmx1OTdDTHRmWVZuYnNZZHozeWtfbVV4SExsOWpraFZFQjRYVDVuOFFCOVVZUTh2NEpoTjVyTVp2WC1MLVlaWkNHZzNfWFVRNjlab2M1YWo3UklGZw?oc=5",
+          "published_at": "2022-03-21T10:22:33+00:00",
+          "snippet": "Causes and Effects of Climate Change Welcome to the United Nations",
+          "lexical_overlap": 0.125,
+          "relevance": 0.195,
+          "matched_terms": [
+            "change",
+            "climate"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "change",
+            "climate"
+          ]
+        },
+        {
+          "id": "9f807cafe97e1bdc0f",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "orfonline.org",
+          "source_url": "https://www.orfonline.org",
+          "title": "It’s time for climate justice- A Global South perspective on the fight against the climate crisis - orfonline.org",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONXE0N3FfamdadDMtRWxuaDFTS0VaeTJpSDJQRndPZjFrSnp4c0NobldWdlJfYlFSU3BCbnItSVltNEZKbDA2Y1NlOGJLREU0QjZfeFBuTHlDVnVBX0tNWUNLMGN0Q1pwbEZfZ0ZVQkNTaUdsa1d5cWFDQWFLTlZ0SGNtQU10VjJPRllLRk9SUjdFNWRPc2oya29pYThWbTdLQjAw?oc=5",
+          "published_at": "2023-06-28T07:00:00+00:00",
+          "snippet": "It’s time for climate justice- A Global South perspective on the fight against the climate crisis orfonline.org",
+          "lexical_overlap": 0.1,
+          "relevance": 0.17,
+          "matched_terms": [
+            "climate",
+            "global"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "climate",
+            "global"
+          ]
+        }
+      ],
+      "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -67226,7 +67803,7 @@
     },
     {
       "id": "27be77ee995bf7f76d",
-      "checked_at": "2026-10-07T06:33:50.096320+00:00",
+      "checked_at": "2026-10-10T18:34:41.210385+00:00",
       "promise_id": "BJP-2014-454fa8bc963ec810be",
       "year": 2014,
       "category": "security_defence",
@@ -67903,6 +68480,45 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/252/1/bjp_lection_manifesto_english_2014.pdf",
       "related_promises": [],
       "query": "build strong self-reliant self-confident regaining rightful",
+      "evidence": [],
+      "implementation_signal": "needs_research",
+      "status": "pending",
+      "human_reviewed": false,
+      "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
+      "outcome": {
+        "status": "not_machine_measurable",
+        "deadline_year": null,
+        "proof_strength": "none",
+        "proof_evidence_id": null,
+        "proof": null,
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+      }
+    },
+    {
+      "id": "80687e1db7c3027572",
+      "checked_at": "2026-10-10T18:35:12.050986+00:00",
+      "promise_id": "BJP-2014-71463edaca7afc67ee",
+      "year": 2014,
+      "category": "other",
+      "page": 48,
+      "anchor": "However, where required we will not hesitate from taking strong stand and steps.",
+      "exact_text": "However, where required we will not hesitate from taking strong stand and steps.",
+      "keywords": [
+        "however",
+        "where",
+        "required",
+        "not",
+        "hesitate",
+        "taking",
+        "strong"
+      ],
+      "numbers": [],
+      "deadline_hints": [],
+      "measurable": false,
+      "source_url": "https://library.bjp.org/jspui/handle/123456789/252",
+      "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/252/1/bjp_lection_manifesto_english_2014.pdf",
+      "related_promises": [],
+      "query": "however where required not hesitate taking",
       "evidence": [],
       "implementation_signal": "needs_research",
       "status": "pending",
