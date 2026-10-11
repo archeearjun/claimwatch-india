@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T06:31:50.783681+00:00",
+  "generated_at": "2026-10-11T08:53:23.253779+00:00",
   "capabilities": {
     "official_evidence_search": true,
     "verified_primary_gate": true,
@@ -16,8 +16,8 @@
     "promise_checked_this_run": 30,
     "promise_total_candidates": 841,
     "promise_coverage_pct": 97.6,
-    "primary_candidates": 477,
-    "secondary_candidates": 1069,
+    "primary_candidates": 450,
+    "secondary_candidates": 1001,
     "prior_fact_checks": 0,
     "publishable_auto_verdicts": 0,
     "claim_verdicts": {
@@ -29,8 +29,8 @@
       "fulfilled_by_deadline": 0,
       "target_reached_evidence": 0,
       "proven_unfulfilled_by_deadline": 0,
-      "progress_documented": 11,
-      "deadline_passed_unresolved": 47,
+      "progress_documented": 10,
+      "deadline_passed_unresolved": 48,
       "deadline_not_reached": 13,
       "insufficient_evidence": 37,
       "not_machine_measurable": 713,
@@ -67,36 +67,11 @@
       "query": "trade october last his personal support",
       "numbers": [],
       "promise_matches": [],
-      "evidence": [
-        {
-          "id": "a4d0793c8adc6ada57",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "15th Meeting of ASEAN-India Trade in Goods Agreement (AITIGA) Joint Committee held during 6-9 October 2026 - PIB",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBfWmxfM3VzYXZ5enlhOW1CWXR6TnoxaWM1Nkk2LTRRTWtwdUE0TE1uZnhwdnFpN1hNV0V0ZUZLZlVOalZ3b3JQcFUyYnRLQXl2LURhWWxtbHA4cGt6SEJ4NjZJbkIxbVFKWEJHVVdrWEpBTzhJTnVYTGlweU12dw?oc=5",
-          "published_at": "2026-10-09T07:01:00+00:00",
-          "snippet": "15th Meeting of ASEAN-India Trade in Goods Agreement (AITIGA) Joint Committee held during 6-9 October 2026 PIB",
-          "lexical_overlap": 0.136,
-          "relevance": 0.291,
-          "matched_terms": [
-            "agreement",
-            "october",
-            "trade"
-          ],
-          "shared_numbers": [],
-          "nli": {
-            "entailment": 0.0044,
-            "neutral": 0.9823,
-            "contradiction": 0.0132
-          }
-        }
-      ],
+      "evidence": [],
       "fact_checks": [],
       "signal": {
-        "level": "primary_evidence_found",
-        "label": "Relevant verified primary evidence candidate found",
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -213,103 +188,11 @@
           ]
         }
       ],
-      "evidence": [
-        {
-          "id": "1e770cfb9da67fda1e",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Middle East Monitor",
-          "source_url": "https://www.middleeastmonitor.com",
-          "title": "Egypt and Turkey sign agreement to enhance cooperation on strategic transport corridors - Middle East Monitor",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPOC1fa0htVlNjYjZLQ2VQNVUtMjRtdlJ5Q2RCcEs3c2RyRnI4OEVJbDVST2tYVDVvX0YzWEdxNTFoSHI1Y2NndzJPaU9US3Y5Tk51TDVXLWpiYmN4SHJpMV9RcVhaMTN3bTNKdF9rU3oyT3NLYUUzU21ZY3JHVExrcnRQRWJQOGp5b1ZESE5YWlhuNF8teUo3WGlUcWZxbmFuQzB6SU83SEJIaUhwMDhaWlFieG5QMENkTDFDRGxoNkhMZlNzWlNmR002Y9IB0AFBVV95cUxNSEFyN25hdk1UdnpOMjRVZVQxZlh6V3o0WExuZ2Q4WXJ5b3lwNTBCOTNXTVlfb0xULTZzWEZMN0RBUFlMdDlnLVBaNUljYUU3UjJhZV9IZWQxNzJwM1hhaHJEdGhzcFpIU0p5T1R3bW1TR01lZDU5TVRyQXNqcFU1RUV6REF0Rks3bmFYVTlFS1pxNHZBTmRVV1FzTEM5WGRrVmZEZ3NMcGtQUUtDTGJrTXFaeG5qSTNRbV9lVjhhbUJRQ3JPa1IyUFN6WE1mX2FH?oc=5",
-          "published_at": "2026-07-03T07:00:00+00:00",
-          "snippet": "Egypt and Turkey sign agreement to enhance cooperation on strategic transport corridors Middle East Monitor",
-          "lexical_overlap": 0.176,
-          "relevance": 0.281,
-          "matched_terms": [
-            "agreement",
-            "cooperation",
-            "transport"
-          ],
-          "shared_numbers": []
-        },
-        {
-          "id": "7ce1278b7e7cf02404",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Qazinform",
-          "source_url": "https://qazinform.com",
-          "title": "Kazakhstan, Saudi Arabia deepen transport and logistics cooperation - Qazinform",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaUVwQ2pSMVdqZDVmaTI4M2tlMUVINTVCekFYRm9RZVJ4X0NZMEVydEl0VThoeHk2dHVlQjVTWEtQZFFDT1hXM1g3YzNHVFpRc281cnY4MWw4Q19naVdrY2s1bEdxVk05amxtZDBUUjhwOFFpWDJsMjExMHBpa3B0Mmo4Tk94cEx1Y05vd3RnTV9JWHp3WDJOUXZwdmZhcVhKZ0HSAaIBQVVfeXFMTlJRWW5rang3MzV3SnNSMTVXV3ZobDZXWU9JbC1feWt2WUV3Tm1qNlFGR0xUR3NfZFdyNW9PSXdqWlVhT1B6RUZPTEozWHRuZ21rUUoxcFBVa09UenlWSUNpazdfZFNPMUROclVRaUZsR1FiYkxsS0xzZnNnVVlZQVNMUTJoSDB3NTBPN05ZQVB4OEZBY1VNbURicGlKb3ZORUNR?oc=5",
-          "published_at": "2026-08-31T07:00:00+00:00",
-          "snippet": "Kazakhstan, Saudi Arabia deepen transport and logistics cooperation Qazinform",
-          "lexical_overlap": 0.143,
-          "relevance": 0.213,
-          "matched_terms": [
-            "cooperation",
-            "transport"
-          ],
-          "shared_numbers": []
-        },
-        {
-          "id": "183c33d917e8122cc1",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Northeast Today",
-          "source_url": "https://northeasttoday.in",
-          "title": "Sikkim, West Bengal Sign Reciprocal Transport Agreement To Boost Interstate Connectivity - Northeast Today",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMDQwb2RITm5QS200ZDNFaEw2OXlZOEk3VUF5QUE3U3h0R1VwSEdFVlMzd2I5eFg0bHlPbmxaU1VQakgyQ194Ynl6ZHdXN2xwckZCNnRVZ2ZZdzg3cTEyN0xua0E3SHdlS1NGa1hUZzJKTzR2U1hvRGRiYm9IQmtZU19zY2JrZEwtVjlNRklrN0EtTWVMRzRLM0I5VXpCTXNabUc4dDN5N2VzQW5qbW5UTC1aaHJ5Ti1IcU8xOGlDSFpkZw?oc=5",
-          "published_at": "2026-07-11T07:00:00+00:00",
-          "snippet": "Sikkim, West Bengal Sign Reciprocal Transport Agreement To Boost Interstate Connectivity Northeast Today",
-          "lexical_overlap": 0.118,
-          "relevance": 0.188,
-          "matched_terms": [
-            "agreement",
-            "transport"
-          ],
-          "shared_numbers": []
-        },
-        {
-          "id": "f646b278429efa88ec",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Saudi Gazette",
-          "source_url": "https://saudigazette.com.sa",
-          "title": "Saudi Arabia and Syria sign 4 pacts to boost cooperation in transport and logistics sectors - Saudi Gazette",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB3OHRKeE5RQVh4TlBzZk50cGMyeEpiZmdSWlNIWnJobkxNRmd4MjRZSldYU19kVlhLYmZfc0FGUDlEbUJLX0F2WG1IbTVGUmhVUTFlTw?oc=5",
-          "published_at": "2026-08-27T07:00:00+00:00",
-          "snippet": "Saudi Arabia and Syria sign 4 pacts to boost cooperation in transport and logistics sectors Saudi Gazette",
-          "lexical_overlap": 0.118,
-          "relevance": 0.188,
-          "matched_terms": [
-            "cooperation",
-            "transport"
-          ],
-          "shared_numbers": []
-        },
-        {
-          "id": "a4edc5f8841fcb9e46",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "www.wam.ae",
-          "source_url": "https://www.wam.ae",
-          "title": "Saud bin Saqr witnesses signing of agreement to develop, test, implement advanced air mobility solutions in Ras Al Khaimah - www.wam.ae",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPaDZGZ2NpXzBXVEJPcmttUHdNeWJ5UkJEOW1BT0FMelVzVnBIWUFqMUViNHRZNW9YakVWcVdMci04ZzVzRFB6YWxFR2JmbFBLMnRwbE1GU1A3MVlxVktTXzRKTDNNOVEzMmk4TzRzVFR6Y04wMVlZSjZYS08xTjlXUzBjT05UUUtJelRGM2RDV2c?oc=5",
-          "published_at": "2026-09-18T07:00:00+00:00",
-          "snippet": "Saud bin Saqr witnesses signing of agreement to develop, test, implement advanced air mobility solutions in Ras Al Khaimah www.wam.ae",
-          "lexical_overlap": 0.091,
-          "relevance": 0.161,
-          "matched_terms": [
-            "agreement",
-            "mobility"
-          ],
-          "shared_numbers": []
-        }
-      ],
+      "evidence": [],
       "fact_checks": [],
       "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -338,109 +221,11 @@
       "query": "agreement young professionals migration mobility partnership",
       "numbers": [],
       "promise_matches": [],
-      "evidence": [
-        {
-          "id": "7dbea9b93d3a7f582b",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Cabinet approves the Migration and Mobility Agreement between India and Italy - PIB",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4wNlJ5bFJHLUxhNGpaa3Z4TVZoMFBOQTdfM2E5NmdtNnBPa0ZRc0hMYVVIMjFpWGJub1U1bm90RFhfR1hpX2t5R0ZxQmUyNjF6ODVrQXoxQmZqUlJILU5XcDBvNER3NUQ4cFhMR0NobjI?oc=5",
-          "published_at": "2023-12-27T08:00:00+00:00",
-          "snippet": "Cabinet approves the Migration and Mobility Agreement between India and Italy PIB",
-          "lexical_overlap": 0.176,
-          "relevance": 0.331,
-          "matched_terms": [
-            "agreement",
-            "migration",
-            "mobility"
-          ],
-          "shared_numbers": [],
-          "nli": {
-            "entailment": 0.0034,
-            "neutral": 0.9888,
-            "contradiction": 0.0078
-          }
-        },
-        {
-          "id": "2d88bfe33f48bb9fcf",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "MillenniumPost",
-          "source_url": "https://www.millenniumpost.in",
-          "title": "India, Switzerland agree to expand trade ties; ink migration and mobility pact - MillenniumPost",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQWEUxXzV5ME5YZXlRaDNJclU1ZFFVTVlXbDR1UmFfY2IzZl9aTXpUOTdxMFBOdDV1X2FUQ1FoVkhyUU5ZV0F2VU9LWV9UN1laTFRVYkpVUlhGM3ZBRUo3Vy1nYm1ldjZuaU4zaWY4QjNPSnhUMzJIaDU2ZmJld2JhMlpVODA3RHl6VWF1Q2xhRWdEUTBlN1JKcDhUbWJqdTlTTngxalV2YXdoZEEyaUN3YkF4eGJQdXhSTl9CV0lVdy0zbXlaRllPVzFCWGU1UGlVWmxKbTZnNEZCZ9IB3wFBVV95cUxQbWJfX0tGSndGYXI2RXh2QnVsbEhfY1IyUXhIMjVHVnpJSHpTMTVUSzBzLXVERUJCNE5JSTZHWjZJakZ6SURzeWNjVjEwa0J2aW5fdWE3TmVndzJYaUlPZFdJNjZEemlpSXFWTUdidUdyTVJ3Z1hGMV9iVXJRb0tsMk55OEZFWlN6cHIwNUhhLW8tSE5VYzJoeDI2dmpZS1VHZ0NEWFI4aURwajdWbzZxODI1SFZpUXNyRDRfenZaeDNMN2FzNlFmX2xpSlgtUU8wZWNLd2lwTG41Y2NtRFhr?oc=5",
-          "published_at": "2026-10-05T10:47:00+00:00",
-          "snippet": "India, Switzerland agree to expand trade ties; ink migration and mobility pact MillenniumPost",
-          "lexical_overlap": 0.158,
-          "relevance": 0.263,
-          "matched_terms": [
-            "migration",
-            "mobility",
-            "switzerland"
-          ],
-          "shared_numbers": []
-        },
-        {
-          "id": "75256fefb4410a77aa",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "DD India",
-          "source_url": "https://ddindia.co.in",
-          "title": "India, Switzerland announce five cooperation instruments covering mobility, transport and innovation - DD India",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUXdNVE5LZTBLMi1mRHJnckdyd2RIX3ZfaURxTGJYMWhSLUZ4d3QySnpkeHg3MHFhdFhscERxeU1ZYk5XX2VjNDJoX2VXVEZmeDdobkZOUW5iSTBtdTR5X0ljQS1tTllJMmh0N0IyOUl2YU00YXZlNkxSaG9fTHNoS01DSGN1UDNRbVpvMWZpYnFET1VDRmRzcVNyRTk4TWE5UG55OTA5cThKYWotZ3JlQmdiTHBiVFJta09mN21yVllGSWxrVndaOQ?oc=5",
-          "published_at": "2026-10-05T11:07:00+00:00",
-          "snippet": "India, Switzerland announce five cooperation instruments covering mobility, transport and innovation DD India",
-          "lexical_overlap": 0.1,
-          "relevance": 0.17,
-          "matched_terms": [
-            "mobility",
-            "switzerland"
-          ],
-          "shared_numbers": []
-        },
-        {
-          "id": "d574a852a43e0074c2",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "APAC Media",
-          "source_url": "https://apacnewsnetwork.com",
-          "title": "India-Switzerland Deepen Ties With 5 New Pacts Covering Migration, Mobility, and Innovation - APAC Media",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPV0taUDlOeVgzSFowUHc1MlhRVUZMVElLaFBfZl90ZmZFdThyMDhnYXY0Yk9kRUlsN3JJOFZHS1NNaDhjY0tjQ2FxbWtpM3BpeElJM0x4SldEYzZlWUNDZE9XOHQ3Z2ZGWTVRYkh6dXBzcXJnMHdvWXl1TEdJZVU2bXcyeWhjcXd1YXVR?oc=5",
-          "published_at": "2026-10-05T19:03:35+00:00",
-          "snippet": "India-Switzerland Deepen Ties With 5 New Pacts Covering Migration, Mobility, and Innovation APAC Media",
-          "lexical_overlap": 0.1,
-          "relevance": 0.17,
-          "matched_terms": [
-            "migration",
-            "mobility"
-          ],
-          "shared_numbers": []
-        },
-        {
-          "id": "6d45a2d8204ddf76d6",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Open Magazine",
-          "source_url": "https://openthemagazine.com",
-          "title": "‘First Trade Deal With a European Bloc’: India, Switzerland Seal Pacts as Modi Eyes $100 Bn Investment - Open Magazine",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQeVhOdnpTRC1ZQTJwWG10cnpLYVVVOEozSGFFV2MyZWx4UkFzazhoMS1EM2FhZXFyN1hCb0M2SjBIQVgyUkgtZjBlY2tUU3Rha1NjQmVNT3NRN2EyRVlYNFpncGRMazlHdThJTVZUQW5vcjNmT2V2N2VuSXhSTnZZWUdxMzVXRnhFNjNHSnNwbmpOZFdlMnJJSms4NzJjeDNiMlRma0ljRktWZjZMbWlwWGdGZTJVM3RYamJaX2d2RFlPR28tUXJvM0dUaWlXcmgtNm9XaC0xa0xWSnpTOUE?oc=5",
-          "published_at": "2026-10-05T09:11:12+00:00",
-          "snippet": "‘First Trade Deal With a European Bloc’: India, Switzerland Seal Pacts as Modi Eyes $100 Bn Investment Open Magazine",
-          "lexical_overlap": 0.087,
-          "relevance": 0.157,
-          "matched_terms": [
-            "open",
-            "switzerland"
-          ],
-          "shared_numbers": []
-        }
-      ],
+      "evidence": [],
       "fact_checks": [],
       "signal": {
-        "level": "primary_evidence_found",
-        "label": "Relevant verified primary evidence candidate found",
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -469,48 +254,11 @@
       "query": "your excellency february hosted world largest",
       "numbers": [],
       "promise_matches": [],
-      "evidence": [
-        {
-          "id": "171bfd3104c46cb040",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Government of Dubai Media Office",
-          "source_url": "https://www.mediaoffice.ae",
-          "title": "World Governments Summit hosts Ambassadors’ retreat to strengthen global cooperation - Government of Dubai Media Office",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQY0s2MUNkNkhIcXZ5aUMyZ2dyRGlWZVlfVzBfaGJBSlBlc2NDSnJnREd0SW90RVVKVjBJakJNQ1F4TjhvZ2ZBSEViSHFoTXpYbUZ3bDBvVWhyOUJIQTNrMG5tUUJmaVBnUmFrSDBIVkVmQVFMTWFEQ05ELXBSQ2Q5VmlVb1oxOEdOOEJYOXFQN3NxbzNOcnJqNGt6RHJGSjh5aHNYS3pLMkUxZw?oc=5",
-          "published_at": "2026-09-28T13:37:58+00:00",
-          "snippet": "World Governments Summit hosts Ambassadors’ retreat to strengthen global cooperation Government of Dubai Media Office",
-          "lexical_overlap": 0.111,
-          "relevance": 0.181,
-          "matched_terms": [
-            "summit",
-            "world"
-          ],
-          "shared_numbers": []
-        },
-        {
-          "id": "2e0ae547531c6cc718",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "الأمانة العامة لمجلس التعاون لدول الخليج العربية",
-          "source_url": "https://www.gcc-sg.org",
-          "title": "World Governments Summit 2026 is a Global Platform for Visionary Dialogue, Knowledge Sharing and Sustainable Solutions - الأمانة العامة لمجلس التعاون لدول الخليج العربية",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA1bUsyOHZabklBRGktSWxULWw4a3dVM3RXbUUwT2xPYXNaMy01cVBYRmRKS1hvbkF0LWVsUVdqbDFIU2Nxakt6YmNqUU1NLXFuY0FkYklkNHNJTnV6M0VFVWdSX3NHVURlc0xzWklzdHRGcXphY2pnMg?oc=5",
-          "published_at": "2026-02-03T08:00:00+00:00",
-          "snippet": "World Governments Summit 2026 is a Global Platform for Visionary Dialogue, Knowledge Sharing and Sustainable Solutions الأمانة العامة لمجلس التعاون لدول الخليج العربية",
-          "lexical_overlap": 0.091,
-          "relevance": 0.161,
-          "matched_terms": [
-            "summit",
-            "world"
-          ],
-          "shared_numbers": []
-        }
-      ],
+      "evidence": [],
       "fact_checks": [],
       "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -609,49 +357,11 @@
           ]
         }
       ],
-      "evidence": [
-        {
-          "id": "fd5dc1627142a90060",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Times of India",
-          "source_url": "https://timesofindia.indiatimes.com",
-          "title": "UPSC turns 100: The story of India’s civil services recruitment body - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORUhBemg4djBROG5pclR6NHFvQU5zZ0tRbmdCcDRBZGQ1enRTNFlBaFRFd3ctc0dvWDl6UDhuc2xPa3N5aXBHQ3lYeU9rYmdIUGdJVmlvbi1zMTJ6ell4TWFOYUNWNmg3YzVWanZVcjdJOFk0MDRvbnNrMnNjaXJWVHdLdVRZQV9qTldSNlpsM1JWXzhPRzZxR1ZMcjZSMFEyam4tZnZub1Q4cWg0UHYxRjJNczNCbWF5emlFM29QOW14OVpaS0NnMXJ2czhnNVpZNkpDWTR6eThrTTDSAeABQVVfeXFMTlVUNE8zODlESmZ6d2s1XzN4U2lNa19nY3EyVlUwVHNTMWxMbWgyYjJvLUdCMlVGSHBLcEZUVVU1aVVyR2E3Rk5BOXgycFhSa09zUjJnRkNXSnlyTEVoUzE3eXM2QktKSHhMTU5wY0w0Q1A4eWdzdUo1VDBzcWtsUFlnSXNKOXRiVkU1eE1jQ01WdW4xTFNRMzBTdU5fRnJ6Zmg2WmFhYU94MU5xVTVpTXU2U0ljc0ZiWF9TdUVOVjdRa1FLRlM4MXY0RFpwTXk4WVJRalhaR3VTVlo2LWMycGY?oc=5",
-          "published_at": "2026-10-01T06:48:00+00:00",
-          "snippet": "UPSC turns 100: The story of India’s civil services recruitment body The Times of India",
-          "lexical_overlap": 0.071,
-          "relevance": 0.216,
-          "matched_terms": [
-            "upsc"
-          ],
-          "shared_numbers": [
-            "100"
-          ]
-        },
-        {
-          "id": "26914ba3b76f717a88",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Times of India",
-          "source_url": "https://timesofindia.indiatimes.com",
-          "title": "PM Modi urges UPSC to test aspirants’ motivation for joining civil services, not just academic knowledge - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNQjI5cE96MUtKWS11M0JwQ08xVUxYeWpjbVZybENQYUtNQnFOX1VMRGJDWXpDNU1WTGpWSUNPdy1WS1NjRW90Q3J2YmxKdlVYcDFVZDdlN1FCRUoyYVJDcTFSb1dPMTBrSmhqZnJKSEpaWXBVRlZ0dDkxdjNISDJlWXRIdUF6eG9nR0Z5S1BRYTVsWmtXd25HbV9TT19EV3hOTExNdElPRnAtQTA3T2ktZFRkVlN4MXZHNUswaHlObGxhY0VrdGlPWUJsa3c3dTRnVkdKZUYyMnZFeE5YeTBldXVxdlBNVWl6OGpXaWxUbWFlWjBWMnpWcFJiMXM2RDjSAYQCQVVfeXFMTlpkTXAweHpYbE1QYU81SEVxcUV6d21ZUnFBLTM1XzhxcjB4WjQtODA1UFlIRFppdVNNamZ3SF9uazZnZGlQYUZlbWpPUkhjeUJ4NEpwdEs1YjB1bE96Y0t1SmtwZDNlWU9NNExtSW0yQ0hXdXd3WVc4THk4MlNBM2hleG5OSnRWNmF5R09ocVJFR0FiZ2Y0VE50b1lLNlFoMmhJLVJ4U3JNdkd1RUdWeDRzSXI0dGZYR1VXbWk4M0VnNGZWT1c0TWFITk04UjlwVWZZc2JjMFI3NDMtWlEwVTc3TWFhbmVHM3pLWXB6aGF4akVPUWhMdDJMOWZtSDdnaFgyaTM?oc=5",
-          "published_at": "2026-10-01T13:48:00+00:00",
-          "snippet": "PM Modi urges UPSC to test aspirants’ motivation for joining civil services, not just academic knowledge The Times of India",
-          "lexical_overlap": 0.105,
-          "relevance": 0.175,
-          "matched_terms": [
-            "not",
-            "upsc"
-          ],
-          "shared_numbers": []
-        }
-      ],
+      "evidence": [],
       "fact_checks": [],
       "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -684,96 +394,11 @@
         "100"
       ],
       "promise_matches": [],
-      "evidence": [
-        {
-          "id": "e771b2c69725b6d832",
-          "scope": "broad_official_search",
-          "tier": "primary",
-          "source": "DD News",
-          "source_url": "https://ddnews.gov.in",
-          "title": "PM Modi releases commemorative stamp marking 100 years of RSS - DD News",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWVBydEM0X0MxSW9ZbEN5cl84Nm11aFg4djMtSkJyM1AzRGxwQ2dOZWhDOEF1MnducEVNeGlycFNqMWw0cFU3ZUl5blhFTS1MUHF3UE9lQVVIcURvNjZUdmFmQ0cweFJnb0xxd2FjYUtJb3I3VmhZRTluSHUwaHY4QThybmxvdXZjMTdGdnZsbUQ?oc=5",
-          "published_at": "2025-10-01T07:00:00+00:00",
-          "snippet": "PM Modi releases commemorative stamp marking 100 years of RSS DD News",
-          "lexical_overlap": 0.214,
-          "relevance": 0.479,
-          "matched_terms": [
-            "commemorative",
-            "marking",
-            "stamp"
-          ],
-          "shared_numbers": [
-            "100"
-          ],
-          "nli": {
-            "entailment": 0.0157,
-            "neutral": 0.8986,
-            "contradiction": 0.0857
-          }
-        },
-        {
-          "id": "c2609b02c2e4e84993",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Times of India",
-          "source_url": "https://timesofindia.indiatimes.com",
-          "title": "'Example of sacrifice, selfless service': PM Modi hails RSS' 100-year journey; releases postage stamp - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNMjNBYTJnVks4Y2xtbGR5WkNsNlZ6VmgzRmZqOVc3VVlIcVJMOWpNZzNyOW45QXBNODBnV0ZrclhnSVVYWWxkN2daRWNKV1hZb0t4RHBYUDI4T2Vxc1gtZkFEN2V4aGdiMEptRlA5OHUxa0NsNFhuUmxjTkpzcTFaWWtTZVRmU201WFhySV9GUGZCN3dKaV9wVjJOWjRibVpyclFKVFhCS3B4c3k3QUdUMG1iQ1dDSlJjVlg1YkwzTmVneXdSWUFaTUZkVS0xcXhUemtCdG1LeTFaWi0tcUViTzNRR3ZvcHlReVJDcVBHZ2tTM1NPUHNoQklBc0pmSDR0YURwMVMta3d2YWx3OU1IVERn0gGXAkFVX3lxTE1CR2dXak01SmVTamt1VG9JWV9yTWdGOHdWYlZYaEVNT0NVZGRPOUgwZUdxWGlPSmtSX2p2VkFDc0ZDdDYzZHdhcEUxVVFZR1NMZTBEUzY2TWJlVGlqQ04zVTNSS1RDY0VpZ1hVSlkxaVhDNnRTUjFCTjBNcklqWEFnSlF3YXJPcmQxLUljVTR6elR3X3hiUzVGZVR3NFR4ZHFkMlJxREhLbnQta3hPd3dDOEFMb3d1SS10NXdoQ01rRkx0U2xyLUp5VzdiVmxiRWdKUUdxbzNOWkFvUWxnLWpHUUk3TmlWT3huLWVrWDlneU15aG9tRXItc1hmdGNmNWVtVEg2R2l2RlVxc3A4RUVwWWotUDlKTQ?oc=5",
-          "published_at": "2025-10-02T07:00:00+00:00",
-          "snippet": "'Example of sacrifice, selfless service': PM Modi hails RSS' 100-year journey; releases postage stamp The Times of India",
-          "lexical_overlap": 0.167,
-          "relevance": 0.382,
-          "matched_terms": [
-            "journey",
-            "postage",
-            "stamp"
-          ],
-          "shared_numbers": [
-            "100"
-          ]
-        },
-        {
-          "id": "8b50bde9763ea5dead",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Deccan Chronicle",
-          "source_url": "https://www.deccanchronicle.com",
-          "title": "AU Marks Centenary With Commemorative Coin, Stamp - Deccan Chronicle",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNV09lSXlldFlWR2xaMm55Tm1ZME1oWm0tWmUtMHBXVFRRYzRHZlc2UFR0RjJfYW54eHlEVUk3RUQtNUt2NnZNSmtKOVY4TzdxS2xIRVBhVXFDZEVKc0g2emFneUU0Z1RRdmwyV3RXVDlrQ0xkc0tFeU5SOW1NOThzd25kVmFoVEdqMUhhRmJlb09UblhVUm5PUTk3anNrZXNieUk4UW0tM01JT0hNbmt3MzZXTFQyb3NzajY40gHAAUFVX3lxTE5WeWR6SzRtWk9Xd096WHVjUGFEQTdoSmxGNGlIX3JuZHVNR280UG1fWHpJbGJ5eEhfNmo5a1lzTHc2b0hfYXotbTljcmJMRmVMX0t3SXhiaXBkYnhydmc3SWNLbGtFTWRjc2tKempKT3g0d3R2UE96YkNzbF9XLThVRTlQMFMtbEpuUC1SUmlHY0xwUDNrTllzRllRSDRfemZHZjRoZzl5UEJGbm1lQkdST3d0VEh6dG9uVG5CNUppeg?oc=5",
-          "published_at": "2026-04-27T07:00:00+00:00",
-          "snippet": "AU Marks Centenary With Commemorative Coin, Stamp Deccan Chronicle",
-          "lexical_overlap": 0.214,
-          "relevance": 0.319,
-          "matched_terms": [
-            "coin",
-            "commemorative",
-            "stamp"
-          ],
-          "shared_numbers": []
-        },
-        {
-          "id": "e4eb90407989fc9551",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "TheWire.in",
-          "source_url": "https://m.thewire.in",
-          "title": "‘Falsifying History’ Says Opposition as Modi Releases Stamp, Coin to Mark RSSs Centenary - TheWire.in",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPLURFd1NrdGV5VFRpemk1Qm4zMXBNV0dIY2dOOC1xQXpBTENnZ1Q1MG9ZQUg4NWhiQVZOTmlrX2IxS1BydXhMNm0tVmtxckJIM1ktVm9Nb2hwMHNOb2JrWGtCU1gyZGVDUE1fdFdvYVE2Z3Jvc201N0hrODlFRGlhQnVkMzdINUhUMVdzQmFNc3d3OFVDT1h1ZHJBQzjSAaIBQVVfeXFMT2RTbjI0aUxMZW1UMzVBLXR0Nmo3dlkyckdRQlk5NFQ0X0JyaDVLRkZLVlFKNFZGb1hlN2hYYWpQMFY0MUhQMWc0aG9sMnNZSEFrWWZfMXczUURtZlVzak01Qno2eHJZQUxWYUhhZ3BxLWVyLUtFenpxSnUzSTB6LV91X0JWWG9hQzJMUl9SWm1VTXJLSkVrYUJSTUlIVU52ZUJB?oc=5",
-          "published_at": "2025-10-01T07:00:00+00:00",
-          "snippet": "‘Falsifying History’ Says Opposition as Modi Releases Stamp, Coin to Mark RSSs Centenary TheWire.in",
-          "lexical_overlap": 0.118,
-          "relevance": 0.188,
-          "matched_terms": [
-            "coin",
-            "stamp"
-          ],
-          "shared_numbers": []
-        }
-      ],
+      "evidence": [],
       "fact_checks": [],
       "signal": {
-        "level": "structured_support_candidate",
-        "label": "Relevant primary evidence shares claim terms and numeric values",
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -806,30 +431,11 @@
         "100"
       ],
       "promise_matches": [],
-      "evidence": [
-        {
-          "id": "2ad33682c50a0e4648",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Landmark Chambers",
-          "source_url": "https://www.landmarkchambers.co.uk",
-          "title": "86 - A new ACCC case law collection has landed - Landmark Chambers",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPM1FHRkVDUngtU1c0TjQyY05RNUxHd2pybVVuY2lSdGhfTmo0blJndzNOeFNOZ3lLLTRBb0JVOWNMRHdjazc5UDh0YWFWQVNFSTd2cGlERlJYbXVhV3NZVWVWbTJiNU9NSEc2LTBWcG42RGl0a2gtSzdFS3Jxb2xHOGJBUjU5RmhPYjFYVmdKR3BJMWh4eVc5ZEFJYkRCUVlMY25tUFNiZXR6Zw?oc=5",
-          "published_at": "2026-09-09T07:00:00+00:00",
-          "snippet": "86 - A new ACCC case law collection has landed Landmark Chambers",
-          "lexical_overlap": 0.167,
-          "relevance": 0.237,
-          "matched_terms": [
-            "case",
-            "has"
-          ],
-          "shared_numbers": []
-        }
-      ],
+      "evidence": [],
       "fact_checks": [],
       "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -858,7 +464,7 @@
         "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
         "published_at": "2026-10-01T09:05:21+00:00"
       },
-      "query": "10 15 little while ago was visiting gallery",
+      "query": "15 10 little while ago was visiting gallery",
       "numbers": [
         "10",
         "15"
@@ -899,96 +505,11 @@
       "query": "noticed photograph th anniversary celebrations which",
       "numbers": [],
       "promise_matches": [],
-      "evidence": [
-        {
-          "id": "da7a554c3d581bcc7a",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Vice President Graces 140th Anniversary Celebrations of Deepika Malayalam Daily in Kottayam - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5xVWp1NmZ6c0xyZFpuVlpseUkzRDNmVGxTdXpLWEdQNU03V0dNQktJZTl5R01rei05RDRuaGpUSWJScEJLQjZtNjFoOUZ6MGQwa3pMcDF5V0ltTC1DamdxSUs4SnFHSFlpYV9DQlZoOVJCclF4dF9GbU5B?oc=5",
-          "published_at": "2026-05-31T07:00:00+00:00",
-          "snippet": "Vice President Graces 140th Anniversary Celebrations of Deepika Malayalam Daily in Kottayam PIB",
-          "lexical_overlap": 0.2,
-          "relevance": 0.355,
-          "matched_terms": [
-            "anniversary",
-            "celebrations",
-            "th"
-          ],
-          "shared_numbers": [],
-          "nli": {
-            "entailment": 0.0032,
-            "neutral": 0.9308,
-            "contradiction": 0.066
-          }
-        },
-        {
-          "id": "2c13ec6d7302e890d1",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Prime Minister Shri Narendra Modi addresses the 100th birth anniversary celebrations of Bharat Ratna Dr. Bhupen Hazarika in Guwahati, Assam - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5VZkV2Q1dOV1pyRDNBZHBxNkV5Qjh1clRHc2hKSmlYTDYwa1BsT2RHQ1V2Mm9uakhnRllDUXYzT0YyaFoyN2s5emRuSmZqXzF4bERVYmxDV2tTMm4tUGtzVmdMeFpBSlZr?oc=5",
-          "published_at": "2025-09-13T07:00:00+00:00",
-          "snippet": "Prime Minister Shri Narendra Modi addresses the 100th birth anniversary celebrations of Bharat Ratna Dr. Bhupen Hazarika in Guwahati, Assam PIB",
-          "lexical_overlap": 0.176,
-          "relevance": 0.331,
-          "matched_terms": [
-            "anniversary",
-            "celebrations",
-            "th"
-          ],
-          "shared_numbers": [],
-          "nli": {
-            "entailment": 0.0047,
-            "neutral": 0.8441,
-            "contradiction": 0.1512
-          }
-        },
-        {
-          "id": "a43ebe630d5ecab72d",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Digital Camera World",
-          "source_url": "https://www.digitalcameraworld.com",
-          "title": "Happy World Photography Day! 🥳 This year marks the 200th anniversary of the first ever photo… but what IS World Photography Day and why is it today? - Digital Camera World",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcVZ1RndTdGJsOHI1T21QbFlKcFZ4OTdsa1pWQ0FwNFFCdmhDb1I3N1ZVMnY3Q3hjM3o1eEp3a19jamtZWHNNNkpud0dxQjFqb3FzUThram14QjJrS3E3U1ppT1RWSUhjd3liOHRHSTNPY241eEttYkctTFVqYnhPNGlZZmE1cTZqNlozVlJoY2V0alpRdUY5MVFoX3VqTmdVckE?oc=5",
-          "published_at": "2026-08-19T07:00:00+00:00",
-          "snippet": "Happy World Photography Day! 🥳 This year marks the 200th anniversary of the first ever photo… but what IS World Photography Day and why is it today? Digital Camera World",
-          "lexical_overlap": 0.1,
-          "relevance": 0.17,
-          "matched_terms": [
-            "anniversary",
-            "th"
-          ],
-          "shared_numbers": []
-        },
-        {
-          "id": "7e9e5997f3ca2c9b71",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "dst.gov.mo",
-          "source_url": "https://www.dst.gov.mo",
-          "title": "【5th inauguration anniversary】Macao Grand Prix Museum offers free admission and special fun activities for the public on 1 June - MACAO GOVERNMENT TOURISM OFFICE - dst.gov.mo",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcV9kNjB6ZUtHOG5vdDh1dmxIV2h4cWJ6ZzJwU041RVBPeDhPQkpneWNlS2tOY0FKcEtBTmotbnAzdGJiMUg4SnN2N0NhZTFRb2RMZm5uQm1qTzdOclBPYU80TnN2RW5MZ2RCZjNnSjhZVUdHNi0xd3dMRHRQcXdoVmJXbF9HY2dIYWxWNlV5WQ?oc=5",
-          "published_at": "2026-05-31T07:00:00+00:00",
-          "snippet": "【5th inauguration anniversary】Macao Grand Prix Museum offers free admission and special fun activities for the public on 1 June - MACAO GOVERNMENT TOURISM OFFICE dst.gov.mo",
-          "lexical_overlap": 0.095,
-          "relevance": 0.165,
-          "matched_terms": [
-            "anniversary",
-            "th"
-          ],
-          "shared_numbers": []
-        }
-      ],
+      "evidence": [],
       "fact_checks": [],
       "signal": {
-        "level": "primary_evidence_found",
-        "label": "Relevant verified primary evidence candidate found",
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -1021,50 +542,11 @@
         "90"
       ],
       "promise_matches": [],
-      "evidence": [
-        {
-          "id": "f5944ee62b358b0134",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Reuters",
-          "source_url": "https://www.reuters.com",
-          "title": "Steve Reich on making music at age 90 - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZnQ1QlVlTXVBeEZJU0RZYVJRbFdvUllvclRydFFQcy15cGZaQWZsRmQwMTE4czVYdmpfaDZKREh6dUQ3RFdQdjE4QV9Bd0xwRmJrc0dOQkFSdWhFMzRndTAzdDRubkh2QldwLVpwMTBkME82N0JocGhjQXpoQ0M1S3VqTnRlaVM4UXJnT1pjY2FrUDlPeDNVVg?oc=5",
-          "published_at": "2026-10-03T10:47:38+00:00",
-          "snippet": "Steve Reich on making music at age 90 Reuters",
-          "lexical_overlap": 0.1,
-          "relevance": 0.245,
-          "matched_terms": [
-            "age"
-          ],
-          "shared_numbers": [
-            "90"
-          ]
-        },
-        {
-          "id": "093c5e48aab37dc212",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Kansas City Jewish Chronicle",
-          "source_url": "https://www.kcjc.com",
-          "title": "Blanche Sosland, community pillar, educator and advocate, dies at age 90 - Kansas City Jewish Chronicle",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWlVvUUhZR0RvcXNWYzVhT2lkVmpPdGdxeDZEN2pOejhXbVBmNHBFajdYbDB2VjhEMXJneG45MjhiTmZ4SmdIZGFXY2tMb1o0dDZjUWJpNmdSUGhxZmctVlNQX3RxU1Zqd3hZV0N4VEEzOU1QZW1HVjNJR0ZkS212MUlzX0JMQQ?oc=5",
-          "published_at": "2026-07-09T07:00:00+00:00",
-          "snippet": "Blanche Sosland, community pillar, educator and advocate, dies at age 90 Kansas City Jewish Chronicle",
-          "lexical_overlap": 0.062,
-          "relevance": 0.208,
-          "matched_terms": [
-            "age"
-          ],
-          "shared_numbers": [
-            "90"
-          ]
-        }
-      ],
+      "evidence": [],
       "fact_checks": [],
       "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -1131,35 +613,11 @@
       "query": "was steel frame required reconstruction nation",
       "numbers": [],
       "promise_matches": [],
-      "evidence": [
-        {
-          "id": "f493d31a57406ba143",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Sardar Patel - Man who United India - PIB",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5UNnF4Y09ONVJsMXczdEZ0SlowbFE3ODItSVhPZWxVMFg0eGJpckhRN1NuTFBMZUlUMVdsdFpmWFB2YkxnU2htVVVrMXNXeU5MX1RhRmNPYzZUTkdiMVEyMUVMSUZDZ29fZXJwT3lR?oc=5",
-          "published_at": "2017-10-30T07:00:00+00:00",
-          "snippet": "Sardar Patel - Man who United India PIB",
-          "lexical_overlap": 0.143,
-          "relevance": 0.263,
-          "matched_terms": [
-            "patel",
-            "sardar"
-          ],
-          "shared_numbers": [],
-          "nli": {
-            "entailment": 0.007,
-            "neutral": 0.9792,
-            "contradiction": 0.0138
-          }
-        }
-      ],
+      "evidence": [],
       "fact_checks": [],
       "signal": {
-        "level": "primary_evidence_found",
-        "label": "Relevant verified primary evidence candidate found",
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -1183,13 +641,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "structured_support_candidate",
+      "evidence_state": "needs_research",
       "human_reviewed": false,
       "created_at": "2026-10-01T20:22:13.940638+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-11T06:30:59.104715+00:00",
+      "latest_checked_at": "2026-10-11T08:49:37.549177+00:00",
       "latest_claim_packet_id": "6627bae11c2e4166b3"
     },
     {
@@ -1207,13 +665,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "reporting_found",
+      "evidence_state": "needs_research",
       "human_reviewed": false,
       "created_at": "2026-10-01T20:22:13.941324+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-11T06:30:59.104726+00:00",
+      "latest_checked_at": "2026-10-11T08:49:37.549188+00:00",
       "latest_claim_packet_id": "d443adc2a0e2470ae9"
     },
     {
@@ -1237,7 +695,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-11T06:30:59.104742+00:00",
+      "latest_checked_at": "2026-10-11T08:49:37.549203+00:00",
       "latest_claim_packet_id": "c2a19aa48972aa09e4"
     },
     {
@@ -1474,13 +932,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "reporting_found",
+      "evidence_state": "needs_research",
       "human_reviewed": false,
       "created_at": "2026-10-01T20:22:13.939921+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-11T06:30:59.104703+00:00",
+      "latest_checked_at": "2026-10-11T08:49:37.549165+00:00",
       "latest_claim_packet_id": "88113c4cc7679dfe59"
     },
     {
@@ -1522,13 +980,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "primary_evidence_found",
+      "evidence_state": "needs_research",
       "human_reviewed": false,
       "created_at": "2026-10-01T20:22:13.976596+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-11T06:30:59.104754+00:00",
+      "latest_checked_at": "2026-10-11T08:49:37.549214+00:00",
       "latest_claim_packet_id": "f6a1dd2c05d49c3e3c"
     },
     {
@@ -1570,13 +1028,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "primary_evidence_found",
+      "evidence_state": "needs_research",
       "human_reviewed": false,
       "created_at": "2026-10-08T08:56:46.391704+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-10-05T10:24:58+00:00",
       "last_seen": "2026-10-05T10:24:58+00:00",
-      "latest_checked_at": "2026-10-11T06:30:59.104579+00:00",
+      "latest_checked_at": "2026-10-11T08:49:37.549049+00:00",
       "latest_claim_packet_id": "36af41d1f474135176"
     },
     {
@@ -1600,7 +1058,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-05T10:24:58+00:00",
       "last_seen": "2026-10-05T10:24:58+00:00",
-      "latest_checked_at": "2026-10-11T06:30:59.104617+00:00",
+      "latest_checked_at": "2026-10-11T08:49:37.549083+00:00",
       "latest_claim_packet_id": "64350ab72af5545228"
     },
     {
@@ -1810,13 +1268,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "primary_evidence_found",
+      "evidence_state": "needs_research",
       "human_reviewed": false,
       "created_at": "2026-10-08T08:56:46.416967+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-10-05T10:24:58+00:00",
       "last_seen": "2026-10-05T10:24:58+00:00",
-      "latest_checked_at": "2026-10-11T06:30:59.104653+00:00",
+      "latest_checked_at": "2026-10-11T08:49:37.549117+00:00",
       "latest_claim_packet_id": "775a9a25cc5414cbea"
     },
     {
@@ -1888,7 +1346,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-11T06:30:59.104689+00:00",
+      "latest_checked_at": "2026-10-11T08:49:37.549152+00:00",
       "latest_claim_packet_id": "63b703ab25dbb97e26"
     },
     {
@@ -1930,13 +1388,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "primary_evidence_found",
+      "evidence_state": "needs_research",
       "human_reviewed": false,
       "created_at": "2026-10-01T20:22:13.979312+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-11T06:30:59.104791+00:00",
+      "latest_checked_at": "2026-10-11T08:49:37.549249+00:00",
       "latest_claim_packet_id": "8627b9532420ebafc0"
     },
     {
@@ -2002,13 +1460,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "reporting_found",
+      "evidence_state": "needs_research",
       "human_reviewed": false,
       "created_at": "2026-10-08T08:56:46.392873+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-10-05T10:24:58+00:00",
       "last_seen": "2026-10-05T10:24:58+00:00",
-      "latest_checked_at": "2026-10-11T06:30:59.104634+00:00",
+      "latest_checked_at": "2026-10-11T08:49:37.549099+00:00",
       "latest_claim_packet_id": "0e71e9aca86b4c154c"
     },
     {
@@ -2074,13 +1532,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "reporting_found",
+      "evidence_state": "needs_research",
       "human_reviewed": false,
       "created_at": "2026-10-01T20:22:13.977470+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-11T06:30:59.104765+00:00",
+      "latest_checked_at": "2026-10-11T08:49:37.549224+00:00",
       "latest_claim_packet_id": "69276105583e101638"
     },
     {
@@ -2179,7 +1637,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-11T06:30:59.104779+00:00",
+      "latest_checked_at": "2026-10-11T08:49:37.549237+00:00",
       "latest_claim_packet_id": "6df0bf295350af0cd6"
     },
     {
@@ -2293,13 +1751,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "reporting_found",
+      "evidence_state": "needs_research",
       "human_reviewed": false,
       "created_at": "2026-10-08T08:56:46.435564+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-10-05T10:24:58+00:00",
       "last_seen": "2026-10-05T10:24:58+00:00",
-      "latest_checked_at": "2026-10-11T06:30:59.104669+00:00",
+      "latest_checked_at": "2026-10-11T08:49:37.549133+00:00",
       "latest_claim_packet_id": "aceda866d7e8ef92a8"
     }
   ],
@@ -5912,7 +5370,7 @@
     },
     {
       "id": "5308ac8c0d928547b1",
-      "checked_at": "2026-10-07T22:00:24.042005+00:00",
+      "checked_at": "2026-10-11T08:51:50.515350+00:00",
       "promise_id": "BJP-2024-b4ca0579fbddd51a0d",
       "year": 2024,
       "category": "other",
@@ -5944,142 +5402,8 @@
         }
       ],
       "query": "launch focussed initiative eliminate cervical cancer",
-      "evidence": [
-        {
-          "id": "17a70d5d15df3ab597",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Fact Sheet: Quad Countries Launch Cancer Moonshot Initiative to Reduce the Burden of Cancer in the Indo-Pacific - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1XNFMyaFZjYXRzemJLMzRWbUcxYXJYc3JQRjhkakR0bjRxSUlNMkowN3djVWVvT0k1SjZLeXBmRWMybm1DdTBYNWlFNm83dnJsbGlnLVVnb0hzeGM1VGhJOUNuZU5tM1NH?oc=5",
-          "published_at": "2024-09-22T07:00:00+00:00",
-          "snippet": "Fact Sheet: Quad Countries Launch Cancer Moonshot Initiative to Reduce the Burden of Cancer in the Indo-Pacific PIB",
-          "lexical_overlap": 0.2,
-          "relevance": 0.355,
-          "matched_terms": [
-            "cancer",
-            "initiative",
-            "launch"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "cancer",
-            "initiative"
-          ]
-        },
-        {
-          "id": "e0edb9b9d7a153a469",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "India Administers 80 Lakh HPV Vaccine Doses, Marking Major Milestone in Cervical Cancer Prevention - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5KNldKazE2T1Nia2x1WElHNFpVUG5aWmY4WC1uMXp4enpyUk03ZVVEU0xXRkFBSVBXOWVwQ0M0WlNxLVpEdXpXdWZvR2RxN0ZXUVJsZkJPWWN4Z3ZLczBRYlJUYnhTeVoy?oc=5",
-          "published_at": "2026-09-11T07:00:00+00:00",
-          "snippet": "India Administers 80 Lakh HPV Vaccine Doses, Marking Major Milestone in Cervical Cancer Prevention PIB",
-          "lexical_overlap": 0.125,
-          "relevance": 0.245,
-          "matched_terms": [
-            "cancer",
-            "cervical"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "cancer",
-            "cervical"
-          ]
-        },
-        {
-          "id": "70f8bece4e05476f9f",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Pan American Health Organization (PAHO)",
-          "source_url": "https://www.paho.org",
-          "title": "World Cancer Day 2026: Supporting the Elimination of Cervical Cancer - Pan American Health Organization (PAHO)",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPR1FJRkt3ZGRPUTMtTTRQOTg2RUNwbFR2ckJSTDlnY0lSZ2tvbU5OZFZOeHJOYXMyZlJPdmtaem5EOE92U0RldDE5SHYxUVhUTTRvRU55bDZQSlJIbWgzT00yWXd5ajhxSGhUdExCUk50UklRVGxGcEpHSmtFN0VHenR1OEJxa3ppZG44WU1UcjllMEdvdEE?oc=5",
-          "published_at": "2026-01-14T21:41:23+00:00",
-          "snippet": "World Cancer Day 2026: Supporting the Elimination of Cervical Cancer Pan American Health Organization (PAHO)",
-          "lexical_overlap": 0.133,
-          "relevance": 0.203,
-          "matched_terms": [
-            "cancer",
-            "cervical"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "cancer",
-            "cervical"
-          ]
-        },
-        {
-          "id": "d582b2bc938f418716",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The New Indian Express",
-          "source_url": "https://www.newindianexpress.com",
-          "title": "WHO hails India’s free HPV vaccination campaign to protect girls from cervical cancer - The New Indian Express",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQaTNWMkJmU1ZnYmRoRzVSbnJ4SVFxSi1BcDQyQWYtZ3NMcmdxWTJfWkFLOU1DMEF3MnBHcXlIVm5SRVdsdEY5ZXdtTVV2NDUwYlI2enlYeVh3WDluQ0JzTmFNd1VDaHlOYkJhcEViVGtiV09COGZEY3lqVVhxbV90elg5U1JDX1NmNFhHSHFpSDM2Q1pLLUFPbUtBMlRab3NaVjY1SmdNVmN0WnZLYlFiU3ZHRy1OTFBGbzBMenpmZUZhaC1HTG9XWlJUa1o5U2Zj0gHeAUFVX3lxTE9RYW5ndW15NmxZVXM2NTlyQWdXMVFTcThtRGpEdGlmOS1OdzdwbGFLNHlYRm83bWxIWEVleVhvczJoLUlDWVN1ZDB1SVVxZW41TFdlSEtNTlROWVRMam1rLXc4aVBkcGRwTktSU3VKbGU1V3h4M0pOVnhvUVZuQ3VUVUdieXlJeHBDOU5LVDdRVFVaOXBYRVdPRElnbFR0eGFvR1J5RzgzcnpmV1dZck5zbUYwQ2NFZUxUTWxBcVZ5cWZydC03WHhkb0lWa193cjFPT2dUQ3ZhdDZHV0NFdw?oc=5",
-          "published_at": "2026-03-05T08:00:00+00:00",
-          "snippet": "WHO hails India’s free HPV vaccination campaign to protect girls from cervical cancer The New Indian Express",
-          "lexical_overlap": 0.133,
-          "relevance": 0.203,
-          "matched_terms": [
-            "cancer",
-            "cervical"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "cancer",
-            "cervical"
-          ]
-        },
-        {
-          "id": "ee5b25d27f61ebd603",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "fundsforNGOs News",
-          "source_url": "https://news.fundsforngos.org",
-          "title": "British Virgin Islands Advances Cervical Cancer Elimination Efforts Through New Health Strategy - fundsforNGOs News",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPanhOX2IzejJxRFY5OXBoNTVaSnYwN3ZpSk1VQlIxTU9EcmM0c0xYTkhqaThvWGM0QlJrdzJyRTQzWE4yLVEwM2NodEVydVdpWmZnWnNad2RmNXVFRnVFdWVlNEstalBXbklqZWpnbDhaZDRjbEw3Z0RqV1BJQ25NOWZnUDRmMlF4QjNSdHNxa0o5cms3U1dVSHJVWXk5VnFvVUZ4WTVJaXRkQW1wWGNpMWFSS25KcGM1cDVaV205M3RCck8zLWtfU1hCTGVldWFhUl84?oc=5",
-          "published_at": "2026-07-24T07:00:00+00:00",
-          "snippet": "British Virgin Islands Advances Cervical Cancer Elimination Efforts Through New Health Strategy fundsforNGOs News",
-          "lexical_overlap": 0.125,
-          "relevance": 0.195,
-          "matched_terms": [
-            "cancer",
-            "cervical"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "cancer",
-            "cervical"
-          ]
-        },
-        {
-          "id": "4cbf98a8142f5d94e9",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "World Health Organization (WHO)",
-          "source_url": "https://www.who.int",
-          "title": "MOH and WHO concludes pilot on HPV testing for cervical cancer screening in Mongolia - World Health Organization (WHO)",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNaEZmNF9SYUkxWFd3Q1FjR19sb0Y1Z2M1Nm4tYWx0ckFSMDJha0JpTXVLZFFuSk1ldHMycWVkcmpUUU5jbWl6ZGhRd1hVcGZ1a2p3WmI0Mkk2RUdDVnhwcnJqTkJGa2d6SnpLOFRMQ1EzcnU0OWJmNzFGSVdlQlI2LWNjZkZHNFUtSkxXeUJxOTVRVDVEdXpLUE5FQ1ZWbmx6M1liQktNWnRPYWZidnZ6elhFNWV4VzV0UzdSQmJCUGhrVXc0bTZ1ZkJHYWswS1JndXg4aVh2ejdjNjRHZjVEUzZwYw?oc=5",
-          "published_at": "2026-04-16T07:00:00+00:00",
-          "snippet": "MOH and WHO concludes pilot on HPV testing for cervical cancer screening in Mongolia World Health Organization (WHO)",
-          "lexical_overlap": 0.118,
-          "relevance": 0.188,
-          "matched_terms": [
-            "cancer",
-            "cervical"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "cancer",
-            "cervical"
-          ]
-        }
-      ],
-      "implementation_signal": "current_primary_and_reporting_found",
+      "evidence": [],
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -6094,7 +5418,7 @@
     },
     {
       "id": "e053916c6cd35bcad8",
-      "checked_at": "2026-10-07T22:00:37.890701+00:00",
+      "checked_at": "2026-10-11T08:52:52.821787+00:00",
       "promise_id": "BJP-2024-ba2b6777effa51eba5",
       "year": 2024,
       "category": "other",
@@ -7151,7 +6475,7 @@
     },
     {
       "id": "c26b72ddab5e3b9fe1",
-      "checked_at": "2026-10-07T22:00:44.942284+00:00",
+      "checked_at": "2026-10-11T08:53:22.913170+00:00",
       "promise_id": "BJP-2024-c05e03344581ad98a5",
       "year": 2024,
       "category": "jobs_economy",
@@ -7654,7 +6978,7 @@
     },
     {
       "id": "79176aa667e4b4fc98",
-      "checked_at": "2026-10-07T22:00:19.993514+00:00",
+      "checked_at": "2026-10-11T08:51:26.165454+00:00",
       "promise_id": "BJP-2024-b4572facd39269d2f5",
       "year": 2024,
       "category": "education_skills",
@@ -7677,74 +7001,8 @@
       "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
       "related_promises": [],
       "query": "digital senior citizens empowerment comprehensive training",
-      "evidence": [
-        {
-          "id": "c6f56a966c5558b3bb",
-          "scope": "broad_official_search",
-          "tier": "primary",
-          "source": "PM-AJAY",
-          "source_url": "https://pmajay.dosje.gov.in",
-          "title": "Portal Migration Notice — Senior Citizens Portal - PM-AJAY",
-          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBSNGdXRDNUcS10eHpPTDRkd0F0UnliUjdaMzZ0TzdBR1BGZlBPLUtONEdTRnMwbjk3Q2hMT1QxZnBVUQ?oc=5",
-          "published_at": "2021-09-22T11:04:05+00:00",
-          "snippet": "Portal Migration Notice — Senior Citizens Portal PM-AJAY",
-          "lexical_overlap": 0.125,
-          "relevance": 0.245,
-          "matched_terms": [
-            "citizens",
-            "senior"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "senior"
-          ]
-        },
-        {
-          "id": "d60a36e42aef90b229",
-          "scope": "broad_official_search",
-          "tier": "primary",
-          "source": "National e-Governance Division (NeGD)",
-          "source_url": "https://negd.gov.in",
-          "title": "NeGD – National e-Governance Division – Your Gateway to e-Governance and Digital Empowerment - National e-Governance Division (NeGD)",
-          "url": "https://news.google.com/rss/articles/CBMiN0FVX3lxTFBwTm1OWnNyb05vV3I5NlpFRnVuc1ZnaUhwcDB2NTQxb2lNWExITjVCNnAxd21qelU?oc=5",
-          "published_at": "2016-08-26T08:04:30+00:00",
-          "snippet": "NeGD – National e-Governance Division – Your Gateway to e-Governance and Digital Empowerment National e-Governance Division (NeGD)",
-          "lexical_overlap": 0.111,
-          "relevance": 0.231,
-          "matched_terms": [
-            "digital",
-            "empowerment"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "digital",
-            "empowerment"
-          ]
-        },
-        {
-          "id": "84383b50e0d5e5c2e5",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Jamaica Information Service",
-          "source_url": "https://jis.gov.jm",
-          "title": "THIRD COHORT RECEIVING TRAINING UNDER NCSC-HEART/NSTA TRUST DIGITAL LITERACY PROGRAMME - Jamaica Information Service",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTkNfTXozbENFaWllNGxDc2ZPM2Y0Ni05MVRxRUg1VDFzMzFZbFlPZkhwd3RsSXllZFI5WFdxR3dzekJENXJFSWloUUkxZzd5cDBQWTMxTThfcTd2X0lrVTRvcElaTkZRSXNmY0xLcGVOX1QyQjlfbXRON18zUVRESjVCZXRPaTNoT2tVZ0xWclVrZEFCaWVmOVBpUUFBMjJDdm5IMGJROGV5QQ?oc=5",
-          "published_at": "2026-01-08T08:00:00+00:00",
-          "snippet": "THIRD COHORT RECEIVING TRAINING UNDER NCSC-HEART/NSTA TRUST DIGITAL LITERACY PROGRAMME Jamaica Information Service",
-          "lexical_overlap": 0.087,
-          "relevance": 0.157,
-          "matched_terms": [
-            "digital",
-            "training"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "digital",
-            "training"
-          ]
-        }
-      ],
-      "implementation_signal": "current_primary_evidence_found",
+      "evidence": [],
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -11697,7 +10955,7 @@
     },
     {
       "id": "e72a7e05d8b502068e",
-      "checked_at": "2026-10-07T22:00:28.657534+00:00",
+      "checked_at": "2026-10-11T08:52:12.120021+00:00",
       "promise_id": "BJP-2024-b590fc7d034c8b9e36",
       "year": 2024,
       "category": "other",
@@ -11720,30 +10978,7 @@
       "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
       "related_promises": [],
       "query": "nucleus breeding centres brood banks establishing",
-      "evidence": [
-        {
-          "id": "b7fbf86b2451dc859c",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Cabinet approves Pradhan Mantri Matsya Sampada Yojana for boosting fisheries sector - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9XMmE2dnRxQldpV2JVbEhBZGgxLUU1dHpySEwxUklxcjcyekFtQ3hWaWVrVkRJWW4wNkE5VnFKdEZuTl9UQkpLdmRILTh0Nk80TldfeUxEX1huWDU4RzI3ZGhqWFo3c2pr?oc=5",
-          "published_at": "2020-05-20T07:00:00+00:00",
-          "snippet": "Cabinet approves Pradhan Mantri Matsya Sampada Yojana for boosting fisheries sector PIB",
-          "lexical_overlap": 0.095,
-          "relevance": 0.215,
-          "matched_terms": [
-            "fisheries",
-            "sector"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "fisheries",
-            "sector"
-          ]
-        }
-      ],
+      "evidence": [],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -12272,7 +11507,7 @@
     },
     {
       "id": "6c10143961caf0a488",
-      "checked_at": "2026-10-07T22:00:35.102435+00:00",
+      "checked_at": "2026-10-11T08:52:38.344496+00:00",
       "promise_id": "BJP-2024-b8944abee5f02a1e55",
       "year": 2024,
       "category": "health_welfare",
@@ -12295,77 +11530,8 @@
       "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
       "related_promises": [],
       "query": "now integrate schemes use post office",
-      "evidence": [
-        {
-          "id": "15c4590e83a52550bb",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Outlook Money",
-          "source_url": "https://www.outlookmoney.com",
-          "title": "Using Post Office Savings Schemes? Some Rules Have Quietly Changed - Outlook Money",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNjdzVVVrbTdSdFpVZzkwa2lzd0I0MzZTeVhVTTBOcjRmWWtRM0NiUkRIUHA1OUtDOUNrNkRiMGdFQU85MkNOamhGazg5WW8xTjMyWnk1aVZ1VWI4M3BhV2ZITEQ0ZjBTQTdPTkdXY3NQNU5RRmQxWmI5NDczMmpQY05mdk1GZ0ZEcWdqX0h6cVNmWGRjeGx5bUhlNHRBY3dNTm1jVNIBsgFBVV95cUxQal93MUUzZkVaYzlyRUplNnZkcUwtdzdVNi1XTEVyNk1qcWNpenpqS295eTRkY0h4UTFKTWJERzd2MGRJSExRUHZBRFQ0ZG5HWFdjMjBJNnNUWEloZndBT1BKdWtZaGFVcUhGU3d5WHBNRGRxZFVVZ19qU3VjUE1LdDR0b0RZQk9kRHU3a0hnbGp6czRqRTVROXRtMDE4Tm1YRHhfVnliQnZrZVM3OFdEWHZn?oc=5",
-          "published_at": "2026-05-18T07:00:00+00:00",
-          "snippet": "Using Post Office Savings Schemes? Some Rules Have Quietly Changed Outlook Money",
-          "lexical_overlap": 0.143,
-          "relevance": 0.248,
-          "matched_terms": [
-            "office",
-            "post",
-            "schemes"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "office",
-            "post",
-            "schemes"
-          ]
-        },
-        {
-          "id": "b7e9a9943f612ed2fb",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Indian Express",
-          "source_url": "https://indianexpress.com",
-          "title": "ECS failures, no cheques: Post office upgrade triggers maturity payment crisis - The Indian Express",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUGxpU2dwOHJTemoydUJYR19Iel9oeVdkVzFXbkNsYTNLVjVkSUpueEhaQUt0c3ItU05hU0NZQ1lEVDQ5NHB3X0E2RzNSaXRacWtVM3lxdTQ3SnZYc1lIQ015N0c4OE5GWW5aaFNvS1BEWUFiMGRwV3RDT3BMR3VxSU1DVkZjbWIwVnB6SnNMYS1HUTJwLXJzR3ZDb2ROcmxuSEJOSXpR0gGsAUFVX3lxTE9EOTltaC1ITXlobFlWVjdXaTlxNC1yc09BUnlHR2pKTmJvQUhPZnRrdVBwOWdBZm5xek9iM1VIMU1yTGRqRUltMUE4dTFWZ25XSERtenJ3alI0c0l4U1VpWEUtX2tHd3VuN04zNEV1ckdwalkzZWFSbzExaHJwMjh2R0luV2gyUWxVSnd3Unp6Ti1uM0tvOXMyNkJnSGlCWVBZeEVMU3NXeUR4NXQ?oc=5",
-          "published_at": "2026-04-07T07:00:00+00:00",
-          "snippet": "ECS failures, no cheques: Post office upgrade triggers maturity payment crisis The Indian Express",
-          "lexical_overlap": 0.091,
-          "relevance": 0.161,
-          "matched_terms": [
-            "office",
-            "post"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "office",
-            "post"
-          ]
-        },
-        {
-          "id": "37b74b35f0ce70089c",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Union Minister Dr. L. Murugan Inaugurates Post Office Passport Seva Kendra (POPSK) in Kolathur to Benefit the People of North Chennai - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE96Vi1tb2RocUpKS3pIc0FQUnJtbElLeGJyYmNIXzBpbFBTcjZfNERKNVVlWXU4d1J5OUllSGZQMzRSeFdUSXVQSmNwcWF4VVVoWjd4THhKY2NFU3FLbGh6aW85eXh0a3c5?oc=5",
-          "published_at": "2026-07-16T07:00:00+00:00",
-          "snippet": "Union Minister Dr. L. Murugan Inaugurates Post Office Passport Seva Kendra (POPSK) in Kolathur to Benefit the People of North Chennai PIB",
-          "lexical_overlap": 0.08,
-          "relevance": 0.15,
-          "matched_terms": [
-            "office",
-            "post"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "office",
-            "post"
-          ]
-        }
-      ],
-      "implementation_signal": "current_reporting_found",
+      "evidence": [],
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -13881,7 +13047,7 @@
     },
     {
       "id": "0e5b0a53c63c7fbc1b",
-      "checked_at": "2026-10-07T22:00:21.706291+00:00",
+      "checked_at": "2026-10-11T08:51:34.103850+00:00",
       "promise_id": "BJP-2024-b49463d7085e6ecddc",
       "year": 2024,
       "category": "education_skills",
@@ -13904,52 +13070,7 @@
       "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
       "related_promises": [],
       "query": "traditional design transforming handicraft modernise crafts",
-      "evidence": [
-        {
-          "id": "0b2457afba3fcc696e",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Organiser Weekly",
-          "source_url": "https://organiser.org",
-          "title": "Indiahandmade: How Digital India is empowering artisans and transforming India’s handloom and handicraft sector - Organiser Weekly",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxONTc4dUhfVlNhUE5HT29VVThsZVRNRlJjZHJRek1CNHdRRVpSZzE3THZYOXlmenM0U3JOZURHb2JFZHFGRXl0WFlkSnNpWW5Hck9yXzJUYmZZM2ljUWNKbmdPUEc2SFY1ZXkxTnpoVjdVMVMydXBDcThTQXdvQ2pReVp6d09nVjhsUGdUZjNCTzJWeXdOSk1KMGNoYWlYTDN3cFBfeWN4NnpWd3N3M1NqNWltN3ZGRzdUdlMyTDltVzNkV3RxcENZZ21uMVlJcy0wVjdXNFpNTWdiSS1UWThLc2NzV1drd2lYUGlDTXh30gHzAUFVX3lxTFBaVURvWHBPSDZ2R19ncHlxRVd2TDBjaWViVDlBbU1pVzBfLXZhajV2VXhnUVlfbHptenI1T2paazlvQ0hDTHJ0RUNrVHpvSXdVcF9ieXhwZlR3c0NCbm5xM1FpSFBXYld2RlNsY3FacmhYaDBac043STdFNy1WRUpiYlNPZl9NX01jQkV4eFpBc3c4eVNkNnVINDJzWkxJbG56M1k5dHRzb29XZEQ5V2ZPOTR1WnZLN2tLUkZhb0FmckdyNG9CMkp0Qk1tTUh6aldIQWx4ZG5hLV9EbHRXVUo4b2hXMUhTM3hnVVBrN05fc1ozcw?oc=5",
-          "published_at": "2026-07-07T07:00:00+00:00",
-          "snippet": "Indiahandmade: How Digital India is empowering artisans and transforming India’s handloom and handicraft sector Organiser Weekly",
-          "lexical_overlap": 0.095,
-          "relevance": 0.165,
-          "matched_terms": [
-            "handicraft",
-            "transforming"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "handicraft",
-            "transforming"
-          ]
-        },
-        {
-          "id": "8dbdb49f4aff464e10",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "freeyork",
-          "source_url": "https://freeyork.org",
-          "title": "Larry Tchogninou’s Gankéké Speaker Melds Traditional Beninese Craft with Modern Audio Design - freeyork",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZUt0Q0NNTkZKWVhkRF9NczVKVFhxdGQydW42WEp6YVpDMGUtemlVeEF2c0VTSmYyalg3a3UzV005OHNpVkV2NXh0UzVWZmFIS3N3NmxhUlZkMWlLdlY0ZmJ6TlNMQUgxdzNucjlzMzRuRng2QjBpMVdLa2dFamFRdU9mSmJmUQ?oc=5",
-          "published_at": "2026-09-25T21:35:37+00:00",
-          "snippet": "Larry Tchogninou’s Gankéké Speaker Melds Traditional Beninese Craft with Modern Audio Design freeyork",
-          "lexical_overlap": 0.091,
-          "relevance": 0.161,
-          "matched_terms": [
-            "design",
-            "traditional"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "design",
-            "traditional"
-          ]
-        }
-      ],
+      "evidence": [],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -17990,7 +17111,7 @@
     },
     {
       "id": "516966a96e17b679e3",
-      "checked_at": "2026-09-30T22:40:30.943045+00:00",
+      "checked_at": "2026-10-11T08:51:04.704829+00:00",
       "promise_id": "BJP-2024-b3ae777003ac0077fa",
       "year": 2024,
       "category": "security_defence",
@@ -18013,53 +17134,8 @@
       "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
       "related_promises": [],
       "query": "terrorism consensus against efforts creating global",
-      "evidence": [
-        {
-          "id": "12d40d816af4edd518",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Terrorism is a crime against humanity, says Shri Rajnath Singh - PIB",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE92U1FkcWx6djVfQXhDNHZ2NHR0SlRHeWtjTndtZkRmWFpEa1R5M2doX1JDYVlNWUdJYjBRamd3TWxVdmtLdHhTcVlSMkNZMkF2eUc3Y18wMGRVUzcwUlRMclZWR0FPVWQ5akpoVU93?oc=5",
-          "published_at": "2016-02-03T08:00:00+00:00",
-          "snippet": "Terrorism is a crime against humanity, says Shri Rajnath Singh PIB",
-          "lexical_overlap": 0.111,
-          "relevance": 0.231,
-          "matched_terms": [
-            "against",
-            "terrorism"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "against",
-            "terrorism"
-          ]
-        },
-        {
-          "id": "9b53a0c59906899cee",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "orfonline.org",
-          "source_url": "https://www.orfonline.org",
-          "title": "UNSC Politics and the Fragility of the Global Counter- Terrorism Regime - orfonline.org",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcUxNLVJSM3RYeW9LeUFpUXhFZ0NpWE5iZDA4WjBMYURXd3hLYTRoU1cwaUdKYk1mOFJ2SlFWbENUYV9nWWFwUW5GSkVTMWlTaWlCaGl0VXI2QUNmUG90Y2J6dDlocW40VnlMcmc2eDcxeGc5Tk9MTUZFcmJKczh2TzdrcEs3NjhIcDJtVW9mMm83X2tFckduaGNna3FZeHdzM1J0LXA4NEhEREkwcFE?oc=5",
-          "published_at": "2025-06-21T07:00:00+00:00",
-          "snippet": "UNSC Politics and the Fragility of the Global Counter- Terrorism Regime orfonline.org",
-          "lexical_overlap": 0.105,
-          "relevance": 0.175,
-          "matched_terms": [
-            "global",
-            "terrorism"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "global",
-            "terrorism"
-          ]
-        }
-      ],
-      "implementation_signal": "current_primary_evidence_found",
+      "evidence": [],
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -18074,7 +17150,7 @@
     },
     {
       "id": "64e9b95a6297c21d5e",
-      "checked_at": "2026-09-30T22:40:32.594157+00:00",
+      "checked_at": "2026-10-11T08:51:12.203547+00:00",
       "promise_id": "BJP-2024-b3c6ac07495bbcea79",
       "year": 2024,
       "category": "other",
@@ -19181,7 +18257,7 @@
     },
     {
       "id": "505b2b1e09694a6f2e",
-      "checked_at": "2026-10-07T22:00:32.988675+00:00",
+      "checked_at": "2026-10-11T08:52:29.940471+00:00",
       "promise_id": "BJP-2024-b81847ff4c521794ea",
       "year": 2024,
       "category": "security_defence",
@@ -19204,58 +18280,8 @@
       "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
       "related_promises": [],
       "query": "security interests ocean region protecting expand",
-      "evidence": [
-        {
-          "id": "65c6be31e0fcd92a70",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Modern Diplomacy",
-          "source_url": "https://moderndiplomacy.eu",
-          "title": "India Must Leverage Indian Ocean Security Mechanisms to Protect Its Strategic Interests - Modern Diplomacy",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWmwzbnB6LWxjNXoybV96VF9hclMtc3g0ZUY0bzNzU3U4NUg2TjA5ZzNCU0lPcEViRjBnOWMyUjNYZFZLRVdqSy0zMVNsNG8tWG1qNEZscWpXN3FESzY0WXU0eFYwMDFOM2JRSTVxdWJiX205TjRIWWZpcW9EQTh2dlRKZ21ZenRUSjR5SlNiTDdERHZfMFQ0aXpud19NU0JfZ1Q1ajNna0dvNTNLVHpyRm8wWld0QUdrUFRhTzc3RFVMWXBM?oc=5",
-          "published_at": "2026-04-25T07:00:00+00:00",
-          "snippet": "India Must Leverage Indian Ocean Security Mechanisms to Protect Its Strategic Interests Modern Diplomacy",
-          "lexical_overlap": 0.222,
-          "relevance": 0.362,
-          "matched_terms": [
-            "interests",
-            "ocean",
-            "security",
-            "strategic"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "interests",
-            "ocean",
-            "protect",
-            "security",
-            "strategic"
-          ]
-        },
-        {
-          "id": "eae629cc413341aab4",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "OSW Ośrodek Studiów Wschodnich",
-          "source_url": "https://www.osw.waw.pl",
-          "title": "Security cooperation formats in the Baltic Sea Region - OSW Ośrodek Studiów Wschodnich",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRXdteUlKMktxR3M0bmF6U1cyOGRIUDZsdDJYZXZsT0VNaGZCM3hKUUFBbmpramdnMnNaX0RReEdNdGtaRlFuRHczLWYxSXdqbGJ5cGFaNnpDdjFsYlRpZk5DTWRwMWZ0SFR3cGhfcWxZeEtPUk9qcjNldkd0VGo0LVJfdkpvOFlzeUhLd3RfdEkwMFpVUWtUeHp5cG15dmxkWXY2d3ItY3I?oc=5",
-          "published_at": "2026-05-29T07:00:00+00:00",
-          "snippet": "Security cooperation formats in the Baltic Sea Region OSW Ośrodek Studiów Wschodnich",
-          "lexical_overlap": 0.1,
-          "relevance": 0.17,
-          "matched_terms": [
-            "region",
-            "security"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "region",
-            "security"
-          ]
-        }
-      ],
-      "implementation_signal": "current_reporting_found",
+      "evidence": [],
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -20089,7 +19115,7 @@
     },
     {
       "id": "2e60f3a9a7c6b8e601",
-      "checked_at": "2026-10-07T22:00:17.862284+00:00",
+      "checked_at": "2026-10-11T08:51:17.331091+00:00",
       "promise_id": "BJP-2024-b40b705dc50888a344",
       "year": 2024,
       "category": "jobs_economy",
@@ -23979,7 +23005,7 @@
     },
     {
       "id": "1722b9035211ee3164",
-      "checked_at": "2026-10-07T22:00:39.371713+00:00",
+      "checked_at": "2026-10-11T08:52:58.757001+00:00",
       "promise_id": "BJP-2024-ba75502cfe44067067",
       "year": 2024,
       "category": "other",
@@ -24000,137 +23026,8 @@
       "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
       "related_promises": [],
       "query": "increase fleets evs charging stations",
-      "evidence": [
-        {
-          "id": "f480088a0099d5da51",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Various initiatives by Government of India to promote electricity mobility and increase number of charging stations - PIB",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBobWJIamJ4RnlKcTBoeE5HOXJFSC04X1RXekxaVHlHQTdmTEtBbWI4VExXSnI2Q3puWEFHTmdWcjNiMFIxVU5lM3JiVnd3U1lEdmxZN0w3SktPRVRFMjZnekVxOWZRQUZmeHd2dHhKRUs?oc=5",
-          "published_at": "2025-05-15T22:30:11+00:00",
-          "snippet": "Various initiatives by Government of India to promote electricity mobility and increase number of charging stations PIB",
-          "lexical_overlap": 0.214,
-          "relevance": 0.369,
-          "matched_terms": [
-            "charging",
-            "increase",
-            "stations"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "charging",
-            "stations"
-          ]
-        },
-        {
-          "id": "2371eb31eec75d2c98",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Daily Sabah",
-          "source_url": "https://www.dailysabah.com",
-          "title": "Growing EV fleet in Türkiye drives record charging demand - Daily Sabah",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQa1NnRmxQUjRlLXpEOGdXRVVGUG52YzZwQ2I3d2FTX1Ruc01RTzVqMzZuUVNvcGNNVlR4QXhPTnhYczh1UHVOMjdEZEhMYmx0MzhGaDhWZVp6bDVjTTF3X0Y5dFZIWnpPRFhRV0tnamNsdjNydUtGdDk5V3BuZjF1OVFSNE95V2h0WnlSR29KeGhvN1BwTW1rM3RrSUdJWUtJQ3JB?oc=5",
-          "published_at": "2026-06-05T07:00:00+00:00",
-          "snippet": "Growing EV fleet in Türkiye drives record charging demand Daily Sabah",
-          "lexical_overlap": 0.133,
-          "relevance": 0.203,
-          "matched_terms": [
-            "charging",
-            "ev"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "charging"
-          ]
-        },
-        {
-          "id": "18ced32c14816e4027",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Electric Autonomy Canada",
-          "source_url": "https://electricautonomy.ca",
-          "title": "N.B. invests $6 million in EV fleet and public charging infrastructure - Electric Autonomy Canada",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOS1RXS0l3cHJSb01hMkgwdmxRQkpJVktTZVdHcVY0Wkcwc0F1d3hDdlZjcl9PcWl2dEFoMm85M3pHR3l2b3VJUy1fUXFkcXQwRGFsbjFReC1tT1NSeHg0TkJyU3NaX0liSGVpUndWMlZocXV5aFRZN0ZLdm1ZRFlrZVhDMHJSMExfNFg5Z0JOMnUwcVB5Q1NDUXBsMmRfRVZNTFdWc2RUYTVTb0ZMMFlCcXFMMF8?oc=5",
-          "published_at": "2026-08-06T07:00:00+00:00",
-          "snippet": "N.B. invests $6 million in EV fleet and public charging infrastructure Electric Autonomy Canada",
-          "lexical_overlap": 0.133,
-          "relevance": 0.203,
-          "matched_terms": [
-            "charging",
-            "ev"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "charging"
-          ]
-        },
-        {
-          "id": "d25017257ea52fb6ee",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Fortune Business Insights",
-          "source_url": "https://www.fortunebusinessinsights.com",
-          "title": "Ultra-Fast EV Charging Systems Market Size, Share [2026-2034] - Fortune Business Insights",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdDdfZFV0NnJQNmtWZk9zWXc0REo3SHE4RmRJSnZIXzN3R3dNVVFEZ3pSUHU3YlZxLXVTRzYzczhLMXBPWU5xOHNVNUViT0E4VDhwWnVuUDhkc0RVcjFwa0ozOWhMSDVpY2V4Y0libnpQa0NlWnhZZTdISHcyQU5UcFZEMFhCWEx3TVV4cw?oc=5",
-          "published_at": "2026-09-21T07:00:00+00:00",
-          "snippet": "Ultra-Fast EV Charging Systems Market Size, Share [2026-2034] Fortune Business Insights",
-          "lexical_overlap": 0.133,
-          "relevance": 0.203,
-          "matched_terms": [
-            "charging",
-            "ev"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "charging"
-          ]
-        },
-        {
-          "id": "cb30f0151436858c07",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Business Standard",
-          "source_url": "https://www.business-standard.com",
-          "title": "Amazon to rely on own charging infra to expand EV delivery fleet in India - Business Standard",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPb2hxa0QwTThTOEhKbmRtZXBxUF9YZWNYeHpRNUJLN2NpMFlVSHVVdzJOeTRzOVRkbnMtWFlaVklxUjFEekRjZ19IbzhtMk5oTVFuUXZNYXF1dEVrTmRNcGpHMUozR3ZkS3hFcHVSZTFzN0pHdFMxamR3S2h4Yk1lNjI5UExpak1Ra2MyTmwzUzlRNkozZWZDN2dIV2FXVVJ2UXhUSWxBM19zZWhJengwcDZzT1JsSURBa3dGcllIRWF0M1pUV3VDZUcwamo0bDlFMDVEcUhIOGrSAd4BQVVfeXFMTTBsQW50TUJaYVdFeW5ZMjZPWjMyUjdWOGljSnNmMVlseG5GLTZaeWVYRXpLblJ0TjJoOWRjcHdPWE5EamRTcmhKMHEtT255NXhROHJleEo4X3c5dGRhTzZySF85S2lEbldmQ2taUHdwOFEzVU1vRElOaklHR21qeGx4bXdmRG5rcUVTU3pjVXpPQi10NXRrMC1xX2QwSWRPLWc0UFlqR1dQd3VLWVZJU2txUTVGMVV1WHZ2US05MkdtM0xtVGtvS2x0SjdYRU43UEZ5c2docy15bjFYdFpR?oc=5",
-          "published_at": "2026-06-12T07:00:00+00:00",
-          "snippet": "Amazon to rely on own charging infra to expand EV delivery fleet in India Business Standard",
-          "lexical_overlap": 0.125,
-          "relevance": 0.195,
-          "matched_terms": [
-            "charging",
-            "ev"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "charging"
-          ]
-        },
-        {
-          "id": "aab094edfd4e1f844e",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Washington State Department of Commerce (.gov)",
-          "source_url": "https://www.commerce.wa.gov",
-          "title": "Washington invests $37 million to expand EV charging access statewide - Washington State Department of Commerce (.gov)",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOellyYmhYMTBJanMyTFZYaGR2Q0JaZTlBTmk2bFcyaFdMdmxPRlFyV0ZiNV9pM1YybUQwVWZTUzRxS2Q5VEthdndONmR4emtPTXpvR3ZIenlEbHRjWTRFNGphdm1zTU5xel93QkM0UEROQWI2ZGt4NEN1b0JXc1QxSXZrUGNfWHhJN2hqd3FpU3pfQzltNEw5M015R0RIUQ?oc=5",
-          "published_at": "2026-06-01T07:00:00+00:00",
-          "snippet": "Washington invests $37 million to expand EV charging access statewide Washington State Department of Commerce (.gov)",
-          "lexical_overlap": 0.118,
-          "relevance": 0.188,
-          "matched_terms": [
-            "charging",
-            "ev"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "charging"
-          ]
-        }
-      ],
-      "implementation_signal": "current_primary_evidence_found",
+      "evidence": [],
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -24145,7 +23042,7 @@
     },
     {
       "id": "5cb6aa7664943c3310",
-      "checked_at": "2026-10-07T22:00:42.743634+00:00",
+      "checked_at": "2026-10-11T08:53:17.341792+00:00",
       "promise_id": "BJP-2024-c02ea3bbbb7593af92",
       "year": 2024,
       "category": "infrastructure",
@@ -24168,30 +23065,7 @@
       "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
       "related_promises": [],
       "query": "next few expand manufacturing design installation",
-      "evidence": [
-        {
-          "id": "0c6b78f3bf5c2aa759",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "NVIDIA Newsroom",
-          "source_url": "http://nvidianews.nvidia.com",
-          "title": "NVIDIA and Global Industrial Software Giants Bring Design, Engineering and Manufacturing Into the AI Era - NVIDIA Newsroom",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPcjVBblRXWFJhaTVLSVYzelRwUjgxOXRiRHJCdWhIUXhHN25GUDU2ODZPeDBiVnBmUFVYNUw4bkFoOVpVblk3Y2xIVHpRVEZjNW5YQmtOejR5RWNvWmxjS2hueTNCeXJPay1qQm5IMFJzdmNORk5Hb2VYc3o1M1hRMjNvUXhMUHRIN0hSVEhsMUI3X09uWmdiZDRQMlcxam9tTkoyc1J2a2ZHdFE5aHZnNEpYbVVZUEYybTNXSXNNaHNYZlNSbWdBMUhyZ2dJTDZtemZB?oc=5",
-          "published_at": "2026-03-16T07:00:00+00:00",
-          "snippet": "NVIDIA and Global Industrial Software Giants Bring Design, Engineering and Manufacturing Into the AI Era NVIDIA Newsroom",
-          "lexical_overlap": 0.091,
-          "relevance": 0.161,
-          "matched_terms": [
-            "design",
-            "manufacturing"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "design",
-            "manufacturing"
-          ]
-        }
-      ],
+      "evidence": [],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -27220,7 +26094,7 @@
     },
     {
       "id": "bf5eae17df34ee69ad",
-      "checked_at": "2026-10-07T22:00:31.121240+00:00",
+      "checked_at": "2026-10-11T08:52:23.384159+00:00",
       "promise_id": "BJP-2024-b7cf710f8b0a1055a9",
       "year": 2024,
       "category": "technology_digital",
@@ -27243,101 +26117,8 @@
       "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
       "related_promises": [],
       "query": "digital infrastructure facilitating revolution expand networks",
-      "evidence": [
-        {
-          "id": "099740b8df545dd368",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "India's Digital Revolution: Transforming Infrastructure, Governance, and Public Services - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9icG9UWlVNbFJ4VkVidHp2UEpqNTl4eXBLRFFxUWMyVDZrd1JBbzdkMU4xUS1zd0JQRTh6YkJzclVSRHdUVW95X1J3TGpwaG1uWjlfdE1OOFZ2NC12UU1NWHV1a3lVcmVk?oc=5",
-          "published_at": "2024-12-08T08:00:00+00:00",
-          "snippet": "India's Digital Revolution: Transforming Infrastructure, Governance, and Public Services PIB",
-          "lexical_overlap": 0.2,
-          "relevance": 0.355,
-          "matched_terms": [
-            "digital",
-            "infrastructure",
-            "revolution"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "digital",
-            "infrastructure",
-            "revolution"
-          ]
-        },
-        {
-          "id": "781c66b1434663743e",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "CSIS | Center for Strategic and International Studies",
-          "source_url": "https://www.csis.org",
-          "title": "The United States Has an Opportunity to Lead in Digital Development - CSIS | Center for Strategic and International Studies",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQlVJbjJ5XzVNUDdvSVMxN1ZLNkZacU9ET0lFd0Q4aS1ZTFE0WkFaZENObGlFSG5JXzVjZ2NZdkJXemRpQkRrYnl5d0hsT0ZBcTFrYnJKNDBabGt4RTAzTWhHa3I5eGVpZkI0ckJKcUIxLXY3TXE0RzlWa011NGczUFI0S1lVdlNRdGpScw?oc=5",
-          "published_at": "2021-03-30T07:00:00+00:00",
-          "snippet": "The United States Has an Opportunity to Lead in Digital Development CSIS | Center for Strategic and International Studies",
-          "lexical_overlap": 0.158,
-          "relevance": 0.263,
-          "matched_terms": [
-            "development",
-            "digital",
-            "lead"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "development",
-            "digital",
-            "lead"
-          ]
-        },
-        {
-          "id": "0a52175a5a715568e1",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "CII Blog",
-          "source_url": "https://ciiblog.in",
-          "title": "India’s Data Center Revolution: Fuelling Infrastructure Transformation - CII Blog",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdDRTSHdfRnZXcUJiM2ZfU1VqYjZiejJQdW5OaEhGMFZZRml5LW5UOXBDcmhUdHktU3A2WC1CUURkaVd4S3NFR0w0UmRIaHRTYW9HcFA4bDFhMnhZYzhLb29FT2ROb3JXRjFEa2cwTldjN2FsenEzMURBRy1RRE5MUEhQTl9SMTBDN3NQUlQtZzNlQQ?oc=5",
-          "published_at": "2026-08-13T07:00:00+00:00",
-          "snippet": "India’s Data Center Revolution: Fuelling Infrastructure Transformation CII Blog",
-          "lexical_overlap": 0.125,
-          "relevance": 0.195,
-          "matched_terms": [
-            "infrastructure",
-            "revolution"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "infrastructure",
-            "revolution"
-          ]
-        },
-        {
-          "id": "4a73fdd2a1ee70848f",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "orfonline.org",
-          "source_url": "https://www.orfonline.org",
-          "title": "China’s expanding tech lead through Digital Silk Road - orfonline.org",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYzlKb0RDaUFwYkFPQUVpdXZOaHhvdWxwODl6Nk9lVmlBRHZwYmJBX3dXRURRUjZGY3lCd1k0VjFGZUVBTGlUZjB1ODkwSkI5dV9LYUtxOVNsMWpHWkswMDNDVzkxWkdQb1JuNUd4SEFfd2dFZDhTbHBpbzUybFAzcy1GMmNSNEoybWlxNVZodmRUbUZ1X2c?oc=5",
-          "published_at": "2023-06-23T07:00:00+00:00",
-          "snippet": "China’s expanding tech lead through Digital Silk Road orfonline.org",
-          "lexical_overlap": 0.118,
-          "relevance": 0.188,
-          "matched_terms": [
-            "digital",
-            "lead"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "digital",
-            "lead"
-          ]
-        }
-      ],
-      "implementation_signal": "current_primary_and_reporting_found",
+      "evidence": [],
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -29723,7 +28504,7 @@
     },
     {
       "id": "29936cb45fb33096b1",
-      "checked_at": "2026-10-07T22:00:29.556989+00:00",
+      "checked_at": "2026-10-11T08:52:17.611619+00:00",
       "promise_id": "BJP-2024-b59ff079ccf3cc0e6b",
       "year": 2024,
       "category": "culture_heritage",
@@ -32631,7 +31412,7 @@
     },
     {
       "id": "a87c65f0c8d6734dc6",
-      "checked_at": "2026-10-07T22:00:22.961111+00:00",
+      "checked_at": "2026-10-11T08:51:41.820027+00:00",
       "promise_id": "BJP-2024-b4c5f575d319bc3b6b",
       "year": 2024,
       "category": "education_skills",
@@ -32654,202 +31435,8 @@
       "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
       "related_promises": [],
       "query": "medical seats education number increasing increased",
-      "evidence": [
-        {
-          "id": "acc11c583d20818001",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Update on Medical Education - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5pS1k1TnY4T2gxNnRBZFRydGxpZGNCUi1VZnJxWTlRa2VIRVdVbVd1ZnUtNFJPQUpFd3pMdW1qU2F5Q180WTNCZy0zSnFnNE9jamItUDVjS1YwdTRTUVdOU21GeEJwRVdw?oc=5",
-          "published_at": "2023-08-11T07:00:00+00:00",
-          "snippet": "Update on Medical Education PIB",
-          "lexical_overlap": 0.143,
-          "relevance": 0.263,
-          "matched_terms": [
-            "education",
-            "medical"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "education",
-            "medical"
-          ]
-        },
-        {
-          "id": "3c89dafd211b77aa55",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Steps Taken to Strengthen Medical Education Infrastructure in the Country - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9JYWV5SnNjbWlDRzIycndSTnBIZTN5ZVczNlB2TUFFd19aWk9mc1lUdGdJajRyTVgxQlN0ZzRxcFhBQ3c1SV83dXkybzlncWU1XzFrb3I0bjBfS2hQWWhuUnU4bzNRTGxrcUJ3WlpZbGtLam5qdzY4S3JR?oc=5",
-          "published_at": "2026-08-07T07:00:00+00:00",
-          "snippet": "Steps Taken to Strengthen Medical Education Infrastructure in the Country PIB",
-          "lexical_overlap": 0.118,
-          "relevance": 0.238,
-          "matched_terms": [
-            "education",
-            "medical"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "education",
-            "medical"
-          ]
-        },
-        {
-          "id": "cce37c20be1f9503c6",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Economic Times",
-          "source_url": "https://m.economictimes.com",
-          "title": "India expands medical education; number of medical colleges more than doubled since 2014 - The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOb05wZWtOOHBvVFNJdkJVLWY1Wl9xQjN5cy1WbEtXUmMxN3ZGQVpCZWRDOFFPX0ZTRWdUQjJlY21JOW10Ulg1QjZDT0xFeDI5WWxBSUxfN2gtY2J4VGMzQ0dreEtReEpmUXlCTE42bUlrUXUzMDNseDlsdVkwX3lVc2owUUxyWU9ZOXQwUUJCb3VHYkYyLUhtaGJvbnJ0SWIzaVNoRy1BTDVPbmE0Uk83aGFpdFZOQW9nSGZCcTNDMS1xTUxZRHFvYUd0MFV5RVp4T1ZVNE5tSE9CQmPSAeABQVVfeXFMT0FkNjFRN1g1bEpibmlWVlBJaHk5Sjg3dkFkY3Q4QWRrYTltTkNSUy1jTVRRSlFSY1NUcTMxbURNb0lSWC01a0RmbWdnOVVKU2tnTFBnZlI1VzdrTTVBVTRUVnhUaVJaUDFkSW5QZUFiTmI2UnBPWU00Q19yUmNUbEVDaEtGSXpSMW5RSnBfZ1NjQ1ZZNk1ST0lwVXp4cXlGQ2FUd1htSGFsSWF2Z1V2aHRyQjZTZE04alk5a1VqV20yR1p2OG1sUGZOQU50UTlETlRmalE4Q19oN0JnZnp6LXk?oc=5",
-          "published_at": "2026-07-24T07:00:00+00:00",
-          "snippet": "India expands medical education; number of medical colleges more than doubled since 2014 The Economic Times",
-          "lexical_overlap": 0.222,
-          "relevance": 0.362,
-          "matched_terms": [
-            "colleges",
-            "education",
-            "medical",
-            "number"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "colleges",
-            "education",
-            "medical",
-            "number"
-          ]
-        },
-        {
-          "id": "5ec99f784434972c4b",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Telegraph India",
-          "source_url": "https://www.telegraphindia.com",
-          "title": "Colleges Double Since 2014, MBBS Seats Cross 1.39 Lakh: Check Medical Education Highlights - Telegraph India",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQNEYzeXc2dXdEUDlheUxubG55d0ZoY293UG4zOXU0R1I5cEJCamVkbHNoSm5wbGZxQ3NIMURLTU9TcnkyWFFJOTlTak85QnNiSEtoenNIdU9LNFhwVTlXaXBRN0FXZHJ4TEdJcDliRlZCVk1BSUtkVm5UeEJYcjRUeHhBc0poRjk0ZUZOdlUzT05kWTRYY1BxRU03VzdVamhiOVdMTlVXMGVwcGFnaHhPazhscW52QzhFOTFRMFhaenRKMG4tX0ZIbi1vTUxJcWUtOGpuTzNOUHZGdEY3OVHSAeMBQVVfeXFMTUtwOTdVY3JxeEkzd1BWdDhYbTlMRVBXTUFvclVWYm1GVGhqbm5PU0xJN25acG1ESzU4Y0FEaTAySXdLSGlLY0hNN01idkpmNGJSdjhRaE45LWNnX1UxYk1xRUVZdmNfZEEwdkwtOTBkRFF0amlqaXlLUFFQUnhKVU9Nb0h5RUFnRl9nT0QzUnhwZDlad00yM203MjhTRHpxSER4eDh6MU15aEgzSEo5TFJldktBSTBpSVRmRzRBOV9IUm8tUGNmUFdjUzREai1obFktcS1VWlliNjVaUWowSUkwbW8?oc=5",
-          "published_at": "2026-07-28T07:00:00+00:00",
-          "snippet": "Colleges Double Since 2014, MBBS Seats Cross 1.39 Lakh: Check Medical Education Highlights Telegraph India",
-          "lexical_overlap": 0.2,
-          "relevance": 0.34,
-          "matched_terms": [
-            "colleges",
-            "education",
-            "medical",
-            "seats"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "colleges",
-            "education",
-            "medical",
-            "seats"
-          ]
-        },
-        {
-          "id": "d4b5ff5804c77478ac",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "TRIPURAINFO",
-          "source_url": "https://tripurainfo.com",
-          "title": "AGMC MBBS Intake Increased to 200 AGMC Gets 50 More MBBS Seats, Tripura’s Medical Education Capacity Rises to 500 - TRIPURAINFO",
-          "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNUUkxSHRkcFhjOGJTblRIaXhITnc4LXRmRFJEWkEzRDFmMmNQSjZQeVFmT1gxb1pDVWQ4bkZCcC15dUFyRi00UGVtM0NJWU1OZzlubmFtMFJ4ZXVrd1dUOHFxbFU1QXZROFNzV005bHV5c2dFUjBpZHVvLXQ0S1NTT3FhYVNfbTJ1RnliQ1RwNmsyTFI3d3FMeXlVZ21kSVRmb0R3TWNGTEZfZ005dklPQldtMTVNVlZKNWR3djNCSXd0VEM0R0t4WGVQTGxVS0dMOEVwTnhRUTl0U2U4UXFGN1pJbjEtYlNsaEQ0RnNuYUdsZ0FxUWFxT0J0a3JNUG5nTGYzanRFWURldDg?oc=5",
-          "published_at": "2026-09-17T04:27:19+00:00",
-          "snippet": "AGMC MBBS Intake Increased to 200 AGMC Gets 50 More MBBS Seats, Tripura’s Medical Education Capacity Rises to 500 TRIPURAINFO",
-          "lexical_overlap": 0.2,
-          "relevance": 0.34,
-          "matched_terms": [
-            "education",
-            "increased",
-            "medical",
-            "seats"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "education",
-            "increased",
-            "medical",
-            "seats"
-          ]
-        },
-        {
-          "id": "6b26a54a69d2f3d4a8",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Times of India",
-          "source_url": "https://timesofindia.indiatimes.com",
-          "title": "With 15,395 MBBS seats, Karnataka now leads medical education race - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQeFdRNVBGZ3VINVVlRUQ1UUx0bjBfb2lxNHAyUWVEb3B3RFc1NWtqRm1CTEpSU2Y2MXpxS2JqVlRBRnJibnBIUWZOazhEU1hKWGpSZFl4V2NKT2FaaFE5T2VLb1N0cHJDb2lFV0J3TVBEeWhtZzNGWEIwMkJDMDVaTS0xSnFrRGJ0UjVDeXd1X2YyVnRxRzBSTlo3a0MtODlvdzZTalptWlhISU9FUjRmSXlydG5GS0FPQXlQNlVHYkF2VkZuak5ON0l5aUNxVDRwckFwUXc5bVLSAd4BQVVfeXFMTnRsc1U1UjFPWERzN2o3MHM5NGJ2MDZXN0U5VmVtcFg5TzZ4WFlLdG1yNVNiT0RxSmRfUjlNdWJmUjFZSmd2OW1ia3RDWkhJZTIyRjIxUzhGdzM5SFluNlhjT0hNNjZpN0pjbDVXNlkzbExwX19vRmFWYi1EMlhEWm5Sa25jOEo5SURpYUpwX3J3X2FJSXF5NDlrQ01rQlhiMkdHVGVxemZOdm5wcmdqeHNIcUFwRnZoVWcxdTJHR3NQcXFfVTNQQl9RSzVwRTEzTmRVZEUwQXdfVk5aN0N3?oc=5",
-          "published_at": "2026-07-19T07:00:00+00:00",
-          "snippet": "With 15,395 MBBS seats, Karnataka now leads medical education race The Times of India",
-          "lexical_overlap": 0.167,
-          "relevance": 0.272,
-          "matched_terms": [
-            "education",
-            "medical",
-            "seats"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "education",
-            "medical",
-            "seats"
-          ]
-        },
-        {
-          "id": "d2c03ddb4363385dd9",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The New Indian Express",
-          "source_url": "https://www.newindianexpress.com",
-          "title": "Delhi govt to augment medical education capacity with 408 additional seats - The New Indian Express",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSThlUjRFZ0xZT1Y2dlNiSDJfM3RKQW9IVkJLdmlZVklhamVvN3lnMGIydld0bWdSZXZQVDVnWlZTb0I1QUhaSVNldXVkN0t3bWZvQ1drRHhrdy1na0R2T1NZS1RHWUtwLVA0dERlQk8xNW1jWlF4djJ5bzRBQ3NhNDNOUTc0cWpiTzZaME9CQjljdXFzQWlWZktndnFGVEJCTzBLUy1sbmN1a0U5Y0pRbnVrdjNoYUVtUXdjaXNFRlFSczBkT0x3QVFueWbSAdoBQVVfeXFMUFRFS0lZZEIzaWtlNlB6bUp5dW9ISnpMRDFIOG0yYnpRMmFpVThETGJzUWQyRHBTN1ZPc3Y2ZVNoTU0yY0Z3ZjE4bm9XRlo4RWV3aGFsQ2RGNHJCcDRqTmREbE50ZkQ3eElIbl92amw4ZW1RRUFVQnAyOWsyQmduLWNMSjdBbVZuX2s0TFRkT09lSnhSQkE5bVFmWkhtUzhWZmpFekJkckpIdTdqZ1U1cXJFQ21ObzRPZU5DNEhlOVhOQWJQUjU2bE9zdFJtYzBBbUJwbkxlTGlvdnc?oc=5",
-          "published_at": "2026-08-18T07:00:00+00:00",
-          "snippet": "Delhi govt to augment medical education capacity with 408 additional seats The New Indian Express",
-          "lexical_overlap": 0.167,
-          "relevance": 0.272,
-          "matched_terms": [
-            "education",
-            "medical",
-            "seats"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "education",
-            "medical",
-            "seats"
-          ]
-        },
-        {
-          "id": "218e3777b87f18c6f0",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Business Wire",
-          "source_url": "https://www.businesswire.com",
-          "title": "Afya Limited Announces Medical Seats Increase in AFYA Cruzeiro do Sul - Business Wire",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObDgzdFNueUo2UlNSTEJKR2ZUVnVHejhOMnhlZmlsb1oxZW1Dd3hQaHBRUWZpX3pmWHVSWFlUOVpHM3lHNjlmQlBLaW9YTl9UcU9zSDNCbVZjb2c4X0hCRWlXYUh4czZkUldZbUFnR3RJT0FyckJyOUxvYV9sNkNFaDB3SWVXZHNwcHk4eWZ2cVhSSExjR2F2NWlROWwwa19CeXUzQ2pOS1NkVzVuWENFd1ZrX2FPT1FxMFppZlVVUmg1SXFL?oc=5",
-          "published_at": "2026-09-18T07:00:00+00:00",
-          "snippet": "Afya Limited Announces Medical Seats Increase in AFYA Cruzeiro do Sul Business Wire",
-          "lexical_overlap": 0.15,
-          "relevance": 0.255,
-          "matched_terms": [
-            "increase",
-            "medical",
-            "seats"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "medical",
-            "seats"
-          ]
-        }
-      ],
-      "implementation_signal": "current_primary_and_reporting_found",
+      "evidence": [],
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -34119,7 +32706,7 @@
     },
     {
       "id": "af44cd7517a8e5838a",
-      "checked_at": "2026-10-07T22:00:27.570349+00:00",
+      "checked_at": "2026-10-11T08:52:05.337107+00:00",
       "promise_id": "BJP-2024-b53e7499785d2d2c3d",
       "year": 2024,
       "category": "jobs_economy",
@@ -34142,98 +32729,8 @@
       "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
       "related_promises": [],
       "query": "digital building success above learning initiatives",
-      "evidence": [
-        {
-          "id": "c0c4ecdb34bd01030c",
-          "scope": "broad_official_search",
-          "tier": "primary",
-          "source": "Skill India Digital Hub",
-          "source_url": "https://www.skillindiadigital.gov.in",
-          "title": "Skill India Digital Hub (SIDH) - Upskilling, reskilling, career growth and lifelong learning - Skill India Digital Hub",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9uejgxMUxqZzBUaXNIaFg3c2o1Tm1GRE5tNkYtOC1aT1AtRDA2dm85bEd4VjFuV0IxR0VIUzFCN0NKNXRucVlJZGZOVTJSdw?oc=5",
-          "published_at": "2023-05-02T02:30:17+00:00",
-          "snippet": "Skill India Digital Hub (SIDH) - Upskilling, reskilling, career growth and lifelong learning Skill India Digital Hub",
-          "lexical_overlap": 0.1,
-          "relevance": 0.22,
-          "matched_terms": [
-            "digital",
-            "learning"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "digital",
-            "learning",
-            "upskilling"
-          ]
-        },
-        {
-          "id": "ce7a8a986a556080b5",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "UNICEF",
-          "source_url": "https://www.unicef.org",
-          "title": "Top 10 reasons digital learning succeeds or fails - UNICEF",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTmdUSEZ1dC0xTWVybVVCdHBNNlExd0NjaVRVSzZ4WEFRZVJuTGVhWjZiZ29ESnFfMjJab2ZndlQ3b3NtUUVPVkZiY3l0QUI5R0xQNE1TbnNKczlXSTh3UXhjeHZZZXNwck9NeFJ1VEhGS19vWkVGbUk0VW9tTlRnSGJGd043RGM0dkE?oc=5",
-          "published_at": "2024-06-04T18:34:40+00:00",
-          "snippet": "Top 10 reasons digital learning succeeds or fails UNICEF",
-          "lexical_overlap": 0.118,
-          "relevance": 0.188,
-          "matched_terms": [
-            "digital",
-            "learning"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "digital",
-            "learning"
-          ]
-        },
-        {
-          "id": "84f411fc92b3854db9",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "McKinsey & Company",
-          "source_url": "https://www.mckinsey.com",
-          "title": "We’re all techies now: Digital skill building for the future - McKinsey & Company",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQb2JSUmxmV3FRR0tqUWtFdXo3TVlHUXlzTGlReUM4OGdpQkV3Ym1ZXzUzZVpydVdORTkwZ0tGNktyLVNXSEs1QmlCZzEzQmQ1Qk9jaTFTRUVCcVVsc0t3SXdlTkk2YXppdlB1NHo5RW1BZXRxeXdNNTVjbmtfT085V19hY3JfUmNZRDE2X0gxMklndllqbVUyUmhnMC1LcHc4SmkyTDh5SXBwRTZ5ZlB6VGh0ZjVycVRLdmNqcDRfOGhwaUJ5S0hHdjR3c2p4c1ZM?oc=5",
-          "published_at": "2025-07-14T07:00:00+00:00",
-          "snippet": "We’re all techies now: Digital skill building for the future McKinsey & Company",
-          "lexical_overlap": 0.105,
-          "relevance": 0.175,
-          "matched_terms": [
-            "building",
-            "digital"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "building",
-            "digital"
-          ]
-        },
-        {
-          "id": "4ab63ec89f7682beda",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Western Sydney University",
-          "source_url": "https://www.westernsydney.edu.au",
-          "title": "Western Sydney University launches major free AI skills initiative to prepare students for the future of work - Western Sydney University",
-          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPSm5ld3VWU1ZlYUtiZU1XNDhUOS1qTmdqM2NlWGVmZ3BobmZIQUhPWWE5bzJxUDVBSFFZZWN2SU1RdGJZS203VkdUaHAxNkJIbUI5Ym41T19EOWFzN1Bubnc4dDNpUXZETVFyRGVGUXhCVXRjN1U5OGh6eGZTNWV4a0V6VERQNFBjR2VfUkpJbmhPeHlITHU1QWtwcTBnYjJDczZpeDBsVV9qc0xaZnFiRjJ5aDFlbzh3NjBoUUxBZzk4c0lXLVRrbkN4MTFEaXk5Tkhra2d3eDU0dlRPZXlKTEFKdm1TczlZLVFlSUxPelp0dzN5ZnE5RXlQRQ?oc=5",
-          "published_at": "2026-02-02T08:00:00+00:00",
-          "snippet": "Western Sydney University launches major free AI skills initiative to prepare students for the future of work Western Sydney University",
-          "lexical_overlap": 0.087,
-          "relevance": 0.157,
-          "matched_terms": [
-            "free",
-            "university"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "free",
-            "university"
-          ]
-        }
-      ],
-      "implementation_signal": "current_primary_evidence_found",
+      "evidence": [],
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -34248,7 +32745,7 @@
     },
     {
       "id": "688f4e73e8a41fc15e",
-      "checked_at": "2026-10-07T22:00:36.383196+00:00",
+      "checked_at": "2026-10-11T08:52:46.199675+00:00",
       "promise_id": "BJP-2024-b9cc5efb0051ad2c28",
       "year": 2024,
       "category": "education_skills",
@@ -35206,7 +33703,7 @@
     },
     {
       "id": "07a964385a9fe5a26b",
-      "checked_at": "2026-10-07T22:00:25.679638+00:00",
+      "checked_at": "2026-10-11T08:51:58.019327+00:00",
       "promise_id": "BJP-2024-b4e9395c274174ed54",
       "year": 2024,
       "category": "jobs_economy",
@@ -35229,33 +33726,8 @@
       "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
       "related_promises": [],
       "query": "opportunities providing sportspersons comprehensive plan retired",
-      "evidence": [
-        {
-          "id": "289f3dea0ad91033c9",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "NST Online",
-          "source_url": "https://www.nst.com.my",
-          "title": "Yakeb targets comprehensive support plan for retired athletes - NST Online",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdHpGZHZuOGp3N2Z1S05HeGE5bFk4NzVOWGxvUUJqV2IwRmJ4M1VZbkpFV09mUi1RaWJCdTJvMkxwMko2SHJUdG4wQ2dCbUVfY2ZDdEF4emc5ZjlWRVVhYUN5ZDhXeUJ4UXRNNzFaWlphWlFINmxfQ3ZSbklYT3Q1M2J1OUVRT1RhSng0OEhGVE9JdWF1Q3lpRjUtMm1oUDh1ajFqUWdHNERUV3pXVWM0?oc=5",
-          "published_at": "2026-09-06T07:00:00+00:00",
-          "snippet": "Yakeb targets comprehensive support plan for retired athletes NST Online",
-          "lexical_overlap": 0.167,
-          "relevance": 0.272,
-          "matched_terms": [
-            "comprehensive",
-            "plan",
-            "retired"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "comprehensive",
-            "plan",
-            "retired"
-          ]
-        }
-      ],
-      "implementation_signal": "current_reporting_found",
+      "evidence": [],
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -38477,7 +36949,7 @@
     },
     {
       "id": "07efe5549b450e344e",
-      "checked_at": "2026-10-07T22:00:41.017936+00:00",
+      "checked_at": "2026-10-11T08:53:07.757360+00:00",
       "promise_id": "BJP-2024-bdd95a4c4d830d74ec",
       "year": 2024,
       "category": "other",
@@ -38500,77 +36972,8 @@
       "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
       "related_promises": [],
       "query": "path increase share non-fossil fuel sources",
-      "evidence": [
-        {
-          "id": "c9afe012f763909267",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "India’s Renewable Rise: Non-Fossil Sources Now Power Half the Nation’s Grid - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11a3JHV2gwZ1NCSGlZc212ektqRmt3Q3lWaHFDWkJMR1ByUXRUb0o4VUFvemU5RTJrcGgwX05YSWE0THlQMm1GbDdLSDc5VzE2N0ZsbEhtZ1NrNGNydzYzVTVHLVMxbWNp?oc=5",
-          "published_at": "2025-07-14T07:00:00+00:00",
-          "snippet": "India’s Renewable Rise: Non-Fossil Sources Now Power Half the Nation’s Grid PIB",
-          "lexical_overlap": 0.118,
-          "relevance": 0.238,
-          "matched_terms": [
-            "non-fossil",
-            "sources"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "non-fossil",
-            "sources"
-          ]
-        },
-        {
-          "id": "116f6ce4fd23571229",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Eunews",
-          "source_url": "https://www.eunews.it",
-          "title": "Lagarde: “Countries with non-fossil fuel energy sources are better protected” from shocks - Eunews",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcTYzYkdlY3ZHTnpYYU9EcE1UamxOUXJkN3lpLUZiYXFYbS1SQlk2LU14Yl81cWVpSnVPQ04tNUc3Mlk3bmVTMndrMDBzbi1OdjNEOTY1Sno4aVg3Q3dWdXdQajF4NVpxcGVTUnVNRGJmb2lYS0tmVi1RN0lDLXIzeFZULXd5MHZXNTh5YlM0X3h1d0htdmttNWIwNTJCcUhJelk3V0JrSF9JUkZLS1pSY3FmTHlfNzdIaWo3RGtZbHY?oc=5",
-          "published_at": "2026-05-05T07:00:00+00:00",
-          "snippet": "Lagarde: “Countries with non-fossil fuel energy sources are better protected” from shocks Eunews",
-          "lexical_overlap": 0.188,
-          "relevance": 0.292,
-          "matched_terms": [
-            "fuel",
-            "non-fossil",
-            "sources"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "fuel",
-            "non-fossil",
-            "sources"
-          ]
-        },
-        {
-          "id": "36d9ea3f7becab249e",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Asian Power",
-          "source_url": "https://asian-power.com",
-          "title": "India charts path to 500 GW non-fossil power by 2030 - Asian Power",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNUM4UEIzQ25PNzR1QTdQN01SekJmd2Q4THo4NW92dm1IWHo5U2hHb1h4V1EyOW4zdUh5SURWWkZsYjdUZWxrdFZWVnpCMHhlQm5EcUJydHJHRjdteDUySThzZTBkMUpNMkIzSExvSFd0Ukt5WE1xTzFIRmphM1Q1WmJKWFNIaEVtSmRV?oc=5",
-          "published_at": "2026-03-31T07:00:00+00:00",
-          "snippet": "India charts path to 500 GW non-fossil power by 2030 Asian Power",
-          "lexical_overlap": 0.154,
-          "relevance": 0.224,
-          "matched_terms": [
-            "non-fossil",
-            "path"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "non-fossil",
-            "path"
-          ]
-        }
-      ],
-      "implementation_signal": "current_primary_and_reporting_found",
+      "evidence": [],
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -42836,8 +41239,8 @@
       }
     },
     {
-      "id": "0764c49dce738dbbee",
-      "checked_at": "2026-10-11T06:31:01.264290+00:00",
+      "id": "05e0979e7f32ba2f72",
+      "checked_at": "2026-10-11T08:49:44.140463+00:00",
       "promise_id": "BJP-2019-18c0750d5ed71bc3d1",
       "year": 2019,
       "category": "agriculture",
@@ -42863,247 +41266,9 @@
       "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
-      "query": "2022 10000 enable creation farmer producer organisations fpos",
-      "evidence": [
-        {
-          "id": "8cd391cfb62be9602f",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Funding for Farmer Producer Organisations (FPOs) - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9jQVJ4ZWZyNWJvZ1Zha0V0bjNFS1luZkd4V0RPQ0pBSzFRcWthWFF4akRROS1LdHFtVmlQbmdzRGdsU3VmSWhUZlFQLV83YlVsS0VhRXlpOC1vMC1JbWJsQUFVZEl5RVZQ?oc=5",
-          "published_at": "2022-03-22T07:00:00+00:00",
-          "snippet": "Funding for Farmer Producer Organisations (FPOs) PIB",
-          "lexical_overlap": 0.286,
-          "relevance": 0.476,
-          "matched_terms": [
-            "farmer",
-            "fpos",
-            "organisations",
-            "producer"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "farmer",
-            "fpos",
-            "organisations",
-            "producer"
-          ]
-        },
-        {
-          "id": "310655095e177815b2",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "CCEA approves scheme for \"Formation and Promotion of Farmer Producer Organizations (FPOs) \" to form and promote 10,000 new FPOs - PIB",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE01UmFHN1NNbWNpcU5BWElzdGU4MnVVU3NsdU4wcWY3d0FjRGJBNTdWUGxCQWZBaFBhWW1zcjA4THdsMVpMZjVSaTBHODkzNzJXQ1pfbDFUVVZXMlFnQnEwVy1iQnBCcnBWVm9XeUVqTGYtak1FU3E0QWJ0WQ?oc=5",
-          "published_at": "2020-02-19T08:00:00+00:00",
-          "snippet": "CCEA approves scheme for \"Formation and Promotion of Farmer Producer Organizations (FPOs) \" to form and promote 10,000 new FPOs PIB",
-          "lexical_overlap": 0.143,
-          "relevance": 0.408,
-          "matched_terms": [
-            "farmer",
-            "fpos",
-            "producer"
-          ],
-          "shared_numbers": [
-            "10000"
-          ],
-          "promise_core_overlap": [
-            "farmer",
-            "fpos",
-            "producer"
-          ]
-        },
-        {
-          "id": "d36584f707d0cd0bec",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Farmer Producer Organizations (FPOs) by Primary Agricultural Credit Societies (PACS) - PIB",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5HWmlxY0lsN0s5cG5IaV9aQVpyLTJ1a2JpbUtrYlBXMU1CZ0toczBSM1VUcnJLSE5LdFdQdy1Na2hzNkdCaENGZlAxUUZLQ2RPcWNYU3hyUVF5YU1kVHh4SnJ0ZmJXcFhLNFFzckJRNTQ?oc=5",
-          "published_at": "2023-12-20T08:00:00+00:00",
-          "snippet": "Farmer Producer Organizations (FPOs) by Primary Agricultural Credit Societies (PACS) PIB",
-          "lexical_overlap": 0.158,
-          "relevance": 0.313,
-          "matched_terms": [
-            "farmer",
-            "fpos",
-            "producer"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "farmer",
-            "fpos",
-            "producer"
-          ]
-        },
-        {
-          "id": "640e272e9fd8456cce",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "10,000 FPOs Achieved under Government’s Flagship Scheme - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11anpMcmctUXlnTEItQXN0d2FGQ3pDWVYxMXhuMTVXcnBOcEV2ME51SXM2elF6VmtVRS1lM1Q3YVhfa1BXS191aTJJSGhxSG40ckM5YVp3S0VXbE1IeFFxOHA3eFA2cml2?oc=5",
-          "published_at": "2025-02-28T08:00:00+00:00",
-          "snippet": "10,000 FPOs Achieved under Government’s Flagship Scheme PIB",
-          "lexical_overlap": 0.062,
-          "relevance": 0.258,
-          "matched_terms": [
-            "fpos"
-          ],
-          "shared_numbers": [
-            "10000"
-          ],
-          "promise_core_overlap": [
-            "fpos"
-          ]
-        },
-        {
-          "id": "aedb1c7d29853ecef9",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "The Farm Acts are steps taken by the Government towards doubling farmers income by 2022 -- Agriculture Minister Narendra Singh Tomar - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE53cDJRZVNzTXVKRjN6WkpXaWlIM0lsZ3JubmkzNTVscm43bmlyZlQxZXlnNUFoOC1QR01CMy1KRW1oVzQ4bHg4NmxWZ09ESW5iekJJdHR2dmVVU2drNktqMjJzQTlITjF5?oc=5",
-          "published_at": "2020-12-17T08:00:00+00:00",
-          "snippet": "The Farm Acts are steps taken by the Government towards doubling farmers income by 2022 -- Agriculture Minister Narendra Singh Tomar PIB",
-          "lexical_overlap": 0.043,
-          "relevance": 0.238,
-          "matched_terms": [
-            "farmers"
-          ],
-          "shared_numbers": [
-            "2022"
-          ],
-          "promise_core_overlap": [
-            "farmers"
-          ]
-        },
-        {
-          "id": "531ed5a861c168b322",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Outlook India",
-          "source_url": "https://www.outlookindia.com",
-          "title": "Farmer Producer Organization Scheme A Path To Farmers’ Prosperity - Outlook India",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMVpLQmxEZW5udS1scVRES3BVcEduZnhJaEdLcU1HY2hKWndwZ0g1dWpIRl9PRHdPaVQ5c2RFaV9PTVZ6akw3NGpnYjNudkwxaEJuOG81VlFJdVZ1emkzbTN0NXFlMHpnRlhqZHlTcFhjd21Ba1cxQWtoOVBGVTBkUy05bjFqSkhKOEI0SFhHeG9YSjQwT3lfNVNwNWRKVjN2Wl9rSEgyQWlXY1BCbzVMQll2eUNGMkZm0gHGAUFVX3lxTE16WE9xMW1VUnQzRmR2VGd0OWFPX2Q1RFN4S3ZWd2duMXBOdExXeWlzSXByV05JNmE5WWEzZnFBb1hzOFduZ0R5OXhsZko1N1JhclpXNlpVQ21QZFR0THFTdkVCc1B3ZHBJRFFWMU8wTzlOMDNOTjcxQVVNOWFsT3A2RXc0NzdYX3dBaFBmV0hsSlhsc2YxdWlhMHE2SFM5RTc4TU9xRGhTeWtWUW1wV3IwZ1hiTkJtQU1ZN3RVcUlZeDFXMlM4Zw?oc=5",
-          "published_at": "2024-01-16T08:00:00+00:00",
-          "snippet": "Farmer Producer Organization Scheme A Path To Farmers’ Prosperity Outlook India",
-          "lexical_overlap": 0.176,
-          "relevance": 0.281,
-          "matched_terms": [
-            "farmer",
-            "farmers",
-            "producer"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "farmer",
-            "farmers",
-            "producer"
-          ]
-        },
-        {
-          "id": "73cde66727616b5865",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Agriculture Post",
-          "source_url": "https://agriculturepost.com",
-          "title": "10K Farmer producer organisations to create avenues for development: Agri Minister - Agriculture Post",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbW1qQm01TzFqbWZfYWNON3RVUEMtQ1dZRFpNTDBDdl9kX0NEU0JBWDU1ajNMYWNDVXVCdXdlZllFRGtodlNTUEVlUlJEVEpMR2ljcUJGdGV6ZlY1Sk1OS0pBN2dmYllsQU81dm9TbkJSSjFfQzgtejBkclZNdC1WSnl3dml4N2FyZDhnRzZMT21VdThhZ2g0UG9aRWdFV0VJQ19Cejlxdlp5dTlWcjR5VXJENVdLSXViNlJSaDAwN1Q?oc=5",
-          "published_at": "2020-07-04T07:00:00+00:00",
-          "snippet": "10K Farmer producer organisations to create avenues for development: Agri Minister Agriculture Post",
-          "lexical_overlap": 0.167,
-          "relevance": 0.272,
-          "matched_terms": [
-            "farmer",
-            "organisations",
-            "producer"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "farmer",
-            "organisations",
-            "producer"
-          ]
-        },
-        {
-          "id": "5dc3b5baf69daebb9b",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Vajiram & Ravi",
-          "source_url": "https://vajiramandravi.com",
-          "title": "Govt Moves to Set Up Fodder-Centric Farmer Producer Organisations - Vajiram & Ravi",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNWdNa2ZUT0VGYkQzNUQ5MlkxUFNzYjUxbG10NEFIbDRiX0h0UXZ1YUcyNDV4ekdJaGFkQi1abnJzVC01UHRMUU8zWFNqQVpPUmRnRzBMclRaSFhXVVVXS3pMRU5yZU9YdHV6R3BtRVpnOWdleE9OZXNfRlQ2VzRkb25XNlNHLTlMRjdqUHhZbEoxRjlVa3Eyc1laVy1FOTdmWkloeEJQUENNWjVORVE?oc=5",
-          "published_at": "2022-11-09T08:00:00+00:00",
-          "snippet": "Govt Moves to Set Up Fodder-Centric Farmer Producer Organisations Vajiram & Ravi",
-          "lexical_overlap": 0.158,
-          "relevance": 0.263,
-          "matched_terms": [
-            "farmer",
-            "organisations",
-            "producer"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "farmer",
-            "organisations",
-            "producer"
-          ]
-        },
-        {
-          "id": "1af39614098ce2c5d1",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "YourStory.com",
-          "source_url": "https://yourstory.com",
-          "title": "Flipkart signs MoU with SERP to enable market access, growth for FPOs, SHGs in Telangana - YourStory.com",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdGxJNXQ4NFR1ZldsQi1veEx3MUEzLW1keWV6d0kySm5zd0pVVVZrUnZiLWhQQlhTWkFfLUJvVVp2aFFNQzBZMGg2a0M2SWxSQUpEZFRsWDJUblpsb21JTDNiTVJ4OE8ycHplcVJyZlV3Z3pmTzhRZUhZN1VqQzVlUDFaNVQ1a21PSld0T093?oc=5",
-          "published_at": "2022-06-25T07:00:00+00:00",
-          "snippet": "Flipkart signs MoU with SERP to enable market access, growth for FPOs, SHGs in Telangana YourStory.com",
-          "lexical_overlap": 0.136,
-          "relevance": 0.241,
-          "matched_terms": [
-            "access",
-            "enable",
-            "fpos"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "access",
-            "fpos"
-          ]
-        },
-        {
-          "id": "634c286094b85d4f4a",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Down To Earth",
-          "source_url": "https://www.downtoearth.org.in",
-          "title": "Doubling farmers’ income by 2022 a challenge: NABARD official - Down To Earth",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVmJGN1R2NjhlaV9LV3R0a01JeHVQbGZLT3hFTGtfVmNDaVlXbVpRSm9BYmRub3hsVlVndWQzZTNhSjFQNUpFX0FqeHVHOVRCSzRlYzJCbVFJYjBHRXlTWDJrYjk0OFdrbE81TkY3YzFxMjNTQUl0OTR3Vm5kRGRNTWRpZm4tVGlOTmFPNVNCdHF5WHZoT3VybnFKa0FDZ1B1ZXAyMElBYzBhWkdn0gG6AUFVX3lxTE8yZ1NVbnduTHQzMEpadDBJa1h1cHlPVXgyWmtBclJiUDlaNXliWXV4Ykc4bWdnSFJESEpBZjBlOGYwbTNxU0Q0MEREMGE1UnlHb0tPRzdiZ1NWYXpTVnF4cl91LVlDS2FZXzJ4bGxvZmF3ak9uY2lEb25IQVNTV2JwYlZEcXhmODBYQkNORUszYmliRHd0UmltRGtIVENwVEJwX0xCSUpyWlNQeUxUQnpvSDM3X1F5SW45Zw?oc=5",
-          "published_at": "2017-12-29T08:00:00+00:00",
-          "snippet": "Doubling farmers’ income by 2022 a challenge: NABARD official Down To Earth",
-          "lexical_overlap": 0.053,
-          "relevance": 0.198,
-          "matched_terms": [
-            "farmers"
-          ],
-          "shared_numbers": [
-            "2022"
-          ],
-          "promise_core_overlap": [
-            "farmers"
-          ]
-        }
-      ],
-      "implementation_signal": "current_primary_and_reporting_found",
+      "query": "10000 2022 enable creation farmer producer organisations fpos",
+      "evidence": [],
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -44485,7 +42650,7 @@
     },
     {
       "id": "f5811520c1d5623f19",
-      "checked_at": "2026-10-11T06:31:02.890382+00:00",
+      "checked_at": "2026-10-11T08:49:52.880263+00:00",
       "promise_id": "BJP-2019-1d3e95fa9344e842f3",
       "year": 2019,
       "category": "infrastructure",
@@ -44606,7 +42771,7 @@
     },
     {
       "id": "92d6920a15fb42f812",
-      "checked_at": "2026-10-11T06:31:20.022230+00:00",
+      "checked_at": "2026-10-11T08:50:49.569060+00:00",
       "promise_id": "BJP-2019-6abf03adda773fec98",
       "year": 2019,
       "category": "governance",
@@ -44631,74 +42796,7 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
       "query": "2022 every gram panchayat connected high speed",
-      "evidence": [
-        {
-          "id": "31d510b5bcba13bd5b",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Release of Panchayat Advancement Index (PAI) 2022-23 - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBpOTNqa3BwSG15dHk1MjVLQ2dKZVNzS2VQX2FxYUo2dlFqQkY4UDBBeGVtWmp3Q1d0Wms5YnY4a0lxNUtpam44MklQN2YyeVNwMmx2TnJhVHJLZnRnOFV6R1hXUjVkZ0pI?oc=5",
-          "published_at": "2025-04-09T07:00:00+00:00",
-          "snippet": "Release of Panchayat Advancement Index (PAI) 2022-23 PIB",
-          "lexical_overlap": 0.067,
-          "relevance": 0.262,
-          "matched_terms": [
-            "panchayat"
-          ],
-          "shared_numbers": [
-            "2022"
-          ],
-          "promise_core_overlap": [
-            "panchayat"
-          ]
-        },
-        {
-          "id": "ec146c5b1ff7a5532d",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Evidence-Based Rural Development Gets a Push with Rollout of First-Ever Panchayat Advancement Index (PAI) Baseline Report for FY 2022-23 - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9aSkhNaGFxcWdiYmFZdzZyUHhVNXh5bXZlU0hSdWlsUW9qRXFIMXZ2N1h1MmtTRWFaOFA3T2k0ckszYWhhbHhsTDVQdWMzSzB4YVJxSGV1NEZVbE55aWJpTGxnYUJIWVZM?oc=5",
-          "published_at": "2025-04-09T07:00:00+00:00",
-          "snippet": "Evidence-Based Rural Development Gets a Push with Rollout of First-Ever Panchayat Advancement Index (PAI) Baseline Report for FY 2022-23 PIB",
-          "lexical_overlap": 0.042,
-          "relevance": 0.237,
-          "matched_terms": [
-            "panchayat"
-          ],
-          "shared_numbers": [
-            "2022"
-          ],
-          "promise_core_overlap": [
-            "panchayat"
-          ]
-        },
-        {
-          "id": "92658b299eb8db4fdc",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Down To Earth",
-          "source_url": "https://www.downtoearth.org.in",
-          "title": "To meet 2017 target, one million rural households need to be connected with piped water supply every day - Down To Earth",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPXzJQb3FpVjNvUFdua080RTZMU0JORnV6emZLZWZtbmQxVWZRMFFMZlp1Mm0xNVo2X0FEU3pnSkhQU01KQTBEeDI4UTdabzh3ZTlvYzZ6M1pIa2UzZlpubEdON2pZRkQzcjUyN0drQ1Q4Tk13OURpMUVhRGNKR3pfd3pINXpiY051Vy1BTlIya1NJUzhsaTFfWHY4UQ?oc=5",
-          "published_at": "2017-10-26T07:00:00+00:00",
-          "snippet": "To meet 2017 target, one million rural households need to be connected with piped water supply every day Down To Earth",
-          "lexical_overlap": 0.087,
-          "relevance": 0.157,
-          "matched_terms": [
-            "connected",
-            "every"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "connected",
-            "every"
-          ]
-        }
-      ],
+      "evidence": [],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -47735,7 +45833,7 @@
     },
     {
       "id": "1e0abc9f94016f3c7a",
-      "checked_at": "2026-10-11T06:31:04.332424+00:00",
+      "checked_at": "2026-10-11T08:50:02.391475+00:00",
       "promise_id": "BJP-2019-2af396deaf778cac73",
       "year": 2019,
       "category": "infrastructure",
@@ -47820,7 +45918,7 @@
     },
     {
       "id": "4af70c5cc4e5dd31ea",
-      "checked_at": "2026-10-11T06:31:10.765909+00:00",
+      "checked_at": "2026-10-11T08:50:21.779416+00:00",
       "promise_id": "BJP-2019-34c03859f07f1329c5",
       "year": 2019,
       "category": "infrastructure",
@@ -47845,155 +45943,18 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
       "query": "2022 road connectivity complete dedicated freight corridor",
-      "evidence": [
-        {
-          "id": "657f4e89a489a2c490",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Project for Chennai Port to Maduravoyal corridor in Tamil Nadu to be completed by December 2024 - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8tMjQ1c25OS1pTWS1EaXhENG1RWnIxS1F3dU1mYW16TnJXRGdEVmc1VE5IVHBOZnI2YVZ3LWVlTkVJT0M0VThZYmpSTHNsX2lVdGhVM0lHem1pbFBrZzNiTHZCS0dXTlo3?oc=5",
-          "published_at": "2022-10-03T07:00:00+00:00",
-          "snippet": "Project for Chennai Port to Maduravoyal corridor in Tamil Nadu to be completed by December 2024 PIB",
-          "lexical_overlap": 0.133,
-          "relevance": 0.253,
-          "matched_terms": [
-            "corridor",
-            "project"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "corridor",
-            "project"
-          ]
-        },
-        {
-          "id": "ec1d0cc8a5a0c1eb96",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "India Briefing",
-          "source_url": "https://www.india-briefing.com",
-          "title": "India’s Dedicated Freight Corridor Program: Progress and Prospects - India Briefing",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSlI0WjdQeG9qdHJDRmlYaHl4N0xZaWhUZXJXY21naTUxcjltZWFZeEZUc0xZNFlESTBkUVB4Y1p1cUdydzV6SFU0Yml5bDkxMTNjTkRMUkY3Wkp6T1Q1R2Nvc081Skt6OEVleDBlSmhtYkx5RGdWUDR3ZVA1bWw5aUNDd2I1ek9sblJxOUVWUThUYTFYeGE4WFNtOGx1Ry14UVZaZUVn?oc=5",
-          "published_at": "2024-04-08T07:00:00+00:00",
-          "snippet": "India’s Dedicated Freight Corridor Program: Progress and Prospects India Briefing",
-          "lexical_overlap": 0.273,
-          "relevance": 0.378,
-          "matched_terms": [
-            "corridor",
-            "dedicated",
-            "freight"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "corridor",
-            "dedicated",
-            "freight"
-          ]
-        },
-        {
-          "id": "c1a8150f16f5b1481b",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Times of India",
-          "source_url": "https://timesofindia.indiatimes.com",
-          "title": "Rs 20,700 crore, 326 km more: India completes its Dedicated Freight Corridor network as PM Modi inaugurat - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMijwNBVV95cUxNMlRLZF9sX3JpRHJubzZJT2c4cXdpSWZNTDMtY3ZzelhkZTNxckdIWTRfWERMVzR4TlpHNjVDTWtaTk9BWHRNcE45ZW54OW10UlA5aUxTWGtKS2F6dC1DNjgxVUlKZ0JJVkdjTmJEYUVjajdxRnd5UXUyeDJfaFRPUnRkdm9wdFV5eHUzamxMYjVKX2NHWExBZmpSTjk2dTBFZm5LRi1rUlZxenhLaXJKWi0zRUt0ZWtocGt1Q01IZUNwUjdBOGZwd0FOVVpFMnZPbzhjUkFJQWFuZGtKU1BBM1BDMzVXR1hrbFk0QUFmYUJRM0g1U2dVbzc4ZkZWQTJaZE1CcWVxTnRlNzBfUDAxVVFrQjlIMExMNGZjeG1qM2pROWVZUF9qS2pFWTNvQXNDVldRRFpvQmZUZnh5VG4xRElVdDVoeG4xNHBkUnRGbVctRGt3eklEbGJlOWR6alJsZjBmMk9BR2FROG9YYXNuSUcyandEZUF1WUNuaVZmSmlhRC1fYjFKZVNxbEdCR1nSAZQDQVVfeXFMTVlJbTNsaS1uVE9ERFdrVmtKVGt3MnU1TVRITWluMktNMUlib0lfOG1wdnJDdVNkSnlFNU1kWmJYa1RLVlMxRXdLTHl4aHY2UDk1aGNwRmV3aTYzUFA5M0lZZG1HRC1CdmgwaWIxdlRHX1hVYjVYdno5T2FsSGZEZWwyaFF0Z0FDNDBuVkhCc2xqMjVsMkw1MzVqUDBsVVZ3V0hvTnRBMGRSZWlzV2U2bklYMEE5Y3JNT0doeEhycHV5Zkhvd0pXeHRDQlFLR1VxbFRBejJteW9xSi15Q0JPZ1QtQ1FHZ1I3aFNqSEFLSDZKVkkycFNmdzlMX2Z0TkM2WWFCVk5hZ1ZsV3h6VnFiUVZVdDVQXzRhVEpyRF91bDQ4UzA5VXp1akQ5Q3FZdGhQN24wV3Q3ZlRMY0VhRVN6eFBXNmpkZkZEME1La2hMUTRuLXlXb2xfMGFOcGh4dFU0YWd2VS1ZdW9IeWdadW1fOVZoQW80Q2FpVUlLR3VyMFIxR2NEMlZZZVF1a1hUaG5jdWFXYjU?oc=5",
-          "published_at": "2026-09-08T07:00:00+00:00",
-          "snippet": "Rs 20,700 crore, 326 km more: India completes its Dedicated Freight Corridor network as PM Modi inaugurat The Times of India",
-          "lexical_overlap": 0.2,
-          "relevance": 0.305,
-          "matched_terms": [
-            "corridor",
-            "dedicated",
-            "freight"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "corridor",
-            "dedicated",
-            "freight"
-          ]
-        },
-        {
-          "id": "6ce15b25c37e0c63c6",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Vajiram & Ravi",
-          "source_url": "https://vajiramandravi.com",
-          "title": "Dedicated Freight Corridors – Backbone of India’s Logistics Revolution - Vajiram & Ravi",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUW9FREJnbVFGZnRnMHNmZWN3enczbml4NU5YZkNDNVgzN2JmbldzOGNkUXpPTkJIM01JcDg3TGlDT1ZER28waEtoWlJNY05zVlZWOWRSU2VQWTlCbFMwbmZLVWEzMXpEWTczanhkNHF0TjlWa3VxLVByOWFybGw1SFh6OEJBdnVnc1VfQmtDYjlPeFFlR2Rwcy1zT2xacWFtbFg2YjBnbFcxbEp4MHRWVw?oc=5",
-          "published_at": "2026-09-16T07:00:00+00:00",
-          "snippet": "Dedicated Freight Corridors – Backbone of India’s Logistics Revolution Vajiram & Ravi",
-          "lexical_overlap": 0.154,
-          "relevance": 0.224,
-          "matched_terms": [
-            "dedicated",
-            "freight"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "dedicated",
-            "freight"
-          ]
-        },
-        {
-          "id": "57f26ed201c7e8010e",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Business Standard",
-          "source_url": "https://www.business-standard.com",
-          "title": "Western freight corridor goes all the way, to cut transit time 60% - Business Standard",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNYm1rdEZsMVBIMDB3ZEVFWktuSkgyYUhPVTdSVmZhWUhXSjhHRkUxS3FJZXdUSEhRdzh6TjA2NlkySm94cUpKYkdJbEJmd2R0NHpoSnFsWlVFeDY4TmdTajlIdUdxOF9Rd3pFV0ZsVXRCRUhOZHh0X2puRkl3OWFndm1KWHlRNlIyTDdObnRnYUpNWXdpWFRDbWJ3TnFzUE54Wmd3UkMwS2d2WVg5UWhud254STkwbVZ0X2F0dHFNek5HbWFwVkhSdEEtLW3SAdIBQVVfeXFMTk5DbVVFRWhSMzlzb2RzLWxFeXR3TTVVbXNFVTZhdHlaM0dlYU1iempnYnVsa1Rjdk9qNm9qM3h6RnNISU9ONjlGLV9YcUlzeFBSRkk5RllYM1RUTzVGR3JkWjNjbVhTTnIwN2w2VFM3SVdVRmRFWklJQmZMcFFPMDFYQk94NjNKRHYxRXVwU0N6LUZJeDk4N2t4NHVqd2hWWFVyQzRCSUJ6MjI5QkxYd2E4VjRmWmVBUENpOVFFcTBoR0tNTWszQm9vdDNGTzFHZ01R?oc=5",
-          "published_at": "2026-09-08T07:00:00+00:00",
-          "snippet": "Western freight corridor goes all the way, to cut transit time 60% Business Standard",
-          "lexical_overlap": 0.133,
-          "relevance": 0.203,
-          "matched_terms": [
-            "corridor",
-            "freight"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "corridor",
-            "freight"
-          ]
-        },
-        {
-          "id": "d1997391a51c39a65f",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "https://www.usthadian.com/",
-          "source_url": "https://www.usthadian.com",
-          "title": "Dedicated Freight Corridors Strengthen India’s Logistics Network - https://www.usthadian.com/",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUlJqZ2NiOHBPMzFXMHV5QlBiYl9HaXpwbjFsaFdOeS1pTktWb1NnRGRXVXcxa1VDNldFN3pGeTlmUUFFM3pTY0VidW1Kbk1NUlBBMWFHbXFzcGhNUXVaYWFOY3IzZ1JZM0g5NGVzaDhVajhYS29VZjhKbTByRGFLanJMalBYbkdjOFYweUd4cGJqMkFE?oc=5",
-          "published_at": "2026-09-19T07:00:00+00:00",
-          "snippet": "Dedicated Freight Corridors Strengthen India’s Logistics Network https://www.usthadian.com/",
-          "lexical_overlap": 0.133,
-          "relevance": 0.203,
-          "matched_terms": [
-            "dedicated",
-            "freight"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "dedicated",
-            "freight"
-          ]
-        }
-      ],
-      "implementation_signal": "action_detected",
+      "evidence": [],
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
       "outcome": {
-        "status": "progress_documented",
+        "status": "deadline_passed_unresolved",
         "deadline_year": 2022,
-        "proof_strength": "verified_primary_action_with_object_overlap",
-        "proof_evidence_id": "657f4e89a489a2c490",
+        "proof_strength": "none",
+        "proof_evidence_id": null,
         "proof": null,
-        "reason": "Verified primary evidence overlaps the subject of the promise and documents implementation activity, but not the promised outcome."
+        "reason": "The extracted deadline (2022) has passed, but ClaimWatch does not have direct comparable post-deadline evidence proving fulfilment or non-fulfilment."
       }
     },
     {
@@ -49735,7 +47696,7 @@
     },
     {
       "id": "93bb9754ab7125c8f1",
-      "checked_at": "2026-10-11T06:31:15.409202+00:00",
+      "checked_at": "2026-10-11T08:50:34.980317+00:00",
       "promise_id": "BJP-2019-6013bbae5c9fbd8c5a",
       "year": 2019,
       "category": "women_social_justice",
@@ -49760,33 +47721,8 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
       "query": "2022 continuing pace full immunization coverage children",
-      "evidence": [
-        {
-          "id": "99e9e7676763dc3d7d",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "AffairsCloud",
-          "source_url": "https://affairscloud.com",
-          "title": "Health Minister Mansukh Mandaviya Launches IMI 4.0 for Children, Pregnant Women - AffairsCloud",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObGd6WGlIM2stZmdFb05hNldZbFJtRS1iYW5lWnpWdkxCTE5UbFUyclJ5Ml9hRlhLRHhxOGR4ankxTjVtUEJCSjRGc2pZUndOXzBkOXRyWFJBaU11SW5EV2c0bUNtaWRsZzVNTGRKMnQ4WFUtTkFyc0VwQXYzanFXamV3blVMenJ1endsZzZ3Q1ZqazlmQ0gyaVExWjBPeDFyaU8zdnduM0RORXNSU1M1SmxpcVQyeWJ0OF9HdnBn?oc=5",
-          "published_at": "2022-02-08T08:00:00+00:00",
-          "snippet": "Health Minister Mansukh Mandaviya Launches IMI 4.0 for Children, Pregnant Women AffairsCloud",
-          "lexical_overlap": 0.2,
-          "relevance": 0.305,
-          "matched_terms": [
-            "children",
-            "pregnant",
-            "women"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "children",
-            "pregnant",
-            "women"
-          ]
-        }
-      ],
-      "implementation_signal": "current_reporting_found",
+      "evidence": [],
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -49801,7 +47737,7 @@
     },
     {
       "id": "1d1782ad81aa54afcd",
-      "checked_at": "2026-10-11T06:31:17.838921+00:00",
+      "checked_at": "2026-10-11T08:50:40.727070+00:00",
       "promise_id": "BJP-2019-63e2ccda189fa85e2c",
       "year": 2019,
       "category": "health_welfare",
@@ -54500,7 +52436,7 @@
     },
     {
       "id": "21c782a6ad2ecb8987",
-      "checked_at": "2026-10-11T06:31:07.543755+00:00",
+      "checked_at": "2026-10-11T08:50:11.778984+00:00",
       "promise_id": "BJP-2019-2cfa1375f165d41707",
       "year": 2019,
       "category": "other",
@@ -55701,7 +53637,7 @@
     },
     {
       "id": "09db92a7679f9e887b",
-      "checked_at": "2026-10-11T06:31:12.659423+00:00",
+      "checked_at": "2026-10-11T08:50:29.314956+00:00",
       "promise_id": "BJP-2019-4fc8289de8caed52ff",
       "year": 2019,
       "category": "other",
@@ -60671,7 +58607,7 @@
     },
     {
       "id": "df076e7dea8ba67624",
-      "checked_at": "2026-10-11T06:31:22.318425+00:00",
+      "checked_at": "2026-10-11T08:50:58.905031+00:00",
       "promise_id": "BJP-2014-078252941779345656",
       "year": 2014,
       "category": "women_social_justice",
@@ -60696,48 +58632,7 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/252/1/bjp_lection_manifesto_english_2014.pdf",
       "related_promises": [],
       "query": "next five courts cases arbitration judiciary",
-      "evidence": [
-        {
-          "id": "028f4e7c6c9f4685f5",
-          "scope": "broad_official_search",
-          "tier": "primary",
-          "source": "eCourt India High Courts Services",
-          "source_url": "https://hcservices.ecourts.gov.in",
-          "title": "Case Status : Search by Case Number - eCourt India High Courts Services",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQ1BtbUZBeTd5UHFsV0dxeTRtMy00MjdBcllJRm1vUko0Slo0cXJoazJSTzdsMW5GYjZta01iU1ZnTnRycC1XckFIVXhzOGRQbS1SckVNRXNsVFFTNktfek1KRy1jb2lKQzFlMVRzN1JES1o3WWE5NjUwaWlKcUNNRmRROFkwVHBxTWtFSFBlbnl3ME42Z3pqdGhySHN4T05adFM5X0NlVFZSWktJWG5UUUxmYVREbTI2UmJxLS1Jam1HUQ?oc=5",
-          "published_at": "2022-06-17T04:06:30+00:00",
-          "snippet": "Case Status : Search by Case Number eCourt India High Courts Services",
-          "lexical_overlap": 0.111,
-          "relevance": 0.231,
-          "matched_terms": [
-            "courts",
-            "number"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "courts"
-          ]
-        },
-        {
-          "id": "b1c00a883cde81cad8",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Supreme Court Observer",
-          "source_url": "https://www.scobserver.in",
-          "title": "Supreme Court Review 2025: Arbitration and the limits of judicial repair - Supreme Court Observer",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdnVNc21iUGMzcGoycTQ0N2hhS0wzbE90RkpGdndjMEJtX1ZJS1pza29SWmJPbmFudG5kRmJ4QjJ0Z21LanhRN3d5eDl1a3pabDB4bXpvem5VSURMMVNmcWctb29KQ1V3VGxXVmlGdzY3MWxRV3NoSDlubkNHNWRxVFdqWFdwUDVLVHNJVURxbHNSc0c4OW1iNFYwamdyOUdXdkk1YmQ4VDZ4QQ?oc=5",
-          "published_at": "2026-01-17T08:00:00+00:00",
-          "snippet": "Supreme Court Review 2025: Arbitration and the limits of judicial repair Supreme Court Observer",
-          "lexical_overlap": 0.111,
-          "relevance": 0.181,
-          "matched_terms": [
-            "arbitration",
-            "review"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": []
-        }
-      ],
+      "evidence": [],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -70094,7 +67989,228 @@
       }
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "stage": "claim_evidence_search",
+      "claim": "In October last year, with his personal support, we implemented a historic Trade and Economic Partnership Agreement betw",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "claim_evidence_search",
+      "claim": "In the 19th century, Swami Vivekananda saw a glimpse of the Himalayas in the Swiss Alps.",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "claim_evidence_search",
+      "claim": "To further strengthen this cooperation, today we signed an agreement on transport, mobility, and infrastructure.",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "claim_evidence_search",
+      "claim": "The Migration and Mobility Partnership Agreement and the Young Professionals Agreement signed today will open up many ne",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "claim_evidence_search",
+      "claim": "Your Excellency, In February this year, India hosted the world’s largest AI Summit.",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "claim_evidence_search",
+      "claim": "The manner in which India’s Captain Smita displayed patience, prudence, and courage, and as the Prime Minister of Israel",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "claim_evidence_search",
+      "claim": "Friends, Today is not only a celebration of 100 years of the UPSC, but also a celebration of a legacy.",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "claim_evidence_search",
+      "claim": "A commemorative postage stamp and coin marking this 100-year journey have just been released.",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "claim_evidence_search",
+      "claim": "A compilation of 100 important case laws has also been published.",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "claim_evidence_search",
+      "claim": "A little while ago, I was visiting the gallery that has been set up here, and I would encourage all of you to spend 10 t",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "claim_evidence_search",
+      "claim": "I noticed a photograph from the 75th anniversary celebrations in which Lt.",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "claim_evidence_search",
+      "claim": "Today, at the age of 90, he is present among us.",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "claim_evidence_search",
+      "claim": "While looking through the gallery, I noticed that it also contains information about how Subhas Chandra Bose went throug",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "claim_evidence_search",
+      "claim": "The steel frame that was required for the reconstruction of the nation was provided by Sardar Vallabhbhai Patel.",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "promise_evidence_search",
+      "promise_id": "BJP-2019-18c0750d5ed71bc3d1",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "promise_evidence_search",
+      "promise_id": "BJP-2019-1d3e95fa9344e842f3",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "promise_evidence_search",
+      "promise_id": "BJP-2019-2af396deaf778cac73",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "promise_evidence_search",
+      "promise_id": "BJP-2019-2cfa1375f165d41707",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "promise_evidence_search",
+      "promise_id": "BJP-2019-34c03859f07f1329c5",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "promise_evidence_search",
+      "promise_id": "BJP-2019-4fc8289de8caed52ff",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "promise_evidence_search",
+      "promise_id": "BJP-2019-6013bbae5c9fbd8c5a",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "promise_evidence_search",
+      "promise_id": "BJP-2019-63e2ccda189fa85e2c",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "promise_evidence_search",
+      "promise_id": "BJP-2019-6abf03adda773fec98",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "promise_evidence_search",
+      "promise_id": "BJP-2014-078252941779345656",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "promise_evidence_search",
+      "promise_id": "BJP-2024-b3ae777003ac0077fa",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "promise_evidence_search",
+      "promise_id": "BJP-2024-b3c6ac07495bbcea79",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "promise_evidence_search",
+      "promise_id": "BJP-2024-b40b705dc50888a344",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "promise_evidence_search",
+      "promise_id": "BJP-2024-b4572facd39269d2f5",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "promise_evidence_search",
+      "promise_id": "BJP-2024-b49463d7085e6ecddc",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "promise_evidence_search",
+      "promise_id": "BJP-2024-b4c5f575d319bc3b6b",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "promise_evidence_search",
+      "promise_id": "BJP-2024-b4ca0579fbddd51a0d",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "promise_evidence_search",
+      "promise_id": "BJP-2024-b4e9395c274174ed54",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "promise_evidence_search",
+      "promise_id": "BJP-2024-b53e7499785d2d2c3d",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "promise_evidence_search",
+      "promise_id": "BJP-2024-b590fc7d034c8b9e36",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "promise_evidence_search",
+      "promise_id": "BJP-2024-b59ff079ccf3cc0e6b",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "promise_evidence_search",
+      "promise_id": "BJP-2024-b7cf710f8b0a1055a9",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "promise_evidence_search",
+      "promise_id": "BJP-2024-b81847ff4c521794ea",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "promise_evidence_search",
+      "promise_id": "BJP-2024-b8944abee5f02a1e55",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "promise_evidence_search",
+      "promise_id": "BJP-2024-b9cc5efb0051ad2c28",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "promise_evidence_search",
+      "promise_id": "BJP-2024-ba2b6777effa51eba5",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "promise_evidence_search",
+      "promise_id": "BJP-2024-ba75502cfe44067067",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "promise_evidence_search",
+      "promise_id": "BJP-2024-bdd95a4c4d830d74ec",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "promise_evidence_search",
+      "promise_id": "BJP-2024-c02ea3bbbb7593af92",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "promise_evidence_search",
+      "promise_id": "BJP-2024-c05e03344581ad98a5",
+      "error": "HTTPError"
+    }
+  ],
   "notes": [
     "Evidence candidates are not verdicts.",
     "Official-search results are discarded unless they share substantive terms or numeric values with the claim.",
