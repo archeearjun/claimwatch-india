@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T06:36:30.978814+00:00",
+  "generated_at": "2026-10-12T11:13:41.831698+00:00",
   "capabilities": {
     "official_evidence_search": true,
     "verified_primary_gate": true,
@@ -16,8 +16,8 @@
     "promise_checked_this_run": 30,
     "promise_total_candidates": 841,
     "promise_coverage_pct": 99.3,
-    "primary_candidates": 478,
-    "secondary_candidates": 1054,
+    "primary_candidates": 480,
+    "secondary_candidates": 1048,
     "prior_fact_checks": 0,
     "publishable_auto_verdicts": 0,
     "claim_verdicts": {
@@ -67,7 +67,26 @@
       "query": "trade october last his personal support",
       "numbers": [],
       "promise_matches": [],
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "c35ad6e894f817f91e",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Yahoo Lifestyle Canada",
+          "source_url": "https://ca.style.yahoo.com",
+          "title": "Want to fight back against Trump's trade war? Here are 200+ Canadian brands you can shop to support local - Yahoo Lifestyle Canada",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOUWlqRXlKNFY5dWdPSkFlazgzV2d4alI4R0wxSExqSUFMVFo0MEkyeklTa08zaEdxQmt6VVAxZTlLU082YnlkU2Q4QnhfRXpKQkR5bm9wTTZBTG1na2VUTG1kZWR1N1RndWVlejhZSXRlaHpuLXE2Q3ZGZHRhODZmd1ZxZUNtZXQyQlBua2JpVVMwYXhuUXRkU1prSGtkMDZUUkxDMllRVkpmR1pQQlpMY3hwUFhxNTdSQms2ZFJycnVKNTdJaDdHNEkxQTdQRXp1TWJtLVZ5M1J3MEtr?oc=5",
+          "published_at": "2026-09-29T07:00:00+00:00",
+          "snippet": "Want to fight back against Trump's trade war? Here are 200+ Canadian brands you can shop to support local Yahoo Lifestyle Canada",
+          "lexical_overlap": 0.077,
+          "relevance": 0.147,
+          "matched_terms": [
+            "support",
+            "trade"
+          ],
+          "shared_numbers": []
+        }
+      ],
       "fact_checks": [],
       "signal": {
         "level": "needs_research",
@@ -815,7 +834,7 @@
         "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-centenary-celebrations-of-upsc/",
         "published_at": "2026-10-01T09:05:21+00:00"
       },
-      "query": "15 10 little while ago was visiting gallery",
+      "query": "10 15 little while ago was visiting gallery",
       "numbers": [
         "10",
         "15"
@@ -858,22 +877,52 @@
       "promise_matches": [],
       "evidence": [
         {
-          "id": "4f083245a595995ddf",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Weverse",
-          "source_url": "https://weverse.io",
-          "title": "[EVENT] WINNER 12th ANNIVERSARY Special Gift Notice - Weverse",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE91MGluMHNFb2NPTHdscVBYRFp5anVqM1p3WGdTR0RoMmpvR1c2WjdvaWpZRW9nTFdGeW9DblNfRGVacHNPVkdIdlU2RGJlVlU?oc=5",
-          "published_at": "2026-08-12T07:20:42+00:00",
-          "snippet": "[EVENT] WINNER 12th ANNIVERSARY Special Gift Notice Weverse",
-          "lexical_overlap": 0.154,
-          "relevance": 0.224,
+          "id": "da7a554c3d581bcc7a",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Vice President Graces 140th Anniversary Celebrations of Deepika Malayalam Daily in Kottayam - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5xVWp1NmZ6c0xyZFpuVlpseUkzRDNmVGxTdXpLWEdQNU03V0dNQktJZTl5R01rei05RDRuaGpUSWJScEJLQjZtNjFoOUZ6MGQwa3pMcDF5V0ltTC1DamdxSUs4SnFHSFlpYV9DQlZoOVJCclF4dF9GbU5B?oc=5",
+          "published_at": "2026-05-31T07:00:00+00:00",
+          "snippet": "Vice President Graces 140th Anniversary Celebrations of Deepika Malayalam Daily in Kottayam PIB",
+          "lexical_overlap": 0.2,
+          "relevance": 0.355,
           "matched_terms": [
             "anniversary",
+            "celebrations",
             "th"
           ],
-          "shared_numbers": []
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.0032,
+            "neutral": 0.9308,
+            "contradiction": 0.066
+          }
+        },
+        {
+          "id": "2c13ec6d7302e890d1",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Prime Minister Shri Narendra Modi addresses the 100th birth anniversary celebrations of Bharat Ratna Dr. Bhupen Hazarika in Guwahati, Assam - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5VZkV2Q1dOV1pyRDNBZHBxNkV5Qjh1clRHc2hKSmlYTDYwa1BsT2RHQ1V2Mm9uakhnRllDUXYzT0YyaFoyN2s5emRuSmZqXzF4bERVYmxDV2tTMm4tUGtzVmdMeFpBSlZr?oc=5",
+          "published_at": "2025-09-13T07:00:00+00:00",
+          "snippet": "Prime Minister Shri Narendra Modi addresses the 100th birth anniversary celebrations of Bharat Ratna Dr. Bhupen Hazarika in Guwahati, Assam PIB",
+          "lexical_overlap": 0.176,
+          "relevance": 0.331,
+          "matched_terms": [
+            "anniversary",
+            "celebrations",
+            "th"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.0047,
+            "neutral": 0.8441,
+            "contradiction": 0.1512
+          }
         },
         {
           "id": "a43ebe630d5ecab72d",
@@ -892,30 +941,12 @@
             "th"
           ],
           "shared_numbers": []
-        },
-        {
-          "id": "7e9e5997f3ca2c9b71",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "dst.gov.mo",
-          "source_url": "https://www.dst.gov.mo",
-          "title": "【5th inauguration anniversary】Macao Grand Prix Museum offers free admission and special fun activities for the public on 1 June - MACAO GOVERNMENT TOURISM OFFICE - dst.gov.mo",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcV9kNjB6ZUtHOG5vdDh1dmxIV2h4cWJ6ZzJwU041RVBPeDhPQkpneWNlS2tOY0FKcEtBTmotbnAzdGJiMUg4SnN2N0NhZTFRb2RMZm5uQm1qTzdOclBPYU80TnN2RW5MZ2RCZjNnSjhZVUdHNi0xd3dMRHRQcXdoVmJXbF9HY2dIYWxWNlV5WQ?oc=5",
-          "published_at": "2026-05-31T07:00:00+00:00",
-          "snippet": "【5th inauguration anniversary】Macao Grand Prix Museum offers free admission and special fun activities for the public on 1 June - MACAO GOVERNMENT TOURISM OFFICE dst.gov.mo",
-          "lexical_overlap": 0.095,
-          "relevance": 0.165,
-          "matched_terms": [
-            "anniversary",
-            "th"
-          ],
-          "shared_numbers": []
         }
       ],
       "fact_checks": [],
       "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
+        "level": "primary_evidence_found",
+        "label": "Relevant verified primary evidence candidate found",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -1097,7 +1128,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-12T06:35:49.531427+00:00",
+      "latest_checked_at": "2026-10-12T11:12:47.659262+00:00",
       "latest_claim_packet_id": "6627bae11c2e4166b3"
     },
     {
@@ -1121,7 +1152,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-12T06:35:49.531438+00:00",
+      "latest_checked_at": "2026-10-12T11:12:47.659315+00:00",
       "latest_claim_packet_id": "d443adc2a0e2470ae9"
     },
     {
@@ -1145,7 +1176,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-12T06:35:49.531454+00:00",
+      "latest_checked_at": "2026-10-12T11:12:47.659342+00:00",
       "latest_claim_packet_id": "c2a19aa48972aa09e4"
     },
     {
@@ -1388,7 +1419,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-12T06:35:49.531414+00:00",
+      "latest_checked_at": "2026-10-12T11:12:47.659249+00:00",
       "latest_claim_packet_id": "88113c4cc7679dfe59"
     },
     {
@@ -1430,13 +1461,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "reporting_found",
+      "evidence_state": "primary_evidence_found",
       "human_reviewed": false,
       "created_at": "2026-10-01T20:22:13.976596+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-12T06:35:49.531466+00:00",
+      "latest_checked_at": "2026-10-12T11:12:47.659356+00:00",
       "latest_claim_packet_id": "f6a1dd2c05d49c3e3c"
     },
     {
@@ -1484,7 +1515,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-05T10:24:58+00:00",
       "last_seen": "2026-10-05T10:24:58+00:00",
-      "latest_checked_at": "2026-10-12T06:35:49.531285+00:00",
+      "latest_checked_at": "2026-10-12T11:12:47.659118+00:00",
       "latest_claim_packet_id": "36af41d1f474135176"
     },
     {
@@ -1508,7 +1539,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-05T10:24:58+00:00",
       "last_seen": "2026-10-05T10:24:58+00:00",
-      "latest_checked_at": "2026-10-12T06:35:49.531322+00:00",
+      "latest_checked_at": "2026-10-12T11:12:47.659157+00:00",
       "latest_claim_packet_id": "64350ab72af5545228"
     },
     {
@@ -1724,7 +1755,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-05T10:24:58+00:00",
       "last_seen": "2026-10-05T10:24:58+00:00",
-      "latest_checked_at": "2026-10-12T06:35:49.531361+00:00",
+      "latest_checked_at": "2026-10-12T11:12:47.659196+00:00",
       "latest_claim_packet_id": "775a9a25cc5414cbea"
     },
     {
@@ -1796,7 +1827,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-12T06:35:49.531400+00:00",
+      "latest_checked_at": "2026-10-12T11:12:47.659235+00:00",
       "latest_claim_packet_id": "63b703ab25dbb97e26"
     },
     {
@@ -1844,7 +1875,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-12T06:35:49.531504+00:00",
+      "latest_checked_at": "2026-10-12T11:12:47.659401+00:00",
       "latest_claim_packet_id": "8627b9532420ebafc0"
     },
     {
@@ -1916,7 +1947,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-05T10:24:58+00:00",
       "last_seen": "2026-10-05T10:24:58+00:00",
-      "latest_checked_at": "2026-10-12T06:35:49.531341+00:00",
+      "latest_checked_at": "2026-10-12T11:12:47.659176+00:00",
       "latest_claim_packet_id": "0e71e9aca86b4c154c"
     },
     {
@@ -1988,7 +2019,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-12T06:35:49.531476+00:00",
+      "latest_checked_at": "2026-10-12T11:12:47.659368+00:00",
       "latest_claim_packet_id": "69276105583e101638"
     },
     {
@@ -2087,7 +2118,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-01T09:05:21+00:00",
       "last_seen": "2026-10-01T09:05:21+00:00",
-      "latest_checked_at": "2026-10-12T06:35:49.531491+00:00",
+      "latest_checked_at": "2026-10-12T11:12:47.659387+00:00",
       "latest_claim_packet_id": "6df0bf295350af0cd6"
     },
     {
@@ -2207,7 +2238,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-05T10:24:58+00:00",
       "last_seen": "2026-10-05T10:24:58+00:00",
-      "latest_checked_at": "2026-10-12T06:35:49.531378+00:00",
+      "latest_checked_at": "2026-10-12T11:12:47.659213+00:00",
       "latest_claim_packet_id": "aceda866d7e8ef92a8"
     }
   ],
@@ -41629,7 +41660,7 @@
     },
     {
       "id": "0764c49dce738dbbee",
-      "checked_at": "2026-10-12T06:35:51.743909+00:00",
+      "checked_at": "2026-10-12T11:12:49.838566+00:00",
       "promise_id": "BJP-2019-18c0750d5ed71bc3d1",
       "year": 2019,
       "category": "agriculture",
@@ -43300,7 +43331,7 @@
     },
     {
       "id": "f5811520c1d5623f19",
-      "checked_at": "2026-10-12T06:35:53.303872+00:00",
+      "checked_at": "2026-10-12T11:12:51.670396+00:00",
       "promise_id": "BJP-2019-1d3e95fa9344e842f3",
       "year": 2019,
       "category": "infrastructure",
@@ -43421,7 +43452,7 @@
     },
     {
       "id": "92d6920a15fb42f812",
-      "checked_at": "2026-10-12T06:36:09.242589+00:00",
+      "checked_at": "2026-10-12T11:13:08.916055+00:00",
       "promise_id": "BJP-2019-6abf03adda773fec98",
       "year": 2019,
       "category": "governance",
@@ -43470,17 +43501,17 @@
           ]
         },
         {
-          "id": "ec146c5b1ff7a5532d",
+          "id": "0e308bf369f796a031",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "PIB",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "Evidence-Based Rural Development Gets a Push with Rollout of First-Ever Panchayat Advancement Index (PAI) Baseline Report for FY 2022-23 - PIB",
+          "title": "Evidence-Based Rural Development Gets a Push with Rollout of First-Ever Panchayat Advancement Index (PAI) Baseline Report for FY 2022-23 - Press Information Bureau",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9aSkhNaGFxcWdiYmFZdzZyUHhVNXh5bXZlU0hSdWlsUW9qRXFIMXZ2N1h1MmtTRWFaOFA3T2k0ckszYWhhbHhsTDVQdWMzSzB4YVJxSGV1NEZVbE55aWJpTGxnYUJIWVZM?oc=5",
           "published_at": "2025-04-09T07:00:00+00:00",
-          "snippet": "Evidence-Based Rural Development Gets a Push with Rollout of First-Ever Panchayat Advancement Index (PAI) Baseline Report for FY 2022-23 PIB",
-          "lexical_overlap": 0.042,
-          "relevance": 0.237,
+          "snippet": "Evidence-Based Rural Development Gets a Push with Rollout of First-Ever Panchayat Advancement Index (PAI) Baseline Report for FY 2022-23 Press Information Bureau",
+          "lexical_overlap": 0.04,
+          "relevance": 0.235,
           "matched_terms": [
             "panchayat"
           ],
@@ -46677,7 +46708,7 @@
     },
     {
       "id": "1e0abc9f94016f3c7a",
-      "checked_at": "2026-10-12T06:35:54.608909+00:00",
+      "checked_at": "2026-10-12T11:12:53.048299+00:00",
       "promise_id": "BJP-2019-2af396deaf778cac73",
       "year": 2019,
       "category": "infrastructure",
@@ -46762,7 +46793,7 @@
     },
     {
       "id": "4af70c5cc4e5dd31ea",
-      "checked_at": "2026-10-12T06:36:00.520496+00:00",
+      "checked_at": "2026-10-12T11:12:59.184958+00:00",
       "promise_id": "BJP-2019-34c03859f07f1329c5",
       "year": 2019,
       "category": "infrastructure",
@@ -48928,7 +48959,7 @@
     },
     {
       "id": "93bb9754ab7125c8f1",
-      "checked_at": "2026-10-12T06:36:04.941509+00:00",
+      "checked_at": "2026-10-12T11:13:04.210976+00:00",
       "promise_id": "BJP-2019-6013bbae5c9fbd8c5a",
       "year": 2019,
       "category": "women_social_justice",
@@ -48953,33 +48984,8 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
       "query": "2022 continuing pace full immunization coverage children",
-      "evidence": [
-        {
-          "id": "99e9e7676763dc3d7d",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "AffairsCloud",
-          "source_url": "https://affairscloud.com",
-          "title": "Health Minister Mansukh Mandaviya Launches IMI 4.0 for Children, Pregnant Women - AffairsCloud",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObGd6WGlIM2stZmdFb05hNldZbFJtRS1iYW5lWnpWdkxCTE5UbFUyclJ5Ml9hRlhLRHhxOGR4ankxTjVtUEJCSjRGc2pZUndOXzBkOXRyWFJBaU11SW5EV2c0bUNtaWRsZzVNTGRKMnQ4WFUtTkFyc0VwQXYzanFXamV3blVMenJ1endsZzZ3Q1ZqazlmQ0gyaVExWjBPeDFyaU8zdnduM0RORXNSU1M1SmxpcVQyeWJ0OF9HdnBn?oc=5",
-          "published_at": "2022-02-08T08:00:00+00:00",
-          "snippet": "Health Minister Mansukh Mandaviya Launches IMI 4.0 for Children, Pregnant Women AffairsCloud",
-          "lexical_overlap": 0.2,
-          "relevance": 0.305,
-          "matched_terms": [
-            "children",
-            "pregnant",
-            "women"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "children",
-            "pregnant",
-            "women"
-          ]
-        }
-      ],
-      "implementation_signal": "current_reporting_found",
+      "evidence": [],
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -48994,7 +49000,7 @@
     },
     {
       "id": "1d1782ad81aa54afcd",
-      "checked_at": "2026-10-12T06:36:06.939133+00:00",
+      "checked_at": "2026-10-12T11:13:06.395323+00:00",
       "promise_id": "BJP-2019-63e2ccda189fa85e2c",
       "year": 2019,
       "category": "health_welfare",
@@ -53856,7 +53862,7 @@
     },
     {
       "id": "21c782a6ad2ecb8987",
-      "checked_at": "2026-10-12T06:35:57.606921+00:00",
+      "checked_at": "2026-10-12T11:12:56.084810+00:00",
       "promise_id": "BJP-2019-2cfa1375f165d41707",
       "year": 2019,
       "category": "other",
@@ -55263,7 +55269,7 @@
     },
     {
       "id": "09db92a7679f9e887b",
-      "checked_at": "2026-10-12T06:36:02.380197+00:00",
+      "checked_at": "2026-10-12T11:13:01.184543+00:00",
       "promise_id": "BJP-2019-4fc8289de8caed52ff",
       "year": 2019,
       "category": "other",
@@ -58066,7 +58072,7 @@
     },
     {
       "id": "92f4f289aa6bff6bae",
-      "checked_at": "2026-10-10T18:34:49.421638+00:00",
+      "checked_at": "2026-10-12T11:13:36.946592+00:00",
       "promise_id": "BJP-2014-57d26610af4e3fb2a1",
       "year": 2014,
       "category": "women_social_justice",
@@ -58089,7 +58095,30 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/252/1/bjp_lection_manifesto_english_2014.pdf",
       "related_promises": [],
       "query": "ancient times almost religions practiced different",
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "9a7221c78fd24d1ea3",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "HowStuffWorks",
+          "source_url": "https://people.howstuffworks.com",
+          "title": "6 Largest Religions in the World and Population Growth Trends - HowStuffWorks",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA2cTFUbk1vck16dVhPcHlJQU9KOWdId0FOOHR2Y1puTkZhaVNrMUVCeXZYWmp5cGtxUk8tTm1tbUdnVlhkN1VtVmIyU0Z6d0Jib0gyYnp6MFNac01ETWRCYjBhdFFGY0dKbTZUb1lRdHNjb3JWSUE?oc=5",
+          "published_at": "2026-06-04T07:00:00+00:00",
+          "snippet": "6 Largest Religions in the World and Population Growth Trends HowStuffWorks",
+          "lexical_overlap": 0.118,
+          "relevance": 0.188,
+          "matched_terms": [
+            "religions",
+            "world"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "religions",
+            "world"
+          ]
+        }
+      ],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -59248,7 +59277,7 @@
     },
     {
       "id": "6cf3b00187410c85f6",
-      "checked_at": "2026-10-07T06:33:42.970476+00:00",
+      "checked_at": "2026-10-12T11:13:22.152765+00:00",
       "promise_id": "BJP-2014-39b45e31e6a626afad",
       "year": 2014,
       "category": "other",
@@ -59285,7 +59314,7 @@
     },
     {
       "id": "4b09958de42662f9eb",
-      "checked_at": "2026-10-10T18:34:45.993956+00:00",
+      "checked_at": "2026-10-12T11:13:33.574545+00:00",
       "promise_id": "BJP-2014-4e29817d170c4c4929",
       "year": 2014,
       "category": "other",
@@ -59447,7 +59476,7 @@
     },
     {
       "id": "2b3f599b16be0fadf5",
-      "checked_at": "2026-10-10T18:34:52.944006+00:00",
+      "checked_at": "2026-10-12T11:13:40.241609+00:00",
       "promise_id": "BJP-2014-5920b5d6acbfbfd42e",
       "year": 2014,
       "category": "women_social_justice",
@@ -59696,7 +59725,7 @@
     },
     {
       "id": "2af8e50642d7e29104",
-      "checked_at": "2026-10-07T06:33:38.319055+00:00",
+      "checked_at": "2026-10-12T11:13:17.188144+00:00",
       "promise_id": "BJP-2014-2bbc02742af2126362",
       "year": 2014,
       "category": "environment",
@@ -59740,28 +59769,6 @@
           "promise_core_overlap": [
             "development",
             "drivers"
-          ]
-        },
-        {
-          "id": "29ebeb4921094b7f09",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Formula 1",
-          "source_url": "https://www.formula1.com",
-          "title": "EXCLUSIVE: Why Audi's Driver Development Programme is about more than finding their next Formula 1 star - Formula 1",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPd3JVZ2ZQblBNU1JuXzdkM2lXU0xxejJsSUtyNHVMSnI5d2dxVkpfLXVCcFhEdlpCYW8zWnoxN3ZWXzdHdWg3X2FvNWZCQWtZYkxWZDBCa0xGY2FDYk5mMWdYc0Q5R0w3QWxITk5FZUVFTVNDbE5YNUNLMThIaElRUENHM0lLQ0hwektSNVZsMFBad1BPY0x3OXBjVEhYRmRoVWV6WlI3R19wb3RnRkY1THlYekRRSjIxOFd0bWt4dHZqQVdjZkUxdFdaZFNpMWhpcW5RN3JRc3BOazAwNHJ4eHNLeHFNTFlLQ2dSNTZFaw?oc=5",
-          "published_at": "2026-08-09T07:00:00+00:00",
-          "snippet": "EXCLUSIVE: Why Audi's Driver Development Programme is about more than finding their next Formula 1 star Formula 1",
-          "lexical_overlap": 0.1,
-          "relevance": 0.17,
-          "matched_terms": [
-            "development",
-            "than"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "development",
-            "than"
           ]
         }
       ],
@@ -60278,7 +60285,7 @@
     },
     {
       "id": "df076e7dea8ba67624",
-      "checked_at": "2026-10-12T06:36:11.572453+00:00",
+      "checked_at": "2026-10-12T11:13:11.329747+00:00",
       "promise_id": "BJP-2014-078252941779345656",
       "year": 2014,
       "category": "women_social_justice",
@@ -60610,7 +60617,7 @@
     },
     {
       "id": "9ab7cec20b37b6138e",
-      "checked_at": "2026-10-08T23:35:56.894968+00:00",
+      "checked_at": "2026-10-12T11:13:12.764913+00:00",
       "promise_id": "BJP-2014-25aa0b747c820e5b93",
       "year": 2014,
       "category": "other",
@@ -60710,7 +60717,7 @@
     },
     {
       "id": "4b0325d3a7148fa2b3",
-      "checked_at": "2026-10-10T18:34:47.636528+00:00",
+      "checked_at": "2026-10-12T11:13:35.203889+00:00",
       "promise_id": "BJP-2014-57bcf542e13c9c5e0a",
       "year": 2014,
       "category": "infrastructure",
@@ -61034,7 +61041,7 @@
     },
     {
       "id": "70f6c9ead8522dd4c1",
-      "checked_at": "2026-10-08T23:35:57.832527+00:00",
+      "checked_at": "2026-10-12T11:13:13.639888+00:00",
       "promise_id": "BJP-2014-277f1c4467efd095c2",
       "year": 2014,
       "category": "infrastructure",
@@ -61073,7 +61080,7 @@
     },
     {
       "id": "f7ce14e7ee8c0d12fa",
-      "checked_at": "2026-10-07T06:33:43.710197+00:00",
+      "checked_at": "2026-10-12T11:13:22.904815+00:00",
       "promise_id": "BJP-2014-3f4fa713d92720d659",
       "year": 2014,
       "category": "infrastructure",
@@ -61749,7 +61756,7 @@
     },
     {
       "id": "c8876fda93a8c2e623",
-      "checked_at": "2026-10-10T18:34:54.195963+00:00",
+      "checked_at": "2026-10-12T11:13:41.344908+00:00",
       "promise_id": "BJP-2014-5c45ee737181996ba5",
       "year": 2014,
       "category": "culture_heritage",
@@ -61807,17 +61814,17 @@
           ]
         },
         {
-          "id": "eeeac2e365f938ef7c",
+          "id": "a1f2391d3872d31066",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "PIB",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "India’s Journey of Heritage Preservation - PIB",
+          "title": "India’s Journey of Heritage Preservation - Press Information Bureau",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE52YkdwSUJ6bjZSd0RJQk1oZFR6ZDhKRDFqSEUzWkl2eXd0SGgxT2xPeUZMZTVMd3Z2cTMtUVR4S09WS1MzaHd4d2JQTUZQUzNROEQ3X2NHeUhnM1VJOTdSTmtnOVNIeW9F?oc=5",
           "published_at": "2025-04-17T07:00:00+00:00",
-          "snippet": "India’s Journey of Heritage Preservation PIB",
-          "lexical_overlap": 0.143,
-          "relevance": 0.263,
+          "snippet": "India’s Journey of Heritage Preservation Press Information Bureau",
+          "lexical_overlap": 0.125,
+          "relevance": 0.245,
           "matched_terms": [
             "heritage",
             "preservation"
@@ -61826,28 +61833,6 @@
           "promise_core_overlap": [
             "heritage",
             "preservation"
-          ]
-        },
-        {
-          "id": "a4a39d4a520fa3ee2b",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Ministry of Culture and Ministry of Tourism partner with Netflix to showcase India's cultural heritage and tourism destinations through authentic storytelling - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBBNEt5akdVT0F0cGFQdDVTdDlBTzYzRmJUWF9UQXRDV2RoSVhkSVdhLXAtUllXcEJJampCNzNSRF90VXRQRU96c3VZdUJnSk52dDZ5MHBtRFdSM0ZPUlRmRGhScU90bWpqMzlMVy15TF8yd21Ja19MQ0Vn?oc=5",
-          "published_at": "2026-08-05T07:00:00+00:00",
-          "snippet": "Ministry of Culture and Ministry of Tourism partner with Netflix to showcase India's cultural heritage and tourism destinations through authentic storytelling PIB",
-          "lexical_overlap": 0.091,
-          "relevance": 0.161,
-          "matched_terms": [
-            "culture",
-            "heritage"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "culture",
-            "heritage"
           ]
         }
       ],
@@ -62292,7 +62277,7 @@
     },
     {
       "id": "c0faab8d37fc5ad501",
-      "checked_at": "2026-10-07T06:33:45.640526+00:00",
+      "checked_at": "2026-10-12T11:13:24.636046+00:00",
       "promise_id": "BJP-2014-3fc202bbd1a34b4292",
       "year": 2014,
       "category": "health_welfare",
@@ -62390,7 +62375,7 @@
           "source_url": "https://www.newindianexpress.com",
           "title": "Telangana special officers to address senior citizens’ grievances - The New Indian Express",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcDlUOURFYUg1WjcxMEtsWExLTXNIdlpFSC1OZkZJVFdNMmdVYzcwM0V4dnBackxaaUZDVXpkZkJWX2hUVS12emZnLThzU2p6QS04UDZhNTUycnYwRlZzaTRITmFLa2VDTHBieWYzTEVCLXd4b1hCV2t2LUFzVnhSZ0VyVlZKZEY1QW5vVmpnbmpENjlncHhBQ3JhTnlMbHBpNHllTGpjOUtuWVBqNXluX2lUTjlPSzE2Qi1Zdlk2b0xHZTRa0gHSAUFVX3lxTE1ISUIyRnlnSk1xWFdQZ2lfUm42amJ0bzEtUlphT1ZjWlVkN0pkRzl1Q2VDN0xXbm8yYm0tOXBTcndScmNYNXVfc0ZlckUzeHhjRk4zdXJvWU5BQkl2TzlNNjNHVjlvQUE3bkRkakd4bGcyZ2swaTV0RWdqQmhyb0RYNEg5TW4yOVA1ejJKa1h2VTRUZGNBUE9Vam9CdHNZb2RQM3AtTnRTWlhTT0VDeThEdTVIRGtlT3dQcnN2RjRSR1BldnhmMFdDclFzbDI0UGsxQQ?oc=5",
-          "published_at": "2026-10-02T01:51:20+00:00",
+          "published_at": "2026-10-02T07:00:00+00:00",
           "snippet": "Telangana special officers to address senior citizens’ grievances The New Indian Express",
           "lexical_overlap": 0.143,
           "relevance": 0.213,
@@ -65340,7 +65325,7 @@
     },
     {
       "id": "0f9fe1aa08721191dd",
-      "checked_at": "2026-10-07T06:33:41.482521+00:00",
+      "checked_at": "2026-10-12T11:13:20.618140+00:00",
       "promise_id": "BJP-2014-3698d04e78761be52a",
       "year": 2014,
       "category": "jobs_economy",
@@ -65363,31 +65348,8 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/252/1/bjp_lection_manifesto_english_2014.pdf",
       "related_promises": [],
       "query": "committed protecting interest small medium retailers",
-      "evidence": [
-        {
-          "id": "05d96c7ac6647bd288",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Reserve Bank of India",
-          "source_url": "https://www.rbi.org.in",
-          "title": "1 Definition of Micro, Small and Medium Enterprises - Reserve Bank of India",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1JbkgxS2hLMnlIVC1hZFZDeXdmazRKaXotc1pvWnNXV1hweDRheC1DU0lxcWdjX0JTR3NFdjk5V1M2NE9MZGU4emFkOXd2cVFnRG5BME1PaTVEekxQMDVhV2ZEUFY1WG5UUUdHMkxmUnRNSjVlQUc3eFZLLU11UQ?oc=5",
-          "published_at": "2015-04-27T23:35:24+00:00",
-          "snippet": "1 Definition of Micro, Small and Medium Enterprises Reserve Bank of India",
-          "lexical_overlap": 0.143,
-          "relevance": 0.263,
-          "matched_terms": [
-            "medium",
-            "small"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "medium",
-            "small"
-          ]
-        }
-      ],
-      "implementation_signal": "current_primary_evidence_found",
+      "evidence": [],
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -66116,7 +66078,7 @@
     },
     {
       "id": "70a9f02600cd9199d2",
-      "checked_at": "2026-10-10T18:34:51.144637+00:00",
+      "checked_at": "2026-10-12T11:13:38.395324+00:00",
       "promise_id": "BJP-2014-585ea3ade663b4d2e0",
       "year": 2014,
       "category": "jobs_economy",
@@ -66139,32 +66101,8 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/252/1/bjp_lection_manifesto_english_2014.pdf",
       "related_promises": [],
       "query": "set task force review revive msme",
-      "evidence": [
-        {
-          "id": "bb0c248a02765ac37c",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The New Indian Express",
-          "source_url": "https://www.newindianexpress.com",
-          "title": "CBIC probes Chennai Customs after Wintrack harassment claims; suspends broker, sets up task force - The New Indian Express",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNTC13NkpLX2x3TFZWOWNGNXVLWnF5UC1sLUltRS1qbzl4ZFJiVlpfQjB6d2hEMFZBdWdNZlc4LUwtYjFSNE85YkRMUTFHVk9XZGxZbWZkdWpURXJvY0VNMFRQRTd1dVR6cFJiekNSZ0lONjRMdV9LMHR2MzhvX3dPeEdnRTJVM0lIRkE5X3hvY2stUERUSzZmYXpOVXVIMlRHNV85SEhrWndUU0h3YWdnTUJJbEo3MlNaY3JEc0N4YWd5bXlKdDRIUl9TelR3aFZXTTlKc3VtRE5KbFpJaWw3SmFjclhJZ0hyRjM00gH4AUFVX3lxTE50Y1dHbFlBdFN6R1pidnRMeVhsc0VxN0d3T2UxdzBYTTY4SERibWFDUVFXVS16ZmNOWjk1WnZzNGdoTnQ5V0o5bHh0dGxGMUtyUHlWbFdfVmJ6NFRlS21xNHA0WXFNSGdnMWRMUi0wZ2VwVE1Fa3RRcC0wajU5VjB1MnBZX1VRQkNXYmdMc0p5ckRCUC1SeV90YlJ6N3pwSHJTekprNFhJRUh1V0Jjald2OVNEb0lHRl9yRGFZUFR6TjNJSVNBZVdsQjRYbnlqeWtEbEcyVzgya0VYbmxJMzFBWVNrV0JWS1BxSDNyak4yUi1wQlRVVE1T?oc=5",
-          "published_at": "2025-10-12T07:00:00+00:00",
-          "snippet": "CBIC probes Chennai Customs after Wintrack harassment claims; suspends broker, sets up task force The New Indian Express",
-          "lexical_overlap": 0.125,
-          "relevance": 0.23,
-          "matched_terms": [
-            "force",
-            "task",
-            "up"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "force",
-            "task"
-          ]
-        }
-      ],
-      "implementation_signal": "current_reporting_found",
+      "evidence": [],
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -67289,7 +67227,7 @@
     },
     {
       "id": "4358a1580cd41b09ba",
-      "checked_at": "2026-10-07T06:33:49.128184+00:00",
+      "checked_at": "2026-10-12T11:13:28.109782+00:00",
       "promise_id": "BJP-2014-4521296985c20a4f92",
       "year": 2014,
       "category": "women_social_justice",
@@ -67484,7 +67422,7 @@
     },
     {
       "id": "7a8fdf5dede1a84e9e",
-      "checked_at": "2026-10-07T06:33:39.960640+00:00",
+      "checked_at": "2026-10-12T11:13:18.985102+00:00",
       "promise_id": "BJP-2014-306bbcc94e12bf5edc",
       "year": 2014,
       "category": "infrastructure",
@@ -67507,30 +67445,7 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/252/1/bjp_lection_manifesto_english_2014.pdf",
       "related_promises": [],
       "query": "remains committed giving high priority water",
-      "evidence": [
-        {
-          "id": "2337c0a8517ecb002b",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Inquirer.net",
-          "source_url": "https://newsinfo.inquirer.net",
-          "title": "Clark Water boosts water security through proactive El Niño Mitigation Plan - Inquirer.net",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWF9FX1VJN0FlcGhVQTZlZHl4QkRZaWZScC1xaDJLd0ZiMVd2aHhpN3RvcU5qN3F6OUcwdmxqN3Vzak5jSnZPQklWX09NVTVzemZIMHI0V2Vya2d6VDZpTGVRbE1KVExWTUsyY0JtUUd1YW55VEt3dXlhbUptcW1aaHZ3Y0pZN25VLXFGSXF0bkNJOWV1SWtJZ2FPUG0tQUVfS1h4cEc4Z0ZoN0gydnhud0g0NNIBuAFBVV95cUxQb1RwczhnMm5KLVAxdm5fMnZSa1pLTTR5Qlh5SjV0b2Zta2x1MzVTTlZ4RWxaMUN4QkU0SW9VSFU0RHRkZDV2UjlBOVl4eU5pTUlTbVh6WmdRbG9QM2lZUVRDNlFKMk1iUVkyR0Y2MzBOakJ6cFZSM0NrR21DWEVESnBrUlVMQkxuRWJEcENsVFRFMnlGdXJtYXlEY2lzbVpwUUpoU0trZHh4RVpiNUhjdTFKbElYbXNv?oc=5",
-          "published_at": "2026-07-22T07:00:00+00:00",
-          "snippet": "Clark Water boosts water security through proactive El Niño Mitigation Plan Inquirer.net",
-          "lexical_overlap": 0.125,
-          "relevance": 0.195,
-          "matched_terms": [
-            "security",
-            "water"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "security",
-            "water"
-          ]
-        }
-      ],
+      "evidence": [],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -67546,7 +67461,7 @@
     },
     {
       "id": "1883a804ef9f04160d",
-      "checked_at": "2026-10-10T18:34:42.991858+00:00",
+      "checked_at": "2026-10-12T11:13:30.519891+00:00",
       "promise_id": "BJP-2014-46fe7842653afeca0b",
       "year": 2014,
       "category": "other",
@@ -67942,7 +67857,7 @@
     },
     {
       "id": "2c52476f9dd70fdb23",
-      "checked_at": "2026-10-07T06:33:36.520434+00:00",
+      "checked_at": "2026-10-12T11:13:15.387400+00:00",
       "promise_id": "BJP-2014-29339b11a15283906f",
       "year": 2014,
       "category": "technology_digital",
@@ -67967,29 +67882,29 @@
       "query": "encourage incentivize private sector investments both",
       "evidence": [
         {
-          "id": "de317d1ecac2d3b99d",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "India Briefing",
-          "source_url": "https://www.india-briefing.com",
-          "title": "Investing in India’s IT Sector: Opportunities for Foreign Companies - India Briefing",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMHJvMGhYallKOTBNdzRXVmo2VE1neDhaZ2JGRW5hMUdpR01Zek13dXpISnY0T0dYUllRNk5XMlNwXzVHTl9kTTIyeEZDZHVNd1VjcU5oNVdOMEFRT1NwYktZakk0Unc5bjBTTG9xMXpRU1pRS0V3ZFNHdWNpN0NvX2FDLVJsUzR2S1dCSGxfYm9aaXVzTWlBd0JPWExicGw0TFJvY1JYXzRkeVpmRWduc0p1OA?oc=5",
-          "published_at": "2023-06-19T07:00:00+00:00",
-          "snippet": "Investing in India’s IT Sector: Opportunities for Foreign Companies India Briefing",
-          "lexical_overlap": 0.125,
-          "relevance": 0.195,
+          "id": "5a872805d985507ba9",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Government initiatives to incentivise investment by private sector in the field of renewable energy - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1GUmZlUHpSOVN1WnRTQ1NrM2NGcXZNRy1OMmdkUUpfODZXTFpuU3N4dUtWVzZXRUdjcHBsZTNvbEFvcVRrZ1VEd3FUSE9SV0FLcFFxcHB4Nk5kb3dQcTh2bEpQMEVGc2ROWHc?oc=5",
+          "published_at": "2025-05-14T05:40:33+00:00",
+          "snippet": "Government initiatives to incentivise investment by private sector in the field of renewable energy PIB",
+          "lexical_overlap": 0.105,
+          "relevance": 0.225,
           "matched_terms": [
-            "foreign",
+            "private",
             "sector"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "foreign",
+            "private",
             "sector"
           ]
         }
       ],
-      "implementation_signal": "needs_research",
+      "implementation_signal": "current_primary_evidence_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -68004,7 +67919,7 @@
     },
     {
       "id": "c47684ec686f98505d",
-      "checked_at": "2026-10-10T18:34:44.687205+00:00",
+      "checked_at": "2026-10-12T11:13:32.341128+00:00",
       "promise_id": "BJP-2014-4c560c7a333044edb6",
       "year": 2014,
       "category": "infrastructure",
@@ -68226,7 +68141,7 @@
     },
     {
       "id": "83955a46a428fa13e5",
-      "checked_at": "2026-10-07T06:33:47.304570+00:00",
+      "checked_at": "2026-10-12T11:13:26.352987+00:00",
       "promise_id": "BJP-2014-432761e5acca4c6702",
       "year": 2014,
       "category": "other",
@@ -68269,17 +68184,17 @@
           ]
         },
         {
-          "id": "8c2394f5e48c406ad7",
+          "id": "df82eca8959d8360c5",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Frontiers",
-          "source_url": "https://www.frontiersin.org",
-          "title": "Who is engaged in green and cleaner production? A mechanism study on the impact of production organization modes on aquaculture farmers’ cleaner production behaviors - Frontiers",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcGNRUjhMaVFVSlVtRy1TY3N4NXNuTHlieTlGdUdMUmVQMW5tXzNJQ1pxQlVmVm5iMFZnYzFDYW1seXpzWHNUVjdHN0IyaDhPWEM2NkwySXN1d0p0NVlsRV96UXZBOEhRUzJnTGJ5Vm02Rm1Xa3BwUE4ydDZRd2FDaWhGQXFnVmJQbXk5Rmw0SnQ0bG42cTZ2dFhXbVlRYUQ3M2U3ZA?oc=5",
-          "published_at": "2026-05-12T10:29:18+00:00",
-          "snippet": "Who is engaged in green and cleaner production? A mechanism study on the impact of production organization modes on aquaculture farmers’ cleaner production behaviors Frontiers",
-          "lexical_overlap": 0.133,
-          "relevance": 0.203,
+          "source": "www.info.gov.hk",
+          "source_url": "https://www.info.gov.hk",
+          "title": "Hong Kong-Guangdong Joint Working Group on Cleaner Production meeting explores ways to strengthen co-operation (with photos) - www.info.gov.hk",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBTY0FTQjhzcDcyUjc4RjhTTUxGR09VQWpVRVo0UU5MbjhBVTU0YXFwYkxuLWZLVDF5YXlhdlNOVG9yOHNHa0J2eFg0UnFqbC1JRUltRzM2d2p5bUNjbEYwZ0ZWcjZRUC03ejQzTkRYMjFHZw?oc=5",
+          "published_at": "2025-12-18T08:00:00+00:00",
+          "snippet": "Hong Kong-Guangdong Joint Working Group on Cleaner Production meeting explores ways to strengthen co-operation (with photos) www.info.gov.hk",
+          "lexical_overlap": 0.118,
+          "relevance": 0.188,
           "matched_terms": [
             "cleaner",
             "production"
@@ -68975,7 +68890,7 @@
     },
     {
       "id": "27be77ee995bf7f76d",
-      "checked_at": "2026-10-10T18:34:41.210385+00:00",
+      "checked_at": "2026-10-12T11:13:29.093995+00:00",
       "promise_id": "BJP-2014-454fa8bc963ec810be",
       "year": 2014,
       "category": "security_defence",
