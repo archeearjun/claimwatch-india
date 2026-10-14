@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T12:27:20.910809+00:00",
+  "generated_at": "2026-10-14T13:44:33.366599+00:00",
   "capabilities": {
     "official_evidence_search": true,
     "verified_primary_gate": true,
@@ -11,19 +11,19 @@
     "manifesto_memory_loaded": true
   },
   "summary": {
-    "claim_packets": 0,
+    "claim_packets": 14,
     "promise_packets": 836,
     "promise_checked_this_run": 30,
     "promise_total_candidates": 841,
     "promise_coverage_pct": 99.4,
-    "primary_candidates": 485,
-    "secondary_candidates": 1019,
+    "primary_candidates": 487,
+    "secondary_candidates": 1028,
     "prior_fact_checks": 0,
     "publishable_auto_verdicts": 0,
     "claim_verdicts": {
       "supported": 0,
       "contradicted": 0,
-      "pending": 0
+      "pending": 14
     },
     "promise_outcomes": {
       "fulfilled_by_deadline": 0,
@@ -37,14 +37,823 @@
       "audited_total": 836
     },
     "claim_memory": {
-      "families_total": 47,
+      "families_total": 61,
       "repeated_families": 0,
       "repeated_contradicted_families": 0,
       "repeated_supported_families": 0,
-      "occurrences_total": 47
+      "occurrences_total": 61
     }
   },
-  "claim_packets": [],
+  "claim_packets": [
+    {
+      "id": "9b5ed131949ff05d1c",
+      "claim": "Excellencies, delegates from around the world, leaders from business and industry, policymakers, and my friends.",
+      "extraction": {
+        "reasons": [
+          "comparison"
+        ],
+        "numbers": [],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "174571e7a8863a768692",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address at the Bloomberg New Economy Forum in New Delhi",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-bloomberg-new-economy-forum-in-new-delhi/",
+        "published_at": "2026-10-13T06:13:56+00:00"
+      },
+      "query": "excellencies delegates around world leaders business",
+      "numbers": [],
+      "promise_matches": [],
+      "evidence": [
+        {
+          "id": "2927b6c63f603395b6",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "www.pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Union Minister of Commerce & Industry Shri Piyush Goyal leaves for Singapore for 4th India-Singapore Ministerial Roundtable and 4th India-Singapore Business Roundtable - www.pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9jbnMteS14T0lBUjBzTkR1Um95Y3JNLV9FYlVxTUZERGc2YzBYZklNR1owM29JX2FGLXdIWHdvQ1pqRDUzNE9Rb0YzbjJZYTROQ0ZhbmIwQ2lQRXZ6U3JJUUNiejNQcUNP?oc=5",
+          "published_at": "2026-08-19T07:00:00+00:00",
+          "snippet": "Union Minister of Commerce & Industry Shri Piyush Goyal leaves for Singapore for 4th India-Singapore Ministerial Roundtable and 4th India-Singapore Business Roundtable www.pib.gov.in",
+          "lexical_overlap": 0.083,
+          "relevance": 0.203,
+          "matched_terms": [
+            "business",
+            "industry"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "8a23e1cbc96eebbc75",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "World Business Outlook",
+          "source_url": "https://worldbusinessoutlook.com",
+          "title": "L&T Technology Services and Emerson Team Up to Advance Engineering Excellence - World Business Outlook",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQU3NxMHlqVDJ1b0hLd3lrS1NseXhiXzVfYnloaF9BcnpfTmY0ZFQxdXNyMnAxZDUzMUhUYVY3Zm00cTZjRVFDYWVnTnBySFJPM2JKMDFaUVlVMVRSaEVGWXRRSDN4LWcwYkRfODR2Ykhpbzh1MmhXNWN5VUlPOVBpcXdHSUx1eTF1QmhBQVFVSjRlNHZEVGxwRVlYT3NSd1l0MFduU3ZJMllCT3B4WHVB?oc=5",
+          "published_at": "2026-05-13T07:00:00+00:00",
+          "snippet": "L&T Technology Services and Emerson Team Up to Advance Engineering Excellence World Business Outlook",
+          "lexical_overlap": 0.105,
+          "relevance": 0.175,
+          "matched_terms": [
+            "business",
+            "world"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "b7835fc25adaec4550",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Guardian Nigeria News",
+          "source_url": "https://guardian.ng",
+          "title": "World leaders convene at House of Lords for Global Sustainability Summit, awards in Uk - The Guardian Nigeria News",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeF9sN21pcUlIZTU0T0xBZ21IU1VXWlAtay0yeUNHZ3dNQVhvOHhodmRKUklSVmVQWE55alBoSWxuUmpzeHBoZWZsbHliaHZBcHJleDJ2YXhySUJBZVRtTWNXNVY2TmhZUEhBOVl3VXhneFVRemJDVThqZ3ltRkRycEp6M2JvRXpsQk5jVGRoYjZKWXgtVjBvSjFDZEMwLTdnOGlRWWhyTGVUMmlkMi1NTg?oc=5",
+          "published_at": "2026-07-16T07:00:00+00:00",
+          "snippet": "World leaders convene at House of Lords for Global Sustainability Summit, awards in Uk The Guardian Nigeria News",
+          "lexical_overlap": 0.095,
+          "relevance": 0.165,
+          "matched_terms": [
+            "leaders",
+            "world"
+          ],
+          "shared_numbers": []
+        }
+      ],
+      "fact_checks": [],
+      "signal": {
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "20063841e36e8db66d",
+      "claim": "Reflecting on his 30-year journey, he mentioned that I am his friend.",
+      "extraction": {
+        "reasons": [
+          "number"
+        ],
+        "numbers": [
+          "30"
+        ],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "174571e7a8863a768692",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address at the Bloomberg New Economy Forum in New Delhi",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-bloomberg-new-economy-forum-in-new-delhi/",
+        "published_at": "2026-10-13T06:13:56+00:00"
+      },
+      "query": "30 his reflecting journey he mentioned am",
+      "numbers": [
+        "30"
+      ],
+      "promise_matches": [],
+      "evidence": [],
+      "fact_checks": [],
+      "signal": {
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "5d0783ea8592694b2a",
+      "claim": "Friends, This year’s Bloomberg Economic Forum is focused on the new powers emerging around the world.",
+      "extraction": {
+        "reasons": [
+          "comparison"
+        ],
+        "numbers": [],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "174571e7a8863a768692",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address at the Bloomberg New Economy Forum in New Delhi",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-bloomberg-new-economy-forum-in-new-delhi/",
+        "published_at": "2026-10-13T06:13:56+00:00"
+      },
+      "query": "friends bloomberg economic forum focused powers",
+      "numbers": [],
+      "promise_matches": [
+        {
+          "id": "BJP-2024-93545e25c9ae721263",
+          "year": 2024,
+          "category": "other",
+          "page": 55,
+          "anchor": "Holistic Development of Ayodhya As millions of devotees from around the world visit Shri …",
+          "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
+          "similarity": 0.143,
+          "matched_terms": [
+            "around",
+            "world"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "68e642c36eb39a9671",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The World Economic Forum",
+          "source_url": "https://www.weforum.org",
+          "title": "Live from Davos 2026: What to know on Day 4 and highlights - The World Economic Forum",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWDVFMmZRVEl2SlNVUDkwMTFWM3NaYzFPT1k3T0prZHlEZXJLVFVfMno3QkYwSGp5N0tGSjlzOXpNb2Nvc0ROTHZJTEFyZ2ctM1hxSnJ2ZGdzelZLdC1pS1VGbnBaeTBjTms0MnowR0FyMm5xdHk1ODV6S2N3dTNjOGU3aWszN0ViR19vQ1h1US1MZ1R3b3RZYmlhNA?oc=5",
+          "published_at": "2026-01-22T08:00:00+00:00",
+          "snippet": "Live from Davos 2026: What to know on Day 4 and highlights The World Economic Forum",
+          "lexical_overlap": 0.2,
+          "relevance": 0.305,
+          "matched_terms": [
+            "economic",
+            "forum",
+            "world"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "421e70480cbb39f638",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "www.pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "English rendering of PM’s address at the Bloomberg New Economy Forum in New Delhi - www.pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1uVDJVcGtsb25RNEJGSEVzbVFialhhWDdjM2hXeWVGcDNrR24xVEdqY0loNnFoaF9BUGJiWTlwckg2MHRCUE5ISWx1OFhkdlR1NWFaZnRkRG4tRFppWGtaRVFweG1OSTZq?oc=5",
+          "published_at": "2026-10-13T05:38:00+00:00",
+          "snippet": "English rendering of PM’s address at the Bloomberg New Economy Forum in New Delhi www.pib.gov.in",
+          "lexical_overlap": 0.111,
+          "relevance": 0.231,
+          "matched_terms": [
+            "bloomberg",
+            "forum"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.0035,
+            "neutral": 0.7421,
+            "contradiction": 0.2545
+          }
+        },
+        {
+          "id": "d8035a57b64ff91ea1",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "PM India",
+          "source_url": "https://www.pmindia.gov.in",
+          "title": "PM’s address at the Bloomberg New Economy Forum in New Delhi - PM India",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUFlTV0VYb096NTZPUUpaOXFJbDlzbWRhZ2tvZTRTc1JOU0thSnZ0M1pna1NZVU1IQVFPeWwwSE9Xai1GVXlQeUN1WVpZaV9KNHBWTlNpakIzTlBtTXhEdndZaTF5OU5VbGV0SDhnYXJzSHc3eG5WUE5HcmNwOXZiWGdULWI0aWl0U0JYelE3emxCdEVJalEtaWN1SktxSUl2VHpfZVBR?oc=5",
+          "published_at": "2026-10-13T06:33:23+00:00",
+          "snippet": "PM’s address at the Bloomberg New Economy Forum in New Delhi PM India",
+          "lexical_overlap": 0.154,
+          "relevance": 0.224,
+          "matched_terms": [
+            "bloomberg",
+            "forum"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "fa188f4d478777d672",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "News9live",
+          "source_url": "https://www.news9live.com",
+          "title": "‘Our vision should be power to empower’: Top quotes of PM Narendra Modi at Bloomberg New Economy Forum - News9live",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQa3M2TXFWdnJkaVZiSzJzRDlUVkF3d1p1NXdrYTBfeGpYVUJaVG5ISWRKVWxocUpuMERiUm9ZRjZhS0prVXpkSUI0cUpmekV5ZmdlRDBzdTlSUWFfdWNrTUdKbmRjOGlKNWN3MGpOZlVhSGJsVDk5bHlha1JndTlWZmdRUTItNjJYMXJvQUZmTDdxSDdLUXVOZ2lncEVDOUY0RkhTVVFxd3h2OGpfaWZnNUxhckRjaG9ESkZGajljd2d6eGVzX2VObWNBeW1pOEFVSTYxdDln0gHbAUFVX3lxTFBQQ0stNldQa0pTREliRm13R0tpMFFjTjAtSGl5ak1wYndORjJZMzdndXZ0RV9vUjl0eFozd0VQV1dJMFM5b01IMWxaU2J0dzRHUUhZUkNiVkV4VTg3dGFjcWFBVFVtQ3I1NmZOTDJWVmI1VHM3Zlp0aFl5VTdoZWRUeGVkTnVpRzEtNlBUb0VneHdQNGhJUFN6VlVCMEM3aDAyb1pNcmhYYjhXcUpvdnJjTVVqdzNIWkFyZ2lnSXJpdnc2d2xJWnR6c0FtNWdNV014dENhOFFTTVFKOA?oc=5",
+          "published_at": "2026-10-13T05:38:11+00:00",
+          "snippet": "‘Our vision should be power to empower’: Top quotes of PM Narendra Modi at Bloomberg New Economy Forum News9live",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
+          "matched_terms": [
+            "bloomberg",
+            "forum"
+          ],
+          "shared_numbers": []
+        }
+      ],
+      "fact_checks": [],
+      "signal": {
+        "level": "primary_evidence_found",
+        "label": "Relevant verified primary evidence candidate found",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "3fe413ee0ae3f4f61a",
+      "claim": "But in the 21st century, especially in this third decade, a major transformation is taking place.",
+      "extraction": {
+        "reasons": [
+          "number"
+        ],
+        "numbers": [
+          "21"
+        ],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "174571e7a8863a768692",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address at the Bloomberg New Economy Forum in New Delhi",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-bloomberg-new-economy-forum-in-new-delhi/",
+        "published_at": "2026-10-13T06:13:56+00:00"
+      },
+      "query": "but st century especially third decade",
+      "numbers": [],
+      "promise_matches": [],
+      "evidence": [
+        {
+          "id": "9b5cfa76d1c6e68dea",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Electronic Design",
+          "source_url": "https://www.electronicdesign.com",
+          "title": "Entering the Third Decade of the 21st Century - Electronic Design",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeTRhYU5WLXIyRk1SbmZOSG9fZVhLeXJfa0dydlVsNjdYcGxaSmUwd1BxbXUyZWhYaWp3U2t4a1I5cUVHRXBmMFZCZHVnQkxnNUJUWHp5Z2EzZGhUS2U1MDNzMWFPTzNxZ1VXWUZmRDJzb2ZEX2theHhQbGVxTm5XNEo2Z3Qta001WERPRlJHakk2ZTJWanY1YktzVVowbk1rRkhNRkh3?oc=5",
+          "published_at": "2021-01-05T08:00:00+00:00",
+          "snippet": "Entering the Third Decade of the 21st Century Electronic Design",
+          "lexical_overlap": 0.308,
+          "relevance": 0.448,
+          "matched_terms": [
+            "century",
+            "decade",
+            "st",
+            "third"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "0387a0ad1affe9bcf4",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The New York Times",
+          "source_url": "https://www.nytimes.com",
+          "title": "The 100 Best TV Shows of the 21st Century - The New York Times",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQ1BqeDR2djBDYVdyeFUyZHNHc2t1YVdQZjlZMU5WWlJtU3Bma1FVM0tHYktxYy0yWlM3YUZFZ3pCYmNIZWlYbVF0QkJMVmhISXVoWmtqSHhLb3QzekZwemU0aGpHRElpdm1RdmROeTVmY2J5NDZtOWJIV1ZLTzBQbDBLa09rOTVhV01ZWlNlQ2Y4dw?oc=5",
+          "published_at": "2026-09-20T07:00:00+00:00",
+          "snippet": "The 100 Best TV Shows of the 21st Century The New York Times",
+          "lexical_overlap": 0.133,
+          "relevance": 0.203,
+          "matched_terms": [
+            "century",
+            "st"
+          ],
+          "shared_numbers": []
+        }
+      ],
+      "fact_checks": [],
+      "signal": {
+        "level": "reporting_found",
+        "label": "Relevant reporting found; primary evidence still needed",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "53bcf8a853337194f0",
+      "claim": "India has more than one hundred languages, nearly eighty thousand registered newspapers and publications, and more than one thousand satellite television channels.",
+      "extraction": {
+        "reasons": [
+          "comparison"
+        ],
+        "numbers": [],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "174571e7a8863a768692",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address at the Bloomberg New Economy Forum in New Delhi",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-bloomberg-new-economy-forum-in-new-delhi/",
+        "published_at": "2026-10-13T06:13:56+00:00"
+      },
+      "query": "than one thousand has hundred languages",
+      "numbers": [],
+      "promise_matches": [],
+      "evidence": [],
+      "fact_checks": [],
+      "signal": {
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "b9c2b1070d3a92b3e9",
+      "claim": "And not only that, in this age of social media, India has more than five hundred million YouTube users and more than five hundred million Instagram users.",
+      "extraction": {
+        "reasons": [
+          "comparison"
+        ],
+        "numbers": [],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "174571e7a8863a768692",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address at the Bloomberg New Economy Forum in New Delhi",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-bloomberg-new-economy-forum-in-new-delhi/",
+        "published_at": "2026-10-13T06:13:56+00:00"
+      },
+      "query": "than five hundred million users not",
+      "numbers": [],
+      "promise_matches": [],
+      "evidence": [],
+      "fact_checks": [],
+      "signal": {
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "f5c78f40d1b6a90ec6",
+      "claim": "Friends, Until about twelve or thirteen years ago, there was a time in India when access to mobile phones and the internet itself was a form of power.",
+      "extraction": {
+        "reasons": [
+          "comparison"
+        ],
+        "numbers": [],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "174571e7a8863a768692",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address at the Bloomberg New Economy Forum in New Delhi",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-bloomberg-new-economy-forum-in-new-delhi/",
+        "published_at": "2026-10-13T06:13:56+00:00"
+      },
+      "query": "was friends until about twelve thirteen",
+      "numbers": [],
+      "promise_matches": [],
+      "evidence": [
+        {
+          "id": "711f1ce8f4663ce0f9",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "CNBC",
+          "source_url": "https://www.cnbc.com",
+          "title": "Bill Gates: This book was so good, 'I stayed up with it until 3 a.m.'—then gifted it to 50 friends - CNBC",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMmNOUHo1Z0pjYXZ1Q3Y1WkdMdENjYkhYWjNPMGJDLTZJZUNtR0ZEQVV4MlhlVXZENi1UeWlOcVNPbEozQ2hxa01uSUJhbGpKYU9hTEhLNGdoX3kxTU12U0JjS3JSVVZZd2FFWEROcW5veDloTkx6YWpGcXZNS3RrbjJoZ2Z3OTUwNHphcjExeXdTVW9xVTFtekxsMkM0eUNkUmI3MkhWOGsta20ydU9DTk9aSkR0QkdqeWfSAb8BQVVfeXFMTlRqYklXSFVHNG8xOGd2ZnY0R09NbzlyYU52Vnp0dGZqTG54ZFF2UThFanp1V0lMSTBNcUR3Y1h0dG93bk5DYlgtWXI2TWZSbnpLN2h0S0pSa2FMdDRrUkQ1SjhIX0JKNnZNa2ZjWnNfTTV2UWRKTWN4elMzY3g5c1dhSDl1WnRFTVpmQTNLaDg4Sl9KZktWNm55bTkwSm9mc3ZKUVpxRmx6bnRDOFVHY3FxVFJ2VkxoVUJIZ0pXRmM?oc=5",
+          "published_at": "2019-12-13T08:00:00+00:00",
+          "snippet": "Bill Gates: This book was so good, 'I stayed up with it until 3 a.m.'—then gifted it to 50 friends CNBC",
+          "lexical_overlap": 0.136,
+          "relevance": 0.241,
+          "matched_terms": [
+            "friends",
+            "until",
+            "was"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "1a10d55623589b6d97",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "CBS News",
+          "source_url": "https://www.cbsnews.com",
+          "title": "A mom thought her daughter was texting friends before her suicide. It was an AI chatbot. - CBS News",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUncwX2tyblNGZDZLNXJCcWx5ZHdJajJDSXFUS09OWm04NjdnSDgxU3lLTnFJMjUzQ2J2MGpILWpsWjd6bFo5YTlkUTZpb2RfcVFaRFlyMG5HYklTWnFDb0RYYkhWWTVYYjh5YXp5OWlsTzdBX3ZUMGllR21jS0w1ZlBKVFZHNTlOZnp1anFQQ2E3YXIyVC1V?oc=5",
+          "published_at": "2026-01-08T08:00:00+00:00",
+          "snippet": "A mom thought her daughter was texting friends before her suicide. It was an AI chatbot. CBS News",
+          "lexical_overlap": 0.087,
+          "relevance": 0.157,
+          "matched_terms": [
+            "friends",
+            "was"
+          ],
+          "shared_numbers": []
+        }
+      ],
+      "fact_checks": [],
+      "signal": {
+        "level": "reporting_found",
+        "label": "Relevant reporting found; primary evidence still needed",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "7b037d2dee45e0641b",
+      "claim": "After 2014, when a new government came to power in India and we were given the opportunity to serve, India placed great emphasis on making mobile data affordable.",
+      "extraction": {
+        "reasons": [
+          "number"
+        ],
+        "numbers": [
+          "2014"
+        ],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "174571e7a8863a768692",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address at the Bloomberg New Economy Forum in New Delhi",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-bloomberg-new-economy-forum-in-new-delhi/",
+        "published_at": "2026-10-13T06:13:56+00:00"
+      },
+      "query": "2014 after when came power were given",
+      "numbers": [
+        "2014"
+      ],
+      "promise_matches": [],
+      "evidence": [
+        {
+          "id": "88d31feb387d437e66",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "NDTV",
+          "source_url": "https://www.ndtv.com",
+          "title": "4 Education Ministers In 12 Years: A Timeline Since BJP Came To Power In 2014 - NDTV",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNNVF2MEFLb3ZLY19HY0Q0SEQtbUhlczlvSVl1aGlxLTJzV2xRMEVxb2xLQjl1Ni1XVjdsMUFnXy1LbjNkN21OS2d1TThzNmIxLUt4TktZVFotSHh4dm1RaXBlY1hPT3NyM1FIdFN3M1RTWG5YczExekpLNGo3NWZHUE1NUDhhRjk3b3dNMkdyRTJaRWEyeXBwd3VSOV92REtlQnQtTllZWWgwRWIwZ3FyOUVvZnlZbEFiWkxmeGRDeDZ0eV9iaC1NTGpxOTN4NlB4aWxOSW9acG5yWnA5aTN3V1k5RjdleGhhbFd30gHzAUFVX3lxTE9IVmx5SDJyTUZUaTdQMjNORzhOY2dITlZ3VUY5dE5jclhQaWN6NDZtSGI2VHA3Z3Fjd1NGUTRIdTNIR3dqb3VmVGFSNnlUMzVpNU1OUGM3SHd6eDBGZG5ESmNPU2N3MlE1ejRpY25kcGxCY0xYbEVXdjYyN1BTQV9EZmM3VWFGQXpZT0I1emZ5NXBZTEdlamhTa0JOMGprV0dXdXk5bHJTWHpoVi1UTWhJczJlYXAxSVk1V3lsSGFnSENKMEhyR1NNcHZlQTZrS1oycFQ0Y3M4b1JRaXVxOHZTSlpHMS1vNzBTUTlBOTBKZGhfUQ?oc=5",
+          "published_at": "2026-07-26T07:00:00+00:00",
+          "snippet": "4 Education Ministers In 12 Years: A Timeline Since BJP Came To Power In 2014 NDTV",
+          "lexical_overlap": 0.118,
+          "relevance": 0.298,
+          "matched_terms": [
+            "came",
+            "power"
+          ],
+          "shared_numbers": [
+            "2014"
+          ]
+        }
+      ],
+      "fact_checks": [],
+      "signal": {
+        "level": "reporting_found",
+        "label": "Relevant reporting found; primary evidence still needed",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "ee94822e64ae98ad8f",
+      "claim": "In other words, connectivity in India has not merely connected people; it has connected opportunities as well.",
+      "extraction": {
+        "reasons": [
+          "accomplishment"
+        ],
+        "numbers": [],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "174571e7a8863a768692",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address at the Bloomberg New Economy Forum in New Delhi",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-bloomberg-new-economy-forum-in-new-delhi/",
+        "published_at": "2026-10-13T06:13:56+00:00"
+      },
+      "query": "has connected other words connectivity not",
+      "numbers": [],
+      "promise_matches": [
+        {
+          "id": "BJP-2024-28c5859b0f3b1be1cc",
+          "year": 2024,
+          "category": "women_social_justice",
+          "page": 47,
+          "anchor": "We will further expand these services and launch other regional connectivity programmes to other …",
+          "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
+          "similarity": 0.143,
+          "matched_terms": [
+            "connectivity",
+            "other"
+          ]
+        }
+      ],
+      "evidence": [],
+      "fact_checks": [],
+      "signal": {
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "497f5d9cb27d070bb6",
+      "claim": "Before 2014, India had only a few hundred startups.",
+      "extraction": {
+        "reasons": [
+          "number"
+        ],
+        "numbers": [
+          "2014"
+        ],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "174571e7a8863a768692",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address at the Bloomberg New Economy Forum in New Delhi",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-bloomberg-new-economy-forum-in-new-delhi/",
+        "published_at": "2026-10-13T06:13:56+00:00"
+      },
+      "query": "2014 before had only few hundred startups",
+      "numbers": [
+        "2014"
+      ],
+      "promise_matches": [],
+      "evidence": [],
+      "fact_checks": [],
+      "signal": {
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "b22c414b92abe14a3c",
+      "claim": "Today, the country has more than 250,000 startups.",
+      "extraction": {
+        "reasons": [
+          "number",
+          "comparison"
+        ],
+        "numbers": [
+          "250,000"
+        ],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "174571e7a8863a768692",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address at the Bloomberg New Economy Forum in New Delhi",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-bloomberg-new-economy-forum-in-new-delhi/",
+        "published_at": "2026-10-13T06:13:56+00:00"
+      },
+      "query": "250000 has than startups",
+      "numbers": [
+        "250000"
+      ],
+      "promise_matches": [],
+      "evidence": [],
+      "fact_checks": [],
+      "signal": {
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "bcb73e763cd8cb466c",
+      "claim": "Nearly half of these startups come from small cities and towns.",
+      "extraction": {
+        "reasons": [
+          "comparison"
+        ],
+        "numbers": [],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "174571e7a8863a768692",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address at the Bloomberg New Economy Forum in New Delhi",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-bloomberg-new-economy-forum-in-new-delhi/",
+        "published_at": "2026-10-13T06:13:56+00:00"
+      },
+      "query": "nearly half startups come small cities",
+      "numbers": [],
+      "promise_matches": [
+        {
+          "id": "BJP-2024-cbe2fc8e19a954a9d1",
+          "year": 2024,
+          "category": "other",
+          "page": 53,
+          "anchor": "We will further expand this programme to all major cities and towns.",
+          "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
+          "similarity": 0.182,
+          "matched_terms": [
+            "cities",
+            "towns"
+          ]
+        },
+        {
+          "id": "BJP-2014-23958d5cf217123e5a",
+          "year": 2014,
+          "category": "health_welfare",
+          "page": 34,
+          "anchor": "We will introduce Sanitation Ratings measuring and ranking our cities and towns on 'sanitation'; …",
+          "source_url": "https://library.bjp.org/jspui/handle/123456789/252",
+          "similarity": 0.167,
+          "matched_terms": [
+            "cities",
+            "towns"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "f6085c764781514de6",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "DD India",
+          "source_url": "https://ddindia.co.in",
+          "title": "Nearly half of recognised startups based in Tier-2, Tier-3 cities: PM Modi - DD India",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWEFQTjZlaGhVOFRiOXBTcWdpT1pJeXIyRzQ0SXVteE1EcFlOMHh2VGJ6NGdsejlwbmFYclp4dENvangyalpWUnc5Z0tyelNXdEY0Q3BlRndGQ0g4c2o4dXdFNUVXVkFKNmZGZk1OcUVQclJkNkZCbllZVXdBSjMzTEdwV1htSTFmWTFhVXRScWpkZ2JPUjVmTFBSNkhUcEdnRlZ4bDBn?oc=5",
+          "published_at": "2026-09-19T07:00:00+00:00",
+          "snippet": "Nearly half of recognised startups based in Tier-2, Tier-3 cities: PM Modi DD India",
+          "lexical_overlap": 0.308,
+          "relevance": 0.448,
+          "matched_terms": [
+            "cities",
+            "half",
+            "nearly",
+            "startups"
+          ],
+          "shared_numbers": []
+        }
+      ],
+      "fact_checks": [],
+      "signal": {
+        "level": "reporting_found",
+        "label": "Relevant reporting found; primary evidence still needed",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "864cecb3d0726343a3",
+      "claim": "More than forty-five percent of startups have at least one woman Director or Partner.",
+      "extraction": {
+        "reasons": [
+          "comparison"
+        ],
+        "numbers": [],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "174571e7a8863a768692",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address at the Bloomberg New Economy Forum in New Delhi",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-bloomberg-new-economy-forum-in-new-delhi/",
+        "published_at": "2026-10-13T06:13:56+00:00"
+      },
+      "query": "than forty-five percent startups have least",
+      "numbers": [],
+      "promise_matches": [],
+      "evidence": [
+        {
+          "id": "ebc7835e557ca6b1a5",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "www.pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Government recognizes more than 55,200 startups during FY 2025-26, highest ever in a single year since launch of Startup India initiative - www.pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE83QU9TcGJnRnlDS1lUbkU0LXVlOVhxeWltRm5iMFFjazM3d2JpWDlZeHFJa1VNN2FIMnhyXy1LNDlnS1BDRWpDaVhZVTR2bEZsNU1peVFxY3huRnBaNXA2VEVxX1NrUGJmMm5ELVhpaEg4bzZIUXhLX09B?oc=5",
+          "published_at": "2026-04-18T11:32:10+00:00",
+          "snippet": "Government recognizes more than 55,200 startups during FY 2025-26, highest ever in a single year since launch of Startup India initiative www.pib.gov.in",
+          "lexical_overlap": 0.087,
+          "relevance": 0.207,
+          "matched_terms": [
+            "startups",
+            "than"
+          ],
+          "shared_numbers": []
+        }
+      ],
+      "fact_checks": [],
+      "signal": {
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "5860f9365178448af5",
+      "claim": "In other words, opportunities for innovation are reaching more people, new talent is emerging, and new solutions are being created.",
+      "extraction": {
+        "reasons": [
+          "accomplishment"
+        ],
+        "numbers": [],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "174571e7a8863a768692",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address at the Bloomberg New Economy Forum in New Delhi",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-bloomberg-new-economy-forum-in-new-delhi/",
+        "published_at": "2026-10-13T06:13:56+00:00"
+      },
+      "query": "other words opportunities innovation reaching talent",
+      "numbers": [],
+      "promise_matches": [],
+      "evidence": [],
+      "fact_checks": [],
+      "signal": {
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    }
+  ],
   "claim_families": [
     {
       "id": "1876deedf04e66b7b2",
@@ -146,6 +955,30 @@
       "verdict_updated_at": "2026-09-27T21:16:09.451047+00:00"
     },
     {
+      "id": "27bd4583d01ee7bcd2",
+      "canonical_claim": "After 2014, when a new government came to power in India and we were given the opportunity to serve, India placed great emphasis on making mobile data affordable.",
+      "occurrences": [
+        {
+          "id": "65d1d093db14a4ebff",
+          "text": "After 2014, when a new government came to power in India and we were given the opportunity to serve, India placed great emphasis on making mobile data affordable.",
+          "source_title": "PM’s address at the Bloomberg New Economy Forum in New Delhi",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-bloomberg-new-economy-forum-in-new-delhi/",
+          "published_at": "2026-10-13T06:13:56+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "reporting_found",
+      "human_reviewed": false,
+      "created_at": "2026-10-14T13:43:38.866565+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-13T06:13:56+00:00",
+      "last_seen": "2026-10-13T06:13:56+00:00",
+      "latest_checked_at": "2026-10-14T13:43:38.866581+00:00",
+      "latest_claim_packet_id": "7b037d2dee45e0641b"
+    },
+    {
       "id": "c82d90d73f0937617c",
       "canonical_claim": "After the information you provided is verified, it will become part of the census record.",
       "occurrences": [
@@ -240,6 +1073,102 @@
       "last_seen": "2026-09-19T08:41:02+00:00",
       "latest_checked_at": "2026-09-29T06:16:21.734817+00:00",
       "latest_claim_packet_id": "52ece0013165ca9de1"
+    },
+    {
+      "id": "6f6a0e2fe899e244df",
+      "canonical_claim": "And not only that, in this age of social media, India has more than five hundred million YouTube users and more than five hundred million Instagram users.",
+      "occurrences": [
+        {
+          "id": "3bf37d49adc4a3a1ac",
+          "text": "And not only that, in this age of social media, India has more than five hundred million YouTube users and more than five hundred million Instagram users.",
+          "source_title": "PM’s address at the Bloomberg New Economy Forum in New Delhi",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-bloomberg-new-economy-forum-in-new-delhi/",
+          "published_at": "2026-10-13T06:13:56+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-10-14T13:43:38.834316+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-13T06:13:56+00:00",
+      "last_seen": "2026-10-13T06:13:56+00:00",
+      "latest_checked_at": "2026-10-14T13:43:38.834331+00:00",
+      "latest_claim_packet_id": "b9c2b1070d3a92b3e9"
+    },
+    {
+      "id": "cc49fbf8f362057085",
+      "canonical_claim": "Before 2014, India had only a few hundred startups.",
+      "occurrences": [
+        {
+          "id": "68aaef683b1e7ac62d",
+          "text": "Before 2014, India had only a few hundred startups.",
+          "source_title": "PM’s address at the Bloomberg New Economy Forum in New Delhi",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-bloomberg-new-economy-forum-in-new-delhi/",
+          "published_at": "2026-10-13T06:13:56+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-10-14T13:43:38.869218+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-13T06:13:56+00:00",
+      "last_seen": "2026-10-13T06:13:56+00:00",
+      "latest_checked_at": "2026-10-14T13:43:38.869232+00:00",
+      "latest_claim_packet_id": "497f5d9cb27d070bb6"
+    },
+    {
+      "id": "5671ab04730ed97a32",
+      "canonical_claim": "But in the 21st century, especially in this third decade, a major transformation is taking place.",
+      "occurrences": [
+        {
+          "id": "64c74d41678355888f",
+          "text": "But in the 21st century, especially in this third decade, a major transformation is taking place.",
+          "source_title": "PM’s address at the Bloomberg New Economy Forum in New Delhi",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-bloomberg-new-economy-forum-in-new-delhi/",
+          "published_at": "2026-10-13T06:13:56+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "reporting_found",
+      "human_reviewed": false,
+      "created_at": "2026-10-14T13:43:38.831250+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-13T06:13:56+00:00",
+      "last_seen": "2026-10-13T06:13:56+00:00",
+      "latest_checked_at": "2026-10-14T13:43:38.831284+00:00",
+      "latest_claim_packet_id": "3fe413ee0ae3f4f61a"
+    },
+    {
+      "id": "cea6c7e36bb7620cc4",
+      "canonical_claim": "Excellencies, delegates from around the world, leaders from business and industry, policymakers, and my friends.",
+      "occurrences": [
+        {
+          "id": "292ba7b2606b346015",
+          "text": "Excellencies, delegates from around the world, leaders from business and industry, policymakers, and my friends.",
+          "source_title": "PM’s address at the Bloomberg New Economy Forum in New Delhi",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-bloomberg-new-economy-forum-in-new-delhi/",
+          "published_at": "2026-10-13T06:13:56+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-10-14T13:43:38.771399+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-13T06:13:56+00:00",
+      "last_seen": "2026-10-13T06:13:56+00:00",
+      "latest_checked_at": "2026-10-14T13:43:38.771433+00:00",
+      "latest_claim_packet_id": "9b5ed131949ff05d1c"
     },
     {
       "id": "ff7ab91027caedf021",
@@ -338,6 +1267,30 @@
       "latest_claim_packet_id": "71aa213d13ff043097"
     },
     {
+      "id": "8cdbded253031977f7",
+      "canonical_claim": "Friends, This year’s Bloomberg Economic Forum is focused on the new powers emerging around the world.",
+      "occurrences": [
+        {
+          "id": "0b824449bb6ae2203a",
+          "text": "Friends, This year’s Bloomberg Economic Forum is focused on the new powers emerging around the world.",
+          "source_title": "PM’s address at the Bloomberg New Economy Forum in New Delhi",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-bloomberg-new-economy-forum-in-new-delhi/",
+          "published_at": "2026-10-13T06:13:56+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "primary_evidence_found",
+      "human_reviewed": false,
+      "created_at": "2026-10-14T13:43:38.803456+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-13T06:13:56+00:00",
+      "last_seen": "2026-10-13T06:13:56+00:00",
+      "latest_checked_at": "2026-10-14T13:43:38.803492+00:00",
+      "latest_claim_packet_id": "5d0783ea8592694b2a"
+    },
+    {
       "id": "9f9d2d3d4b74c7d730",
       "canonical_claim": "Friends, Today is not only a celebration of 100 years of the UPSC, but also a celebration of a legacy.",
       "occurrences": [
@@ -360,6 +1313,30 @@
       "last_seen": "2026-10-01T09:05:21+00:00",
       "latest_checked_at": "2026-10-14T05:27:17.808382+00:00",
       "latest_claim_packet_id": "88113c4cc7679dfe59"
+    },
+    {
+      "id": "811f8b80bd5960f68d",
+      "canonical_claim": "Friends, Until about twelve or thirteen years ago, there was a time in India when access to mobile phones and the internet itself was a form of power.",
+      "occurrences": [
+        {
+          "id": "772856ff1f081b420e",
+          "text": "Friends, Until about twelve or thirteen years ago, there was a time in India when access to mobile phones and the internet itself was a form of power.",
+          "source_title": "PM’s address at the Bloomberg New Economy Forum in New Delhi",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-bloomberg-new-economy-forum-in-new-delhi/",
+          "published_at": "2026-10-13T06:13:56+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "reporting_found",
+      "human_reviewed": false,
+      "created_at": "2026-10-14T13:43:38.864878+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-13T06:13:56+00:00",
+      "last_seen": "2026-10-13T06:13:56+00:00",
+      "latest_checked_at": "2026-10-14T13:43:38.864913+00:00",
+      "latest_claim_packet_id": "f5c78f40d1b6a90ec6"
     },
     {
       "id": "a54263880f3e50c2a8",
@@ -458,6 +1435,54 @@
       "latest_claim_packet_id": "36af41d1f474135176"
     },
     {
+      "id": "361832704503d6c093",
+      "canonical_claim": "In other words, connectivity in India has not merely connected people; it has connected opportunities as well.",
+      "occurrences": [
+        {
+          "id": "99c756f9dc07327e07",
+          "text": "In other words, connectivity in India has not merely connected people; it has connected opportunities as well.",
+          "source_title": "PM’s address at the Bloomberg New Economy Forum in New Delhi",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-bloomberg-new-economy-forum-in-new-delhi/",
+          "published_at": "2026-10-13T06:13:56+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-10-14T13:43:38.867974+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-13T06:13:56+00:00",
+      "last_seen": "2026-10-13T06:13:56+00:00",
+      "latest_checked_at": "2026-10-14T13:43:38.867988+00:00",
+      "latest_claim_packet_id": "ee94822e64ae98ad8f"
+    },
+    {
+      "id": "bd842a64a886b680fc",
+      "canonical_claim": "In other words, opportunities for innovation are reaching more people, new talent is emerging, and new solutions are being created.",
+      "occurrences": [
+        {
+          "id": "87118e5e57129796c8",
+          "text": "In other words, opportunities for innovation are reaching more people, new talent is emerging, and new solutions are being created.",
+          "source_title": "PM’s address at the Bloomberg New Economy Forum in New Delhi",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-bloomberg-new-economy-forum-in-new-delhi/",
+          "published_at": "2026-10-13T06:13:56+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-10-14T13:43:38.927848+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-13T06:13:56+00:00",
+      "last_seen": "2026-10-13T06:13:56+00:00",
+      "latest_checked_at": "2026-10-14T13:43:38.927884+00:00",
+      "latest_claim_packet_id": "5860f9365178448af5"
+    },
+    {
       "id": "3c575d00e6cfbd7801",
       "canonical_claim": "In the 19th century, Swami Vivekananda saw a glimpse of the Himalayas in the Swiss Alps.",
       "occurrences": [
@@ -504,6 +1529,30 @@
       "last_seen": "2026-09-19T08:41:02+00:00",
       "latest_checked_at": "2026-09-29T06:16:21.734900+00:00",
       "latest_claim_packet_id": "88c310688bc40a1b57"
+    },
+    {
+      "id": "41ecf5ed508c101ebc",
+      "canonical_claim": "India has more than one hundred languages, nearly eighty thousand registered newspapers and publications, and more than one thousand satellite television channels.",
+      "occurrences": [
+        {
+          "id": "b3d25630899d0267d0",
+          "text": "India has more than one hundred languages, nearly eighty thousand registered newspapers and publications, and more than one thousand satellite television channels.",
+          "source_title": "PM’s address at the Bloomberg New Economy Forum in New Delhi",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-bloomberg-new-economy-forum-in-new-delhi/",
+          "published_at": "2026-10-13T06:13:56+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-10-14T13:43:38.832784+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-13T06:13:56+00:00",
+      "last_seen": "2026-10-13T06:13:56+00:00",
+      "latest_checked_at": "2026-10-14T13:43:38.832801+00:00",
+      "latest_claim_packet_id": "53bcf8a853337194f0"
     },
     {
       "id": "efd24c74258eb23038",
@@ -554,6 +1603,30 @@
       "latest_claim_packet_id": "e660ab2e87c0220e7e"
     },
     {
+      "id": "240977db9a8f5aedf6",
+      "canonical_claim": "More than forty-five percent of startups have at least one woman Director or Partner.",
+      "occurrences": [
+        {
+          "id": "ecbba836b502854abc",
+          "text": "More than forty-five percent of startups have at least one woman Director or Partner.",
+          "source_title": "PM’s address at the Bloomberg New Economy Forum in New Delhi",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-bloomberg-new-economy-forum-in-new-delhi/",
+          "published_at": "2026-10-13T06:13:56+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-10-14T13:43:38.898279+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-13T06:13:56+00:00",
+      "last_seen": "2026-10-13T06:13:56+00:00",
+      "latest_checked_at": "2026-10-14T13:43:38.898295+00:00",
+      "latest_claim_packet_id": "864cecb3d0726343a3"
+    },
+    {
       "id": "b32c6a9c05899ce9c9",
       "canonical_claim": "Much has already been said from this stage about its achievements and contributions.",
       "occurrences": [
@@ -576,6 +1649,30 @@
       "last_seen": "2026-10-01T09:05:21+00:00",
       "latest_checked_at": "2026-10-08T06:41:45.097198+00:00",
       "latest_claim_packet_id": "e0aa9aa37e5a72091f"
+    },
+    {
+      "id": "57bb4ea4131fb891ff",
+      "canonical_claim": "Nearly half of these startups come from small cities and towns.",
+      "occurrences": [
+        {
+          "id": "814028aff253c12868",
+          "text": "Nearly half of these startups come from small cities and towns.",
+          "source_title": "PM’s address at the Bloomberg New Economy Forum in New Delhi",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-bloomberg-new-economy-forum-in-new-delhi/",
+          "published_at": "2026-10-13T06:13:56+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "reporting_found",
+      "human_reviewed": false,
+      "created_at": "2026-10-14T13:43:38.896734+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-13T06:13:56+00:00",
+      "last_seen": "2026-10-13T06:13:56+00:00",
+      "latest_checked_at": "2026-10-14T13:43:38.896768+00:00",
+      "latest_claim_packet_id": "bcb73e763cd8cb466c"
     },
     {
       "id": "addd15d0595d2d6ae0",
@@ -648,6 +1745,30 @@
       "last_seen": "2026-09-27T06:45:05+00:00",
       "latest_checked_at": "2026-10-01T14:28:22.324431+00:00",
       "latest_claim_packet_id": "573f79da4c07b8fd82"
+    },
+    {
+      "id": "1f2274104d864243fb",
+      "canonical_claim": "Reflecting on his 30-year journey, he mentioned that I am his friend.",
+      "occurrences": [
+        {
+          "id": "18992674f4fbfedc43",
+          "text": "Reflecting on his 30-year journey, he mentioned that I am his friend.",
+          "source_title": "PM’s address at the Bloomberg New Economy Forum in New Delhi",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-bloomberg-new-economy-forum-in-new-delhi/",
+          "published_at": "2026-10-13T06:13:56+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-10-14T13:43:38.772524+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-13T06:13:56+00:00",
+      "last_seen": "2026-10-13T06:13:56+00:00",
+      "latest_checked_at": "2026-10-14T13:43:38.772615+00:00",
+      "latest_claim_packet_id": "20063841e36e8db66d"
     },
     {
       "id": "adcded163be697b54e",
@@ -1013,6 +2134,30 @@
       "latest_claim_packet_id": "9cc9007acedb690507"
     },
     {
+      "id": "93d01250cb6aebcfc3",
+      "canonical_claim": "Today, the country has more than 250,000 startups.",
+      "occurrences": [
+        {
+          "id": "41791d82116121df92",
+          "text": "Today, the country has more than 250,000 startups.",
+          "source_title": "PM’s address at the Bloomberg New Economy Forum in New Delhi",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-bloomberg-new-economy-forum-in-new-delhi/",
+          "published_at": "2026-10-13T06:13:56+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-10-14T13:43:38.870448+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-13T06:13:56+00:00",
+      "last_seen": "2026-10-13T06:13:56+00:00",
+      "latest_checked_at": "2026-10-14T13:43:38.870462+00:00",
+      "latest_claim_packet_id": "b22c414b92abe14a3c"
+    },
+    {
       "id": "9508c7e18718790684",
       "canonical_claim": "Under this scheme, the government is giving an incentive of up to 15,000 rupees to youth who get their first job.",
       "occurrences": [
@@ -1347,7 +2492,7 @@
     },
     {
       "id": "5efb87c341482f0b14",
-      "checked_at": "2026-10-09T09:01:30.241411+00:00",
+      "checked_at": "2026-10-14T13:44:33.026303+00:00",
       "promise_id": "BJP-2024-1e526dfe90ce71f4e2",
       "year": 2024,
       "category": "other",
@@ -1370,8 +2515,35 @@
       "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
       "related_promises": [],
       "query": "sabka saath prayas committed towards nation-building",
-      "evidence": [],
-      "implementation_signal": "needs_research",
+      "evidence": [
+        {
+          "id": "9236ddca8bcc40a70c",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "पीआईबी",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Vice-President releases volumes of Prime Minister Modi’s speeches titled Sabka Sath, Sabka Vikas, Sabka Vishwas, Sabka Prayas - पीआईबी",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE92MzhodjVYdU9tdFdPdDQ2amM3cFVJU1VQSUZuNkhobEJtczZ5R19DM21qYXBVRVNlM1pZZ25vbEl5WU4xb0JuSGhxRjdZZEFadjVxQldNd1daM1pHRC1GYlc2UmN2ZHRH?oc=5",
+          "published_at": "2025-09-22T07:00:00+00:00",
+          "snippet": "Vice-President releases volumes of Prime Minister Modi’s speeches titled Sabka Sath, Sabka Vikas, Sabka Vishwas, Sabka Prayas पीआईबी",
+          "lexical_overlap": 0.222,
+          "relevance": 0.412,
+          "matched_terms": [
+            "prayas",
+            "sabka",
+            "vikas",
+            "vishwas"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "prayas",
+            "sabka",
+            "vikas",
+            "vishwas"
+          ]
+        }
+      ],
+      "implementation_signal": "current_primary_evidence_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -4997,7 +6169,7 @@
     },
     {
       "id": "e4caedd524e1b7deda",
-      "checked_at": "2026-10-09T09:01:24.867956+00:00",
+      "checked_at": "2026-10-14T13:44:27.539767+00:00",
       "promise_id": "BJP-2024-1b2989bc65a9f5ce14",
       "year": 2024,
       "category": "jobs_economy",
@@ -5020,30 +6192,7 @@
       "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
       "related_promises": [],
       "query": "build upon success expand ecosystem making",
-      "evidence": [
-        {
-          "id": "58a32f739d36c7b1d7",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "IBM Newsroom",
-          "source_url": "https://newsroom.ibm.com",
-          "title": "Accelerating a Vibrant Ecosystem Built for AI, Growth, and Partner Success - IBM Newsroom",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNG8tb1ZCZjdzYkVWVUZ5RnFFd0NoendKX1gzbVJTeVJMMjY0Wkg1X2JOUmxmQkgwTHV4RlIyelJzalVKU3NFeFJucW10TEt4SnJvN2gtajMtY3o3alFkZHVQOHdzT1ltd2tEZnFYTDJrcmF3YzBENlZMSVZUU2Fwb2V6TDM4UFgyNDhpcENuLUdnMWd4YU0yaFhLREtPNEdfMW9aRnRn?oc=5",
-          "published_at": "2026-01-26T08:00:00+00:00",
-          "snippet": "Accelerating a Vibrant Ecosystem Built for AI, Growth, and Partner Success IBM Newsroom",
-          "lexical_overlap": 0.1,
-          "relevance": 0.17,
-          "matched_terms": [
-            "ecosystem",
-            "success"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "ecosystem",
-            "success"
-          ]
-        }
-      ],
+      "evidence": [],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -6115,7 +7264,7 @@
     },
     {
       "id": "620a3ab8b7d156ba01",
-      "checked_at": "2026-10-11T01:53:00.215043+00:00",
+      "checked_at": "2026-10-14T13:44:04.519862+00:00",
       "promise_id": "BJP-2024-06c045c3aac319646f",
       "year": 2024,
       "category": "security_defence",
@@ -6945,7 +8094,7 @@
     },
     {
       "id": "c953c504ac6539bdba",
-      "checked_at": "2026-09-28T23:33:19.630556+00:00",
+      "checked_at": "2026-10-14T13:44:21.230980+00:00",
       "promise_id": "BJP-2024-178e340c76f7d29b1e",
       "year": 2024,
       "category": "agriculture",
@@ -7051,7 +8200,7 @@
     },
     {
       "id": "c726f53f535d59633b",
-      "checked_at": "2026-10-09T09:01:28.848127+00:00",
+      "checked_at": "2026-10-14T13:44:31.646109+00:00",
       "promise_id": "BJP-2024-1d92d084568f54b092",
       "year": 2024,
       "category": "other",
@@ -9721,7 +10870,7 @@
     },
     {
       "id": "589a34cf268c18fbfc",
-      "checked_at": "2026-09-28T23:33:11.836662+00:00",
+      "checked_at": "2026-10-14T13:44:13.895075+00:00",
       "promise_id": "BJP-2024-0f22d3069d6ae5a404",
       "year": 2024,
       "category": "infrastructure",
@@ -13032,7 +14181,7 @@
     },
     {
       "id": "ad605cb52d09b94f54",
-      "checked_at": "2026-09-28T23:33:07.000105+00:00",
+      "checked_at": "2026-10-14T13:44:09.032178+00:00",
       "promise_id": "BJP-2024-0a109d22735e55e102",
       "year": 2024,
       "category": "other",
@@ -13057,17 +14206,17 @@
       "query": "further expand successful schemes svanidhi vishwakaram",
       "evidence": [
         {
-          "id": "7774086e5c014b2fa7",
+          "id": "25eea1a46a053b4436",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "PIB",
+          "source": "www.pib.gov.in",
           "source_url": "https://www.pib.gov.in",
-          "title": "PM SVANidhi: From Survival to Self-Reliance - PIB",
+          "title": "PM SVANidhi: From Survival to Self-Reliance - www.pib.gov.in",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9DZktBUHcwT1J0RzBOak53eWUtMVBvem5LS2hEQlAxc2FITG13c2xxY3NPM2tVMkY2djY4Vmc2dklmdFB3OWpZSFJWd3lRM2RYdWhvMDAwV2thV0t3WUhnVGtJOXhoRlNSeVZQQlNoSHRmS2VWMG1lVEtn?oc=5",
           "published_at": "2026-05-30T07:00:00+00:00",
-          "snippet": "PM SVANidhi: From Survival to Self-Reliance PIB",
-          "lexical_overlap": 0.154,
-          "relevance": 0.274,
+          "snippet": "PM SVANidhi: From Survival to Self-Reliance www.pib.gov.in",
+          "lexical_overlap": 0.133,
+          "relevance": 0.253,
           "matched_terms": [
             "pm",
             "svanidhi"
@@ -13376,7 +14525,7 @@
     },
     {
       "id": "2677921847c098f278",
-      "checked_at": "2026-09-28T23:33:20.643728+00:00",
+      "checked_at": "2026-10-14T13:44:22.392120+00:00",
       "promise_id": "BJP-2024-179eb89f04c9780b57",
       "year": 2024,
       "category": "women_social_justice",
@@ -13401,17 +14550,17 @@
       "query": "expanding students obc scholarship schemes communities",
       "evidence": [
         {
-          "id": "b9fb3b5592acac3bbd",
+          "id": "1daf02be37943a93f8",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "PIB",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "Government Continues Educational Support for OBC Students Through Scholarships and Free Coaching Schemes - PIB",
+          "title": "Government Continues Educational Support for OBC Students Through Scholarships and Free Coaching Schemes - Press Information Bureau",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE13d2VDX2wxRjhnNDBQeEp4SW9XbU0wejNLVU90VVhXYzhRN1djZ2wzNXdoMW1zLUoxcEU4S3NyWmJ3TWRkWS1MYWtlcEZ6NTZTR2k1Ry1MS1FIdnFNZGpZT1VLaUI4YUxC?oc=5",
           "published_at": "2026-07-30T07:00:00+00:00",
-          "snippet": "Government Continues Educational Support for OBC Students Through Scholarships and Free Coaching Schemes PIB",
-          "lexical_overlap": 0.158,
-          "relevance": 0.313,
+          "snippet": "Government Continues Educational Support for OBC Students Through Scholarships and Free Coaching Schemes Press Information Bureau",
+          "lexical_overlap": 0.143,
+          "relevance": 0.298,
           "matched_terms": [
             "obc",
             "schemes",
@@ -13450,41 +14599,17 @@
           ]
         },
         {
-          "id": "9ec4db5c9e73d7bdda",
+          "id": "f35fa66892d728223e",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "PIB",
+          "source": "www.pib.gov.in",
           "source_url": "https://www.pib.gov.in",
-          "title": "Breaking Barriers Through Education: PM-YASASVI Scholarship Empowers an OBC Student Bishwajit Mondal from Rural Jharkhand to Achieve His MBA Dream - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1nUzRxSXRnNi1BX3BvTjhLeklfbjl1X2Z0SmxncHI0alVpSUdaVFZhcy1sdEZvTTBQUE1lN0FIa254VTRFMXNKRUg4b1lPYmVIWTgxcEsyR3R5YlpoV2JidXdCcE9nTVIz?oc=5",
-          "published_at": "2026-08-07T07:00:00+00:00",
-          "snippet": "Breaking Barriers Through Education: PM-YASASVI Scholarship Empowers an OBC Student Bishwajit Mondal from Rural Jharkhand to Achieve His MBA Dream PIB",
-          "lexical_overlap": 0.12,
-          "relevance": 0.275,
-          "matched_terms": [
-            "obc",
-            "scholarship",
-            "student"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "education",
-            "scholarship",
-            "student"
-          ]
-        },
-        {
-          "id": "0138b390049c79b752",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Government Strengthens Educational Opportunities for OBC, EBC and DNT Students through PM-YASASVI - PIB",
+          "title": "Government Strengthens Educational Opportunities for OBC, EBC and DNT Students through PM-YASASVI - www.pib.gov.in",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9jcHV5aWtLT1hubERXMWlmTmRHZWRCdi01MEZkc1ozZkl3LXQ2bUdTVkt0VS1idHFPcXBVMDdkRy1xMUM0SDBiZGJkQUFKelNzMXc2VW9haU5zSHIwd2w5Qkg5ZGRQck1qWEJacnpJLXFHM1VMd0NLME9sbw?oc=5",
           "published_at": "2026-07-22T07:00:00+00:00",
-          "snippet": "Government Strengthens Educational Opportunities for OBC, EBC and DNT Students through PM-YASASVI PIB",
-          "lexical_overlap": 0.105,
-          "relevance": 0.225,
+          "snippet": "Government Strengthens Educational Opportunities for OBC, EBC and DNT Students through PM-YASASVI www.pib.gov.in",
+          "lexical_overlap": 0.095,
+          "relevance": 0.215,
           "matched_terms": [
             "obc",
             "students"
@@ -13495,17 +14620,17 @@
           ]
         },
         {
-          "id": "a4cbe422fc57b4fc08",
+          "id": "a6007299b53b9df395",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "PIB",
+          "source": "www.pib.gov.in",
           "source_url": "https://www.pib.gov.in",
-          "title": "PM-YASASVI Strengthens Educational Empowerment of OBC, EBC and DNT Students - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBzOUhodHJEcHBoOWVna2JSNC1PbzVCTW1QaWt1UjVfaEdxa1hVOFlWbFVZUEJ0RGp3U295UWxzV0EwZlFJb0VZNTRYcnBDT0RSS1EyLXVRLXFMSUtDbmZHWVVOdXhBT25o?oc=5",
-          "published_at": "2026-09-16T11:05:00+00:00",
-          "snippet": "PM-YASASVI Strengthens Educational Empowerment of OBC, EBC and DNT Students PIB",
-          "lexical_overlap": 0.105,
-          "relevance": 0.225,
+          "title": "PM-YASASVI Strengthens Educational Empowerment of OBC, EBC and DNT Students - www.pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOX1B2Tk5VSVRpRUVfbUpGSUJOb3FxelRsU2NiM29sQWdhbUIydG9sczFKcS1sM1FlRU8tUzlCY1paUjVCcUo2NXlsSk1sajAzMF9DMEJfTm1uU2piZ1lKT1o0eTM1RGZZMTVLalpiQmJOcXFEZkgtaXhyRFpncmloNHJkb3RMUkNkLVE3UTBPYw?oc=5",
+          "published_at": "2026-09-16T07:00:00+00:00",
+          "snippet": "PM-YASASVI Strengthens Educational Empowerment of OBC, EBC and DNT Students www.pib.gov.in",
+          "lexical_overlap": 0.095,
+          "relevance": 0.215,
           "matched_terms": [
             "obc",
             "students"
@@ -13513,28 +14638,6 @@
           "shared_numbers": [],
           "promise_core_overlap": [
             "students"
-          ]
-        },
-        {
-          "id": "7dffd2a45c13114f1a",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Times of India",
-          "source_url": "https://timesofindia.indiatimes.com",
-          "title": "Explained: How UP's SC/ST hostel scheme is expanding under Yogi government - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRGphU3pHX1d4bVc2d0pBY3ViZVpFMktIbi1HNzZGbEl4aXA5ZWpKb1p2Z2pTMnhsTUd5S2hjMUZVNmpKQUkyYVlBZmxuUjR4V3hfVjBtektkX3ZYLURpRHlrb3JkZzFkbmtyek80eF9Ga1huN3g5OG93SWMyc2plNjBWM0xPdXJSdWJLbFg4N25HRTFpY1pzZjlaMmUwaXJvYjRQa0ZUTWl3d1dzMlVuODd5SUhqU2J0RkVsVjNKell6Z09DdjJrZWZSdzlGOWF0QWtfWnh0dGR1dWFlbXZobtIB5gFBVV95cUxQTDhhTElndlMzc25aaFFXa0RsRGRYRkR1RHAwTFZlRE03SkRaNjA4VldFV1Y4N1RHRjZaRDZ6MjBUdFl0aEQwQWpsVWpCdlRMNnZXMWFJT3hYLUpYVDRFWEM2dmtjOURyQzJwU1VCc3NXM1VlYnNMUWZBNVRjMHNUX2tJRnBqaEV0UnNtaDFZS3UzbElPX3VtU0FrTUdLYzRtVHAwQzAzM3VxUTlJM21ldkxCcEtxRGhkYXljVlZ5VGZ6OHRBajBSTk5CUkxSVkEwZnNqYVoyejdGU29OYnZpbmhrcUpLdw?oc=5",
-          "published_at": "2026-06-30T07:00:00+00:00",
-          "snippet": "Explained: How UP's SC/ST hostel scheme is expanding under Yogi government The Times of India",
-          "lexical_overlap": 0.158,
-          "relevance": 0.263,
-          "matched_terms": [
-            "expanding",
-            "sc",
-            "st"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "expanding"
           ]
         },
         {
@@ -13559,6 +14662,29 @@
             "schemes",
             "students"
           ]
+        },
+        {
+          "id": "86fef550a325f5351e",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "DD India",
+          "source_url": "https://ddindia.co.in",
+          "title": "Government Reaffirms Push for Inclusive Education Through PM-YASASVI Scholarships for OBC, EBC and DNT Students - DD India",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPUkt2RW9hblhISXhBZG4zVEpoRUpFbEVFblc1UXVwMzRDdWVMMV9hOHNTRTFHZ2pTekNtNlRmdWE0NjJuR0VWZDdVcmFLSWR2NDZIMDJCd3FwcXVWWFpkWGRYVDdkMVV4LWpTczZWWVFmYVJhelpyUDlzdzBQM2kzVzRTMmhnQ05OTkl5bVA2UHhkajEzNGdNT0ljUG1qblpzVERQbGlIWHRzZ3JndzZVXzBTTk80bzhqRzFFZ1Nnd2U3VlZ3YkhZd2ZLY2xuODBtNlU3c0J4Qlc?oc=5",
+          "published_at": "2026-07-22T07:00:00+00:00",
+          "snippet": "Government Reaffirms Push for Inclusive Education Through PM-YASASVI Scholarships for OBC, EBC and DNT Students DD India",
+          "lexical_overlap": 0.095,
+          "relevance": 0.165,
+          "matched_terms": [
+            "obc",
+            "students"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "education",
+            "scholarships",
+            "students"
+          ]
         }
       ],
       "implementation_signal": "action_detected",
@@ -13569,7 +14695,7 @@
         "status": "progress_documented",
         "deadline_year": null,
         "proof_strength": "verified_primary_action_with_object_overlap",
-        "proof_evidence_id": "b9fb3b5592acac3bbd",
+        "proof_evidence_id": "1daf02be37943a93f8",
         "proof": null,
         "reason": "Verified primary evidence overlaps the subject of the promise and documents implementation activity, but not the promised outcome."
       }
@@ -16809,7 +17935,7 @@
     },
     {
       "id": "f5ee8b15dcb1c3d21b",
-      "checked_at": "2026-09-28T23:33:10.331149+00:00",
+      "checked_at": "2026-10-14T13:44:12.206245+00:00",
       "promise_id": "BJP-2024-0dfd3ce47ea54c5692",
       "year": 2024,
       "category": "security_defence",
@@ -16857,33 +17983,9 @@
             "left",
             "wing"
           ]
-        },
-        {
-          "id": "8d434f639f67c06063",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "MP-IDSA",
-          "source_url": "https://idsa.in",
-          "title": "Decline of Left Wing Extremism in India - MP-IDSA",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdy1NbkNERUhoMFQ3TGl0MWk5eFFfcndEWkxJRHVjTjlMR3JNYnMtVU1xQ08tekFVTmlLdmMzOGxQY1VfWi1PY3k2dkRMQlg2bDVCU1h4dDdfVG1QWGtkLUlEVjVwak05Rm1JdF9iUVRKZ0FlMm9MWlR2NUxHUWFTZzN3?oc=5",
-          "published_at": "2026-03-08T13:29:19+00:00",
-          "snippet": "Decline of Left Wing Extremism in India MP-IDSA",
-          "lexical_overlap": 0.214,
-          "relevance": 0.319,
-          "matched_terms": [
-            "extremism",
-            "left",
-            "wing"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "extremism",
-            "left",
-            "wing"
-          ]
         }
       ],
-      "implementation_signal": "current_primary_and_reporting_found",
+      "implementation_signal": "current_primary_evidence_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -18080,7 +19182,7 @@
     },
     {
       "id": "f2fcafbe92b04681b2",
-      "checked_at": "2026-10-09T09:01:26.556392+00:00",
+      "checked_at": "2026-10-14T13:44:29.191990+00:00",
       "promise_id": "BJP-2024-1caf920cc056f3bf3b",
       "year": 2024,
       "category": "jobs_economy",
@@ -18729,7 +19831,7 @@
     },
     {
       "id": "41e121c4ede1157338",
-      "checked_at": "2026-09-28T23:33:06.237226+00:00",
+      "checked_at": "2026-10-14T13:44:08.245565+00:00",
       "promise_id": "BJP-2024-074072e04a09e76ec1",
       "year": 2024,
       "category": "jobs_economy",
@@ -18753,28 +19855,6 @@
       "related_promises": [],
       "query": "position pharmacy world strengthening strengthen boosting",
       "evidence": [
-        {
-          "id": "97b5e802e015fb0bc5",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Production Linked Incentive Schemes have Strengthened India’s Pharmaceutical, Bulk Drugs and Medical Devices Manufacturing Ecosystem - PIB",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9PbDhzcHo4YndVUmlVTmt4UGFfMndKcEFBa3NQU3g3ek1kek11a09XcF9LdlRIcy1NTkdnTTROTEJlMHEyWFY5ZGlGdktTS01hbHZuTk9qLTlhNnBxV09QUm5GSWMtRnFRX2ZLcTVGX2NCODBPLTN1UmtGdDg?oc=5",
-          "published_at": "2026-09-25T07:16:00+00:00",
-          "snippet": "Production Linked Incentive Schemes have Strengthened India’s Pharmaceutical, Bulk Drugs and Medical Devices Manufacturing Ecosystem PIB",
-          "lexical_overlap": 0.083,
-          "relevance": 0.203,
-          "matched_terms": [
-            "manufacturing",
-            "pharmaceutical"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "manufacturing",
-            "pharmaceutical"
-          ]
-        },
         {
           "id": "952a6e2fada1ae847a",
           "scope": "news_search",
@@ -18800,27 +19880,25 @@
           ]
         },
         {
-          "id": "f7113076026df80be2",
+          "id": "f03e781401185f5dde",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "WHO | Regional Office for Africa",
-          "source_url": "https://www.afro.who.int",
-          "title": "World Health Organization and the European Union Launch EUR 1.1 million Initiative to Boost Local Pharmaceutical and Vaccine Manufacturing in Ghana - WHO | Regional Office for Africa",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObDZsUkZWckMyUEVMc2hYQUxHWGlCdG1Tem9rQzh0dElRdWNmYzlXaG42bjYtRVhZLU1jVlNXU3JIcEdTakZDRDNDOGRpaWVPcGhkNGptS0o1UG9ra1NRb1VKNERaOUNSTElEamU4YUtjUkphODVicGtkckhxRzF2a3huWjJhTjJjVHJwRUV6TU9fYUk1dkZ2cHM3ZG43Y19EcDUxSkI1eVB3SU1NMWI5SkFmbFlnRGp5M1lN?oc=5",
-          "published_at": "2026-08-11T11:12:49+00:00",
-          "snippet": "World Health Organization and the European Union Launch EUR 1.1 million Initiative to Boost Local Pharmaceutical and Vaccine Manufacturing in Ghana WHO | Regional Office for Africa",
-          "lexical_overlap": 0.12,
-          "relevance": 0.225,
+          "source": "Premium Times Nigeria",
+          "source_url": "https://www.premiumtimesng.com",
+          "title": "FG to commission 11 pharmaceutical manufacturing projects in 2026 to boost local drug production - Premium Times Nigeria",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxONWVYMVY2REp4UXYtLUp6aE5Gb0tpSlVueTJrek40djZ5OTVLWVRVVE5BNnhKcHkyY0ZtVzZyalBMektrY3Y0YkliUGtMMmw1UHY1UjBVUS1DSmFIYlk1eUFORHlxaHJfUW1qblhJQ20xZUs1OWFhTjNaMkVGbVdrWS03MllERDQ4dUwxcWVsVFZkTFFhcVdzWDM5QnRFWXZSZ3dpVjFfWVlFbm85aVU3bUFXZ0hwR3ZJeU5HdlFfUy1IYlEwb0RYTVNwYUZPd0VIWmZQRllBaHRRQnRyLUdCOVhXUE9zcWw2RnNpSEVKWQ?oc=5",
+          "published_at": "2026-07-17T07:00:00+00:00",
+          "snippet": "FG to commission 11 pharmaceutical manufacturing projects in 2026 to boost local drug production Premium Times Nigeria",
+          "lexical_overlap": 0.091,
+          "relevance": 0.161,
           "matched_terms": [
             "manufacturing",
-            "pharmaceutical",
-            "world"
+            "pharmaceutical"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
             "manufacturing",
-            "pharmaceutical",
-            "world"
+            "pharmaceutical"
           ]
         }
       ],
@@ -18878,7 +19956,7 @@
     },
     {
       "id": "15f7c4e47befb8c973",
-      "checked_at": "2026-09-28T23:33:08.673867+00:00",
+      "checked_at": "2026-10-14T13:44:10.616984+00:00",
       "promise_id": "BJP-2024-0b2632cde2e6fd7988",
       "year": 2024,
       "category": "education_skills",
@@ -21390,7 +22468,7 @@
     },
     {
       "id": "acfdb98d6a2a82f796",
-      "checked_at": "2026-10-11T01:53:01.900060+00:00",
+      "checked_at": "2026-10-14T13:44:06.340911+00:00",
       "promise_id": "BJP-2024-06fe9f9f356b42ad6e",
       "year": 2024,
       "category": "infrastructure",
@@ -21415,17 +22493,17 @@
       "query": "metro network expanding have initiated cities",
       "evidence": [
         {
-          "id": "03681761d366502705",
+          "id": "0e89b0d0ca139a4850",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "PIB",
+          "source": "www.pib.gov.in",
           "source_url": "https://www.pib.gov.in",
-          "title": "Metro Rail: A Catalyst for Sustainable Urban Growth and Financial Resilience - PIB",
+          "title": "Metro Rail: A Catalyst for Sustainable Urban Growth and Financial Resilience - www.pib.gov.in",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1FeHd5ZkxxemF2ejhrTDRMRmRMSlozWTNVMEl3Q0VIVEwtdGVRcUhkWk15cS1kbHZ0YmNiVVBCYmw0NUY3dGxKT1UxRldUR2Q4OWQtNU83VUItbXR2Rmt4MlVta1N1WW1Va0FCeUNCQUVJZGc4aDBYNlZB?oc=5",
           "published_at": "2026-03-15T07:00:00+00:00",
-          "snippet": "Metro Rail: A Catalyst for Sustainable Urban Growth and Financial Resilience PIB",
-          "lexical_overlap": 0.105,
-          "relevance": 0.225,
+          "snippet": "Metro Rail: A Catalyst for Sustainable Urban Growth and Financial Resilience www.pib.gov.in",
+          "lexical_overlap": 0.095,
+          "relevance": 0.215,
           "matched_terms": [
             "metro",
             "urban"
@@ -21458,6 +22536,28 @@
             "cities",
             "metro",
             "network"
+          ]
+        },
+        {
+          "id": "515833626347de0ecd",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Urban Acres",
+          "source_url": "https://urbanacres.in",
+          "title": "Hyderabad Metro Expands Capacity At Busy Stations - Urban Acres",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0xSzUycldUeV94b2VfU3RxazJIM1Z6STdNOEtNS0NvU3BBbm1VNV9ubEh5VFpJVS01NlhzVEw4aElTZkpCMWFVQTFXYWRKMXl1VlBqYnU1XzB4Vi1COUpnZDg1LVo5M1pkTUZtU0RaOGpnT3M4X2FoXzhpRmI?oc=5",
+          "published_at": "2026-07-17T07:00:00+00:00",
+          "snippet": "Hyderabad Metro Expands Capacity At Busy Stations Urban Acres",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
+          "matched_terms": [
+            "metro",
+            "urban"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "metro",
+            "urban"
           ]
         },
         {
@@ -21527,7 +22627,7 @@
           ]
         }
       ],
-      "implementation_signal": "current_primary_and_reporting_found",
+      "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -21592,7 +22692,7 @@
     },
     {
       "id": "33b257f02307cf5a8e",
-      "checked_at": "2026-10-09T09:01:27.616775+00:00",
+      "checked_at": "2026-10-14T13:44:30.264889+00:00",
       "promise_id": "BJP-2024-1d3698186ac9f43209",
       "year": 2024,
       "category": "other",
@@ -21638,27 +22738,6 @@
           ]
         },
         {
-          "id": "2e421446ce7ca4b5cd",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Upgraded Version of ‘Delhi Metro Rail’ App launched App to enable users in finding Shortest Route - PIB",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBzV1gySWRkLU42NWdwNUFTUUFndDNxWkZLbHJCNDhtc0hTSlJTT3VIblhxTWp3T3pXallvdld1Z0FPR1lVT2N4UzA2Sk9kdnF1MGtqRnl4c1NsaTZ2NmJuUnU5dzhlU2RJSzdZbFB3?oc=5",
-          "published_at": "2018-07-23T07:00:00+00:00",
-          "snippet": "Upgraded Version of ‘Delhi Metro Rail’ App launched App to enable users in finding Shortest Route PIB",
-          "lexical_overlap": 0.091,
-          "relevance": 0.211,
-          "matched_terms": [
-            "app",
-            "users"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "users"
-          ]
-        },
-        {
           "id": "1404301e1d05328ae5",
           "scope": "preferred_official_search",
           "tier": "primary",
@@ -21677,28 +22756,6 @@
           "shared_numbers": [],
           "promise_core_overlap": [
             "services"
-          ]
-        },
-        {
-          "id": "73c035a1cc6578d3ca",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Times of India",
-          "source_url": "https://timesofindia.indiatimes.com",
-          "title": "IRCTC to launch ‘super app': Here’s all you can do on the app other than booking train tickets - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOOHRXd3didUtVdFRTTHplUmtCekpqcFRldDYxU1JZUTdFUVNiT2FGQ0hpNElrRFduZFJOdEFsaXZFX0xRVUZGQ2ptbEFlbUtvYUxJY3d4cVdEQ1pqV2RON0NhYlVrX04xUGtpbFBfZVV4bUI0RTlDTU1lQlZ5LVd4aXkwQUROeEVpdTFUVGxXZ0FsclV2cXJ1cXlvaVVqV1M1VUlvRXgwSHJZV3hzM3RsX1FDLVdfdU00ZXY5ZWFaZlU1ZmJ0dG43Mk40Vk9Rd1M3Mkp6RGtoMXMyZks0WnJYZ0kzSTBEcGY2dXpsaDJqamZqNnBiRDVfaEp5bHJMM28tVDJN0gGIAkFVX3lxTFBuX292NjlGMDJKMGNMTy1OWnVsZk1KQndRNnJKbEFoNDUwd3pzS1ozV0JQblp5RjNuaVdNdHFOOXA3ZEpOU0VZdHM1ajRERlh2VVdSR3ZIeVVWdVpqS2FRNXIwSFpuVHRmMUFJVk13ZTNON1draGRaaUxZWWhhYUFxZ3RoZk9LeGdUYkg2M1RpWFlKUHNJMW5uQzhxWkV4dUY3OTVtOHUxQ3RwdEZfM2xVUHh0U2lHNlRFNlBkQ3g4QVNPOEl2aDN2b0dQS00tOHV6UENWQXFaeEpCS1JXR0ZZSlBOVGJrOVFTemd3d2lrQWNldnhZSEZuekVNeEktTDkzaXV1UlpZeA?oc=5",
-          "published_at": "2024-12-17T08:00:00+00:00",
-          "snippet": "IRCTC to launch ‘super app': Here’s all you can do on the app other than booking train tickets The Times of India",
-          "lexical_overlap": 0.143,
-          "relevance": 0.248,
-          "matched_terms": [
-            "app",
-            "launch",
-            "super"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "super"
           ]
         }
       ],
@@ -23277,7 +24334,7 @@
     },
     {
       "id": "35919bacee12e9dfb7",
-      "checked_at": "2026-09-28T23:33:14.533931+00:00",
+      "checked_at": "2026-10-14T13:44:16.938659+00:00",
       "promise_id": "BJP-2024-16ec3b34a0626d8cdf",
       "year": 2024,
       "category": "infrastructure",
@@ -23301,53 +24358,6 @@
       "related_promises": [],
       "query": "waterways inland project strengthening shipping enhancing",
       "evidence": [
-        {
-          "id": "b75a1cbefe89bb89e2",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://static.pib.gov.in",
-          "title": "Strengthening India's Maritime Sector: Port Capacity Expansion and Inland Waterway Development - PIB",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQ3JpRjdfd3BxbTk0TnhuQktIRGpnUGNkbThGU0FIWE01ZVFNZEtQRTlnOExvVXFOZFdVSHlfR0VzQTJLQzV3LUhjNUhLekNrRGNRXzVZdEdSYmVXbVNZdGxwMk81YzJuR2ZJYjlkY2IxVTVRWXBSOHh6NWVPODZ1REhrbGlBR0RYZHROaUg5dWtPLTV1ZUE?oc=5",
-          "published_at": "2024-08-08T07:00:00+00:00",
-          "snippet": "Strengthening India's Maritime Sector: Port Capacity Expansion and Inland Waterway Development PIB",
-          "lexical_overlap": 0.158,
-          "relevance": 0.313,
-          "matched_terms": [
-            "capacity",
-            "inland",
-            "strengthening"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "capacity",
-            "inland",
-            "strengthening",
-            "waterway"
-          ]
-        },
-        {
-          "id": "7112559f547370d1ce",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "IWDC 3.0 Approves Over ₹1,500 Crore Projects to Drive Green Mobility, Cargo Movement & River Tourism on India’s Inland Waterways - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9KWWhtOHR1bFhWUHpadEt0Mk90Y3pnYnBPcUVkdXJGMmhPbEpweUdSRzRlcU5HbzRZSG5YQXZOY2dGNXI2alJfNEZTX3dNOHFySXRUcE1mZmZUWFlVQzBrODREdjluNHUwYWsxY2M1Wi1GX2tKQ0c3U3J3?oc=5",
-          "published_at": "2026-01-23T08:00:00+00:00",
-          "snippet": "IWDC 3.0 Approves Over ₹1,500 Crore Projects to Drive Green Mobility, Cargo Movement & River Tourism on India’s Inland Waterways PIB",
-          "lexical_overlap": 0.083,
-          "relevance": 0.203,
-          "matched_terms": [
-            "inland",
-            "waterways"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "inland",
-            "waterways"
-          ]
-        },
         {
           "id": "f5c0bfa5d3332059a8",
           "scope": "preferred_official_search",
@@ -23421,17 +24431,39 @@
           ]
         },
         {
-          "id": "43d52d83de5d57731c",
+          "id": "bd57a37267af544645",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "PIB",
+          "source": "www.pib.gov.in",
           "source_url": "https://www.pib.gov.in",
-          "title": "A Ride through the Inland Waterways of India - PIB",
+          "title": "A Ride through the Inland Waterways of India - www.pib.gov.in",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9yNE5tVUlYUWxGTXlwWVI4MmdIMG80RVB5dnd2WW9EVl9vRG9SRnZnb1ZpcUMtdzZxNWpzcHc2ZUtVbTV5d19GNUlsaDN6RkI3ZHBwX0JKR0JrVnItVDhoMjBWT0pvOHhUNEVER0pNUDRiREtRUkt5ODV3?oc=5",
           "published_at": "2026-04-27T07:00:00+00:00",
-          "snippet": "A Ride through the Inland Waterways of India PIB",
-          "lexical_overlap": 0.143,
-          "relevance": 0.213,
+          "snippet": "A Ride through the Inland Waterways of India www.pib.gov.in",
+          "lexical_overlap": 0.125,
+          "relevance": 0.195,
+          "matched_terms": [
+            "inland",
+            "waterways"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "inland",
+            "waterways"
+          ]
+        },
+        {
+          "id": "1c970b26a4e2129fa7",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Hindu",
+          "source_url": "https://www.thehindu.com",
+          "title": "Ports Secretary asks NMPA to explore inland waterways for cargo movement - The Hindu",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMlZJT3pKNjJVbndFRG15NWEyZEVObThlYWhUNTVWRV8ydUFGcFZmMVF1UDdoUXBwWWppa2xZODBxbkFjWFJrd0RwUHRUZnJqbkxSYXpPaU5YVVZVZTJOOVpEVU5EeEFMMmJmVU0tVDNHb3BkcmJtT3hianZWUzJ1ODczNlBXQTNKazNnZGhpbk00ZkhXbmk5RW1KdDVFUzllSHBZNHJISHRJNzJISjlnUUlVMTZldzBjX2hsclRPZHVyREpyMVhvR3hRV3lobmp3QzU3Ql9R0gHcAUFVX3lxTE9NZGpWMTR1dlkydmRpUGJKcmNrVE5vLUV4QmJNdkcxNlNhc1plTkRKYTNEN1lwNnVGSjhKNGFuQkUxZldaSTFoNlBDaHFpc19qZE1oeGlTSGFXcHpjVFpDbXFCOHZ6WUZndkhXVllMLXk1UjVGejJ2LVRyeXJlVV9ZdHRwZjMydm1LWFFFYlotR1dvTnE1Yk1ZRXlWQmFCRnBmSVpSQTNXWWhQd0FIZHBEbTZwYjNlMnBVZHNSQU1kUmZFUmFLMFRrS1JTLXNRcHoxaVVfVWtZdjlKWmg?oc=5",
+          "published_at": "2026-06-27T07:00:00+00:00",
+          "snippet": "Ports Secretary asks NMPA to explore inland waterways for cargo movement The Hindu",
+          "lexical_overlap": 0.1,
+          "relevance": 0.17,
           "matched_terms": [
             "inland",
             "waterways"
@@ -23443,7 +24475,7 @@
           ]
         }
       ],
-      "implementation_signal": "current_primary_and_reporting_found",
+      "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -26076,7 +27108,7 @@
     },
     {
       "id": "6f33af6843101f4a18",
-      "checked_at": "2026-09-28T23:33:18.118375+00:00",
+      "checked_at": "2026-10-14T13:44:19.738757+00:00",
       "promise_id": "BJP-2024-173d41ddf1ecc39a02",
       "year": 2024,
       "category": "infrastructure",
@@ -26101,29 +27133,50 @@
       "query": "modern encouraging regulatory framework state governments",
       "evidence": [
         {
-          "id": "3963c00d7fb8b9f826",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Modern Diplomacy",
-          "source_url": "https://moderndiplomacy.eu",
-          "title": "Is AI Developing Faster Than Governments Can Regulate It? - Modern Diplomacy",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQOWhYM1FFT1NIaFBqQUR3bkhES0pvMERXM2JpVHRJbFRfdGh2OTlfa3FSdGRGeE1tRTRCUGk0QXlVcS0xOFJzcGhSSkZaYnRLZ0FGWWpfSDYybDVrSGRaeWl2ZkR5UHZJYkdKMnotMDRJNmxwWXlydjJxaUR5dkJwWklTUGJtUkZQa2d3ajVfcnBGMHRYQk9FOTJ3MA?oc=5",
-          "published_at": "2026-07-06T07:00:00+00:00",
-          "snippet": "Is AI Developing Faster Than Governments Can Regulate It? Modern Diplomacy",
-          "lexical_overlap": 0.111,
-          "relevance": 0.181,
+          "id": "60748054f3ebc3bda8",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "www.pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Labour Reforms & IT Sector: A Modern Framework for Growth & Welfare - www.pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1FazNpSUZsNVNLTUoxbEFTbDRlWEdUVWxLT3dNRjA0aFY5Y3hhTy1fcFFTb0JHM2JjN2t1aGZFVE1rMWZrSWo2Z0tIUl9kbFo3R25sejlhWmxSSTJTeTBlZGs4OFhiNEVyUTZVZDVnY1VaMXctWm1Qckdn?oc=5",
+          "published_at": "2025-12-02T08:00:00+00:00",
+          "snippet": "Labour Reforms & IT Sector: A Modern Framework for Growth & Welfare www.pib.gov.in",
+          "lexical_overlap": 0.1,
+          "relevance": 0.22,
           "matched_terms": [
-            "governments",
+            "framework",
             "modern"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "governments",
+            "framework",
             "modern"
+          ]
+        },
+        {
+          "id": "a282df0f1a9bdf1214",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "A HIGH-LEVEL COMMITTEE FOR REGULATORY REFORMS TO BE SET UP FOR REVIEW OF ALL NON-FINANCIAL SECTOR REGULATIONS, CERTIFICATIONS, LICENSES, AND PERMISSIONS - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE01a2ppVXBEaVAtemZLbzBoOXhPVkFINXFYbzNEQkZPTXJ1Zko2SFFjNzU0eEMtSFo0a0RRajZjaVkxQ04zMkJ0cHF4ekhQSzVZWGZ2WHdZV0YwLUlmaHFhdG8tM1p5cnJw?oc=5",
+          "published_at": "2025-02-01T08:00:00+00:00",
+          "snippet": "A HIGH-LEVEL COMMITTEE FOR REGULATORY REFORMS TO BE SET UP FOR REVIEW OF ALL NON-FINANCIAL SECTOR REGULATIONS, CERTIFICATIONS, LICENSES, AND PERMISSIONS Press Information Bureau",
+          "lexical_overlap": 0.077,
+          "relevance": 0.197,
+          "matched_terms": [
+            "regulatory",
+            "set"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "regulatory"
           ]
         }
       ],
-      "implementation_signal": "needs_research",
+      "implementation_signal": "current_primary_evidence_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -27605,7 +28658,7 @@
     },
     {
       "id": "1d1dd6f9d855b05ba4",
-      "checked_at": "2026-09-28T23:33:13.184393+00:00",
+      "checked_at": "2026-10-14T13:44:15.330887+00:00",
       "promise_id": "BJP-2024-1182dbb84280c98abc",
       "year": 2024,
       "category": "education_skills",
@@ -29945,7 +30998,7 @@
     },
     {
       "id": "e8e53d153c7bc2eb3d",
-      "checked_at": "2026-10-09T09:01:21.617686+00:00",
+      "checked_at": "2026-10-14T13:44:23.853544+00:00",
       "promise_id": "BJP-2024-1a853cd3a86a1d9788",
       "year": 2024,
       "category": "other",
@@ -31318,7 +32371,7 @@
     },
     {
       "id": "5744de5ab609bc389b",
-      "checked_at": "2026-09-28T23:33:16.357601+00:00",
+      "checked_at": "2026-10-14T13:44:18.444291+00:00",
       "promise_id": "BJP-2024-17398d785095df2953",
       "year": 2024,
       "category": "health_welfare",
@@ -31343,6 +32396,28 @@
       "query": "ayushman arogya mandirs healthcare strengthening further",
       "evidence": [
         {
+          "id": "e59c6b3ac1208e2e37",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Update on Ayushman Arogya Mandir - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4tUlppdHdnc3pyQUN6c0s3d1NUOEFpa2tWdkd4VmVtUjF4VU9LU1ZzN0tHTUZHZ3RzZjU0OTloRW9TSnpOcXdEeS0xMzNBUGlEQjkxRlF4dWIyRUV3TDRXckJJMjk4Q1dW?oc=5",
+          "published_at": "2025-08-01T07:00:00+00:00",
+          "snippet": "Update on Ayushman Arogya Mandir PIB",
+          "lexical_overlap": 0.133,
+          "relevance": 0.253,
+          "matched_terms": [
+            "arogya",
+            "ayushman"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "arogya",
+            "ayushman"
+          ]
+        },
+        {
           "id": "1f4b90f32e990bdf31",
           "scope": "news_search",
           "tier": "secondary",
@@ -31365,6 +32440,30 @@
             "arogya",
             "ayushman",
             "healthcare",
+            "mandirs"
+          ]
+        },
+        {
+          "id": "50a48e91f19a654c14",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Times of India",
+          "source_url": "https://timesofindia.indiatimes.com",
+          "title": "3,346 Ayushman Arogya Mandirs operational in state’s tribal areas: Centre - The Times of India",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOUUN5cUhOMUVqOUZBMUJPcHUyNkZ1WVh2eTgtbTdtcFpla3lHSkktOEgzMVJLOVRhRFpYZ3N3Q25SWmMzZ3k5SjZVOENFQnlrQ1BwQmxDb2QyekZpbEdnQ182b2Y0YmV6bmxQRDNSd3RZTE1kbVVsQmR2VF9GMDNJRF82V1RzYVF3dVp0S2NtNEtlVlZiRjBnY012REtGVS1abWNiRWdMNTdOMmZpTlQtUFd4NmlwbE1KSndhb2l0d0oxV2tmaTF2ZUlkcDYxZ2NFUDlsRWRzUHBwVkFtYTVRSXU3d9IB6AFBVV95cUxOVUZrdjJnZkNzTHNuWTQyanVxazR4U3BSci1GSjJoX0Z2TEt0RWE1RHhrVzg0azJkcTBTcVFONE44SHBiTHI3SURHQzVFTGk4VlN6R1VJMUZEWXRmYWhsNzdCQkdEc2hEUXdvc1RwVmN2TTJUUWlqWUYzWTZabVFHeEJ4elNOd01aLXIwWTZOYVJ5ejRiOUljMDhKRndGTVBmYm1tVjRGdlVpckFFYUIzMzdsVDZrbDR4ZFJmN09HWG9vLTZSWHhxMXRlaUx5ZEpDSUNkemhlSGxmMU42d0QyeVUxQUhhRDRK?oc=5",
+          "published_at": "2026-07-28T07:00:00+00:00",
+          "snippet": "3,346 Ayushman Arogya Mandirs operational in state’s tribal areas: Centre The Times of India",
+          "lexical_overlap": 0.167,
+          "relevance": 0.272,
+          "matched_terms": [
+            "arogya",
+            "ayushman",
+            "mandirs"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "arogya",
+            "ayushman",
             "mandirs"
           ]
         },
@@ -31393,25 +32492,27 @@
           ]
         },
         {
-          "id": "c7c39d07cc81f53578",
+          "id": "5004cc5aeb46d2f3b9",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "uniindia.com",
-          "source_url": "https://www.uniindia.com",
-          "title": "Ayushman Bharat at Eight: Modi highlights 60 cr beneficiaries, 500 cr Arogya Mandir visits - uniindia.com",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSXJ1ejYzdE9zaXNMdHNNazBkaW90eEt2N2JtS25GaDN0dklHUElhT0dkYlhud1U1amY3Z0dvQXU1cXU0VkJaNDNfQkpjMENabjlwcUpSSHlVaTZUbXV2RTNkUXpGQ1l5c2FpYUNLNUdpbk9tNmZ4SElYZlh4QVd3ZDd0Rm11ZGJPNzF0MGVNVUFFdTI4eWVWVkdmUlJzdlJkeXQ2d29fc2o3YVhCeFV4cnZheFRoSW1kclZtZndFZEwtTktIQmZHdw?oc=5",
-          "published_at": "2026-09-22T22:45:00+00:00",
-          "snippet": "Ayushman Bharat at Eight: Modi highlights 60 cr beneficiaries, 500 cr Arogya Mandir visits uniindia.com",
-          "lexical_overlap": 0.1,
-          "relevance": 0.17,
+          "source": "DD India",
+          "source_url": "https://ddindia.co.in",
+          "title": "Nadda Highlights 1.86 Lakh Ayushman Arogya Mandirs, 600 Mn AB-PMJAY Beneficiaries at WCOG 2026 - DD India",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQ3pOUTVTYktXaHVKaHIyQmZNUnUzR2Z5OVdsYW9hYnI1VGxOTFI2SmdxeE9mZVVyTFZOVXMya0NnUVJnRUs3emhzd0hpV3IzaERQWHA3WHloOVEtbGJnUmtfNkVlYkJac0t2UmNVVXlMUHkyV3hZMjZkaVdmUDFDQWZLUmhzSi1aTHRaUS0zMGFmc1ktanBCOU1kYU1wVEo2ZzNWT3pJYVNYQnE3dk9rU0dQbFRNbFl1R21XUTVmNzZfZw?oc=5",
+          "published_at": "2026-09-30T07:00:00+00:00",
+          "snippet": "Nadda Highlights 1.86 Lakh Ayushman Arogya Mandirs, 600 Mn AB-PMJAY Beneficiaries at WCOG 2026 DD India",
+          "lexical_overlap": 0.15,
+          "relevance": 0.255,
           "matched_terms": [
             "arogya",
-            "ayushman"
+            "ayushman",
+            "mandirs"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
             "arogya",
-            "ayushman"
+            "ayushman",
+            "mandirs"
           ]
         },
         {
@@ -31422,7 +32523,7 @@
           "source_url": "https://www.indiatodayne.in",
           "title": "Tripura CM inaugurates Urban Polyclinic, new Ayushman Arogya Mandir buildings - India Today NE",
           "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNbkZ4eWlMSWZBejVoSXdxeGQ4dldJYlFfZUlYNXpQOGZwN3AtRjVHWmFFSlBYbGRVRUtGekw3WDMtbjRvT2FDTE15czhFclYwRnRRTW1Ic2NDOWhCR19rWXFic1ZDRGRnYW9HbDFLMTZIWWJoaUxjRDYzSzhoNExwTmktcE1OMHVhRmhGN3E1dktSTUNKRnVVYzM0NUUzN21rZlR1OHpWa2lqSmZ2NFhhbUlHN1lrRkkyTDNMRmNpMnV5YnRYT29TNU9ubi1pVmhPNEZN0gHYAUFVX3lxTE40eXBvSFBXTFRBS3pEWF9HZXZaWTVOOWZaeXBXRXFXVkZVQzA3V3M0MGY5WHdMbjBMb2pGb1cwT3FrS0FBZ0dMU0I4SUc4b2NpT2RMVjhVMUZiRkxsMjVzRUZLblZxc012akttdDRFMUtYWi1OeG1NcnRBYlNDekI3RTNVOGhvRC1LUnVOVlRLZTRBNjhwYmk1eDZTSnNkcHZUUUI1U0JlRTlTaVpTbHI2Nl9uRjdub0xRYTdnaEFWbk1PRjM1T2JrenZtM0pHb3dXY2w3bHp4dg?oc=5",
-          "published_at": "2026-09-24T13:07:22+00:00",
+          "published_at": "2026-09-24T07:00:00+00:00",
           "snippet": "Tripura CM inaugurates Urban Polyclinic, new Ayushman Arogya Mandir buildings India Today NE",
           "lexical_overlap": 0.1,
           "relevance": 0.17,
@@ -31435,31 +32536,9 @@
             "arogya",
             "ayushman"
           ]
-        },
-        {
-          "id": "44ea860d14aadc2db3",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Borok Times",
-          "source_url": "https://boroktimes.com",
-          "title": "Tripura CM Inaugurates Urban Polyclinic, New Ayushman Arogya Mandir Buildings - Borok Times",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRlkwb2gtcHYtSXozTFBJWEhES2RrQWliT3dMUkhKYlQ4QzlIcExfZTYzazZDdjFLdUIwM1F0THdtY0Q5YzBPTjI3eVpFZUtkR3hVUU81TXF4enp3TVBzeEQxR0EwSnJaZEpFSWcxRTg2UlVGTEs0Wk9qdnprUk5Ndy0xdDhtclpGRmQyY0pweUVVTm1SN3lZN3VjS3dfMkxBTXfSAaoBQVVfeXFMTzJkWDJ2UVhFRFRJbmZFbE9PVkttYnZuOXJFMDNLTi1kNk9RSTVmNlcyYmRnTmxaUDhRQlUtTWhNY2pyZmtMR05KVWlXSlFaWlhwQi1jemZBYzFucEtXOFZtcmhNcEh3SFFVR0UtZ0Fpekl4aERKbHhZTGU0bHBaSlpmMmYyN210UTBLODIta2V3WVZnV3BMNlI2ZHhGMzdsMVphUlN0N2xJd3c?oc=5",
-          "published_at": "2026-09-25T07:23:29+00:00",
-          "snippet": "Tripura CM Inaugurates Urban Polyclinic, New Ayushman Arogya Mandir Buildings Borok Times",
-          "lexical_overlap": 0.095,
-          "relevance": 0.165,
-          "matched_terms": [
-            "arogya",
-            "ayushman"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "arogya",
-            "ayushman"
-          ]
         }
       ],
-      "implementation_signal": "current_reporting_found",
+      "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -37050,7 +38129,7 @@
     },
     {
       "id": "2331f9d203e5e33a9e",
-      "checked_at": "2026-10-09T09:01:23.234703+00:00",
+      "checked_at": "2026-10-14T13:44:25.733006+00:00",
       "promise_id": "BJP-2024-1ad78c8356dcd21f16",
       "year": 2024,
       "category": "women_social_justice",
@@ -40728,7 +41807,7 @@
     },
     {
       "id": "0764c49dce738dbbee",
-      "checked_at": "2026-10-14T12:26:25.264638+00:00",
+      "checked_at": "2026-10-14T13:43:41.108886+00:00",
       "promise_id": "BJP-2019-18c0750d5ed71bc3d1",
       "year": 2019,
       "category": "agriculture",
@@ -42421,7 +43500,7 @@
     },
     {
       "id": "f5811520c1d5623f19",
-      "checked_at": "2026-10-14T12:26:27.183342+00:00",
+      "checked_at": "2026-10-14T13:43:42.670132+00:00",
       "promise_id": "BJP-2019-1d3e95fa9344e842f3",
       "year": 2019,
       "category": "infrastructure",
@@ -42542,7 +43621,7 @@
     },
     {
       "id": "92d6920a15fb42f812",
-      "checked_at": "2026-10-14T12:26:45.995032+00:00",
+      "checked_at": "2026-10-14T13:43:59.419311+00:00",
       "promise_id": "BJP-2019-6abf03adda773fec98",
       "year": 2019,
       "category": "governance",
@@ -45725,7 +46804,7 @@
     },
     {
       "id": "1e0abc9f94016f3c7a",
-      "checked_at": "2026-10-14T12:26:28.694698+00:00",
+      "checked_at": "2026-10-14T13:43:43.955566+00:00",
       "promise_id": "BJP-2019-2af396deaf778cac73",
       "year": 2019,
       "category": "infrastructure",
@@ -45810,7 +46889,7 @@
     },
     {
       "id": "4af70c5cc4e5dd31ea",
-      "checked_at": "2026-10-14T12:26:35.684279+00:00",
+      "checked_at": "2026-10-14T13:43:50.475577+00:00",
       "promise_id": "BJP-2019-34c03859f07f1329c5",
       "year": 2019,
       "category": "infrastructure",
@@ -47956,7 +49035,7 @@
     },
     {
       "id": "93bb9754ab7125c8f1",
-      "checked_at": "2026-10-14T12:26:40.737874+00:00",
+      "checked_at": "2026-10-14T13:43:55.198969+00:00",
       "promise_id": "BJP-2019-6013bbae5c9fbd8c5a",
       "year": 2019,
       "category": "women_social_justice",
@@ -48022,7 +49101,7 @@
     },
     {
       "id": "1d1782ad81aa54afcd",
-      "checked_at": "2026-10-14T12:26:43.387193+00:00",
+      "checked_at": "2026-10-14T13:43:57.130176+00:00",
       "promise_id": "BJP-2019-63e2ccda189fa85e2c",
       "year": 2019,
       "category": "health_welfare",
@@ -52907,7 +53986,7 @@
     },
     {
       "id": "21c782a6ad2ecb8987",
-      "checked_at": "2026-10-14T12:26:32.451644+00:00",
+      "checked_at": "2026-10-14T13:43:47.141098+00:00",
       "promise_id": "BJP-2019-2cfa1375f165d41707",
       "year": 2019,
       "category": "other",
@@ -54296,7 +55375,7 @@
     },
     {
       "id": "09db92a7679f9e887b",
-      "checked_at": "2026-10-14T12:26:37.693220+00:00",
+      "checked_at": "2026-10-14T13:43:52.339548+00:00",
       "promise_id": "BJP-2019-4fc8289de8caed52ff",
       "year": 2019,
       "category": "other",
@@ -59347,7 +60426,7 @@
     },
     {
       "id": "df076e7dea8ba67624",
-      "checked_at": "2026-10-14T12:26:49.003579+00:00",
+      "checked_at": "2026-10-14T13:44:01.730997+00:00",
       "promise_id": "BJP-2014-078252941779345656",
       "year": 2014,
       "category": "women_social_justice",
