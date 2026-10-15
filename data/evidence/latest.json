@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T12:11:34.852687+00:00",
+  "generated_at": "2026-10-15T17:00:39.501798+00:00",
   "capabilities": {
     "official_evidence_search": true,
     "verified_primary_gate": true,
@@ -16,8 +16,8 @@
     "promise_checked_this_run": 30,
     "promise_total_candidates": 841,
     "promise_coverage_pct": 100.4,
-    "primary_candidates": 475,
-    "secondary_candidates": 1017,
+    "primary_candidates": 481,
+    "secondary_candidates": 1020,
     "prior_fact_checks": 0,
     "publishable_auto_verdicts": 0,
     "claim_verdicts": {
@@ -339,30 +339,11 @@
       "query": "but st century especially third decade",
       "numbers": [],
       "promise_matches": [],
-      "evidence": [
-        {
-          "id": "0387a0ad1affe9bcf4",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The New York Times",
-          "source_url": "https://www.nytimes.com",
-          "title": "The 100 Best TV Shows of the 21st Century - The New York Times",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQ1BqeDR2djBDYVdyeFUyZHNHc2t1YVdQZjlZMU5WWlJtU3Bma1FVM0tHYktxYy0yWlM3YUZFZ3pCYmNIZWlYbVF0QkJMVmhISXVoWmtqSHhLb3QzekZwemU0aGpHRElpdm1RdmROeTVmY2J5NDZtOWJIV1ZLTzBQbDBLa09rOTVhV01ZWlNlQ2Y4dw?oc=5",
-          "published_at": "2026-09-20T07:00:00+00:00",
-          "snippet": "The 100 Best TV Shows of the 21st Century The New York Times",
-          "lexical_overlap": 0.133,
-          "relevance": 0.203,
-          "matched_terms": [
-            "century",
-            "st"
-          ],
-          "shared_numbers": []
-        }
-      ],
+      "evidence": [],
       "fact_checks": [],
       "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -828,6 +809,31 @@
       "promise_matches": [],
       "evidence": [
         {
+          "id": "b77c3a79180c5f104d",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Over 1 lakh 40 thousand recognized Start Ups in the country, over 67 thousand have at least one women director - PIB",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9nV3JiZGxKQm04c0ZXNVctVHlkQXR6RGd0Qy1TSGk3SnpwbWxyRHRKOHBZa041U2VLTHVNcFdKREoyTkVQVWZMU0VaTFJ6ZjdMZzRhRnRzZElSS1RoZVZXaHBsWDluSzlJSEZGMTNBeEg?oc=5",
+          "published_at": "2024-08-09T07:00:00+00:00",
+          "snippet": "Over 1 lakh 40 thousand recognized Start Ups in the country, over 67 thousand have at least one women director PIB",
+          "lexical_overlap": 0.235,
+          "relevance": 0.425,
+          "matched_terms": [
+            "director",
+            "have",
+            "least",
+            "one"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.1858,
+            "neutral": 0.7961,
+            "contradiction": 0.0181
+          }
+        },
+        {
           "id": "ebc7835e557ca6b1a5",
           "scope": "preferred_official_search",
           "tier": "primary",
@@ -848,8 +854,8 @@
       ],
       "fact_checks": [],
       "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
+        "level": "primary_evidence_found",
+        "label": "Relevant verified primary evidence candidate found",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -1011,7 +1017,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-15T12:10:41.292526+00:00",
+      "latest_checked_at": "2026-10-15T16:59:37.184086+00:00",
       "latest_claim_packet_id": "7b037d2dee45e0641b"
     },
     {
@@ -1131,7 +1137,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-15T12:10:41.292494+00:00",
+      "latest_checked_at": "2026-10-15T16:59:37.184062+00:00",
       "latest_claim_packet_id": "b9c2b1070d3a92b3e9"
     },
     {
@@ -1155,7 +1161,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-15T12:10:41.292551+00:00",
+      "latest_checked_at": "2026-10-15T16:59:37.184104+00:00",
       "latest_claim_packet_id": "497f5d9cb27d070bb6"
     },
     {
@@ -1173,13 +1179,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "reporting_found",
+      "evidence_state": "needs_research",
       "human_reviewed": false,
       "created_at": "2026-10-14T13:43:38.831250+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-15T12:10:41.292460+00:00",
+      "latest_checked_at": "2026-10-15T16:59:37.184036+00:00",
       "latest_claim_packet_id": "3fe413ee0ae3f4f61a"
     },
     {
@@ -1203,7 +1209,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-15T12:10:41.292382+00:00",
+      "latest_checked_at": "2026-10-15T16:59:37.183978+00:00",
       "latest_claim_packet_id": "9b5ed131949ff05d1c"
     },
     {
@@ -1323,7 +1329,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-15T12:10:41.292444+00:00",
+      "latest_checked_at": "2026-10-15T16:59:37.184025+00:00",
       "latest_claim_packet_id": "5d0783ea8592694b2a"
     },
     {
@@ -1371,7 +1377,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-15T12:10:41.292510+00:00",
+      "latest_checked_at": "2026-10-15T16:59:37.184075+00:00",
       "latest_claim_packet_id": "f5c78f40d1b6a90ec6"
     },
     {
@@ -1491,7 +1497,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-15T12:10:41.292540+00:00",
+      "latest_checked_at": "2026-10-15T16:59:37.184096+00:00",
       "latest_claim_packet_id": "ee94822e64ae98ad8f"
     },
     {
@@ -1515,7 +1521,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-15T12:10:41.292601+00:00",
+      "latest_checked_at": "2026-10-15T16:59:37.184141+00:00",
       "latest_claim_packet_id": "5860f9365178448af5"
     },
     {
@@ -1587,7 +1593,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-15T12:10:41.292477+00:00",
+      "latest_checked_at": "2026-10-15T16:59:37.184050+00:00",
       "latest_claim_packet_id": "53bcf8a853337194f0"
     },
     {
@@ -1653,13 +1659,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "needs_research",
+      "evidence_state": "primary_evidence_found",
       "human_reviewed": false,
       "created_at": "2026-10-14T13:43:38.898279+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-15T12:10:41.292587+00:00",
+      "latest_checked_at": "2026-10-15T16:59:37.184130+00:00",
       "latest_claim_packet_id": "864cecb3d0726343a3"
     },
     {
@@ -1707,7 +1713,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-15T12:10:41.292574+00:00",
+      "latest_checked_at": "2026-10-15T16:59:37.184121+00:00",
       "latest_claim_packet_id": "bcb73e763cd8cb466c"
     },
     {
@@ -1803,7 +1809,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-15T12:10:41.292423+00:00",
+      "latest_checked_at": "2026-10-15T16:59:37.184009+00:00",
       "latest_claim_packet_id": "20063841e36e8db66d"
     },
     {
@@ -2190,7 +2196,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-15T12:10:41.292563+00:00",
+      "latest_checked_at": "2026-10-15T16:59:37.184112+00:00",
       "latest_claim_packet_id": "b22c414b92abe14a3c"
     },
     {
@@ -10359,7 +10365,7 @@
     },
     {
       "id": "2129d2882792edba65",
-      "checked_at": "2026-10-12T05:54:47.838794+00:00",
+      "checked_at": "2026-10-15T17:00:17.513529+00:00",
       "promise_id": "BJP-2024-fb8b1056071c25fd32",
       "year": 2024,
       "category": "agriculture",
@@ -10418,7 +10424,7 @@
     },
     {
       "id": "79bcdcbeb054504d7a",
-      "checked_at": "2026-10-05T06:17:20.332003+00:00",
+      "checked_at": "2026-10-15T17:00:07.912768+00:00",
       "promise_id": "BJP-2024-f3758d3852eeea49df",
       "year": 2024,
       "category": "infrastructure",
@@ -10443,28 +10449,24 @@
       "query": "atmanirbhar pulses edible oil production like",
       "evidence": [
         {
-          "id": "4ebb22d6c1eb3b9263",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Indian Express",
-          "source_url": "https://indianexpress.com",
-          "title": "How India has become relatively atmanirbhar in Pulses compared to Edible Oil - The Indian Express",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZ3gwMXd3YmdrWEt4VGVzMmU3a045eVRwZXpKa29ldW1ZbVl5RDcwQ3ZPbmJVUU9ydmZDSWtKMUZlRERNMDVNUE9WQVNtamFTREZvcDJOc3FaSGdVMG4xdXMwakc5ZmlKYmp1MERsaHNpb1dKNERhR3paSHo0aW9wNHZkbTlIUWV6WEZCTHNhYV81dnllSXVoWWpxQmdMbU1FWEY2OFlVeFFfMkgyUExWUERiZlkydmpPNEtVbm1KWjlUOXZoNmIwdGZkY3dwMGJSMVA4VWVkOWtMaGlTVVVWWlh6a9IB6gFBVV95cUxNanJQbGQtajNaV3l2N0l2UWMtLW1hQnU4eEpOQXRaXzdJWXRjWEJVU0hwa2w5ZzFHMHhVM1BrN2hOa1JuYnIzcnBCaHAtM1EyU2ltQXJ4N256Q1NHS3FrSVhEQlZCUTNTU3JabnlPZzlnVGtwT05ZSHNldkpRUnZ6M0FueXZ1Y0N3ZnNVY3ZxNHY4WjluSTFqOHozVkk1anNFcG9lWXVYbkp0NEMyV29yVXpmbGxOQnBWZ0lCVGZjVDhsQ0w4OHI3TFZGWXBjMTJBWHM2TWlvWnprZXlsWEdSczhCUER0SW9oc0E?oc=5",
-          "published_at": "2023-06-05T07:00:00+00:00",
-          "snippet": "How India has become relatively atmanirbhar in Pulses compared to Edible Oil The Indian Express",
-          "lexical_overlap": 0.222,
-          "relevance": 0.362,
+          "id": "ab739990bf8424d5db",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "NITI Aayog",
+          "source_url": "https://www.niti.gov.in",
+          "title": "PATHWAYS & STRATEGY FOR ACCELERATING GROWTH IN EDIBLE OIL TOWARDS GOAL OF ATMANIRBHARTA - NITI Aayog",
+          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQWWtDaFZacXBWdDJQQUZDTFNoQXpYR2RyUXQxRGRFbEFMei1HZmh3N2Q2Z25IZVlfbmUybUlkYTRXWFQzaHkyZUEyeHZYLWVma29QeHBkS2JwbGVZSDFWSlpMTzZTczhyU0JhWXdtTGJfZzVRU0tJYVlIUjloeVhBbUVfUkJXUEJsOVhsY2VDMTVJUFpVYVNrc3pWZ0RGcjBDSHNUUEJERzQzaThQV2lxQkRIXzh4ZEpDUENTUjNOVHNadkpkMDViRmpWN0VFMUprckhNZmJTOGhZWTRESnZZTTNrdERzS3ZhZFJiOEpvVjNFcF9aZ3pFazBjRTFUTFRJREgwVQ?oc=5",
+          "published_at": "2024-08-28T10:22:24+00:00",
+          "snippet": "PATHWAYS & STRATEGY FOR ACCELERATING GROWTH IN EDIBLE OIL TOWARDS GOAL OF ATMANIRBHARTA NITI Aayog",
+          "lexical_overlap": 0.095,
+          "relevance": 0.215,
           "matched_terms": [
-            "atmanirbhar",
             "edible",
-            "oil",
-            "pulses"
+            "oil"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "atmanirbhar",
-            "edible",
-            "pulses"
+            "edible"
           ]
         },
         {
@@ -10491,27 +10493,24 @@
           ]
         },
         {
-          "id": "22adf84e7519601def",
+          "id": "3e92450463d2d11c54",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "thepublicworld.com",
-          "source_url": "https://thepublicworld.com",
-          "title": "Government Highlights Progress Under Edible Oils and Pulses Missions; Production Rises, Imports Decline - thepublicworld.com",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5IdEFxd0V0dDRRLVVYMUl0SUFOTmxaZmk4OXp3WjZzR1hheHJDT0hnQmNmMFJBSk1TZlpTWXBSZUU4eEI3WTlJZzJmcjFSVVJuUFA2Zg?oc=5",
-          "published_at": "2026-09-28T22:28:50+00:00",
-          "snippet": "Government Highlights Progress Under Edible Oils and Pulses Missions; Production Rises, Imports Decline thepublicworld.com",
-          "lexical_overlap": 0.143,
-          "relevance": 0.248,
+          "source": "orfonline.org",
+          "source_url": "https://www.orfonline.org",
+          "title": "Strengthening India’s Position in a Globalised Edible Oil Market - orfonline.org",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUVVhVEpjenRVb20yVHItU3JiWDlkWlpCRzRGVUVpQzR4R3lWd1F3QlhsZXprTTdwdnJvMmtBWnNUVW9iQUhvSVNYam8xR3k5V1dUOU54UFdCaUJmdnJoakZfNGxNR1lqWmxoUmxVaU9tZGZKWXRxUjhveDAxWGFkekJJTXhhbi1NZG9vX1U2MDJETW1POEIwRjQtaWd6bEZ1?oc=5",
+          "published_at": "2026-04-26T07:00:00+00:00",
+          "snippet": "Strengthening India’s Position in a Globalised Edible Oil Market orfonline.org",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
           "matched_terms": [
             "edible",
-            "production",
-            "pulses"
+            "oil"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "edible",
-            "production",
-            "pulses"
+            "edible"
           ]
         }
       ],
@@ -12576,7 +12575,7 @@
     },
     {
       "id": "b1f0ab863b0a45a744",
-      "checked_at": "2026-10-12T05:54:50.258534+00:00",
+      "checked_at": "2026-10-15T17:00:19.718806+00:00",
       "promise_id": "BJP-2024-fd23e066dd0441aa25",
       "year": 2024,
       "category": "infrastructure",
@@ -12645,6 +12644,28 @@
           ]
         },
         {
+          "id": "ef600219e4dac94e9c",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Organiser",
+          "source_url": "https://organiser.org",
+          "title": "Five years of e-Shram: 31.89 crore unorganised workers join India’s digital social security net - Organiser",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOdlhpdUVsazZtT2p1NUxrbm1sa3NienFoT1dLNXlGNUhpSnN1ZDJCT3VxSV9EaWRJYi0zWTNqeTZ3SkQyVHpFVkE0TDI1VHRJeEQtSWdvOUxjTTZUVzVGb3lJSV9JSkc5Nl9DLUE3c2g3c01jRENwQzF4ZklDS1lhOENzalg2UWdhc0xLeDB2dGRmSzVRWUdQekh6VXdCSE1sUzgxTDd5eU1MWUJYNlN1Z1ZSQ1RlVUhEa25VQ1Y4SEIteFRJdVdjcnhiTlQ2aDBTd1hRMVJUNHXSAd4BQVVfeXFMUEllY0NFNzVpaEJseWlFLW81c1E5VXBoMG4wRmlmNWE1V0NTMGVlN0tDemlPR1pzMTRqdklONlNBaHRSclBzdDhuU3M4YWE4R0w2NXRpTjhyLXJ0NjRQazJUV2RlOU1IcUttcE5pMmN5Y1JnUXN6dTg5dlA2b2lHMEJjQ001YlV5SmEzcHBfSm1BRUZLVHBwcFNYRjB0dXhyNFVTN182NE9MWW5CR1pZLTBqREJqcVlMS011SFFRUGRPZzF1QkJUaE5HQkwtRXRXeGlwWXc0MGhpeFJsdVhR?oc=5",
+          "published_at": "2026-08-29T07:00:00+00:00",
+          "snippet": "Five years of e-Shram: 31.89 crore unorganised workers join India’s digital social security net Organiser",
+          "lexical_overlap": 0.095,
+          "relevance": 0.165,
+          "matched_terms": [
+            "e-shram",
+            "workers"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "e-shram",
+            "workers"
+          ]
+        },
+        {
           "id": "016307201a35d8804b",
           "scope": "news_search",
           "tier": "secondary",
@@ -12667,46 +12688,24 @@
           ]
         },
         {
-          "id": "7f132420cfb446a7a8",
+          "id": "20b499cdc4dde65a4b",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Organiser Weekly",
-          "source_url": "https://organiser.org",
-          "title": "Five years of e-Shram: 31.89 crore unorganised workers join India’s digital social security net - Organiser Weekly",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOdlhpdUVsazZtT2p1NUxrbm1sa3NienFoT1dLNXlGNUhpSnN1ZDJCT3VxSV9EaWRJYi0zWTNqeTZ3SkQyVHpFVkE0TDI1VHRJeEQtSWdvOUxjTTZUVzVGb3lJSV9JSkc5Nl9DLUE3c2g3c01jRENwQzF4ZklDS1lhOENzalg2UWdhc0xLeDB2dGRmSzVRWUdQekh6VXdCSE1sUzgxTDd5eU1MWUJYNlN1Z1ZSQ1RlVUhEa25VQ1Y4SEIteFRJdVdjcnhiTlQ2aDBTd1hRMVJUNHXSAd4BQVVfeXFMUEllY0NFNzVpaEJseWlFLW81c1E5VXBoMG4wRmlmNWE1V0NTMGVlN0tDemlPR1pzMTRqdklONlNBaHRSclBzdDhuU3M4YWE4R0w2NXRpTjhyLXJ0NjRQazJUV2RlOU1IcUttcE5pMmN5Y1JnUXN6dTg5dlA2b2lHMEJjQ001YlV5SmEzcHBfSm1BRUZLVHBwcFNYRjB0dXhyNFVTN182NE9MWW5CR1pZLTBqREJqcVlMS011SFFRUGRPZzF1QkJUaE5HQkwtRXRXeGlwWXc0MGhpeFJsdVhR?oc=5",
-          "published_at": "2026-08-29T07:00:00+00:00",
-          "snippet": "Five years of e-Shram: 31.89 crore unorganised workers join India’s digital social security net Organiser Weekly",
-          "lexical_overlap": 0.091,
-          "relevance": 0.161,
+          "source": "IMPRI Impact and Policy Research Institute",
+          "source_url": "https://www.impriindia.com",
+          "title": "Kerala Migrant Worker Welfare Model – Awaaz and Apna Ghar: Kerala’s Welfare Architecture for Migrant Workers - IMPRI Impact and Policy Research Institute",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQV19aWEdFT1V5THdNSWVBMkNtQ3VlWVIwenRuMFlFQjVzanlyYlcyUUZkNU4xVVQ1eDBFSmc4aEpOTGtjNGJCVTRmcDBrZ0pYVVJWbXA5UG9Xbkp6N1VROXZLTDRLQ25OeTBGUnJyQWRMWlk5clVzQ3JJeTRWWkdHZVBpVGhGYnBaNTVMUkxCTWMzUQ?oc=5",
+          "published_at": "2026-10-04T04:46:01+00:00",
+          "snippet": "Kerala Migrant Worker Welfare Model – Awaaz and Apna Ghar: Kerala’s Welfare Architecture for Migrant Workers IMPRI Impact and Policy Research Institute",
+          "lexical_overlap": 0.08,
+          "relevance": 0.15,
           "matched_terms": [
-            "e-shram",
+            "migrant",
             "workers"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "e-shram",
-            "workers"
-          ]
-        },
-        {
-          "id": "c2a79e8a3450baac7d",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Article 14",
-          "source_url": "https://article-14.com",
-          "title": "Why Informal Workers Aren’t Using Or Don’t Know Of Modi Govt Plan To Deliver Welfare Benefits To 380 Million - Article 14",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQN2xWcEpBUjNoTDJ3S0k3d1I2RWRudzVJelFtdEM0WkxDWElISTNfYmF3a0R3X2Zwc1hteWxhRU5ncjUzbzdZdm5MWFMxSWprN3pRTXQ3bHRlcExRU1VIelc4T2E4cGNWYl9PRm5Kb3E2TTJXREQ3MUhJSzE4UWZyTFJPcnBhOFhYVi1PUl9fZE9hQ3kwSDNZZ2tjamx3MDhhRlJyV1BHUXJEZ0R6dU9SXy02R3kzSmNfT05MZEF2OVp2bnQySTlKWlZNSTFhR2xld1hFWE5DMUk3aWlXLVhzbkhWMW8?oc=5",
-          "published_at": "2024-09-18T07:00:00+00:00",
-          "snippet": "Why Informal Workers Aren’t Using Or Don’t Know Of Modi Govt Plan To Deliver Welfare Benefits To 380 Million Article 14",
-          "lexical_overlap": 0.083,
-          "relevance": 0.153,
-          "matched_terms": [
-            "benefits",
-            "workers"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "benefits",
+            "migrant",
             "workers"
           ]
         }
@@ -15623,7 +15622,7 @@
     },
     {
       "id": "c19836344dc71ca6a0",
-      "checked_at": "2026-10-13T23:18:24.962066+00:00",
+      "checked_at": "2026-10-15T17:00:26.752747+00:00",
       "promise_id": "BJP-2024-fee94768c5bae25328",
       "year": 2024,
       "category": "health_welfare",
@@ -15657,6 +15656,31 @@
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMWY0S0pfSnFzaWh6TFFkUjJ5c0lGelVqZXZjX0RtcWp1UC1wM0Q0UWdUNUdZWFM1MmotQVpLNktid3ZMaC1NN0RYVG8tRl8tdVg5bTNndVYxc0dYM2lTODlqTEJISkxia3hWcGwxd0NOcjFwMTZSb1d4YzA3NU1nMFVGVkN3dGpEMVNBNGp1VTBRQjRnUEE?oc=5",
           "published_at": "2024-08-07T23:10:15+00:00",
           "snippet": "Pradhan Mantri Awas Yojana - Urban UMANG",
+          "lexical_overlap": 0.2,
+          "relevance": 0.355,
+          "matched_terms": [
+            "awas",
+            "pradhan",
+            "yojana"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "awas",
+            "mantri",
+            "pradhan",
+            "yojana"
+          ]
+        },
+        {
+          "id": "f91d41d541826c9834",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "PMAY-HFA(Urban)",
+          "source_url": "https://pmaymis.gov.in",
+          "title": "Pradhan Mantri Awas Yojana (Urban) - PMAY-HFA(Urban)",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNmdwR00tZ0hIQ2hyNktyMVpSeWtSUDg4bFRwa01YaGhwOXpHSmN1ZVhvZjFEUndxaUt5X3JncXRjcWVzSlZwZVY1MFdiSnhTWUdqVTFOeURaTGFRR0ZTWjI0QU5wTC1NZzFqc0ZLODdJeHJCS1ZxMnJrck9QZGJnT2tuOA?oc=5",
+          "published_at": "2025-02-08T23:42:23+00:00",
+          "snippet": "Pradhan Mantri Awas Yojana (Urban) PMAY-HFA(Urban)",
           "lexical_overlap": 0.2,
           "relevance": 0.355,
           "matched_terms": [
@@ -15895,7 +15919,7 @@
     },
     {
       "id": "d3fe9a59b4a1f8d7ff",
-      "checked_at": "2026-10-12T05:54:44.660489+00:00",
+      "checked_at": "2026-10-15T17:00:13.764679+00:00",
       "promise_id": "BJP-2024-f6fc96b757eb60656e",
       "year": 2024,
       "category": "other",
@@ -15920,17 +15944,17 @@
       "query": "global south leading further consolidate position",
       "evidence": [
         {
-          "id": "8ec7e4ce03f05e4150",
+          "id": "ae650ab74c65872152",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "PIB",
+          "source": "www.pib.gov.in",
           "source_url": "https://www.pib.gov.in",
-          "title": "Rio de Janeiro Declaration- Strengthening Global South Cooperation for a More Inclusive and Sustainable Governance - PIB",
+          "title": "Rio de Janeiro Declaration- Strengthening Global South Cooperation for a More Inclusive and Sustainable Governance - www.pib.gov.in",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5UaFd4aWJHcXlETmVTQUVNaHNPUlh0bXpvS3RIYjgxUDBCUmtuSnpoZVp6N0RCVkJhSWl3NDVncGw3ajB5SloxbEJBR0JaaG9MeUlKSW9wRGgtcmFqWU44c0swMGgydFl6?oc=5",
           "published_at": "2025-07-07T07:00:00+00:00",
-          "snippet": "Rio de Janeiro Declaration- Strengthening Global South Cooperation for a More Inclusive and Sustainable Governance PIB",
-          "lexical_overlap": 0.091,
-          "relevance": 0.211,
+          "snippet": "Rio de Janeiro Declaration- Strengthening Global South Cooperation for a More Inclusive and Sustainable Governance www.pib.gov.in",
+          "lexical_overlap": 0.083,
+          "relevance": 0.203,
           "matched_terms": [
             "global",
             "south"
@@ -15942,17 +15966,39 @@
           ]
         },
         {
-          "id": "163f457e020883e716",
+          "id": "7778ae13af96ca22d3",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Taipei Times",
-          "source_url": "https://www.taipeitimes.com",
-          "title": "Is China really a champion of the global south? - Taipei Times",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE91NUktbWZhUHplSWhkLXVENDdFUXhwaG5UY0dZNGJhckVRSl9jaTJ6NjFORVpqdGNaMnNGdHZ6NDFGMWpCRF9ua1gyWm14QUFDYm4tVjBWQk02b0t2Y0U5Sld1VkdnYzBNd045UnZsTzd6UGQwNFZDVVJXcUZ0ZG8?oc=5",
-          "published_at": "2026-09-04T07:00:00+00:00",
-          "snippet": "Is China really a champion of the global south? Taipei Times",
+          "source": "Mail & Guardian",
+          "source_url": "https://mg.co.za",
+          "title": "Is China really a champion of the Global South? - Mail & Guardian",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQc1FhTGp5TXhfcFV1V2VUbllMUmFubEFwRUlRZWNnM3g4Y3luNzVMcjlDNnpCcGhNY2Vfc3dBaHhqc1c2SGhUbXlrcmpoNkRiczR5NmdsNTdVNWRWTk9FVUFpT3U5QmVWbWxmTGlUSkNxZkJPN196UUhJa1JZVTkweTBZSmg5RmtIODJqcTJ4cUprVW5q?oc=5",
+          "published_at": "2026-08-30T07:00:00+00:00",
+          "snippet": "Is China really a champion of the Global South? Mail & Guardian",
           "lexical_overlap": 0.118,
           "relevance": 0.188,
+          "matched_terms": [
+            "global",
+            "south"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "global",
+            "south"
+          ]
+        },
+        {
+          "id": "03149b65352bd2ba80",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "South China Morning Post",
+          "source_url": "https://www.scmp.com",
+          "title": "Editorial | Hong Kong is building a two-way global education highway - South China Morning Post",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSTFEMTQtUFhwbURHNjZIdS1aRmg4ZFgwMS1JZGZrTnBxV1ZQcjZlZHozR3EwcGI4QWltV2RqaEFoOXotZG9CRTRFSHZ6c0VIWktXamVlZTlFSTJzRE1fVHdPLWMyTzR6MV9qdk05dW5tcUtpbFRkdGdjSjRySmFTbUh3aDZpcjdTNTBJaG9QWWlKanVfbWVYX1BHYm51Z05uMGZCdGI0SdIBpwFBVV95cUxQXzlFMHBSLXZydnpIbUJFVjZCRHV6MW8taHk0ZTBDOTYtamFWUV8yRVJTZVc5Y0k4N1duRm1wNXB3b1VqTnpJbV8xb1NkcDZEU0lsNEtrcEE2UDg0RFRsV1RzRmxxSGQyQ3hKS3BfWVRSNnlwMEROUVVGSjZGWDlwb2NGUGtUekVKcnBwdFFfNnB6TmhjZTMwd3BTMHIyM3lxRERoM0NiSQ?oc=5",
+          "published_at": "2026-09-11T07:00:00+00:00",
+          "snippet": "Editorial | Hong Kong is building a two-way global education highway South China Morning Post",
+          "lexical_overlap": 0.091,
+          "relevance": 0.161,
           "matched_terms": [
             "global",
             "south"
@@ -15979,7 +16025,7 @@
     },
     {
       "id": "bce2fd9b0dcbe868f7",
-      "checked_at": "2026-10-12T05:54:46.267704+00:00",
+      "checked_at": "2026-10-15T17:00:15.619974+00:00",
       "promise_id": "BJP-2024-faaa24f429880cad16",
       "year": 2024,
       "category": "security_defence",
@@ -16052,6 +16098,29 @@
           "promise_core_overlap": [
             "council",
             "global",
+            "security"
+          ]
+        },
+        {
+          "id": "2cab64ce84a7c49ae3",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Diplomacy and Law",
+          "source_url": "https://www.diplomacyandlaw.com",
+          "title": "UN Security Council Reform: Veto Power - Diplomacy and Law",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBEQjd6QXlscFByQVA3bHRaMHVKWFE4Q2NmX01FdmZPVEx4YlRUUHhMY3dxM3dnd0NoclBlQUJseW1RaURYaFhEWENRU1RRb0FFQXhWWjNfeXF6SzRZSzZQdUlpUlBrWTBsUnpsQlNzMWFjNVZBNjFjWlZQWWI0NVE?oc=5",
+          "published_at": "2026-02-13T08:00:00+00:00",
+          "snippet": "UN Security Council Reform: Veto Power Diplomacy and Law",
+          "lexical_overlap": 0.176,
+          "relevance": 0.281,
+          "matched_terms": [
+            "council",
+            "security",
+            "un"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "council",
             "security"
           ]
         },
@@ -18774,7 +18843,7 @@
     },
     {
       "id": "25d5fd8907bc66d49f",
-      "checked_at": "2026-10-12T05:54:43.048356+00:00",
+      "checked_at": "2026-10-15T17:00:11.895808+00:00",
       "promise_id": "BJP-2024-f42cc804093aaa0dc9",
       "year": 2024,
       "category": "technology_digital",
@@ -18823,14 +18892,14 @@
           ]
         },
         {
-          "id": "b130ddfc4eb6d59ea0",
+          "id": "a73b0f6e4112907a6c",
           "scope": "news_search",
           "tier": "secondary",
           "source": "Capgemini",
           "source_url": "https://www.capgemini.com",
           "title": "Open source: Key to reclaiming public sector digital sovereignty - Capgemini",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQOUVNX1A0blhvYlVfWlJ0cVE0VkFOWDV1TlNCbE91RGg5Q0J4anZja3lWZnNZRnVrSW5zN2lKYVdJTmUxdV9fWHIzdWQ5cHBERENIbmRFOEMxbTBOVGdQZS14UGlJUVZIVzBUeVF6eTZBUExvd19XVDgzc3BBYWs1amZUNjBILTdiYmlCdmZOdE5aUGZBWUt5Tw?oc=5",
-          "published_at": "2026-09-21T12:41:25+00:00",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVk9UNXVaNDM3eklaZ1hmdnBoaWxYU1dEd05CQXpvNXdwVXhzNWZDN3dBUXNQampTQVV2V01zZVJIMjNaRGlrOFMwV2RKbjlFTnNvd1h0SHZxLWVndFdyMEZTVzF6Zk1WMDluVDlCUV9aTmlFYjdnQmxjcU1la2RpV0w3dHpwMVZKcmppNk1nQzY?oc=5",
+          "published_at": "2026-06-26T03:33:58+00:00",
           "snippet": "Open source: Key to reclaiming public sector digital sovereignty Capgemini",
           "lexical_overlap": 0.105,
           "relevance": 0.175,
@@ -21918,7 +21987,7 @@
     },
     {
       "id": "447f92ab799a937809",
-      "checked_at": "2026-10-12T05:54:53.300785+00:00",
+      "checked_at": "2026-10-15T17:00:23.273642+00:00",
       "promise_id": "BJP-2024-fea947ffa9a240e4cc",
       "year": 2024,
       "category": "jobs_economy",
@@ -28591,7 +28660,7 @@
     },
     {
       "id": "9359de497a278d07cf",
-      "checked_at": "2026-10-12T05:54:54.852717+00:00",
+      "checked_at": "2026-10-15T17:00:25.250093+00:00",
       "promise_id": "BJP-2024-feb5a281e6f5784a93",
       "year": 2024,
       "category": "other",
@@ -30239,7 +30308,7 @@
     },
     {
       "id": "cfa4605dd19e29f911",
-      "checked_at": "2026-10-05T06:17:21.976598+00:00",
+      "checked_at": "2026-10-15T17:00:09.970970+00:00",
       "promise_id": "BJP-2024-f3a44ee99f82f53155",
       "year": 2024,
       "category": "governance",
@@ -32994,7 +33063,7 @@
     },
     {
       "id": "2da7b3af533cb20095",
-      "checked_at": "2026-10-12T05:54:49.261123+00:00",
+      "checked_at": "2026-10-15T17:00:18.470901+00:00",
       "promise_id": "BJP-2024-fc5dbce36cdd850502",
       "year": 2024,
       "category": "education_skills",
@@ -33018,6 +33087,32 @@
       "related_promises": [],
       "query": "education swayam using technology access quality",
       "evidence": [
+        {
+          "id": "5df173fcc2214cf0f6",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Various initiatives have been taken to promote digital learning under ‘National Mission on Education through Information and Communication Technology’ (NMEICT) - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE92c2c4ZXp1SDdVZUlaazJsWThJVWphaVdZZGZHRXFFSmY0d1pUaV9hNFpjOTZkOFpVQW03cDkzQ25QcGFicVR1ckNtc013Y0NvUlVaRjQzd3hxUmx1QXY0NHVXNW9pOUp3Mnc?oc=5",
+          "published_at": "2019-07-04T07:00:00+00:00",
+          "snippet": "Various initiatives have been taken to promote digital learning under ‘National Mission on Education through Information and Communication Technology’ (NMEICT) PIB",
+          "lexical_overlap": 0.174,
+          "relevance": 0.364,
+          "matched_terms": [
+            "education",
+            "learning",
+            "promote",
+            "technology"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "education",
+            "initiatives",
+            "learning",
+            "technology"
+          ]
+        },
         {
           "id": "f5884d015dda7d8217",
           "scope": "preferred_official_search",
@@ -34291,7 +34386,7 @@
     },
     {
       "id": "7f4b7c11a76c0f6d7e",
-      "checked_at": "2026-10-12T05:54:51.748299+00:00",
+      "checked_at": "2026-10-15T17:00:21.083623+00:00",
       "promise_id": "BJP-2024-fe272834cb68580e41",
       "year": 2024,
       "category": "other",
@@ -34316,17 +34411,17 @@
       "query": "sustainable development hill states protect preserve",
       "evidence": [
         {
-          "id": "8f4dc3070fdaa9d13f",
+          "id": "d233a3e3023b097f69",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Aravalli Hills: Protecting Ecology and Ensuring Sustainable Development - PIB",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRzJMM0tqUkVTMHJVdzM2T2VzZ1h6SHQ4bGNET3kzMWJkV0lOZ0tDYXRZb2VsU3hHeEhLcng2RENUWENWMS0xZjFWZHFvb25VdGtuclA5RkE3eE15MklJWlJJU2pqSGs4akdFelZ4Z3pIZHFRSXpGRnJpRVlCbW53U0JFbmROOTE0VkZXSTg2ZzhHbzctWEdNVQ?oc=5",
-          "published_at": "2025-12-21T08:00:00+00:00",
-          "snippet": "Aravalli Hills: Protecting Ecology and Ensuring Sustainable Development PIB",
-          "lexical_overlap": 0.118,
-          "relevance": 0.238,
+          "source": "Ministry of Statistics and Program Implementation",
+          "source_url": "https://www.mospi.gov.in",
+          "title": "Sustainable Development Goals - Ministry of Statistics and Program Implementation",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQXRtdFlEWGstNG4xb0Z5bUZiZlJOMno1Y0UzUWh0Z2VjRGlobEZFeTdzRFN6cXlCZm1TMk5maDA3YWwzSHRlbEg0RWNHLU11bXA3MTV2MEJkbDhzWW9tWml1SUcwcGpFZEtOYS1hQnBTZ0JsU185VEhxbm16c0xRLVBmV3JMazVYanY1dUJMWkQzRXA3M3RqZUpZTmxHckdSZUJlQWtqbw?oc=5",
+          "published_at": "2024-06-29T07:00:00+00:00",
+          "snippet": "Sustainable Development Goals Ministry of Statistics and Program Implementation",
+          "lexical_overlap": 0.125,
+          "relevance": 0.245,
           "matched_terms": [
             "development",
             "sustainable"
@@ -34335,6 +34430,52 @@
           "promise_core_overlap": [
             "development",
             "sustainable"
+          ]
+        },
+        {
+          "id": "560ef0e0260cea748e",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "static.pib.gov.in",
+          "source_url": "https://static.pib.gov.in",
+          "title": "Aravalli Hills: Protecting Ecology and Ensuring Sustainable Development - static.pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQb1AtcUVHbXBWVVc0QzU1SVI5NjR1Q2ppNElPSXhGbExUSHlzanpFTHU4MEVCcGFucFAtSXlIdjdOVm9iclZDVW1lMmtsQ3BpdzRJX1pNbHpIYjRsVTRKNTNUMzlidzA3SXhaVmIwM05YeWhicl85Y0p3amRYOWtkT1FrUEFraVEyLTBrODFqWEZwUURNZWFQRg?oc=5",
+          "published_at": "2025-12-21T08:00:00+00:00",
+          "snippet": "Aravalli Hills: Protecting Ecology and Ensuring Sustainable Development static.pib.gov.in",
+          "lexical_overlap": 0.105,
+          "relevance": 0.225,
+          "matched_terms": [
+            "development",
+            "sustainable"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "development",
+            "sustainable"
+          ]
+        },
+        {
+          "id": "d5afb966dcbf3d4bd9",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "NewsGram",
+          "source_url": "https://www.newsgram.com",
+          "title": "Ahead of meeting PM Modi, Himachal CM bats for development model for hill states - NewsGram",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYUxjUUpQRWlwRkRfWURxbFF4bGNCMjJUS1o0em1tZVpQTUh1cHpIUHd5Z2hMQUd3SnByQW9kU1otZjJ6TGtmVEFkcUlwUXJwU1R4RlBDZ3hrVUhMRy1VWFhENi1kZmo4aGZPQUZMZmMxZzJRejFEZkpzRW5RVEdyVXFYcGZWQkRBcElyVEROWUFXaG01TE5iejFkOVVZZjhZNVFSTklMdFdEVUnSAbgBQVVfeXFMUG1lOXVXOHoza3FNTFZXZ1E5SEtvMkNpUmRER0N5NlQ4aHd2RkI5WkREUlVkSlpDLXY3MW1jNDhMMm9FTXZuS3l5Yk9RSmIyOV9oSmxDR2F3TXZXY0kyWW1IdDE2aHBMR3BVRTBOWXJjXy1BOWQ2cUxpMFdoRk1DLTZUWkpEek5UT0dwc1g5UDRYaXlQU2Y1SHJVS3Y3TC1BbGxaRndfeS1TcW1wUnB6cFJlRkxjWFM4ZQ?oc=5",
+          "published_at": "2025-09-09T07:00:00+00:00",
+          "snippet": "Ahead of meeting PM Modi, Himachal CM bats for development model for hill states NewsGram",
+          "lexical_overlap": 0.158,
+          "relevance": 0.263,
+          "matched_terms": [
+            "development",
+            "hill",
+            "states"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "development",
+            "hill",
+            "states"
           ]
         },
         {
@@ -38777,7 +38918,7 @@
     },
     {
       "id": "6aea403d082d672d8f",
-      "checked_at": "2026-10-13T23:18:32.245981+00:00",
+      "checked_at": "2026-10-15T17:00:36.019731+00:00",
       "promise_id": "BJP-2019-0f8b9a70b8e17fc406",
       "year": 2019,
       "category": "governance",
@@ -38912,17 +39053,17 @@
           ]
         },
         {
-          "id": "40eed0d9de5f301ad9",
+          "id": "38df1da674cfcbbaa2",
           "scope": "news_search",
           "tier": "secondary",
           "source": "The Guardian Nigeria News",
           "source_url": "https://guardian.ng",
-          "title": "NCYP applauds Tinubu, lawmakers over amendment of bill seeking State Police - The Guardian Nigeria News",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTWhpZG5aQ25Rbk4xMnMzM3lJblZGRUdWal80UUJuMVZfX29Bek9oejh1NnVSenRuV0pjekRqNmdoYlE2eWlqdENPSWVobmtpU3B5eWo4aWpHMmNOS2MtNkRvaEtBVTRMdmtwX3B2ZVZ1NUR0WVFyZlM5Rmp1dWVQMXFibVFRZ3hjSDNUZV85TWF1cUVqMU9tX1JabmY2QXE0d0E?oc=5",
-          "published_at": "2026-06-26T07:00:00+00:00",
-          "snippet": "NCYP applauds Tinubu, lawmakers over amendment of bill seeking State Police The Guardian Nigeria News",
-          "lexical_overlap": 0.091,
-          "relevance": 0.161,
+          "title": "Reps member hails passage of State Police Bill, urges Senate’s swift concurrence - The Guardian Nigeria News",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQmxyTUY0cGU0ak5qTG9Dbkcxc3BpN0lLS2d2dWFlWFBxSFd2azdnVEVUSXp2RVF0SnRXMDVQSXJCUUo1T05PSmxMR0hKR2RYOFpGVG53MVVuaUlreGI2dktLcy1JZDBrbEowbGZMTTNacGtlMU1rdGRPSkw2TnA1WEhMMEFhQUtfSk1kemdpdzJEYTd4Z0lBU3BtSGlpM2FEQmpnT0pHcw?oc=5",
+          "published_at": "2026-06-11T07:00:00+00:00",
+          "snippet": "Reps member hails passage of State Police Bill, urges Senate’s swift concurrence The Guardian Nigeria News",
+          "lexical_overlap": 0.083,
+          "relevance": 0.153,
           "matched_terms": [
             "police",
             "state"
@@ -41127,8 +41268,8 @@
       }
     },
     {
-      "id": "05e0979e7f32ba2f72",
-      "checked_at": "2026-10-15T12:10:43.537359+00:00",
+      "id": "0764c49dce738dbbee",
+      "checked_at": "2026-10-15T16:59:39.807666+00:00",
       "promise_id": "BJP-2019-18c0750d5ed71bc3d1",
       "year": 2019,
       "category": "agriculture",
@@ -41154,7 +41295,7 @@
       "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
-      "query": "10000 2022 enable creation farmer producer organisations fpos",
+      "query": "2022 10000 enable creation farmer producer organisations fpos",
       "evidence": [
         {
           "id": "8cd391cfb62be9602f",
@@ -41322,6 +41463,29 @@
             "farmer",
             "organisations",
             "producer"
+          ]
+        },
+        {
+          "id": "1af39614098ce2c5d1",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "YourStory.com",
+          "source_url": "https://yourstory.com",
+          "title": "Flipkart signs MoU with SERP to enable market access, growth for FPOs, SHGs in Telangana - YourStory.com",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdGxJNXQ4NFR1ZldsQi1veEx3MUEzLW1keWV6d0kySm5zd0pVVVZrUnZiLWhQQlhTWkFfLUJvVVp2aFFNQzBZMGg2a0M2SWxSQUpEZFRsWDJUblpsb21JTDNiTVJ4OE8ycHplcVJyZlV3Z3pmTzhRZUhZN1VqQzVlUDFaNVQ1a21PSld0T093?oc=5",
+          "published_at": "2022-06-25T07:00:00+00:00",
+          "snippet": "Flipkart signs MoU with SERP to enable market access, growth for FPOs, SHGs in Telangana YourStory.com",
+          "lexical_overlap": 0.136,
+          "relevance": 0.241,
+          "matched_terms": [
+            "access",
+            "enable",
+            "fpos"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "access",
+            "fpos"
           ]
         },
         {
@@ -42307,7 +42471,7 @@
     },
     {
       "id": "d3c9bbec44ad465d98",
-      "checked_at": "2026-10-13T23:18:26.113589+00:00",
+      "checked_at": "2026-10-15T17:00:28.287719+00:00",
       "promise_id": "BJP-2019-03d15b3af9df588858",
       "year": 2019,
       "category": "health_welfare",
@@ -42820,7 +42984,7 @@
     },
     {
       "id": "f5811520c1d5623f19",
-      "checked_at": "2026-10-15T12:10:45.249988+00:00",
+      "checked_at": "2026-10-15T16:59:43.014125+00:00",
       "promise_id": "BJP-2019-1d3e95fa9344e842f3",
       "year": 2019,
       "category": "infrastructure",
@@ -42941,7 +43105,7 @@
     },
     {
       "id": "92d6920a15fb42f812",
-      "checked_at": "2026-10-15T12:11:02.762460+00:00",
+      "checked_at": "2026-10-15T17:00:03.438953+00:00",
       "promise_id": "BJP-2019-6abf03adda773fec98",
       "year": 2019,
       "category": "governance",
@@ -42979,6 +43143,28 @@
           "snippet": "Release of Panchayat Advancement Index (PAI) 2022-23 PIB",
           "lexical_overlap": 0.067,
           "relevance": 0.262,
+          "matched_terms": [
+            "panchayat"
+          ],
+          "shared_numbers": [
+            "2022"
+          ],
+          "promise_core_overlap": [
+            "panchayat"
+          ]
+        },
+        {
+          "id": "ec146c5b1ff7a5532d",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Evidence-Based Rural Development Gets a Push with Rollout of First-Ever Panchayat Advancement Index (PAI) Baseline Report for FY 2022-23 - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9aSkhNaGFxcWdiYmFZdzZyUHhVNXh5bXZlU0hSdWlsUW9qRXFIMXZ2N1h1MmtTRWFaOFA3T2k0ckszYWhhbHhsTDVQdWMzSzB4YVJxSGV1NEZVbE55aWJpTGxnYUJIWVZM?oc=5",
+          "published_at": "2025-04-09T07:00:00+00:00",
+          "snippet": "Evidence-Based Rural Development Gets a Push with Rollout of First-Ever Panchayat Advancement Index (PAI) Baseline Report for FY 2022-23 PIB",
+          "lexical_overlap": 0.042,
+          "relevance": 0.237,
           "matched_terms": [
             "panchayat"
           ],
@@ -43213,7 +43399,7 @@
     },
     {
       "id": "7f51ae159cad191abb",
-      "checked_at": "2026-10-13T23:18:34.368735+00:00",
+      "checked_at": "2026-10-15T17:00:39.122135+00:00",
       "promise_id": "BJP-2019-13a4a86da64f48071c",
       "year": 2019,
       "category": "governance",
@@ -45696,7 +45882,7 @@
     },
     {
       "id": "490d5ce988a8d6cc5f",
-      "checked_at": "2026-10-13T23:18:28.273001+00:00",
+      "checked_at": "2026-10-15T17:00:30.862766+00:00",
       "promise_id": "BJP-2019-06efa7edd4c8569780",
       "year": 2019,
       "category": "infrastructure",
@@ -46102,7 +46288,7 @@
     },
     {
       "id": "1e0abc9f94016f3c7a",
-      "checked_at": "2026-10-15T12:10:46.551335+00:00",
+      "checked_at": "2026-10-15T16:59:44.508474+00:00",
       "promise_id": "BJP-2019-2af396deaf778cac73",
       "year": 2019,
       "category": "infrastructure",
@@ -46187,7 +46373,7 @@
     },
     {
       "id": "4af70c5cc4e5dd31ea",
-      "checked_at": "2026-10-15T12:10:52.877955+00:00",
+      "checked_at": "2026-10-15T16:59:51.844537+00:00",
       "promise_id": "BJP-2019-34c03859f07f1329c5",
       "year": 2019,
       "category": "infrastructure",
@@ -46247,6 +46433,30 @@
           "snippet": "India’s Dedicated Freight Corridor Program: Progress and Prospects India Briefing",
           "lexical_overlap": 0.273,
           "relevance": 0.378,
+          "matched_terms": [
+            "corridor",
+            "dedicated",
+            "freight"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "corridor",
+            "dedicated",
+            "freight"
+          ]
+        },
+        {
+          "id": "3ca72531dcd6516972",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Urban Acres",
+          "source_url": "https://urbanacres.in",
+          "title": "Dedicated Freight Corridor Network Now Fully Operational - Urban Acres",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNT1RGZ3paMlFlUGpFRmRqekp3ZVNJaE11SFRCVDl3UGl2YXZOY3d3VUpDM3BuWnljRlMwXzhiWThEdDBaNzZpY3ZCaGQ1VzlYVzMyOWxfTm91em5fdFhkRGxjOGhZbmFMYnJBVWJ3ZlZkSXNDMHNkd2RGai1ZMThUczRzdnZNRTZ3UlJXT21Ka0hoOERjdVE?oc=5",
+          "published_at": "2026-09-08T07:00:00+00:00",
+          "snippet": "Dedicated Freight Corridor Network Now Fully Operational Urban Acres",
+          "lexical_overlap": 0.231,
+          "relevance": 0.336,
           "matched_terms": [
             "corridor",
             "dedicated",
@@ -48309,7 +48519,7 @@
     },
     {
       "id": "93bb9754ab7125c8f1",
-      "checked_at": "2026-10-15T12:10:57.689469+00:00",
+      "checked_at": "2026-10-15T16:59:57.312283+00:00",
       "promise_id": "BJP-2019-6013bbae5c9fbd8c5a",
       "year": 2019,
       "category": "women_social_justice",
@@ -48375,7 +48585,7 @@
     },
     {
       "id": "1d1782ad81aa54afcd",
-      "checked_at": "2026-10-15T12:10:59.888862+00:00",
+      "checked_at": "2026-10-15T17:00:00.130710+00:00",
       "promise_id": "BJP-2019-63e2ccda189fa85e2c",
       "year": 2019,
       "category": "health_welfare",
@@ -49158,7 +49368,7 @@
     },
     {
       "id": "a7b759d3e47ce2ff0c",
-      "checked_at": "2026-10-13T23:18:29.389395+00:00",
+      "checked_at": "2026-10-15T17:00:32.559581+00:00",
       "promise_id": "BJP-2019-076a0a2858076eff99",
       "year": 2019,
       "category": "other",
@@ -51783,7 +51993,7 @@
     },
     {
       "id": "7bea1c9aa30f89d560",
-      "checked_at": "2026-10-13T23:18:32.964245+00:00",
+      "checked_at": "2026-10-15T17:00:37.053536+00:00",
       "promise_id": "BJP-2019-10122bac2895d9d8e9",
       "year": 2019,
       "category": "education_skills",
@@ -53307,7 +53517,7 @@
     },
     {
       "id": "21c782a6ad2ecb8987",
-      "checked_at": "2026-10-15T12:10:49.658863+00:00",
+      "checked_at": "2026-10-15T16:59:48.308106+00:00",
       "promise_id": "BJP-2019-2cfa1375f165d41707",
       "year": 2019,
       "category": "other",
@@ -54692,7 +54902,7 @@
     },
     {
       "id": "09db92a7679f9e887b",
-      "checked_at": "2026-10-15T12:10:54.787956+00:00",
+      "checked_at": "2026-10-15T16:59:54.072903+00:00",
       "promise_id": "BJP-2019-4fc8289de8caed52ff",
       "year": 2019,
       "category": "other",
@@ -56565,7 +56775,7 @@
     },
     {
       "id": "2334f2cef4088efec2",
-      "checked_at": "2026-10-13T23:18:27.537035+00:00",
+      "checked_at": "2026-10-15T17:00:30.083661+00:00",
       "promise_id": "BJP-2019-06001e293d9fd7c2c8",
       "year": 2019,
       "category": "jobs_economy",
@@ -56604,7 +56814,7 @@
     },
     {
       "id": "0329bd7f4d8a1ffb47",
-      "checked_at": "2026-10-13T23:18:30.842095+00:00",
+      "checked_at": "2026-10-15T17:00:34.435217+00:00",
       "promise_id": "BJP-2019-07f11700b842d1424b",
       "year": 2019,
       "category": "security_defence",
@@ -56629,25 +56839,25 @@
       "query": "global countries organizations coordination knowledge technology",
       "evidence": [
         {
-          "id": "76dcf7ef1d63a0597e",
+          "id": "cce37116dacdab5247",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "www.wam.ae",
-          "source_url": "https://www.wam.ae",
-          "title": "'Operation Confrontation Ghost' to continue with 30 countries, two international organisations: MOI - www.wam.ae",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVHZaNFNsSEI2Z05oM3hKNjl1emZtWTBYelE4emtCSTZSM1ZiQkMxaURsNmpUNi1Nd055Z095Rld3eTlianVteWQ0R0xYX1lzNW5vR1dNczk1VGZsNW1VbmlUNGV2LTdVb2dTU0RxSXBjQ1FyLXVJdkxPcFJkeFJzRWRBX2Fsb0dM?oc=5",
-          "published_at": "2026-09-29T07:00:00+00:00",
-          "snippet": "'Operation Confrontation Ghost' to continue with 30 countries, two international organisations: MOI www.wam.ae",
-          "lexical_overlap": 0.091,
-          "relevance": 0.161,
+          "source": "Frontiers",
+          "source_url": "https://www.frontiersin.org",
+          "title": "The evolution of the European space technology knowledge network - Frontiers",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOUc5Q0FVVE9sekV1WGlLeDNTWmVNR1Z5NmVnMGEwMnh3SDN6YndIOHJ6UUVjbWljdkZMSzh4aGhQWDJYQlNxdWtnRXQ2TTZQRFRfT1RPaU1UcTFDRjdtcnVjVVpCUVNIcnVZWi04b3NZSFJuNTVYR3VnZ1paMGJsWk9Tck5QRTJaWHN6a3BfYTVLTE1UZXBBdWx3?oc=5",
+          "published_at": "2026-08-13T15:53:13+00:00",
+          "snippet": "The evolution of the European space technology knowledge network Frontiers",
+          "lexical_overlap": 0.118,
+          "relevance": 0.188,
           "matched_terms": [
-            "countries",
-            "international"
+            "knowledge",
+            "technology"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "countries",
-            "international"
+            "knowledge",
+            "technology"
           ]
         }
       ],
@@ -59921,7 +60131,7 @@
     },
     {
       "id": "df076e7dea8ba67624",
-      "checked_at": "2026-10-15T12:11:05.262769+00:00",
+      "checked_at": "2026-10-15T17:00:06.105472+00:00",
       "promise_id": "BJP-2014-078252941779345656",
       "year": 2014,
       "category": "women_social_justice",
