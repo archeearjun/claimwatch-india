@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T23:43:25.360485+00:00",
+  "generated_at": "2026-10-16T04:30:32.352807+00:00",
   "capabilities": {
     "official_evidence_search": true,
     "verified_primary_gate": true,
@@ -16,8 +16,8 @@
     "promise_checked_this_run": 30,
     "promise_total_candidates": 841,
     "promise_coverage_pct": 100.6,
-    "primary_candidates": 488,
-    "secondary_candidates": 1027,
+    "primary_candidates": 491,
+    "secondary_candidates": 1033,
     "prior_fact_checks": 0,
     "publishable_auto_verdicts": 0,
     "claim_verdicts": {
@@ -159,11 +159,30 @@
         "30"
       ],
       "promise_matches": [],
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "cd36b56771c49e93b5",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Ahmedabad Mirror",
+          "source_url": "https://www.ahmedabadmirror.com",
+          "title": "Divyenndu reflects on his journey - Ahmedabad Mirror",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdHRsNzBfaUl5NWVzVzRUaUlFdUFVV0luS1RaRlB6TG1hZDc5MUpjZ0lxSXpaTnBRUnowaHlTcTFTYmozejVFalJPM0k3UDNJTWZFak5HYTVvV1k2MWRUN2ZxUGFObEVBeVpMX1FDbUhKWVd5ZnRmdWlLV0pBdEFLQWthY0FUNWw0ZU0wbUdKSFNSLUJpOGRZeXFWa2JRQ09vVXc?oc=5",
+          "published_at": "2026-05-24T07:00:00+00:00",
+          "snippet": "Divyenndu reflects on his journey Ahmedabad Mirror",
+          "lexical_overlap": 0.182,
+          "relevance": 0.252,
+          "matched_terms": [
+            "his",
+            "journey"
+          ],
+          "shared_numbers": []
+        }
+      ],
       "fact_checks": [],
       "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
+        "level": "reporting_found",
+        "label": "Relevant reporting found; primary evidence still needed",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -246,45 +265,27 @@
           "shared_numbers": []
         },
         {
-          "id": "348b4e23d0a0a0c83b",
+          "id": "a9d09adb552c3f8e15",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "pib.gov.in",
-          "source_url": "https://pib.gov.in",
-          "title": "English rendering of PM’s address at the Bloomberg New Economy Forum in New Delhi - pib.gov.in",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBrTmczVFFJUy1IQXZ3RTAyLUhucXlLSkVOT2FoSWNic3U2STJyUkpfS0xKYWgwMmZZT1pzSHRtNnR2UFpkQjdBUDlybzVubHNvS1N0Ul91QUw0cjdtM05HQmNpUQ?oc=5",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "English rendering of PM’s address at the Bloomberg New Economy Forum in New Delhi - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1uVDJVcGtsb25RNEJGSEVzbVFialhhWDdjM2hXeWVGcDNrR24xVEdqY0loNnFoaF9BUGJiWTlwckg2MHRCUE5ISWx1OFhkdlR1NWFaZnRkRG4tRFppWGtaRVFweG1OSTZq?oc=5",
           "published_at": "2026-10-13T05:38:00+00:00",
-          "snippet": "English rendering of PM’s address at the Bloomberg New Economy Forum in New Delhi pib.gov.in",
-          "lexical_overlap": 0.118,
-          "relevance": 0.238,
+          "snippet": "English rendering of PM’s address at the Bloomberg New Economy Forum in New Delhi Press Information Bureau",
+          "lexical_overlap": 0.111,
+          "relevance": 0.231,
           "matched_terms": [
             "bloomberg",
             "forum"
           ],
           "shared_numbers": [],
           "nli": {
-            "entailment": 0.0031,
-            "neutral": 0.8193,
-            "contradiction": 0.1775
+            "entailment": 0.0036,
+            "neutral": 0.7828,
+            "contradiction": 0.2136
           }
-        },
-        {
-          "id": "d8035a57b64ff91ea1",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "PM India",
-          "source_url": "https://www.pmindia.gov.in",
-          "title": "PM’s address at the Bloomberg New Economy Forum in New Delhi - PM India",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUFlTV0VYb096NTZPUUpaOXFJbDlzbWRhZ2tvZTRTc1JOU0thSnZ0M1pna1NZVU1IQVFPeWwwSE9Xai1GVXlQeUN1WVpZaV9KNHBWTlNpakIzTlBtTXhEdndZaTF5OU5VbGV0SDhnYXJzSHc3eG5WUE5HcmNwOXZiWGdULWI0aWl0U0JYelE3emxCdEVJalEtaWN1SktxSUl2VHpfZVBR?oc=5",
-          "published_at": "2026-10-13T06:33:23+00:00",
-          "snippet": "PM’s address at the Bloomberg New Economy Forum in New Delhi PM India",
-          "lexical_overlap": 0.154,
-          "relevance": 0.224,
-          "matched_terms": [
-            "bloomberg",
-            "forum"
-          ],
-          "shared_numbers": []
         },
         {
           "id": "fa188f4d478777d672",
@@ -341,26 +342,6 @@
       "promise_matches": [],
       "evidence": [
         {
-          "id": "9b5cfa76d1c6e68dea",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Electronic Design",
-          "source_url": "https://www.electronicdesign.com",
-          "title": "Entering the Third Decade of the 21st Century - Electronic Design",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeTRhYU5WLXIyRk1SbmZOSG9fZVhLeXJfa0dydlVsNjdYcGxaSmUwd1BxbXUyZWhYaWp3U2t4a1I5cUVHRXBmMFZCZHVnQkxnNUJUWHp5Z2EzZGhUS2U1MDNzMWFPTzNxZ1VXWUZmRDJzb2ZEX2theHhQbGVxTm5XNEo2Z3Qta001WERPRlJHakk2ZTJWanY1YktzVVowbk1rRkhNRkh3?oc=5",
-          "published_at": "2021-01-05T08:00:00+00:00",
-          "snippet": "Entering the Third Decade of the 21st Century Electronic Design",
-          "lexical_overlap": 0.308,
-          "relevance": 0.448,
-          "matched_terms": [
-            "century",
-            "decade",
-            "st",
-            "third"
-          ],
-          "shared_numbers": []
-        },
-        {
           "id": "0387a0ad1affe9bcf4",
           "scope": "news_search",
           "tier": "secondary",
@@ -372,6 +353,24 @@
           "snippet": "The 100 Best TV Shows of the 21st Century The New York Times",
           "lexical_overlap": 0.133,
           "relevance": 0.203,
+          "matched_terms": [
+            "century",
+            "st"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "cf3c072d969503910b",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Deadline",
+          "source_url": "https://deadline.com",
+          "title": "Quentin Tarantino Ranks Top 20 Films Of 21st Century - Deadline",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRWw3cTR2ODFpcFFPZEJJQW9fTXRGUk9UMDlTTllxY3RZUUpNQXp6NlJXc1BQaGljSGFZbGMxeU8ySVp4ZW5XRHpfMmNzRUpzdWtrOE9UVzhtX1UtOEJkSDEwSW1FWUtNM0ZJQ0Q5UTFTVEdkNFBFU3lpY1pmMTAxNVkxQ2dPYzQ?oc=5",
+          "published_at": "2025-12-02T08:00:00+00:00",
+          "snippet": "Quentin Tarantino Ranks Top 20 Films Of 21st Century Deadline",
+          "lexical_overlap": 0.125,
+          "relevance": 0.195,
           "matched_terms": [
             "century",
             "st"
@@ -894,20 +893,38 @@
           }
         },
         {
-          "id": "ebc7835e557ca6b1a5",
+          "id": "bdcb80f0ce7e6ba6dc",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "www.pib.gov.in",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "Government recognizes more than 55,200 startups during FY 2025-26, highest ever in a single year since launch of Startup India initiative - www.pib.gov.in",
+          "title": "Government recognizes more than 55,200 startups during FY 2025-26, highest ever in a single year since launch of Startup India initiative - Press Information Bureau",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE83QU9TcGJnRnlDS1lUbkU0LXVlOVhxeWltRm5iMFFjazM3d2JpWDlZeHFJa1VNN2FIMnhyXy1LNDlnS1BDRWpDaVhZVTR2bEZsNU1peVFxY3huRnBaNXA2VEVxX1NrUGJmMm5ELVhpaEg4bzZIUXhLX09B?oc=5",
           "published_at": "2026-04-18T11:32:10+00:00",
-          "snippet": "Government recognizes more than 55,200 startups during FY 2025-26, highest ever in a single year since launch of Startup India initiative www.pib.gov.in",
+          "snippet": "Government recognizes more than 55,200 startups during FY 2025-26, highest ever in a single year since launch of Startup India initiative Press Information Bureau",
           "lexical_overlap": 0.087,
           "relevance": 0.207,
           "matched_terms": [
             "startups",
             "than"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "91234e8d9fda71d0cf",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Fortune",
+          "source_url": "https://fortune.com",
+          "title": "Most people worldwide believe at least one of 6 common medical myths - Fortune",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOOUZGT1JsWDVEeHdSUDRETFpoOUh2dGZ4dzhrcW03TTc3SjNpeENtUFpDb3BfcmZxY19FbjFFekdKUERKb1dndnNYNHR3Wkc0Q0Vnb1IxanJmMGJ2bXlsVEFndWNycm45ejExUUs2alV4Yl9YbjNhN1ZMZGJVd1hoVTExZUh5YjZQWFlEQXA1R1lJanpuc00zVUJWZlhqVjA?oc=5",
+          "published_at": "2026-04-22T07:00:00+00:00",
+          "snippet": "Most people worldwide believe at least one of 6 common medical myths Fortune",
+          "lexical_overlap": 0.118,
+          "relevance": 0.188,
+          "matched_terms": [
+            "least",
+            "one"
           ],
           "shared_numbers": []
         }
@@ -1077,7 +1094,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-15T23:42:25.419725+00:00",
+      "latest_checked_at": "2026-10-16T04:29:24.721583+00:00",
       "latest_claim_packet_id": "7b037d2dee45e0641b"
     },
     {
@@ -1197,7 +1214,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-15T23:42:25.419693+00:00",
+      "latest_checked_at": "2026-10-16T04:29:24.721558+00:00",
       "latest_claim_packet_id": "b9c2b1070d3a92b3e9"
     },
     {
@@ -1221,7 +1238,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-15T23:42:25.419748+00:00",
+      "latest_checked_at": "2026-10-16T04:29:24.721602+00:00",
       "latest_claim_packet_id": "497f5d9cb27d070bb6"
     },
     {
@@ -1245,7 +1262,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-15T23:42:25.419663+00:00",
+      "latest_checked_at": "2026-10-16T04:29:24.721532+00:00",
       "latest_claim_packet_id": "3fe413ee0ae3f4f61a"
     },
     {
@@ -1269,7 +1286,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-15T23:42:25.419593+00:00",
+      "latest_checked_at": "2026-10-16T04:29:24.721470+00:00",
       "latest_claim_packet_id": "9b5ed131949ff05d1c"
     },
     {
@@ -1389,7 +1406,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-15T23:42:25.419649+00:00",
+      "latest_checked_at": "2026-10-16T04:29:24.721520+00:00",
       "latest_claim_packet_id": "5d0783ea8592694b2a"
     },
     {
@@ -1437,7 +1454,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-15T23:42:25.419709+00:00",
+      "latest_checked_at": "2026-10-16T04:29:24.721571+00:00",
       "latest_claim_packet_id": "f5c78f40d1b6a90ec6"
     },
     {
@@ -1557,7 +1574,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-15T23:42:25.419737+00:00",
+      "latest_checked_at": "2026-10-16T04:29:24.721593+00:00",
       "latest_claim_packet_id": "ee94822e64ae98ad8f"
     },
     {
@@ -1581,7 +1598,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-15T23:42:25.419794+00:00",
+      "latest_checked_at": "2026-10-16T04:29:24.721639+00:00",
       "latest_claim_packet_id": "5860f9365178448af5"
     },
     {
@@ -1653,7 +1670,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-15T23:42:25.419678+00:00",
+      "latest_checked_at": "2026-10-16T04:29:24.721545+00:00",
       "latest_claim_packet_id": "53bcf8a853337194f0"
     },
     {
@@ -1725,7 +1742,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-15T23:42:25.419781+00:00",
+      "latest_checked_at": "2026-10-16T04:29:24.721628+00:00",
       "latest_claim_packet_id": "864cecb3d0726343a3"
     },
     {
@@ -1773,7 +1790,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-15T23:42:25.419769+00:00",
+      "latest_checked_at": "2026-10-16T04:29:24.721619+00:00",
       "latest_claim_packet_id": "bcb73e763cd8cb466c"
     },
     {
@@ -1863,13 +1880,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "needs_research",
+      "evidence_state": "reporting_found",
       "human_reviewed": false,
       "created_at": "2026-10-14T13:43:38.772524+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-15T23:42:25.419630+00:00",
+      "latest_checked_at": "2026-10-16T04:29:24.721504+00:00",
       "latest_claim_packet_id": "20063841e36e8db66d"
     },
     {
@@ -2256,7 +2273,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-15T23:42:25.419758+00:00",
+      "latest_checked_at": "2026-10-16T04:29:24.721610+00:00",
       "latest_claim_packet_id": "b22c414b92abe14a3c"
     },
     {
@@ -2519,7 +2536,7 @@
     },
     {
       "id": "e83ab1ec9c9a5c85b3",
-      "checked_at": "2026-10-02T07:02:20.227930+00:00",
+      "checked_at": "2026-10-16T04:29:56.996969+00:00",
       "promise_id": "BJP-2024-520dbdc0efed2c651b",
       "year": 2024,
       "category": "other",
@@ -2557,17 +2574,39 @@
       "query": "next five your blessings guarantee",
       "evidence": [
         {
-          "id": "ae47a8190828ec3aee",
+          "id": "74ad7a29a330c8b1d0",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "thelineofbestfit.com",
+          "source": "YourTango",
+          "source_url": "https://www.yourtango.com",
+          "title": "7 Zodiac Signs Are Attracting Major Blessings From The Universe, Starting Now - YourTango",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5hNU1TendQMUJtTndLRlhYTUlaMTdaMDE2SV9FZlJ6a2JsX1haVjN4NlNwVWUwbHlOSEZDQ3lkQjEzSVdhNTRYXzJiTFI4VkdiNWNOWkVFYzB1dms3RVFFd1BPUXZzN0haM0U1TXFpSFQ5ZURiOVZ4TE5WaXhwQQ?oc=5",
+          "published_at": "2026-01-22T08:00:00+00:00",
+          "snippet": "7 Zodiac Signs Are Attracting Major Blessings From The Universe, Starting Now YourTango",
+          "lexical_overlap": 0.071,
+          "relevance": 0.216,
+          "matched_terms": [
+            "blessings"
+          ],
+          "shared_numbers": [
+            "7"
+          ],
+          "promise_core_overlap": [
+            "blessings"
+          ]
+        },
+        {
+          "id": "8377f32aef19bfe0c0",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Line of Best Fit",
           "source_url": "https://www.thelineofbestfit.com",
-          "title": "Bring Me The Horizon to play Count Your Blessings in full for first time at outbreak Manchester show - thelineofbestfit.com",
+          "title": "Bring Me The Horizon to play Count Your Blessings in full for first time at outbreak Manchester show - The Line of Best Fit",
           "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxORHZteU5vMGlJM2t6aTJqOTY5NENYWWtEVTVMcWZMcnNZSENPbnVPME5BRFJfb21zVVVZd04ydFJmZ01KX2d1OGpGUzBieWJ4RnlrNkE5U2ZsMkE1SFh4VnZ6Y1pjWk11dU5EVnVmU1RSeGs0TEY5cUhIbXpjTWVjTC14UjlTUU5lVDVsZF9YMXhZbWE4cHNxbG1ybUhUT1BQSEZib1NQTUgwMFliQ2htUy00cUp0b3dRSm56RHItTUNnc2UtT1g1LWVJaUZjbktWWjlsNQ?oc=5",
           "published_at": "2026-04-13T07:00:00+00:00",
-          "snippet": "Bring Me The Horizon to play Count Your Blessings in full for first time at outbreak Manchester show thelineofbestfit.com",
-          "lexical_overlap": 0.105,
-          "relevance": 0.175,
+          "snippet": "Bring Me The Horizon to play Count Your Blessings in full for first time at outbreak Manchester show The Line of Best Fit",
+          "lexical_overlap": 0.1,
+          "relevance": 0.17,
           "matched_terms": [
             "blessings",
             "your"
@@ -5192,7 +5231,7 @@
     },
     {
       "id": "5fde91a58e6e3aee17",
-      "checked_at": "2026-10-09T06:48:00.476594+00:00",
+      "checked_at": "2026-10-16T04:30:22.485964+00:00",
       "promise_id": "BJP-2024-30994df3836e116dc6",
       "year": 2024,
       "category": "infrastructure",
@@ -11648,7 +11687,7 @@
     },
     {
       "id": "40e2042e25dee85104",
-      "checked_at": "2026-10-09T06:48:02.082131+00:00",
+      "checked_at": "2026-10-16T04:30:24.073261+00:00",
       "promise_id": "BJP-2024-35e481fc29712688d8",
       "year": 2024,
       "category": "health_welfare",
@@ -12785,7 +12824,7 @@
     },
     {
       "id": "0c47eaa29b9077e29f",
-      "checked_at": "2026-10-09T06:47:59.634907+00:00",
+      "checked_at": "2026-10-16T04:30:21.416854+00:00",
       "promise_id": "BJP-2024-25d27e81142c349500",
       "year": 2024,
       "category": "jobs_economy",
@@ -12810,7 +12849,30 @@
       "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
       "related_promises": [],
       "query": "10 easy digital providing working capital use",
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "e8d2f5260a2c0a3bd4",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Condé Nast Traveler",
+          "source_url": "https://www.cntraveler.com",
+          "title": "Want to Work from Abroad? The Top 10 Digital Nomad Visas for 2026 - Condé Nast Traveler",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeHgyMzR1T3M0bnZjMDFzSlJHRkh1SnVKZE1iRUJNaTdkNkJTR1RjWkRTRmdvSEs4THYwd3dIRFpMYjBQWHhoYlZHbl9BU3RZNFRUTHg2WE1JblQ5WDlVRXc2NVBPMVFicHhxdS1Eb293VmFQQ0RtQkMzcnBHWUttZUtTRkR6SEZTSWpkOEtHUDBUVGN2a0FzU1FDcWpWWi1l?oc=5",
+          "published_at": "2026-07-15T07:00:00+00:00",
+          "snippet": "Want to Work from Abroad? The Top 10 Digital Nomad Visas for 2026 Condé Nast Traveler",
+          "lexical_overlap": 0.048,
+          "relevance": 0.193,
+          "matched_terms": [
+            "digital"
+          ],
+          "shared_numbers": [
+            "10"
+          ],
+          "promise_core_overlap": [
+            "digital"
+          ]
+        }
+      ],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -15618,7 +15680,7 @@
     },
     {
       "id": "2d936543480f574a8b",
-      "checked_at": "2026-10-09T06:48:08.439443+00:00",
+      "checked_at": "2026-10-16T04:30:31.293124+00:00",
       "promise_id": "BJP-2024-fe81027f7e8bda8008",
       "year": 2024,
       "category": "women_social_justice",
@@ -15645,13 +15707,13 @@
       "query": "20 lakh livelihood opportunities obc families expanding",
       "evidence": [
         {
-          "id": "b3079e48df5564ef07",
+          "id": "9f56d43204d38780e8",
           "scope": "preferred_official_search",
           "tier": "primary",
           "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
+          "source_url": "https://static.pib.gov.in",
           "title": "GST Rate Rationalisation: Expanding Opportunities for Bihar - PIB",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBJTHFkZ1RuOHk5ZUVvN3NoRndjTTEyOV81VlU0YVBxamtROHZXUERHQ1VpbmUzNjFDZzRhTTdGczBsYUdGbHRNTk53UURmWWhuOUdTcGhrVnhUenlfVnBrMC1sWFlWdjJVWFB0N0xxbGo?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQam15RlJaY3A1VFFIR2FyZTZTczVVQmpIeEtqMlp3a3N2bFduQUhzcnhVS21ZVmhray1pdllmMHBZSkRyc0dpeVhUeDFwaTB6di1XTmtBQ0xCTEdnM2kxQVlBSmxZUzA1YmhPdm1pV2JfSzJFLWduWEJBRm8xTzNXQnRMb2V1RDZpTWh2SGVtaUlBTkJ4Rmtj?oc=5",
           "published_at": "2025-09-27T07:00:00+00:00",
           "snippet": "GST Rate Rationalisation: Expanding Opportunities for Bihar PIB",
           "lexical_overlap": 0.118,
@@ -17679,7 +17741,7 @@
     },
     {
       "id": "0f3fec7ef896b8ac81",
-      "checked_at": "2026-10-09T06:47:58.152821+00:00",
+      "checked_at": "2026-10-16T04:30:19.412655+00:00",
       "promise_id": "BJP-2024-051d41099215720d4e",
       "year": 2024,
       "category": "other",
@@ -23713,7 +23775,7 @@
     },
     {
       "id": "ef7dec163c7f9088f5",
-      "checked_at": "2026-10-09T06:48:07.136076+00:00",
+      "checked_at": "2026-10-16T04:30:29.821744+00:00",
       "promise_id": "BJP-2024-f76976b35b029854ce",
       "year": 2024,
       "category": "infrastructure",
@@ -23740,17 +23802,17 @@
       "query": "15000 km expanding expressways ring roads strengthen",
       "evidence": [
         {
-          "id": "ec93e7abfbc8044b6e",
+          "id": "79d557bddf89e30473",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "PIB",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "Year End Review 2023-Ministry of Road Transport and Highways - PIB",
+          "title": "Year End Review 2023-Ministry of Road Transport and Highways - Press Information Bureau",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE54bWIxOU4xeWlqNkFvLVBQMy11N0dNVFFnVDZYTDBidUFiQVlHLS1id1Z0S3lJdVZwcllZa1pKMUZBOUxDblpYbU9yeXZkOVNJREZ0NFFubzZodUpsNW9DN2NIY2FDQTlQeGN3VEV1UTI?oc=5",
           "published_at": "2024-01-05T08:00:00+00:00",
-          "snippet": "Year End Review 2023-Ministry of Road Transport and Highways PIB",
-          "lexical_overlap": 0.118,
-          "relevance": 0.238,
+          "snippet": "Year End Review 2023-Ministry of Road Transport and Highways Press Information Bureau",
+          "lexical_overlap": 0.105,
+          "relevance": 0.225,
           "matched_terms": [
             "highways",
             "road"
@@ -23762,17 +23824,17 @@
           ]
         },
         {
-          "id": "9a07e4ac68ea965983",
+          "id": "21473d37e25535d7f0",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "PIB",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "Year End Review 2025 – Ministry of Road Transport & Highways - PIB",
+          "title": "Year End Review 2025 – Ministry of Road Transport & Highways - Press Information Bureau",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1yc1JvLTQ3Uk91VmNhekhrazZvdFBrMjJ6UWUya2VCUUd0TTQ2VDN5R2RWMlJMWVVSZ0ROX3VGb1pqTlBmVkRMNnFMd01vdTAwaG1qeGdfY0I5emdaZ1NCUEVXbFBxT3Zp?oc=5",
           "published_at": "2025-12-30T08:00:00+00:00",
-          "snippet": "Year End Review 2025 – Ministry of Road Transport & Highways PIB",
-          "lexical_overlap": 0.118,
-          "relevance": 0.238,
+          "snippet": "Year End Review 2025 – Ministry of Road Transport & Highways Press Information Bureau",
+          "lexical_overlap": 0.105,
+          "relevance": 0.225,
           "matched_terms": [
             "highways",
             "road"
@@ -32943,7 +33005,7 @@
     },
     {
       "id": "34e5378739892dfeb4",
-      "checked_at": "2026-10-09T06:48:06.223553+00:00",
+      "checked_at": "2026-10-16T04:30:28.838390+00:00",
       "promise_id": "BJP-2024-d57312313242ff6b21",
       "year": 2024,
       "category": "education_skills",
@@ -35026,7 +35088,7 @@
     },
     {
       "id": "785f3cf048095fab8d",
-      "checked_at": "2026-10-09T06:48:04.476692+00:00",
+      "checked_at": "2026-10-16T04:30:26.684456+00:00",
       "promise_id": "BJP-2024-7b32d484016c0dd074",
       "year": 2024,
       "category": "education_skills",
@@ -35109,17 +35171,39 @@
           ]
         },
         {
-          "id": "44bac84207dd2608a9",
+          "id": "04252b9f3fdbcd8108",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "PIB",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "Cabinet Approves Research Development and Innovation (RDI) Scheme to scale up Research, Development and Innovation in Strategic and Sunrise Domains - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5MbUFPTEFjRHhnNmhQeXhJd3ZSVWlvejhZZHFUZ2xMYjNrUmdxSkUycHVFX0ZFaGxhcXNVS1NnYWttbUNBdnY4MHZ0Ym1XQllkZm5Yd1VldTVZM0ZlcVlrVjlERjJ6aWVx?oc=5",
-          "published_at": "2025-07-01T07:00:00+00:00",
-          "snippet": "Cabinet Approves Research Development and Innovation (RDI) Scheme to scale up Research, Development and Innovation in Strategic and Sunrise Domains PIB",
+          "title": "Research, Development and Innovation Fund Announces First Cohort of 19 Second Level Fund Managers - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA4VVA3X1poWHNqNGZ1YXNjTHFxaHpUejZDU3R4ZVdwQ1BzY2wzWUhMNmdsdHBJb3c3TU9vSmNDTW03bmowQmlLWmVhdHliTlBLaU4xbmhDbEtJTHpKTGdyWGE3NXh6cmRWc0VIM25fTUFDb0dzYm9wNXItbw?oc=5",
+          "published_at": "2026-10-12T11:07:00+00:00",
+          "snippet": "Research, Development and Innovation Fund Announces First Cohort of 19 Second Level Fund Managers Press Information Bureau",
           "lexical_overlap": 0.087,
           "relevance": 0.207,
+          "matched_terms": [
+            "fund",
+            "research"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "fund",
+            "research"
+          ]
+        },
+        {
+          "id": "23c244af8a080572b2",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Cabinet Approves Research Development and Innovation (RDI) Scheme to scale up Research, Development and Innovation in Strategic and Sunrise Domains - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5MbUFPTEFjRHhnNmhQeXhJd3ZSVWlvejhZZHFUZ2xMYjNrUmdxSkUycHVFX0ZFaGxhcXNVS1NnYWttbUNBdnY4MHZ0Ym1XQllkZm5Yd1VldTVZM0ZlcVlrVjlERjJ6aWVx?oc=5",
+          "published_at": "2025-07-01T07:00:00+00:00",
+          "snippet": "Cabinet Approves Research Development and Innovation (RDI) Scheme to scale up Research, Development and Innovation in Strategic and Sunrise Domains Press Information Bureau",
+          "lexical_overlap": 0.08,
+          "relevance": 0.2,
           "matched_terms": [
             "research",
             "up"
@@ -35130,25 +35214,61 @@
           ]
         },
         {
-          "id": "2b2dd80c3e2ab87dce",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "FINANCIAL SUPPORT FOR HIGHER EDUCATION LOANS UPTO ` 10 LAKH TO HELP YOUTH WHO HAVE NOT BEEN ELIGIBLE FOR BENEFIT UNDER GOVERNMENT SCHEMES AND POLICIES - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE05aUtYNHNLLVdwRVVMTmhaNXhia2ppZmM0TUJWckZsUlFVREdFcmp6eWk2Snl1SkZaV0NCN29haXdHdnFDc0VIOU1OdHJ6TExsVnJCTUNBaWNxTzdsR0VlVnJIUXNkQlhv?oc=5",
-          "published_at": "2024-07-23T07:00:00+00:00",
-          "snippet": "FINANCIAL SUPPORT FOR HIGHER EDUCATION LOANS UPTO ` 10 LAKH TO HELP YOUTH WHO HAVE NOT BEEN ELIGIBLE FOR BENEFIT UNDER GOVERNMENT SCHEMES AND POLICIES PIB",
-          "lexical_overlap": 0.077,
-          "relevance": 0.197,
+          "id": "fca21256d1532fe8a5",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Economic Times",
+          "source_url": "https://m.economictimes.com",
+          "title": "PM Modi launches Rs 1 lakh crore RDI Fund to spur private investment in research & development - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNQllsYzg5ZHhYRXpUQnZzTFVUWkVSeG04dWFRNzVDbHg5NUFXcmk0MEVydjVKZFN4cjhzaGtOVDBGLW1tanVCcG9pVUo0WW93MGpvMkptYS1BbEJYMWszQzJjbXROemE5emxhMURHYTE2a1RXV2pkSU41Q0pmYy1RYjh4aTc3UlN1WXRXZFhZQS16VS1VM1JvMlN4ZTdFWHo5OGtxSVk1NnhWNG9ybFNFQkJKQjVIQmREcWR0c0w0azQ0UDlFUHZCV2hGcHRYeWYtZk5tYTBYYmNJdmQ5cDFSYXpZNkJtN0hGM1VPSFA0NWvSAfYBQVVfeXFMT3M4WjVpd0U5ZHR0dk9Zcm1UNlpoNWNuaXByVW5WYld1VG52TkxQa0xjcnRlNU9xeHNCeDFwMGIyVElSN1Q0NkJBTmtnZ1JnSlNGenlpWFFGdlZjWkF6MmVtd2hEZ2l5Vk9sYktTSXhmS1JhWkNsNE02Y290N2pWSHZDYllXZUppRUowcXFtQUtJZnE3dXdfRXBQcG8xR1h0WFNQVVkwQ2RGMWFvbXphQnJsR2xBRzdJcDBYN0stUFVQMENtZV9LTk5yMXEtcnk4alVTRHg0d3F4S0ZkUVQzOGFUWHpKT2xsLUFxTXhDeHp4LW5iTXhR?oc=5",
+          "published_at": "2025-11-03T08:00:00+00:00",
+          "snippet": "PM Modi launches Rs 1 lakh crore RDI Fund to spur private investment in research & development The Economic Times",
+          "lexical_overlap": 0.238,
+          "relevance": 0.523,
           "matched_terms": [
+            "crore",
+            "fund",
+            "investment",
             "lakh",
-            "loans"
+            "research"
           ],
-          "shared_numbers": [],
+          "shared_numbers": [
+            "1"
+          ],
           "promise_core_overlap": [
+            "crore",
+            "fund",
+            "investment",
             "lakh",
-            "loans"
+            "research"
+          ]
+        },
+        {
+          "id": "994e1cd8d4692dab8f",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Upstox",
+          "source_url": "https://upstox.com",
+          "title": "PM Modi launches ₹1 lakh crore RDI Fund to boost private sector research, innovation - Upstox",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNZHpzWFFmSm13TVNzZmZmXzFjV1lSZnVsSlJfZWxCamw5VHRLUUxsVlA3dzR5UnAyYVhIcERMRmd2aHBKbUlXUFdoNDl1WW9mWVdLS25BRkpTMVlqdEY0Qjk3XzhpUk0zeGY2bXIySlVXZlVXRXN1TUREREp5enU0LXVFdGVKX0QxanJJbW1IbDQyRTdYeEZmaXZUUGpYcUNXeVpHMmRvdnJ5NG91djJJbENjYzVhZ3JGRUxSWkVwT2c0U2FEVEd3RDFHT2taQ29VN1hGSTRjU2E4a093NmNuc2xZYnZnUQ?oc=5",
+          "published_at": "2025-11-02T07:00:00+00:00",
+          "snippet": "PM Modi launches ₹1 lakh crore RDI Fund to boost private sector research, innovation Upstox",
+          "lexical_overlap": 0.2,
+          "relevance": 0.45,
+          "matched_terms": [
+            "crore",
+            "fund",
+            "lakh",
+            "research"
+          ],
+          "shared_numbers": [
+            "1"
+          ],
+          "promise_core_overlap": [
+            "crore",
+            "fund",
+            "lakh",
+            "research"
           ]
         },
         {
@@ -35197,27 +35317,6 @@
           "shared_numbers": [],
           "promise_core_overlap": [
             "fund"
-          ]
-        },
-        {
-          "id": "d735c7af26ecf6cb76",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Nature",
-          "source_url": "https://www.nature.com",
-          "title": "Fixing India’s research foundations before scaling up - Nature",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9uR0tDTk9Lcko4NXpuWTVqdGgwczVjVmdXM2xudHdWZlZ0MVJ0WlVzV1I2OVp1RHdnZ2FXZ2lXZFY5cDRNWXo1dGJHQi13Vm1TbjNnV0tpd2ZfbDQzTXJr?oc=5",
-          "published_at": "2026-04-16T07:00:00+00:00",
-          "snippet": "Fixing India’s research foundations before scaling up Nature",
-          "lexical_overlap": 0.118,
-          "relevance": 0.188,
-          "matched_terms": [
-            "research",
-            "up"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "research"
           ]
         }
       ],
@@ -36284,7 +36383,7 @@
     },
     {
       "id": "d79dcb75fce5eaf71e",
-      "checked_at": "2026-10-09T06:48:03.730275+00:00",
+      "checked_at": "2026-10-16T04:30:25.731077+00:00",
       "promise_id": "BJP-2024-66cb98354281c12bcb",
       "year": 2024,
       "category": "education_skills",
@@ -36311,43 +36410,17 @@
       "query": "1 lakh scientific research fund guarantee sustainable",
       "evidence": [
         {
-          "id": "8e11005e56a200ed1a",
+          "id": "354cfbfe1c9b905874",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Department of Science and Technology (DST)",
-          "source_url": "https://dst.gov.in",
-          "title": "PM launches Rs 1 Lakh Crore Research, Development and Innovation Scheme - Department of Science and Technology (DST)",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMmwzWXJTZGowY0N0a0RaN01uMVFWNGdSX2hYTU5ZZ2pZdFc0cGdnVnFyNzFkU1Z1dlFsSzFrUTJjbUdmZHl6V1FkTkhCZUFhQXM4S3N3ekpBWmwtSnpwblk5U21xUWo4b1NqYWJHOHBLVlFNVWdXUWZfa0w2NkpMeFgxT1UyWXdQSGdnRjFqNUw0dUE?oc=5",
-          "published_at": "2025-11-12T08:00:00+00:00",
-          "snippet": "PM launches Rs 1 Lakh Crore Research, Development and Innovation Scheme Department of Science and Technology (DST)",
-          "lexical_overlap": 0.136,
-          "relevance": 0.351,
-          "matched_terms": [
-            "crore",
-            "lakh",
-            "research"
-          ],
-          "shared_numbers": [
-            "1"
-          ],
-          "promise_core_overlap": [
-            "crore",
-            "lakh",
-            "research"
-          ]
-        },
-        {
-          "id": "792e7ef3a3b923d447",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "DD News",
-          "source_url": "https://ddnews.gov.in",
-          "title": "Cabinet approves Rs 1 lakh crore Urban Challenge Fund to drive market-led urban transformation - DD News",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcFp2WVVJMVlXLW9KTDRiNC1yTTRyV1BteVl6Q2hMUDdJSEFaeWVoZzF0cVJOYTVFUDFENWJxRGlmMFZUbkVKSUZHYnY5cU1GWnJ3ZUV2UjhYN09PWFVZQm53SldQRDNGN3VHeTNlMC0xWGZHU1UzRnlKVXd2MDVBanlrTW04b3ZnS3lLTlZ5aWZ5VURqNEpqczk1NDNRc0cwcUEzN1Y5VXlaeURmQy1XT1hzQjdxanRBR2tTdw?oc=5",
-          "published_at": "2026-10-08T06:45:50+00:00",
-          "snippet": "Cabinet approves Rs 1 lakh crore Urban Challenge Fund to drive market-led urban transformation DD News",
-          "lexical_overlap": 0.136,
-          "relevance": 0.351,
+          "source": "ETV Bharat",
+          "source_url": "https://www.etvbharat.com",
+          "title": "Centre Launches First TDB Open Call Under ₹1 Lakh Crore RDI Fund To Back Private Sector Innovation - ETV Bharat",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxObjRlcC1QcmxXSzFzbTRnUGxDdnd4d18zMWVYemprXzhYUDRqcC01QlBWYmJrcjMwczZFN1BIZGhoenFJOEdWd1NEeFpMRVFJVXJvNXp2U0E1ejBQYXV4bksydzg3aW9oSjh0MU81LW0xSmVBQjdWcWplOXhNaU9HbF82YkhVTm1aSi1aWm9lenhIeTZFcURnOHhyQ3dfN2ZoSk1WM3VoVmlRRy0xdXBwRk11LTZpZmdZOUJ3TVIzS2REZFlLQXhlSGczM3QtYXNDM1JHSS1JRF85NGJuRTdQRUNjUmdQUdIB6wFBVV95cUxOaEJhS1JYUkdpMlNaUnZWTm9YcE53RXU2YXVOMzRrY2hKV0FHbnJyM2JYeXViQTZla2lOeDNPZTNmTDNJcGZfdXhuWXBkVVl1ZXgxQnRTWXo1TkhFMGY3dE5TYmw5REYyc3ZfcFd3ZjZ0M04zd1RCZmZIN3RESTVRZGJFbTRLSGoxUllodGJKYXp4d2Y4bVVrU1VKNlhUV2hBYVVYcy1oZFRhVnNGY0hZUWVPU1Q3YUlLME9PVXlETUZmd1lkSXA3Q01XRldXTTNmQUJIc2t4UGtvb1BOd0Vxb2pzM3c5WGlKM2Fn?oc=5",
+          "published_at": "2026-02-04T08:00:00+00:00",
+          "snippet": "Centre Launches First TDB Open Call Under ₹1 Lakh Crore RDI Fund To Back Private Sector Innovation ETV Bharat",
+          "lexical_overlap": 0.125,
+          "relevance": 0.34,
           "matched_terms": [
             "crore",
             "fund",
@@ -36360,30 +36433,6 @@
             "crore",
             "fund",
             "lakh"
-          ]
-        },
-        {
-          "id": "9ef1a7c40bccfd046f",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Value Research",
-          "source_url": "https://www.valueresearchonline.com",
-          "title": "20% returns, ₹1 lakh a month: Realistic or unreasonable? - Value Research",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbEVKRG93QURsbzhyaDFyVVhKaDV0dW9ET0lCdlBtcW9aYUpWbFlhNWJleVRfUXZVRFFwSFhSSFptYTAwS1ZVSllnR1k5ZlZhNjN0T1d3aHFEMWlpMWxuNUdqR004cExDcFJjQmxoaUgycFRpdWpZMDI5YTk0VVhwNTZ5Szg3WWFNS0JVOUNwTl9XUUoyeVd2QUpxcjlVam9DSmFldnl1MFNhYUFpTzBv?oc=5",
-          "published_at": "2026-03-11T07:00:00+00:00",
-          "snippet": "20% returns, ₹1 lakh a month: Realistic or unreasonable? Value Research",
-          "lexical_overlap": 0.118,
-          "relevance": 0.298,
-          "matched_terms": [
-            "lakh",
-            "research"
-          ],
-          "shared_numbers": [
-            "1"
-          ],
-          "promise_core_overlap": [
-            "lakh",
-            "research"
           ]
         },
         {
@@ -36424,7 +36473,7 @@
     },
     {
       "id": "19d73d4d9750f35325",
-      "checked_at": "2026-10-02T07:02:21.272969+00:00",
+      "checked_at": "2026-10-16T04:29:58.881952+00:00",
       "promise_id": "BJP-2024-8316cd4d46dfc92a5c",
       "year": 2024,
       "category": "other",
@@ -36449,17 +36498,17 @@
       "query": "2070 towards achieving net zero emissions",
       "evidence": [
         {
-          "id": "34af78d3d804cf5afa",
+          "id": "bb4c0a6c66c3d685d3",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "pib.gov.in",
+          "source": "PIB",
           "source_url": "https://www.pib.gov.in",
-          "title": "Net zero emissions target - pib.gov.in",
+          "title": "Net zero emissions target - PIB",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE02THIyeGxoZE5jdGFsa1l5d1hmaVZ4VklZME4xWjBDQ0NZQWZKNGlzZUJOSGo4TWdwQ29QcFpfNkF1ZWJLU2J4dW5vMkU1WEhaNDdWQndGZERXUHNjT2FxNXhZYVF1MUhI?oc=5",
           "published_at": "2023-08-03T07:00:00+00:00",
-          "snippet": "Net zero emissions target pib.gov.in",
-          "lexical_overlap": 0.333,
-          "relevance": 0.488,
+          "snippet": "Net zero emissions target PIB",
+          "lexical_overlap": 0.375,
+          "relevance": 0.53,
           "matched_terms": [
             "emissions",
             "net",
@@ -36472,39 +36521,17 @@
           ]
         },
         {
-          "id": "4955f01f867f0f1236",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "pib.gov.in",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Strategies for achieving net-zero emissions - pib.gov.in",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUEdEeTNYS0liRXJxVGw3emJmN2NkeUg5SEdfX0hBYVU0eDFXY1ZXZ0JBYkR2LTFVQk9WZHdScHFZaGFXWk9jcExSN0ZxYTB4Z01hOFZZLVkycDRjWUZYX1h1QjZLczhWenFQODZDUnlxNWFzTlFzMDAtWWQzYmJXQnBB?oc=5",
-          "published_at": "2024-08-08T07:00:00+00:00",
-          "snippet": "Strategies for achieving net-zero emissions pib.gov.in",
-          "lexical_overlap": 0.2,
-          "relevance": 0.32,
-          "matched_terms": [
-            "achieving",
-            "emissions"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "achieving",
-            "emissions"
-          ]
-        },
-        {
-          "id": "3d40b07e0a5629b087",
+          "id": "fb1c397a3d7c628b3d",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "pib.gov.in",
-          "source_url": "https://www.pib.gov.in",
-          "title": "India is committed to achieve the Net Zero emissions target by 2070 as announced by PM Modi, says Dr. Jitendra Singh - pib.gov.in",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5IVTZHaVg0ZW04VkdfS3JwbGN4QjRnWElwRTV2SjFWa3dwNFhoU0EzaVpPUHA0aFZBZjVzSG0zRUJzWHgzZ1Vid0o4TTlPVEI4RVBJYUs0anZrS202ZVh2TnV3aFJ4dzBqYmdtVV9yVFg?oc=5",
-          "published_at": "2023-09-28T07:00:00+00:00",
-          "snippet": "India is committed to achieve the Net Zero emissions target by 2070 as announced by PM Modi, says Dr. Jitendra Singh pib.gov.in",
-          "lexical_overlap": 0.188,
-          "relevance": 0.402,
+          "source": "Scroll.in",
+          "source_url": "https://scroll.in",
+          "title": "Economy check: India aims to achieve net zero emissions by 2070. Is this feasible? - Scroll.in",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNVMtTTl2bHVudGdMVjVuSVpwUzhWbWpfcm5ZRzNvWkxUQXhnYUlva3dXOGtycWpmd2JGZ0xsRVZMTENKaGRxMmh1anBqVnMwTE9mQ3pBMXRVVy1pUWZSOXJ6RzdpRm44alV3S0ZsYjd0Qi1SYmFzVzU1Qmg1NDZVekdPenZ4a0c0QkYxOEUzS0ZwNU8xd2lBc2p6MEpEYzhiNFpmWXlxQnBwQ0swN1FwS0NfWdIBuAFBVV95cUxOZjMxUHZpbWxRZXJ4S1kwX3NoQlBMUk9yOFdTOUVoVS1RbnRGMDJGaDlXZTA4S0p0MkI5OFkycXZnN1V5WXhaeXJ5SjZsX2Z6ZVFRTko1LXlqNnZPcDd0SFlsYlVEODAxVlloNUsyUUw1eWM5MmUyUlgtYVZ4bHc4WHVseFB2RmhXd0dkMEE2dnFvaThteWdjUjZNYXlMWGo2TDEyQ0JPNFZtRUxWMU9QVFNkSGE3YTN2?oc=5",
+          "published_at": "2026-10-12T03:00:00+00:00",
+          "snippet": "Economy check: India aims to achieve net zero emissions by 2070. Is this feasible? Scroll.in",
+          "lexical_overlap": 0.25,
+          "relevance": 0.465,
           "matched_terms": [
             "emissions",
             "net",
@@ -36542,17 +36569,40 @@
           ]
         },
         {
-          "id": "8cbb163ce07a8972e0",
+          "id": "b3ead7d39d6949ad5a",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "MillenniumPost",
-          "source_url": "https://www.millenniumpost.in",
-          "title": "Mining the Net Zero Path - MillenniumPost",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5tN19MeFB5T0dfS2JvMGhidUQwaVVVdmxKSGRINWlsZVhocVc5MGowTEE0ZmhtM01oMTNvOWJjOTZIX1VjOGVhN25vMlNYSTBsdVBqNW9qOGFuZTRfQVJseFpYNGprN3FfSmlZaFVfTTFYTWtYWVNCbtIBfkFVX3lxTFBZOV9BbC0tcTNlT3JMSmkwMkI1R0l3MXhucjZmb3o3Rl9kXzhRanN0a19BdThNZXpTRFVfVU0wNWRrRWtjLWdkQllLVmRiNGJyMDVTRmtOc0stQ2F5TXluWWswazhXa2FyUHV6WThDRW1XNFpQcDBUbmxfeGlzZw?oc=5",
-          "published_at": "2026-08-06T07:00:00+00:00",
-          "snippet": "Mining the Net Zero Path MillenniumPost",
-          "lexical_overlap": 0.222,
-          "relevance": 0.292,
+          "source": "DD News",
+          "source_url": "https://ddnews.gov.in",
+          "title": "Viksit Bharat by 2047 achievable alongside Net Zero by 2070: NITI Aayog study - DD News",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOd0dleGtsOGdZSldMc2s2TnY5QmpiX2lJME5SWnlWa0lyV250WjJRU1NLU1l2VGFNbGt0SWtqZWQxdUNBajhKMXM5SUNJR2N1YkVYWnI4Y2JNUkpYVGRfcE1kWlpES1hsbkVMRzM0bHA3aFJWUmd4VlA0cnN4VkNWSG5DQTBubGVwa3dVN19wMnpxMVRBRVE4b1k0ZGtkcmY0Ty04Zw?oc=5",
+          "published_at": "2026-02-11T08:00:00+00:00",
+          "snippet": "Viksit Bharat by 2047 achievable alongside Net Zero by 2070: NITI Aayog study DD News",
+          "lexical_overlap": 0.143,
+          "relevance": 0.323,
+          "matched_terms": [
+            "net",
+            "zero"
+          ],
+          "shared_numbers": [
+            "2070"
+          ],
+          "promise_core_overlap": [
+            "zero"
+          ]
+        },
+        {
+          "id": "7ae6d1c812e9bf032a",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Table.Briefings",
+          "source_url": "https://table.media",
+          "title": "India: How the country can reach net zero while industrializing - Table.Briefings",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdGJOOTZnTTRCZXRwd1hPWWpQeVVzSUY4RnJSamJTZkRMREdmbU8tV0VuYTFXckhsSUdXU1ZIZ1BWelphWkJJLTc4d0hSclFOQzdwR1Q0X0ZJM0JXWlBaNWtHSlpwdEtwWEpxV1dacmlsSDFpMFNUQlFKTmxEYVMtUC0zckFMNlRQVWhEX1gxMlY2WGZLMkdQSEVHbWV0dzQ?oc=5",
+          "published_at": "2026-10-07T05:43:47+00:00",
+          "snippet": "India: How the country can reach net zero while industrializing Table.Briefings",
+          "lexical_overlap": 0.167,
+          "relevance": 0.237,
           "matched_terms": [
             "net",
             "zero"
@@ -36563,17 +36613,17 @@
           ]
         },
         {
-          "id": "39d4a18f845a6ee090",
+          "id": "cf764cb6f9ed65b106",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "ET EnergyWorld",
-          "source_url": "https://energy.economictimes.indiatimes.com",
-          "title": "India Net Zero Forum 2026 | Leading Net Zero Conference and Energy Summit - ET EnergyWorld",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE85S0d2ajJHU0xVWm9ZSmlwMlZwc2RKZ09OU3M4TFl4YVJBUlRSbV9mc1Y0M1B1OVBLTmQtbmd0WmhuOV84NlVHNmNobkVzdnpWU0o4TWd6VFRxX3l1MmlubWQ1VU8tNzVZekRzc2c5a24?oc=5",
-          "published_at": "2026-06-16T07:00:00+00:00",
-          "snippet": "India Net Zero Forum 2026 | Leading Net Zero Conference and Energy Summit ET EnergyWorld",
-          "lexical_overlap": 0.154,
-          "relevance": 0.224,
+          "source": "The Economic Times",
+          "source_url": "https://m.economictimes.com",
+          "title": "Eyes now on Viksit, net zero later :Can India achieve high-income status by 2047 without compromising on c - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNaXZ1a292b0hrUzRwYWdYQUFUZ3JtSzV3aTNTQ09xajRyUS04andFSHRXeTN5N05FUkpTU0ZURlN3THdVWVp5MnV3aTM3YVFHVEpQcU01YVh4VW1TM1o5enREM1ktTTZkLTBsRVBWNEpWOVFZYzVQYmlwLXJpNWI3c0hJbWhIUFdMazNrbUpEVzJsWGF5aktOR3ZPMVhUV2JOX2F4UHBVSDJacjVDQWFkX0VEcWdHYkNOMXdsZFp0dnBaZm5LU1Bub3B1RGYwcGlubGNrQXIzV0ItcnlUSXVqX3h6ek45dEFJZXBobC0wc1J4YmsyVzhxczJOSHBPVEVLUzJvdUduTXFqeUtyTWpad1owekppazVhNFVXQUo1WWHSAaYCQVVfeXFMTS1HNHh5ZDdJbFB4YjFaUkI4ZlJvX3A1a3BDcFVSQzFoMGRGdnJKV0dtZnk1RGdPa0JjTHI3aGxoNzFtUHRGYXkyckVIMVdJYTFpM0hxdzFQQ1pLcGZ6VWhNT0xRd0cwbEpIV0RTdVZsVEFTVTJPRFRGcndURGVXcVFEUlRveTc1cXRCRjlhYjNIMU40bnZ2WEEzODFDMGJJR0pnMWJOWGZLNng5Z3Bwam9EaFl2djAyTGhSb28tZ2lrc25TTmdGVHBoWEY4VDUxZU9IZkVEU25SdERzQTZmeFpiWFlkcWxOMjZEblFNQzI4RDdndWszZl84endHN19kcVo3c2xzTGlnRENFTHVKemhVQnVQWjlzY3J6dzZ1eVJOTzFaRUVR?oc=5",
+          "published_at": "2026-10-15T17:46:18+00:00",
+          "snippet": "Eyes now on Viksit, net zero later :Can India achieve high-income status by 2047 without compromising on c The Economic Times",
+          "lexical_overlap": 0.118,
+          "relevance": 0.188,
           "matched_terms": [
             "net",
             "zero"
@@ -38274,7 +38324,7 @@
     },
     {
       "id": "b9925791859a267388",
-      "checked_at": "2026-10-12T16:11:20.867410+00:00",
+      "checked_at": "2026-10-16T04:29:50.178480+00:00",
       "promise_id": "BJP-2019-f5e9fc3b695ec48c9c",
       "year": 2019,
       "category": "other",
@@ -39854,7 +39904,7 @@
     },
     {
       "id": "5c3f80a489477e4507",
-      "checked_at": "2026-10-09T06:47:42.185589+00:00",
+      "checked_at": "2026-10-16T04:30:00.770511+00:00",
       "promise_id": "BJP-2019-0389b10cee6d9d2e40",
       "year": 2019,
       "category": "other",
@@ -41351,7 +41401,7 @@
     },
     {
       "id": "0764c49dce738dbbee",
-      "checked_at": "2026-10-15T23:42:27.872023+00:00",
+      "checked_at": "2026-10-16T04:29:27.001268+00:00",
       "promise_id": "BJP-2019-18c0750d5ed71bc3d1",
       "year": 2019,
       "category": "agriculture",
@@ -43066,7 +43116,7 @@
     },
     {
       "id": "f5811520c1d5623f19",
-      "checked_at": "2026-10-15T23:42:29.691448+00:00",
+      "checked_at": "2026-10-16T04:29:28.811531+00:00",
       "promise_id": "BJP-2019-1d3e95fa9344e842f3",
       "year": 2019,
       "category": "infrastructure",
@@ -43187,7 +43237,7 @@
     },
     {
       "id": "92d6920a15fb42f812",
-      "checked_at": "2026-10-15T23:42:48.277523+00:00",
+      "checked_at": "2026-10-16T04:29:48.532405+00:00",
       "promise_id": "BJP-2019-6abf03adda773fec98",
       "year": 2019,
       "category": "governance",
@@ -43236,17 +43286,17 @@
           ]
         },
         {
-          "id": "ec146c5b1ff7a5532d",
+          "id": "0e308bf369f796a031",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "PIB",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "Evidence-Based Rural Development Gets a Push with Rollout of First-Ever Panchayat Advancement Index (PAI) Baseline Report for FY 2022-23 - PIB",
+          "title": "Evidence-Based Rural Development Gets a Push with Rollout of First-Ever Panchayat Advancement Index (PAI) Baseline Report for FY 2022-23 - Press Information Bureau",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9aSkhNaGFxcWdiYmFZdzZyUHhVNXh5bXZlU0hSdWlsUW9qRXFIMXZ2N1h1MmtTRWFaOFA3T2k0ckszYWhhbHhsTDVQdWMzSzB4YVJxSGV1NEZVbE55aWJpTGxnYUJIWVZM?oc=5",
           "published_at": "2025-04-09T07:00:00+00:00",
-          "snippet": "Evidence-Based Rural Development Gets a Push with Rollout of First-Ever Panchayat Advancement Index (PAI) Baseline Report for FY 2022-23 PIB",
-          "lexical_overlap": 0.042,
-          "relevance": 0.237,
+          "snippet": "Evidence-Based Rural Development Gets a Push with Rollout of First-Ever Panchayat Advancement Index (PAI) Baseline Report for FY 2022-23 Press Information Bureau",
+          "lexical_overlap": 0.04,
+          "relevance": 0.235,
           "matched_terms": [
             "panchayat"
           ],
@@ -43938,8 +43988,8 @@
       }
     },
     {
-      "id": "4a2ec189d5c1de723b",
-      "checked_at": "2026-10-09T06:47:54.815688+00:00",
+      "id": "421c875ad634cd92dd",
+      "checked_at": "2026-10-16T04:30:15.485600+00:00",
       "promise_id": "BJP-2019-3c45b68370c531d63d",
       "year": 2019,
       "category": "technology_digital",
@@ -43965,28 +44015,28 @@
       "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
-      "query": "2024 150 centres has taken major step expanding",
+      "query": "150 2024 centres has taken major step expanding",
       "evidence": [
         {
-          "id": "4ebf3f8b7542d6e2e4",
+          "id": "50cc713cc70744604c",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "The World Economic Forum",
-          "source_url": "https://www.weforum.org",
-          "title": "ASEAN takes major step toward landmark digital economy pact - The World Economic Forum",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWlM5T2VSWjROZ2wwRWlrOUVLVEFvamRlclhzMmE5VF9GcVMtVng4YTU2N3NVMml5WlJDcDNiLXdSdzlMSXlDTWRuaDVDTVVZTkhPekswa3lLZmhEUEJXbFotX0NKdXRWYVBWYk4tZmI5aWItNVpqSVh6Q1dIWE0zQ09uWktxQXIyanZxeENVTFp6WVJBaEgtVA?oc=5",
-          "published_at": "2025-10-28T07:00:00+00:00",
-          "snippet": "ASEAN takes major step toward landmark digital economy pact The World Economic Forum",
-          "lexical_overlap": 0.105,
-          "relevance": 0.175,
+          "source": "Information Technology and Innovation Foundation",
+          "source_url": "https://itif.org",
+          "title": "How Innovative Is China in Semiconductors? | Reports & Briefings | Aug 19, 2024 - Information Technology and Innovation Foundation",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYnEwV3V3TURqQV9TbkNPWXN0TVJrRDE2VGRYX084TVo2LVRTWHZvQ2FUaHh2bVU5c2xhdzVncm5mck1BcXA3UjJPS3dBWklVbUVmM3ZDSC00SThiREdGTWYwSGxLNlhKSUo2SFBaT0FIaUlQYmVld1cwWFNfMmVHd09oUENwLWdoMUJN?oc=5",
+          "published_at": "2024-08-19T07:00:00+00:00",
+          "snippet": "How Innovative Is China in Semiconductors? | Reports & Briefings | Aug 19, 2024 Information Technology and Innovation Foundation",
+          "lexical_overlap": 0.053,
+          "relevance": 0.198,
           "matched_terms": [
-            "major",
-            "step"
+            "technology"
           ],
-          "shared_numbers": [],
+          "shared_numbers": [
+            "2024"
+          ],
           "promise_core_overlap": [
-            "major",
-            "step"
+            "technology"
           ]
         }
       ],
@@ -44151,7 +44201,7 @@
     },
     {
       "id": "68d28911bee98084ff",
-      "checked_at": "2026-10-09T06:47:51.762013+00:00",
+      "checked_at": "2026-10-16T04:30:11.878778+00:00",
       "promise_id": "BJP-2019-f8ccebbec4b31338a5",
       "year": 2019,
       "category": "jobs_economy",
@@ -44198,25 +44248,25 @@
       "query": "next five global manufacturing hub ease",
       "evidence": [
         {
-          "id": "2b0f5c28bd01e40187",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Invest India",
-          "source_url": "https://www.investindia.gov.in",
-          "title": "Five reasons why India is set to lead the global renewable energy revolution - Invest India",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQT1NYUW9rSFVNV0s4LTFzdU9qekdaTGcyVEVfaEdHUUtNeTltTnhPMFkxT1dQamk2aVJBU3lQXzRJQmJuay1JVFVoQm9TTThLSWh4b3lHenNGaHp1ZzhZbkFmdktyUXVwWXhZQVY0VFhuVElTVjRyNDFvaHFLYXNPX25RMHc2S2l0RnJITVItT2FJWWdsdkE3Tzhya28yZ3NxYzFmOXpzVF9xcWQwU1ZTVHBLRUs?oc=5",
-          "published_at": "2025-12-19T08:00:00+00:00",
-          "snippet": "Five reasons why India is set to lead the global renewable energy revolution Invest India",
-          "lexical_overlap": 0.1,
-          "relevance": 0.17,
+          "id": "6ffa9a784d07ae82e9",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Union Budget FY 2026-27: Manufacturing Sector Driving India’s Next Growth Phase - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB4NFFUZllTdFRsVGh6TnRLRFNwb1BualY0WTdnZWZJOUNmNEFjMXRQTm5oVVVTOE94UXFFRWxNMFR3VFg3MDdMbkl0VWpUNXlzLVFpVWdrVXBwVVZvQk02WVpwYTVHT0dP?oc=5",
+          "published_at": "2026-02-12T08:00:00+00:00",
+          "snippet": "Union Budget FY 2026-27: Manufacturing Sector Driving India’s Next Growth Phase Press Information Bureau",
+          "lexical_overlap": 0.091,
+          "relevance": 0.211,
           "matched_terms": [
-            "five",
-            "global"
+            "manufacturing",
+            "next"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "five",
-            "global"
+            "manufacturing",
+            "next"
           ]
         }
       ],
@@ -44641,8 +44691,8 @@
       }
     },
     {
-      "id": "913f56aa7ef9e35500",
-      "checked_at": "2026-10-12T16:11:22.422628+00:00",
+      "id": "e100109a4bf5fc7b73",
+      "checked_at": "2026-10-16T04:29:51.836957+00:00",
       "promise_id": "BJP-2019-4357cbd85941615f63",
       "year": 2019,
       "category": "education_skills",
@@ -44671,7 +44721,7 @@
       "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
-      "query": "2024 500 crore stafiups stafi-ups innovation entrepreneurship initiating",
+      "query": "100 500 crore stafiups stafi-ups innovation entrepreneurship initiating",
       "evidence": [],
       "implementation_signal": "needs_research",
       "status": "pending",
@@ -46397,7 +46447,7 @@
     },
     {
       "id": "1e0abc9f94016f3c7a",
-      "checked_at": "2026-10-15T23:42:31.105674+00:00",
+      "checked_at": "2026-10-16T04:29:30.207933+00:00",
       "promise_id": "BJP-2019-2af396deaf778cac73",
       "year": 2019,
       "category": "infrastructure",
@@ -46482,7 +46532,7 @@
     },
     {
       "id": "4af70c5cc4e5dd31ea",
-      "checked_at": "2026-10-15T23:42:38.063197+00:00",
+      "checked_at": "2026-10-16T04:29:37.602751+00:00",
       "promise_id": "BJP-2019-34c03859f07f1329c5",
       "year": 2019,
       "category": "infrastructure",
@@ -46542,30 +46592,6 @@
           "snippet": "India’s Dedicated Freight Corridor Program: Progress and Prospects India Briefing",
           "lexical_overlap": 0.273,
           "relevance": 0.378,
-          "matched_terms": [
-            "corridor",
-            "dedicated",
-            "freight"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "corridor",
-            "dedicated",
-            "freight"
-          ]
-        },
-        {
-          "id": "3ca72531dcd6516972",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Urban Acres",
-          "source_url": "https://urbanacres.in",
-          "title": "Dedicated Freight Corridor Network Now Fully Operational - Urban Acres",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNT1RGZ3paMlFlUGpFRmRqekp3ZVNJaE11SFRCVDl3UGl2YXZOY3d3VUpDM3BuWnljRlMwXzhiWThEdDBaNzZpY3ZCaGQ1VzlYVzMyOWxfTm91em5fdFhkRGxjOGhZbmFMYnJBVWJ3ZlZkSXNDMHNkd2RGai1ZMThUczRzdnZNRTZ3UlJXT21Ka0hoOERjdVE?oc=5",
-          "published_at": "2026-09-08T07:00:00+00:00",
-          "snippet": "Dedicated Freight Corridor Network Now Fully Operational Urban Acres",
-          "lexical_overlap": 0.231,
-          "relevance": 0.336,
           "matched_terms": [
             "corridor",
             "dedicated",
@@ -46952,7 +46978,7 @@
     },
     {
       "id": "c1c807d23f10102201",
-      "checked_at": "2026-10-09T06:47:44.881869+00:00",
+      "checked_at": "2026-10-16T04:30:04.215760+00:00",
       "promise_id": "BJP-2019-6e8e61a8637ec76404",
       "year": 2019,
       "category": "infrastructure",
@@ -47902,8 +47928,8 @@
       }
     },
     {
-      "id": "4174ccf7e587031cf8",
-      "checked_at": "2026-10-09T06:47:57.010062+00:00",
+      "id": "c23b1885243f2970e8",
+      "checked_at": "2026-10-16T04:30:18.063015+00:00",
       "promise_id": "BJP-2019-bcaa1e38cde49bfd63",
       "year": 2019,
       "category": "environment",
@@ -47930,20 +47956,44 @@
       "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
-      "query": "76.87 175 gw have achieved cumulative installed renewable",
+      "query": "2022 175 gw have achieved cumulative installed renewable",
       "evidence": [
         {
-          "id": "298aa336dfa27716b6",
+          "id": "cfbcbd4d53483660ea",
           "scope": "preferred_official_search",
           "tier": "primary",
           "source": "PIB",
           "source_url": "https://www.pib.gov.in",
-          "title": "India's Renewable Energy Capacity Hits New Milestone - PIB",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9RTGF6dzNfVENvajJsQk55UUV0c3AyMklrVFlXb3pwVmpmTE9yWk5IZkNkLUhsWFVMX3JSS2JnNllndkRhc2phVFY2Q3BQS285RGk0b1BRQ3Z1dktfRzFCX3JpNXpYdGZEY2poYklsMUM?oc=5",
-          "published_at": "2024-11-13T08:00:00+00:00",
-          "snippet": "India's Renewable Energy Capacity Hits New Milestone PIB",
-          "lexical_overlap": 0.2,
-          "relevance": 0.355,
+          "title": "Renewable Energy Sector Makes rapid Strides in 2019 - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5VMzVHX0lDUHl0QWg0QksxckNMUVY5VUZTYnd5MXNPcDdNX21LWkNmUW9CZUUybjY4NURVV1oxQWN1TTJPTUplaEpJSVdyUHY2S25RUXc0MU1Cek1MbUhWMk9qR3J5T2hx?oc=5",
+          "published_at": "2020-01-09T08:00:00+00:00",
+          "snippet": "Renewable Energy Sector Makes rapid Strides in 2019 PIB",
+          "lexical_overlap": 0.118,
+          "relevance": 0.348,
+          "matched_terms": [
+            "energy",
+            "renewable"
+          ],
+          "shared_numbers": [
+            "2019"
+          ],
+          "promise_core_overlap": [
+            "energy",
+            "renewable"
+          ]
+        },
+        {
+          "id": "a1da2d99996da28693",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Power generation capacity from renewable energy sources - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5sRUlXZFB1NldKR3hXTFI2SGNTSHJucVNyNVFWcms3eGtMMUtGaW1kRDRoMWctSzJOb01xOVJWelpUd285RXdoZmktdTltY2pTSl95ZDFPbnlhRDVTbjVmcGI2bC1XNVdKTGc?oc=5",
+          "published_at": "2025-05-19T18:08:08+00:00",
+          "snippet": "Power generation capacity from renewable energy sources PIB",
+          "lexical_overlap": 0.188,
+          "relevance": 0.342,
           "matched_terms": [
             "capacity",
             "energy",
@@ -47952,6 +48002,52 @@
           "shared_numbers": [],
           "promise_core_overlap": [
             "capacity",
+            "energy",
+            "renewable"
+          ]
+        },
+        {
+          "id": "97a564fa72ca9f3d2d",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "India's Renewable Energy Capacity Hits New Milestone - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9RTGF6dzNfVENvajJsQk55UUV0c3AyMklrVFlXb3pwVmpmTE9yWk5IZkNkLUhsWFVMX3JSS2JnNllndkRhc2phVFY2Q3BQS285RGk0b1BRQ3Z1dktfRzFCX3JpNXpYdGZEY2poYklsMUM?oc=5",
+          "published_at": "2024-11-13T08:00:00+00:00",
+          "snippet": "India's Renewable Energy Capacity Hits New Milestone Press Information Bureau",
+          "lexical_overlap": 0.176,
+          "relevance": 0.331,
+          "matched_terms": [
+            "capacity",
+            "energy",
+            "renewable"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "capacity",
+            "energy",
+            "renewable"
+          ]
+        },
+        {
+          "id": "eebbe8bec31c3a51c9",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "India undertaking one of the world’s largest renewable energy expansion programmes - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8tQXpIMDJSb0tGcDJYMzJ5QllJcDQ0ZFFxLS1wNDZVNUdVWkxwMGQxelJtT0xuV3J2Sy1BZlBNcjZsMFVmMHZydFFzdUx1M2w4M1FUWTdubnN1MzF3bGVkaXdyWjFCbVl2?oc=5",
+          "published_at": "2019-07-04T07:00:00+00:00",
+          "snippet": "India undertaking one of the world’s largest renewable energy expansion programmes PIB",
+          "lexical_overlap": 0.105,
+          "relevance": 0.225,
+          "matched_terms": [
+            "energy",
+            "renewable"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
             "energy",
             "renewable"
           ]
@@ -48003,6 +48099,51 @@
           "promise_core_overlap": [
             "energy",
             "renewable"
+          ]
+        },
+        {
+          "id": "12c58163bbca3434c2",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "India achieved Historic milestone in power sector: Surpasses 500 GW and Renewable Generation Exceeds 50% of demand - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1UX2JLT2xlUlp5N243eFFmMjBLR1IxV3dJWkg1S2J4cjAwSk1BS2ZhWU02aDlsX3FJdXY0MlRTZkY1dm1pSE8zUWljU0wwZGxsM1YxY2RWMHhIMEJHcEp4SmFvc0wzZ3pq?oc=5",
+          "published_at": "2025-10-29T07:00:00+00:00",
+          "snippet": "India achieved Historic milestone in power sector: Surpasses 500 GW and Renewable Generation Exceeds 50% of demand Press Information Bureau",
+          "lexical_overlap": 0.13,
+          "relevance": 0.235,
+          "matched_terms": [
+            "achieved",
+            "gw",
+            "renewable"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "achieved",
+            "renewable"
+          ]
+        },
+        {
+          "id": "239153fa711005f3fc",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Hindu",
+          "source_url": "https://www.thehindu.com",
+          "title": "India misses RE capacity target due to low solar rooftop, wind energy project installations: Parliamentary panel - The Hindu",
+          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPUGVVVV9SNy1CbXN1ZXBMcHR2N2ZNOG1Ia1RsWDFrODc1ak5ZNk1Sdzc4UHI1cWNaRXhCMWU4c0NyX1ZkV2xrZDhyVXVMZENoRG9PU2Q4TFdQY2g3SW1Ta2JNR2tNdHgzVDg2MFl3ZmxGMnNMcjhFZkRRTzlJY3VlcEl2cjFNZS16VW1WQVQ0TEFSc2Q2bVBwQTJGWndBRHdUS28weUp3LWJrTnJZQlNIMlN3MzM0ZzA5R0JXR3h4VE96ZTctUGVVN3dVaUxtUk1UUVcweG9ZR0xaczlNU0w3Rk9Kd3d0aGh0SHZMWDFlYnZNRkZSaVA0SkQwNEhJdWVpR3BqWVg5dzJoT3FhSGo3UHdPUnRZZ9IBnAJBVV95cUxQbU9iX0M4ckVyQ3hMVlZpQjNKbzRkMWxVVUM0WFJkcE9TbTFGRjZ0NzRQWW1PdHlJajFXdFd2MkRZVlZKQ0NqNjdxQlowV1hoOTdvN2JlSkpPRzJxaUZtdFpmUmdsdldwaWFlc1ZoelBuaG9rWW5SQmIzdHc0LVQ3M0QtLVptVGY1a2hMX3J1bUN5N1FHaGk2dDVhZ01KRGdHcHhOY0JCR0xlWEVrOWhScklRX1N0aXl4UFA4WlFEMEd3cmZ3azN1aEVETG1QenFCWUR5U0NkcXVvZGtMMU4zUml2UWJFYXNmZUxtWmJUY3lyRXI2ZHBGcFB4WGQwd3V4bVhvYjFmUEZGbnlua0Q5VEpKcG1kV2RUdDNRZQ?oc=5",
+          "published_at": "2023-03-22T07:00:00+00:00",
+          "snippet": "India misses RE capacity target due to low solar rooftop, wind energy project installations: Parliamentary panel The Hindu",
+          "lexical_overlap": 0.08,
+          "relevance": 0.15,
+          "matched_terms": [
+            "capacity",
+            "energy"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "capacity",
+            "energy"
           ]
         }
       ],
@@ -48628,7 +48769,7 @@
     },
     {
       "id": "93bb9754ab7125c8f1",
-      "checked_at": "2026-10-15T23:42:43.234842+00:00",
+      "checked_at": "2026-10-16T04:29:43.164813+00:00",
       "promise_id": "BJP-2019-6013bbae5c9fbd8c5a",
       "year": 2019,
       "category": "women_social_justice",
@@ -48694,7 +48835,7 @@
     },
     {
       "id": "1d1782ad81aa54afcd",
-      "checked_at": "2026-10-15T23:42:45.658757+00:00",
+      "checked_at": "2026-10-16T04:29:45.756201+00:00",
       "promise_id": "BJP-2019-63e2ccda189fa85e2c",
       "year": 2019,
       "category": "health_welfare",
@@ -48735,7 +48876,7 @@
     },
     {
       "id": "daeaf98af0fd8a63ad",
-      "checked_at": "2026-10-09T06:47:48.445530+00:00",
+      "checked_at": "2026-10-16T04:30:08.268532+00:00",
       "promise_id": "BJP-2019-82831dc7198a486dd0",
       "year": 2019,
       "category": "education_skills",
@@ -48784,6 +48925,30 @@
           ]
         },
         {
+          "id": "8bc45837c080bd943c",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Hays Post",
+          "source_url": "https://hayspost.com",
+          "title": "Funding for new Chiefs stadium moves forward, setting sales tax revenue district - Hays Post",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5sTEtnaUpHNjEzLUk0QWJiS0c3TEJ6TE9DYkt1UG5Wem1UaVk1VFFpcGxneDZhbWJmOGNxbVpTbG9zOEp2cm4tQlVSalN5X0RxRjl4RkJPMk9hVTZOdkoyLTlfQ2tWb0xFTm1ma05WRHI?oc=5",
+          "published_at": "2026-10-15T19:36:58+00:00",
+          "snippet": "Funding for new Chiefs stadium moves forward, setting sales tax revenue district Hays Post",
+          "lexical_overlap": 0.143,
+          "relevance": 0.248,
+          "matched_terms": [
+            "district",
+            "forward",
+            "post"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "district",
+            "forward",
+            "post"
+          ]
+        },
+        {
           "id": "92f714320b279ecff8",
           "scope": "news_search",
           "tier": "secondary",
@@ -48804,9 +48969,31 @@
             "forward",
             "medical"
           ]
+        },
+        {
+          "id": "6e88aecee11ed0f6b2",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Washington Post",
+          "source_url": "https://www.washingtonpost.com",
+          "title": "A toddler’s wobbly walk, hand tremors send parents on a medical journey - The Washington Post",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQc05uV00tMU1aZ1kwUE1OODY5SXFJbW96WVl3QVA4YlowLWx3Y2pVZWctTVB2MFcwM3l4eDh4TG93MGI0dzBXQUw5VW1lZ1hmampvMjRRNFk0SmtNMTBzajYzSVlScTQ4S3BsT09CVlhBVzh1eW1CMHUtTEdqOFh2REhWOFVzUDZiSGoxSnZaa2k2a1VZV0FwNlhhbmtTTUdrWFlSMGN5b0hHSGdmcTFHYWxR?oc=5",
+          "published_at": "2026-10-03T07:00:00+00:00",
+          "snippet": "A toddler’s wobbly walk, hand tremors send parents on a medical journey The Washington Post",
+          "lexical_overlap": 0.095,
+          "relevance": 0.165,
+          "matched_terms": [
+            "medical",
+            "post"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "medical",
+            "post"
+          ]
         }
       ],
-      "implementation_signal": "needs_research",
+      "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -53671,7 +53858,7 @@
     },
     {
       "id": "21c782a6ad2ecb8987",
-      "checked_at": "2026-10-15T23:42:34.425100+00:00",
+      "checked_at": "2026-10-16T04:29:34.084089+00:00",
       "promise_id": "BJP-2019-2cfa1375f165d41707",
       "year": 2019,
       "category": "other",
@@ -54827,7 +55014,7 @@
     },
     {
       "id": "c1714de453cbe44257",
-      "checked_at": "2026-10-09T06:48:09.018504+00:00",
+      "checked_at": "2026-10-16T04:30:31.986467+00:00",
       "promise_id": "BJP-2019-177abae310a4a1867d",
       "year": 2019,
       "category": "jobs_economy",
@@ -54854,17 +55041,17 @@
       "query": "50000 tribal van dhan vikas kendras areas",
       "evidence": [
         {
-          "id": "561ac52ec2a8348703",
+          "id": "efc4b64fd9486d493b",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "PIB",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "Van Dhan Vikas Yojana – Promoting and backing tribal entrepreneurship - PIB",
+          "title": "Van Dhan Vikas Yojana – Promoting and backing tribal entrepreneurship - Press Information Bureau",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9sWG84Q0cyN3hwTGs1d1R0QmtQckFmVm5lVThnQVBlLXhtSnVIYTR4czRINUt4aXRVOXY0X1dBcl9IVTE1eGFyVW5UcGotWVpuZV9GX0FacXBuR1VRUHhnZ29taHBxcnd3?oc=5",
           "published_at": "2021-04-16T07:00:00+00:00",
-          "snippet": "Van Dhan Vikas Yojana – Promoting and backing tribal entrepreneurship PIB",
-          "lexical_overlap": 0.235,
-          "relevance": 0.425,
+          "snippet": "Van Dhan Vikas Yojana – Promoting and backing tribal entrepreneurship Press Information Bureau",
+          "lexical_overlap": 0.211,
+          "relevance": 0.401,
           "matched_terms": [
             "dhan",
             "tribal",
@@ -54979,17 +55166,40 @@
           ]
         },
         {
-          "id": "af2f461d5b4e5b8bb7",
+          "id": "e1d5c272af9cebd248",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Van Dhan Clusters from Wokha, Nagaland are driving tribal entrepreneurship - PIB",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1LSC05Sm8yb3F6bmljNWZtZnNrV1g5dERNVlBlbE5Hczc1WmRhYVVYSkFNa2pvTzdjYWJjMTIzX1lOemE5WGNsSGFvV2d2Y2xrR3JFYnlxUjNTMDRaZUVCRW1KS3p2UDE5QkttdHNn?oc=5",
-          "published_at": "2021-11-26T08:00:00+00:00",
-          "snippet": "Van Dhan Clusters from Wokha, Nagaland are driving tribal entrepreneurship PIB",
+          "source": "IMPRI Impact and Policy Research Institute",
+          "source_url": "https://www.impriindia.com",
+          "title": "Van Dhan Vikas Yojana - IMPRI Impact and Policy Research Institute",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBmS09TZGxoNnFLMDUwYlRKQURvdWtUbGVwd21ESmx0NWFRN2RudmlxSnZDVExsckhTTmtZYzBjTUJwMlk5U1FXdWFkekdCTzhPeHhvS2ttMW13YTlRTVIyVHR2Z29FWndBU1FGM3JMMGZ1dExKYmFOMUFrN1E?oc=5",
+          "published_at": "2026-06-15T07:00:00+00:00",
+          "snippet": "Van Dhan Vikas Yojana IMPRI Impact and Policy Research Institute",
           "lexical_overlap": 0.167,
           "relevance": 0.272,
+          "matched_terms": [
+            "dhan",
+            "van",
+            "vikas"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "dhan",
+            "vikas"
+          ]
+        },
+        {
+          "id": "7fe487813fa3accece",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Van Dhan Clusters from Wokha, Nagaland are driving tribal entrepreneurship - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1LSC05Sm8yb3F6bmljNWZtZnNrV1g5dERNVlBlbE5Hczc1WmRhYVVYSkFNa2pvTzdjYWJjMTIzX1lOemE5WGNsSGFvV2d2Y2xrR3JFYnlxUjNTMDRaZUVCRW1KS3p2UDE5QkttdHNn?oc=5",
+          "published_at": "2021-11-26T08:00:00+00:00",
+          "snippet": "Van Dhan Clusters from Wokha, Nagaland are driving tribal entrepreneurship Press Information Bureau",
+          "lexical_overlap": 0.15,
+          "relevance": 0.255,
           "matched_terms": [
             "dhan",
             "tribal",
@@ -55010,7 +55220,7 @@
         "status": "progress_documented",
         "deadline_year": null,
         "proof_strength": "verified_primary_action_with_object_overlap",
-        "proof_evidence_id": "561ac52ec2a8348703",
+        "proof_evidence_id": "efc4b64fd9486d493b",
         "proof": null,
         "reason": "Verified primary evidence overlaps the subject of the promise and documents implementation activity, but not the promised outcome."
       }
@@ -55056,7 +55266,7 @@
     },
     {
       "id": "09db92a7679f9e887b",
-      "checked_at": "2026-10-15T23:42:40.155460+00:00",
+      "checked_at": "2026-10-16T04:29:39.677844+00:00",
       "promise_id": "BJP-2019-4fc8289de8caed52ff",
       "year": 2019,
       "category": "other",
@@ -60407,7 +60617,7 @@
     },
     {
       "id": "df076e7dea8ba67624",
-      "checked_at": "2026-10-15T23:42:51.006247+00:00",
+      "checked_at": "2026-10-16T04:29:55.284509+00:00",
       "promise_id": "BJP-2014-078252941779345656",
       "year": 2014,
       "category": "women_social_justice",
