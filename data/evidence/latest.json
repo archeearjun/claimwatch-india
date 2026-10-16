@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T14:52:19.094427+00:00",
+  "generated_at": "2026-10-16T17:00:53.544219+00:00",
   "capabilities": {
     "official_evidence_search": true,
     "verified_primary_gate": true,
@@ -17,7 +17,7 @@
     "promise_total_candidates": 841,
     "promise_coverage_pct": 100.6,
     "primary_candidates": 489,
-    "secondary_candidates": 1056,
+    "secondary_candidates": 1053,
     "prior_fact_checks": 0,
     "publishable_auto_verdicts": 0,
     "claim_verdicts": {
@@ -159,11 +159,30 @@
         "30"
       ],
       "promise_matches": [],
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "cd36b56771c49e93b5",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Ahmedabad Mirror",
+          "source_url": "https://www.ahmedabadmirror.com",
+          "title": "Divyenndu reflects on his journey - Ahmedabad Mirror",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdHRsNzBfaUl5NWVzVzRUaUlFdUFVV0luS1RaRlB6TG1hZDc5MUpjZ0lxSXpaTnBRUnowaHlTcTFTYmozejVFalJPM0k3UDNJTWZFak5HYTVvV1k2MWRUN2ZxUGFObEVBeVpMX1FDbUhKWVd5ZnRmdWlLV0pBdEFLQWthY0FUNWw0ZU0wbUdKSFNSLUJpOGRZeXFWa2JRQ09vVXc?oc=5",
+          "published_at": "2026-05-24T07:00:00+00:00",
+          "snippet": "Divyenndu reflects on his journey Ahmedabad Mirror",
+          "lexical_overlap": 0.182,
+          "relevance": 0.252,
+          "matched_terms": [
+            "his",
+            "journey"
+          ],
+          "shared_numbers": []
+        }
+      ],
       "fact_checks": [],
       "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
+        "level": "reporting_found",
+        "label": "Relevant reporting found; primary evidence still needed",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -442,11 +461,30 @@
       "query": "than five hundred million users not",
       "numbers": [],
       "promise_matches": [],
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "66121bdb06db96cdc4",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "OpenAI",
+          "source_url": "https://openai.com",
+          "title": "Scaling PostgreSQL to power 800 million ChatGPT users - OpenAI",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9hLWhKaWFiOWZVUUloMWR6bGQtcEVzLWF0WERBN3ZUeTlGZEY5QnFFdzB4XzhXaHNoS2lvVnJmVjlaa3FpYTEzdTZiQW9nYzgxN183VXp4NA?oc=5",
+          "published_at": "2026-01-22T08:00:00+00:00",
+          "snippet": "Scaling PostgreSQL to power 800 million ChatGPT users OpenAI",
+          "lexical_overlap": 0.118,
+          "relevance": 0.188,
+          "matched_terms": [
+            "million",
+            "users"
+          ],
+          "shared_numbers": []
+        }
+      ],
       "fact_checks": [],
       "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
+        "level": "reporting_found",
+        "label": "Relevant reporting found; primary evidence still needed",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -855,24 +893,6 @@
           }
         },
         {
-          "id": "bdcb80f0ce7e6ba6dc",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Government recognizes more than 55,200 startups during FY 2025-26, highest ever in a single year since launch of Startup India initiative - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE83QU9TcGJnRnlDS1lUbkU0LXVlOVhxeWltRm5iMFFjazM3d2JpWDlZeHFJa1VNN2FIMnhyXy1LNDlnS1BDRWpDaVhZVTR2bEZsNU1peVFxY3huRnBaNXA2VEVxX1NrUGJmMm5ELVhpaEg4bzZIUXhLX09B?oc=5",
-          "published_at": "2026-04-18T11:32:10+00:00",
-          "snippet": "Government recognizes more than 55,200 startups during FY 2025-26, highest ever in a single year since launch of Startup India initiative Press Information Bureau",
-          "lexical_overlap": 0.087,
-          "relevance": 0.207,
-          "matched_terms": [
-            "startups",
-            "than"
-          ],
-          "shared_numbers": []
-        },
-        {
           "id": "91234e8d9fda71d0cf",
           "scope": "news_search",
           "tier": "secondary",
@@ -1056,7 +1076,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-16T14:51:14.251191+00:00",
+      "latest_checked_at": "2026-10-16T16:59:58.907541+00:00",
       "latest_claim_packet_id": "7b037d2dee45e0641b"
     },
     {
@@ -1170,13 +1190,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "needs_research",
+      "evidence_state": "reporting_found",
       "human_reviewed": false,
       "created_at": "2026-10-14T13:43:38.834316+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-16T14:51:14.251161+00:00",
+      "latest_checked_at": "2026-10-16T16:59:58.907517+00:00",
       "latest_claim_packet_id": "b9c2b1070d3a92b3e9"
     },
     {
@@ -1200,7 +1220,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-16T14:51:14.251215+00:00",
+      "latest_checked_at": "2026-10-16T16:59:58.907559+00:00",
       "latest_claim_packet_id": "497f5d9cb27d070bb6"
     },
     {
@@ -1224,7 +1244,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-16T14:51:14.251128+00:00",
+      "latest_checked_at": "2026-10-16T16:59:58.907493+00:00",
       "latest_claim_packet_id": "3fe413ee0ae3f4f61a"
     },
     {
@@ -1248,7 +1268,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-16T14:51:14.251035+00:00",
+      "latest_checked_at": "2026-10-16T16:59:58.907426+00:00",
       "latest_claim_packet_id": "9b5ed131949ff05d1c"
     },
     {
@@ -1368,7 +1388,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-16T14:51:14.251110+00:00",
+      "latest_checked_at": "2026-10-16T16:59:58.907481+00:00",
       "latest_claim_packet_id": "5d0783ea8592694b2a"
     },
     {
@@ -1416,7 +1436,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-16T14:51:14.251176+00:00",
+      "latest_checked_at": "2026-10-16T16:59:58.907529+00:00",
       "latest_claim_packet_id": "f5c78f40d1b6a90ec6"
     },
     {
@@ -1536,7 +1556,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-16T14:51:14.251204+00:00",
+      "latest_checked_at": "2026-10-16T16:59:58.907551+00:00",
       "latest_claim_packet_id": "ee94822e64ae98ad8f"
     },
     {
@@ -1560,7 +1580,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-16T14:51:14.251262+00:00",
+      "latest_checked_at": "2026-10-16T16:59:58.907607+00:00",
       "latest_claim_packet_id": "5860f9365178448af5"
     },
     {
@@ -1632,7 +1652,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-16T14:51:14.251145+00:00",
+      "latest_checked_at": "2026-10-16T16:59:58.907506+00:00",
       "latest_claim_packet_id": "53bcf8a853337194f0"
     },
     {
@@ -1704,7 +1724,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-16T14:51:14.251249+00:00",
+      "latest_checked_at": "2026-10-16T16:59:58.907597+00:00",
       "latest_claim_packet_id": "864cecb3d0726343a3"
     },
     {
@@ -1752,7 +1772,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-16T14:51:14.251237+00:00",
+      "latest_checked_at": "2026-10-16T16:59:58.907587+00:00",
       "latest_claim_packet_id": "bcb73e763cd8cb466c"
     },
     {
@@ -1842,13 +1862,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "needs_research",
+      "evidence_state": "reporting_found",
       "human_reviewed": false,
       "created_at": "2026-10-14T13:43:38.772524+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-16T14:51:14.251069+00:00",
+      "latest_checked_at": "2026-10-16T16:59:58.907464+00:00",
       "latest_claim_packet_id": "20063841e36e8db66d"
     },
     {
@@ -2235,7 +2255,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-13T06:13:56+00:00",
       "last_seen": "2026-10-13T06:13:56+00:00",
-      "latest_checked_at": "2026-10-16T14:51:14.251226+00:00",
+      "latest_checked_at": "2026-10-16T16:59:58.907578+00:00",
       "latest_claim_packet_id": "b22c414b92abe14a3c"
     },
     {
@@ -32094,7 +32114,7 @@
     },
     {
       "id": "cd4bcb17302ae502a0",
-      "checked_at": "2026-10-14T22:19:25.498046+00:00",
+      "checked_at": "2026-10-16T17:00:30.252509+00:00",
       "promise_id": "BJP-2024-f93bfcec71bc2b3a83",
       "year": 2024,
       "category": "women_social_justice",
@@ -32118,6 +32138,34 @@
       "related_promises": [],
       "query": "jan aushadhi medicines expanding kendras affordable",
       "evidence": [
+        {
+          "id": "7d7c08f6196da60461",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "DD News",
+          "source_url": "https://ddnews.gov.in",
+          "title": "Govt targets 25,000 Jan Aushadhi Kendras by March 2027 to expand access to affordable medicines - DD News",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZHUxUTlsd0ZWQjY5SEN2Nno4RGdxSHhXWVpzLUdQdloxanZRNUw3MmJGU3FTYTBDN1pJTkRRNktPcnYyQlltY1hQWUlfemo1Zm1rRjJuVmJ3cGRBRlJsNWVVa2xjUXNNc2lnTUdLS0JtamdfOFY3MlFnYnBpNlhMaEVlcVFJUHJ5NmI1elRRZEhsbG05Q19kN3A1SUh5QkFrQTJVOWhncHByZW9mZUN3QmdNb0VQOGp3QlhCOQ?oc=5",
+          "published_at": "2025-12-16T08:00:00+00:00",
+          "snippet": "Govt targets 25,000 Jan Aushadhi Kendras by March 2027 to expand access to affordable medicines DD News",
+          "lexical_overlap": 0.333,
+          "relevance": 0.563,
+          "matched_terms": [
+            "affordable",
+            "aushadhi",
+            "expand",
+            "jan",
+            "kendras",
+            "medicines"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "affordable",
+            "aushadhi",
+            "kendras",
+            "medicines"
+          ]
+        },
         {
           "id": "f657028fc7d78bf2ed",
           "scope": "broad_official_search",
@@ -32218,15 +32266,15 @@
           ]
         },
         {
-          "id": "1d29151e4827cbd8fa",
+          "id": "7321e1deead0897729",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "DD India",
-          "source_url": "https://ddindia.co.in",
-          "title": "Jan Aushadhi Kendras deliver Rs 45,000 crore savings in 12 years - DD India",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNU2JfQVBjc200WWZDVHVkNVRyVGdLVUg2RjdVRmdOa0c4VktWVkNhakp3cVFJa283NENjNkxIN29kWU11Qy1uaGRkVzVnbm9DWTR2QUhfb2JBekF2Yl9yVzZWQWdqd25wd2IxNVJjQ2pCNE56TDk3WVJNbVBmby1CYzVSUF9UQU1ueWsxRGtZbS1BbEtzdkNnbFBB?oc=5",
-          "published_at": "2026-07-24T07:00:00+00:00",
-          "snippet": "Jan Aushadhi Kendras deliver Rs 45,000 crore savings in 12 years DD India",
+          "source": "The Statesman",
+          "source_url": "https://www.thestatesman.com",
+          "title": "Govt aims to open 25,000 Jan Aushadhi Kendras by March 2027 - The Statesman",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQV2ZVMGRaNzVjdXlyY2VYUzZnV2xNb3lWX1BDU29EMjNtMHhvS0NrTFlBQmRMT29xQWNjRkZaWUJLZDVYYWppWk9wa3Y3dldEdlZkRTVac2xCWkNDaVdybDZYbHFGek5JdUlxNWp2SFpld2RVbnJJSm83dHNfMGJtMWJRODlIcGxQVGotMXI0ZWRXdVFkTHRCRUVtRU1xUFV1RklySk9LN2M5X3RGN1HSAbMBQVVfeXFMTVZCQnFldnBmbndkeEZOb2x0T0pNQndFWmVzOUdZT3FnWWpGd1Z3UDBRLWcyQTNHNlhYTGlrWm5qMkpwR09ha0VYdTlnYnBNTTA5V0NfLXU3ZEdicVpnS3N6Nm95eWdnRk93bl9fR25OZWJ6bWpoQ0NBdlVseE9OV0JlcjRyOUZjY1ctZ0hGS293VWE0R3lUbVhyU0dOMVQ3X3BqNnlvY051aHkzNFdpdm9LVkk?oc=5",
+          "published_at": "2026-03-07T08:00:00+00:00",
+          "snippet": "Govt aims to open 25,000 Jan Aushadhi Kendras by March 2027 The Statesman",
           "lexical_overlap": 0.176,
           "relevance": 0.281,
           "matched_terms": [
@@ -32241,52 +32289,6 @@
           ]
         },
         {
-          "id": "d0278634a64ce6cc22",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Business Today",
-          "source_url": "https://www.businesstoday.in",
-          "title": "The cheap medicines at Jan Aushadhi stores to face quality checks as govt expands pharmacovigilance - Business Today",
-          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNRjFyWTZ3ZmhlVHBKcFRyMDR2U0VXd1g1a1JhLXFMLUdtQnl1QUdPQmxRWGFOVlB6UTZsMFYtQ0xhc05uYmFNRGVnMDZ1eC03aVpGMG5jSEg2b0lEZmdsdGhlelZjd1plQjBDLW4teXZjX05yNXBFaUMwQXhmZ3gtNFVieWZtcHVPRkxGNHNJNm1qS1RFQWJ0bWQzVXZ3V2VLV1pNcjhrR0prNEY4cklRTUxGQ2xrNGMxVUxzLWtBUlVTODdEM1I2UllUUEcyWWlSeXBPZmMtZjNHM3hQWHVPR3M4MF9UUVN3OFRoamlIb0xIUXV6eE1LWnpLcWbSAYICQVVfeXFMTjlLazRsblYwa1ZYYUh1dHAyZTdZTmFSUlZqX0p2RzRDUmIyV2dwWHdiMzVrcXp1dGJobE9qODNfWkJNTE9SVzFlXzEtRDE3aWVpZm1jRXBzbTYyNTNYMENhcExCQ3p0bUxWSVZKZWpDVTdwV2dGZjhPZEtmMktzUXphdFVOYnRkT3FtcE5aTVdKTzVIcDFBaU9ZcTI1Xy1CbzQ1dEI5OUVfSG5sdUpxdVJmSHBRQkZqb0dYSFczRjdUYk1MUlhWWUxrSnhrQVRNQlJ0RmNKMkVqSmQ4SmNhNGNBbzVwdHkzamtMVXJyTF82OGNOQ2FUellWOE1hdk9QN2xn?oc=5",
-          "published_at": "2026-04-24T07:00:00+00:00",
-          "snippet": "The cheap medicines at Jan Aushadhi stores to face quality checks as govt expands pharmacovigilance Business Today",
-          "lexical_overlap": 0.143,
-          "relevance": 0.248,
-          "matched_terms": [
-            "aushadhi",
-            "jan",
-            "medicines"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "aushadhi",
-            "medicines"
-          ]
-        },
-        {
-          "id": "eec1f0d4dfd8284939",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Jharkhand State News",
-          "source_url": "https://jharkhandstatenews.com",
-          "title": "Explained:Janaushadhi Kendras provide affordable surgical and health care products to families in India - Jharkhand State News",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQeWZ2NkNXbGdvZk5TeXZaMFNLUTRWNHpfMHlBWkNBaUxKMWVyNDE1RjhsdVRiUF90QnUyZ1hCMFR6Nm5MZEhVTDhudGp3WG01eHVaeGxwRThHTDhqUy1BeFZpdWVEbmhwS0w2Z3B4LVdKYWtERU52MkhRcnN3LWlWVjAySVRuQ2Y5NHcyMm1UMUQtNnlpTnhhclVzNnBPSHpQYlZHelhZT3FaXzVtcU9ydzdMNWs3QVJqcUN0MGVNMnFiXy1WanJkZXB1Sk9qaE84UUZmVnNKM1pvQzJTb3M5ZzM4RWMycVFBOG9SSk0wR0c?oc=5",
-          "published_at": "2026-09-16T07:00:00+00:00",
-          "snippet": "Explained:Janaushadhi Kendras provide affordable surgical and health care products to families in India Jharkhand State News",
-          "lexical_overlap": 0.136,
-          "relevance": 0.241,
-          "matched_terms": [
-            "affordable",
-            "kendras",
-            "provide"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "affordable",
-            "kendras"
-          ]
-        },
-        {
           "id": "fe3d448c9152b4ff74",
           "scope": "news_search",
           "tier": "secondary",
@@ -32296,6 +32298,28 @@
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONkE0NlFnckpTQ2VaMnF0VnpMWUotdkdNRWVuZHlTWFdDM3BRZDZheW43TFFZazZTbi1oRlNRd3BIeHVyVmpyY0tUNVZOeVJfQUl1M3p3WVg2SlM3cmZnVTBSaHZIVnRLLU8zU0RsVkRxLThmWVp0cy1SaXc1em1YT25rcENzclU0Y0NoaS01Y194NEliQ05rXzlrMU1zb3By?oc=5",
           "published_at": "2026-09-15T07:00:00+00:00",
           "snippet": "Janaushadhi expands affordable healthcare offerings beyond medicines DD India",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
+          "matched_terms": [
+            "affordable",
+            "medicines"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "affordable",
+            "medicines"
+          ]
+        },
+        {
+          "id": "9d177494de04173bf7",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Voice of Healthcare",
+          "source_url": "https://vohnetwork.com",
+          "title": "Janaushadhi expands affordable healthcare offerings beyond medicines - Voice of Healthcare",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTHRYQmtIYTlLS1l3MDQySzlWdUluc1RkNHZ5RXBYbWtXSXRqNldZbWVoU1BONmdWUDlJNGVveDY1MkRGUmR1MDBkZUszSm9LNk43cTR0MTZhWWwzRFZWNmRZOTJnMUtDMVlqTjNhank2MFk5SXE5UHl1b2ZObm55eHhMaU5obkM5Uk5DTGlYMXNWT0RyU0xrZEV6M0VVdkowdXg5UUl3?oc=5",
+          "published_at": "2026-09-16T07:00:00+00:00",
+          "snippet": "Janaushadhi expands affordable healthcare offerings beyond medicines Voice of Healthcare",
           "lexical_overlap": 0.111,
           "relevance": 0.181,
           "matched_terms": [
@@ -34961,7 +34985,7 @@
     },
     {
       "id": "6e7d459d3e11317d12",
-      "checked_at": "2026-10-14T22:19:27.573889+00:00",
+      "checked_at": "2026-10-16T17:00:32.115811+00:00",
       "promise_id": "BJP-2024-f9d777611b6f5628b9",
       "year": 2024,
       "category": "infrastructure",
@@ -36441,7 +36465,7 @@
     },
     {
       "id": "6948f6df1d96ee2c4e",
-      "checked_at": "2026-10-14T22:19:23.897673+00:00",
+      "checked_at": "2026-10-16T17:00:28.438403+00:00",
       "promise_id": "BJP-2024-f939388f00017d573a",
       "year": 2024,
       "category": "technology_digital",
@@ -38462,7 +38486,7 @@
     },
     {
       "id": "8f23037618495cb5b6",
-      "checked_at": "2026-10-08T01:57:10.317052+00:00",
+      "checked_at": "2026-10-16T17:00:46.719119+00:00",
       "promise_id": "BJP-2019-18c0d077aa33db700e",
       "year": 2019,
       "category": "security_defence",
@@ -39457,7 +39481,7 @@
     },
     {
       "id": "f78539328a9a81eb07",
-      "checked_at": "2026-10-14T22:19:35.481788+00:00",
+      "checked_at": "2026-10-16T17:00:40.849373+00:00",
       "promise_id": "BJP-2019-08e058780b6b42bda0",
       "year": 2019,
       "category": "health_welfare",
@@ -39482,17 +39506,17 @@
       "query": "police forces welfare soldiers assistance states",
       "evidence": [
         {
-          "id": "e2c4b19aa441503aba",
+          "id": "a1bf4dd16a1b928452",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "PIB",
+          "source": "pib.gov.in",
           "source_url": "https://www.pib.gov.in",
-          "title": "ASSISTANCE TO FAMILIES OF MARTYRED SOLDIERS - PIB",
+          "title": "ASSISTANCE TO FAMILIES OF MARTYRED SOLDIERS - pib.gov.in",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB3MkliRkptbE9QTm5ncnRSa0c1U2V0V0xmeFhqV2Y4VEptVjdjMGhaNDNXT0JMalpyQnU0eTg1UllCREpadmN6dEVPMmRSSzBjbXhrS1BHdjNIN2dkT0wzNXVMdWlLdzlO?oc=5",
           "published_at": "2023-12-12T08:00:00+00:00",
-          "snippet": "ASSISTANCE TO FAMILIES OF MARTYRED SOLDIERS PIB",
-          "lexical_overlap": 0.154,
-          "relevance": 0.274,
+          "snippet": "ASSISTANCE TO FAMILIES OF MARTYRED SOLDIERS pib.gov.in",
+          "lexical_overlap": 0.143,
+          "relevance": 0.263,
           "matched_terms": [
             "assistance",
             "soldiers"
@@ -39504,24 +39528,24 @@
           ]
         },
         {
-          "id": "92536bc9f4582acd38",
+          "id": "5cde02cdb1a94d34cd",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Independent Newspaper Nigeria",
-          "source_url": "https://independent.ng",
-          "title": "CDHR Demands 100% Improvement In Military, Police Personnel’s Welfare - Independent Newspaper Nigeria",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVzJIMWlnYzlkYXQ4ZUI1Vks2V3pIU21KTTFSZzhsRlRwN2NoTk1HYXFZQnllWFFjR1l1QVhzd0dQbk5kR0dUaDVPWG93WlVBSlVvZl8xc2FDa2VGR01ZVkNBelJFazF5NFZia2NXMzZPSi1samQyMWR4d1FsVEpOVy1FVkFmZ1hIQ2JPdVVHNGdobzhl?oc=5",
-          "published_at": "2026-07-09T07:00:00+00:00",
-          "snippet": "CDHR Demands 100% Improvement In Military, Police Personnel’s Welfare Independent Newspaper Nigeria",
-          "lexical_overlap": 0.111,
-          "relevance": 0.181,
+          "source": "FM Bharat",
+          "source_url": "https://www.fmbharat.com",
+          "title": "Uttarakhand leads in soldiers’ welfare with dedicated employment cell for Agniveers - FM Bharat",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPOS1ZZVphQUtBZ3JOTzZOa3hqd2xxQ01wb2FwSS1WbWhaVjhvOTJ1dV9UTHdSd0FfRWZ1TEJuQlZhV2tSWDF2dEpNVGtJWGNCRFFiWDNZOUpRNlM2WDBpRDE3WE9mUmRuN0VGZGVnZ3lRUjh0cGZOa2hNdlNSNVJtQU1lcHN2WmljRHpzWUFwcHdqVWpQYlZDXy1welpuR0tBT1pVbjRYU0VnVy1iSXRTSV9MQmFnS3M?oc=5",
+          "published_at": "2026-08-27T07:00:00+00:00",
+          "snippet": "Uttarakhand leads in soldiers’ welfare with dedicated employment cell for Agniveers FM Bharat",
+          "lexical_overlap": 0.118,
+          "relevance": 0.188,
           "matched_terms": [
-            "police",
+            "soldiers",
             "welfare"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "police",
+            "soldiers",
             "welfare"
           ]
         },
@@ -39570,15 +39594,15 @@
           ]
         },
         {
-          "id": "8575a1b24c839a3add",
+          "id": "8935e0ede51df80897",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Pioneer Daily",
+          "source": "Daily Pioneer",
           "source_url": "https://dailypioneer.com",
-          "title": "MP CM Mohan Yadav Announces Enhanced Welfare Benefits for Soldiers, Martyrs’ Families - Pioneer Daily",
+          "title": "MP CM Mohan Yadav Announces Enhanced Welfare Benefits for Soldiers, Martyrs’ Families - Daily Pioneer",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbWswTndUNFdWNTNielhOZmkyNllRQnk2MHNscjRGalBld0lKaEpoZVduSFR0djV4WHp1c2FxN0lQdzBTRGlFYlBKbmhkcDZPYndWWV9xcWRvZjJHQzZfY0JFVHRacDFTaF9HTGlWRTMxU3o0eFR1VWpTb3REU2xRZ3lkZnlITFJk?oc=5",
           "published_at": "2026-01-11T08:00:00+00:00",
-          "snippet": "MP CM Mohan Yadav Announces Enhanced Welfare Benefits for Soldiers, Martyrs’ Families Pioneer Daily",
+          "snippet": "MP CM Mohan Yadav Announces Enhanced Welfare Benefits for Soldiers, Martyrs’ Families Daily Pioneer",
           "lexical_overlap": 0.095,
           "relevance": 0.165,
           "matched_terms": [
@@ -41003,7 +41027,7 @@
     },
     {
       "id": "447b985e02d71c89c5",
-      "checked_at": "2026-10-14T22:19:33.600317+00:00",
+      "checked_at": "2026-10-16T17:00:38.638920+00:00",
       "promise_id": "BJP-2019-084456b7bb67a01711",
       "year": 2019,
       "category": "agriculture",
@@ -41778,7 +41802,7 @@
     },
     {
       "id": "c7d7a56eb514e41947",
-      "checked_at": "2026-10-14T22:19:32.749685+00:00",
+      "checked_at": "2026-10-16T17:00:37.857722+00:00",
       "promise_id": "BJP-2019-07f83972473b152067",
       "year": 2019,
       "category": "agriculture",
@@ -41803,15 +41827,15 @@
       "query": "bee-keeping honey mission launch additional returns",
       "evidence": [
         {
-          "id": "bf9f95a9af7ad5a46a",
+          "id": "1d0ae35bb758ce4d81",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "www.pib.gov.in",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "National Beekeeping & Honey Mission - www.pib.gov.in",
+          "title": "National Beekeeping & Honey Mission - Press Information Bureau",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSWlFalMxYl9xUTRESDQwQXVXZXpwbTA4bXhIVnFvelFoQTFEVHVBRzFJaE1mX2lDbDFkTjB5Z1hNcll2eTJhUDhUTHBpQmxaZXN3U2hqTDY0TGlUVFhRVE96MjVHS2hrT180ZlI2ZHkzNnB6N2lQRHNyVGc2YzVfVDV3?oc=5",
           "published_at": "2025-11-02T07:00:00+00:00",
-          "snippet": "National Beekeeping & Honey Mission www.pib.gov.in",
+          "snippet": "National Beekeeping & Honey Mission Press Information Bureau",
           "lexical_overlap": 0.231,
           "relevance": 0.386,
           "matched_terms": [
@@ -41849,15 +41873,15 @@
           ]
         },
         {
-          "id": "6b72ee4f6636a8f9a6",
+          "id": "49a1f2aebcb0f9eb7a",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "PIB",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "Dr. Abhilaksh Likhi, Additional Secretary, Union Ministry of Agriculture and Farmers welfare, chairs a meeting on application and use of Geographical Indication (GI) of Honey at Krishi Bhawan today - PIB",
+          "title": "Dr. Abhilaksh Likhi, Additional Secretary, Union Ministry of Agriculture and Farmers welfare, chairs a meeting on application and use of Geographical Indication (GI) of Honey at Krishi Bhawan today - Press Information Bureau",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBlcjNvZjYzVlJtd09ydFhMS3ljRDJiZWlDSmJOUncxTnRPX1VRTl9YS2J2ZzN1YWJCVk5oTnZkQzdUMVFGTVJpaXM5c21aYzhUN3RETFBzaEY2UW5PeXJmWFA1M0w3U2t4?oc=5",
           "published_at": "2022-12-22T08:00:00+00:00",
-          "snippet": "Dr. Abhilaksh Likhi, Additional Secretary, Union Ministry of Agriculture and Farmers welfare, chairs a meeting on application and use of Geographical Indication (GI) of Honey at Krishi Bhawan today PIB",
+          "snippet": "Dr. Abhilaksh Likhi, Additional Secretary, Union Ministry of Agriculture and Farmers welfare, chairs a meeting on application and use of Geographical Indication (GI) of Honey at Krishi Bhawan today Press Information Bureau",
           "lexical_overlap": 0.087,
           "relevance": 0.207,
           "matched_terms": [
@@ -41869,29 +41893,6 @@
             "additional",
             "farmers",
             "honey"
-          ]
-        },
-        {
-          "id": "e742fe0717869fcb13",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Vajiram & Ravi",
-          "source_url": "https://vajiramandravi.com",
-          "title": "National Beekeeping and Honey Mission, Objectives, Funding, Latest News - Vajiram & Ravi",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQlhaMzFjUzBtRmVSNjVnLVl4VFRoSEsxc3FaOThTZnpKR2FHN01tTEtscG82SUN4ZmczMndjVU1hME9zaXN2R2MxeGhrMmhlV2dSenpSdUVoc0drMTFlOENmbmxnRDRWU0V0ejYxRXFGMWlUWnRqUzlza1ZZRFMtUktQckY0c3lY?oc=5",
-          "published_at": "2025-11-03T08:00:00+00:00",
-          "snippet": "National Beekeeping and Honey Mission, Objectives, Funding, Latest News Vajiram & Ravi",
-          "lexical_overlap": 0.188,
-          "relevance": 0.292,
-          "matched_terms": [
-            "honey",
-            "mission",
-            "national"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "honey",
-            "national"
           ]
         },
         {
@@ -41917,6 +41918,27 @@
             "honey",
             "returns"
           ]
+        },
+        {
+          "id": "45177ea578015086ad",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Indian Express",
+          "source_url": "https://indianexpress.com",
+          "title": "Sweet revolution: Second phase of Honey Mission launched in Pune - The Indian Express",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWVdielZQbERIWUdVVU9IaWhmanBYZXptdmgtMGl3VHRCNFJTTHNta1B2YWtaZndrUDJGZUpyQVRDOVhJLU8wbWNjWkdpY01SM2VoWGdZakZBWkZwT19MUlh3bHF2cXcxTXItcWh1RVd6SUZYQ0tWSms1OTQ5cW0zRWdRaE1XcUxfR24yb0dlYVJjY3VRckFmRmJFRnNCbVBwT0EzRUY4QlBIYUt0RUVUYWRaUmdSd1MtU1HSAcABQVVfeXFMT192UGFrZVZLbVdrRXFMS0tWcmVoRkZpNzg1YzQwV0FZSk5HWmxoU1FOZlpITXJJM1Y2bWlxUWtvSkdoeVBIcnMtQVY2ZC1KdUhwMVZ5UHppVkJrcXZIZEI3YVl5SlNEODd5eVBDNzM3TnpybWdoQXEtMjU3RUlBeUxRVG5oeml6Z203Q3A2Qm1zUVU5SGhFdVUzZzRzbjBKWHFSdWhoQnRDM1QxQS10dVBNR2ZadEtqTDE4NDRUYmdm?oc=5",
+          "published_at": "2018-09-15T07:00:00+00:00",
+          "snippet": "Sweet revolution: Second phase of Honey Mission launched in Pune The Indian Express",
+          "lexical_overlap": 0.125,
+          "relevance": 0.195,
+          "matched_terms": [
+            "honey",
+            "mission"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "honey"
+          ]
         }
       ],
       "implementation_signal": "current_primary_and_reporting_found",
@@ -41933,8 +41955,8 @@
       }
     },
     {
-      "id": "0764c49dce738dbbee",
-      "checked_at": "2026-10-16T14:51:16.873839+00:00",
+      "id": "05e0979e7f32ba2f72",
+      "checked_at": "2026-10-16T17:00:01.500109+00:00",
       "promise_id": "BJP-2019-18c0750d5ed71bc3d1",
       "year": 2019,
       "category": "agriculture",
@@ -41960,7 +41982,7 @@
       "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
-      "query": "2022 10000 enable creation farmer producer organisations fpos",
+      "query": "10000 2022 enable creation farmer producer organisations fpos",
       "evidence": [
         {
           "id": "8cd391cfb62be9602f",
@@ -42104,53 +42126,6 @@
             "farmer",
             "farmers",
             "producer"
-          ]
-        },
-        {
-          "id": "5dc3b5baf69daebb9b",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Vajiram & Ravi",
-          "source_url": "https://vajiramandravi.com",
-          "title": "Govt Moves to Set Up Fodder-Centric Farmer Producer Organisations - Vajiram & Ravi",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNWdNa2ZUT0VGYkQzNUQ5MlkxUFNzYjUxbG10NEFIbDRiX0h0UXZ1YUcyNDV4ekdJaGFkQi1abnJzVC01UHRMUU8zWFNqQVpPUmRnRzBMclRaSFhXVVVXS3pMRU5yZU9YdHV6R3BtRVpnOWdleE9OZXNfRlQ2VzRkb25XNlNHLTlMRjdqUHhZbEoxRjlVa3Eyc1laVy1FOTdmWkloeEJQUENNWjVORVE?oc=5",
-          "published_at": "2022-11-09T08:00:00+00:00",
-          "snippet": "Govt Moves to Set Up Fodder-Centric Farmer Producer Organisations Vajiram & Ravi",
-          "lexical_overlap": 0.158,
-          "relevance": 0.263,
-          "matched_terms": [
-            "farmer",
-            "organisations",
-            "producer"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "farmer",
-            "organisations",
-            "producer"
-          ]
-        },
-        {
-          "id": "1af39614098ce2c5d1",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "YourStory.com",
-          "source_url": "https://yourstory.com",
-          "title": "Flipkart signs MoU with SERP to enable market access, growth for FPOs, SHGs in Telangana - YourStory.com",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdGxJNXQ4NFR1ZldsQi1veEx3MUEzLW1keWV6d0kySm5zd0pVVVZrUnZiLWhQQlhTWkFfLUJvVVp2aFFNQzBZMGg2a0M2SWxSQUpEZFRsWDJUblpsb21JTDNiTVJ4OE8ycHplcVJyZlV3Z3pmTzhRZUhZN1VqQzVlUDFaNVQ1a21PSld0T093?oc=5",
-          "published_at": "2022-06-25T07:00:00+00:00",
-          "snippet": "Flipkart signs MoU with SERP to enable market access, growth for FPOs, SHGs in Telangana YourStory.com",
-          "lexical_overlap": 0.136,
-          "relevance": 0.241,
-          "matched_terms": [
-            "access",
-            "enable",
-            "fpos"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "access",
-            "fpos"
           ]
         },
         {
@@ -43026,7 +43001,7 @@
     },
     {
       "id": "2a3e52a9778e378ea1",
-      "checked_at": "2026-10-14T22:19:30.570356+00:00",
+      "checked_at": "2026-10-16T17:00:35.403802+00:00",
       "promise_id": "BJP-2019-03245f288d7a97cd80",
       "year": 2019,
       "category": "other",
@@ -43204,7 +43179,7 @@
     },
     {
       "id": "403d085e0efe3cb417",
-      "checked_at": "2026-09-29T09:48:45.674131+00:00",
+      "checked_at": "2026-10-16T17:00:44.691466+00:00",
       "promise_id": "BJP-2019-1660ba3c42c4b983cf",
       "year": 2019,
       "category": "other",
@@ -43227,17 +43202,17 @@
       "query": "launch matsya sampada yojana allocation",
       "evidence": [
         {
-          "id": "4058d5d3e9049785a8",
+          "id": "0bd61206c7da4ce7e4",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "PIB",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "Pradhan Mantri Matsya Sampada Yojana - PIB",
+          "title": "Pradhan Mantri Matsya Sampada Yojana - Press Information Bureau",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE92OFVnZFRwaUk1SGc4a2Zoc3NXOUFPQ2tQdmdjYnZtdGdzaHdBbVNVUkpibmlXMWQ0d2h6Y0lQRmlnUWZ5QXFKRklqR2UzTXRVMGs1SmdoWlIwZXhBY0MzRVpwWjlQYnpPczBqN29MbG9TbEtNY1M0a0l3?oc=5",
           "published_at": "2026-03-10T07:00:00+00:00",
-          "snippet": "Pradhan Mantri Matsya Sampada Yojana PIB",
-          "lexical_overlap": 0.333,
-          "relevance": 0.488,
+          "snippet": "Pradhan Mantri Matsya Sampada Yojana Press Information Bureau",
+          "lexical_overlap": 0.273,
+          "relevance": 0.428,
           "matched_terms": [
             "matsya",
             "sampada",
@@ -43272,48 +43247,26 @@
           ]
         },
         {
-          "id": "54d9e340d5448ec877",
+          "id": "48274c125bd896d4a5",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "IBEF",
-          "source_url": "https://www.ibef.org",
-          "title": "Pradhan Mantri Matsya Sampada Yojana (PMMSY) - IBEF",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZlJESWRpUTREYzRMcFZJcEdmTTdXR2kyNC1YWEJWdmFfdEo0NE9rWDREM0NXOV8wQWRLX2ZXTG9tSFh5MzhzRmVOS3NTZWZsV3YtN3B3U0FzdlU0ZncxQnRLWVVLYUhmb0tfS0pqbHN4Sl8tRHA1NnljaGpobE5zaUJR?oc=5",
-          "published_at": "2021-08-29T13:59:09+00:00",
-          "snippet": "Pradhan Mantri Matsya Sampada Yojana (PMMSY) IBEF",
-          "lexical_overlap": 0.3,
-          "relevance": 0.405,
+          "source": "CNBC TV18",
+          "source_url": "https://www.cnbctv18.com",
+          "title": "Budget 2024 Highlights Pradhan Mantri Matsya Sampada Yojana (PMMSY) Allocation - CNBC TV18",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQdVJOdW5BaXJVbTU5RWxqODl6a0RZSGVzX2pvdEFnLVNoTlJ6cURQc2pQWFJHUUt4c1NCOGlNcnVoUWZqRnFGc19LREJNQWpwenJGeGQwcnA3SE16bTZndjhySlduOEZFVndjLXhiQnV4UVZGLV9WbGtvZHFNanNRMUZOanZqSzM0ZURzRVZaV2Zwb3otUnpFbEFyaWtXa3dwajY4anBwTUxMOGdlTDYxMWFKWTNiQVRsUV81b1VZd0NvYUEtWFdVSEM4QzR4aG9OMVBpOFNoRDRpOXM10gHiAUFVX3lxTE1MQkY4d0lhenhvOHoyanI5anhNdWlTX2tiaExYQlI1S1dVYy1mRGpoOWdrYkpCdXBtWk92LW43QlNuOUlMc3k0bURYem16cGYwelVhQVhDMGtkMzFDNkxIWkROOEt6bklZN1o0X21rVnNlNk9RTTN5NmJQTVRDTE1KdUFJYzBINXV3WWNKV0dDdV94WmZnUTRydlRNRTRCX0F3cWlpb1Z4dXFNdDJVWFBGUWtqVDhkcnBtUXRaX2VKVzVPeVVmVVdjVUxnN09IS1hsM2xqQnZDYmxJcWhzMUtqcXc?oc=5",
+          "published_at": "2024-02-01T08:00:00+00:00",
+          "snippet": "Budget 2024 Highlights Pradhan Mantri Matsya Sampada Yojana (PMMSY) Allocation CNBC TV18",
+          "lexical_overlap": 0.308,
+          "relevance": 0.448,
           "matched_terms": [
+            "allocation",
             "matsya",
             "sampada",
             "yojana"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "matsya",
-            "sampada",
-            "yojana"
-          ]
-        },
-        {
-          "id": "01f73feb9437319d96",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "DD News",
-          "source_url": "https://ddnews.gov.in",
-          "title": "Centre allocates ₹2,500 crore for fisheries sector under PM Matsya Sampada Yojana in Budget 2026–27 - DD News",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOeElwUVpKVVc1X0F2Q0tWNG01Rm40M1JCeFhkZ0FTMmRGT0pfTnRrbS1HY25JdjJ6ek5KTmJHNGtGcUozV2hndWJDWGRhOUlXX3FUWlJBcUVUSXdsSWFsc18tOG9LRkEtUjl6ZjZGNDVzY0lCamt5WFFKVXc4TTNrR1QtZFRwMVlZSG00RG5nakFqanlST3lZZ0FlcjZNZTNMd0JxWUpEbnkydl9DbTZvTHlvVFVxSUNkMWxVenpzby1SRWFGVmRlUll1b2g?oc=5",
-          "published_at": "2026-03-10T07:00:00+00:00",
-          "snippet": "Centre allocates ₹2,500 crore for fisheries sector under PM Matsya Sampada Yojana in Budget 2026–27 DD News",
-          "lexical_overlap": 0.2,
-          "relevance": 0.305,
-          "matched_terms": [
-            "matsya",
-            "sampada",
-            "yojana"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
+            "allocation",
             "matsya",
             "sampada",
             "yojana"
@@ -43649,7 +43602,7 @@
     },
     {
       "id": "f5811520c1d5623f19",
-      "checked_at": "2026-10-16T14:51:19.224876+00:00",
+      "checked_at": "2026-10-16T17:00:03.659583+00:00",
       "promise_id": "BJP-2019-1d3e95fa9344e842f3",
       "year": 2019,
       "category": "infrastructure",
@@ -43770,7 +43723,7 @@
     },
     {
       "id": "92d6920a15fb42f812",
-      "checked_at": "2026-10-16T14:51:39.916513+00:00",
+      "checked_at": "2026-10-16T17:00:23.552295+00:00",
       "promise_id": "BJP-2019-6abf03adda773fec98",
       "year": 2019,
       "category": "governance",
@@ -46850,7 +46803,7 @@
     },
     {
       "id": "8d5e609a9ed9df996a",
-      "checked_at": "2026-10-08T01:57:14.212592+00:00",
+      "checked_at": "2026-10-16T17:00:51.275231+00:00",
       "promise_id": "BJP-2019-1d3d0421f10bdb1fe6",
       "year": 2019,
       "category": "infrastructure",
@@ -46874,6 +46827,28 @@
       "related_promises": [],
       "query": "water management form ministry unifying functions",
       "evidence": [
+        {
+          "id": "82fd08f5d80bc08278",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Digital Sansad",
+          "source_url": "https://sansad.in",
+          "title": "GOVERNMENT OF INDIA MINISTRY OF JAL SHAKTI DEPARTMENT OF WATER RESOURCES, RIVER DEVELOPMENT & GANGA REJUVENATION RAJYA SABHA - Digital Sansad",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5LdXJ5ZjlrV0xTaVJ5WENpbVVBdWxqYnhWZTJCXzJHczBUOHplM1ZqMkhzUDc2NU83OFpGYTFxLXA2Z25Dd3RNa2tCTTJ6V1lXcHlpSHNIOHpObUdmYXQ5VURISFFkQ2tpUmYxcGRsbzgtaHpP?oc=5",
+          "published_at": "2026-03-30T07:00:00+00:00",
+          "snippet": "GOVERNMENT OF INDIA MINISTRY OF JAL SHAKTI DEPARTMENT OF WATER RESOURCES, RIVER DEVELOPMENT & GANGA REJUVENATION RAJYA SABHA Digital Sansad",
+          "lexical_overlap": 0.083,
+          "relevance": 0.203,
+          "matched_terms": [
+            "ministry",
+            "water"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "ministry",
+            "water"
+          ]
+        },
         {
           "id": "047b2b9ff1fd4c5871",
           "scope": "news_search",
@@ -46980,7 +46955,7 @@
     },
     {
       "id": "1e0abc9f94016f3c7a",
-      "checked_at": "2026-10-16T14:51:21.043827+00:00",
+      "checked_at": "2026-10-16T17:00:05.370287+00:00",
       "promise_id": "BJP-2019-2af396deaf778cac73",
       "year": 2019,
       "category": "infrastructure",
@@ -47065,7 +47040,7 @@
     },
     {
       "id": "4af70c5cc4e5dd31ea",
-      "checked_at": "2026-10-16T14:51:28.690704+00:00",
+      "checked_at": "2026-10-16T17:00:12.680062+00:00",
       "promise_id": "BJP-2019-34c03859f07f1329c5",
       "year": 2019,
       "category": "infrastructure",
@@ -47125,6 +47100,30 @@
           "snippet": "India’s Dedicated Freight Corridor Program: Progress and Prospects India Briefing",
           "lexical_overlap": 0.273,
           "relevance": 0.378,
+          "matched_terms": [
+            "corridor",
+            "dedicated",
+            "freight"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "corridor",
+            "dedicated",
+            "freight"
+          ]
+        },
+        {
+          "id": "3ca72531dcd6516972",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Urban Acres",
+          "source_url": "https://urbanacres.in",
+          "title": "Dedicated Freight Corridor Network Now Fully Operational - Urban Acres",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNT1RGZ3paMlFlUGpFRmRqekp3ZVNJaE11SFRCVDl3UGl2YXZOY3d3VUpDM3BuWnljRlMwXzhiWThEdDBaNzZpY3ZCaGQ1VzlYVzMyOWxfTm91em5fdFhkRGxjOGhZbmFMYnJBVWJ3ZlZkSXNDMHNkd2RGai1ZMThUczRzdnZNRTZ3UlJXT21Ka0hoOERjdVE?oc=5",
+          "published_at": "2026-09-08T07:00:00+00:00",
+          "snippet": "Dedicated Freight Corridor Network Now Fully Operational Urban Acres",
+          "lexical_overlap": 0.231,
+          "relevance": 0.336,
           "matched_terms": [
             "corridor",
             "dedicated",
@@ -49302,7 +49301,7 @@
     },
     {
       "id": "93bb9754ab7125c8f1",
-      "checked_at": "2026-10-16T14:51:34.381026+00:00",
+      "checked_at": "2026-10-16T17:00:18.327207+00:00",
       "promise_id": "BJP-2019-6013bbae5c9fbd8c5a",
       "year": 2019,
       "category": "women_social_justice",
@@ -49368,7 +49367,7 @@
     },
     {
       "id": "1d1782ad81aa54afcd",
-      "checked_at": "2026-10-16T14:51:36.911764+00:00",
+      "checked_at": "2026-10-16T17:00:20.783561+00:00",
       "promise_id": "BJP-2019-63e2ccda189fa85e2c",
       "year": 2019,
       "category": "health_welfare",
@@ -49619,7 +49618,7 @@
     },
     {
       "id": "4999bcb96b74feef03",
-      "checked_at": "2026-10-14T22:19:28.271506+00:00",
+      "checked_at": "2026-10-16T17:00:32.967069+00:00",
       "promise_id": "BJP-2019-01c07e39751560e60f",
       "year": 2019,
       "category": "governance",
@@ -49658,7 +49657,7 @@
     },
     {
       "id": "19ba61e0f20a7da152",
-      "checked_at": "2026-10-14T22:19:31.752889+00:00",
+      "checked_at": "2026-10-16T17:00:36.760533+00:00",
       "promise_id": "BJP-2019-033e27247bcf7ebcd5",
       "year": 2019,
       "category": "governance",
@@ -49750,7 +49749,7 @@
     },
     {
       "id": "887e970883d9971a20",
-      "checked_at": "2026-10-08T01:57:15.955829+00:00",
+      "checked_at": "2026-10-16T17:00:53.187710+00:00",
       "promise_id": "BJP-2019-1dbf805c5ec8e1afd7",
       "year": 2019,
       "category": "governance",
@@ -51477,7 +51476,7 @@
     },
     {
       "id": "6f56e7f9880e3aaa52",
-      "checked_at": "2026-09-29T09:48:44.854668+00:00",
+      "checked_at": "2026-10-16T17:00:43.770284+00:00",
       "promise_id": "BJP-2019-158572838a26f63c2b",
       "year": 2019,
       "category": "environment",
@@ -51502,13 +51501,13 @@
       "query": "states forest environment himalayan provided special",
       "evidence": [
         {
-          "id": "a935485a781cb21e31",
+          "id": "62299b2e0d386b0d81",
           "scope": "preferred_official_search",
           "tier": "primary",
           "source": "PIB",
           "source_url": "https://www.pib.gov.in",
           "title": "92 Eco-Sensitive Zones, 2 Ecologically Sensitive Areas notified in 13 States of Indian Himalayan Region - PIB",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9SSEdieU1TZ1hpN3pvTTZVY0tIejcteEsyaEtzSlVTdzVGZ0l5OWtVNTBMc05wU3ZTSXhTd3BNUXBZdkhnUXU3aGNPbi00aFl6d29TRlZKdVFFeVF3LTgtTDk5UjNjdDl0cnRyMkZSd0s?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE50YVk3MU8xUlNBbWFzLS0wbUZPV0ZqRzFnanRZN3ZMbDZBTHpiS2NEZ0FkTHlPbFU3UGJKdUJOaUdLT19nUlNPZG1oYlhUVGJKRmQ3US1sTm5sOWtqVGdFZWJ2djR5OWJLSWc?oc=5",
           "published_at": "2023-03-23T07:00:00+00:00",
           "snippet": "92 Eco-Sensitive Zones, 2 Ecologically Sensitive Areas notified in 13 States of Indian Himalayan Region PIB",
           "lexical_overlap": 0.1,
@@ -51524,47 +51523,25 @@
           ]
         },
         {
-          "id": "c3414345e8d5b640a2",
+          "id": "4dd9a805fcd30cd68f",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "Digital Sansad",
-          "source_url": "https://sansad.in",
-          "title": "GOVERNMENT OF INDIA MINISTRY OF ENVIRONMENT, FOREST AND CLIMATE CHANGE RAJYA SABHA UNSTARRED QUESTION NO. 2130 TO BE ANSWERED ON - Digital Sansad",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9nemxxLXRBcDVHLUk1VDBXUk9qZ0taOHQyYThmallBcXQ2WS1NY2FaSmpsRXpKSGdhUTUzb25EU1hfaFBjVElBMWNUYWFSd2Z5eW0wX0JvSW4zcUEtNFY2Mmg3QlFuNV8wYjMxX2tVMThfaXQ2?oc=5",
-          "published_at": "2025-12-18T08:00:00+00:00",
-          "snippet": "GOVERNMENT OF INDIA MINISTRY OF ENVIRONMENT, FOREST AND CLIMATE CHANGE RAJYA SABHA UNSTARRED QUESTION NO. 2130 TO BE ANSWERED ON Digital Sansad",
-          "lexical_overlap": 0.087,
-          "relevance": 0.207,
-          "matched_terms": [
-            "environment",
-            "forest"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "environment",
-            "forest"
-          ]
-        },
-        {
-          "id": "317d940289505492ce",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The New Indian Express",
-          "source_url": "https://www.newindianexpress.com",
-          "title": "Environmentalists demand special dedicated provisions for disaster-prone Himalayan region in Union Budget - The New Indian Express",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNTEZweWFtYzVrYnlPSGwwSTByZ08wU181NGxLaVB4LUM4QmhWNGJXQWpGeTRmbGRZcXJaaW1DbVRGSm1DMjFRT2U5T015ZDB0REQ5QjhoQ09WdWxjaU1wWXlBM0FfV2tONUR1bWh1ZGRHRElscTVxaTcyMXlBZ2ZQTy03ZzRoQV8wNHNuWEp5LVZHZF8wZnIwR21vYjhDcktqWkN2SFpNc28ycWNIUTRkem5JcWljTTF4NFRHcU9rVEdpZmZoeUJuamw2bnJJZEFNYXFjQVljNW01WHp4LVZIaDBiYk9Mc1BwbGI1VdIB-gFBVV95cUxOdkdqMGw1azFBT1RTUk5QUG9XN3REcVN6aUxyRzNxbnp5QWljbTV6Y1UzZUhOWTAyWXctaHdhVno2QUNQcDV5VWRTdHZDMHdfMzBaY3otVGJvcFZiV20tRE5PQi02SUFXWnRIdmkxRUd5WVJESTNxSnNDYU9uc1pDMnZyTWk2VTZ6cGg4Q3N2STNSeTNWY3BJN2pMSUR1OHZxVUV1aVVFX2V2T0VBSnJsSGFlcGJIaGRqalk3OHkyTmF5UFFSQ0dVS2xUMkpvbGtHZDJuaS14Q2swTjRkTlpFVlkzOUNfeTNaLVJIYlJWQThoYjhiUU04Y1NB?oc=5",
-          "published_at": "2026-01-31T08:00:00+00:00",
-          "snippet": "Environmentalists demand special dedicated provisions for disaster-prone Himalayan region in Union Budget The New Indian Express",
-          "lexical_overlap": 0.095,
-          "relevance": 0.165,
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "92 Eco-Sensitive Zones, 2 Ecologically Sensitive Areas notified in 13 States of Indian Himalayan Region - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9SSEdieU1TZ1hpN3pvTTZVY0tIejcteEsyaEtzSlVTdzVGZ0l5OWtVNTBMc05wU3ZTSXhTd3BNUXBZdkhnUXU3aGNPbi00aFl6d29TRlZKdVFFeVF3LTgtTDk5UjNjdDl0cnRyMkZSd0s?oc=5",
+          "published_at": "2023-03-23T07:00:00+00:00",
+          "snippet": "92 Eco-Sensitive Zones, 2 Ecologically Sensitive Areas notified in 13 States of Indian Himalayan Region Press Information Bureau",
+          "lexical_overlap": 0.091,
+          "relevance": 0.211,
           "matched_terms": [
             "himalayan",
-            "special"
+            "states"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
             "himalayan",
-            "special"
+            "states"
           ]
         },
         {
@@ -51642,7 +51619,7 @@
         "status": "progress_documented",
         "deadline_year": null,
         "proof_strength": "verified_primary_action_with_object_overlap",
-        "proof_evidence_id": "a935485a781cb21e31",
+        "proof_evidence_id": "62299b2e0d386b0d81",
         "proof": null,
         "reason": "Verified primary evidence overlaps the subject of the promise and documents implementation activity, but not the promised outcome."
       }
@@ -52310,7 +52287,7 @@
     },
     {
       "id": "970bb04a18d8b6314f",
-      "checked_at": "2026-09-29T09:48:43.828710+00:00",
+      "checked_at": "2026-10-16T17:00:42.351230+00:00",
       "promise_id": "BJP-2019-1077391efc64eabb45",
       "year": 2019,
       "category": "jobs_economy",
@@ -54391,7 +54368,7 @@
     },
     {
       "id": "21c782a6ad2ecb8987",
-      "checked_at": "2026-10-16T14:51:25.024463+00:00",
+      "checked_at": "2026-10-16T17:00:09.105007+00:00",
       "promise_id": "BJP-2019-2cfa1375f165d41707",
       "year": 2019,
       "category": "other",
@@ -55510,7 +55487,7 @@
     },
     {
       "id": "5b9ffbe39a507cf858",
-      "checked_at": "2026-10-14T22:19:28.965772+00:00",
+      "checked_at": "2026-10-16T17:00:33.835688+00:00",
       "promise_id": "BJP-2019-02264a7d8bdefebd5b",
       "year": 2019,
       "category": "other",
@@ -55760,7 +55737,7 @@
     },
     {
       "id": "6f66292c74da790098",
-      "checked_at": "2026-10-08T01:57:11.023938+00:00",
+      "checked_at": "2026-10-16T17:00:47.666997+00:00",
       "promise_id": "BJP-2019-1a75d0e2ffdf14e4d9",
       "year": 2019,
       "category": "security_defence",
@@ -55799,7 +55776,7 @@
     },
     {
       "id": "09db92a7679f9e887b",
-      "checked_at": "2026-10-16T14:51:30.980652+00:00",
+      "checked_at": "2026-10-16T17:00:14.973396+00:00",
       "promise_id": "BJP-2019-4fc8289de8caed52ff",
       "year": 2019,
       "category": "other",
@@ -56119,7 +56096,7 @@
     },
     {
       "id": "edb5494cb144a72697",
-      "checked_at": "2026-10-14T22:19:36.171271+00:00",
+      "checked_at": "2026-10-16T17:00:41.495078+00:00",
       "promise_id": "BJP-2019-0f3ccaf8f2ee8363d9",
       "year": 2019,
       "category": "health_welfare",
@@ -56165,27 +56142,6 @@
           ]
         },
         {
-          "id": "656b9f8edb1c39d27c",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "पीआईबी",
-          "source_url": "https://www.pib.gov.in",
-          "title": "AVYAY Strengthens Welfare, Care and Dignified Living for Senior Citizens Across India Institutional Care and State-Specific Support for Senior Citizens - पीआईबी",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBOWTBxd0RWQTRnYlozWG15TlprWXN1c2ZpNXVKVUNGNkR5WVNrNVhDUjdZMWdIaFNSTzZobGtIMDNUWmJ4cUk4cllyXzVtUU5KRE1DUy15aTh5R01MZzh1WUY2TGJZc0JzVlBDaWlZUG1yXzd5MlNsOEhwMnc?oc=5",
-          "published_at": "2026-09-18T07:00:00+00:00",
-          "snippet": "AVYAY Strengthens Welfare, Care and Dignified Living for Senior Citizens Across India Institutional Care and State-Specific Support for Senior Citizens पीआईबी",
-          "lexical_overlap": 0.091,
-          "relevance": 0.211,
-          "matched_terms": [
-            "citizens",
-            "senior"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "senior"
-          ]
-        },
-        {
           "id": "260a8f6e4daca4a718",
           "scope": "preferred_official_search",
           "tier": "primary",
@@ -56207,17 +56163,38 @@
           ]
         },
         {
-          "id": "2ff67543a850668ae7",
+          "id": "2ded6b9e52de59c10b",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "पीआईबी",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "Dr. Virendra Kumar, Shri B L Verma To Distribute Assistive Devices Among Senior Citizens On Swachh Bharat Diwas Tomorrow - पीआईबी",
+          "title": "AVYAY Strengthens Welfare, Care and Dignified Living for Senior Citizens Across India Institutional Care and State-Specific Support for Senior Citizens - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBOWTBxd0RWQTRnYlozWG15TlprWXN1c2ZpNXVKVUNGNkR5WVNrNVhDUjdZMWdIaFNSTzZobGtIMDNUWmJ4cUk4cllyXzVtUU5KRE1DUy15aTh5R01MZzh1WUY2TGJZc0JzVlBDaWlZUG1yXzd5MlNsOEhwMnc?oc=5",
+          "published_at": "2026-09-18T07:00:00+00:00",
+          "snippet": "AVYAY Strengthens Welfare, Care and Dignified Living for Senior Citizens Across India Institutional Care and State-Specific Support for Senior Citizens Press Information Bureau",
+          "lexical_overlap": 0.083,
+          "relevance": 0.203,
+          "matched_terms": [
+            "citizens",
+            "senior"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "senior"
+          ]
+        },
+        {
+          "id": "e514767d739d12d0e2",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Dr. Virendra Kumar, Shri B L Verma To Distribute Assistive Devices Among Senior Citizens On Swachh Bharat Diwas Tomorrow - pib.gov.in",
           "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9ycTBHTDNtUlRzZEg0MlpFLTNIOHBJUHBuajJGckVVYWRIYlZ5YXNxWHZmV2RwTTRYRmpDUVh4WmIzUVFCWW1hVm1nZVlkSzFCREdnMGhQbko2bUtNMXFIa0dxM0dZM2x3b09DaUZpVmFteWpBU0YxZ1UzY3g?oc=5",
           "published_at": "2026-10-01T07:00:00+00:00",
-          "snippet": "Dr. Virendra Kumar, Shri B L Verma To Distribute Assistive Devices Among Senior Citizens On Swachh Bharat Diwas Tomorrow पीआईबी",
-          "lexical_overlap": 0.08,
-          "relevance": 0.2,
+          "snippet": "Dr. Virendra Kumar, Shri B L Verma To Distribute Assistive Devices Among Senior Citizens On Swachh Bharat Diwas Tomorrow pib.gov.in",
+          "lexical_overlap": 0.077,
+          "relevance": 0.197,
           "matched_terms": [
             "citizens",
             "senior"
@@ -56253,15 +56230,15 @@
           ]
         },
         {
-          "id": "d9683c5ee4c319b52e",
+          "id": "6ba4049bccd486905d",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "pib.gov.in",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "Union Minister Dr. Virendra Kumar And Shri B. L. Verma Distribute 662 Aids, Assistive Devices Costing Over ₹10 Lakh Distributed To 114 Senior Citizens In Delhi-NCR Under Rashtriya Vayoshri Yojana - pib.gov.in",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5hOU5VdTZSQXBuOXRjbUVLNU5XY1NtcUZlZGNxR1dfUzM4QlVaUE9IN2xaNWp3eWp5WXVQeU1TYXFWNFZpd1pVT1BYcTRTZFFIRUhacVhjTlZpTWZ5Q1lrRl9rU01RY1h2QWx2QU9yTFlRblp3Z1JpMWpua1A?oc=5",
-          "published_at": "2026-10-08T00:28:24+00:00",
-          "snippet": "Union Minister Dr. Virendra Kumar And Shri B. L. Verma Distribute 662 Aids, Assistive Devices Costing Over ₹10 Lakh Distributed To 114 Senior Citizens In Delhi-NCR Under Rashtriya Vayoshri Yojana pib.gov.in",
+          "title": "Union Minister Dr. Virendra Kumar And Shri B. L. Verma Distribute 662 Aids, Assistive Devices Costing Over ₹10 Lakh Distributed To 114 Senior Citizens In Delhi-NCR Under Rashtriya Vayoshri Yojana - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9oMGdfeU9zTm9IandMTWJpNjU3cHhNcEtWWE94Q2YwQTFfdVItYzB0VllXMkFXNl9JVHNYZUsyTi1OWE9iTWF4N2xyRzllbUVTUEFLc1NfanNHbndlR3lQOWpudzZoR0VzWFZjY2RMQ0VqNnlRdjU0OUNObHY?oc=5",
+          "published_at": "2026-10-02T07:00:00+00:00",
+          "snippet": "Union Minister Dr. Virendra Kumar And Shri B. L. Verma Distribute 662 Aids, Assistive Devices Costing Over ₹10 Lakh Distributed To 114 Senior Citizens In Delhi-NCR Under Rashtriya Vayoshri Yojana Press Information Bureau",
           "lexical_overlap": 0.077,
           "relevance": 0.197,
           "matched_terms": [
@@ -56633,7 +56610,7 @@
     },
     {
       "id": "0822e8aee15ca3fc63",
-      "checked_at": "2026-10-08T01:57:12.541944+00:00",
+      "checked_at": "2026-10-16T17:00:49.574614+00:00",
       "promise_id": "BJP-2019-1ce37ed984e8695316",
       "year": 2019,
       "category": "health_welfare",
@@ -56656,53 +56633,8 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
       "query": "ensuring welfare labour force expand pradhan",
-      "evidence": [
-        {
-          "id": "96ffd01a5b72d424df",
-          "scope": "broad_official_search",
-          "tier": "primary",
-          "source": "PMAY (U)",
-          "source_url": "https://pmay-urban.gov.in",
-          "title": "Pradhan Mantri Pradhan Mantri - PMAY (U)",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUm1ZSkxuVU5OLURKWjNERlk5TkJEZ0I5Wmg3aW43a1BsaDEtLTlYTFhzLWRSX2JFRmtpYVQ3ZTFpRUtIcEdvQ3I5WUtKemtYbTZIZW5waHZCVTJEN0ltSlZvZnBERmRuOFJ3a1h0MUFxakNLTHNLQXlpV052TGE2Q2pyVWZucGJHQ3FR?oc=5",
-          "published_at": "2024-09-01T07:00:00+00:00",
-          "snippet": "Pradhan Mantri Pradhan Mantri PMAY (U)",
-          "lexical_overlap": 0.154,
-          "relevance": 0.274,
-          "matched_terms": [
-            "mantri",
-            "pradhan"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "mantri",
-            "pradhan"
-          ]
-        },
-        {
-          "id": "ef8f564d1abaecd28d",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Prime Minister Narendra Modi disburses ₹2,400 crore under Pradhan Mantri Viksit Bharat Rozgar Yojana - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4zSmt0THRBMGVBNl9sLU9lS251ZTlzV09LcFIyckhpdkdXUjlvVDRubGlqbVNvZWpiZXVSQk1lMmRVMzhTcDdOQ1AyYWpDVnVBbTc1YlFWQmtwLVlueVlkV0VDeW1veUJ2aXdnU2d2ZjZYWS1CamsyZUZn?oc=5",
-          "published_at": "2026-06-19T07:00:00+00:00",
-          "snippet": "Prime Minister Narendra Modi disburses ₹2,400 crore under Pradhan Mantri Viksit Bharat Rozgar Yojana PIB",
-          "lexical_overlap": 0.111,
-          "relevance": 0.181,
-          "matched_terms": [
-            "mantri",
-            "pradhan"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "mantri",
-            "pradhan"
-          ]
-        }
-      ],
-      "implementation_signal": "current_primary_evidence_found",
+      "evidence": [],
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -57725,7 +57657,7 @@
     },
     {
       "id": "64f8462c038659ca06",
-      "checked_at": "2026-09-29T09:48:46.597704+00:00",
+      "checked_at": "2026-10-16T17:00:46.001955+00:00",
       "promise_id": "BJP-2019-1716a2baac377302c3",
       "year": 2019,
       "category": "infrastructure",
@@ -61102,7 +61034,7 @@
     },
     {
       "id": "df076e7dea8ba67624",
-      "checked_at": "2026-10-16T14:51:42.826327+00:00",
+      "checked_at": "2026-10-16T17:00:26.648636+00:00",
       "promise_id": "BJP-2014-078252941779345656",
       "year": 2014,
       "category": "women_social_justice",
