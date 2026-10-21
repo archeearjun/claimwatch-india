@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T17:42:50.895610+00:00",
+  "generated_at": "2026-10-21T18:38:59.065690+00:00",
   "capabilities": {
     "official_evidence_search": true,
     "verified_primary_gate": true,
@@ -16,8 +16,8 @@
     "promise_checked_this_run": 30,
     "promise_total_candidates": 841,
     "promise_coverage_pct": 101.3,
-    "primary_candidates": 545,
-    "secondary_candidates": 1095,
+    "primary_candidates": 557,
+    "secondary_candidates": 1104,
     "prior_fact_checks": 0,
     "publishable_auto_verdicts": 0,
     "claim_verdicts": {
@@ -29,11 +29,11 @@
       "fulfilled_by_deadline": 0,
       "target_reached_evidence": 0,
       "proven_unfulfilled_by_deadline": 0,
-      "progress_documented": 11,
+      "progress_documented": 12,
       "deadline_passed_unresolved": 47,
       "deadline_not_reached": 13,
       "insufficient_evidence": 37,
-      "not_machine_measurable": 744,
+      "not_machine_measurable": 743,
       "audited_total": 852
     },
     "claim_memory": {
@@ -321,11 +321,30 @@
       "query": "cricket both teams won medals second",
       "numbers": [],
       "promise_matches": [],
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "f5487f8502d13c381d",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "BCCI",
+          "source_url": "https://www.bcci.tv",
+          "title": "India’s Asian Games Gold-Winning Cricket Teams Meet PM Modi - BCCI",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaFVVclVSdTd3Q2lIazRLalpQWHZqdm5ZU3BlN0NBZGhGVUNPUF9sUndKclNiTmRaM0J1SG1QRXlZUVhTX3BqM3hWbDYxR2I2RENjaG9IMXRGd1dGSnlrUkhfcE5mam9MUnVMM3hjLVVQX3JMbzBEUnZNd2ZkRVFVTjB6R05pU3JmMXhCRG5oWVFSZzNFRFE?oc=5",
+          "published_at": "2026-10-17T16:42:13+00:00",
+          "snippet": "India’s Asian Games Gold-Winning Cricket Teams Meet PM Modi BCCI",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
+          "matched_terms": [
+            "cricket",
+            "teams"
+          ],
+          "shared_numbers": []
+        }
+      ],
       "fact_checks": [],
       "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
+        "level": "reporting_found",
+        "label": "Relevant reporting found; primary evidence still needed",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -391,7 +410,7 @@
         "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-interaction-with-the-participants-of-asian-games-2026/",
         "published_at": "2026-10-15T14:00:34+00:00"
       },
-      "query": "38 85 medals won out were women athletes",
+      "query": "85 38 medals won out were women athletes",
       "numbers": [
         "38",
         "85"
@@ -597,6 +616,24 @@
             "mixed"
           ],
           "shared_numbers": []
+        },
+        {
+          "id": "fc43dd29dbb31537f1",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "ANI News",
+          "source_url": "https://www.aninews.in",
+          "title": "Asian Games: Jay Meena wins India’s maiden soft tennis medal with men’s singles bronze - ANI News",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOdkFoejV3eFR1QUFJN09EcWZTdnJuOWpuQ1hIUmVsUnBYRUd0WVRNS3dneF9kaDg2Z012SnlzTFpaVnpxdDRHNU8yaHpCbUNmVWZqeE1JN3pscDZaSmRKRElMc1lLY21CM1ZXakI5c2NidU93NUtMeDMtWG1qQTdIaUs5Xy1XaVdybGtXOUozcGN5RDJjY1NvZ3FmOFBEaXd3MjJCQXJ5YUp5d2VlRVlvcDJIZXp4WTRFTGJpdHd3d3NwR1dBVS1SQW5iWC03enpQV1dZQnN5ek1kVWMzZENEaA?oc=5",
+          "published_at": "2026-09-23T07:00:00+00:00",
+          "snippet": "Asian Games: Jay Meena wins India’s maiden soft tennis medal with men’s singles bronze ANI News",
+          "lexical_overlap": 0.083,
+          "relevance": 0.153,
+          "matched_terms": [
+            "soft",
+            "tennis"
+          ],
+          "shared_numbers": []
         }
       ],
       "fact_checks": [],
@@ -651,15 +688,15 @@
       ],
       "evidence": [
         {
-          "id": "00013db5031538121e",
+          "id": "9903432610ca763431",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "WYMT",
-          "source_url": "https://www.wymt.com",
-          "title": "12-year-old hit, killed by car while walking with friends was ‘taken way too soon,’ mom says - WYMT",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUjI5WmY5TWUybVFDT0RIcVhJM0VEOFlERnAzUFdiV0tOLW0tdG0tMnl1R1A3Q1V6b1oxNTMzQXFCekdfVEdxWksxVXdSRmxNQnBfWnNfRFhlQXdFdkFheV9fdlR4UWRlSGtwMFlLM1pDVEVUSmRVQmlnNkVoVjZUTmxRc3ZVc2hWSmJFd1VkRFVhSVUyM0xLTV9nWFBrYzRoQXZmbThOT09fS0NsdEtmam5NdlE4YjRSY1FUOW9R0gHSAUFVX3lxTE02ZE1CNmd2d0ZlZnZqQ3lBY0pteDdpbFVwWlNBZ2FXLVI0UUJUVERrR05NTnNGZ2xMOThFLXF5Qml5a2JveGRDM3J2LUFXZjJnNzNkYUdmalViaUxfLVAtUHUzX3RWVVA2Q3JRVFJHbTRCMG5SdTBpanEwUHM2dW9xM1o3TDZfQllhQ29FenZRbGJQc1J3ckczUC15alhzLUFud3dtdm4zS0hKVTVjZ3hCS3JQYVdUa0c4X1M5cnlobjZadXhSZzNKZnhGaVpkaE5RZw?oc=5",
+          "source": "WAGM",
+          "source_url": "https://www.wagmtv.com",
+          "title": "12-year-old hit, killed by car while walking with friends was ‘taken way too soon,’ mom says - WAGM",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWlJ3Q1Y2U0VJVXluMEhPamhyVVhMYTZTQjVSU1lpS1h5MWo4eDdkM1VmOVg1RE5YMjVtTzh1RGgwLUFRZ1RSa1YzUmZMY0g1S2NFZjZoRVE4QzFCZ2lWWF9PS1lubmRQNU5MYkpyM2RIVXB3aUN1bi1qalpZSnVNOHBtRC1qWlcxZmNsdWltRlJuR3lMaVRtcXBFWUJzakJOT1lUamdDeGlUcHdjZzA2bDFmRzhXUDkyWkRLc3NUdlTSAdQBQVVfeXFMTktDYkNjYWMzdFRNMnhkSXExdTlkb2hBd2FNakZNVzVEbFJSSGItQ1FqcEdEaVh4SXIzUnlhbXF6VGl4R3VTdzNtZVpjT1JSNy1rU05JTUFwS2tydnRaVXdaQlJGSDU4WXBZejE3S0wzU2FrbHVMT2t5eHlsbDJEbmlyN3ZaQ25BZWNHNjlFZDFsVF9vZGJpeHdKOVFJQ3l4UU81RXRHUEMzV2M1NmRuWWVoay1fV3BDTWZ3VEVWX1MxUkNDT21tVEk1Y21vSGFsTFhsdk4?oc=5",
           "published_at": "2026-09-22T07:00:00+00:00",
-          "snippet": "12-year-old hit, killed by car while walking with friends was ‘taken way too soon,’ mom says WYMT",
+          "snippet": "12-year-old hit, killed by car while walking with friends was ‘taken way too soon,’ mom says WAGM",
           "lexical_overlap": 0.087,
           "relevance": 0.267,
           "matched_terms": [
@@ -669,24 +706,6 @@
           "shared_numbers": [
             "12"
           ]
-        },
-        {
-          "id": "c66b229102d50b7f32",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Guardian",
-          "source_url": "https://www.theguardian.com",
-          "title": "So pleased to meet you: why it’s never too late to make close friends - The Guardian",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOLXNyV2NyYTFyYXRSUVhtUldJSWJqTHNNT2ttcHE0R3FVVTQyeTB6dmktdG4tc19nMGFQMndVaFROQUp3MjFIaUxiWFhnTDVqM24tQzl2SkdSeVhjTTlqYjZ4Ykdrc2VWUm1GWEJpaVZyTElZVGJzb1RaZnVwU09iY1o0eXVSdmo3YkFmWUpWNVJWUVlTMEpkVWJpZjU1cXZNSmZRdUZ0THJTOFdnWG92UGRVMW1fT0J0dHFJQnZIaVZ5dzFfeXZXcGViRTc?oc=5",
-          "published_at": "2023-05-14T07:00:00+00:00",
-          "snippet": "So pleased to meet you: why it’s never too late to make close friends The Guardian",
-          "lexical_overlap": 0.095,
-          "relevance": 0.165,
-          "matched_terms": [
-            "friends",
-            "too"
-          ],
-          "shared_numbers": []
         }
       ],
       "fact_checks": [],
@@ -755,7 +774,7 @@
         "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-interaction-with-the-participants-of-asian-games-2026/",
         "published_at": "2026-10-15T14:00:34+00:00"
       },
-      "query": "10 12 past worked continuously dedication sincerity pursued",
+      "query": "12 10 past worked continuously dedication sincerity pursued",
       "numbers": [
         "10",
         "12"
@@ -1181,7 +1200,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-21T17:41:52.399343+00:00",
+      "latest_checked_at": "2026-10-21T18:38:01.581144+00:00",
       "latest_claim_packet_id": "4fc123ec978ead3424"
     },
     {
@@ -1229,7 +1248,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-21T17:41:52.399279+00:00",
+      "latest_checked_at": "2026-10-21T18:38:01.581079+00:00",
       "latest_claim_packet_id": "39655c069fdf0432cb"
     },
     {
@@ -1277,7 +1296,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-21T17:41:52.399444+00:00",
+      "latest_checked_at": "2026-10-21T18:38:01.581242+00:00",
       "latest_claim_packet_id": "3bd7b7082f67fcec8b"
     },
     {
@@ -1301,7 +1320,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-21T17:41:52.399418+00:00",
+      "latest_checked_at": "2026-10-21T18:38:01.581216+00:00",
       "latest_claim_packet_id": "47f28dd1ec0e8f34f5"
     },
     {
@@ -1469,7 +1488,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-21T17:41:52.399372+00:00",
+      "latest_checked_at": "2026-10-21T18:38:01.581172+00:00",
       "latest_claim_packet_id": "eaf894d11c6d2020fd"
     },
     {
@@ -1613,7 +1632,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-21T17:41:52.399218+00:00",
+      "latest_checked_at": "2026-10-21T18:38:01.581017+00:00",
       "latest_claim_packet_id": "91f80f8f9486c34723"
     },
     {
@@ -1685,7 +1704,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-21T17:41:52.399358+00:00",
+      "latest_checked_at": "2026-10-21T18:38:01.581158+00:00",
       "latest_claim_packet_id": "2c0e6bc38ae2653564"
     },
     {
@@ -1727,13 +1746,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "needs_research",
+      "evidence_state": "reporting_found",
       "human_reviewed": false,
       "created_at": "2026-10-18T20:40:21.105227+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-21T17:41:52.399295+00:00",
+      "latest_checked_at": "2026-10-21T18:38:01.581095+00:00",
       "latest_claim_packet_id": "c6503376f84ce30798"
     },
     {
@@ -2069,7 +2088,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-21T17:41:52.399332+00:00",
+      "latest_checked_at": "2026-10-21T18:38:01.581132+00:00",
       "latest_claim_packet_id": "92e5474bb83cc0df4c"
     },
     {
@@ -2093,7 +2112,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-21T17:41:52.399318+00:00",
+      "latest_checked_at": "2026-10-21T18:38:01.581118+00:00",
       "latest_claim_packet_id": "54f4567cf67bedad56"
     },
     {
@@ -2117,7 +2136,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-21T17:41:52.399405+00:00",
+      "latest_checked_at": "2026-10-21T18:38:01.581204+00:00",
       "latest_claim_packet_id": "932398a833189acad2"
     },
     {
@@ -2333,7 +2352,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-21T17:41:52.399386+00:00",
+      "latest_checked_at": "2026-10-21T18:38:01.581185+00:00",
       "latest_claim_packet_id": "b8900397e61c3c1fa9"
     },
     {
@@ -2600,7 +2619,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-21T17:41:52.399428+00:00",
+      "latest_checked_at": "2026-10-21T18:38:01.581226+00:00",
       "latest_claim_packet_id": "ea0a14718ba9e0d486"
     },
     {
@@ -2744,7 +2763,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-21T17:41:52.399256+00:00",
+      "latest_checked_at": "2026-10-21T18:38:01.581056+00:00",
       "latest_claim_packet_id": "ea68cd55ad6fa2bd5b"
     },
     {
@@ -6670,7 +6689,7 @@
     },
     {
       "id": "e053916c6cd35bcad8",
-      "checked_at": "2026-10-11T08:52:52.821787+00:00",
+      "checked_at": "2026-10-21T18:38:30.688692+00:00",
       "promise_id": "BJP-2024-ba2b6777effa51eba5",
       "year": 2024,
       "category": "other",
@@ -6708,7 +6727,7 @@
     },
     {
       "id": "0041dd0b70e5db7175",
-      "checked_at": "2026-09-29T06:16:56.536965+00:00",
+      "checked_at": "2026-10-21T18:38:47.431982+00:00",
       "promise_id": "BJP-2024-c367879c588e4698a0",
       "year": 2024,
       "category": "infrastructure",
@@ -7864,7 +7883,7 @@
     },
     {
       "id": "c26b72ddab5e3b9fe1",
-      "checked_at": "2026-10-11T08:53:22.913170+00:00",
+      "checked_at": "2026-10-21T18:38:37.709128+00:00",
       "promise_id": "BJP-2024-c05e03344581ad98a5",
       "year": 2024,
       "category": "jobs_economy",
@@ -7887,8 +7906,31 @@
       "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
       "related_promises": [],
       "query": "expand range programmes further tourism sector",
-      "evidence": [],
-      "implementation_signal": "needs_research",
+      "evidence": [
+        {
+          "id": "da69502ec3508806b9",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Department of Enterprise, Tourism and Employment",
+          "source_url": "https://enterprise.gov.ie",
+          "title": "Budget 2027 delivers €1.3 billion for Enterprise, Tourism and Employment - Department of Enterprise, Tourism and Employment",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZFJfS284SGVNYzVjXzNsNW03UG0tWnN0dXRCTE9fVHd1eDhpeUk0U01CVU9sbkk1WGY5YTdwUXljQ3htb2pVVkRkeW0yZWFDQ00yQ1AtcUtsekNzLWtERDhvTGk0eWllT1E2cWdJQmNtRFkwbE14ZkRhSVdjYTVLc2drM0l2UDlBVjI2NHdMc1M?oc=5",
+          "published_at": "2026-10-07T07:00:00+00:00",
+          "snippet": "Budget 2027 delivers €1.3 billion for Enterprise, Tourism and Employment Department of Enterprise, Tourism and Employment",
+          "lexical_overlap": 0.143,
+          "relevance": 0.213,
+          "matched_terms": [
+            "employment",
+            "tourism"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "employment",
+            "tourism"
+          ]
+        }
+      ],
+      "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -8500,7 +8542,7 @@
     },
     {
       "id": "701eb0b593ec3fd3e6",
-      "checked_at": "2026-10-16T14:51:47.403451+00:00",
+      "checked_at": "2026-10-21T18:38:52.911707+00:00",
       "promise_id": "BJP-2024-c89f10b16ceb7a32bc",
       "year": 2024,
       "category": "culture_heritage",
@@ -10830,7 +10872,7 @@
     },
     {
       "id": "9ac0731c0868889e2d",
-      "checked_at": "2026-10-16T14:51:53.341920+00:00",
+      "checked_at": "2026-10-21T18:38:58.566952+00:00",
       "promise_id": "BJP-2024-cb0be7182938df29ea",
       "year": 2024,
       "category": "agriculture",
@@ -13003,7 +13045,7 @@
     },
     {
       "id": "1c11d13e150218cfff",
-      "checked_at": "2026-10-16T14:51:48.989489+00:00",
+      "checked_at": "2026-10-21T18:38:54.538109+00:00",
       "promise_id": "BJP-2024-c9b81a35f3368ed020",
       "year": 2024,
       "category": "other",
@@ -13033,7 +13075,7 @@
           "source_url": "https://www.legalserviceindia.com",
           "title": "The National Floor Minimum Wage under the Code on Wages, 2019: A Critical Appraisal of Implementation Bottlenecks - Legal Service India",
           "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPeTNQVk5QWmNJcnZkdk9DTHBURThkdFo0ckZxMDZxQlhDVlZzbUVqZXc2Vmp6WG1pdmNlSk5XOWF2Q20zSWlpX2J1QUtkaVlHczdYa2NCTFNubkpaVVhEb1hPVVpfQlFCRFE4YWZ2TUVhR3Y0RzNianFWdmhacHU3WkFwMUpkMVAxUXZMS0otNDI2VFU0YWVfN3N3Qkppb3E4YlJyR1REdjl2U1JTSXphZVVxRHZaSzRhM1VyWEVTdjlESnI0Y2liZFd4czBJR1phQjJNM2VGOGFkbFJ3Ym5FcDBkcHloWS0yd1c0SHlzSG9ibDA?oc=5",
-          "published_at": "2026-09-30T05:40:25+00:00",
+          "published_at": "2026-09-30T07:00:00+00:00",
           "snippet": "The National Floor Minimum Wage under the Code on Wages, 2019: A Critical Appraisal of Implementation Bottlenecks Legal Service India",
           "lexical_overlap": 0.188,
           "relevance": 0.292,
@@ -13068,28 +13110,6 @@
           "shared_numbers": [],
           "promise_core_overlap": [
             "national",
-            "review"
-          ]
-        },
-        {
-          "id": "3f67cda85de5555e7c",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Malaysian Reserve",
-          "source_url": "https://themalaysianreserve.com",
-          "title": "Akmal: Minimum wage needs periodic review amid cost pressures - The Malaysian Reserve",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNDFmNFBTRV8zbnJhalB1eGtrQnRQS3Y3OHZTMkdUOUJVYy01Mi11MmZobFlmSGNjVnBHMlBnb1VySFhwQTN0QndhTldWNFlTSTcyWHFzLU9iMEJkdFVTd3A2U2lPQU14dWVkcl83MERHSk1FUVFGd3I4YmxaOVZYMm1nZjhGZGJyZWdoMG5Ya0VQX1dlUGM4czN2MkhtVzZ0d3hWdjZRdw?oc=5",
-          "published_at": "2026-09-22T07:00:00+00:00",
-          "snippet": "Akmal: Minimum wage needs periodic review amid cost pressures The Malaysian Reserve",
-          "lexical_overlap": 0.125,
-          "relevance": 0.195,
-          "matched_terms": [
-            "periodic",
-            "review"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "periodic",
             "review"
           ]
         }
@@ -14700,7 +14720,7 @@
     },
     {
       "id": "edfb260aab9a95f60b",
-      "checked_at": "2026-10-16T14:51:44.536896+00:00",
+      "checked_at": "2026-10-21T18:38:50.766113+00:00",
       "promise_id": "BJP-2024-c7198f3d72ed52e654",
       "year": 2024,
       "category": "other",
@@ -14721,30 +14741,7 @@
       "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
       "related_promises": [],
       "query": "further strengthen vishwakarmas series initiatives",
-      "evidence": [
-        {
-          "id": "583462e2d6463495d8",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "SME Futures",
-          "source_url": "https://smefutures.com",
-          "title": "Need to further strengthen financial inclusion initiatives: FM Sitharaman - SME Futures",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdjJqM2kyVlhSVUhhX2dScUFUN21tZGRQOXl6dWx1SmQ4alBHWWVRX3dmcGhRbkZ4TzFza3BqeVpNX2pxZmw0QW53WEV4cmpleW5hd003d0pVcGFlMUlOV0JTNEVnSHRvOEFTR29FN2htQy1BUnQwaGxkblZkMnNfLXc0dXNQbXlxUENuYl9hRWZNYnI0OWFEQUc1WTA?oc=5",
-          "published_at": "2025-05-14T07:00:00+00:00",
-          "snippet": "Need to further strengthen financial inclusion initiatives: FM Sitharaman SME Futures",
-          "lexical_overlap": 0.25,
-          "relevance": 0.355,
-          "matched_terms": [
-            "further",
-            "initiatives",
-            "strengthen"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "initiatives"
-          ]
-        }
-      ],
+      "evidence": [],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -14760,7 +14757,7 @@
     },
     {
       "id": "2602a9a350064a3233",
-      "checked_at": "2026-10-16T14:51:46.130768+00:00",
+      "checked_at": "2026-10-21T18:38:51.787861+00:00",
       "promise_id": "BJP-2024-c7464d19569c0784d5",
       "year": 2024,
       "category": "jobs_economy",
@@ -14785,6 +14782,80 @@
       "query": "compliances ease simplifying laws reduce small",
       "evidence": [
         {
+          "id": "d8fc7f5ca4cfa28918",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Government has Implemented Series of Reforms to Simplify Corporate Compliance, Reduce Costs and Promote Ease of Doing Business for MSMEs and Startups - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE00b2N5Ymh6a3lzRUl2QlNFOFluWUx2SUhkYVNNSlVYUnhXWndjTTNubnNhRGlqazd1NDFhSDZVRXFHcVBjZ1gyTXQtUnk4M09Ma24yVzNiZnFFX3hiX0lMMm1ZeHpvNnBX?oc=5",
+          "published_at": "2025-08-12T07:00:00+00:00",
+          "snippet": "Government has Implemented Series of Reforms to Simplify Corporate Compliance, Reduce Costs and Promote Ease of Doing Business for MSMEs and Startups Press Information Bureau",
+          "lexical_overlap": 0.217,
+          "relevance": 0.442,
+          "matched_terms": [
+            "business",
+            "doing",
+            "ease",
+            "msmes",
+            "reduce"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "business",
+            "doing",
+            "ease",
+            "msmes",
+            "reduce"
+          ]
+        },
+        {
+          "id": "3e10b10044e5fae501",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Ease of Doing Business: India’s Ongoing Regulatory Transformation - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5BY2doVElVMS1PWDhSX05nMkg0N3VNMHRPbUlCc3FzRVhfVUp3V2pyOEpTdDFvYjVOb20wRnZjaFN5a2ZSaVFxZnRGR2Jlc2gwcFdWd0U2YThTYXpmMEVJN3B6RFlHT0lHaU9NWEtmTG1pT2h2aU5xcXFB?oc=5",
+          "published_at": "2026-02-05T08:00:00+00:00",
+          "snippet": "Ease of Doing Business: India’s Ongoing Regulatory Transformation Press Information Bureau",
+          "lexical_overlap": 0.167,
+          "relevance": 0.322,
+          "matched_terms": [
+            "business",
+            "doing",
+            "ease"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "business",
+            "doing",
+            "ease"
+          ]
+        },
+        {
+          "id": "af685c40309cb3eef3",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "ECONOMIC SURVEY 2024-25 CALLS FOR ENHANCED DEREGULATION FOR MICRO, SMALL AND MEDIUM ENTERPRISES (MSMES) - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5TSjBFWkQ2b1pZS3Z0NVFWbnp4Y0RUSVkyWHlTbmRmRlF4VWNyUnl1Q0JxYmlnUjBkT05kbmZmX004ME82NldnS1d2dThnaWZwNGw2aHRwY2t0S3k1Q1p3MURRX2JrZkVJ?oc=5",
+          "published_at": "2025-01-31T08:00:00+00:00",
+          "snippet": "ECONOMIC SURVEY 2024-25 CALLS FOR ENHANCED DEREGULATION FOR MICRO, SMALL AND MEDIUM ENTERPRISES (MSMES) Press Information Bureau",
+          "lexical_overlap": 0.087,
+          "relevance": 0.207,
+          "matched_terms": [
+            "msmes",
+            "small"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "msmes",
+            "small"
+          ]
+        },
+        {
           "id": "534dbc519bd8fa0138",
           "scope": "news_search",
           "tier": "secondary",
@@ -14808,30 +14879,6 @@
             "doing",
             "ease",
             "laws"
-          ]
-        },
-        {
-          "id": "86f60f7fd5d0a6c839",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Lapaas Voice",
-          "source_url": "https://voice.lapaas.com",
-          "title": "Assam Introduces Bills to Boost MSMEs, Ease Business - Lapaas Voice",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVnVOenhqT2hLVlA0bVlRaHlZTUNCY2tNWjhTSTlPdWZtNC1YblB4ZTVoVE96SV85OU5Sak5SbGdfVERSVGxlRnZYTjRIQlhBdHg3dGRNYVk4aldRNUs2QU01b3VWTFEtVjMtUUZUQnBySTIxQXNWWmZTR2tWX1Rmc2pRM0lBaUZvUzF5V1h6cGg3THhxSXMtelhJazZXMnk5WkpN?oc=5",
-          "published_at": "2026-07-10T07:00:00+00:00",
-          "snippet": "Assam Introduces Bills to Boost MSMEs, Ease Business Lapaas Voice",
-          "lexical_overlap": 0.167,
-          "relevance": 0.272,
-          "matched_terms": [
-            "business",
-            "ease",
-            "msmes"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "business",
-            "ease",
-            "msmes"
           ]
         },
         {
@@ -14905,17 +14952,17 @@
           ]
         }
       ],
-      "implementation_signal": "current_reporting_found",
+      "implementation_signal": "action_detected",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
       "outcome": {
-        "status": "not_machine_measurable",
+        "status": "progress_documented",
         "deadline_year": null,
-        "proof_strength": "none",
-        "proof_evidence_id": null,
+        "proof_strength": "verified_primary_action_with_object_overlap",
+        "proof_evidence_id": "d8fc7f5ca4cfa28918",
         "proof": null,
-        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+        "reason": "Verified primary evidence overlaps the subject of the promise and documents implementation activity, but not the promised outcome."
       }
     },
     {
@@ -16524,7 +16571,7 @@
     },
     {
       "id": "480038ad1cb59739ec",
-      "checked_at": "2026-10-07T22:00:47.609289+00:00",
+      "checked_at": "2026-10-21T18:38:40.749322+00:00",
       "promise_id": "BJP-2024-c1e2ba4f123a2da120",
       "year": 2024,
       "category": "infrastructure",
@@ -22673,7 +22720,7 @@
     },
     {
       "id": "054b628bfd6ed663ee",
-      "checked_at": "2026-09-29T06:16:55.055410+00:00",
+      "checked_at": "2026-10-21T18:38:45.620970+00:00",
       "promise_id": "BJP-2024-c2ee6178141adafc2e",
       "year": 2024,
       "category": "jobs_economy",
@@ -22697,6 +22744,98 @@
       "related_promises": [],
       "query": "food processing building globally competitive industry",
       "evidence": [
+        {
+          "id": "285ee0a1930560f3c1",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "MoFPI Holds High-Level Industry Consultation to Shape Next Phase of Food Processing Incentive Scheme - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB4cVNNTk9MWUtpNkhUeWhhR2FTZWJjaU5nMlpUUE04bnZoR2RmZkh2N3ZUU2gzd2hEcm5rQjdKY0J3WTdPZmxwSThSVTFJRmdzdEV2b3ZwYmNvV1ZoTnJ6THRqR292RDlBcmRodEl3dnNjLU43RHhOVzln?oc=5",
+          "published_at": "2026-07-08T07:00:00+00:00",
+          "snippet": "MoFPI Holds High-Level Industry Consultation to Shape Next Phase of Food Processing Incentive Scheme Press Information Bureau",
+          "lexical_overlap": 0.125,
+          "relevance": 0.28,
+          "matched_terms": [
+            "food",
+            "industry",
+            "processing"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "food",
+            "industry",
+            "processing"
+          ]
+        },
+        {
+          "id": "aca14efbe5abb54812",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Minister of Food Processing Industry Shri Chirag Paswan Inaugurates SAPLING (South Asian Policy Leadership for Improved Nutrition and Growth) DIALOGUE- 2026 - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBFSkhsXzNlYmdnellrWkVTb2QtSm9JUnphWTNhQnRZVjFEa2lobDNYUkxKMDlaWHA3SnhXM1lueWs3UmpZT1ZadlF5Vk1rTVhXMHRkd2dBdGRVLXc1cjJhbk52aHJHa2RMdFVHSmFydFMzRm1VN0FMNldHaw?oc=5",
+          "published_at": "2026-06-09T07:00:00+00:00",
+          "snippet": "Minister of Food Processing Industry Shri Chirag Paswan Inaugurates SAPLING (South Asian Policy Leadership for Improved Nutrition and Growth) DIALOGUE- 2026 Press Information Bureau",
+          "lexical_overlap": 0.12,
+          "relevance": 0.275,
+          "matched_terms": [
+            "food",
+            "industry",
+            "processing"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "food",
+            "industry",
+            "processing"
+          ]
+        },
+        {
+          "id": "8f7b168cd9bca6f9b4",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "From Farm to Retail: Make in India’s push for Food Processing Excellence - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBZTnJpblZzMUowMGN3NDctMXFDc3hrakhhNnd1aVR5Z3lXaElJV1NFOExCX3FXQmpqWnN2bDdzOEMzcm1kbzRodlotT243QmZHLU5yMGNpZ1pVOHBidk8yYURTcGVyYllj?oc=5",
+          "published_at": "2025-03-28T07:00:00+00:00",
+          "snippet": "From Farm to Retail: Make in India’s push for Food Processing Excellence Press Information Bureau",
+          "lexical_overlap": 0.1,
+          "relevance": 0.22,
+          "matched_terms": [
+            "food",
+            "processing"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "food",
+            "processing"
+          ]
+        },
+        {
+          "id": "aa5027158831b9c135",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Initiatives to Bridge Skills Gap in Food Processing Sector - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5DTURpa0ZUUXJPQ0N5eUlRaDdScmFKSkpKSFktc2VCajJZZnk3WTVqX3VEeUFlWEFqZWp1eEN6amdhYXA3ajNZN3JOcDJ1bU8wQlBGNWI3M1M5eE04Ym9QWG5uNzI2Skxt?oc=5",
+          "published_at": "2025-12-04T08:00:00+00:00",
+          "snippet": "Initiatives to Bridge Skills Gap in Food Processing Sector Press Information Bureau",
+          "lexical_overlap": 0.1,
+          "relevance": 0.22,
+          "matched_terms": [
+            "food",
+            "processing"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "food",
+            "processing"
+          ]
+        },
         {
           "id": "d9639b01c0ae350abc",
           "scope": "news_search",
@@ -22722,25 +22861,27 @@
           ]
         },
         {
-          "id": "d7ede048e5585226a7",
+          "id": "e002da21a40c167494",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "TheWire.in",
-          "source_url": "https://m.thewire.in",
-          "title": "Union Minister, Chirag Paswan Calls for Technological Revolution in Food Processing at the 33rd Convergence India Expo 2026 - TheWire.in",
-          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQR2drQjFKd3AxYUo4UkUzREM3SGVDOXU2UTJlLU04ejRRQ2RhWm9UODQ1WVlRbXpmcUlPb2J5a0hwYkx6R0c1ZDFJZlBxWDd6a2VNTlk3MHNtVTZDbmdOR3QyZU1nSVlCb2VaOGhHV3A4V1VsUklqOFV5QWx6Ykt0Q1lkSW53cUZUS2FXdFFYc0tyN014QWpldkJabGZETmdoSmZpSHgwQmVITW54TXA1YWN0SzRJV25IaXFVNWFwcEFKWGZyMWxLZUNERVppUHlwNThlX2Q0Tk9BR0tXVjFaNDlhQkxzUDEyZDVqLU90a3J5YUnSAfgBQVVfeXFMUC1RWXdFaWtqbHJ0YXVUOXNvb1JIRm1IcFoyVzc4N3hYSERRMHZMSFN5cXg5SEc2aGdiSzJFQUg5RWJqeWc0TGhyZzdtMUdza1ltOWc2akxrYmdfSW1oVXBFblptMnFlX2EzZGpnRl9XbWR2eE1zRElpNUZYQmNpcXY0QmY3bng0UUxEZ0lpbl9Pbm1SdkVmTG5BbWg5WG9jbHB4X25DY0pMWUh3dlZRLVlJQllIdnpPcE15amxPTkU5Z1RCckphR1dTM1ByaEhFUFU3QUJxNDZZRzQyVlhKR25jSDJuZ3RRa1VjaGVyWFpNRFZxNEw0bUc?oc=5",
-          "published_at": "2026-03-24T07:00:00+00:00",
-          "snippet": "Union Minister, Chirag Paswan Calls for Technological Revolution in Food Processing at the 33rd Convergence India Expo 2026 TheWire.in",
-          "lexical_overlap": 0.091,
-          "relevance": 0.161,
+          "source": "ET Manufacturing",
+          "source_url": "https://manufacturing.economictimes.indiatimes.com",
+          "title": "Why skills, standards and innovation are key to building globally competitive stainless steel ecosystem in I.. - ET Manufacturing",
+          "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQNFlZUmNUZVdTZ1lGamJmTmhwSlFaMVdBbUhOLVhWLUdOcnQzRGtucHd5OFo4ZU1uaXVFTFBZY0lVMzFDS2ROM0FsN2RsTVZRQzJQcHR2ampVYzdBZXV3MnlJSlA2OWJJSjQ1d2hpeTRhR3hPU1MxUGtHbnN2TWJoOGhnMUVMYkNqS0VmaHUzQU92Ty1rdHBtRThiU21GMTJjWjNJTk1Sd1B3NV9DTFFyN2Itc1pveUlJOHF6UXdSMkJzZzR2MG9POUhDVkJnd2xEMXl3dGJTdnNIMFZyT2tvd3AxYlRyZ0lpQUdwTVc0OFA3SFF2R2hrQnZKcER3elBMMWRFY3JMM2ZqX2VYNVdpY2hyZEfSAZoCQVVfeXFMTjdsdDY2d3dzajBqR0pxTGxtWnJXdXhWbDFMQ25hOC1XendtazN2dnN2Tk80M2M4dFhiQU5HeWprSDg1V3FFTUtjc29BNUgxRi1LaWVoZWFWQzZ5WF81bVEzTXE2d1lhTFZjMl8tUlZqQXpqUV9VNk9SeGxFLUpQaXlFckJTZnRYSGtObkFZam5KUTJvcjJYemJFeTE3VEZjN2twZE0zV0o3VTZXZUpmS2RNRFlRSm9qYUZxRlVGN1I5amJiMm5OWUI1bDlMZFp2MHpHeDVfdkE3dUw2MTYtRGtCd1I4Qm9lbnRtWHJyb2RRY2U2eUVvSThKMmZKblBLa3FWOXc4SWg0Slhlb0VfN28zU2djSWhndHdB?oc=5",
+          "published_at": "2026-08-30T07:00:00+00:00",
+          "snippet": "Why skills, standards and innovation are key to building globally competitive stainless steel ecosystem in I.. ET Manufacturing",
+          "lexical_overlap": 0.136,
+          "relevance": 0.241,
           "matched_terms": [
-            "food",
-            "processing"
+            "building",
+            "competitive",
+            "globally"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "food",
-            "processing"
+            "building",
+            "competitive",
+            "globally"
           ]
         },
         {
@@ -22766,17 +22907,17 @@
           ]
         },
         {
-          "id": "f82e5409b37ee3511f",
+          "id": "1fcdfe6e5f64e9d13c",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "organiser.org",
+          "source": "Organiser",
           "source_url": "https://organiser.org",
-          "title": "Odisha Food Pro 2026: CM Majhi unveils ambitious food processing vision, secures Rs 43,437 Crore investment proposals - organiser.org",
+          "title": "Odisha Food Pro 2026: CM Majhi unveils ambitious food processing vision, secures Rs 43,437 Crore investment proposals - Organiser",
           "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOWVh4a3NwSXZsb29SM3BnUUozdWdJb3pjLVNTRmlWVWRiMDJmS3lDdUxCbXFQdXJJWmNFUWlRTjA1eFowTW5VNjQ5dXl4YnVJVzQ1RS13ZVdmNjZ0UUJablJUd3RsUXRQV3hITkx0N3JCN3NIUlo5YzR3VHQ3WTlOdjdNSGZuVlVHWWM2RnE4eGVUVUs0VnpFaHdNMkdJX3J0RU14M2t5LWpyaUhKMFM0TnFxejlHVm4wcFJVRVhOVkl0TzFnN1M3VV9fb3g0RUc5ZGYzRzFpQVJEN3V5MlJHWU5HTU1jdHVCWHZ0bnVpTGFlaGNa0gH6AUFVX3lxTE53cFhqdWlZdnBSZlUtdkMyRWJtandDZ0JMT3oyWFBfOW1QOURBTENQQXhtbnRNVmEtR1RueUpVeVZFbmhlQWVpM1hGOS1SRmZwWlpvQXZBU3BfYVZJRUY0TWxIRmtmTWVLVERnbEtlVWV6Uk5CNWExUXR2S09xVkRvVW9Jcll2MmpMcWgyVW04Ml9TcThtMVFFaUQxLV8tcFBVUGZnQ2YyaG82V2EwOWJWX0tVdGRrN3M2MWw2emduSVpFcHRPLWxkWnpZOVBvUjhpU2xVR29WWFdGd3I0NFR4Qk5kZUVIY1JqektOeFlpclJiZnRYdVk0QXc?oc=5",
           "published_at": "2026-08-09T07:00:00+00:00",
-          "snippet": "Odisha Food Pro 2026: CM Majhi unveils ambitious food processing vision, secures Rs 43,437 Crore investment proposals organiser.org",
-          "lexical_overlap": 0.077,
-          "relevance": 0.147,
+          "snippet": "Odisha Food Pro 2026: CM Majhi unveils ambitious food processing vision, secures Rs 43,437 Crore investment proposals Organiser",
+          "lexical_overlap": 0.08,
+          "relevance": 0.15,
           "matched_terms": [
             "food",
             "processing"
@@ -22788,7 +22929,7 @@
           ]
         }
       ],
-      "implementation_signal": "current_reporting_found",
+      "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -24644,7 +24785,7 @@
     },
     {
       "id": "1722b9035211ee3164",
-      "checked_at": "2026-10-11T08:52:58.757001+00:00",
+      "checked_at": "2026-10-21T18:38:32.659496+00:00",
       "promise_id": "BJP-2024-ba75502cfe44067067",
       "year": 2024,
       "category": "other",
@@ -24665,8 +24806,161 @@
       "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
       "related_promises": [],
       "query": "increase fleets evs charging stations",
-      "evidence": [],
-      "implementation_signal": "needs_research",
+      "evidence": [
+        {
+          "id": "a993b4f6ceec0130ef",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Various initiatives by Government of India to promote electricity mobility and increase number of charging stations - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBobWJIamJ4RnlKcTBoeE5HOXJFSC04X1RXekxaVHlHQTdmTEtBbWI4VExXSnI2Q3puWEFHTmdWcjNiMFIxVU5lM3JiVnd3U1lEdmxZN0w3SktPRVRFMjZnekVxOWZRQUZmeHd2dHhKRUs?oc=5",
+          "published_at": "2025-05-15T22:30:11+00:00",
+          "snippet": "Various initiatives by Government of India to promote electricity mobility and increase number of charging stations Press Information Bureau",
+          "lexical_overlap": 0.188,
+          "relevance": 0.342,
+          "matched_terms": [
+            "charging",
+            "increase",
+            "stations"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "charging",
+            "stations"
+          ]
+        },
+        {
+          "id": "995f46e85dfba3cf48",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "ET Auto",
+          "source_url": "https://auto.economictimes.indiatimes.com",
+          "title": "ChargeZone secures $1 bn EV charging contracts, plans 1,000 new stations - ET Auto",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNR3AyVFVmWWNTTUE1SVYtUkY2djZjeThrRkdMdE00N1NJeHAxa1NYNDFhNEtzQkdWOUROU1J3Vi1pck9mWDZtLTBoMTNWdllOU1pSWFk5SFZ1V2d2LWNGWkN4X19DQm9MQ3FnVE8tYk1mTkhvZlY3TUVwZERRM3BUSnVrQ2R2M1pHeEN0M2oxUFJ3dEdWb0ZSbXM5RTlaOHRYMGlab29NUmJHODBqcmdkNTZMVDIxZ1NXSXlUeUhPT0h0V052YkRKMDJJcDlPMElJ0gHWAUFVX3lxTE9QamJGVHU1ckZtS0JyZVlZX0tEZWZhMGd3Qm5JcW9uNnZoTnpYU2c0Q0NlLXRvNmNxLUVqVF96eUV0eGRGVFZtdjBRMTZyU2IwTHloVGZycFlVRExPRi1IbFdSMHhvUFg1NzBZekhRa0lqUW1ZNW5ENWdfalhMSW9OeWFfTnVRZV9JSjdaSHd5NlBaZGJBZE9rZ2Z2dG5paEdFYjZxVlJOcmVHNmFfT25iUE10cnZ2TWVDWkNYRlJHQS1GOXk3NHVOMWhmemp3dWxWMGNqNFE?oc=5",
+          "published_at": "2026-09-08T07:00:00+00:00",
+          "snippet": "ChargeZone secures $1 bn EV charging contracts, plans 1,000 new stations ET Auto",
+          "lexical_overlap": 0.214,
+          "relevance": 0.319,
+          "matched_terms": [
+            "charging",
+            "ev",
+            "stations"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "charging",
+            "stations"
+          ]
+        },
+        {
+          "id": "ac6567c624f3224fef",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Charged EVs",
+          "source_url": "https://chargedevs.com",
+          "title": "Source partners with Radius to expand EV charging access for UK fleet drivers - Charged EVs",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNN0QtcFpJbU9IdlFwVkhPSGp5T1ZuZzVKSk5uZ3l0dkVRaHRPYXVvWlhXU2tNR2ZhREtwVFZGeG8zMTBkOEp6Tm9qbm1OXzNhQURNdTVTaUlXTWo2MG9XRExlTFQ0Vmd2RnNaUUVRQmNlWnQ2MDlvVU1VYnUxX05pOG9Lei1IM096Sk9fS05hU09YVjhCUVdOWEVoRE9nTlhGNzczVDJIX0xLazFsTF9z?oc=5",
+          "published_at": "2026-06-12T07:00:00+00:00",
+          "snippet": "Source partners with Radius to expand EV charging access for UK fleet drivers Charged EVs",
+          "lexical_overlap": 0.188,
+          "relevance": 0.292,
+          "matched_terms": [
+            "charging",
+            "ev",
+            "evs"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "charging"
+          ]
+        },
+        {
+          "id": "13f071d12ba8a801de",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Entrepreneur India",
+          "source_url": "https://www.entrepreneurindia.com",
+          "title": "EV Charging Consumption Triples in Two Years - Entrepreneur India",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbDUxRnhObDQ1M3Y0WEwwT1pGMUQ1V2Q1WnJqbnhpR2huaFhwR2V6V3R5Uy14cGloUFBlZVhDMnpkdGlpRXFWYWxWYXRiMGxqSEdISGp2aWFQZW1RVzRaWkplZTAxWTktaUhSVklaM3RNam5SQ0MzOUZMRzhCNDRYdmJTd0dmSWZqdEZDbzM2QVpLWm1XUzhrdEZoWXBEb2pwT3c?oc=5",
+          "published_at": "2026-09-01T07:00:00+00:00",
+          "snippet": "EV Charging Consumption Triples in Two Years Entrepreneur India",
+          "lexical_overlap": 0.182,
+          "relevance": 0.252,
+          "matched_terms": [
+            "charging",
+            "ev"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "charging"
+          ]
+        },
+        {
+          "id": "9e127bcf0f3d4e5b20",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Automotive Fleet",
+          "source_url": "https://www.automotive-fleet.com",
+          "title": "EV Charging Use Is Outpacing Infrastructure Growth - Automotive Fleet",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUVJoeFFrXy1pN0d0d184a1hwX3hPSUtMeWNwV05UNjJ1OXd3ZGp4WEpoMmZpTGVJRUN3QldaZzFOMVJsQktaRTgxbzdyZlo4a2hGSE1ISDhLcmNMREZBZ3NEUDVweXFmYUVJdEQ0RF9GMkNra2tjM3FsTTI2RFdIVEhEWHRleGd0RmZMT2JDWHA0Zw?oc=5",
+          "published_at": "2026-09-17T18:19:09+00:00",
+          "snippet": "EV Charging Use Is Outpacing Infrastructure Growth Automotive Fleet",
+          "lexical_overlap": 0.154,
+          "relevance": 0.224,
+          "matched_terms": [
+            "charging",
+            "ev"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "charging"
+          ]
+        },
+        {
+          "id": "2371eb31eec75d2c98",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Daily Sabah",
+          "source_url": "https://www.dailysabah.com",
+          "title": "Growing EV fleet in Türkiye drives record charging demand - Daily Sabah",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQa1NnRmxQUjRlLXpEOGdXRVVGUG52YzZwQ2I3d2FTX1Ruc01RTzVqMzZuUVNvcGNNVlR4QXhPTnhYczh1UHVOMjdEZEhMYmx0MzhGaDhWZVp6bDVjTTF3X0Y5dFZIWnpPRFhRV0tnamNsdjNydUtGdDk5V3BuZjF1OVFSNE95V2h0WnlSR29KeGhvN1BwTW1rM3RrSUdJWUtJQ3JB?oc=5",
+          "published_at": "2026-06-05T07:00:00+00:00",
+          "snippet": "Growing EV fleet in Türkiye drives record charging demand Daily Sabah",
+          "lexical_overlap": 0.133,
+          "relevance": 0.203,
+          "matched_terms": [
+            "charging",
+            "ev"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "charging"
+          ]
+        },
+        {
+          "id": "aab094edfd4e1f844e",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Washington State Department of Commerce (.gov)",
+          "source_url": "https://www.commerce.wa.gov",
+          "title": "Washington invests $37 million to expand EV charging access statewide - Washington State Department of Commerce (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOellyYmhYMTBJanMyTFZYaGR2Q0JaZTlBTmk2bFcyaFdMdmxPRlFyV0ZiNV9pM1YybUQwVWZTUzRxS2Q5VEthdndONmR4emtPTXpvR3ZIenlEbHRjWTRFNGphdm1zTU5xel93QkM0UEROQWI2ZGt4NEN1b0JXc1QxSXZrUGNfWHhJN2hqd3FpU3pfQzltNEw5M015R0RIUQ?oc=5",
+          "published_at": "2026-06-01T07:00:00+00:00",
+          "snippet": "Washington invests $37 million to expand EV charging access statewide Washington State Department of Commerce (.gov)",
+          "lexical_overlap": 0.118,
+          "relevance": 0.188,
+          "matched_terms": [
+            "charging",
+            "ev"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "charging"
+          ]
+        }
+      ],
+      "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -24681,7 +24975,7 @@
     },
     {
       "id": "5cb6aa7664943c3310",
-      "checked_at": "2026-10-11T08:53:17.341792+00:00",
+      "checked_at": "2026-10-21T18:38:35.909801+00:00",
       "promise_id": "BJP-2024-c02ea3bbbb7593af92",
       "year": 2024,
       "category": "infrastructure",
@@ -24704,7 +24998,51 @@
       "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
       "related_promises": [],
       "query": "next few expand manufacturing design installation",
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "a19c0cd855ad73d0f2",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Intel",
+          "source_url": "https://www.intel.com",
+          "title": "Intel Invests €5 Billion to Expand Manufacturing in Europe - Intel",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOVkhrN2wwd0hiS3NaUHdEaHZFV0h5MXIxSmlWZ1VQbkdyYmY0RUg4Wk9YMGxoWXRiSHMwbGpjdzcyVVZORDVzZUZhQUZoM3lxUldzdlRsQ1FybDJBdWY4R0lpemNPVHQwNVdDaThiQlNhWXZKTDBFZjd2LXN1dFhDUEpPMkpBTEstOHl5M3dVQXZEdHpqT3ZPbENPY2I3NGxEOXcwcm5ZaFo1UXhaZmR0Sm5qbjIwMkM2WTVyUERRZjJzUVREWHNmM1ZZT3ptVl9WZGhtVE9hSXNKNkJjZXc?oc=5",
+          "published_at": "2026-08-31T15:44:22+00:00",
+          "snippet": "Intel Invests €5 Billion to Expand Manufacturing in Europe Intel",
+          "lexical_overlap": 0.125,
+          "relevance": 0.195,
+          "matched_terms": [
+            "expand",
+            "manufacturing"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "manufacturing"
+          ]
+        },
+        {
+          "id": "0c6b78f3bf5c2aa759",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "NVIDIA Newsroom",
+          "source_url": "http://nvidianews.nvidia.com",
+          "title": "NVIDIA and Global Industrial Software Giants Bring Design, Engineering and Manufacturing Into the AI Era - NVIDIA Newsroom",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPcjVBblRXWFJhaTVLSVYzelRwUjgxOXRiRHJCdWhIUXhHN25GUDU2ODZPeDBiVnBmUFVYNUw4bkFoOVpVblk3Y2xIVHpRVEZjNW5YQmtOejR5RWNvWmxjS2hueTNCeXJPay1qQm5IMFJzdmNORk5Hb2VYc3o1M1hRMjNvUXhMUHRIN0hSVEhsMUI3X09uWmdiZDRQMlcxam9tTkoyc1J2a2ZHdFE5aHZnNEpYbVVZUEYybTNXSXNNaHNYZlNSbWdBMUhyZ2dJTDZtemZB?oc=5",
+          "published_at": "2026-03-16T07:00:00+00:00",
+          "snippet": "NVIDIA and Global Industrial Software Giants Bring Design, Engineering and Manufacturing Into the AI Era NVIDIA Newsroom",
+          "lexical_overlap": 0.091,
+          "relevance": 0.161,
+          "matched_terms": [
+            "design",
+            "manufacturing"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "design",
+            "manufacturing"
+          ]
+        }
+      ],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -30624,7 +30962,7 @@
     },
     {
       "id": "6392ae5951f896dca4",
-      "checked_at": "2026-10-01T00:34:23.538268+00:00",
+      "checked_at": "2026-10-21T18:38:49.313780+00:00",
       "promise_id": "BJP-2024-c61f1f87ce9fce7a14",
       "year": 2024,
       "category": "other",
@@ -30648,17 +30986,17 @@
       "query": "state governments implement further strengthen programme",
       "evidence": [
         {
-          "id": "6fb8db43f31dda54c8",
+          "id": "04a511114961059a9b",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "PIB",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "West Bengal Becomes 36th State/UT to Implement Ayushman Bharat PM-JAY - PIB",
+          "title": "West Bengal Becomes 36th State/UT to Implement Ayushman Bharat PM-JAY - Press Information Bureau",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9iUExUMGJXM1hFV09tUFFGRGZvNVYyVVFwTS1USXEwZ3YteDRuQUpkaE9nVzZva1FJZllCMHlsVjMyZVpaY0txcUZLUVVrSGxyaWg2S0NlWkZ5QWhxdy1uVE90S2FKVGhXSVI1d0NCSndaZUI3TzhEMnRwQQ?oc=5",
           "published_at": "2026-06-08T07:00:00+00:00",
-          "snippet": "West Bengal Becomes 36th State/UT to Implement Ayushman Bharat PM-JAY PIB",
-          "lexical_overlap": 0.133,
-          "relevance": 0.203,
+          "snippet": "West Bengal Becomes 36th State/UT to Implement Ayushman Bharat PM-JAY Press Information Bureau",
+          "lexical_overlap": 0.118,
+          "relevance": 0.188,
           "matched_terms": [
             "implement",
             "state"
@@ -31761,7 +32099,7 @@
     },
     {
       "id": "a7ef2843a84e80f0ec",
-      "checked_at": "2026-09-29T06:16:51.969318+00:00",
+      "checked_at": "2026-10-21T18:38:42.689896+00:00",
       "promise_id": "BJP-2024-c1f8c795e428853e04",
       "year": 2024,
       "category": "other",
@@ -31786,29 +32124,55 @@
       "query": "increase participation citizens policy making platforms",
       "evidence": [
         {
-          "id": "78f79f67702f28a4ef",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "bertelsmann-stiftung.de",
-          "source_url": "https://www.bertelsmann-stiftung.de",
-          "title": "Artificial Intelligence and the Future of Citizen Participation: New Report and Policy Brief published - bertelsmann-stiftung.de",
-          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxPR28tVHF2UEJoQ2dHWWJ5bWZZQy0xb3MzMkN4MkFuWmJfY3phbGU1Nnp5ZHlYSjRCSThLY3NkcFZCR3luLTZSb2xlY2pfR1hwZlg2X2x5YzFNY1B2V0J6THpfUTM4TTV5R0wzUXlLekY2MHlqUzZXUmNXRGZSM2hVSjRTbUdMVHZlUkFpUFV4QTMzUlIxWFdJQmZNWG0tVHZhdk1QMDE0NDVIWi1DU3FIWEUwSGtYTkRJaUt3SDZ0bU45eEdGNnM1bnlEaEpURl9CLW1qNWl0ckVlOWlCWHo4dkZiZ0xUclNOSTZuWlMwc2JVSTNXYnl0blIza3lLUmUwbUFJYnk2S1BjdzIxSlNPdFpWajVCd0tHMUR2VE1B?oc=5",
-          "published_at": "2026-08-19T07:00:00+00:00",
-          "snippet": "Artificial Intelligence and the Future of Citizen Participation: New Report and Policy Brief published bertelsmann-stiftung.de",
-          "lexical_overlap": 0.118,
-          "relevance": 0.188,
+          "id": "5d416baf0f0b1bcf80",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Public Consultations on Budget, NEP, Data Protection and Aadhaar Reforms Bring Citizens Closer to Policy Making - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5MQWo3eHVVakhocDgwcDkzNlRQSHJVX3lBd1hJX3doWm80Z1JxMHd1dC1yRUpMSEJvWXBPMngtalJPR2NYSDBSalB1UW5rdXJGTXBsWl9mbk5aMEFOS1N6YzBPemJuRTBv?oc=5",
+          "published_at": "2026-07-27T07:00:00+00:00",
+          "snippet": "Public Consultations on Budget, NEP, Data Protection and Aadhaar Reforms Bring Citizens Closer to Policy Making Press Information Bureau",
+          "lexical_overlap": 0.143,
+          "relevance": 0.298,
           "matched_terms": [
-            "participation",
+            "citizens",
+            "making",
             "policy"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "participation",
+            "making",
+            "policy"
+          ]
+        },
+        {
+          "id": "169c6371c68ea4a2c5",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "DD India",
+          "source_url": "https://ddindia.co.in",
+          "title": "Over 6.32 crore citizens join MyGov as public consultations expand citizen role in policy making - DD India",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOR3lGN1dkSlg0M09nYjYyb2xCNWhCOHRBVVlqb21hQWwxSl9pSFBjRFYxMk9naHZMMDlvSjZjTExNcUQ0Mks1VkI1dzRxaUFuZnNYb0xJa1dET0JnLTNibDRtOFpEalp5c3ZhS3c5UkZ1aGZMbGQ0TFdBRzJmSGZuZDlYQVQ5TncwZTM4NFYxRVpiQWhtZ3IyUXZlSlFfZkNOZXlvX2p5Vm1RaXE0RWwtYk1rUmpENDBtVXlabDJNaUNwNU41MXc?oc=5",
+          "published_at": "2026-07-27T07:00:00+00:00",
+          "snippet": "Over 6.32 crore citizens join MyGov as public consultations expand citizen role in policy making DD India",
+          "lexical_overlap": 0.25,
+          "relevance": 0.39,
+          "matched_terms": [
+            "citizens",
+            "making",
+            "mygov",
+            "policy"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "making",
+            "mygov",
             "policy"
           ]
         }
       ],
-      "implementation_signal": "needs_research",
+      "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -31823,7 +32187,7 @@
     },
     {
       "id": "c5530376f557572c1b",
-      "checked_at": "2026-10-16T14:51:52.299773+00:00",
+      "checked_at": "2026-10-21T18:38:57.600884+00:00",
       "promise_id": "BJP-2024-caeab82a241e31d55f",
       "year": 2024,
       "category": "jobs_economy",
@@ -33818,7 +34182,7 @@
     },
     {
       "id": "e1099552d9d05256e2",
-      "checked_at": "2026-09-29T06:16:53.373403+00:00",
+      "checked_at": "2026-10-21T18:38:44.666787+00:00",
       "promise_id": "BJP-2024-c2ad8a3b075c41f15f",
       "year": 2024,
       "category": "health_welfare",
@@ -33887,25 +34251,25 @@
           ]
         },
         {
-          "id": "9cb80480194f5bde32",
+          "id": "67c69477bbf9e51990",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Market Data Forecast",
-          "source_url": "https://www.marketdataforecast.com",
-          "title": "Yoga and Meditation Market Size & Growth Report, 203 - Market Data Forecast",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRmZua3E4emktTHM5TkNvLTdua1VHYnJOanNTUWwzNTR2YTc4UGFXeHF0Smh0ZHdlWV9scGx4ZWt3Nll2WlRfSHdiX21xTGs4V1VJNHlqdTQ4MmF0OWRZbUl0Q1hfM1ZTNnFMTzBTVU5lRDhrc3ozUUpkOUlGRlQzQTZB?oc=5",
-          "published_at": "2026-07-31T07:00:00+00:00",
-          "snippet": "Yoga and Meditation Market Size & Growth Report, 203 Market Data Forecast",
-          "lexical_overlap": 0.111,
-          "relevance": 0.181,
+          "source": "Verywell Mind",
+          "source_url": "https://www.verywellmind.com",
+          "title": "I Tried Non-Sleep Deep Rest for a Week—Here’s How It Improved My Mental Health - Verywell Mind",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1WdWpiOXN3cFA3UmtDa0FVWE5FaTZOckhSMFBTWUNhdmRKVE9za3NTSHJFQklOMnlZbHVPM2kydmlKWEVGZzJzeE9NZ2tZcXdRUWJhYy0wd3dONFY5NzdRNktPQ19QemwtaU0xVV9xcUJIcGNVaWZR?oc=5",
+          "published_at": "2026-01-05T08:00:00+00:00",
+          "snippet": "I Tried Non-Sleep Deep Rest for a Week—Here’s How It Improved My Mental Health Verywell Mind",
+          "lexical_overlap": 0.087,
+          "relevance": 0.157,
           "matched_terms": [
-            "meditation",
-            "yoga"
+            "health",
+            "mental"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "meditation",
-            "yoga"
+            "health",
+            "mental"
           ]
         }
       ],
@@ -35181,7 +35545,7 @@
     },
     {
       "id": "688f4e73e8a41fc15e",
-      "checked_at": "2026-10-11T08:52:46.199675+00:00",
+      "checked_at": "2026-10-21T18:38:29.377829+00:00",
       "promise_id": "BJP-2024-b9cc5efb0051ad2c28",
       "year": 2024,
       "category": "education_skills",
@@ -38150,7 +38514,7 @@
     },
     {
       "id": "356612f5db28e70f4d",
-      "checked_at": "2026-10-07T22:00:46.390003+00:00",
+      "checked_at": "2026-10-21T18:38:39.301025+00:00",
       "promise_id": "BJP-2024-c06082a7ea05b22f6a",
       "year": 2024,
       "category": "jobs_economy",
@@ -39335,7 +39699,7 @@
     },
     {
       "id": "07efe5549b450e344e",
-      "checked_at": "2026-10-11T08:53:07.757360+00:00",
+      "checked_at": "2026-10-21T18:38:33.861673+00:00",
       "promise_id": "BJP-2024-bdd95a4c4d830d74ec",
       "year": 2024,
       "category": "other",
@@ -39358,8 +39722,101 @@
       "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
       "related_promises": [],
       "query": "path increase share non-fossil fuel sources",
-      "evidence": [],
-      "implementation_signal": "needs_research",
+      "evidence": [
+        {
+          "id": "fbd7e95c41c61b0515",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Non-Fossil Fuel Share In Total Installed Power Capacity - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9mT1I4MWc4TjFtOEhPNWRTZGVhRjBpTTc1MHdvaC1UVmxZNHI5cV9yQzhtcVc0ejRMUjhkRWhPbGhnSjVNWnpiZC1YX0R3dkh5TFFpTEFnSzF4bUtsTk15TXlrYnE2UENXT1JacEVqSGdqR05vOGJuLWtR?oc=5",
+          "published_at": "2026-02-05T08:00:00+00:00",
+          "snippet": "Non-Fossil Fuel Share In Total Installed Power Capacity Press Information Bureau",
+          "lexical_overlap": 0.188,
+          "relevance": 0.342,
+          "matched_terms": [
+            "fuel",
+            "non-fossil",
+            "share"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "fuel",
+            "non-fossil",
+            "share"
+          ]
+        },
+        {
+          "id": "c433810201505989ef",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "India’s Renewable Rise: Non-Fossil Sources Now Power Half the Nation’s Grid - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11a3JHV2gwZ1NCSGlZc212ektqRmt3Q3lWaHFDWkJMR1ByUXRUb0o4VUFvemU5RTJrcGgwX05YSWE0THlQMm1GbDdLSDc5VzE2N0ZsbEhtZ1NrNGNydzYzVTVHLVMxbWNp?oc=5",
+          "published_at": "2025-07-14T07:00:00+00:00",
+          "snippet": "India’s Renewable Rise: Non-Fossil Sources Now Power Half the Nation’s Grid Press Information Bureau",
+          "lexical_overlap": 0.105,
+          "relevance": 0.225,
+          "matched_terms": [
+            "non-fossil",
+            "sources"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "non-fossil",
+            "sources"
+          ]
+        },
+        {
+          "id": "116f6ce4fd23571229",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Eunews",
+          "source_url": "https://www.eunews.it",
+          "title": "Lagarde: “Countries with non-fossil fuel energy sources are better protected” from shocks - Eunews",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcTYzYkdlY3ZHTnpYYU9EcE1UamxOUXJkN3lpLUZiYXFYbS1SQlk2LU14Yl81cWVpSnVPQ04tNUc3Mlk3bmVTMndrMDBzbi1OdjNEOTY1Sno4aVg3Q3dWdXdQajF4NVpxcGVTUnVNRGJmb2lYS0tmVi1RN0lDLXIzeFZULXd5MHZXNTh5YlM0X3h1d0htdmttNWIwNTJCcUhJelk3V0JrSF9JUkZLS1pSY3FmTHlfNzdIaWo3RGtZbHY?oc=5",
+          "published_at": "2026-05-05T07:00:00+00:00",
+          "snippet": "Lagarde: “Countries with non-fossil fuel energy sources are better protected” from shocks Eunews",
+          "lexical_overlap": 0.188,
+          "relevance": 0.292,
+          "matched_terms": [
+            "fuel",
+            "non-fossil",
+            "sources"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "fuel",
+            "non-fossil",
+            "sources"
+          ]
+        },
+        {
+          "id": "36d9ea3f7becab249e",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Asian Power",
+          "source_url": "https://asian-power.com",
+          "title": "India charts path to 500 GW non-fossil power by 2030 - Asian Power",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNUM4UEIzQ25PNzR1QTdQN01SekJmd2Q4THo4NW92dm1IWHo5U2hHb1h4V1EyOW4zdUh5SURWWkZsYjdUZWxrdFZWVnpCMHhlQm5EcUJydHJHRjdteDUySThzZTBkMUpNMkIzSExvSFd0Ukt5WE1xTzFIRmphM1Q1WmJKWFNIaEVtSmRV?oc=5",
+          "published_at": "2026-03-31T07:00:00+00:00",
+          "snippet": "India charts path to 500 GW non-fossil power by 2030 Asian Power",
+          "lexical_overlap": 0.154,
+          "relevance": 0.224,
+          "matched_terms": [
+            "non-fossil",
+            "path"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "non-fossil",
+            "path"
+          ]
+        }
+      ],
+      "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -39902,7 +40359,7 @@
     },
     {
       "id": "196d5718f6bcfd8a34",
-      "checked_at": "2026-10-16T14:51:50.419683+00:00",
+      "checked_at": "2026-10-21T18:38:55.643426+00:00",
       "promise_id": "BJP-2024-c9fcf1d4e5a0501cf8",
       "year": 2024,
       "category": "environment",
@@ -39927,17 +40384,17 @@
       "query": "promoting afforestation agroforestry committed achieving target",
       "evidence": [
         {
-          "id": "fe34ed08f32e047b9a",
+          "id": "9098419dfe59fcb673",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "PIB",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "Creation of additional carbon sink - PIB",
+          "title": "Creation of additional carbon sink - Press Information Bureau",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5IbEFnZnlhU2ltY1VhVWpHUjdyRzR4WUFQWjFlZGVqQzRnUjhDX0tDdjlkOGhtTU1NbE81MFdzQmRxSDBCeGp0bnBtOW9wY3JKNGRpVXRDRHBSbk9SdS1rbDh6bEdVYXdONW5RRzZKTXI?oc=5",
           "published_at": "2024-02-08T08:00:00+00:00",
-          "snippet": "Creation of additional carbon sink PIB",
-          "lexical_overlap": 0.143,
-          "relevance": 0.263,
+          "snippet": "Creation of additional carbon sink Press Information Bureau",
+          "lexical_overlap": 0.125,
+          "relevance": 0.245,
           "matched_terms": [
             "carbon",
             "sink"
@@ -44018,7 +44475,7 @@
     },
     {
       "id": "05e0979e7f32ba2f72",
-      "checked_at": "2026-10-21T17:41:54.731845+00:00",
+      "checked_at": "2026-10-21T18:38:03.894435+00:00",
       "promise_id": "BJP-2019-18c0750d5ed71bc3d1",
       "year": 2019,
       "category": "agriculture",
@@ -44191,6 +44648,30 @@
           ]
         },
         {
+          "id": "531ed5a861c168b322",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Outlook India",
+          "source_url": "https://www.outlookindia.com",
+          "title": "Farmer Producer Organization Scheme A Path To Farmers’ Prosperity - Outlook India",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMVpLQmxEZW5udS1scVRES3BVcEduZnhJaEdLcU1HY2hKWndwZ0g1dWpIRl9PRHdPaVQ5c2RFaV9PTVZ6akw3NGpnYjNudkwxaEJuOG81VlFJdVZ1emkzbTN0NXFlMHpnRlhqZHlTcFhjd21Ba1cxQWtoOVBGVTBkUy05bjFqSkhKOEI0SFhHeG9YSjQwT3lfNVNwNWRKVjN2Wl9rSEgyQWlXY1BCbzVMQll2eUNGMkZm0gHGAUFVX3lxTE16WE9xMW1VUnQzRmR2VGd0OWFPX2Q1RFN4S3ZWd2duMXBOdExXeWlzSXByV05JNmE5WWEzZnFBb1hzOFduZ0R5OXhsZko1N1JhclpXNlpVQ21QZFR0THFTdkVCc1B3ZHBJRFFWMU8wTzlOMDNOTjcxQVVNOWFsT3A2RXc0NzdYX3dBaFBmV0hsSlhsc2YxdWlhMHE2SFM5RTc4TU9xRGhTeWtWUW1wV3IwZ1hiTkJtQU1ZN3RVcUlZeDFXMlM4Zw?oc=5",
+          "published_at": "2024-01-16T08:00:00+00:00",
+          "snippet": "Farmer Producer Organization Scheme A Path To Farmers’ Prosperity Outlook India",
+          "lexical_overlap": 0.176,
+          "relevance": 0.281,
+          "matched_terms": [
+            "farmer",
+            "farmers",
+            "producer"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "farmer",
+            "farmers",
+            "producer"
+          ]
+        },
+        {
           "id": "634c286094b85d4f4a",
           "scope": "news_search",
           "tier": "secondary",
@@ -44255,31 +44736,9 @@
             "farmer",
             "producer"
           ]
-        },
-        {
-          "id": "07618ce32d181ef2b4",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Down To Earth",
-          "source_url": "https://www.downtoearth.org.in",
-          "title": "Heavy sway: Big corporations with power over farmer producer companies is diluting their purpose - Down To Earth",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOWmdHYVFuUlNEdnBBcDJhQ3BGWVRxVUkzWlZOY2NEeGNfVDZVTk1sa2JrOFZSbjF2dDEtSUFKcEhUY3VoZG42UEJhd3J5OUZsUVlrTDcyOUhtRHp6VGZCdUZfUW5nalpsTUtsRGFKZlIydjRwZjFidlo0VUtsQURoX1M5eHdQVXJJMHYtMDQwSGgwS1EzUURwdXZnenJYRnBGdTNWbUNhYVk2OXBIYUZTSDQ1QXo4bDNZamxZYjh1WkNDR0dMZmtUdGtuUVYwRC1qa0x3aXZiSEhFZFnSAegBQVVfeXFMUGd5TTgtUGhRNjRpd3JWb2d1RTZjX1pMR3lvYko1dDRZWUxDUTFaZjNYQWRDSzdrUC1FdmF2WE9oM3RUME56RGxUd3JJaGh0VnA5elRnTWNsaUEzbzU4TFE1UEt0Ylh2TldvS20yOXdfZHVDOFluMlJCbkR2N0tveWhYaUNqVGJRTGs0WG5WQjdjU3RFR1NTcF90RllEVUM0RnhtTDAzQlF5OTRrb3A0MEJMdDhfUUEwbGdKNXpsZmE4clJ5MlFJNUVvbV9KNUIxQUNQdGpYQ0tvNWR2cnExMnptdFhld3ZsVA?oc=5",
-          "published_at": "2023-04-20T07:00:00+00:00",
-          "snippet": "Heavy sway: Big corporations with power over farmer producer companies is diluting their purpose Down To Earth",
-          "lexical_overlap": 0.091,
-          "relevance": 0.161,
-          "matched_terms": [
-            "farmer",
-            "producer"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "farmer",
-            "producer"
-          ]
         }
       ],
-      "implementation_signal": "current_primary_evidence_found",
+      "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -45662,7 +46121,7 @@
     },
     {
       "id": "f5811520c1d5623f19",
-      "checked_at": "2026-10-21T17:41:56.645243+00:00",
+      "checked_at": "2026-10-21T18:38:05.862438+00:00",
       "promise_id": "BJP-2019-1d3e95fa9344e842f3",
       "year": 2019,
       "category": "infrastructure",
@@ -45783,7 +46242,7 @@
     },
     {
       "id": "92d6920a15fb42f812",
-      "checked_at": "2026-10-21T17:42:16.097261+00:00",
+      "checked_at": "2026-10-21T18:38:25.207621+00:00",
       "promise_id": "BJP-2019-6abf03adda773fec98",
       "year": 2019,
       "category": "governance",
@@ -45821,6 +46280,28 @@
           "snippet": "Release of Panchayat Advancement Index (PAI) 2022-23 PIB",
           "lexical_overlap": 0.067,
           "relevance": 0.262,
+          "matched_terms": [
+            "panchayat"
+          ],
+          "shared_numbers": [
+            "2022"
+          ],
+          "promise_core_overlap": [
+            "panchayat"
+          ]
+        },
+        {
+          "id": "0e308bf369f796a031",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Evidence-Based Rural Development Gets a Push with Rollout of First-Ever Panchayat Advancement Index (PAI) Baseline Report for FY 2022-23 - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9aSkhNaGFxcWdiYmFZdzZyUHhVNXh5bXZlU0hSdWlsUW9qRXFIMXZ2N1h1MmtTRWFaOFA3T2k0ckszYWhhbHhsTDVQdWMzSzB4YVJxSGV1NEZVbE55aWJpTGxnYUJIWVZM?oc=5",
+          "published_at": "2025-04-09T07:00:00+00:00",
+          "snippet": "Evidence-Based Rural Development Gets a Push with Rollout of First-Ever Panchayat Advancement Index (PAI) Baseline Report for FY 2022-23 Press Information Bureau",
+          "lexical_overlap": 0.04,
+          "relevance": 0.235,
           "matched_terms": [
             "panchayat"
           ],
@@ -49173,7 +49654,7 @@
     },
     {
       "id": "1e0abc9f94016f3c7a",
-      "checked_at": "2026-10-21T17:41:58.114236+00:00",
+      "checked_at": "2026-10-21T18:38:07.370564+00:00",
       "promise_id": "BJP-2019-2af396deaf778cac73",
       "year": 2019,
       "category": "infrastructure",
@@ -49258,7 +49739,7 @@
     },
     {
       "id": "4af70c5cc4e5dd31ea",
-      "checked_at": "2026-10-21T17:42:04.992292+00:00",
+      "checked_at": "2026-10-21T18:38:14.759327+00:00",
       "promise_id": "BJP-2019-34c03859f07f1329c5",
       "year": 2019,
       "category": "infrastructure",
@@ -51520,7 +52001,7 @@
     },
     {
       "id": "93bb9754ab7125c8f1",
-      "checked_at": "2026-10-21T17:42:10.205884+00:00",
+      "checked_at": "2026-10-21T18:38:19.826227+00:00",
       "promise_id": "BJP-2019-6013bbae5c9fbd8c5a",
       "year": 2019,
       "category": "women_social_justice",
@@ -51608,7 +52089,7 @@
     },
     {
       "id": "1d1782ad81aa54afcd",
-      "checked_at": "2026-10-21T17:42:12.720435+00:00",
+      "checked_at": "2026-10-21T18:38:22.408347+00:00",
       "promise_id": "BJP-2019-63e2ccda189fa85e2c",
       "year": 2019,
       "category": "health_welfare",
@@ -56522,7 +57003,7 @@
     },
     {
       "id": "21c782a6ad2ecb8987",
-      "checked_at": "2026-10-21T17:42:01.339081+00:00",
+      "checked_at": "2026-10-21T18:38:10.797818+00:00",
       "promise_id": "BJP-2019-2cfa1375f165d41707",
       "year": 2019,
       "category": "other",
@@ -57903,7 +58384,7 @@
     },
     {
       "id": "09db92a7679f9e887b",
-      "checked_at": "2026-10-21T17:42:07.358504+00:00",
+      "checked_at": "2026-10-21T18:38:16.979225+00:00",
       "promise_id": "BJP-2019-4fc8289de8caed52ff",
       "year": 2019,
       "category": "other",
@@ -63364,7 +63845,7 @@
     },
     {
       "id": "df076e7dea8ba67624",
-      "checked_at": "2026-10-21T17:42:18.951598+00:00",
+      "checked_at": "2026-10-21T18:38:27.838106+00:00",
       "promise_id": "BJP-2014-078252941779345656",
       "year": 2014,
       "category": "women_social_justice",
