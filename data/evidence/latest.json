@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T17:40:40.688666+00:00",
+  "generated_at": "2026-10-22T18:32:54.320405+00:00",
   "capabilities": {
     "official_evidence_search": true,
     "verified_primary_gate": true,
@@ -16,8 +16,8 @@
     "promise_checked_this_run": 30,
     "promise_total_candidates": 841,
     "promise_coverage_pct": 101.3,
-    "primary_candidates": 554,
-    "secondary_candidates": 1107,
+    "primary_candidates": 559,
+    "secondary_candidates": 1106,
     "prior_fact_checks": 0,
     "publishable_auto_verdicts": 0,
     "claim_verdicts": {
@@ -29,11 +29,11 @@
       "fulfilled_by_deadline": 0,
       "target_reached_evidence": 0,
       "proven_unfulfilled_by_deadline": 0,
-      "progress_documented": 12,
+      "progress_documented": 13,
       "deadline_passed_unresolved": 47,
       "deadline_not_reached": 13,
       "insufficient_evidence": 37,
-      "not_machine_measurable": 743,
+      "not_machine_measurable": 742,
       "audited_total": 852
     },
     "claim_memory": {
@@ -481,23 +481,90 @@
           ]
         },
         {
-          "id": "da789a74b87c62eaf2",
+          "id": "cb0644721a30748a8a",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Telangana Today",
-          "source_url": "https://telanganatoday.com",
-          "title": "India’s Asian Games campaign ends with 85 medals and several historic firsts - Telangana Today",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNckswQzJaVUk0cGtuWC1Td3lEb0ZPbnNfZFdaWjd2QWFzOUxTQTlhRUJ2VWtSbC1CdnhXOGhsUXcyTmlKWDcyWUJCSTBFY0lFT2tyeDA4YlVhaWVRcXlOR25ZcUNORUtsNjRKSTVWZjc2ODBDaXFlNHJ4Vy1mbDAyT2NnQjIwbTJuSEtMUEVxR0Z6N0NTVGQzQ3NKczVxMTI2SWVCVw?oc=5",
-          "published_at": "2026-10-03T07:00:00+00:00",
-          "snippet": "India’s Asian Games campaign ends with 85 medals and several historic firsts Telangana Today",
-          "lexical_overlap": 0.071,
-          "relevance": 0.216,
+          "source": "India Tribune - Chicago",
+          "source_url": "https://www.indiatribune.com",
+          "title": "'38 medals won by women is a picture of new India': PM Modi hails 'daughters' of nation - India Tribune - Chicago",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOaHBKcUtnb0FFbGttS2w5QjJ2ZnJLeU1MYlk5RklNS0RkMjdyUVNQVlJ6Q0tvOWpyclhlV2RuUDZfWkp1REl6Z1Y3TEVITmRyaUVvaWpoRWJyUTljNVExd0ZoLVlSR3RXbk1BUFA0dndmOEJTMkJCcGxQV2xkMTV4MGtNc2JTUy15bjE1cEQ2R0Q0QXJpYTh3WFBmSjNCOEs3WHdCa0R1ZllDcDBSNERJRE9Ca0xRTzJydWc?oc=5",
+          "published_at": "2026-10-15T23:35:54+00:00",
+          "snippet": "'38 medals won by women is a picture of new India': PM Modi hails 'daughters' of nation India Tribune - Chicago",
+          "lexical_overlap": 0.231,
+          "relevance": 0.446,
+          "matched_terms": [
+            "medals",
+            "women",
+            "won"
+          ],
+          "shared_numbers": [
+            "38"
+          ]
+        },
+        {
+          "id": "c00cbfde1884629e5f",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "DD News",
+          "source_url": "https://ddnews.gov.in",
+          "title": "Army athletes script best-ever Asian Games haul with 20 medals - DD News",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQUdqRHZNMzAtaUt1c0FmZjJ5Wi1qU1Uyczd6WFotS2NBZ0FlS3Y3czNEbl9yaG03dmZxMU5FSWt1Z0xnODN2dV9qdnkzbUNLSkswendXcEdHT21kdGlLWkhYUzQ2eHFxWDJIZkJXemNxRW1pWHhSaTR4UHpPTkpTaUtUZU96V2pxWkF0ckt6Q0Y4Zw?oc=5",
+          "published_at": "2026-10-09T07:00:00+00:00",
+          "snippet": "Army athletes script best-ever Asian Games haul with 20 medals DD News",
+          "lexical_overlap": 0.143,
+          "relevance": 0.263,
+          "matched_terms": [
+            "athletes",
+            "medals"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.0011,
+            "neutral": 0.9729,
+            "contradiction": 0.026
+          }
+        },
+        {
+          "id": "ea6567086a37bd713f",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "DD News",
+          "source_url": "https://ddnews.gov.in",
+          "title": "Asian Games 2026: India signs off with 85 medals after Gold rush in cricket, hockey and kabaddi - DD News",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYzcyV1NDejVqM1JEZTRSRzQ1am9oRl95dlZ2b1ZWMEpnWFNobjNVeks5OEJSenlsMDMzd2Q0aGtxX1l1Nmk0azZ6TUx2QUtSTHBDdnhTVlRZem01SWhqX19JT1cyMFBybVExSzJZRHVjV2QzUmsyX3hHbU1WeF9LakMxVlprUmlNSktTS1pEck50MXViTTI0QW5tN0d0Vjd2NTE2RFl0dm85MHFiOGNrRVBsNWptWnpiRnBB?oc=5",
+          "published_at": "2026-10-04T12:20:12+00:00",
+          "snippet": "Asian Games 2026: India signs off with 85 medals after Gold rush in cricket, hockey and kabaddi DD News",
+          "lexical_overlap": 0.056,
+          "relevance": 0.251,
           "matched_terms": [
             "medals"
           ],
           "shared_numbers": [
             "85"
           ]
+        },
+        {
+          "id": "2f30088f1204cbd772",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "DD News",
+          "source_url": "https://ddnews.gov.in",
+          "title": "PM Modi congratulates Antim Panghal, women’s golf team on Asian Games Silver medals - DD News",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQWtqZDUxVkRGaDc4d1Y4M0xJczBjMHpXcjZKVGVxZFVENlFwUVhtME1XUFh6RjdDalhubEV1TEhYUGR0SGIyREZfeGU3MVU2eXZFM3hKVUhGOG8tU2hNQ2JySGJzc0x1SWw0NG0ya2piVjNEeEdSTklIaTBFT3dRYVdDUS1ZUHBYNktsYmtsa0l6b3dUcExWOXlqRm1zd2ZGMlc5WXNFV3NfNHM?oc=5",
+          "published_at": "2026-10-04T07:02:40+00:00",
+          "snippet": "PM Modi congratulates Antim Panghal, women’s golf team on Asian Games Silver medals DD News",
+          "lexical_overlap": 0.118,
+          "relevance": 0.238,
+          "matched_terms": [
+            "medals",
+            "women"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.0014,
+            "neutral": 0.9855,
+            "contradiction": 0.013
+          }
         },
         {
           "id": "3a704178b04f313c2e",
@@ -520,8 +587,8 @@
       ],
       "fact_checks": [],
       "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
+        "level": "primary_evidence_found",
+        "label": "Relevant verified primary evidence candidate found",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -752,7 +819,7 @@
         "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-interaction-with-the-participants-of-asian-games-2026/",
         "published_at": "2026-10-15T14:00:34+00:00"
       },
-      "query": "10 12 past worked continuously dedication sincerity pursued",
+      "query": "12 10 past worked continuously dedication sincerity pursued",
       "numbers": [
         "10",
         "12"
@@ -793,6 +860,27 @@
       "promise_matches": [],
       "evidence": [
         {
+          "id": "c6dae4c1e4a6ab9a76",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "ClearIAS",
+          "source_url": "https://www.clearias.com",
+          "title": "Target Olympic Podium Scheme (TOPS) - ClearIAS",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBCOHVSZFQ5ZkFkdE1GYW53V3piTFJQWVNSNHJkZW9FU0hGT0pCa2VhdGlnSDFsc2toamNIemc3OExheERuTlhBQUZNclo0Tl84MEFmdGlRd1ZSX0Y3SXdTT2FsR3BaSi1hbW5r?oc=5",
+          "published_at": "2023-10-15T07:00:00+00:00",
+          "snippet": "Target Olympic Podium Scheme (TOPS) ClearIAS",
+          "lexical_overlap": 0.556,
+          "relevance": 0.731,
+          "matched_terms": [
+            "olympic",
+            "podium",
+            "scheme",
+            "target",
+            "tops"
+          ],
+          "shared_numbers": []
+        },
+        {
           "id": "efe8a216adccbc1563",
           "scope": "preferred_official_search",
           "tier": "primary",
@@ -816,6 +904,26 @@
             "neutral": 0.7767,
             "contradiction": 0.2147
           }
+        },
+        {
+          "id": "f0aaf3b687ca090873",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Firstpost",
+          "source_url": "https://www.firstpost.com",
+          "title": "Target Olympic Podium Scheme core group trimmed down by sport ministry; Neeraj retained, multiple medallist... - Firstpost",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQZ0ZlaGdCSjlZY01TSlFtM0ZNdFpIb0NTUU5ubjdyemR6M2FZMnZxR0JQZDZSZG1IZWI4UGtuUVNmaWExNmtRVHpaYWdubUFuVW5vRGd4eWlnd0hLMDdubEhRcXZVRy1CNndMa0IyYTlINHp1NDZOWUtDN20zSUpPd0xUaTRxZ2hyUVJEMlRReTVKNGV1VzJCQkVaMHc4aTEzRUxoTWQ5ZV9tanI3T1VicTBGVnZZb2NhUTh2aTNVQ01RSHYyWVBoeVZGUjVVOXVLUW50M29RUFNxOTI2MFlabFFJNllHZ2ZqS2wtNW1MNzV5cUHSAfgBQVVfeXFMTTRrWUVOanR5aDlRWTY5MzdVOUJnS1pFZHVYQXdQempmbE50X3Z5T0NoQ1RkUi1NblBobURDVWdhR3RyMHMwYnhJdnZfdU5YUzlBM2YtNU1fRnBmbURrY19uMVlsYnRPUHR2X0I5X243eHFOdDhIbUFKTGhiZEQ3WHNsVG15dW9RN0ZrOWpBcGZTaXBuWlFTQTctZTc5azlJRDVuajRfOUVXcVc5Snd1c2pHVDhqVmM0WFFnRlNMVkJ3aUgteHNmb0VBNDlCNGNiSUVxaVBlT2VRekhOZ3Z2TU9jNHlzQndmV2pCRjIxWFhOZklHY0dYOTY?oc=5",
+          "published_at": "2025-02-22T08:00:00+00:00",
+          "snippet": "Target Olympic Podium Scheme core group trimmed down by sport ministry; Neeraj retained, multiple medallist... Firstpost",
+          "lexical_overlap": 0.211,
+          "relevance": 0.351,
+          "matched_terms": [
+            "olympic",
+            "podium",
+            "scheme",
+            "target"
+          ],
+          "shared_numbers": []
         }
       ],
       "fact_checks": [],
@@ -1178,7 +1286,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-22T17:39:46.634228+00:00",
+      "latest_checked_at": "2026-10-22T18:32:05.404093+00:00",
       "latest_claim_packet_id": "4fc123ec978ead3424"
     },
     {
@@ -1226,7 +1334,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-22T17:39:46.634188+00:00",
+      "latest_checked_at": "2026-10-22T18:32:05.404051+00:00",
       "latest_claim_packet_id": "39655c069fdf0432cb"
     },
     {
@@ -1274,7 +1382,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-22T17:39:46.634288+00:00",
+      "latest_checked_at": "2026-10-22T18:32:05.404161+00:00",
       "latest_claim_packet_id": "3bd7b7082f67fcec8b"
     },
     {
@@ -1298,7 +1406,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-22T17:39:46.634271+00:00",
+      "latest_checked_at": "2026-10-22T18:32:05.404143+00:00",
       "latest_claim_packet_id": "47f28dd1ec0e8f34f5"
     },
     {
@@ -1466,7 +1574,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-22T17:39:46.634244+00:00",
+      "latest_checked_at": "2026-10-22T18:32:05.404113+00:00",
       "latest_claim_packet_id": "eaf894d11c6d2020fd"
     },
     {
@@ -1610,7 +1718,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-22T17:39:46.634143+00:00",
+      "latest_checked_at": "2026-10-22T18:32:05.403999+00:00",
       "latest_claim_packet_id": "91f80f8f9486c34723"
     },
     {
@@ -1682,7 +1790,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-22T17:39:46.634236+00:00",
+      "latest_checked_at": "2026-10-22T18:32:05.404104+00:00",
       "latest_claim_packet_id": "2c0e6bc38ae2653564"
     },
     {
@@ -1730,7 +1838,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-22T17:39:46.634198+00:00",
+      "latest_checked_at": "2026-10-22T18:32:05.404062+00:00",
       "latest_claim_packet_id": "c6503376f84ce30798"
     },
     {
@@ -2060,13 +2168,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "reporting_found",
+      "evidence_state": "primary_evidence_found",
       "human_reviewed": false,
       "created_at": "2026-10-18T20:40:21.109165+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-22T17:39:46.634221+00:00",
+      "latest_checked_at": "2026-10-22T18:32:05.404086+00:00",
       "latest_claim_packet_id": "92e5474bb83cc0df4c"
     },
     {
@@ -2090,7 +2198,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-22T17:39:46.634213+00:00",
+      "latest_checked_at": "2026-10-22T18:32:05.404077+00:00",
       "latest_claim_packet_id": "54f4567cf67bedad56"
     },
     {
@@ -2114,7 +2222,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-22T17:39:46.634264+00:00",
+      "latest_checked_at": "2026-10-22T18:32:05.404135+00:00",
       "latest_claim_packet_id": "932398a833189acad2"
     },
     {
@@ -2330,7 +2438,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-22T17:39:46.634252+00:00",
+      "latest_checked_at": "2026-10-22T18:32:05.404123+00:00",
       "latest_claim_packet_id": "b8900397e61c3c1fa9"
     },
     {
@@ -2597,7 +2705,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-22T17:39:46.634278+00:00",
+      "latest_checked_at": "2026-10-22T18:32:05.404150+00:00",
       "latest_claim_packet_id": "ea0a14718ba9e0d486"
     },
     {
@@ -2741,7 +2849,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-22T17:39:46.634174+00:00",
+      "latest_checked_at": "2026-10-22T18:32:05.404035+00:00",
       "latest_claim_packet_id": "ea68cd55ad6fa2bd5b"
     },
     {
@@ -41623,7 +41731,7 @@
     },
     {
       "id": "bd4a85830bef2c2627",
-      "checked_at": "2026-10-19T06:14:55.475020+00:00",
+      "checked_at": "2026-10-22T18:32:30.873609+00:00",
       "promise_id": "BJP-2019-b7bb1d10c9d36cf722",
       "year": 2019,
       "category": "other",
@@ -41748,7 +41856,7 @@
     },
     {
       "id": "693e19e11db5fd9470",
-      "checked_at": "2026-10-15T20:22:11.602045+00:00",
+      "checked_at": "2026-10-22T18:32:37.497237+00:00",
       "promise_id": "BJP-2019-c1f3b63b4df70e8541",
       "year": 2019,
       "category": "other",
@@ -41787,7 +41895,7 @@
     },
     {
       "id": "bde3a7f1cb62782011",
-      "checked_at": "2026-10-21T01:35:17.453740+00:00",
+      "checked_at": "2026-10-22T18:32:50.814650+00:00",
       "promise_id": "BJP-2019-d984e75fc12172b42e",
       "year": 2019,
       "category": "education_skills",
@@ -43969,7 +44077,7 @@
     },
     {
       "id": "8f53cf81db3538d314",
-      "checked_at": "2026-10-15T20:22:09.999879+00:00",
+      "checked_at": "2026-10-22T18:32:35.942514+00:00",
       "promise_id": "BJP-2019-beccd20b2d57ff3b50",
       "year": 2019,
       "category": "agriculture",
@@ -44009,6 +44117,27 @@
           "shared_numbers": [],
           "promise_core_overlap": [
             "enrolment",
+            "farmers"
+          ]
+        },
+        {
+          "id": "023c70fcc7a41a73d5",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Registration opens for PM Kisan Maan Dhan Yojana; Union Agriculture Minister urges farmers to register for the Pension Scheme - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5FWllNaEh3akhqSXRXQ2dTWHM3NWM3LUlqUnFGSE5oYzFGYWFoWFhRcmF1TG1qNFI4NlNjX2lTOEtCTFhVVEFGOFdoUFVWUkVvOTNaQWM2R3JIVFE1clVvUkE5V1k3UktSalE?oc=5",
+          "published_at": "2025-05-23T00:32:30+00:00",
+          "snippet": "Registration opens for PM Kisan Maan Dhan Yojana; Union Agriculture Minister urges farmers to register for the Pension Scheme PIB",
+          "lexical_overlap": 0.111,
+          "relevance": 0.231,
+          "matched_terms": [
+            "farmers",
+            "scheme"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
             "farmers"
           ]
         },
@@ -44368,8 +44497,8 @@
       }
     },
     {
-      "id": "05e0979e7f32ba2f72",
-      "checked_at": "2026-10-22T17:39:48.932350+00:00",
+      "id": "0764c49dce738dbbee",
+      "checked_at": "2026-10-22T18:32:07.597863+00:00",
       "promise_id": "BJP-2019-18c0750d5ed71bc3d1",
       "year": 2019,
       "category": "agriculture",
@@ -44395,7 +44524,7 @@
       "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
-      "query": "10000 2022 enable creation farmer producer organisations fpos",
+      "query": "2022 10000 enable creation farmer producer organisations fpos",
       "evidence": [
         {
           "id": "54958999ae6b9e6f18",
@@ -44520,13 +44649,13 @@
           ]
         },
         {
-          "id": "9dd1552a48dbb7c9a5",
+          "id": "bb295e8b58cc608624",
           "scope": "preferred_official_search",
           "tier": "primary",
           "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
           "title": "The Farm Acts are steps taken by the Government towards doubling farmers income by 2022 -- Agriculture Minister Narendra Singh Tomar - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE53cDJRZVNzTXVKRjN6WkpXaWlIM0lsZ3JubmkzNTVscm43bmlyZlQxZXlnNUFoOC1QR01CMy1KRW1oVzQ4bHg4NmxWZ09ESW5iekJJdHR2dmVVU2drNktqMjJzQTlITjF5?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE50dWRxRkdQbVRYbnBTZmtiUGdmOXBIT3QwY2F6RHhpd0pZZzR2OGluOHlHa0FPUWRiYlBSRmJsUFlMSEZ0cjcwOE5yZVBtaFlaRk15U1FHVmJsQlRiMThIb1RtZG50OVpPUzJBeVdxUG0?oc=5",
           "published_at": "2020-12-17T08:00:00+00:00",
           "snippet": "The Farm Acts are steps taken by the Government towards doubling farmers income by 2022 -- Agriculture Minister Narendra Singh Tomar Press Information Bureau",
           "lexical_overlap": 0.04,
@@ -44563,6 +44692,29 @@
             "farmer",
             "farmers",
             "producer"
+          ]
+        },
+        {
+          "id": "1af39614098ce2c5d1",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "YourStory.com",
+          "source_url": "https://yourstory.com",
+          "title": "Flipkart signs MoU with SERP to enable market access, growth for FPOs, SHGs in Telangana - YourStory.com",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdGxJNXQ4NFR1ZldsQi1veEx3MUEzLW1keWV6d0kySm5zd0pVVVZrUnZiLWhQQlhTWkFfLUJvVVp2aFFNQzBZMGg2a0M2SWxSQUpEZFRsWDJUblpsb21JTDNiTVJ4OE8ycHplcVJyZlV3Z3pmTzhRZUhZN1VqQzVlUDFaNVQ1a21PSld0T093?oc=5",
+          "published_at": "2022-06-25T07:00:00+00:00",
+          "snippet": "Flipkart signs MoU with SERP to enable market access, growth for FPOs, SHGs in Telangana YourStory.com",
+          "lexical_overlap": 0.136,
+          "relevance": 0.241,
+          "matched_terms": [
+            "access",
+            "enable",
+            "fpos"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "access",
+            "fpos"
           ]
         },
         {
@@ -44607,28 +44759,6 @@
           ],
           "promise_core_overlap": [
             "fpos"
-          ]
-        },
-        {
-          "id": "34c66c9ca7d95b9063",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Agriculture Post",
-          "source_url": "https://agriculturepost.com",
-          "title": "Every block in India to have one farmer producer organisation: MoS Agriculture - Agriculture Post",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPRzhVZmdmNUZVNGU3WVJ0eWxtZWgtdG51eEFlSnRnTlVZQUQxeS10dHp0T1ZmNVlyS0I3OVFKMnU2N3pPUnByMzU0MjgtV2k4TGdSemFCaU9pajdlelBwb0RHMTFUczhxTUhHellCcTBZbDlXQjR4bGRBSnI1N3hTb21DTGEyX2YyaUJSSUJoamhDSVZDcXZsM0E4V24zR0ZfZF9lc2VuMGtuXzZJSzFwaUpzRU53cmZRc3VRdmduSU9GUHJUWjVXcThxVlhWSkJMSzZRU3AzZWhpUDFMX0RxdVY4dw?oc=5",
-          "published_at": "2022-03-16T07:00:00+00:00",
-          "snippet": "Every block in India to have one farmer producer organisation: MoS Agriculture Agriculture Post",
-          "lexical_overlap": 0.1,
-          "relevance": 0.17,
-          "matched_terms": [
-            "farmer",
-            "producer"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "farmer",
-            "producer"
           ]
         }
       ],
@@ -45322,7 +45452,7 @@
     },
     {
       "id": "f07e998ac31751075d",
-      "checked_at": "2026-10-21T01:35:19.454177+00:00",
+      "checked_at": "2026-10-22T18:32:52.649289+00:00",
       "promise_id": "BJP-2019-e150181e853f9ffe00",
       "year": 2019,
       "category": "agriculture",
@@ -45873,7 +46003,7 @@
     },
     {
       "id": "ddcf4ce09a58bc3a59",
-      "checked_at": "2026-10-05T10:45:56.536715+00:00",
+      "checked_at": "2026-10-22T18:32:31.974587+00:00",
       "promise_id": "BJP-2019-ba18eae04645246ad6",
       "year": 2019,
       "category": "culture_heritage",
@@ -45895,53 +46025,8 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
       "query": "animal husbandry aquaculture easy access credit",
-      "evidence": [
-        {
-          "id": "13b730052fe7780cd7",
-          "scope": "broad_official_search",
-          "tier": "primary",
-          "source": "| Department of animal husbandry and dairying",
-          "source_url": "https://dahd.gov.in",
-          "title": "Untitled - | Department of animal husbandry and dairying",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5xZnNVLVJzeU0ySWpQM25oU2JUZXB0ajlRaXFvWHh4dTFNOGcxTmo3ZU9LQm1zc1ZNSzJRLTk2ZTdINElGNjRqbmpfekV6SHhiVC15eXZjNTJUdkZpQU5DT1ZwWE90QlNSaUJrSFI5RFJxQkREOUg0Y2F2aw?oc=5",
-          "published_at": "2026-04-29T14:41:35+00:00",
-          "snippet": "Untitled | Department of animal husbandry and dairying",
-          "lexical_overlap": 0.2,
-          "relevance": 0.32,
-          "matched_terms": [
-            "animal",
-            "husbandry"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "animal",
-            "husbandry"
-          ]
-        },
-        {
-          "id": "761bf972452d86a90c",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Indian Council Of Agricultural Research",
-          "source_url": "https://icar.org.in",
-          "title": "Union Minister of Fisheries, Animal Husbandry and Dairying launches the National Surveillance Programme on Fish Diseases - Phase-II and Genetic Improvement Programme of Indian White Shrimp (Penaeus indicus) at ICAR-CIBA, Chennai | ICAR - Indian Council Of Agricultural Research",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTmttcGszaGRrLXIxcm8zV2FrcFNPdkVabVRBRm04UU5sX0tQcVNzRWduUEY1ZG9ESGplYk8wTFhobTZ0S1ktMDVEb1RGMEZwcExoLTFQZmpDT21HREdUZnlzeW8wa0lQdjlwVDRUWVA5ZjlEZk5ZTVNnVHBGOXZSaHZwMzNNVEVXTUFsdmo0NTVMYkpFeDJnUjhPMGhocEYxbW9qbWNvdXBBbmNDb01xdENsSWpHUUd2T1E?oc=5",
-          "published_at": "2023-02-27T08:00:00+00:00",
-          "snippet": "Union Minister of Fisheries, Animal Husbandry and Dairying launches the National Surveillance Programme on Fish Diseases - Phase-II and Genetic Improvement Programme of Indian White Shrimp (Penaeus indicus) at ICAR-CIBA, Chennai | ICAR Indian Council Of Agricultural Research",
-          "lexical_overlap": 0.095,
-          "relevance": 0.165,
-          "matched_terms": [
-            "animal",
-            "husbandry"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "animal",
-            "husbandry"
-          ]
-        }
-      ],
-      "implementation_signal": "current_primary_evidence_found",
+      "evidence": [],
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -46086,7 +46171,7 @@
     },
     {
       "id": "f5811520c1d5623f19",
-      "checked_at": "2026-10-22T17:39:50.862251+00:00",
+      "checked_at": "2026-10-22T18:32:09.322560+00:00",
       "promise_id": "BJP-2019-1d3e95fa9344e842f3",
       "year": 2019,
       "category": "infrastructure",
@@ -46207,7 +46292,7 @@
     },
     {
       "id": "92d6920a15fb42f812",
-      "checked_at": "2026-10-22T17:40:09.686809+00:00",
+      "checked_at": "2026-10-22T18:32:25.792301+00:00",
       "promise_id": "BJP-2019-6abf03adda773fec98",
       "year": 2019,
       "category": "governance",
@@ -47073,7 +47158,7 @@
     },
     {
       "id": "e3720e0156a529b604",
-      "checked_at": "2026-10-15T20:22:08.204839+00:00",
+      "checked_at": "2026-10-22T18:32:34.903610+00:00",
       "promise_id": "BJP-2019-bc8cb3730dd00f12d7",
       "year": 2019,
       "category": "jobs_economy",
@@ -47117,28 +47202,6 @@
           "promise_core_overlap": [
             "growth",
             "inclusive"
-          ]
-        },
-        {
-          "id": "48bb47b259ce3fecbc",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Fast Company Middle East",
-          "source_url": "https://fastcompanyme.com",
-          "title": "Dubai leaders explore AI and global trade shifts to support future economic growth - Fast Company Middle East",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRFpfeHRmWEhkRlV4Q2J1X29WOWVhYVdvVlhsN1YwVW5MX3BNSFZPTHRGRm9OLTY4YnZoT09zRXZFbndHQ1VqLTVjc0JJT3VBTk10aDJNMUQ2YXh5LUlGQ3VVdkFhTkh6cVR1SzVCbllOeUJJWFpDZXdRaFNRR2lGRDl0MmJPb2NuMS1EVmgtV1FvZFpxbU9NZ1FvV0wyUnVIVUZGSWtuZmI5dzFtdlF4b3FOdUM?oc=5",
-          "published_at": "2026-10-14T10:01:55+00:00",
-          "snippet": "Dubai leaders explore AI and global trade shifts to support future economic growth Fast Company Middle East",
-          "lexical_overlap": 0.08,
-          "relevance": 0.15,
-          "matched_terms": [
-            "fast",
-            "growth"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "fast",
-            "growth"
           ]
         }
       ],
@@ -48608,7 +48671,7 @@
     },
     {
       "id": "04dddb4c6ce90476bc",
-      "checked_at": "2026-10-19T06:14:53.738711+00:00",
+      "checked_at": "2026-10-22T18:32:29.087434+00:00",
       "promise_id": "BJP-2019-b6046cf982ba083d0d",
       "year": 2019,
       "category": "infrastructure",
@@ -48633,17 +48696,90 @@
       "query": "set five regional centres excellence urban",
       "evidence": [
         {
-          "id": "8902a4bfd50a415c55",
+          "id": "a9a9864b862debb718",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "PIB",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "Second Batch of Phase 2 of the NAKSHA Capacity Building Programme to be inaugurated across Four National Centres of Excellence from June 16 - PIB",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1abEpRWlR6Z25IN2FORHNLcklHbVEtQUhycFlOTldfS0pGRFJEd09uVnEzUmlFdnpHOWFBNnF5eGMzQU8xWHcwTmxGOEdPZEpLOWhVV2U2ZWJnOEY5RXNfNWlUOFlsMmJ6aUsw?oc=5",
+          "title": "Cabinet approves National Scheme for Industrial Training Institute (ITI) Upgradation and Setting up of Five National Centres of Excellence for Skilling - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1UMGpQMm5oVjl4NXpqdWdxdUVLQUphUHV6cVR6UU5NNEhwZFNCWVh3T1E4WFVKX04yQnBjVnZkUEhqTWIxVVZVTXlBZUtqbXNQSEJlMHhRNHZlRExqaklZeUJVcFF4QlhQOEpz?oc=5",
+          "published_at": "2025-05-07T07:00:00+00:00",
+          "snippet": "Cabinet approves National Scheme for Industrial Training Institute (ITI) Upgradation and Setting up of Five National Centres of Excellence for Skilling Press Information Bureau",
+          "lexical_overlap": 0.2,
+          "relevance": 0.39,
+          "matched_terms": [
+            "centres",
+            "excellence",
+            "five",
+            "up"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "centres",
+            "excellence",
+            "five"
+          ]
+        },
+        {
+          "id": "297d66466a417b131d",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Ministry of Education Approves Five Centres of Excellence for Studies in Classical Languages - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9pRzQyWU1LVHZScmNYdEM2Ti1uTDJhS0E5WEUtN1hkTkdrN1BudXppR1k2Ym1CUHU1YlNkVEtyNEYzOWtkblNzMHJ4VVhQaDBHcHhkSEo1Q2JxLUl5MTdrSXpHZFgwUmJvWkhBcTVaR09lZkJfQmdZZTZfb0Vodw?oc=5",
+          "published_at": "2026-10-03T07:00:00+00:00",
+          "snippet": "Ministry of Education Approves Five Centres of Excellence for Studies in Classical Languages Press Information Bureau",
+          "lexical_overlap": 0.176,
+          "relevance": 0.331,
+          "matched_terms": [
+            "centres",
+            "excellence",
+            "five"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "centres",
+            "excellence",
+            "five"
+          ]
+        },
+        {
+          "id": "f5b6441afd7870b45d",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Second Phase of NAKSHA Capacity Building Programme to be launched across five National Centres of Excellence from June 2 - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1GaDRtU3ZRS284b2d0OUJ1eTUxRXBqV3BpT3IyYm44NzBLUF82eWV6Y2M4Yk5PSHdyQUdlT0JpZUZ2THp1YkpEcHBHNFdFTTZMSU1nTEVjc2t0TThFMFhHSWNSbm9lcXNS?oc=5",
+          "published_at": "2025-06-01T07:00:00+00:00",
+          "snippet": "Second Phase of NAKSHA Capacity Building Programme to be launched across five National Centres of Excellence from June 2 Press Information Bureau",
+          "lexical_overlap": 0.15,
+          "relevance": 0.305,
+          "matched_terms": [
+            "centres",
+            "excellence",
+            "five"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "centres",
+            "excellence",
+            "five"
+          ]
+        },
+        {
+          "id": "379fc45e2e4471c288",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Second Batch of Phase 2 of the NAKSHA Capacity Building Programme to be inaugurated across Four National Centres of Excellence from June 16 - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1nbTEyVEtwbVJDNW5qSlpMRzlIcXdLQjdzdmE0ZTFXMUlqektEVGE2UnhCbXBud0Y3X3Z1QjJmSGhzOHBTaFVTcmt5OFVpMV9WZENfeDBnY1Z4YVBFQ1dWdHYyYWNFMHN3?oc=5",
           "published_at": "2025-06-15T07:00:00+00:00",
-          "snippet": "Second Batch of Phase 2 of the NAKSHA Capacity Building Programme to be inaugurated across Four National Centres of Excellence from June 16 PIB",
-          "lexical_overlap": 0.1,
-          "relevance": 0.22,
+          "snippet": "Second Batch of Phase 2 of the NAKSHA Capacity Building Programme to be inaugurated across Four National Centres of Excellence from June 16 Press Information Bureau",
+          "lexical_overlap": 0.091,
+          "relevance": 0.211,
           "matched_terms": [
             "centres",
             "excellence"
@@ -48679,19 +48815,38 @@
             "excellence",
             "five"
           ]
+        },
+        {
+          "id": "1337f643cc892c5a19",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "ET Government",
+          "source_url": "http://government.economictimes.indiatimes.com",
+          "title": "Chhattisgarh approves ₹500 crore AI Mission to set up 100 data labs, train 7.5 lakh people - ET Government",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNenlHVHMzdjhOZGxSeHhBa2hna3VQbk5KMF9sMnZTSkx0cmJ4cF9pMEFaeGg4eENTRFc1bU1PekJ6ZkRsSll4UGQ5RDVZbFlnd2hMRVh3WVV4Q3BiYXhfVlJKT2syVGlWbHJuV0JqTkFUWmRLNUpSYXRuSzV1TWZrUm1YTlhmQUEzYm1Gel9Oa1I2ZlVBaWc4UkVjZFdoSG5vazZ0bS04R3l5TUpyQXh4Z3RsSlNrYUVLSTVzVWlhWnlES3JlV1hKQzh3dENtSFdnWUtqX1VoQmo2ZmhQYVZRc1BYZ0pjSWxQTHdneTk2Q1EydHo4TG5N?oc=5",
+          "published_at": "2026-08-06T07:00:00+00:00",
+          "snippet": "Chhattisgarh approves ₹500 crore AI Mission to set up 100 data labs, train 7.5 lakh people ET Government",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
+          "matched_terms": [
+            "set",
+            "up"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": []
         }
       ],
-      "implementation_signal": "current_primary_and_reporting_found",
+      "implementation_signal": "action_detected",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
       "outcome": {
-        "status": "not_machine_measurable",
+        "status": "progress_documented",
         "deadline_year": null,
-        "proof_strength": "none",
-        "proof_evidence_id": null,
+        "proof_strength": "verified_primary_action_with_object_overlap",
+        "proof_evidence_id": "a9a9864b862debb718",
         "proof": null,
-        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+        "reason": "Verified primary evidence overlaps the subject of the promise and documents implementation activity, but not the promised outcome."
       }
     },
     {
@@ -48868,7 +49023,7 @@
     },
     {
       "id": "e6f20a53e2d1465828",
-      "checked_at": "2026-10-21T01:35:12.320702+00:00",
+      "checked_at": "2026-10-22T18:32:46.144603+00:00",
       "promise_id": "BJP-2019-cd02e3a71e5b459c9f",
       "year": 2019,
       "category": "infrastructure",
@@ -48907,7 +49062,7 @@
     },
     {
       "id": "d6dacadb651f1076c0",
-      "checked_at": "2026-10-21T01:35:15.776910+00:00",
+      "checked_at": "2026-10-22T18:32:49.282288+00:00",
       "promise_id": "BJP-2019-d910b6265d99747db6",
       "year": 2019,
       "category": "other",
@@ -49022,28 +49177,6 @@
           "promise_core_overlap": [
             "card",
             "mobility"
-          ]
-        },
-        {
-          "id": "3d1b841f44cc2d9e08",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Assam Tribune",
-          "source_url": "https://assamtribune.com",
-          "title": "Chennai to get 25-year mobility plan with QR-based ticketing, CM Stalin to unveil - The Assam Tribune",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWlZwT3NxMmRma2kxaGxuU3VaMVV5ekRNSVJRM0Q1RERjUFNKOF9KT18wTnoyOW45R25fWW1VY05xRjRfalJ4S280bVVwYlBMcmNGR1ZJTjZiWldfdi1Gak1Ha1E4RFQ3R2FmdEVWeEFHaFBDMUZ0SmhGd1pOTlZ5NkhKU0hNSGxPY3BaYmVUTDZ2ekRrdDdiMDVwMGNfM252aTh5dkNDZmdMOU5sVU5id0xSdV9SclFZb1Z4OFBBb9IBxAFBVV95cUxQOXF6QzNYQm1qa21vbEhZT2JVVTBqMTV5VWlsVWhUaTVuSWJvVVZ1NWlKWlNpM3FSWDM3X0F3bHhCVVZXTVdRU1FCcnUwdkZsWi0yc1RwM2VoM1JmRlFxZ0FzbUdkSXBKUkx5aUdGWkg3R3c2X0F4d2M5eWNpMVRsVURwcXN3eWVqSURZSlNVVnlva1ZBTEVIcXliYVIxdEV5SlVPMXF1TE9pLTVQNlR5N3VBY3FldmZySC11S2ZFWURFdjZt?oc=5",
-          "published_at": "2025-09-20T07:00:00+00:00",
-          "snippet": "Chennai to get 25-year mobility plan with QR-based ticketing, CM Stalin to unveil The Assam Tribune",
-          "lexical_overlap": 0.118,
-          "relevance": 0.188,
-          "matched_terms": [
-            "mobility",
-            "ticketing"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "mobility",
-            "ticketing"
           ]
         },
         {
@@ -49538,7 +49671,7 @@
     },
     {
       "id": "1e0abc9f94016f3c7a",
-      "checked_at": "2026-10-22T17:39:52.324646+00:00",
+      "checked_at": "2026-10-22T18:32:10.770378+00:00",
       "promise_id": "BJP-2019-2af396deaf778cac73",
       "year": 2019,
       "category": "infrastructure",
@@ -49623,7 +49756,7 @@
     },
     {
       "id": "4af70c5cc4e5dd31ea",
-      "checked_at": "2026-10-22T17:39:58.605715+00:00",
+      "checked_at": "2026-10-22T18:32:16.843083+00:00",
       "promise_id": "BJP-2019-34c03859f07f1329c5",
       "year": 2019,
       "category": "infrastructure",
@@ -51905,7 +52038,7 @@
     },
     {
       "id": "93bb9754ab7125c8f1",
-      "checked_at": "2026-10-22T17:40:03.957123+00:00",
+      "checked_at": "2026-10-22T18:32:21.530818+00:00",
       "promise_id": "BJP-2019-6013bbae5c9fbd8c5a",
       "year": 2019,
       "category": "women_social_justice",
@@ -51969,7 +52102,7 @@
     },
     {
       "id": "1d1782ad81aa54afcd",
-      "checked_at": "2026-10-22T17:40:07.130810+00:00",
+      "checked_at": "2026-10-22T18:32:23.604785+00:00",
       "promise_id": "BJP-2019-63e2ccda189fa85e2c",
       "year": 2019,
       "category": "health_welfare",
@@ -52612,7 +52745,7 @@
     },
     {
       "id": "b22b482213626acc86",
-      "checked_at": "2026-10-15T20:22:18.786380+00:00",
+      "checked_at": "2026-10-22T18:32:43.543478+00:00",
       "promise_id": "BJP-2019-ca7d44845752964340",
       "year": 2019,
       "category": "governance",
@@ -53780,7 +53913,7 @@
     },
     {
       "id": "19743a23dbc6e6cd3b",
-      "checked_at": "2026-10-05T10:45:57.713935+00:00",
+      "checked_at": "2026-10-22T18:32:33.251439+00:00",
       "promise_id": "BJP-2019-ba551e363dbc574aed",
       "year": 2019,
       "category": "education_skills",
@@ -56099,7 +56232,7 @@
     },
     {
       "id": "eecf32943b3420ae13",
-      "checked_at": "2026-10-21T01:35:14.038350+00:00",
+      "checked_at": "2026-10-22T18:32:47.614393+00:00",
       "promise_id": "BJP-2019-d2cee3734f52a3ebe8",
       "year": 2019,
       "category": "education_skills",
@@ -56202,7 +56335,7 @@
     },
     {
       "id": "b3b277eeacacab546a",
-      "checked_at": "2026-10-21T01:35:18.582269+00:00",
+      "checked_at": "2026-10-22T18:32:51.967120+00:00",
       "promise_id": "BJP-2019-dfc148641b164095c9",
       "year": 2019,
       "category": "education_skills",
@@ -56239,30 +56372,6 @@
       "query": "towards promoting excellence quality learning higher",
       "evidence": [
         {
-          "id": "f6c6531d2abba125d3",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://static.pib.gov.in",
-          "title": "Higher Education under NEP 2020: Reimagining India’s Academic Landscape - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSjQzODlSQ0N2SVpLMkhQQ1ZSOWRSVFlyaEJ5WUp3eGhtajBGRHdPcFNzeW0wT3NYeFgwQTktaV9nOVVYT05yV29OUE1sZTN5M3hldERBMTdZb0NzX0ZvWUVNSml2RFlCRk9wRC1yVm1nTHNnZkMxQjZVZXJlUVVkcFdwZFFlMElRSVQ0X0ZYU3I0d3JsQjBZ?oc=5",
-          "published_at": "2025-07-28T07:00:00+00:00",
-          "snippet": "Higher Education under NEP 2020: Reimagining India’s Academic Landscape Press Information Bureau",
-          "lexical_overlap": 0.167,
-          "relevance": 0.322,
-          "matched_terms": [
-            "academic",
-            "education",
-            "higher"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "academic",
-            "education",
-            "higher"
-          ]
-        },
-        {
           "id": "e21245e6a47ac414c0",
           "scope": "preferred_official_search",
           "tier": "primary",
@@ -56286,17 +56395,17 @@
           ]
         },
         {
-          "id": "a67f87b83ea5deb8c7",
+          "id": "30c4d906a64aebf9f9",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "PIB",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "Five-year vision plan 'Education Quality Upgradation and Inclusion Programme (EQUIP)' finalised and released by HRD Ministry - PIB",
+          "title": "Five-year vision plan 'Education Quality Upgradation and Inclusion Programme (EQUIP)' finalised and released by HRD Ministry - Press Information Bureau",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5WR2hnM0hHRnU0Sk5QY3VvT3VpQnNWUzloQU83dTJmQ016UUxVOTdTSW5VQ0NJdFFqOVcxWlMxV0VXQThXT2MtQldmMFlyQ3NYUy1KOU5lbkJIVDlkT3dQX3RVeEU1YkxwYXFCV3N3?oc=5",
           "published_at": "2019-06-28T07:00:00+00:00",
-          "snippet": "Five-year vision plan 'Education Quality Upgradation and Inclusion Programme (EQUIP)' finalised and released by HRD Ministry PIB",
-          "lexical_overlap": 0.083,
-          "relevance": 0.203,
+          "snippet": "Five-year vision plan 'Education Quality Upgradation and Inclusion Programme (EQUIP)' finalised and released by HRD Ministry Press Information Bureau",
+          "lexical_overlap": 0.077,
+          "relevance": 0.197,
           "matched_terms": [
             "education",
             "quality"
@@ -56305,28 +56414,6 @@
           "promise_core_overlap": [
             "education",
             "quality"
-          ]
-        },
-        {
-          "id": "6f4cdb1e9e457be57b",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "University Of Lagos",
-          "source_url": "https://unilag.edu.ng",
-          "title": "UNILAG Earns JAMB Recognition for Excellence in Inclusive Education - University Of Lagos",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQ09TbGdNaERrTFBVM21HSlJROGtOeXJ3aW54OWI5NmtDRjQycE9rOENyWEpCT2JheW15SmlCNnZDNTZqR0dlcTByTmhhcW45Vi1UcUZ0OWNjR0V1aE9mSmNTQl84UEhvTGt0c05XYnZUN2doV0JDbkE0YjktQ1hlOExSLV9TcjkyaHVOVGlXYUxna0Jr?oc=5",
-          "published_at": "2026-07-19T07:00:00+00:00",
-          "snippet": "UNILAG Earns JAMB Recognition for Excellence in Inclusive Education University Of Lagos",
-          "lexical_overlap": 0.105,
-          "relevance": 0.175,
-          "matched_terms": [
-            "education",
-            "excellence"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "education",
-            "excellence"
           ]
         }
       ],
@@ -56722,7 +56809,7 @@
     },
     {
       "id": "5037c453746c8d1979",
-      "checked_at": "2026-10-15T20:22:10.763436+00:00",
+      "checked_at": "2026-10-22T18:32:36.774556+00:00",
       "promise_id": "BJP-2019-c00c5b4524f79914fc",
       "year": 2019,
       "category": "education_skills",
@@ -56886,7 +56973,7 @@
     },
     {
       "id": "21c782a6ad2ecb8987",
-      "checked_at": "2026-10-22T17:39:55.271353+00:00",
+      "checked_at": "2026-10-22T18:32:13.571124+00:00",
       "promise_id": "BJP-2019-2cfa1375f165d41707",
       "year": 2019,
       "category": "other",
@@ -57438,7 +57525,7 @@
     },
     {
       "id": "5f89213c5b03e185b8",
-      "checked_at": "2026-10-15T20:22:16.629452+00:00",
+      "checked_at": "2026-10-22T18:32:41.247473+00:00",
       "promise_id": "BJP-2019-c549aa8b717639cbed",
       "year": 2019,
       "category": "jobs_economy",
@@ -58293,7 +58380,7 @@
     },
     {
       "id": "09db92a7679f9e887b",
-      "checked_at": "2026-10-22T17:40:00.633608+00:00",
+      "checked_at": "2026-10-22T18:32:18.797117+00:00",
       "promise_id": "BJP-2019-4fc8289de8caed52ff",
       "year": 2019,
       "category": "other",
@@ -59819,7 +59906,7 @@
     },
     {
       "id": "bfe3ad8635ca26067a",
-      "checked_at": "2026-10-21T01:35:20.714551+00:00",
+      "checked_at": "2026-10-22T18:32:54.116277+00:00",
       "promise_id": "BJP-2019-e21e759050c029eb71",
       "year": 2019,
       "category": "culture_heritage",
@@ -60176,7 +60263,7 @@
     },
     {
       "id": "cf6c1e4cbd0aebbbe8",
-      "checked_at": "2026-10-15T20:22:13.759851+00:00",
+      "checked_at": "2026-10-22T18:32:39.350574+00:00",
       "promise_id": "BJP-2019-c4f200516237de6067",
       "year": 2019,
       "category": "women_social_justice",
@@ -60199,30 +60286,7 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
       "query": "rise reality play major role shaping",
-      "evidence": [
-        {
-          "id": "340342255bca8e8112",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Nature",
-          "source_url": "https://www.nature.com",
-          "title": "The role of environmental awareness, renewable energy, and green innovation in shaping climate change perceptions - Nature",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBYTU5rSlJIN09hQ3dXOGxZQktKQmJGeDVZaVFhZnQyRWVwX1NJR1NNMUJWSHNtRzM5d0N1clh3TjlweDZCajRXWk16LUI0SFBURWMtdndTeUVRQnRtRFRn?oc=5",
-          "published_at": "2025-11-20T08:00:00+00:00",
-          "snippet": "The role of environmental awareness, renewable energy, and green innovation in shaping climate change perceptions Nature",
-          "lexical_overlap": 0.1,
-          "relevance": 0.17,
-          "matched_terms": [
-            "role",
-            "shaping"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "role",
-            "shaping"
-          ]
-        }
-      ],
+      "evidence": [],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -60564,7 +60628,7 @@
     },
     {
       "id": "8e2c6ee61e8b62225e",
-      "checked_at": "2026-10-21T01:35:13.194832+00:00",
+      "checked_at": "2026-10-22T18:32:46.962801+00:00",
       "promise_id": "BJP-2019-ce76d950356fd17aca",
       "year": 2019,
       "category": "women_social_justice",
@@ -60603,7 +60667,7 @@
     },
     {
       "id": "8beed873b765447626",
-      "checked_at": "2026-10-21T01:35:10.632880+00:00",
+      "checked_at": "2026-10-22T18:32:44.706593+00:00",
       "promise_id": "BJP-2019-cc517753066e56dc5c",
       "year": 2019,
       "category": "other",
@@ -60685,21 +60749,22 @@
           "promise_core_overlap": []
         },
         {
-          "id": "a16d6ca07bb44714f7",
+          "id": "c9ebc66ae910e000e3",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "vicepresidentofindia.nic.in",
-          "source_url": "https://vicepresidentofindia.nic.in",
-          "title": "H.H. Prince Rahim Aga Khan V met Hon’ble Vice-President of India Shri C. P. Radhakrishnan at Uprashtrapati Bhavan on 10.09.2026 - vicepresidentofindia.nic.in",
-          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOaFlTVnUxLThOTDVHc2dUc0dLTG1SWkVERUJINjVzSWxuVktFdG45d2l0MUE0dnBTT0lGM01aU2ZsQm1YSUgwNS1PTGxGMmN4aXVSTG1pc0VDazVMZW56dGdSRjh5aW05YUtlUGVISnBvYlBwR2RFeTh0MWt3bG1BU1BUSFVwcFZkUlVKeDI0ZHZsNzZHdEVsVURCZDNTRUhVRXhoYlp1dHBQMW9DVTJLVlp0UFZJcWdLcS1zYmV2TTVJallZWXJpY3NTSzF1T1dPcExoYVlBZDMwcFZ0ZzR0R0FmVkFRY2JwTDRLeVNQVUFnU0c2UjJVT2ZRaEM?oc=5",
-          "published_at": "2026-09-10T07:00:00+00:00",
-          "snippet": "H.H. Prince Rahim Aga Khan V met Hon’ble Vice-President of India Shri C. P. Radhakrishnan at Uprashtrapati Bhavan on 10.09.2026 vicepresidentofindia.nic.in",
-          "lexical_overlap": 0.13,
-          "relevance": 0.235,
+          "source": "India Education Diary",
+          "source_url": "https://indiaeducationdiary.in",
+          "title": "Hon’ble Shri Rajendra Arlekar to Grace FUEL’s 20th Foundation Day & 2nd Convocation on October 24 in Pune - India Education Diary",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZWctVXpjX1l0T2RlOElCc3IyZjYyajUzdXBuWTdzSjdKelE5R1YzZ0dsckxDZmFyREoxcjB4TGQwYXUzT0JSLU85TVowbHVfcURhWTh4MGx0Y2dKcG1PaGg3T3hVYVg3MlpZdk9MblY4ZFdSdHN0TWtRWEdySHViOVpwMEdIQlBpZDFFN05rR1JJVlpuMUVNY0dYcV9KUTBuZlJ2WVRmU1JoNGNMQ1BBb1I1QnZuc2oxcWdaVllya1M2ZzlEcnU5MVRTSUdRQQ?oc=5",
+          "published_at": "2026-10-21T10:07:58+00:00",
+          "snippet": "Hon’ble Shri Rajendra Arlekar to Grace FUEL’s 20th Foundation Day & 2nd Convocation on October 24 in Pune India Education Diary",
+          "lexical_overlap": 0.167,
+          "relevance": 0.307,
           "matched_terms": [
             "ble",
             "hon",
-            "shri"
+            "shri",
+            "th"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
@@ -60714,7 +60779,7 @@
           "source_url": "https://www.iitm.ac.in",
           "title": "Hon’ble Prime Minister Shri Narendra Modi launches IIT Madras Brain Centre’s Mission of 3D Mapping 100+ Human Brains at Cell Resolution across Human Life | Indian Institute of Technology Madras - Indian Institute of Technology Madras",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORXhQRmo3SVQyOVRITEYtYmZwQkJGYkhremhpUnZWRnFkNWpxcm9zVjNVWkJjQ3M3UWVZdzluN1hLZ3FkYWRDSXBFbVVPUy1SLUp1NW5DWmE4elhMLTJyQTE2WnNka1c2X3pGbWpNYnRmNnJQRGthamhCdjMxWWE4LXlKM2ltejIwM1JJdnZaNVluR1B5OTU0al95YXUwVDhzUEg0U20wVTAzVUVVUUo1anlVTHpiaEE?oc=5",
-          "published_at": "2026-10-12T15:39:14+00:00",
+          "published_at": "2026-10-12T07:00:00+00:00",
           "snippet": "Hon’ble Prime Minister Shri Narendra Modi launches IIT Madras Brain Centre’s Mission of 3D Mapping 100+ Human Brains at Cell Resolution across Human Life | Indian Institute of Technology Madras Indian Institute of Technology Madras",
           "lexical_overlap": 0.12,
           "relevance": 0.225,
@@ -60729,6 +60794,26 @@
           ]
         },
         {
+          "id": "ab99ab747b03ceecdc",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Hon’ble President of India Smt. Droupadi Murmu presents 65th National Exhibition of Art and 3rd Print Biennale India awards to artists, celebrating India’s rich artistic heritage and contemporary creativity - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ta3lQaVlRbVI4dnpjcDhpQzMzUmluZWQtRVV4djVkS2QxMmM3eHF6LWZPQS16ekF2UFAzV2JlWkN2Z3JYNFgySEJmY3ZYSkZsaXlMN1FTXzhkSG81REVVYjhkQTNqSTZN?oc=5",
+          "published_at": "2026-10-21T13:31:00+00:00",
+          "snippet": "Hon’ble President of India Smt. Droupadi Murmu presents 65th National Exhibition of Art and 3rd Print Biennale India awards to artists, celebrating India’s rich artistic heritage and contemporary creativity Press Information Bureau",
+          "lexical_overlap": 0.12,
+          "relevance": 0.225,
+          "matched_terms": [
+            "ble",
+            "hon",
+            "th"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": []
+        },
+        {
           "id": "f028ee8b6497a59f1e",
           "scope": "news_search",
           "tier": "secondary",
@@ -60736,7 +60821,7 @@
           "source_url": "https://cm.odisha.gov.in",
           "title": "Hon’ble CM Shri Mohan Charan Majhi launched the ‘Shree Jagannath Darshan’ Yojana at Nabarangpur, reaffirming the vision that every Odia should receive the blessings of Mahaprabhu with dignity. The scheme was simultaneously flagged off from Nabaran - Chief Minister of Odisha",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc0dfWDhQWjBaWE5QUTFOem91eTc2TTl4Qjluc0dxTktNUnZmcXMxb1dYSG1KQ1RsZXlWenNXVEk4S25Ed0treDlSU2duVm9oYVdnY1JLRUZSeWRsZm9BS3l0WnA4d01FTVVEaVE0WU00Ul83R0hac1NMM1pobjdkTjlOUEdTWEt0Z2pSSXlqSUFkWlF4SGtGck9HZDJFc1VBd2toWF84b2tyRlh6cG93eVpIWmVBd2RydGhra1Y3clU2dm8?oc=5",
-          "published_at": "2026-10-19T07:16:38+00:00",
+          "published_at": "2026-10-22T12:42:01+00:00",
           "snippet": "Hon’ble CM Shri Mohan Charan Majhi launched the ‘Shree Jagannath Darshan’ Yojana at Nabarangpur, reaffirming the vision that every Odia should receive the blessings of Mahaprabhu with dignity. The scheme was simultaneously flagged off from Nabaran Chief Minister of Odisha",
           "lexical_overlap": 0.12,
           "relevance": 0.225,
@@ -63729,7 +63814,7 @@
     },
     {
       "id": "df076e7dea8ba67624",
-      "checked_at": "2026-10-22T17:40:12.219081+00:00",
+      "checked_at": "2026-10-22T18:32:28.133384+00:00",
       "promise_id": "BJP-2014-078252941779345656",
       "year": 2014,
       "category": "women_social_justice",
