@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T01:31:31.279373+00:00",
+  "generated_at": "2026-10-22T05:26:25.052943+00:00",
   "capabilities": {
     "official_evidence_search": true,
     "verified_primary_gate": true,
@@ -16,8 +16,8 @@
     "promise_checked_this_run": 30,
     "promise_total_candidates": 841,
     "promise_coverage_pct": 101.3,
-    "primary_candidates": 558,
-    "secondary_candidates": 1105,
+    "primary_candidates": 560,
+    "secondary_candidates": 1110,
     "prior_fact_checks": 0,
     "publishable_auto_verdicts": 0,
     "claim_verdicts": {
@@ -287,12 +287,37 @@
           "shared_numbers": [
             "44"
           ]
+        },
+        {
+          "id": "e213f61c3d885a6017",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Indian Women’s Hockey Team Receives Warm Welcome in Bengaluru After Historic Asian Games Gold - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAzZDc2SHBYeWpuaTQ3QkI5cVUyS2xpdWlMYXlqSTNTRmotRTBsM1Z0LUt1amhPcVFYVGxwM1pMVW5ZUGw5OWxXMHZvTE13R2w1MTljLV9GREpFRllGdXlJY0Y2SUlSbVAzem9TdUhfcUxmNWYzVUpaVlkyQ0VrQQ?oc=5",
+          "published_at": "2026-10-04T07:00:00+00:00",
+          "snippet": "Indian Women’s Hockey Team Receives Warm Welcome in Bengaluru After Historic Asian Games Gold Press Information Bureau",
+          "lexical_overlap": 0.174,
+          "relevance": 0.364,
+          "matched_terms": [
+            "gold",
+            "hockey",
+            "team",
+            "women"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.0014,
+            "neutral": 0.9674,
+            "contradiction": 0.0312
+          }
         }
       ],
       "fact_checks": [],
       "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
+        "level": "primary_evidence_found",
+        "label": "Relevant verified primary evidence candidate found",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -330,7 +355,7 @@
           "source_url": "https://www.bcci.tv",
           "title": "India’s Asian Games Gold-Winning Cricket Teams Meet PM Modi - BCCI",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaFVVclVSdTd3Q2lIazRLalpQWHZqdm5ZU3BlN0NBZGhGVUNPUF9sUndKclNiTmRaM0J1SG1QRXlZUVhTX3BqM3hWbDYxR2I2RENjaG9IMXRGd1dGSnlrUkhfcE5mam9MUnVMM3hjLVVQX3JMbzBEUnZNd2ZkRVFVTjB6R05pU3JmMXhCRG5oWVFSZzNFRFE?oc=5",
-          "published_at": "2026-10-17T16:42:13+00:00",
+          "published_at": "2026-10-16T04:00:00+00:00",
           "snippet": "India’s Asian Games Gold-Winning Cricket Teams Meet PM Modi BCCI",
           "lexical_overlap": 0.111,
           "relevance": 0.181,
@@ -458,25 +483,22 @@
           ]
         },
         {
-          "id": "cb0644721a30748a8a",
+          "id": "c3aef8b7f6d4fac134",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "India Tribune - Chicago",
-          "source_url": "https://www.indiatribune.com",
-          "title": "'38 medals won by women is a picture of new India': PM Modi hails 'daughters' of nation - India Tribune - Chicago",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOaHBKcUtnb0FFbGttS2w5QjJ2ZnJLeU1MYlk5RklNS0RkMjdyUVNQVlJ6Q0tvOWpyclhlV2RuUDZfWkp1REl6Z1Y3TEVITmRyaUVvaWpoRWJyUTljNVExd0ZoLVlSR3RXbk1BUFA0dndmOEJTMkJCcGxQV2xkMTV4MGtNc2JTUy15bjE1cEQ2R0Q0QXJpYTh3WFBmSjNCOEs3WHdCa0R1ZllDcDBSNERJRE9Ca0xRTzJydWc?oc=5",
-          "published_at": "2026-10-15T23:35:54+00:00",
-          "snippet": "'38 medals won by women is a picture of new India': PM Modi hails 'daughters' of nation India Tribune - Chicago",
-          "lexical_overlap": 0.231,
-          "relevance": 0.446,
+          "source": "Outlook India",
+          "source_url": "https://www.outlookindia.com",
+          "title": "PM Modi Felicitates Asian Games Medal-Winners, Extends Special Praise To Women Athletes For Historic Haul - Outlook India",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZ3pHR0ZieGhxMFY3VUdGQTZHdjZQVDJ2VlpVSlpOd0JVNEtFMlVvaE0zNkVSUTNESE5UZVJoQTBJRXUzeDVMVG5mTEZBUnVFT1ExbHROMGhkTVlfTWs4Uk02T1BVd21UQVJwTC1yVVZqU3p6OWVKM0tES0VZREJ6VHZ3VVNnY2dDYm10bHVQV3loVlVMTi14YUNkdUhVM3pRY3p1MXN6THNqeGNBSlVpb25RYUdaOUHSAcQBQVVfeXFMTUpvLUFTcHBBdVIxdVItX2xiU2dsR1hGYkRlWUg3UFBsTE9BSm1vZjJmZHhqM3VWZ2psb0huaWs5Z2Z1cnlvZjZ1Z0pmazlBSTZnaHdJanlvRnY5dnhLbWdJcDhNSGFNSENrT0F5X3BDRUxsd0hGMWhpWlRPUlVqT0pvTnFlLWx4VHhwSXZudm42dnlXZlhkZEI2R1ZxMnVOOWpVejJ3cTJ3S1dwakMxa3dHX1dLckN6MnlJTmtrT2N4d3BNYQ?oc=5",
+          "published_at": "2026-10-15T13:24:10+00:00",
+          "snippet": "PM Modi Felicitates Asian Games Medal-Winners, Extends Special Praise To Women Athletes For Historic Haul Outlook India",
+          "lexical_overlap": 0.118,
+          "relevance": 0.188,
           "matched_terms": [
-            "medals",
-            "women",
-            "won"
+            "athletes",
+            "women"
           ],
-          "shared_numbers": [
-            "38"
-          ]
+          "shared_numbers": []
         },
         {
           "id": "3a704178b04f313c2e",
@@ -668,15 +690,15 @@
       ],
       "evidence": [
         {
-          "id": "9903432610ca763431",
+          "id": "fd010a6613ac0e34b3",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "WAGM",
-          "source_url": "https://www.wagmtv.com",
-          "title": "12-year-old hit, killed by car while walking with friends was ‘taken way too soon,’ mom says - WAGM",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWlJ3Q1Y2U0VJVXluMEhPamhyVVhMYTZTQjVSU1lpS1h5MWo4eDdkM1VmOVg1RE5YMjVtTzh1RGgwLUFRZ1RSa1YzUmZMY0g1S2NFZjZoRVE4QzFCZ2lWWF9PS1lubmRQNU5MYkpyM2RIVXB3aUN1bi1qalpZSnVNOHBtRC1qWlcxZmNsdWltRlJuR3lMaVRtcXBFWUJzakJOT1lUamdDeGlUcHdjZzA2bDFmRzhXUDkyWkRLc3NUdlTSAdQBQVVfeXFMTktDYkNjYWMzdFRNMnhkSXExdTlkb2hBd2FNakZNVzVEbFJSSGItQ1FqcEdEaVh4SXIzUnlhbXF6VGl4R3VTdzNtZVpjT1JSNy1rU05JTUFwS2tydnRaVXdaQlJGSDU4WXBZejE3S0wzU2FrbHVMT2t5eHlsbDJEbmlyN3ZaQ25BZWNHNjlFZDFsVF9vZGJpeHdKOVFJQ3l4UU81RXRHUEMzV2M1NmRuWWVoay1fV3BDTWZ3VEVWX1MxUkNDT21tVEk1Y21vSGFsTFhsdk4?oc=5",
+          "source": "WWNY",
+          "source_url": "https://www.wwnytv.com",
+          "title": "12-year-old hit, killed by car while walking with friends was ‘taken way too soon,’ mom says - WWNY",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQd2ZVbzhHb3ZpUnNZdHczRWlTUFpnbTgzc3dIUTBhVFhwRXNJcWNiNXdVazdPS2JXeGMyZUQ0bE1LenQxeTVja2xDbzhjdmNUVWhrZGdqbjA1QzBLNG5xNmlKWjdjRnhIaks0aFZLMHI0VEpKVTNfYlB6RTUzRk1jTUwzUkFYVmpSd1ZwNmV2UGNjdzdrd1hwWW1zU3l1ZDdtRkplbnlNdjhKNV82U0RMUmFBdW1VQTFjRzRqMjRzQXHSAdQBQVVfeXFMT2dKcWtnZF8xN1gtZGMxLXJPd3pnQTZsTzZWT1FQblVEbHNTV2pUZHgwUEp6ZXIyTUdXYTRpamE1czVuZW0xQzVHS0RmUDJDUWNhZldWX1B6RTh3Wmw1TlhqQk5UVmVXTU10UHZBdUVoaDB5MkNOSjVvNi1kdnJjcUgwMWU0M2hmTUNvWFZLLTJBSFZYY25LNUJyc2d4S1U0UGx0ZkJ4SVdCTlFlb0N4Vklyd3B4b01zT05pOWFiMFkydWpfQmtvbW1mZFRlZUNOZy1UdGI?oc=5",
           "published_at": "2026-09-22T07:00:00+00:00",
-          "snippet": "12-year-old hit, killed by car while walking with friends was ‘taken way too soon,’ mom says WAGM",
+          "snippet": "12-year-old hit, killed by car while walking with friends was ‘taken way too soon,’ mom says WWNY",
           "lexical_overlap": 0.087,
           "relevance": 0.267,
           "matched_terms": [
@@ -720,11 +742,30 @@
       "query": "there used huge events olympics yet",
       "numbers": [],
       "promise_matches": [],
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "cc9a710bb108ac5df0",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Medium",
+          "source_url": "https://medium.com",
+          "title": "Smaller. The Olympics used to be a slab of TV… | by Scott Galloway - Medium",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE16SGU0eWoxcjd3aFhaajJxMXU5aDJiX1RSX1gxWkt2LTFMMW1FcUdPODU1T3ljYmQ1azQ1ZzhyWGtZMlRGb2NfTnZZX280UGhlWkZ4bDVKdjlkNk5GZmJxMHFJYw?oc=5",
+          "published_at": "2024-08-08T07:00:00+00:00",
+          "snippet": "Smaller. The Olympics used to be a slab of TV… | by Scott Galloway Medium",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
+          "matched_terms": [
+            "olympics",
+            "used"
+          ],
+          "shared_numbers": []
+        }
+      ],
       "fact_checks": [],
       "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
+        "level": "reporting_found",
+        "label": "Relevant reporting found; primary evidence still needed",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -1198,7 +1239,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-22T01:30:38.428426+00:00",
+      "latest_checked_at": "2026-10-22T05:25:32.197810+00:00",
       "latest_claim_packet_id": "4fc123ec978ead3424"
     },
     {
@@ -1240,13 +1281,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "reporting_found",
+      "evidence_state": "primary_evidence_found",
       "human_reviewed": false,
       "created_at": "2026-10-18T20:40:21.103636+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-22T01:30:38.428361+00:00",
+      "latest_checked_at": "2026-10-22T05:25:32.197772+00:00",
       "latest_claim_packet_id": "39655c069fdf0432cb"
     },
     {
@@ -1294,7 +1335,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-22T01:30:38.428527+00:00",
+      "latest_checked_at": "2026-10-22T05:25:32.197869+00:00",
       "latest_claim_packet_id": "3bd7b7082f67fcec8b"
     },
     {
@@ -1318,7 +1359,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-22T01:30:38.428500+00:00",
+      "latest_checked_at": "2026-10-22T05:25:32.197853+00:00",
       "latest_claim_packet_id": "47f28dd1ec0e8f34f5"
     },
     {
@@ -1486,7 +1527,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-22T01:30:38.428456+00:00",
+      "latest_checked_at": "2026-10-22T05:25:32.197827+00:00",
       "latest_claim_packet_id": "eaf894d11c6d2020fd"
     },
     {
@@ -1630,7 +1671,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-22T01:30:38.428306+00:00",
+      "latest_checked_at": "2026-10-22T05:25:32.197730+00:00",
       "latest_claim_packet_id": "91f80f8f9486c34723"
     },
     {
@@ -1702,7 +1743,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-22T01:30:38.428441+00:00",
+      "latest_checked_at": "2026-10-22T05:25:32.197819+00:00",
       "latest_claim_packet_id": "2c0e6bc38ae2653564"
     },
     {
@@ -1750,7 +1791,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-22T01:30:38.428377+00:00",
+      "latest_checked_at": "2026-10-22T05:25:32.197782+00:00",
       "latest_claim_packet_id": "c6503376f84ce30798"
     },
     {
@@ -2086,7 +2127,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-22T01:30:38.428415+00:00",
+      "latest_checked_at": "2026-10-22T05:25:32.197803+00:00",
       "latest_claim_packet_id": "92e5474bb83cc0df4c"
     },
     {
@@ -2110,7 +2151,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-22T01:30:38.428401+00:00",
+      "latest_checked_at": "2026-10-22T05:25:32.197794+00:00",
       "latest_claim_packet_id": "54f4567cf67bedad56"
     },
     {
@@ -2134,7 +2175,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-22T01:30:38.428488+00:00",
+      "latest_checked_at": "2026-10-22T05:25:32.197847+00:00",
       "latest_claim_packet_id": "932398a833189acad2"
     },
     {
@@ -2344,13 +2385,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "needs_research",
+      "evidence_state": "reporting_found",
       "human_reviewed": false,
       "created_at": "2026-10-18T20:40:21.116034+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-22T01:30:38.428469+00:00",
+      "latest_checked_at": "2026-10-22T05:25:32.197835+00:00",
       "latest_claim_packet_id": "b8900397e61c3c1fa9"
     },
     {
@@ -2617,7 +2658,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-22T01:30:38.428511+00:00",
+      "latest_checked_at": "2026-10-22T05:25:32.197859+00:00",
       "latest_claim_packet_id": "ea0a14718ba9e0d486"
     },
     {
@@ -2761,7 +2802,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-22T01:30:38.428339+00:00",
+      "latest_checked_at": "2026-10-22T05:25:32.197758+00:00",
       "latest_claim_packet_id": "ea68cd55ad6fa2bd5b"
     },
     {
@@ -44451,7 +44492,7 @@
     },
     {
       "id": "05e0979e7f32ba2f72",
-      "checked_at": "2026-10-22T01:30:40.820532+00:00",
+      "checked_at": "2026-10-22T05:25:34.262836+00:00",
       "promise_id": "BJP-2019-18c0750d5ed71bc3d1",
       "year": 2019,
       "category": "agriculture",
@@ -46097,7 +46138,7 @@
     },
     {
       "id": "f5811520c1d5623f19",
-      "checked_at": "2026-10-22T01:30:42.691274+00:00",
+      "checked_at": "2026-10-22T05:25:35.960396+00:00",
       "promise_id": "BJP-2019-1d3e95fa9344e842f3",
       "year": 2019,
       "category": "infrastructure",
@@ -46218,7 +46259,7 @@
     },
     {
       "id": "92d6920a15fb42f812",
-      "checked_at": "2026-10-22T01:31:00.980608+00:00",
+      "checked_at": "2026-10-22T05:25:52.795930+00:00",
       "promise_id": "BJP-2019-6abf03adda773fec98",
       "year": 2019,
       "category": "governance",
@@ -49652,7 +49693,7 @@
     },
     {
       "id": "1e0abc9f94016f3c7a",
-      "checked_at": "2026-10-22T01:30:44.210042+00:00",
+      "checked_at": "2026-10-22T05:25:37.337608+00:00",
       "promise_id": "BJP-2019-2af396deaf778cac73",
       "year": 2019,
       "category": "infrastructure",
@@ -49737,7 +49778,7 @@
     },
     {
       "id": "4af70c5cc4e5dd31ea",
-      "checked_at": "2026-10-22T01:30:50.945396+00:00",
+      "checked_at": "2026-10-22T05:25:43.578213+00:00",
       "promise_id": "BJP-2019-34c03859f07f1329c5",
       "year": 2019,
       "category": "infrastructure",
@@ -52043,7 +52084,7 @@
     },
     {
       "id": "93bb9754ab7125c8f1",
-      "checked_at": "2026-10-22T01:30:55.944937+00:00",
+      "checked_at": "2026-10-22T05:25:48.242539+00:00",
       "promise_id": "BJP-2019-6013bbae5c9fbd8c5a",
       "year": 2019,
       "category": "women_social_justice",
@@ -52131,7 +52172,7 @@
     },
     {
       "id": "1d1782ad81aa54afcd",
-      "checked_at": "2026-10-22T01:30:58.269564+00:00",
+      "checked_at": "2026-10-22T05:25:50.437999+00:00",
       "promise_id": "BJP-2019-63e2ccda189fa85e2c",
       "year": 2019,
       "category": "health_welfare",
@@ -57047,7 +57088,7 @@
     },
     {
       "id": "21c782a6ad2ecb8987",
-      "checked_at": "2026-10-22T01:30:47.332401+00:00",
+      "checked_at": "2026-10-22T05:25:40.549407+00:00",
       "promise_id": "BJP-2019-2cfa1375f165d41707",
       "year": 2019,
       "category": "other",
@@ -58454,7 +58495,7 @@
     },
     {
       "id": "09db92a7679f9e887b",
-      "checked_at": "2026-10-22T01:30:53.055535+00:00",
+      "checked_at": "2026-10-22T05:25:45.489220+00:00",
       "promise_id": "BJP-2019-4fc8289de8caed52ff",
       "year": 2019,
       "category": "other",
@@ -61368,7 +61409,7 @@
     },
     {
       "id": "c8f51f892596844e73",
-      "checked_at": "2026-10-20T12:16:37.500508+00:00",
+      "checked_at": "2026-10-22T05:26:14.025552+00:00",
       "promise_id": "BJP-2014-d2e0bac1643d22724c",
       "year": 2014,
       "category": "other",
@@ -61391,30 +61432,7 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/252/1/bjp_lection_manifesto_english_2014.pdf",
       "related_promises": [],
       "query": "political what need party committed deliver",
-      "evidence": [
-        {
-          "id": "583832c8cb17ac93ac",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "VTDigger",
-          "source_url": "https://vtdigger.org",
-          "title": "Vermont doesn’t need political parties to get things done - VTDigger",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVlp5bDlUSEw2UmdNdjBTdVpVM1FkLXNmemR3VkZKeV8xbjlaS0FQNHNQUEhXczlHdFgtTldDMU9OazhLTUJaV1VJVkVVTlF1WjVBNVJRRkZYeFJSM0IyNUktQ0pnM2FyWFN0d2p3LUdMblJTdG1xNkxyMzlIdnRaNmxSbmpncjlQX0RuWHp5T3hqT2IzVjJoVW9qR3VNdw?oc=5",
-          "published_at": "2026-07-24T07:00:00+00:00",
-          "snippet": "Vermont doesn’t need political parties to get things done VTDigger",
-          "lexical_overlap": 0.125,
-          "relevance": 0.195,
-          "matched_terms": [
-            "need",
-            "political"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "need",
-            "political"
-          ]
-        }
-      ],
+      "evidence": [],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -63891,7 +63909,7 @@
     },
     {
       "id": "df076e7dea8ba67624",
-      "checked_at": "2026-10-22T01:31:03.845274+00:00",
+      "checked_at": "2026-10-22T05:25:55.052256+00:00",
       "promise_id": "BJP-2014-078252941779345656",
       "year": 2014,
       "category": "women_social_justice",
@@ -64164,7 +64182,7 @@
     },
     {
       "id": "26c9569cc44f2358ad",
-      "checked_at": "2026-10-17T00:29:13.542898+00:00",
+      "checked_at": "2026-10-22T05:26:04.740103+00:00",
       "promise_id": "BJP-2014-aa6ad7ad3257c00ac8",
       "year": 2014,
       "category": "education_skills",
@@ -64210,6 +64228,28 @@
             "legal",
             "review",
             "system"
+          ]
+        },
+        {
+          "id": "bec0c323822a5dd903",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Livemint",
+          "source_url": "https://www.livemint.com",
+          "title": "Government plans to replace 1957 mining law with comprehensive new legislation - Livemint",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMGQ0NTBPcTRWaml4UU54TFBPcUJBWW5mLWlaenJuek8yTTJzMDdmZ2E4SmVndExOUXNaM19zdjNpSFhnM0wzRDlRRVpZajJidXREOUt5WFl0V3V2YjdZa0RTZXpWRmtCT0lOcGI5RVlNSGh6N2lFaGk0ZlJ6UHUwN0c2d2d3bXdfNHo5RXQ2T056a3NIdmR1SWt5bXhGZlZuVFZWVmdHUnJIZnkwM0pSWkVjXzZscEIyMlF5RWt5VTlTNEQxSkFmU3dmZW5GVHPSAdQBQVVfeXFMTlM2dUR3QXprYnJGMmpOQ0JXRVZISUhnbnA0dmpHNlVvUEkwdktmenZEV1NTSjJUUW5tYmtsX1pKdVBuZnRBVVU4QjJlczZfQk5mRkx1d1V2SGhITmRrRlNHRFFQa1VTWTEteml0M0JuZ20tLWFhcWV0Wm9xT18zbzBaclR5RmVCNm1yVVJBcnBBX0pZYldScVdjSDgyTFFuOU96bVc3WHp3dUFNTFhtMXBoMDBrUXEzeW8zWTY0cjRoTGhVaVNkTk9leDdlU3YxcXN4VVo?oc=5",
+          "published_at": "2026-10-18T14:08:49+00:00",
+          "snippet": "Government plans to replace 1957 mining law with comprehensive new legislation Livemint",
+          "lexical_overlap": 0.118,
+          "relevance": 0.188,
+          "matched_terms": [
+            "comprehensive",
+            "legislation"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "comprehensive",
+            "legislation"
           ]
         }
       ],
@@ -64605,7 +64645,7 @@
     },
     {
       "id": "9b176d095b8075f867",
-      "checked_at": "2026-10-17T00:29:08.773406+00:00",
+      "checked_at": "2026-10-22T05:26:00.340631+00:00",
       "promise_id": "BJP-2014-a1e53b5e83d3e4a518",
       "year": 2014,
       "category": "health_welfare",
@@ -67336,7 +67376,7 @@
     },
     {
       "id": "51a7cb5f3f5fdf1fb7",
-      "checked_at": "2026-10-18T17:23:28.160971+00:00",
+      "checked_at": "2026-10-22T05:25:57.407026+00:00",
       "promise_id": "BJP-2014-95041a036fdc88390f",
       "year": 2014,
       "category": "women_social_justice",
@@ -67387,67 +67427,41 @@
           ]
         },
         {
-          "id": "dcddf91f9dcf1facca",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Self Help Groups - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE10SHJkRWNJYXR1bm9wVDVFY0pGWTNOVElSMlFoSmdYSDlWaWl2dm00YWpLbERaWjhTelpVaTVfOHJoWmNQRHQzam5yUTQ5MWlDc0pHN0Y0M1JZdnVpTXNOYzJLQzA3cXli?oc=5",
-          "published_at": "2019-07-12T07:00:00+00:00",
-          "snippet": "Self Help Groups PIB",
-          "lexical_overlap": 0.273,
-          "relevance": 0.428,
-          "matched_terms": [
-            "groups",
-            "help",
-            "self"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "groups",
-            "help",
-            "self"
-          ]
-        },
-        {
-          "id": "45c48df8e4941d6816",
+          "id": "926b99cd59fd348344",
           "scope": "preferred_official_search",
           "tier": "primary",
           "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "PM interacts with women Self Help Groups in ‘Atmanirbhar Narishakti se Samvad’ - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBldk1UZzRHSUtsUXJsUWh6SjlWUWdLTUI3ZnpsNWJaR3FiQWE3bnM1c2lOc3JJX1NRdWZwVjZaQm5rWWZodmtJMnFGZ1EyTXFPRTRPWDhyOTBCejRJdlZWa2Z3b0JESFdi?oc=5",
-          "published_at": "2021-08-12T07:00:00+00:00",
-          "snippet": "PM interacts with women Self Help Groups in ‘Atmanirbhar Narishakti se Samvad’ Press Information Bureau",
-          "lexical_overlap": 0.211,
-          "relevance": 0.401,
+          "title": "Self Help Groups - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE10SHJkRWNJYXR1bm9wVDVFY0pGWTNOVElSMlFoSmdYSDlWaWl2dm00YWpLbERaWjhTelpVaTVfOHJoWmNQRHQzam5yUTQ5MWlDc0pHN0Y0M1JZdnVpTXNOYzJLQzA3cXli?oc=5",
+          "published_at": "2019-07-12T07:00:00+00:00",
+          "snippet": "Self Help Groups Press Information Bureau",
+          "lexical_overlap": 0.231,
+          "relevance": 0.386,
           "matched_terms": [
             "groups",
             "help",
-            "self",
-            "women"
+            "self"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
             "groups",
             "help",
-            "self",
-            "women"
+            "self"
           ]
         },
         {
-          "id": "985ca3bc1bc3683065",
+          "id": "782086df745a5b6e77",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "पीआईबी",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "Loans to Self-Help Groups - पीआईबी",
+          "title": "Loans to Self-Help Groups - Press Information Bureau",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5LWlVlNnFWREJiWHBoTEV1UV9sWXVqZXNuejFtMUxTd01EREtRVFMtTjYyT3JtTFpweUFXb0FJREE5Y0FBVDFYYmNjaG9VemU3czZOYjZmUlpQY0tEWkl5U2hMVENnMjF5?oc=5",
           "published_at": "2025-08-19T07:00:00+00:00",
-          "snippet": "Loans to Self-Help Groups पीआईबी",
-          "lexical_overlap": 0.167,
-          "relevance": 0.287,
+          "snippet": "Loans to Self-Help Groups Press Information Bureau",
+          "lexical_overlap": 0.143,
+          "relevance": 0.263,
           "matched_terms": [
             "groups",
             "loans"
@@ -67527,24 +67541,24 @@
           ]
         },
         {
-          "id": "7e2ced80899beeadea",
+          "id": "291a4842723b0b94ae",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Urban Acres",
-          "source_url": "https://urbanacres.in",
-          "title": "Stree Nidhi Loans Up to Rs 3 Lakh Cleared in 48 Hours for Women Entrepreneurs - Urban Acres",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVlpJcFhlTllOWkFXaURfeDFKZ0RtN3FTbDJQRFRienNRTjY5RUM5NzdGaGJ1eE1rSUFIVGJOYjJGbV9NS1N5RS1ka2hONFBTekZhbUd1QU5mcDB6Vllha2wzVnZGeFdUVnRrWlhSZVhqYlY3SmVKUWhUTDdKbDRqSUg4RmJ5bVhCNG1meGJDeEJONHBGTVN3VGFoYUxlTWVQY0E?oc=5",
-          "published_at": "2026-10-14T07:05:48+00:00",
-          "snippet": "Stree Nidhi Loans Up to Rs 3 Lakh Cleared in 48 Hours for Women Entrepreneurs Urban Acres",
-          "lexical_overlap": 0.1,
-          "relevance": 0.17,
+          "source": "The Times of India",
+          "source_url": "https://timesofindia.indiatimes.com",
+          "title": "Salem district administration facilitates Rs 408.67cr loan to women’s self-help groups - The Times of India",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPbzlGNmVkckJJQmliN25hcmxaZGE1SnF2SHctczhOcFhvQW5xYUpWZmQ3R2dEck9vdG9OOUx0M0dtUXNWbTJ0QTRRWmV5dERya2tGTi1hOF9kcXJBS0c3VmhrOFlpTGdGOWJoZ0dySVV5Q2RrbkI1MEJrcW0zMkdMdW5fd2g4TUNxTVFJY251V3EyZTRycUJHYXB3eTA0T1ZMc254X2FrTm8tWXZ2NzdGYl91THNvbTEwV0d2X2czZDk1bXBKcnFjVjBzeGJ6Q1NPV1JXZnZpbl9KMVpyRzZFNGc5NTNzNmJjOTV6ei1QSdIB9AFBVV95cUxPTFZYaml2dmxlQVl4WVBwbFBDRFA4bEdEb09saG94UFhCRDlYR3FvLUFRanFGN2lEV1luaUlVZzZ3ZElXajhqRDRtU3A3Ql81WnBCVHpLNm1VaU8xUUxEVWVobTBoT0ZXSlhYOXdDWXhxbmt4bU02cHlNVVZIVHFYUkFTNEdEaUdWcnRIRHJ5NFB0cXVYNThZS1ZfeFNvTmV0WTZZa0d1SjN0VkNIRWVwWXNpNUdJRmFqVUhqWUtRZ1ZtY1JMR2VxaHJsaFp1MFhwVHg4ZnVvQ2pKS2VhTlpibzlPWmJlRmlxVEJvSTNwQ2ZHMFZL?oc=5",
+          "published_at": "2026-09-03T07:00:00+00:00",
+          "snippet": "Salem district administration facilitates Rs 408.67cr loan to women’s self-help groups The Times of India",
+          "lexical_overlap": 0.105,
+          "relevance": 0.175,
           "matched_terms": [
-            "loans",
+            "groups",
             "women"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "loans",
+            "groups",
             "women"
           ]
         }
@@ -68018,7 +68032,7 @@
     },
     {
       "id": "0a555027351d756a2f",
-      "checked_at": "2026-10-17T00:29:20.107087+00:00",
+      "checked_at": "2026-10-22T05:26:11.109832+00:00",
       "promise_id": "BJP-2014-c7eb40e63748a17889",
       "year": 2014,
       "category": "education_skills",
@@ -68065,29 +68079,6 @@
             "autonomy",
             "education",
             "higher"
-          ]
-        },
-        {
-          "id": "614035f27fec7df842",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Times Higher Education",
-          "source_url": "https://www.timeshighereducation.com",
-          "title": "UK devolution must extend to its authoritarian universities - Times Higher Education",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVTI3anZkZ2cyMVNlWGFScy1nSHBmUS1zSXk3SmZyVFdET1BGYUhicWNIY1VrVF9LME5fMVR3R2dyb0V2aHZ1ZDFpY0RJU0tzNlRyWndmTWtNV3dsLUd1ZjRRZ3VfUDRicVgwMmNZQm9BeXRfNzIxRFMxV0RzMFo5SGFqa2FDX09oVzlQQnd4cTUzSElEQlQtWm1ZTVNxbXpIaEpv?oc=5",
-          "published_at": "2026-07-24T07:00:00+00:00",
-          "snippet": "UK devolution must extend to its authoritarian universities Times Higher Education",
-          "lexical_overlap": 0.105,
-          "relevance": 0.175,
-          "matched_terms": [
-            "higher",
-            "universities"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "education",
-            "higher",
-            "universities"
           ]
         },
         {
@@ -68157,6 +68148,28 @@
             "institutions",
             "universities"
           ]
+        },
+        {
+          "id": "7032194cbc70dba942",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Group of Eight",
+          "source_url": "https://go8.edu.au",
+          "title": "Media release: Universities Accord legislation delivers for student choice, transparency and institutional autonomy - Group of Eight",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVHBxQUg0aWxMaGhYTVZhM1BMVG1WYURkUnBKNHlXVXp5N251NGVHS0ZET255eG5NMUpwQmg0N21PYUMyVkdDMVhVejlEOW1yY09fVlZjQVB4Z2otUDRaTVRfVC12ZTNkZDV4SkJXNXc2TWwyYXRiYWYydE9KSXhtNUUyMk4xOWxPS2xmR25oV1ZFdEJWLUhNODlpNGpxM0ZHOXB0RGNhS1lGTWREdkk3eksxVldMQ2lGRGw1OUh6U21wVlF3M0hkZWd5SXI?oc=5",
+          "published_at": "2026-10-13T04:07:16+00:00",
+          "snippet": "Media release: Universities Accord legislation delivers for student choice, transparency and institutional autonomy Group of Eight",
+          "lexical_overlap": 0.087,
+          "relevance": 0.157,
+          "matched_terms": [
+            "autonomy",
+            "universities"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "autonomy",
+            "universities"
+          ]
         }
       ],
       "implementation_signal": "current_reporting_found",
@@ -68174,7 +68187,7 @@
     },
     {
       "id": "8972bfbfa9420a9783",
-      "checked_at": "2026-10-20T12:16:40.547286+00:00",
+      "checked_at": "2026-10-22T05:26:17.110987+00:00",
       "promise_id": "BJP-2014-d862fde1f7875b5b4f",
       "year": 2014,
       "category": "education_skills",
@@ -68263,6 +68276,28 @@
           "promise_core_overlap": [
             "education",
             "policy"
+          ]
+        },
+        {
+          "id": "dfbf7ad3282f65902b",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "UNESCO",
+          "source_url": "https://www.unesco.org",
+          "title": "How many countries have phone bans in school? | Global Education Monitoring Report - UNESCO",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOEd3X2hCT21pVXlhSjQ5bDMwdnN5S2FBcDdlUnRoUU9wbW11Tm5lby1HMzJWN0s1NUllOS1CNnhwdE5mZk41TTBRQzg5clJnTGJDVG1WVWZBSzhBaE1kbFF0Sy1LcnR6NDFTNnlBUERvd2xmYmRzbHdRSWtfS3loM2ZGbnlKclMzSkN1cVJOYV8?oc=5",
+          "published_at": "2026-03-17T07:00:00+00:00",
+          "snippet": "How many countries have phone bans in school? | Global Education Monitoring Report UNESCO",
+          "lexical_overlap": 0.091,
+          "relevance": 0.161,
+          "matched_terms": [
+            "education",
+            "report"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "education",
+            "report"
           ]
         }
       ],
@@ -68764,7 +68799,7 @@
     },
     {
       "id": "c5d272822f09fde3f9",
-      "checked_at": "2026-10-17T00:29:18.219191+00:00",
+      "checked_at": "2026-10-22T05:26:09.286856+00:00",
       "promise_id": "BJP-2014-bbe656dc7ed3e269a6",
       "year": 2014,
       "category": "culture_heritage",
@@ -68811,28 +68846,6 @@
             "ayurveda",
             "gifts",
             "public",
-            "yoga"
-          ]
-        },
-        {
-          "id": "b6071383f766698e0a",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Hindu American Foundation",
-          "source_url": "https://www.hinduamerican.org",
-          "title": "Yoga is Hinduism’s Gift to Humanity - Hindu American Foundation",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1hZ2FHdElSaVNCdGlwc1Rmd0dnSVVScUYzQlNxTk5XNXo2U0loOXVYLTl5R2Z6TEQ5M2djNXJlTDhoNTd6emk2NVZrT09LelEyQTZ1VS1tXzAtb3N5bEowWW1tYTZCbmlBWnVhbDdYMTRzTlFyMld5b0FB?oc=5",
-          "published_at": "2021-06-25T07:00:00+00:00",
-          "snippet": "Yoga is Hinduism’s Gift to Humanity Hindu American Foundation",
-          "lexical_overlap": 0.125,
-          "relevance": 0.195,
-          "matched_terms": [
-            "humanity",
-            "yoga"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "humanity",
             "yoga"
           ]
         }
@@ -70622,7 +70635,7 @@
     },
     {
       "id": "a362ec27176f73ca3d",
-      "checked_at": "2026-10-17T00:29:16.898893+00:00",
+      "checked_at": "2026-10-22T05:26:07.924674+00:00",
       "promise_id": "BJP-2014-b9a31fc2c62b658012",
       "year": 2014,
       "category": "infrastructure",
@@ -70682,7 +70695,7 @@
     },
     {
       "id": "d1ab27473977c9253e",
-      "checked_at": "2026-10-20T12:16:44.754310+00:00",
+      "checked_at": "2026-10-22T05:26:21.308494+00:00",
       "promise_id": "BJP-2014-ef9302bf4603264717",
       "year": 2014,
       "category": "jobs_economy",
@@ -70766,7 +70779,7 @@
     },
     {
       "id": "026f09826b05ba3264",
-      "checked_at": "2026-10-20T12:16:48.210686+00:00",
+      "checked_at": "2026-10-22T05:26:24.714052+00:00",
       "promise_id": "BJP-2014-efc0b58d74b0ed7da2",
       "year": 2014,
       "category": "jobs_economy",
@@ -70872,6 +70885,28 @@
           "snippet": "ADB Support for Strengthening the Enabling Environment for Private Sector Development Asian Development Bank",
           "lexical_overlap": 0.111,
           "relevance": 0.181,
+          "matched_terms": [
+            "enabling",
+            "environment"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "enabling",
+            "environment"
+          ]
+        },
+        {
+          "id": "ef941d8b4533fef3ed",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Prothom Alo English",
+          "source_url": "https://en.prothomalo.com",
+          "title": "Foreign minister at briefing: Dhaka seeks enabling environment to advance Bangladesh–India ties - Prothom Alo English",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE11RjB2WEVHUm1PR0paeHpNa2J0UWZtT29rRTl2VUlHSFk1UkdELW9sM3VhN00wNE12M2lMUTA0QVUtN0JVTDZjOEowSng2bTAyNlZMTDBsYngxclHSAWhBVV95cUxNU0VFNFNWd0JDRUFxWVpqenZ1cl93S0E0TlZxZ1hUa1B2NmZmVl8wd0FObEtneFZIUm5fWEwzeC1vOU0yRjZHTnMwMnFNUElwZFdTN296SU40ZGJzdWFmdzYwQW5DZDVydw?oc=5",
+          "published_at": "2026-08-10T07:00:00+00:00",
+          "snippet": "Foreign minister at briefing: Dhaka seeks enabling environment to advance Bangladesh–India ties Prothom Alo English",
+          "lexical_overlap": 0.1,
+          "relevance": 0.17,
           "matched_terms": [
             "enabling",
             "environment"
@@ -71269,7 +71304,7 @@
     },
     {
       "id": "950af594a4d7a0a2ec",
-      "checked_at": "2026-10-18T17:23:27.050606+00:00",
+      "checked_at": "2026-10-22T05:25:56.313705+00:00",
       "promise_id": "BJP-2014-9186b857d727ef0fe4",
       "year": 2014,
       "category": "health_welfare",
@@ -71308,7 +71343,7 @@
     },
     {
       "id": "972b72571df81035a6",
-      "checked_at": "2026-10-17T00:29:10.332257+00:00",
+      "checked_at": "2026-10-22T05:26:01.322257+00:00",
       "promise_id": "BJP-2014-a7947562603f298d50",
       "year": 2014,
       "category": "other",
@@ -71331,17 +71366,39 @@
       "query": "interests labour unorganized sector protected",
       "evidence": [
         {
-          "id": "74596e2148b388382c",
+          "id": "e176db00392369e4d0",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "pib.gov.in",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "New measures to protect interests of unorganised labour - pib.gov.in",
+          "title": "New measures to protect interests of unorganised labour - Press Information Bureau",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE90dHlhcl93ZjFBemtUd2dfTGg2TGRRY2R1R0IwR3pxVllVNkhicU9CcTJJQ0JJQzVDT2VpUk45RlNVeFEyblFUcGw1cEh4N0gxckhrUkF4QW1pX3RoSmw1UTBsR3lYSkRm?oc=5",
           "published_at": "2023-12-14T08:00:00+00:00",
-          "snippet": "New measures to protect interests of unorganised labour pib.gov.in",
-          "lexical_overlap": 0.182,
-          "relevance": 0.302,
+          "snippet": "New measures to protect interests of unorganised labour Press Information Bureau",
+          "lexical_overlap": 0.167,
+          "relevance": 0.287,
+          "matched_terms": [
+            "interests",
+            "labour"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "interests",
+            "labour"
+          ]
+        },
+        {
+          "id": "0e7d1e7b4ffb61719d",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Protection and Safeguarding the Interests of workers in is the Responsibility of Labour & Employment Ministry –Mallikarjun Kharge - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5vLUNOSUFfalNkanFLbXBGX2FHRFlXdjMtVGZfR0NWYS1ITVYyT3dsLUhMQTFlNVJXN0FqR3QxOGx4eXU5a09Qd2Y2cVhKak1BdXUzQ0VrTzg1RVFDbG84UjhjYVNzdlByNWMzTQ?oc=5",
+          "published_at": "2011-10-21T07:00:00+00:00",
+          "snippet": "Protection and Safeguarding the Interests of workers in is the Responsibility of Labour & Employment Ministry –Mallikarjun Kharge Press Information Bureau",
+          "lexical_overlap": 0.118,
+          "relevance": 0.238,
           "matched_terms": [
             "interests",
             "labour"
@@ -71531,7 +71588,7 @@
     },
     {
       "id": "531f5cafb7de490fbc",
-      "checked_at": "2026-10-20T12:16:46.417699+00:00",
+      "checked_at": "2026-10-22T05:26:23.084839+00:00",
       "promise_id": "BJP-2014-efb71528eea8447a91",
       "year": 2014,
       "category": "infrastructure",
@@ -71716,7 +71773,7 @@
     },
     {
       "id": "e3375ff1520d53838d",
-      "checked_at": "2026-10-17T00:29:07.098517+00:00",
+      "checked_at": "2026-10-22T05:25:58.242598+00:00",
       "promise_id": "BJP-2014-a159eb45b050af763d",
       "year": 2014,
       "category": "other",
@@ -71771,17 +71828,17 @@
           ]
         },
         {
-          "id": "76e38e4fb4e288fb0d",
+          "id": "235f69f41b6d702ef8",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "PIB",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "High Speed Train Project - PIB",
+          "title": "High Speed Train Project - Press Information Bureau",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1PRW8zaksybVRVc1kzckhySkJCTEZWRHJtSy1HZDZOM3dQV0wzS2c4b2Jwc1pGZkRxSVhad29QNkFKc2JnZ0Z6XzQ2M25HaTQ3WW81TnAwQVV1bFNvQnl2VVZRSlQzQUtHaHJTV1Zn?oc=5",
           "published_at": "2014-07-11T07:00:00+00:00",
-          "snippet": "High Speed Train Project PIB",
-          "lexical_overlap": 0.4,
-          "relevance": 0.59,
+          "snippet": "High Speed Train Project Press Information Bureau",
+          "lexical_overlap": 0.333,
+          "relevance": 0.523,
           "matched_terms": [
             "high",
             "project",
@@ -71825,6 +71882,52 @@
           ]
         },
         {
+          "id": "e0a76a1361a5d35d79",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Media India Group",
+          "source_url": "https://mediaindia.eu",
+          "title": "Diamond Quadrilateral project of Indian Railways - Media India Group",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSlZfaTRCZXpKNGVCTjdCTHN1dVhxSVh2b1c0Q1hhTmgzcjNHbXBLaUVxUWdMWHZYdzEyX3R2UThkSzVLejRybWJLTjJKQjU3QmNsMTJXcEt2SXJQdGNhVmVhTXhkaUtzOFY3TV9vN0dtVE1YemJSa1UybXkxY1BXMGs2MTNkQQ?oc=5",
+          "published_at": "2016-07-22T07:00:00+00:00",
+          "snippet": "Diamond Quadrilateral project of Indian Railways Media India Group",
+          "lexical_overlap": 0.25,
+          "relevance": 0.355,
+          "matched_terms": [
+            "diamond",
+            "project",
+            "quadrilateral"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "diamond",
+            "project",
+            "quadrilateral"
+          ]
+        },
+        {
+          "id": "03ddcd6aae7ca08dea",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Hindu",
+          "source_url": "https://www.thehindu.com",
+          "title": "Focus on diamond quadrilateral - The Hindu",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbzliMFNoU19zWWdLbW05VWtzSTFLUU9oU2N4UFZBY2FPU0tWZzVBNmVhMENwcDVybFVuV3lxS3Z3NzBYcW9QOEFva1pKck1mc1pldV9fS3g4Yi04dnNKWlpjcE5KRGctdG9LOEcxdUdOaDU0a3Z3SUJVOEtpVzJ2SG5Vb2dIYU0ycHpRa3ZWX0Z0M3c3cGE00gGeAUFVX3lxTFBrZ2RkUlMzbUdfQmVuQTJ6TnYzWFlMWFVIVThZRVFxeGxyYXI0ZEhQU2h0c1k2Ykc4Zjk4UGhYbHdqQWdIa3hvOW52WjZNSjRmVTZYTG9MNDU1cVRDRG5nUHZBN193S3VLdi1Ham8zdkVLSDlSMkx3UmQ2V0RBSm0tSFJBNWdNWmd6czcydExTRVJwV3JrZEF5dUxsSHBn?oc=5",
+          "published_at": "2014-06-12T07:00:00+00:00",
+          "snippet": "Focus on diamond quadrilateral The Hindu",
+          "lexical_overlap": 0.182,
+          "relevance": 0.252,
+          "matched_terms": [
+            "diamond",
+            "quadrilateral"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "diamond",
+            "quadrilateral"
+          ]
+        },
+        {
           "id": "1d377119597d1f3d95",
           "scope": "news_search",
           "tier": "secondary",
@@ -71845,28 +71948,6 @@
             "bullet",
             "train"
           ]
-        },
-        {
-          "id": "6f8116a6bfc04fcf28",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "ET TravelWorld",
-          "source_url": "http://travel.economictimes.indiatimes.com",
-          "title": "Developed India needs high speed rail, passengers prefer faster, luxurious travel: Study - ET TravelWorld",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQYU50VzFVSVlNTXZfVktlNkVGT3hwRmFuYk1GbjN6dGhvSUFSZUlOV0tfU1BmNmM3dU9CTjJITTJFUmE2MHdGel9UVUdmSmJpelZvWFZiSHdxTGFkUVA0dmZJdnZWcGw1Tm5WX1gwMzFkbHAtMmk3YWVUcXpvU2RjQmhOZWFPRnZvd0VjSEZfRHVidk1RY2tONS1XWmFnMGJnOVZaWEFFM3pWd1UzczRieXRHenhmV0pORHMyMVRaYlBDbFN2LW1Vd3NKOWVYakRCbjh0dmtaZzNGT2p3WHo4ZDV5QmJTZGvSAewBQVVfeXFMTllQOFlnbmFsVGh6b1pBb1VXTG50MURZN290TDYyckRXMDVsWTVPbG1saVZFVldSUmxwOFJuVHJuc0ZYQ0VoYlpLQU1xMEJpV2l1Ui1pSWd2YkFVc0pmMUdyMG1rdzNSa3g0YVlwR1Y5TDZkVllWYzctV20xVlJ4VzBDaXZ4b0dreWx1M1RpakRhOUNqcEl1TnVOYzhIUjhUMmc1M1BNc1psMHhiMTJOVFNXcURucFdEM3FuV2FLSDFMbUs5V1hmOVhNTUY1SEtKWjRZZ1NJQUJwcnRmSjM2THAwbURKWFF2QUU5WnI?oc=5",
-          "published_at": "2025-03-22T07:00:00+00:00",
-          "snippet": "Developed India needs high speed rail, passengers prefer faster, luxurious travel: Study ET TravelWorld",
-          "lexical_overlap": 0.1,
-          "relevance": 0.17,
-          "matched_terms": [
-            "high",
-            "speed"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "high",
-            "speed"
-          ]
         }
       ],
       "implementation_signal": "current_primary_and_reporting_found",
@@ -71884,7 +71965,7 @@
     },
     {
       "id": "5c2ed8296705dbbeed",
-      "checked_at": "2026-10-17T00:29:12.025820+00:00",
+      "checked_at": "2026-10-22T05:26:03.138636+00:00",
       "promise_id": "BJP-2014-a7e95c34c63f2e26d6",
       "year": 2014,
       "category": "infrastructure",
@@ -71909,29 +71990,6 @@
       "query": "transport cost public system which reduce",
       "evidence": [
         {
-          "id": "d75e5553896a41c0c3",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "www.pib.gov.in",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Barrier-less Tolling System to Transform Highway Travel, Reduce Pollution and Improve Efficiency: Shri Nitin Gadkari - www.pib.gov.in",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBUWFFnX18xVmZXR0VLcWp2cS1mX1A2c1czSnFCWVJ4RDNtTzV4d0Zjb0w4YnJwdHA4VUtQaHI1a1hYZFp1bm1hakY3YjU4azhoVjJPbVl3dHZreHJjU3NyMUlpUk9MUWtQ?oc=5",
-          "published_at": "2026-05-11T07:00:00+00:00",
-          "snippet": "Barrier-less Tolling System to Transform Highway Travel, Reduce Pollution and Improve Efficiency: Shri Nitin Gadkari www.pib.gov.in",
-          "lexical_overlap": 0.077,
-          "relevance": 0.197,
-          "matched_terms": [
-            "reduce",
-            "system"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "reduce",
-            "system",
-            "travel"
-          ]
-        },
-        {
           "id": "6e6e2c4eb419aaf733",
           "scope": "news_search",
           "tier": "secondary",
@@ -71952,28 +72010,6 @@
           "promise_core_overlap": [
             "public",
             "system",
-            "transport"
-          ]
-        },
-        {
-          "id": "5d5fdee42c4ea1ce86",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Berliner",
-          "source_url": "https://www.the-berliner.com",
-          "title": "Public transport prices rise (again) - The Berliner",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSXMzVjdQZ1Q1YlNjRWNPYXBrRUk2TGJyZkNjM0ViY2FJZF9xcWhOY1lLUTE4VWRPRW5oVjkzaGVwb2JlZ21CMEJ1VzM1R3lCTm4zbkN1Umc3alJpc25GTXdZTzlET0lZM2ZHLTRTMGw0YUh1eEFrcnhQc19telhkWVBjWFZFRE1zT1NMRQ?oc=5",
-          "published_at": "2026-01-02T08:00:00+00:00",
-          "snippet": "Public transport prices rise (again) The Berliner",
-          "lexical_overlap": 0.125,
-          "relevance": 0.195,
-          "matched_terms": [
-            "public",
-            "transport"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "public",
             "transport"
           ]
         },
@@ -72042,6 +72078,28 @@
             "public",
             "transport"
           ]
+        },
+        {
+          "id": "126aa0623f58481a20",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "European Environment Agency (EEA)",
+          "source_url": "https://www.eea.europa.eu",
+          "title": "EU new Emissions Trading System (ETS2) and Social Climate Fund: Mechanisms, challenges and conditions for a fair decarbonisation in road transport - European Environment Agency (EEA)",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNLUNfTlpmTkNycmRqSF9TMnlZamRhOFJZSmJDTExjZGRrN3JvRVpONjZDQlFISlVueEJBcElqSW9MUERYVzRfU0NpREoxOW13bFczeTREUVo0UVdGVFRZbmR2SEc0THNwUnhQcEFReWVqYWdDMlFPWlpsNS1KbkJ0MHhVRE9yYS10cy1XN2kwYjJPZG1ENHNfSGZKbUxFZl9xcldnRjFxa0Q0ei12eFMxLXMxQVd3SGt6Mjd1RmFtUzRDcVZIQVhQazQ5Y3hrMmJPb1ZZN2pJcU1aaVJoOXNJaVRZMmw1bDhPYTcw?oc=5",
+          "published_at": "2026-03-05T08:00:00+00:00",
+          "snippet": "EU new Emissions Trading System (ETS2) and Social Climate Fund: Mechanisms, challenges and conditions for a fair decarbonisation in road transport European Environment Agency (EEA)",
+          "lexical_overlap": 0.077,
+          "relevance": 0.147,
+          "matched_terms": [
+            "system",
+            "transport"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "system",
+            "transport"
+          ]
         }
       ],
       "implementation_signal": "current_reporting_found",
@@ -72059,7 +72117,7 @@
     },
     {
       "id": "e699afecf7e3006292",
-      "checked_at": "2026-10-20T12:16:42.033817+00:00",
+      "checked_at": "2026-10-22T05:26:18.753041+00:00",
       "promise_id": "BJP-2014-daded7258792d3a7a0",
       "year": 2014,
       "category": "agriculture",
@@ -72098,7 +72156,7 @@
     },
     {
       "id": "460d07441f2101c548",
-      "checked_at": "2026-10-20T12:16:43.278323+00:00",
+      "checked_at": "2026-10-22T05:26:19.929208+00:00",
       "promise_id": "BJP-2014-e5c2b2f1940153831c",
       "year": 2014,
       "category": "infrastructure",
@@ -72849,7 +72907,7 @@
     },
     {
       "id": "714b7cbf0a3587337b",
-      "checked_at": "2026-10-17T00:29:15.286873+00:00",
+      "checked_at": "2026-10-22T05:26:06.474139+00:00",
       "promise_id": "BJP-2014-b9333ab843651e68db",
       "year": 2014,
       "category": "other",
@@ -74218,7 +74276,7 @@
     },
     {
       "id": "59bf7920c0fa11acef",
-      "checked_at": "2026-10-20T12:16:35.841235+00:00",
+      "checked_at": "2026-10-22T05:26:12.485844+00:00",
       "promise_id": "BJP-2014-cbafa14b3fde8121fb",
       "year": 2014,
       "category": "other",
@@ -74377,7 +74435,7 @@
     },
     {
       "id": "56bd910ab6d27dee75",
-      "checked_at": "2026-10-20T12:16:38.709292+00:00",
+      "checked_at": "2026-10-22T05:26:14.962997+00:00",
       "promise_id": "BJP-2014-d500b85db5ed0ab069",
       "year": 2014,
       "category": "culture_heritage",
@@ -74402,15 +74460,15 @@
       "query": "heritage sites appropriate resources maintenance restoration",
       "evidence": [
         {
-          "id": "8f77404d47998b8686",
+          "id": "578701e80485eceeb7",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "www.pib.gov.in",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "HERITAGE RESTORATION PROJECTS BY ASI AND INDIAN NATIONAL TRUST FOR ART AND CULTURAL HERITAGE (INTACH) - www.pib.gov.in",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5fenlHNVNYSW1sN1RMYmF5WC1kUDd6N0FWczE1dFR5TmJSTm5Ed0hmY3RJSmNBdVc4X3daaS1MRlU5dTAycW1sOEtaVmJkSnY0ekF0am5QeTNVdXRvM0U2VkpsZEZ3U3hw?oc=5",
+          "title": "HERITAGE RESTORATION PROJECTS BY ASI AND INDIAN NATIONAL TRUST FOR ART AND CULTURAL HERITAGE (INTACH) - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9JYmdreTNDTXZLRmpnZVJoNnpJWG01WmlSZ2VOUHY0Mm1SZElWOEQxSmszSjBBa0xZRi1mTWFrRkoxM1d0Y3RHajIxOHVoSkN0ZlJXUGJ4eXB4X3YxZXVuZkhid3ZuMHVXMFo1ZS14bTROTVpEUFBzY0xB?oc=5",
           "published_at": "2026-02-12T08:00:00+00:00",
-          "snippet": "HERITAGE RESTORATION PROJECTS BY ASI AND INDIAN NATIONAL TRUST FOR ART AND CULTURAL HERITAGE (INTACH) www.pib.gov.in",
+          "snippet": "HERITAGE RESTORATION PROJECTS BY ASI AND INDIAN NATIONAL TRUST FOR ART AND CULTURAL HERITAGE (INTACH) Press Information Bureau",
           "lexical_overlap": 0.143,
           "relevance": 0.298,
           "matched_terms": [
@@ -74448,6 +74506,72 @@
           ]
         },
         {
+          "id": "7e02f775f650f35d52",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "ANCIENT MONUMENTS AND HERITAGE SITES IN SOUTH INDIA - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE91SWUwY0ZXNDRDMjJUTG41SWVjSHhzY1NvZGw3SmJEeVRUSnN1NnVqVDdhTmd4cjVXdEU0THZjbmZfblczanRldXF0V0tKdDVuM243TVJ3Zk9INmFia1pOZFpvR19ERHB2TUVoY1lGOTRnYmFTbWdKLWtn?oc=5",
+          "published_at": "2026-07-23T07:00:00+00:00",
+          "snippet": "ANCIENT MONUMENTS AND HERITAGE SITES IN SOUTH INDIA Press Information Bureau",
+          "lexical_overlap": 0.111,
+          "relevance": 0.231,
+          "matched_terms": [
+            "heritage",
+            "sites"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "heritage",
+            "sites"
+          ]
+        },
+        {
+          "id": "6f6cd05ff8b70d02b1",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "CONSERVATION OF NATIONAL CULTURE HERITAGE UNDER NCF AND AMASR ACT - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9kOHQ3TFZKTHByT2RGT2VTNFRCVS0wRHBUcE9EcVc1eGI5SlFJaTZpalFQM2E5cDhuYXpXSFJiYXBwWWduMlFnaGxpSTkyTGVLaDVOYUllMWcyUE53X3pIVFRSREZlQ25m?oc=5",
+          "published_at": "2026-08-11T07:00:00+00:00",
+          "snippet": "CONSERVATION OF NATIONAL CULTURE HERITAGE UNDER NCF AND AMASR ACT Press Information Bureau",
+          "lexical_overlap": 0.1,
+          "relevance": 0.22,
+          "matched_terms": [
+            "heritage",
+            "national"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "heritage",
+            "national"
+          ]
+        },
+        {
+          "id": "d0adf0e679cbdb4496",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "STIRworld",
+          "source_url": "https://www.stirworld.com",
+          "title": "Aishwarya Tipnis outlines reviving everyday heritage in The Restoration Toolbox - STIRworld",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNM0VGZmJlM0x4dGNQa1A1RUxlT3N6b2pZTHBwVTZjcndQMloyRU1KZ3hFbkE2UFZELXpuVkI4ekh6QVJIX1pNX1c5SVdYOXhlb2tEVi1Ya3pERUd0MlIzZW8yMW1MWDloYkUyVUdMMDM4SjN0VHNaaTNzRy1iNEtKR2phSDA1YnVRbXgzMTA3Y2tVVjB3S0FsWmZZUDdaLWZzaVEwRURBVXVXRUlESklLTzB5dnZ4dXNScWxrcw?oc=5",
+          "published_at": "2025-04-29T07:00:00+00:00",
+          "snippet": "Aishwarya Tipnis outlines reviving everyday heritage in The Restoration Toolbox STIRworld",
+          "lexical_overlap": 0.105,
+          "relevance": 0.175,
+          "matched_terms": [
+            "heritage",
+            "restoration"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "heritage",
+            "restoration"
+          ]
+        },
+        {
           "id": "16e7c47383ba37de86",
           "scope": "news_search",
           "tier": "secondary",
@@ -74467,6 +74591,28 @@
           "promise_core_overlap": [
             "heritage",
             "resources"
+          ]
+        },
+        {
+          "id": "22ae252f443f791094",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "PBS",
+          "source_url": "https://www.pbs.org",
+          "title": "Judge orders restoration of National Park changes made by Trump administration - PBS",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTFF5MlRsX2xmdnZ4eHpVa1czbWtEMHluTTI3UE1fTlU5X0xXS3pkazRLMS1OYTZVTE1yRW1qZlhnNTZPUm9PdTBhb3YxNThRTTFxem1oY1lnZVUzcHNPbzVTbWpmMWRYaXhmX0VId0M2ZzFaUldFZ0cyMThYSmcybTlMNV9KSklTbUFiN29uam8zNmxWc3JCbzRXaE1ZdXQ4NFhfVlBUVktJU1Zsc3g1dnVrS0c?oc=5",
+          "published_at": "2026-06-13T07:00:00+00:00",
+          "snippet": "Judge orders restoration of National Park changes made by Trump administration PBS",
+          "lexical_overlap": 0.1,
+          "relevance": 0.17,
+          "matched_terms": [
+            "national",
+            "restoration"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "national",
+            "restoration"
           ]
         }
       ],
