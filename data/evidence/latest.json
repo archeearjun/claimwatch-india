@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T20:48:23.969984+00:00",
+  "generated_at": "2026-10-24T21:14:20.009153+00:00",
   "capabilities": {
     "official_evidence_search": true,
     "verified_primary_gate": true,
@@ -16,8 +16,8 @@
     "promise_checked_this_run": 30,
     "promise_total_candidates": 841,
     "promise_coverage_pct": 101.3,
-    "primary_candidates": 562,
-    "secondary_candidates": 1110,
+    "primary_candidates": 561,
+    "secondary_candidates": 1113,
     "prior_fact_checks": 0,
     "publishable_auto_verdicts": 0,
     "claim_verdicts": {
@@ -434,7 +434,7 @@
         "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-interaction-with-the-participants-of-asian-games-2026/",
         "published_at": "2026-10-15T14:00:34+00:00"
       },
-      "query": "85 38 medals won out were women athletes",
+      "query": "38 85 medals won out were women athletes",
       "numbers": [
         "38",
         "85"
@@ -482,25 +482,6 @@
           ],
           "shared_numbers": [
             "38"
-          ]
-        },
-        {
-          "id": "ea6567086a37bd713f",
-          "scope": "broad_official_search",
-          "tier": "primary",
-          "source": "DD News",
-          "source_url": "https://ddnews.gov.in",
-          "title": "Asian Games 2026: India signs off with 85 medals after Gold rush in cricket, hockey and kabaddi - DD News",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYzcyV1NDejVqM1JEZTRSRzQ1am9oRl95dlZ2b1ZWMEpnWFNobjNVeks5OEJSenlsMDMzd2Q0aGtxX1l1Nmk0azZ6TUx2QUtSTHBDdnhTVlRZem01SWhqX19JT1cyMFBybVExSzJZRHVjV2QzUmsyX3hHbU1WeF9LakMxVlprUmlNSktTS1pEck50MXViTTI0QW5tN0d0Vjd2NTE2RFl0dm85MHFiOGNrRVBsNWptWnpiRnBB?oc=5",
-          "published_at": "2026-10-04T12:20:12+00:00",
-          "snippet": "Asian Games 2026: India signs off with 85 medals after Gold rush in cricket, hockey and kabaddi DD News",
-          "lexical_overlap": 0.056,
-          "relevance": 0.251,
-          "matched_terms": [
-            "medals"
-          ],
-          "shared_numbers": [
-            "85"
           ]
         },
         {
@@ -742,11 +723,30 @@
       "query": "there used huge events olympics yet",
       "numbers": [],
       "promise_matches": [],
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "cc9a710bb108ac5df0",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Medium",
+          "source_url": "https://medium.com",
+          "title": "Smaller. The Olympics used to be a slab of TV… | by Scott Galloway - Medium",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE16SGU0eWoxcjd3aFhaajJxMXU5aDJiX1RSX1gxWkt2LTFMMW1FcUdPODU1T3ljYmQ1azQ1ZzhyWGtZMlRGb2NfTnZZX280UGhlWkZ4bDVKdjlkNk5GZmJxMHFJYw?oc=5",
+          "published_at": "2024-08-08T07:00:00+00:00",
+          "snippet": "Smaller. The Olympics used to be a slab of TV… | by Scott Galloway Medium",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
+          "matched_terms": [
+            "olympics",
+            "used"
+          ],
+          "shared_numbers": []
+        }
+      ],
       "fact_checks": [],
       "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
+        "level": "reporting_found",
+        "label": "Relevant reporting found; primary evidence still needed",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -776,7 +776,7 @@
         "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-interaction-with-the-participants-of-asian-games-2026/",
         "published_at": "2026-10-15T14:00:34+00:00"
       },
-      "query": "10 12 past worked continuously dedication sincerity pursued",
+      "query": "12 10 past worked continuously dedication sincerity pursued",
       "numbers": [
         "10",
         "12"
@@ -908,6 +908,29 @@
       ],
       "evidence": [
         {
+          "id": "695993fe358c117ee9",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "Khelo India",
+          "source_url": "https://www.kheloindia.gov.in",
+          "title": "Khelo India Scheme - Khelo India",
+          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFAtNWIzNEh3dWU2dXJwdUhObDhkYTJvRl81NVI2RVRweEdKZjRvZWtMdENGUEFVWHFrV0c5cWoxbUFnNXN2?oc=5",
+          "published_at": "2018-01-25T22:41:15+00:00",
+          "snippet": "Khelo India Scheme Khelo India",
+          "lexical_overlap": 0.667,
+          "relevance": 0.787,
+          "matched_terms": [
+            "khelo",
+            "scheme"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.221,
+            "neutral": 0.641,
+            "contradiction": 0.1379
+          }
+        },
+        {
           "id": "c93a53a33e57f82557",
           "scope": "preferred_official_search",
           "tier": "primary",
@@ -928,29 +951,6 @@
             "entailment": 0.1201,
             "neutral": 0.78,
             "contradiction": 0.0998
-          }
-        },
-        {
-          "id": "544f909deceecf4adb",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "IMPLEMENTATION OF KHELO INDIA SCHEME - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE42LWJmTktOSVExSU8yZ2JNcDBhbUsyZnFhdktCVTl2LXZXUVRrb3V0X091aVlCSXlLM291LXdhekdwN2g5ZTBUMXJHS0h0MHAtYVo0d1RleW5BYlpyQU9nMWZWbDJqQ01qcHRtLV9rSVU?oc=5",
-          "published_at": "2024-11-28T08:00:00+00:00",
-          "snippet": "IMPLEMENTATION OF KHELO INDIA SCHEME Press Information Bureau",
-          "lexical_overlap": 0.286,
-          "relevance": 0.406,
-          "matched_terms": [
-            "khelo",
-            "scheme"
-          ],
-          "shared_numbers": [],
-          "nli": {
-            "entailment": 0.1029,
-            "neutral": 0.8309,
-            "contradiction": 0.0662
           }
         },
         {
@@ -1256,7 +1256,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-24T20:47:22.084617+00:00",
+      "latest_checked_at": "2026-10-24T21:13:29.720261+00:00",
       "latest_claim_packet_id": "4fc123ec978ead3424"
     },
     {
@@ -1304,7 +1304,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-24T20:47:22.084541+00:00",
+      "latest_checked_at": "2026-10-24T21:13:29.720201+00:00",
       "latest_claim_packet_id": "39655c069fdf0432cb"
     },
     {
@@ -1352,7 +1352,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-24T20:47:22.084764+00:00",
+      "latest_checked_at": "2026-10-24T21:13:29.720355+00:00",
       "latest_claim_packet_id": "3bd7b7082f67fcec8b"
     },
     {
@@ -1376,7 +1376,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-24T20:47:22.084726+00:00",
+      "latest_checked_at": "2026-10-24T21:13:29.720330+00:00",
       "latest_claim_packet_id": "47f28dd1ec0e8f34f5"
     },
     {
@@ -1544,7 +1544,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-24T20:47:22.084654+00:00",
+      "latest_checked_at": "2026-10-24T21:13:29.720287+00:00",
       "latest_claim_packet_id": "eaf894d11c6d2020fd"
     },
     {
@@ -1688,7 +1688,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-24T20:47:22.084465+00:00",
+      "latest_checked_at": "2026-10-24T21:13:29.720137+00:00",
       "latest_claim_packet_id": "91f80f8f9486c34723"
     },
     {
@@ -1760,7 +1760,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-24T20:47:22.084636+00:00",
+      "latest_checked_at": "2026-10-24T21:13:29.720274+00:00",
       "latest_claim_packet_id": "2c0e6bc38ae2653564"
     },
     {
@@ -1808,7 +1808,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-24T20:47:22.084560+00:00",
+      "latest_checked_at": "2026-10-24T21:13:29.720216+00:00",
       "latest_claim_packet_id": "c6503376f84ce30798"
     },
     {
@@ -2144,7 +2144,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-24T20:47:22.084603+00:00",
+      "latest_checked_at": "2026-10-24T21:13:29.720250+00:00",
       "latest_claim_packet_id": "92e5474bb83cc0df4c"
     },
     {
@@ -2168,7 +2168,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-24T20:47:22.084588+00:00",
+      "latest_checked_at": "2026-10-24T21:13:29.720238+00:00",
       "latest_claim_packet_id": "54f4567cf67bedad56"
     },
     {
@@ -2192,7 +2192,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-24T20:47:22.084696+00:00",
+      "latest_checked_at": "2026-10-24T21:13:29.720318+00:00",
       "latest_claim_packet_id": "932398a833189acad2"
     },
     {
@@ -2402,13 +2402,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "needs_research",
+      "evidence_state": "reporting_found",
       "human_reviewed": false,
       "created_at": "2026-10-18T20:40:21.116034+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-24T20:47:22.084672+00:00",
+      "latest_checked_at": "2026-10-24T21:13:29.720300+00:00",
       "latest_claim_packet_id": "b8900397e61c3c1fa9"
     },
     {
@@ -2675,7 +2675,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-24T20:47:22.084743+00:00",
+      "latest_checked_at": "2026-10-24T21:13:29.720340+00:00",
       "latest_claim_packet_id": "ea0a14718ba9e0d486"
     },
     {
@@ -2819,7 +2819,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-15T14:00:34+00:00",
       "last_seen": "2026-10-15T14:00:34+00:00",
-      "latest_checked_at": "2026-10-24T20:47:22.084515+00:00",
+      "latest_checked_at": "2026-10-24T21:13:29.720178+00:00",
       "latest_claim_packet_id": "ea68cd55ad6fa2bd5b"
     },
     {
@@ -16848,7 +16848,7 @@
     },
     {
       "id": "810ce1ae21f0e3727e",
-      "checked_at": "2026-10-16T05:07:02.050842+00:00",
+      "checked_at": "2026-10-24T21:14:14.953446+00:00",
       "promise_id": "BJP-2024-d90e03bb36bec78fb5",
       "year": 2024,
       "category": "women_social_justice",
@@ -16895,9 +16895,82 @@
           "promise_core_overlap": [
             "crore"
           ]
+        },
+        {
+          "id": "0228562282e496c130",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "DD News",
+          "source_url": "https://ddnews.gov.in",
+          "title": "Centre seeks to accelerate ₹24,000 crore PM JANMAN initiative for tribal welfare - DD News",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPR1U2Y21pZm9sV0U4SHl6bE5GTERkN3VMZ19wUFZiUy1OS0syZlV5SU01SWk5c1JkTzk3aVBxNzFYbDZua3lGZTBaeVFSaFRCbUNHUTVuUmZPeWxjSzFSNmdQdWExS1RRbjQzQVY4YkZpc0lkWFdtOGJBbWlZV2dHWWFTaGF0OUllaUxhX1dUWGhzLXZMSERINXo0Y21DWUJkMUFuQllsRTRqMDBEcE5HVHd4QQ?oc=5",
+          "published_at": "2025-01-22T08:00:00+00:00",
+          "snippet": "Centre seeks to accelerate ₹24,000 crore PM JANMAN initiative for tribal welfare DD News",
+          "lexical_overlap": 0.211,
+          "relevance": 0.461,
+          "matched_terms": [
+            "crore",
+            "janman",
+            "pm",
+            "tribal"
+          ],
+          "shared_numbers": [
+            "24000"
+          ],
+          "promise_core_overlap": [
+            "crore",
+            "janman",
+            "tribal"
+          ]
+        },
+        {
+          "id": "84c882c32705b16ba7",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Indian Express",
+          "source_url": "https://indianexpress.com",
+          "title": "PM Modi’s big tribal scheme today: The numbers and politics of 75 vulnerable tribes - The Indian Express",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPd2pzQW44UU13S2p6ZFFINXFBbHF0QjlScEl5d2dzQ2p0Q2pOZVN3YzFBcVptV21SMVI4dlJraTlRTUlISV9QclBTTEx1MllYR1UwVmlYS01WdHhlMGRuRXZORVdCdDhkWEpxN2x0cnEyMGxjVks3Mm83VUxCZW9GVy1ocFlsTnd5ZHJYdXZHU1RaaVJlRWE0alZKX1MtUlpMRm1kNnV0R1BRNk9RcXF4eNIBtwFBVV95cUxPTWZkNkpsRm1xekhUVk4wY3RLQzFiQlFiRzBXQU94eGJkaENNNkFqS2lVU1p1bHBmTGtNSXZFTW5DYUdZR1ZfSjJ2ZENDYXQteTFGNlNHdnk2Z3p4aTFXUk52UTlfLUJjbWUzTTc0eFM2b3VNR2NHRkQ2NW02THF6bEdkeVJvbFZiSnR6cDUySGFWMUFHY3RJOW1lbklsLVVxTzFlYTA1cUxIaUtiQjJCaHM1eV9FRk0?oc=5",
+          "published_at": "2023-11-15T08:00:00+00:00",
+          "snippet": "PM Modi’s big tribal scheme today: The numbers and politics of 75 vulnerable tribes The Indian Express",
+          "lexical_overlap": 0.167,
+          "relevance": 0.272,
+          "matched_terms": [
+            "pm",
+            "tribal",
+            "vulnerable"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "tribal",
+            "vulnerable"
+          ]
+        },
+        {
+          "id": "b783e8bea92aae8480",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Times of India",
+          "source_url": "https://timesofindia.indiatimes.com",
+          "title": "Govt to launch PM PVTG scheme to empower tribal community on November 15 - The Times of India",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQeGxDT0lRQ2N1OGhwdHVRMl9MMGdhM1VsdUdIUlNVWFhFTWU2S3pnamVrSTl2WkhhNExEVExoM29XZTg1Ti1peG0zOU43RktxQUVrTm1mV0FRUkwtdHZ1U0RUX0dqNGlMc3o1bjlSRVhUSWNxemNBdUlqUzJSQlhFdWxtTkJwNllxd1F0c21kWEpxOHhtcGpDZjBrODV3dTl4cjhHUV8xYXFueHJfOTJwejVPYzgyUnBHcWlKc1VIZFpza1ZoVGlUMGdHb0NxdU1sMG5EclRlVdIB3AFBVV95cUxOX0tvdnE0dkFnc0FxUFdjaWVjZVhfWUNtRUx2d0tMcFNoOXBST19RdEdLOWJYZ1ZUVDdPaDdoZTlHc2V5TXBONVIwN3BralFDeTF3bXVrUTAyS1h5bVpxNVh6ZXdjTFBTWk5zMDlJSm5uWVdYRnByNVJTaVhnSzAwQU9jbHZidkViTFNILWsyT0dkQzltUTZxWmVYNDJxeGVVMWFOQTM2RGpIZlRQeEUybWJoeF9QUGg3bWJxSW54S28ta1dMS0FDSWphd09sbmtzbFBNNmJ4cGJ3Uk1p?oc=5",
+          "published_at": "2023-11-13T08:00:00+00:00",
+          "snippet": "Govt to launch PM PVTG scheme to empower tribal community on November 15 The Times of India",
+          "lexical_overlap": 0.158,
+          "relevance": 0.263,
+          "matched_terms": [
+            "pm",
+            "pvtg",
+            "tribal"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "pvtg",
+            "tribal"
+          ]
         }
       ],
-      "implementation_signal": "needs_research",
+      "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -24826,7 +24899,7 @@
     },
     {
       "id": "d51c08950495440356",
-      "checked_at": "2026-10-16T05:07:00.673989+00:00",
+      "checked_at": "2026-10-24T21:14:13.711100+00:00",
       "promise_id": "BJP-2024-b3c34b0afeb679814e",
       "year": 2024,
       "category": "other",
@@ -24851,29 +24924,7 @@
       "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
       "related_promises": [],
       "query": "5000 tracks now adding every add pace",
-      "evidence": [
-        {
-          "id": "2146ff571b2bc0b2de",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Breaking Eighty",
-          "source_url": "https://breakingeighty.com",
-          "title": "The 11 Golf Launch Monitors I'd Buy Right Now (At Every Price) - Breaking Eighty",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1DVUpGdGYxMVYxcmpobS1sYzRNWktabXBrQU5MU2dTUDhvZUhhb0Q1TVNCNnE2eU9HcEJIbkE2RE4xZUtBN0haLVF3b2tGT0VYbXIyVzBra18weGhMYmtBcGpn?oc=5",
-          "published_at": "2026-10-03T07:00:00+00:00",
-          "snippet": "The 11 Golf Launch Monitors I'd Buy Right Now (At Every Price) Breaking Eighty",
-          "lexical_overlap": 0.111,
-          "relevance": 0.181,
-          "matched_terms": [
-            "every",
-            "now"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "every"
-          ]
-        }
-      ],
+      "evidence": [],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -26193,7 +26244,7 @@
     },
     {
       "id": "ed7482ff6cac5e5e15",
-      "checked_at": "2026-10-16T05:06:57.402171+00:00",
+      "checked_at": "2026-10-24T21:14:10.230470+00:00",
       "promise_id": "BJP-2024-2546caa656edb96a36",
       "year": 2024,
       "category": "environment",
@@ -26220,15 +26271,15 @@
       "query": "500 gw energy renewable parks accelerating transition",
       "evidence": [
         {
-          "id": "a153380cd1ee8bd58b",
+          "id": "92ae3334fa85091c84",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "www.pib.gov.in",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "ENERGY TRANSITION AND RENEWABLE CAPACITY - www.pib.gov.in",
+          "title": "ENERGY TRANSITION AND RENEWABLE CAPACITY - Press Information Bureau",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OY192WUVxbV96VVVpOGpaZldMWktIcUJpSVRRemtKVzFCWm5pOW5vbno5VndLM2NZRElvVmxlWHVaaDh3QndxM2hmTEtOQjJ4OUhjc1psSUFpcldfMXFwSnN6TjlKQUtyRXRRWnRsamIzQ196NkJnLVhn?oc=5",
           "published_at": "2026-03-16T07:00:00+00:00",
-          "snippet": "ENERGY TRANSITION AND RENEWABLE CAPACITY www.pib.gov.in",
+          "snippet": "ENERGY TRANSITION AND RENEWABLE CAPACITY Press Information Bureau",
           "lexical_overlap": 0.188,
           "relevance": 0.342,
           "matched_terms": [
@@ -26268,17 +26319,17 @@
           ]
         },
         {
-          "id": "a5613101227eda9b61",
+          "id": "9266ae2a1caea49f19",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "पीआईबी",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "Major steps taken by the Government to accelerate the Indian economy’s transition to one powered by green energy - पीआईबी",
+          "title": "Major steps taken by the Government to accelerate the Indian economy’s transition to one powered by green energy - Press Information Bureau",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5wSHpYZzFEaDNVTE5mczhqNEY4NnY5dTlQendTWWFadm9la3lJM3F2di1lRWpRUVhGMldvMlhhRU02UFZrS2JMbzJTdFFDMVVxU2c4V0RTWWJGXzBaSUlxWlZkdWw4aWRwbXc?oc=5",
           "published_at": "2023-04-15T08:32:33+00:00",
-          "snippet": "Major steps taken by the Government to accelerate the Indian economy’s transition to one powered by green energy पीआईबी",
-          "lexical_overlap": 0.095,
-          "relevance": 0.215,
+          "snippet": "Major steps taken by the Government to accelerate the Indian economy’s transition to one powered by green energy Press Information Bureau",
+          "lexical_overlap": 0.087,
+          "relevance": 0.207,
           "matched_terms": [
             "energy",
             "transition"
@@ -26317,27 +26368,30 @@
           ]
         },
         {
-          "id": "2d8db45c8eea570f20",
+          "id": "150533980771a8f146",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "IBEF",
-          "source_url": "https://www.ibef.org",
-          "title": "India's Renewable Energy Boom: The Power of Solar and Beyond - IBEF",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSkkzTW55WGVKQ0U2cmNBU0phS0tCZ0dRX0VSeFU5RlFfUk1ydnFNdjYtVVZNZEZ2Mk93TDFvQkVzNmF3MTJwNmczOVNwVzBjMHN4UEpGdkJ5WXVRYjI0NENiNm9qUDJBcVAxZXhkeUNWdjdVUVB5dFN5bkdvcGNaaGdqSlFEQldCckktUHB1RG9uOTB5RzRadUN5Q21sUHVuV2c?oc=5",
-          "published_at": "2025-01-03T03:45:44+00:00",
-          "snippet": "India's Renewable Energy Boom: The Power of Solar and Beyond IBEF",
-          "lexical_overlap": 0.188,
-          "relevance": 0.292,
+          "source": "Green Fuel Journal",
+          "source_url": "https://www.greenfueljournal.com",
+          "title": "Gujarat Hybrid Renewable Energy Park: World’s Largest 30 GW Solar + Wind Case Study (Kutch, India) - Green Fuel Journal",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWVdILUFnMFZrNlB0ekxHYVMwelFERUlaTUN4RjRpUHlZUDhtb2FYdFloMTQtYi1HcUtSYm5BcFhWdW9yem9MLTBhQWhCSXcwZFRaeDNKN1RaTXhTWUF4ekpmM0lKY0k4Wm1uQlBwdHVXUlZKRWlRYy1sdjVNalFoZV9mSEVyYXBjUDlvSlpFU1UwcUljd1p2OGpWc3ZMcWtwUjZvTm90c3dlU3BoNU9oZDRreXpiT3FlakE?oc=5",
+          "published_at": "2026-02-04T08:00:00+00:00",
+          "snippet": "Gujarat Hybrid Renewable Energy Park: World’s Largest 30 GW Solar + Wind Case Study (Kutch, India) Green Fuel Journal",
+          "lexical_overlap": 0.167,
+          "relevance": 0.307,
           "matched_terms": [
             "energy",
+            "gw",
             "renewable",
             "solar"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
             "energy",
+            "green",
             "renewable",
-            "solar"
+            "solar",
+            "wind"
           ]
         },
         {
@@ -35398,7 +35452,7 @@
     },
     {
       "id": "7bb13e3c131ed3af23",
-      "checked_at": "2026-10-16T05:06:58.980011+00:00",
+      "checked_at": "2026-10-24T21:14:11.866477+00:00",
       "promise_id": "BJP-2024-a165e9b4e787676cb7",
       "year": 2024,
       "category": "education_skills",
@@ -35425,17 +35479,17 @@
       "query": "100 towards gross enrollment ratio pre-school secondary",
       "evidence": [
         {
-          "id": "d18caf725a19fb9993",
+          "id": "08b57b016506325bb3",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "PIB",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "DoSEL strengthening Open Schooling framework through NIOS to achieve 100% gross enrolment ratio by 2030 - PIB",
+          "title": "DoSEL strengthening Open Schooling framework through NIOS to achieve 100% gross enrolment ratio by 2030 - Press Information Bureau",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5sNVo4MDYzZ1ZNU2haNFRkb1ZlYVJnM1FmTElpSjBsZE16MkVWVkp0THlnUVl6MV94YUhqMGVmRDBOUmt1SFJNMUlnajRxQndCUFFwRW5BRWpXMzJLcmE2cnJmQktBVktoYjNrUXBMUDRnY1FnYXUyQ2tB?oc=5",
           "published_at": "2026-03-20T07:00:00+00:00",
-          "snippet": "DoSEL strengthening Open Schooling framework through NIOS to achieve 100% gross enrolment ratio by 2030 PIB",
-          "lexical_overlap": 0.118,
-          "relevance": 0.348,
+          "snippet": "DoSEL strengthening Open Schooling framework through NIOS to achieve 100% gross enrolment ratio by 2030 Press Information Bureau",
+          "lexical_overlap": 0.105,
+          "relevance": 0.335,
           "matched_terms": [
             "gross",
             "ratio"
@@ -43820,7 +43874,7 @@
     },
     {
       "id": "15bf19fff2ffe84700",
-      "checked_at": "2026-10-17T22:18:50.529847+00:00",
+      "checked_at": "2026-10-24T21:13:59.577818+00:00",
       "promise_id": "BJP-2019-8d3ccd4c629f570fac",
       "year": 2019,
       "category": "agriculture",
@@ -43905,7 +43959,7 @@
     },
     {
       "id": "cc142f697601acb0b8",
-      "checked_at": "2026-10-16T05:06:49.665336+00:00",
+      "checked_at": "2026-10-24T21:14:01.965956+00:00",
       "promise_id": "BJP-2019-b92e1f580b957b2f6f",
       "year": 2019,
       "category": "agriculture",
@@ -43983,17 +44037,17 @@
           ]
         },
         {
-          "id": "c25cce238a49ba2c03",
+          "id": "72e330e6a5d4c618c3",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "The Times of India",
-          "source_url": "https://timesofindia.indiatimes.com",
-          "title": "Bihar and Jharkhand among top two states enrolling for contributory pension scheme for farmers - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNemYzdnpCV1I0X2dJQTI5dklpV1dNelotRHF6aXV3RmNfWGNiaXRrbkd6bFo2aHh5ZUNrQ1JNNmFKV2JqU1pfYU1wZDJKYlIxaTE3LTRLeW5rN01jTm9mWGZoYVRQNnVIZ3BxUWRGeUoxX01YSFBEV2RGYnVEcDlnem43MHdCUGIxQkpONTRCWkNsbjZqX2xiTHpQeW81VV9IdExJTXVzOGM2dW4xOWFSUEFTdS1TS1lpM1p0QlZKRHhhVWphYnhzZjlzT3dFWV9NSjVxSWxtZUdxZ3Y4VEZzVFRQcUpseFdCRGF3a3pGbnAtVWdX0gH6AUFVX3lxTE1xTG8weW1ubTl3YnRhVHF2Z21VcFZwd01PY1Bwa2pBNzg3c3BVSmIwV0JvM3IzSWdPZ25QcDRfTnRyYjB5YUdZUlM5dmYwVzhsejltT2p5SkR4SjR5QURxS1M4NjBxRlNPTWRDaHd4ZlBjMG9CbkFpZXBLc256WFdEVVgxenM5VGJGeXNySWQwR1lZRkNMQmdKemlyTmJKN1VJWVFpTlJJejBqNGZ3eU95aXBFdEYtbW9sQjBkZmZneHlod19ScTVNYml1ZmJBRzdJdkktLUlwcll3SUt0bk1KY2U2ZU1tTXdJYkEwdmlVclhvcFM5ZFlVSWc?oc=5",
-          "published_at": "2024-09-30T07:00:00+00:00",
-          "snippet": "Bihar and Jharkhand among top two states enrolling for contributory pension scheme for farmers The Times of India",
-          "lexical_overlap": 0.143,
-          "relevance": 0.248,
+          "source": "aitcofficial.org",
+          "source_url": "https://aitcofficial.org",
+          "title": "More farmers to be brought under pension scheme in Bengal - aitcofficial.org",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVkI1VnZYRE1SMG1mdGthemU3dE45REc0UXFRRkFzU05ZUVR3Z0tmSFdXbGxaWUFQbTRnV1dDTGFNcFREbHJnVG5FX21XYWRabURnQlI5SmhtR21zMEY5cHpGNDN5cV95MkVaejhRWXljbzhJQ1VHNzRLMVFwNHNjNE1EMVRuaWFMT2ZB?oc=5",
+          "published_at": "2025-09-17T10:58:36+00:00",
+          "snippet": "More farmers to be brought under pension scheme in Bengal aitcofficial.org",
+          "lexical_overlap": 0.188,
+          "relevance": 0.292,
           "matched_terms": [
             "farmers",
             "pension",
@@ -44505,7 +44559,7 @@
     },
     {
       "id": "05e0979e7f32ba2f72",
-      "checked_at": "2026-10-24T20:47:24.248899+00:00",
+      "checked_at": "2026-10-24T21:13:31.982792+00:00",
       "promise_id": "BJP-2019-18c0750d5ed71bc3d1",
       "year": 2019,
       "category": "agriculture",
@@ -45229,7 +45283,7 @@
     },
     {
       "id": "7e60d580de560fb723",
-      "checked_at": "2026-10-17T22:18:51.120625+00:00",
+      "checked_at": "2026-10-24T21:14:00.292423+00:00",
       "promise_id": "BJP-2019-9ec1bc4450743184ce",
       "year": 2019,
       "category": "agriculture",
@@ -45989,7 +46043,7 @@
     },
     {
       "id": "f5811520c1d5623f19",
-      "checked_at": "2026-10-24T20:47:26.163512+00:00",
+      "checked_at": "2026-10-24T21:13:33.815943+00:00",
       "promise_id": "BJP-2019-1d3e95fa9344e842f3",
       "year": 2019,
       "category": "infrastructure",
@@ -46110,7 +46164,7 @@
     },
     {
       "id": "92d6920a15fb42f812",
-      "checked_at": "2026-10-24T20:47:44.037431+00:00",
+      "checked_at": "2026-10-24T21:13:52.842795+00:00",
       "promise_id": "BJP-2019-6abf03adda773fec98",
       "year": 2019,
       "category": "governance",
@@ -46739,7 +46793,7 @@
     },
     {
       "id": "fcbf869dccb2bd7040",
-      "checked_at": "2026-10-14T12:27:07.371668+00:00",
+      "checked_at": "2026-10-24T21:14:15.680765+00:00",
       "promise_id": "BJP-2019-1c74989958d4453941",
       "year": 2019,
       "category": "jobs_economy",
@@ -47248,7 +47302,7 @@
     },
     {
       "id": "f666c3c3697947367c",
-      "checked_at": "2026-10-16T05:06:53.369009+00:00",
+      "checked_at": "2026-10-24T21:14:06.004990+00:00",
       "promise_id": "BJP-2019-f9b616586e1418749b",
       "year": 2019,
       "category": "jobs_economy",
@@ -47275,29 +47329,33 @@
       "query": "10 lakh traders small credit card registered",
       "evidence": [
         {
-          "id": "6f58d5d66f26879f1b",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "TheWire.in",
-          "source_url": "https://m.thewire.in",
-          "title": "World MSME Day 2026: 5 in 10 MSMEs continue to face supplier management, invoice compliance, price volatility and credit challenges; Digital Procurement adoption accelerating - TheWire.in",
-          "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxOaTA1cTNjQUJMNjJ0b05tZ0JiY1V3ZU01emtzTEtBUFpITjlScGpTRWdTRUxnZjRTRnRRZHRDWlpLeFRZejFvakd5RlQ3NkxpckFVMGE0OURCTFRlTDkxMldvcllTRVVlX2w2djFmNDRUOFdrem91Ukc5b3JqRktHY1o3aXlOU1FfZVRNNTZZNWVUekpicHRCS1RQZGp5cndCTGszcDhEVmJKb2VxZjhfaVBkOHByREI5blJ2d09Td3dFSDNjWlFIYWpYLWUwS0NWM2J4cUpPeDd2YUtWTE9kOWpIU2xVOEdSZjU0TnpyWEZQMVhoVVUzMXpURXNfRllxa3dyOXcwMmhwVEhsR1hWSm5RQmk0a01YbU95MkZ5YzZiNGNGR3BsbDhNLXA5cW5jUVVIWFhGeVnSAbgCQVVfeXFMTmkwNXEzY0FCTDYydG9ObWdCYmNVd2VNNXprc0xLQVBaSE45UnBqU0VnU0VMZ2Y0U0Z0UWR0Q1paS3hUWXoxb2pHeUZUNzZMaXJBVTBhNDlEQkxUZUw5MTJXb3JZU0VVZV9sNnYxZjQ0VDhXa3pvdVJHOW9yakZLR2NaN2l5TlNRX2VUTTU2WTVlVHpKYnB0QktUUGRqeXJ3QkxrM3A4RFZiSm9lcWY4X2lQZDhwckRCOW5SdndPU3d3RUgzY1pRSGFqWC1lMEtDVjNieHFKT3g3dmFLVkxPZDlqSFNsVThHUmY1NE56clhGUDFYaFVVMzF6VEVzX0ZZcWt3cjl3MDJocFRIbEdYVkpuUUJpNGtNWG1PeTJGeWM2YjRjRkdwbGw4TS1wOXFuY1FVSFhYRnlZ?oc=5",
-          "published_at": "2026-06-26T07:00:00+00:00",
-          "snippet": "World MSME Day 2026: 5 in 10 MSMEs continue to face supplier management, invoice compliance, price volatility and credit challenges; Digital Procurement adoption accelerating TheWire.in",
-          "lexical_overlap": 0.037,
-          "relevance": 0.182,
+          "id": "5dba3691eaf354a9a4",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "Ministry of Micro, Small & Medium Enterprises",
+          "source_url": "https://pmegp.msme.gov.in",
+          "title": "PMEGP Home - Ministry of Micro, Small & Medium Enterprises",
+          "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE4xX3dyV2tRemFJYm50NnVpX0JheUZWV09xUGZ5OG94cDU5X3pqVVI5bTlOT0VmY0d1a3I2YXF0bw?oc=5",
+          "published_at": "2026-06-09T12:59:48+00:00",
+          "snippet": "PMEGP Home Ministry of Micro, Small & Medium Enterprises",
+          "lexical_overlap": 0.267,
+          "relevance": 0.457,
           "matched_terms": [
-            "credit"
+            "enterprises",
+            "medium",
+            "micro",
+            "small"
           ],
-          "shared_numbers": [
-            "10"
-          ],
+          "shared_numbers": [],
           "promise_core_overlap": [
-            "credit"
+            "enterprises",
+            "medium",
+            "micro",
+            "small"
           ]
         }
       ],
-      "implementation_signal": "needs_research",
+      "implementation_signal": "current_primary_evidence_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -49446,7 +49504,7 @@
     },
     {
       "id": "1e0abc9f94016f3c7a",
-      "checked_at": "2026-10-24T20:47:27.649364+00:00",
+      "checked_at": "2026-10-24T21:13:35.355580+00:00",
       "promise_id": "BJP-2019-2af396deaf778cac73",
       "year": 2019,
       "category": "infrastructure",
@@ -49531,7 +49589,7 @@
     },
     {
       "id": "4af70c5cc4e5dd31ea",
-      "checked_at": "2026-10-24T20:47:33.922694+00:00",
+      "checked_at": "2026-10-24T21:13:42.011936+00:00",
       "promise_id": "BJP-2019-34c03859f07f1329c5",
       "year": 2019,
       "category": "infrastructure",
@@ -49557,6 +49615,30 @@
       "related_promises": [],
       "query": "2022 road connectivity complete dedicated freight corridor",
       "evidence": [
+        {
+          "id": "ec1d0cc8a5a0c1eb96",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "India Briefing",
+          "source_url": "https://www.india-briefing.com",
+          "title": "India’s Dedicated Freight Corridor Program: Progress and Prospects - India Briefing",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSlI0WjdQeG9qdHJDRmlYaHl4N0xZaWhUZXJXY21naTUxcjltZWFZeEZUc0xZNFlESTBkUVB4Y1p1cUdydzV6SFU0Yml5bDkxMTNjTkRMUkY3Wkp6T1Q1R2Nvc081Skt6OEVleDBlSmhtYkx5RGdWUDR3ZVA1bWw5aUNDd2I1ek9sblJxOUVWUThUYTFYeGE4WFNtOGx1Ry14UVZaZUVn?oc=5",
+          "published_at": "2024-04-08T07:00:00+00:00",
+          "snippet": "India’s Dedicated Freight Corridor Program: Progress and Prospects India Briefing",
+          "lexical_overlap": 0.273,
+          "relevance": 0.378,
+          "matched_terms": [
+            "corridor",
+            "dedicated",
+            "freight"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "corridor",
+            "dedicated",
+            "freight"
+          ]
+        },
         {
           "id": "b1ffee8e6f47df9c63",
           "scope": "news_search",
@@ -51828,7 +51910,7 @@
     },
     {
       "id": "93bb9754ab7125c8f1",
-      "checked_at": "2026-10-24T20:47:39.107999+00:00",
+      "checked_at": "2026-10-24T21:13:46.820652+00:00",
       "promise_id": "BJP-2019-6013bbae5c9fbd8c5a",
       "year": 2019,
       "category": "women_social_justice",
@@ -51892,7 +51974,7 @@
     },
     {
       "id": "1d1782ad81aa54afcd",
-      "checked_at": "2026-10-24T20:47:41.703937+00:00",
+      "checked_at": "2026-10-24T21:13:50.340806+00:00",
       "promise_id": "BJP-2019-63e2ccda189fa85e2c",
       "year": 2019,
       "category": "health_welfare",
@@ -52792,7 +52874,7 @@
     },
     {
       "id": "aecdcbe7e770f555e9",
-      "checked_at": "2026-10-14T12:27:08.076466+00:00",
+      "checked_at": "2026-10-24T21:14:16.396944+00:00",
       "promise_id": "BJP-2019-2d472e66c61e44c78f",
       "year": 2019,
       "category": "jobs_economy",
@@ -54348,7 +54430,7 @@
     },
     {
       "id": "56b0ee71e9b381ae41",
-      "checked_at": "2026-10-14T12:27:10.678113+00:00",
+      "checked_at": "2026-10-24T21:14:18.825281+00:00",
       "promise_id": "BJP-2019-5d13f79fc00576f933",
       "year": 2019,
       "category": "women_social_justice",
@@ -54841,7 +54923,7 @@
     },
     {
       "id": "1ffbffb12aae097085",
-      "checked_at": "2026-10-17T22:18:48.979757+00:00",
+      "checked_at": "2026-10-24T21:13:58.038690+00:00",
       "promise_id": "BJP-2019-7eaf62b2ec398619a4",
       "year": 2019,
       "category": "other",
@@ -54960,7 +55042,7 @@
     },
     {
       "id": "c172460db372589bbd",
-      "checked_at": "2026-10-16T05:06:50.381476+00:00",
+      "checked_at": "2026-10-24T21:14:02.682201+00:00",
       "promise_id": "BJP-2019-bdf84c05668b2f138c",
       "year": 2019,
       "category": "women_social_justice",
@@ -55001,7 +55083,7 @@
     },
     {
       "id": "c89b539b14faef8c29",
-      "checked_at": "2026-10-16T05:06:54.939980+00:00",
+      "checked_at": "2026-10-24T21:14:07.599133+00:00",
       "promise_id": "BJP-2019-c2a3dbd42d5ad35cea",
       "year": 2019,
       "category": "jobs_economy",
@@ -56224,7 +56306,7 @@
     },
     {
       "id": "c0def6b58b66891281",
-      "checked_at": "2026-10-14T12:27:09.896730+00:00",
+      "checked_at": "2026-10-24T21:14:18.053813+00:00",
       "promise_id": "BJP-2019-33d4147e1603ecd1d9",
       "year": 2019,
       "category": "other",
@@ -56811,7 +56893,7 @@
     },
     {
       "id": "21c782a6ad2ecb8987",
-      "checked_at": "2026-10-24T20:47:30.902783+00:00",
+      "checked_at": "2026-10-24T21:13:38.562361+00:00",
       "promise_id": "BJP-2019-2cfa1375f165d41707",
       "year": 2019,
       "category": "other",
@@ -58241,7 +58323,7 @@
     },
     {
       "id": "09db92a7679f9e887b",
-      "checked_at": "2026-10-24T20:47:36.074707+00:00",
+      "checked_at": "2026-10-24T21:13:43.997586+00:00",
       "promise_id": "BJP-2019-4fc8289de8caed52ff",
       "year": 2019,
       "category": "other",
@@ -58319,7 +58401,7 @@
     },
     {
       "id": "66df56931e1fdc933f",
-      "checked_at": "2026-10-17T22:18:48.313615+00:00",
+      "checked_at": "2026-10-24T21:13:57.280548+00:00",
       "promise_id": "BJP-2019-7cb3858ebb5dac9f88",
       "year": 2019,
       "category": "other",
@@ -58346,9 +58428,9 @@
       "query": "5 km scheme every has access banking",
       "evidence": [
         {
-          "id": "99a690d439a403a359",
-          "scope": "preferred_official_search",
-          "tier": "primary",
+          "id": "35336dd300789a63c4",
+          "scope": "news_search",
+          "tier": "secondary",
           "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
           "title": "Financial Inclusion in India: Banking Every Citizen, Empowering Every Household - Press Information Bureau",
@@ -58356,41 +58438,19 @@
           "published_at": "2026-08-12T07:00:00+00:00",
           "snippet": "Financial Inclusion in India: Banking Every Citizen, Empowering Every Household Press Information Bureau",
           "lexical_overlap": 0.111,
-          "relevance": 0.231,
-          "matched_terms": [
-            "banking",
-            "every"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "banking",
-            "every"
-          ]
-        },
-        {
-          "id": "2fb3e8fb0e216a30a0",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "DD India",
-          "source_url": "https://ddindia.co.in",
-          "title": "India achieves near-universal banking coverage as 99.92% of inhabited villages gain access to banking services - DD India",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOLTZzMTF4R1VwTHo5Q3hCem1qZ3hzTHBaeWREbWVTTjlQREEzbnFRVndyQ2RtWnhBY3JwNUh2Q3hRbktaZG4yWFFPSjg5bUdKbkNSekkzLVRWMjhwV0xuenBncHM4NzBKV2NsNTBPdEIzYlZpZF9uWG1jU1Vqc25zelQ2RG1RTlVYX0NKcm1FV09iTXEzUzZzaVlJSnFwZXJMQTlzS3lNeEpkMmJUVFlENklTUkk4LS1ReWs5bS1xOEFjSEZPQmJmRWJZNEU0Z0ZhNW0wUDBhaw?oc=5",
-          "published_at": "2026-08-03T07:00:00+00:00",
-          "snippet": "India achieves near-universal banking coverage as 99.92% of inhabited villages gain access to banking services DD India",
-          "lexical_overlap": 0.111,
           "relevance": 0.181,
           "matched_terms": [
-            "access",
-            "banking"
+            "banking",
+            "every"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "access",
-            "banking"
+            "banking",
+            "every"
           ]
         }
       ],
-      "implementation_signal": "current_primary_evidence_found",
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -59779,7 +59839,7 @@
     },
     {
       "id": "d59efec46eb848278a",
-      "checked_at": "2026-10-16T05:06:51.338391+00:00",
+      "checked_at": "2026-10-24T21:14:03.709760+00:00",
       "promise_id": "BJP-2019-d8cb79528538424f6d",
       "year": 2019,
       "category": "education_skills",
@@ -61067,7 +61127,7 @@
     },
     {
       "id": "c40bcfaa2d46ab8148",
-      "checked_at": "2026-10-16T05:06:52.018072+00:00",
+      "checked_at": "2026-10-24T21:14:04.475720+00:00",
       "promise_id": "BJP-2019-dd96b8e10bc75f40ec",
       "year": 2019,
       "category": "other",
@@ -61209,7 +61269,7 @@
     },
     {
       "id": "23d32295233273fbf2",
-      "checked_at": "2026-10-14T12:27:11.564115+00:00",
+      "checked_at": "2026-10-24T21:14:19.669297+00:00",
       "promise_id": "BJP-2014-42f23e5a19e599eae4",
       "year": 2014,
       "category": "other",
@@ -63807,7 +63867,7 @@
     },
     {
       "id": "df076e7dea8ba67624",
-      "checked_at": "2026-10-24T20:47:46.611226+00:00",
+      "checked_at": "2026-10-24T21:13:55.472536+00:00",
       "promise_id": "BJP-2014-078252941779345656",
       "year": 2014,
       "category": "women_social_justice",
@@ -64534,7 +64594,7 @@
     },
     {
       "id": "6e89e33f6f10bdb9ed",
-      "checked_at": "2026-10-16T05:06:56.473693+00:00",
+      "checked_at": "2026-10-24T21:14:09.223597+00:00",
       "promise_id": "BJP-2014-ba678513a3b109b059",
       "year": 2014,
       "category": "agriculture",
