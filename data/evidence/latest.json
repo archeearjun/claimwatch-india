@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T06:07:07.478999+00:00",
+  "generated_at": "2026-10-25T11:23:55.801360+00:00",
   "capabilities": {
     "official_evidence_search": true,
     "verified_primary_gate": true,
@@ -11,19 +11,19 @@
     "manifesto_memory_loaded": true
   },
   "summary": {
-    "claim_packets": 14,
+    "claim_packets": 0,
     "promise_packets": 852,
     "promise_checked_this_run": 30,
     "promise_total_candidates": 841,
     "promise_coverage_pct": 101.3,
-    "primary_candidates": 555,
-    "secondary_candidates": 1115,
+    "primary_candidates": 551,
+    "secondary_candidates": 1102,
     "prior_fact_checks": 0,
     "publishable_auto_verdicts": 0,
     "claim_verdicts": {
       "supported": 0,
       "contradicted": 0,
-      "pending": 14
+      "pending": 0
     },
     "promise_outcomes": {
       "fulfilled_by_deadline": 0,
@@ -44,980 +44,7 @@
       "occurrences_total": 75
     }
   },
-  "claim_packets": [
-    {
-      "id": "91f80f8f9486c34723",
-      "claim": "Friends, You have given 1.4 billion countrymen an opportunity to feel proud.",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "1.4 billion"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7306e5f6c2d302d152f2",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address during interaction with the participants of Asian Games 2026",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-interaction-with-the-participants-of-asian-games-2026/",
-        "published_at": "2026-10-15T14:00:34+00:00"
-      },
-      "query": "1.4 friends you have given billion countrymen",
-      "numbers": [
-        "1.4"
-      ],
-      "promise_matches": [],
-      "evidence": [],
-      "fact_checks": [],
-      "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "ea68cd55ad6fa2bd5b",
-      "claim": "You have enhanced the pride of the Tiranga, you have increased its honour.",
-      "extraction": {
-        "reasons": [
-          "comparison"
-        ],
-        "numbers": [],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7306e5f6c2d302d152f2",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address during interaction with the participants of Asian Games 2026",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-interaction-with-the-participants-of-asian-games-2026/",
-        "published_at": "2026-10-15T14:00:34+00:00"
-      },
-      "query": "you have enhanced pride tiranga increased",
-      "numbers": [],
-      "promise_matches": [
-        {
-          "id": "BJP-2024-bc077f18d578f0925f",
-          "year": 2024,
-          "category": "jobs_economy",
-          "page": 43,
-          "anchor": "Honour Honest Taxpayers We will honour honest taxpayers who have played an important role …",
-          "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
-          "similarity": 0.167,
-          "matched_terms": [
-            "have",
-            "honour"
-          ]
-        }
-      ],
-      "evidence": [],
-      "fact_checks": [],
-      "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "39655c069fdf0432cb",
-      "claim": "And especially our women’s hockey team, you ended a long wait of 44 years by bringing home the gold medal.",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "44 years"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7306e5f6c2d302d152f2",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address during interaction with the participants of Asian Games 2026",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-interaction-with-the-participants-of-asian-games-2026/",
-        "published_at": "2026-10-15T14:00:34+00:00"
-      },
-      "query": "44 especially women hockey team you ended",
-      "numbers": [
-        "44"
-      ],
-      "promise_matches": [],
-      "evidence": [
-        {
-          "id": "eefd2047e99439bead",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Rediff",
-          "source_url": "https://www.rediff.com",
-          "title": "Can Indian women end 44-year wait for Asian Games hockey gold? - Rediff",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbWpqVG1FUENPTGh5X3dDcHlySTd3dmVYNGk2clZnbi10dmJCZi1pdU1BNDM1el9RVXphcmQxcjF1eThNOGtGRkJyOEJjR0tDYzVSOGFfc09tTHdQWV9tVFpLdVFFOVVrMlJyNmxBUGYtX01XdjR5c1M3bnVoWklNU1VTMXJvbHZyU1pFbFEyYURXRGFSWnM0TVdNVV9sTUotdlFreW51a9IBqgFBVV95cUxNWTJHNldVNVpEbnppcXR0SW9WWTJ6QkpBUTR2VFhxWkVKOVRfX2IyM3g1SjZHcWpWTXN4QVRZSVU3LWFQSFFkLWYwODZjTzdKTU5IcnBtR3lSQ0tZZFVqTTljejFqcVZhMkNFVElIQ0FMN2ZGeVh0SjZDVldTbnlkWXhKd2Y1U2J0MUpVSkhCZ1dIS3RYR2pXc09aZ3BmVlduQnYxR1U2XzBwdw?oc=5",
-          "published_at": "2026-10-01T07:00:00+00:00",
-          "snippet": "Can Indian women end 44-year wait for Asian Games hockey gold? Rediff",
-          "lexical_overlap": 0.25,
-          "relevance": 0.5,
-          "matched_terms": [
-            "gold",
-            "hockey",
-            "wait",
-            "women"
-          ],
-          "shared_numbers": [
-            "44"
-          ]
-        },
-        {
-          "id": "c9913293d05d09c26f",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Tribune",
-          "source_url": "https://www.tribuneindia.com",
-          "title": "Indian women end 44-year wait for Asian Games hockey gold - The Tribune",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbGNJWnZ1V0MyWFdZQU5RQmo2bG04TmZwT3FDQlRETUFUOVVkMm1JV0x0Z3hISW5iTG9YVjQ4bTA0SXJ5OTVlOXlscWl5WHdOOUVtX0FHdmNEak1FQ2dJTU9YVFJFeXk5RUJMNWFoeFBvLWlnSEU4bk9NX3JOa3ZvVmMySXhMOFlRZlY1RWNKSFAyQUUtTnA3bFBpQXliSUg00gGkAUFVX3lxTE5HNUJGdTgtVEp5VGREM1o2eUQ5Q0d3X0YtVGJwcXJjZk9ScTdpRWJZbzR4OUJvSU50cmNIT3Q5VWpMX01CWjluY21PMVVJVUZod29weGhzbUlJQ3BtMldXZ1UxaGFEaXptcUZ6RElfRmFXZWYtYzVtZUpjakozcXVOcEo2VGsyY3JhMWN0WXhfWDZQa1VWWjBTcnJrUzVlQ3BQTTNO?oc=5",
-          "published_at": "2026-10-03T07:00:00+00:00",
-          "snippet": "Indian women end 44-year wait for Asian Games hockey gold The Tribune",
-          "lexical_overlap": 0.25,
-          "relevance": 0.5,
-          "matched_terms": [
-            "gold",
-            "hockey",
-            "wait",
-            "women"
-          ],
-          "shared_numbers": [
-            "44"
-          ]
-        },
-        {
-          "id": "e09c31250f3841742b",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Jagran Josh",
-          "source_url": "https://www.jagranjosh.com",
-          "title": "Asian Games 2026: Indian Women’s Hockey Team Wins Gold After 44 Years - Jagran Josh",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZzROU0JXSTdaUDg1akU5bkhfdTZNeERacDdtUlFlNzFBVUlGSFlhM0V3TE1ZXzBrUUxLSkJKU2xOakFkZ0JWaHRBZFFvOGVxZlY0OTl3TWpGckhsbmEtSHdRYzUtbHBGd2tKM19IRGo5aDNMd3VKZUlXQWowSG44cEtUQVozX0lfUV9LSEpRaUhaa2x6S25pWmlJUHN1cmJSUk9VMkxyaExsQ0c5blJ4LTNZSE4wcUdGUHfSAcABQVVfeXFMTXRiSlhBNDR0VTFWMmpjT0JFQW5HZFRJZDlMM2tlaURBdWdEUjhRdDlDQmJjbjljRVFMenpycWNFcGQ2ZkdYUDMwQzFPVTUtTjNmVHNmWUgxbkFHU0FrdDJlZW9MYm9zbkdjNDc1R05rM1JwMlFTSUpQbWdDZzUzNFkwakw4WHNmZW8teXNJU1Q4MWMyVW9QSVB6XzlrZjhyUURlakZZVWZVV1JQN3EwYklQNndpUlpoWS1GR1kwX2hH?oc=5",
-          "published_at": "2026-10-02T07:00:00+00:00",
-          "snippet": "Asian Games 2026: Indian Women’s Hockey Team Wins Gold After 44 Years Jagran Josh",
-          "lexical_overlap": 0.222,
-          "relevance": 0.472,
-          "matched_terms": [
-            "gold",
-            "hockey",
-            "team",
-            "women"
-          ],
-          "shared_numbers": [
-            "44"
-          ]
-        },
-        {
-          "id": "d29719b4c8c1a02b7e",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Times of India",
-          "source_url": "https://timesofindia.indiatimes.com",
-          "title": "India end 44-year wait, beat China 1-0 to win Asian Games women’s hockey gold - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQc1lGQ3hUMC01TmM2YzRCYklLV2xkbUZ2X2xuTEVLTzJvNzVTamo4TkY4ZUF4MnhzWTlyQU92cFh2eGRWSV9DbEtqUEI3d1NTN3FBd1hLSU0zTmtFdVJPZmRNdjBaU2ZFalQ0Smo0MVhWa1psTm5pQWlzQXJLY2x2enRqVlh2UTZrQmFNSXoxWlBrOUlhMGdIc3VLM2dtbS1RRzE3ZHQ2b2ZMOE5PWm1tT1VfYTNManJ2a3NTWHUtd1U5ZUpEaTRHUktCeklnWFFWcW9UZkJLZnV0MGhNc2hFZ0NVVzMzOW9ZSDlRSzRVcm0yVy1lTEHSAfsBQVVfeXFMTnVaTFB5U1BfekJLemFSNmFqV2Zhcy04SkR3Z3piLVFtYkFRMHdKeEZqMUpJUE1zY3pvRnVwRWRod3V4cWYwVFNpMnZ6ZlJiZTJ4eUVWcDdCS01mZVNwMkxXenExby1VQVItOWZHOXh0aFA0Tlg3c05od0x1TXlIcjBBbHZxVWNjRDJEVmo3SUdBOFJCR3AyaXUwOUhPN1BjTGI5SjhEZnBFU2VwaWVlcE96Uk1DbF9aVEs5elVoMXNqZ2VId3l4SmgzOGcwWVNXQXNwd1JfSzdqUWVxNk0zOHVaSHB1X3BXVmVQUG1JaVQwSFdZM2QxeGQ0V28?oc=5",
-          "published_at": "2026-10-03T07:00:00+00:00",
-          "snippet": "India end 44-year wait, beat China 1-0 to win Asian Games women’s hockey gold The Times of India",
-          "lexical_overlap": 0.211,
-          "relevance": 0.461,
-          "matched_terms": [
-            "gold",
-            "hockey",
-            "wait",
-            "women"
-          ],
-          "shared_numbers": [
-            "44"
-          ]
-        },
-        {
-          "id": "c0a2cc22507391834b",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Economic Times",
-          "source_url": "https://m.economictimes.com",
-          "title": "Asian Games 2026: India end 44-year wait for women's hockey gold, beat China to qualify for 2028 Olympics - The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPVk42MGFYUEVuZHVFTTR1YXNnWWZZaXZDUE9SeHlBVFN1ZU5ZRFJsV0hqTGVtX0hWcm55RTkzXzYtaEVoTUVXTmVVMTlTMEMwblI4dUpCQTlSd1BwRUJ0RTV3NlczMmZ3SUxGdWx0NXV1SWx6cVdiM090UTRaM255RWExRGR3N0l6V24wNmVtd2JxZ3RYeFBTNmVhcG1UR0Q5M0ozVjhMNkhDdFJHdFoyRllUYlpLa2sySTVkWC0zU0hDdjc0ank0dlNqaHQxSGMzdUMyMjV2c01lV1dOQk5TQWJTbnYxUEdSRlpobkpWOVZYVTjSAfgBQVVfeXFMTk8wQVl5dUY3SGc0SFFjeFFrWlBRMlYxY1FmaGxTNG1Lb2xmRzdKQ0dabFJyNWJjXzAwQ2p3U2lvM0NQd05UenlTVDVmQmZrVjdHcS1QMUVZQ2dabDNpbmlEc29KMUtkdkw4RjZJMzk3NjJ5NmRtLTlRbWNBNlZlSGNRTzktR0RzNGQ1UDczTGF6VGE4QlJvaUtWVzRzSUZQNnY1ekYwUE9ITnlTa2RQSEFkM2hoVUdqSHNJelBodzR1OE1TRHJXVnFibWJDNHlCdzktUmxvVTZLNkM2Rm1PdW9Fb3JadVlBWHJXWk0zcjhtMURodmFLcWc?oc=5",
-          "published_at": "2026-10-02T07:00:00+00:00",
-          "snippet": "Asian Games 2026: India end 44-year wait for women's hockey gold, beat China to qualify for 2028 Olympics The Economic Times",
-          "lexical_overlap": 0.19,
-          "relevance": 0.44,
-          "matched_terms": [
-            "gold",
-            "hockey",
-            "wait",
-            "women"
-          ],
-          "shared_numbers": [
-            "44"
-          ]
-        },
-        {
-          "id": "5e6f4a71f73ab2e871",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Prime Minister congratulates Indian Women’s Hockey Team on winning Gold at Asian Games after over four decades - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9KblBtbzhTMlFJTmFRTmxXbmx3ZmlmYjJnUS1xUmZxYWdWQ2UxM2JqdFB0dzgtZHRzVjNfUDlEbnBwZllNTklpSkJXMk5MdzVmdGotMzZKZlhhclFsWEtESUNPczI1bHJ2d1VUTzZSSlhvWEp1ZV91RkxVQ2o?oc=5",
-          "published_at": "2026-10-02T07:00:00+00:00",
-          "snippet": "Prime Minister congratulates Indian Women’s Hockey Team on winning Gold at Asian Games after over four decades Press Information Bureau",
-          "lexical_overlap": 0.182,
-          "relevance": 0.372,
-          "matched_terms": [
-            "gold",
-            "hockey",
-            "team",
-            "women"
-          ],
-          "shared_numbers": [],
-          "nli": {
-            "entailment": 0.0035,
-            "neutral": 0.9098,
-            "contradiction": 0.0867
-          }
-        },
-        {
-          "id": "48da2dbaf38c520ab3",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Olympics",
-          "source_url": "https://www.olympics.com",
-          "title": "Asian Games 2026 hockey: Know scores, points table, standings, match results and medal winners list - Olympics",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOX0FYSUQtbFpJaEY1dGZJQlVoUDJqMWtSQVJvN3hkX3FUTVRZb05RbVVPa3FOSkN1RVRoWVlIaTg4SWxXU24wWkRFY2EwaGY3Ync3MndOWTkzRWNfS1pHR2haZmNzWGNNSTdXZzdSazZlbVptbEItVGZBaGlPTlppb1M2a0RMdFRqTjZDbldJenRWMXRIZ0NnYlJ2Qk5tUEpYUWlRNGln?oc=5",
-          "published_at": "2026-10-03T07:00:00+00:00",
-          "snippet": "Asian Games 2026 hockey: Know scores, points table, standings, match results and medal winners list Olympics",
-          "lexical_overlap": 0.083,
-          "relevance": 0.153,
-          "matched_terms": [
-            "hockey",
-            "medal"
-          ],
-          "shared_numbers": []
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "primary_evidence_found",
-        "label": "Relevant verified primary evidence candidate found",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "c6503376f84ce30798",
-      "claim": "In cricket, both our teams won medals for the second consecutive time and, in fact, repeated their own record.",
-      "extraction": {
-        "reasons": [
-          "comparison"
-        ],
-        "numbers": [],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7306e5f6c2d302d152f2",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address during interaction with the participants of Asian Games 2026",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-interaction-with-the-participants-of-asian-games-2026/",
-        "published_at": "2026-10-15T14:00:34+00:00"
-      },
-      "query": "cricket both teams won medals second",
-      "numbers": [],
-      "promise_matches": [],
-      "evidence": [
-        {
-          "id": "f5487f8502d13c381d",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "BCCI",
-          "source_url": "https://www.bcci.tv",
-          "title": "India’s Asian Games Gold-Winning Cricket Teams Meet PM Modi - BCCI",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaFVVclVSdTd3Q2lIazRLalpQWHZqdm5ZU3BlN0NBZGhGVUNPUF9sUndKclNiTmRaM0J1SG1QRXlZUVhTX3BqM3hWbDYxR2I2RENjaG9IMXRGd1dGSnlrUkhfcE5mam9MUnVMM3hjLVVQX3JMbzBEUnZNd2ZkRVFVTjB6R05pU3JmMXhCRG5oWVFSZzNFRFE?oc=5",
-          "published_at": "2026-10-16T04:10:37+00:00",
-          "snippet": "India’s Asian Games Gold-Winning Cricket Teams Meet PM Modi BCCI",
-          "lexical_overlap": 0.111,
-          "relevance": 0.181,
-          "matched_terms": [
-            "cricket",
-            "teams"
-          ],
-          "shared_numbers": []
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "54f4567cf67bedad56",
-      "claim": "Outstanding performances in shooting, major successes in boxing and wrestling, new records in athletics, a medal in weightlifting after twenty-eight years, and India’s success in marathon events for the first time since 1982.",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "1982"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7306e5f6c2d302d152f2",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address during interaction with the participants of Asian Games 2026",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-interaction-with-the-participants-of-asian-games-2026/",
-        "published_at": "2026-10-15T14:00:34+00:00"
-      },
-      "query": "1982 outstanding performances shooting major successes boxing",
-      "numbers": [
-        "1982"
-      ],
-      "promise_matches": [],
-      "evidence": [],
-      "fact_checks": [],
-      "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "92e5474bb83cc0df4c",
-      "claim": "Out of the 85 medals won by India, 38 medals were won by our women athletes.",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "85",
-          "38"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7306e5f6c2d302d152f2",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address during interaction with the participants of Asian Games 2026",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-interaction-with-the-participants-of-asian-games-2026/",
-        "published_at": "2026-10-15T14:00:34+00:00"
-      },
-      "query": "85 38 medals won out were women athletes",
-      "numbers": [
-        "38",
-        "85"
-      ],
-      "promise_matches": [],
-      "evidence": [
-        {
-          "id": "c0fc676cfbc8ae3fe4",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Hindu",
-          "source_url": "https://www.thehindu.com",
-          "title": "Modi praises women athletes for winning 38 of India’s 85 Asian Games medals - The Hindu",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOLVpJYzdpeFBsZlBQcHVPNGNNc0lBUGFnZEZUVWFqa3ZKalZENFVacWJJcTJGTUxCcUpvd1VGbFY3WHlJa0tVNzVhVjBRODFIeGx5TU16Ul9Hck5abmlxOXJEMlNjb2o0a3Juem4xcTVmYXBHZl9oV3lhbkcycFkwZ0ItMlRoVmd5c1F1VUsteGhTU1JYaUU4OWJhSkhCRVRORkxtZlYzUnUxNUdoeUtKR0dhTXRLSjZRNk9vU0FJZ0JWNnZBLVhObEUzSjduZw?oc=5",
-          "published_at": "2026-10-15T07:00:00+00:00",
-          "snippet": "Modi praises women athletes for winning 38 of India’s 85 Asian Games medals The Hindu",
-          "lexical_overlap": 0.273,
-          "relevance": 0.598,
-          "matched_terms": [
-            "athletes",
-            "medals",
-            "women"
-          ],
-          "shared_numbers": [
-            "38",
-            "85"
-          ]
-        },
-        {
-          "id": "e1d8a406ba466474eb",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "India Tribune - Chicago",
-          "source_url": "https://www.indiatribune.com",
-          "title": "'38 medals won by women is a picture of new India': PM Modi hails 'daughters' of nation - India Tribune - Chicago",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUWRDc3VEMjZmQlkxdVMxOE1PWkxOczh0ZG1SeWlrenZXSXZ2bzlQdmR0bklYV0JNZ2I0cFdPNThCUmNQaThHek9qM3JrT1VTOXVmdVQxM2haQ0dId3BXMXBVWHhBOWFiMzJSRHFJV1BVTkNVV3MzRkVpdnplMGtEbS1NYUhCVEJZYUVQRHgzRmtGejNWZWpza05Fd3VHVXJfRkpTQ1pvQWhQajhuRHcwZGloTUxENVpQZU45MG5ucGdpZnl3Z1BF?oc=5",
-          "published_at": "2026-10-15T23:35:54+00:00",
-          "snippet": "'38 medals won by women is a picture of new India': PM Modi hails 'daughters' of nation India Tribune - Chicago",
-          "lexical_overlap": 0.231,
-          "relevance": 0.446,
-          "matched_terms": [
-            "medals",
-            "women",
-            "won"
-          ],
-          "shared_numbers": [
-            "38"
-          ]
-        },
-        {
-          "id": "3a704178b04f313c2e",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Moneycontrol.com",
-          "source_url": "https://www.moneycontrol.com",
-          "title": "PM Narendra Modi meets Asian Games medallists, underlines splendid show by women athletes as 'special moment for India' - Moneycontrol.com",
-          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNX19ZT3RUekdPSWpseEU5SDd6WXRWVWFQMFhYbWtMSkNZVDI4YU5CNDJ0VTVYWjJhNUNRZUZ5a3ZUa0JEYlJTN01lYmFuMFhVZTh5eTZUUENQLUtSU2NUWXRkbks2dlZNTHBSR19EdGpocDVPQU04Vm5ZRWdsUDJad2Q5YTdFeWpqdkVnWjhXcWItd2xpYjZlTGxRM2xhMko0MEkyOGdRZHp0blUyTjgxVkZTNmE4bjV1c3NEUXpwcGF3N0FCSk1NNzRUcGhUb1hzWEhjWjRZSURod0dJUnBqNGhsOXpCbXhhektYd2FIMHExMGVndklsT09odmlRaHppVDhhdA?oc=5",
-          "published_at": "2026-10-15T07:00:00+00:00",
-          "snippet": "PM Narendra Modi meets Asian Games medallists, underlines splendid show by women athletes as 'special moment for India' Moneycontrol.com",
-          "lexical_overlap": 0.111,
-          "relevance": 0.181,
-          "matched_terms": [
-            "athletes",
-            "women"
-          ],
-          "shared_numbers": []
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "4fc123ec978ead3424",
-      "claim": "Among them were 11 gold medals as well.",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "11"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7306e5f6c2d302d152f2",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address during interaction with the participants of Asian Games 2026",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-interaction-with-the-participants-of-asian-games-2026/",
-        "published_at": "2026-10-15T14:00:34+00:00"
-      },
-      "query": "11 among them were gold medals well",
-      "numbers": [
-        "11"
-      ],
-      "promise_matches": [],
-      "evidence": [
-        {
-          "id": "d9c277eb2c96101ab9",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Indian Students bag 3 Gold, 11 Silver medals at International Olympiads - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PZmsxV2VaaWV1YWF1Ym9DNFljQy1LWDdzbXZ6cERrUUZfYnhkVVN3X2RNWTdYTnhLSFlDZEpHb29RTGF0djc1bVFYYlBQeWJSMFE4MGlKbUdadnhzTVgtMmI1alRuclp6RG5pXzBpXzc?oc=5",
-          "published_at": "2022-07-22T07:00:00+00:00",
-          "snippet": "Indian Students bag 3 Gold, 11 Silver medals at International Olympiads Press Information Bureau",
-          "lexical_overlap": 0.143,
-          "relevance": 0.373,
-          "matched_terms": [
-            "gold",
-            "medals"
-          ],
-          "shared_numbers": [
-            "11"
-          ],
-          "nli": {
-            "entailment": 0.428,
-            "neutral": 0.5683,
-            "contradiction": 0.0037
-          }
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "structured_support_candidate",
-        "label": "Relevant primary evidence shares claim terms and numeric values",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "2c0e6bc38ae2653564",
-      "claim": "In Mixed Martial Arts, Soft Tennis, and certain sailing events, our players created new history by winning medals for the first time.",
-      "extraction": {
-        "reasons": [
-          "accomplishment"
-        ],
-        "numbers": [],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7306e5f6c2d302d152f2",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address during interaction with the participants of Asian Games 2026",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-interaction-with-the-participants-of-asian-games-2026/",
-        "published_at": "2026-10-15T14:00:34+00:00"
-      },
-      "query": "mixed martial arts soft tennis certain",
-      "numbers": [],
-      "promise_matches": [],
-      "evidence": [
-        {
-          "id": "ce65d17b205f1bf101",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Economic Times",
-          "source_url": "https://m.economictimes.com",
-          "title": "Mixed martial arts bids to make the Olympics sans the wire cage and blood - The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPQ2FPeS1IT1h4Ri1kY0FwMDNHQ2JPTndsOVNUUHZFWEpWRWJMa3ZFaV9DTXgxNGdBbE9hMlZ4S1p2QTE2QTFvemJfeTNhUnZXYk9hSUtKbEh6QzF5eDROWkhhNU1KNmRLOGFhdG8yZTVSVFhJeXpxMTc1Q0QwYlZHRkNQX2FGblF4bWU4eEJGcFRRTmVUVEhxRUREek04VGVsWHNiSGN4RF9iaXJBU0ZjNmhJcTJxal9vYzBFTW1IVDR1bG5vOV9zU1BrdjhJczFGSzZiZlFMNlltVTNIQVNGLWZFZzliSUHSAewBQVVfeXFMTnQxUVlGMUo5M0RXR2w1d2kwSWJLN052UnQ2WnE1Y2tzY1FMcFRQMWFyam52ZUdLZFNVa3NVRmFJUUR3NTEtUjB6TTg4M1B2SHJZaWRYaHRKUUtaRnY5bGNLekM5ajA3eFkyXzFQV29XSDZxNV9fRzhHRGt1RVdHMDJuLXNaUDBGRFBWMHJBRmJNWnJWUXh2NHNtUzd4dHVvTkNrNlZFNlV3bUtUM3Ruc2d3aW9ReGZqenQ3WUNUZUZDVXBELTNVNi03dkJySXp1b1pWWWZHRzU1bVloSWtpaXlqTjk3b2k4VWR1clE?oc=5",
-          "published_at": "2026-09-22T07:00:00+00:00",
-          "snippet": "Mixed martial arts bids to make the Olympics sans the wire cage and blood The Economic Times",
-          "lexical_overlap": 0.143,
-          "relevance": 0.248,
-          "matched_terms": [
-            "arts",
-            "martial",
-            "mixed"
-          ],
-          "shared_numbers": []
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "eaf894d11c6d2020fd",
-      "claim": "Friends, Over the past 12 years, India too has worked with great patience and dedication on its sportspersons and its sports ecosystem.",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "12 years"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7306e5f6c2d302d152f2",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address during interaction with the participants of Asian Games 2026",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-interaction-with-the-participants-of-asian-games-2026/",
-        "published_at": "2026-10-15T14:00:34+00:00"
-      },
-      "query": "12 friends past too has worked great",
-      "numbers": [
-        "12"
-      ],
-      "promise_matches": [
-        {
-          "id": "BJP-2024-9cd3e77be7238c9398",
-          "year": 2024,
-          "category": "jobs_economy",
-          "page": 64,
-          "anchor": "Promote Sports Startups We will promote startups in sports and help create a technology …",
-          "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
-          "similarity": 0.143,
-          "matched_terms": [
-            "ecosystem",
-            "sports"
-          ]
-        }
-      ],
-      "evidence": [
-        {
-          "id": "ceacd8d27839dcc764",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "WBRC",
-          "source_url": "https://www.wbrc.com",
-          "title": "12-year-old hit, killed by car while walking with friends was ‘taken way too soon,’ mom says - WBRC",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObks5dXZKU3FPcmJhdlBha0NCbEhubDd1MzJHWkwwb19ic2d4UEsxNHJ2ZUxOSGRSTDEzU3JTZ1daMHRNSGRvR3FIaXc3bGlLdGlwTHNpVkEydDFKNXRPYXh1UHRVdnpTbmpHdE40NzhXOWJYSm9vbzZIT1d6WUpsUEV0M2d2aXlyTnA0dWx6OXQ5V0VSNXJsX0VsZFN6dEN3SlR2Y1RDVzR3YnJoY0VVNTVGT2U2bjlRcXVURWNB0gHSAUFVX3lxTE01VFpiQThjbDJlQ2tTaV9CaE9YTnZXTEpyT0NaVkctdUdmamM2bGVtai0xMEtOdTE2UWgwdzJyVlFoMVJ2N1lfNzFGbVYtWTJxalY2SFpNd2Jzem12V2YxUkxNa2JYYkhVdHBzRkpPaUNJNUR2RmlCUFlrdlpwVEcya3BNZVViU0EyUUtNQUdXSXBrc3o4UXpRRGszYjU1aHV2dFhrNUJNNElxRVhoMHJhVWVjR0FYaTl5aUhUNjRsN1RXNTVZbG53S01JXzNXSFJJZw?oc=5",
-          "published_at": "2026-09-22T07:00:00+00:00",
-          "snippet": "12-year-old hit, killed by car while walking with friends was ‘taken way too soon,’ mom says WBRC",
-          "lexical_overlap": 0.087,
-          "relevance": 0.267,
-          "matched_terms": [
-            "friends",
-            "too"
-          ],
-          "shared_numbers": [
-            "12"
-          ]
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "b8900397e61c3c1fa9",
-      "claim": "There used to be huge events such as the Olympics, yet India had no representation in more than half of the sports.",
-      "extraction": {
-        "reasons": [
-          "comparison"
-        ],
-        "numbers": [],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7306e5f6c2d302d152f2",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address during interaction with the participants of Asian Games 2026",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-interaction-with-the-participants-of-asian-games-2026/",
-        "published_at": "2026-10-15T14:00:34+00:00"
-      },
-      "query": "there used huge events olympics yet",
-      "numbers": [],
-      "promise_matches": [],
-      "evidence": [
-        {
-          "id": "cc9a710bb108ac5df0",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Medium",
-          "source_url": "https://medium.com",
-          "title": "Smaller. The Olympics used to be a slab of TV… | by Scott Galloway - Medium",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE16SGU0eWoxcjd3aFhaajJxMXU5aDJiX1RSX1gxWkt2LTFMMW1FcUdPODU1T3ljYmQ1azQ1ZzhyWGtZMlRGb2NfTnZZX280UGhlWkZ4bDVKdjlkNk5GZmJxMHFJYw?oc=5",
-          "published_at": "2024-08-08T07:00:00+00:00",
-          "snippet": "Smaller. The Olympics used to be a slab of TV… | by Scott Galloway Medium",
-          "lexical_overlap": 0.111,
-          "relevance": 0.181,
-          "matched_terms": [
-            "olympics",
-            "used"
-          ],
-          "shared_numbers": []
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "932398a833189acad2",
-      "claim": "Over the past 10–12 years, the country worked continuously with dedication and sincerity, pursued a long-term vision, and built a transparent and modern ecosystem for sports.",
-      "extraction": {
-        "reasons": [
-          "number",
-          "accomplishment"
-        ],
-        "numbers": [
-          "10",
-          "12 years"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7306e5f6c2d302d152f2",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address during interaction with the participants of Asian Games 2026",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-interaction-with-the-participants-of-asian-games-2026/",
-        "published_at": "2026-10-15T14:00:34+00:00"
-      },
-      "query": "12 10 past worked continuously dedication sincerity pursued",
-      "numbers": [
-        "10",
-        "12"
-      ],
-      "promise_matches": [],
-      "evidence": [],
-      "fact_checks": [],
-      "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "47f28dd1ec0e8f34f5",
-      "claim": "As all of you know, we launched the Target Olympic Podium Scheme (TOPS).",
-      "extraction": {
-        "reasons": [
-          "accomplishment"
-        ],
-        "numbers": [],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7306e5f6c2d302d152f2",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address during interaction with the participants of Asian Games 2026",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-interaction-with-the-participants-of-asian-games-2026/",
-        "published_at": "2026-10-15T14:00:34+00:00"
-      },
-      "query": "you know launched target olympic podium",
-      "numbers": [],
-      "promise_matches": [],
-      "evidence": [
-        {
-          "id": "efe8a216adccbc1563",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "94 athletes included in the Target Olympic Podium Scheme of Ministry of YAS: Sh. KirenRijiju - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5CaDNjM1NidmlZal95TkhvQ00ycW9UUGYyOE5Jc3FtRjFjN3BxRDAzMVJsVE8tdWpmSFRwZS1HdHFGM0lnMXRnU1BDZWV5TENuamw4WWIwNWd5OU1Sa0p2R1hsbnFzbU1K?oc=5",
-          "published_at": "2020-09-14T07:00:00+00:00",
-          "snippet": "94 athletes included in the Target Olympic Podium Scheme of Ministry of YAS: Sh. KirenRijiju Press Information Bureau",
-          "lexical_overlap": 0.235,
-          "relevance": 0.425,
-          "matched_terms": [
-            "olympic",
-            "podium",
-            "scheme",
-            "target"
-          ],
-          "shared_numbers": [],
-          "nli": {
-            "entailment": 0.0085,
-            "neutral": 0.7767,
-            "contradiction": 0.2147
-          }
-        },
-        {
-          "id": "03ac90a425cd5f4dd7",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Times of India",
-          "source_url": "https://timesofindia.indiatimes.com",
-          "title": "SAI reshuffle hands TOPS division control of 27 Olympic sports disciplines - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPN1dXSmF2TEwwUnV2OXlzZ2pqa0hET3pMdUhmVE92WGF0dWNXR1Z1VzlLbklmT05uX3NiLVc4b1VGRWN2TFRsN3BURkJFZnZDSzhWQ1pmVFdhVGxqemVtMEdsc0liTVk2TnFVTHlBclNQc2lrTjBoeVlEamUyQTNEeXo1SkxZdmQ3cWtGTUsyZm1SUlh4VFFual96WFdyVnVSbmx6aTRfM1M1OFlFZHFjSDdoRE9CMEs5Zm95d0EzREp4dGVQNkYxSzU4T1VWbUlYalZ1Vl90VW5uSTg4R1VNdHUwRVVSNUw1dUdyd3ln0gHzAUFVX3lxTE9vUUFwSThXUWZXdk9Uc2tKY1BuRUE1dElCbjFTcTI1Y2VwaUV0dmJlTDdsUF83bmdtWkhsdXROTEhYNzNLa3pxRE9JZmtjT1RIRllreXB0ZjFRbmpBVDRzZGZmMmNoeWdwZFE0alhFUTdLbFZ1NVpHWnRXTW9oeG5WS0RBeWt5WlhsdUhLeTZLa2xxRThWRlRPanQyY1YxLTZaZmRCb094X2FIVmJjNDJXN1NxOV80b2FwX2xfN2k1djdzMndLTWtFVzVJUGo4TmxCYi1Na2s4UEo5ZVl2WHNNNG1YQi1hbU1BbVB6dWx5SVdfQQ?oc=5",
-          "published_at": "2026-05-25T07:00:00+00:00",
-          "snippet": "SAI reshuffle hands TOPS division control of 27 Olympic sports disciplines The Times of India",
-          "lexical_overlap": 0.125,
-          "relevance": 0.195,
-          "matched_terms": [
-            "olympic",
-            "tops"
-          ],
-          "shared_numbers": []
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "primary_evidence_found",
-        "label": "Relevant verified primary evidence candidate found",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "ea0a14718ba9e0d486",
-      "claim": "We launched the Khelo India Scheme.",
-      "extraction": {
-        "reasons": [
-          "accomplishment"
-        ],
-        "numbers": [],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7306e5f6c2d302d152f2",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address during interaction with the participants of Asian Games 2026",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-interaction-with-the-participants-of-asian-games-2026/",
-        "published_at": "2026-10-15T14:00:34+00:00"
-      },
-      "query": "launched khelo scheme",
-      "numbers": [],
-      "promise_matches": [
-        {
-          "id": "BJP-2024-6018d529261fd26abe",
-          "year": 2024,
-          "category": "infrastructure",
-          "page": 64,
-          "anchor": "Including More Traditional Sports Under Khelo India We will include more traditional sports under …",
-          "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
-          "similarity": 0.286,
-          "matched_terms": [
-            "khelo",
-            "scheme"
-          ]
-        }
-      ],
-      "evidence": [
-        {
-          "id": "c93a53a33e57f82557",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Khelo India Scheme - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5PS290Z1NvZmlnTkJ4c1htNGU1bmQ3SjMwcGZqc2thMVFMV1VnVHBSNXJMMXEtRWxqVmc2TU1ZUWpJc2xXNWFqWUplcVZlOHJ3by1SS0J4aUExbUdVRThDU24zSDlWX05wT0E?oc=5",
-          "published_at": "2019-06-27T07:00:00+00:00",
-          "snippet": "Khelo India Scheme Press Information Bureau",
-          "lexical_overlap": 0.333,
-          "relevance": 0.453,
-          "matched_terms": [
-            "khelo",
-            "scheme"
-          ],
-          "shared_numbers": [],
-          "nli": {
-            "entailment": 0.1201,
-            "neutral": 0.78,
-            "contradiction": 0.0998
-          }
-        },
-        {
-          "id": "544f909deceecf4adb",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "IMPLEMENTATION OF KHELO INDIA SCHEME - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE42LWJmTktOSVExSU8yZ2JNcDBhbUsyZnFhdktCVTl2LXZXUVRrb3V0X091aVlCSXlLM291LXdhekdwN2g5ZTBUMXJHS0h0MHAtYVo0d1RleW5BYlpyQU9nMWZWbDJqQ01qcHRtLV9rSVU?oc=5",
-          "published_at": "2024-11-28T08:00:00+00:00",
-          "snippet": "IMPLEMENTATION OF KHELO INDIA SCHEME Press Information Bureau",
-          "lexical_overlap": 0.286,
-          "relevance": 0.406,
-          "matched_terms": [
-            "khelo",
-            "scheme"
-          ],
-          "shared_numbers": [],
-          "nli": {
-            "entailment": 0.1029,
-            "neutral": 0.8309,
-            "contradiction": 0.0662
-          }
-        },
-        {
-          "id": "49d9663d793b376828",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "DD News",
-          "source_url": "https://ddnews.gov.in",
-          "title": "Khelo India Tribal Games: Logo, theme song, mascot launched in Bilaspur; Mandaviya says games will ‘broaden scope for every athlete’ | DD News - DD News",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxObHhQeDl1ZUNqdHBBN3Z1U0dHTVJpT29EQXpmUk9CVmoyWGNjR25DVW55LU5Da0lITEktUFBTdGtFa1RORF94OUttekpWYkc4b3VhZDBJXzNvLXBxUlhpQmtqY2YzUk1WYldSeDJyYnZ2eTZfa1labGYxYW5Hdk1Qa2V0NmxQaXR1VGMzNzR1amxmZC1HVDJ5cTBLRTYtX3Z0clllMlB2MlZneDY1Nkxwa2NGVS1mTFVNeTRMUzRNYXAxUklpYWVPMU1GYkNrUWNWNXlEWlk5REgzMHdpbnJWd01jTXVGbFk?oc=5",
-          "published_at": "2025-12-24T08:00:00+00:00",
-          "snippet": "Khelo India Tribal Games: Logo, theme song, mascot launched in Bilaspur; Mandaviya says games will ‘broaden scope for every athlete’ | DD News DD News",
-          "lexical_overlap": 0.118,
-          "relevance": 0.188,
-          "matched_terms": [
-            "khelo",
-            "launched"
-          ],
-          "shared_numbers": []
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "primary_evidence_found",
-        "label": "Relevant verified primary evidence candidate found",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "3bd7b7082f67fcec8b",
-      "claim": "As Mansukh Bhai mentioned earlier, more than ₹36,000 crore has been allocated for expanding Khelo India and strengthening sports federations.",
-      "extraction": {
-        "reasons": [
-          "number",
-          "comparison"
-        ],
-        "numbers": [
-          "₹36,000 crore"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7306e5f6c2d302d152f2",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address during interaction with the participants of Asian Games 2026",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-interaction-with-the-participants-of-asian-games-2026/",
-        "published_at": "2026-10-15T14:00:34+00:00"
-      },
-      "query": "36000 mansukh bhai mentioned earlier than crore",
-      "numbers": [
-        "36000"
-      ],
-      "promise_matches": [],
-      "evidence": [],
-      "fact_checks": [],
-      "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    }
-  ],
+  "claim_packets": [],
   "claim_families": [
     {
       "id": "1876deedf04e66b7b2",
@@ -42615,7 +41642,7 @@
     },
     {
       "id": "20baf23bfeeafa4afb",
-      "checked_at": "2026-10-23T17:30:48.259594+00:00",
+      "checked_at": "2026-10-25T11:23:42.976131+00:00",
       "promise_id": "BJP-2019-84c0f420969b8905d7",
       "year": 2019,
       "category": "security_defence",
@@ -42651,7 +41678,7 @@
     },
     {
       "id": "f9b160c5ba9245033b",
-      "checked_at": "2026-10-23T18:20:39.935192+00:00",
+      "checked_at": "2026-10-25T11:23:55.536702+00:00",
       "promise_id": "BJP-2019-983d288d89149606cf",
       "year": 2019,
       "category": "security_defence",
@@ -43273,7 +42300,7 @@
     },
     {
       "id": "2e355a1e601e212c64",
-      "checked_at": "2026-10-23T17:30:40.292908+00:00",
+      "checked_at": "2026-10-25T11:23:34.159821+00:00",
       "promise_id": "BJP-2019-73a7dd0adbbdb69fef",
       "year": 2019,
       "category": "environment",
@@ -43701,7 +42728,7 @@
     },
     {
       "id": "a03f6a43aaf9532c2d",
-      "checked_at": "2026-10-23T17:30:46.645440+00:00",
+      "checked_at": "2026-10-25T11:23:41.116672+00:00",
       "promise_id": "BJP-2019-7f04923b98ecf1dcab",
       "year": 2019,
       "category": "agriculture",
@@ -44494,7 +43521,7 @@
     },
     {
       "id": "05e0979e7f32ba2f72",
-      "checked_at": "2026-10-25T06:06:20.034370+00:00",
+      "checked_at": "2026-10-25T11:23:01.906530+00:00",
       "promise_id": "BJP-2019-18c0750d5ed71bc3d1",
       "year": 2019,
       "category": "agriculture",
@@ -44704,6 +43731,28 @@
           "promise_core_overlap": [
             "farmer",
             "producer"
+          ]
+        },
+        {
+          "id": "c287fed5985db0f3f9",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Manorama Yearbook",
+          "source_url": "https://www.manoramayearbook.in",
+          "title": "1,100 new FPOs to be set up in cooperative sector | farmers | agriculture | FPO | cooperation - Manorama Yearbook",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbFVEWGloeEhoTTFHNlNmeXVrSFRnNF81MUNrR1dmeV9Ma1R0UlRlTHlHTHU4YWZWTjhQNzFFLTlZd284d0xEazlmbVFtWUZyanJDOWM1US1tRlBGY1dGZ1FmM0pLdXZMZ0hfUmdTRm5tR1EyMWpsUGxOamlrRzFwdXlZMm5kbjBjd0pVWm4yeVRzY3hGUjJkUmVNYURrZ1hwRW40aTJzTQ?oc=5",
+          "published_at": "2023-05-18T07:00:00+00:00",
+          "snippet": "1,100 new FPOs to be set up in cooperative sector | farmers | agriculture | FPO | cooperation Manorama Yearbook",
+          "lexical_overlap": 0.095,
+          "relevance": 0.165,
+          "matched_terms": [
+            "farmers",
+            "fpos"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "farmers",
+            "fpos"
           ]
         },
         {
@@ -45075,7 +44124,7 @@
     },
     {
       "id": "0bf4fc0291281e3f3a",
-      "checked_at": "2026-10-23T17:30:38.528232+00:00",
+      "checked_at": "2026-10-25T11:23:32.089632+00:00",
       "promise_id": "BJP-2019-72dce6558ca06c274c",
       "year": 2019,
       "category": "other",
@@ -45114,7 +44163,7 @@
     },
     {
       "id": "815b7706767e8c3356",
-      "checked_at": "2026-10-23T17:30:43.788554+00:00",
+      "checked_at": "2026-10-25T11:23:38.148120+00:00",
       "promise_id": "BJP-2019-7a4ba8d4c9d51a7f0d",
       "year": 2019,
       "category": "agriculture",
@@ -45771,7 +44820,7 @@
     },
     {
       "id": "18d74b9130695f1671",
-      "checked_at": "2026-10-23T18:20:37.443970+00:00",
+      "checked_at": "2026-10-25T11:23:52.954211+00:00",
       "promise_id": "BJP-2019-92a09a1477b5007974",
       "year": 2019,
       "category": "agriculture",
@@ -45978,7 +45027,7 @@
     },
     {
       "id": "f5811520c1d5623f19",
-      "checked_at": "2026-10-25T06:06:21.642983+00:00",
+      "checked_at": "2026-10-25T11:23:03.993352+00:00",
       "promise_id": "BJP-2019-1d3e95fa9344e842f3",
       "year": 2019,
       "category": "infrastructure",
@@ -46099,7 +45148,7 @@
     },
     {
       "id": "92d6920a15fb42f812",
-      "checked_at": "2026-10-25T06:06:36.639861+00:00",
+      "checked_at": "2026-10-25T11:23:24.119237+00:00",
       "promise_id": "BJP-2019-6abf03adda773fec98",
       "year": 2019,
       "category": "governance",
@@ -46246,7 +45295,7 @@
     },
     {
       "id": "23a0efdb460017ae64",
-      "checked_at": "2026-10-23T18:20:39.165043+00:00",
+      "checked_at": "2026-10-25T11:23:54.758407+00:00",
       "promise_id": "BJP-2019-938a7fc15c48c17563",
       "year": 2019,
       "category": "agriculture",
@@ -48241,7 +47290,7 @@
     },
     {
       "id": "0745b92baf20c3302e",
-      "checked_at": "2026-10-23T18:20:33.417598+00:00",
+      "checked_at": "2026-10-25T11:23:47.661680+00:00",
       "promise_id": "BJP-2019-88aced438b118cd7c9",
       "year": 2019,
       "category": "other",
@@ -48458,7 +47507,7 @@
     },
     {
       "id": "ccef1b5237b02f111a",
-      "checked_at": "2026-10-23T18:20:36.437503+00:00",
+      "checked_at": "2026-10-25T11:23:51.514167+00:00",
       "promise_id": "BJP-2019-90ffa8d284a47dffb6",
       "year": 2019,
       "category": "infrastructure",
@@ -49439,7 +48488,7 @@
     },
     {
       "id": "1e0abc9f94016f3c7a",
-      "checked_at": "2026-10-25T06:06:22.996994+00:00",
+      "checked_at": "2026-10-25T11:23:05.802029+00:00",
       "promise_id": "BJP-2019-2af396deaf778cac73",
       "year": 2019,
       "category": "infrastructure",
@@ -49524,7 +48573,7 @@
     },
     {
       "id": "4af70c5cc4e5dd31ea",
-      "checked_at": "2026-10-25T06:06:28.319674+00:00",
+      "checked_at": "2026-10-25T11:23:13.250465+00:00",
       "promise_id": "BJP-2019-34c03859f07f1329c5",
       "year": 2019,
       "category": "infrastructure",
@@ -51843,7 +50892,7 @@
     },
     {
       "id": "93bb9754ab7125c8f1",
-      "checked_at": "2026-10-25T06:06:32.500922+00:00",
+      "checked_at": "2026-10-25T11:23:18.897253+00:00",
       "promise_id": "BJP-2019-6013bbae5c9fbd8c5a",
       "year": 2019,
       "category": "women_social_justice",
@@ -51907,7 +50956,7 @@
     },
     {
       "id": "1d1782ad81aa54afcd",
-      "checked_at": "2026-10-25T06:06:34.498190+00:00",
+      "checked_at": "2026-10-25T11:23:21.576142+00:00",
       "promise_id": "BJP-2019-63e2ccda189fa85e2c",
       "year": 2019,
       "category": "health_welfare",
@@ -52428,7 +51477,7 @@
     },
     {
       "id": "6aaadf81d55f178c8d",
-      "checked_at": "2026-10-23T17:30:35.164213+00:00",
+      "checked_at": "2026-10-25T11:23:28.556191+00:00",
       "promise_id": "BJP-2019-71ffbb75a91156e6e7",
       "year": 2019,
       "category": "other",
@@ -53357,7 +52406,7 @@
     },
     {
       "id": "2ce9cc5c8a526cb264",
-      "checked_at": "2026-10-23T17:30:47.475557+00:00",
+      "checked_at": "2026-10-25T11:23:42.055986+00:00",
       "promise_id": "BJP-2019-7f9ced925aebc37c90",
       "year": 2019,
       "category": "technology_digital",
@@ -54817,7 +53866,7 @@
     },
     {
       "id": "4e7a0f5f928129259e",
-      "checked_at": "2026-10-23T17:30:42.153144+00:00",
+      "checked_at": "2026-10-25T11:23:36.362262+00:00",
       "promise_id": "BJP-2019-7537077a5eb58be3d7",
       "year": 2019,
       "category": "governance",
@@ -55770,7 +54819,7 @@
     },
     {
       "id": "8b21ffa2fbbdee33b7",
-      "checked_at": "2026-10-23T18:20:31.211149+00:00",
+      "checked_at": "2026-10-25T11:23:45.257384+00:00",
       "promise_id": "BJP-2019-85035841aaa38876e9",
       "year": 2019,
       "category": "other",
@@ -55856,7 +54905,7 @@
     },
     {
       "id": "04363bc92f6ef533fa",
-      "checked_at": "2026-10-23T18:20:32.138821+00:00",
+      "checked_at": "2026-10-25T11:23:46.206871+00:00",
       "promise_id": "BJP-2019-86a5c56c931cc9cd75",
       "year": 2019,
       "category": "education_skills",
@@ -56826,7 +55875,7 @@
     },
     {
       "id": "21c782a6ad2ecb8987",
-      "checked_at": "2026-10-25T06:06:25.628995+00:00",
+      "checked_at": "2026-10-25T11:23:09.464107+00:00",
       "promise_id": "BJP-2019-2cfa1375f165d41707",
       "year": 2019,
       "category": "other",
@@ -56946,7 +55995,7 @@
     },
     {
       "id": "cde5dc88c95c978816",
-      "checked_at": "2026-10-23T18:20:34.196243+00:00",
+      "checked_at": "2026-10-25T11:23:48.656269+00:00",
       "promise_id": "BJP-2019-8a73fc7b1d2e669989",
       "year": 2019,
       "category": "education_skills",
@@ -58256,7 +57305,7 @@
     },
     {
       "id": "09db92a7679f9e887b",
-      "checked_at": "2026-10-25T06:06:30.177624+00:00",
+      "checked_at": "2026-10-25T11:23:15.525332+00:00",
       "promise_id": "BJP-2019-4fc8289de8caed52ff",
       "year": 2019,
       "category": "other",
@@ -58398,7 +57447,7 @@
     },
     {
       "id": "e56b60946d8f9ca652",
-      "checked_at": "2026-10-23T17:30:49.032051+00:00",
+      "checked_at": "2026-10-25T11:23:43.766808+00:00",
       "promise_id": "BJP-2019-84fd448a16d2392123",
       "year": 2019,
       "category": "infrastructure",
@@ -59890,7 +58939,7 @@
     },
     {
       "id": "902b8e2fb6b6ba0c0e",
-      "checked_at": "2026-10-23T17:30:36.982362+00:00",
+      "checked_at": "2026-10-25T11:23:30.535745+00:00",
       "promise_id": "BJP-2019-7206567d6d22fc8eb5",
       "year": 2019,
       "category": "culture_heritage",
@@ -60908,7 +59957,7 @@
     },
     {
       "id": "706203f0a4cd32b359",
-      "checked_at": "2026-10-23T17:30:44.680820+00:00",
+      "checked_at": "2026-10-25T11:23:39.211657+00:00",
       "promise_id": "BJP-2019-7d80579de0d0866f5e",
       "year": 2019,
       "category": "health_welfare",
@@ -60933,6 +59982,28 @@
       "query": "poshan abhiyaan aim reduce malnutrition level",
       "evidence": [
         {
+          "id": "8fc3fb5de422a76702",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "POSHAN Abhiyaan - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBuWDE0Vi14ZmZfRFd1cW1SRG5zM1phamM1bXB0UnRjYkktNFNiNkxYMm5Uak5IR2hKcnZZN3VtSmZKdjNjOHNoeGxxNHBwdkhyR2g4cEs3d0IzMEF3ekRtWC1BTDU1dnFK?oc=5",
+          "published_at": "2023-03-24T07:00:00+00:00",
+          "snippet": "POSHAN Abhiyaan PIB",
+          "lexical_overlap": 0.167,
+          "relevance": 0.287,
+          "matched_terms": [
+            "abhiyaan",
+            "poshan"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "abhiyaan",
+            "poshan"
+          ]
+        },
+        {
           "id": "605e827f8720797285",
           "scope": "preferred_official_search",
           "tier": "primary",
@@ -60955,15 +60026,15 @@
           ]
         },
         {
-          "id": "2ecee961d8fab99722",
+          "id": "65768e9ff755237eae",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "www.pib.gov.in",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "Anganwadi services, Poshan Abhiyaan and Scheme for Adolescent girls have been subsumed under the umbrella Mission Saksham Anganwadi and Poshan 2.0 - www.pib.gov.in",
+          "title": "Anganwadi services, Poshan Abhiyaan and Scheme for Adolescent girls have been subsumed under the umbrella Mission Saksham Anganwadi and Poshan 2.0 - Press Information Bureau",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9UbFhJdU1KWk1tclhITzBkbGd5UjRTVWhpeEJ1QU4zZ2dyMXpCT2hMZjByeHR0M0otTUZrNDg1cDE0dnloYVJwTzZuMWI3aFA0d3lRcURWRTlFY0s0VUxJakIxQXV5NjJXWFh3Uml3d1YwV1pNanBnTVFtTQ?oc=5",
           "published_at": "2026-02-11T08:00:00+00:00",
-          "snippet": "Anganwadi services, Poshan Abhiyaan and Scheme for Adolescent girls have been subsumed under the umbrella Mission Saksham Anganwadi and Poshan 2.0 www.pib.gov.in",
+          "snippet": "Anganwadi services, Poshan Abhiyaan and Scheme for Adolescent girls have been subsumed under the umbrella Mission Saksham Anganwadi and Poshan 2.0 Press Information Bureau",
           "lexical_overlap": 0.083,
           "relevance": 0.203,
           "matched_terms": [
@@ -60997,6 +60068,28 @@
           "promise_core_overlap": [
             "abhiyaan",
             "malnutrition",
+            "poshan"
+          ]
+        },
+        {
+          "id": "efe760e1d5abed0567",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "StudyIQ",
+          "source_url": "https://www.studyiq.com",
+          "title": "Poshan Abhiyaan, POSHAN 2.0, Features and Achievements - StudyIQ",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5kWVF3NTlnUFVNQTJGY3JWVTBkcFhQTU8yWnZsWFRQSDR2aUxzRTUtVU9jeVI3blBHd19HeXFQMGMtUFRkSlRmN0V6aHhuNlFNYTNhc29IVEgzMjFjSHc?oc=5",
+          "published_at": "2025-04-08T07:00:00+00:00",
+          "snippet": "Poshan Abhiyaan, POSHAN 2.0, Features and Achievements StudyIQ",
+          "lexical_overlap": 0.143,
+          "relevance": 0.213,
+          "matched_terms": [
+            "abhiyaan",
+            "poshan"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "abhiyaan",
             "poshan"
           ]
         },
@@ -61101,7 +60194,7 @@
     },
     {
       "id": "3d26c3a146ec71c5b7",
-      "checked_at": "2026-10-23T18:20:35.567579+00:00",
+      "checked_at": "2026-10-25T11:23:50.287423+00:00",
       "promise_id": "BJP-2019-8b6c730e97b6b29ebc",
       "year": 2019,
       "category": "other",
@@ -63800,7 +62893,7 @@
     },
     {
       "id": "df076e7dea8ba67624",
-      "checked_at": "2026-10-25T06:06:38.761946+00:00",
+      "checked_at": "2026-10-25T11:23:26.912739+00:00",
       "promise_id": "BJP-2014-078252941779345656",
       "year": 2014,
       "category": "women_social_justice",
