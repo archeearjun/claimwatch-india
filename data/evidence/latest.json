@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T05:40:11.733130+00:00",
+  "generated_at": "2026-10-27T07:51:00.840078+00:00",
   "capabilities": {
     "official_evidence_search": true,
     "verified_primary_gate": true,
@@ -17,7 +17,7 @@
     "promise_total_candidates": 841,
     "promise_coverage_pct": 101.3,
     "primary_candidates": 547,
-    "secondary_candidates": 1085,
+    "secondary_candidates": 1071,
     "prior_fact_checks": 0,
     "publishable_auto_verdicts": 0,
     "claim_verdicts": {
@@ -37,39 +37,35 @@
       "audited_total": 852
     },
     "claim_memory": {
-      "families_total": 75,
+      "families_total": 89,
       "repeated_families": 0,
       "repeated_contradicted_families": 0,
       "repeated_supported_families": 0,
-      "occurrences_total": 75
+      "occurrences_total": 89
     }
   },
   "claim_packets": [
     {
-      "id": "91f80f8f9486c34723",
-      "claim": "Friends, You have given 1.4 billion countrymen an opportunity to feel proud.",
+      "id": "b8d4ab680299139905",
+      "claim": "Friends, After independence, large cities were developed in the country, grand institutions were established, large hospitals were built, and massive airports were constructed.",
       "extraction": {
         "reasons": [
-          "number"
+          "accomplishment"
         ],
-        "numbers": [
-          "1.4 billion"
-        ],
+        "numbers": [],
         "context_before": ""
       },
       "claim_source": {
-        "id": "7306e5f6c2d302d152f2",
+        "id": "2e6329cf1164f3c116dc",
         "kind": "official_speech_or_video",
-        "title": "PM’s address during interaction with the participants of Asian Games 2026",
+        "title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
         "source": "PMIndia",
         "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-interaction-with-the-participants-of-asian-games-2026/",
-        "published_at": "2026-10-15T14:00:34+00:00"
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
+        "published_at": "2026-10-25T13:30:15+00:00"
       },
-      "query": "1.4 friends you have given billion countrymen",
-      "numbers": [
-        "1.4"
-      ],
+      "query": "were large friends after independence cities",
+      "numbers": [],
       "promise_matches": [],
       "evidence": [],
       "fact_checks": [],
@@ -83,38 +79,112 @@
       "human_reviewed": false
     },
     {
-      "id": "ea68cd55ad6fa2bd5b",
-      "claim": "You have enhanced the pride of the Tiranga, you have increased its honour.",
+      "id": "b35543711de7918ea9",
+      "claim": "Medical colleges are being opened in smaller towns.",
       "extraction": {
         "reasons": [
-          "comparison"
+          "accomplishment"
         ],
         "numbers": [],
         "context_before": ""
       },
       "claim_source": {
-        "id": "7306e5f6c2d302d152f2",
+        "id": "2e6329cf1164f3c116dc",
         "kind": "official_speech_or_video",
-        "title": "PM’s address during interaction with the participants of Asian Games 2026",
+        "title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
         "source": "PMIndia",
         "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-interaction-with-the-participants-of-asian-games-2026/",
-        "published_at": "2026-10-15T14:00:34+00:00"
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
+        "published_at": "2026-10-25T13:30:15+00:00"
       },
-      "query": "you have enhanced pride tiranga increased",
+      "query": "medical colleges opened smaller towns",
       "numbers": [],
+      "promise_matches": [],
+      "evidence": [
+        {
+          "id": "50dc6734195f1b52af",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Deccan Chronicle",
+          "source_url": "https://www.deccanchronicle.com",
+          "title": "Five medical colleges to be opened this year: Krishna Babu - Deccan Chronicle",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWk1kbTVHdGFOOWRHa2tIX191M0hlb3AzX0hDUm9lR1lEajJDTDRkb1JKcXVqdVlhTlYxZlo2eHdDaFpLQU0zbXZSeG5BM2dQRXhtTXdNdlI2RC05YVBpRi1HcmZCbGhrNE1xM1JPS3NLMDRPLXZ6ZmhQUDlIT3F3a0JzeGlIWVMyQ19oOHhsd2Z3ZDlEVUNYQ3ZyRjAtTDJpSzJkRmZGZXZBUEc4eTcxelk2QWhER1V1ako3S0FnQdIBxAFBVV95cUxNRGVZYi1GaFcybF9DR05KZE5yYVJiQnNfNlpCbHY2UXJBOXRfdkp6ZGVkcU53T2VCVjd6UlRMd1RJZXZwUHhZSlVyQTdpZW5acURYLVZheFNvZTE5VF93d0JiaFBsSEt6cC1CZUFvU0pSeGFqdkpNeFF1V21rYzhWYVFvTkJSWlo2NFF1cUphbXY1YkdkbTV0WWtsTS1IN1pqZlhOMEJyNW96ZTlTb2ZqeW9fcktLUTlGWWVRcktMNlpyU2h6?oc=5",
+          "published_at": "2023-06-09T07:00:00+00:00",
+          "snippet": "Five medical colleges to be opened this year: Krishna Babu Deccan Chronicle",
+          "lexical_overlap": 0.3,
+          "relevance": 0.405,
+          "matched_terms": [
+            "colleges",
+            "medical",
+            "opened"
+          ],
+          "shared_numbers": []
+        }
+      ],
+      "fact_checks": [],
+      "signal": {
+        "level": "reporting_found",
+        "label": "Relevant reporting found; primary evidence still needed",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "ddb711a027259cf305",
+      "claim": "Nearly 1.75 lakh Ayushman Arogya Mandirs have been established in villages.",
+      "extraction": {
+        "reasons": [
+          "number",
+          "comparison",
+          "accomplishment"
+        ],
+        "numbers": [
+          "1.75 lakh"
+        ],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "2e6329cf1164f3c116dc",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
+        "published_at": "2026-10-25T13:30:15+00:00"
+      },
+      "query": "1.75 nearly lakh ayushman arogya mandirs have",
+      "numbers": [
+        "1.75"
+      ],
       "promise_matches": [
         {
-          "id": "BJP-2024-bc077f18d578f0925f",
+          "id": "BJP-2024-a276e1cca801c9e683",
           "year": 2024,
-          "category": "jobs_economy",
-          "page": 43,
-          "anchor": "Honour Honest Taxpayers We will honour honest taxpayers who have played an important role …",
+          "category": "health_welfare",
+          "page": 60,
+          "anchor": "MODI KI GUARANTEE FOR SWASTHA BHARAT Strengthening Ayushman Arogya Mandirs We will further strengthen …",
           "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
-          "similarity": 0.167,
+          "similarity": 0.25,
           "matched_terms": [
-            "have",
-            "honour"
+            "arogya",
+            "ayushman",
+            "mandirs"
+          ]
+        },
+        {
+          "id": "BJP-2024-17398d785095df2953",
+          "year": 2024,
+          "category": "health_welfare",
+          "page": 61,
+          "anchor": "Strengthening Ayushman Arogya Mandirs We will further strengthen the Ayushman Arogya Mandirs and upgrade …",
+          "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
+          "similarity": 0.25,
+          "matched_terms": [
+            "arogya",
+            "ayushman",
+            "mandirs"
           ]
         }
       ],
@@ -130,754 +200,680 @@
       "human_reviewed": false
     },
     {
-      "id": "39655c069fdf0432cb",
-      "claim": "And especially our women’s hockey team, you ended a long wait of 44 years by bringing home the gold medal.",
+      "id": "29371b53212e779eff",
+      "claim": "In the 1960s and 70s, banks were nationalised in the name of the poor.",
       "extraction": {
         "reasons": [
           "number"
         ],
         "numbers": [
-          "44 years"
+          "1960",
+          "70"
         ],
         "context_before": ""
       },
       "claim_source": {
-        "id": "7306e5f6c2d302d152f2",
+        "id": "2e6329cf1164f3c116dc",
         "kind": "official_speech_or_video",
-        "title": "PM’s address during interaction with the participants of Asian Games 2026",
+        "title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
         "source": "PMIndia",
         "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-interaction-with-the-participants-of-asian-games-2026/",
-        "published_at": "2026-10-15T14:00:34+00:00"
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
+        "published_at": "2026-10-25T13:30:15+00:00"
       },
-      "query": "44 especially women hockey team you ended",
+      "query": "banks were nationalised name poor",
+      "numbers": [],
+      "promise_matches": [],
+      "evidence": [],
+      "fact_checks": [],
+      "signal": {
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "318b27cf844c2ade6a",
+      "claim": "Yet, until 2014, more than half of the country’s population was excluded from the banking ecosystem.",
+      "extraction": {
+        "reasons": [
+          "number",
+          "comparison"
+        ],
+        "numbers": [
+          "2014"
+        ],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "2e6329cf1164f3c116dc",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
+        "published_at": "2026-10-25T13:30:15+00:00"
+      },
+      "query": "2014 yet until than half population was",
       "numbers": [
-        "44"
+        "2014"
+      ],
+      "promise_matches": [],
+      "evidence": [],
+      "fact_checks": [],
+      "signal": {
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "1d53d6d12eb863d5b2",
+      "claim": "Today, digital banking in India has connected everyone to 24-hour financial services.",
+      "extraction": {
+        "reasons": [
+          "number",
+          "accomplishment"
+        ],
+        "numbers": [
+          "24"
+        ],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "2e6329cf1164f3c116dc",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
+        "published_at": "2026-10-25T13:30:15+00:00"
+      },
+      "query": "24 digital banking has connected everyone hour",
+      "numbers": [
+        "24"
+      ],
+      "promise_matches": [
+        {
+          "id": "BJP-2019-7cb3858ebb5dac9f88",
+          "year": 2019,
+          "category": "other",
+          "page": 33,
+          "anchor": "With this scheme, we will ensure that every Indian has access to banking facilities …",
+          "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
+          "similarity": 0.154,
+          "matched_terms": [
+            "banking",
+            "has"
+          ]
+        },
+        {
+          "id": "BJP-2019-9d236247e9b15a03ee",
+          "year": 2019,
+          "category": "women_social_justice",
+          "page": 25,
+          "anchor": "In order to establish India as a hub of financial services, we will expedite …",
+          "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
+          "similarity": 0.154,
+          "matched_terms": [
+            "financial",
+            "services"
+          ]
+        }
+      ],
+      "evidence": [],
+      "fact_checks": [],
+      "signal": {
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "60ae96f665f22ef03b",
+      "claim": "But prior to 2014, there was an entirely different era of ‘phone banking’.",
+      "extraction": {
+        "reasons": [
+          "number"
+        ],
+        "numbers": [
+          "2014"
+        ],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "2e6329cf1164f3c116dc",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
+        "published_at": "2026-10-25T13:30:15+00:00"
+      },
+      "query": "2014 but prior there was entirely different",
+      "numbers": [
+        "2014"
+      ],
+      "promise_matches": [],
+      "evidence": [],
+      "fact_checks": [],
+      "signal": {
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "d4aab404e9ccc6ccf7",
+      "claim": "A select few in Delhi and those connected with influential circles were granted loans worth thousands of crores through phone calls.",
+      "extraction": {
+        "reasons": [
+          "accomplishment"
+        ],
+        "numbers": [],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "2e6329cf1164f3c116dc",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
+        "published_at": "2026-10-25T13:30:15+00:00"
+      },
+      "query": "select few delhi connected influential circles",
+      "numbers": [],
+      "promise_matches": [],
+      "evidence": [],
+      "fact_checks": [],
+      "signal": {
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "f5f9e7bb05cfa3199f",
+      "claim": "The frameworks built by the nation in recent years, along with the new ecosystem developed under Digital India, have extended banking to every single citizen.",
+      "extraction": {
+        "reasons": [
+          "accomplishment"
+        ],
+        "numbers": [],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "2e6329cf1164f3c116dc",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
+        "published_at": "2026-10-25T13:30:15+00:00"
+      },
+      "query": "frameworks built nation recent along ecosystem",
+      "numbers": [],
+      "promise_matches": [],
+      "evidence": [
+        {
+          "id": "79692f72c470fb1b19",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Pandaily",
+          "source_url": "https://pandaily.com",
+          "title": "Qwen's Jiang Guanjun Lays Out a Personal Agent Framework Built on Models, Memory and Ecosystem - Pandaily",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdC0wX1ZTYm03czBmbTVlNXRPRnp0RXpCRTNWN2NVSVV1VjZiUzhSZjVpNjJuTnJqY0dSdVBOdGhlazdweXpGSVByMGg4aEZkTm1jNFRjbTV3Wm1lOGlsZURDbG5GMTdrWk9KU3hXQ1ctNDNhbV9vaGdfLUlNUEt6RXgxcWs5bEF4eWR5dV9xS1l3c3lKWWtQVmY0R2RHeE1JcnFNdWQ3UlBPaVNMdDMtNDItb2xvdHFo?oc=5",
+          "published_at": "2026-10-25T06:57:40+00:00",
+          "snippet": "Qwen's Jiang Guanjun Lays Out a Personal Agent Framework Built on Models, Memory and Ecosystem Pandaily",
+          "lexical_overlap": 0.087,
+          "relevance": 0.157,
+          "matched_terms": [
+            "built",
+            "ecosystem"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "23915aaf989e67f10f",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "CSIS | Center for Strategic and International Studies",
+          "source_url": "https://www.csis.org",
+          "title": "Export Nation or Ecosystem Power: South Korea’s Choice in the AI Industrial Age - CSIS | Center for Strategic and International Studies",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZU5DblhJNmhFRG5vd0NrYXk2X3hEb1FlSk1rVnF4eFFiZGo1aWlTVmIyWGY5NUc2QUVpRWZIY054clppSU42eHdDWkZGUXVjcl9vb1Y1RWxTX3ppaDVCSGVNME9UOUpTTS16eE1HN0ZjejdHTS1tRlBkdlZiMEJmZG9JRVhVeFBIMENYT281YkJ5bkFEOHU2TlY1VzN4SEFBM0E?oc=5",
+          "published_at": "2026-07-07T07:00:00+00:00",
+          "snippet": "Export Nation or Ecosystem Power: South Korea’s Choice in the AI Industrial Age CSIS | Center for Strategic and International Studies",
+          "lexical_overlap": 0.08,
+          "relevance": 0.15,
+          "matched_terms": [
+            "ecosystem",
+            "nation"
+          ],
+          "shared_numbers": []
+        }
+      ],
+      "fact_checks": [],
+      "signal": {
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "dac6e2327ebe0bd17a",
+      "claim": "Friends, It was from this very land of Odisha that a former Prime Minister of the country once stated that when one rupee is sent from Delhi, only 15 paise reaches the people.",
+      "extraction": {
+        "reasons": [
+          "number"
+        ],
+        "numbers": [
+          "15"
+        ],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "2e6329cf1164f3c116dc",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
+        "published_at": "2026-10-25T13:30:15+00:00"
+      },
+      "query": "15 friends was very land odisha former",
+      "numbers": [
+        "15"
       ],
       "promise_matches": [],
       "evidence": [
         {
-          "id": "eefd2047e99439bead",
+          "id": "1465969a14662145be",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Rediff",
-          "source_url": "https://www.rediff.com",
-          "title": "Can Indian women end 44-year wait for Asian Games hockey gold? - Rediff",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbWpqVG1FUENPTGh5X3dDcHlySTd3dmVYNGk2clZnbi10dmJCZi1pdU1BNDM1el9RVXphcmQxcjF1eThNOGtGRkJyOEJjR0tDYzVSOGFfc09tTHdQWV9tVFpLdVFFOVVrMlJyNmxBUGYtX01XdjR5c1M3bnVoWklNU1VTMXJvbHZyU1pFbFEyYURXRGFSWnM0TVdNVV9sTUotdlFreW51a9IBqgFBVV95cUxNWTJHNldVNVpEbnppcXR0SW9WWTJ6QkpBUTR2VFhxWkVKOVRfX2IyM3g1SjZHcWpWTXN4QVRZSVU3LWFQSFFkLWYwODZjTzdKTU5IcnBtR3lSQ0tZZFVqTTljejFqcVZhMkNFVElIQ0FMN2ZGeVh0SjZDVldTbnlkWXhKd2Y1U2J0MUpVSkhCZ1dIS3RYR2pXc09aZ3BmVlduQnYxR1U2XzBwdw?oc=5",
-          "published_at": "2026-10-01T07:00:00+00:00",
-          "snippet": "Can Indian women end 44-year wait for Asian Games hockey gold? Rediff",
-          "lexical_overlap": 0.25,
-          "relevance": 0.5,
+          "source": "The Economic Times",
+          "source_url": "https://m.economictimes.com",
+          "title": "Tenant staying after lease expiry? When landlords can evict with just 15 days’ notice - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOV3ZnZmIyWnFhYTZIUTJQU2lKcG5PTFlUZm83eWJkQW04QkJTdUVPZTUyUmlSMHdGNVpQLThLTFhabVp5czVCdU5nbDluZUxOSHpkZ21ucFd5WVAtSWJ2VUxEMkVLekY1UGtRYW9SMFV2X0tZUWhwbVh4WW83V2Rlal90Sy1sa05DQ3JUSENFSlZkZDA0LWF5aVBORFlfWFY2eVRFakJMVk5OdHU3RWZ3YkIyUzYyXy1tQmd5eFJXSWZlQW1hbWt6OERCQ2wtSnk4U0p1cWU2MmE0M3lSdjBxQW82NWRqZzNGWjhR0gHwAUFVX3lxTFBmUGhqTWtyQ2VOWDlSVWJPZUNWODFhTHdUMTZjRjFRWHNVbm5TcG50YU5GdWxZRVVnbGdpaFZ4RW8zZjNwY0JSUzJ0aHBYSTlJNnZvU3NjNDBsT2ItZEFZdU1yY1lWS2lqd0NDQTJka1ZaQVhTZktreWhfdUJ3Z1VKdUZIcmRLcmdHLTdTalZsT0tzZnduQm9PVlVnVDRKWHJ1eVdleDhyTHBJblVOZTgzTkNSR3FPZWJ0SktlakZwbTZ6SmVvdjZSTHRsa2lCdDVlWm1KWFJLaEVoUVNYSndiSDlKSTg3SHdvdWZ3YnZMWA?oc=5",
+          "published_at": "2026-02-04T08:00:00+00:00",
+          "snippet": "Tenant staying after lease expiry? When landlords can evict with just 15 days’ notice The Economic Times",
+          "lexical_overlap": 0.042,
+          "relevance": 0.187,
           "matched_terms": [
-            "gold",
-            "hockey",
-            "wait",
-            "women"
+            "when"
           ],
           "shared_numbers": [
-            "44"
+            "15"
+          ]
+        }
+      ],
+      "fact_checks": [],
+      "signal": {
+        "level": "reporting_found",
+        "label": "Relevant reporting found; primary evidence still needed",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "884558fa72add4403d",
+      "claim": "As Nirmala ji mentioned just now, this has been made possible solely because of the approximately 59 to 60 crore Jan Dhan accounts opened in the country.",
+      "extraction": {
+        "reasons": [
+          "number",
+          "accomplishment"
+        ],
+        "numbers": [
+          "59",
+          "60 crore"
+        ],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "2e6329cf1164f3c116dc",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
+        "published_at": "2026-10-25T13:30:15+00:00"
+      },
+      "query": "60 59 nirmala ji mentioned just now has",
+      "numbers": [
+        "59",
+        "60"
+      ],
+      "promise_matches": [],
+      "evidence": [],
+      "fact_checks": [],
+      "signal": {
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "050ea98dd7879a06cd",
+      "claim": "From small entrepreneurs to traditional artisans, from street vendors to workers in the unorganised sector, they have received the benefits of formal banking for the first time.",
+      "extraction": {
+        "reasons": [
+          "accomplishment"
+        ],
+        "numbers": [],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "2e6329cf1164f3c116dc",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
+        "published_at": "2026-10-25T13:30:15+00:00"
+      },
+      "query": "small entrepreneurs traditional artisans street vendors",
+      "numbers": [],
+      "promise_matches": [],
+      "evidence": [],
+      "fact_checks": [],
+      "signal": {
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "00739b48a203bf3deb",
+      "claim": "Through the Mudra Yojana, 13 crore people have become first-time entrepreneurs.",
+      "extraction": {
+        "reasons": [
+          "number"
+        ],
+        "numbers": [
+          "13 crore"
+        ],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "2e6329cf1164f3c116dc",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
+        "published_at": "2026-10-25T13:30:15+00:00"
+      },
+      "query": "13 mudra yojana crore have become first-time",
+      "numbers": [
+        "13"
+      ],
+      "promise_matches": [
+        {
+          "id": "BJP-2019-c2a3dbd42d5ad35cea",
+          "year": 2019,
+          "category": "jobs_economy",
+          "page": 27,
+          "anchor": "We will guarantee 50% of the loan amount for female entrepreneurs and 25% of …",
+          "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
+          "similarity": 0.167,
+          "matched_terms": [
+            "crore",
+            "entrepreneurs"
           ]
         },
         {
-          "id": "c9913293d05d09c26f",
+          "id": "BJP-2024-6b0dfb49a975b3ea0c",
+          "year": 2024,
+          "category": "agriculture",
+          "page": 17,
+          "anchor": "We will now empower three crore rural women to become Lakhpati Didis.",
+          "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
+          "similarity": 0.167,
+          "matched_terms": [
+            "become",
+            "crore"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "754baa1e2370969e7d",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "A Decade of Growth with PM Mudra Yojana - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE04YmdydVdNeDRNdXAtQ0tqOXVPbFJZd3k4c3VMM3Q0M1VESFBDLWtXRmlVTGZ2S0IzVk4tZXB4eTRjaHVlOWRkWUtPWU1raUtSY2tGUE81THUzSXU1RWZzMXQtMGxpbkZI?oc=5",
+          "published_at": "2025-04-07T07:00:00+00:00",
+          "snippet": "A Decade of Growth with PM Mudra Yojana Press Information Bureau",
+          "lexical_overlap": 0.154,
+          "relevance": 0.274,
+          "matched_terms": [
+            "mudra",
+            "yojana"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.0013,
+            "neutral": 0.9898,
+            "contradiction": 0.0089
+          }
+        }
+      ],
+      "fact_checks": [],
+      "signal": {
+        "level": "primary_evidence_found",
+        "label": "Relevant verified primary evidence candidate found",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "5bb402465b7ccab062",
+      "claim": "PM SVANidhi has provided loans to lakhs of street vendors for the first time.",
+      "extraction": {
+        "reasons": [
+          "accomplishment"
+        ],
+        "numbers": [],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "2e6329cf1164f3c116dc",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
+        "published_at": "2026-10-25T13:30:15+00:00"
+      },
+      "query": "pm svanidhi has provided loans lakhs",
+      "numbers": [],
+      "promise_matches": [
+        {
+          "id": "BJP-2024-e4e50bb2901af6baa0",
+          "year": 2024,
+          "category": "other",
+          "page": 31,
+          "anchor": "We will continue to further expand PM Svanidhi to cover street vendors, travelling salesmen …",
+          "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
+          "similarity": 0.214,
+          "matched_terms": [
+            "street",
+            "svanidhi",
+            "vendors"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "9860913f9848bd5052",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "The Tribune",
-          "source_url": "https://www.tribuneindia.com",
-          "title": "Indian women end 44-year wait for Asian Games hockey gold - The Tribune",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbGNJWnZ1V0MyWFdZQU5RQmo2bG04TmZwT3FDQlRETUFUOVVkMm1JV0x0Z3hISW5iTG9YVjQ4bTA0SXJ5OTVlOXlscWl5WHdOOUVtX0FHdmNEak1FQ2dJTU9YVFJFeXk5RUJMNWFoeFBvLWlnSEU4bk9NX3JOa3ZvVmMySXhMOFlRZlY1RWNKSFAyQUUtTnA3bFBpQXliSUg00gGkAUFVX3lxTE5HNUJGdTgtVEp5VGREM1o2eUQ5Q0d3X0YtVGJwcXJjZk9ScTdpRWJZbzR4OUJvSU50cmNIT3Q5VWpMX01CWjluY21PMVVJVUZod29weGhzbUlJQ3BtMldXZ1UxaGFEaXptcUZ6RElfRmFXZWYtYzVtZUpjakozcXVOcEo2VGsyY3JhMWN0WXhfWDZQa1VWWjBTcnJrUzVlQ3BQTTNO?oc=5",
-          "published_at": "2026-10-03T07:00:00+00:00",
-          "snippet": "Indian women end 44-year wait for Asian Games hockey gold The Tribune",
-          "lexical_overlap": 0.25,
-          "relevance": 0.5,
+          "source": "CNBC TV18",
+          "source_url": "https://www.cnbctv18.com",
+          "title": "76.95 lakh street vendors avail ₹18,475 crore collateral-free loans under PM SVANidhi - CNBC TV18",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNLVNJNjBHc2VVZmhFVDRPN181RzNfdjFpRWVwQkhjdW9xWk4xV09LWU9ndVdkcEhYOFZ6QVQ3dWRrUmVFbVlxdnFfOG5uZXl1cXJWZkpDX3VjQzU0SGhpaEg1U3llWE9EWGRhOE0tc1JZMFlFd1JxRnV6LWp4REh5NDJmdlR3SUVubTdXdXZWWWVRZ2staF9FNzdWbVJnOVFUVUZKcVdoSzdGZTQyVElTQUNlM0VWUDAyaklVT3Z2TmlNUTlnc2F1SkNsTjnSAdIBQVVfeXFMTWxGdXNtTlNaODVCaEJZcWE3WGNURVJXYTJpb2dIWXlveHVubW4xM0NJdFJQWmpOVHlmTl9PWnZfUm1SVkV1M0lNV0p4cE9ubkhVY2Q2aGExZnZyQTFZb3hNWHBkejRrRlMtYm1ReVR3SEVHZi0tX0xKeHBMd3lSRkdWd0pFaTJnSm5oOTNjTWQ2UEJ5elE1TnprZ2hzUGp4ZXpDY2FOM0Jsd1doejN1UU85WDJQQVVDNmxfUUFyYU1uZUljdXFfVGJ1dW05V0dGVmdB?oc=5",
+          "published_at": "2026-08-06T07:00:00+00:00",
+          "snippet": "76.95 lakh street vendors avail ₹18,475 crore collateral-free loans under PM SVANidhi CNBC TV18",
+          "lexical_overlap": 0.312,
+          "relevance": 0.488,
           "matched_terms": [
-            "gold",
-            "hockey",
-            "wait",
-            "women"
+            "loans",
+            "pm",
+            "street",
+            "svanidhi",
+            "vendors"
           ],
-          "shared_numbers": [
-            "44"
-          ]
+          "shared_numbers": []
         },
         {
-          "id": "e09c31250f3841742b",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Jagran Josh",
-          "source_url": "https://www.jagranjosh.com",
-          "title": "Asian Games 2026: Indian Women’s Hockey Team Wins Gold After 44 Years - Jagran Josh",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZzROU0JXSTdaUDg1akU5bkhfdTZNeERacDdtUlFlNzFBVUlGSFlhM0V3TE1ZXzBrUUxLSkJKU2xOakFkZ0JWaHRBZFFvOGVxZlY0OTl3TWpGckhsbmEtSHdRYzUtbHBGd2tKM19IRGo5aDNMd3VKZUlXQWowSG44cEtUQVozX0lfUV9LSEpRaUhaa2x6S25pWmlJUHN1cmJSUk9VMkxyaExsQ0c5blJ4LTNZSE4wcUdGUHfSAcABQVVfeXFMTXRiSlhBNDR0VTFWMmpjT0JFQW5HZFRJZDlMM2tlaURBdWdEUjhRdDlDQmJjbjljRVFMenpycWNFcGQ2ZkdYUDMwQzFPVTUtTjNmVHNmWUgxbkFHU0FrdDJlZW9MYm9zbkdjNDc1R05rM1JwMlFTSUpQbWdDZzUzNFkwakw4WHNmZW8teXNJU1Q4MWMyVW9QSVB6XzlrZjhyUURlakZZVWZVV1JQN3EwYklQNndpUlpoWS1GR1kwX2hH?oc=5",
-          "published_at": "2026-10-02T07:00:00+00:00",
-          "snippet": "Asian Games 2026: Indian Women’s Hockey Team Wins Gold After 44 Years Jagran Josh",
-          "lexical_overlap": 0.222,
-          "relevance": 0.472,
+          "id": "25174439aa98ac4d28",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Cabinet approves restructuring & extension of lending period beyond 31.12.2024 of PM Street Vendors AtmaNirbhar Nidhi (PM SVANidhi) Scheme - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9fNk1LMHhpbTlfVXk3eS1SYVFyX2hucUZPXzYtaFlJZXR6OUNsV3VtNlMtLTZUQ01zOURHci1wcVR5c292YWtSY0RoOUxLeW9PRW50bG9hX1hTN1paRVlZVjNHLUZDVncy?oc=5",
+          "published_at": "2025-08-27T07:00:00+00:00",
+          "snippet": "Cabinet approves restructuring & extension of lending period beyond 31.12.2024 of PM Street Vendors AtmaNirbhar Nidhi (PM SVANidhi) Scheme Press Information Bureau",
+          "lexical_overlap": 0.182,
+          "relevance": 0.372,
           "matched_terms": [
-            "gold",
-            "hockey",
-            "team",
-            "women"
+            "pm",
+            "street",
+            "svanidhi",
+            "vendors"
           ],
-          "shared_numbers": [
-            "44"
-          ]
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.0019,
+            "neutral": 0.9907,
+            "contradiction": 0.0074
+          }
         },
         {
-          "id": "d2bdaa94febd391ecc",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Business Standard",
-          "source_url": "https://www.business-standard.com",
-          "title": "Asiad 2026: India women end 44-year wait for hockey gold, beat China 1-0 - Business Standard",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORzBUeTJMYjlQakF3dlNOcUlwQXdBdXJ0MHdXUHFtazkyMUJxYVFjODZEczh0dVF6VVprUjVFRFZHNDg3WkNDSUpYVUNXVXpVU2Z3OGNCZ29hSDI3cVpuYXROelZhdFM2ZWdlNjJIaklkdllKSlUyUzEzVTBzOXhwdVRCSk5HTWQ4RmVtdTJFT29ORnNaQzhEQmlVdjNLcmpuV0tlNzYyQUdnUDJhbDZBZjFRMXdFVXpiNm9tUFpoVWh4N25VSU1uWFBNaVhrQdIB0wFBVV95cUxPU0EtWnlhWG81OHdKWlVDUGhrclFUQmFKX0hSLTZCV3JDVWJ0akp5NWFRU09yUnI3dWtubzh0ZjJvbFdTOHk4TnJHSXFRcmE1R3pTV0tlUGxaYkNUVVNXQXdFb0lNMDdOR0NITGtSN1BCMzZqc3NQaDdlay1SU19oNF9OUF9zZkl5elJsQkg2Qm9la2RaVGFGYURYb2p1RlprZkI0OFRrVG1uMlp4UGhZWTdYVWR2X1VLVm9QX1NFczdyaFNFRTMyZjhVNURlZGg5VHRJ?oc=5",
-          "published_at": "2026-10-02T07:00:00+00:00",
-          "snippet": "Asiad 2026: India women end 44-year wait for hockey gold, beat China 1-0 Business Standard",
-          "lexical_overlap": 0.222,
-          "relevance": 0.472,
-          "matched_terms": [
-            "gold",
-            "hockey",
-            "wait",
-            "women"
-          ],
-          "shared_numbers": [
-            "44"
-          ]
-        },
-        {
-          "id": "d29719b4c8c1a02b7e",
+          "id": "4955173f87cfaf2ce0",
           "scope": "news_search",
           "tier": "secondary",
           "source": "The Times of India",
           "source_url": "https://timesofindia.indiatimes.com",
-          "title": "India end 44-year wait, beat China 1-0 to win Asian Games women’s hockey gold - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQc1lGQ3hUMC01TmM2YzRCYklLV2xkbUZ2X2xuTEVLTzJvNzVTamo4TkY4ZUF4MnhzWTlyQU92cFh2eGRWSV9DbEtqUEI3d1NTN3FBd1hLSU0zTmtFdVJPZmRNdjBaU2ZFalQ0Smo0MVhWa1psTm5pQWlzQXJLY2x2enRqVlh2UTZrQmFNSXoxWlBrOUlhMGdIc3VLM2dtbS1RRzE3ZHQ2b2ZMOE5PWm1tT1VfYTNManJ2a3NTWHUtd1U5ZUpEaTRHUktCeklnWFFWcW9UZkJLZnV0MGhNc2hFZ0NVVzMzOW9ZSDlRSzRVcm0yVy1lTEHSAfsBQVVfeXFMTnVaTFB5U1BfekJLemFSNmFqV2Zhcy04SkR3Z3piLVFtYkFRMHdKeEZqMUpJUE1zY3pvRnVwRWRod3V4cWYwVFNpMnZ6ZlJiZTJ4eUVWcDdCS01mZVNwMkxXenExby1VQVItOWZHOXh0aFA0Tlg3c05od0x1TXlIcjBBbHZxVWNjRDJEVmo3SUdBOFJCR3AyaXUwOUhPN1BjTGI5SjhEZnBFU2VwaWVlcE96Uk1DbF9aVEs5elVoMXNqZ2VId3l4SmgzOGcwWVNXQXNwd1JfSzdqUWVxNk0zOHVaSHB1X3BXVmVQUG1JaVQwSFdZM2QxeGQ0V28?oc=5",
-          "published_at": "2026-10-03T07:00:00+00:00",
-          "snippet": "India end 44-year wait, beat China 1-0 to win Asian Games women’s hockey gold The Times of India",
-          "lexical_overlap": 0.211,
-          "relevance": 0.461,
+          "title": "LG directs banks to speed up PM SVANidhi loans as Delhi receives over 4.3 lakh applications - The Times of India",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPNE9HSHFZcnJQWFpueWYtUVlyaXVySHVsczRBUEFyZDBuVFZFcDlEc3dLY2hzQ1NRSlpGUE8tdjNVdGU3MzNfdzZMSE9abmZEVGxNX1VOSE9WOXhCTUJLY2JocHBLYmhzR1d3VVp1amtra0s1RFdjRi1vTGJlSm9FcG1sWUIydXhzSUh2UlBwNFUxN0JZWi15RUptTGczTDJBVmI1Rk1CZ3RRWlpLanR0ZC04anBSQmxvM25DZ2xzSUtYWUxWLWhBWnYwcnRQTC0zRkV0ekZ6RXM3NHVnNG5KU1B0cVZjT1JoU1VsMUhQdnd0SDk4U2lN0gH8AUFVX3lxTE5kbkxlYzgxT1BhbllNVVBGWkZjQXREUmVPRmd5a2F1dWFyblZjRTZrVUhxNUFoanVWQUtxTXpSNzZqaGIwUjRwTnh5dzVJUGU5OGEteHJKY2hTcjRyRmNmVVlPd2FHYUVmZUx4eVNoemFBY3hYT2ttTTYzd3VhVTJJVWdySVZMWjlRclFJRU5HZGx2TXN4cGVOaEZ4NG9QeG16UHRhU0pZd0tHR1g2XzVMOW9jbEpfLUNpc0dTZlV6MFc0TmRQWVBKZkVXQmhoOG12RTJ0eGhvTFZTNVloRkx3WHFKak9sZ0ZVQjB4WHFoZ2o0Y0tmb1dxVV9pbQ?oc=5",
+          "published_at": "2026-06-12T07:00:00+00:00",
+          "snippet": "LG directs banks to speed up PM SVANidhi loans as Delhi receives over 4.3 lakh applications The Times of India",
+          "lexical_overlap": 0.15,
+          "relevance": 0.255,
           "matched_terms": [
-            "gold",
-            "hockey",
-            "wait",
-            "women"
+            "loans",
+            "pm",
+            "svanidhi"
           ],
-          "shared_numbers": [
-            "44"
-          ]
+          "shared_numbers": []
         },
         {
-          "id": "c0a2cc22507391834b",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Economic Times",
-          "source_url": "https://m.economictimes.com",
-          "title": "Asian Games 2026: India end 44-year wait for women's hockey gold, beat China to qualify for 2028 Olympics - The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPVk42MGFYUEVuZHVFTTR1YXNnWWZZaXZDUE9SeHlBVFN1ZU5ZRFJsV0hqTGVtX0hWcm55RTkzXzYtaEVoTUVXTmVVMTlTMEMwblI4dUpCQTlSd1BwRUJ0RTV3NlczMmZ3SUxGdWx0NXV1SWx6cVdiM090UTRaM255RWExRGR3N0l6V24wNmVtd2JxZ3RYeFBTNmVhcG1UR0Q5M0ozVjhMNkhDdFJHdFoyRllUYlpLa2sySTVkWC0zU0hDdjc0ank0dlNqaHQxSGMzdUMyMjV2c01lV1dOQk5TQWJTbnYxUEdSRlpobkpWOVZYVTjSAfgBQVVfeXFMTk8wQVl5dUY3SGc0SFFjeFFrWlBRMlYxY1FmaGxTNG1Lb2xmRzdKQ0dabFJyNWJjXzAwQ2p3U2lvM0NQd05UenlTVDVmQmZrVjdHcS1QMUVZQ2dabDNpbmlEc29KMUtkdkw4RjZJMzk3NjJ5NmRtLTlRbWNBNlZlSGNRTzktR0RzNGQ1UDczTGF6VGE4QlJvaUtWVzRzSUZQNnY1ekYwUE9ITnlTa2RQSEFkM2hoVUdqSHNJelBodzR1OE1TRHJXVnFibWJDNHlCdzktUmxvVTZLNkM2Rm1PdW9Fb3JadVlBWHJXWk0zcjhtMURodmFLcWc?oc=5",
-          "published_at": "2026-10-02T07:00:00+00:00",
-          "snippet": "Asian Games 2026: India end 44-year wait for women's hockey gold, beat China to qualify for 2028 Olympics The Economic Times",
-          "lexical_overlap": 0.19,
-          "relevance": 0.44,
-          "matched_terms": [
-            "gold",
-            "hockey",
-            "wait",
-            "women"
-          ],
-          "shared_numbers": [
-            "44"
-          ]
-        },
-        {
-          "id": "26ce0c7271a092316e",
-          "scope": "broad_official_search",
+          "id": "eb7e0e2bf220518ef5",
+          "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "DD News",
-          "source_url": "https://ddnews.gov.in",
-          "title": "Asian Games: President Murmu, PM Modi congratulate Indian women’s hockey team on historic gold - DD News",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTkoxVjlXbW9lazNhOUhRQ0FFUFh2MF90cENHZUlvM0NrZDhyWmV4Slh2c0ZCOUl1RWV2Y1ZRX3ZzNFVyRE85SWVvNjU4TTREX3JFZ3ZfNm84OUlKeER2NnZYWXYzaFlxTjdjZjhyT0N3TGFqb0hWU21BVDBueXhQd1daNG0wNmtVbjVVNTlfR1VwYloxa1pjWUkwMEx1VkpSUGZmUFl0YkFWaXlIVGtUN0Y5Y08?oc=5",
-          "published_at": "2026-10-03T07:00:00+00:00",
-          "snippet": "Asian Games: President Murmu, PM Modi congratulate Indian women’s hockey team on historic gold DD News",
-          "lexical_overlap": 0.19,
-          "relevance": 0.38,
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "PM SVANidhi: From Survival to Self-Reliance - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9DZktBUHcwT1J0RzBOak53eWUtMVBvem5LS2hEQlAxc2FITG13c2xxY3NPM2tVMkY2djY4Vmc2dklmdFB3OWpZSFJWd3lRM2RYdWhvMDAwV2thV0t3WUhnVGtJOXhoRlNSeVZQQlNoSHRmS2VWMG1lVEtn?oc=5",
+          "published_at": "2026-05-30T07:00:00+00:00",
+          "snippet": "PM SVANidhi: From Survival to Self-Reliance Press Information Bureau",
+          "lexical_overlap": 0.133,
+          "relevance": 0.253,
           "matched_terms": [
-            "gold",
-            "hockey",
-            "team",
-            "women"
+            "pm",
+            "svanidhi"
           ],
           "shared_numbers": [],
           "nli": {
             "entailment": 0.0012,
-            "neutral": 0.9606,
-            "contradiction": 0.0382
+            "neutral": 0.9863,
+            "contradiction": 0.0125
           }
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "primary_evidence_found",
-        "label": "Relevant verified primary evidence candidate found",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "c6503376f84ce30798",
-      "claim": "In cricket, both our teams won medals for the second consecutive time and, in fact, repeated their own record.",
-      "extraction": {
-        "reasons": [
-          "comparison"
-        ],
-        "numbers": [],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7306e5f6c2d302d152f2",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address during interaction with the participants of Asian Games 2026",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-interaction-with-the-participants-of-asian-games-2026/",
-        "published_at": "2026-10-15T14:00:34+00:00"
-      },
-      "query": "cricket both teams won medals second",
-      "numbers": [],
-      "promise_matches": [],
-      "evidence": [
-        {
-          "id": "f5487f8502d13c381d",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "BCCI",
-          "source_url": "https://www.bcci.tv",
-          "title": "India’s Asian Games Gold-Winning Cricket Teams Meet PM Modi - BCCI",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaFVVclVSdTd3Q2lIazRLalpQWHZqdm5ZU3BlN0NBZGhGVUNPUF9sUndKclNiTmRaM0J1SG1QRXlZUVhTX3BqM3hWbDYxR2I2RENjaG9IMXRGd1dGSnlrUkhfcE5mam9MUnVMM3hjLVVQX3JMbzBEUnZNd2ZkRVFVTjB6R05pU3JmMXhCRG5oWVFSZzNFRFE?oc=5",
-          "published_at": "2026-10-16T04:10:37+00:00",
-          "snippet": "India’s Asian Games Gold-Winning Cricket Teams Meet PM Modi BCCI",
-          "lexical_overlap": 0.111,
-          "relevance": 0.181,
-          "matched_terms": [
-            "cricket",
-            "teams"
-          ],
-          "shared_numbers": []
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "54f4567cf67bedad56",
-      "claim": "Outstanding performances in shooting, major successes in boxing and wrestling, new records in athletics, a medal in weightlifting after twenty-eight years, and India’s success in marathon events for the first time since 1982.",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "1982"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7306e5f6c2d302d152f2",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address during interaction with the participants of Asian Games 2026",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-interaction-with-the-participants-of-asian-games-2026/",
-        "published_at": "2026-10-15T14:00:34+00:00"
-      },
-      "query": "1982 outstanding performances shooting major successes boxing",
-      "numbers": [
-        "1982"
-      ],
-      "promise_matches": [],
-      "evidence": [],
-      "fact_checks": [],
-      "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "92e5474bb83cc0df4c",
-      "claim": "Out of the 85 medals won by India, 38 medals were won by our women athletes.",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "85",
-          "38"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7306e5f6c2d302d152f2",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address during interaction with the participants of Asian Games 2026",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-interaction-with-the-participants-of-asian-games-2026/",
-        "published_at": "2026-10-15T14:00:34+00:00"
-      },
-      "query": "38 85 medals won out were women athletes",
-      "numbers": [
-        "38",
-        "85"
-      ],
-      "promise_matches": [],
-      "evidence": [
-        {
-          "id": "c0fc676cfbc8ae3fe4",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Hindu",
-          "source_url": "https://www.thehindu.com",
-          "title": "Modi praises women athletes for winning 38 of India’s 85 Asian Games medals - The Hindu",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOLVpJYzdpeFBsZlBQcHVPNGNNc0lBUGFnZEZUVWFqa3ZKalZENFVacWJJcTJGTUxCcUpvd1VGbFY3WHlJa0tVNzVhVjBRODFIeGx5TU16Ul9Hck5abmlxOXJEMlNjb2o0a3Juem4xcTVmYXBHZl9oV3lhbkcycFkwZ0ItMlRoVmd5c1F1VUsteGhTU1JYaUU4OWJhSkhCRVRORkxtZlYzUnUxNUdoeUtKR0dhTXRLSjZRNk9vU0FJZ0JWNnZBLVhObEUzSjduZw?oc=5",
-          "published_at": "2026-10-15T07:00:00+00:00",
-          "snippet": "Modi praises women athletes for winning 38 of India’s 85 Asian Games medals The Hindu",
-          "lexical_overlap": 0.273,
-          "relevance": 0.598,
-          "matched_terms": [
-            "athletes",
-            "medals",
-            "women"
-          ],
-          "shared_numbers": [
-            "38",
-            "85"
-          ]
         },
         {
-          "id": "4c3e2075b0f7218698",
+          "id": "2dba54a7c6bab0b7ac",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "India Tribune - Chicago",
-          "source_url": "https://indiatribune.com",
-          "title": "'38 medals won by women is a picture of new India': PM Modi hails 'daughters' of nation - India Tribune - Chicago",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSURtLUdMSVFjVnQxWDhjNXpPa0oxbl9jUmpjX3NFTm1CdFFsMGNoQ29vZ2V5bGxObTlKWl9heFRWelVQdmZINjNoMnZ6YmM4SmFlRkdrcVRzemtKc192bFdXR1llTHYtUTVzNHl6eU5HbnFka1dkRzZSLVFNN1E1VTFtMzBGRVozLVRqbUNqZGhZc3hMQ09WWktJdW5fbFAyRktVSXJiTF93LTV2eHI1WmdzcWM?oc=5",
-          "published_at": "2026-10-15T07:00:00+00:00",
-          "snippet": "'38 medals won by women is a picture of new India': PM Modi hails 'daughters' of nation India Tribune - Chicago",
-          "lexical_overlap": 0.231,
-          "relevance": 0.446,
-          "matched_terms": [
-            "medals",
-            "women",
-            "won"
-          ],
-          "shared_numbers": [
-            "38"
-          ]
-        },
-        {
-          "id": "ea6567086a37bd713f",
-          "scope": "broad_official_search",
-          "tier": "primary",
-          "source": "DD News",
-          "source_url": "https://ddnews.gov.in",
-          "title": "Asian Games 2026: India signs off with 85 medals after Gold rush in cricket, hockey and kabaddi - DD News",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYzcyV1NDejVqM1JEZTRSRzQ1am9oRl95dlZ2b1ZWMEpnWFNobjNVeks5OEJSenlsMDMzd2Q0aGtxX1l1Nmk0azZ6TUx2QUtSTHBDdnhTVlRZem01SWhqX19JT1cyMFBybVExSzJZRHVjV2QzUmsyX3hHbU1WeF9LakMxVlprUmlNSktTS1pEck50MXViTTI0QW5tN0d0Vjd2NTE2RFl0dm85MHFiOGNrRVBsNWptWnpiRnBB?oc=5",
-          "published_at": "2026-10-04T07:00:00+00:00",
-          "snippet": "Asian Games 2026: India signs off with 85 medals after Gold rush in cricket, hockey and kabaddi DD News",
-          "lexical_overlap": 0.056,
-          "relevance": 0.251,
-          "matched_terms": [
-            "medals"
-          ],
-          "shared_numbers": [
-            "85"
-          ]
-        },
-        {
-          "id": "3a704178b04f313c2e",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Moneycontrol.com",
-          "source_url": "https://www.moneycontrol.com",
-          "title": "PM Narendra Modi meets Asian Games medallists, underlines splendid show by women athletes as 'special moment for India' - Moneycontrol.com",
-          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNX19ZT3RUekdPSWpseEU5SDd6WXRWVWFQMFhYbWtMSkNZVDI4YU5CNDJ0VTVYWjJhNUNRZUZ5a3ZUa0JEYlJTN01lYmFuMFhVZTh5eTZUUENQLUtSU2NUWXRkbks2dlZNTHBSR19EdGpocDVPQU04Vm5ZRWdsUDJad2Q5YTdFeWpqdkVnWjhXcWItd2xpYjZlTGxRM2xhMko0MEkyOGdRZHp0blUyTjgxVkZTNmE4bjV1c3NEUXpwcGF3N0FCSk1NNzRUcGhUb1hzWEhjWjRZSURod0dJUnBqNGhsOXpCbXhhektYd2FIMHExMGVndklsT09odmlRaHppVDhhdA?oc=5",
-          "published_at": "2026-10-15T07:00:00+00:00",
-          "snippet": "PM Narendra Modi meets Asian Games medallists, underlines splendid show by women athletes as 'special moment for India' Moneycontrol.com",
-          "lexical_overlap": 0.111,
-          "relevance": 0.181,
-          "matched_terms": [
-            "athletes",
-            "women"
-          ],
-          "shared_numbers": []
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "4fc123ec978ead3424",
-      "claim": "Among them were 11 gold medals as well.",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "11"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7306e5f6c2d302d152f2",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address during interaction with the participants of Asian Games 2026",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-interaction-with-the-participants-of-asian-games-2026/",
-        "published_at": "2026-10-15T14:00:34+00:00"
-      },
-      "query": "11 among them were gold medals well",
-      "numbers": [
-        "11"
-      ],
-      "promise_matches": [],
-      "evidence": [
-        {
-          "id": "d9c277eb2c96101ab9",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Indian Students bag 3 Gold, 11 Silver medals at International Olympiads - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PZmsxV2VaaWV1YWF1Ym9DNFljQy1LWDdzbXZ6cERrUUZfYnhkVVN3X2RNWTdYTnhLSFlDZEpHb29RTGF0djc1bVFYYlBQeWJSMFE4MGlKbUdadnhzTVgtMmI1alRuclp6RG5pXzBpXzc?oc=5",
-          "published_at": "2022-07-22T07:00:00+00:00",
-          "snippet": "Indian Students bag 3 Gold, 11 Silver medals at International Olympiads Press Information Bureau",
+          "source": "Organiser",
+          "source_url": "https://organiser.org",
+          "title": "PM SVANidhi Success Story: How Modi Govt’s street vendor scheme transformed more than 75 lakh lives across Bharat - Organiser",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQZGlSaVEwQjRSNVA5MXgzMWNGZEtFZTBpWHlKMGxZblJwNi0xWWthMDVLdW5HS1lxbkEyMFJSX000TjVjVmEwblYtenBfV292YmtGMjRseWxZcDY5U0NuamNxSzBwWHk3VUpJdDFPQXB3MzJmOG9oYW9TeGRBNXBYV1BLaXAzMG9nZkszMlk2NGlMLWRNNVo4a3RmMnhEMmRvbHY4MmhleW8zWlRjTmttSVQzaVR3a2E3SVppYy1XS2g4SG5HNVdzaWM2ME5LM3BjbF9mTWlWOUFZRkxKSGNqLUVqSU9HekR2WXAxS0xJZ2PSAfYBQVVfeXFMTlFiNC1xcGVJOFZxc25ZNElMOU1VN2lVQ3BLZHNScGxwRllyaVFoZks1b2tLX2loN0thR0pZZm9BSkJ0d00xYmhzV0w4V01NNGN2ekR3bXc4OTRUTkdHUnh1M2s0blZ0Y1BBam02UmlRVmZJcGJSWUNiY3RhdDlyMXk5TVpoOVdBYzFDNVJLeFNGS3RxRUkxZDM1ZE5peEt4azJWVjR4M2ZIalozMVh2aHF1clo3MFl5Nk1SN2JYbG9sLUN3SFU1UmRVUzhjem14cmhiUXAwZTJvOGlWTzl0NklMZTBILVBBMFlTbG1xSl9FY2VOQm5R?oc=5",
+          "published_at": "2026-05-31T07:00:00+00:00",
+          "snippet": "PM SVANidhi Success Story: How Modi Govt’s street vendor scheme transformed more than 75 lakh lives across Bharat Organiser",
           "lexical_overlap": 0.143,
-          "relevance": 0.373,
+          "relevance": 0.248,
           "matched_terms": [
-            "gold",
-            "medals"
-          ],
-          "shared_numbers": [
-            "11"
-          ],
-          "nli": {
-            "entailment": 0.428,
-            "neutral": 0.5683,
-            "contradiction": 0.0037
-          }
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "structured_support_candidate",
-        "label": "Relevant primary evidence shares claim terms and numeric values",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "2c0e6bc38ae2653564",
-      "claim": "In Mixed Martial Arts, Soft Tennis, and certain sailing events, our players created new history by winning medals for the first time.",
-      "extraction": {
-        "reasons": [
-          "accomplishment"
-        ],
-        "numbers": [],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7306e5f6c2d302d152f2",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address during interaction with the participants of Asian Games 2026",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-interaction-with-the-participants-of-asian-games-2026/",
-        "published_at": "2026-10-15T14:00:34+00:00"
-      },
-      "query": "mixed martial arts soft tennis certain",
-      "numbers": [],
-      "promise_matches": [],
-      "evidence": [],
-      "fact_checks": [],
-      "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "eaf894d11c6d2020fd",
-      "claim": "Friends, Over the past 12 years, India too has worked with great patience and dedication on its sportspersons and its sports ecosystem.",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "12 years"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7306e5f6c2d302d152f2",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address during interaction with the participants of Asian Games 2026",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-interaction-with-the-participants-of-asian-games-2026/",
-        "published_at": "2026-10-15T14:00:34+00:00"
-      },
-      "query": "12 friends past too has worked great",
-      "numbers": [
-        "12"
-      ],
-      "promise_matches": [
-        {
-          "id": "BJP-2024-9cd3e77be7238c9398",
-          "year": 2024,
-          "category": "jobs_economy",
-          "page": 64,
-          "anchor": "Promote Sports Startups We will promote startups in sports and help create a technology …",
-          "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
-          "similarity": 0.143,
-          "matched_terms": [
-            "ecosystem",
-            "sports"
-          ]
-        }
-      ],
-      "evidence": [
-        {
-          "id": "c8623ca5aee703701d",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "WDTV 5",
-          "source_url": "https://www.wdtv.com",
-          "title": "12-year-old hit, killed by car while walking with friends was ‘taken way too soon,’ mom says - WDTV 5",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQLTRFbHl2U2k3N01DODNSNDM0Zzg3ajRaTE8tNGQ3ejd1VVlXdi1xUXZsTjd6Qk9LcnRfNl9lWG1nT1lTbHpnYlQzczF1eHNTcy04NkFsdzZkOUdFRmlfdVI4Z3BQTHRCbXhCbm5IcEZvRGxSbUZ5WW83SXZkWFd1a2dxbUFDeFY5dnRvY3d4clhiQmxGTkVUN3NscFA5bUNrakJlY3gzTDY2ZU9uTnBYTlhuS3c1VnRjdEdZbk1B0gHSAUFVX3lxTFBxcl93WnU1Tk9HZm9saDV6bE1BUHk1V29POXE3MzNycWljUGVCOVpBbVByU0pjVDRTRzk2MW4zcE42RHA5SERPNV9xdTVZYy1CNHZnN1NkbUp1MkQyT0M1X0VzT0I2aTk5YWh0d0Y1dHhUS0JfV2tLTnpadWt3TWlhUzJVSUh5NnZvZFFUNUVXeUZkZm9kTlQ0SWRxY2VXSDMxNUpEZHNMNmlxLVQ4bHdfblQ5aHhXNXpsX081TE0zekJGVFljalFiZnRCSFpGd2dwUQ?oc=5",
-          "published_at": "2026-09-22T07:00:00+00:00",
-          "snippet": "12-year-old hit, killed by car while walking with friends was ‘taken way too soon,’ mom says WDTV 5",
-          "lexical_overlap": 0.087,
-          "relevance": 0.267,
-          "matched_terms": [
-            "friends",
-            "too"
-          ],
-          "shared_numbers": [
-            "12"
-          ]
-        },
-        {
-          "id": "c66b229102d50b7f32",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Guardian",
-          "source_url": "https://www.theguardian.com",
-          "title": "So pleased to meet you: why it’s never too late to make close friends - The Guardian",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOLXNyV2NyYTFyYXRSUVhtUldJSWJqTHNNT2ttcHE0R3FVVTQyeTB6dmktdG4tc19nMGFQMndVaFROQUp3MjFIaUxiWFhnTDVqM24tQzl2SkdSeVhjTTlqYjZ4Ykdrc2VWUm1GWEJpaVZyTElZVGJzb1RaZnVwU09iY1o0eXVSdmo3YkFmWUpWNVJWUVlTMEpkVWJpZjU1cXZNSmZRdUZ0THJTOFdnWG92UGRVMW1fT0J0dHFJQnZIaVZ5dzFfeXZXcGViRTc?oc=5",
-          "published_at": "2023-05-14T07:00:00+00:00",
-          "snippet": "So pleased to meet you: why it’s never too late to make close friends The Guardian",
-          "lexical_overlap": 0.095,
-          "relevance": 0.165,
-          "matched_terms": [
-            "friends",
-            "too"
-          ],
-          "shared_numbers": []
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "b8900397e61c3c1fa9",
-      "claim": "There used to be huge events such as the Olympics, yet India had no representation in more than half of the sports.",
-      "extraction": {
-        "reasons": [
-          "comparison"
-        ],
-        "numbers": [],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7306e5f6c2d302d152f2",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address during interaction with the participants of Asian Games 2026",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-interaction-with-the-participants-of-asian-games-2026/",
-        "published_at": "2026-10-15T14:00:34+00:00"
-      },
-      "query": "there used huge events olympics yet",
-      "numbers": [],
-      "promise_matches": [],
-      "evidence": [],
-      "fact_checks": [],
-      "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "932398a833189acad2",
-      "claim": "Over the past 10–12 years, the country worked continuously with dedication and sincerity, pursued a long-term vision, and built a transparent and modern ecosystem for sports.",
-      "extraction": {
-        "reasons": [
-          "number",
-          "accomplishment"
-        ],
-        "numbers": [
-          "10",
-          "12 years"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7306e5f6c2d302d152f2",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address during interaction with the participants of Asian Games 2026",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-interaction-with-the-participants-of-asian-games-2026/",
-        "published_at": "2026-10-15T14:00:34+00:00"
-      },
-      "query": "12 10 past worked continuously dedication sincerity pursued",
-      "numbers": [
-        "10",
-        "12"
-      ],
-      "promise_matches": [],
-      "evidence": [],
-      "fact_checks": [],
-      "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "47f28dd1ec0e8f34f5",
-      "claim": "As all of you know, we launched the Target Olympic Podium Scheme (TOPS).",
-      "extraction": {
-        "reasons": [
-          "accomplishment"
-        ],
-        "numbers": [],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7306e5f6c2d302d152f2",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address during interaction with the participants of Asian Games 2026",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-interaction-with-the-participants-of-asian-games-2026/",
-        "published_at": "2026-10-15T14:00:34+00:00"
-      },
-      "query": "you know launched target olympic podium",
-      "numbers": [],
-      "promise_matches": [],
-      "evidence": [
-        {
-          "id": "c6dae4c1e4a6ab9a76",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "ClearIAS",
-          "source_url": "https://www.clearias.com",
-          "title": "Target Olympic Podium Scheme (TOPS) - ClearIAS",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBCOHVSZFQ5ZkFkdE1GYW53V3piTFJQWVNSNHJkZW9FU0hGT0pCa2VhdGlnSDFsc2toamNIemc3OExheERuTlhBQUZNclo0Tl84MEFmdGlRd1ZSX0Y3SXdTT2FsR3BaSi1hbW5r?oc=5",
-          "published_at": "2023-10-15T07:00:00+00:00",
-          "snippet": "Target Olympic Podium Scheme (TOPS) ClearIAS",
-          "lexical_overlap": 0.556,
-          "relevance": 0.731,
-          "matched_terms": [
-            "olympic",
-            "podium",
-            "scheme",
-            "target",
-            "tops"
+            "pm",
+            "street",
+            "svanidhi"
           ],
           "shared_numbers": []
         },
         {
-          "id": "efe8a216adccbc1563",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "94 athletes included in the Target Olympic Podium Scheme of Ministry of YAS: Sh. KirenRijiju - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5CaDNjM1NidmlZal95TkhvQ00ycW9UUGYyOE5Jc3FtRjFjN3BxRDAzMVJsVE8tdWpmSFRwZS1HdHFGM0lnMXRnU1BDZWV5TENuamw4WWIwNWd5OU1Sa0p2R1hsbnFzbU1K?oc=5",
-          "published_at": "2020-09-14T07:00:00+00:00",
-          "snippet": "94 athletes included in the Target Olympic Podium Scheme of Ministry of YAS: Sh. KirenRijiju Press Information Bureau",
-          "lexical_overlap": 0.235,
-          "relevance": 0.425,
-          "matched_terms": [
-            "olympic",
-            "podium",
-            "scheme",
-            "target"
-          ],
-          "shared_numbers": [],
-          "nli": {
-            "entailment": 0.0085,
-            "neutral": 0.7767,
-            "contradiction": 0.2147
-          }
-        },
-        {
-          "id": "f0aaf3b687ca090873",
+          "id": "10ab72a0082de17f60",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Firstpost",
-          "source_url": "https://www.firstpost.com",
-          "title": "Target Olympic Podium Scheme core group trimmed down by sport ministry; Neeraj retained, multiple medallist... - Firstpost",
-          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQZ0ZlaGdCSjlZY01TSlFtM0ZNdFpIb0NTUU5ubjdyemR6M2FZMnZxR0JQZDZSZG1IZWI4UGtuUVNmaWExNmtRVHpaYWdubUFuVW5vRGd4eWlnd0hLMDdubEhRcXZVRy1CNndMa0IyYTlINHp1NDZOWUtDN20zSUpPd0xUaTRxZ2hyUVJEMlRReTVKNGV1VzJCQkVaMHc4aTEzRUxoTWQ5ZV9tanI3T1VicTBGVnZZb2NhUTh2aTNVQ01RSHYyWVBoeVZGUjVVOXVLUW50M29RUFNxOTI2MFlabFFJNllHZ2ZqS2wtNW1MNzV5cUHSAfgBQVVfeXFMTTRrWUVOanR5aDlRWTY5MzdVOUJnS1pFZHVYQXdQempmbE50X3Z5T0NoQ1RkUi1NblBobURDVWdhR3RyMHMwYnhJdnZfdU5YUzlBM2YtNU1fRnBmbURrY19uMVlsYnRPUHR2X0I5X243eHFOdDhIbUFKTGhiZEQ3WHNsVG15dW9RN0ZrOWpBcGZTaXBuWlFTQTctZTc5azlJRDVuajRfOUVXcVc5Snd1c2pHVDhqVmM0WFFnRlNMVkJ3aUgteHNmb0VBNDlCNGNiSUVxaVBlT2VRekhOZ3Z2TU9jNHlzQndmV2pCRjIxWFhOZklHY0dYOTY?oc=5",
-          "published_at": "2025-02-22T08:00:00+00:00",
-          "snippet": "Target Olympic Podium Scheme core group trimmed down by sport ministry; Neeraj retained, multiple medallist... Firstpost",
-          "lexical_overlap": 0.211,
-          "relevance": 0.351,
+          "source": "CMO Gujarat",
+          "source_url": "https://cmogujarat.gov.in",
+          "title": "PM SVANidhi Yojana convened in Ahmedabad - CMO Gujarat",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMW5KTTdDa1ZpNE01OWZZMHZoZFZvdTM4ako5TDc0WVJ2eVU1S3FDYnFPVHkycUx6RC00VWJqbDI2YW8wNlFNZHhYWDJtWGJTd1dWOWpyY1BUOWY3Rm9VTWZUb0lEN3lJQ1FBenV0eGpDakU4VzJSdWRWbXJubml0WmpTd3Q?oc=5",
+          "published_at": "2023-12-24T08:00:00+00:00",
+          "snippet": "PM SVANidhi Yojana convened in Ahmedabad CMO Gujarat",
+          "lexical_overlap": 0.133,
+          "relevance": 0.203,
           "matched_terms": [
-            "olympic",
-            "podium",
-            "scheme",
-            "target"
+            "pm",
+            "svanidhi"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "2d5a3567fb9906dfd2",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "News On AIR",
+          "source_url": "https://newsonair.gov.in",
+          "title": "PM SVANidhi scheme completes six years of implementation - News On AIR",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRWdHWlR4U0JfVVFKeEExMk5TWUNZT1hVZ2xpeHNyQl9DU2s4aG5PYlRqX3djOWpNVUtmTWxDd2IzUENFNHJodW1lYlJSUDZRQlh1dU1ndlRLUmNUd1IwSVVTNkJGeGttMXpFOThsM29NRWtBSS14SnpyQ1RGaF9zM0RoNU55RENJSEE?oc=5",
+          "published_at": "2026-06-01T07:00:00+00:00",
+          "snippet": "PM SVANidhi scheme completes six years of implementation News On AIR",
+          "lexical_overlap": 0.125,
+          "relevance": 0.195,
+          "matched_terms": [
+            "pm",
+            "svanidhi"
           ],
           "shared_numbers": []
         }
@@ -886,174 +882,6 @@
       "signal": {
         "level": "primary_evidence_found",
         "label": "Relevant verified primary evidence candidate found",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "ea0a14718ba9e0d486",
-      "claim": "We launched the Khelo India Scheme.",
-      "extraction": {
-        "reasons": [
-          "accomplishment"
-        ],
-        "numbers": [],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7306e5f6c2d302d152f2",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address during interaction with the participants of Asian Games 2026",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-interaction-with-the-participants-of-asian-games-2026/",
-        "published_at": "2026-10-15T14:00:34+00:00"
-      },
-      "query": "launched khelo scheme",
-      "numbers": [],
-      "promise_matches": [
-        {
-          "id": "BJP-2024-6018d529261fd26abe",
-          "year": 2024,
-          "category": "infrastructure",
-          "page": 64,
-          "anchor": "Including More Traditional Sports Under Khelo India We will include more traditional sports under …",
-          "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
-          "similarity": 0.286,
-          "matched_terms": [
-            "khelo",
-            "scheme"
-          ]
-        }
-      ],
-      "evidence": [
-        {
-          "id": "c93a53a33e57f82557",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Khelo India Scheme - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5PS290Z1NvZmlnTkJ4c1htNGU1bmQ3SjMwcGZqc2thMVFMV1VnVHBSNXJMMXEtRWxqVmc2TU1ZUWpJc2xXNWFqWUplcVZlOHJ3by1SS0J4aUExbUdVRThDU24zSDlWX05wT0E?oc=5",
-          "published_at": "2019-06-27T07:00:00+00:00",
-          "snippet": "Khelo India Scheme Press Information Bureau",
-          "lexical_overlap": 0.333,
-          "relevance": 0.453,
-          "matched_terms": [
-            "khelo",
-            "scheme"
-          ],
-          "shared_numbers": [],
-          "nli": {
-            "entailment": 0.1201,
-            "neutral": 0.78,
-            "contradiction": 0.0998
-          }
-        },
-        {
-          "id": "544f909deceecf4adb",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "IMPLEMENTATION OF KHELO INDIA SCHEME - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE42LWJmTktOSVExSU8yZ2JNcDBhbUsyZnFhdktCVTl2LXZXUVRrb3V0X091aVlCSXlLM291LXdhekdwN2g5ZTBUMXJHS0h0MHAtYVo0d1RleW5BYlpyQU9nMWZWbDJqQ01qcHRtLV9rSVU?oc=5",
-          "published_at": "2024-11-28T08:00:00+00:00",
-          "snippet": "IMPLEMENTATION OF KHELO INDIA SCHEME Press Information Bureau",
-          "lexical_overlap": 0.286,
-          "relevance": 0.406,
-          "matched_terms": [
-            "khelo",
-            "scheme"
-          ],
-          "shared_numbers": [],
-          "nli": {
-            "entailment": 0.1029,
-            "neutral": 0.8309,
-            "contradiction": 0.0662
-          }
-        },
-        {
-          "id": "25878eb16d1dab29ff",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Economic Times",
-          "source_url": "https://m.economictimes.com",
-          "title": "Sports Minister announces introduction of multiple Games under Khelo India scheme - The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNcVdjVy1lalN0azlvSUtvVlE4b09nSW05WEVzTDVDbUJJbWo1TEw4WU1hRV9GNWZtWnFJam81am8tbHVDNmJITHltdUFBNHdYcHJhWWdCSFJWMkQ1NDE2VnlQeXJDNkFpSS05WGtxMENOZWx3N2RnVzhrMlB3ZmV0QTBpaFNUMFFhYTB6ZTQ2cnFLcEhwZUVZQWZSdXF2Q2daWDlmbjlvUmpNWV9lSXRJUXJ1b1B4ZGl2MXRfcmFsa1hqYWZPYUF6dlFfNjNNSW85UEJBVl9aNUpEekIwRDVGSdIB5gFBVV95cUxPS2xoNUV5bXc0S0ZNNzdpZXR0WnEwczlhVFRWWno3aE1kUHRPaDhyNGlmWFBtVHdweFd3VXptVktWOExKT24xdThibld6bXpYcUxrSEhRRi1kRGlwU3pTM2duRTFBRGtMRmd6WVhsVDVQcUhkVW9YcEJ5NFJMLXRBYWdwbTFEWmw3U0lIYjREZWhvMlAxb0dldTZlaTNWUEk2RkNtLW5WQVBJRlhQVXZLTW82M2p0THBFS0twZDB1T1NNZDdmZnBUSkRob3pYcVF0bXpLdW1OcFhRTFBCQVZzNEtEbGZWUQ?oc=5",
-          "published_at": "2025-05-18T07:00:00+00:00",
-          "snippet": "Sports Minister announces introduction of multiple Games under Khelo India scheme The Economic Times",
-          "lexical_overlap": 0.2,
-          "relevance": 0.27,
-          "matched_terms": [
-            "khelo",
-            "scheme"
-          ],
-          "shared_numbers": []
-        },
-        {
-          "id": "49d9663d793b376828",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "DD News",
-          "source_url": "https://ddnews.gov.in",
-          "title": "Khelo India Tribal Games: Logo, theme song, mascot launched in Bilaspur; Mandaviya says games will ‘broaden scope for every athlete’ | DD News - DD News",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxObHhQeDl1ZUNqdHBBN3Z1U0dHTVJpT29EQXpmUk9CVmoyWGNjR25DVW55LU5Da0lITEktUFBTdGtFa1RORF94OUttekpWYkc4b3VhZDBJXzNvLXBxUlhpQmtqY2YzUk1WYldSeDJyYnZ2eTZfa1labGYxYW5Hdk1Qa2V0NmxQaXR1VGMzNzR1amxmZC1HVDJ5cTBLRTYtX3Z0clllMlB2MlZneDY1Nkxwa2NGVS1mTFVNeTRMUzRNYXAxUklpYWVPMU1GYkNrUWNWNXlEWlk5REgzMHdpbnJWd01jTXVGbFk?oc=5",
-          "published_at": "2025-12-24T08:00:00+00:00",
-          "snippet": "Khelo India Tribal Games: Logo, theme song, mascot launched in Bilaspur; Mandaviya says games will ‘broaden scope for every athlete’ | DD News DD News",
-          "lexical_overlap": 0.118,
-          "relevance": 0.188,
-          "matched_terms": [
-            "khelo",
-            "launched"
-          ],
-          "shared_numbers": []
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "primary_evidence_found",
-        "label": "Relevant verified primary evidence candidate found",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "3bd7b7082f67fcec8b",
-      "claim": "As Mansukh Bhai mentioned earlier, more than ₹36,000 crore has been allocated for expanding Khelo India and strengthening sports federations.",
-      "extraction": {
-        "reasons": [
-          "number",
-          "comparison"
-        ],
-        "numbers": [
-          "₹36,000 crore"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7306e5f6c2d302d152f2",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address during interaction with the participants of Asian Games 2026",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-interaction-with-the-participants-of-asian-games-2026/",
-        "published_at": "2026-10-15T14:00:34+00:00"
-      },
-      "query": "36000 mansukh bhai mentioned earlier than crore",
-      "numbers": [
-        "36000"
-      ],
-      "promise_matches": [],
-      "evidence": [],
-      "fact_checks": [],
-      "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -1133,6 +961,30 @@
       "last_seen": "2026-10-01T09:05:21+00:00",
       "latest_checked_at": "2026-10-14T05:27:17.808413+00:00",
       "latest_claim_packet_id": "c2a19aa48972aa09e4"
+    },
+    {
+      "id": "d69b475913c2b0dd0b",
+      "canonical_claim": "A select few in Delhi and those connected with influential circles were granted loans worth thousands of crores through phone calls.",
+      "occurrences": [
+        {
+          "id": "7927a054d6a2702f32",
+          "text": "A select few in Delhi and those connected with influential circles were granted loans worth thousands of crores through phone calls.",
+          "source_title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
+          "published_at": "2026-10-25T13:30:15+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-10-27T07:50:11.259979+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-25T13:30:15+00:00",
+      "last_seen": "2026-10-25T13:30:15+00:00",
+      "latest_checked_at": "2026-10-27T07:50:11.259988+00:00",
+      "latest_claim_packet_id": "d4aab404e9ccc6ccf7"
     },
     {
       "id": "f8d1c60320c62e7358",
@@ -1378,6 +1230,30 @@
       "latest_claim_packet_id": "3bd7b7082f67fcec8b"
     },
     {
+      "id": "0461518ff6eb38dc4c",
+      "canonical_claim": "As Nirmala ji mentioned just now, this has been made possible solely because of the approximately 59 to 60 crore Jan Dhan accounts opened in the country.",
+      "occurrences": [
+        {
+          "id": "4fe291db72220c26c2",
+          "text": "As Nirmala ji mentioned just now, this has been made possible solely because of the approximately 59 to 60 crore Jan Dhan accounts opened in the country.",
+          "source_title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
+          "published_at": "2026-10-25T13:30:15+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-10-27T07:50:11.265123+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-25T13:30:15+00:00",
+      "last_seen": "2026-10-25T13:30:15+00:00",
+      "latest_checked_at": "2026-10-27T07:50:11.265134+00:00",
+      "latest_claim_packet_id": "884558fa72add4403d"
+    },
+    {
       "id": "bb2bbbcd65358742a3",
       "canonical_claim": "As all of you know, we launched the Target Olympic Podium Scheme (TOPS).",
       "occurrences": [
@@ -1450,6 +1326,30 @@
       "latest_claim_packet_id": "3fe413ee0ae3f4f61a"
     },
     {
+      "id": "53bd5c7c9acdb520ca",
+      "canonical_claim": "But prior to 2014, there was an entirely different era of ‘phone banking’.",
+      "occurrences": [
+        {
+          "id": "55038aa8024751b867",
+          "text": "But prior to 2014, there was an entirely different era of ‘phone banking’.",
+          "source_title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
+          "published_at": "2026-10-25T13:30:15+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-10-27T07:50:11.258438+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-25T13:30:15+00:00",
+      "last_seen": "2026-10-25T13:30:15+00:00",
+      "latest_checked_at": "2026-10-27T07:50:11.258450+00:00",
+      "latest_claim_packet_id": "60ae96f665f22ef03b"
+    },
+    {
       "id": "cea6c7e36bb7620cc4",
       "canonical_claim": "Excellencies, delegates from around the world, leaders from business and industry, policymakers, and my friends.",
       "occurrences": [
@@ -1472,6 +1372,30 @@
       "last_seen": "2026-10-13T06:13:56+00:00",
       "latest_checked_at": "2026-10-21T05:21:35.013794+00:00",
       "latest_claim_packet_id": "9b5ed131949ff05d1c"
+    },
+    {
+      "id": "81157cb28db5cd4721",
+      "canonical_claim": "Friends, After independence, large cities were developed in the country, grand institutions were established, large hospitals were built, and massive airports were constructed.",
+      "occurrences": [
+        {
+          "id": "f520e9b563535a1ae4",
+          "text": "Friends, After independence, large cities were developed in the country, grand institutions were established, large hospitals were built, and massive airports were constructed.",
+          "source_title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
+          "published_at": "2026-10-25T13:30:15+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-10-27T07:50:11.250466+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-25T13:30:15+00:00",
+      "last_seen": "2026-10-25T13:30:15+00:00",
+      "latest_checked_at": "2026-10-27T07:50:11.250508+00:00",
+      "latest_claim_packet_id": "b8d4ab680299139905"
     },
     {
       "id": "ff7ab91027caedf021",
@@ -1520,6 +1444,30 @@
       "last_seen": "2026-10-01T09:05:21+00:00",
       "latest_checked_at": "2026-10-08T06:41:45.097232+00:00",
       "latest_claim_packet_id": "e9ef5ba17322492eb6"
+    },
+    {
+      "id": "4932176a1f7f05c90f",
+      "canonical_claim": "Friends, It was from this very land of Odisha that a former Prime Minister of the country once stated that when one rupee is sent from Delhi, only 15 paise reaches the people.",
+      "occurrences": [
+        {
+          "id": "2a3ad9492448c6e716",
+          "text": "Friends, It was from this very land of Odisha that a former Prime Minister of the country once stated that when one rupee is sent from Delhi, only 15 paise reaches the people.",
+          "source_title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
+          "published_at": "2026-10-25T13:30:15+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "reporting_found",
+      "human_reviewed": false,
+      "created_at": "2026-10-27T07:50:11.263422+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-25T13:30:15+00:00",
+      "last_seen": "2026-10-25T13:30:15+00:00",
+      "latest_checked_at": "2026-10-27T07:50:11.263430+00:00",
+      "latest_claim_packet_id": "dac6e2327ebe0bd17a"
     },
     {
       "id": "668ffb0340c95c433d",
@@ -1714,6 +1662,30 @@
       "latest_claim_packet_id": "91f80f8f9486c34723"
     },
     {
+      "id": "60742666ead176cff0",
+      "canonical_claim": "From small entrepreneurs to traditional artisans, from street vendors to workers in the unorganised sector, they have received the benefits of formal banking for the first time.",
+      "occurrences": [
+        {
+          "id": "96a44a13328d6b219e",
+          "text": "From small entrepreneurs to traditional artisans, from street vendors to workers in the unorganised sector, they have received the benefits of formal banking for the first time.",
+          "source_title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
+          "published_at": "2026-10-25T13:30:15+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-10-27T07:50:11.266882+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-25T13:30:15+00:00",
+      "last_seen": "2026-10-25T13:30:15+00:00",
+      "latest_checked_at": "2026-10-27T07:50:11.266891+00:00",
+      "latest_claim_packet_id": "050ea98dd7879a06cd"
+    },
+    {
       "id": "05404517a8b9d15751",
       "canonical_claim": "I noticed a photograph from the 75th anniversary celebrations in which Lt.",
       "occurrences": [
@@ -1882,6 +1854,30 @@
       "latest_claim_packet_id": "5860f9365178448af5"
     },
     {
+      "id": "2bfb44bc24cbed0e01",
+      "canonical_claim": "In the 1960s and 70s, banks were nationalised in the name of the poor.",
+      "occurrences": [
+        {
+          "id": "98ba7c91e142fc6726",
+          "text": "In the 1960s and 70s, banks were nationalised in the name of the poor.",
+          "source_title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
+          "published_at": "2026-10-25T13:30:15+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-10-27T07:50:11.254171+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-25T13:30:15+00:00",
+      "last_seen": "2026-10-25T13:30:15+00:00",
+      "latest_checked_at": "2026-10-27T07:50:11.254180+00:00",
+      "latest_claim_packet_id": "29371b53212e779eff"
+    },
+    {
       "id": "3c575d00e6cfbd7801",
       "canonical_claim": "In the 19th century, Swami Vivekananda saw a glimpse of the Himalayas in the Swiss Alps.",
       "occurrences": [
@@ -2002,6 +1998,30 @@
       "latest_claim_packet_id": "e660ab2e87c0220e7e"
     },
     {
+      "id": "b76dfce40776b3c52c",
+      "canonical_claim": "Medical colleges are being opened in smaller towns.",
+      "occurrences": [
+        {
+          "id": "675af41c965f11efc6",
+          "text": "Medical colleges are being opened in smaller towns.",
+          "source_title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
+          "published_at": "2026-10-25T13:30:15+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "reporting_found",
+      "human_reviewed": false,
+      "created_at": "2026-10-27T07:50:11.251666+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-25T13:30:15+00:00",
+      "last_seen": "2026-10-25T13:30:15+00:00",
+      "latest_checked_at": "2026-10-27T07:50:11.251678+00:00",
+      "latest_claim_packet_id": "b35543711de7918ea9"
+    },
+    {
       "id": "240977db9a8f5aedf6",
       "canonical_claim": "More than forty-five percent of startups have at least one woman Director or Partner.",
       "occurrences": [
@@ -2048,6 +2068,30 @@
       "last_seen": "2026-10-01T09:05:21+00:00",
       "latest_checked_at": "2026-10-08T06:41:45.097198+00:00",
       "latest_claim_packet_id": "e0aa9aa37e5a72091f"
+    },
+    {
+      "id": "b1bbb86871ad271eaa",
+      "canonical_claim": "Nearly 1.75 lakh Ayushman Arogya Mandirs have been established in villages.",
+      "occurrences": [
+        {
+          "id": "41615a10d09f96dbcd",
+          "text": "Nearly 1.75 lakh Ayushman Arogya Mandirs have been established in villages.",
+          "source_title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
+          "published_at": "2026-10-25T13:30:15+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-10-27T07:50:11.252920+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-25T13:30:15+00:00",
+      "last_seen": "2026-10-25T13:30:15+00:00",
+      "latest_checked_at": "2026-10-27T07:50:11.252932+00:00",
+      "latest_claim_packet_id": "ddb711a027259cf305"
     },
     {
       "id": "57bb4ea4131fb891ff",
@@ -2218,6 +2262,30 @@
       "latest_claim_packet_id": "932398a833189acad2"
     },
     {
+      "id": "c6d3eb9b33e28658f6",
+      "canonical_claim": "PM SVANidhi has provided loans to lakhs of street vendors for the first time.",
+      "occurrences": [
+        {
+          "id": "b6729c3a45657109bc",
+          "text": "PM SVANidhi has provided loans to lakhs of street vendors for the first time.",
+          "source_title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
+          "published_at": "2026-10-25T13:30:15+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "primary_evidence_found",
+      "human_reviewed": false,
+      "created_at": "2026-10-27T07:50:11.297961+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-25T13:30:15+00:00",
+      "last_seen": "2026-10-25T13:30:15+00:00",
+      "latest_checked_at": "2026-10-27T07:50:11.297995+00:00",
+      "latest_claim_packet_id": "5bb402465b7ccab062"
+    },
+    {
       "id": "1f2274104d864243fb",
       "canonical_claim": "Reflecting on his 30-year journey, he mentioned that I am his friend.",
       "occurrences": [
@@ -2336,6 +2404,30 @@
       "last_seen": "2026-09-27T06:45:05+00:00",
       "latest_checked_at": "2026-10-01T14:28:22.324518+00:00",
       "latest_claim_packet_id": "f8b649ac14178cd070"
+    },
+    {
+      "id": "c9eaae20a0d99198f8",
+      "canonical_claim": "The frameworks built by the nation in recent years, along with the new ecosystem developed under Digital India, have extended banking to every single citizen.",
+      "occurrences": [
+        {
+          "id": "1e47138beba61c3fdb",
+          "text": "The frameworks built by the nation in recent years, along with the new ecosystem developed under Digital India, have extended banking to every single citizen.",
+          "source_title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
+          "published_at": "2026-10-25T13:30:15+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-10-27T07:50:11.261628+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-25T13:30:15+00:00",
+      "last_seen": "2026-10-25T13:30:15+00:00",
+      "latest_checked_at": "2026-10-27T07:50:11.261637+00:00",
+      "latest_claim_packet_id": "f5f9e7bb05cfa3199f"
     },
     {
       "id": "c3553e9a75031885c3",
@@ -2458,6 +2550,30 @@
       "latest_claim_packet_id": "d9ed8629ebcb7a572c"
     },
     {
+      "id": "36fafc5e30728db833",
+      "canonical_claim": "Through the Mudra Yojana, 13 crore people have become first-time entrepreneurs.",
+      "occurrences": [
+        {
+          "id": "37f920a02fe2133ef6",
+          "text": "Through the Mudra Yojana, 13 crore people have become first-time entrepreneurs.",
+          "source_title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
+          "published_at": "2026-10-25T13:30:15+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "primary_evidence_found",
+      "human_reviewed": false,
+      "created_at": "2026-10-27T07:50:11.268288+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-25T13:30:15+00:00",
+      "last_seen": "2026-10-25T13:30:15+00:00",
+      "latest_checked_at": "2026-10-27T07:50:11.268296+00:00",
+      "latest_claim_packet_id": "00739b48a203bf3deb"
+    },
+    {
       "id": "5009d9e2cdfc706117",
       "canonical_claim": "Through this scheme, with an investment of 60,000 crore rupees, 1,000 government ITIs are being modernized.",
       "occurrences": [
@@ -2576,6 +2692,30 @@
       "last_seen": "2026-10-01T09:05:21+00:00",
       "latest_checked_at": "2026-10-14T05:27:17.808430+00:00",
       "latest_claim_packet_id": "69276105583e101638"
+    },
+    {
+      "id": "e7de98a19d55e49221",
+      "canonical_claim": "Today, digital banking in India has connected everyone to 24-hour financial services.",
+      "occurrences": [
+        {
+          "id": "fab76174b95cf4af91",
+          "text": "Today, digital banking in India has connected everyone to 24-hour financial services.",
+          "source_title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
+          "published_at": "2026-10-25T13:30:15+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-10-27T07:50:11.256975+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-25T13:30:15+00:00",
+      "last_seen": "2026-10-25T13:30:15+00:00",
+      "latest_checked_at": "2026-10-27T07:50:11.256984+00:00",
+      "latest_claim_packet_id": "1d53d6d12eb863d5b2"
     },
     {
       "id": "d9b035f06d511cb491",
@@ -2795,6 +2935,30 @@
       "last_seen": "2026-09-19T08:41:02+00:00",
       "latest_checked_at": "2026-09-29T06:16:21.734837+00:00",
       "latest_claim_packet_id": "19e38a08b6cf727e78"
+    },
+    {
+      "id": "022dd623a84f9e2dc5",
+      "canonical_claim": "Yet, until 2014, more than half of the country’s population was excluded from the banking ecosystem.",
+      "occurrences": [
+        {
+          "id": "aa8d166ab1e2382f94",
+          "text": "Yet, until 2014, more than half of the country’s population was excluded from the banking ecosystem.",
+          "source_title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
+          "published_at": "2026-10-25T13:30:15+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-10-27T07:50:11.255645+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-25T13:30:15+00:00",
+      "last_seen": "2026-10-25T13:30:15+00:00",
+      "latest_checked_at": "2026-10-27T07:50:11.255657+00:00",
+      "latest_claim_packet_id": "318b27cf844c2ade6a"
     },
     {
       "id": "11e66d5b326aff7ab6",
@@ -40007,7 +40171,7 @@
     },
     {
       "id": "ee49629d36cb3e1512",
-      "checked_at": "2026-10-16T22:07:02.820649+00:00",
+      "checked_at": "2026-10-27T07:50:45.061756+00:00",
       "promise_id": "BJP-2019-ea543945ae358bf7e6",
       "year": 2019,
       "category": "jobs_economy",
@@ -40032,17 +40196,17 @@
       "query": "remains world fastest growing major economy",
       "evidence": [
         {
-          "id": "5622686e5991816d10",
+          "id": "624a29cd99c2709ffd",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "PIB",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "India: World’s Fastest-Growing Major Economy - PIB",
+          "title": "India: World’s Fastest-Growing Major Economy - Press Information Bureau",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE91VGxfN0M3LUhCQ21nTHNzTmZSdmVMYkNHeGpqb0FaelNDb0FhMWJuTDR4bDNmSlJ6dzVDc2huNHpHeU5IdmVNRnYxNnoyUGV0U1haRERZRHp6R2JCcV8ybzRBQlh2RVFv?oc=5",
           "published_at": "2025-01-18T08:00:00+00:00",
-          "snippet": "India: World’s Fastest-Growing Major Economy PIB",
-          "lexical_overlap": 0.231,
-          "relevance": 0.386,
+          "snippet": "India: World’s Fastest-Growing Major Economy Press Information Bureau",
+          "lexical_overlap": 0.2,
+          "relevance": 0.355,
           "matched_terms": [
             "economy",
             "major",
@@ -40056,17 +40220,17 @@
           ]
         },
         {
-          "id": "1afc7d574b0cd39f29",
+          "id": "36c994da1ec1a31f0a",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "PIB",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "India: Fastest-Growing Major Economy - PIB",
+          "title": "India: Fastest-Growing Major Economy - Press Information Bureau",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE04QVFaaVNPOEJjVHNHM2U2NWpNdHE3T05oeFpVb2xzd0ZMUTV2R1FRZVVRZHd4R29aTWlDWHlfd0lSRjBfdHhTRE04dTRuSnR1VXZWZFVQanNUckpLbXdjcERSenJoWHFt?oc=5",
           "published_at": "2025-04-23T07:00:00+00:00",
-          "snippet": "India: Fastest-Growing Major Economy PIB",
-          "lexical_overlap": 0.154,
-          "relevance": 0.274,
+          "snippet": "India: Fastest-Growing Major Economy Press Information Bureau",
+          "lexical_overlap": 0.133,
+          "relevance": 0.253,
           "matched_terms": [
             "economy",
             "major"
@@ -40085,7 +40249,7 @@
           "source_url": "https://www.news18.com",
           "title": "India Remains World's Fastest-Growing Major Economy In 2026 At 7% Growth: IMF Data - News18",
           "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQcmJqcHJST21uTlBQLUcxMm9zZEdiUGlEWGNtd3V2LWVaUDVRejlpOHNpVmpJUWVxWlBHNDJZcjg2aGRzb0FJYk8yTFVQeVphVXJVZTdXYkNPbVI5NUxtWHhTQmI5OHBsVGJVS0htbUQwQXNCaHRZRVlXRExEYVA1ZjFmNy1rcHFjUllYWGp3a2VUYkVibWtJT2pEVHp6V1BxZU1iOUZTSE44TEY2LVBHVE5DbzU3Vnk4dks5a21kMUhhamRLN0ZRZVI1WUxHTzlKUFJsUNIB2gFBVV95cUxNYkJFazM4ODUybXVVUzdaNmpVZlkyQzJSNVdZSDFrdkppcWFLWmNENm1tU0NYRnJEZk9RQS1lT05wTzJWdkZnVDFQTTBaaXdIeGRucDhPSGpZQ0hieUJlbDdQY0hwQlBNWnBnMnYzbDlZbTZZdXhpNWV6NG1HMkZRaWZQQnBONXdaYXg3ODVJN1BXZEV6YlFTN3FXUW9RWHBuNk5GR1NNTDBjQU5vak5ySlBxaW52NFZ1bFNGVEoyWFJHWVdNaTZLeWt5UHBRa0txNjlkNElTZDktUQ?oc=5",
-          "published_at": "2026-10-13T03:51:33+00:00",
+          "published_at": "2026-10-13T07:00:00+00:00",
           "snippet": "India Remains World's Fastest-Growing Major Economy In 2026 At 7% Growth: IMF Data News18",
           "lexical_overlap": 0.25,
           "relevance": 0.39,
@@ -40111,7 +40275,7 @@
           "source_url": "https://m.economictimes.com",
           "title": "India will remain fastest growing economy in the world with 7% growth rate: IMF - The Economic Times",
           "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPOTJNVm1ma2NPLW9Hc1hCbUJYcE5zQkNUNGhrM3FBaGx2cE9fbmx6Y1RuZFY1YTF3ZUFMbmJycjZ1SmVZdFcxcThUY0JfWERXUjViZHlTR1lkbVFidWFEUEQtekUwcVVRVEMwdEJFZ1N2RC0yY3pzaXVFanRDaWZHdmIycERNV3F1UFhRcmNla3NYRnNmWDNfNGtzbE5Qd1NJdnhIbjNSWW9ON0VQc092amZIWVlzblBYek1CZGpISW0wazYyY0NOZnFiSVY5M1JacV9jS1pTM1UxN0gxWTJDZ9IB5gFBVV95cUxONDBiRU8zYmM0VlJ0UWx1a3FFYkdLdUFucmZ0VzVzRWNFUXdRRUFGbDUwampQT3F6NHk2MTJrWExCLThvNURlTUM5aEFUM1ZlbXp3WTF2dEdJUTBZUl82Z25KcVRIbGlPSllsNlhYVUR2QjY2czdOU0FxRHhUQ2VnNmhoVkRndUk3eFFhQTFwR0F2a3MtV2k4LTFxQzhfTnlJaHpobU81U3h5WWtYb3h2czJGb0s5SWpwVXFWWVhuSVl0NjhRSUxQakJ1NzZJdlFNU3pvZmhnMnBQRGZsWFR6S0hhQVFVZw?oc=5",
-          "published_at": "2026-10-13T06:59:28+00:00",
+          "published_at": "2026-10-13T07:00:00+00:00",
           "snippet": "India will remain fastest growing economy in the world with 7% growth rate: IMF The Economic Times",
           "lexical_overlap": 0.235,
           "relevance": 0.375,
@@ -40130,28 +40294,6 @@
           ]
         },
         {
-          "id": "4b1ff907df56ecd87d",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Pamphlet",
-          "source_url": "https://thepamphlet.in",
-          "title": "IMF says India will remain the fastest-growing major economy through 2026 and 2027, not bad for a ‘dead economy’ - The Pamphlet",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWlFaWGkzVkUwUE1RVzk0N3BGTlZqblowd2pIc1ViVVFsRzlOSjU1Nkd1NkdLTWJHUG1mY3JrT0g0dmVGaGo3dmlfU0cwYkN2RzFpdXhMTXNjbnFEVC1va3lBYVN6YlN5Yll3WnRlZnFZTkwyVGdRcGJqelloYzNtbVdPZEI3aU5Rd24xZnVBWXBOSjJ6TGJ5dlJ6dlZVMnA5MTU5RzRjaDRjckVDSVl0dnJuWXpFZHc1V1NBZEhVM0dKUklDdEpST2RneHNLUQ?oc=5",
-          "published_at": "2026-10-13T05:35:18+00:00",
-          "snippet": "IMF says India will remain the fastest-growing major economy through 2026 and 2027, not bad for a ‘dead economy’ The Pamphlet",
-          "lexical_overlap": 0.111,
-          "relevance": 0.181,
-          "matched_terms": [
-            "economy",
-            "major"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "economy",
-            "major"
-          ]
-        },
-        {
           "id": "9af0d22099976557d6",
           "scope": "news_search",
           "tier": "secondary",
@@ -40159,7 +40301,7 @@
           "source_url": "https://thefederal.com",
           "title": "IMF lifts global growth outlook; India to remain fastest-growing major economy at 7% - The Federal",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZnNGcmc5cjc0UEFYRGxGdUNySXNqNVJtbG05ek9WeEZ6cWFmbXFjSHZ2UE15bGhrV3BoQThtM1VWVE1xbl9fc1VmLXFjb2xxWC1VMTdIamZtTDVMZkNMUnM4NzRxbUhIU2F6S3FYNFU0dVU4d2N4eWYyTUJxUzBzYjBXblQyTG1hVXd4MVplcXd0TlZjaU1zdy1HUTY5eUswWmhrUDdxa0NQZFZiNHFhWFk2czVibndBRFZ1a1VRajMyNjZ0?oc=5",
-          "published_at": "2026-10-13T04:41:59+00:00",
+          "published_at": "2026-10-12T07:00:00+00:00",
           "snippet": "IMF lifts global growth outlook; India to remain fastest-growing major economy at 7% The Federal",
           "lexical_overlap": 0.105,
           "relevance": 0.175,
@@ -40171,28 +40313,6 @@
           "promise_core_overlap": [
             "economy",
             "major"
-          ]
-        },
-        {
-          "id": "2a155fd2499470818d",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "World Bank Group",
-          "source_url": "https://www.worldbank.org",
-          "title": "India Remains Among the Fastest-Growing Economies Even As Growth Slows Amid Middle East Conflict; Outlook Vulnerable to Risks and Uncertainty - World Bank Group",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdHBHQ1hURnJQanUwdEJpNUdfc1kxcEdPUmN3bVlJUkhlZ1Y4VzM2bWZlLUF6eGRFTm16NDBhbWc3bURTRlE3Q1NkMGl3MV9LRE1CalE1MTdtOGZyTUZaajBqX3dlTTFsdU94NnROb21SZ3dOYTYwY2d6cjNhMVlBUlVjQmRoSFAtdHY1c0NwamVLcGFDTTJpQlFQbmJ3Z09zRjM2Rk5qcWsxTjhH?oc=5",
-          "published_at": "2026-04-09T07:00:00+00:00",
-          "snippet": "India Remains Among the Fastest-Growing Economies Even As Growth Slows Amid Middle East Conflict; Outlook Vulnerable to Risks and Uncertainty World Bank Group",
-          "lexical_overlap": 0.08,
-          "relevance": 0.15,
-          "matched_terms": [
-            "remains",
-            "world"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "remains",
-            "world"
           ]
         }
       ],
@@ -41821,7 +41941,7 @@
     },
     {
       "id": "86ecc1592748b145e6",
-      "checked_at": "2026-10-16T21:45:54.438122+00:00",
+      "checked_at": "2026-10-27T07:50:37.588171+00:00",
       "promise_id": "BJP-2019-dfc927e64bde76b5f7",
       "year": 2019,
       "category": "other",
@@ -42430,7 +42550,7 @@
     },
     {
       "id": "408265850123b9b00d",
-      "checked_at": "2026-10-16T22:07:01.410212+00:00",
+      "checked_at": "2026-10-27T07:50:44.131356+00:00",
       "promise_id": "BJP-2019-e84d95b439b805273c",
       "year": 2019,
       "category": "women_social_justice",
@@ -43142,7 +43262,7 @@
     },
     {
       "id": "830bf2f574cb592c8c",
-      "checked_at": "2026-10-16T21:45:51.294879+00:00",
+      "checked_at": "2026-10-27T07:50:34.773603+00:00",
       "promise_id": "BJP-2019-db38f84de1564839c2",
       "year": 2019,
       "category": "agriculture",
@@ -43188,17 +43308,17 @@
           ]
         },
         {
-          "id": "a12ce3d136bcbd91c0",
+          "id": "872017c91a66b2a2db",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "PIB",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "Prime Minister Spearheads National Mission to Attain Edible Oil Self-Sufficiency - PIB",
+          "title": "Prime Minister Spearheads National Mission to Attain Edible Oil Self-Sufficiency - Press Information Bureau",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04ZEFLM3FIdFEtT29LOVlJZENVZHp2MDVlSEFZNGZ0YWlqWUd1RzJlUGt4cWNiTUhMQ0ZnLWdsVmxYMGZIbFMxaF9IMmJsSmVwMUg0SzlBZ0h4UENXdlhULUJ4YVo4dDFzWWl2WFIxRzc?oc=5",
           "published_at": "2024-03-14T07:00:00+00:00",
-          "snippet": "Prime Minister Spearheads National Mission to Attain Edible Oil Self-Sufficiency PIB",
-          "lexical_overlap": 0.111,
-          "relevance": 0.231,
+          "snippet": "Prime Minister Spearheads National Mission to Attain Edible Oil Self-Sufficiency Press Information Bureau",
+          "lexical_overlap": 0.1,
+          "relevance": 0.22,
           "matched_terms": [
             "mission",
             "oil"
@@ -43207,17 +43327,17 @@
           "promise_core_overlap": []
         },
         {
-          "id": "a493b41c0ebd09a3be",
+          "id": "6c9938fa06783ad737",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "PIB",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "Cabinet Approves National Mission on Edible Oils – Oilseeds (NMEO-Oilseeds) for 2024-25 to 2030-31 - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4xdDR2TVNDamRDa1ZLU1duNWR1anpEMndOYjNRc0ZlQVIzdVRjaUxybmVDNzY2VF83MUUwSnVvaEpOZ0hXbjg1dWlGV2xxd2JYLXp2aWEtTmdWdHN5dkl3ejgyandKQmFE?oc=5",
+          "title": "Cabinet Approves National Mission on Edible Oils – Oilseeds (NMEO-Oilseeds) for 2024-25 to 2030-31 - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9nMnVwUlVRaGFZRHg2cVRZRXN1Qjd6U2NMSlA0eXZLcXBtbXE3OXhYcUoza01wdTMxVHJKX3Fpb18ycmpjcmdRWU96T3BITFkyQ3FJeWZiQ0l2SGE2YUM3YU81NjdXaUd2?oc=5",
           "published_at": "2024-10-03T07:00:00+00:00",
-          "snippet": "Cabinet Approves National Mission on Edible Oils – Oilseeds (NMEO-Oilseeds) for 2024-25 to 2030-31 PIB",
-          "lexical_overlap": 0.105,
-          "relevance": 0.225,
+          "snippet": "Cabinet Approves National Mission on Edible Oils – Oilseeds (NMEO-Oilseeds) for 2024-25 to 2030-31 Press Information Bureau",
+          "lexical_overlap": 0.095,
+          "relevance": 0.215,
           "matched_terms": [
             "mission",
             "oilseeds"
@@ -43376,7 +43496,7 @@
     },
     {
       "id": "0764c49dce738dbbee",
-      "checked_at": "2026-10-27T05:39:31.793688+00:00",
+      "checked_at": "2026-10-27T07:50:13.224660+00:00",
       "promise_id": "BJP-2019-18c0750d5ed71bc3d1",
       "year": 2019,
       "category": "agriculture",
@@ -43499,29 +43619,6 @@
           ]
         },
         {
-          "id": "1af39614098ce2c5d1",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "YourStory.com",
-          "source_url": "https://yourstory.com",
-          "title": "Flipkart signs MoU with SERP to enable market access, growth for FPOs, SHGs in Telangana - YourStory.com",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdGxJNXQ4NFR1ZldsQi1veEx3MUEzLW1keWV6d0kySm5zd0pVVVZrUnZiLWhQQlhTWkFfLUJvVVp2aFFNQzBZMGg2a0M2SWxSQUpEZFRsWDJUblpsb21JTDNiTVJ4OE8ycHplcVJyZlV3Z3pmTzhRZUhZN1VqQzVlUDFaNVQ1a21PSld0T093?oc=5",
-          "published_at": "2022-06-25T07:00:00+00:00",
-          "snippet": "Flipkart signs MoU with SERP to enable market access, growth for FPOs, SHGs in Telangana YourStory.com",
-          "lexical_overlap": 0.136,
-          "relevance": 0.241,
-          "matched_terms": [
-            "access",
-            "enable",
-            "fpos"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "access",
-            "fpos"
-          ]
-        },
-        {
           "id": "634c286094b85d4f4a",
           "scope": "news_search",
           "tier": "secondary",
@@ -43541,50 +43638,6 @@
           ],
           "promise_core_overlap": [
             "farmers"
-          ]
-        },
-        {
-          "id": "f3259ba28f1eed4040",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Krishi Jagran",
-          "source_url": "https://krishijagran.com",
-          "title": "10,000 FPOs Scheme will Bring a Revolutionary Change in Agri Sector: Narendra Tomar - Krishi Jagran",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaHJFOHRKWnJlcGNwRGQxUlplWDJLZFRhMzY0NkxqNFR6N3VPYk9qR1huWlE3R1E1T1JKTHdZalVQSkRBRUk1WXZOVUpUSzY4SVJ2dlcxMWhsQVc5YXdYRlRaeHBEeVp5cjMtU0hJeGJEOHY1Si1lQXhENFpLV2hFZG0tVVl0YUtLRUpMUllKa0tpR0R6WVZNY3NtOWwzNGJSbjlBVEtyTFZ0V2cwbnh5OXI0UC1JeEx6TWN6VHlHQW5DX3Ju0gHMAUFVX3lxTE1KWDRrUU1ZcFJMdzZOOU85UVY5RHAzLWE5YV9SdFhrbUs2b2F6SHVUb2UwZFR1RDNhbFdGX1o2aXp2UDN0YW90NFNReXR4RHlWbTY0T0FPbGdQNlVFdHN6MFpNdm5CMTlxN3dZUmtKQjlrR3JLbUY4VU9nWG03X25qVkVCWWtkUHkxRVFQUXNZSlY0S1BzNHNpMzY0WG4xR2lMX1g1WjY2YVFjM293ZXljTGNhckNaSHZlVDBBZ3ZqOFlacE5lQ0RtTlZ5TA?oc=5",
-          "published_at": "2022-04-22T07:00:00+00:00",
-          "snippet": "10,000 FPOs Scheme will Bring a Revolutionary Change in Agri Sector: Narendra Tomar Krishi Jagran",
-          "lexical_overlap": 0.048,
-          "relevance": 0.193,
-          "matched_terms": [
-            "fpos"
-          ],
-          "shared_numbers": [
-            "10000"
-          ],
-          "promise_core_overlap": [
-            "fpos"
-          ]
-        },
-        {
-          "id": "34c66c9ca7d95b9063",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Agriculture Post",
-          "source_url": "https://agriculturepost.com",
-          "title": "Every block in India to have one farmer producer organisation: MoS Agriculture - Agriculture Post",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPRzhVZmdmNUZVNGU3WVJ0eWxtZWgtdG51eEFlSnRnTlVZQUQxeS10dHp0T1ZmNVlyS0I3OVFKMnU2N3pPUnByMzU0MjgtV2k4TGdSemFCaU9pajdlelBwb0RHMTFUczhxTUhHellCcTBZbDlXQjR4bGRBSnI1N3hTb21DTGEyX2YyaUJSSUJoamhDSVZDcXZsM0E4V24zR0ZfZF9lc2VuMGtuXzZJSzFwaUpzRU53cmZRc3VRdmduSU9GUHJUWjVXcThxVlhWSkJMSzZRU3AzZWhpUDFMX0RxdVY4dw?oc=5",
-          "published_at": "2022-03-16T07:00:00+00:00",
-          "snippet": "Every block in India to have one farmer producer organisation: MoS Agriculture Agriculture Post",
-          "lexical_overlap": 0.1,
-          "relevance": 0.17,
-          "matched_terms": [
-            "farmer",
-            "producer"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "farmer",
-            "producer"
           ]
         },
         {
@@ -43632,7 +43685,7 @@
           ]
         }
       ],
-      "implementation_signal": "current_primary_and_reporting_found",
+      "implementation_signal": "current_primary_evidence_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -44201,7 +44254,7 @@
     },
     {
       "id": "f34ddc2fb2856fb57c",
-      "checked_at": "2026-10-16T21:45:59.151736+00:00",
+      "checked_at": "2026-10-27T07:50:41.555155+00:00",
       "promise_id": "BJP-2019-e5732c971e02c88a60",
       "year": 2019,
       "category": "health_welfare",
@@ -44272,25 +44325,25 @@
           ]
         },
         {
-          "id": "13fce7dd59307a6dce",
+          "id": "189fe346a8e477392e",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "The Indian Express",
-          "source_url": "https://indianexpress.com",
-          "title": "NITI Aayog releases draft Act, rules for states on land titling - The Indian Express",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMVdBOTRQYk01eGgzVFYyUXpCS0xiNTVJREF1dkJIc1FualN6SERuTFNNOE10Z21GSXNxOExpc2E2RHl5bjlGbnJvcnMtSXU1RnNtSGF6dzdJdzRKWjU3aXVPTElHVXF2VkI4UTFnaXhQSWdzME9nYWdObWozekRRMmU1S0hqWURQNU5Ib0diNEJrWWVDSXdUby1IRW5Ja1FvMWJyeFJSY1o1Qk5BMXRIakZTQ1_SAbsBQVVfeXFMUEo5bk9SRDc1WGJRSkc3TFJnRFdHc0wtNkJMR3pFajBobVpoeHVxc3pZdTNHMHNmNnRkNGRBSk5FbzZCVHBmQlRreVJFYW1wWUc4N2NpcmpHUV9ROFozZ2ZrSEpSN09GYm5WWkYwaG9hQndnYlNYZWdJeFFFRU9jN2FIa0pHVElST1NtQVlBMDBXekJxN1FLZlEyWFgzaTF2Y1JiZEY2TFdTamVIR2JuNWk1Zk14UlpNYnNOaw?oc=5",
-          "published_at": "2020-10-30T07:00:00+00:00",
-          "snippet": "NITI Aayog releases draft Act, rules for states on land titling The Indian Express",
-          "lexical_overlap": 0.1,
-          "relevance": 0.17,
+          "source": "SCC Online",
+          "source_url": "https://www.scconline.com",
+          "title": "Title Insurance in India: Why It has not Become a Mainstream Tool in Real Estate Transactions - SCC Online",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWEFNNWZaX21wY3F3YjN2Zkg3T1VFdmttTGlfRVF3QXlWSXFIZ21pNlo2ZDVpY2dPbTBneWpmQ19OYkRiM2xvMWp4SVd0aGpfNjRILVhLVW1iczNaZS1mallBR1NQcGc3SEhnUEpmbS0tSFB4N08wU29lRTFGbVhRNEotSGhFWUd0THhCcU5pS2x1cE81SzNJR0N3?oc=5",
+          "published_at": "2026-10-07T07:00:00+00:00",
+          "snippet": "Title Insurance in India: Why It has not Become a Mainstream Tool in Real Estate Transactions SCC Online",
+          "lexical_overlap": 0.087,
+          "relevance": 0.157,
           "matched_terms": [
-            "states",
-            "titling"
+            "insurance",
+            "title"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "states",
-            "titling"
+            "insurance",
+            "title"
           ]
         }
       ],
@@ -44309,7 +44362,7 @@
     },
     {
       "id": "3c7a118317ee9d75b7",
-      "checked_at": "2026-10-16T22:07:11.493854+00:00",
+      "checked_at": "2026-10-27T07:50:52.758334+00:00",
       "promise_id": "BJP-2019-fb290010481e5d7f34",
       "year": 2019,
       "category": "other",
@@ -44904,7 +44957,7 @@
     },
     {
       "id": "f5811520c1d5623f19",
-      "checked_at": "2026-10-27T05:39:33.433444+00:00",
+      "checked_at": "2026-10-27T07:50:14.962117+00:00",
       "promise_id": "BJP-2019-1d3e95fa9344e842f3",
       "year": 2019,
       "category": "infrastructure",
@@ -45025,7 +45078,7 @@
     },
     {
       "id": "92d6920a15fb42f812",
-      "checked_at": "2026-10-27T05:39:48.068416+00:00",
+      "checked_at": "2026-10-27T07:50:31.580664+00:00",
       "promise_id": "BJP-2019-6abf03adda773fec98",
       "year": 2019,
       "category": "governance",
@@ -48457,7 +48510,7 @@
     },
     {
       "id": "1e0abc9f94016f3c7a",
-      "checked_at": "2026-10-27T05:39:34.852205+00:00",
+      "checked_at": "2026-10-27T07:50:16.384262+00:00",
       "promise_id": "BJP-2019-2af396deaf778cac73",
       "year": 2019,
       "category": "infrastructure",
@@ -48542,7 +48595,7 @@
     },
     {
       "id": "4af70c5cc4e5dd31ea",
-      "checked_at": "2026-10-27T05:39:39.538827+00:00",
+      "checked_at": "2026-10-27T07:50:21.933108+00:00",
       "promise_id": "BJP-2019-34c03859f07f1329c5",
       "year": 2019,
       "category": "infrastructure",
@@ -48615,6 +48668,30 @@
           ]
         },
         {
+          "id": "b1ffee8e6f47df9c63",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Urban Acres",
+          "source_url": "https://urbanacres.in",
+          "title": "Dedicated Freight Corridor: India’s Rail Network Enters a New Phase - Urban Acres",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMk5QWk5iWGdfeTh1a2tqUTVBeHk4N0lPLXlyTkpMWWtsRDRldHZkUHFSQmQ0cUozUVgyR09MQV9od2dTTWFOY0dlNUFFeFNfY3ZPWmNZdVFYZWtsUW9pY0dqV3RxUjN6TjUwaS10MU5CWEs0ZUJ6R0dsWkxrX3J3a2N2bEFhN2JCNEdBZTZBdExydw?oc=5",
+          "published_at": "2026-09-14T07:00:00+00:00",
+          "snippet": "Dedicated Freight Corridor: India’s Rail Network Enters a New Phase Urban Acres",
+          "lexical_overlap": 0.231,
+          "relevance": 0.336,
+          "matched_terms": [
+            "corridor",
+            "dedicated",
+            "freight"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "corridor",
+            "dedicated",
+            "freight"
+          ]
+        },
+        {
           "id": "c1a8150f16f5b1481b",
           "scope": "news_search",
           "tier": "secondary",
@@ -48661,6 +48738,30 @@
           ]
         },
         {
+          "id": "36151813d5768670f4",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "IMPRI Impact and Policy Research Institute",
+          "source_url": "https://www.impriindia.com",
+          "title": "Dedicated Freight Corridor: What A Decade Of Rail Investment Achieved - IMPRI Impact and Policy Research Institute",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOTUpYVnJZMFppdTNaZE13Qm9Xajhxc290akloNklFbEpkTGtCdDZCblV6X0dCejczZlpaVTB1SmRaS1AwZGlSOFJXalpnRlVEcEoxSGt0bTVxQWc0X3JkOHhGQjg2c2RwNkxkcTlfeWpxQ2dfN1AyM09iNzU3Y0ctNlhtczJselRxSmJKMGtkX3Vpdm1WeVYtZWp5b3JuSWtMRXBiX2U0N2RNQU1mRWlRUUNfeS1uSnY1N2ppTlRlM0dRYzVCeDRETkYwaTVsYXF2SGdhaHRPWWpTcGVmOUExVUdQOEpEbHFhYXFIbTB1WTV2XzA5dEdOVC0yQmJTUVE?oc=5",
+          "published_at": "2026-08-09T07:00:00+00:00",
+          "snippet": "Dedicated Freight Corridor: What A Decade Of Rail Investment Achieved IMPRI Impact and Policy Research Institute",
+          "lexical_overlap": 0.176,
+          "relevance": 0.281,
+          "matched_terms": [
+            "corridor",
+            "dedicated",
+            "freight"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "corridor",
+            "dedicated",
+            "freight"
+          ]
+        },
+        {
           "id": "6ce15b25c37e0c63c6",
           "scope": "news_search",
           "tier": "secondary",
@@ -48694,28 +48795,6 @@
           "snippet": "Dedicated Freight Corridors Strengthen India’s Logistics Network https://www.usthadian.com/",
           "lexical_overlap": 0.133,
           "relevance": 0.203,
-          "matched_terms": [
-            "dedicated",
-            "freight"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "dedicated",
-            "freight"
-          ]
-        },
-        {
-          "id": "94f0d80ee7b7908961",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Vajiram & Ravi",
-          "source_url": "https://vajiramandravi.com",
-          "title": "Dedicated Freight Corridors, How They Cut Transit Time and Boost Rail Freight - Vajiram & Ravi",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5YNmx2WWxLTXRwU09nRzNtVEVfUkVKZ1dxZWNjZWhneHFNbWlLZXhnRjhxc1R3ZjQtSUt6NlhELXM0RU9oMVJZN1haTmVlM1VrWUxaUUxINE90a0dJaFR2NHJvOVMzRlFzNEZrcnpLdk44V1dQOE5vSi16UQ?oc=5",
-          "published_at": "2026-09-09T07:00:00+00:00",
-          "snippet": "Dedicated Freight Corridors, How They Cut Transit Time and Boost Rail Freight Vajiram & Ravi",
-          "lexical_overlap": 0.125,
-          "relevance": 0.195,
           "matched_terms": [
             "dedicated",
             "freight"
@@ -49554,7 +49633,7 @@
     },
     {
       "id": "5884fddd1fd2a9af99",
-      "checked_at": "2026-10-16T22:07:07.883629+00:00",
+      "checked_at": "2026-10-27T07:50:49.723628+00:00",
       "promise_id": "BJP-2019-f5cfa70298670d08ff",
       "year": 2019,
       "category": "agriculture",
@@ -49579,26 +49658,25 @@
       "query": "water sustainability supply special focus conservation",
       "evidence": [
         {
-          "id": "3e012111a084262cae",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "pib.gov.in",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Union Minister of Jal Shakti Launches Sujal Gaon ID, Unique IDs for mapping Rural Piped Water Supply Schemes - pib.gov.in",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9MWWpFOXJ0d041eVhaUFhFcWhNR1p0QWw4b3IydFVDZzBqOFFnTjZzRTM4UndEWG56MHFXbUhZYnZMLVJ2amZ4cExDd3BlQkRCZ3JUZE44VF9QRnc2MGJRNlVMQm44RmlTSV9PT1lLeGRKbC01NTZXZDRn?oc=5",
-          "published_at": "2026-03-13T07:00:00+00:00",
-          "snippet": "Union Minister of Jal Shakti Launches Sujal Gaon ID, Unique IDs for mapping Rural Piped Water Supply Schemes pib.gov.in",
-          "lexical_overlap": 0.125,
-          "relevance": 0.28,
+          "id": "2d6eff4b001c29dfa3",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Jamaica Information Service",
+          "source_url": "https://jis.gov.jm",
+          "title": "Special Focus on Water Access March 20 - Jamaica Information Service",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5oemw2VFk5YzYyd1U2UWxfTEttWGxlajM5ZWtNT2ZLdzJNM2x1STZMNzMzTnFoWllCVXFuLVBlYlpZcUltekFxYV9JZEw4R0N4Q19rU3BQbmNCSUFqR1B4Rkkzc0I0OFlIdmc?oc=5",
+          "published_at": "2026-03-18T07:00:00+00:00",
+          "snippet": "Special Focus on Water Access March 20 Jamaica Information Service",
+          "lexical_overlap": 0.188,
+          "relevance": 0.292,
           "matched_terms": [
-            "rural",
-            "supply",
+            "focus",
+            "special",
             "water"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "rural",
-            "supply",
+            "special",
             "water"
           ]
         },
@@ -49623,31 +49701,9 @@
             "conservation",
             "water"
           ]
-        },
-        {
-          "id": "2029d7133072f32192",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Sarkaritel.com",
-          "source_url": "https://www.sarkaritel.com",
-          "title": "Jal Jeevan Mission 2.0 Review Focuses On Sustainable Water Supply - Sarkaritel.com",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdDRmanc1d2o5ajBob2ZBdXYtbzAtSlZ1RElPSkpxb2VubmxyVXJjNG1fVHkwdWNVU0kxRUxsbUNRMWwyaER0R2pIY1JTMGdZQmVHQjlHbjV1MDNMS0lGU09uWjU0alhyS25STmcwajZVMk8tcnBuT0d2cm11R2JHMjdDenBSdE0yeGNwSkJ3X0NqS3hKMmw4M0VQeFFjbEpvR2c?oc=5",
-          "published_at": "2026-10-08T08:35:14+00:00",
-          "snippet": "Jal Jeevan Mission 2.0 Review Focuses On Sustainable Water Supply Sarkaritel.com",
-          "lexical_overlap": 0.105,
-          "relevance": 0.175,
-          "matched_terms": [
-            "supply",
-            "water"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "supply",
-            "water"
-          ]
         }
       ],
-      "implementation_signal": "current_primary_evidence_found",
+      "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -50375,7 +50431,7 @@
     },
     {
       "id": "f67a2dcc3a87a64428",
-      "checked_at": "2026-10-16T22:07:13.091141+00:00",
+      "checked_at": "2026-10-27T07:50:54.472431+00:00",
       "promise_id": "BJP-2019-fc042327e347d45b0a",
       "year": 2019,
       "category": "other",
@@ -50820,7 +50876,7 @@
     },
     {
       "id": "93bb9754ab7125c8f1",
-      "checked_at": "2026-10-27T05:39:43.783822+00:00",
+      "checked_at": "2026-10-27T07:50:25.706505+00:00",
       "promise_id": "BJP-2019-6013bbae5c9fbd8c5a",
       "year": 2019,
       "category": "women_social_justice",
@@ -50884,7 +50940,7 @@
     },
     {
       "id": "1d1782ad81aa54afcd",
-      "checked_at": "2026-10-27T05:39:45.872730+00:00",
+      "checked_at": "2026-10-27T07:50:29.205313+00:00",
       "promise_id": "BJP-2019-63e2ccda189fa85e2c",
       "year": 2019,
       "category": "health_welfare",
@@ -52929,7 +52985,7 @@
     },
     {
       "id": "be5b86168c72ad0853",
-      "checked_at": "2026-10-16T22:07:06.187968+00:00",
+      "checked_at": "2026-10-27T07:50:48.294983+00:00",
       "promise_id": "BJP-2019-f409c63c02531350c7",
       "year": 2019,
       "category": "infrastructure",
@@ -52954,17 +53010,17 @@
       "query": "empower citizens time-bound delivery public services",
       "evidence": [
         {
-          "id": "7e6eb4e2c0faddbb2b",
+          "id": "29e3bcf7b00c09a52d",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "पीआईबी",
+          "source": "www.pib.gov.in",
           "source_url": "https://www.pib.gov.in",
-          "title": "Report of the Comptroller and Auditor General of India on Delivery of Public Services by Government of Maharashtra Report No. 01 of the year 2023 - पीआईबी",
+          "title": "Report of the Comptroller and Auditor General of India on Delivery of Public Services by Government of Maharashtra Report No. 01 of the year 2023 - www.pib.gov.in",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1OWVkxYUM1ODc4bjNmSFRadk1DZ1JONjBVNHJ6eXY3VkN5aHY5V1FValR2S1NyWW9JZHllV0pCandvY2xiOWRIY0tYWDB1VzFsR0VTWXlkcHgycGdUamFva0dVQjBaY1po?oc=5",
           "published_at": "2023-03-25T07:00:00+00:00",
-          "snippet": "Report of the Comptroller and Auditor General of India on Delivery of Public Services by Government of Maharashtra Report No. 01 of the year 2023 पीआईबी",
-          "lexical_overlap": 0.158,
-          "relevance": 0.313,
+          "snippet": "Report of the Comptroller and Auditor General of India on Delivery of Public Services by Government of Maharashtra Report No. 01 of the year 2023 www.pib.gov.in",
+          "lexical_overlap": 0.143,
+          "relevance": 0.298,
           "matched_terms": [
             "delivery",
             "public",
@@ -55959,7 +56015,7 @@
     },
     {
       "id": "21c782a6ad2ecb8987",
-      "checked_at": "2026-10-27T05:39:37.449668+00:00",
+      "checked_at": "2026-10-27T07:50:19.811426+00:00",
       "promise_id": "BJP-2019-2cfa1375f165d41707",
       "year": 2019,
       "category": "other",
@@ -56884,7 +56940,7 @@
     },
     {
       "id": "23b7a4e191d6ffa881",
-      "checked_at": "2026-10-16T22:07:00.781579+00:00",
+      "checked_at": "2026-10-27T07:50:43.244309+00:00",
       "promise_id": "BJP-2019-e579b6339961fbda0f",
       "year": 2019,
       "category": "women_social_justice",
@@ -56909,17 +56965,17 @@
       "query": "reproductive menstrual health services easily available",
       "evidence": [
         {
-          "id": "abf3eb74c146c752f1",
+          "id": "78264f8639e2988f15",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "PIB",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "Measures taken to Improve Women and Child Health Facilities - PIB",
+          "title": "Measures taken to Improve Women and Child Health Facilities - Press Information Bureau",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB2UVdoYW1HUDhPZFA3SlFkUGlDai1ET196SWNhRHMzWVY5czBTZXRaUVR3TEZ1U010cGJ5Y0cyWUtxUmpiYUQ4SWtEazRSOV8xMjB5RUFhU1F1cXo1bW9KR2RjUVBRWjRWSWJSdGZ4ZTA?oc=5",
           "published_at": "2022-12-16T08:00:00+00:00",
-          "snippet": "Measures taken to Improve Women and Child Health Facilities PIB",
-          "lexical_overlap": 0.111,
-          "relevance": 0.231,
+          "snippet": "Measures taken to Improve Women and Child Health Facilities Press Information Bureau",
+          "lexical_overlap": 0.1,
+          "relevance": 0.22,
           "matched_terms": [
             "health",
             "women"
@@ -56931,29 +56987,27 @@
           ]
         },
         {
-          "id": "628820209e88916cc1",
+          "id": "0b05c2b1a651b8409a",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "United Nations Population Fund",
-          "source_url": "https://www.unfpa.org",
-          "title": "The Government of Cameroon, UNFPA, and the World Bank partner to enhance reproductive health services for women and girls - United Nations Population Fund",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNGhFSmhRTmZrUHNOVWgwNEEwcGpiVkZrRDVQR1Vydnk4MVFwcTdVMmhrV1pVYlRVZk5mMURrTmNHdDVZNUV6aUxQbDJVc3BXQ3dJQWpsZkc5NGNZMjEzRmxDNnhNTi03cWp5QzVzczJPVllEZ0hiaEx4WGVfT2N1d2hETm51bzNFX25DallubjZmejRjcFR0ZnJtaE4teHU1XzhCWGt3Zmt1ckRWSkFMQm5lUUVRLXp2NFJiRUJ3?oc=5",
-          "published_at": "2024-08-30T07:00:00+00:00",
-          "snippet": "The Government of Cameroon, UNFPA, and the World Bank partner to enhance reproductive health services for women and girls United Nations Population Fund",
-          "lexical_overlap": 0.174,
-          "relevance": 0.314,
+          "source": "Nature",
+          "source_url": "https://www.nature.com",
+          "title": "WASH services and menstrual hygiene management among reproductive age females in the IDPs camps of Shire town in Tigray region of Ethiopia: a cross- sectional study - Nature",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBlTnhVNDl4T1FYSmxIdTFJdk9kQlFBZE01dzBkMVpoYUpHbjU0ZHpHMDJLdDYzUmZGTUVOcWhXd0l6OUJzT3ZpZ2ZVQ3UtQ21ILU13VTRtcVVQM0Q5U09Z?oc=5",
+          "published_at": "2024-09-30T07:00:00+00:00",
+          "snippet": "WASH services and menstrual hygiene management among reproductive age females in the IDPs camps of Shire town in Tigray region of Ethiopia: a cross- sectional study Nature",
+          "lexical_overlap": 0.12,
+          "relevance": 0.225,
           "matched_terms": [
-            "health",
+            "menstrual",
             "reproductive",
-            "services",
-            "women"
+            "services"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "health",
+            "menstrual",
             "reproductive",
-            "services",
-            "women"
+            "services"
           ]
         },
         {
@@ -56979,25 +57033,24 @@
           ]
         },
         {
-          "id": "37b4107b30599297c4",
+          "id": "232d1bd500bc271cc9",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Ideas for India",
-          "source_url": "https://www.ideasforindia.in",
-          "title": "How period products impact women’s health - Ideas for India",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQLXZaM1NaMm5nTUhiaGFDZXM0MTJEdktqMlBnam0td2ZmXzJ3UXB0MktzRk5JaWZLbDJYaEtBNU9YTFNxbFROZzRQLVluaEV3VG9rYzJyRDByNHN1VFNCZl8ycE5hYmxOa0M5ZXBxMFU1RDZMNDNOSC1TdUpmWnVBM3FGclJYOERUbVUxUEtOaTVFb293RHVzdU13?oc=5",
-          "published_at": "2026-04-10T04:45:58+00:00",
-          "snippet": "How period products impact women’s health Ideas for India",
+          "source": "The New Indian Express",
+          "source_url": "https://www.newindianexpress.com",
+          "title": "Many more steps needed to ensure menstrual rights - The New Indian Express",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQOFpXMFkzek9HZVF1UjROVUpRVFpyZjJhbHZSc1pydF9BWm1iNUJCc3AzeWc1bkFDcVgwXzk3TEFlbU5jRXkyVUFCcGpjSnFoYmhxSmxndlRhVkMzR0cxdlBkaExuZk9IOUFzencySmZ5RXRuaUdJOHZWak5CcmVUY1N2QXNRVUU4U3FMWmRvYmVTbks5ejRjcmx6Q0lhUUVYQ1A0S9IBsgFBVV95cUxOcW9uNEtsTlVLeFBtNVpGelNMZXVEeWJ0cGF6SzNBZWJTSHF6Y3JqOWo0bEdraXdTc2MyMkNqYW92TkV3RUI3SzFGamtWVS1iOHhHVUpNSFdMUVlyR2w5X2ZWSjd3TGtzei1iMDh4QndEaTMtV0M0RUMwRkN6T3RzcmRMLWdBaXBETFM5QnQ4dl9LT2FMdHNLWFNqc1U0Qk40Y19KbzlwRzR0X1YtNHlwQndn?oc=5",
+          "published_at": "2026-02-04T08:00:00+00:00",
+          "snippet": "Many more steps needed to ensure menstrual rights The New Indian Express",
           "lexical_overlap": 0.118,
           "relevance": 0.188,
           "matched_terms": [
-            "health",
-            "women"
+            "ensure",
+            "menstrual"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "health",
-            "women"
+            "menstrual"
           ]
         },
         {
@@ -57045,15 +57098,15 @@
           ]
         },
         {
-          "id": "44e60d6dbc7356025a",
+          "id": "c5a409b9fae828d04c",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Unicef",
+          "source": "UNICEF",
           "source_url": "https://www.unicef.org",
-          "title": "It Has Come”: How Ghanaian classrooms are shattering the stigma of menstrual health - Unicef",
+          "title": "It Has Come”: How Ghanaian classrooms are shattering the stigma of menstrual health - UNICEF",
           "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNbHNrdlpsdjFIUzU0TnBOVEc5VERKN1BQMmNJWDQ3OEJ0ell3RHBQS1lsWU1UTFRjclhrUXlyZUtkMjNwcE4xcFRrQ1dmd1NVZll2S3YzZ1cybHpPMUFTRmJNbm9yWkM0QUZwX3ZwdUhxVXMtXzhrdXhmcjVvZkFpLTQyc2ZrQ1VQSllTLThJTFJkbmNuQlRPTWVySFg3T1ZBdElyRk5vel8wUmx2ODM2Q0w2VkszUEpOR190S09CVFFnZWMxcEhwYmlHLUY1a0Ztal9jUXphajBwZHJ6dWNZY21JbUMwMDRlcW5nNUcyeUowZlBndlJ1TVlIUGI2SVk?oc=5",
           "published_at": "2026-05-29T07:00:00+00:00",
-          "snippet": "It Has Come”: How Ghanaian classrooms are shattering the stigma of menstrual health Unicef",
+          "snippet": "It Has Come”: How Ghanaian classrooms are shattering the stigma of menstrual health UNICEF",
           "lexical_overlap": 0.1,
           "relevance": 0.17,
           "matched_terms": [
@@ -57367,7 +57420,7 @@
     },
     {
       "id": "09db92a7679f9e887b",
-      "checked_at": "2026-10-27T05:39:41.421442+00:00",
+      "checked_at": "2026-10-27T07:50:23.687741+00:00",
       "promise_id": "BJP-2019-4fc8289de8caed52ff",
       "year": 2019,
       "category": "other",
@@ -57648,7 +57701,7 @@
     },
     {
       "id": "fff314fccaf3e2189b",
-      "checked_at": "2026-10-16T21:45:57.452898+00:00",
+      "checked_at": "2026-10-27T07:50:40.356939+00:00",
       "promise_id": "BJP-2019-e549603df4ea305b24",
       "year": 2019,
       "category": "health_welfare",
@@ -58347,7 +58400,7 @@
     },
     {
       "id": "4265f276435c68a575",
-      "checked_at": "2026-10-18T16:10:59.608169+00:00",
+      "checked_at": "2026-10-27T07:50:55.764072+00:00",
       "promise_id": "BJP-2019-ff0540fc6aa1391754",
       "year": 2019,
       "category": "jobs_economy",
@@ -58371,31 +58424,95 @@
       "query": "self-employment skill development avenues transgender youth",
       "evidence": [
         {
-          "id": "52e57be46d76fe99fe",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Vedanta Aluminium Metal Limited",
-          "source_url": "https://vedantaaluminium.com",
-          "title": "On International Youth Day, Vedanta Aluminium expands skill training avenues for youth - Vedanta Aluminium Metal Limited",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNekJJMWFrSFA0bF9zNUF4NUE0d3N6TUROYTdNbE9IOHRKNlNaMGd2Vl92X1BOZ0piWWwwVExobXBhR0ViVHFKdHZPWGZ0akhmT0JVWE93Y0R6T1RGejFfOEZJRFVxbDljMDBBQXpoY1BIWlVTSjRCbFRMXzVaRy1QcjBGcGNiQV9qS1R0TzlrSF9lN3NCYjI5Tk10M1ZBdFVyRjVqMkdvRkE1WWR3VWhKdmxULUt2MEVJaURLZ0tfbl9tSy1BWGo1NTdWTmRCenFFWk1aQkdDU0o?oc=5",
-          "published_at": "2023-08-12T07:00:00+00:00",
-          "snippet": "On International Youth Day, Vedanta Aluminium expands skill training avenues for youth Vedanta Aluminium Metal Limited",
-          "lexical_overlap": 0.2,
-          "relevance": 0.305,
+          "id": "6cce7d9e3598aa21c7",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "Ministry of Skill Development and Entrepreneurship",
+          "source_url": "https://www.msde.gov.in",
+          "title": "MINISTRY OF SKILL DEVELOPMENT & ENTREPRENEURSHIP - Ministry of Skill Development and Entrepreneurship",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZVUtNHRPSTRzeEVrYkQyZVpNbThvSTJWaUhHbVRWOWtka00wbkpIQ0lVYlhRLW5VYVdQRUNJeGFtdFdFRTZXdjNSMmZDd0hzbUx6cy10MzNkZmc1QzhJVklTNVpUODRPMlBjMFhLOGhPQzBsRTZaemZ5bWVSanVvaUlOckVQZDlLOFZr?oc=5",
+          "published_at": "2025-03-24T16:41:18+00:00",
+          "snippet": "MINISTRY OF SKILL DEVELOPMENT & ENTREPRENEURSHIP Ministry of Skill Development and Entrepreneurship",
+          "lexical_overlap": 0.222,
+          "relevance": 0.342,
           "matched_terms": [
-            "avenues",
-            "skill",
-            "youth"
+            "development",
+            "skill"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "avenues",
+            "development",
+            "skill"
+          ]
+        },
+        {
+          "id": "a3b0243606c24e246b",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "Ministry of Skill Development and Entrepreneurship",
+          "source_url": "https://www.msde.gov.in",
+          "title": "Untitled - Ministry of Skill Development and Entrepreneurship",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTms3akNSV3VqTlNUNDlTRzZDN3k0NmVDZ1FFbHB6dzc1S25ZN29Ycll0Rkgtd3IzcmwtaDNfMzdsQWFfZTROOG9wdjJZblp0d1BEMTdjdTdGem9jWU9zb2lVdmZ2RFhqQ3hEWWNINlE1TUo5Qk1sVGdJSEptM2NmYTRDVTRDazYy?oc=5",
+          "published_at": "2026-03-30T14:27:33+00:00",
+          "snippet": "Untitled Ministry of Skill Development and Entrepreneurship",
+          "lexical_overlap": 0.2,
+          "relevance": 0.32,
+          "matched_terms": [
+            "development",
+            "skill"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "development",
+            "skill"
+          ]
+        },
+        {
+          "id": "eb617fe67f71ffa386",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "NITI Aayog",
+          "source_url": "https://www.niti.gov.in",
+          "title": "REPORT OF THE SUB-GROUP OF CHIEF MINISTERS ON SKILL DEVELOPMENT - NITI Aayog",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQko3U3dndk9fdHFlNWdVeG0zWS1UX3hNZklHbk1rZEpub1p1bTJ0Wm0tZHgtSzBSQnpKUkxlUk9XYm9vS2dCOElCU1kwX1psbFZUWEMxbld1NEhxYXlIdS1xSVQ0X2N0YWVNNmdHYlpyMDYzUHNkQklHYi1hdmg1TmxqWk1DeVFjZFUyUDV4VTRxaS1OVzNJZkVseUJwa29SSk9RbmZjY3BYTTdoOGc?oc=5",
+          "published_at": "2025-06-04T14:05:41+00:00",
+          "snippet": "REPORT OF THE SUB-GROUP OF CHIEF MINISTERS ON SKILL DEVELOPMENT NITI Aayog",
+          "lexical_overlap": 0.154,
+          "relevance": 0.274,
+          "matched_terms": [
+            "development",
+            "skill"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "development",
+            "skill"
+          ]
+        },
+        {
+          "id": "a54d2a2c785cead2bd",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Times of India",
+          "source_url": "https://timesofindia.indiatimes.com",
+          "title": "T launches skill prog for transgender persons - The Times of India",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPR0J5ck5lQUxuOTlIT1FMNlRYcmlEOENNdHMtUkc2b1FkTUlUU0wzWWNGTDZCTVpvSjJVNUFCZE50SEJjMUJ5ZFF5ODg5ZGNhaGpWcTBMZ2FKeEtSRjJ1UVJGWEZjelRVc1NNdzQxRmJfNTZWUVBDRDIxYmhIZGhjVEloVXc4RzdrcnJ3Ql9ubDB6Y3FxWHI0cGtpR3BiRmpoN1F6WkJ2SS04THhnaG5uTWoxblBEQXN5aFJoMHFVQdIBxAFBVV95cUxPNHgyQ2Y1TzZjMTJMaFVQLXFoWGhfNHRVZmJocmNzaVRENmlTQ2pMQlA2d0JEMHRHbnlPZ0hWR2hoUnlyM2pZeWs4Q3pJZ0lhcXRZSE5XZWtwN2RIN0JHN1M0MVZDOWdqNnVpYzlQMjh3dGQ4VjNiRy1icmhtc2ZGUEx1WlI3WjlLNVF4emhmNllSUmhvSUNpdXVXTmVaZGZRX25wZ0xwdlNpSnBnZnB5a3NMSzAtbVQtMFo5NWVMbHBnUHlk?oc=5",
+          "published_at": "2026-04-05T07:00:00+00:00",
+          "snippet": "T launches skill prog for transgender persons The Times of India",
+          "lexical_overlap": 0.182,
+          "relevance": 0.252,
+          "matched_terms": [
             "skill",
-            "youth"
+            "transgender"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "skill",
+            "transgender"
           ]
         }
       ],
-      "implementation_signal": "current_reporting_found",
+      "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -59040,7 +59157,7 @@
     },
     {
       "id": "27842e4e697c7e733f",
-      "checked_at": "2026-10-16T22:07:04.483307+00:00",
+      "checked_at": "2026-10-27T07:50:46.611722+00:00",
       "promise_id": "BJP-2019-ebe8b4136c616d21d8",
       "year": 2019,
       "category": "culture_heritage",
@@ -59420,7 +59537,7 @@
     },
     {
       "id": "370ba70227d351577f",
-      "checked_at": "2026-10-16T21:45:53.042358+00:00",
+      "checked_at": "2026-10-27T07:50:36.106525+00:00",
       "promise_id": "BJP-2019-df9145a542ed6964ff",
       "year": 2019,
       "category": "infrastructure",
@@ -59469,24 +59586,24 @@
           ]
         },
         {
-          "id": "16227487a4bfcf7037",
+          "id": "9977a38a6629519a2d",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "China Daily",
-          "source_url": "https://www.chinadaily.com.cn",
-          "title": "China deepens agriculture cooperation to safeguard global food security - China Daily",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9NdFdSMTkwWTk2a2t4NVN5TWRmSkxwaTBPd3FOaFFoMF8tWWpzV2NTMkFPdk1ZZldJcFlnamRZTVp3ZEQ4QkZzWWs3NFdHVFBnNDdHRHczWWNoSkxjR0p4elRsVHR5MVk5SS1WRDlJcDhRMjFFS0VHb2QzVVpEZw?oc=5",
-          "published_at": "2022-08-19T07:00:00+00:00",
-          "snippet": "China deepens agriculture cooperation to safeguard global food security China Daily",
+          "source": "Gulf Times",
+          "source_url": "https://www.gulf-times.com",
+          "title": "Qatar urges Iran to safeguard Gulf waters from conflict, disaster | Gulf Times - Gulf Times",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcFVOM1hJY3JfOGxDRWJqVkYwczdidVNwekxlZmpWNTRMWU1LUEpLbnRqZmU4U1VQclJRaXdUQlhmWDdPbWtUeW54X1NsenN4dTVIZnFudVNzNmFlbzBVZEpBUUo4cXBqR29kd2RLSFdTSENkU2EtSFZsODBhZUZ1dGlhNGp5d3N3S1NZSTZ2dks2T1RrUC1KZ1RuVDdmUWdjbnh2dFgwZVQwMkZyMmZGYkRR0gG3AUFVX3lxTE92VmRmSHQ3UXJKczB1UTFLemdEVnFBMFY2TnJ1cjZkSHNpQ0V5ZUhEX3owS1p3VUVYRHdfYTg5NmQ3a1FLSUVna0t4VmgzbV94ODZLTi1XclgxNXRJa1BzanhOVWRqMmN5d0RIWG9RM09FUV9KbDhXT09YNHgta3c5Wjl5czNpamRHSjZpZVIzcnFUVkI4LXVYRGVrc1NFRXVDZEhyYmNLTFVvZWNXdkR6QlIzaTRodw?oc=5",
+          "published_at": "2026-10-20T21:00:00+00:00",
+          "snippet": "Qatar urges Iran to safeguard Gulf waters from conflict, disaster | Gulf Times Gulf Times",
           "lexical_overlap": 0.105,
           "relevance": 0.175,
           "matched_terms": [
-            "global",
+            "disaster",
             "safeguard"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "global",
+            "disaster",
             "safeguard"
           ]
         }
@@ -59506,7 +59623,7 @@
     },
     {
       "id": "5afa0c624dfd12efcb",
-      "checked_at": "2026-10-16T21:45:55.877840+00:00",
+      "checked_at": "2026-10-27T07:50:38.913517+00:00",
       "promise_id": "BJP-2019-e2c49766e6c6719a1c",
       "year": 2019,
       "category": "culture_heritage",
@@ -59545,7 +59662,7 @@
     },
     {
       "id": "fa6c38c5669fe608a3",
-      "checked_at": "2026-10-16T22:07:09.553538+00:00",
+      "checked_at": "2026-10-27T07:50:51.038193+00:00",
       "promise_id": "BJP-2019-f82048037e6c8c8813",
       "year": 2019,
       "category": "security_defence",
@@ -59570,17 +59687,17 @@
       "query": "international terrorism same towards establishing comity",
       "evidence": [
         {
-          "id": "a234ac6839eab57509",
+          "id": "18db49feb3b0be22b6",
           "scope": "broad_official_search",
           "tier": "primary",
-          "source": "DD News",
-          "source_url": "https://ddnews.gov.in",
-          "title": "BIMSTEC Home Ministers Adopt Delhi Declaration to Strengthen Action Against Terrorism, Human Trafficking and Transnational Crime - DD News",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPVlM5c2ZMdE8zTXhnMlVaX0NXRGEtVWdOWlVOYU1jYVY1Uy04MVlLV0dmN1kxbW9FTmhLdTdxaTNQUVN0WTNxakhQQmEtVU1PTHF5dWRqM1R4cUZCR2lZQW5UTFlOQ3ZSRnlFQUpuN3pOeWF5Sm9XaE9yYTN2RlpPdUNJc2VIRllvUHVKQjNqM2Q5dWoyeWtJUnljRTVCTDBXT05acjBvWVlPUk1fN2pLekEzZlpHcFJWX05NdS00Y3ZaS1pvQWhXb1Z2RkhRcUZfVkhoM2RhNjc0Z0hvbExsU2hpV19Jc1VF?oc=5",
-          "published_at": "2026-10-15T18:20:19+00:00",
-          "snippet": "BIMSTEC Home Ministers Adopt Delhi Declaration to Strengthen Action Against Terrorism, Human Trafficking and Transnational Crime DD News",
-          "lexical_overlap": 0.077,
-          "relevance": 0.197,
+          "source": "News On AIR",
+          "source_url": "https://newsonair.gov.in",
+          "title": "PM Modi warns against economic warfare, stressing need to shield country’s banking system from cyber terrorism - News On AIR",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSDFzaGo0eXI5THY1Smk0T05xdHZ5MVFJNW9XTW83LXlvOFRxbTRDM0RyQUw0d3Jkbmg1a0tJd3AtNEFYUkprQzBkWjQ4NmFCNzBNQ2ZPWXNHWVhKOWRtVkwzbGFaekt5aF9GSzBKczFVeXdIREtvZDlCYktuVFplX2ZVTzZia2lyYmdWX3R4QnZjUjVCVzdRdFZMUml2QUlLVUVCRWRMaUpwSmd5?oc=5",
+          "published_at": "2026-10-25T16:08:00+00:00",
+          "snippet": "PM Modi warns against economic warfare, stressing need to shield country’s banking system from cyber terrorism News On AIR",
+          "lexical_overlap": 0.083,
+          "relevance": 0.203,
           "matched_terms": [
             "against",
             "terrorism"
@@ -59588,28 +59705,6 @@
           "shared_numbers": [],
           "promise_core_overlap": [
             "against",
-            "terrorism"
-          ]
-        },
-        {
-          "id": "81ddea9f22dc805307",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "United Nations Office on Drugs and Crime",
-          "source_url": "https://www.unodc.org",
-          "title": "Bangladesh: UNODC promotes community policing approaches to countering terrorism and violent extremism - United Nations Office on Drugs and Crime",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQWEJYYlp3RkhGOXlYUlJvamhmYzRtQjlrZElhWEZrbWVvYkRXUUNhSjRDZE1NdFlleWdHcTAtajJYZjBJM1JhOHFPWEZrWmkxdjNRdDByV3dMOFNPZ2JXamRVQlI0MXNiUmQ1emE2ZFhUVTlEMkVrZzRtWG9SaUJIaWZhQXFZTkJxblFKS2lqejRmbUQ1dWlyMXF1c2ZWbmVOTVNGVU5GYVVGamtQUTlKbEU3cThNbWE0OU93NndULVd0T0Vyb3pIZElOYWdCWkxRN1hObnp4eHFpcFNYdVNVeUhtaFc1N0JTaFBfNkhsdy0?oc=5",
-          "published_at": "2023-05-15T07:00:00+00:00",
-          "snippet": "Bangladesh: UNODC promotes community policing approaches to countering terrorism and violent extremism United Nations Office on Drugs and Crime",
-          "lexical_overlap": 0.08,
-          "relevance": 0.15,
-          "matched_terms": [
-            "nations",
-            "terrorism"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "nations",
             "terrorism"
           ]
         }
@@ -63020,7 +63115,7 @@
     },
     {
       "id": "df076e7dea8ba67624",
-      "checked_at": "2026-10-27T05:39:50.802846+00:00",
+      "checked_at": "2026-10-27T07:50:34.185912+00:00",
       "promise_id": "BJP-2014-078252941779345656",
       "year": 2014,
       "category": "women_social_justice",
@@ -63101,7 +63196,7 @@
     },
     {
       "id": "2bf86876bdd62c9887",
-      "checked_at": "2026-10-18T16:11:08.509634+00:00",
+      "checked_at": "2026-10-27T07:51:00.584053+00:00",
       "promise_id": "BJP-2014-103f1a0801190b6c2d",
       "year": 2014,
       "category": "infrastructure",
@@ -67589,7 +67684,7 @@
     },
     {
       "id": "20bd611f7acfab41ca",
-      "checked_at": "2026-10-18T16:11:03.056312+00:00",
+      "checked_at": "2026-10-27T07:50:58.600961+00:00",
       "promise_id": "BJP-2014-032ab3741c18242ab0",
       "year": 2014,
       "category": "other",
@@ -69287,7 +69382,7 @@
     },
     {
       "id": "119bb3f62b9f56b693",
-      "checked_at": "2026-10-18T16:11:01.483621+00:00",
+      "checked_at": "2026-10-27T07:50:57.390224+00:00",
       "promise_id": "BJP-2014-02b205a6c34397321a",
       "year": 2014,
       "category": "other",
@@ -72203,7 +72298,7 @@
     },
     {
       "id": "36d223dff267a9ff9b",
-      "checked_at": "2026-10-18T16:11:06.939507+00:00",
+      "checked_at": "2026-10-27T07:50:59.313151+00:00",
       "promise_id": "BJP-2014-04e1381e7e988f11a6",
       "year": 2014,
       "category": "education_skills",
@@ -72228,17 +72323,17 @@
       "query": "defence strengthen research development organization drdo",
       "evidence": [
         {
-          "id": "609be2f453e1ea200c",
+          "id": "b3f8fbbc0fb3f6663f",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "PIB",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "DRDO inaugurates Quantum Technology Research Centre to further bolster indigenous quantum capabilities for strategic & defence applications - PIB",
+          "title": "DRDO inaugurates Quantum Technology Research Centre to further bolster indigenous quantum capabilities for strategic & defence applications - Press Information Bureau",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE82TjhueVFXLWxzdENfTTROODR5b0FIb3BJZmVkNnhkbC1oTEdZOXprcUZETU5XcXRsb0VWNGFaZWY4emJqRER2MEZFRjE2dzhQRUcxVHVTVjhRdWQ1VXhMSFZBY0l3TGwy?oc=5",
           "published_at": "2025-05-27T07:00:00+00:00",
-          "snippet": "DRDO inaugurates Quantum Technology Research Centre to further bolster indigenous quantum capabilities for strategic & defence applications PIB",
-          "lexical_overlap": 0.13,
-          "relevance": 0.285,
+          "snippet": "DRDO inaugurates Quantum Technology Research Centre to further bolster indigenous quantum capabilities for strategic & defence applications Press Information Bureau",
+          "lexical_overlap": 0.12,
+          "relevance": 0.275,
           "matched_terms": [
             "defence",
             "drdo",
@@ -72252,17 +72347,17 @@
           ]
         },
         {
-          "id": "e7d6c9ad18bc7592ee",
+          "id": "25c65c62f379baeb79",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "PIB",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "DRDO & RRU ink MoU to foster collaboration in research, education, training and technology support for defence & internal security - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9jczlqVnE1NnZreHVjVFFTLXVpM1hRZUEzZDJ6S1VSRjA0a1RfTVhaaG5fSGtTMWpRaVlSZHVsMGtmbmtQV0ZwRnMtMXk3VVRkUWxYOGN6bXp3TEhiR290WFR0cGhMUWNF?oc=5",
+          "title": "DRDO & RRU ink MoU to foster collaboration in research, education, training and technology support for defence & internal security - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5wRHZyWWhFVk9SZE1Yb090bjJlUXVLVUZPa1l1SDlDT3NZVXhtSFN1VmIwTnFpT3U1WUxHNEpRX0Z6WTBtQ1VEN1Y4d044Sld4eVpoQ3I3TVdLRDlTaEt2WkFxUzdjVGdaMTBINE13TkNpNy14TG9UbW5n?oc=5",
           "published_at": "2025-12-22T08:00:00+00:00",
-          "snippet": "DRDO & RRU ink MoU to foster collaboration in research, education, training and technology support for defence & internal security PIB",
-          "lexical_overlap": 0.125,
-          "relevance": 0.28,
+          "snippet": "DRDO & RRU ink MoU to foster collaboration in research, education, training and technology support for defence & internal security Press Information Bureau",
+          "lexical_overlap": 0.12,
+          "relevance": 0.275,
           "matched_terms": [
             "defence",
             "drdo",
@@ -72319,6 +72414,28 @@
           ]
         },
         {
+          "id": "1bdbd1d6b25877b85b",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "DRDO releases redefined and augmented Research Verticals & Thrust Areas across DIA-CoEs to streamline and enhance research - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9DZUdRVWRhXzhwZVhrRHRwc2hnek1XSXVrZHJYZGxZbTJ0ekJoUE5HTnRBaWp3dmdZQjBMQnUzb1FXYjV2aFJqV3JpWFpVckROa1pxV2g3NlBKUjVvQnJVSjlEZ1U4UnAy?oc=5",
+          "published_at": "2025-02-07T08:00:00+00:00",
+          "snippet": "DRDO releases redefined and augmented Research Verticals & Thrust Areas across DIA-CoEs to streamline and enhance research Press Information Bureau",
+          "lexical_overlap": 0.083,
+          "relevance": 0.203,
+          "matched_terms": [
+            "drdo",
+            "research"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "drdo",
+            "research"
+          ]
+        },
+        {
           "id": "9d3370b1e68f6c97c5",
           "scope": "news_search",
           "tier": "secondary",
@@ -72345,6 +72462,32 @@
           ]
         },
         {
+          "id": "7349b51644b7b230a0",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Firstpost",
+          "source_url": "https://www.firstpost.com",
+          "title": "Govt to transfer all DRDO missile tech to private sector for production, says Defence Ministry - Firstpost",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNM0hNdXZ0T09lcWlmbFRzQThVbnVXM0FmQzZCZHVWVmwwY2E0OU1pR3dJTFcyQ0d6dkpCcnRqX19nVXZOdTRZdjMyQnBwRkdKMXM4Z3F2bDdoU0NIaHMtYlY1alRsV2kzQzNpa2thNC1OZ2daZkR0S2JPT2Rra3VxTjlhdGtzMkk1S1g1bnBNYmVhamVzbmlUVENILUV1X0ZuazFybVpZeGlEWkRHMUd2SE9mUk9IS0tfVlN3cndpLVpybDgyN01tVWFqUy1DdnZhLU50d3REQ1p0bGdLMy1TUnA3UktIdm40SXlMWVln0gHzAUFVX3lxTE5JWlhIXzlrQkpUNi14NWxFVEllcnZORkpId0VQU2Q3ZzhEMENJVkg5cVAxM1E4Snd3MHRPSGlhakVjZ0hNMmphWXpmRC1NMVM1M2w4WldLRWJNbjhSRkxBcndHaUE5YkoxbVNoVjNGd0JScy1vbVhSUm5wMG9ESHZENVNZWEs0S01FWnN5b3d4Z1RLRkVrd3pjcWg2UlNOblg3M1N6RnU5UFBBTHRkdzkzbkU1T2R3b3RGTWN0Z2xPdGVNWmJ2Mm9nUEI4ZDJzNDJ4TzUwUF9hbGMwLU9qV19BRlZCb0h4SlVsN3FRTWh1NlI1cw?oc=5",
+          "published_at": "2026-08-25T07:00:00+00:00",
+          "snippet": "Govt to transfer all DRDO missile tech to private sector for production, says Defence Ministry Firstpost",
+          "lexical_overlap": 0.211,
+          "relevance": 0.351,
+          "matched_terms": [
+            "defence",
+            "drdo",
+            "private",
+            "sector"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "defence",
+            "drdo",
+            "private",
+            "sector"
+          ]
+        },
+        {
           "id": "cca313c184f30310a3",
           "scope": "news_search",
           "tier": "secondary",
@@ -72366,74 +72509,6 @@
             "defence",
             "drdo",
             "private"
-          ]
-        },
-        {
-          "id": "21fd8949f07e13ad68",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "https://www.usthadian.com/",
-          "source_url": "https://www.usthadian.com",
-          "title": "DRDO Prajna System And ADC 150 Strengthen Defence Capability - https://www.usthadian.com/",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQOTZVVm5vc3pyWVVZVzNEaUR2Snc0TVNDOHRpQTdDbmRHMWZHZURJZlFORmRRWThyUklsbFVlU0ZfYjdaTk44Y2FMdlZxcTJfX3dONkY1blNIMFFpdElVV3NuTHZwRTNtaUh3dEdqNWl2UkVvRDNkb1VlTzF0X1hOeno5RXJiWVNteWZMVWtqWFg?oc=5",
-          "published_at": "2026-04-24T07:00:00+00:00",
-          "snippet": "DRDO Prajna System And ADC 150 Strengthen Defence Capability https://www.usthadian.com/",
-          "lexical_overlap": 0.15,
-          "relevance": 0.255,
-          "matched_terms": [
-            "defence",
-            "drdo",
-            "strengthen"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "defence",
-            "drdo"
-          ]
-        },
-        {
-          "id": "e6aee56a839ee3010f",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "DRDO & RRU ink MoU to foster collaboration in research, education, training and technology support for defence & internal security - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE15MjdKVnhpZUZDTmlVTHh6dXRfaGZ0Q2FadG53NjhrTHplZWN3Y1Vsc1p1YTNhUk0xZFZaNW5oa1o0NVlEV2NEc2hUUXFHbnd5SFZEUGcwTXR3NzZ2OHFMZlpfeFFKZ1FJRWhsVDJMWUpyOG1DSVcwcUNuLUQ?oc=5",
-          "published_at": "2025-12-22T08:00:00+00:00",
-          "snippet": "DRDO & RRU ink MoU to foster collaboration in research, education, training and technology support for defence & internal security Press Information Bureau",
-          "lexical_overlap": 0.12,
-          "relevance": 0.225,
-          "matched_terms": [
-            "defence",
-            "drdo",
-            "research"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "defence",
-            "drdo",
-            "research"
-          ]
-        },
-        {
-          "id": "8daa80a7c3414926b8",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "ETV Bharat",
-          "source_url": "https://www.etvbharat.com",
-          "title": "DRDO Collaborates With Home Ministry To Strengthen India’s Internal Security - ETV Bharat",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORkFySWJBUVRWamlRdUEwdWppeHdHMV8xM0JReUVwRkRmamN4S1NyOTR4TjBkNTlxYWVCdlFhTHdHUk5uY3pVemhhX0xfV0lwMnU0VlREZkhRaWVJSUo4UjZvd0NTV1h1bk9TZ2dzUWJMaDVhemF5WTZDS1JyV0hLaDRfay1IWlRUQm5EMDl4WkxYdExLWGk2NjllS1JDVmtOcGlFZUpMMXIyR28wdzNpMWt6TUNuVFpzb281dWdPWE1ZVW_SAcgBQVVfeXFMT1R1UGl0c0d6ZWdIbkdiaGszN2NlbmdxQThFZThjME1BX2x1dGNGU2JPajBsUXZHY1FCUkdkLU54RnVFeDJZWjBZZ3hPZi12MERsdEtwOHZmWGVjb1ZDVTNvWU5XT0pVcXVKRjk5Y1JSSlYyUzAyckI4ZDltTC1SYncydVJzbnoydTl4dkY0WkhNbjl4dC14SXpBMFBWZ05GNDJwaWVJUXh3b3VDemhkMFRPWG5EczNxaUZCeElrdFNrdXA0ekh5djg?oc=5",
-          "published_at": "2026-04-20T07:00:00+00:00",
-          "snippet": "DRDO Collaborates With Home Ministry To Strengthen India’s Internal Security ETV Bharat",
-          "lexical_overlap": 0.111,
-          "relevance": 0.181,
-          "matched_terms": [
-            "drdo",
-            "strengthen"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "drdo"
           ]
         },
         {
