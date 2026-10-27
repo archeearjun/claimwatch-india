@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T18:21:36.677495+00:00",
+  "generated_at": "2026-10-27T20:06:39.607038+00:00",
   "capabilities": {
     "official_evidence_search": true,
     "verified_primary_gate": true,
@@ -16,8 +16,8 @@
     "promise_checked_this_run": 30,
     "promise_total_candidates": 841,
     "promise_coverage_pct": 101.3,
-    "primary_candidates": 550,
-    "secondary_candidates": 1064,
+    "primary_candidates": 551,
+    "secondary_candidates": 1066,
     "prior_fact_checks": 0,
     "publishable_auto_verdicts": 0,
     "claim_verdicts": {
@@ -326,11 +326,31 @@
           ]
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "7d224c95721fae3b9b",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "24/7 Wall St.",
+          "source_url": "https://247wallst.com",
+          "title": "The AI Debt Boom Is Helping Push Everyone’s Cost of Capital Higher - 24/7 Wall St.",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbmRURnN5bThsN0RFaW9xc2k2SFotU2RQanduQnlUV2hYTURubG5jTlhZQ3RJSGxSWXl1Zi0xOThma3RrMHZ6a3k1YWJoWV9RUkFBOEYyS2U0Qm9mNV9tTk5OVWIzdWdOUmNRb1FlUVc1Q0drZFkxeEhyVnBIRVRSR3RIRnpDOVprb09JdG1hSHZZeHZRVkh0TnlMcHh5NDByMzNkV3JkUXFFSkoycnc?oc=5",
+          "published_at": "2026-08-23T07:00:00+00:00",
+          "snippet": "The AI Debt Boom Is Helping Push Everyone’s Cost of Capital Higher 24/7 Wall St.",
+          "lexical_overlap": 0.056,
+          "relevance": 0.201,
+          "matched_terms": [
+            "everyone"
+          ],
+          "shared_numbers": [
+            "24"
+          ]
+        }
+      ],
       "fact_checks": [],
       "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
+        "level": "reporting_found",
+        "label": "Relevant reporting found; primary evidence still needed",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -447,6 +467,24 @@
             "ecosystem"
           ],
           "shared_numbers": []
+        },
+        {
+          "id": "23915aaf989e67f10f",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "CSIS | Center for Strategic and International Studies",
+          "source_url": "https://www.csis.org",
+          "title": "Export Nation or Ecosystem Power: South Korea’s Choice in the AI Industrial Age - CSIS | Center for Strategic and International Studies",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZU5DblhJNmhFRG5vd0NrYXk2X3hEb1FlSk1rVnF4eFFiZGo1aWlTVmIyWGY5NUc2QUVpRWZIY054clppSU42eHdDWkZGUXVjcl9vb1Y1RWxTX3ppaDVCSGVNME9UOUpTTS16eE1HN0ZjejdHTS1tRlBkdlZiMEJmZG9JRVhVeFBIMENYT281YkJ5bkFEOHU2TlY1VzN4SEFBM0E?oc=5",
+          "published_at": "2026-07-07T07:00:00+00:00",
+          "snippet": "Export Nation or Ecosystem Power: South Korea’s Choice in the AI Industrial Age CSIS | Center for Strategic and International Studies",
+          "lexical_overlap": 0.08,
+          "relevance": 0.15,
+          "matched_terms": [
+            "ecosystem",
+            "nation"
+          ],
+          "shared_numbers": []
         }
       ],
       "fact_checks": [],
@@ -539,7 +577,7 @@
         "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
         "published_at": "2026-10-25T13:30:15+00:00"
       },
-      "query": "60 59 nirmala ji mentioned just now has",
+      "query": "59 60 nirmala ji mentioned just now has",
       "numbers": [
         "59",
         "60"
@@ -741,18 +779,19 @@
           }
         },
         {
-          "id": "8100904d3185b9b68e",
+          "id": "9860913f9848bd5052",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "IBEF",
-          "source_url": "https://www.ibef.org",
-          "title": "Empower Street Vendors with PM SVANidhi Scheme - IBEF",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9GX1FkVHBULV80WnVJSC1LTU9qMG9SNkp3NWltVjJOWUdBMVpsM2VXNXpXZVdBNTdVLVJOMGFPZUxiNmIzU0R2NUROc1czWGtWR05QMnRQbTlKaEpnMklUSnVNTEdkdUIzdXc?oc=5",
-          "published_at": "2024-06-08T13:31:59+00:00",
-          "snippet": "Empower Street Vendors with PM SVANidhi Scheme IBEF",
-          "lexical_overlap": 0.308,
-          "relevance": 0.448,
+          "source": "CNBC TV18",
+          "source_url": "https://www.cnbctv18.com",
+          "title": "76.95 lakh street vendors avail ₹18,475 crore collateral-free loans under PM SVANidhi - CNBC TV18",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNLVNJNjBHc2VVZmhFVDRPN181RzNfdjFpRWVwQkhjdW9xWk4xV09LWU9ndVdkcEhYOFZ6QVQ3dWRrUmVFbVlxdnFfOG5uZXl1cXJWZkpDX3VjQzU0SGhpaEg1U3llWE9EWGRhOE0tc1JZMFlFd1JxRnV6LWp4REh5NDJmdlR3SUVubTdXdXZWWWVRZ2staF9FNzdWbVJnOVFUVUZKcVdoSzdGZTQyVElTQUNlM0VWUDAyaklVT3Z2TmlNUTlnc2F1SkNsTjnSAdIBQVVfeXFMTWxGdXNtTlNaODVCaEJZcWE3WGNURVJXYTJpb2dIWXlveHVubW4xM0NJdFJQWmpOVHlmTl9PWnZfUm1SVkV1M0lNV0p4cE9ubkhVY2Q2aGExZnZyQTFZb3hNWHBkejRrRlMtYm1ReVR3SEVHZi0tX0xKeHBMd3lSRkdWd0pFaTJnSm5oOTNjTWQ2UEJ5elE1TnprZ2hzUGp4ZXpDY2FOM0Jsd1doejN1UU85WDJQQVVDNmxfUUFyYU1uZUljdXFfVGJ1dW05V0dGVmdB?oc=5",
+          "published_at": "2026-08-06T07:00:00+00:00",
+          "snippet": "76.95 lakh street vendors avail ₹18,475 crore collateral-free loans under PM SVANidhi CNBC TV18",
+          "lexical_overlap": 0.312,
+          "relevance": 0.488,
           "matched_terms": [
+            "loans",
             "pm",
             "street",
             "svanidhi",
@@ -784,26 +823,6 @@
             "neutral": 0.9865,
             "contradiction": 0.012
           }
-        },
-        {
-          "id": "5f82f1e163608f6189",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "IBEF",
-          "source_url": "https://www.ibef.org",
-          "title": "PM SVANidhi: Micro Credit Scheme for Street Vendors - IBEF",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQR3pJVDdCb2FpR19pdjJGbUwxZ0tZaHVSaU9TajdOWndrZVF0Qy1STG95WGpNWFJpVU5UM1hxN1ZZVDZlXzBrNEdEMWtpZnhEbTBuTHh6UVZEeVZCV0o2TTNlMmhyRjNmVndLTExxcVYtUWV0OGNXTDFBUWpleWlPNEE5WQ?oc=5",
-          "published_at": "2023-02-17T08:00:00+00:00",
-          "snippet": "PM SVANidhi: Micro Credit Scheme for Street Vendors IBEF",
-          "lexical_overlap": 0.286,
-          "relevance": 0.426,
-          "matched_terms": [
-            "pm",
-            "street",
-            "svanidhi",
-            "vendors"
-          ],
-          "shared_numbers": []
         },
         {
           "id": "4a2a6c9ec1e80a96b6",
@@ -881,6 +900,25 @@
           }
         },
         {
+          "id": "4955173f87cfaf2ce0",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Times of India",
+          "source_url": "https://timesofindia.indiatimes.com",
+          "title": "LG directs banks to speed up PM SVANidhi loans as Delhi receives over 4.3 lakh applications - The Times of India",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPNE9HSHFZcnJQWFpueWYtUVlyaXVySHVsczRBUEFyZDBuVFZFcDlEc3dLY2hzQ1NRSlpGUE8tdjNVdGU3MzNfdzZMSE9abmZEVGxNX1VOSE9WOXhCTUJLY2JocHBLYmhzR1d3VVp1amtra0s1RFdjRi1vTGJlSm9FcG1sWUIydXhzSUh2UlBwNFUxN0JZWi15RUptTGczTDJBVmI1Rk1CZ3RRWlpLanR0ZC04anBSQmxvM25DZ2xzSUtYWUxWLWhBWnYwcnRQTC0zRkV0ekZ6RXM3NHVnNG5KU1B0cVZjT1JoU1VsMUhQdnd0SDk4U2lN0gH8AUFVX3lxTE5kbkxlYzgxT1BhbllNVVBGWkZjQXREUmVPRmd5a2F1dWFyblZjRTZrVUhxNUFoanVWQUtxTXpSNzZqaGIwUjRwTnh5dzVJUGU5OGEteHJKY2hTcjRyRmNmVVlPd2FHYUVmZUx4eVNoemFBY3hYT2ttTTYzd3VhVTJJVWdySVZMWjlRclFJRU5HZGx2TXN4cGVOaEZ4NG9QeG16UHRhU0pZd0tHR1g2XzVMOW9jbEpfLUNpc0dTZlV6MFc0TmRQWVBKZkVXQmhoOG12RTJ0eGhvTFZTNVloRkx3WHFKak9sZ0ZVQjB4WHFoZ2o0Y0tmb1dxVV9pbQ?oc=5",
+          "published_at": "2026-06-12T07:00:00+00:00",
+          "snippet": "LG directs banks to speed up PM SVANidhi loans as Delhi receives over 4.3 lakh applications The Times of India",
+          "lexical_overlap": 0.15,
+          "relevance": 0.255,
+          "matched_terms": [
+            "loans",
+            "pm",
+            "svanidhi"
+          ],
+          "shared_numbers": []
+        },
+        {
           "id": "eb7e0e2bf220518ef5",
           "scope": "preferred_official_search",
           "tier": "primary",
@@ -904,6 +942,25 @@
           }
         },
         {
+          "id": "2dba54a7c6bab0b7ac",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Organiser",
+          "source_url": "https://organiser.org",
+          "title": "PM SVANidhi Success Story: How Modi Govt’s street vendor scheme transformed more than 75 lakh lives across Bharat - Organiser",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQZGlSaVEwQjRSNVA5MXgzMWNGZEtFZTBpWHlKMGxZblJwNi0xWWthMDVLdW5HS1lxbkEyMFJSX000TjVjVmEwblYtenBfV292YmtGMjRseWxZcDY5U0NuamNxSzBwWHk3VUpJdDFPQXB3MzJmOG9oYW9TeGRBNXBYV1BLaXAzMG9nZkszMlk2NGlMLWRNNVo4a3RmMnhEMmRvbHY4MmhleW8zWlRjTmttSVQzaVR3a2E3SVppYy1XS2g4SG5HNVdzaWM2ME5LM3BjbF9mTWlWOUFZRkxKSGNqLUVqSU9HekR2WXAxS0xJZ2PSAfYBQVVfeXFMTlFiNC1xcGVJOFZxc25ZNElMOU1VN2lVQ3BLZHNScGxwRllyaVFoZks1b2tLX2loN0thR0pZZm9BSkJ0d00xYmhzV0w4V01NNGN2ekR3bXc4OTRUTkdHUnh1M2s0blZ0Y1BBam02UmlRVmZJcGJSWUNiY3RhdDlyMXk5TVpoOVdBYzFDNVJLeFNGS3RxRUkxZDM1ZE5peEt4azJWVjR4M2ZIalozMVh2aHF1clo3MFl5Nk1SN2JYbG9sLUN3SFU1UmRVUzhjem14cmhiUXAwZTJvOGlWTzl0NklMZTBILVBBMFlTbG1xSl9FY2VOQm5R?oc=5",
+          "published_at": "2026-05-31T07:00:00+00:00",
+          "snippet": "PM SVANidhi Success Story: How Modi Govt’s street vendor scheme transformed more than 75 lakh lives across Bharat Organiser",
+          "lexical_overlap": 0.143,
+          "relevance": 0.248,
+          "matched_terms": [
+            "pm",
+            "street",
+            "svanidhi"
+          ],
+          "shared_numbers": []
+        },
+        {
           "id": "10ab72a0082de17f60",
           "scope": "news_search",
           "tier": "secondary",
@@ -915,24 +972,6 @@
           "snippet": "PM SVANidhi Yojana convened in Ahmedabad CMO Gujarat",
           "lexical_overlap": 0.133,
           "relevance": 0.203,
-          "matched_terms": [
-            "pm",
-            "svanidhi"
-          ],
-          "shared_numbers": []
-        },
-        {
-          "id": "95a4a3fc7347ae0d36",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "www.pib.gov.in",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Over 5 lakh applications received under PM SVANidhi scheme - www.pib.gov.in",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE04RV91Qm9TN01pUFZKaVB0czljU05heHRPYjFjdEdvd1c5UHNqSWItR0JxYWhwZmQ0cjNTLS1NNUNwQ29xRU5BSHBoeDBKWk56cUZuZ1ZGdTkwemI0QTI3SnVzLUxBUTh5?oc=5",
-          "published_at": "2020-08-12T07:00:00+00:00",
-          "snippet": "Over 5 lakh applications received under PM SVANidhi scheme www.pib.gov.in",
-          "lexical_overlap": 0.118,
-          "relevance": 0.188,
           "matched_terms": [
             "pm",
             "svanidhi"
@@ -1045,7 +1084,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-27T18:20:43.607861+00:00",
+      "latest_checked_at": "2026-10-27T20:05:51.557950+00:00",
       "latest_claim_packet_id": "d4aab404e9ccc6ccf7"
     },
     {
@@ -1312,7 +1351,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-27T18:20:43.607903+00:00",
+      "latest_checked_at": "2026-10-27T20:05:51.558010+00:00",
       "latest_claim_packet_id": "884558fa72add4403d"
     },
     {
@@ -1408,7 +1447,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-27T18:20:43.607847+00:00",
+      "latest_checked_at": "2026-10-27T20:05:51.557935+00:00",
       "latest_claim_packet_id": "60ae96f665f22ef03b"
     },
     {
@@ -1456,7 +1495,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-27T18:20:43.607742+00:00",
+      "latest_checked_at": "2026-10-27T20:05:51.557820+00:00",
       "latest_claim_packet_id": "b8d4ab680299139905"
     },
     {
@@ -1528,7 +1567,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-27T18:20:43.607889+00:00",
+      "latest_checked_at": "2026-10-27T20:05:51.557982+00:00",
       "latest_claim_packet_id": "dac6e2327ebe0bd17a"
     },
     {
@@ -1744,7 +1783,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-27T18:20:43.607918+00:00",
+      "latest_checked_at": "2026-10-27T20:05:51.558027+00:00",
       "latest_claim_packet_id": "050ea98dd7879a06cd"
     },
     {
@@ -1936,7 +1975,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-27T18:20:43.607805+00:00",
+      "latest_checked_at": "2026-10-27T20:05:51.557891+00:00",
       "latest_claim_packet_id": "29371b53212e779eff"
     },
     {
@@ -2080,7 +2119,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-27T18:20:43.607779+00:00",
+      "latest_checked_at": "2026-10-27T20:05:51.557860+00:00",
       "latest_claim_packet_id": "b35543711de7918ea9"
     },
     {
@@ -2152,7 +2191,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-27T18:20:43.607793+00:00",
+      "latest_checked_at": "2026-10-27T20:05:51.557877+00:00",
       "latest_claim_packet_id": "ddb711a027259cf305"
     },
     {
@@ -2344,7 +2383,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-27T18:20:43.607940+00:00",
+      "latest_checked_at": "2026-10-27T20:05:51.558050+00:00",
       "latest_claim_packet_id": "5bb402465b7ccab062"
     },
     {
@@ -2488,7 +2527,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-27T18:20:43.607874+00:00",
+      "latest_checked_at": "2026-10-27T20:05:51.557965+00:00",
       "latest_claim_packet_id": "f5f9e7bb05cfa3199f"
     },
     {
@@ -2632,7 +2671,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-27T18:20:43.607929+00:00",
+      "latest_checked_at": "2026-10-27T20:05:51.558039+00:00",
       "latest_claim_packet_id": "00739b48a203bf3deb"
     },
     {
@@ -2770,13 +2809,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "needs_research",
+      "evidence_state": "reporting_found",
       "human_reviewed": false,
       "created_at": "2026-10-27T07:50:11.256975+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-27T18:20:43.607835+00:00",
+      "latest_checked_at": "2026-10-27T20:05:51.557921+00:00",
       "latest_claim_packet_id": "1d53d6d12eb863d5b2"
     },
     {
@@ -3019,7 +3058,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-27T18:20:43.607823+00:00",
+      "latest_checked_at": "2026-10-27T20:05:51.557908+00:00",
       "latest_claim_packet_id": "318b27cf844c2ade6a"
     },
     {
@@ -39812,7 +39851,7 @@
     },
     {
       "id": "f19e1b490a861edac9",
-      "checked_at": "2026-10-20T22:19:27.995977+00:00",
+      "checked_at": "2026-10-27T20:06:20.536952+00:00",
       "promise_id": "BJP-2019-253a2cc725aa76f7ee",
       "year": 2019,
       "category": "governance",
@@ -41301,7 +41340,7 @@
     },
     {
       "id": "02adcc124387f3c1d0",
-      "checked_at": "2026-10-20T22:19:30.407429+00:00",
+      "checked_at": "2026-10-27T20:06:23.888251+00:00",
       "promise_id": "BJP-2019-282e738068a0aebcaf",
       "year": 2019,
       "category": "security_defence",
@@ -41369,28 +41408,6 @@
           "promise_core_overlap": [
             "approach",
             "terrorism"
-          ]
-        },
-        {
-          "id": "c332ba481aeb47628e",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "DD News",
-          "source_url": "https://ddnews.gov.in",
-          "title": "Operation Sindoor showcased India’s defence readiness shaped by ‘Nation First’, ‘Forces First’ approach: Rajnath Singh - DD News",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOU0JLVXZzenFIUmtPMEx0Ui1jOVkzX1BRMWtKQ0RwdG5RTjgzc1l4NnBvQmswVnFCMi1CWWdad2h5dWJwaDljaEVTbXFZeGZlR3dOelRfOVN6ZHhtSHZPTXBaNzVpUWIxMndZbEFzNTE2RnFCaUV4ZU54TUpXekQ3cWlNQlpFTjBScUFqdmQ4WXRFVm1aRGw1a0I2VG40d2ZNQzNkLXNlQ0hneGVtN3FCZG5XQkh5SmJQQmdYS3ZwbmZEbmtWY3JBajM1dHhJU3pkMzNJ?oc=5",
-          "published_at": "2026-07-18T07:00:00+00:00",
-          "snippet": "Operation Sindoor showcased India’s defence readiness shaped by ‘Nation First’, ‘Forces First’ approach: Rajnath Singh DD News",
-          "lexical_overlap": 0.083,
-          "relevance": 0.153,
-          "matched_terms": [
-            "approach",
-            "forces"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "approach",
-            "forces"
           ]
         }
       ],
@@ -43365,7 +43382,7 @@
     },
     {
       "id": "0764c49dce738dbbee",
-      "checked_at": "2026-10-27T18:20:45.905194+00:00",
+      "checked_at": "2026-10-27T20:05:54.027654+00:00",
       "promise_id": "BJP-2019-18c0750d5ed71bc3d1",
       "year": 2019,
       "category": "agriculture",
@@ -43488,30 +43505,6 @@
           ]
         },
         {
-          "id": "531ed5a861c168b322",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Outlook India",
-          "source_url": "https://www.outlookindia.com",
-          "title": "Farmer Producer Organization Scheme A Path To Farmers’ Prosperity - Outlook India",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMVpLQmxEZW5udS1scVRES3BVcEduZnhJaEdLcU1HY2hKWndwZ0g1dWpIRl9PRHdPaVQ5c2RFaV9PTVZ6akw3NGpnYjNudkwxaEJuOG81VlFJdVZ1emkzbTN0NXFlMHpnRlhqZHlTcFhjd21Ba1cxQWtoOVBGVTBkUy05bjFqSkhKOEI0SFhHeG9YSjQwT3lfNVNwNWRKVjN2Wl9rSEgyQWlXY1BCbzVMQll2eUNGMkZm0gHGAUFVX3lxTE16WE9xMW1VUnQzRmR2VGd0OWFPX2Q1RFN4S3ZWd2duMXBOdExXeWlzSXByV05JNmE5WWEzZnFBb1hzOFduZ0R5OXhsZko1N1JhclpXNlpVQ21QZFR0THFTdkVCc1B3ZHBJRFFWMU8wTzlOMDNOTjcxQVVNOWFsT3A2RXc0NzdYX3dBaFBmV0hsSlhsc2YxdWlhMHE2SFM5RTc4TU9xRGhTeWtWUW1wV3IwZ1hiTkJtQU1ZN3RVcUlZeDFXMlM4Zw?oc=5",
-          "published_at": "2024-01-16T08:00:00+00:00",
-          "snippet": "Farmer Producer Organization Scheme A Path To Farmers’ Prosperity Outlook India",
-          "lexical_overlap": 0.176,
-          "relevance": 0.281,
-          "matched_terms": [
-            "farmer",
-            "farmers",
-            "producer"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "farmer",
-            "farmers",
-            "producer"
-          ]
-        },
-        {
           "id": "1af39614098ce2c5d1",
           "scope": "news_search",
           "tier": "secondary",
@@ -43620,6 +43613,28 @@
           "promise_core_overlap": [
             "farmers",
             "fpos"
+          ]
+        },
+        {
+          "id": "07618ce32d181ef2b4",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Down To Earth",
+          "source_url": "https://www.downtoearth.org.in",
+          "title": "Heavy sway: Big corporations with power over farmer producer companies is diluting their purpose - Down To Earth",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOWmdHYVFuUlNEdnBBcDJhQ3BGWVRxVUkzWlZOY2NEeGNfVDZVTk1sa2JrOFZSbjF2dDEtSUFKcEhUY3VoZG42UEJhd3J5OUZsUVlrTDcyOUhtRHp6VGZCdUZfUW5nalpsTUtsRGFKZlIydjRwZjFidlo0VUtsQURoX1M5eHdQVXJJMHYtMDQwSGgwS1EzUURwdXZnenJYRnBGdTNWbUNhYVk2OXBIYUZTSDQ1QXo4bDNZamxZYjh1WkNDR0dMZmtUdGtuUVYwRC1qa0x3aXZiSEhFZFnSAegBQVVfeXFMUGd5TTgtUGhRNjRpd3JWb2d1RTZjX1pMR3lvYko1dDRZWUxDUTFaZjNYQWRDSzdrUC1FdmF2WE9oM3RUME56RGxUd3JJaGh0VnA5elRnTWNsaUEzbzU4TFE1UEt0Ylh2TldvS20yOXdfZHVDOFluMlJCbkR2N0tveWhYaUNqVGJRTGs0WG5WQjdjU3RFR1NTcF90RllEVUM0RnhtTDAzQlF5OTRrb3A0MEJMdDhfUUEwbGdKNXpsZmE4clJ5MlFJNUVvbV9KNUIxQUNQdGpYQ0tvNWR2cnExMnptdFhld3ZsVA?oc=5",
+          "published_at": "2023-04-20T07:00:00+00:00",
+          "snippet": "Heavy sway: Big corporations with power over farmer producer companies is diluting their purpose Down To Earth",
+          "lexical_overlap": 0.091,
+          "relevance": 0.161,
+          "matched_terms": [
+            "farmer",
+            "producer"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "farmer",
+            "producer"
           ]
         }
       ],
@@ -44895,7 +44910,7 @@
     },
     {
       "id": "f5811520c1d5623f19",
-      "checked_at": "2026-10-27T18:20:47.817980+00:00",
+      "checked_at": "2026-10-27T20:05:56.002242+00:00",
       "promise_id": "BJP-2019-1d3e95fa9344e842f3",
       "year": 2019,
       "category": "infrastructure",
@@ -45016,7 +45031,7 @@
     },
     {
       "id": "92d6920a15fb42f812",
-      "checked_at": "2026-10-27T18:21:05.024660+00:00",
+      "checked_at": "2026-10-27T20:06:13.922352+00:00",
       "promise_id": "BJP-2019-6abf03adda773fec98",
       "year": 2019,
       "category": "governance",
@@ -45756,7 +45771,7 @@
     },
     {
       "id": "07082aabd38d04bc0f",
-      "checked_at": "2026-10-20T22:19:38.166618+00:00",
+      "checked_at": "2026-10-27T20:06:30.493966+00:00",
       "promise_id": "BJP-2019-37ebb93b17812e5f4e",
       "year": 2019,
       "category": "women_social_justice",
@@ -46370,7 +46385,7 @@
     },
     {
       "id": "a0668ac8c1060d31b7",
-      "checked_at": "2026-10-20T21:56:17.900934+00:00",
+      "checked_at": "2026-10-27T20:06:17.128486+00:00",
       "promise_id": "BJP-2019-1b424568ca88b46af9",
       "year": 2019,
       "category": "other",
@@ -46409,7 +46424,7 @@
     },
     {
       "id": "b04bad435ad4019b39",
-      "checked_at": "2026-10-20T22:19:28.756746+00:00",
+      "checked_at": "2026-10-27T20:06:21.252264+00:00",
       "promise_id": "BJP-2019-2593f43e323dae56ae",
       "year": 2019,
       "category": "health_welfare",
@@ -46536,7 +46551,7 @@
     },
     {
       "id": "0776a8af50f3895f56",
-      "checked_at": "2026-10-20T22:19:32.828705+00:00",
+      "checked_at": "2026-10-27T20:06:26.333841+00:00",
       "promise_id": "BJP-2019-3329326febf3908a9d",
       "year": 2019,
       "category": "jobs_economy",
@@ -46857,7 +46872,7 @@
     },
     {
       "id": "a4fffe064d939c17d2",
-      "checked_at": "2026-10-20T22:19:34.523265+00:00",
+      "checked_at": "2026-10-27T20:06:27.475155+00:00",
       "promise_id": "BJP-2019-3458a63b56da95eed1",
       "year": 2019,
       "category": "infrastructure",
@@ -46880,7 +46895,30 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
       "query": "grids going forward aim next generation",
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "a47cc571ef11dcbdfc",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Bloomberg.com",
+          "source_url": "https://www.bloomberg.com",
+          "title": "US regulator’s AI data center rules nudge grids forward - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUV9fX2RPU1hLMldEeE1KRnN0ejZkYTRGSXM1d0h6OWxJNkhiOVpKNnJOc3dOSFdYd3VPUlJJUTJ5TVFsLWZmZVJpaEF0bGFnVFY3S1pkYjZBUU82ZmJCLUdEYUhrWl9CLTVKNEhOQ1NoWHRSWllGYkwyaW9IUkhKSVJuVHhGcjVIYUEzeWR4NTZXN1h4ZUtrZUJmTkJPZ1ZIVlRFSzd0LXV1RWJkbnByUkpHcTN3V2gyRUNGdjBETHg?oc=5",
+          "published_at": "2026-06-30T07:00:00+00:00",
+          "snippet": "US regulator’s AI data center rules nudge grids forward Bloomberg.com",
+          "lexical_overlap": 0.095,
+          "relevance": 0.165,
+          "matched_terms": [
+            "forward",
+            "grids"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "forward",
+            "grids"
+          ]
+        }
+      ],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -48448,7 +48486,7 @@
     },
     {
       "id": "1e0abc9f94016f3c7a",
-      "checked_at": "2026-10-27T18:20:49.520816+00:00",
+      "checked_at": "2026-10-27T20:05:57.657026+00:00",
       "promise_id": "BJP-2019-2af396deaf778cac73",
       "year": 2019,
       "category": "infrastructure",
@@ -48533,7 +48571,7 @@
     },
     {
       "id": "4af70c5cc4e5dd31ea",
-      "checked_at": "2026-10-27T18:20:55.542345+00:00",
+      "checked_at": "2026-10-27T20:06:04.137241+00:00",
       "promise_id": "BJP-2019-34c03859f07f1329c5",
       "year": 2019,
       "category": "infrastructure",
@@ -48606,15 +48644,15 @@
           ]
         },
         {
-          "id": "3ca72531dcd6516972",
+          "id": "b1ffee8e6f47df9c63",
           "scope": "news_search",
           "tier": "secondary",
           "source": "Urban Acres",
           "source_url": "https://urbanacres.in",
-          "title": "Dedicated Freight Corridor Network Now Fully Operational - Urban Acres",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNT1RGZ3paMlFlUGpFRmRqekp3ZVNJaE11SFRCVDl3UGl2YXZOY3d3VUpDM3BuWnljRlMwXzhiWThEdDBaNzZpY3ZCaGQ1VzlYVzMyOWxfTm91em5fdFhkRGxjOGhZbmFMYnJBVWJ3ZlZkSXNDMHNkd2RGai1ZMThUczRzdnZNRTZ3UlJXT21Ka0hoOERjdVE?oc=5",
-          "published_at": "2026-09-08T07:00:00+00:00",
-          "snippet": "Dedicated Freight Corridor Network Now Fully Operational Urban Acres",
+          "title": "Dedicated Freight Corridor: India’s Rail Network Enters a New Phase - Urban Acres",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMk5QWk5iWGdfeTh1a2tqUTVBeHk4N0lPLXlyTkpMWWtsRDRldHZkUHFSQmQ0cUozUVgyR09MQV9od2dTTWFOY0dlNUFFeFNfY3ZPWmNZdVFYZWtsUW9pY0dqV3RxUjN6TjUwaS10MU5CWEs0ZUJ6R0dsWkxrX3J3a2N2bEFhN2JCNEdBZTZBdExydw?oc=5",
+          "published_at": "2026-09-14T07:00:00+00:00",
+          "snippet": "Dedicated Freight Corridor: India’s Rail Network Enters a New Phase Urban Acres",
           "lexical_overlap": 0.231,
           "relevance": 0.336,
           "matched_terms": [
@@ -48671,30 +48709,6 @@
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "dedicated",
-            "freight"
-          ]
-        },
-        {
-          "id": "36151813d5768670f4",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "IMPRI Impact and Policy Research Institute",
-          "source_url": "https://www.impriindia.com",
-          "title": "Dedicated Freight Corridor: What A Decade Of Rail Investment Achieved - IMPRI Impact and Policy Research Institute",
-          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOTUpYVnJZMFppdTNaZE13Qm9Xajhxc290akloNklFbEpkTGtCdDZCblV6X0dCejczZlpaVTB1SmRaS1AwZGlSOFJXalpnRlVEcEoxSGt0bTVxQWc0X3JkOHhGQjg2c2RwNkxkcTlfeWpxQ2dfN1AyM09iNzU3Y0ctNlhtczJselRxSmJKMGtkX3Vpdm1WeVYtZWp5b3JuSWtMRXBiX2U0N2RNQU1mRWlRUUNfeS1uSnY1N2ppTlRlM0dRYzVCeDRETkYwaTVsYXF2SGdhaHRPWWpTcGVmOUExVUdQOEpEbHFhYXFIbTB1WTV2XzA5dEdOVC0yQmJTUVE?oc=5",
-          "published_at": "2026-08-09T07:00:00+00:00",
-          "snippet": "Dedicated Freight Corridor: What A Decade Of Rail Investment Achieved IMPRI Impact and Policy Research Institute",
-          "lexical_overlap": 0.176,
-          "relevance": 0.281,
-          "matched_terms": [
-            "corridor",
-            "dedicated",
-            "freight"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "corridor",
             "dedicated",
             "freight"
           ]
@@ -49656,7 +49670,7 @@
     },
     {
       "id": "5c56e5035a5cd9e4b4",
-      "checked_at": "2026-10-20T21:56:18.721056+00:00",
+      "checked_at": "2026-10-27T20:06:17.981497+00:00",
       "promise_id": "BJP-2019-1b5917690123e91614",
       "year": 2019,
       "category": "other",
@@ -49736,7 +49750,7 @@
     },
     {
       "id": "f89fbe33f372467c6f",
-      "checked_at": "2026-10-20T21:56:19.554643+00:00",
+      "checked_at": "2026-10-27T20:06:18.669452+00:00",
       "promise_id": "BJP-2019-2467e36c31b338bd14",
       "year": 2019,
       "category": "infrastructure",
@@ -49809,75 +49823,69 @@
           ]
         },
         {
-          "id": "3cf1e6620907e99606",
+          "id": "69e6dd6ac1dedfe6e0",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Digital Sansad",
+          "source_url": "https://sansad.in",
+          "title": "PARLIAMEN ‘Development and Expansion of PARLIAMENT OF INDIA RAJYA SABHA ment and Expansion of Existing and New National Inland - Digital Sansad",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdU1oVzhZXzdmbVRVcURBTFY1aUMtVl9zWkVuMDY5bU1WN20yaXhvM1A0ekNkQ3A5UUFIaWktSGdkY1Zwelg1cnBrSDllNUFoc19OOTgxVlo1Qml1VE9kQmV5ZDkxUnZTdFNkOTRWVlkzX0ZqM0llQUliMkZyMS1mRU44WHNFTlBPQUd2Y0lOYnQ1WFRYRlJhdHo2MzZ5eWhpTTQ1dURtWGxRclZEUnJTQXBIUi0yQQ?oc=5",
+          "published_at": "2023-09-21T07:00:00+00:00",
+          "snippet": "PARLIAMEN ‘Development and Expansion of PARLIAMENT OF INDIA RAJYA SABHA ment and Expansion of Existing and New National Inland Digital Sansad",
+          "lexical_overlap": 0.091,
+          "relevance": 0.211,
+          "matched_terms": [
+            "development",
+            "inland"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "development",
+            "inland"
+          ]
+        },
+        {
+          "id": "bf87e2ba4565a0e0ff",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Maritime Gateway",
-          "source_url": "https://www.maritimegateway.com",
-          "title": "Indian inland waterways witness record cargo movement - Maritime Gateway",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQejVhQ2pyWENKWnhMQk1ZRDRURzloZzBWejBSMF9DSFRrTGhSQldwcEhNRS1BV1IzMHIwQUZJbEFBNWVBYXM5UXZLVFBzS0dtZzBTWHhaUVV4UllLNF93WUVOejIzUjVPRnVNblhlc0xmVHpPRHRGaGNqX0p2Mm80dFpZdU9jNVpFUTRtTlJFbw?oc=5",
-          "published_at": "2025-04-25T07:00:00+00:00",
-          "snippet": "Indian inland waterways witness record cargo movement Maritime Gateway",
-          "lexical_overlap": 0.25,
-          "relevance": 0.39,
+          "source": "Manufacturing Today India",
+          "source_url": "https://www.manufacturingtodayindia.com",
+          "title": "The role of inland waterways in India’s economy - Manufacturing Today India",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNU1hhaWhqdFpzRWtWNVV5emw0eGFaZkNMMk1VdmZUaDRpMF9xRGlKSEJyUHNDSE9zMWU0allMSVpLcEYwMWxpeFBKeUFoS0ozcjFEczh5YXJZWFhpOTFQUm9xbzI5QjlQS25MNkhPRzlQS2gwdXFwLWVQeEZDZThkWlhhdHJWQ2lVU0x5akNIYw?oc=5",
+          "published_at": "2024-12-29T08:00:00+00:00",
+          "snippet": "The role of inland waterways in India’s economy Manufacturing Today India",
+          "lexical_overlap": 0.133,
+          "relevance": 0.203,
           "matched_terms": [
-            "cargo",
             "inland",
-            "movement",
             "waterways"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "cargo",
             "inland",
-            "movement",
             "waterways"
           ]
         },
         {
-          "id": "1bdf490dab1cc8e508",
+          "id": "bbb4c29a4c3e7e33c5",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "The Policy Edge",
-          "source_url": "https://www.policyedge.in",
-          "title": "India Expands Inland Waterways to Double Water Transport Share by 2047 - The Policy Edge",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWEdQR09fZnh4bGdWS0V5RWd4eDRVMGtkOXc1cVh2Z0tEaXd2ek05TWtGazVzbHo3a3BFSGJqekhlRE9Kcjd5cjhNeF8zLWxXcTBncVBFZldvcXJCZWdsOUszelUwUmhiN1pCRF9UUXFKMWRtOUhEQjFOdVZ4dWpidEpmT1ptbDBBcms3Vjd5X0Vmclk0VzBzMndXU0ZoUlU?oc=5",
-          "published_at": "2026-04-28T07:00:00+00:00",
-          "snippet": "India Expands Inland Waterways to Double Water Transport Share by 2047 The Policy Edge",
-          "lexical_overlap": 0.167,
-          "relevance": 0.272,
+          "source": "ET Infra",
+          "source_url": "https://infra.economictimes.indiatimes.com",
+          "title": "Budgeting for a sustainable transport system: Unprecedented thrust to inland waterways - ET Infra",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOakVXZmtGUHZtMDNpbWREVS10WVJnd2Y5c09VeEFTVFZ4TWJ1S0Y0czZQWndUUXAyLWFtT0hxX0FCMHR4SGJGdE1seXVHNV95bDl0V1pCUzZULVNNenZHb3hqY0pXRUJzU05JTFZJOW5JUXg5SEU1ZzlNbTJTbklFbDh0YmVtazNDQk1lSkR2cmVmUUpvbEc0a0RWLXd5RGFyb2M5cE5QRUtodGE2RVBZZURSdjhUb3FVZEZGR1hTbGJvYnloVzVBU0g4YU11b2tnNkJsa25zRGlfeXROR040QVpnbUQ5bUV2RTRzR1NQbWJ1MTNYczNkWk85TjJGVnPSAYQCQVVfeXFMTmx4NWN0MFgtcU1fUC1EbjltYjBiRU5kcWMtR3F5Z0NRcDJTbTNTNHQwekRrT2YwcHQ1LUNUQmdzRmF6aU52azl4cEZhRm5Vc0NZdmFWWGc0aHE2N1YtUmdKUEVYZEZ6Zmd3alBNYU52c0JuYkFDeWJpcDZoelVEM0pBYk44S015d2FPYzhKYVJEVGQ4UEtfRWo5QnFXd0pUWTJnU3hRcVFRQjRhMmJhS2J4aEFoejBxZVdlMFpJcmptckU0M29KVmEyaWx3NUVkbDZ2SUpKZ3NxVjBSYTRmYWx2RUdzWFBjYjJsaEZ2d0QyNUdDNXoxY2IySnpRSTVFa1RQbFg?oc=5",
+          "published_at": "2026-02-25T08:00:00+00:00",
+          "snippet": "Budgeting for a sustainable transport system: Unprecedented thrust to inland waterways ET Infra",
+          "lexical_overlap": 0.1,
+          "relevance": 0.17,
           "matched_terms": [
             "inland",
-            "water",
             "waterways"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
             "inland",
-            "water",
             "waterways"
-          ]
-        },
-        {
-          "id": "8b066da6af2a069286",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "World Bank Blogs",
-          "source_url": "https://blogs.worldbank.org",
-          "title": "Moving from roads to rivers: The tremendous potential of inland water transport - World Bank Blogs",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQOUhDbWtYNXhNMzNpa1RQMWtnaEl1c0haYWxJR3hXR3hoUG9xbGI4TUQ2RUtCSk1yMVJPTHZsd3Q2TEhiMUk4ekVCZTVDb3RVdWtCeTB0MVRweVY4VEZKb3JzX0c5S25KVUR4azRWNDBoRU1XaHlxbFhUbndESzVMNm96bm9hSXlNZHdETUxGZnVabk5VN3ZtenpCV0t2RGExT2lxUk1iM1c?oc=5",
-          "published_at": "2024-08-20T07:00:00+00:00",
-          "snippet": "Moving from roads to rivers: The tremendous potential of inland water transport World Bank Blogs",
-          "lexical_overlap": 0.095,
-          "relevance": 0.165,
-          "matched_terms": [
-            "inland",
-            "water"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "inland",
-            "water"
           ]
         },
         {
@@ -49918,7 +49926,7 @@
     },
     {
       "id": "23ec967d08cd435ede",
-      "checked_at": "2026-10-20T22:19:32.058362+00:00",
+      "checked_at": "2026-10-27T20:06:25.550447+00:00",
       "promise_id": "BJP-2019-2b2326e33ac95b508b",
       "year": 2019,
       "category": "other",
@@ -50778,7 +50786,7 @@
     },
     {
       "id": "cbd3ddfa7d975c599c",
-      "checked_at": "2026-10-20T22:19:42.270900+00:00",
+      "checked_at": "2026-10-27T20:06:34.728376+00:00",
       "promise_id": "BJP-2019-4e091a63a04484df8d",
       "year": 2019,
       "category": "other",
@@ -50814,7 +50822,7 @@
     },
     {
       "id": "93bb9754ab7125c8f1",
-      "checked_at": "2026-10-27T18:21:00.605292+00:00",
+      "checked_at": "2026-10-27T20:06:09.021772+00:00",
       "promise_id": "BJP-2019-6013bbae5c9fbd8c5a",
       "year": 2019,
       "category": "women_social_justice",
@@ -50878,7 +50886,7 @@
     },
     {
       "id": "1d1782ad81aa54afcd",
-      "checked_at": "2026-10-27T18:21:02.880303+00:00",
+      "checked_at": "2026-10-27T20:06:11.479351+00:00",
       "promise_id": "BJP-2019-63e2ccda189fa85e2c",
       "year": 2019,
       "category": "health_welfare",
@@ -51901,7 +51909,7 @@
     },
     {
       "id": "a3e21d8337e9226e9d",
-      "checked_at": "2026-10-20T22:19:43.881142+00:00",
+      "checked_at": "2026-10-27T20:06:36.218971+00:00",
       "promise_id": "BJP-2019-52724f1537a4eff94f",
       "year": 2019,
       "category": "women_social_justice",
@@ -53224,7 +53232,7 @@
     },
     {
       "id": "ed231904ac58738907",
-      "checked_at": "2026-10-20T21:56:20.995282+00:00",
+      "checked_at": "2026-10-27T20:06:19.795765+00:00",
       "promise_id": "BJP-2019-24f93b2d2800e99dab",
       "year": 2019,
       "category": "culture_heritage",
@@ -54657,7 +54665,7 @@
     },
     {
       "id": "b6d40cc1f9da1d8082",
-      "checked_at": "2026-10-20T22:19:36.362135+00:00",
+      "checked_at": "2026-10-27T20:06:28.892291+00:00",
       "promise_id": "BJP-2019-377f6323752f99d881",
       "year": 2019,
       "category": "education_skills",
@@ -54693,17 +54701,17 @@
       "query": "focus teachers training capacity building key",
       "evidence": [
         {
-          "id": "471336a84ed2735861",
+          "id": "cc756711ecd027d695",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "PIB",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "Ministry of Education launches second cycle of Capacity Building Program on Specific Learning Disability - PIB",
+          "title": "Ministry of Education launches second cycle of Capacity Building Program on Specific Learning Disability - Press Information Bureau",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBnVm9xbzZ1UXZVMzkzbGlxLWswSFFWODA0eUJiOFAwdW8yN2RsdUMyWjFOTWpsWUZTU2ZvRW1zQUxERmRjNmN5cGJ4VDdfUjdNMGR4SGtzSzZFLUd5Nkc4WXBsaFFSN1pTWlV1bkt1dy0?oc=5",
           "published_at": "2024-08-22T07:00:00+00:00",
-          "snippet": "Ministry of Education launches second cycle of Capacity Building Program on Specific Learning Disability PIB",
-          "lexical_overlap": 0.158,
-          "relevance": 0.313,
+          "snippet": "Ministry of Education launches second cycle of Capacity Building Program on Specific Learning Disability Press Information Bureau",
+          "lexical_overlap": 0.143,
+          "relevance": 0.298,
           "matched_terms": [
             "building",
             "capacity",
@@ -54717,50 +54725,79 @@
           ]
         },
         {
-          "id": "f66c503bf8c4ee984c",
+          "id": "640d168da3ff4f1c31",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "India Today NE",
-          "source_url": "https://www.indiatodayne.in",
-          "title": "Meghalaya signs pact to upgrade teachers’ skills and training - India Today NE",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZWtHMzdhLXJEa0JLcXhRWkxob2pHTDdYUXVnRXU2QlRsWTNSOWJhOHZnd3o4alYzSGFBNFI3by1Zb0xPY3RraHBNeG01amE5SS1hUmhHZmpuRko1VW90a2IwU3hnMmRCdHI1V2xnVlF3bUdSdVkwbXZYcm55NlYxQUFIOHRxS3JCUmlNRFNiSHV0cXNTaEFjZGdQRUZURDlhTlM0RXNNMVZxQlBWU1o0QWE5eWpWRzYzNWhEUkhxOEzSAcYBQVVfeXFMUE1iZlR0NlV6R01QTEFJcGpNYjhLTDRrNUpFXzY3bEQwXzg2dEVqZnRrMzY5dks0bjNsd1QwbS1lRXduQmRPRkJEb0ZvLU9fTGdfR2p4Yl94WWlpNDE5RnVlVm9yYkhXbHhrd2tJX05PSy1ZN0l5VkFieW1uZk9NVDlTaEEteldXb2Y1d0ZsTEdxamhDUDU4VnhSdGNTSUlmLVR4cGRQNUxTTzhFNzE0ZkNnY19wNE9fREVsQlNuNnFsWkhDdjBR?oc=5",
-          "published_at": "2026-10-09T12:42:53+00:00",
-          "snippet": "Meghalaya signs pact to upgrade teachers’ skills and training India Today NE",
-          "lexical_overlap": 0.125,
-          "relevance": 0.195,
+          "source": "fundsforNGOs",
+          "source_url": "https://www.fundsforngos.org",
+          "title": "A Sample Grant Proposal on Teacher Training Program: Capacity building for teachers in low-income schools to enhance teaching quality. - fundsforNGOs",
+          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPdlA3S0xTRktJckxBQ2NkYmRoZUlyQ216Z2ZJN2VzZXdJWThqYWJBZGxPcjFQVzFSR09NTGNfaWw2M2NHeE5tUzVYZFFVeGlTUE1wQUJ6OHY3WHZmaVFqdi02Y1dzOEZRdE9VRjVkbG9weDVIOEw5MFA3R0xsTTQ5OFRMMDFabldUc3NjV2x3V3hXSllzN2V1YUdyTmZLTEpGU1VvOFZrdnl0dFFnUzhaLThlNG0tZGZJU0tqWkpFLV9YV1lkS3BaUjFFU3J3WmNTNXRPbzZ6bzVydVdCaGJHbUJFTFdRQUIxRERTaHBraEhHeUY3dVc4VHVOOTh4bWtzNFVSb2lhTQ?oc=5",
+          "published_at": "2024-11-13T06:00:38+00:00",
+          "snippet": "A Sample Grant Proposal on Teacher Training Program: Capacity building for teachers in low-income schools to enhance teaching quality. fundsforNGOs",
+          "lexical_overlap": 0.19,
+          "relevance": 0.33,
           "matched_terms": [
+            "building",
+            "capacity",
             "teachers",
             "training"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
+            "building",
+            "capacity",
             "teachers",
             "training"
           ]
         },
         {
-          "id": "9b1281f33a314ecb36",
+          "id": "1ad1012a1691e980f4",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Brookings",
-          "source_url": "https://www.brookings.edu",
-          "title": "Indigenous women teachers are key to intercultural bilingual education in Argentina - Brookings",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRkZnbjNaNjM2NjRqaHV0WVlUSWFtaE1IajhIeDM5NXFnakN5RTNPNGZ4c3FzUF9lX0RqQVJCT0lndl9rUUhXUVlKaE96OWR2SXBkbDB6Zlhla09LaHhPUVcwUExmcVZQYjN2UGFESG5WVDZydW1hNzI3QkhDLUdWcW9KQVFZdGQ1aXcxZVAtbGFma1YzSmNWaGM0RndtRG13eXN6OUdZbXU?oc=5",
-          "published_at": "2026-07-16T07:00:00+00:00",
-          "snippet": "Indigenous women teachers are key to intercultural bilingual education in Argentina Brookings",
-          "lexical_overlap": 0.118,
-          "relevance": 0.188,
+          "source": "The Times of India",
+          "source_url": "https://timesofindia.indiatimes.com",
+          "title": "CBSE launches 14 new Capacity Building Programmes for teachers: Check domain-wise details here - The Times of India",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNb0FMS2Y0YUNaWFJLemNTOXJsYzU3REdJU0RVTUxzWDQ4UUdLbFhKR3dsRGJkQWxaT0xiLVdJem45Y0ZWQ1g5ZVE4QWt0Q3NPT24yS21lQnRsUTFJWFo1NXJhcUNfWmFJcVhlQ2ViRHVPRnd2UnR1RFJ5bS1hOGlnV1oxeDdvQXIzdG11VWhHMmJTU3RJT1dabWpoZmlYUGVweUtxZllaQnpZWmJBZ1dGM1gyVW5sX3VvNS1sS2NvQno0UFMtMzZINEhpeUpHeTlZUzRRVF9VX2Vra2VSOGhMTnF4SWRxQlpwZjAxN0NERFNTR1Vld1NqR3J1Y2lpUXPSAYQCQVVfeXFMUHVyeHQyaEhPM3ZWUU9FMWVEbW9ROE82R054TklPTWJ2Q2ZyQkpvMGQ1YnVXOHg1RzduODNaQnptSXpoZTFVRFlBR25rVEYwdDRhdWF1NlQ0T2diWGxIOTljOHJPZ1hRREJjQXp6M2lKalJORVdlaEpYWlZfYlctelpac2RCZmFQZVItUHdCYTNRM3lTZ1BwOHoySHpaazlpSXNxMUE4X0ZFNVl1T2VOSUFoZDF3clBERTdzMEFLQ0NFRmtuLUxFQ3F4YlF5TEZBQTRSRkZra2lqN1ZYdUxMTnJDa2NHa2tpamt1TWxrcHVuS1RVbFMxV09LSUFBQ0xsWGYxeVA?oc=5",
+          "published_at": "2025-09-24T07:00:00+00:00",
+          "snippet": "CBSE launches 14 new Capacity Building Programmes for teachers: Check domain-wise details here The Times of India",
+          "lexical_overlap": 0.167,
+          "relevance": 0.272,
           "matched_terms": [
-            "key",
+            "building",
+            "capacity",
             "teachers"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
+            "building",
+            "capacity",
             "teachers"
+          ]
+        },
+        {
+          "id": "c0dce1721299455d97",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "ICRW",
+          "source_url": "https://www.icrw.org",
+          "title": "Institutionalizing Gender Equity in Education: Capacity Building of DIET faculty in Jharkhand - ICRW",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOY0xOWmU0VExiWFIzcVFaUVJyVFJiSEFRb1hseFZCRUtXT2E2dkR3UGk5LW83R2IycGltWXUyYXpDQVlaSkhfWEJIcnZrYjh5V3d4WFJubDJwMWUtc05zWTdmNjE3WHN3QW5ja0l6ZzZsUXFaLWRjU0FGb3hiVlkteHJrcEoyRTFiTHZMWGJxd3B2akIzVk9qdTV4TDJxdHAyTi1rRV9kSVR3REl0bEVqdExCQzg?oc=5",
+          "published_at": "2025-08-25T09:18:57+00:00",
+          "snippet": "Institutionalizing Gender Equity in Education: Capacity Building of DIET faculty in Jharkhand ICRW",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
+          "matched_terms": [
+            "building",
+            "capacity"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "building",
+            "capacity"
           ]
         }
       ],
-      "implementation_signal": "current_primary_evidence_found",
+      "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -55953,7 +55990,7 @@
     },
     {
       "id": "21c782a6ad2ecb8987",
-      "checked_at": "2026-10-27T18:20:52.719127+00:00",
+      "checked_at": "2026-10-27T20:06:00.854160+00:00",
       "promise_id": "BJP-2019-2cfa1375f165d41707",
       "year": 2019,
       "category": "other",
@@ -57358,7 +57395,7 @@
     },
     {
       "id": "09db92a7679f9e887b",
-      "checked_at": "2026-10-27T18:20:57.731614+00:00",
+      "checked_at": "2026-10-27T20:06:06.253992+00:00",
       "promise_id": "BJP-2019-4fc8289de8caed52ff",
       "year": 2019,
       "category": "other",
@@ -57893,7 +57930,7 @@
     },
     {
       "id": "b32fd2b440f3981925",
-      "checked_at": "2026-10-20T22:19:40.321655+00:00",
+      "checked_at": "2026-10-27T20:06:32.493642+00:00",
       "promise_id": "BJP-2019-45244c63267cbf1a4f",
       "year": 2019,
       "category": "women_social_justice",
@@ -57932,7 +57969,7 @@
     },
     {
       "id": "fa9aa68351e81c119a",
-      "checked_at": "2026-10-20T22:19:46.969887+00:00",
+      "checked_at": "2026-10-27T20:06:39.126967+00:00",
       "promise_id": "BJP-2019-535d15c04bef68b515",
       "year": 2019,
       "category": "women_social_justice",
@@ -57956,32 +57993,6 @@
       "related_promises": [],
       "query": "ofier higher interest rates fixed deposits",
       "evidence": [
-        {
-          "id": "2dd1b0c276a8bc7302",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Livemint Money",
-          "source_url": "https://www.livemintmoney.com",
-          "title": "Top banks offer these interest rates on long-term fixed deposits - Livemint Money",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOaWR0ZHZSdFdWRnRZNURDV3k2Z3p2TWc1WUNVNmY0OTItLVpoanpDLUFjemVFd2N6amZHUWZiSkhKVjJRMmtpMlp0Z1VTdWFPV2hvRlktcnZmWWZKRkRVcDJHWUg1cHVfRmVZLS1GcGE0ZU42clIxT3VvcWR5QXlWUS1TaEVKSk4wU05PSmdWUi1MTWFBX09zVXRjYlJfeTVCUTY5cUVTSXBXN3JOWlFzeGJseTJXUjh5QUhaQWZfS2pMWG0zOTRqOGxRSVludmh6NW1xR3hKT3ptaVE?oc=5",
-          "published_at": "2026-03-24T07:00:00+00:00",
-          "snippet": "Top banks offer these interest rates on long-term fixed deposits Livemint Money",
-          "lexical_overlap": 0.308,
-          "relevance": 0.448,
-          "matched_terms": [
-            "deposits",
-            "fixed",
-            "interest",
-            "rates"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "deposits",
-            "fixed",
-            "interest",
-            "rates"
-          ]
-        },
         {
           "id": "ace438ac305cdc56a6",
           "scope": "news_search",
@@ -58009,24 +58020,50 @@
           ]
         },
         {
-          "id": "96a3f1de64c94a3136",
+          "id": "50c814394a7d9fbf6a",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Beansprout",
-          "source_url": "https://growbeansprout.com",
-          "title": "Best Fixed Deposit Rates in Singapore [October 2026]: Up to 2.15% p.a. - Beansprout",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQVTdfNERZOGtMeTdTTE5ta2F6TlN2cURNN0c3QnBXQk16LTNDZm1Yclh3WEdYdkVHc1ZYRld5Qm9wVWJydlVzdDVVWEl3MXRNS2JFbElVM0pMS0VKZWJiU0szc05RRFBDSm5GWFZGWWdydUVHNDlCd3VWLXpMdXpuaU1YOA?oc=5",
-          "published_at": "2026-10-15T07:00:00+00:00",
-          "snippet": "Best Fixed Deposit Rates in Singapore [October 2026]: Up to 2.15% p.a. Beansprout",
-          "lexical_overlap": 0.154,
-          "relevance": 0.224,
+          "source": "The Economic Times",
+          "source_url": "https://m.economictimes.com",
+          "title": "Senior citizen FD rates up to 8.50%: Which banks offer the highest interest on 3- year and 5-year deposits? - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxON1ZyT09xemFrMDdmV3VOVF9hWmt2QVp6WEhpZGFobEx2dnd5M3Z6NFlVLV9KLVVUWGE4ZlB5OVgzSG8tT2hnekVCeUJ6QzFDRlBlWWNUM0tRSVlfc0EzNW83dlotYjhDTFdlQjNpUE1wcVphWGl2QTZvNmJUVW9kM2tQbXdBWjdMdE9VaWo4bEJOTFJSUzl3b281c1VzT3Vhb2NycS1UZFh2V2NRLUl3UkFWMWhjN09UWnVfclkyeE5UOWJFU0I2ZEdDNlFCN0pIMF9ZVzRDZWNITXlFOFV0U21BdXRhLUtDUUdpYlZmOXlHWFRZNzVFMy1VQndFaU85amVLYmEyRG1EaE92MXFQNTByejlRVHJ5d1JBcmYyRS1JZFU0UUY4RjBwdWxyOVpSMnYyYzIxblFlanU3SVRPS0M0ZTJEelUzd091MG1lVGo?oc=5",
+          "published_at": "2026-10-09T07:00:00+00:00",
+          "snippet": "Senior citizen FD rates up to 8.50%: Which banks offer the highest interest on 3- year and 5-year deposits? The Economic Times",
+          "lexical_overlap": 0.176,
+          "relevance": 0.281,
+          "matched_terms": [
+            "deposits",
+            "interest",
+            "rates"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "deposits",
+            "interest",
+            "rates"
+          ]
+        },
+        {
+          "id": "31be8713571a9c5f94",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Livemint",
+          "source_url": "https://www.livemint.com",
+          "title": "Senior Citizen FD rates Oct 2026: Earn up to 8.5% interest | Public, private banks and SFB fixed deposit rates compared - Livemint",
+          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQVi1DQ2J5bXJOSmI0YzJhNXE5OWZBZ1JfLV9SRXFPVnpOYVlRaFFha3ZpMEFzUUNTVU01ZENkQ0ZYMFNuS0t5UG51VkpUZUJQaWxlR1V6WkczbWgwOUtER1U3QUs4cDl0YmhqVkFuLThlZEFvYkJuMkFUTHhGek5yYzlfd2hTbll0WTBKT0VJOFpMRlRkNTg1RW9pVmVhNlBsck1uM1ZoZDFRRDNBdHVPMHhISWNsQllRZjlGS3VWSFhBdW9uQy1WeVFvcFNJcEJtSUVaRjJRbmxNWXZnRFJpVUFqaTZkV1FBU2dZR0xRRzB4UDdZeHg2M2JBRks3T0ZIWXFrNjJmR0UzZ3F0M3Ew0gGUAkFVX3lxTE82SWY1VmhoTWRkMUd6WmlXUF9sUGNyZjlpYlozd2xNbEdnQkR5NUk0ODJaVHNER0VaRkhNVE9JUksxcHJ4QjJrb2F0VGFndFRoaXlndENBa3BZRjIzeWNwenN2VWZ4aWd0WU0zY0x3OFRQTTRra3RNSWlBTVJRQVphRFg2LXhLd2RaN3puUXhQSXdvZklJTFhoZnRWMDE4d0ZaV3JFSWVJMVZiRURwN2FCUlpyTDV5SjRjWG1HVjcxckxLUzUxd3BKQlVObVNuNFhYQmF4bk4tQjEyQkJsLU5pdE1rbkFrRGM5X3hSV2RJQXpNVi1kQ2Z3QmM2N1YxeEVXdHZQQURBRnFaay1qTnFieXpUSg?oc=5",
+          "published_at": "2026-10-23T12:32:12+00:00",
+          "snippet": "Senior Citizen FD rates Oct 2026: Earn up to 8.5% interest | Public, private banks and SFB fixed deposit rates compared Livemint",
+          "lexical_overlap": 0.15,
+          "relevance": 0.255,
           "matched_terms": [
             "fixed",
+            "interest",
             "rates"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
             "fixed",
+            "interest",
             "rates"
           ]
         },
@@ -58049,6 +58086,28 @@
           "shared_numbers": [],
           "promise_core_overlap": [
             "fixed",
+            "rates"
+          ]
+        },
+        {
+          "id": "6e0b895ed401e37dd4",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "CAclubindia",
+          "source_url": "https://www.caclubindia.com",
+          "title": "FD Interest Rates for 444-Day Special Scheme 2026: Check Which PSU Bank Offers Highest Return? - CAclubindia",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOb1ZjWmlreTFhT3ZZcGlfUGZrVjJSQ202TE1YaVpZQjNob2RNeWNYRjMtdUcyMnh4SjJ6UXhqekpORkJoUWVGTHFacDRlY0tXX1JwN2xaTDJLcGFqU0t3WC1wS1pGNFR3S0FfaXUyLXNpV3Etel9fTjl2OEU2OThYakp4V1VDTVMyNUpJOW5SUlBPdmdwVDBsMUdibEdFUEVpV1RudUhYSGhwNGYyVnczUkdSZzlsYXM4TlZzWUdLOUxLeDB3eDhqTC1WdWZwUlpfV2ltZA?oc=5",
+          "published_at": "2026-06-05T07:00:00+00:00",
+          "snippet": "FD Interest Rates for 444-Day Special Scheme 2026: Check Which PSU Bank Offers Highest Return? CAclubindia",
+          "lexical_overlap": 0.105,
+          "relevance": 0.175,
+          "matched_terms": [
+            "interest",
+            "rates"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "interest",
             "rates"
           ]
         }
@@ -58208,7 +58267,7 @@
     },
     {
       "id": "9d9d766bc3a740ed81",
-      "checked_at": "2026-10-20T22:19:31.218965+00:00",
+      "checked_at": "2026-10-27T20:06:24.642341+00:00",
       "promise_id": "BJP-2019-2af042dd84e9e5efcc",
       "year": 2019,
       "category": "health_welfare",
@@ -58504,7 +58563,7 @@
     },
     {
       "id": "e95162c5aec7097451",
-      "checked_at": "2026-10-20T22:19:38.923263+00:00",
+      "checked_at": "2026-10-27T20:06:31.288414+00:00",
       "promise_id": "BJP-2019-44fbfa3a42e467e143",
       "year": 2019,
       "category": "women_social_justice",
@@ -58543,7 +58602,7 @@
     },
     {
       "id": "57e703ee44f5f0c944",
-      "checked_at": "2026-10-20T22:19:41.033145+00:00",
+      "checked_at": "2026-10-27T20:06:33.356817+00:00",
       "promise_id": "BJP-2019-46b61e0ef804a6ec32",
       "year": 2019,
       "category": "health_welfare",
@@ -58690,7 +58749,7 @@
     },
     {
       "id": "99f208f0bdda7732da",
-      "checked_at": "2026-10-20T22:19:45.126276+00:00",
+      "checked_at": "2026-10-27T20:06:37.506349+00:00",
       "promise_id": "BJP-2019-52db407f9a7c469ddf",
       "year": 2019,
       "category": "culture_heritage",
@@ -63053,7 +63112,7 @@
     },
     {
       "id": "df076e7dea8ba67624",
-      "checked_at": "2026-10-27T18:21:07.455253+00:00",
+      "checked_at": "2026-10-27T20:06:16.295764+00:00",
       "promise_id": "BJP-2014-078252941779345656",
       "year": 2014,
       "category": "women_social_justice",
