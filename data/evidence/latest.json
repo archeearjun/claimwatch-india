@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T12:43:30.744414+00:00",
+  "generated_at": "2026-10-27T14:30:43.648882+00:00",
   "capabilities": {
     "official_evidence_search": true,
     "verified_primary_gate": true,
@@ -17,7 +17,7 @@
     "promise_total_candidates": 841,
     "promise_coverage_pct": 101.3,
     "primary_candidates": 549,
-    "secondary_candidates": 1067,
+    "secondary_candidates": 1062,
     "prior_fact_checks": 0,
     "publishable_auto_verdicts": 0,
     "claim_verdicts": {
@@ -102,28 +102,52 @@
       "promise_matches": [],
       "evidence": [
         {
-          "id": "69b949e6f234d1b887",
+          "id": "50dc6734195f1b52af",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "The South First",
-          "source_url": "https://thesouthfirst.com",
-          "title": "Telangana is all set to inaugurate 9 medical colleges — with basic infrastructure in place - The South First",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTzNTTjZMczc0TThucm03eUN5YnV0b28tTDA3el80NW8za1dxMWZ1ZldEZzBwcUVremdWLWxzNzVHV2tqcjl3YU1abmJST2FXY2h3cGRiZlJpVzVEUjUyUjlSTDFwc2x2Rk1DdVdtZlF5NHlDeTdpVkpxaG1fZDJWQS1pck9xak9NU09uWU5MbnVQVWVtcGs3U09OUHAxdTl4bU12YWV4ZEJ5VXJpa2hleWp3?oc=5",
-          "published_at": "2023-09-14T07:00:00+00:00",
-          "snippet": "Telangana is all set to inaugurate 9 medical colleges — with basic infrastructure in place The South First",
-          "lexical_overlap": 0.154,
-          "relevance": 0.224,
+          "source": "Deccan Chronicle",
+          "source_url": "https://www.deccanchronicle.com",
+          "title": "Five medical colleges to be opened this year: Krishna Babu - Deccan Chronicle",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWk1kbTVHdGFOOWRHa2tIX191M0hlb3AzX0hDUm9lR1lEajJDTDRkb1JKcXVqdVlhTlYxZlo2eHdDaFpLQU0zbXZSeG5BM2dQRXhtTXdNdlI2RC05YVBpRi1HcmZCbGhrNE1xM1JPS3NLMDRPLXZ6ZmhQUDlIT3F3a0JzeGlIWVMyQ19oOHhsd2Z3ZDlEVUNYQ3ZyRjAtTDJpSzJkRmZGZXZBUEc4eTcxelk2QWhER1V1ako3S0FnQdIBxAFBVV95cUxNRGVZYi1GaFcybF9DR05KZE5yYVJiQnNfNlpCbHY2UXJBOXRfdkp6ZGVkcU53T2VCVjd6UlRMd1RJZXZwUHhZSlVyQTdpZW5acURYLVZheFNvZTE5VF93d0JiaFBsSEt6cC1CZUFvU0pSeGFqdkpNeFF1V21rYzhWYVFvTkJSWlo2NFF1cUphbXY1YkdkbTV0WWtsTS1IN1pqZlhOMEJyNW96ZTlTb2ZqeW9fcktLUTlGWWVRcktMNlpyU2h6?oc=5",
+          "published_at": "2023-06-09T07:00:00+00:00",
+          "snippet": "Five medical colleges to be opened this year: Krishna Babu Deccan Chronicle",
+          "lexical_overlap": 0.3,
+          "relevance": 0.405,
+          "matched_terms": [
+            "colleges",
+            "medical",
+            "opened"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "5bc359c2e21b19a422",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Norms for Permission for Opening of Medical Colleges - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE53dy1VTDhJNzhuTi1DTDZVNFdaVENKQ3V2cl92WHhRcWk3LUN1S3hDaGZnSUJrdG14NzJHWElvajhZNjQ0bkh3a1JkTWNySnQ1bEVZUUcxVmIyRDRpT05BcW81QzFVcDdsSnNGTg?oc=5",
+          "published_at": "2013-03-05T08:00:00+00:00",
+          "snippet": "Norms for Permission for Opening of Medical Colleges Press Information Bureau",
+          "lexical_overlap": 0.182,
+          "relevance": 0.302,
           "matched_terms": [
             "colleges",
             "medical"
           ],
-          "shared_numbers": []
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.007,
+            "neutral": 0.9442,
+            "contradiction": 0.0487
+          }
         }
       ],
       "fact_checks": [],
       "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
+        "level": "primary_evidence_found",
+        "label": "Relevant verified primary evidence candidate found",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -805,27 +829,6 @@
           }
         },
         {
-          "id": "f2a2059cc840500834",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Livemint",
-          "source_url": "https://www.livemint.com",
-          "title": "PM SVANidhi scheme: Street vendors receive loans worth ₹17,800 crore in 6 years; Key points to note while applying - Livemint",
-          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOSDN0eEctUE1fa3ZEcHNEbWFHR3Ata0xQMzh2TlEyaWpXVEVPY015WDFXamU0X2tCN1pEUmZ2dFZHcmRsZzhsakpKQ3BjTnFiWkpTY1VHQ2tEMktpVTdOMGlGX0NKbFJfOE9Sb1J0THUyOHp2eVozT0RoMlE4Q3owT3ZQVml0S0F5T2Q4eXR0TW43NldYcUp4YU92X3QyY2NlSUFSOVB0YWNJMXI5c05UcG5ldnRROUU0aGtWQ2cySU80VjFvMTdwNkVHdzd0aTIyYUg0bXBnS0psTU5SU2doQ0R1cFVKeGtOWnFDRjk5V09zdFAxdkHSAfsBQVVfeXFMUHhiWkRLQXhHbktLM3NCQUxkZmtfQjY1V0JGZGQxR0VpRXNUbjhnUDJVSHM2NFU2VTdnZjJGWWJfclo4SlhkSV9VZ1ljY1FUWE1RakZGZG5Ta2t0d0JoNmZyOUYtNmhPMTRPM2M1TFBzNjRDd2x0eEE0UFlIbzRmTnR0dl9RblFTMXMxczZzRVVMb0JCY2VpOU9Zcl9DUUg3ZDRfcXRPZWdYZ0MzN0w0QVc3aUd4djJ1VE92a00yM3FGVTdGNm01aW5VZ2dHclFGaGhfcXAteE9uaFlyR09pZGNJWmlncFYzQU9HcDRUMnVpQkRPaDdCNTlEY2c?oc=5",
-          "published_at": "2026-05-31T07:00:00+00:00",
-          "snippet": "PM SVANidhi scheme: Street vendors receive loans worth ₹17,800 crore in 6 years; Key points to note while applying Livemint",
-          "lexical_overlap": 0.25,
-          "relevance": 0.425,
-          "matched_terms": [
-            "loans",
-            "pm",
-            "street",
-            "svanidhi",
-            "vendors"
-          ],
-          "shared_numbers": []
-        },
-        {
           "id": "4a2a6c9ec1e80a96b6",
           "scope": "preferred_official_search",
           "tier": "primary",
@@ -960,6 +963,24 @@
             "svanidhi"
           ],
           "shared_numbers": []
+        },
+        {
+          "id": "10ab72a0082de17f60",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "CMO Gujarat",
+          "source_url": "https://cmogujarat.gov.in",
+          "title": "PM SVANidhi Yojana convened in Ahmedabad - CMO Gujarat",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMW5KTTdDa1ZpNE01OWZZMHZoZFZvdTM4ako5TDc0WVJ2eVU1S3FDYnFPVHkycUx6RC00VWJqbDI2YW8wNlFNZHhYWDJtWGJTd1dWOWpyY1BUOWY3Rm9VTWZUb0lEN3lJQ1FBenV0eGpDakU4VzJSdWRWbXJubml0WmpTd3Q?oc=5",
+          "published_at": "2023-12-24T08:00:00+00:00",
+          "snippet": "PM SVANidhi Yojana convened in Ahmedabad CMO Gujarat",
+          "lexical_overlap": 0.133,
+          "relevance": 0.203,
+          "matched_terms": [
+            "pm",
+            "svanidhi"
+          ],
+          "shared_numbers": []
         }
       ],
       "fact_checks": [],
@@ -1067,7 +1088,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-27T12:42:44.413176+00:00",
+      "latest_checked_at": "2026-10-27T14:29:48.180941+00:00",
       "latest_claim_packet_id": "d4aab404e9ccc6ccf7"
     },
     {
@@ -1334,7 +1355,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-27T12:42:44.413220+00:00",
+      "latest_checked_at": "2026-10-27T14:29:48.180982+00:00",
       "latest_claim_packet_id": "884558fa72add4403d"
     },
     {
@@ -1430,7 +1451,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-27T12:42:44.413162+00:00",
+      "latest_checked_at": "2026-10-27T14:29:48.180929+00:00",
       "latest_claim_packet_id": "60ae96f665f22ef03b"
     },
     {
@@ -1478,7 +1499,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-27T12:42:44.413057+00:00",
+      "latest_checked_at": "2026-10-27T14:29:48.180834+00:00",
       "latest_claim_packet_id": "b8d4ab680299139905"
     },
     {
@@ -1550,7 +1571,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-27T12:42:44.413206+00:00",
+      "latest_checked_at": "2026-10-27T14:29:48.180969+00:00",
       "latest_claim_packet_id": "dac6e2327ebe0bd17a"
     },
     {
@@ -1766,7 +1787,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-27T12:42:44.413236+00:00",
+      "latest_checked_at": "2026-10-27T14:29:48.180995+00:00",
       "latest_claim_packet_id": "050ea98dd7879a06cd"
     },
     {
@@ -1958,7 +1979,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-27T12:42:44.413119+00:00",
+      "latest_checked_at": "2026-10-27T14:29:48.180891+00:00",
       "latest_claim_packet_id": "29371b53212e779eff"
     },
     {
@@ -2096,13 +2117,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "reporting_found",
+      "evidence_state": "primary_evidence_found",
       "human_reviewed": false,
       "created_at": "2026-10-27T07:50:11.251666+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-27T12:42:44.413092+00:00",
+      "latest_checked_at": "2026-10-27T14:29:48.180868+00:00",
       "latest_claim_packet_id": "b35543711de7918ea9"
     },
     {
@@ -2174,7 +2195,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-27T12:42:44.413107+00:00",
+      "latest_checked_at": "2026-10-27T14:29:48.180880+00:00",
       "latest_claim_packet_id": "ddb711a027259cf305"
     },
     {
@@ -2366,7 +2387,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-27T12:42:44.413258+00:00",
+      "latest_checked_at": "2026-10-27T14:29:48.181013+00:00",
       "latest_claim_packet_id": "5bb402465b7ccab062"
     },
     {
@@ -2510,7 +2531,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-27T12:42:44.413190+00:00",
+      "latest_checked_at": "2026-10-27T14:29:48.180954+00:00",
       "latest_claim_packet_id": "f5f9e7bb05cfa3199f"
     },
     {
@@ -2654,7 +2675,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-27T12:42:44.413247+00:00",
+      "latest_checked_at": "2026-10-27T14:29:48.181004+00:00",
       "latest_claim_packet_id": "00739b48a203bf3deb"
     },
     {
@@ -2798,7 +2819,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-27T12:42:44.413148+00:00",
+      "latest_checked_at": "2026-10-27T14:29:48.180917+00:00",
       "latest_claim_packet_id": "1d53d6d12eb863d5b2"
     },
     {
@@ -3041,7 +3062,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-27T12:42:44.413136+00:00",
+      "latest_checked_at": "2026-10-27T14:29:48.180906+00:00",
       "latest_claim_packet_id": "318b27cf844c2ade6a"
     },
     {
@@ -6366,7 +6387,7 @@
     },
     {
       "id": "1639b6bb8e8fcf16cb",
-      "checked_at": "2026-10-25T21:46:49.790037+00:00",
+      "checked_at": "2026-10-27T14:30:34.139336+00:00",
       "promise_id": "BJP-2024-6b0dfb49a975b3ea0c",
       "year": 2024,
       "category": "agriculture",
@@ -6457,99 +6478,29 @@
           ]
         },
         {
-          "id": "41d9e3041fb02c19f5",
+          "id": "f9bc5e9156de10e407",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "The Times of India",
-          "source_url": "https://timesofindia.indiatimes.com",
-          "title": "Union Budget 2026: ‘SHE-Marts’ to empower more women become lakhpati didis - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOLV80RkhOWUtiYVB2VVoySWNsczVkc09sdHB3ajFteFg5VmZDZUdkUWFuOVhZbnpTem5vdWdvUFh5TFp2anRxZlVhaGQ1aFdCNFJQdFQ3NHh2dFNxeW5ENEc5bXo1bmFkUVVoWnFvV0NocFZDZUVLRER4UFpBc3JsMHBnbGZwWmVoVUFha0xnalduUjN2QS1MalJqamZ6MVVFNHZoYUJBbVBMRjZvRUd2LXNvWjhTVGh5MlhCOFN3V21tWXEwNV95QXVSNXVFSlNndTVOblFB0gHbAUFVX3lxTE1FdGItUkxxeHZpdm5ORTJHdlBoZHkyVkZSSEVxZjdpNkQ2b0xQUGR4Q3dJZXk3M1JNQ3UxdkM2WVJhYVhVcFVHS0FqWi0zVkpVc01reUhqVE5GdW9ZVmhheUxXTk04TzJkLWpuRXFFdUVWOFRQZ0c1MWZXeEoxamYxb2Fabk5hbzRsREd2VFA4ajgtU1RodC0xWGhYT09Ja2NsZlZ4WnB5cmstVFJyR2hVS0FRTTBTbFlPMm4tX3JyQk44VjVGUEdFZmdFcHRUY0pzRXlsaTU1UlFLYw?oc=5",
-          "published_at": "2026-02-02T08:00:00+00:00",
-          "snippet": "Union Budget 2026: ‘SHE-Marts’ to empower more women become lakhpati didis The Times of India",
-          "lexical_overlap": 0.385,
-          "relevance": 0.56,
-          "matched_terms": [
-            "become",
-            "didis",
-            "empower",
-            "lakhpati",
-            "women"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "become",
-            "didis",
-            "empower",
-            "lakhpati",
-            "women"
-          ]
-        },
-        {
-          "id": "a93f73fca2dd5abd9a",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Rediff",
-          "source_url": "https://www.rediff.com",
-          "title": "Modi's new target on I-Day: 6 crore 'Lakhpati Didis' - Rediff",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObk9laEJkeUE5dDJJcG9HTWlXUzN0V1k4WDlWVFl3cGdJT1pub3Iycm9vQm40UlRybWlPMDhxUW9OSXVsSFdDUTcyMHRBaktSOUQ4Qm5SY2pURlZuLW9UMjFQQ2E2LW53cFZmZTUwenJkc2hUTEhreThCWlhKRG5rMFZNenNEbVdnNjVaRVRYWEFqVWlZSXk2LU9obHLSAZ8BQVVfeXFMTjdFX2hGOXRTdTRlQ1ZhRFowbzBXXzBUX0NONHVIOUEwVnVaenV1US1Qc2NIZkIwMElSNmRsZFkwR1lmY2pPeEN2b2ZBdTIzQ1lqMVJDS2NPbEhSbHR4VFN5TWRGRDhGNU8wRXNjTUNTMWluZkp6aDlBbmsyMC1iTHJnQldYT0FxSF9oSTNmeDFpVEdTcTlQSm51UDRjZHZZ?oc=5",
-          "published_at": "2026-08-15T07:00:00+00:00",
-          "snippet": "Modi's new target on I-Day: 6 crore 'Lakhpati Didis' Rediff",
-          "lexical_overlap": 0.25,
-          "relevance": 0.355,
+          "source": "ThePrint",
+          "source_url": "https://theprint.in",
+          "title": "Creches, hostels, ‘3 crore Lakhpati Didis’ — BJP manifesto promises more women in workforce - ThePrint",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWW03cE91Y0xiVGRpc2JzZUlsRE45eEQ0M3J4Rnc2YlVZMnNsNDdXeFB6VWx3cGtOS3I1dXUyRG9yMU5ldDZWTi02b3NKWlEySWJfQURDYnh6eEVYcTRWbmtMSGgtZjF1T2ZobVFzbnNzWGpCSEwtWWM4akdyN2ZiZXhCS0NtaEhrakZLQ2VIOTdqd1Bfc2JDTEstZjBiX0tnQmZyR2ppMTlDbXZIZ19ZeXFBMGVuMDl4M3l0aGMzb3TSAcYBQVVfeXFMT2R1TDl0ZmFWajZyLUFUalBTUUNtck03ckxjb3NCNW0wUnprQ2N0d0tXemV5VFVLVkx6YlBzR3BBVnFNbk5HSGZ3cEtYUVBYTW9iQnd0NElJLVhydE1qbXAyVEdmdkF2TVFDdno1a19TRGNKSDNlUC1mR1Z4dUxjbHN6YTBHamJaSXhMM0VsT3lUdndOUURBMEVidFBIS1FETDVab3BZTVlIODFBclJXVUphUW9EV2hyZkp1akRXZnVBWHdKdEhn?oc=5",
+          "published_at": "2024-04-14T07:00:00+00:00",
+          "snippet": "Creches, hostels, ‘3 crore Lakhpati Didis’ — BJP manifesto promises more women in workforce ThePrint",
+          "lexical_overlap": 0.267,
+          "relevance": 0.407,
           "matched_terms": [
             "crore",
             "didis",
-            "lakhpati"
+            "lakhpati",
+            "women"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
             "crore",
             "didis",
-            "lakhpati"
-          ]
-        },
-        {
-          "id": "fb64e522211a8148b4",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "GK Today",
-          "source_url": "https://www.gktoday.in",
-          "title": "SHE-LEAPS Platform for Rural Women Entrepreneurs - GK Today",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAwYmZycHN1LTRVV0ZuYW5KR0kwMzB4dk51T2loTEpiRDdHZ0lvOGpqNkY4Tml6ZWZ5Rl9mVEtCYVNRLVo1UHVMcnVHTDZwMk5DSDhEa00waXNlejZScjBoUmlseUowYVdIcW83cnQ1U0t3NnRXSmJTckxMdm8?oc=5",
-          "published_at": "2026-07-02T07:00:00+00:00",
-          "snippet": "SHE-LEAPS Platform for Rural Women Entrepreneurs GK Today",
-          "lexical_overlap": 0.154,
-          "relevance": 0.224,
-          "matched_terms": [
-            "rural",
-            "women"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "rural",
-            "women"
-          ]
-        },
-        {
-          "id": "e7d00fd42280f65802",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "IMPRI Impact and Policy Research Institute",
-          "source_url": "https://www.impriindia.com",
-          "title": "Lakhpati Didi: Reimagining Rural Development Through Women-Led Entrepreneurship - IMPRI Impact and Policy Research Institute",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPaVJVQ2xNMEFJYUxBaXBzRjRjdXpDdG1DeTF4WU9SdE1PMmNxQlAzc3hlT3RSQTNnbjNuT2ZHbk1vTUFpSU9FZlVyUlREd2VsZVVoZDNUMzFPUDBjMVd3U2c5V3dWRjVwdE5QWE03RWVvNlRqdWQ4SG0tUEpCd09kVVNxWlY3aHluY2RGLTM5V1g2ZmtJQm5SLUZham15UHMzZ1FBaFNmTHYwb3hfVnVSX25udjZ6RzV6N3ZSaGt5NThjQmNySTc3SA?oc=5",
-          "published_at": "2026-07-14T07:00:00+00:00",
-          "snippet": "Lakhpati Didi: Reimagining Rural Development Through Women-Led Entrepreneurship IMPRI Impact and Policy Research Institute",
-          "lexical_overlap": 0.105,
-          "relevance": 0.175,
-          "matched_terms": [
             "lakhpati",
-            "rural"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "lakhpati",
-            "rural"
+            "women"
           ]
         }
       ],
@@ -7641,7 +7592,7 @@
     },
     {
       "id": "e390a6f5bc9dd16814",
-      "checked_at": "2026-10-20T15:05:31.714500+00:00",
+      "checked_at": "2026-10-27T14:30:20.956274+00:00",
       "promise_id": "BJP-2024-6073d1426ea81d77ff",
       "year": 2024,
       "category": "jobs_economy",
@@ -10200,7 +10151,7 @@
     },
     {
       "id": "1ec7a37f4b15b384ee",
-      "checked_at": "2026-10-17T05:36:35.924398+00:00",
+      "checked_at": "2026-10-27T14:30:27.363555+00:00",
       "promise_id": "BJP-2024-65eb86c4b8860c602a",
       "year": 2024,
       "category": "agriculture",
@@ -10225,76 +10176,28 @@
       "query": "storage grain network facilities rural areas",
       "evidence": [
         {
-          "id": "2d175306fd8fad9850",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "World's Largest Cooperative Foodgrain Storage Scheme - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE03ZnRKRE9uLTdCUHRIaDV3emZSQ09jWE1oWUkxTi1Wb1AyX2hMTDI5VTdOOWtPZXV4amk5cldZUVpXR21mcDhKM2F0RjZTTTA4b1Z2WVZKUk9XeW1Qc3o2aHFWVXdtc2ItZVlHLWtvMHdzREhvRmVJVHF3?oc=5",
-          "published_at": "2025-12-16T08:00:00+00:00",
-          "snippet": "World's Largest Cooperative Foodgrain Storage Scheme PIB",
-          "lexical_overlap": 0.188,
-          "relevance": 0.342,
-          "matched_terms": [
-            "largest",
-            "storage",
-            "world"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "cooperative",
-            "largest",
-            "storage",
-            "world"
-          ]
-        },
-        {
-          "id": "02827130607c2228d1",
+          "id": "5715310c4b40e18989",
           "scope": "preferred_official_search",
           "tier": "primary",
           "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "Decentralised Grain Storage Plan in Cooperative Sector - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBSUWhXNUhYOVVGNU4yMDJIWmRjWmlvNTNVNXVDUzMxXzVQbjk5UDQ5cWxSSlczV19lZy1WOTRReE5FdnZfS1Y1NTEtS2FmNVJoNHJCUGFIUHIwZkZQN3lyRU95VzlRSVR2?oc=5",
-          "published_at": "2026-09-03T07:00:00+00:00",
-          "snippet": "Decentralised Grain Storage Plan in Cooperative Sector Press Information Bureau",
-          "lexical_overlap": 0.105,
-          "relevance": 0.225,
+          "title": "World's Largest Cooperative Foodgrain Storage Scheme - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE03ZnRKRE9uLTdCUHRIaDV3emZSQ09jWE1oWUkxTi1Wb1AyX2hMTDI5VTdOOWtPZXV4amk5cldZUVpXR21mcDhKM2F0RjZTTTA4b1Z2WVZKUk9XeW1Qc3o2aHFWVXdtc2ItZVlHLWtvMHdzREhvRmVJVHF3?oc=5",
+          "published_at": "2025-12-16T08:00:00+00:00",
+          "snippet": "World's Largest Cooperative Foodgrain Storage Scheme Press Information Bureau",
+          "lexical_overlap": 0.167,
+          "relevance": 0.322,
           "matched_terms": [
-            "grain",
-            "storage"
+            "largest",
+            "storage",
+            "world"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
             "cooperative",
-            "grain",
-            "sector",
-            "storage"
-          ]
-        },
-        {
-          "id": "ad616c790b9f65993b",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "www.pib.gov.in",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Decentralised Grain Storage Plan in Cooperative Sector - www.pib.gov.in",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8zQ19sa2NPVU5Pc1BVbXE4M29XVFVrOTNQbG8tYTVzeUpGNHZlNnhnWWlKdEFVbzFoUDdlQmRRdk94dTdodGZsSDZ2RGtPQVZoQVlKZ2Y4SWlObzFvQnpUWEpYSHVla3JDT0JCdDZORDlPVXlKbFZkMTZTS3g?oc=5",
-          "published_at": "2026-09-03T07:00:00+00:00",
-          "snippet": "Decentralised Grain Storage Plan in Cooperative Sector www.pib.gov.in",
-          "lexical_overlap": 0.105,
-          "relevance": 0.225,
-          "matched_terms": [
-            "grain",
-            "storage"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "cooperative",
-            "grain",
-            "sector",
-            "storage"
+            "largest",
+            "storage",
+            "world"
           ]
         },
         {
@@ -10321,49 +10224,77 @@
           ]
         },
         {
-          "id": "2cff08896c540dee5c",
+          "id": "4416c70af00418e72a",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "DD News",
-          "source_url": "https://ddnews.gov.in",
-          "title": "From farm gate to storage hub: How cooperatives are reshaping India’s decentralised grain storage network - DD News",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQa293Q3ZYOElhalpxdmdISUhJeC1tZTQyM3hEM3VmemUtOTBfV1JJTFFGbnpoeUJ2MVNRRG4wcnhOeGtRbHl6eE9xaU1iRUgxc2t5RFR1REJWbllsZnVsdmFvOU5UWmhZeWFFRE5VUHdBUHRIWXN0SGlGdU5rNVBldU1oRmhJR1IwR1V4ckJMUk1aQnN5UDJqeWJnc2xhUEpzNXJwOXpPT0hhYWN0a1BsT3l0S2JlaHV4ZFNkNUpCLU03MkNYZ0p6WQ?oc=5",
-          "published_at": "2026-10-12T18:21:52+00:00",
-          "snippet": "From farm gate to storage hub: How cooperatives are reshaping India’s decentralised grain storage network DD News",
-          "lexical_overlap": 0.143,
-          "relevance": 0.248,
+          "source": "GK Today",
+          "source_url": "https://www.gktoday.in",
+          "title": "World’s Largest Grain Storage Plan Expands Through PACS Network - GK Today",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZmszcjVqMHpXMnJ1amk3elZyOE8ybEllMVhLVklBdUVkU0tjaml0RURld0t6WjZMVURPcTBxZHo2NDNVTjk1aHBBS3d3Y1lZeTdxcnk2YU9Pd1FXb1BIY3E5ckZ1WnhtWVExUW5JOHUwUXpvVW9Tck96Wm80eGs3cFlNZ0hKcGRycHN3VmIwMA?oc=5",
+          "published_at": "2026-03-12T07:00:00+00:00",
+          "snippet": "World’s Largest Grain Storage Plan Expands Through PACS Network GK Today",
+          "lexical_overlap": 0.4,
+          "relevance": 0.58,
           "matched_terms": [
             "grain",
+            "largest",
             "network",
+            "pacs",
+            "storage",
+            "world"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "grain",
+            "largest",
+            "network",
+            "pacs",
+            "storage",
+            "world"
+          ]
+        },
+        {
+          "id": "d8db197232d84aead6",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Drishti IAS",
+          "source_url": "https://www.drishtiias.com",
+          "title": "Food Grain Storage in India - Drishti IAS",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUlNHay1vMDl1UjNqenFsYlNvTTVzX2tLSUhyeXVqQzRjRjFHODEyQ2JpZ2hWNFBvZEh3M1ZlZUZaZk1FMlgwd3BVRV9kNmRfT0h0dFJ5NVRXV1NnQmUwLXg1b3I1SHUtY05NWTFlWmo3X2xUTGE3ZVE3WWxSOHZDanNIWlMzWGJuc1k4SWoweHBLdw?oc=5",
+          "published_at": "2025-10-03T07:00:00+00:00",
+          "snippet": "Food Grain Storage in India Drishti IAS",
+          "lexical_overlap": 0.133,
+          "relevance": 0.203,
+          "matched_terms": [
+            "grain",
             "storage"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
             "grain",
-            "network",
             "storage"
           ]
         },
         {
-          "id": "b4fc5b31c251e3274c",
+          "id": "e7db587816dc8d782b",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "The Hitavada",
-          "source_url": "https://www.thehitavada.com",
-          "title": "SMART project boosts rural network, jobs in Nagpur distt - The Hitavada",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOGNSa2ltU204UWhHRHpOem9takdIUEx6ZTEwNFlWTkczMHh0UmtEb3BpR3NMd0RMczk5clNSWUdRT2NFVG4zY1RBV1A3NWhEM0VCUXY1SDBTM0NERHJXZGkwb1ZSeDh5OFpMZVhIRUs3VzBHWFF0eG1QOTQ2Qkh2a3d5RFlmMW9WeFRnY3dYSjZ1eWloc0dwMUJ1WjF1RmtOaG9OTXlBdw?oc=5",
-          "published_at": "2026-05-22T07:00:00+00:00",
-          "snippet": "SMART project boosts rural network, jobs in Nagpur distt The Hitavada",
-          "lexical_overlap": 0.105,
-          "relevance": 0.175,
+          "source": "World Grain",
+          "source_url": "https://www.world-grain.com",
+          "title": "MFA gaining four elevators from ADM - World Grain",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUzJuRTZQVFJWQmVqT09ZSzh6X1g3N3B3MzRkOFE0bG94amlsdURzd3NUNno4MEhIYnZtQzVLbkg3akRuNGxGc29PTG9zRER3TGozbV9WVmNGcVkzVWYxb1Zzd3AwQ1V1RG9vR3pLTV9ra01HaFBNX1BnNWg1YVJiYTl3TWg?oc=5",
+          "published_at": "2026-04-21T07:00:00+00:00",
+          "snippet": "MFA gaining four elevators from ADM World Grain",
+          "lexical_overlap": 0.118,
+          "relevance": 0.188,
           "matched_terms": [
-            "network",
-            "rural"
+            "grain",
+            "world"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "network",
-            "rural"
+            "grain",
+            "world"
           ]
         },
         {
@@ -10444,7 +10375,7 @@
     },
     {
       "id": "75ffb5ce26acb76e25",
-      "checked_at": "2026-10-25T21:46:55.520942+00:00",
+      "checked_at": "2026-10-27T14:30:40.331822+00:00",
       "promise_id": "BJP-2024-797bca88d7ccaee982",
       "year": 2024,
       "category": "other",
@@ -10467,7 +10398,30 @@
       "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
       "related_promises": [],
       "query": "complement basic facilities like grading sorting",
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "0bf10eab0fb675001f",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "Ministry of Food Processing Industries",
+          "source_url": "https://www.mofpi.gov.in",
+          "title": "Assessment Studies for Identifying Gaps in Infrastructure & Processing Facilities for Development of Potential Value Chains for Perishable Products under Operation Greens Scheme - Ministry of Food Processing Industries",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZ2ozQkFQdU1qQWhhR3hOM243bGlfbUhIZVhrRFJvM0ZOVlk1WkVXUktUN21LS2NYMENPc3pqWHBzZmpnbncteUlibFpzSl9QZWUwSEJVNTJuZzV3UXRYUXF4M1JEdjVialhPUVR6NHVHN1VuVXFLSENBOHlyM0ZRMUo0cEEzQTRlT2xVdi1NZ3NJcGdUNGc?oc=5",
+          "published_at": "2023-02-09T05:55:14+00:00",
+          "snippet": "Assessment Studies for Identifying Gaps in Infrastructure & Processing Facilities for Development of Potential Value Chains for Perishable Products under Operation Greens Scheme Ministry of Food Processing Industries",
+          "lexical_overlap": 0.091,
+          "relevance": 0.211,
+          "matched_terms": [
+            "facilities",
+            "processing"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "facilities",
+            "processing"
+          ]
+        }
+      ],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -12871,7 +12825,7 @@
     },
     {
       "id": "fd783bb4e887293817",
-      "checked_at": "2026-10-17T05:36:39.659070+00:00",
+      "checked_at": "2026-10-27T14:30:31.498390+00:00",
       "promise_id": "BJP-2024-6952eec8cf12a450ce",
       "year": 2024,
       "category": "other",
@@ -18186,7 +18140,7 @@
     },
     {
       "id": "63dfad09f356b3e6af",
-      "checked_at": "2026-10-15T11:29:50.825122+00:00",
+      "checked_at": "2026-10-27T14:30:22.381983+00:00",
       "promise_id": "BJP-2024-6333766a67df6a6bd0",
       "year": 2024,
       "category": "other",
@@ -18248,7 +18202,7 @@
     },
     {
       "id": "b8870c39cdd218b7a1",
-      "checked_at": "2026-10-25T21:46:51.848184+00:00",
+      "checked_at": "2026-10-27T14:30:36.550824+00:00",
       "promise_id": "BJP-2024-70e521d4c5aa4506ab",
       "year": 2024,
       "category": "other",
@@ -21801,7 +21755,7 @@
     },
     {
       "id": "51b1b2a5a54bbb31c8",
-      "checked_at": "2026-10-15T11:29:52.980295+00:00",
+      "checked_at": "2026-10-27T14:30:24.285501+00:00",
       "promise_id": "BJP-2024-634f0b9b3396c7f1d6",
       "year": 2024,
       "category": "jobs_economy",
@@ -21919,14 +21873,14 @@
           ]
         },
         {
-          "id": "cb3343d0febe26d67c",
+          "id": "eae2b6f6d737779a09",
           "scope": "news_search",
           "tier": "secondary",
           "source": "Singapore Economic Development Board (EDB)",
           "source_url": "https://www.edb.gov.sg",
           "title": "Singapore’s aerospace sector gains altitude as Asia leads global aviation growth - Singapore Economic Development Board (EDB)",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPc0dqX1JVOFZyOGFxMVVPeWprUWVydFNMVEc1b0tMc0JuTTAteTdFV3RCQXNCek5DRFZXaS1Cd2VCN05KeFNGb2VXbEpONW1td29ZZ2lnakdOSWd2WGlfYjJpZ20tbTlyU0xxeXRVU3d1TXJFMDQ0SWJxVjE4MzZaOC1FSHdTOHpRSnhXWExZUEpGZk5VbGNrNC0wc2lWc284WXNKeVpCU2lrT0RveVR0TkdlRWpUNHZzeTNONDhodUQ?oc=5",
-          "published_at": "2026-10-06T07:00:00+00:00",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOLTdlZjM3bXdpZjVOU2VqQVo2d1VqZFpKclFsYUlFWkFYQkhid0VCRkV6UGNYOW1FdXdGVFlwaU82NmRfMlRqNkd0S2VNSWJFWlVKWE4zUlNVSnNXblNZZDlBUnpFTjJzR1dSc09IYUZpSHNScU5VZVNybjRpbmI5Z01UUHJ3SjV0cTVmU2k1Q0JIenZSOEhzeGxSY29Ycm9ZUjM3bnlzclQwVUtZbFhYa2dCZ2Y4RDQ5U1RNaQ?oc=5",
+          "published_at": "2026-10-25T07:00:00+00:00",
           "snippet": "Singapore’s aerospace sector gains altitude as Asia leads global aviation growth Singapore Economic Development Board (EDB)",
           "lexical_overlap": 0.091,
           "relevance": 0.161,
@@ -21956,7 +21910,7 @@
     },
     {
       "id": "719fc46937f31189f4",
-      "checked_at": "2026-10-25T21:46:53.439844+00:00",
+      "checked_at": "2026-10-27T14:30:38.359059+00:00",
       "promise_id": "BJP-2024-74501c0b9415478795",
       "year": 2024,
       "category": "other",
@@ -21980,6 +21934,28 @@
       "related_promises": [],
       "query": "industries investments traditional textile indigenous designs",
       "evidence": [
+        {
+          "id": "9de07e01c4701e56ee",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Kearney",
+          "source_url": "https://www.kearney.com",
+          "title": "Creating a competitive advantage for India in the global textile and apparel industry - Kearney",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUGVfbGh1SXc5VWd4WXc1U0dsNHozVm83WDBpZ0VtcTVQSzdsTEFQTTAyQnVXWXFBWmxpSjZFY3BWV2lVNndHakpLR2dtanBhSmt5NlFTVUEzdXdxbUlsZFEtT1Q0UjRlQmM4eE9sdERVcGpoczNFOW5yZnYtVGUtSzZSSzhlWDNydF9YcUkxRXR3eFNQR1dPUG4wZVJEWWNuUTBRUGYya01ScUh2Z1lXOUZRdHpUUFlkSEpiS1pCUjh5c0FuVVFiWVJQTktiLVpzQ1BhRUNhZFhXdw?oc=5",
+          "published_at": "2023-10-12T02:09:09+00:00",
+          "snippet": "Creating a competitive advantage for India in the global textile and apparel industry Kearney",
+          "lexical_overlap": 0.125,
+          "relevance": 0.195,
+          "matched_terms": [
+            "global",
+            "textile"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "global",
+            "textile"
+          ]
+        },
         {
           "id": "19ee8578b6e8a2de83",
           "scope": "news_search",
@@ -27164,7 +27140,7 @@
     },
     {
       "id": "b88f8d122e89f2273b",
-      "checked_at": "2026-10-25T21:46:56.725929+00:00",
+      "checked_at": "2026-10-27T14:30:41.327504+00:00",
       "promise_id": "BJP-2024-7c5ca3ca61fa063e20",
       "year": 2024,
       "category": "women_social_justice",
@@ -27189,17 +27165,17 @@
       "query": "green hydrogen production increasing capacity clear",
       "evidence": [
         {
-          "id": "116151fb641ac9aea6",
+          "id": "0649d6bc6f8c98bea6",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "PIB",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "Unlocking India’s Green Hydrogen Production Potential - PIB",
+          "title": "Unlocking India’s Green Hydrogen Production Potential - Press Information Bureau",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5lTUM4UXJTTFRKb1hLQUlLbHFfSnBrNzRPZ3hJeE5iWWExZ0tsMnBJZXBSamlFYnhqMmw4cG5JV1lxZm5FZm1rZUk4Ny1pcDBzNWsyeGlhZVFiVHZhenA5TXhiZDBvanpORFZoMmJSMTN3Yl9qVno4bF9R?oc=5",
           "published_at": "2025-11-12T08:00:00+00:00",
-          "snippet": "Unlocking India’s Green Hydrogen Production Potential PIB",
-          "lexical_overlap": 0.2,
-          "relevance": 0.355,
+          "snippet": "Unlocking India’s Green Hydrogen Production Potential Press Information Bureau",
+          "lexical_overlap": 0.176,
+          "relevance": 0.331,
           "matched_terms": [
             "green",
             "hydrogen",
@@ -27257,39 +27233,67 @@
           ]
         },
         {
-          "id": "039ad84de22ca7edcd",
+          "id": "153ab4a1e1dc2ff483",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Renewable Watch",
-          "source_url": "https://renewablewatch.in",
-          "title": "Manufacturing Drive: Expanding electrolyser production in India - Renewable Watch",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTm04SS10SEFlNXhrNXdiZkplS3ZheVRicy1IbWpQM3dabzZ2ODFvMVU0SXh5MjQxS2lVd2ZPSHlHV3lQejFybVlYR3NfLWZJWU9CNnRnUjNONjlDNlhicE9vSzY4YTFrZHRhelhUWU92X0pfek1wVjhoeUlPbGJkZVZqQTJ5QjRHY3Nudk5zT2VBaGpLUkZ0SGtoQkdQS3pQcVE?oc=5",
-          "published_at": "2025-11-11T08:00:00+00:00",
-          "snippet": "Manufacturing Drive: Expanding electrolyser production in India Renewable Watch",
-          "lexical_overlap": 0.118,
-          "relevance": 0.188,
+          "source": "IMARC Group",
+          "source_url": "https://www.imarcgroup.com",
+          "title": "Green Hydrogen Production Cost Model: Clean Molecules, Clear Costs - IMARC Group",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5jTnRrSC1LX3RHd1ZwazAwcjltWUVTQ2JCMFZGcTBESHVMMUEwSmtHVzlySE0zSFhHY2RCTUNOdTFCSFZrSlFJUk1za1NXS0pLc0VwWXVmQkc5OGNyV1NXV2ZGZ0dwYkJlYWI0QXJZMXRRUkNaNENQWGtGVQ?oc=5",
+          "published_at": "2025-11-18T12:52:49+00:00",
+          "snippet": "Green Hydrogen Production Cost Model: Clean Molecules, Clear Costs IMARC Group",
+          "lexical_overlap": 0.211,
+          "relevance": 0.351,
           "matched_terms": [
-            "expanding",
+            "clear",
+            "green",
+            "hydrogen",
             "production"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "expanding",
+            "clear",
+            "green",
+            "hydrogen",
             "production"
           ]
         },
         {
-          "id": "1ac9b4405da61049f8",
+          "id": "f68294530aba23c77d",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Fuel Cells Works",
-          "source_url": "https://fuelcellsworks.com",
-          "title": "Colombia's Green Hydrogen Ambitions Face Challenges - Fuel Cells Works",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUGFYcExocnpLM0p3NlE5QTVrT2o5R3VIZWpPRlhVVmRyVXVtMExBbWJLbEVEX0IycTVJQ1FJbFViWHpITU12WVIwWmxBX1cxcUlCQVRjb2I3ZE9RM001QnFFZ1g1WWU1czlMYnNXVW9wQmZFVjNxREt1b3cwWjJoNVFRN0ZHdU1IRzlnWVRPQzl5enJKZTM4bllZWnhrY3kwcFViSHoyU1ZkT28?oc=5",
-          "published_at": "2026-02-26T08:00:00+00:00",
-          "snippet": "Colombia's Green Hydrogen Ambitions Face Challenges Fuel Cells Works",
-          "lexical_overlap": 0.105,
-          "relevance": 0.175,
+          "source": "AZoCleantech",
+          "source_url": "https://www.azocleantech.com",
+          "title": "Green Hydrogen to Command 88.6 % Share of Low-Carbon Production By 2030, Reveals GlobalData - AZoCleantech",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5kS0xGRjJkMVlXS2VsNnRVWjR0Sjg5U2Mxc1dLMC1nWTg0c3JVbEJKOWtNa05nYjd4LXZoR2JPUmZ3QXR6bVZYLXFIdTktUDZSWDJNbmdXRC0wR1ZZSnc2MQ?oc=5",
+          "published_at": "2026-02-19T08:00:00+00:00",
+          "snippet": "Green Hydrogen to Command 88.6 % Share of Low-Carbon Production By 2030, Reveals GlobalData AZoCleantech",
+          "lexical_overlap": 0.167,
+          "relevance": 0.272,
+          "matched_terms": [
+            "green",
+            "hydrogen",
+            "production"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "green",
+            "hydrogen",
+            "production"
+          ]
+        },
+        {
+          "id": "c77e0cbfd3bac65d0e",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "CEEW",
+          "source_url": "https://www.ceew.in",
+          "title": "Financing Green Hydrogen in India - CEEW",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRl9DX0pMc092cjI1eUdtOFNfLWpjVGZrbzZpaWt5ZlBRek1ieDFEZmJtQzRWcW1PNXJRVmRVUEZoc1lzZzlpclFiVGhSRjdkRS1KckpPdlh4U2ZmalpzR3dFRHo2VmxpZWdpYWlfdjA2cm9ReVZrcm1EZjNMb0dDZWRLZlpwLUJ3X0IyUG4zbE5vVzRUUkpCQXROZ3JoeWlhNlhVNTAxM0RoeTZ4VnFuOWdtN290dEE?oc=5",
+          "published_at": "2024-06-18T07:56:44+00:00",
+          "snippet": "Financing Green Hydrogen in India CEEW",
+          "lexical_overlap": 0.143,
+          "relevance": 0.213,
           "matched_terms": [
             "green",
             "hydrogen"
@@ -27301,17 +27305,39 @@
           ]
         },
         {
-          "id": "2b9e8bf6a61ec6b63a",
+          "id": "b783508441ab29ea64",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Vocal",
-          "source_url": "https://vocal.media",
-          "title": "Stanislav Kondrashov on Green Hydrogen and the Changing Cost Equation in Europe - Vocal",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbEFnT3piWnNibUtIMEVhR2xFUUF4TGFzSXlDZVNMZUZNUFBNR09xRzdqMXBlV2Uyd0M2MW5sRXh4MWQ5TDNwbG9kdzZjRE1CcGh2R0tOeGNuMVdqbkdZU2tNNW1mVHZMN1ZmYlIwVGNGUmphV1BhMVNuT2p6NHVQeHJpRlNybG1udm42QjQ4VUphbGNqSk5zQ2pjVlJKbjFZRk95a2F2VXhNQQ?oc=5",
-          "published_at": "2026-09-22T12:40:28+00:00",
-          "snippet": "Stanislav Kondrashov on Green Hydrogen and the Changing Cost Equation in Europe Vocal",
-          "lexical_overlap": 0.105,
-          "relevance": 0.175,
+          "source": "Nature",
+          "source_url": "https://www.nature.com",
+          "title": "The green hydrogen ambition and implementation gap - Nature",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1yaHdHMl90RVdPN3pXeEFZUnNyNl8xazAyV3VzX2V2UmctSzZNVmdwbmtraFQ0U2pJZF9JSlRQZloxYThtVWwxUjJKZ204M2I3ZzZqWTNobmtJNWZ6RFQ4?oc=5",
+          "published_at": "2025-01-14T08:00:00+00:00",
+          "snippet": "The green hydrogen ambition and implementation gap Nature",
+          "lexical_overlap": 0.125,
+          "relevance": 0.195,
+          "matched_terms": [
+            "green",
+            "hydrogen"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "green",
+            "hydrogen"
+          ]
+        },
+        {
+          "id": "20928ae380b2002550",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "IRENA – International Renewable Energy Agency",
+          "source_url": "https://www.irena.org",
+          "title": "Policies for green hydrogen - IRENA – International Renewable Energy Agency",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5MOWtVdDFwemZsdDJ0dnBCY3RDeDFyVnJqSjlpdi14NmxVbjJoYjJMamo1QnR4ejU2WnRQamJPQW9jQk5ENE9uSzdmUFEzNDNFeHhOQWRMSUpCQWdXWDljR3MzQ25OWnJ1WXJGYTdMWFBZRE94V3pqWW85RkljajQ?oc=5",
+          "published_at": "2022-11-08T01:46:21+00:00",
+          "snippet": "Policies for green hydrogen IRENA – International Renewable Energy Agency",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
           "matched_terms": [
             "green",
             "hydrogen"
@@ -27323,7 +27349,7 @@
           ]
         }
       ],
-      "implementation_signal": "current_primary_evidence_found",
+      "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -31133,7 +31159,7 @@
     },
     {
       "id": "3f2ca476806230920c",
-      "checked_at": "2026-10-25T21:46:54.168347+00:00",
+      "checked_at": "2026-10-27T14:30:39.153000+00:00",
       "promise_id": "BJP-2024-79039b52fd171d6f74",
       "year": 2024,
       "category": "women_social_justice",
@@ -31245,28 +31271,6 @@
           "promise_core_overlap": [
             "delivery",
             "improving"
-          ]
-        },
-        {
-          "id": "a64a0f074b4d287b6e",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "ANI News",
-          "source_url": "https://www.aninews.in",
-          "title": "Government expands citizen-centric digital public service delivery through Umang and DigiLocker - ANI News",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOOEpoa3ZQeGNrellmYk5hbXhBR2Y2Z3ZIRC1kXzlDcURyZDZ5dkcyLW14aGNLaUM5aGtCU1hJX3BQMG1GR29kNExINkEwbHlZOV9fX0p6a2NHb09BNFRFcU81ZVdYeDlwMU1XS01UV1NGWVl6SEktakE0ZlktMlRlU01ZM3FWNGswaTcxVGFNY2hGeFJySmR6c3d3X1dUV2w1UnQ0QVFycmVQTXlydjhCZTh3WlhmUm5hQTFsVTUxTFYyS21MLTkwNDlhTUg2TjUyNldHb09IZENGQVQxVUFSVlBOOWVTWHl2cDR2eWlxOEQ?oc=5",
-          "published_at": "2026-08-12T07:00:00+00:00",
-          "snippet": "Government expands citizen-centric digital public service delivery through Umang and DigiLocker ANI News",
-          "lexical_overlap": 0.111,
-          "relevance": 0.181,
-          "matched_terms": [
-            "delivery",
-            "public"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "delivery",
-            "public"
           ]
         },
         {
@@ -32527,7 +32531,7 @@
     },
     {
       "id": "96a6c0c3b87d89f7f0",
-      "checked_at": "2026-10-17T05:36:37.463290+00:00",
+      "checked_at": "2026-10-27T14:30:29.027371+00:00",
       "promise_id": "BJP-2024-66f8be8c678498ebea",
       "year": 2024,
       "category": "governance",
@@ -32552,6 +32556,29 @@
       "query": "fiscal autonomy panchayati raj institutions electoral",
       "evidence": [
         {
+          "id": "e4134da96e8087052d",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "INSIGHTS IAS",
+          "source_url": "https://www.insightsonindia.com",
+          "title": "Panchayati Raj Institutions India - INSIGHTS IAS",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNEFoZE41RmwtUThFNy1MZ0U1TFZ6c3JCWk5neXAyaHh2Q2taaWVHbTBtajZhVXR0UkFONzVtbUtnd3NMdnU2X3B1Um9VcUZadHpDcmlqemNzN2NqUGc5T3lYczNTN2ZjTW9pMDRqU1BWbDlWWl8xM3hGalU5cXhmc0JJUQ?oc=5",
+          "published_at": "2025-02-17T08:00:00+00:00",
+          "snippet": "Panchayati Raj Institutions India INSIGHTS IAS",
+          "lexical_overlap": 0.214,
+          "relevance": 0.319,
+          "matched_terms": [
+            "institutions",
+            "panchayati",
+            "raj"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "institutions",
+            "panchayati"
+          ]
+        },
+        {
           "id": "8ab646dd64ee2af8dc",
           "scope": "news_search",
           "tier": "secondary",
@@ -32559,7 +32586,7 @@
           "source_url": "https://vajiramandravi.com",
           "title": "Panchayati Raj Institutions - Vajiram & Ravi",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5CMWE3Q1lRbGpHc1h0dlJZZ0R1WXkyeEctamNmeHVFU0lvYy1BTk1jRDN2LURjS2dtaTNDeDZBUVpnYV9WTTlrNHAyOTBLNkJkQU81TDdzTjJnd3RFZ3dEOXl4WmFEeFUyRVBtaWFESU5mVjA?oc=5",
-          "published_at": "2026-10-12T06:20:03+00:00",
+          "published_at": "2026-10-12T07:00:00+00:00",
           "snippet": "Panchayati Raj Institutions Vajiram & Ravi",
           "lexical_overlap": 0.214,
           "relevance": 0.319,
@@ -34178,7 +34205,7 @@
     },
     {
       "id": "0210ad15f9930f717e",
-      "checked_at": "2026-10-20T15:05:28.542348+00:00",
+      "checked_at": "2026-10-27T14:30:17.966594+00:00",
       "promise_id": "BJP-2024-5b2e364069e27e4f88",
       "year": 2024,
       "category": "education_skills",
@@ -34217,7 +34244,7 @@
     },
     {
       "id": "c8423556c32e655be7",
-      "checked_at": "2026-10-17T05:36:38.898360+00:00",
+      "checked_at": "2026-10-27T14:30:30.589611+00:00",
       "promise_id": "BJP-2024-6810e93cb011a5f9ba",
       "year": 2024,
       "category": "education_skills",
@@ -34240,82 +34267,8 @@
       "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
       "related_promises": [],
       "query": "upgrade existing institutions focused funding capacity",
-      "evidence": [
-        {
-          "id": "7079da138834b09d3c",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "fundsforNGOs - Grants and Resources for Sustainability",
-          "source_url": "https://www2.fundsforngos.org",
-          "title": "Seeding Research, Networking and Capacity Building at Minority-Serving Institutions (US) - fundsforNGOs - Grants and Resources for Sustainability",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMjkzRWw5YUFqT2J2RVVqMktkU3l3WFBMUl9jcGFJQ05BRHhDTFdNdjB6b0NKdjZ5RVNHUm1IbllZcGFjRmt3eFpKWGltT2s0Z255dnZpTXR5dTd4UVJLOHNNVGFxOWNBaEVzS3BqMzhvUW4yRERkZnJ2OEpBR1JPM2RpQ1cya2ZCYU4zd0NidFdXX3NpLXBIQnR0NDN2ZnJyWldrNGQtVi1jeWJPWUZQSGRuLUFYa1FNZ2k0WHc1VHJfQW5FTDJr0gHMAUFVX3lxTE1OeEJaYXI2UGhqQkJGNllBVjBfbmU0LXRRX0RTNEYweElQTkVGZGpqeDlvaG1rVkx5SXhiZDAtNVN6SmItWGlxcEVkZVE4QThWNkg5b05FcUNPT1VZSW0zQlB5OVowS2p4QlhXUHNMSzFPWVo1M2JMNzJNbV9KcGF3RWQ0c19HaVJLVkpld2tRVHNTQUg3TmpraGpuS19fanpTcUFIa3poYnhENnFuekJINEF6VmI5cWQzWG1xTHVGWUg3bTJzLUVlYlpnQQ?oc=5",
-          "published_at": "2026-09-16T09:42:25+00:00",
-          "snippet": "Seeding Research, Networking and Capacity Building at Minority-Serving Institutions (US) fundsforNGOs - Grants and Resources for Sustainability",
-          "lexical_overlap": 0.2,
-          "relevance": 0.34,
-          "matched_terms": [
-            "building",
-            "capacity",
-            "institutions",
-            "research"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "building",
-            "capacity",
-            "grants",
-            "institutions",
-            "research"
-          ]
-        },
-        {
-          "id": "85ee8ce90f7199afc7",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "fundsforNGOs - Grants and Resources for Sustainability",
-          "source_url": "https://www2.fundsforngos.org",
-          "title": "Engagement Award: Building Capacity for Small Organizations (United States) - fundsforNGOs - Grants and Resources for Sustainability",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVzcwSVVxNHRLek1vcXJHS0xXTGV2X1EzWUxHTG5kdVZuTFd5TW9XQTE0aDZHYjhHcVFYOWNzRVlYQ01fOVdJbjRvYTQyOFFBTjk4cDRPb2pSS29sUE96dFg5bUU3ZEtqdzF0VEtnXzI1MFVsOG9UWTlhbzFNVjRsamJZM1VUY2xrWW45RGhXOTJLeFhfMkhtekZTYXd1bFBMbVJYQ29sZGl3eG9FV1ZoYkc3S3QwOTJOY2JZalhYam5NQ2ZqZ3fSAcsBQVVfeXFMTm14dHUyR09kWW1nQXBFUU5mVk9xNHRWNi1HanRZRGZ0VDhYQzlEbzRZa0tfeGxCQ3NEYkM1YWdNUDlEeUJoYS05dkdPX00zTklsMnFyQ1M0am15ckIwUWtzYS1nTEpjODYyVUNZTjlQVHMybmRnRGhCeUplOGJsdUhZeG54R1IxQXUzb1QwYVNack03UWJ3YWE3SFFHaHpTd0hWR29RVjNnclB1S1RBc0N4V29rU2RXamFnUkpPeXJyVmpTa3FXZWVLazg?oc=5",
-          "published_at": "2026-10-01T07:00:00+00:00",
-          "snippet": "Engagement Award: Building Capacity for Small Organizations (United States) fundsforNGOs - Grants and Resources for Sustainability",
-          "lexical_overlap": 0.091,
-          "relevance": 0.161,
-          "matched_terms": [
-            "building",
-            "capacity"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "building",
-            "capacity",
-            "grants"
-          ]
-        },
-        {
-          "id": "5e3f293625265e4138",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "fundsforNGOs - Grants and Resources for Sustainability",
-          "source_url": "https://www2.fundsforngos.org",
-          "title": "Call for Proposals: Community Resilience, Capacity Building and SBCC Initiative (Kyrgyzstan) - fundsforNGOs - Grants and Resources for Sustainability",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOSmYwN1hZbmw2TElpeTJFa3lzQ2tWbkhGd3lLVGJ5U2VVVlBLYkx4RWstUkZQc2JZTUVJM3VpdVBzTVdZRzJrcFJ5RTZLZEZaekREYVJTZS1STWh4Yy1BRzlSMlU5SDB3RE9xVHdON1B6bkswa1RxRUwxbEljcTd2LUxZa2s4Nzk4LXdsRjNVdDVfeDc4MjBzUmtSdjRaSFA2T1V0c2dYTThJSXlTUDNKank2S3plVVB1QXR2QU0wZHRuMW9wZDRuazlhelNRT2Zvck1Yc212MWtOUnfSAeABQVVfeXFMT21oODlwb2NyYm5EYWJ2VVhFdEdIWUZqWkNQRUx0MUFDci1zSzY1dWhER21lRE5FTUFnS0Mza1o1YjNjTEZkRXo4elpDRVN4YUhqYUFlWVFNWFhwNW9vX3FxX3o1ZjFyMXdKclFjem90cnB3dlRrV0F4aGdkQU83VHAyYVB6RzNueVZLVkctNFBjeDlxYkVhamZXTnFhRHVaTFQ1cUNGVm9qa3hCc05RVEdmZDRIRVQ5ekJQeE8tVUlXQk84Q2N3OTFIVl84ZGNaamY0UjVQbmo2WmhsU0piZ0M?oc=5",
-          "published_at": "2026-08-26T07:31:02+00:00",
-          "snippet": "Call for Proposals: Community Resilience, Capacity Building and SBCC Initiative (Kyrgyzstan) fundsforNGOs - Grants and Resources for Sustainability",
-          "lexical_overlap": 0.087,
-          "relevance": 0.157,
-          "matched_terms": [
-            "building",
-            "capacity"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "building",
-            "capacity",
-            "grants"
-          ]
-        }
-      ],
-      "implementation_signal": "current_reporting_found",
+      "evidence": [],
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -35318,7 +35271,7 @@
     },
     {
       "id": "b96cbeea087eff9237",
-      "checked_at": "2026-10-20T15:05:30.140715+00:00",
+      "checked_at": "2026-10-27T14:30:19.257526+00:00",
       "promise_id": "BJP-2024-6018d529261fd26abe",
       "year": 2024,
       "category": "infrastructure",
@@ -35396,61 +35349,17 @@
           ]
         },
         {
-          "id": "4a61fbb16c00218a60",
+          "id": "ebbfa7259245932fc8",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Daily Excelsior",
-          "source_url": "https://www.dailyexcelsior.com",
-          "title": "Sports Minister announces introduction of multiple Games under Khelo India scheme - Daily Excelsior",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOR1VQbEFHMlA1ek1UVm1MVW1POEtEbHVPelVPdTRLem5yckpPRVZaS1BJNVN2VjNDaUJReG1yM0doTDVOQklJZGM1ZmZHM0wtS3BhZ2puakJZTmxqamhuVnNteW1DUGw1clZXd2lTcmtIVXlrOFpWNjNYa2o1eGhKMkxpYkdub0dKM3FyVWZ3dG45SFFtalZwanRSbklxUE5mYVpKbzNLSTV2UlF3SHNBeFR0emQ0WEHSAbcBQVVfeXFMTkdVUGxBRzJQNXpNVFZtTFVtTzhLRGx1T3pVT3U0S3pucnJKT0VWWktQSTVTdlYzQ2lCUXhtcjNHaEw1TkJJSWRjNWZmRzNMLUtwYWdqbmpCWU5sampoblZzbXltQ1BsNXJWV3dpU3JrSFV5azhaVjYzWGtqNXhoSjJMaWJHbm9HSjNxclVmd3RuOUhRbWpWcGp0Um5JcVBOZmFaSm8zS0k1dlJRd0hzQXhUdHpkNFhB?oc=5",
-          "published_at": "2026-10-03T16:33:09+00:00",
-          "snippet": "Sports Minister announces introduction of multiple Games under Khelo India scheme Daily Excelsior",
-          "lexical_overlap": 0.25,
-          "relevance": 0.355,
-          "matched_terms": [
-            "khelo",
-            "scheme",
-            "sports"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "khelo",
-            "sports"
-          ]
-        },
-        {
-          "id": "4a3c56901a55b322f1",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "ClearIAS",
-          "source_url": "https://www.clearias.com",
-          "title": "Revamped Khelo India Scheme - ClearIAS",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1YX255VlFETElkU0lNT0FQWFJENDFzSGdTemtfRzVLc3RrUEpPTWxjZVFOSzlfV3QtU21BWGxaTWRqLW9Qd09LaWxmQzByUWZsMmI0Yk5PUlZ0ZWE2RzcwX0h6Yw?oc=5",
-          "published_at": "2026-08-03T07:00:00+00:00",
-          "snippet": "Revamped Khelo India Scheme ClearIAS",
-          "lexical_overlap": 0.25,
-          "relevance": 0.32,
-          "matched_terms": [
-            "khelo",
-            "scheme"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "khelo"
-          ]
-        },
-        {
-          "id": "063c10be4940c77152",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "ETV Bharat",
-          "source_url": "https://www.etvbharat.com",
-          "title": "Telangana To Host Khelo India Youth Games 2026 From December 11 to 22; 7,500-Plus Young Athletes, 27 Sports Across Six Cities - ETV Bharat",
-          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQN2FnUFpva01oLWUwR1NMd3F6NEd4UkpFM05BSGVhZ3FnRm5YXzYyODFwUXpXUnZqa29GVDhpNWZKUVFfMUJZb25nQUpMR3lteDB3dEhtT1dicmpmd3gtV2ZWUGo4dlVWNEdrdldnSW5kZzlsR2J6OGpIbFBCRVo0N2NXTVRuSlF4VkZaTWRwWFViUWRGM2U3UVVJYWVHTTg3TTYxWm1VZ2FxQVBLeFR5WnVIS3NhM3ZMRDRMUERTbXo1Y01IOW03MGtLOEhTbUQ3RGVsMXBsVGhvV3oxaFdqYWVIUlphd2NXUGlBUEJpd0loY1dQZng2U2M2Ni0wZlo3em90WtIBigJBVV95cUxOWUFZa3NORjFoWExwY2pDdVRVYkhHT2FwWlNJR3ZqX2ZnRzlQNFhqaGhJSkpOWi13UWFSenl4bkVZLWpRT3FFRG9WbkI3bVF4X1FfYVE2UU5aYVEwWGJhaFM0ZkVtY2V6OF91NkxXWXNXOFRCOGpuOHNJWnRLMFpOTDh0a1R1amRTSmNUcWcwQ2hKY1NBeG90UER4N25Gd253VWtFTkNTaktock9EYWlISUFOUTlIdzdGU0tzdVRzZ2Vpa2lBVWJpQTJGSXlXLXhpY1hFdURfYnFQWnhmUnpaNFhfTXJYNXMtcjhLcHg4UERuTnpGMTU3ekFnUlJJVEVHWGptSVJtaFRvZw?oc=5",
-          "published_at": "2026-10-05T07:00:00+00:00",
-          "snippet": "Telangana To Host Khelo India Youth Games 2026 From December 11 to 22; 7,500-Plus Young Athletes, 27 Sports Across Six Cities ETV Bharat",
-          "lexical_overlap": 0.118,
-          "relevance": 0.188,
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "To harness sports potential of Northeast region, Government to stage Khelo India Northeast Games every year: Dr Mansukh Mandaviya - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9fRk1vQXowekprMXFMcmVxZVNuRU0tNWNUNW5hTElkSnlhS2cxcUtPRGdDa1N2N3h2akRPSmJ2U3YwMVAzSHJwREt4TzZ5ODB3RXk5b3k0RzEwOW8tZDQ3cmZfc1R1dXU5?oc=5",
+          "published_at": "2025-05-24T07:00:00+00:00",
+          "snippet": "To harness sports potential of Northeast region, Government to stage Khelo India Northeast Games every year: Dr Mansukh Mandaviya Press Information Bureau",
+          "lexical_overlap": 0.105,
+          "relevance": 0.175,
           "matched_terms": [
             "khelo",
             "sports"
@@ -35462,7 +35371,7 @@
           ]
         }
       ],
-      "implementation_signal": "current_primary_and_reporting_found",
+      "implementation_signal": "current_primary_evidence_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -36041,7 +35950,7 @@
     },
     {
       "id": "3271ef18d8d3b6c40f",
-      "checked_at": "2026-10-25T21:46:58.531011+00:00",
+      "checked_at": "2026-10-27T14:30:43.257863+00:00",
       "promise_id": "BJP-2024-7ce070c3c2b5e9a2a5",
       "year": 2024,
       "category": "other",
@@ -36087,28 +35996,6 @@
             "governments",
             "local",
             "prepare"
-          ]
-        },
-        {
-          "id": "f7cac3375a6ee57818",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Sunshine Coast Council",
-          "source_url": "https://www.sunshinecoast.qld.gov.au",
-          "title": "Honey Farm sport and recreation precinct master plan - Sunshine Coast Council",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNb1c0MlF6em0xUjBNYVZ4U0hlcVJ6d2cxWmRXOExpaTROMFNhNjJuQlJocGQ0UkQyaWo4QUtfdF90bTNCa1NJZU54RlA5OElBR0s2dnpaRWdxekJhT0VCQnFXZE82a24xT0ppdlRfYjRiNVF1bEZSWDQ4MVI2SXR0VlNrVW9jT3lIN0w3TF9RYmFiTzBBVTFyVHRaUVNtT3FhZFh3aVlZT01Gc1VMeFFySVl4U3dJeVdvQjFiZnB3OUpacy0za2RwUGlqeUY4UnRKRjkzZw?oc=5",
-          "published_at": "2026-10-22T07:00:00+00:00",
-          "snippet": "Honey Farm sport and recreation precinct master plan Sunshine Coast Council",
-          "lexical_overlap": 0.1,
-          "relevance": 0.17,
-          "matched_terms": [
-            "master",
-            "plan"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "master",
-            "plan"
           ]
         }
       ],
@@ -36858,7 +36745,7 @@
     },
     {
       "id": "b3c6a01c34b3835929",
-      "checked_at": "2026-10-25T21:46:50.975835+00:00",
+      "checked_at": "2026-10-27T14:30:35.581051+00:00",
       "promise_id": "BJP-2024-6ea15e7ed9d6f1f93a",
       "year": 2024,
       "category": "technology_digital",
@@ -36883,15 +36770,15 @@
       "query": "quantum tech frontier operationalise mission position",
       "evidence": [
         {
-          "id": "f3b61b080317b0dac4",
+          "id": "5e1e22c89050005c19",
           "scope": "broad_official_search",
           "tier": "primary",
           "source": "India Science, Technology & Innovation - ISTI Portal",
           "source_url": "https://www.indiascienceandtechnology.gov.in",
-          "title": "Science on mission mode for societal benefits | India Science, Technology & Innovation - India Science, Technology & Innovation - ISTI Portal",
+          "title": "Science on mission mode for societal benefits - India Science, Technology & Innovation - ISTI Portal",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTnkwY1JXMUZHbnFQOUpxWDJ4aGpFVElWY21EUDV5eWdtNUw3UGRBRnFlNWJsbFBSUHJrRXZURnRMbjlTbVlzTklMQXhJX2hjYl9rcXI2d0Z0OXNacU5KN1dOOXNDNlM1WHphbE5JbENUazh6MmVSOUl2cVN3LWpKY2N2dWl4LVFIem5lajU2b0diNndodXVBck1JTnFWdw?oc=5",
           "published_at": "2021-01-22T09:55:14+00:00",
-          "snippet": "Science on mission mode for societal benefits | India Science, Technology & Innovation India Science, Technology & Innovation - ISTI Portal",
+          "snippet": "Science on mission mode for societal benefits India Science, Technology & Innovation - ISTI Portal",
           "lexical_overlap": 0.105,
           "relevance": 0.225,
           "matched_terms": [
@@ -38264,7 +38151,7 @@
     },
     {
       "id": "45be02db4792d42335",
-      "checked_at": "2026-10-20T15:05:26.663348+00:00",
+      "checked_at": "2026-10-27T14:30:16.083801+00:00",
       "promise_id": "BJP-2024-59f019351872640c29",
       "year": 2024,
       "category": "infrastructure",
@@ -38310,51 +38197,6 @@
           "promise_core_overlap": [
             "governments",
             "state",
-            "water"
-          ]
-        },
-        {
-          "id": "c28dc0ec2f53fa7a65",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Pew Charitable Trusts",
-          "source_url": "https://www.pew.org",
-          "title": "States Find Innovative Ways to Support Rural and Small Water Systems - The Pew Charitable Trusts",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNRXhMYUs4NVlHRV95c3c3U0FCNnFwTHZ0VHZnTS1BUHZWejlFWEgyX09LNjB2ekJ1ZVpnZVphVUlyZzAzRGh2RzR0emwybndaVGhRdGZIWkh3ZXpfd3h6TmlSN2pDOF9DNGJPalVOTFZnaEFVQjVQVWJqdEFxSDhWUXJCXzAtOEM5N2VrMjE3ZzBRU2I3OXF0WnNHM3R5WTlkeGtScVpwM3UxSUlHQ0RNOEZJRzhXdG5PZjNkVEpDckpmN05ITDN5TzMxVEs1QQ?oc=5",
-          "published_at": "2026-05-22T07:00:00+00:00",
-          "snippet": "States Find Innovative Ways to Support Rural and Small Water Systems The Pew Charitable Trusts",
-          "lexical_overlap": 0.143,
-          "relevance": 0.248,
-          "matched_terms": [
-            "support",
-            "systems",
-            "water"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "systems",
-            "water"
-          ]
-        },
-        {
-          "id": "1ba8699249dfd082bd",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "U.S. Environmental Protection Agency (.gov)",
-          "source_url": "https://www.epa.gov",
-          "title": "Compliance Advisors for Sustainable Water Systems Program - U.S. Environmental Protection Agency (.gov)",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQazZZMHdTbVVuV0Q4Z3IxeHJHOFdIRFpRemNvUGZyZDhobDgxb1BiaXU5Y2VjRnRUWFl3b3ByM0ZOemxDQzluSUxYekptdDl1VEN2LXNidDA1WnBTb3pBbUg5Mlg5bnh2bFFmY21XSUFaV202UXdFXzNJX0t4dHJJZXJvcy1JTkt2aFJyVg?oc=5",
-          "published_at": "2026-07-13T07:00:00+00:00",
-          "snippet": "Compliance Advisors for Sustainable Water Systems Program U.S. Environmental Protection Agency (.gov)",
-          "lexical_overlap": 0.1,
-          "relevance": 0.17,
-          "matched_terms": [
-            "systems",
-            "water"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "systems",
             "water"
           ]
         }
@@ -39136,7 +38978,7 @@
     },
     {
       "id": "4431b37645f2009191",
-      "checked_at": "2026-10-25T21:46:48.925744+00:00",
+      "checked_at": "2026-10-27T14:30:33.087782+00:00",
       "promise_id": "BJP-2024-696fe456affe0ff0c9",
       "year": 2024,
       "category": "environment",
@@ -39810,7 +39652,7 @@
     },
     {
       "id": "8287cfb84dfcd98ee6",
-      "checked_at": "2026-10-17T05:36:34.894441+00:00",
+      "checked_at": "2026-10-27T14:30:26.280470+00:00",
       "promise_id": "BJP-2024-63585a79a6d24865e1",
       "year": 2024,
       "category": "environment",
@@ -39854,28 +39696,6 @@
           "promise_core_overlap": [
             "conflict",
             "managing"
-          ]
-        },
-        {
-          "id": "70ef127bfabfae2906",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Hindu",
-          "source_url": "https://www.thehindu.com",
-          "title": "Human-animal conflict in Keralam: Compensation for victims likely to be revised - The Hindu",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPRUVKb0l3QXBmaDRYdnlLSDVYRnFkUktTZ3pqRGFjelM4X09FaGdXUHNXdlZmRXA2Sm5GdlJhSENRX2RZS0VvZG1GeXZQV1AtRmJtLVZIUXJVQnZnQmxUYk1TaFhqWFQwRlNWUUliZXZYSzlFVG54MUNJODNBVzdUcEV6UDBDcGY5Ym8yblpRY3FPSlUybFRZUjFLVklaOEZ0MWwzckFYdm5vaFRlb1ktQk4weERWdDBtNVl0WnRMX1lQTkM5OWxOSlotb2Rpai1jMkptdm1QeHJBcVYt0gHjAUFVX3lxTFBFQ3M4TVd3QVplMjZReE9lWDFYdlFpNUNKVkI5ZHdGWTN5VmhnSElDcVVhbHNHdGpMSHM4NnVCZVZGYkJveGpqdXk5cUhmRW11bW5CZzZfTzJBcTNMLWxfRnBNN2RCam9zeWcxQWEzdkpjdTVpNXpYZ0lWenREdjJJSWdQQmNIeVJxY0N6WjJjNXdzb0VaMXAzWjhFYk0xTWgxbUpVdExydFlYVWR3bm9uRVVZaUJDWnRJY19sdG13b205M2JuUHE0MExWWWdmS0NBZnVoSXdtdmI2SmRtSXdVcU00?oc=5",
-          "published_at": "2026-09-24T07:00:00+00:00",
-          "snippet": "Human-animal conflict in Keralam: Compensation for victims likely to be revised The Hindu",
-          "lexical_overlap": 0.111,
-          "relevance": 0.181,
-          "matched_terms": [
-            "conflict",
-            "human-animal"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "conflict",
-            "human-animal"
           ]
         }
       ],
@@ -43447,7 +43267,7 @@
     },
     {
       "id": "0764c49dce738dbbee",
-      "checked_at": "2026-10-27T12:42:46.435174+00:00",
+      "checked_at": "2026-10-27T14:29:50.806326+00:00",
       "promise_id": "BJP-2019-18c0750d5ed71bc3d1",
       "year": 2019,
       "category": "agriculture",
@@ -43570,27 +43390,26 @@
           ]
         },
         {
-          "id": "531ed5a861c168b322",
+          "id": "1af39614098ce2c5d1",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Outlook India",
-          "source_url": "https://www.outlookindia.com",
-          "title": "Farmer Producer Organization Scheme A Path To Farmers’ Prosperity - Outlook India",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMVpLQmxEZW5udS1scVRES3BVcEduZnhJaEdLcU1HY2hKWndwZ0g1dWpIRl9PRHdPaVQ5c2RFaV9PTVZ6akw3NGpnYjNudkwxaEJuOG81VlFJdVZ1emkzbTN0NXFlMHpnRlhqZHlTcFhjd21Ba1cxQWtoOVBGVTBkUy05bjFqSkhKOEI0SFhHeG9YSjQwT3lfNVNwNWRKVjN2Wl9rSEgyQWlXY1BCbzVMQll2eUNGMkZm0gHGAUFVX3lxTE16WE9xMW1VUnQzRmR2VGd0OWFPX2Q1RFN4S3ZWd2duMXBOdExXeWlzSXByV05JNmE5WWEzZnFBb1hzOFduZ0R5OXhsZko1N1JhclpXNlpVQ21QZFR0THFTdkVCc1B3ZHBJRFFWMU8wTzlOMDNOTjcxQVVNOWFsT3A2RXc0NzdYX3dBaFBmV0hsSlhsc2YxdWlhMHE2SFM5RTc4TU9xRGhTeWtWUW1wV3IwZ1hiTkJtQU1ZN3RVcUlZeDFXMlM4Zw?oc=5",
-          "published_at": "2024-01-16T08:00:00+00:00",
-          "snippet": "Farmer Producer Organization Scheme A Path To Farmers’ Prosperity Outlook India",
-          "lexical_overlap": 0.176,
-          "relevance": 0.281,
+          "source": "YourStory.com",
+          "source_url": "https://yourstory.com",
+          "title": "Flipkart signs MoU with SERP to enable market access, growth for FPOs, SHGs in Telangana - YourStory.com",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdGxJNXQ4NFR1ZldsQi1veEx3MUEzLW1keWV6d0kySm5zd0pVVVZrUnZiLWhQQlhTWkFfLUJvVVp2aFFNQzBZMGg2a0M2SWxSQUpEZFRsWDJUblpsb21JTDNiTVJ4OE8ycHplcVJyZlV3Z3pmTzhRZUhZN1VqQzVlUDFaNVQ1a21PSld0T093?oc=5",
+          "published_at": "2022-06-25T07:00:00+00:00",
+          "snippet": "Flipkart signs MoU with SERP to enable market access, growth for FPOs, SHGs in Telangana YourStory.com",
+          "lexical_overlap": 0.136,
+          "relevance": 0.241,
           "matched_terms": [
-            "farmer",
-            "farmers",
-            "producer"
+            "access",
+            "enable",
+            "fpos"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "farmer",
-            "farmers",
-            "producer"
+            "access",
+            "fpos"
           ]
         },
         {
@@ -43613,6 +43432,50 @@
           ],
           "promise_core_overlap": [
             "farmers"
+          ]
+        },
+        {
+          "id": "f3259ba28f1eed4040",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Krishi Jagran",
+          "source_url": "https://krishijagran.com",
+          "title": "10,000 FPOs Scheme will Bring a Revolutionary Change in Agri Sector: Narendra Tomar - Krishi Jagran",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaHJFOHRKWnJlcGNwRGQxUlplWDJLZFRhMzY0NkxqNFR6N3VPYk9qR1huWlE3R1E1T1JKTHdZalVQSkRBRUk1WXZOVUpUSzY4SVJ2dlcxMWhsQVc5YXdYRlRaeHBEeVp5cjMtU0hJeGJEOHY1Si1lQXhENFpLV2hFZG0tVVl0YUtLRUpMUllKa0tpR0R6WVZNY3NtOWwzNGJSbjlBVEtyTFZ0V2cwbnh5OXI0UC1JeEx6TWN6VHlHQW5DX3Ju0gHMAUFVX3lxTE1KWDRrUU1ZcFJMdzZOOU85UVY5RHAzLWE5YV9SdFhrbUs2b2F6SHVUb2UwZFR1RDNhbFdGX1o2aXp2UDN0YW90NFNReXR4RHlWbTY0T0FPbGdQNlVFdHN6MFpNdm5CMTlxN3dZUmtKQjlrR3JLbUY4VU9nWG03X25qVkVCWWtkUHkxRVFQUXNZSlY0S1BzNHNpMzY0WG4xR2lMX1g1WjY2YVFjM293ZXljTGNhckNaSHZlVDBBZ3ZqOFlacE5lQ0RtTlZ5TA?oc=5",
+          "published_at": "2022-04-22T07:00:00+00:00",
+          "snippet": "10,000 FPOs Scheme will Bring a Revolutionary Change in Agri Sector: Narendra Tomar Krishi Jagran",
+          "lexical_overlap": 0.048,
+          "relevance": 0.193,
+          "matched_terms": [
+            "fpos"
+          ],
+          "shared_numbers": [
+            "10000"
+          ],
+          "promise_core_overlap": [
+            "fpos"
+          ]
+        },
+        {
+          "id": "34c66c9ca7d95b9063",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Agriculture Post",
+          "source_url": "https://agriculturepost.com",
+          "title": "Every block in India to have one farmer producer organisation: MoS Agriculture - Agriculture Post",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPRzhVZmdmNUZVNGU3WVJ0eWxtZWgtdG51eEFlSnRnTlVZQUQxeS10dHp0T1ZmNVlyS0I3OVFKMnU2N3pPUnByMzU0MjgtV2k4TGdSemFCaU9pajdlelBwb0RHMTFUczhxTUhHellCcTBZbDlXQjR4bGRBSnI1N3hTb21DTGEyX2YyaUJSSUJoamhDSVZDcXZsM0E4V24zR0ZfZF9lc2VuMGtuXzZJSzFwaUpzRU53cmZRc3VRdmduSU9GUHJUWjVXcThxVlhWSkJMSzZRU3AzZWhpUDFMX0RxdVY4dw?oc=5",
+          "published_at": "2022-03-16T07:00:00+00:00",
+          "snippet": "Every block in India to have one farmer producer organisation: MoS Agriculture Agriculture Post",
+          "lexical_overlap": 0.1,
+          "relevance": 0.17,
+          "matched_terms": [
+            "farmer",
+            "producer"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "farmer",
+            "producer"
           ]
         },
         {
@@ -44932,7 +44795,7 @@
     },
     {
       "id": "f5811520c1d5623f19",
-      "checked_at": "2026-10-27T12:42:48.043387+00:00",
+      "checked_at": "2026-10-27T14:29:52.732644+00:00",
       "promise_id": "BJP-2019-1d3e95fa9344e842f3",
       "year": 2019,
       "category": "infrastructure",
@@ -45053,7 +44916,7 @@
     },
     {
       "id": "92d6920a15fb42f812",
-      "checked_at": "2026-10-27T12:43:03.824409+00:00",
+      "checked_at": "2026-10-27T14:30:11.606961+00:00",
       "promise_id": "BJP-2019-6abf03adda773fec98",
       "year": 2019,
       "category": "governance",
@@ -48485,7 +48348,7 @@
     },
     {
       "id": "1e0abc9f94016f3c7a",
-      "checked_at": "2026-10-27T12:42:49.434571+00:00",
+      "checked_at": "2026-10-27T14:29:54.353664+00:00",
       "promise_id": "BJP-2019-2af396deaf778cac73",
       "year": 2019,
       "category": "infrastructure",
@@ -48570,7 +48433,7 @@
     },
     {
       "id": "4af70c5cc4e5dd31ea",
-      "checked_at": "2026-10-27T12:42:54.977987+00:00",
+      "checked_at": "2026-10-27T14:30:00.845129+00:00",
       "promise_id": "BJP-2019-34c03859f07f1329c5",
       "year": 2019,
       "category": "infrastructure",
@@ -48708,6 +48571,30 @@
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
+            "dedicated",
+            "freight"
+          ]
+        },
+        {
+          "id": "36151813d5768670f4",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "IMPRI Impact and Policy Research Institute",
+          "source_url": "https://www.impriindia.com",
+          "title": "Dedicated Freight Corridor: What A Decade Of Rail Investment Achieved - IMPRI Impact and Policy Research Institute",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOTUpYVnJZMFppdTNaZE13Qm9Xajhxc290akloNklFbEpkTGtCdDZCblV6X0dCejczZlpaVTB1SmRaS1AwZGlSOFJXalpnRlVEcEoxSGt0bTVxQWc0X3JkOHhGQjg2c2RwNkxkcTlfeWpxQ2dfN1AyM09iNzU3Y0ctNlhtczJselRxSmJKMGtkX3Vpdm1WeVYtZWp5b3JuSWtMRXBiX2U0N2RNQU1mRWlRUUNfeS1uSnY1N2ppTlRlM0dRYzVCeDRETkYwaTVsYXF2SGdhaHRPWWpTcGVmOUExVUdQOEpEbHFhYXFIbTB1WTV2XzA5dEdOVC0yQmJTUVE?oc=5",
+          "published_at": "2026-08-09T07:00:00+00:00",
+          "snippet": "Dedicated Freight Corridor: What A Decade Of Rail Investment Achieved IMPRI Impact and Policy Research Institute",
+          "lexical_overlap": 0.176,
+          "relevance": 0.281,
+          "matched_terms": [
+            "corridor",
+            "dedicated",
+            "freight"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "corridor",
             "dedicated",
             "freight"
           ]
@@ -50849,7 +50736,7 @@
     },
     {
       "id": "93bb9754ab7125c8f1",
-      "checked_at": "2026-10-27T12:42:59.415054+00:00",
+      "checked_at": "2026-10-27T14:30:06.453308+00:00",
       "promise_id": "BJP-2019-6013bbae5c9fbd8c5a",
       "year": 2019,
       "category": "women_social_justice",
@@ -50913,7 +50800,7 @@
     },
     {
       "id": "1d1782ad81aa54afcd",
-      "checked_at": "2026-10-27T12:43:01.336179+00:00",
+      "checked_at": "2026-10-27T14:30:08.729270+00:00",
       "promise_id": "BJP-2019-63e2ccda189fa85e2c",
       "year": 2019,
       "category": "health_welfare",
@@ -55988,7 +55875,7 @@
     },
     {
       "id": "21c782a6ad2ecb8987",
-      "checked_at": "2026-10-27T12:42:52.158197+00:00",
+      "checked_at": "2026-10-27T14:29:57.552356+00:00",
       "promise_id": "BJP-2019-2cfa1375f165d41707",
       "year": 2019,
       "category": "other",
@@ -57393,7 +57280,7 @@
     },
     {
       "id": "09db92a7679f9e887b",
-      "checked_at": "2026-10-27T12:42:56.989216+00:00",
+      "checked_at": "2026-10-27T14:30:03.218615+00:00",
       "promise_id": "BJP-2019-4fc8289de8caed52ff",
       "year": 2019,
       "category": "other",
@@ -63088,7 +62975,7 @@
     },
     {
       "id": "df076e7dea8ba67624",
-      "checked_at": "2026-10-27T12:43:05.969600+00:00",
+      "checked_at": "2026-10-27T14:30:14.234643+00:00",
       "promise_id": "BJP-2014-078252941779345656",
       "year": 2014,
       "category": "women_social_justice",
