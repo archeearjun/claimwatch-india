@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T22:54:46.358706+00:00",
+  "generated_at": "2026-10-28T23:14:36.060350+00:00",
   "capabilities": {
     "official_evidence_search": true,
     "verified_primary_gate": true,
@@ -16,7 +16,7 @@
     "promise_checked_this_run": 30,
     "promise_total_candidates": 841,
     "promise_coverage_pct": 101.3,
-    "primary_candidates": 557,
+    "primary_candidates": 558,
     "secondary_candidates": 1040,
     "prior_fact_checks": 0,
     "publishable_auto_verdicts": 0,
@@ -29,11 +29,11 @@
       "fulfilled_by_deadline": 0,
       "target_reached_evidence": 0,
       "proven_unfulfilled_by_deadline": 0,
-      "progress_documented": 11,
+      "progress_documented": 12,
       "deadline_passed_unresolved": 47,
       "deadline_not_reached": 13,
       "insufficient_evidence": 38,
-      "not_machine_measurable": 743,
+      "not_machine_measurable": 742,
       "audited_total": 852
     },
     "claim_memory": {
@@ -382,31 +382,11 @@
         "2014"
       ],
       "promise_matches": [],
-      "evidence": [
-        {
-          "id": "16024edfec0ea10a2d",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "BBC",
-          "source_url": "https://www.bbc.com",
-          "title": "Kevin Pietersen: Joe Root says England are 'very different' from 2014 - BBC",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1PZGU2QzhjTFllc1Q5TGNXMDh4ZU1ZZ21rRll1THpIcUFHdGNXSWdONnlqdThXRC1XWFZSY1BHTnBBczFKSjB4OHRFUE9YcDBpSU5nZ2NpVFpBSWFuZWxGUGJUVTg4Zw?oc=5",
-          "published_at": "2026-09-08T07:00:00+00:00",
-          "snippet": "Kevin Pietersen: Joe Root says England are 'very different' from 2014 BBC",
-          "lexical_overlap": 0.062,
-          "relevance": 0.208,
-          "matched_terms": [
-            "different"
-          ],
-          "shared_numbers": [
-            "2014"
-          ]
-        }
-      ],
+      "evidence": [],
       "fact_checks": [],
       "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -468,7 +448,26 @@
       "query": "frameworks built nation recent along ecosystem",
       "numbers": [],
       "promise_matches": [],
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "23915aaf989e67f10f",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "CSIS | Center for Strategic and International Studies",
+          "source_url": "https://www.csis.org",
+          "title": "Export Nation or Ecosystem Power: South Korea’s Choice in the AI Industrial Age - CSIS | Center for Strategic and International Studies",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZU5DblhJNmhFRG5vd0NrYXk2X3hEb1FlSk1rVnF4eFFiZGo1aWlTVmIyWGY5NUc2QUVpRWZIY054clppSU42eHdDWkZGUXVjcl9vb1Y1RWxTX3ppaDVCSGVNME9UOUpTTS16eE1HN0ZjejdHTS1tRlBkdlZiMEJmZG9JRVhVeFBIMENYT281YkJ5bkFEOHU2TlY1VzN4SEFBM0E?oc=5",
+          "published_at": "2026-07-07T07:00:00+00:00",
+          "snippet": "Export Nation or Ecosystem Power: South Korea’s Choice in the AI Industrial Age CSIS | Center for Strategic and International Studies",
+          "lexical_overlap": 0.08,
+          "relevance": 0.15,
+          "matched_terms": [
+            "ecosystem",
+            "nation"
+          ],
+          "shared_numbers": []
+        }
+      ],
       "fact_checks": [],
       "signal": {
         "level": "needs_research",
@@ -1067,7 +1066,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T22:53:55.260295+00:00",
+      "latest_checked_at": "2026-10-28T23:13:48.294661+00:00",
       "latest_claim_packet_id": "d4aab404e9ccc6ccf7"
     },
     {
@@ -1334,7 +1333,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T22:53:55.260342+00:00",
+      "latest_checked_at": "2026-10-28T23:13:48.294729+00:00",
       "latest_claim_packet_id": "884558fa72add4403d"
     },
     {
@@ -1424,13 +1423,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "reporting_found",
+      "evidence_state": "needs_research",
       "human_reviewed": false,
       "created_at": "2026-10-27T07:50:11.258438+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T22:53:55.260280+00:00",
+      "latest_checked_at": "2026-10-28T23:13:48.294629+00:00",
       "latest_claim_packet_id": "60ae96f665f22ef03b"
     },
     {
@@ -1478,7 +1477,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T22:53:55.260167+00:00",
+      "latest_checked_at": "2026-10-28T23:13:48.294500+00:00",
       "latest_claim_packet_id": "b8d4ab680299139905"
     },
     {
@@ -1550,7 +1549,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T22:53:55.260326+00:00",
+      "latest_checked_at": "2026-10-28T23:13:48.294713+00:00",
       "latest_claim_packet_id": "dac6e2327ebe0bd17a"
     },
     {
@@ -1766,7 +1765,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T22:53:55.260357+00:00",
+      "latest_checked_at": "2026-10-28T23:13:48.294746+00:00",
       "latest_claim_packet_id": "050ea98dd7879a06cd"
     },
     {
@@ -1958,7 +1957,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T22:53:55.260234+00:00",
+      "latest_checked_at": "2026-10-28T23:13:48.294581+00:00",
       "latest_claim_packet_id": "29371b53212e779eff"
     },
     {
@@ -2102,7 +2101,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T22:53:55.260203+00:00",
+      "latest_checked_at": "2026-10-28T23:13:48.294549+00:00",
       "latest_claim_packet_id": "b35543711de7918ea9"
     },
     {
@@ -2174,7 +2173,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T22:53:55.260220+00:00",
+      "latest_checked_at": "2026-10-28T23:13:48.294566+00:00",
       "latest_claim_packet_id": "ddb711a027259cf305"
     },
     {
@@ -2366,7 +2365,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T22:53:55.260381+00:00",
+      "latest_checked_at": "2026-10-28T23:13:48.294771+00:00",
       "latest_claim_packet_id": "5bb402465b7ccab062"
     },
     {
@@ -2510,7 +2509,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T22:53:55.260310+00:00",
+      "latest_checked_at": "2026-10-28T23:13:48.294693+00:00",
       "latest_claim_packet_id": "f5f9e7bb05cfa3199f"
     },
     {
@@ -2654,7 +2653,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T22:53:55.260369+00:00",
+      "latest_checked_at": "2026-10-28T23:13:48.294759+00:00",
       "latest_claim_packet_id": "00739b48a203bf3deb"
     },
     {
@@ -2798,7 +2797,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T22:53:55.260266+00:00",
+      "latest_checked_at": "2026-10-28T23:13:48.294614+00:00",
       "latest_claim_packet_id": "1d53d6d12eb863d5b2"
     },
     {
@@ -3041,7 +3040,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T22:53:55.260252+00:00",
+      "latest_checked_at": "2026-10-28T23:13:48.294600+00:00",
       "latest_claim_packet_id": "318b27cf844c2ade6a"
     },
     {
@@ -41441,7 +41440,7 @@
     },
     {
       "id": "f9b160c5ba9245033b",
-      "checked_at": "2026-10-27T05:40:01.420781+00:00",
+      "checked_at": "2026-10-28T23:14:13.965055+00:00",
       "promise_id": "BJP-2019-983d288d89149606cf",
       "year": 2019,
       "category": "security_defence",
@@ -41667,7 +41666,7 @@
     },
     {
       "id": "9d4ac875faf615fdc6",
-      "checked_at": "2026-10-25T12:04:10.836055+00:00",
+      "checked_at": "2026-10-28T23:14:34.002261+00:00",
       "promise_id": "BJP-2019-c5c0f75f017b1d1a64",
       "year": 2019,
       "category": "other",
@@ -42803,7 +42802,7 @@
     },
     {
       "id": "88268e92a84242ac7b",
-      "checked_at": "2026-10-27T05:40:11.368424+00:00",
+      "checked_at": "2026-10-28T23:14:23.456793+00:00",
       "promise_id": "BJP-2019-bcbc859e28d7443db7",
       "year": 2019,
       "category": "agriculture",
@@ -43307,7 +43306,7 @@
     },
     {
       "id": "0764c49dce738dbbee",
-      "checked_at": "2026-10-28T22:53:57.326015+00:00",
+      "checked_at": "2026-10-28T23:13:50.670902+00:00",
       "promise_id": "BJP-2019-18c0750d5ed71bc3d1",
       "year": 2019,
       "category": "agriculture",
@@ -43357,6 +43356,30 @@
           "promise_core_overlap": [
             "farmer",
             "fpos",
+            "organisations",
+            "producer"
+          ]
+        },
+        {
+          "id": "6dba73a6b672f68e0e",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "Ministry of Food Processing Industries",
+          "source_url": "https://www.mofpi.gov.in",
+          "title": "FARMER PRODUCER ORGANISATIONS POLICY & PROCESS GUIDELINES FOR - Ministry of Food Processing Industries",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNemRUS3BtTVBEWTdvNW13TEt4RVNGT05vRllBUmpUR1huVnJzdEp4NUFaNzN3Tk41ajVwcUtXVEU0N3owdWlqYkVDUlduUXdsRU43WmpnOFBDSDVOd21TZTJmM3Ita29WNVJTVTJGYlE4a2ZfWkQyZFRLSFJoOUZuWFYtY0ZfVmpaNkVOQ1AxVWVNYVBkTGc?oc=5",
+          "published_at": "2021-12-22T16:16:57+00:00",
+          "snippet": "FARMER PRODUCER ORGANISATIONS POLICY & PROCESS GUIDELINES FOR Ministry of Food Processing Industries",
+          "lexical_overlap": 0.158,
+          "relevance": 0.313,
+          "matched_terms": [
+            "farmer",
+            "organisations",
+            "producer"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "farmer",
             "organisations",
             "producer"
           ]
@@ -43430,6 +43453,54 @@
           ]
         },
         {
+          "id": "54db8b8e142dc04bc2",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "India Education Diary",
+          "source_url": "https://indiaeducationdiary.in",
+          "title": "Flipkart signs MoU with Society for Elimination of Rural Poverty (SERP) to enable market access & growth for Farmer Producers Organisations and Self-Help Groups in Telangana - India Education Diary",
+          "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxOT09PS3ZNTnB3al9RSUpZTllCWk43M1R5Y2JXMVRFbzhPYWF2ZVN2eUVxMWphWHNCLXZ6TDhxMG9wR2pfZWRkeTNrTjlxQmFkOVNaX1htcEZJQkR5NXd0bTBRMkwxUWU2REU0QU9KVk1QMm56TlBUWk81SzN4eVhQbV9RYmF4d29nNDJwU2hTbDl1NWY2LU9XVjlrdTFDU0ZIVGdGSTVqNlBLamFXSERDQk9zZ0o5TEtqRk93VHhrbDV5azZDMlk3UWg2T1EtYWFTZDZfYllabkVLM3k2ZGxoS2ltdmpXYW1GQUh5R1J5NFlKbUx5eG0weXhWOWN4d09DZjA2cmV6TlpjSkJpREcyNnM0SXRLRnBGeVNsOVdldlE4ckMwRmtsSA?oc=5",
+          "published_at": "2022-06-26T07:00:00+00:00",
+          "snippet": "Flipkart signs MoU with Society for Elimination of Rural Poverty (SERP) to enable market access & growth for Farmer Producers Organisations and Self-Help Groups in Telangana India Education Diary",
+          "lexical_overlap": 0.167,
+          "relevance": 0.307,
+          "matched_terms": [
+            "access",
+            "enable",
+            "farmer",
+            "organisations"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "access",
+            "farmer",
+            "organisations"
+          ]
+        },
+        {
+          "id": "1af39614098ce2c5d1",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "YourStory.com",
+          "source_url": "https://yourstory.com",
+          "title": "Flipkart signs MoU with SERP to enable market access, growth for FPOs, SHGs in Telangana - YourStory.com",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdGxJNXQ4NFR1ZldsQi1veEx3MUEzLW1keWV6d0kySm5zd0pVVVZrUnZiLWhQQlhTWkFfLUJvVVp2aFFNQzBZMGg2a0M2SWxSQUpEZFRsWDJUblpsb21JTDNiTVJ4OE8ycHplcVJyZlV3Z3pmTzhRZUhZN1VqQzVlUDFaNVQ1a21PSld0T093?oc=5",
+          "published_at": "2022-06-25T07:00:00+00:00",
+          "snippet": "Flipkart signs MoU with SERP to enable market access, growth for FPOs, SHGs in Telangana YourStory.com",
+          "lexical_overlap": 0.136,
+          "relevance": 0.241,
+          "matched_terms": [
+            "access",
+            "enable",
+            "fpos"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "access",
+            "fpos"
+          ]
+        },
+        {
           "id": "634c286094b85d4f4a",
           "scope": "news_search",
           "tier": "secondary",
@@ -43449,6 +43520,28 @@
           ],
           "promise_core_overlap": [
             "farmers"
+          ]
+        },
+        {
+          "id": "34c66c9ca7d95b9063",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Agriculture Post",
+          "source_url": "https://agriculturepost.com",
+          "title": "Every block in India to have one farmer producer organisation: MoS Agriculture - Agriculture Post",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPRzhVZmdmNUZVNGU3WVJ0eWxtZWgtdG51eEFlSnRnTlVZQUQxeS10dHp0T1ZmNVlyS0I3OVFKMnU2N3pPUnByMzU0MjgtV2k4TGdSemFCaU9pajdlelBwb0RHMTFUczhxTUhHellCcTBZbDlXQjR4bGRBSnI1N3hTb21DTGEyX2YyaUJSSUJoamhDSVZDcXZsM0E4V24zR0ZfZF9lc2VuMGtuXzZJSzFwaUpzRU53cmZRc3VRdmduSU9GUHJUWjVXcThxVlhWSkJMSzZRU3AzZWhpUDFMX0RxdVY4dw?oc=5",
+          "published_at": "2022-03-16T07:00:00+00:00",
+          "snippet": "Every block in India to have one farmer producer organisation: MoS Agriculture Agriculture Post",
+          "lexical_overlap": 0.1,
+          "relevance": 0.17,
+          "matched_terms": [
+            "farmer",
+            "producer"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "farmer",
+            "producer"
           ]
         },
         {
@@ -43472,31 +43565,9 @@
             "farmers",
             "fpos"
           ]
-        },
-        {
-          "id": "07618ce32d181ef2b4",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Down To Earth",
-          "source_url": "https://www.downtoearth.org.in",
-          "title": "Heavy sway: Big corporations with power over farmer producer companies is diluting their purpose - Down To Earth",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOWmdHYVFuUlNEdnBBcDJhQ3BGWVRxVUkzWlZOY2NEeGNfVDZVTk1sa2JrOFZSbjF2dDEtSUFKcEhUY3VoZG42UEJhd3J5OUZsUVlrTDcyOUhtRHp6VGZCdUZfUW5nalpsTUtsRGFKZlIydjRwZjFidlo0VUtsQURoX1M5eHdQVXJJMHYtMDQwSGgwS1EzUURwdXZnenJYRnBGdTNWbUNhYVk2OXBIYUZTSDQ1QXo4bDNZamxZYjh1WkNDR0dMZmtUdGtuUVYwRC1qa0x3aXZiSEhFZFnSAegBQVVfeXFMUGd5TTgtUGhRNjRpd3JWb2d1RTZjX1pMR3lvYko1dDRZWUxDUTFaZjNYQWRDSzdrUC1FdmF2WE9oM3RUME56RGxUd3JJaGh0VnA5elRnTWNsaUEzbzU4TFE1UEt0Ylh2TldvS20yOXdfZHVDOFluMlJCbkR2N0tveWhYaUNqVGJRTGs0WG5WQjdjU3RFR1NTcF90RllEVUM0RnhtTDAzQlF5OTRrb3A0MEJMdDhfUUEwbGdKNXpsZmE4clJ5MlFJNUVvbV9KNUIxQUNQdGpYQ0tvNWR2cnExMnptdFhld3ZsVA?oc=5",
-          "published_at": "2023-04-20T07:00:00+00:00",
-          "snippet": "Heavy sway: Big corporations with power over farmer producer companies is diluting their purpose Down To Earth",
-          "lexical_overlap": 0.091,
-          "relevance": 0.161,
-          "matched_terms": [
-            "farmer",
-            "producer"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "farmer",
-            "producer"
-          ]
         }
       ],
-      "implementation_signal": "current_primary_evidence_found",
+      "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -44723,7 +44794,7 @@
     },
     {
       "id": "f5811520c1d5623f19",
-      "checked_at": "2026-10-28T22:53:59.320786+00:00",
+      "checked_at": "2026-10-28T23:13:52.857021+00:00",
       "promise_id": "BJP-2019-1d3e95fa9344e842f3",
       "year": 2019,
       "category": "infrastructure",
@@ -44844,7 +44915,7 @@
     },
     {
       "id": "92d6920a15fb42f812",
-      "checked_at": "2026-10-28T22:54:18.331355+00:00",
+      "checked_at": "2026-10-28T23:14:09.247978+00:00",
       "promise_id": "BJP-2019-6abf03adda773fec98",
       "year": 2019,
       "category": "governance",
@@ -45013,7 +45084,7 @@
     },
     {
       "id": "23a0efdb460017ae64",
-      "checked_at": "2026-10-27T05:40:00.750470+00:00",
+      "checked_at": "2026-10-28T23:14:13.290414+00:00",
       "promise_id": "BJP-2019-938a7fc15c48c17563",
       "year": 2019,
       "category": "agriculture",
@@ -45038,17 +45109,17 @@
       "query": "rural centres launch massive road upgradation",
       "evidence": [
         {
-          "id": "549dd334c5ce70a7a1",
+          "id": "95acf150238a08cd34",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Council on Foreign Relations",
-          "source_url": "https://www.cfr.org",
-          "title": "China’s Massive Belt and Road Initiative - Council on Foreign Relations",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ZUTlYOFNwZjhoQXI1ZzY2MjZYZ3c5RVBCSi1kUjZZX0doQXJvTUNZZWxUVHZHUkZ4U1BXcTBETDRGRi15SzFGQzlyMnpFbnlBYnExcTN4SmVLaUlVSkRFUW1FdjNxb3FJNGgtSW85SVltdG9VWWZ1djA5OFNEUQ?oc=5",
-          "published_at": "2023-02-02T08:00:00+00:00",
-          "snippet": "China’s Massive Belt and Road Initiative Council on Foreign Relations",
-          "lexical_overlap": 0.111,
-          "relevance": 0.181,
+          "source": "Rozana Spokesman",
+          "source_url": "https://www.rozanaspokesman.com",
+          "title": "Punjab Rolls Out Massive Road Network Upgrade, 650 km Projects Launched in Fazilka - Rozana Spokesman",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNkFnejFfZF91dGJQMjZtQmVzaERKTVBERjBxTUNaZXhyOFlvYUZuc1FjU19fWS1XdHRiV3FoY0RIMUxFelhfY3lGaURCaE1mV0lqTkhkMkpnU1VBMzVFM2VqOU1Lc3ZyVlpYcWpUUUVRYTBFUEpSZlZ1dlo0QmoxeVc1WjE5UTh3Uzk1UEQybW4tbDVnNTEyTHAzMTlvRE5hS2Z6bVdXaEVVUG5jTG1ZSGlCaTRHczVodGZOMDIzZHNFSlnSAcgBQVVfeXFMUHBEaE5meHFMQzU5VjV1Y1g1QmU4TzFnTHR6cXRsQi12cVJyOTZxRzZadUpkaFNyNG9XbTFHaUt1bTJ6WTN3dHVKdmU5NVRScUlPVHFWVkdpRGtOWnNncUprTU9qdWJBV29WcnUwTmpzQ3ZidzZnLWFxOGllNVdtT2ZRc1JsWHJ3TWdKUmtKZFNJNTBCQjhfc0w4a1dPY3RocGl1dkR5cHUxRHNNYnE1ZEhMMHJEaVBLWVpnWXpkSnVwSlhWR3ptdnc?oc=5",
+          "published_at": "2026-04-21T07:00:00+00:00",
+          "snippet": "Punjab Rolls Out Massive Road Network Upgrade, 650 km Projects Launched in Fazilka Rozana Spokesman",
+          "lexical_overlap": 0.087,
+          "relevance": 0.157,
           "matched_terms": [
             "massive",
             "road"
@@ -45057,6 +45128,28 @@
           "promise_core_overlap": [
             "massive",
             "road"
+          ]
+        },
+        {
+          "id": "ad361b792ac1edf6ba",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Kansas City Star",
+          "source_url": "https://www.kansascity.com",
+          "title": "Developer unveils plan for massive performing arts district in rural Johnson County - Kansas City Star",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQaG5aUG1ybnZNeGtrcDRzQ0NhQVA4R3M0X3pEaEV1RE45ZktTLVRkUjNDT3YwMWhTMjFBQnBqek5zbTBOZHdFSDRVdDYtbzYxXzBSbmJlbERrM3RuR0xneWdTS194MG03a2pVZEZrTldHT3hZNU5kVHAzT3pqcDFUWjk0clpiWF8tV01QUtIBjAFBVV95cUxOMHhpN0tmSWtDVmNjZm5JbkdsdHAwYmt4N1UxWXRvNjRQVV9paW44bVR3ODlJNEVNeDVxT2JQZ214Q2xyaFpMYmYtVHNKY1dGNFk2LVBEeHppaVlEc2xvNGxmWFdpWHNudkpQUGNhZjIwSlczLVNXU0JpOFNKMUsyTzZvMzlpemFPRFBhdA?oc=5",
+          "published_at": "2026-08-06T07:00:00+00:00",
+          "snippet": "Developer unveils plan for massive performing arts district in rural Johnson County Kansas City Star",
+          "lexical_overlap": 0.087,
+          "relevance": 0.157,
+          "matched_terms": [
+            "massive",
+            "rural"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "massive",
+            "rural"
           ]
         }
       ],
@@ -45756,7 +45849,7 @@
     },
     {
       "id": "82a69583465c4a8d5c",
-      "checked_at": "2026-10-25T12:04:01.901168+00:00",
+      "checked_at": "2026-10-28T23:14:24.951313+00:00",
       "promise_id": "BJP-2019-bea7d061b023e30efb",
       "year": 2019,
       "category": "jobs_economy",
@@ -45781,74 +45874,72 @@
       "query": "companies act public procurement incentives used",
       "evidence": [
         {
-          "id": "bbc487691c54d0a5e0",
+          "id": "89816cdcdadd643670",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "Government of Rajasthan",
+          "source_url": "https://finance.rajasthan.gov.in",
+          "title": "PUBLIC PROCUREMENT - Government of Rajasthan",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1UVlhmVXYzd2JlUXlkV1FQY1duS0FIRTBMV0RUYmVpZF80UnFmWFp1Y3RJalE0M1cyRHJoR3RqWHFIT3JQM0ZLV1haNHRKUWpibFU0VFhTcU1KMlk3Yks0ekxnS2w?oc=5",
+          "published_at": "2022-10-20T07:00:00+00:00",
+          "snippet": "PUBLIC PROCUREMENT Government of Rajasthan",
+          "lexical_overlap": 0.154,
+          "relevance": 0.274,
+          "matched_terms": [
+            "procurement",
+            "public"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "procurement",
+            "public"
+          ]
+        },
+        {
+          "id": "f122d591b4eb2fb813",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "Startup Telangana",
+          "source_url": "https://startup.telangana.gov.in",
+          "title": "Public Procurement - Startup Telangana",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1uREdVU0R3MUZHY3ZrdWZ5YVdmSnloWm9relh3QnFrLTlsN0dtRmN5bnJTd2MtbFpCR3cxUEFVTTNwNjBjZG5WOUZJd2pmOXBzN3lSN0hlSHktbGxsaE9CbUdn?oc=5",
+          "published_at": "2021-02-18T10:49:19+00:00",
+          "snippet": "Public Procurement Startup Telangana",
+          "lexical_overlap": 0.143,
+          "relevance": 0.263,
+          "matched_terms": [
+            "procurement",
+            "public"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "procurement",
+            "public"
+          ]
+        },
+        {
+          "id": "daeca6e42a7b10b6f2",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "EUbusiness.com",
-          "source_url": "https://www.eubusiness.com",
-          "title": "The Public Procurement Act must facilitate SME participation - EUbusiness.com",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOV2hHOWxxZ3pXQzVrQzVHYmJhVnI3RXQ5UW9QWXVmdi16cmhQUkpRdzZFRzVReWRsNnZneUdleDhHTWhkRUFIS2s3TkVkZVo1WnZrbmxVQ0JvTmQ4WS1oUGZMbXI3QzJ2X285TDlmbXZOTzlVdFoyMHJpTkE5dFVNWk4tWkYyYUMzRzlfNmdwNmNIZw?oc=5",
-          "published_at": "2026-09-09T07:00:00+00:00",
-          "snippet": "The Public Procurement Act must facilitate SME participation EUbusiness.com",
-          "lexical_overlap": 0.167,
-          "relevance": 0.272,
+          "source": "Clyde & Co",
+          "source_url": "https://www.clydeco.com",
+          "title": "Tanzania Public Private Partnership Act amendments - Clyde & Co",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAxbmdvZWJad2Y4dktOcG43Ukxyd0VlYVZLdDNNb0lNOFM2UVc4ZDVkOVRKbEhQS1M4eW5maU1xb2VzNFFWVko1SzBDeVFGYlQ2a3QzVFNScU5iVkM1eER6VTI1dnQzQWc0a0sxYUEzblBKMExEdUNZM20ycw?oc=5",
+          "published_at": "2023-07-25T07:00:00+00:00",
+          "snippet": "Tanzania Public Private Partnership Act amendments Clyde & Co",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
           "matched_terms": [
             "act",
-            "procurement",
             "public"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "procurement",
-            "public"
-          ]
-        },
-        {
-          "id": "aafc733d52a36ff98b",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "PRSIndia",
-          "source_url": "https://prsindia.org",
-          "title": "MSP and Public Procurement - PRSIndia",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcHRWcFJ5c25URWJ0TDJlVDdlYTNnU0ExYXMwU0ZTTmZNWnREeGFtV0s0YW1FUXJyRnlweFE5dW1nSzFIeng1U3FLRnhRZld5dVh0UGpnQnQzamt4ekJDN2h1cmRWdDRCSWVGMHpnU3U0TDhFTVk4S0U0LWJqSDM1Q1hidkk?oc=5",
-          "published_at": "2020-12-09T08:00:00+00:00",
-          "snippet": "MSP and Public Procurement PRSIndia",
-          "lexical_overlap": 0.143,
-          "relevance": 0.213,
-          "matched_terms": [
-            "procurement",
-            "public"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "procurement",
-            "public"
-          ]
-        },
-        {
-          "id": "d012757c1ff8817665",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "디지털투데이",
-          "source_url": "https://www.digitaltoday.co.kr",
-          "title": "Korea to lower public procurement barriers for AI products, support fees for vulnerable groups - 디지털투데이",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVzEzNG5tSHZEZEFKRlUxZ24xN1JTUTluN041WGNRdjVkS04tbEhwN1hZU3NuLXFPbXY0SS11S0F4X1N5REtVT1VGMlZ5dnNGcVNVb2NxQnl0YkJwaDhIa24tM2ZxSlhPbTJBYWpxSHUxeDhCcm5FNEdHT2NyRXc4SUFfcktkOHBYQVY4UjZxTlJtZkhvWXhJM2JtZWJrdXIxRV9GaUJKQ3VjYWF5bXgyR3lVV1JHUFBTMWZvUWF2X1FVV1NWLV9CQ2NCNWRXekhLS3BaTg?oc=5",
-          "published_at": "2026-07-14T07:00:00+00:00",
-          "snippet": "Korea to lower public procurement barriers for AI products, support fees for vulnerable groups 디지털투데이",
-          "lexical_overlap": 0.091,
-          "relevance": 0.161,
-          "matched_terms": [
-            "procurement",
-            "public"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "procurement",
             "public"
           ]
         }
       ],
-      "implementation_signal": "current_reporting_found",
+      "implementation_signal": "current_primary_evidence_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -47226,7 +47317,7 @@
     },
     {
       "id": "a0a4badfaa01f47d5e",
-      "checked_at": "2026-10-27T05:40:05.273087+00:00",
+      "checked_at": "2026-10-28T23:14:17.272146+00:00",
       "promise_id": "BJP-2019-9dd177ac1382fff853",
       "year": 2019,
       "category": "infrastructure",
@@ -48260,7 +48351,7 @@
     },
     {
       "id": "1e0abc9f94016f3c7a",
-      "checked_at": "2026-10-28T22:54:00.796926+00:00",
+      "checked_at": "2026-10-28T23:13:54.327246+00:00",
       "promise_id": "BJP-2019-2af396deaf778cac73",
       "year": 2019,
       "category": "infrastructure",
@@ -48345,7 +48436,7 @@
     },
     {
       "id": "4af70c5cc4e5dd31ea",
-      "checked_at": "2026-10-28T22:54:06.738133+00:00",
+      "checked_at": "2026-10-28T23:14:00.292666+00:00",
       "promise_id": "BJP-2019-34c03859f07f1329c5",
       "year": 2019,
       "category": "infrastructure",
@@ -48418,15 +48509,15 @@
           ]
         },
         {
-          "id": "3ca72531dcd6516972",
+          "id": "b1ffee8e6f47df9c63",
           "scope": "news_search",
           "tier": "secondary",
           "source": "Urban Acres",
           "source_url": "https://urbanacres.in",
-          "title": "Dedicated Freight Corridor Network Now Fully Operational - Urban Acres",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNT1RGZ3paMlFlUGpFRmRqekp3ZVNJaE11SFRCVDl3UGl2YXZOY3d3VUpDM3BuWnljRlMwXzhiWThEdDBaNzZpY3ZCaGQ1VzlYVzMyOWxfTm91em5fdFhkRGxjOGhZbmFMYnJBVWJ3ZlZkSXNDMHNkd2RGai1ZMThUczRzdnZNRTZ3UlJXT21Ka0hoOERjdVE?oc=5",
-          "published_at": "2026-09-08T07:00:00+00:00",
-          "snippet": "Dedicated Freight Corridor Network Now Fully Operational Urban Acres",
+          "title": "Dedicated Freight Corridor: India’s Rail Network Enters a New Phase - Urban Acres",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMk5QWk5iWGdfeTh1a2tqUTVBeHk4N0lPLXlyTkpMWWtsRDRldHZkUHFSQmQ0cUozUVgyR09MQV9od2dTTWFOY0dlNUFFeFNfY3ZPWmNZdVFYZWtsUW9pY0dqV3RxUjN6TjUwaS10MU5CWEs0ZUJ6R0dsWkxrX3J3a2N2bEFhN2JCNEdBZTZBdExydw?oc=5",
+          "published_at": "2026-09-14T07:00:00+00:00",
+          "snippet": "Dedicated Freight Corridor: India’s Rail Network Enters a New Phase Urban Acres",
           "lexical_overlap": 0.231,
           "relevance": 0.336,
           "matched_terms": [
@@ -48545,28 +48636,6 @@
           "snippet": "Dedicated Freight Corridors Strengthen India’s Logistics Network https://www.usthadian.com/",
           "lexical_overlap": 0.133,
           "relevance": 0.203,
-          "matched_terms": [
-            "dedicated",
-            "freight"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "dedicated",
-            "freight"
-          ]
-        },
-        {
-          "id": "94f0d80ee7b7908961",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Vajiram & Ravi",
-          "source_url": "https://vajiramandravi.com",
-          "title": "Dedicated Freight Corridors, How They Cut Transit Time and Boost Rail Freight - Vajiram & Ravi",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5YNmx2WWxLTXRwU09nRzNtVEVfUkVKZ1dxZWNjZWhneHFNbWlLZXhnRjhxc1R3ZjQtSUt6NlhELXM0RU9oMVJZN1haTmVlM1VrWUxaUUxINE90a0dJaFR2NHJvOVMzRlFzNEZrcnpLdk44V1dQOE5vSi16UQ?oc=5",
-          "published_at": "2026-09-09T07:00:00+00:00",
-          "snippet": "Dedicated Freight Corridors, How They Cut Transit Time and Boost Rail Freight Vajiram & Ravi",
-          "lexical_overlap": 0.125,
-          "relevance": 0.195,
           "matched_terms": [
             "dedicated",
             "freight"
@@ -49839,7 +49908,7 @@
     },
     {
       "id": "bf24019c01f03c70a4",
-      "checked_at": "2026-10-27T05:40:07.892477+00:00",
+      "checked_at": "2026-10-28T23:14:19.973280+00:00",
       "promise_id": "BJP-2019-a726fbd9e246f71b4d",
       "year": 2019,
       "category": "infrastructure",
@@ -50583,7 +50652,7 @@
     },
     {
       "id": "93bb9754ab7125c8f1",
-      "checked_at": "2026-10-28T22:54:13.493141+00:00",
+      "checked_at": "2026-10-28T23:14:04.913186+00:00",
       "promise_id": "BJP-2019-6013bbae5c9fbd8c5a",
       "year": 2019,
       "category": "women_social_justice",
@@ -50647,7 +50716,7 @@
     },
     {
       "id": "1d1782ad81aa54afcd",
-      "checked_at": "2026-10-28T22:54:15.840136+00:00",
+      "checked_at": "2026-10-28T23:14:07.237853+00:00",
       "promise_id": "BJP-2019-63e2ccda189fa85e2c",
       "year": 2019,
       "category": "health_welfare",
@@ -50818,7 +50887,7 @@
     },
     {
       "id": "5ace8d8189e09d1b8b",
-      "checked_at": "2026-10-27T05:40:06.258430+00:00",
+      "checked_at": "2026-10-28T23:14:18.233726+00:00",
       "promise_id": "BJP-2019-a36685ff6f2e450d2d",
       "year": 2019,
       "category": "health_welfare",
@@ -50864,19 +50933,42 @@
             "health",
             "national"
           ]
+        },
+        {
+          "id": "e2c83d1a63260cbb4a",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Funds Allocated and Key Achievements made under National Health Mission - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8taGpEdHhKcU9VQnVVbG5lMGxuLUNabnYzd2RLalgzZVFvUmp6c2dndkhWbk5MOGZPYW9MZzBjY0tSczZHTldEa1pYUWhuQjJMRS15ZVVSRW50QjVIVlBXZzQ4bmZwT2w2?oc=5",
+          "published_at": "2021-12-17T08:00:00+00:00",
+          "snippet": "Funds Allocated and Key Achievements made under National Health Mission Press Information Bureau",
+          "lexical_overlap": 0.15,
+          "relevance": 0.305,
+          "matched_terms": [
+            "health",
+            "mission",
+            "national"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "health",
+            "national"
+          ]
         }
       ],
-      "implementation_signal": "current_primary_evidence_found",
+      "implementation_signal": "action_detected",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
       "outcome": {
-        "status": "not_machine_measurable",
+        "status": "progress_documented",
         "deadline_year": null,
-        "proof_strength": "none",
-        "proof_evidence_id": null,
+        "proof_strength": "verified_primary_action_with_object_overlap",
+        "proof_evidence_id": "3db6dabe85beb36824",
         "proof": null,
-        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
+        "reason": "Verified primary evidence overlaps the subject of the promise and documents implementation activity, but not the promised outcome."
       }
     },
     {
@@ -51296,7 +51388,7 @@
     },
     {
       "id": "11ff84816b0237b29f",
-      "checked_at": "2026-10-25T12:04:08.468124+00:00",
+      "checked_at": "2026-10-28T23:14:31.812892+00:00",
       "promise_id": "BJP-2019-c2a4c3caceb2f82a2f",
       "year": 2019,
       "category": "governance",
@@ -51319,29 +51411,7 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
       "query": "corruption-free transform developed nation need guiding",
-      "evidence": [
-        {
-          "id": "2db871c9ae4607ac8c",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Shri Piyush Goyal asks students to be inclusive in their thought process and keep the underprivileged citizens of the nation at the core of their work and innovation - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1vUUZWdEFpZ3lDVWN2RXhYYV9tRTRHM2tlenBkQWNVRU80aTBTX2c2NjNCNGFYLWxKdlJ5NUJsX3dJbW1GWG95MV9KUTRpZXVhNXQ4VmRiazRqLXlRZzZhVjdhaGVJWjdPdHV1VEE3OGo?oc=5",
-          "published_at": "2022-10-15T07:00:00+00:00",
-          "snippet": "Shri Piyush Goyal asks students to be inclusive in their thought process and keep the underprivileged citizens of the nation at the core of their work and innovation Press Information Bureau",
-          "lexical_overlap": 0.077,
-          "relevance": 0.197,
-          "matched_terms": [
-            "nation",
-            "work"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "nation"
-          ]
-        }
-      ],
+      "evidence": [],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -52270,7 +52340,7 @@
     },
     {
       "id": "81f241d8bca496938a",
-      "checked_at": "2026-10-27T05:40:03.341256+00:00",
+      "checked_at": "2026-10-28T23:14:14.912653+00:00",
       "promise_id": "BJP-2019-9bbf28883b24ddfdad",
       "year": 2019,
       "category": "other",
@@ -52319,25 +52389,27 @@
           ]
         },
         {
-          "id": "cc5b72bc74c296af0c",
-          "scope": "broad_official_search",
+          "id": "8919344364d8a911c4",
+          "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "International Financial Services Centres Authority (IFSCA)",
-          "source_url": "https://ifsca.gov.in",
-          "title": "INTERNATIONAL ARBITRATION CENTRE AT GIFT IFSC - International Financial Services Centres Authority (IFSCA)",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMDdTOTJfRlZLYmlyTTAyODZkT2hiT1ZzdVZKZEp2ZmtnSWNqRVhtb3lpNmtBOVp5aVhJWWRPWm9TODljTTA2RWxxRVVEWHhPWVZTTHFld0pENW5KUF9Eek1LRW9KV3lfLXZWY1FhaUdlY1NnMGhOenUyUWJtUlA1dHY1a09XSEt2RUJ4TGxsYmZFVF84enNXUzFTYndwY1BLRnNmT2N6OE9UWk0tUlQw?oc=5",
-          "published_at": "2024-07-16T07:00:00+00:00",
-          "snippet": "INTERNATIONAL ARBITRATION CENTRE AT GIFT IFSC International Financial Services Centres Authority (IFSCA)",
-          "lexical_overlap": 0.1,
-          "relevance": 0.22,
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Initiatives and reforms in arbitration, mediation and dispute resolution - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9KUnBLeDBPQ2hWZ055TnJnVVl6S0lwSVZBLXlmcm5Kb2xWTTh1dVU5bjVWeHM4cHdVLXpVcVJsa2V3UFFlNUlJbUVoU05hWDRZMGRZanhuY2NJRWFsckw5bUZFZHNHRU8z?oc=5",
+          "published_at": "2025-03-20T07:00:00+00:00",
+          "snippet": "Initiatives and reforms in arbitration, mediation and dispute resolution Press Information Bureau",
+          "lexical_overlap": 0.167,
+          "relevance": 0.322,
           "matched_terms": [
             "arbitration",
-            "centre"
+            "dispute",
+            "resolution"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
             "arbitration",
-            "centre"
+            "dispute",
+            "resolution"
           ]
         },
         {
@@ -52365,25 +52437,23 @@
           ]
         },
         {
-          "id": "190e6bc4ba43b14b8b",
+          "id": "9230d853945a47c651",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Vajiram & Ravi",
-          "source_url": "https://vajiramandravi.com",
-          "title": "Alternative Dispute Resolution, Meaning, Types, Frameworks, Importance, Challenges - Vajiram & Ravi",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBRWGJheU5feDBZSWJzVXhENGZoVzd0S0gyRTdWNXpwQ0h1bmtzaGozUFZZeW5uUlhld0wwcXREZldydkMtcWdtZ1VzNVV3WG9TNHF0N280bzBfbVYzMnZsSGhZVG8yel9tdEhjNkpONTIyem5ON3hIQ01mUTFrQ1E?oc=5",
-          "published_at": "2026-10-12T07:00:00+00:00",
-          "snippet": "Alternative Dispute Resolution, Meaning, Types, Frameworks, Importance, Challenges Vajiram & Ravi",
-          "lexical_overlap": 0.158,
-          "relevance": 0.263,
+          "source": "Live Law",
+          "source_url": "https://www.livelaw.in",
+          "title": "Tech-Driven Justice: Unraveling The Dynamics Of Online Dispute Resolution - Live Law",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbld0S2FkYno5R0JNWmpFakhfTHUtTVJoX2c1YklTVmNZdVgxMm1SNUhiYWgtVXNvMV84YkhfRDNZQXZXQUVEYzByMUV0bmlRTHBaUURWcFpWSnc4LW50SU1nV0gya1NSdUotek1tMGlxdjZDOVdPT1hQU0lscnZVQ2lWcHNBLUkxb3JYMncxQnpIV2Q3bElJVWlYZnI5c1dfR25CdHBXNWVLRDJx?oc=5",
+          "published_at": "2024-06-08T07:00:00+00:00",
+          "snippet": "Tech-Driven Justice: Unraveling The Dynamics Of Online Dispute Resolution Live Law",
+          "lexical_overlap": 0.105,
+          "relevance": 0.175,
           "matched_terms": [
-            "alternative",
             "dispute",
             "resolution"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "alternative",
             "dispute",
             "resolution"
           ]
@@ -52426,7 +52496,7 @@
     },
     {
       "id": "54e350bc3e36719620",
-      "checked_at": "2026-10-27T05:40:04.654890+00:00",
+      "checked_at": "2026-10-28T23:14:16.427190+00:00",
       "promise_id": "BJP-2019-9d236247e9b15a03ee",
       "year": 2019,
       "category": "women_social_justice",
@@ -53460,7 +53530,7 @@
     },
     {
       "id": "33e12bc4301cc50dd6",
-      "checked_at": "2026-10-25T12:04:06.885246+00:00",
+      "checked_at": "2026-10-28T23:14:30.556951+00:00",
       "promise_id": "BJP-2019-c25edb8fe14966edff",
       "year": 2019,
       "category": "education_skills",
@@ -53983,7 +54053,7 @@
     },
     {
       "id": "807316e944e846ca47",
-      "checked_at": "2026-10-27T05:40:08.512583+00:00",
+      "checked_at": "2026-10-28T23:14:20.715857+00:00",
       "promise_id": "BJP-2019-a7a95c6739eef05673",
       "year": 2019,
       "category": "education_skills",
@@ -55431,7 +55501,7 @@
     },
     {
       "id": "41199c12b8e2c4d40d",
-      "checked_at": "2026-10-25T12:04:02.730460+00:00",
+      "checked_at": "2026-10-28T23:14:26.303148+00:00",
       "promise_id": "BJP-2019-bface20b6f2720ebb6",
       "year": 2019,
       "category": "technology_digital",
@@ -55456,15 +55526,15 @@
       "query": "research innovation quality incentivise industry collaborate",
       "evidence": [
         {
-          "id": "8c720563f389a5c2a8",
+          "id": "85396d6cdbb95b86e4",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "PIB",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "Call for proposals under Promotion of Research & Innovation in Pharma-MedTech Sector (PRIP) scheme for industry & startup projects worth about ₹11,000 crore - PIB",
+          "title": "Call for proposals under Promotion of Research & Innovation in Pharma-MedTech Sector (PRIP) scheme for industry & startup projects worth about ₹11,000 crore - Press Information Bureau",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4xeUZvOEV1eTZLakJfQl92VE9jaE5zVjdOeVlfY0Z2MVVvT3FiWjhOdGJwM28tWFROLXlDOU9wWmwxVnhsX25wYXBtR1hodTVEdE90b2hBZ0ZMVVFFYlo4bERsdTdCbFQ1?oc=5",
           "published_at": "2025-10-01T07:00:00+00:00",
-          "snippet": "Call for proposals under Promotion of Research & Innovation in Pharma-MedTech Sector (PRIP) scheme for industry & startup projects worth about ₹11,000 crore PIB",
+          "snippet": "Call for proposals under Promotion of Research & Innovation in Pharma-MedTech Sector (PRIP) scheme for industry & startup projects worth about ₹11,000 crore Press Information Bureau",
           "lexical_overlap": 0.12,
           "relevance": 0.275,
           "matched_terms": [
@@ -55475,28 +55545,6 @@
           "shared_numbers": [],
           "promise_core_overlap": [
             "industry",
-            "innovation",
-            "research"
-          ]
-        },
-        {
-          "id": "55a6a8dd828cda6aa4",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "India’s Leap in Research and Innovation - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4yZ1lkeVRyRDJhVDYwSXlIWnIxVGpSVTlYSko4Q0RXX2w0S1hVeC1qR3NIcVdPLXVjcFNRTXd6Ym9SbENENF9hX1NnUGlWLUtyUkdmaWFpYldSa0pfT0R3a1JTb1E0WEU0?oc=5",
-          "published_at": "2025-11-04T08:00:00+00:00",
-          "snippet": "India’s Leap in Research and Innovation PIB",
-          "lexical_overlap": 0.143,
-          "relevance": 0.263,
-          "matched_terms": [
-            "innovation",
-            "research"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
             "innovation",
             "research"
           ]
@@ -55524,46 +55572,46 @@
           ]
         },
         {
-          "id": "bcc501333fd37184c8",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Government and Industry Join Hands to Accelerate Investment, Innovation and Manufacturing in India’s MedTech Sector - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBCU0syYTVGS1JuYlowOFNwQmVzajFYa2tNd2xmZ2NBV0JKeW1yZGwtaFJUSGtZenFORmNvMWxUNUNOMHJFdnZucWdhWnR1aW1pNkF4b0UtaXlISDZGVy1ERkF0NGFTOEdpaG45UGRaLVdhTW1kUmlMUlpnMA?oc=5",
-          "published_at": "2026-07-30T07:00:00+00:00",
-          "snippet": "Government and Industry Join Hands to Accelerate Investment, Innovation and Manufacturing in India’s MedTech Sector Press Information Bureau",
-          "lexical_overlap": 0.091,
-          "relevance": 0.211,
+          "id": "44657c4a972d013cd7",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Nature",
+          "source_url": "https://www.nature.com",
+          "title": "Facilitation or inhibition? The impact of IPR protection on the quality of corporate green innovation - Nature",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1uZk9Hb0l3SVh6STNhSXVPRXI2eDNNVkVVczVQMXdSaDRKaWRHZWxfU3IxR0ZpdHBIVy1uYWlQUl84RDAzWXVGTTRfc0lWSWF0cU9JLVdlTlFiUnNTbDk0?oc=5",
+          "published_at": "2026-08-08T07:00:00+00:00",
+          "snippet": "Facilitation or inhibition? The impact of IPR protection on the quality of corporate green innovation Nature",
+          "lexical_overlap": 0.1,
+          "relevance": 0.17,
           "matched_terms": [
-            "industry",
-            "innovation"
+            "innovation",
+            "quality"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "industry",
-            "innovation"
+            "innovation",
+            "quality"
           ]
         },
         {
-          "id": "737e8ec855fe7f641a",
+          "id": "294377c68e69529f7d",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "The Economic Times",
-          "source_url": "https://m.economictimes.com",
-          "title": "‘Come, work and serve in India’: Industry minister Piyush Goyal calls for stronger research ecosystem to a - The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxNMnNfNFlKYnU1Z0tybmZxX2l4ZElaUDZlb0NlSmxJWmdLSUdZYlVKOWxTdUx1aTM3c1hwWVlVUWwybUw0OXVSbWFZYmlKZTVDdXBRM1BYc3QyS2stQUdLSjQtQUhsc0ZRLTVEdnhvRUJ4Q1U2MGNVMUhpSHg4Y3g1NzdPV1dsem5PaHN0cHB6ckV4S1ZNM2w2TEV0d1JzXy1xeTNTTDBiWTFOVjdvRW5GMEpqY2llU3hjTkNOQ2Z2MS1zajNxOTRMcjY3X3lnZGdLQTJlbG44SXR0UjhjcDRKMkRvZFdjWnowUW1SN3lrSXVoOXY2VUd4MTFkNjN1eVhzRDdZamlYbEE0bE5QNENRSXA2Wmp0TEw4cTE0Q21tNldhTTVZUWh3QjkxRmtmZ9IBswJBVV95cUxPSS1Vck5jZU1vd0VNSkMwcFVZM3I5VnNFUmpsZGwzRDdsM1dWcTIwM2FENmY3V0Z1UXZzaDYzT2t3WnB6dEJfZEZhbzdqa2ExMFVPOXY0SWg3bFhyOExpWk54U2NUNXBKX0Z4UmR1RF9oaEMybF9JeTkycDBsS3hGdlJQcllOR2xBUmpZOU9ZVTlrWTFLa1JuQ1ZpOUZqc0hEMnZ5Yk5QY0dxTV9EMTBacTZ0c2M2Y2M4MzQwSEYtbnN0SUxmUG9tbkd3TW1QbE1qU3hNZFViTFJfaGRobGNpMk4wbWJZYTRJNzQ3Nk9rMFdWU1RZOUFuY0YwUUZJVWFIeThnbDVlY252ZVZFVVNoVGN2b1dfbzZqY0lSWjc2NEpvS0VoSjZtM25zUEpZdDBZTzNJ?oc=5",
-          "published_at": "2026-10-24T06:07:31+00:00",
-          "snippet": "‘Come, work and serve in India’: Industry minister Piyush Goyal calls for stronger research ecosystem to a The Economic Times",
-          "lexical_overlap": 0.091,
-          "relevance": 0.161,
+          "source": "Frontiers",
+          "source_url": "https://www.frontiersin.org",
+          "title": "Research on the pathways to enhance industry-academia-research institute collaboration and innovation: from the perspective of subway opening - Frontiers",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRXpBOTBmMHd2Rjlod0RVTFEwOHBpTGpqaXg0OF9uOEpUZEVpT2hCdEFTQ3pUdlN1ZnJDbzRnQVpLUGxlSzhQYlJaTjRNWkNzS2NfQzNHdFlNeHJkVDhJOVlfRG11RWdtNGhUaHE4Q0hIOW9fY1BYQ1BWR0JqQTVmbFdvTWhuc1FmcTlOc0RhQ1lsN2tzZ285cWxxMEVjN0c3M1FLYkQ5VzI3Uzg?oc=5",
+          "published_at": "2026-04-15T00:27:27+00:00",
+          "snippet": "Research on the pathways to enhance industry-academia-research institute collaboration and innovation: from the perspective of subway opening Frontiers",
+          "lexical_overlap": 0.095,
+          "relevance": 0.165,
           "matched_terms": [
-            "industry",
+            "innovation",
             "research"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "industry",
+            "innovation",
             "research"
           ]
         }
@@ -55748,7 +55796,7 @@
     },
     {
       "id": "21c782a6ad2ecb8987",
-      "checked_at": "2026-10-28T22:54:03.992442+00:00",
+      "checked_at": "2026-10-28T23:13:57.209290+00:00",
       "promise_id": "BJP-2019-2cfa1375f165d41707",
       "year": 2019,
       "category": "other",
@@ -56133,7 +56181,7 @@
     },
     {
       "id": "afb0cbafd6b03e2cdd",
-      "checked_at": "2026-10-25T12:04:04.468013+00:00",
+      "checked_at": "2026-10-28T23:14:27.911242+00:00",
       "promise_id": "BJP-2019-bfc1a8a4842846f158",
       "year": 2019,
       "category": "jobs_economy",
@@ -56172,7 +56220,7 @@
     },
     {
       "id": "85e036340cd1e6c9fc",
-      "checked_at": "2026-10-25T12:04:06.028304+00:00",
+      "checked_at": "2026-10-28T23:14:29.533744+00:00",
       "promise_id": "BJP-2019-bfc3365ff8469a2ccf",
       "year": 2019,
       "category": "health_welfare",
@@ -56197,6 +56245,29 @@
       "query": "ensuring pradhan mantri equal rights continuing",
       "evidence": [
         {
+          "id": "99f1553c2cae5d1e90",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "खाद्य और सार्वजनिक वितरण विभाग",
+          "source_url": "https://dfpd.gov.in",
+          "title": "Pradhan Mantri Garib Kalyan Anna Yojana (PMGKAY) - खाद्य और सार्वजनिक वितरण विभाग",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1MMHJkb3hCbHJRWm1oU1p3aWJmNEQ2TExPUFoweTNSX1NsS3VJamV5N1lzVE84U01DUUtFOHgtS0dlUFEyN0VXVXFwYkFWQWs4MHhsTjMwN3FrYkZMUzZEczVlVDdjQld2aHZDemw4dw?oc=5",
+          "published_at": "2024-04-19T07:00:00+00:00",
+          "snippet": "Pradhan Mantri Garib Kalyan Anna Yojana (PMGKAY) खाद्य और सार्वजनिक वितरण विभाग",
+          "lexical_overlap": 0.1,
+          "relevance": 0.22,
+          "matched_terms": [
+            "mantri",
+            "pradhan"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "mantri",
+            "pradhan",
+            "yojana"
+          ]
+        },
+        {
           "id": "7066aa25de6f0f3438",
           "scope": "broad_official_search",
           "tier": "primary",
@@ -56217,33 +56288,9 @@
             "mantri",
             "pradhan"
           ]
-        },
-        {
-          "id": "3e0889b3df629eab62",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "News On AIR",
-          "source_url": "https://newsonair.gov.in",
-          "title": "Union Minister Pradhan says ensuring dignity & equal opportunities for Divyang population is collective responsibility - News On AIR",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQMUVHMVVqb1F4WThxdDFKbXI0eVFwQU5laEphZDFTdThMU1BSUGZOVzMtTTBmdTEwYUZzbjFnMnEyRXBMYlZPNWFmb3drY0gtbkVGRFJ6MlAwSktUVUlDbG5kN3I5RWQ2X0VXLXF6YlNESDRSeG8yUGJ5ZG1FX0U5YWI1dDdqdkVXUGxwVGdseGd3VFhXdlFlWU8zYm0xUGM0Rjd4bDExY3NWNnlYRnBBVDczTTRUTjE4WngzWGNpNk03V3AtT281eEtVU1FpUEFKZjJ4c21na2ZTQQ?oc=5",
-          "published_at": "2026-05-28T06:28:33+00:00",
-          "snippet": "Union Minister Pradhan says ensuring dignity & equal opportunities for Divyang population is collective responsibility News On AIR",
-          "lexical_overlap": 0.143,
-          "relevance": 0.248,
-          "matched_terms": [
-            "ensuring",
-            "equal",
-            "pradhan"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "ensuring",
-            "equal",
-            "pradhan"
-          ]
         }
       ],
-      "implementation_signal": "current_reporting_found",
+      "implementation_signal": "current_primary_evidence_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -57129,7 +57176,7 @@
     },
     {
       "id": "09db92a7679f9e887b",
-      "checked_at": "2026-10-28T22:54:08.895568+00:00",
+      "checked_at": "2026-10-28T23:14:02.122936+00:00",
       "promise_id": "BJP-2019-4fc8289de8caed52ff",
       "year": 2019,
       "category": "other",
@@ -57310,7 +57357,7 @@
     },
     {
       "id": "52dfe0b2b6dac18d38",
-      "checked_at": "2026-10-27T05:40:09.958358+00:00",
+      "checked_at": "2026-10-28T23:14:21.786907+00:00",
       "promise_id": "BJP-2019-a90f1a5b1b4d992d1e",
       "year": 2019,
       "category": "infrastructure",
@@ -57371,7 +57418,7 @@
     },
     {
       "id": "764e7f78df87bfc871",
-      "checked_at": "2026-10-25T12:04:12.220856+00:00",
+      "checked_at": "2026-10-28T23:14:35.659051+00:00",
       "promise_id": "BJP-2019-c5c49a826219b52e35",
       "year": 2019,
       "category": "women_social_justice",
@@ -58092,7 +58139,7 @@
     },
     {
       "id": "8b995e84d8e880c2c0",
-      "checked_at": "2026-10-27T05:40:07.187008+00:00",
+      "checked_at": "2026-10-28T23:14:19.233410+00:00",
       "promise_id": "BJP-2019-a5d19f657fac0ff466",
       "year": 2019,
       "category": "health_welfare",
@@ -59206,7 +59253,7 @@
     },
     {
       "id": "ec4896723ca23e64e6",
-      "checked_at": "2026-10-25T12:04:09.215297+00:00",
+      "checked_at": "2026-10-28T23:14:32.568126+00:00",
       "promise_id": "BJP-2019-c5be444ed08c10e97e",
       "year": 2019,
       "category": "technology_digital",
@@ -62702,7 +62749,7 @@
     },
     {
       "id": "df076e7dea8ba67624",
-      "checked_at": "2026-10-28T22:54:20.822046+00:00",
+      "checked_at": "2026-10-28T23:14:11.623148+00:00",
       "promise_id": "BJP-2014-078252941779345656",
       "year": 2014,
       "category": "women_social_justice",
@@ -62728,26 +62775,6 @@
       "related_promises": [],
       "query": "next five courts cases arbitration judiciary",
       "evidence": [
-        {
-          "id": "0c8da9e17d2ad05d95",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Settling of cases through Lok Adalat and Arbitration - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBydDk5YjZVVjM1ck4zS2FWQWw1Z3gwWnIwckxFcWtOZDhEU0xYMTEtT3gwMGFmVE1SdW82ck9BZ3Vvd2Rlakg3aFdKM1pkUklfZ3JFVzU3OWtITVVTX2FqZ0xVeVN6UjV5?oc=5",
-          "published_at": "2022-08-04T07:00:00+00:00",
-          "snippet": "Settling of cases through Lok Adalat and Arbitration Press Information Bureau",
-          "lexical_overlap": 0.176,
-          "relevance": 0.331,
-          "matched_terms": [
-            "arbitration",
-            "cases",
-            "lok"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": []
-        },
         {
           "id": "b1c00a883cde81cad8",
           "scope": "news_search",
