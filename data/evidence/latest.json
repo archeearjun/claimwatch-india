@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T05:39:42.434372+00:00",
+  "generated_at": "2026-10-28T06:21:48.472821+00:00",
   "capabilities": {
     "official_evidence_search": true,
     "verified_primary_gate": true,
@@ -16,8 +16,8 @@
     "promise_checked_this_run": 30,
     "promise_total_candidates": 841,
     "promise_coverage_pct": 101.3,
-    "primary_candidates": 543,
-    "secondary_candidates": 1056,
+    "primary_candidates": 546,
+    "secondary_candidates": 1051,
     "prior_fact_checks": 0,
     "publishable_auto_verdicts": 0,
     "claim_verdicts": {
@@ -102,6 +102,29 @@
       "promise_matches": [],
       "evidence": [
         {
+          "id": "5bc359c2e21b19a422",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Norms for Permission for Opening of Medical Colleges - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE53dy1VTDhJNzhuTi1DTDZVNFdaVENKQ3V2cl92WHhRcWk3LUN1S3hDaGZnSUJrdG14NzJHWElvajhZNjQ0bkh3a1JkTWNySnQ1bEVZUUcxVmIyRDRpT05BcW81QzFVcDdsSnNGTg?oc=5",
+          "published_at": "2013-03-05T08:00:00+00:00",
+          "snippet": "Norms for Permission for Opening of Medical Colleges Press Information Bureau",
+          "lexical_overlap": 0.182,
+          "relevance": 0.302,
+          "matched_terms": [
+            "colleges",
+            "medical"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.007,
+            "neutral": 0.9442,
+            "contradiction": 0.0487
+          }
+        },
+        {
           "id": "69b949e6f234d1b887",
           "scope": "news_search",
           "tier": "secondary",
@@ -122,8 +145,8 @@
       ],
       "fact_checks": [],
       "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
+        "level": "primary_evidence_found",
+        "label": "Relevant verified primary evidence candidate found",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -385,23 +408,22 @@
       "promise_matches": [],
       "evidence": [
         {
-          "id": "16024edfec0ea10a2d",
+          "id": "0e2d9417e1acdf56ab",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "BBC",
-          "source_url": "https://www.bbc.com",
-          "title": "Kevin Pietersen: Joe Root says England are 'very different' from 2014 - BBC",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1PZGU2QzhjTFllc1Q5TGNXMDh4ZU1ZZ21rRll1THpIcUFHdGNXSWdONnlqdThXRC1XWFZSY1BHTnBBczFKSjB4OHRFUE9YcDBpSU5nZ2NpVFpBSWFuZWxGUGJUVTg4Zw?oc=5",
-          "published_at": "2026-09-08T07:00:00+00:00",
-          "snippet": "Kevin Pietersen: Joe Root says England are 'very different' from 2014 BBC",
-          "lexical_overlap": 0.062,
-          "relevance": 0.208,
+          "source": "CNBC",
+          "source_url": "https://www.cnbc.com",
+          "title": "Warren Buffett: 'If I had been a female, my life would have been entirely different' - CNBC",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOV3BpbjltT3B2RHZwanlSTVVqWkVzVFVaYnNKa1lpQkZ1UlBlVHBFOEIzcVZlNzhnOXZvM2N0c0gwYVVNcFFpX1IzYk9pVXctcnRXck82cVREMU1ycDB1bW5JM05YSGtjaExlWkpaSFBZSWtfSUktVVRuVE9LYldjWHMtdDQ1UmV1QXJCSHhqNmxwY1otbkFoQWEtUDBFNUlwYl9Z0gGoAUFVX3lxTFBJQjZYdVNlWWlEdTN6QnVBZWVQc3JIcjA1XzVuWlVhV3UxWWlZY0hrVkVINjFOOVU1ekZsWHhGZzZDTm5mZkVtYnA5RTNKX2Y4TTEtdzF1c01QTUxpRmktMmtfVVNBY1BtbnlJV2ZGeHVYOGJzYXpDaU9fTE5xVDZGcXdvVDd4bTJOcXVHbTJqblNCV0stR09IN3A2UGZzOTg2a0JBQlVSUA?oc=5",
+          "published_at": "2018-10-16T07:00:00+00:00",
+          "snippet": "Warren Buffett: 'If I had been a female, my life would have been entirely different' CNBC",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
           "matched_terms": [
-            "different"
+            "different",
+            "entirely"
           ],
-          "shared_numbers": [
-            "2014"
-          ]
+          "shared_numbers": []
         }
       ],
       "fact_checks": [],
@@ -469,7 +491,26 @@
       "query": "frameworks built nation recent along ecosystem",
       "numbers": [],
       "promise_matches": [],
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "23915aaf989e67f10f",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "CSIS | Center for Strategic and International Studies",
+          "source_url": "https://www.csis.org",
+          "title": "Export Nation or Ecosystem Power: South Korea’s Choice in the AI Industrial Age - CSIS | Center for Strategic and International Studies",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZU5DblhJNmhFRG5vd0NrYXk2X3hEb1FlSk1rVnF4eFFiZGo1aWlTVmIyWGY5NUc2QUVpRWZIY054clppSU42eHdDWkZGUXVjcl9vb1Y1RWxTX3ppaDVCSGVNME9UOUpTTS16eE1HN0ZjejdHTS1tRlBkdlZiMEJmZG9JRVhVeFBIMENYT281YkJ5bkFEOHU2TlY1VzN4SEFBM0E?oc=5",
+          "published_at": "2026-07-07T07:00:00+00:00",
+          "snippet": "Export Nation or Ecosystem Power: South Korea’s Choice in the AI Industrial Age CSIS | Center for Strategic and International Studies",
+          "lexical_overlap": 0.08,
+          "relevance": 0.15,
+          "matched_terms": [
+            "ecosystem",
+            "nation"
+          ],
+          "shared_numbers": []
+        }
+      ],
       "fact_checks": [],
       "signal": {
         "level": "needs_research",
@@ -757,31 +798,6 @@
           "shared_numbers": []
         },
         {
-          "id": "298062dee55b994777",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "PM SVANidhi: Advancing Financial Inclusion for Street Vendors - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zVEpmWHF5a1BURTRnSnNMU1BuX09EWUxCSWIxV3BuVWt4dnJIUUd6VHJSSm5zYmh3dFU0WVVGVU1xcE5LSEhrSWNRaE43aFE4dWpscmFvenJBbGR3b3JzOHVkZ1ZpZlhk?oc=5",
-          "published_at": "2026-05-30T07:00:00+00:00",
-          "snippet": "PM SVANidhi: Advancing Financial Inclusion for Street Vendors Press Information Bureau",
-          "lexical_overlap": 0.25,
-          "relevance": 0.44,
-          "matched_terms": [
-            "pm",
-            "street",
-            "svanidhi",
-            "vendors"
-          ],
-          "shared_numbers": [],
-          "nli": {
-            "entailment": 0.0015,
-            "neutral": 0.9865,
-            "contradiction": 0.012
-          }
-        },
-        {
           "id": "5f82f1e163608f6189",
           "scope": "news_search",
           "tier": "secondary",
@@ -800,6 +816,31 @@
             "vendors"
           ],
           "shared_numbers": []
+        },
+        {
+          "id": "f5e28276c90649ddd0",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "PM SVANidhi Scheme facilitates provision of collateral free working capital loan to street vendors to restart their businesses - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5tT2JVblU1S1pGdThwV2x6NlkybDFXQzA4ZTV2UVljVXVEdmZNMTU5VkFsLWNKeDZKdDMtMWpzYUlmUXJHUXZiRWhOeklVTGpLVEROWkRHcmRxVVFka0RqUVF3WlJlMGRkb2c?oc=5",
+          "published_at": "2022-03-31T07:00:00+00:00",
+          "snippet": "PM SVANidhi Scheme facilitates provision of collateral free working capital loan to street vendors to restart their businesses Press Information Bureau",
+          "lexical_overlap": 0.182,
+          "relevance": 0.372,
+          "matched_terms": [
+            "pm",
+            "street",
+            "svanidhi",
+            "vendors"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.002,
+            "neutral": 0.9856,
+            "contradiction": 0.0124
+          }
         },
         {
           "id": "25174439aa98ac4d28",
@@ -827,26 +868,26 @@
           }
         },
         {
-          "id": "eb7e0e2bf220518ef5",
+          "id": "f04481ddb3b430e24d",
           "scope": "preferred_official_search",
           "tier": "primary",
           "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "PM SVANidhi: From Survival to Self-Reliance - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9DZktBUHcwT1J0RzBOak53eWUtMVBvem5LS2hEQlAxc2FITG13c2xxY3NPM2tVMkY2djY4Vmc2dklmdFB3OWpZSFJWd3lRM2RYdWhvMDAwV2thV0t3WUhnVGtJOXhoRlNSeVZQQlNoSHRmS2VWMG1lVEtn?oc=5",
-          "published_at": "2026-05-30T07:00:00+00:00",
-          "snippet": "PM SVANidhi: From Survival to Self-Reliance Press Information Bureau",
-          "lexical_overlap": 0.133,
-          "relevance": 0.253,
+          "title": "Over 5 lakh applications received under PM SVANidhi scheme - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE04RV91Qm9TN01pUFZKaVB0czljU05heHRPYjFjdEdvd1c5UHNqSWItR0JxYWhwZmQ0cjNTLS1NNUNwQ29xRU5BSHBoeDBKWk56cUZuZ1ZGdTkwemI0QTI3SnVzLUxBUTh5?oc=5",
+          "published_at": "2020-08-12T07:00:00+00:00",
+          "snippet": "Over 5 lakh applications received under PM SVANidhi scheme Press Information Bureau",
+          "lexical_overlap": 0.118,
+          "relevance": 0.238,
           "matched_terms": [
             "pm",
             "svanidhi"
           ],
           "shared_numbers": [],
           "nli": {
-            "entailment": 0.0012,
-            "neutral": 0.9863,
-            "contradiction": 0.0125
+            "entailment": 0.0024,
+            "neutral": 0.9879,
+            "contradiction": 0.0097
           }
         },
         {
@@ -868,17 +909,17 @@
           "shared_numbers": []
         },
         {
-          "id": "1fb7faa36ced241a76",
+          "id": "c917b6cdc830e6a9cc",
           "scope": "news_search",
           "tier": "secondary",
           "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "Over 5 lakh applications received under PM SVANidhi scheme - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE04RV91Qm9TN01pUFZKaVB0czljU05heHRPYjFjdEdvd1c5UHNqSWItR0JxYWhwZmQ0cjNTLS1NNUNwQ29xRU5BSHBoeDBKWk56cUZuZ1ZGdTkwemI0QTI3SnVzLUxBUTh5?oc=5",
-          "published_at": "2020-08-12T07:00:00+00:00",
-          "snippet": "Over 5 lakh applications received under PM SVANidhi scheme Press Information Bureau",
-          "lexical_overlap": 0.118,
-          "relevance": 0.188,
+          "title": "PM SVANidhi: From Survival to Self-Reliance - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9DZktBUHcwT1J0RzBOak53eWUtMVBvem5LS2hEQlAxc2FITG13c2xxY3NPM2tVMkY2djY4Vmc2dklmdFB3OWpZSFJWd3lRM2RYdWhvMDAwV2thV0t3WUhnVGtJOXhoRlNSeVZQQlNoSHRmS2VWMG1lVEtn?oc=5",
+          "published_at": "2026-05-30T07:00:00+00:00",
+          "snippet": "PM SVANidhi: From Survival to Self-Reliance Press Information Bureau",
+          "lexical_overlap": 0.133,
+          "relevance": 0.203,
           "matched_terms": [
             "pm",
             "svanidhi"
@@ -991,7 +1032,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T05:38:53.901773+00:00",
+      "latest_checked_at": "2026-10-28T06:20:39.783516+00:00",
       "latest_claim_packet_id": "d4aab404e9ccc6ccf7"
     },
     {
@@ -1258,7 +1299,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T05:38:53.901811+00:00",
+      "latest_checked_at": "2026-10-28T06:20:39.783562+00:00",
       "latest_claim_packet_id": "884558fa72add4403d"
     },
     {
@@ -1354,7 +1395,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T05:38:53.901761+00:00",
+      "latest_checked_at": "2026-10-28T06:20:39.783502+00:00",
       "latest_claim_packet_id": "60ae96f665f22ef03b"
     },
     {
@@ -1402,7 +1443,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T05:38:53.901659+00:00",
+      "latest_checked_at": "2026-10-28T06:20:39.783389+00:00",
       "latest_claim_packet_id": "b8d4ab680299139905"
     },
     {
@@ -1474,7 +1515,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T05:38:53.901799+00:00",
+      "latest_checked_at": "2026-10-28T06:20:39.783547+00:00",
       "latest_claim_packet_id": "dac6e2327ebe0bd17a"
     },
     {
@@ -1690,7 +1731,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T05:38:53.901826+00:00",
+      "latest_checked_at": "2026-10-28T06:20:39.783577+00:00",
       "latest_claim_packet_id": "050ea98dd7879a06cd"
     },
     {
@@ -1882,7 +1923,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T05:38:53.901723+00:00",
+      "latest_checked_at": "2026-10-28T06:20:39.783458+00:00",
       "latest_claim_packet_id": "29371b53212e779eff"
     },
     {
@@ -2020,13 +2061,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "reporting_found",
+      "evidence_state": "primary_evidence_found",
       "human_reviewed": false,
       "created_at": "2026-10-27T07:50:11.251666+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T05:38:53.901697+00:00",
+      "latest_checked_at": "2026-10-28T06:20:39.783427+00:00",
       "latest_claim_packet_id": "b35543711de7918ea9"
     },
     {
@@ -2098,7 +2139,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T05:38:53.901712+00:00",
+      "latest_checked_at": "2026-10-28T06:20:39.783444+00:00",
       "latest_claim_packet_id": "ddb711a027259cf305"
     },
     {
@@ -2290,7 +2331,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T05:38:53.901847+00:00",
+      "latest_checked_at": "2026-10-28T06:20:39.783600+00:00",
       "latest_claim_packet_id": "5bb402465b7ccab062"
     },
     {
@@ -2434,7 +2475,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T05:38:53.901785+00:00",
+      "latest_checked_at": "2026-10-28T06:20:39.783531+00:00",
       "latest_claim_packet_id": "f5f9e7bb05cfa3199f"
     },
     {
@@ -2578,7 +2619,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T05:38:53.901837+00:00",
+      "latest_checked_at": "2026-10-28T06:20:39.783589+00:00",
       "latest_claim_packet_id": "00739b48a203bf3deb"
     },
     {
@@ -2722,7 +2763,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T05:38:53.901750+00:00",
+      "latest_checked_at": "2026-10-28T06:20:39.783488+00:00",
       "latest_claim_packet_id": "1d53d6d12eb863d5b2"
     },
     {
@@ -2965,7 +3006,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T05:38:53.901738+00:00",
+      "latest_checked_at": "2026-10-28T06:20:39.783475+00:00",
       "latest_claim_packet_id": "318b27cf844c2ade6a"
     },
     {
@@ -3152,7 +3193,7 @@
     },
     {
       "id": "e83ab1ec9c9a5c85b3",
-      "checked_at": "2026-10-26T13:37:51.952925+00:00",
+      "checked_at": "2026-10-28T06:21:48.146873+00:00",
       "promise_id": "BJP-2024-520dbdc0efed2c651b",
       "year": 2024,
       "category": "other",
@@ -3188,52 +3229,7 @@
         }
       ],
       "query": "next five your blessings guarantee",
-      "evidence": [
-        {
-          "id": "74ad7a29a330c8b1d0",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "YourTango",
-          "source_url": "https://www.yourtango.com",
-          "title": "7 Zodiac Signs Are Attracting Major Blessings From The Universe, Starting Now - YourTango",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5hNU1TendQMUJtTndLRlhYTUlaMTdaMDE2SV9FZlJ6a2JsX1haVjN4NlNwVWUwbHlOSEZDQ3lkQjEzSVdhNTRYXzJiTFI4VkdiNWNOWkVFYzB1dms3RVFFd1BPUXZzN0haM0U1TXFpSFQ5ZURiOVZ4TE5WaXhwQQ?oc=5",
-          "published_at": "2026-01-22T08:00:00+00:00",
-          "snippet": "7 Zodiac Signs Are Attracting Major Blessings From The Universe, Starting Now YourTango",
-          "lexical_overlap": 0.071,
-          "relevance": 0.216,
-          "matched_terms": [
-            "blessings"
-          ],
-          "shared_numbers": [
-            "7"
-          ],
-          "promise_core_overlap": [
-            "blessings"
-          ]
-        },
-        {
-          "id": "8377f32aef19bfe0c0",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Line of Best Fit",
-          "source_url": "https://www.thelineofbestfit.com",
-          "title": "Bring Me The Horizon to play Count Your Blessings in full for first time at outbreak Manchester show - The Line of Best Fit",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxORHZteU5vMGlJM2t6aTJqOTY5NENYWWtEVTVMcWZMcnNZSENPbnVPME5BRFJfb21zVVVZd04ydFJmZ01KX2d1OGpGUzBieWJ4RnlrNkE5U2ZsMkE1SFh4VnZ6Y1pjWk11dU5EVnVmU1RSeGs0TEY5cUhIbXpjTWVjTC14UjlTUU5lVDVsZF9YMXhZbWE4cHNxbG1ybUhUT1BQSEZib1NQTUgwMFliQ2htUy00cUp0b3dRSm56RHItTUNnc2UtT1g1LWVJaUZjbktWWjlsNQ?oc=5",
-          "published_at": "2026-04-13T07:00:00+00:00",
-          "snippet": "Bring Me The Horizon to play Count Your Blessings in full for first time at outbreak Manchester show The Line of Best Fit",
-          "lexical_overlap": 0.1,
-          "relevance": 0.17,
-          "matched_terms": [
-            "blessings",
-            "your"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "blessings",
-            "your"
-          ]
-        }
-      ],
+      "evidence": [],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -40191,7 +40187,7 @@
     },
     {
       "id": "b9925791859a267388",
-      "checked_at": "2026-10-26T13:37:46.646676+00:00",
+      "checked_at": "2026-10-28T06:21:43.502677+00:00",
       "promise_id": "BJP-2019-f5e9fc3b695ec48c9c",
       "year": 2019,
       "category": "other",
@@ -40603,7 +40599,7 @@
     },
     {
       "id": "409afa536940f91b71",
-      "checked_at": "2026-10-26T13:37:36.129166+00:00",
+      "checked_at": "2026-10-28T06:21:25.917466+00:00",
       "promise_id": "BJP-2019-bb982b0c93d3e76b89",
       "year": 2019,
       "category": "agriculture",
@@ -40628,30 +40624,7 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
       "query": "next five kisan warehousing grid invest",
-      "evidence": [
-        {
-          "id": "2b0f5c28bd01e40187",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Invest India",
-          "source_url": "https://www.investindia.gov.in",
-          "title": "Five reasons why India is set to lead the global renewable energy revolution - Invest India",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQT1NYUW9rSFVNV0s4LTFzdU9qekdaTGcyVEVfaEdHUUtNeTltTnhPMFkxT1dQamk2aVJBU3lQXzRJQmJuay1JVFVoQm9TTThLSWh4b3lHenNGaHp1ZzhZbkFmdktyUXVwWXhZQVY0VFhuVElTVjRyNDFvaHFLYXNPX25RMHc2S2l0RnJITVItT2FJWWdsdkE3Tzhya28yZ3NxYzFmOXpzVF9xcWQwU1ZTVHBLRUs?oc=5",
-          "published_at": "2025-12-19T08:00:00+00:00",
-          "snippet": "Five reasons why India is set to lead the global renewable energy revolution Invest India",
-          "lexical_overlap": 0.1,
-          "relevance": 0.17,
-          "matched_terms": [
-            "five",
-            "invest"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "five",
-            "invest"
-          ]
-        }
-      ],
+      "evidence": [],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -43288,7 +43261,7 @@
     },
     {
       "id": "05e0979e7f32ba2f72",
-      "checked_at": "2026-10-28T05:38:55.891669+00:00",
+      "checked_at": "2026-10-28T06:20:41.737342+00:00",
       "promise_id": "BJP-2019-18c0750d5ed71bc3d1",
       "year": 2019,
       "category": "agriculture",
@@ -43435,6 +43408,30 @@
           ]
         },
         {
+          "id": "531ed5a861c168b322",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Outlook India",
+          "source_url": "https://www.outlookindia.com",
+          "title": "Farmer Producer Organization Scheme A Path To Farmers’ Prosperity - Outlook India",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMVpLQmxEZW5udS1scVRES3BVcEduZnhJaEdLcU1HY2hKWndwZ0g1dWpIRl9PRHdPaVQ5c2RFaV9PTVZ6akw3NGpnYjNudkwxaEJuOG81VlFJdVZ1emkzbTN0NXFlMHpnRlhqZHlTcFhjd21Ba1cxQWtoOVBGVTBkUy05bjFqSkhKOEI0SFhHeG9YSjQwT3lfNVNwNWRKVjN2Wl9rSEgyQWlXY1BCbzVMQll2eUNGMkZm0gHGAUFVX3lxTE16WE9xMW1VUnQzRmR2VGd0OWFPX2Q1RFN4S3ZWd2duMXBOdExXeWlzSXByV05JNmE5WWEzZnFBb1hzOFduZ0R5OXhsZko1N1JhclpXNlpVQ21QZFR0THFTdkVCc1B3ZHBJRFFWMU8wTzlOMDNOTjcxQVVNOWFsT3A2RXc0NzdYX3dBaFBmV0hsSlhsc2YxdWlhMHE2SFM5RTc4TU9xRGhTeWtWUW1wV3IwZ1hiTkJtQU1ZN3RVcUlZeDFXMlM4Zw?oc=5",
+          "published_at": "2024-01-16T08:00:00+00:00",
+          "snippet": "Farmer Producer Organization Scheme A Path To Farmers’ Prosperity Outlook India",
+          "lexical_overlap": 0.176,
+          "relevance": 0.281,
+          "matched_terms": [
+            "farmer",
+            "farmers",
+            "producer"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "farmer",
+            "farmers",
+            "producer"
+          ]
+        },
+        {
           "id": "634c286094b85d4f4a",
           "scope": "news_search",
           "tier": "secondary",
@@ -43454,50 +43451,6 @@
           ],
           "promise_core_overlap": [
             "farmers"
-          ]
-        },
-        {
-          "id": "f3259ba28f1eed4040",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Krishi Jagran",
-          "source_url": "https://krishijagran.com",
-          "title": "10,000 FPOs Scheme will Bring a Revolutionary Change in Agri Sector: Narendra Tomar - Krishi Jagran",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaHJFOHRKWnJlcGNwRGQxUlplWDJLZFRhMzY0NkxqNFR6N3VPYk9qR1huWlE3R1E1T1JKTHdZalVQSkRBRUk1WXZOVUpUSzY4SVJ2dlcxMWhsQVc5YXdYRlRaeHBEeVp5cjMtU0hJeGJEOHY1Si1lQXhENFpLV2hFZG0tVVl0YUtLRUpMUllKa0tpR0R6WVZNY3NtOWwzNGJSbjlBVEtyTFZ0V2cwbnh5OXI0UC1JeEx6TWN6VHlHQW5DX3Ju0gHMAUFVX3lxTE1KWDRrUU1ZcFJMdzZOOU85UVY5RHAzLWE5YV9SdFhrbUs2b2F6SHVUb2UwZFR1RDNhbFdGX1o2aXp2UDN0YW90NFNReXR4RHlWbTY0T0FPbGdQNlVFdHN6MFpNdm5CMTlxN3dZUmtKQjlrR3JLbUY4VU9nWG03X25qVkVCWWtkUHkxRVFQUXNZSlY0S1BzNHNpMzY0WG4xR2lMX1g1WjY2YVFjM293ZXljTGNhckNaSHZlVDBBZ3ZqOFlacE5lQ0RtTlZ5TA?oc=5",
-          "published_at": "2022-04-22T07:00:00+00:00",
-          "snippet": "10,000 FPOs Scheme will Bring a Revolutionary Change in Agri Sector: Narendra Tomar Krishi Jagran",
-          "lexical_overlap": 0.048,
-          "relevance": 0.193,
-          "matched_terms": [
-            "fpos"
-          ],
-          "shared_numbers": [
-            "10000"
-          ],
-          "promise_core_overlap": [
-            "fpos"
-          ]
-        },
-        {
-          "id": "34c66c9ca7d95b9063",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Agriculture Post",
-          "source_url": "https://agriculturepost.com",
-          "title": "Every block in India to have one farmer producer organisation: MoS Agriculture - Agriculture Post",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPRzhVZmdmNUZVNGU3WVJ0eWxtZWgtdG51eEFlSnRnTlVZQUQxeS10dHp0T1ZmNVlyS0I3OVFKMnU2N3pPUnByMzU0MjgtV2k4TGdSemFCaU9pajdlelBwb0RHMTFUczhxTUhHellCcTBZbDlXQjR4bGRBSnI1N3hTb21DTGEyX2YyaUJSSUJoamhDSVZDcXZsM0E4V24zR0ZfZF9lc2VuMGtuXzZJSzFwaUpzRU53cmZRc3VRdmduSU9GUHJUWjVXcThxVlhWSkJMSzZRU3AzZWhpUDFMX0RxdVY4dw?oc=5",
-          "published_at": "2022-03-16T07:00:00+00:00",
-          "snippet": "Every block in India to have one farmer producer organisation: MoS Agriculture Agriculture Post",
-          "lexical_overlap": 0.1,
-          "relevance": 0.17,
-          "matched_terms": [
-            "farmer",
-            "producer"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "farmer",
-            "producer"
           ]
         },
         {
@@ -43545,7 +43498,7 @@
           ]
         }
       ],
-      "implementation_signal": "current_primary_evidence_found",
+      "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -44816,7 +44769,7 @@
     },
     {
       "id": "f5811520c1d5623f19",
-      "checked_at": "2026-10-28T05:39:14.775927+00:00",
+      "checked_at": "2026-10-28T06:20:43.410372+00:00",
       "promise_id": "BJP-2019-1d3e95fa9344e842f3",
       "year": 2019,
       "category": "infrastructure",
@@ -44937,7 +44890,7 @@
     },
     {
       "id": "92d6920a15fb42f812",
-      "checked_at": "2026-10-28T05:39:29.966745+00:00",
+      "checked_at": "2026-10-28T06:20:57.102480+00:00",
       "promise_id": "BJP-2019-6abf03adda773fec98",
       "year": 2019,
       "category": "governance",
@@ -45168,7 +45121,7 @@
     },
     {
       "id": "bd2b23c6702feca8a3",
-      "checked_at": "2026-10-26T13:37:39.769807+00:00",
+      "checked_at": "2026-10-28T06:21:37.418790+00:00",
       "promise_id": "BJP-2019-d75a175024058cd79a",
       "year": 2019,
       "category": "infrastructure",
@@ -45195,6 +45148,25 @@
       "query": "2024 jal line vision promise path gram",
       "evidence": [
         {
+          "id": "7d517922c453d65c6f",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "Jal Jeevan Mission",
+          "source_url": "https://jaljeevanmission.gov.in",
+          "title": "JAL JEEVAN MISSION - Jal Jeevan Mission",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTkpfeEF2bXZ2MHhKNV9ZQlBEQV8tY1ZqUHkxd2Jxb0JNMkVJRlBRczkzUy1GT1VQaHRRN2czVERDeEIwRWRvaUliaWFfRDl1Zk9iaEJYX2drRWtEWmpnWWVwQXdPbzFla3lMdHpDc2VLcUdMWGx4clpTRHhUaHpwT1BrcG5jUFV3OTVBQVZFUGhETkVUVGxR?oc=5",
+          "published_at": "2019-12-21T08:00:00+00:00",
+          "snippet": "JAL JEEVAN MISSION Jal Jeevan Mission",
+          "lexical_overlap": 0.154,
+          "relevance": 0.274,
+          "matched_terms": [
+            "jal",
+            "mission"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": []
+        },
+        {
           "id": "01f7b2531dc796d3c0",
           "scope": "broad_official_search",
           "tier": "primary",
@@ -45204,6 +45176,44 @@
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNd3VPWkIzYkdDdFdwSFBfdlhIUV9lYWxvcDBkajVrd2szaGx3UlV6UGNEbGFLOTc3LVNuaDZXOXBvUlloUHI0STJHa3ZraWRkQkNVOGhfd09Ib0cwYnQwZHU0OXYwRzFtUXZxVDdhdkFwUEplSFdmeHdBZE91R0QxUkVUNFl0N3hDRDhDVTFGYw?oc=5",
           "published_at": "2021-12-31T08:00:00+00:00",
           "snippet": "Jal Jeevan Mission Booklet Jal Jeevan Mission",
+          "lexical_overlap": 0.143,
+          "relevance": 0.263,
+          "matched_terms": [
+            "jal",
+            "mission"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": []
+        },
+        {
+          "id": "49f2a9a0a614d43392",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "JJM",
+          "source_url": "https://ejalshakti.gov.in",
+          "title": "Jal Jeevan Mission - JJM",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNem84amxZdTYxU21qYlZUMGRqMDRpaUtTdG16aWNfN2pjcFU5MmZNejlOb21VYmxSd25ESXppQUhyWW5oUWdWMEZXekxPS3BPT0g0eGVGa2gzUVRGcUR1bFpwajE0QkZPNlV5UFVIaUh5R3BtV0hnTGllOE91TWNhRG1aRFJRZFNfS0wyMVk4UVJBaV93?oc=5",
+          "published_at": "2022-07-26T04:41:53+00:00",
+          "snippet": "Jal Jeevan Mission JJM",
+          "lexical_overlap": 0.143,
+          "relevance": 0.263,
+          "matched_terms": [
+            "jal",
+            "mission"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": []
+        },
+        {
+          "id": "4f0fc14b75f0978130",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "Jal Jeevan Mission",
+          "source_url": "https://jaljeevanmission.gov.in",
+          "title": "Untitled - Jal Jeevan Mission",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRTBFcDJUYkFfS28yNkFHcm11M0U0UUpxNmNqV3paUzFheHRGS0puclQyUWZEaVhPMkxlZ2FnZ2FzdENYZGtWY0hTemJIblZKQ2VIX21WRmdnd0hXS1NHbE56NWs2Q3JJUGRnMVZjMVljXzNKaVhSM1NSdWhteWpObWdJNXZ4RGprSVp1RERtZGs1Z2ZEV05nN2tzbw?oc=5",
+          "published_at": "2025-11-25T08:00:00+00:00",
+          "snippet": "Untitled Jal Jeevan Mission",
           "lexical_overlap": 0.143,
           "relevance": 0.263,
           "matched_terms": [
@@ -45306,7 +45316,7 @@
     },
     {
       "id": "f6b5f96100e7532f46",
-      "checked_at": "2026-10-26T12:58:33.283254+00:00",
+      "checked_at": "2026-10-28T06:21:18.865432+00:00",
       "promise_id": "BJP-2019-981018d50438634e59",
       "year": 2019,
       "category": "infrastructure",
@@ -45334,85 +45344,17 @@
       "query": "2024 100 lakh capital investment crore infrastructure sector",
       "evidence": [
         {
-          "id": "11b13dc9a1660af7ac",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "WORLD BANK RANKS INDIA AMONG THE TOP FIVE COUNTRIES IN TERMS OF PRIVATE INVESTMENT IN INFRASTRUCTURE AMONG LOW- AND MIDDLE-INCOME ECONOMIES - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1SbVgtNnFkWDVjVDhOUS1fWGx6dENZd0I2dU1LM25Sa0pJWDF2dWlvTEhBWHJoSk8yZmFVU0FZeHVUSS0wNHV2bGg0Y1RycmNEMUhYUlkzcVB4M05GUkNVSkpNa0hrTWdp?oc=5",
-          "published_at": "2026-01-29T08:00:00+00:00",
-          "snippet": "WORLD BANK RANKS INDIA AMONG THE TOP FIVE COUNTRIES IN TERMS OF PRIVATE INVESTMENT IN INFRASTRUCTURE AMONG LOW- AND MIDDLE-INCOME ECONOMIES Press Information Bureau",
-          "lexical_overlap": 0.091,
-          "relevance": 0.211,
-          "matched_terms": [
-            "infrastructure",
-            "investment"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "infrastructure",
-            "investment"
-          ]
-        },
-        {
-          "id": "0e7cdda9f1cb786978",
+          "id": "44516d218dcaec9804",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "scanx.trade",
-          "source_url": "https://scanx.trade",
-          "title": "Ashoka Buildcon Invests Rs.4.00 Crore in Wholly Owned Subsidiary Viva Infrastructure - scanx.trade",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNMDdKUGw3OTNENmxBSE9OM0MxY0hYU2E5WTR4bXAzcE43RDdmSWhGcnY3V0hfYlVnREF0WFR0ZmVsN3FxRmRsbVlXTEZGSFpDZGt4cWVhRENjTU1nakVsNDJPNmNoT3Jpb1FaeDd3YWh6YnVEREVGU2VBcFJvZGxYUldSNTAySGg5c0RIZzF6eGxLU0hrbGlmOUtxSUZOUk9SMmVZbXpVTVZfdFJmVVM2SUNRQmh0a2I2RV8tWThNRFh6ZjcwOXRQWVF6SVhsSFp6c2lDU2I3LV8?oc=5",
-          "published_at": "2026-03-25T07:00:00+00:00",
-          "snippet": "Ashoka Buildcon Invests Rs.4.00 Crore in Wholly Owned Subsidiary Viva Infrastructure scanx.trade",
-          "lexical_overlap": 0.176,
-          "relevance": 0.281,
-          "matched_terms": [
-            "crore",
-            "infrastructure",
-            "rs"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "crore",
-            "infrastructure"
-          ]
-        },
-        {
-          "id": "b1936c10e2bd69b6d6",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "bfsi.economictimes.indiatimes.com",
-          "source_url": "https://bfsi.economictimes.indiatimes.com",
-          "title": "Insurers’ investments cross Rs 78 lakh crore in FY25; life insurers' equity investments up by 20%: IRDAI - bfsi.economictimes.indiatimes.com",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPV0xlLUszZ2p3YVFNV1ZZX2ZVYnVDQl9wR3VueWc0aFRKY2xHVS0xM09QS0lRbU5VaHBoRm9vU1FvTTBTRlF0clZveXk5NThaVXdvTVBhaERkXzFLZUluWl9xLURhc3hHQjVHSjN4ZWNIc08xY1U0YW9kMTZGQnZzU0lYNml1SWJFUk9rVnZyTEpfcHJWRHB1eTNqMXBjcWN5RXJJUk9VV2tuWHpRTnBqT1ZseHBmQzVJc0JEeHV4UndJYjd4UHltYXVfRHdBV0lGc29aTVY1YW9wY0FCTmNZLThVV3ZEdTZlVmxYamRHOFh3Z9IB9wFBVV95cUxPRkgzNlJUT1R6WThnWUI4dmNmMUg5cFlKRElPQl9xOEFrQzJNY1pHSWdZVnBmelNMaE5SX0xSaUZ5dTgzbWdnZUY2WWxyRFRuMnhnUnVlallPeE9sYzU5eEdpZnpXcmMxbEU3eDFLUm53XzU0T1dwaWhnN3Zsb3ZpZkx2MDBpVFB2TTdXaE9mZEp3ZjFSLVkyaFZQRXFydm5QV3JpeXppSWFoTnRhS1ZhdllPVnhIZjBqa2U0Q21DSEpUTUYxZHdEX29ubW9ta1IwUTBlRkZfemRQVUhwSE01Yjd6ZC1IMTJqMXlWVGg4SVFGR1ZJNnJV?oc=5",
-          "published_at": "2026-06-11T07:00:00+00:00",
-          "snippet": "Insurers’ investments cross Rs 78 lakh crore in FY25; life insurers' equity investments up by 20%: IRDAI bfsi.economictimes.indiatimes.com",
-          "lexical_overlap": 0.15,
-          "relevance": 0.255,
-          "matched_terms": [
-            "crore",
-            "lakh",
-            "rs"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "crore",
-            "lakh"
-          ]
-        },
-        {
-          "id": "1b73687781f96c04d3",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "PM India website",
-          "source_url": "https://www.pmindia.gov.in",
-          "title": "Cabinet approves the proposal for increase in authorised capital and equity support to India Infrastructure Finance Company Limited (IIFCL) - PM India website",
-          "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOZng2UkFfSlFEXzZjWG5pdFFyaFF0bzY5bU5Samp6aXBNa2tlVTJVd19wU3d0RXM5UWVfOGRIWXNhMElsMm9aSFdYZG1pZ3ltOGoxNGZTdmh0ZjNfZDg5SGxFNWNGWUdiNlpOOWdLQ3djLXFqbXFnVmU1R3Q2YUZ5azNfS3N0SVRMWDA1V0ZkbG44d0k1UkN4b05lUTVlOGsxRkwzbktualg1S1E1QkNsWlJaOGQwMXhtdnRodllPS0swZ3Bvb1dBbnZVUDUyakc3S3c4Um5kaTl6WGJUSUwyeFVqeThfemlELWQtb1RIOHV1RGJkOGt0ZHVpVy15NTRtNHFVdWt4WkIyc0UwNlE?oc=5",
-          "published_at": "2019-12-11T08:00:00+00:00",
-          "snippet": "Cabinet approves the proposal for increase in authorised capital and equity support to India Infrastructure Finance Company Limited (IIFCL) PM India website",
-          "lexical_overlap": 0.095,
-          "relevance": 0.165,
+          "source": "ET Infra",
+          "source_url": "https://infra.economictimes.indiatimes.com",
+          "title": "Renewed capital Investments push for infrastructure: Higher allocations for rail and road sectors in Budget .. - ET Infra",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQZGhxbW80MXNKVEJOVlVrX3lhS0ZBWXJFNFpybFVRS2o5T2tadFlmMks2TlNKcVY4OVJMME9KYVZmSlNoNFdpRXdPNzA5bGdDSHlWOXN6VzJIM0xkeTBzTndZTzY5VE9CT215VzFWWU05OUFRZDFubUZEZ0d6NFJ1MEs4Vl9RSG5faHFCOEt0c09iMF9feUhmRGZTbERPaGlYdmYycFRVdUdHazhCMFFWT1VSODVYSFZWbTdmLVZ6dUszRjVCRV9Zb3ZGVURFS0Z1b01VejZUclNoa0dqeEpISEtibjk0RDFzLThB0gHwAUFVX3lxTFBRVG1fTFRfcmJKVTNTSGQ2YllIanJEY19UR1lFRTVKOXRGTjZnckdkOFF6SGMzSW5sVGc3ODFEc3lTM1lfVmZPTXNib0N4WDA0WXR4SWx2Qlp3bWl3N3g4S0dEV3V1TUdnU1ByRWxWbk02TzRMQWNwQzRrSEJ1bXlIVTNfMWlrRXlwRFVRXzB6NEtqYTVBb01DNmd4UVpTNzNVX1dJQzdfUEw1NmlydlRvV1hmcHFFd3dRaHZQc24xdGZuekRybVVFYXFJSE8yZXVHQnRTOG1qakMxWjVSVld6U2lmY1hGT2J1bnNQZ1MyTw?oc=5",
+          "published_at": "2026-01-14T08:00:00+00:00",
+          "snippet": "Renewed capital Investments push for infrastructure: Higher allocations for rail and road sectors in Budget .. ET Infra",
+          "lexical_overlap": 0.105,
+          "relevance": 0.175,
           "matched_terms": [
             "capital",
             "infrastructure"
@@ -45424,7 +45366,7 @@
           ]
         }
       ],
-      "implementation_signal": "current_reporting_found",
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -45520,8 +45462,8 @@
       }
     },
     {
-      "id": "c5e69a3756170e9626",
-      "checked_at": "2026-10-26T13:37:33.370328+00:00",
+      "id": "eb150e7230bf971d77",
+      "checked_at": "2026-10-28T06:21:23.755275+00:00",
       "promise_id": "BJP-2019-bb73879bdf962a8174",
       "year": 2019,
       "category": "jobs_economy",
@@ -45546,81 +45488,54 @@
       "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
-      "query": "10 2032 trillion economy implies commit",
+      "query": "2025 10 trillion economy implies commit",
       "evidence": [
         {
-          "id": "a368ff571bde4fee98",
+          "id": "e6c8e2e37cf1f20834",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "CMO Gujarat",
+          "source_url": "https://cmogujarat.gov.in",
+          "title": "Gujarat committed to achieve Prime Minister's vision of making India a 5 trillion-dollar economy: Guj CM - CMO Gujarat",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPV0cxbnF2TWRQbmxSaEc3ZXY3RDVOTjl1QzZHV3I2czJTUFFMUVNZZ0tVSHZkNHVEemRNS0ZaMk53WkdJcGJiYXdoWHFlUG1sY0N1UDVNb1E5dHAwaXBPQi0zQzZteTM3OF9fZi04YW1McDhrbzQ2ZEs1MFZSYkcwdlh0czMtQUltVk9FNldaQ3hZR09nQ1BGbExvbkNwYXFxelJSbnBnUUtMYVZfRHF1dTlWOFV0dVJJRU9QQ19NUmtVdERBbGNr?oc=5",
+          "published_at": "2022-05-10T07:00:00+00:00",
+          "snippet": "Gujarat committed to achieve Prime Minister's vision of making India a 5 trillion-dollar economy: Guj CM CMO Gujarat",
+          "lexical_overlap": 0.067,
+          "relevance": 0.262,
+          "matched_terms": [
+            "economy"
+          ],
+          "shared_numbers": [
+            "5"
+          ],
+          "promise_core_overlap": [
+            "economy"
+          ]
+        },
+        {
+          "id": "affa188c238f8c3666",
           "scope": "news_search",
           "tier": "secondary",
           "source": "The Times of India",
           "source_url": "https://timesofindia.indiatimes.com",
-          "title": "BJP promises to lower taxes, make India USD 5 trillion economy - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNVmxkWUJSdHdvYW44bk1uQ2dOWXJyaGdXVlRDNEFjLUxaeXhXV1l1SmREUUU2TlZkTXBUZ1VLOGpVSVRQWHk3LVUtWTJHOWtFajNuczJYQ3E1ckN6WUZvZE9FWnl0UG1Ia0RieTVfM1k1azFna1pBQ0xMT2NqMm9ydi1xZl9ic1Vad0ZTbWNSU1U1VGUzaXJlNXI2cEVfbGZIS0NYTXV4NVdFOFdkX0s0eEdWNV9LNGpuNlJZNG9RbE9JQXdQaUhDZFlqTll5ZFRKTXBrNHYwaFpweXRwelNN0gHkAUFVX3lxTE9WSTNOaE5PNGNTYjhOeEttbWV4SS1oNF9tZzJ0LWxQTTUzZmRldjhqRmJCaHJVcUlfOVE0bHBORFEtaXZxelNxLTJaLWFlNmFNcTJqQlhfXzdTUE94MnFpS1J1SllyTGl4M1dIRW1wNDRCN1BQNXFNRDZWSmFqTk04bmtOekxOamtnbDlVdFluUC1FdnZGaXNhS1BIN1E5UlVYMXNtUlVjek5hU19FQ2tjVktaaW9RY3NaSXd0WS0xZmoxVEo1Z3l0dlFaV210TlFPSlU3bjNxLVU0V1Uwb3FFU2pVeQ?oc=5",
-          "published_at": "2019-04-08T07:00:00+00:00",
-          "snippet": "BJP promises to lower taxes, make India USD 5 trillion economy The Times of India",
-          "lexical_overlap": 0.273,
-          "relevance": 0.488,
+          "title": "India's delayed $5-trillion dream: What IMF’s new timeline means for your wallet - The Times of India",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOX3lWQUlmTkh6VEJ2dkFVQ0dPMWJOeWJ5OGU5aWs4QkhrdkJiSjJfMDVjVzR2eHBRVXR2RlBleFptbmVqWEI2czlhQnNmZmg1eWg1NTBwVGlEVTMzVnRJRmlBRVdRZU90N2lvOThQNlg4WjdNbG5vRnZYYzlYWjYtWHJtaWR1dHZNWlJxeHhFSExicmVMN2RCXzJxUnpBZnpfbnlUVEhmMkM4Q04wbzNjckVvQlVpUGxKZEFySkx0NjJXOXlub2s1QTc3a0FEY3dfVzcydUVPN0lld0EtUXNLTWJKNVFkZjYwMnlhLXFadlliTHpGUG80dVJ3?oc=5",
+          "published_at": "2025-12-19T08:00:00+00:00",
+          "snippet": "India's delayed $5-trillion dream: What IMF’s new timeline means for your wallet The Times of India",
+          "lexical_overlap": 0.067,
+          "relevance": 0.212,
           "matched_terms": [
-            "economy",
-            "make",
             "trillion"
           ],
           "shared_numbers": [
             "5"
           ],
           "promise_core_overlap": [
-            "economy",
-            "trillion"
-          ]
-        },
-        {
-          "id": "3a0a054eac146cff32",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Hindu",
-          "source_url": "https://www.thehindu.com",
-          "title": "BJP releases election manifesto; promises Ram temple, firm hand in dealing with terror and a $5 trillion economy - The Hindu",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOT3FIaml5Qk5sU2VzczgxV2c1RlNpWXFUSzZ3MndqRWQ5M0QyS1hZN2tJLXZ1alA1S0xHMXlRN2Q5ekh3aUV2SkJ3SENCeXNVR2xVM25Ta0J3OUZoSElyZ1psLXVvZm1fdTZoMzYwemd1djlfVG83dUJYYjVRZnVOX3lNNjVhbGpibVo5QXFjdjN6N0hmY3gyNl9ZTXJXWlBPbEVwSjdFV19Ma3NFRHUzclJjck5JZGkwb2xHWnFYTWhEOXlDVDJiRlZIazPSAdMBQVVfeXFMTUw0bnZ3Z0ZKT2ZfV0lGTzIzaDdlZ2VZbnl6cTBmYmk2TUdhbVNTRG1Lak1kR05BRll2SVQ3LWROQ2RYUFl2aXF0bTBmTnhfWWpjSnQ2S0tnX3Jpc1N0blFLOVdkLWo1RDRPd1hNOGZxRWJNcWtHb2JFUzFtQU8wYWFOMWlzcXc2ZTk5YW1RZ2lmOTFQNGNEaXZMUWduNDNwUmtZN1kzQUNQZFkybTB1Mm9TMHk3d3U4ZG1NRzlsNEhaamVGM2h1ZjNka0pLUEhJWURZYw?oc=5",
-          "published_at": "2019-04-08T07:00:00+00:00",
-          "snippet": "BJP releases election manifesto; promises Ram temple, firm hand in dealing with terror and a $5 trillion economy The Hindu",
-          "lexical_overlap": 0.118,
-          "relevance": 0.298,
-          "matched_terms": [
-            "economy",
-            "trillion"
-          ],
-          "shared_numbers": [
-            "5"
-          ],
-          "promise_core_overlap": [
-            "economy",
-            "trillion"
-          ]
-        },
-        {
-          "id": "59d7724701b319feea",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Times of India",
-          "source_url": "https://timesofindia.indiatimes.com",
-          "title": "Indian economy to grow by $1 trillion every 1.5 years over the next six years: Report - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOLVR1Uk5aVmhsSk81RjNfLUJ6WDZiMmdscmhPdmdIVmY2cmxJMThnUmwxaEFOSkFweDRqNTlQQ21iZXFVUUVLTjBOR1Zwa2NYeU1jYnQzS3BlYmNwdlNWVGV2MkFzYUR1U0NoLTVuZ0x4VktYT1RsM1pmcExQbEd0MlVLYjg1STdtTFVleW1oTTZJeVZYRjRMbXFJQWl0Q3QzZTVZZEtXSXFfNkhHY2RhRUNqTVU1bGpsOVZnLUdkbFpGVlllcVdnc1hsTVc5c3lJakF1ckZ2U1c4azZsZV9SOHlkVlo2QUZRZlA2WExhOU53LW10dER4NVVRbFpPQdIBgwJBVV95cUxQdnM3aVhrQ0pjNEd1THFzb0tTT2w1elFENEtGUTBZNjEwRTRHLW05ZlRaR1VLYWVjOHk4WFo4UmN4ZDhMRHBLT2ducGlfMElzX01VNFVLQV9xQlJqdGM4dm1xM1NuaS1YUWxURFhvUUNsTm9iMmRiSXBzRFUzdDhDcEJZdEdQLUVkZlhtLVRLNVpyNzUxcWNtSFFPVzBFZTV0V0x2bnVpX05EV2Y4R2ZiemhGbEstY2hqWGJUYTlaNDdNMlBVbVl5OWpKZ2s4Ym1COTBCM25nNG90cUJTVVF5eW14Rm1QaHRqMG9EVFRicE9acnJ2cXYxdzJnMHN5SWU4UFdF?oc=5",
-          "published_at": "2024-09-21T07:00:00+00:00",
-          "snippet": "Indian economy to grow by $1 trillion every 1.5 years over the next six years: Report The Times of India",
-          "lexical_overlap": 0.167,
-          "relevance": 0.237,
-          "matched_terms": [
-            "economy",
-            "trillion"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "economy",
             "trillion"
           ]
         }
       ],
-      "implementation_signal": "current_reporting_found",
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -46511,8 +46426,8 @@
       }
     },
     {
-      "id": "c462d22b3250a9aaf1",
-      "checked_at": "2026-10-26T13:37:48.120346+00:00",
+      "id": "da6be9f7696ee32467",
+      "checked_at": "2026-10-28T06:21:44.796465+00:00",
       "promise_id": "BJP-2019-4357cbd85941615f63",
       "year": 2019,
       "category": "education_skills",
@@ -46541,7 +46456,7 @@
       "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
-      "query": "100 20000 crore stafiups stafi-ups innovation entrepreneurship initiating",
+      "query": "20000 500 crore stafiups stafi-ups innovation entrepreneurship initiating",
       "evidence": [],
       "implementation_signal": "needs_research",
       "status": "pending",
@@ -46817,7 +46732,7 @@
     },
     {
       "id": "eef6378e24d579898a",
-      "checked_at": "2026-10-26T12:58:20.296848+00:00",
+      "checked_at": "2026-10-28T06:21:08.511535+00:00",
       "promise_id": "BJP-2019-4880beb785c0e363dd",
       "year": 2019,
       "category": "infrastructure",
@@ -47979,7 +47894,7 @@
     },
     {
       "id": "0b7f6764d3703262bc",
-      "checked_at": "2026-10-26T12:58:09.545153+00:00",
+      "checked_at": "2026-10-28T06:20:59.396843+00:00",
       "promise_id": "BJP-2019-0a3bfba9651e13130f",
       "year": 2019,
       "category": "other",
@@ -48016,13 +47931,13 @@
       "query": "next five trains expand connectivity experience",
       "evidence": [
         {
-          "id": "10385f2b3a46d79bcf",
+          "id": "091001513d4adc29a1",
           "scope": "preferred_official_search",
           "tier": "primary",
           "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
           "title": "Prime Minister flags off five new Vande Bharat Express trains from Rani Kamalapati Railway station in Bhopal - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBHUGNZb1l0VTZxYklmUm5ZcFpfTldHTWhVa2FRZFRXaGtXMXB1TzJQb2paX25TMklXYklzSWFtQXVRVTY0TjIwaVVMMnc2WXdQakNyb2FHWW1aeXpSYS1ndW5RTjBFbEVV?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBSTzBvRHoyM2h3WVBTRlZveG1IbFNoMFY4YnRTVzdhRU42SmVjNFkwT19LOTQySUdCeE54NDNjOTFlbWx2al96V2VHdHZHbXE4Nm1sejROektUdXMtVlh4Q1VoQ2pCN0I1VVA0WjdNbTU?oc=5",
           "published_at": "2023-06-27T07:00:00+00:00",
           "snippet": "Prime Minister flags off five new Vande Bharat Express trains from Rani Kamalapati Railway station in Bhopal Press Information Bureau",
           "lexical_overlap": 0.182,
@@ -48038,28 +47953,6 @@
             "express",
             "five",
             "trains",
-            "vande"
-          ]
-        },
-        {
-          "id": "1a16748d670a8aeadf",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Vande Bharat Express: Modernising Inter-City Rail Mobility in India - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1fNlVCVlFfRTFzX2Q5V29hRUlOc3pTWk4zSjRKMnp5ZlBnWFZHbDFmalpXTU11Y3djeFladDROMW42cWxub0p5QXA0b1hibzFNNzlodm5qX0ZadXZDRlVOUl9qZTM1WjYy?oc=5",
-          "published_at": "2026-01-16T08:00:00+00:00",
-          "snippet": "Vande Bharat Express: Modernising Inter-City Rail Mobility in India Press Information Bureau",
-          "lexical_overlap": 0.105,
-          "relevance": 0.225,
-          "matched_terms": [
-            "express",
-            "vande"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "express",
             "vande"
           ]
         },
@@ -48084,9 +47977,79 @@
             "trains",
             "vande"
           ]
+        },
+        {
+          "id": "69146b6b9b791bd14a",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Indian Railways to Run 1,500 Special Trains Over the Next 5 Days to Cater to Chhath Festive Rush; Safe and Comfortable Travel for Passengers is the Focus - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBkUG1YMjdYcWNVRDNPaUw2ZTBxeWpueHI5RWJodE9PRHRkeFNmRHZUZ2VPOF9wUk1YQUExRnFHZmVhTGpXZjd5ZWlpNmtjdTFfN3lEb0VmZ2VHQmE3WkgyQjZvazA1Mm1N?oc=5",
+          "published_at": "2025-10-22T07:00:00+00:00",
+          "snippet": "Indian Railways to Run 1,500 Special Trains Over the Next 5 Days to Cater to Chhath Festive Rush; Safe and Comfortable Travel for Passengers is the Focus Press Information Bureau",
+          "lexical_overlap": 0.077,
+          "relevance": 0.197,
+          "matched_terms": [
+            "next",
+            "trains"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "next",
+            "trains"
+          ]
+        },
+        {
+          "id": "2c60c8e5ec0e11d83c",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The New Indian Express",
+          "source_url": "https://www.newindianexpress.com",
+          "title": "Union Minister Vaishnaw announces 60 next-generation Metro trains for Kolkata over next five years - The New Indian Express",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOcDMtcmU4bTdkNnp6R3ZobnJsbjU5SnQwNjFBalNLRlFIUlpWakpwYmtEWmt6aUxuYjF5V0FQX2oxY0x4UEVKOEwxdm1nVkIxeWsybVptR2ZlTE9hZmVWOXhwV3NFR3UzVG9sdE02QXBLVGlCMDFmUXBJOFpYcTd6ckZpMWZEeXdkNll6LWUyQUFYN2pDOWc5dGMyU3RnaUhqWWRqXzY1VVZma0s0X0lLT05GLW52elZBQjlVMWVOa3F6cnQxUzUtQUtUWlgyM25XZkJ2c1FQc0NzNy1DdzBGZkhMWVFZOW5jLTZJclJFRFNPeHg40gGCAkFVX3lxTE9peVFKd0V4bmpISkVsTjkwbjNpaGppWEQ5OXpLNERjVzhhazFMYUdWc0xvZUtEQkZBNFlnMTNKdE9RUTgzUURmZnpReENrRnp0V2JxcWcyVm5Rakhzc3pQaTNORWROVERhckh3eFl0VzJlaXJNLVlxWnRxb1B1bkVzNGF2UUljajZaZVpGY2hnTzZrempmb1hfMXR4Snd1T3N1Ti1NQ044b3E4UWZzaEhJS2pzWDZmZVRId281czJ0MGVxVmFpRjJ5WWlqelJaSlhCVE5sV19XVERtOExrdUdqbnpCcV9waWM0ZGJ0c3NKRW5Ga2c3UXptTktHa3ViSHRaQQ?oc=5",
+          "published_at": "2026-06-06T07:00:00+00:00",
+          "snippet": "Union Minister Vaishnaw announces 60 next-generation Metro trains for Kolkata over next five years The New Indian Express",
+          "lexical_overlap": 0.222,
+          "relevance": 0.362,
+          "matched_terms": [
+            "express",
+            "five",
+            "next",
+            "trains"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "express",
+            "five",
+            "next",
+            "trains"
+          ]
+        },
+        {
+          "id": "8353f2c821eb02c3e3",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Vande Bharat Express: Modernising Inter-City Rail Mobility in India - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1fNlVCVlFfRTFzX2Q5V29hRUlOc3pTWk4zSjRKMnp5ZlBnWFZHbDFmalpXTU11Y3djeFladDROMW42cWxub0p5QXA0b1hibzFNNzlodm5qX0ZadXZDRlVOUl9qZTM1WjYy?oc=5",
+          "published_at": "2026-01-16T08:00:00+00:00",
+          "snippet": "Vande Bharat Express: Modernising Inter-City Rail Mobility in India Press Information Bureau",
+          "lexical_overlap": 0.105,
+          "relevance": 0.175,
+          "matched_terms": [
+            "express",
+            "vande"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "express",
+            "vande"
+          ]
         }
       ],
-      "implementation_signal": "current_primary_evidence_found",
+      "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -48343,7 +48306,7 @@
     },
     {
       "id": "1e0abc9f94016f3c7a",
-      "checked_at": "2026-10-28T05:39:16.147086+00:00",
+      "checked_at": "2026-10-28T06:20:44.659686+00:00",
       "promise_id": "BJP-2019-2af396deaf778cac73",
       "year": 2019,
       "category": "infrastructure",
@@ -48428,7 +48391,7 @@
     },
     {
       "id": "4af70c5cc4e5dd31ea",
-      "checked_at": "2026-10-28T05:39:21.779712+00:00",
+      "checked_at": "2026-10-28T06:20:49.303088+00:00",
       "promise_id": "BJP-2019-34c03859f07f1329c5",
       "year": 2019,
       "category": "infrastructure",
@@ -48479,15 +48442,15 @@
           ]
         },
         {
-          "id": "b1ffee8e6f47df9c63",
+          "id": "3ca72531dcd6516972",
           "scope": "news_search",
           "tier": "secondary",
           "source": "Urban Acres",
           "source_url": "https://urbanacres.in",
-          "title": "Dedicated Freight Corridor: India’s Rail Network Enters a New Phase - Urban Acres",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMk5QWk5iWGdfeTh1a2tqUTVBeHk4N0lPLXlyTkpMWWtsRDRldHZkUHFSQmQ0cUozUVgyR09MQV9od2dTTWFOY0dlNUFFeFNfY3ZPWmNZdVFYZWtsUW9pY0dqV3RxUjN6TjUwaS10MU5CWEs0ZUJ6R0dsWkxrX3J3a2N2bEFhN2JCNEdBZTZBdExydw?oc=5",
-          "published_at": "2026-09-14T07:00:00+00:00",
-          "snippet": "Dedicated Freight Corridor: India’s Rail Network Enters a New Phase Urban Acres",
+          "title": "Dedicated Freight Corridor Network Now Fully Operational - Urban Acres",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNT1RGZ3paMlFlUGpFRmRqekp3ZVNJaE11SFRCVDl3UGl2YXZOY3d3VUpDM3BuWnljRlMwXzhiWThEdDBaNzZpY3ZCaGQ1VzlYVzMyOWxfTm91em5fdFhkRGxjOGhZbmFMYnJBVWJ3ZlZkSXNDMHNkd2RGai1ZMThUczRzdnZNRTZ3UlJXT21Ka0hoOERjdVE?oc=5",
+          "published_at": "2026-09-08T07:00:00+00:00",
+          "snippet": "Dedicated Freight Corridor Network Now Fully Operational Urban Acres",
           "lexical_overlap": 0.231,
           "relevance": 0.336,
           "matched_terms": [
@@ -48606,6 +48569,28 @@
           "snippet": "Dedicated Freight Corridors Strengthen India’s Logistics Network https://www.usthadian.com/",
           "lexical_overlap": 0.133,
           "relevance": 0.203,
+          "matched_terms": [
+            "dedicated",
+            "freight"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "dedicated",
+            "freight"
+          ]
+        },
+        {
+          "id": "94f0d80ee7b7908961",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Vajiram & Ravi",
+          "source_url": "https://vajiramandravi.com",
+          "title": "Dedicated Freight Corridors, How They Cut Transit Time and Boost Rail Freight - Vajiram & Ravi",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5YNmx2WWxLTXRwU09nRzNtVEVfUkVKZ1dxZWNjZWhneHFNbWlLZXhnRjhxc1R3ZjQtSUt6NlhELXM0RU9oMVJZN1haTmVlM1VrWUxaUUxINE90a0dJaFR2NHJvOVMzRlFzNEZrcnpLdk44V1dQOE5vSi16UQ?oc=5",
+          "published_at": "2026-09-09T07:00:00+00:00",
+          "snippet": "Dedicated Freight Corridors, How They Cut Transit Time and Boost Rail Freight Vajiram & Ravi",
+          "lexical_overlap": 0.125,
+          "relevance": 0.195,
           "matched_terms": [
             "dedicated",
             "freight"
@@ -48960,7 +48945,7 @@
     },
     {
       "id": "da7b6e606e38a631dd",
-      "checked_at": "2026-10-26T12:58:29.904863+00:00",
+      "checked_at": "2026-10-28T06:21:16.233905+00:00",
       "promise_id": "BJP-2019-8cf9ad863bbbd844fa",
       "year": 2019,
       "category": "infrastructure",
@@ -49007,28 +48992,6 @@
             "gauge",
             "rail",
             "viable"
-          ]
-        },
-        {
-          "id": "a5863518dcf9d09fad",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Trains Magazine",
-          "source_url": "https://www.trains.com",
-          "title": "European proposal to change rail gauge in Finland causes debate - Trains Magazine",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUnBfZHo3RzBXX3VLTkRDeTkwemdycFU0OHBlRl9VazJHYnhFVERVeFRZT3JDeTNMUWItU1FCSHpLdFlrelJudkQzU2t0M2pFemxaVnY5T0N3M0lmZC1uLVBjTHhfOUM4SW9QT2ttUktZUHh6cDJENHFSNTh3ekd2bWxDNlBnZi1NUFVWYllOdzkxNFlBbF9pclR6MUp5M1J1OWh5ZHpEUXJSUTAxMUNQTnhTa1I?oc=5",
-          "published_at": "2022-08-16T07:00:00+00:00",
-          "snippet": "European proposal to change rail gauge in Finland causes debate Trains Magazine",
-          "lexical_overlap": 0.133,
-          "relevance": 0.203,
-          "matched_terms": [
-            "gauge",
-            "rail"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "gauge",
-            "rail"
           ]
         },
         {
@@ -49155,7 +49118,7 @@
     },
     {
       "id": "2ecfae5819ee71d53f",
-      "checked_at": "2026-10-26T13:37:45.230862+00:00",
+      "checked_at": "2026-10-28T06:21:42.226692+00:00",
       "promise_id": "BJP-2019-ef33a7d088ac1f9530",
       "year": 2019,
       "category": "infrastructure",
@@ -49201,36 +49164,17 @@
           "promise_core_overlap": []
         },
         {
-          "id": "4cf18348660465a82d",
+          "id": "0f44e0db9c1b005be3",
           "scope": "preferred_official_search",
           "tier": "primary",
           "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "Jal Jeevan Mission: State-Wise Planning Exercise Begins For 2021–22 - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1CbFFMTGg3NW1fZUZtY1hFTzlZRXFILXJMcXNYb1ZRajQyNDVtUFRxd2pBcGpYQ1FiVURPUllacFlzd0RUT0x6VGRMVGFWNmRlUHVkY1hPLWRvQXhQaWxPTDZaeGhUUFNSazlqd0xfR1c?oc=5",
-          "published_at": "2021-04-08T07:00:00+00:00",
-          "snippet": "Jal Jeevan Mission: State-Wise Planning Exercise Begins For 2021–22 Press Information Bureau",
-          "lexical_overlap": 0.1,
-          "relevance": 0.22,
-          "matched_terms": [
-            "jal",
-            "mission"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": []
-        },
-        {
-          "id": "3e5c8ebcad3e9d9210",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Jal Jeevan Mission: Ensuring Tap Water for 15 Crore Rural Families - PIB",
+          "title": "Jal Jeevan Mission: Ensuring Tap Water for 15 Crore Rural Families - Press Information Bureau",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9nM1pWZ0lscDlES19uMWFmZ0FsRzdBZ0FtSkJpZTF0V1RReFZuMW9nM1BmTkdyOWtBR1Z0VjQxbndEb3hkVEN2N1FucTBRWVBfX2tOVWNLNGRPckRBQ1N2Ui1qSlZ2Z0xT?oc=5",
           "published_at": "2025-02-01T08:00:00+00:00",
-          "snippet": "Jal Jeevan Mission: Ensuring Tap Water for 15 Crore Rural Families PIB",
-          "lexical_overlap": 0.1,
-          "relevance": 0.22,
+          "snippet": "Jal Jeevan Mission: Ensuring Tap Water for 15 Crore Rural Families Press Information Bureau",
+          "lexical_overlap": 0.091,
+          "relevance": 0.211,
           "matched_terms": [
             "jal",
             "mission"
@@ -49283,35 +49227,15 @@
           ]
         },
         {
-          "id": "4ffa5af0c477edadd9",
+          "id": "366f167e05b157b0c0",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Deccan Chronicle",
-          "source_url": "https://www.deccanchronicle.com",
-          "title": "Naidu to Launch Rs.30,000 Cr Jal Jeevan Mission 2.0 Works - Deccan Chronicle",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdmRsU2FVaVJyMlFVb2xaOE9Ed1FKVjNFYWFha3ViS1JJSEZ1QzM4VmxGc3hneXpvR3o4VFQ5NXRFQkNHVld1dndDbWhSTnJtZ0tIMFh6ajl3TXFUQjg3dWtTeUo1VDA4VGpDRjRxQjhsYzFvRFNjUThMV1ZINFp5TWhtRmdlMk9ZUHJqS2ZKQlJvRjlYZnlraDBsQVNadjh5bzJBVDFoVkRCMG1lbnFoa3JOVFM1Z01HYnpESjNOME5ha1XSAcgBQVVfeXFMT3NTcDBIYTcyNzRkVnpvTWVHTFBLX3dFTkRKbDA5aE8ySEZjX25pQVVXcmR3djVxcHF5ZEhxaUhvZFpvMTdyQjVWS3kxaUNId2xvTDBYbmoyS3g1bTNqaEtyaU1JZlVVTmxCY3dTTEphV3FnNVFPRzFKTHluZHc2clZlekNUeDIwM0hXWWQ0OTN4TFR2VkoyRUl1MUFfUXpWY1h2V1pLeW1JLVBtVDVzb2gweGxEalNiOVgzcFZ6eVNhekpHTFJpeW0?oc=5",
-          "published_at": "2026-10-05T07:00:00+00:00",
-          "snippet": "Naidu to Launch Rs.30,000 Cr Jal Jeevan Mission 2.0 Works Deccan Chronicle",
-          "lexical_overlap": 0.158,
-          "relevance": 0.263,
-          "matched_terms": [
-            "jal",
-            "launch",
-            "mission"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": []
-        },
-        {
-          "id": "18c6c987c65243988a",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Swarajyamag",
+          "source": "Swarajya",
           "source_url": "https://swarajyamag.com",
-          "title": "Jal Jeevan Mission: Assam On Track To Achieve Target Of Providing Clean Tap Water Supply To Every Home By 2024 - Swarajyamag",
+          "title": "Jal Jeevan Mission: Assam On Track To Achieve Target Of Providing Clean Tap Water Supply To Every Home By 2024 - Swarajya",
           "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPMVRVSGJBV2ZWRVdXbVhuQzNCYlhOZHlHTU5HVWliOThoNk1JUVMza2hvZ0FNcDNQTmctS2JlZkIzc0MtTFNMVlRoOVRTUU9RNDJ4dW1OYXVocGxzR3E0a0JDVGJodXFCdFh0eHIwc3dpa25SYjMySEVHVmFjU0JWWlNOYmZvc3dueFltSE1uTXBCX2xnREY3NkFuenpaZTkwWl8wanhrcVJQQ25tZGhPSlBLRnZfd1ZEaUxreTR1dWp6OEkxTy1yazZWN0ljWkQ2SmY1TUVldHRObk1B0gHsAUFVX3lxTE1fVlctTmNmZkJteHgybmU0WXJYZVJXR3VFVmJZem5MY1JCQWVTSEp1WUQwY2kzQ2xzZy13dkwtZm5GbEVxdzdlbUtSR3FwRnJ2MVNJRWFZVVFXSnRSUXVjMHVGQ1dXQ2NPNTZ1OVc5bVVTTlhvbDF4bG5FbVp1M2Rkb0kyM1dmWWstNmszZzAxOXhURUh3SWlXOVdZSUhWWlIxbVdNVld5QVBRekxVMzZBcERQQ3hQdmZNZjZ4c3I4ak1kNlN1b21mUktqY3dWTkYzaktiOTgzNU1Cb2xrTDBoT2ktMWxmQ29IU2ZG?oc=5",
           "published_at": "2022-01-19T08:00:00+00:00",
-          "snippet": "Jal Jeevan Mission: Assam On Track To Achieve Target Of Providing Clean Tap Water Supply To Every Home By 2024 Swarajyamag",
+          "snippet": "Jal Jeevan Mission: Assam On Track To Achieve Target Of Providing Clean Tap Water Supply To Every Home By 2024 Swarajya",
           "lexical_overlap": 0.08,
           "relevance": 0.26,
           "matched_terms": [
@@ -49358,6 +49282,25 @@
           "snippet": "Jal Jeevan Mission Press Information Bureau",
           "lexical_overlap": 0.125,
           "relevance": 0.195,
+          "matched_terms": [
+            "jal",
+            "mission"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": []
+        },
+        {
+          "id": "725d3585eee4e5b1f5",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Vajiram & Ravi",
+          "source_url": "https://vajiramandravi.com",
+          "title": "Jal Jeevan Mission (JJM), Objectives, Achievements, JJM 2.0 - Vajiram & Ravi",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5WTS1HdzAxZ3NfRDY0NTNWemxPbFZkS3A0NFdtZHI3SmVuWEtsSVJsdUNrNDFaVmh1QnVJTWxDZ3ZzU0tHRWVXazMwcmRJQ2IyQXRyUW9mVXdhS29uaUdGcFBJdk11VGc?oc=5",
+          "published_at": "2026-10-26T12:09:37+00:00",
+          "snippet": "Jal Jeevan Mission (JJM), Objectives, Achievements, JJM 2.0 Vajiram & Ravi",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
           "matched_terms": [
             "jal",
             "mission"
@@ -49505,7 +49448,7 @@
     },
     {
       "id": "28f131b6a144585a8d",
-      "checked_at": "2026-10-26T12:58:12.425779+00:00",
+      "checked_at": "2026-10-28T06:21:02.104525+00:00",
       "promise_id": "BJP-2019-226d3883fc83caaf60",
       "year": 2019,
       "category": "other",
@@ -50082,7 +50025,7 @@
     },
     {
       "id": "2a01402e5ae47a6d1f",
-      "checked_at": "2026-10-26T13:37:37.566882+00:00",
+      "checked_at": "2026-10-28T06:21:35.619290+00:00",
       "promise_id": "BJP-2019-c6ff9fa383795361bb",
       "year": 2019,
       "category": "other",
@@ -50317,7 +50260,7 @@
     },
     {
       "id": "46c72402fa9fb6c7dc",
-      "checked_at": "2026-10-26T12:58:13.846607+00:00",
+      "checked_at": "2026-10-28T06:21:03.380113+00:00",
       "promise_id": "BJP-2019-25c5846c0dd73a8b30",
       "year": 2019,
       "category": "health_welfare",
@@ -50664,7 +50607,7 @@
     },
     {
       "id": "93bb9754ab7125c8f1",
-      "checked_at": "2026-10-28T05:39:26.140412+00:00",
+      "checked_at": "2026-10-28T06:20:53.336302+00:00",
       "promise_id": "BJP-2019-6013bbae5c9fbd8c5a",
       "year": 2019,
       "category": "women_social_justice",
@@ -50728,7 +50671,7 @@
     },
     {
       "id": "1d1782ad81aa54afcd",
-      "checked_at": "2026-10-28T05:39:28.028044+00:00",
+      "checked_at": "2026-10-28T06:20:55.196273+00:00",
       "promise_id": "BJP-2019-63e2ccda189fa85e2c",
       "year": 2019,
       "category": "health_welfare",
@@ -53032,7 +52975,7 @@
     },
     {
       "id": "89f4274ee0a72af330",
-      "checked_at": "2026-10-26T12:58:11.001570+00:00",
+      "checked_at": "2026-10-28T06:21:00.833194+00:00",
       "promise_id": "BJP-2019-18aa9c8bdab05ad464",
       "year": 2019,
       "category": "women_social_justice",
@@ -54692,7 +54635,7 @@
     },
     {
       "id": "f0892d52574fe9cae3",
-      "checked_at": "2026-10-26T12:58:16.934431+00:00",
+      "checked_at": "2026-10-28T06:21:05.677183+00:00",
       "promise_id": "BJP-2019-47cde1762cff4ab258",
       "year": 2019,
       "category": "education_skills",
@@ -55104,7 +55047,7 @@
     },
     {
       "id": "5833bb30bc033b7ea2",
-      "checked_at": "2026-10-26T13:37:43.252691+00:00",
+      "checked_at": "2026-10-28T06:21:40.576590+00:00",
       "promise_id": "BJP-2019-db29d13094718f5312",
       "year": 2019,
       "category": "women_social_justice",
@@ -55328,7 +55271,7 @@
     },
     {
       "id": "ea5123220a1cbbcb62",
-      "checked_at": "2026-10-26T12:58:27.057339+00:00",
+      "checked_at": "2026-10-28T06:21:14.258359+00:00",
       "promise_id": "BJP-2019-7ff1b2801e6d65d494",
       "year": 2019,
       "category": "other",
@@ -55806,7 +55749,7 @@
     },
     {
       "id": "21c782a6ad2ecb8987",
-      "checked_at": "2026-10-28T05:39:19.167012+00:00",
+      "checked_at": "2026-10-28T06:20:46.981529+00:00",
       "promise_id": "BJP-2019-2cfa1375f165d41707",
       "year": 2019,
       "category": "other",
@@ -55846,7 +55789,7 @@
     },
     {
       "id": "2a1a4d9fba39e14bcc",
-      "checked_at": "2026-10-26T12:58:23.565775+00:00",
+      "checked_at": "2026-10-28T06:21:11.291187+00:00",
       "promise_id": "BJP-2019-533212c15705ac8641",
       "year": 2019,
       "category": "health_welfare",
@@ -57187,7 +57130,7 @@
     },
     {
       "id": "09db92a7679f9e887b",
-      "checked_at": "2026-10-28T05:39:23.578192+00:00",
+      "checked_at": "2026-10-28T06:20:51.026847+00:00",
       "promise_id": "BJP-2019-4fc8289de8caed52ff",
       "year": 2019,
       "category": "other",
@@ -58098,7 +58041,7 @@
     },
     {
       "id": "79f6d93be58d86824b",
-      "checked_at": "2026-10-26T12:58:36.797337+00:00",
+      "checked_at": "2026-10-28T06:21:21.755348+00:00",
       "promise_id": "BJP-2019-9d985b04696bcdc203",
       "year": 2019,
       "category": "other",
@@ -62760,7 +62703,7 @@
     },
     {
       "id": "df076e7dea8ba67624",
-      "checked_at": "2026-10-28T05:39:32.092408+00:00",
+      "checked_at": "2026-10-28T06:21:46.804733+00:00",
       "promise_id": "BJP-2014-078252941779345656",
       "year": 2014,
       "category": "women_social_justice",
