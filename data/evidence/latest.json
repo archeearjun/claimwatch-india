@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T13:46:27.055444+00:00",
+  "generated_at": "2026-10-29T16:57:31.954359+00:00",
   "capabilities": {
     "official_evidence_search": true,
     "verified_primary_gate": true,
@@ -16,8 +16,8 @@
     "promise_checked_this_run": 30,
     "promise_total_candidates": 841,
     "promise_coverage_pct": 101.3,
-    "primary_candidates": 559,
-    "secondary_candidates": 1037,
+    "primary_candidates": 562,
+    "secondary_candidates": 1038,
     "prior_fact_checks": 0,
     "publishable_auto_verdicts": 0,
     "claim_verdicts": {
@@ -102,29 +102,6 @@
       "promise_matches": [],
       "evidence": [
         {
-          "id": "5bc359c2e21b19a422",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Norms for Permission for Opening of Medical Colleges - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE53dy1VTDhJNzhuTi1DTDZVNFdaVENKQ3V2cl92WHhRcWk3LUN1S3hDaGZnSUJrdG14NzJHWElvajhZNjQ0bkh3a1JkTWNySnQ1bEVZUUcxVmIyRDRpT05BcW81QzFVcDdsSnNGTg?oc=5",
-          "published_at": "2013-03-05T08:00:00+00:00",
-          "snippet": "Norms for Permission for Opening of Medical Colleges Press Information Bureau",
-          "lexical_overlap": 0.182,
-          "relevance": 0.302,
-          "matched_terms": [
-            "colleges",
-            "medical"
-          ],
-          "shared_numbers": [],
-          "nli": {
-            "entailment": 0.007,
-            "neutral": 0.9442,
-            "contradiction": 0.0487
-          }
-        },
-        {
           "id": "79a5de7000dc444ee7",
           "scope": "news_search",
           "tier": "secondary",
@@ -145,8 +122,8 @@
       ],
       "fact_checks": [],
       "signal": {
-        "level": "primary_evidence_found",
-        "label": "Relevant verified primary evidence candidate found",
+        "level": "reporting_found",
+        "label": "Relevant reporting found; primary evidence still needed",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -349,31 +326,11 @@
           ]
         }
       ],
-      "evidence": [
-        {
-          "id": "064d37d7767fab14bf",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Robinhood",
-          "source_url": "https://www.robinhood.com",
-          "title": "The Robinhood 24 Hour Market is Here - Robinhood",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUmVvR01YbFNVcVV6MVB0Tlo4VEFpQ0hXSXp5RGVJcWNLRVBWOVh1UmFKZFBEVWxoYkl5M2RvY05ZVEphM21nOVdtUlV3b1oyVm9WX3RtZmdPWU53bV9nR1o2RTFiU3JSRTgtMHM0MkZHTzZBY0xSS3U3X193ckNXWXh5cw?oc=5",
-          "published_at": "2023-05-10T07:00:00+00:00",
-          "snippet": "The Robinhood 24 Hour Market is Here Robinhood",
-          "lexical_overlap": 0.091,
-          "relevance": 0.236,
-          "matched_terms": [
-            "hour"
-          ],
-          "shared_numbers": [
-            "24"
-          ]
-        }
-      ],
+      "evidence": [],
       "fact_checks": [],
       "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -408,23 +365,22 @@
       "promise_matches": [],
       "evidence": [
         {
-          "id": "16024edfec0ea10a2d",
+          "id": "0e2d9417e1acdf56ab",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "BBC",
-          "source_url": "https://www.bbc.com",
-          "title": "Kevin Pietersen: Joe Root says England are 'very different' from 2014 - BBC",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1PZGU2QzhjTFllc1Q5TGNXMDh4ZU1ZZ21rRll1THpIcUFHdGNXSWdONnlqdThXRC1XWFZSY1BHTnBBczFKSjB4OHRFUE9YcDBpSU5nZ2NpVFpBSWFuZWxGUGJUVTg4Zw?oc=5",
-          "published_at": "2026-09-08T07:00:00+00:00",
-          "snippet": "Kevin Pietersen: Joe Root says England are 'very different' from 2014 BBC",
-          "lexical_overlap": 0.062,
-          "relevance": 0.208,
+          "source": "CNBC",
+          "source_url": "https://www.cnbc.com",
+          "title": "Warren Buffett: 'If I had been a female, my life would have been entirely different' - CNBC",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOV3BpbjltT3B2RHZwanlSTVVqWkVzVFVaYnNKa1lpQkZ1UlBlVHBFOEIzcVZlNzhnOXZvM2N0c0gwYVVNcFFpX1IzYk9pVXctcnRXck82cVREMU1ycDB1bW5JM05YSGtjaExlWkpaSFBZSWtfSUktVVRuVE9LYldjWHMtdDQ1UmV1QXJCSHhqNmxwY1otbkFoQWEtUDBFNUlwYl9Z0gGoAUFVX3lxTFBJQjZYdVNlWWlEdTN6QnVBZWVQc3JIcjA1XzVuWlVhV3UxWWlZY0hrVkVINjFOOVU1ekZsWHhGZzZDTm5mZkVtYnA5RTNKX2Y4TTEtdzF1c01QTUxpRmktMmtfVVNBY1BtbnlJV2ZGeHVYOGJzYXpDaU9fTE5xVDZGcXdvVDd4bTJOcXVHbTJqblNCV0stR09IN3A2UGZzOTg2a0JBQlVSUA?oc=5",
+          "published_at": "2018-10-16T07:00:00+00:00",
+          "snippet": "Warren Buffett: 'If I had been a female, my life would have been entirely different' CNBC",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
           "matched_terms": [
-            "different"
+            "different",
+            "entirely"
           ],
-          "shared_numbers": [
-            "2014"
-          ]
+          "shared_numbers": []
         }
       ],
       "fact_checks": [],
@@ -583,7 +539,7 @@
         "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
         "published_at": "2026-10-25T13:30:15+00:00"
       },
-      "query": "60 59 nirmala ji mentioned just now has",
+      "query": "59 60 nirmala ji mentioned just now has",
       "numbers": [
         "59",
         "60"
@@ -1039,7 +995,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T13:45:42.019495+00:00",
+      "latest_checked_at": "2026-10-29T16:56:39.388522+00:00",
       "latest_claim_packet_id": "d4aab404e9ccc6ccf7"
     },
     {
@@ -1306,7 +1262,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T13:45:42.019523+00:00",
+      "latest_checked_at": "2026-10-29T16:56:39.388572+00:00",
       "latest_claim_packet_id": "884558fa72add4403d"
     },
     {
@@ -1402,7 +1358,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T13:45:42.019486+00:00",
+      "latest_checked_at": "2026-10-29T16:56:39.388502+00:00",
       "latest_claim_packet_id": "60ae96f665f22ef03b"
     },
     {
@@ -1450,7 +1406,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T13:45:42.019410+00:00",
+      "latest_checked_at": "2026-10-29T16:56:39.388352+00:00",
       "latest_claim_packet_id": "b8d4ab680299139905"
     },
     {
@@ -1522,7 +1478,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T13:45:42.019513+00:00",
+      "latest_checked_at": "2026-10-29T16:56:39.388556+00:00",
       "latest_claim_packet_id": "dac6e2327ebe0bd17a"
     },
     {
@@ -1738,7 +1694,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T13:45:42.019532+00:00",
+      "latest_checked_at": "2026-10-29T16:56:39.388588+00:00",
       "latest_claim_packet_id": "050ea98dd7879a06cd"
     },
     {
@@ -1930,7 +1886,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T13:45:42.019459+00:00",
+      "latest_checked_at": "2026-10-29T16:56:39.388420+00:00",
       "latest_claim_packet_id": "29371b53212e779eff"
     },
     {
@@ -2068,13 +2024,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "primary_evidence_found",
+      "evidence_state": "reporting_found",
       "human_reviewed": false,
       "created_at": "2026-10-27T07:50:11.251666+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T13:45:42.019442+00:00",
+      "latest_checked_at": "2026-10-29T16:56:39.388389+00:00",
       "latest_claim_packet_id": "b35543711de7918ea9"
     },
     {
@@ -2146,7 +2102,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T13:45:42.019451+00:00",
+      "latest_checked_at": "2026-10-29T16:56:39.388406+00:00",
       "latest_claim_packet_id": "ddb711a027259cf305"
     },
     {
@@ -2338,7 +2294,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T13:45:42.019545+00:00",
+      "latest_checked_at": "2026-10-29T16:56:39.388613+00:00",
       "latest_claim_packet_id": "5bb402465b7ccab062"
     },
     {
@@ -2482,7 +2438,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T13:45:42.019503+00:00",
+      "latest_checked_at": "2026-10-29T16:56:39.388538+00:00",
       "latest_claim_packet_id": "f5f9e7bb05cfa3199f"
     },
     {
@@ -2626,7 +2582,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T13:45:42.019539+00:00",
+      "latest_checked_at": "2026-10-29T16:56:39.388601+00:00",
       "latest_claim_packet_id": "00739b48a203bf3deb"
     },
     {
@@ -2764,13 +2720,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "reporting_found",
+      "evidence_state": "needs_research",
       "human_reviewed": false,
       "created_at": "2026-10-27T07:50:11.256975+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T13:45:42.019478+00:00",
+      "latest_checked_at": "2026-10-29T16:56:39.388452+00:00",
       "latest_claim_packet_id": "1d53d6d12eb863d5b2"
     },
     {
@@ -3013,7 +2969,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T13:45:42.019470+00:00",
+      "latest_checked_at": "2026-10-29T16:56:39.388438+00:00",
       "latest_claim_packet_id": "318b27cf844c2ade6a"
     },
     {
@@ -40648,7 +40604,7 @@
     },
     {
       "id": "bd4a85830bef2c2627",
-      "checked_at": "2026-10-27T22:39:47.771037+00:00",
+      "checked_at": "2026-10-29T16:57:12.754161+00:00",
       "promise_id": "BJP-2019-b7bb1d10c9d36cf722",
       "year": 2019,
       "category": "other",
@@ -40671,7 +40627,29 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
       "query": "not allow objectives held back politics",
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "b263f0186816dfeeec",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "NRDC",
+          "source_url": "https://www.nrdc.org",
+          "title": "Policy and Political Roadblocks—Not Economics—Are Holding Back America’s Clean Energy Future - NRDC",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOa3o4ckZ6RmVkVDRYbFppdUtQMnJOeXQ2UXJYRnllbVlWMmlSWTEwcW5IZGNFSzFhd2xjNWhwcXBPN0VLenZyc2dod1U4RmlES3FyUU9mcGI5a2ZEeHpCWF9zNFcwVHo2OFFkU3pxYUFPWkxHQTYxb3gwSjBMdi1Za013a1F3Uzh3UFdObmJlLWprejd1Z2VLMHlRd3MtVEtWdnJOSUxpLVBiWnB0X05rUTJjOTkwQQ?oc=5",
+          "published_at": "2026-04-15T07:00:00+00:00",
+          "snippet": "Policy and Political Roadblocks—Not Economics—Are Holding Back America’s Clean Energy Future NRDC",
+          "lexical_overlap": 0.118,
+          "relevance": 0.188,
+          "matched_terms": [
+            "back",
+            "not"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "back"
+          ]
+        }
+      ],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -40728,7 +40706,7 @@
     },
     {
       "id": "693e19e11db5fd9470",
-      "checked_at": "2026-10-27T23:47:13.759432+00:00",
+      "checked_at": "2026-10-29T16:57:20.538084+00:00",
       "promise_id": "BJP-2019-c1f3b63b4df70e8541",
       "year": 2019,
       "category": "other",
@@ -41459,7 +41437,7 @@
     },
     {
       "id": "7b0664c6ab207389ca",
-      "checked_at": "2026-10-27T22:39:41.331704+00:00",
+      "checked_at": "2026-10-29T16:57:05.972232+00:00",
       "promise_id": "BJP-2019-98cf7321ee347d7f34",
       "year": 2019,
       "category": "security_defence",
@@ -42844,7 +42822,7 @@
     },
     {
       "id": "8f53cf81db3538d314",
-      "checked_at": "2026-10-27T22:39:53.000926+00:00",
+      "checked_at": "2026-10-29T16:57:18.655709+00:00",
       "promise_id": "BJP-2019-beccd20b2d57ff3b50",
       "year": 2019,
       "category": "agriculture",
@@ -42933,23 +42911,24 @@
           ]
         },
         {
-          "id": "eba83c71d243d53703",
+          "id": "e9db3360656dff8011",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "TheWire.in",
-          "source_url": "https://thewire.in",
-          "title": "Centre’s Crop Insurance Scheme Is ‘Voluntary’, but Opt Out Model Leaves Much to Be Desired - TheWire.in",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9LRG82Q3hVbmgwbTUyeGhJRWF2Q1ZfUF9yNDlIX3NadU5XOWxwLUZwUWFhQUlCaTVPSWIxRGRhUmo2dTl1T2UybThqNFJyT0pZYjZ0RE5XN2FiRXI2cEs3TzdyZWpDYm5SNHE3bGtMN19mWjVxS3RDME5BNGVLUU0?oc=5",
-          "published_at": "2020-08-05T07:00:00+00:00",
-          "snippet": "Centre’s Crop Insurance Scheme Is ‘Voluntary’, but Opt Out Model Leaves Much to Be Desired TheWire.in",
-          "lexical_overlap": 0.125,
-          "relevance": 0.195,
+          "source": "OrissaPOST",
+          "source_url": "https://www.orissapost.com",
+          "title": "Government makes crop insurance schemes voluntary for farmers - OrissaPOST",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZ1dLY3BGaXBsYWxiZ2tESE1GNkVWa2o2RXB2YnZTVjdaVzhqeGVTOVhFUDVhdV9iak16cHB6NGdtazJfcm5KSW9ubDRab195WFFXYzRudXhlUmN3RERHa1VFWFZWcE1WTmZrYU5MNEg0T0dPU2pkMDNBaHB1UlNPYnlUY2xUbW5VaTlGN1hHc2kxNlHSAZMBQVVfeXFMUGdXS2NwRmlwbGFsYmdrREhNRjZFVmtqNkVwdmJ2U1Y3Wlc4anhlUzlYRVA1YXVfYmpNenBwejRnbWsyX3JuSklvbmw0Wm9feVhRV2M0bnV4ZVJjd0RER2tVRVhWVnBNVk5ma2FOTDRINE9HT1NqZDAzQWhwdVJTT2J5VGNsVG1uVWk5RjdYR3NpMTZR?oc=5",
+          "published_at": "2020-02-19T08:00:00+00:00",
+          "snippet": "Government makes crop insurance schemes voluntary for farmers OrissaPOST",
+          "lexical_overlap": 0.2,
+          "relevance": 0.27,
           "matched_terms": [
-            "scheme",
+            "farmers",
             "voluntary"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
+            "farmers",
             "voluntary"
           ]
         }
@@ -43285,8 +43264,8 @@
       }
     },
     {
-      "id": "05e0979e7f32ba2f72",
-      "checked_at": "2026-10-29T13:45:43.754499+00:00",
+      "id": "0764c49dce738dbbee",
+      "checked_at": "2026-10-29T16:56:41.810678+00:00",
       "promise_id": "BJP-2019-18c0750d5ed71bc3d1",
       "year": 2019,
       "category": "agriculture",
@@ -43312,7 +43291,7 @@
       "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
-      "query": "10000 2022 enable creation farmer producer organisations fpos",
+      "query": "2022 10000 enable creation farmer producer organisations fpos",
       "evidence": [
         {
           "id": "54958999ae6b9e6f18",
@@ -43336,6 +43315,30 @@
           "promise_core_overlap": [
             "farmer",
             "fpos",
+            "organisations",
+            "producer"
+          ]
+        },
+        {
+          "id": "6dba73a6b672f68e0e",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "Ministry of Food Processing Industries",
+          "source_url": "https://www.mofpi.gov.in",
+          "title": "FARMER PRODUCER ORGANISATIONS POLICY & PROCESS GUIDELINES FOR - Ministry of Food Processing Industries",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNemRUS3BtTVBEWTdvNW13TEt4RVNGT05vRllBUmpUR1huVnJzdEp4NUFaNzN3Tk41ajVwcUtXVEU0N3owdWlqYkVDUlduUXdsRU43WmpnOFBDSDVOd21TZTJmM3Ita29WNVJTVTJGYlE4a2ZfWkQyZFRLSFJoOUZuWFYtY0ZfVmpaNkVOQ1AxVWVNYVBkTGc?oc=5",
+          "published_at": "2021-12-22T16:16:57+00:00",
+          "snippet": "FARMER PRODUCER ORGANISATIONS POLICY & PROCESS GUIDELINES FOR Ministry of Food Processing Industries",
+          "lexical_overlap": 0.158,
+          "relevance": 0.313,
+          "matched_terms": [
+            "farmer",
+            "organisations",
+            "producer"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "farmer",
             "organisations",
             "producer"
           ]
@@ -43409,6 +43412,30 @@
           ]
         },
         {
+          "id": "531ed5a861c168b322",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Outlook India",
+          "source_url": "https://www.outlookindia.com",
+          "title": "Farmer Producer Organization Scheme A Path To Farmers’ Prosperity - Outlook India",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMVpLQmxEZW5udS1scVRES3BVcEduZnhJaEdLcU1HY2hKWndwZ0g1dWpIRl9PRHdPaVQ5c2RFaV9PTVZ6akw3NGpnYjNudkwxaEJuOG81VlFJdVZ1emkzbTN0NXFlMHpnRlhqZHlTcFhjd21Ba1cxQWtoOVBGVTBkUy05bjFqSkhKOEI0SFhHeG9YSjQwT3lfNVNwNWRKVjN2Wl9rSEgyQWlXY1BCbzVMQll2eUNGMkZm0gHGAUFVX3lxTE16WE9xMW1VUnQzRmR2VGd0OWFPX2Q1RFN4S3ZWd2duMXBOdExXeWlzSXByV05JNmE5WWEzZnFBb1hzOFduZ0R5OXhsZko1N1JhclpXNlpVQ21QZFR0THFTdkVCc1B3ZHBJRFFWMU8wTzlOMDNOTjcxQVVNOWFsT3A2RXc0NzdYX3dBaFBmV0hsSlhsc2YxdWlhMHE2SFM5RTc4TU9xRGhTeWtWUW1wV3IwZ1hiTkJtQU1ZN3RVcUlZeDFXMlM4Zw?oc=5",
+          "published_at": "2024-01-16T08:00:00+00:00",
+          "snippet": "Farmer Producer Organization Scheme A Path To Farmers’ Prosperity Outlook India",
+          "lexical_overlap": 0.176,
+          "relevance": 0.281,
+          "matched_terms": [
+            "farmer",
+            "farmers",
+            "producer"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "farmer",
+            "farmers",
+            "producer"
+          ]
+        },
+        {
           "id": "634c286094b85d4f4a",
           "scope": "news_search",
           "tier": "secondary",
@@ -43475,7 +43502,7 @@
           ]
         }
       ],
-      "implementation_signal": "current_primary_evidence_found",
+      "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -44483,7 +44510,7 @@
     },
     {
       "id": "ddcf4ce09a58bc3a59",
-      "checked_at": "2026-10-27T22:39:49.427199+00:00",
+      "checked_at": "2026-10-29T16:57:14.828998+00:00",
       "promise_id": "BJP-2019-ba18eae04645246ad6",
       "year": 2019,
       "category": "culture_heritage",
@@ -44505,7 +44532,30 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
       "query": "animal husbandry aquaculture easy access credit",
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "761bf972452d86a90c",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Indian Council Of Agricultural Research",
+          "source_url": "https://icar.org.in",
+          "title": "Union Minister of Fisheries, Animal Husbandry and Dairying launches the National Surveillance Programme on Fish Diseases - Phase-II and Genetic Improvement Programme of Indian White Shrimp (Penaeus indicus) at ICAR-CIBA, Chennai | ICAR - Indian Council Of Agricultural Research",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTmttcGszaGRrLXIxcm8zV2FrcFNPdkVabVRBRm04UU5sX0tQcVNzRWduUEY1ZG9ESGplYk8wTFhobTZ0S1ktMDVEb1RGMEZwcExoLTFQZmpDT21HREdUZnlzeW8wa0lQdjlwVDRUWVA5ZjlEZk5ZTVNnVHBGOXZSaHZwMzNNVEVXTUFsdmo0NTVMYkpFeDJnUjhPMGhocEYxbW9qbWNvdXBBbmNDb01xdENsSWpHUUd2T1E?oc=5",
+          "published_at": "2023-02-27T08:00:00+00:00",
+          "snippet": "Union Minister of Fisheries, Animal Husbandry and Dairying launches the National Surveillance Programme on Fish Diseases - Phase-II and Genetic Improvement Programme of Indian White Shrimp (Penaeus indicus) at ICAR-CIBA, Chennai | ICAR Indian Council Of Agricultural Research",
+          "lexical_overlap": 0.095,
+          "relevance": 0.165,
+          "matched_terms": [
+            "animal",
+            "husbandry"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "animal",
+            "husbandry"
+          ]
+        }
+      ],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -44673,7 +44723,7 @@
     },
     {
       "id": "f5811520c1d5623f19",
-      "checked_at": "2026-10-29T13:45:45.543359+00:00",
+      "checked_at": "2026-10-29T16:56:43.864524+00:00",
       "promise_id": "BJP-2019-1d3e95fa9344e842f3",
       "year": 2019,
       "category": "infrastructure",
@@ -44794,7 +44844,7 @@
     },
     {
       "id": "92d6920a15fb42f812",
-      "checked_at": "2026-10-29T13:46:02.202132+00:00",
+      "checked_at": "2026-10-29T16:57:02.325009+00:00",
       "promise_id": "BJP-2019-6abf03adda773fec98",
       "year": 2019,
       "category": "governance",
@@ -44821,17 +44871,17 @@
       "query": "2022 every gram panchayat connected high speed",
       "evidence": [
         {
-          "id": "9aaddd40378df5e18e",
+          "id": "2ad37fa13b20d527de",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "PIB",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "Release of Panchayat Advancement Index (PAI) 2022-23 - PIB",
+          "title": "Release of Panchayat Advancement Index (PAI) 2022-23 - Press Information Bureau",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE91OTJpU3p0RGViS28wWnFyQzF0WWxNelhfeUc0TUE2cXhrcTlGZGllaFN3YkhvbFp5aGJpRlJJN1VxT2Q5U1N1bGJ2MHNIQlg5WmU1TGNZdWplT1d2NndJaTBZU0V6Ym56NU5Tdl9VVkY?oc=5",
           "published_at": "2025-04-09T07:00:00+00:00",
-          "snippet": "Release of Panchayat Advancement Index (PAI) 2022-23 PIB",
-          "lexical_overlap": 0.067,
-          "relevance": 0.262,
+          "snippet": "Release of Panchayat Advancement Index (PAI) 2022-23 Press Information Bureau",
+          "lexical_overlap": 0.059,
+          "relevance": 0.254,
           "matched_terms": [
             "panchayat"
           ],
@@ -45307,7 +45357,7 @@
     },
     {
       "id": "e7830fb4120ad56b15",
-      "checked_at": "2026-10-27T22:39:44.744042+00:00",
+      "checked_at": "2026-10-29T16:57:09.082620+00:00",
       "promise_id": "BJP-2019-aa77def8cc401cb502",
       "year": 2019,
       "category": "agriculture",
@@ -45622,7 +45672,7 @@
     },
     {
       "id": "e3720e0156a529b604",
-      "checked_at": "2026-10-27T22:39:52.091350+00:00",
+      "checked_at": "2026-10-29T16:57:17.747489+00:00",
       "promise_id": "BJP-2019-bc8cb3730dd00f12d7",
       "year": 2019,
       "category": "jobs_economy",
@@ -45647,15 +45697,37 @@
       "query": "bring fast inclusive growth have carried",
       "evidence": [
         {
-          "id": "7986f42561bb6f902d",
+          "id": "3a3c371b7b28f2ff78",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Vice President calls corruption as the biggest hurdle to inclusive growth - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9rWmx1VGZaeTZycklfbFNYZ1JBS2gyN3h0UXdfZVBSTTk2WEpaZ1U3YzJVbExuNHg3VE5XdGEycXNOYmtwZURwR2hkWENVMXdncHlxb0xtSlNacldicGI2S0ZBR19Pb3VmUTZtX1JB?oc=5",
+          "published_at": "2020-02-16T08:00:00+00:00",
+          "snippet": "Vice President calls corruption as the biggest hurdle to inclusive growth Press Information Bureau",
+          "lexical_overlap": 0.095,
+          "relevance": 0.215,
+          "matched_terms": [
+            "growth",
+            "inclusive"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "growth",
+            "inclusive"
+          ]
+        },
+        {
+          "id": "d850d4f5244c0f65fe",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Drishti IAS",
-          "source_url": "https://www.drishtiias.com",
-          "title": "India’s Path to Inclusive Economic Growth - Drishti IAS",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeHM3aDNwXzJHU05adEtrUXpJM3ZfTnpiUDhqOTJSX1RBVllDQU9aVDRaZnh3eVNTdkVabGF3OFpwMTZZTlhEX0xCSFdBR0drM29KeWNOWjhkRTVLeXNjMkpIU00zeTFTUWZjLU41UlFQdmZlYzlQYXB6NnBHTHh1TUdHdm9XMFRidGFrcXhXQVhqUkE2WjN5enF3ZTJQS3d4X2VtUGtOaw?oc=5",
-          "published_at": "2025-06-12T07:00:00+00:00",
-          "snippet": "India’s Path to Inclusive Economic Growth Drishti IAS",
+          "source": "McKinsey & Company",
+          "source_url": "https://www.mckinsey.com",
+          "title": "Resilience for sustainable, inclusive growth - McKinsey & Company",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcVhDQ0VPSHhGRGZybXI2ekw5bWwxd0FCNHdxVGxDQWlXVHlNanUway1NTkg4MzQ5aXR0amNOcXhoUHpqOFBWMllqUnlzeXJLcGdsWTFRbUx0Qzl1b2RGa2VYRFZVX3luNUYySlg1emVSYXlZQVduRG5ZZnZYSkhEQVhlZDBCNzhlckFMbHBOQVVxVmFpVDh6d1AteVkzN3g4MVhESC1mUEFtZ1VDXzI5Q3c1R1k?oc=5",
+          "published_at": "2022-06-07T07:00:00+00:00",
+          "snippet": "Resilience for sustainable, inclusive growth McKinsey & Company",
           "lexical_overlap": 0.125,
           "relevance": 0.195,
           "matched_terms": [
@@ -45691,25 +45763,25 @@
           ]
         },
         {
-          "id": "cc7e2e51fba74bf3b1",
+          "id": "d7fae5761d8855b8c1",
           "scope": "news_search",
           "tier": "secondary",
           "source": "World Bank Group",
           "source_url": "https://www.worldbank.org",
-          "title": "India: Accelerated Reforms Needed to Speed up Growth and Achieve High-Income Status by 2047 - World Bank Group",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNd1ZNQUxYSkJhbzg1NHhmRXlXWnpWeUxiR2h2b0toTExDSmhncy1oRDVRMHY0dm05dkJqRnJFckxfX1NzWW9XV3BTeWdhbUViRkRGZ3JpQ1ZvbWxMSnZSR0ZQOEZxRzNsb0J0RXpKNVVlTTFRdWphNlVSNm5VWXdJQWxJaEJOOGhVR0ZGT1lpNU5MeXFLT1dCcTJFczQ2N0VFSjZ4ZlJLNy1UNVNSNE1xQ0d1dWd2MGJNVW1RTzcyQTZOWE9zaXliX01XLUZtbmdwZ2FyWmVWaUh3MGp5UWJrblpKZw?oc=5",
-          "published_at": "2025-02-28T08:00:00+00:00",
-          "snippet": "India: Accelerated Reforms Needed to Speed up Growth and Achieve High-Income Status by 2047 World Bank Group",
-          "lexical_overlap": 0.091,
-          "relevance": 0.161,
+          "title": "Egypt’s Private Sector: A Driver of Future Sustainable, Inclusive Growth - World Bank Group",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeEdkaWtLR2tCbFBfX1hLWEJ3Z1VmaGY4UVp5RkZsUlpLWHppdDBvSlF2d2J5eFhrZXdVN3RvRnFWT2o4eG9JRGFscy14amlLNWFyM1JJZEF2TzlUTU1VSXAtdnl4ZVpSVVlyb0VBb2l0RUo1UUxfbDhVMEYzU0ZJa25SZFQxOHN0aWRUdlBIOFBmb2RjbzJCSXJsREM4SXMybXFqM3lOdU9vT0pUdXNHNkpleS1EODBNcDU0WFFOQzQ?oc=5",
+          "published_at": "2024-12-11T08:00:00+00:00",
+          "snippet": "Egypt’s Private Sector: A Driver of Future Sustainable, Inclusive Growth World Bank Group",
+          "lexical_overlap": 0.095,
+          "relevance": 0.165,
           "matched_terms": [
             "growth",
-            "reforms"
+            "inclusive"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
             "growth",
-            "reforms"
+            "inclusive"
           ]
         }
       ],
@@ -47235,7 +47307,7 @@
     },
     {
       "id": "04dddb4c6ce90476bc",
-      "checked_at": "2026-10-27T22:39:46.344860+00:00",
+      "checked_at": "2026-10-29T16:57:10.743549+00:00",
       "promise_id": "BJP-2019-b6046cf982ba083d0d",
       "year": 2019,
       "category": "infrastructure",
@@ -47285,17 +47357,17 @@
           ]
         },
         {
-          "id": "5c2633b2c298f696ac",
+          "id": "15657164c9c82682f3",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "pib.gov.in",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "Ministry of Education Approves Five Centres of Excellence for Studies in Classical Languages - pib.gov.in",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9pRzQyWU1LVHZScmNYdEM2Ti1uTDJhS0E5WEUtN1hkTkdrN1BudXppR1k2Ym1CUHU1YlNkVEtyNEYzOWtkblNzMHJ4VVhQaDBHcHhkSEo1Q2JxLUl5MTdrSXpHZFgwUmJvWkhBcTVaR09lZkJfQmdZZTZfb0Vodw?oc=5",
+          "title": "Ministry of Education Approves Five Centres of Excellence for Studies in Classical Languages - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1jY3RJU3h5QXVWUnhlTUgxMVl3ZHdKV25VVlNRNUJWb2daU281RGkwOEZSVC1TdjFhWnkxNXFtNlVkVzNhdDhQMHAyTjVOakpFTExvUDc0ZGRrS2c1VXV4U09SZDNxanljYlpGcTh1U254czlleE9TTlA2dS0?oc=5",
           "published_at": "2026-10-03T07:00:00+00:00",
-          "snippet": "Ministry of Education Approves Five Centres of Excellence for Studies in Classical Languages pib.gov.in",
-          "lexical_overlap": 0.188,
-          "relevance": 0.342,
+          "snippet": "Ministry of Education Approves Five Centres of Excellence for Studies in Classical Languages Press Information Bureau",
+          "lexical_overlap": 0.176,
+          "relevance": 0.331,
           "matched_terms": [
             "centres",
             "excellence",
@@ -47375,51 +47447,6 @@
             "centres",
             "excellence"
           ]
-        },
-        {
-          "id": "0a2d086df46f9f08a7",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The New Indian Express",
-          "source_url": "https://www.newindianexpress.com",
-          "title": "Education Ministry to set up five Centres of Excellence in classical languages across India - The New Indian Express",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOTG15WXZJR040V0tVM2hsemhiMGhoZi1QNXBRQUxsUFVTQlRjUW9uMXQ1SkFDNFptZDRscHFDOHp6dFlpTkV6QkJZZVZ3dGppQ1ZrT0syMXJ0Ukt0OFpGNDllY1BrMXlRQjZjSXVoNHdRajNpTERlbWNLQkZnelcxSVBVc0dfaXFISEcwVHdRM21Scm9vNWZ4eXo2cHB2elBVNS1VWHgzWGtOTGNyRm1TRHIzUWdqUVRKLWxpSm5RUWpMaEJzMGtRMVExbGJrck0tdDlDLWZwMktkZ9IB5wFBVV95cUxOdjRXZzEwZVQyamdaVTB4WXkxcFRBMFhoYnNoQXNWZUtTY2xWRUdPSEthM0lpNHR0ZFZGVG93ZkQ2cHhSeVZ6UzAydWJnM1RtX1lJcTNUZFpmdjc4cnFvRF9QLUxzcHFDdkh0SkdJS3RxUzJ2QkQ0cUJiY3E0c2c0TnktSlVCeDVmRmRXOEFaMnBzNHZpLWx3LTNZODhWRVBDWF9ZbW5OaHhEMEZUbkFhamNMSk40RmxzSzQzdC1vVEtxZkljMjdSQ19IdENKZEM1V0ltc2xSbGtCeFlHQ1Q3a3hBTzBLMGM?oc=5",
-          "published_at": "2026-10-03T07:00:00+00:00",
-          "snippet": "Education Ministry to set up five Centres of Excellence in classical languages across India The New Indian Express",
-          "lexical_overlap": 0.385,
-          "relevance": 0.56,
-          "matched_terms": [
-            "centres",
-            "excellence",
-            "five",
-            "set",
-            "up"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "centres",
-            "excellence",
-            "five"
-          ]
-        },
-        {
-          "id": "1337f643cc892c5a19",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "ET Government",
-          "source_url": "http://government.economictimes.indiatimes.com",
-          "title": "Chhattisgarh approves ₹500 crore AI Mission to set up 100 data labs, train 7.5 lakh people - ET Government",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNenlHVHMzdjhOZGxSeHhBa2hna3VQbk5KMF9sMnZTSkx0cmJ4cF9pMEFaeGg4eENTRFc1bU1PekJ6ZkRsSll4UGQ5RDVZbFlnd2hMRVh3WVV4Q3BiYXhfVlJKT2syVGlWbHJuV0JqTkFUWmRLNUpSYXRuSzV1TWZrUm1YTlhmQUEzYm1Gel9Oa1I2ZlVBaWc4UkVjZFdoSG5vazZ0bS04R3l5TUpyQXh4Z3RsSlNrYUVLSTVzVWlhWnlES3JlV1hKQzh3dENtSFdnWUtqX1VoQmo2ZmhQYVZRc1BYZ0pjSWxQTHdneTk2Q1EydHo4TG5N?oc=5",
-          "published_at": "2026-08-06T07:00:00+00:00",
-          "snippet": "Chhattisgarh approves ₹500 crore AI Mission to set up 100 data labs, train 7.5 lakh people ET Government",
-          "lexical_overlap": 0.111,
-          "relevance": 0.181,
-          "matched_terms": [
-            "set",
-            "up"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": []
         }
       ],
       "implementation_signal": "action_detected",
@@ -47609,7 +47636,7 @@
     },
     {
       "id": "e6f20a53e2d1465828",
-      "checked_at": "2026-10-27T23:47:21.042529+00:00",
+      "checked_at": "2026-10-29T16:57:28.220565+00:00",
       "promise_id": "BJP-2019-cd02e3a71e5b459c9f",
       "year": 2019,
       "category": "infrastructure",
@@ -47648,7 +47675,7 @@
     },
     {
       "id": "d6dacadb651f1076c0",
-      "checked_at": "2026-10-27T23:47:23.822451+00:00",
+      "checked_at": "2026-10-29T16:57:31.582577+00:00",
       "promise_id": "BJP-2019-d910b6265d99747db6",
       "year": 2019,
       "category": "other",
@@ -47673,13 +47700,13 @@
       "query": "common mobility card ticketing difierent modes",
       "evidence": [
         {
-          "id": "0f071555c9df7ebb74",
+          "id": "207673c2073f5611b4",
           "scope": "preferred_official_search",
           "tier": "primary",
           "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
           "title": "PM launches One Nation, One Card in Ahmedabad for Mobility Single Card for seamless travel through different metros and other transport systems. National Common Mobility Card, NCMC- India's first indigenously developed payment platform - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1EOVdIWFVqUGpqOXoteHFhSndTZzkySnVUZkQ1YTFzcTBlY2k3bkh5akdXbmZKQ3VsVnZ1SGNuSllQc2l4djgwRG9DQmlrUG5FMXduUkpKeXpUOWptVlhLS09SZzMtVVE5?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5MNWxmMnRoRlE1MDR1TkJFUkJMeE9kelJ5MmlDaHc4Wkg4X0VRR20wQ3ZiUFJDRUJhX3YzWDNWOEx5M3pZcXBKUWtycVJyYkFrWVRvRXRrajJIMUhHdjNUZ2VjeDM3VXRhTWt5ZV8yalk4NGJ1VE1jTW1rdw?oc=5",
           "published_at": "2019-03-04T08:00:00+00:00",
           "snippet": "PM launches One Nation, One Card in Ahmedabad for Mobility Single Card for seamless travel through different metros and other transport systems. National Common Mobility Card, NCMC- India's first indigenously developed payment platform Press Information Bureau",
           "lexical_overlap": 0.091,
@@ -47696,17 +47723,17 @@
           ]
         },
         {
-          "id": "093e3133c9f9d0e2d5",
+          "id": "d87ad661e00c7302a5",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Urban Acres",
-          "source_url": "https://urbanacres.in",
-          "title": "Delhi to Launch National Common Mobility Card for Seamless Travel - Urban Acres",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNMk5DTm1aZ0c3aURGcFh0T3FweEhtMy11NXhzYU5JTE9MLXBfaGExS3NpQ09KOG14TEJhTGpMd0ZDWmxBOGVXRS0wUENPaTFWV1ZuQWUtVlVRZDVnd194QW5xdUUwOWVkT3lZYm9Ha1p5eVNGYl9yOXpOb3dtTktNdw?oc=5",
-          "published_at": "2025-09-19T07:00:00+00:00",
-          "snippet": "Delhi to Launch National Common Mobility Card for Seamless Travel Urban Acres",
-          "lexical_overlap": 0.2,
-          "relevance": 0.305,
+          "source": "Livemint",
+          "source_url": "https://www.livemint.com",
+          "title": "National Common Mobility Card: Is it revolutionary or just a fad? - Livemint",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOc3Yyemp0SEx0MWNlTVZxcWlpYXROVFM2Zkt1MDk5UE9QVDRoZG56bGcwNzgtSHltSXM1RUhkc0Vrdkg3MmYxZDBsS1RtRmFBUzA1MjhQWThrQnFHMWU2QUtCUjR5c3VUcUlJR0dxanZLY09vaFNRRGZUWlMwZURUNDNkSXI3Z1RJU1B6STVKb2Y2RWRhaHFDYUN0WEdCZTNYNGFqSWtzYVM5V25xR2ozeFA2cHl4Wm9OcWpIVFI1LUZENGwtT1F4eGJMTEZPWXlkcFVnSDBkeW9EcmZnZHBDN1plRk5FUjVtX3diNWdkdFg0UU4xdnRsaWVwQ2dXd9IBgwJBVV95cUxORnhKZDZHaURfLXdreC1UN09veU0yQ0xDRjdKeEd6N2MxVVd1bFVNb052WHQ1d3NldG9XVUJBZDJ1dUdUU2x4c19PaS0xMkR4RndtekxBNzZoZk9TbDRhU2lZV0I5Q1VZZVkzeFgwdnNxUENuU1I1eXNER1p2ZW5oZzhLanFwZllPSEpwSTVwWE5WSGhOQ3UyNHMyOFJRaVV6ZmVQR3ZNM2JTTVpMSGlQLUx4X1RqeEJyRmRTV3d0R213OUpMZmxuSWFzQzdIb1lXcHBOSWZDWk5CRWk2X05ZRUJaTzJMY25sbFd3UFNZZ2lKd0M4ZlBtWnhqNHprU0c5eGlZ?oc=5",
+          "published_at": "2023-09-14T07:00:00+00:00",
+          "snippet": "National Common Mobility Card: Is it revolutionary or just a fad? Livemint",
+          "lexical_overlap": 0.231,
+          "relevance": 0.336,
           "matched_terms": [
             "card",
             "common",
@@ -47720,47 +47747,47 @@
           ]
         },
         {
-          "id": "a9ac902364053df6e3",
+          "id": "d6062199139bf654a5",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "The Times of India",
-          "source_url": "https://timesofindia.indiatimes.com",
-          "title": "Delhi: Soon, you can use mobility card on buses, more options to come - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQaEhhQlIwVml4S2tjOXJKdEFXOGtmX3YzTWZIUHd1SGNMX0J5VjFqb0RTSVpQZ2duNjZ2aEZ4YVNCakhsVGJzY09mQ0doMWMyaVhheXVOVC12RlhQOWtrcWZ4YlFCUWgyRmI4Q0ZsRng0a3k0bENIXzhYeFZBRmFTM1Joa1FTLW1WN19wVjFDOWlTMlRzOENUSDJxckxvNUlTektFZ0RXS1VSODliRXlrMnFYcWotNlhtZERzbmktMmRzdVlvdW1CYzhIWDZ2LW1KZGQxX0l30gHbAUFVX3lxTFBsNWdWLWNiTG0zeXJvblhVLVl2M3N5djhGWmlOdVlLamlDWFVrTkNzTzNFY3hTMmtNYk1ualFuQ1pqT0dtVlFWRXExeWdkTU96cFBuOUVUamZyRXVRWmpOTlk4NDR6X2ZmLXA5Zjh1Rm1pblRnRTNuTHlvV0ZPOEptczNUeGhDYWNVSk0ydjdHcDFBWUxzV2ZubDNoXy1laEw1RG0wRHJNYjB5eE5kRnlSQ2hhWGR5dmpZT2ttNnE5OWhJbVJnM0RnbnhlakNRUHQ0aDFTMXhacE1EWQ?oc=5",
-          "published_at": "2023-10-23T07:00:00+00:00",
-          "snippet": "Delhi: Soon, you can use mobility card on buses, more options to come The Times of India",
-          "lexical_overlap": 0.125,
-          "relevance": 0.195,
+          "source": "The Hindu",
+          "source_url": "https://www.thehindu.com",
+          "title": "Hyderabad’s common mobility pass fails to hit the mark - The Hindu",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVTNURnVta09kSmx1aWRzVXg2SE56TTBpdGJFZ0xoVzI0T19ndWd5bDdoMW9nbWo5b3p5Nm9fVGpJZWRiU1I5U0dYMUsxcW40N002cFJDX2pUSGhLYVRZS0FPQS1Zbi0tMUpSS29SeEFWOTRrTkszeG5kSkJvY0ozT2dlcU5zX1RRLXlVbnNXcU1XalVCSmE3bmhmRmJvcGJFY3Z1dFFqOURHR3R4b2pSYzVJZ2E3SnFzU1RuQzBWb9IBxgFBVV95cUxNcEp0UWpZcVNaZXJ2OE5McHpULUVTZVdzNWphdE1TTFgxX0VPNjhfS3o3TjRETGhKcFBkb1dCRU4zR09RYVdmclpxNEEzaElVV1FxMjlvb0gyWm9PVW9uMEpJaDNmWmdHbWNDRnRsU2tQR0I4LW5iZzE1Rjdqal9UUVM0WFF4aEE3aVhqbUwwMjFZZDNEZVZCalJxOHNUWGhhSzVjWG9NTVJZQTlFSmFndXVVZmNvejlfZnB1RnliU3lOZTU1d3c?oc=5",
+          "published_at": "2026-10-10T07:00:00+00:00",
+          "snippet": "Hyderabad’s common mobility pass fails to hit the mark The Hindu",
+          "lexical_overlap": 0.143,
+          "relevance": 0.213,
           "matched_terms": [
-            "card",
+            "common",
             "mobility"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "card",
+            "common",
             "mobility"
           ]
         },
         {
-          "id": "dba373c40d3212262e",
+          "id": "19b3ee702cf0202708",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Hindustan Times",
-          "source_url": "https://www.hindustantimes.com",
-          "title": "After nearly 2 decades of wait, city to get common ticketing app | Mumbai news - Hindustan Times",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObmhGOVpTOVBoOHlUUmRKZDQyaFFVazdlU3k2dEhneXE0bXk3SzRVWnp5UEExQm1xbUpFQl9jUmZpbTVVVXlja2FtQmRIbTBnazg3eXYydF9QWUNON2lqRFYxbkNXTEZFc29FQUtwTUFLSVJ3Q1ItbW1CYUJzQnRHbnhXcVFEaWZZelRJbjM1R1ZNVlVCWFBCUU03SDRnbnpMS0ZwUEY2NGt5cGN2VERyNzJ3R2NhaWZudThSWkczck85RE14blpoYWU2ZnN3TFHSAdQBQVVfeXFMTVFMdTVsZVZkWTZFNGxaTGk5UG1PbFl0NWJhSWxrVGRKVnFNdW9aTGtubWdKN1BYOFg2NkJGSS1LQmN2TkQ2REVac3k4SGd5alZiaXg1MklNeDBjZm1CQkhibE1OemRSRmlCbW9GeTJaYk5WcDI0eVVidWFNUUF6ck1PTjhkbHQwYVp0NnYyeXN6ZTl5eDVzS1laXzAxMjBTZWI2UTJkVHg1SnNKTFZGck0ybDRqM241eklVN0ZVMzlROG9RTXQ4WThXWFNOZFV0VzRsYjk?oc=5",
-          "published_at": "2025-10-08T07:00:00+00:00",
-          "snippet": "After nearly 2 decades of wait, city to get common ticketing app | Mumbai news Hindustan Times",
+          "source": "Moneycontrol.com",
+          "source_url": "https://www.moneycontrol.com",
+          "title": "From mobility card delays to glitchy tracking, why Bengaluru’s BMTC is falling behind on tech - Moneycontrol.com",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNYXhtZ3ZRaDB0Y2xRNzgzY3FITldxUTY5ZlM4R0o1aWMtQ2JoVy1nR1Q3eU5TRnRxcnUwUlZkOEhqc1FTb1dRM1dkVlFXRmJwWHpIR1NqNkM5bkJjNkdLNGZKM2ZabkdMWEVBN3d3MWs2ZFlpcWZENGg3UTRGejdlQ0hzaUF0Y25lNVJ1ODdBc2xxb2dsY1hGbGVFaTZvRnQ3ZFBMYUlLUFhsZkRjNmUyYlJsSllRN0IzM1dxaG82RE13aWp2M0Noc2dLNzl3MElHOWRxWVc0c1VaUDVzWUlv0gHkAUFVX3lxTE92dThzMjRKeG1DQkZJMF9YLXdhd1NCZ2lfMGZNYUQza2FvZzR3SUl4QUVOeXVhUmdwcUMxS2NpdHdiQjdlSFluUUlqcEdlRjN0dXE4akI3ZXZueTQzR0JfQk94b3ZqSzlPaUtnMy1uRV9NM2xiby1neV94OGFZRGNiTUl0Q3FFQUJqVmwtLTZQUEVFazV2RzBSUUw1bGM3Z1ZlRFdMUlVRR0xjQ09wRFFULUZTXzNtVmlNdXhUNmstTjAybWh5RDJUM1MwWnUxOVFUY3BmX0dpb1Z4bkQ2d1lBbl96eg?oc=5",
+          "published_at": "2026-08-24T07:00:00+00:00",
+          "snippet": "From mobility card delays to glitchy tracking, why Bengaluru’s BMTC is falling behind on tech Moneycontrol.com",
           "lexical_overlap": 0.105,
           "relevance": 0.175,
           "matched_terms": [
-            "common",
-            "ticketing"
+            "card",
+            "mobility"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "common",
-            "ticketing"
+            "card",
+            "mobility"
           ]
         }
       ],
@@ -48204,7 +48231,7 @@
     },
     {
       "id": "1e0abc9f94016f3c7a",
-      "checked_at": "2026-10-29T13:45:47.039415+00:00",
+      "checked_at": "2026-10-29T16:56:45.547131+00:00",
       "promise_id": "BJP-2019-2af396deaf778cac73",
       "year": 2019,
       "category": "infrastructure",
@@ -48289,7 +48316,7 @@
     },
     {
       "id": "4af70c5cc4e5dd31ea",
-      "checked_at": "2026-10-29T13:45:52.706028+00:00",
+      "checked_at": "2026-10-29T16:56:51.806306+00:00",
       "promise_id": "BJP-2019-34c03859f07f1329c5",
       "year": 2019,
       "category": "infrastructure",
@@ -48349,30 +48376,6 @@
           "snippet": "India’s Dedicated Freight Corridor Program: Progress and Prospects India Briefing",
           "lexical_overlap": 0.273,
           "relevance": 0.378,
-          "matched_terms": [
-            "corridor",
-            "dedicated",
-            "freight"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "corridor",
-            "dedicated",
-            "freight"
-          ]
-        },
-        {
-          "id": "b1ffee8e6f47df9c63",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Urban Acres",
-          "source_url": "https://urbanacres.in",
-          "title": "Dedicated Freight Corridor: India’s Rail Network Enters a New Phase - Urban Acres",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMk5QWk5iWGdfeTh1a2tqUTVBeHk4N0lPLXlyTkpMWWtsRDRldHZkUHFSQmQ0cUozUVgyR09MQV9od2dTTWFOY0dlNUFFeFNfY3ZPWmNZdVFYZWtsUW9pY0dqV3RxUjN6TjUwaS10MU5CWEs0ZUJ6R0dsWkxrX3J3a2N2bEFhN2JCNEdBZTZBdExydw?oc=5",
-          "published_at": "2026-09-14T07:00:00+00:00",
-          "snippet": "Dedicated Freight Corridor: India’s Rail Network Enters a New Phase Urban Acres",
-          "lexical_overlap": 0.231,
-          "relevance": 0.336,
           "matched_terms": [
             "corridor",
             "dedicated",
@@ -48489,6 +48492,28 @@
           "snippet": "Dedicated Freight Corridors Strengthen India’s Logistics Network https://www.usthadian.com/",
           "lexical_overlap": 0.133,
           "relevance": 0.203,
+          "matched_terms": [
+            "dedicated",
+            "freight"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "dedicated",
+            "freight"
+          ]
+        },
+        {
+          "id": "94f0d80ee7b7908961",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Vajiram & Ravi",
+          "source_url": "https://vajiramandravi.com",
+          "title": "Dedicated Freight Corridors, How They Cut Transit Time and Boost Rail Freight - Vajiram & Ravi",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5YNmx2WWxLTXRwU09nRzNtVEVfUkVKZ1dxZWNjZWhneHFNbWlLZXhnRjhxc1R3ZjQtSUt6NlhELXM0RU9oMVJZN1haTmVlM1VrWUxaUUxINE90a0dJaFR2NHJvOVMzRlFzNEZrcnpLdk44V1dQOE5vSi16UQ?oc=5",
+          "published_at": "2026-09-09T07:00:00+00:00",
+          "snippet": "Dedicated Freight Corridors, How They Cut Transit Time and Boost Rail Freight Vajiram & Ravi",
+          "lexical_overlap": 0.125,
+          "relevance": 0.195,
           "matched_terms": [
             "dedicated",
             "freight"
@@ -50527,7 +50552,7 @@
     },
     {
       "id": "93bb9754ab7125c8f1",
-      "checked_at": "2026-10-29T13:45:57.496917+00:00",
+      "checked_at": "2026-10-29T16:56:56.981717+00:00",
       "promise_id": "BJP-2019-6013bbae5c9fbd8c5a",
       "year": 2019,
       "category": "women_social_justice",
@@ -50591,7 +50616,7 @@
     },
     {
       "id": "1d1782ad81aa54afcd",
-      "checked_at": "2026-10-29T13:45:59.668225+00:00",
+      "checked_at": "2026-10-29T16:56:59.575681+00:00",
       "promise_id": "BJP-2019-63e2ccda189fa85e2c",
       "year": 2019,
       "category": "health_welfare",
@@ -51302,7 +51327,7 @@
     },
     {
       "id": "b22b482213626acc86",
-      "checked_at": "2026-10-27T23:47:18.185110+00:00",
+      "checked_at": "2026-10-29T16:57:25.448239+00:00",
       "promise_id": "BJP-2019-ca7d44845752964340",
       "year": 2019,
       "category": "governance",
@@ -51366,6 +51391,50 @@
           "shared_numbers": [],
           "promise_core_overlap": [
             "consultation"
+          ]
+        },
+        {
+          "id": "f646babc92526b6ff9",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Sun Nigeria",
+          "source_url": "https://thesun.ng",
+          "title": "Presidency gives seven-week deadline for State Police Law, opens nationwide consultation - The Sun Nigeria",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObW96ekRscF9mcVNPZFFURU1pNVhoUFJWNHNVWTJoTTdfOXlkUVlPOHRTc3pLeDRvOHVwVm9BTkp5clF5SEFhRjVjaDBSb002ZVJ4Qk1zdDZjaTRWRnMwYkhPU25yblBIZXRQVzRBcnZhWk5ha2pVQmRaM0pXNmcwM0xycEczMmJTNGtWcWdoYW1zVkh3YnQ5bDcxOVpYV2hucmt0TldzRzZKUQ?oc=5",
+          "published_at": "2026-08-03T07:00:00+00:00",
+          "snippet": "Presidency gives seven-week deadline for State Police Law, opens nationwide consultation The Sun Nigeria",
+          "lexical_overlap": 0.1,
+          "relevance": 0.17,
+          "matched_terms": [
+            "consultation",
+            "police"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "consultation",
+            "police"
+          ]
+        },
+        {
+          "id": "90852b4428301c2eb5",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Guardian Nigeria News",
+          "source_url": "https://guardian.ng",
+          "title": "Presidency moves to build legal framework for State Police, opens nationwide consultation - The Guardian Nigeria News",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ2hLaEJYZkNyY1hoNkotR2tOaWtlUnZjV1BueVNwUDBoX29yT3hyeWRlZks4Y3lKX3RxQWkyYlNTalJYS1hadFRGUWtQLUJ0MGhsNFcxbG9GNnRIOTNxVVRpWS10SXIxMm84ci11MnlfOFdmQkRYQjkzRngwdF95OGxZalJkSHUxM2paMmZGdHVwSTBLNmUwMTVMdGtucTZYTmpfeFkxbjVtQ1NsNVRLdnM4SmM?oc=5",
+          "published_at": "2026-08-03T07:00:00+00:00",
+          "snippet": "Presidency moves to build legal framework for State Police, opens nationwide consultation The Guardian Nigeria News",
+          "lexical_overlap": 0.095,
+          "relevance": 0.165,
+          "matched_terms": [
+            "consultation",
+            "police"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "consultation",
+            "police"
           ]
         }
       ],
@@ -52145,7 +52214,7 @@
     },
     {
       "id": "243957e0a5fa1edab5",
-      "checked_at": "2026-10-27T22:39:42.799429+00:00",
+      "checked_at": "2026-10-29T16:57:07.291896+00:00",
       "promise_id": "BJP-2019-9b88005a89e22e2e00",
       "year": 2019,
       "category": "jobs_economy",
@@ -52492,7 +52561,7 @@
     },
     {
       "id": "19743a23dbc6e6cd3b",
-      "checked_at": "2026-10-27T22:39:50.586050+00:00",
+      "checked_at": "2026-10-29T16:57:16.123352+00:00",
       "promise_id": "BJP-2019-ba551e363dbc574aed",
       "year": 2019,
       "category": "education_skills",
@@ -54952,7 +55021,7 @@
     },
     {
       "id": "eecf32943b3420ae13",
-      "checked_at": "2026-10-27T23:47:22.523658+00:00",
+      "checked_at": "2026-10-29T16:57:29.886815+00:00",
       "promise_id": "BJP-2019-d2cee3734f52a3ebe8",
       "year": 2019,
       "category": "education_skills",
@@ -55506,7 +55575,7 @@
     },
     {
       "id": "5037c453746c8d1979",
-      "checked_at": "2026-10-27T22:39:53.809244+00:00",
+      "checked_at": "2026-10-29T16:57:19.546950+00:00",
       "promise_id": "BJP-2019-c00c5b4524f79914fc",
       "year": 2019,
       "category": "education_skills",
@@ -55671,7 +55740,7 @@
     },
     {
       "id": "21c782a6ad2ecb8987",
-      "checked_at": "2026-10-29T13:45:49.950585+00:00",
+      "checked_at": "2026-10-29T16:56:48.516731+00:00",
       "promise_id": "BJP-2019-2cfa1375f165d41707",
       "year": 2019,
       "category": "other",
@@ -56180,7 +56249,7 @@
     },
     {
       "id": "5f89213c5b03e185b8",
-      "checked_at": "2026-10-27T23:47:16.545107+00:00",
+      "checked_at": "2026-10-29T16:57:23.714855+00:00",
       "promise_id": "BJP-2019-c549aa8b717639cbed",
       "year": 2019,
       "category": "jobs_economy",
@@ -56203,31 +56272,8 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
       "query": "building positive measures pursue course holistic",
-      "evidence": [
-        {
-          "id": "d4af7f710f729f34a8",
-          "scope": "broad_official_search",
-          "tier": "primary",
-          "source": "Ministry of Women and Child Development",
-          "source_url": "https://missionvatsalya.wcd.gov.in",
-          "title": "Home | Mission Vatsalya WCD Govt of India - Ministry of Women and Child Development",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE03ZFcxUkJaUm42cEhaZ1hKd3c5MGFVMFlTXzhXQlVBSzdONWVHNDVsZDlOT19OTF8zWlY1bkttZU1JMUhrZHFfUUdBSQ?oc=5",
-          "published_at": "2023-08-23T07:41:23+00:00",
-          "snippet": "Home | Mission Vatsalya WCD Govt of India Ministry of Women and Child Development",
-          "lexical_overlap": 0.105,
-          "relevance": 0.225,
-          "matched_terms": [
-            "development",
-            "women"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "development",
-            "women"
-          ]
-        }
-      ],
-      "implementation_signal": "current_primary_evidence_found",
+      "evidence": [],
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -57051,7 +57097,7 @@
     },
     {
       "id": "09db92a7679f9e887b",
-      "checked_at": "2026-10-29T13:45:54.865734+00:00",
+      "checked_at": "2026-10-29T16:56:54.135790+00:00",
       "promise_id": "BJP-2019-4fc8289de8caed52ff",
       "year": 2019,
       "category": "other",
@@ -57783,7 +57829,7 @@
     },
     {
       "id": "ae076585e8155b45e0",
-      "checked_at": "2026-10-27T22:39:45.494649+00:00",
+      "checked_at": "2026-10-29T16:57:09.948296+00:00",
       "promise_id": "BJP-2019-aed9f5538fecc49274",
       "year": 2019,
       "category": "women_social_justice",
@@ -59094,7 +59140,7 @@
     },
     {
       "id": "cf6c1e4cbd0aebbbe8",
-      "checked_at": "2026-10-27T23:47:15.203744+00:00",
+      "checked_at": "2026-10-29T16:57:22.158969+00:00",
       "promise_id": "BJP-2019-c4f200516237de6067",
       "year": 2019,
       "category": "women_social_justice",
@@ -59437,7 +59483,7 @@
     },
     {
       "id": "8e2c6ee61e8b62225e",
-      "checked_at": "2026-10-27T23:47:21.735808+00:00",
+      "checked_at": "2026-10-29T16:57:29.113250+00:00",
       "promise_id": "BJP-2019-ce76d950356fd17aca",
       "year": 2019,
       "category": "women_social_justice",
@@ -59476,7 +59522,7 @@
     },
     {
       "id": "8beed873b765447626",
-      "checked_at": "2026-10-27T23:47:19.850333+00:00",
+      "checked_at": "2026-10-29T16:57:26.707377+00:00",
       "promise_id": "BJP-2019-cc517753066e56dc5c",
       "year": 2019,
       "category": "other",
@@ -59501,20 +59547,99 @@
       "query": "hon ble shri",
       "evidence": [
         {
-          "id": "22111fba284b2563de",
+          "id": "45f5f358276e9b5cc0",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "JUDGES INQUIRY COMMITTEE SUBMITS REPORT TO HON'BLE SPEAKER, LOK SABHA - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBGdXNHNW8zLTFvellUSWpUb3BmYVZoNWZ4ZXZBcUU2OEMyS2cwS0xXdnk2ekNqR2RYeHZNa0RhTTY4UUl1NmZid1VJSjRKdHpwQmF2SnhoTWNmMDA2SGtZU0ZqNG1lYjFYUG5RUTJsZDg0ZlUwUkw4Nlh3?oc=5",
+          "published_at": "2026-05-18T07:00:00+00:00",
+          "snippet": "JUDGES INQUIRY COMMITTEE SUBMITS REPORT TO HON'BLE SPEAKER, LOK SABHA Press Information Bureau",
+          "lexical_overlap": 0.087,
+          "relevance": 0.207,
+          "matched_terms": [
+            "ble",
+            "hon"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": []
+        },
+        {
+          "id": "e2e2e12fef773db9ac",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Bio-data of Hon’ble Mr. Justice Rajendra Mal Lodha B.Sc., LL.B., LL.D. (Honoris Causa) - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ubGgwb0duamRIV3o3ZENkdElyT1haejdlRm9LamR3eWk2Vmh5N3NrQ3pTSTNzeWwzLVEyeDZPU2NVMTMtdS1jSG1teGNsYTAzZEh4QzRCVndNRXV4OTVOR3NQREpXMzNFZkVLMjV3?oc=5",
+          "published_at": "2014-04-11T07:00:00+00:00",
+          "snippet": "Bio-data of Hon’ble Mr. Justice Rajendra Mal Lodha B.Sc., LL.B., LL.D. (Honoris Causa) Press Information Bureau",
+          "lexical_overlap": 0.08,
+          "relevance": 0.2,
+          "matched_terms": [
+            "ble",
+            "hon"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": []
+        },
+        {
+          "id": "4f8a53272434d74272",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "New Office premises of Central Administrative Tribunal, Mumbai Bench at Nishtha Bhawan inaugurated by Hon’ble Dr. Justice D.Y. Chandrachud, the Chief Justice of India - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5vTjcxaEhVbW5yX3M0X2thSGRSUWV4UUxlcFNUYndfYnNwU19TempTQlZ0ZFd5MnlqSXhhUXNnSmpjOUlTY2phb2c5VDlxT0YyUmRjeTJ2TlNNZkpyLVRCU29KdkZfYnl4NmMxVVJ6Wlo?oc=5",
+          "published_at": "2023-12-08T08:00:00+00:00",
+          "snippet": "New Office premises of Central Administrative Tribunal, Mumbai Bench at Nishtha Bhawan inaugurated by Hon’ble Dr. Justice D.Y. Chandrachud, the Chief Justice of India Press Information Bureau",
+          "lexical_overlap": 0.077,
+          "relevance": 0.197,
+          "matched_terms": [
+            "ble",
+            "hon"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": []
+        },
+        {
+          "id": "3bf50b8599cd137779",
           "scope": "news_search",
           "tier": "secondary",
           "source": "India Education Diary",
           "source_url": "https://indiaeducationdiary.in",
-          "title": "‘Opportunity for Shared Commitment to Improve Future of Our Cities’: Shri Tokhan Sahu, Hon’ble Minister of State for Housing and Urban Affairs Opens ARISE Cities Forum 2026 - India Education Diary",
-          "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxOYm9Nc3B2cVloS3RwbXBLQzhnS0h2RHNibVZNYmlZZEtFdkhDaFZTaHdETDE5UnpRcDlqV1JPUWVnR0JMVjd1ekNSRzE0cUZvaVpiMXV4U3JkYVdLb3VrakNHWThwMEFNM2pmVmRZb21HdUVSYVdxUllSMTlCaExVcEtLUEE1bkpLZzZoa2RIcGhwS29yTzVQUFpqcUJpUWJ1RDNWUUpvSTBtWWtUWER3Rkd3VFB4dXpRTktXRFhFR0tLcWdpR0ZWV0dKeVVua1kxMTFJbkpmYVF5NXMwamZDaGJtTlpIY3hEWHVmdkFVM0RwUF9RenAzZGFOalNiR01HLS03bGxBdFdPNHZHclhtQ1BwMndlOWVMcGpTNV9oU08wNk9xakE?oc=5",
-          "published_at": "2026-10-27T17:12:30+00:00",
-          "snippet": "‘Opportunity for Shared Commitment to Improve Future of Our Cities’: Shri Tokhan Sahu, Hon’ble Minister of State for Housing and Urban Affairs Opens ARISE Cities Forum 2026 India Education Diary",
+          "title": "Hon’ble Deputy Chairman, Rajya Sabha, Shri Harivansh Delivers Welcome Address at the Inaugural Session of 12th BRICS Parliamentary Forum in Central Hall, Parliament of India, New Delhi - India Education Diary",
+          "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPcXNwamlFZE1lVEN0OTEzTUVfOVpKb0l3U1hHek8xRlhpd01RSWtQNmg2cXFUNTdMYmdUSE9qOVdKcDhnMDdrb1ZWellvV0p3Z1hZZnZoMVlXbEJSaUZsdkVjRGdQR1Q5T25lWEMxa0dGQTJtVm00SVZOTzl2X3FtU1Y3dzluM0lzMEp2bEtpcGxvZTExam9IUFVRSjhqVnBNUlBhUFNGb2lfQkMxamdsZkYzbWhiMkdHVk4zSEltMkRaQjlYLVFTOHktUW83aE1XMVNhRDJER0l0WmtSX3ZyUVJ2bXBHM05WMmRCRHJ2M1BEOTJnSjJYUjV6YkhfdnFheXpqRFR5aXpGWWtCM0pCcVhtOE5LX05maXBySm9MZ1ZBZFRSdnBUSmpRWGppNEMtYUVxOFdB?oc=5",
+          "published_at": "2026-10-26T18:34:00+00:00",
+          "snippet": "Hon’ble Deputy Chairman, Rajya Sabha, Shri Harivansh Delivers Welcome Address at the Inaugural Session of 12th BRICS Parliamentary Forum in Central Hall, Parliament of India, New Delhi India Education Diary",
           "lexical_overlap": 0.167,
           "relevance": 0.307,
           "matched_terms": [
             "ble",
-            "commitment",
+            "hon",
+            "shri",
+            "th"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "shri"
+          ]
+        },
+        {
+          "id": "f8b91c1b5b0ef12a7f",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Indian Institute of Technology Madras",
+          "source_url": "https://www.iitm.ac.in",
+          "title": "Hon’ble Prime Minister Shri Narendra Modi launches IIT Madras Brain Centre’s Mission of 3D Mapping 100+ Human Brains at Cell Resolution across Human Life | Indian Institute of Technology Madras - Indian Institute of Technology Madras",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORXhQRmo3SVQyOVRITEYtYmZwQkJGYkhremhpUnZWRnFkNWpxcm9zVjNVWkJjQ3M3UWVZdzluN1hLZ3FkYWRDSXBFbVVPUy1SLUp1NW5DWmE4elhMLTJyQTE2WnNka1c2X3pGbWpNYnRmNnJQRGthamhCdjMxWWE4LXlKM2ltejIwM1JJdnZaNVluR1B5OTU0al95YXUwVDhzUEg0U20wVTAzVUVVUUo1anlVTHpiaEE?oc=5",
+          "published_at": "2026-10-12T07:00:00+00:00",
+          "snippet": "Hon’ble Prime Minister Shri Narendra Modi launches IIT Madras Brain Centre’s Mission of 3D Mapping 100+ Human Brains at Cell Resolution across Human Life | Indian Institute of Technology Madras Indian Institute of Technology Madras",
+          "lexical_overlap": 0.12,
+          "relevance": 0.225,
+          "matched_terms": [
+            "ble",
             "hon",
             "shri"
           ],
@@ -59524,26 +59649,6 @@
           ]
         },
         {
-          "id": "ab99ab747b03ceecdc",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Hon’ble President of India Smt. Droupadi Murmu presents 65th National Exhibition of Art and 3rd Print Biennale India awards to artists, celebrating India’s rich artistic heritage and contemporary creativity - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ta3lQaVlRbVI4dnpjcDhpQzMzUmluZWQtRVV4djVkS2QxMmM3eHF6LWZPQS16ekF2UFAzV2JlWkN2Z3JYNFgySEJmY3ZYSkZsaXlMN1FTXzhkSG81REVVYjhkQTNqSTZN?oc=5",
-          "published_at": "2026-10-21T13:31:00+00:00",
-          "snippet": "Hon’ble President of India Smt. Droupadi Murmu presents 65th National Exhibition of Art and 3rd Print Biennale India awards to artists, celebrating India’s rich artistic heritage and contemporary creativity Press Information Bureau",
-          "lexical_overlap": 0.12,
-          "relevance": 0.225,
-          "matched_terms": [
-            "ble",
-            "hon",
-            "th"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": []
-        },
-        {
           "id": "f028ee8b6497a59f1e",
           "scope": "news_search",
           "tier": "secondary",
@@ -59551,7 +59656,7 @@
           "source_url": "https://cm.odisha.gov.in",
           "title": "Hon’ble CM Shri Mohan Charan Majhi launched the ‘Shree Jagannath Darshan’ Yojana at Nabarangpur, reaffirming the vision that every Odia should receive the blessings of Mahaprabhu with dignity. The scheme was simultaneously flagged off from Nabaran - Chief Minister of Odisha",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc0dfWDhQWjBaWE5QUTFOem91eTc2TTl4Qjluc0dxTktNUnZmcXMxb1dYSG1KQ1RsZXlWenNXVEk4S25Ed0treDlSU2duVm9oYVdnY1JLRUZSeWRsZm9BS3l0WnA4d01FTVVEaVE0WU00Ul83R0hac1NMM1pobjdkTjlOUEdTWEt0Z2pSSXlqSUFkWlF4SGtGck9HZDJFc1VBd2toWF84b2tyRlh6cG93eVpIWmVBd2RydGhra1Y3clU2dm8?oc=5",
-          "published_at": "2026-10-24T17:40:53+00:00",
+          "published_at": "2026-10-27T12:18:39+00:00",
           "snippet": "Hon’ble CM Shri Mohan Charan Majhi launched the ‘Shree Jagannath Darshan’ Yojana at Nabarangpur, reaffirming the vision that every Odia should receive the blessings of Mahaprabhu with dignity. The scheme was simultaneously flagged off from Nabaran Chief Minister of Odisha",
           "lexical_overlap": 0.12,
           "relevance": 0.225,
@@ -59563,28 +59668,6 @@
           "shared_numbers": [],
           "promise_core_overlap": [
             "every",
-            "shri"
-          ]
-        },
-        {
-          "id": "869772ddc4ea8f6534",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Bharatiya Janata Party",
-          "source_url": "https://www.bjp.org",
-          "title": "Press Release : Hon'ble Union Raksha Mantri Shri Rajnath Singh ji's scathing attack on Congress - Bharatiya Janata Party",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSVcxSWZna3M5c1BkeWZWekRWcGtHaVVaSkE2NmZRRXRSLXVwWXlUTDYxMVRwLUZsQl8wT3dVd2xOMmFGNG4waDVFSFBjZXBWYlZhZXk4SkQtYTdZUVNkcXBfMjRNTnAwbzlrbHFoV19PN05jakRDRzI4YW45ZW9oM0hkeFVOVHdVMThBOFVPdkoxNUJGNjVvd2phVXBybHE3akU0ODlYbTlEVkQxOFNWdU1jNEpjdFFTUHIwOEdqVQ?oc=5",
-          "published_at": "2026-10-26T11:17:53+00:00",
-          "snippet": "Press Release : Hon'ble Union Raksha Mantri Shri Rajnath Singh ji's scathing attack on Congress Bharatiya Janata Party",
-          "lexical_overlap": 0.12,
-          "relevance": 0.225,
-          "matched_terms": [
-            "ble",
-            "hon",
-            "shri"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
             "shri"
           ]
         }
@@ -62584,7 +62667,7 @@
     },
     {
       "id": "df076e7dea8ba67624",
-      "checked_at": "2026-10-29T13:46:04.475410+00:00",
+      "checked_at": "2026-10-29T16:57:04.752516+00:00",
       "promise_id": "BJP-2014-078252941779345656",
       "year": 2014,
       "category": "women_social_justice",
