@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T02:28:10.007343+00:00",
+  "generated_at": "2026-10-29T06:32:07.993799+00:00",
   "capabilities": {
     "official_evidence_search": true,
     "verified_primary_gate": true,
@@ -16,7 +16,7 @@
     "promise_checked_this_run": 30,
     "promise_total_candidates": 841,
     "promise_coverage_pct": 101.3,
-    "primary_candidates": 555,
+    "primary_candidates": 558,
     "secondary_candidates": 1039,
     "prior_fact_checks": 0,
     "publishable_auto_verdicts": 0,
@@ -29,8 +29,8 @@
       "fulfilled_by_deadline": 0,
       "target_reached_evidence": 0,
       "proven_unfulfilled_by_deadline": 0,
-      "progress_documented": 11,
-      "deadline_passed_unresolved": 48,
+      "progress_documented": 12,
+      "deadline_passed_unresolved": 47,
       "deadline_not_reached": 13,
       "insufficient_evidence": 38,
       "not_machine_measurable": 742,
@@ -102,6 +102,29 @@
       "promise_matches": [],
       "evidence": [
         {
+          "id": "5bc359c2e21b19a422",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Norms for Permission for Opening of Medical Colleges - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE53dy1VTDhJNzhuTi1DTDZVNFdaVENKQ3V2cl92WHhRcWk3LUN1S3hDaGZnSUJrdG14NzJHWElvajhZNjQ0bkh3a1JkTWNySnQ1bEVZUUcxVmIyRDRpT05BcW81QzFVcDdsSnNGTg?oc=5",
+          "published_at": "2013-03-05T08:00:00+00:00",
+          "snippet": "Norms for Permission for Opening of Medical Colleges Press Information Bureau",
+          "lexical_overlap": 0.182,
+          "relevance": 0.302,
+          "matched_terms": [
+            "colleges",
+            "medical"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.007,
+            "neutral": 0.9442,
+            "contradiction": 0.0487
+          }
+        },
+        {
           "id": "79a5de7000dc444ee7",
           "scope": "news_search",
           "tier": "secondary",
@@ -122,8 +145,8 @@
       ],
       "fact_checks": [],
       "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
+        "level": "primary_evidence_found",
+        "label": "Relevant verified primary evidence candidate found",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -363,30 +386,11 @@
         "2014"
       ],
       "promise_matches": [],
-      "evidence": [
-        {
-          "id": "0e2d9417e1acdf56ab",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "CNBC",
-          "source_url": "https://www.cnbc.com",
-          "title": "Warren Buffett: 'If I had been a female, my life would have been entirely different' - CNBC",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOV3BpbjltT3B2RHZwanlSTVVqWkVzVFVaYnNKa1lpQkZ1UlBlVHBFOEIzcVZlNzhnOXZvM2N0c0gwYVVNcFFpX1IzYk9pVXctcnRXck82cVREMU1ycDB1bW5JM05YSGtjaExlWkpaSFBZSWtfSUktVVRuVE9LYldjWHMtdDQ1UmV1QXJCSHhqNmxwY1otbkFoQWEtUDBFNUlwYl9Z0gGoAUFVX3lxTFBJQjZYdVNlWWlEdTN6QnVBZWVQc3JIcjA1XzVuWlVhV3UxWWlZY0hrVkVINjFOOVU1ekZsWHhGZzZDTm5mZkVtYnA5RTNKX2Y4TTEtdzF1c01QTUxpRmktMmtfVVNBY1BtbnlJV2ZGeHVYOGJzYXpDaU9fTE5xVDZGcXdvVDd4bTJOcXVHbTJqblNCV0stR09IN3A2UGZzOTg2a0JBQlVSUA?oc=5",
-          "published_at": "2018-10-16T07:00:00+00:00",
-          "snippet": "Warren Buffett: 'If I had been a female, my life would have been entirely different' CNBC",
-          "lexical_overlap": 0.111,
-          "relevance": 0.181,
-          "matched_terms": [
-            "different",
-            "entirely"
-          ],
-          "shared_numbers": []
-        }
-      ],
+      "evidence": [],
       "fact_checks": [],
       "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -990,7 +994,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T02:27:16.141780+00:00",
+      "latest_checked_at": "2026-10-29T06:31:19.732043+00:00",
       "latest_claim_packet_id": "d4aab404e9ccc6ccf7"
     },
     {
@@ -1257,7 +1261,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T02:27:16.141829+00:00",
+      "latest_checked_at": "2026-10-29T06:31:19.732093+00:00",
       "latest_claim_packet_id": "884558fa72add4403d"
     },
     {
@@ -1347,13 +1351,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "reporting_found",
+      "evidence_state": "needs_research",
       "human_reviewed": false,
       "created_at": "2026-10-27T07:50:11.258438+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T02:27:16.141765+00:00",
+      "latest_checked_at": "2026-10-29T06:31:19.732028+00:00",
       "latest_claim_packet_id": "60ae96f665f22ef03b"
     },
     {
@@ -1401,7 +1405,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T02:27:16.141648+00:00",
+      "latest_checked_at": "2026-10-29T06:31:19.731904+00:00",
       "latest_claim_packet_id": "b8d4ab680299139905"
     },
     {
@@ -1473,7 +1477,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T02:27:16.141813+00:00",
+      "latest_checked_at": "2026-10-29T06:31:19.732077+00:00",
       "latest_claim_packet_id": "dac6e2327ebe0bd17a"
     },
     {
@@ -1689,7 +1693,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T02:27:16.141845+00:00",
+      "latest_checked_at": "2026-10-29T06:31:19.732110+00:00",
       "latest_claim_packet_id": "050ea98dd7879a06cd"
     },
     {
@@ -1881,7 +1885,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T02:27:16.141718+00:00",
+      "latest_checked_at": "2026-10-29T06:31:19.731981+00:00",
       "latest_claim_packet_id": "29371b53212e779eff"
     },
     {
@@ -2019,13 +2023,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "reporting_found",
+      "evidence_state": "primary_evidence_found",
       "human_reviewed": false,
       "created_at": "2026-10-27T07:50:11.251666+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T02:27:16.141686+00:00",
+      "latest_checked_at": "2026-10-29T06:31:19.731948+00:00",
       "latest_claim_packet_id": "b35543711de7918ea9"
     },
     {
@@ -2097,7 +2101,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T02:27:16.141703+00:00",
+      "latest_checked_at": "2026-10-29T06:31:19.731966+00:00",
       "latest_claim_packet_id": "ddb711a027259cf305"
     },
     {
@@ -2289,7 +2293,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T02:27:16.141870+00:00",
+      "latest_checked_at": "2026-10-29T06:31:19.732133+00:00",
       "latest_claim_packet_id": "5bb402465b7ccab062"
     },
     {
@@ -2433,7 +2437,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T02:27:16.141796+00:00",
+      "latest_checked_at": "2026-10-29T06:31:19.732059+00:00",
       "latest_claim_packet_id": "f5f9e7bb05cfa3199f"
     },
     {
@@ -2577,7 +2581,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T02:27:16.141858+00:00",
+      "latest_checked_at": "2026-10-29T06:31:19.732122+00:00",
       "latest_claim_packet_id": "00739b48a203bf3deb"
     },
     {
@@ -2721,7 +2725,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T02:27:16.141750+00:00",
+      "latest_checked_at": "2026-10-29T06:31:19.732014+00:00",
       "latest_claim_packet_id": "1d53d6d12eb863d5b2"
     },
     {
@@ -2964,7 +2968,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T02:27:16.141737+00:00",
+      "latest_checked_at": "2026-10-29T06:31:19.732000+00:00",
       "latest_claim_packet_id": "318b27cf844c2ade6a"
     },
     {
@@ -4663,7 +4667,7 @@
     },
     {
       "id": "ae21152a34b19664e5",
-      "checked_at": "2026-10-27T12:43:24.205521+00:00",
+      "checked_at": "2026-10-29T06:31:51.004365+00:00",
       "promise_id": "BJP-2024-323617f8d47af7c308",
       "year": 2024,
       "category": "other",
@@ -4711,30 +4715,6 @@
           ]
         },
         {
-          "id": "c91ad619d48a7c319e",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Union Minister Dr. Jitendra Singh Calls for Closer Collaboration among academic Institutions of Higher Education—Such as IITs, IIMs, AIIMS, IIMC, CSIR—and Scientific Institutions to Build Sustainable Startups - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE56X0tyTENFNjBUc3pCdjZVQnFCaDN5V2VQR1BHRzE5Sm1oVGFYY0JTbEhqNmxVdFFxbkVkeGJKYlc5RktRck1RN1lnbTE3cHA3NXgtWE5Ldm5WNlVMYndnNkxybVlhZ3FJWUZyYlZNOWs?oc=5",
-          "published_at": "2025-06-24T07:00:00+00:00",
-          "snippet": "Union Minister Dr. Jitendra Singh Calls for Closer Collaboration among academic Institutions of Higher Education—Such as IITs, IIMs, AIIMS, IIMC, CSIR—and Scientific Institutions to Build Sustainable Startups Press Information Bureau",
-          "lexical_overlap": 0.158,
-          "relevance": 0.313,
-          "matched_terms": [
-            "aiims",
-            "iims",
-            "iits"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "aiims",
-            "iims",
-            "iits"
-          ]
-        },
-        {
           "id": "3a2c427019e0e05f5d",
           "scope": "news_search",
           "tier": "secondary",
@@ -4761,22 +4741,21 @@
           ]
         },
         {
-          "id": "d96070377b749c44c2",
+          "id": "667360c5c170579ad7",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Medical Dialogues",
-          "source_url": "https://medicaldialogues.in",
-          "title": "AIIMS to collaborate with IITs, IIMs, introduce Start up policy for Medicos - Medical Dialogues",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxON3ZTSXpYMHd5RW1abkpQX1RUQVJobzFTalJzakxzdEVubURtejh3RUQzT1c4Y0VMTnhYS2tHS2V3VEtRVUcwdC1PaTVYa3pTT2ZCLW9OclNLZWRWdVRvYmZJNVJWalM1eTMyblpOZnczN3ZTcF8ybUpjVU9fU3VpRnI3Q1RRZ09HdjVxMEJmWDJmNDNyaVJ2bzJDSHBGSkowam44S2prMFVjZk5hcTRUM3h2VWM5ODU5bUVqbUh6VkTSAcYBQVVfeXFMUDRvVW1vdkVYY29ia29lWjlSTTNReFZ1cFUtdWxyb2RlR0pBeEp4cm05YklrUEgtS0ZBelhOT18xRUhuMDJMSTBjdE9BWm43X0Z2U1NCYktWZi1UXzZrb1ppVFRDZ2VxTk9WYndYYXVrd1ZIaVRzdFdVTGkzZU9ReUEzd2Z5SGpZWlZCbEhLS0EyY2xpNG5qZlFpVjdZazJBcHZKRkNXbFhMT0UzQ0VjMV80MXJFN2dxX054aHdCblRyTFUyZk5B?oc=5",
-          "published_at": "2023-02-23T08:00:00+00:00",
-          "snippet": "AIIMS to collaborate with IITs, IIMs, introduce Start up policy for Medicos Medical Dialogues",
-          "lexical_overlap": 0.308,
-          "relevance": 0.448,
+          "source": "India Today",
+          "source_url": "https://www.indiatoday.in",
+          "title": "IITs, IIMs and AIIMS across India launch Adi Karmayogi student chapters - India Today",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPOTdRZHhzTmJRVXY2cklWQjZfLWdmMzcxa1Qyam1QOUE4bThPcm1IT1IwemtnUXhjV1RCYjVobll6X2xYZGJMNWdDZVNDRFFiT1FXbDZKV2xWazNrbzM5c2hIbGZTelNuTGhBaEg0RGxYTHlmTlowQUppaC1YUjZBNERlanM3VzdMRnhIZGVsczFaZklsS2VOQjk0bU1TUEJSYXpjY2tCSWRWU3drRHpxd0JiYWtXOWZaODNibTJQZmNNU3pTcnRfb3lBVkhyY2FkaXZ1LXN6b1I4Z9IB3wFBVV95cUxORk9TRG5DN1hlcF9FbG9Ba3BNdEZJbHlsdXFTaUdCU1ItcjRXTFZjV3VVc0FJMDN6R2pIVERNb2ltWVEydUd5RGlvTmNsTTFmbERtYWF5M0JiRmFQWjlmaHNNTUZmcXlkS0dBUElpZWZHQVFydGUwcFQ2dDZZU0p6c3ZUSzF1U0xMWkpEUEdlZk44M0pXWkZZckpMQ2tPc1o3Z0VwR3NSc25fX1V1N21qOGZOVFJtY29yZmtxNkJfbFdSSG5TWEF1N3F5VmdxYTBwZkhZM00xWmNnN3M4bHVr?oc=5",
+          "published_at": "2025-09-24T07:00:00+00:00",
+          "snippet": "IITs, IIMs and AIIMS across India launch Adi Karmayogi student chapters India Today",
+          "lexical_overlap": 0.273,
+          "relevance": 0.378,
           "matched_terms": [
             "aiims",
             "iims",
-            "iits",
-            "introduce"
+            "iits"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
@@ -4836,20 +4815,21 @@
           ]
         },
         {
-          "id": "e6946930e1a07d3b10",
+          "id": "fe42bec79a497e9751",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "India Today",
-          "source_url": "https://www.indiatoday.in",
-          "title": "Only 3% in IITs, IIMs, NITs but they take 50% of India's higher education budget - India Today",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQVDlHTmJ2SWcxYUIwTlVpZjdkMnh4WUItc0wwQ19La0cyZDVITWFVaFhaRmo3YldzSGR4bWtxanN1Uk96RWxJZ2Y2dXozbjRvY1ZWY1liRlZ4VU8welgwNUJ3WkR6ZGJEcFNOZ2lUUG5BemhWVTUzZ3lFMEhJMk53V2o3SmktandDUmFLa3ctM2RoQW91cnVqc2NfNFlaeXM0ZmxWZGx0V3RXcHpVLXBEX2lWaFN5M1o1cjluemdidVJ2WFVsT0ZjRjN6UUppWFBVVmsyR2JURms3RDhrMTNrWXlkU3ZUZHVfZUhz0gHwAUFVX3lxTE9fQmdhZ0pVUzhiUmZiR0dzanl0d0JyRE1FN0NuZ2pPQ1dUYkl5bS01M2JFUk95dGk3c1N2cUZjNjFOSW4zd0JnUDFLVjBxajZIdWp5c2dtQUdOYmo1THpZSWYtZ2pCY3NLRXBUeEpOa29tNDdkSkpXSFdWWmVFSVZSY0s4RUJVX3M2UlFucW1DVk52Um9Zc0FDV2pSbU11UzJCWlROeWNTajFlYngyX3ZST3VQYzVXNkxSLUNBRUd1d3VaNkFBUGVCd0FrTlI0d2NGSDlBRVdMczFwLXNLSE5nLWdFMWdmVTB2MmxmTDQ2eQ?oc=5",
-          "published_at": "2026-05-03T07:00:00+00:00",
-          "snippet": "Only 3% in IITs, IIMs, NITs but they take 50% of India's higher education budget India Today",
-          "lexical_overlap": 0.154,
-          "relevance": 0.224,
+          "source": "Indianweb2.com",
+          "source_url": "https://www.indianweb2.com",
+          "title": "AIIMS-Delhi To Collab with IITs/IIMs and Introduce Startup Policy for Medical Students - Indianweb2.com",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNFlfdjczcDZXZE9MRUxLaFlxODNqakJrRDlJUFRwcFgyXzJwR3RVOS1aeGc4TmZWaXlQcjJydkU5VTltREV5MkhCcVRxeWFmN3Q1MDJ2TVFfYUxnVTFQVXVCZjhSd3BESWlZUkxvMjB2T1RKNm9XQVRxQko3RnRKWUd1LWkxUQ?oc=5",
+          "published_at": "2023-02-23T08:00:00+00:00",
+          "snippet": "AIIMS-Delhi To Collab with IITs/IIMs and Introduce Startup Policy for Medical Students Indianweb2.com",
+          "lexical_overlap": 0.214,
+          "relevance": 0.319,
           "matched_terms": [
             "iims",
-            "iits"
+            "iits",
+            "introduce"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
@@ -7006,7 +6986,7 @@
     },
     {
       "id": "e1239f1961e6d6cf60",
-      "checked_at": "2026-10-27T12:43:28.030674+00:00",
+      "checked_at": "2026-10-29T06:31:55.117889+00:00",
       "promise_id": "BJP-2024-34ab71b33cf1e2dcc7",
       "year": 2024,
       "category": "jobs_economy",
@@ -7027,17 +7007,63 @@
       "query": "investment employment growth",
       "evidence": [
         {
-          "id": "86109472a0c145d79a",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Policy Measures to promote Growth and Employment Generation in Indian Economy - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ZdWh4THk4WHQ1S25wZVBjM0ZqX3N6dWxuZi16emI2dU9TbWdZRWV5T0tiYkZPM3JoT1NFQjQ1allaSHFidjR4WWZTamxmOU9XREc5dWVMb3RHZzFoR3pSbXpmTkV1WU9uc1E?oc=5",
-          "published_at": "2019-07-05T07:00:00+00:00",
-          "snippet": "Policy Measures to promote Growth and Employment Generation in Indian Economy Press Information Bureau",
-          "lexical_overlap": 0.167,
-          "relevance": 0.287,
+          "id": "fb9fdc369b824c01cf",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Prensario Internacional",
+          "source_url": "https://www.prensario.net",
+          "title": "APA report highlights market and employment growth alongside investment decline - Prensario Internacional",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOc0NZTWtDc2gwSmoxT2phY09nMW1JRDFhUDh3UGFDVndXcjI0bG41a0o5MXd4UndrbFBtX3F3QlJ6WFZzMmJ2MlljRWRpbUVnODJJdXptNTRiY21RZk5PUUpTN0lCRFRSdkJCaU5VbXFqVTJOelBnWGZJQXJpVGtYWjBzTUcxam1FSjBObFY1VENtbnVCT0c5WVdIbEtWUmp4ZjRWWWl3TU9RZGNmWDM4VmZXYUZuLVNZOEFib2R3?oc=5",
+          "published_at": "2026-10-21T14:47:03+00:00",
+          "snippet": "APA report highlights market and employment growth alongside investment decline Prensario Internacional",
+          "lexical_overlap": 0.25,
+          "relevance": 0.355,
+          "matched_terms": [
+            "employment",
+            "growth",
+            "investment"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "employment",
+            "growth",
+            "investment"
+          ]
+        },
+        {
+          "id": "44d6ed341dfb20ed93",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The CapTable",
+          "source_url": "https://the-captable.com",
+          "title": "More investment, fewer jobs: India’s new growth paradox - The CapTable",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUWVGNkMyOGRLNW1SM2ZCUHVqZEhDLU5peHJGd3BzZXNHS1hneG5seUQxdHJyNmRxdWJvY2J4b0M2RzdzTVE2Y0QxTnhwQTRxV09sdGhDZXpsbjFLWmNYVE9XYndvdHMya3M2V2J1bDJHQXdfcDlseC1LN3J2Nm9BYVUxUlJoTFNhYW8wNGcydw?oc=5",
+          "published_at": "2026-09-01T07:00:00+00:00",
+          "snippet": "More investment, fewer jobs: India’s new growth paradox The CapTable",
+          "lexical_overlap": 0.25,
+          "relevance": 0.32,
+          "matched_terms": [
+            "growth",
+            "investment"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "growth",
+            "investment"
+          ]
+        },
+        {
+          "id": "e021112ae040b21caa",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Investing.com India",
+          "source_url": "https://in.investing.com",
+          "title": "U.S. Employment Growth Surpasses Expectations with 90K Increase By Investing.com - Investing.com India",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUkVkblRCdjJKcnUwQzdiNlFiT1hObm5CQXU0aWxFblhjRzNrZW5xZU5NaFdDdnFhMTZ4Qy1PODI0dTdGYkNaWVZSZ0hUOXNTcG9xcy1tbi1FYkpqMVVHRVNFblJhS3dkUFJzVlFNRTc1TS0zd0ZGajMyV1E1RTBFYlJUTENKeWtXc1RnY00wb1Q1cTJKUGVNX0QzUEk4QWNzWjdCb2ZJVHBYeUEzcmlkbFg0Y0w5RWdJUm56ek1Faw?oc=5",
+          "published_at": "2026-09-30T07:00:00+00:00",
+          "snippet": "U.S. Employment Growth Surpasses Expectations with 90K Increase By Investing.com Investing.com India",
+          "lexical_overlap": 0.222,
+          "relevance": 0.292,
           "matched_terms": [
             "employment",
             "growth"
@@ -7071,6 +7097,28 @@
           ]
         },
         {
+          "id": "d8aa6809d0d14dd0da",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Connect CRE",
+          "source_url": "https://www.connectcre.com",
+          "title": "Slower Job Growth Shifts CRE Demand and Investment Strategies - Connect CRE",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSWNGcVRsU3lXOFNEdjZpdDFUVHh6SnAtNjdUbUVJVURiNGg1bXJzMnI1MkpqOWlhNHBUVjhJUWVDZGFMZGt0Nk9HNzNJWTFNcHM0QVlyakE1SkdfamN5TnhqSkRKUUdnLTBCT3BGVi1lUnFWdklIby1PcUxURXZJZ2NOWjlYUFcxc24xNnlkazY2YkpSaWdEUF9MZHRXQQ?oc=5",
+          "published_at": "2026-10-15T07:00:00+00:00",
+          "snippet": "Slower Job Growth Shifts CRE Demand and Investment Strategies Connect CRE",
+          "lexical_overlap": 0.182,
+          "relevance": 0.252,
+          "matched_terms": [
+            "growth",
+            "investment"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "growth",
+            "investment"
+          ]
+        },
+        {
           "id": "66d738fe159c1101e5",
           "scope": "news_search",
           "tier": "secondary",
@@ -7091,53 +7139,9 @@
             "growth",
             "investment"
           ]
-        },
-        {
-          "id": "50c2592ae251780463",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Hartford Business Journal",
-          "source_url": "https://hartfordbusiness.com",
-          "title": "ASML plans new investment, job growth at Wilton facility amid AI-driven chip boom - Hartford Business Journal",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPc29xVDUtamhlNVhNbG53dlo5MkJwaHgyMGtYNFE1WFhPcE9uZlh3THR3UzQ3Ry1tcTJqUm9MbS0yRUl2bWk2UnlBY3ctVU5SMkMyY09CQ21aRW1jbG1SZDgxM2JqOGItbXRqVlFWODFBU1BVSzRBdGdsRE1nbkJIR3I0WktTNnUyYndrcXpkak1seUh3c190RUNxUDQ4Z3N0b3VQSkpjY1pzcEVTOE5obzRib1FuVmozWkE?oc=5",
-          "published_at": "2026-10-15T07:00:00+00:00",
-          "snippet": "ASML plans new investment, job growth at Wilton facility amid AI-driven chip boom Hartford Business Journal",
-          "lexical_overlap": 0.125,
-          "relevance": 0.195,
-          "matched_terms": [
-            "growth",
-            "investment"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "growth",
-            "investment"
-          ]
-        },
-        {
-          "id": "49596aac273a936365",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "PA Department of Community & Economic Development (.gov)",
-          "source_url": "https://dced.pa.gov",
-          "title": "Creating Jobs in Philadelphia: Governor Shapiro Secures $3.8 Million Investment from Bonduelle Americas to Open its New U.S. Growth Hub in Pennsylvania, Creating Over 100 Jobs - PA Department of Community & Economic Development (.gov)",
-          "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxOdFluUF9pY0trNGgzRlBLanRrMk5ZZmpjamNzYjJMT2VhU19obm0teElUWEVGeWZfREpqWXdmenphU1BXSHRYQ2pRMDZrWnY2bEhrc3JSUEptT3hZa0hEVTlhY3NmSkF4OUVUR3NqaHRaRm14MEVHUzhkVUU2TjdGeUs2MDJvaEVONjFUUGlCa2hQXzNXdDV0a09jVVJQWHdRS0pHZjFHWmJVYWhYN3pqSld5NGVCN2trazI2bXBBVElHTmE4M21peG9MNzBNTFdqQVpmOFNKUHdaMGg0ejFGZkw0ZVNYU28zWTBCMXpRMENhX2dWMS1vc1diR01ndjVoWjdITVNTOGU1M1NwbUU0X09DZVIyYnI2VDdYa0ZkWGhSSjVDRFpUVQ?oc=5",
-          "published_at": "2026-10-23T07:00:00+00:00",
-          "snippet": "Creating Jobs in Philadelphia: Governor Shapiro Secures $3.8 Million Investment from Bonduelle Americas to Open its New U.S. Growth Hub in Pennsylvania, Creating Over 100 Jobs PA Department of Community & Economic Development (.gov)",
-          "lexical_overlap": 0.111,
-          "relevance": 0.181,
-          "matched_terms": [
-            "growth",
-            "investment"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "growth",
-            "investment"
-          ]
         }
       ],
-      "implementation_signal": "current_primary_and_reporting_found",
+      "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -12047,7 +12051,7 @@
     },
     {
       "id": "0c4a70b5d68d8abf6d",
-      "checked_at": "2026-10-25T19:03:47.887238+00:00",
+      "checked_at": "2026-10-29T06:32:05.772091+00:00",
       "promise_id": "BJP-2024-40f08b04fc3c1a977a",
       "year": 2024,
       "category": "technology_digital",
@@ -12142,6 +12146,28 @@
           "promise_core_overlap": [
             "drone",
             "fisheries",
+            "technology"
+          ]
+        },
+        {
+          "id": "da5fceff9b430e0d52",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Robotics & Automation News",
+          "source_url": "https://roboticsandautomationnews.com",
+          "title": "Growing Locally: How Modern Aquaculture Technology is Reshaping Regional Food Security - Robotics & Automation News",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPQk5EbjZXVE5TOHlXMzRtLVJHYkFwTTM0SGM2eVhWNFdQNm9lQjNjWGJYODItVVl4RGFENEdWMmN1UTd0WXo3RGV4TDVzMktnU1VoUTA0YnpsMEhseUdXSU1Ea1REX0dTSjdBcVkwTHJFbXFvcXVTYkFoUmE3ZjlvUk9SX0E3Um1LX1lpWmw3d0ptRjFQSmlOcElWeDctd01BM1lIdTlIRnhCYWZzWC1ES0U4WWdTZlNjSzNpbUFENWYxZ0tLaGVMdE40VW5UdFZtbTZVMUQzUFB4dw?oc=5",
+          "published_at": "2026-10-26T19:22:53+00:00",
+          "snippet": "Growing Locally: How Modern Aquaculture Technology is Reshaping Regional Food Security Robotics & Automation News",
+          "lexical_overlap": 0.105,
+          "relevance": 0.175,
+          "matched_terms": [
+            "aquaculture",
+            "technology"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "aquaculture",
             "technology"
           ]
         }
@@ -13640,7 +13666,7 @@
     },
     {
       "id": "6fa23a600b8e1009e8",
-      "checked_at": "2026-10-27T12:43:19.141590+00:00",
+      "checked_at": "2026-10-29T06:31:44.963830+00:00",
       "promise_id": "BJP-2024-26a999ae1857264905",
       "year": 2024,
       "category": "jobs_economy",
@@ -13708,15 +13734,15 @@
           ]
         },
         {
-          "id": "cb96a5cbb92c638bed",
+          "id": "71792e1fc7ab67ba01",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "www.pib.gov.in",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "Union Minister of Commerce and Industry Shri Piyush Goyal Assures Modern Testing Facilities for Toy Manufacturing Clusters Across India - www.pib.gov.in",
+          "title": "Union Minister of Commerce and Industry Shri Piyush Goyal Assures Modern Testing Facilities for Toy Manufacturing Clusters Across India - Press Information Bureau",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE40RWhfenZESl9peUQ3eDl5NDdkU091c3M4UFVSaVNOTjAwem5yTWZ2UzRCRi1XVEJVeV9vSU1DODFjUEc5SkxOSTdHbXItQmZONXJpSkd3RUpYNkYtX3pxSU1NaXk3b3p3cUMta2luRU1LXzA0dkpteDNjMA?oc=5",
           "published_at": "2026-07-04T07:00:00+00:00",
-          "snippet": "Union Minister of Commerce and Industry Shri Piyush Goyal Assures Modern Testing Facilities for Toy Manufacturing Clusters Across India www.pib.gov.in",
+          "snippet": "Union Minister of Commerce and Industry Shri Piyush Goyal Assures Modern Testing Facilities for Toy Manufacturing Clusters Across India Press Information Bureau",
           "lexical_overlap": 0.077,
           "relevance": 0.197,
           "matched_terms": [
@@ -13748,33 +13774,9 @@
           "promise_core_overlap": [
             "global"
           ]
-        },
-        {
-          "id": "5abfe2055d5f61718a",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The New Indian Express",
-          "source_url": "https://www.newindianexpress.com",
-          "title": "Tariff war opens door for India to emerge as global toy export hub - The New Indian Express",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOenU2dzZaSTJXbWJtSHl2cGZ4WDIyNTFjQzlzVjJUdFBqenNCV1ZmNWdyVnpuZW5jUXNUUGo1OGpRZTRfLWRsTmZ0VmZSVTFZRHA4OHNUdEVJc2VZMDdpZ0ZVVkxxdDl2bDNlaE1CNGEyd3QxMkc2RTk0VTFETWNpNVN2SFZSdjJ0Z2R5NUpGenNlZURvYXYzS1NkbzNqY200OWFoaDhBSFFzX2IxcEJTdDhXTUFHdzI2V0FPQTExb9IBzAFBVV95cUxNZDJPMmwzd0V5alJZS2NnbVlOOW9qOEpueExGdzZfWDdCc2JVX29OYU1VUHZMYXh4SllmYUxTUVFsTkNEdkxjUExXbWl2b2pJQUhuazF6T3FNMUliUHJRUFpFQm1kRWFFRWkyS0N0dG96endZZWQ2QmJ4U2E2REFPLWo2R244ZTgyVUFMM1NpQ1paN3RtM2JqVmYtd0xWVkRHM1h3czRtS2pfMWFVN2k4TU5HOUVMakVLZldrYWFyQUQ0Q2FNNFBGSkRPazQ?oc=5",
-          "published_at": "2025-04-13T07:00:00+00:00",
-          "snippet": "Tariff war opens door for India to emerge as global toy export hub The New Indian Express",
-          "lexical_overlap": 0.222,
-          "relevance": 0.362,
-          "matched_terms": [
-            "export",
-            "global",
-            "hub",
-            "toy"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "export",
-            "global"
-          ]
         }
       ],
-      "implementation_signal": "current_primary_and_reporting_found",
+      "implementation_signal": "current_primary_evidence_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -13789,7 +13791,7 @@
     },
     {
       "id": "e9f8d5117ab0e08f1c",
-      "checked_at": "2026-10-27T12:43:25.547528+00:00",
+      "checked_at": "2026-10-29T06:31:52.387943+00:00",
       "promise_id": "BJP-2024-3340f9e6ba1955cab1",
       "year": 2024,
       "category": "jobs_economy",
@@ -15495,7 +15497,7 @@
     },
     {
       "id": "986619976f56f5ae56",
-      "checked_at": "2026-10-27T12:43:26.513900+00:00",
+      "checked_at": "2026-10-29T06:31:53.482945+00:00",
       "promise_id": "BJP-2024-3370c63a16d0d42058",
       "year": 2024,
       "category": "education_skills",
@@ -17546,7 +17548,7 @@
     },
     {
       "id": "b88b8896161d94258a",
-      "checked_at": "2026-10-27T12:43:21.186187+00:00",
+      "checked_at": "2026-10-29T06:31:46.859387+00:00",
       "promise_id": "BJP-2024-29c7c549a1fb2df546",
       "year": 2024,
       "category": "security_defence",
@@ -17639,6 +17641,52 @@
           ]
         },
         {
+          "id": "337319303fb5a75e7c",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "India seeks an Indo-Pacific where all countries make their own choices, protect their interests & pursue development in peace: Raksha Mantri at 1st ASEAN-India Defence Think Tank Forum - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSlEyLVBCeGZjWVRaczc4czA0T1RZaVVCajI0WXM0SzRHS0szVGRWQktHV29NNkQ0NEVKVzNQRWs2SlpQNUdCdElWSXFySi1ZdWItVjJXVmdWSWk0UHUtZXhYb2o5d2Z3bmpLTDZ2OC0zN29tVjhSc2FXUTJKSHQzOUVfaw?oc=5",
+          "published_at": "2026-10-14T07:00:00+00:00",
+          "snippet": "India seeks an Indo-Pacific where all countries make their own choices, protect their interests & pursue development in peace: Raksha Mantri at 1st ASEAN-India Defence Think Tank Forum Press Information Bureau",
+          "lexical_overlap": 0.08,
+          "relevance": 0.2,
+          "matched_terms": [
+            "countries",
+            "indo-pacific"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "countries",
+            "indo-pacific"
+          ]
+        },
+        {
+          "id": "addc506ab040a672ae",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Hindustan Times",
+          "source_url": "https://www.hindustantimes.com",
+          "title": "India's maritime vision: From SAGAR to MAHASAGAR | Hindustan Times - Hindustan Times",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVXEwVnJ1NGZGb2k0T3A0QzRQeFB3SV9vNmN5b3hZUVNxZGpiQlZOQUhYb3pVSXZsal9IVjJJMTc1NE1YMXhCZmpfLXdHd3JCMVNOLVIwLTZIOG5xeHJRRlJsV1JKbGhVcDRfMnh0RmEwaEMzZDk4T0FYSkdrRDQzRm9GLVNWalRRT2o5TzdBUWIyTHRjdlNVTnRFNThvanVpR0IwSVYxSzhhTFd5QzA0S0pYZEVyNHlWSjN3etIBwgFBVV95cUxNZW5GMVBOSERJZEVGOUJJV1NKQm12TkdNMmNRUnZmcFZkVDVhTXRUeTE4RS0wLUMzdHRRbE82MnQyLWM5OC1JaUN0TWJWOGUyTXpNcENqeWtqZjdHSE5HQzRWaHF0cm5MRnVmcFJfS1pyQnBvWFpoX3NHRmR3QS1YWFhmYW00TDJMd2thcUIzcEQ2MGNHa3VSMTFxY3QxdDVON1lFVHVfTktZYUVmZFdKSkVoV3VhZWFMSGlGV0RkUlRadw?oc=5",
+          "published_at": "2025-04-18T07:00:00+00:00",
+          "snippet": "India's maritime vision: From SAGAR to MAHASAGAR | Hindustan Times Hindustan Times",
+          "lexical_overlap": 0.214,
+          "relevance": 0.319,
+          "matched_terms": [
+            "maritime",
+            "sagar",
+            "vision"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "maritime",
+            "sagar",
+            "vision"
+          ]
+        },
+        {
           "id": "19c25742a63c188371",
           "scope": "news_search",
           "tier": "secondary",
@@ -17683,6 +17731,72 @@
             "sagar",
             "vision"
           ]
+        },
+        {
+          "id": "f6f367835316296e93",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "orfonline.org",
+          "source_url": "https://www.orfonline.org",
+          "title": "MAHASAGAR is the next step in India-Africa collaboration. It addresses maritime security - orfonline.org",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPN0xjWDNKaVJRaDV2Z0pjVVh2ZzBzSW9JVXVsOWtUcmc3cDFFV0NHZHBtWWRXSGxJU2ZTUVE1UVdyS29JaHVZWlpvdENmTWJiYUpMbXplNHZpS2x1QmpJV1RLQmpDdlJiZF9Fc3NTMnd2U0o0bXhST1EwOWxVV0JKS3MwOVdzaFFPbTVHR1laczZqODllaHlUalpjbGpxMWh2TlJONDZ6R0RNQlZDQWQ1X19HRUhrYm9aRlZYTU5tbw?oc=5",
+          "published_at": "2025-04-10T07:00:00+00:00",
+          "snippet": "MAHASAGAR is the next step in India-Africa collaboration. It addresses maritime security orfonline.org",
+          "lexical_overlap": 0.105,
+          "relevance": 0.175,
+          "matched_terms": [
+            "maritime",
+            "security"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "maritime",
+            "security"
+          ]
+        },
+        {
+          "id": "79210355bdce5a5a95",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "IMPRI Impact and Policy Research Institute",
+          "source_url": "https://www.impriindia.com",
+          "title": "MAHASAGAR Initiative: India's Global Maritime Outreach And Strategic Vision - IMPRI Impact and Policy Research Institute",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAtbDlRNUhkZDIzOVdvUmpfa3lyTnllbFdKaTd1eDhxTGM1UUowVklYdW9TdXEwbV9uTzdTdzlBRGJzc0lhU0huQ3d5QmF3MVJUa1VXeFI5Yl92WkJQQWdDODROTExWNDFkUVV4QmdrRmdkQ3A0cmJ6RW5yVQ?oc=5",
+          "published_at": "2025-08-19T07:00:00+00:00",
+          "snippet": "MAHASAGAR Initiative: India's Global Maritime Outreach And Strategic Vision IMPRI Impact and Policy Research Institute",
+          "lexical_overlap": 0.095,
+          "relevance": 0.165,
+          "matched_terms": [
+            "maritime",
+            "vision"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "maritime",
+            "vision"
+          ]
+        },
+        {
+          "id": "6e407616dafbd8e503",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "United States Studies Centre",
+          "source_url": "https://www.ussc.edu.au",
+          "title": "MAHASAGAR: India’s global maritime vision explained — and where does Australia fit - United States Studies Centre",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSWl3cV9XR3RmMUh6TS1UU1UzRjBoM04yLTk1YklUWVRScDlIeEN0T2MtU01xVTRCSTZTbjluUElLdVpoVkdfblgzaG5zcXFsOTcxdUNnMWoxTDVERktHUHVNVVEzNVdGdnhDLU5ZZW9sb0V3a1NuV2ktajNxV2l5N3BJS01EajNKcTYzLXIwUGRTR09FMURMMVJ4ZzRVcFlVal91ZQ?oc=5",
+          "published_at": "2026-02-13T08:00:00+00:00",
+          "snippet": "MAHASAGAR: India’s global maritime vision explained — and where does Australia fit United States Studies Centre",
+          "lexical_overlap": 0.091,
+          "relevance": 0.161,
+          "matched_terms": [
+            "maritime",
+            "vision"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "maritime",
+            "vision"
+          ]
         }
       ],
       "implementation_signal": "current_primary_and_reporting_found",
@@ -17700,7 +17814,7 @@
     },
     {
       "id": "4d60b93a46fdd0a091",
-      "checked_at": "2026-10-27T12:43:23.465687+00:00",
+      "checked_at": "2026-10-29T06:31:49.333117+00:00",
       "promise_id": "BJP-2024-305c3ce92a0de30047",
       "year": 2024,
       "category": "infrastructure",
@@ -17801,7 +17915,7 @@
     },
     {
       "id": "58bd0c313d31913d16",
-      "checked_at": "2026-10-25T19:03:44.187092+00:00",
+      "checked_at": "2026-10-29T06:32:02.152155+00:00",
       "promise_id": "BJP-2024-3bf0024807a71bdbec",
       "year": 2024,
       "category": "jobs_economy",
@@ -17848,28 +17962,6 @@
             "imec",
             "international",
             "trade"
-          ]
-        },
-        {
-          "id": "48744445f43e5f7f33",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Decode39",
-          "source_url": "https://decode39.com",
-          "title": "India’s Amb. Rao explains why IMEC is a strategic bridge between Europe, Asia, and Africa - Decode39",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOX0ROUmVkR05nTVQ2VThLTndSNkR0N3VNMDNPTU9iMXU1cnVHNGtPX1FUZHZwOXNtck1fR2JpRUxxZkhwNFVhNmNQUFphSHlhUWhKY20xdW1hWmY4QlZVeGpjeXRYNVUwcU12Y0dUeVR0QXpNN0s5SEltWUJwQktUSXdKSkdabXVLMEEweTlHdlM3d0xHYnVlU1hTaTBxTXMzRU1fYVNkeWRKVWxqM3IyT3BNZw?oc=5",
-          "published_at": "2025-10-20T07:00:00+00:00",
-          "snippet": "India’s Amb. Rao explains why IMEC is a strategic bridge between Europe, Asia, and Africa Decode39",
-          "lexical_overlap": 0.091,
-          "relevance": 0.161,
-          "matched_terms": [
-            "europe",
-            "imec"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "europe",
-            "imec"
           ]
         }
       ],
@@ -20398,7 +20490,7 @@
     },
     {
       "id": "005302e5efa5defca5",
-      "checked_at": "2026-10-25T19:03:43.175505+00:00",
+      "checked_at": "2026-10-29T06:32:01.077731+00:00",
       "promise_id": "BJP-2024-3bcb79ce7dda5e8ccc",
       "year": 2024,
       "category": "jobs_economy",
@@ -20443,15 +20535,15 @@
       "query": "manufacturing trusted global hub series programmes",
       "evidence": [
         {
-          "id": "c27ae577dca8faf311",
+          "id": "99d4b9cb37eb5ee230",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "www.pib.gov.in",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "Safe Workplace & High Value Jobs characterise India's Chip Ecosystem as we are Emerging as Trusted Global Hub in Electronics & Semiconductor - www.pib.gov.in",
+          "title": "Safe Workplace & High Value Jobs characterise India's Chip Ecosystem as we are Emerging as Trusted Global Hub in Electronics & Semiconductor - Press Information Bureau",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBTSTJPdk9vTjNTekVZV0tlWjhTV2xWYURDaXJXaU5Jbkd3UXpUSlBsaUdiRURnWDNuV3QtU2pKOUxVdGVoX3BRUFFPZEpyTVFzbkJGUzlObUZXYTA3TC1aLWthU2Zrb3Y1UkZaS3B3cENkYzZSR0JSb0pwcw?oc=5",
           "published_at": "2026-07-15T07:00:00+00:00",
-          "snippet": "Safe Workplace & High Value Jobs characterise India's Chip Ecosystem as we are Emerging as Trusted Global Hub in Electronics & Semiconductor www.pib.gov.in",
+          "snippet": "Safe Workplace & High Value Jobs characterise India's Chip Ecosystem as we are Emerging as Trusted Global Hub in Electronics & Semiconductor Press Information Bureau",
           "lexical_overlap": 0.12,
           "relevance": 0.275,
           "matched_terms": [
@@ -20466,53 +20558,29 @@
           ]
         },
         {
-          "id": "bd8f6e091d655eabf9",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Rediff MoneyWiz",
-          "source_url": "https://money.rediff.com",
-          "title": "Samsung India: From Manufacturing Base to Global Innovation Hub - Rediff MoneyWiz",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdTJOZko0WUk4bVkydEZ4WkdtU0IwVDNoWl9RZGxnV0xiaGxvN3hKVUJSTE4tV0hRVlRrUXBJcVNwSTJvS1p4ZGJDc2xackQ3OENkRkZEWWlzTVA4cV9IWHpCM2ZjQko3TFZMQ2Q4TXhaT1h5aVV1a2F1WWJiVXlTeGR5VEJZek1zTjlyWFNqbHpHRTBLRktTTjRLYTJGUVpJQ2E1Q0VINnhXV2JtRzdVNHZfTFHSAboBQVVfeXFMT0xBaXRQSEc3MDB0VnVEV2tBVlp5MV9HVHZxcEYxTWE3SmJCdklfN3NIX2JrczVnSUV1emlPZGZqWC1WNEVUYmtmSjJqb1ZEMXA0VW5zUDZzeXdtNTZZSkdKakZRTkNZQXFYLUpDWWd0eXBnREZDQXRuU2RoR2VSRGNPYTEybF9FNzl4X0E0bmtyWk5NYWpjelpiQkgtYzFzbHpzTW1PX2QxTDNBZkNJYXY5Slk0SkJrMFZn?oc=5",
-          "published_at": "2026-10-05T07:00:00+00:00",
-          "snippet": "Samsung India: From Manufacturing Base to Global Innovation Hub Rediff MoneyWiz",
-          "lexical_overlap": 0.176,
-          "relevance": 0.281,
+          "id": "fadc6dd9a84f88cb98",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Union Budget 2026–27: Exports Take Centre Stage as Budget Pushes Jobs, Manufacturing and Global Value Chains - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5JYS1rTHhvX2psNHFRUEU0WlBnYUZudVlHOUw3VE1PWjdzdllCM1BodDBlaFVGblltRFY2N3hTYmpqdkxwM2NseERuTFVxdjR1czlEZi1ZUEFXNUlJa0xUckdUb1pSMkds?oc=5",
+          "published_at": "2026-02-01T08:00:00+00:00",
+          "snippet": "Union Budget 2026–27: Exports Take Centre Stage as Budget Pushes Jobs, Manufacturing and Global Value Chains Press Information Bureau",
+          "lexical_overlap": 0.08,
+          "relevance": 0.2,
           "matched_terms": [
             "global",
-            "hub",
             "manufacturing"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
             "global",
             "manufacturing"
-          ]
-        },
-        {
-          "id": "505aaae9f8c663e346",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "https://www.indiagazette.com/",
-          "source_url": "https://www.indiagazette.com",
-          "title": "Modi pitches India as trusted global chip hub - https://www.indiagazette.com/",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOOTJMMWREMnFqV1g4QTNfOGlVbmV0U0VXLUgtX25GZjVVTDUxV0pjcmE5RExaUHNjTzFEQk1VQm9LR3dXZ0RwWUpuV0tNeUZ5VTNIaGV0cDB3Nl9JRFM1ZldBZ0VtVUtXSkozTUI4UDE5Wk1mUnQ1YVNrS2pTNnJDeExsUUlsbEJkZnp4NHZSNWd0aUE?oc=5",
-          "published_at": "2026-09-17T09:09:00+00:00",
-          "snippet": "Modi pitches India as trusted global chip hub https://www.indiagazette.com/",
-          "lexical_overlap": 0.167,
-          "relevance": 0.272,
-          "matched_terms": [
-            "global",
-            "hub",
-            "trusted"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "global",
-            "trusted"
           ]
         }
       ],
-      "implementation_signal": "current_primary_and_reporting_found",
+      "implementation_signal": "current_primary_evidence_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -26114,7 +26182,7 @@
     },
     {
       "id": "5c6ede857699fb74a3",
-      "checked_at": "2026-10-25T19:03:39.676188+00:00",
+      "checked_at": "2026-10-29T06:31:59.421387+00:00",
       "promise_id": "BJP-2024-38fc227a6cec319ad4",
       "year": 2024,
       "category": "environment",
@@ -26138,31 +26206,6 @@
       "related_promises": [],
       "query": "manufacturing global hub energy renewable set",
       "evidence": [
-        {
-          "id": "1da81e1266f57c6a0c",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Wind Energy is at the centre of India’s strategy for the renewable energy sector: Union Minister Shri Pralhad Joshi - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1aYk4xMTl1MmhtOE96Z3pyZmh5UERvVlZ1NTlrU1l2RG9rZ0M1VmhMdG04aGZ0WDVUeHBtdUZ0d3F5OV9vT3JLWnZVd3hvRDYwdUhYaTFvZ08wZUhuYjAzMW1FY3gyRFdX?oc=5",
-          "published_at": "2025-06-15T07:00:00+00:00",
-          "snippet": "Wind Energy is at the centre of India’s strategy for the renewable energy sector: Union Minister Shri Pralhad Joshi PIB",
-          "lexical_overlap": 0.15,
-          "relevance": 0.305,
-          "matched_terms": [
-            "centre",
-            "energy",
-            "renewable"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "centre",
-            "energy",
-            "renewable",
-            "wind"
-          ]
-        },
         {
           "id": "f5c75f9eb50ea95eae",
           "scope": "preferred_official_search",
@@ -26235,33 +26278,6 @@
           ]
         },
         {
-          "id": "0a4a3082db7ccfb34d",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Telangana Today",
-          "source_url": "https://telanganatoday.com",
-          "title": "WEF 2026: Nara Lokesh pitches Andhra Pradesh as global clean energy manufacturing hub - Telangana Today",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbkdKdXBFV013V2RZSWd2NmhHZncySmV2WXFJaU45TDY4NEZQZDhKU3hMdEZNUHVNZXI1ZE9Za0EzcUpyTEh2M0dCTmVHRmFJRTVrUnpfdWNRcjk4REFnaUZ3NEZRMXQ2OHItV0xvaEFHUkhacUlQQjN2Y29Lb3BXdjE5YmJhcjV1Q2RnbVpxR1V2OWJyekJfSkxQQlB4UXBONUNick9XUnE0MHNiNFRpVw?oc=5",
-          "published_at": "2026-01-22T08:00:00+00:00",
-          "snippet": "WEF 2026: Nara Lokesh pitches Andhra Pradesh as global clean energy manufacturing hub Telangana Today",
-          "lexical_overlap": 0.263,
-          "relevance": 0.438,
-          "matched_terms": [
-            "clean",
-            "energy",
-            "global",
-            "hub",
-            "manufacturing"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "clean",
-            "energy",
-            "global",
-            "manufacturing"
-          ]
-        },
-        {
           "id": "cad55c1b6498e3be82",
           "scope": "news_search",
           "tier": "secondary",
@@ -26314,32 +26330,6 @@
           ]
         },
         {
-          "id": "78c0b4262179a45f24",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Saur Energy",
-          "source_url": "https://www.saurenergy.com",
-          "title": "From Oil to Photovoltaics: The Middle East Grows as a Global Solar Manufacturing Hub - Saur Energy",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOSm82SGxDS0pFT2dzeU1SWUphOWJiTm5VUlVQSHl6eGNDM2RTbHVvaS1sQmc4NEpUenlsM0FaVmlxcnpGOTJQaVphZVRMbmhaQjhUT0xlZDNfVVpjS19VRlE1bTNLZXB6dENCRG55R1FLSFlzUHhMS3dqRHhjanQ2Q1RTQ3dGVVJaUThLbTdRcWRiN1prZkZDUzI4eG5YMl8zMlBONDNKUmxtZURuZm8xUE5FbVBBYUY0cDRMcHI3MFlodTh6T1FudmxWX25vbHY4Qm1j?oc=5",
-          "published_at": "2026-01-15T08:00:00+00:00",
-          "snippet": "From Oil to Photovoltaics: The Middle East Grows as a Global Solar Manufacturing Hub Saur Energy",
-          "lexical_overlap": 0.211,
-          "relevance": 0.351,
-          "matched_terms": [
-            "energy",
-            "global",
-            "hub",
-            "manufacturing"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "energy",
-            "global",
-            "manufacturing",
-            "solar"
-          ]
-        },
-        {
           "id": "be7e13103d9aa9213b",
           "scope": "news_search",
           "tier": "secondary",
@@ -26361,6 +26351,53 @@
           "promise_core_overlap": [
             "clean",
             "energy",
+            "manufacturing"
+          ]
+        },
+        {
+          "id": "2097c86ed2fe42e4be",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "ET Government",
+          "source_url": "https://government.economictimes.indiatimes.com",
+          "title": "NTPC Green Energy to set up India's largest green hydrogen production facility near Vizag - ET Government",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQeUFBQXlUS1VEYjhmZ2o1VnQ3X0pWQU10MzZfVjlTbU1TOFBod0xBS0ZjR29Rb3gxU2x5NkxPbWR6dDIzQmNpUUhTOUxpQjE1QWtZNkVUR1pUSVdKS2R0djkxV0t6WmVpN2o1RXRqaUxDVXpDNjVBNlRHQ0k3ZC1uRzlERUl0LVNwRkgzUDZUUVZwTmhoaW0xamg4b3NqOXQ5Z1hVLUFHWWpsczdRT2dkTDdJWkZjVW10b3ZTRHZnMXIzWjJfT3FuSEx2dUg3MGtzclpkRlgtUnNWRzZMbmZiUThtRFl1LTVfUzFPU2Y1aVVickE00gHvAUFVX3lxTE02a2hlc2l5VzZybmVBR0ctZkJjNFRveGNKUGNrdTdGbFdlWElLUTlXaE1zaTNYX3czZjAyWnpsZEI5dkpFTGJaUy1UZ1dkZ01VWXhYQmdQbTJfdlJFdm9GUl8tSFd5NFQ4bHpJNFN3SUVlQkhVbUIyLXVQenplV3MtRFlfa3E3dk90OXhaN1MwdW9PVTlXR3dHRmN5R1ZBNndmVVIwMGJXeDhGNlRvckdHR0RXcXZrTzBLYnFKWGsxQ2VIWUl6R2IyN2MxLWxCcGlPT25EYUpfR3d3ckFmNUtWQlZ6aDJ3eld0UGFGczB3?oc=5",
+          "published_at": "2026-10-18T00:23:45+00:00",
+          "snippet": "NTPC Green Energy to set up India's largest green hydrogen production facility near Vizag ET Government",
+          "lexical_overlap": 0.143,
+          "relevance": 0.248,
+          "matched_terms": [
+            "energy",
+            "set",
+            "up"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "energy",
+            "green",
+            "hydrogen"
+          ]
+        },
+        {
+          "id": "2b1a2f9a9de1fea449",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Manufacturing Today India",
+          "source_url": "https://www.manufacturingtodayindia.com",
+          "title": "Kosol Energie announces Rs 90,000 Cr green energy plan - Manufacturing Today India",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5KSFZqcGRHSjRhZ0pYczctY3lYOTcweFNjTGd6dG9ROUFCSHFBZTE1TTJSV2FnRGpBUnJnSEMxVzBoXzRlb0dWUlFXN0laclRIXzRTLUxZVHViM1dDY3gzSzNrbW5nVDFneVJ2ZURYUzBqSjR3dktz?oc=5",
+          "published_at": "2026-01-23T08:00:00+00:00",
+          "snippet": "Kosol Energie announces Rs 90,000 Cr green energy plan Manufacturing Today India",
+          "lexical_overlap": 0.105,
+          "relevance": 0.175,
+          "matched_terms": [
+            "energy",
+            "manufacturing"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "energy",
+            "green",
             "manufacturing"
           ]
         }
@@ -28838,7 +28875,7 @@
     },
     {
       "id": "855125f7b2d45466b7",
-      "checked_at": "2026-10-27T12:43:22.516767+00:00",
+      "checked_at": "2026-10-29T06:31:48.444663+00:00",
       "promise_id": "BJP-2024-304ed8cd0b6b9163c4",
       "year": 2024,
       "category": "infrastructure",
@@ -28862,6 +28899,30 @@
       "related_promises": [],
       "query": "developing sustainable cities spaces green like",
       "evidence": [
+        {
+          "id": "445478432d03572fa3",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Frontiers",
+          "source_url": "https://www.frontiersin.org",
+          "title": "The importance of urban green spaces in the development of smart cities - Frontiers",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeUVTeUNWS19uem8wZ3BTczRTQU5XX2FaNEp0THd1aWljVVNYMkxJd0RWQWhwa1BjMmpXSldCTnFyQW1GbDF5T3pPRGptQU1xM0hBb1hiMVZjeG42b0RDUW8wcnY3d3N5bThLYVhGbTVaSy0yNG9KSmc0QXlXc0ZaR29EcTBlS1dJY2MzczQ1X2FYMUUtcXdBRXk2RU80b2df?oc=5",
+          "published_at": "2024-06-25T18:38:53+00:00",
+          "snippet": "The importance of urban green spaces in the development of smart cities Frontiers",
+          "lexical_overlap": 0.176,
+          "relevance": 0.281,
+          "matched_terms": [
+            "cities",
+            "green",
+            "spaces"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "cities",
+            "green",
+            "spaces"
+          ]
+        },
         {
           "id": "276dddd039990218fb",
           "scope": "news_search",
@@ -28929,7 +28990,7 @@
           ]
         }
       ],
-      "implementation_signal": "needs_research",
+      "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -33987,7 +34048,7 @@
     },
     {
       "id": "1a29ec84a5759f5f28",
-      "checked_at": "2026-10-25T19:03:47.201103+00:00",
+      "checked_at": "2026-10-29T06:32:04.953502+00:00",
       "promise_id": "BJP-2024-3fffac1fa2b9f37498",
       "year": 2024,
       "category": "education_skills",
@@ -34023,15 +34084,15 @@
       "query": "focus dimensions quality education including teachers",
       "evidence": [
         {
-          "id": "e93f04365232cce41e",
+          "id": "689a1a0647bf46d37c",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "www.pib.gov.in",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "NITI Aayog Releases Policy Report on ‘School Education System in India: Temporal Analysis and Policy Roadmap for Quality Enhancement’ - www.pib.gov.in",
+          "title": "NITI Aayog Releases Policy Report on ‘School Education System in India: Temporal Analysis and Policy Roadmap for Quality Enhancement’ - Press Information Bureau",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBKLUluektmTEt2d0lwQkM2ZVdQUGtpYWZocE1nYTVtLVdCUnY1QVlpcWFxbFFqZnRxTlpDYVM3TGcyNlFaQmtjM19jM1VsR3lPVGtINHhZZ2QwQmJkdmtmUWppejlqQmVs?oc=5",
           "published_at": "2026-05-07T07:00:00+00:00",
-          "snippet": "NITI Aayog Releases Policy Report on ‘School Education System in India: Temporal Analysis and Policy Roadmap for Quality Enhancement’ www.pib.gov.in",
+          "snippet": "NITI Aayog Releases Policy Report on ‘School Education System in India: Temporal Analysis and Policy Roadmap for Quality Enhancement’ Press Information Bureau",
           "lexical_overlap": 0.077,
           "relevance": 0.197,
           "matched_terms": [
@@ -34045,41 +34106,17 @@
           ]
         },
         {
-          "id": "6eaaba37f6aee9a6c2",
+          "id": "4e32b2a3bf1c566088",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Frontiers",
-          "source_url": "https://www.frontiersin.org",
-          "title": "Systematic observation to measure teaching quality in different contexts: insights from science lessons, physical education lessons, and sports training using the classroom assessment scoring system - Frontiers",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQSGpkelFWWTZuY0dRY2dWeEI3UUd0bmh6ZlRBOG9FWC1JemJ4WUFTZEFJYnVnSHB1Z1I0Y2hHa1BpV0pYTzAyVFhhMjVjR0pqX2lPRHptaER3LWh5QjFtN0N6cFJMMU1temZHWDVDeV90cEdTcExsaFpuYzhVeUREd240UW5nZ25wdHl2Zmt0SGQ?oc=5",
-          "published_at": "2024-10-16T07:00:00+00:00",
-          "snippet": "Systematic observation to measure teaching quality in different contexts: insights from science lessons, physical education lessons, and sports training using the classroom assessment scoring system Frontiers",
-          "lexical_overlap": 0.12,
-          "relevance": 0.225,
-          "matched_terms": [
-            "education",
-            "quality",
-            "training"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "education",
-            "quality",
-            "training"
-          ]
-        },
-        {
-          "id": "4ee43bab8a6b41dcf8",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "United Nations in India",
-          "source_url": "https://india.un.org",
-          "title": "Quality Education - United Nations in India",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5PUTc4Q3BTYXp4OUNwcFJCb3VfTDBITlQwNWpkVXYzdXZIOUhlMm1BZXlHSjlGcVcwaVE2eHBOR1VWMllFR0JrY1FWcGVFMEJsN1g2Wm8teE1LazJU?oc=5",
-          "published_at": "2025-12-04T10:52:50+00:00",
-          "snippet": "Quality Education United Nations in India",
-          "lexical_overlap": 0.143,
-          "relevance": 0.213,
+          "source": "United Nations Development Programme",
+          "source_url": "https://www.undp.org",
+          "title": "Goal 4: Quality education - United Nations Development Programme",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8xN0YzYm4zYWZQdFVBRVpnVDRDSE5XWkt2WElJYXJIVkV5OWltQU9ENzlpeFk4WnJWZy1TeDlMMmJBS0h0Z25YSDZMaW1rTXRGMlRHNWlROE5XZUFMSzI2MVFtYXJ5WEtnUXZxbWM5ejh6eHFuaVdj?oc=5",
+          "published_at": "2023-02-08T18:49:06+00:00",
+          "snippet": "Goal 4: Quality education United Nations Development Programme",
+          "lexical_overlap": 0.118,
+          "relevance": 0.188,
           "matched_terms": [
             "education",
             "quality"
@@ -34091,15 +34128,15 @@
           ]
         },
         {
-          "id": "1691bf24a184f9f953",
+          "id": "652f5d704faff945e7",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "orfonline.org",
-          "source_url": "https://www.orfonline.org",
-          "title": "Rethinking Quality Education: Perspectives from the Capability Approach - orfonline.org",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNc2hJVThxaC1YRFk1c2U5NkFLMWZHaWF6dTZYTjJZREh1aGhsaUFnQUZTcXh3cWlwTmFwcGhvaVlzQ0ZLX2hQblZkMUNxeV9fSXFzUVVIbTh6Ty1WSk9mZHBtdXBoNk5vRWY5am9yWGVXZWVlazNtM3ZMY2FPbnVzNFBTX3lWN0UxdU5JdFpDQWVLcWF3V0hzUlZ5QkV6cFA5eFo1N2NIbXQ?oc=5",
-          "published_at": "2025-07-10T07:00:00+00:00",
-          "snippet": "Rethinking Quality Education: Perspectives from the Capability Approach orfonline.org",
+          "source": "Welcome to the United Nations",
+          "source_url": "https://www.un.org",
+          "title": "Goal 4: Quality Education - United Nations Sustainable Development - Welcome to the United Nations",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE00SGpmYjR1T1lDUmY4SWQ4eEZ5eXEweE0zcWlaSlJPQ3M3LU94ZDFBVWpKNHRkNElYc29oV0pCLWJrT1NxTzh0RVB3OWtLRzVuTk5KeFVYVjJwU3BOVFY5NTB3?oc=5",
+          "published_at": "2018-09-01T11:23:44+00:00",
+          "snippet": "Goal 4: Quality Education - United Nations Sustainable Development Welcome to the United Nations",
           "lexical_overlap": 0.111,
           "relevance": 0.181,
           "matched_terms": [
@@ -34111,31 +34148,9 @@
             "education",
             "quality"
           ]
-        },
-        {
-          "id": "06770c7674286174c0",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Britannica",
-          "source_url": "https://www.britannica.com",
-          "title": "Standardized Tests | Pros, Cons, Teachers, Students, Education, & Metrics of Success - Britannica",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1CVjRnNHFaU3dHV0N2OG1RTWEyZmxWVkxxTVJLUWZveDJ2djVMcW5ZNERiQ0NHVXdIZlJvNUNoZ3VuLTUwLUlLM1NTbEdUVS1RZHQtSDlHdnlVZUNCN3A2bFQ2NWhGWUlldF8w?oc=5",
-          "published_at": "2026-10-14T07:00:00+00:00",
-          "snippet": "Standardized Tests | Pros, Cons, Teachers, Students, Education, & Metrics of Success Britannica",
-          "lexical_overlap": 0.1,
-          "relevance": 0.17,
-          "matched_terms": [
-            "education",
-            "teachers"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "education",
-            "teachers"
-          ]
         }
       ],
-      "implementation_signal": "current_reporting_found",
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -35614,7 +35629,7 @@
     },
     {
       "id": "db4ab78255c1111530",
-      "checked_at": "2026-10-27T12:43:20.455313+00:00",
+      "checked_at": "2026-10-29T06:31:46.271604+00:00",
       "promise_id": "BJP-2024-26b216b5fc345aa101",
       "year": 2024,
       "category": "women_social_justice",
@@ -35663,53 +35678,29 @@
           ]
         },
         {
-          "id": "2f811d536bc483216b",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "DD India",
-          "source_url": "https://ddindia.co.in",
-          "title": "Army plays pivotal role in maintaining peace, stability in Northeast: CM Himanta Biswa Sarma - DD India",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONXlVNXYzclk2YW1lU0JEdXR1b29WcEgyMVoxRmRFZGdnd2dmZTdxb2pmdnFLSnBBd2tGZXFHd3A2X20xeEhMUTVEVjhvUkVkdHNiNXZybTBRUVBuTm9IaEZsRzJjX1ljSXJnbGdwa2RKblgwQWswOUFoWEFfS2pSWUdscGkyRUtHWDhxaW9LOC0xYm5WNTJXejJzNHVrZEIzMkdYMER4MU9rUW90eTlyVnJ6Z1l2cmhzSmJpZDhn?oc=5",
-          "published_at": "2026-07-17T07:00:00+00:00",
-          "snippet": "Army plays pivotal role in maintaining peace, stability in Northeast: CM Himanta Biswa Sarma DD India",
-          "lexical_overlap": 0.136,
-          "relevance": 0.241,
-          "matched_terms": [
-            "maintaining",
-            "northeast",
-            "peace"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "maintaining",
-            "northeast",
-            "peace"
-          ]
-        },
-        {
-          "id": "646a02225a1e2c465e",
+          "id": "2999bd41283d6f7d41",
           "scope": "news_search",
           "tier": "secondary",
           "source": "Northeast Today",
           "source_url": "https://northeasttoday.in",
-          "title": "Arunachal Pradesh Congress Committee President Appeals For Peace In Siang, Blames BJP Govt For SUMP Crisis - Northeast Today",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNU2dkcnhXd2VSV001ejNuUEc0ek8yYXFNU0FocmtRejFTcmxoeEJlWmI4RmJ4R0ZHbWRkbVVlbUFkcnNUamZhc1I4VEJXVjVRaXh2NWpJOEZuQ3dpbmRVWGQ2QzNyNENDSHJkbG80Wm9pYnFMU1VKU1RiMFB3MG5iTDFyWkp4U2hqd2tHT1pBQWJMeTktZnMwcDZSWHNTMnRpNkt4czB1ZGZ2N1g3bXRhQmN4RU1LZGlLUGx4S3F2ZFF5TW53Ulp6UkZLcnlOaDVlay10d0VDMFA?oc=5",
-          "published_at": "2026-10-24T09:08:02+00:00",
-          "snippet": "Arunachal Pradesh Congress Committee President Appeals For Peace In Siang, Blames BJP Govt For SUMP Crisis Northeast Today",
-          "lexical_overlap": 0.087,
-          "relevance": 0.157,
+          "title": "Meghalaya-Assam Tourist Taxi Standoff Resolved, Both States Agree To Address Operators’ Concerns - Northeast Today",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTUJWZkhYOVVMZHdWZWVUVDZ2WUxyX1Zna1pwUlpLNkw4S2otMnFoYzUwYk1sS0ZBM2J5M053aV9Uajh3T3d1alJkblBnQWo0ZDJJQ0JNNUJMQkxadmtQX0hoNWk3Vk1aRmZfbW9lN2laVmhyYVpnb3dyZmc5NHd5bDQtMG00bXJMLTA5Z3NVcUhJNXZvcUtXc19BcldxdkIzVkkxYW9BQ0M3RTVaczNLZ0hoWHNOQ0IyR0FuX3R2TUhhQWdDSFlrbngzbkpsTXdaeE9N?oc=5",
+          "published_at": "2026-09-08T07:00:00+00:00",
+          "snippet": "Meghalaya-Assam Tourist Taxi Standoff Resolved, Both States Agree To Address Operators’ Concerns Northeast Today",
+          "lexical_overlap": 0.091,
+          "relevance": 0.161,
           "matched_terms": [
-            "northeast",
-            "peace"
+            "address",
+            "northeast"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "northeast",
-            "peace"
+            "address",
+            "northeast"
           ]
         }
       ],
-      "implementation_signal": "current_primary_and_reporting_found",
+      "implementation_signal": "current_primary_evidence_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -35724,7 +35715,7 @@
     },
     {
       "id": "cac952f722d4bb9bf1",
-      "checked_at": "2026-10-27T12:43:30.286431+00:00",
+      "checked_at": "2026-10-29T06:31:57.390467+00:00",
       "promise_id": "BJP-2024-35123003c107afc153",
       "year": 2024,
       "category": "infrastructure",
@@ -35788,7 +35779,7 @@
     },
     {
       "id": "a4422d42d7f3437eff",
-      "checked_at": "2026-10-25T19:03:41.588598+00:00",
+      "checked_at": "2026-10-29T06:32:00.422495+00:00",
       "promise_id": "BJP-2024-3a5154a87c211bc2bb",
       "year": 2024,
       "category": "environment",
@@ -38092,7 +38083,7 @@
     },
     {
       "id": "e81bbf621781ebaaf0",
-      "checked_at": "2026-10-27T12:43:29.400778+00:00",
+      "checked_at": "2026-10-29T06:31:56.537448+00:00",
       "promise_id": "BJP-2024-350f90d9997423c9dc",
       "year": 2024,
       "category": "other",
@@ -38116,23 +38107,25 @@
       "query": "stand committed lead world sustainable living",
       "evidence": [
         {
-          "id": "5a4c9e7ef3d046f94e",
+          "id": "b54e19af7cbf3b6718",
           "scope": "news_search",
           "tier": "secondary",
           "source": "World Economic Forum",
           "source_url": "https://www.weforum.org",
-          "title": "China's green transition: Remarkable but also sustainable? - World Economic Forum",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQYllwZU53bHFoV3BQLXFJUXU1aVR4RW1oLThqWUFWWGszeklGczl1Y0NuRllGTE5qdkk3RlYySVpNa0g2R2hOTmZGZ2d5UTR5Mnh1VE5sd0dZQ1JmcEU4Y3JQM1ZaMTd2SFVUZmVXbkpjbnNmaTdtR0YzRXpCYmJrc09IMA?oc=5",
-          "published_at": "2025-07-28T07:00:00+00:00",
-          "snippet": "China's green transition: Remarkable but also sustainable? World Economic Forum",
-          "lexical_overlap": 0.154,
-          "relevance": 0.224,
+          "title": "India's universities lead in sustainable development: What's driving their success? - World Economic Forum",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOWjFOVXIyRnIxa29PVy1TOFNhRTBhTV9MeVB1RHgtMWpFQ0Rad2thcG5SMURNXzZPc0JTdldtVnZlemRBOXlkcFNPUlRsU1U3UWhEcDVmeFZRSFRRUjZNYnpFMmxKR2VKbENQUWZLcXoyb2lYODF6TkhETkpjNkprLVVRaFpBdUtaUFRKVlBoeF9KczdZaklfczhOOVhXYkZ2Zmh1alQxdkIzTEo3X2V0bVlmTTA1QWxUTnlXb05NM2dXX3VqQm5oLXpnX1MtMTQ?oc=5",
+          "published_at": "2024-08-05T07:00:00+00:00",
+          "snippet": "India's universities lead in sustainable development: What's driving their success? World Economic Forum",
+          "lexical_overlap": 0.231,
+          "relevance": 0.336,
           "matched_terms": [
+            "lead",
             "sustainable",
             "world"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
+            "lead",
             "sustainable",
             "world"
           ]
@@ -38760,7 +38753,7 @@
     },
     {
       "id": "91550cbd9aebfe4ac9",
-      "checked_at": "2026-10-25T19:03:45.493363+00:00",
+      "checked_at": "2026-10-29T06:32:03.397452+00:00",
       "promise_id": "BJP-2024-3ca37508bfe67ac9be",
       "year": 2024,
       "category": "women_social_justice",
@@ -38807,13 +38800,13 @@
           ]
         },
         {
-          "id": "0738d53708b062ee97",
+          "id": "71cb0329dd2fc3fc2d",
           "scope": "preferred_official_search",
           "tier": "primary",
           "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
           "title": "Four-day Symposium ‘India 2047: Building a Climate Resilient Future’ kick starts in New Delhi - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8tUEZFM3pqS2FNU2ZLYVBhMkI0bmpmYWxOcGJ0ZXVoX2VadW5nTkU5RkpmR2pLRmZzTWlqaXQzNGFOV3FFYjV3TGRJclo0TjdKWmlOQTBLNzE3TS1jdHFyRUY5Ri14SnFR?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE56bXFJS01fSldKT0llYjdsZ244SWpBV3ZkTFdOT3gyajhNZ1o0cFNzRlJfME5sYktSU3NENWhMS21LMUJMUmRTeWZIUUxWMXZ6Q2N1Mm42a0piZlJ6eFhDSWhUSHc2RTJKM19CeGFQRlo?oc=5",
           "published_at": "2025-03-19T07:00:00+00:00",
           "snippet": "Four-day Symposium ‘India 2047: Building a Climate Resilient Future’ kick starts in New Delhi Press Information Bureau",
           "lexical_overlap": 0.095,
@@ -38829,15 +38822,15 @@
           ]
         },
         {
-          "id": "f1b050d7cc2ca930cf",
+          "id": "df64d3405ddba74047",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "PIB",
+          "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "Government of India and Asian Development Bank (ADB) sign $42 million loan to strengthen coastal protection to help boost community resilience in Maharashtra - PIB",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBROF9Yd01NNnR3RnViNHBLTl9FUzNaWkhOeEVzaTRNYVhaelczcUQ4YVF2bGMxckdIRHVxUFJLdUtvQXNBQmxkY1VybGNOTGJac2phQmNteVFBZVM3YWR5eWd6cm1GWDlaMEFyYjdMbWE?oc=5",
-          "published_at": "2025-05-13T14:54:44+00:00",
-          "snippet": "Government of India and Asian Development Bank (ADB) sign $42 million loan to strengthen coastal protection to help boost community resilience in Maharashtra PIB",
+          "title": "Government of India and Asian Development Bank (ADB) sign $42 million loan to strengthen coastal protection to help boost community resilience in Maharashtra - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9OSm5LNFFZUkJpSXNtWGJ1bUJKbHc3LXE0bi1FYWhHV2twZG1lSkh5VnBDQUtETmQ2NXpXRHpxMkxfWUk3aWtoc3dyMjRZbm1ZVlV3c1dFemM5U05oeVAxVWt1SG5fb2VY?oc=5",
+          "published_at": "2024-12-19T08:00:00+00:00",
+          "snippet": "Government of India and Asian Development Bank (ADB) sign $42 million loan to strengthen coastal protection to help boost community resilience in Maharashtra Press Information Bureau",
           "lexical_overlap": 0.08,
           "relevance": 0.2,
           "matched_terms": [
@@ -38851,15 +38844,15 @@
           ]
         },
         {
-          "id": "3f6edf780169ab518a",
+          "id": "b2684431a2907a84d0",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Global Center on Adaptation",
-          "source_url": "https://gca.org",
-          "title": "Nature-Based Solutions for Climate Resilience in Coastal Towns - Global Center on Adaptation",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTm1zMnV6cXBtMmVLSWd1cFZkbXdNdEQtOVZPcVIteWdadmhCUW40SVRiRkR4MWt5dF9WUndRcmlQUGVhSHVRaURqTkRqWGgxVEpJVC1qZ19XWWlIYURSb0VBTWhzRXJleDVfMThVeGtLVE5laU5ic0NpVE9LU0JuOHVfQ2Q1RnMtbV9aNDF3?oc=5",
-          "published_at": "2024-12-06T08:00:00+00:00",
-          "snippet": "Nature-Based Solutions for Climate Resilience in Coastal Towns Global Center on Adaptation",
+          "source": "FBC News",
+          "source_url": "https://www.fbcnews.com.fj",
+          "title": "Fiji secures $16.7M grant to boost coastal climate resilience - FBC News",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRXg0MC15cFFtdGdGb3dYVldMY240OVNhSDFQcG55NDh0cWNmamEtWjBQdWFTakYxX3pSRmNLY0dQNWFmTkQ2Um8tWWRfZGFUQ2o1Z1BCcUpueUtoVXkwX3BmR1dYVjZLSkdkTVQyUVI5ajNQZ2FmaHN6V21zb1BjOUJiejBjQVBvdGJOTE1udW5JelY3cktJZVdMazlyQjdYT25IRzRRVUxvUkxp?oc=5",
+          "published_at": "2026-10-14T07:00:00+00:00",
+          "snippet": "Fiji secures $16.7M grant to boost coastal climate resilience FBC News",
           "lexical_overlap": 0.176,
           "relevance": 0.281,
           "matched_terms": [
@@ -38875,49 +38868,73 @@
           ]
         },
         {
-          "id": "8eba7b21d82cd7d01d",
+          "id": "6841290da24cd9ff4d",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Nature",
-          "source_url": "https://www.nature.com",
-          "title": "Comprehensive portfolio of adaptation measures to safeguard against evolving flood risks in a changing climate - Nature",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1jZENPT1pFejhWdUlzT1pQOVZ2SldXbFVWTHd5OUFxZ2Y0RF90TjE2NHliWWNuRkRTTXJuSnRkOEhpejN6LWhuazFmZDJaWU1WbzdsZXMwd2d3Y1VXaDRN?oc=5",
-          "published_at": "2025-10-17T07:00:00+00:00",
-          "snippet": "Comprehensive portfolio of adaptation measures to safeguard against evolving flood risks in a changing climate Nature",
-          "lexical_overlap": 0.15,
-          "relevance": 0.255,
+          "source": "The Nation (Pakistan )",
+          "source_url": "https://www.nation.com.pk",
+          "title": "Sindh CM launches $311m Coastal Resilience Project to protect vulnerable communities - The Nation (Pakistan )",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMVRWWHZZbW9PbHZrNE5jVXI5cUlGRVFmdExtNWhLbl9ncVNLYm1jem9PVWxSNDlzQmtUd196NXVhNzdFcnNkUTgzVFlraUZ0a1RoeklDWlVoeC02WFlvU3JRdll5dG1WZi1DWmpLRFR2S216SURMVlJjWEZVenF2c2hmN3ZpX21xX0ZfTTdrWFNmVmE3VEJoSi1wMjVPYXA1VW1UOGgzVGR5bTl3ZERBOVVJcjl4TWN0cG43eXpBdWV4SGM?oc=5",
+          "published_at": "2026-10-02T07:00:00+00:00",
+          "snippet": "Sindh CM launches $311m Coastal Resilience Project to protect vulnerable communities The Nation (Pakistan )",
+          "lexical_overlap": 0.158,
+          "relevance": 0.263,
           "matched_terms": [
-            "against",
-            "climate",
-            "safeguard"
+            "coastal",
+            "communities",
+            "resilience"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "against",
-            "climate",
-            "safeguard"
+            "coastal",
+            "communities",
+            "resilience"
           ]
         },
         {
-          "id": "8221adf5fc3bf88034",
+          "id": "ae0577826cf7a582a6",
           "scope": "news_search",
           "tier": "secondary",
           "source": "United Nations Development Programme",
           "source_url": "https://www.undp.org",
-          "title": "Women Leading Climate Resilience on India’s Coasts - United Nations Development Programme",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSGtJVDBRa0VrVG5fejVXdmQtMDRnNlhLLWRpSmFOTUh5M3lPbnFUXy1fNVBwRGg1Rkx2RWc5cVpJNGhzVXpHbm1kcHQzM29DNW9oRkl4cTNiM0t0LVdxMmt2WVlYSk1tdUJxdE5RWVpFcXNpUUtacUZMUUd0dFNfcEtvR3JGWi1i?oc=5",
-          "published_at": "2026-06-05T07:00:00+00:00",
-          "snippet": "Women Leading Climate Resilience on India’s Coasts United Nations Development Programme",
-          "lexical_overlap": 0.111,
-          "relevance": 0.181,
+          "title": "Tonga Coastal Resilience Project Elevates Pacific Ocean Voices and Community-Led Climate Action Ahead of COP31 - United Nations Development Programme",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOdUNiS040ZFFMcEM0ZEE2RUl0Q0NFT2NScGN4UWY2aXlIT21uWEdSLWltdHJzT0JsY19sZ2d0eWhGWV92VHVxdEpwaGJJRHVucVl0ZXlHVHpWNGliU3pHNFdYbV8wNk5xS3JKZ0IzUjFDTGxTb195UjY3OTJYX2JLUDBVTFkwdUJOTEx2bGw0eWZxWDVETVN2ZmxLVDYxWktWdm8xRHkzTW1QMDFreU1mUHg2S2p1MW1FQ3JCak11cFQ4c0cwNTNZSDBJT2NUS2t4U2NpcEx5bU9oTm5iRzNVTFFCR1J4UQ?oc=5",
+          "published_at": "2026-10-27T04:34:39+00:00",
+          "snippet": "Tonga Coastal Resilience Project Elevates Pacific Ocean Voices and Community-Led Climate Action Ahead of COP31 United Nations Development Programme",
+          "lexical_overlap": 0.125,
+          "relevance": 0.23,
           "matched_terms": [
             "climate",
+            "coastal",
             "resilience"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
             "climate",
+            "coastal",
             "resilience"
+          ]
+        },
+        {
+          "id": "6125d3ffde858c1cef",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "UNEP - UN Environment Programme",
+          "source_url": "https://www.unep.org",
+          "title": "Climate Change - UNEP - UN Environment Programme",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNakZXaC1veWt1aWRXY01ybUxhLTdTMlBWSy1PVDhteUpyOGlyb0FnWG5hZy0zd2xIYUV2dHY2NndESzFlQm84aUFEWV9sQ2RxTDljNXg4TERCU0JjWnR4UTZxU3RaRWk2eUw1dDFMTTVKTFN6a0VJYW5YNHMwdFo0M3d1Yi0yNzMtWlYwS1lDR0JCZVN1YkpMeTE3VQ?oc=5",
+          "published_at": "2026-10-15T10:28:56+00:00",
+          "snippet": "Climate Change UNEP - UN Environment Programme",
+          "lexical_overlap": 0.133,
+          "relevance": 0.203,
+          "matched_terms": [
+            "change",
+            "climate"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "change",
+            "climate"
           ]
         },
         {
@@ -39494,7 +39511,7 @@
     },
     {
       "id": "6261be6f334db89b67",
-      "checked_at": "2026-10-25T19:03:38.606891+00:00",
+      "checked_at": "2026-10-29T06:31:58.298709+00:00",
       "promise_id": "BJP-2024-37fbdd248ddbe288cf",
       "year": 2024,
       "category": "other",
@@ -39533,7 +39550,7 @@
     },
     {
       "id": "4c7493d1e17367b2d5",
-      "checked_at": "2026-10-25T19:03:49.639700+00:00",
+      "checked_at": "2026-10-29T06:32:07.477191+00:00",
       "promise_id": "BJP-2024-416e613f74c3e414a5",
       "year": 2024,
       "category": "other",
@@ -43230,7 +43247,7 @@
     },
     {
       "id": "05e0979e7f32ba2f72",
-      "checked_at": "2026-10-29T02:27:18.082906+00:00",
+      "checked_at": "2026-10-29T06:31:21.626228+00:00",
       "promise_id": "BJP-2019-18c0750d5ed71bc3d1",
       "year": 2019,
       "category": "agriculture",
@@ -43280,6 +43297,30 @@
           "promise_core_overlap": [
             "farmer",
             "fpos",
+            "organisations",
+            "producer"
+          ]
+        },
+        {
+          "id": "6dba73a6b672f68e0e",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "Ministry of Food Processing Industries",
+          "source_url": "https://www.mofpi.gov.in",
+          "title": "FARMER PRODUCER ORGANISATIONS POLICY & PROCESS GUIDELINES FOR - Ministry of Food Processing Industries",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNemRUS3BtTVBEWTdvNW13TEt4RVNGT05vRllBUmpUR1huVnJzdEp4NUFaNzN3Tk41ajVwcUtXVEU0N3owdWlqYkVDUlduUXdsRU43WmpnOFBDSDVOd21TZTJmM3Ita29WNVJTVTJGYlE4a2ZfWkQyZFRLSFJoOUZuWFYtY0ZfVmpaNkVOQ1AxVWVNYVBkTGc?oc=5",
+          "published_at": "2021-12-22T16:16:57+00:00",
+          "snippet": "FARMER PRODUCER ORGANISATIONS POLICY & PROCESS GUIDELINES FOR Ministry of Food Processing Industries",
+          "lexical_overlap": 0.158,
+          "relevance": 0.313,
+          "matched_terms": [
+            "farmer",
+            "organisations",
+            "producer"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "farmer",
             "organisations",
             "producer"
           ]
@@ -43353,30 +43394,6 @@
           ]
         },
         {
-          "id": "531ed5a861c168b322",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Outlook India",
-          "source_url": "https://www.outlookindia.com",
-          "title": "Farmer Producer Organization Scheme A Path To Farmers’ Prosperity - Outlook India",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMVpLQmxEZW5udS1scVRES3BVcEduZnhJaEdLcU1HY2hKWndwZ0g1dWpIRl9PRHdPaVQ5c2RFaV9PTVZ6akw3NGpnYjNudkwxaEJuOG81VlFJdVZ1emkzbTN0NXFlMHpnRlhqZHlTcFhjd21Ba1cxQWtoOVBGVTBkUy05bjFqSkhKOEI0SFhHeG9YSjQwT3lfNVNwNWRKVjN2Wl9rSEgyQWlXY1BCbzVMQll2eUNGMkZm0gHGAUFVX3lxTE16WE9xMW1VUnQzRmR2VGd0OWFPX2Q1RFN4S3ZWd2duMXBOdExXeWlzSXByV05JNmE5WWEzZnFBb1hzOFduZ0R5OXhsZko1N1JhclpXNlpVQ21QZFR0THFTdkVCc1B3ZHBJRFFWMU8wTzlOMDNOTjcxQVVNOWFsT3A2RXc0NzdYX3dBaFBmV0hsSlhsc2YxdWlhMHE2SFM5RTc4TU9xRGhTeWtWUW1wV3IwZ1hiTkJtQU1ZN3RVcUlZeDFXMlM4Zw?oc=5",
-          "published_at": "2024-01-16T08:00:00+00:00",
-          "snippet": "Farmer Producer Organization Scheme A Path To Farmers’ Prosperity Outlook India",
-          "lexical_overlap": 0.176,
-          "relevance": 0.281,
-          "matched_terms": [
-            "farmer",
-            "farmers",
-            "producer"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "farmer",
-            "farmers",
-            "producer"
-          ]
-        },
-        {
           "id": "634c286094b85d4f4a",
           "scope": "news_search",
           "tier": "secondary",
@@ -43443,7 +43460,7 @@
           ]
         }
       ],
-      "implementation_signal": "current_primary_and_reporting_found",
+      "implementation_signal": "current_primary_evidence_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -44670,7 +44687,7 @@
     },
     {
       "id": "f5811520c1d5623f19",
-      "checked_at": "2026-10-29T02:27:20.068407+00:00",
+      "checked_at": "2026-10-29T06:31:23.446001+00:00",
       "promise_id": "BJP-2019-1d3e95fa9344e842f3",
       "year": 2019,
       "category": "infrastructure",
@@ -44791,7 +44808,7 @@
     },
     {
       "id": "92d6920a15fb42f812",
-      "checked_at": "2026-10-29T02:27:37.501859+00:00",
+      "checked_at": "2026-10-29T06:31:42.206794+00:00",
       "promise_id": "BJP-2019-6abf03adda773fec98",
       "year": 2019,
       "category": "governance",
@@ -48227,7 +48244,7 @@
     },
     {
       "id": "1e0abc9f94016f3c7a",
-      "checked_at": "2026-10-29T02:27:21.859551+00:00",
+      "checked_at": "2026-10-29T06:31:24.781718+00:00",
       "promise_id": "BJP-2019-2af396deaf778cac73",
       "year": 2019,
       "category": "infrastructure",
@@ -48312,7 +48329,7 @@
     },
     {
       "id": "4af70c5cc4e5dd31ea",
-      "checked_at": "2026-10-29T02:27:28.140210+00:00",
+      "checked_at": "2026-10-29T06:31:33.738577+00:00",
       "promise_id": "BJP-2019-34c03859f07f1329c5",
       "year": 2019,
       "category": "infrastructure",
@@ -48339,6 +48356,28 @@
       "query": "2022 road connectivity complete dedicated freight corridor",
       "evidence": [
         {
+          "id": "2f7cb9a95e16631273",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Project for Chennai Port to Maduravoyal corridor in Tamil Nadu to be completed by December 2024 - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBNHhkQlBoSDU0NXo5T2IwMDZITWRENTF0eC0tNzBHRTI3bHpvT1NrNktkeF9NOTQzUnVIRFl2Vmx2WHFRSVlrbEJYUkZrVHIyOWFrQ1BIMmliWG1pQUJjZ2JxTkdHRkRMLVE?oc=5",
+          "published_at": "2025-06-12T19:01:02+00:00",
+          "snippet": "Project for Chennai Port to Maduravoyal corridor in Tamil Nadu to be completed by December 2024 Press Information Bureau",
+          "lexical_overlap": 0.118,
+          "relevance": 0.238,
+          "matched_terms": [
+            "corridor",
+            "project"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "corridor",
+            "project"
+          ]
+        },
+        {
           "id": "ec1d0cc8a5a0c1eb96",
           "scope": "news_search",
           "tier": "secondary",
@@ -48350,30 +48389,6 @@
           "snippet": "India’s Dedicated Freight Corridor Program: Progress and Prospects India Briefing",
           "lexical_overlap": 0.273,
           "relevance": 0.378,
-          "matched_terms": [
-            "corridor",
-            "dedicated",
-            "freight"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "corridor",
-            "dedicated",
-            "freight"
-          ]
-        },
-        {
-          "id": "b1ffee8e6f47df9c63",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Urban Acres",
-          "source_url": "https://urbanacres.in",
-          "title": "Dedicated Freight Corridor: India’s Rail Network Enters a New Phase - Urban Acres",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMk5QWk5iWGdfeTh1a2tqUTVBeHk4N0lPLXlyTkpMWWtsRDRldHZkUHFSQmQ0cUozUVgyR09MQV9od2dTTWFOY0dlNUFFeFNfY3ZPWmNZdVFYZWtsUW9pY0dqV3RxUjN6TjUwaS10MU5CWEs0ZUJ6R0dsWkxrX3J3a2N2bEFhN2JCNEdBZTZBdExydw?oc=5",
-          "published_at": "2026-09-14T07:00:00+00:00",
-          "snippet": "Dedicated Freight Corridor: India’s Rail Network Enters a New Phase Urban Acres",
-          "lexical_overlap": 0.231,
-          "relevance": 0.336,
           "matched_terms": [
             "corridor",
             "dedicated",
@@ -48499,19 +48514,41 @@
             "dedicated",
             "freight"
           ]
+        },
+        {
+          "id": "94f0d80ee7b7908961",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Vajiram & Ravi",
+          "source_url": "https://vajiramandravi.com",
+          "title": "Dedicated Freight Corridors, How They Cut Transit Time and Boost Rail Freight - Vajiram & Ravi",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5YNmx2WWxLTXRwU09nRzNtVEVfUkVKZ1dxZWNjZWhneHFNbWlLZXhnRjhxc1R3ZjQtSUt6NlhELXM0RU9oMVJZN1haTmVlM1VrWUxaUUxINE90a0dJaFR2NHJvOVMzRlFzNEZrcnpLdk44V1dQOE5vSi16UQ?oc=5",
+          "published_at": "2026-09-09T07:00:00+00:00",
+          "snippet": "Dedicated Freight Corridors, How They Cut Transit Time and Boost Rail Freight Vajiram & Ravi",
+          "lexical_overlap": 0.125,
+          "relevance": 0.195,
+          "matched_terms": [
+            "dedicated",
+            "freight"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "dedicated",
+            "freight"
+          ]
         }
       ],
-      "implementation_signal": "current_reporting_found",
+      "implementation_signal": "action_detected",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
       "outcome": {
-        "status": "deadline_passed_unresolved",
+        "status": "progress_documented",
         "deadline_year": 2022,
-        "proof_strength": "none",
-        "proof_evidence_id": null,
+        "proof_strength": "verified_primary_action_with_object_overlap",
+        "proof_evidence_id": "2f7cb9a95e16631273",
         "proof": null,
-        "reason": "The extracted deadline (2022) has passed, but ClaimWatch does not have direct comparable post-deadline evidence proving fulfilment or non-fulfilment."
+        "reason": "Verified primary evidence overlaps the subject of the promise and documents implementation activity, but not the promised outcome."
       }
     },
     {
@@ -50506,7 +50543,7 @@
     },
     {
       "id": "93bb9754ab7125c8f1",
-      "checked_at": "2026-10-29T02:27:32.928072+00:00",
+      "checked_at": "2026-10-29T06:31:38.423614+00:00",
       "promise_id": "BJP-2019-6013bbae5c9fbd8c5a",
       "year": 2019,
       "category": "women_social_justice",
@@ -50570,7 +50607,7 @@
     },
     {
       "id": "1d1782ad81aa54afcd",
-      "checked_at": "2026-10-29T02:27:35.223018+00:00",
+      "checked_at": "2026-10-29T06:31:40.225280+00:00",
       "promise_id": "BJP-2019-63e2ccda189fa85e2c",
       "year": 2019,
       "category": "health_welfare",
@@ -55650,7 +55687,7 @@
     },
     {
       "id": "21c782a6ad2ecb8987",
-      "checked_at": "2026-10-29T02:27:25.058586+00:00",
+      "checked_at": "2026-10-29T06:31:31.425456+00:00",
       "promise_id": "BJP-2019-2cfa1375f165d41707",
       "year": 2019,
       "category": "other",
@@ -57030,7 +57067,7 @@
     },
     {
       "id": "09db92a7679f9e887b",
-      "checked_at": "2026-10-29T02:27:30.297050+00:00",
+      "checked_at": "2026-10-29T06:31:35.625974+00:00",
       "promise_id": "BJP-2019-4fc8289de8caed52ff",
       "year": 2019,
       "category": "other",
@@ -62558,7 +62595,7 @@
     },
     {
       "id": "df076e7dea8ba67624",
-      "checked_at": "2026-10-29T02:27:40.722585+00:00",
+      "checked_at": "2026-10-29T06:31:44.260481+00:00",
       "promise_id": "BJP-2014-078252941779345656",
       "year": 2014,
       "category": "women_social_justice",
@@ -62584,6 +62621,26 @@
       "related_promises": [],
       "query": "next five courts cases arbitration judiciary",
       "evidence": [
+        {
+          "id": "0c8da9e17d2ad05d95",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Settling of cases through Lok Adalat and Arbitration - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBydDk5YjZVVjM1ck4zS2FWQWw1Z3gwWnIwckxFcWtOZDhEU0xYMTEtT3gwMGFmVE1SdW82ck9BZ3Vvd2Rlakg3aFdKM1pkUklfZ3JFVzU3OWtITVVTX2FqZ0xVeVN6UjV5?oc=5",
+          "published_at": "2022-08-04T07:00:00+00:00",
+          "snippet": "Settling of cases through Lok Adalat and Arbitration Press Information Bureau",
+          "lexical_overlap": 0.176,
+          "relevance": 0.331,
+          "matched_terms": [
+            "arbitration",
+            "cases",
+            "lok"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": []
+        },
         {
           "id": "b1c00a883cde81cad8",
           "scope": "news_search",
