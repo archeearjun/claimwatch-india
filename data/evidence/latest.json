@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T16:57:31.954359+00:00",
+  "generated_at": "2026-10-29T21:50:12.620576+00:00",
   "capabilities": {
     "official_evidence_search": true,
     "verified_primary_gate": true,
@@ -16,8 +16,8 @@
     "promise_checked_this_run": 30,
     "promise_total_candidates": 841,
     "promise_coverage_pct": 101.3,
-    "primary_candidates": 562,
-    "secondary_candidates": 1038,
+    "primary_candidates": 560,
+    "secondary_candidates": 1046,
     "prior_fact_checks": 0,
     "publishable_auto_verdicts": 0,
     "claim_verdicts": {
@@ -102,6 +102,29 @@
       "promise_matches": [],
       "evidence": [
         {
+          "id": "5bc359c2e21b19a422",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Norms for Permission for Opening of Medical Colleges - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE53dy1VTDhJNzhuTi1DTDZVNFdaVENKQ3V2cl92WHhRcWk3LUN1S3hDaGZnSUJrdG14NzJHWElvajhZNjQ0bkh3a1JkTWNySnQ1bEVZUUcxVmIyRDRpT05BcW81QzFVcDdsSnNGTg?oc=5",
+          "published_at": "2013-03-05T08:00:00+00:00",
+          "snippet": "Norms for Permission for Opening of Medical Colleges Press Information Bureau",
+          "lexical_overlap": 0.182,
+          "relevance": 0.302,
+          "matched_terms": [
+            "colleges",
+            "medical"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.007,
+            "neutral": 0.9442,
+            "contradiction": 0.0487
+          }
+        },
+        {
           "id": "79a5de7000dc444ee7",
           "scope": "news_search",
           "tier": "secondary",
@@ -122,8 +145,8 @@
       ],
       "fact_checks": [],
       "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
+        "level": "primary_evidence_found",
+        "label": "Relevant verified primary evidence candidate found",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -326,11 +349,31 @@
           ]
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "064d37d7767fab14bf",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Robinhood",
+          "source_url": "https://www.robinhood.com",
+          "title": "The Robinhood 24 Hour Market is Here - Robinhood",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUmVvR01YbFNVcVV6MVB0Tlo4VEFpQ0hXSXp5RGVJcWNLRVBWOVh1UmFKZFBEVWxoYkl5M2RvY05ZVEphM21nOVdtUlV3b1oyVm9WX3RtZmdPWU53bV9nR1o2RTFiU3JSRTgtMHM0MkZHTzZBY0xSS3U3X193ckNXWXh5cw?oc=5",
+          "published_at": "2023-05-10T07:00:00+00:00",
+          "snippet": "The Robinhood 24 Hour Market is Here Robinhood",
+          "lexical_overlap": 0.091,
+          "relevance": 0.236,
+          "matched_terms": [
+            "hour"
+          ],
+          "shared_numbers": [
+            "24"
+          ]
+        }
+      ],
       "fact_checks": [],
       "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
+        "level": "reporting_found",
+        "label": "Relevant reporting found; primary evidence still needed",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -539,7 +582,7 @@
         "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
         "published_at": "2026-10-25T13:30:15+00:00"
       },
-      "query": "59 60 nirmala ji mentioned just now has",
+      "query": "60 59 nirmala ji mentioned just now has",
       "numbers": [
         "59",
         "60"
@@ -716,18 +759,44 @@
       ],
       "evidence": [
         {
-          "id": "8100904d3185b9b68e",
+          "id": "9093fc80088a431121",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "STREET VENDORS UNDER PM SVANIDHI - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBsdFprYk1IckVSREczbmFqTi1ueEZjaDhLOUc1S1V3bXN6RkFyZ2c4cm1Odm93ZEdZcTBBY3VvdTZDaDFISGJaTlN6NENhMW04TFdTRGRMTFJuOElFV0MyY0p5MGw5UVVz?oc=5",
+          "published_at": "2026-07-27T07:00:00+00:00",
+          "snippet": "STREET VENDORS UNDER PM SVANIDHI Press Information Bureau",
+          "lexical_overlap": 0.308,
+          "relevance": 0.498,
+          "matched_terms": [
+            "pm",
+            "street",
+            "svanidhi",
+            "vendors"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.0014,
+            "neutral": 0.9879,
+            "contradiction": 0.0107
+          }
+        },
+        {
+          "id": "9860913f9848bd5052",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "IBEF",
-          "source_url": "https://www.ibef.org",
-          "title": "Empower Street Vendors with PM SVANidhi Scheme - IBEF",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9GX1FkVHBULV80WnVJSC1LTU9qMG9SNkp3NWltVjJOWUdBMVpsM2VXNXpXZVdBNTdVLVJOMGFPZUxiNmIzU0R2NUROc1czWGtWR05QMnRQbTlKaEpnMklUSnVNTEdkdUIzdXc?oc=5",
-          "published_at": "2024-06-08T13:31:59+00:00",
-          "snippet": "Empower Street Vendors with PM SVANidhi Scheme IBEF",
-          "lexical_overlap": 0.308,
-          "relevance": 0.448,
+          "source": "CNBC TV18",
+          "source_url": "https://www.cnbctv18.com",
+          "title": "76.95 lakh street vendors avail ₹18,475 crore collateral-free loans under PM SVANidhi - CNBC TV18",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNLVNJNjBHc2VVZmhFVDRPN181RzNfdjFpRWVwQkhjdW9xWk4xV09LWU9ndVdkcEhYOFZ6QVQ3dWRrUmVFbVlxdnFfOG5uZXl1cXJWZkpDX3VjQzU0SGhpaEg1U3llWE9EWGRhOE0tc1JZMFlFd1JxRnV6LWp4REh5NDJmdlR3SUVubTdXdXZWWWVRZ2staF9FNzdWbVJnOVFUVUZKcVdoSzdGZTQyVElTQUNlM0VWUDAyaklVT3Z2TmlNUTlnc2F1SkNsTjnSAdIBQVVfeXFMTWxGdXNtTlNaODVCaEJZcWE3WGNURVJXYTJpb2dIWXlveHVubW4xM0NJdFJQWmpOVHlmTl9PWnZfUm1SVkV1M0lNV0p4cE9ubkhVY2Q2aGExZnZyQTFZb3hNWHBkejRrRlMtYm1ReVR3SEVHZi0tX0xKeHBMd3lSRkdWd0pFaTJnSm5oOTNjTWQ2UEJ5elE1TnprZ2hzUGp4ZXpDY2FOM0Jsd1doejN1UU85WDJQQVVDNmxfUUFyYU1uZUljdXFfVGJ1dW05V0dGVmdB?oc=5",
+          "published_at": "2026-08-06T07:00:00+00:00",
+          "snippet": "76.95 lakh street vendors avail ₹18,475 crore collateral-free loans under PM SVANidhi CNBC TV18",
+          "lexical_overlap": 0.312,
+          "relevance": 0.488,
           "matched_terms": [
+            "loans",
             "pm",
             "street",
             "svanidhi",
@@ -761,24 +830,29 @@
           }
         },
         {
-          "id": "5f82f1e163608f6189",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "IBEF",
-          "source_url": "https://www.ibef.org",
-          "title": "PM SVANidhi: Micro Credit Scheme for Street Vendors - IBEF",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQR3pJVDdCb2FpR19pdjJGbUwxZ0tZaHVSaU9TajdOWndrZVF0Qy1STG95WGpNWFJpVU5UM1hxN1ZZVDZlXzBrNEdEMWtpZnhEbTBuTHh6UVZEeVZCV0o2TTNlMmhyRjNmVndLTExxcVYtUWV0OGNXTDFBUWpleWlPNEE5WQ?oc=5",
-          "published_at": "2023-02-17T08:00:00+00:00",
-          "snippet": "PM SVANidhi: Micro Credit Scheme for Street Vendors IBEF",
-          "lexical_overlap": 0.286,
-          "relevance": 0.426,
+          "id": "4a2a6c9ec1e80a96b6",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "PM SVANidhi restores dignity of street vendors: Housing Minister Hardeep S Puri - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBfN0FteFZwRkQ1M0xHUFJtQUJzLU00OUVPWWtXcDdqcXNWb0ZDZ2p0dTJFRVRJZnlGOG9hZUZycThqUjRYTDJsVFNQaVZKQzJGd0dEU2hKYjVzV2VERV9UUk1xRWxkVUIwdExjX1RTQVE?oc=5",
+          "published_at": "2024-02-16T08:00:00+00:00",
+          "snippet": "PM SVANidhi restores dignity of street vendors: Housing Minister Hardeep S Puri Press Information Bureau",
+          "lexical_overlap": 0.222,
+          "relevance": 0.412,
           "matched_terms": [
             "pm",
             "street",
             "svanidhi",
             "vendors"
           ],
-          "shared_numbers": []
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.0014,
+            "neutral": 0.9895,
+            "contradiction": 0.0091
+          }
         },
         {
           "id": "f5e28276c90649ddd0",
@@ -831,6 +905,44 @@
           }
         },
         {
+          "id": "cb771e93a84b2d81d9",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "DD India",
+          "source_url": "https://ddindia.co.in",
+          "title": "Over 1.05 crore loans sanctioned under PM SVANidhi since 2020 - DD India",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORUJPSVNXQnNTYUh3YkJZbzFEM1haLVJWcU9rdXVPeXpLVVNheXhTVzAtal9yZ3VUNHZZS2NHNEVZUExXZWNvUkE2QzZZTFlPc1hiOW91dGdieWUwbU5fNGRqZmwwYUswTWJBTFVtSEthQXg3R0IxYWFDdlNscUpZcmZfeHlHV2dyMXRBc3ljVUJDcnRlZVo0?oc=5",
+          "published_at": "2026-06-01T07:00:00+00:00",
+          "snippet": "Over 1.05 crore loans sanctioned under PM SVANidhi since 2020 DD India",
+          "lexical_overlap": 0.214,
+          "relevance": 0.319,
+          "matched_terms": [
+            "loans",
+            "pm",
+            "svanidhi"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "4955173f87cfaf2ce0",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Times of India",
+          "source_url": "https://timesofindia.indiatimes.com",
+          "title": "LG directs banks to speed up PM SVANidhi loans as Delhi receives over 4.3 lakh applications - The Times of India",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPNE9HSHFZcnJQWFpueWYtUVlyaXVySHVsczRBUEFyZDBuVFZFcDlEc3dLY2hzQ1NRSlpGUE8tdjNVdGU3MzNfdzZMSE9abmZEVGxNX1VOSE9WOXhCTUJLY2JocHBLYmhzR1d3VVp1amtra0s1RFdjRi1vTGJlSm9FcG1sWUIydXhzSUh2UlBwNFUxN0JZWi15RUptTGczTDJBVmI1Rk1CZ3RRWlpLanR0ZC04anBSQmxvM25DZ2xzSUtYWUxWLWhBWnYwcnRQTC0zRkV0ekZ6RXM3NHVnNG5KU1B0cVZjT1JoU1VsMUhQdnd0SDk4U2lN0gH8AUFVX3lxTE5kbkxlYzgxT1BhbllNVVBGWkZjQXREUmVPRmd5a2F1dWFyblZjRTZrVUhxNUFoanVWQUtxTXpSNzZqaGIwUjRwTnh5dzVJUGU5OGEteHJKY2hTcjRyRmNmVVlPd2FHYUVmZUx4eVNoemFBY3hYT2ttTTYzd3VhVTJJVWdySVZMWjlRclFJRU5HZGx2TXN4cGVOaEZ4NG9QeG16UHRhU0pZd0tHR1g2XzVMOW9jbEpfLUNpc0dTZlV6MFc0TmRQWVBKZkVXQmhoOG12RTJ0eGhvTFZTNVloRkx3WHFKak9sZ0ZVQjB4WHFoZ2o0Y0tmb1dxVV9pbQ?oc=5",
+          "published_at": "2026-06-12T07:00:00+00:00",
+          "snippet": "LG directs banks to speed up PM SVANidhi loans as Delhi receives over 4.3 lakh applications The Times of India",
+          "lexical_overlap": 0.15,
+          "relevance": 0.255,
+          "matched_terms": [
+            "loans",
+            "pm",
+            "svanidhi"
+          ],
+          "shared_numbers": []
+        },
+        {
           "id": "eb7e0e2bf220518ef5",
           "scope": "preferred_official_search",
           "tier": "primary",
@@ -854,37 +966,20 @@
           }
         },
         {
-          "id": "10ab72a0082de17f60",
+          "id": "2dba54a7c6bab0b7ac",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "CMO Gujarat",
-          "source_url": "https://cmogujarat.gov.in",
-          "title": "PM SVANidhi Yojana convened in Ahmedabad - CMO Gujarat",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMW5KTTdDa1ZpNE01OWZZMHZoZFZvdTM4ako5TDc0WVJ2eVU1S3FDYnFPVHkycUx6RC00VWJqbDI2YW8wNlFNZHhYWDJtWGJTd1dWOWpyY1BUOWY3Rm9VTWZUb0lEN3lJQ1FBenV0eGpDakU4VzJSdWRWbXJubml0WmpTd3Q?oc=5",
-          "published_at": "2023-12-24T08:00:00+00:00",
-          "snippet": "PM SVANidhi Yojana convened in Ahmedabad CMO Gujarat",
-          "lexical_overlap": 0.133,
-          "relevance": 0.203,
+          "source": "Organiser",
+          "source_url": "https://organiser.org",
+          "title": "PM SVANidhi Success Story: How Modi Govt’s street vendor scheme transformed more than 75 lakh lives across Bharat - Organiser",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQZGlSaVEwQjRSNVA5MXgzMWNGZEtFZTBpWHlKMGxZblJwNi0xWWthMDVLdW5HS1lxbkEyMFJSX000TjVjVmEwblYtenBfV292YmtGMjRseWxZcDY5U0NuamNxSzBwWHk3VUpJdDFPQXB3MzJmOG9oYW9TeGRBNXBYV1BLaXAzMG9nZkszMlk2NGlMLWRNNVo4a3RmMnhEMmRvbHY4MmhleW8zWlRjTmttSVQzaVR3a2E3SVppYy1XS2g4SG5HNVdzaWM2ME5LM3BjbF9mTWlWOUFZRkxKSGNqLUVqSU9HekR2WXAxS0xJZ2PSAfYBQVVfeXFMTlFiNC1xcGVJOFZxc25ZNElMOU1VN2lVQ3BLZHNScGxwRllyaVFoZks1b2tLX2loN0thR0pZZm9BSkJ0d00xYmhzV0w4V01NNGN2ekR3bXc4OTRUTkdHUnh1M2s0blZ0Y1BBam02UmlRVmZJcGJSWUNiY3RhdDlyMXk5TVpoOVdBYzFDNVJLeFNGS3RxRUkxZDM1ZE5peEt4azJWVjR4M2ZIalozMVh2aHF1clo3MFl5Nk1SN2JYbG9sLUN3SFU1UmRVUzhjem14cmhiUXAwZTJvOGlWTzl0NklMZTBILVBBMFlTbG1xSl9FY2VOQm5R?oc=5",
+          "published_at": "2026-05-31T07:00:00+00:00",
+          "snippet": "PM SVANidhi Success Story: How Modi Govt’s street vendor scheme transformed more than 75 lakh lives across Bharat Organiser",
+          "lexical_overlap": 0.143,
+          "relevance": 0.248,
           "matched_terms": [
             "pm",
-            "svanidhi"
-          ],
-          "shared_numbers": []
-        },
-        {
-          "id": "1fb7faa36ced241a76",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Over 5 lakh applications received under PM SVANidhi scheme - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE04RV91Qm9TN01pUFZKaVB0czljU05heHRPYjFjdEdvd1c5UHNqSWItR0JxYWhwZmQ0cjNTLS1NNUNwQ29xRU5BSHBoeDBKWk56cUZuZ1ZGdTkwemI0QTI3SnVzLUxBUTh5?oc=5",
-          "published_at": "2020-08-12T07:00:00+00:00",
-          "snippet": "Over 5 lakh applications received under PM SVANidhi scheme Press Information Bureau",
-          "lexical_overlap": 0.118,
-          "relevance": 0.188,
-          "matched_terms": [
-            "pm",
+            "street",
             "svanidhi"
           ],
           "shared_numbers": []
@@ -995,7 +1090,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T16:56:39.388522+00:00",
+      "latest_checked_at": "2026-10-29T21:49:18.280668+00:00",
       "latest_claim_packet_id": "d4aab404e9ccc6ccf7"
     },
     {
@@ -1262,7 +1357,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T16:56:39.388572+00:00",
+      "latest_checked_at": "2026-10-29T21:49:18.280718+00:00",
       "latest_claim_packet_id": "884558fa72add4403d"
     },
     {
@@ -1358,7 +1453,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T16:56:39.388502+00:00",
+      "latest_checked_at": "2026-10-29T21:49:18.280653+00:00",
       "latest_claim_packet_id": "60ae96f665f22ef03b"
     },
     {
@@ -1406,7 +1501,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T16:56:39.388352+00:00",
+      "latest_checked_at": "2026-10-29T21:49:18.280535+00:00",
       "latest_claim_packet_id": "b8d4ab680299139905"
     },
     {
@@ -1478,7 +1573,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T16:56:39.388556+00:00",
+      "latest_checked_at": "2026-10-29T21:49:18.280702+00:00",
       "latest_claim_packet_id": "dac6e2327ebe0bd17a"
     },
     {
@@ -1694,7 +1789,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T16:56:39.388588+00:00",
+      "latest_checked_at": "2026-10-29T21:49:18.280734+00:00",
       "latest_claim_packet_id": "050ea98dd7879a06cd"
     },
     {
@@ -1886,7 +1981,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T16:56:39.388420+00:00",
+      "latest_checked_at": "2026-10-29T21:49:18.280607+00:00",
       "latest_claim_packet_id": "29371b53212e779eff"
     },
     {
@@ -2024,13 +2119,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "reporting_found",
+      "evidence_state": "primary_evidence_found",
       "human_reviewed": false,
       "created_at": "2026-10-27T07:50:11.251666+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T16:56:39.388389+00:00",
+      "latest_checked_at": "2026-10-29T21:49:18.280574+00:00",
       "latest_claim_packet_id": "b35543711de7918ea9"
     },
     {
@@ -2102,7 +2197,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T16:56:39.388406+00:00",
+      "latest_checked_at": "2026-10-29T21:49:18.280592+00:00",
       "latest_claim_packet_id": "ddb711a027259cf305"
     },
     {
@@ -2294,7 +2389,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T16:56:39.388613+00:00",
+      "latest_checked_at": "2026-10-29T21:49:18.280759+00:00",
       "latest_claim_packet_id": "5bb402465b7ccab062"
     },
     {
@@ -2438,7 +2533,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T16:56:39.388538+00:00",
+      "latest_checked_at": "2026-10-29T21:49:18.280684+00:00",
       "latest_claim_packet_id": "f5f9e7bb05cfa3199f"
     },
     {
@@ -2582,7 +2677,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T16:56:39.388601+00:00",
+      "latest_checked_at": "2026-10-29T21:49:18.280747+00:00",
       "latest_claim_packet_id": "00739b48a203bf3deb"
     },
     {
@@ -2720,13 +2815,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "needs_research",
+      "evidence_state": "reporting_found",
       "human_reviewed": false,
       "created_at": "2026-10-27T07:50:11.256975+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T16:56:39.388452+00:00",
+      "latest_checked_at": "2026-10-29T21:49:18.280639+00:00",
       "latest_claim_packet_id": "1d53d6d12eb863d5b2"
     },
     {
@@ -2969,7 +3064,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T16:56:39.388438+00:00",
+      "latest_checked_at": "2026-10-29T21:49:18.280625+00:00",
       "latest_claim_packet_id": "318b27cf844c2ade6a"
     },
     {
@@ -43264,8 +43359,8 @@
       }
     },
     {
-      "id": "0764c49dce738dbbee",
-      "checked_at": "2026-10-29T16:56:41.810678+00:00",
+      "id": "05e0979e7f32ba2f72",
+      "checked_at": "2026-10-29T21:49:20.231067+00:00",
       "promise_id": "BJP-2019-18c0750d5ed71bc3d1",
       "year": 2019,
       "category": "agriculture",
@@ -43291,7 +43386,7 @@
       "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
-      "query": "2022 10000 enable creation farmer producer organisations fpos",
+      "query": "10000 2022 enable creation farmer producer organisations fpos",
       "evidence": [
         {
           "id": "54958999ae6b9e6f18",
@@ -43315,30 +43410,6 @@
           "promise_core_overlap": [
             "farmer",
             "fpos",
-            "organisations",
-            "producer"
-          ]
-        },
-        {
-          "id": "6dba73a6b672f68e0e",
-          "scope": "broad_official_search",
-          "tier": "primary",
-          "source": "Ministry of Food Processing Industries",
-          "source_url": "https://www.mofpi.gov.in",
-          "title": "FARMER PRODUCER ORGANISATIONS POLICY & PROCESS GUIDELINES FOR - Ministry of Food Processing Industries",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNemRUS3BtTVBEWTdvNW13TEt4RVNGT05vRllBUmpUR1huVnJzdEp4NUFaNzN3Tk41ajVwcUtXVEU0N3owdWlqYkVDUlduUXdsRU43WmpnOFBDSDVOd21TZTJmM3Ita29WNVJTVTJGYlE4a2ZfWkQyZFRLSFJoOUZuWFYtY0ZfVmpaNkVOQ1AxVWVNYVBkTGc?oc=5",
-          "published_at": "2021-12-22T16:16:57+00:00",
-          "snippet": "FARMER PRODUCER ORGANISATIONS POLICY & PROCESS GUIDELINES FOR Ministry of Food Processing Industries",
-          "lexical_overlap": 0.158,
-          "relevance": 0.313,
-          "matched_terms": [
-            "farmer",
-            "organisations",
-            "producer"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "farmer",
             "organisations",
             "producer"
           ]
@@ -44723,7 +44794,7 @@
     },
     {
       "id": "f5811520c1d5623f19",
-      "checked_at": "2026-10-29T16:56:43.864524+00:00",
+      "checked_at": "2026-10-29T21:49:22.078106+00:00",
       "promise_id": "BJP-2019-1d3e95fa9344e842f3",
       "year": 2019,
       "category": "infrastructure",
@@ -44844,7 +44915,7 @@
     },
     {
       "id": "92d6920a15fb42f812",
-      "checked_at": "2026-10-29T16:57:02.325009+00:00",
+      "checked_at": "2026-10-29T21:49:38.685324+00:00",
       "promise_id": "BJP-2019-6abf03adda773fec98",
       "year": 2019,
       "category": "governance",
@@ -48231,7 +48302,7 @@
     },
     {
       "id": "1e0abc9f94016f3c7a",
-      "checked_at": "2026-10-29T16:56:45.547131+00:00",
+      "checked_at": "2026-10-29T21:49:23.801510+00:00",
       "promise_id": "BJP-2019-2af396deaf778cac73",
       "year": 2019,
       "category": "infrastructure",
@@ -48316,7 +48387,7 @@
     },
     {
       "id": "4af70c5cc4e5dd31ea",
-      "checked_at": "2026-10-29T16:56:51.806306+00:00",
+      "checked_at": "2026-10-29T21:49:29.290482+00:00",
       "promise_id": "BJP-2019-34c03859f07f1329c5",
       "year": 2019,
       "category": "infrastructure",
@@ -48376,6 +48447,30 @@
           "snippet": "India’s Dedicated Freight Corridor Program: Progress and Prospects India Briefing",
           "lexical_overlap": 0.273,
           "relevance": 0.378,
+          "matched_terms": [
+            "corridor",
+            "dedicated",
+            "freight"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "corridor",
+            "dedicated",
+            "freight"
+          ]
+        },
+        {
+          "id": "b1ffee8e6f47df9c63",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Urban Acres",
+          "source_url": "https://urbanacres.in",
+          "title": "Dedicated Freight Corridor: India’s Rail Network Enters a New Phase - Urban Acres",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMk5QWk5iWGdfeTh1a2tqUTVBeHk4N0lPLXlyTkpMWWtsRDRldHZkUHFSQmQ0cUozUVgyR09MQV9od2dTTWFOY0dlNUFFeFNfY3ZPWmNZdVFYZWtsUW9pY0dqV3RxUjN6TjUwaS10MU5CWEs0ZUJ6R0dsWkxrX3J3a2N2bEFhN2JCNEdBZTZBdExydw?oc=5",
+          "published_at": "2026-09-14T07:00:00+00:00",
+          "snippet": "Dedicated Freight Corridor: India’s Rail Network Enters a New Phase Urban Acres",
+          "lexical_overlap": 0.231,
+          "relevance": 0.336,
           "matched_terms": [
             "corridor",
             "dedicated",
@@ -48492,28 +48587,6 @@
           "snippet": "Dedicated Freight Corridors Strengthen India’s Logistics Network https://www.usthadian.com/",
           "lexical_overlap": 0.133,
           "relevance": 0.203,
-          "matched_terms": [
-            "dedicated",
-            "freight"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "dedicated",
-            "freight"
-          ]
-        },
-        {
-          "id": "94f0d80ee7b7908961",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Vajiram & Ravi",
-          "source_url": "https://vajiramandravi.com",
-          "title": "Dedicated Freight Corridors, How They Cut Transit Time and Boost Rail Freight - Vajiram & Ravi",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5YNmx2WWxLTXRwU09nRzNtVEVfUkVKZ1dxZWNjZWhneHFNbWlLZXhnRjhxc1R3ZjQtSUt6NlhELXM0RU9oMVJZN1haTmVlM1VrWUxaUUxINE90a0dJaFR2NHJvOVMzRlFzNEZrcnpLdk44V1dQOE5vSi16UQ?oc=5",
-          "published_at": "2026-09-09T07:00:00+00:00",
-          "snippet": "Dedicated Freight Corridors, How They Cut Transit Time and Boost Rail Freight Vajiram & Ravi",
-          "lexical_overlap": 0.125,
-          "relevance": 0.195,
           "matched_terms": [
             "dedicated",
             "freight"
@@ -50552,7 +50625,7 @@
     },
     {
       "id": "93bb9754ab7125c8f1",
-      "checked_at": "2026-10-29T16:56:56.981717+00:00",
+      "checked_at": "2026-10-29T21:49:33.995771+00:00",
       "promise_id": "BJP-2019-6013bbae5c9fbd8c5a",
       "year": 2019,
       "category": "women_social_justice",
@@ -50616,7 +50689,7 @@
     },
     {
       "id": "1d1782ad81aa54afcd",
-      "checked_at": "2026-10-29T16:56:59.575681+00:00",
+      "checked_at": "2026-10-29T21:49:36.380038+00:00",
       "promise_id": "BJP-2019-63e2ccda189fa85e2c",
       "year": 2019,
       "category": "health_welfare",
@@ -55740,7 +55813,7 @@
     },
     {
       "id": "21c782a6ad2ecb8987",
-      "checked_at": "2026-10-29T16:56:48.516731+00:00",
+      "checked_at": "2026-10-29T21:49:26.576933+00:00",
       "promise_id": "BJP-2019-2cfa1375f165d41707",
       "year": 2019,
       "category": "other",
@@ -57097,7 +57170,7 @@
     },
     {
       "id": "09db92a7679f9e887b",
-      "checked_at": "2026-10-29T16:56:54.135790+00:00",
+      "checked_at": "2026-10-29T21:49:31.465029+00:00",
       "promise_id": "BJP-2019-4fc8289de8caed52ff",
       "year": 2019,
       "category": "other",
@@ -60154,7 +60227,7 @@
     },
     {
       "id": "a5becc3b65fb0ff75a",
-      "checked_at": "2026-10-24T16:17:27.021072+00:00",
+      "checked_at": "2026-10-29T21:49:49.743004+00:00",
       "promise_id": "BJP-2014-9e76b06be1854a83a0",
       "year": 2014,
       "category": "other",
@@ -60854,7 +60927,7 @@
     },
     {
       "id": "029615ebdc73ea28e3",
-      "checked_at": "2026-10-17T19:24:20.236013+00:00",
+      "checked_at": "2026-10-29T21:50:12.116916+00:00",
       "promise_id": "BJP-2014-c7c25de5219a532934",
       "year": 2014,
       "category": "other",
@@ -62212,7 +62285,7 @@
     },
     {
       "id": "db392f74d750c7376d",
-      "checked_at": "2026-10-17T19:24:18.590024+00:00",
+      "checked_at": "2026-10-29T21:50:10.887103+00:00",
       "promise_id": "BJP-2014-c4e1f7d01322e17862",
       "year": 2014,
       "category": "other",
@@ -62667,7 +62740,7 @@
     },
     {
       "id": "df076e7dea8ba67624",
-      "checked_at": "2026-10-29T16:57:04.752516+00:00",
+      "checked_at": "2026-10-29T21:49:41.331667+00:00",
       "promise_id": "BJP-2014-078252941779345656",
       "year": 2014,
       "category": "women_social_justice",
@@ -62694,21 +62767,20 @@
       "query": "next five courts cases arbitration judiciary",
       "evidence": [
         {
-          "id": "0c8da9e17d2ad05d95",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Settling of cases through Lok Adalat and Arbitration - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBydDk5YjZVVjM1ck4zS2FWQWw1Z3gwWnIwckxFcWtOZDhEU0xYMTEtT3gwMGFmVE1SdW82ck9BZ3Vvd2Rlakg3aFdKM1pkUklfZ3JFVzU3OWtITVVTX2FqZ0xVeVN6UjV5?oc=5",
-          "published_at": "2022-08-04T07:00:00+00:00",
-          "snippet": "Settling of cases through Lok Adalat and Arbitration Press Information Bureau",
-          "lexical_overlap": 0.176,
-          "relevance": 0.331,
+          "id": "9ad7ac893d1adf52b6",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Supreme Court Observer",
+          "source_url": "https://www.scobserver.in",
+          "title": "Supreme Court Review 2023: Arbitration - Supreme Court Observer",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1NdGpLWGNJeDRKVGZ4RXprNzN0N0x3ZWNCcURQVlhIVzNPb1JkYVBUTkptVXB5QVBqZ0V3VlJRUm1Nc3laVnM3dENnakcwc2xLc1BJZHIxc1g1R3AwQ0l3cnIzUFpRRTFBTHFwcHNGM3lfTS1NOXNNTFBoZ0c?oc=5",
+          "published_at": "2023-12-27T08:00:00+00:00",
+          "snippet": "Supreme Court Review 2023: Arbitration Supreme Court Observer",
+          "lexical_overlap": 0.133,
+          "relevance": 0.203,
           "matched_terms": [
             "arbitration",
-            "cases",
-            "lok"
+            "review"
           ],
           "shared_numbers": [],
           "promise_core_overlap": []
@@ -63292,7 +63364,7 @@
     },
     {
       "id": "e70585ad238ae4068e",
-      "checked_at": "2026-10-24T16:17:23.978134+00:00",
+      "checked_at": "2026-10-29T21:49:46.738206+00:00",
       "promise_id": "BJP-2014-9c2811fbbf12b220d4",
       "year": 2014,
       "category": "women_social_justice",
@@ -63328,28 +63400,6 @@
           "snippet": "Best practices in social sector: A compendium 2023 NITI Aayog",
           "lexical_overlap": 0.118,
           "relevance": 0.238,
-          "matched_terms": [
-            "best",
-            "practices"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "best",
-            "practices"
-          ]
-        },
-        {
-          "id": "0d14c36fe22b3e950e",
-          "scope": "broad_official_search",
-          "tier": "primary",
-          "source": "NITI Aayog",
-          "source_url": "https://www.niti.gov.in",
-          "title": "Empowering Farmers: Natural Farming Training Toolkit & Best Practices Guide - NITI Aayog",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPREJOOGdnNW5SUDJEU2hfWFRyWWdxZXllSmo1Yk44N3haSFFsaDE5azlEeUw3VUJzQ1ZNQjFEOWhxYzBQdkVUNGtrQ1VVelFwU29ueGFPZ1NKRzF3YlRpRTlmTl9BNy1FRGREUnZCWjFhOUlTQURjeGtlT0cwYzFjOVE4YS1fZw?oc=5",
-          "published_at": "2026-02-15T08:00:00+00:00",
-          "snippet": "Empowering Farmers: Natural Farming Training Toolkit & Best Practices Guide NITI Aayog",
-          "lexical_overlap": 0.095,
-          "relevance": 0.215,
           "matched_terms": [
             "best",
             "practices"
@@ -63501,7 +63551,7 @@
     },
     {
       "id": "73bea70c2856434a74",
-      "checked_at": "2026-10-14T07:37:07.986646+00:00",
+      "checked_at": "2026-10-29T21:50:07.982094+00:00",
       "promise_id": "BJP-2014-bf3ff8b8095e7a2d1f",
       "year": 2014,
       "category": "health_welfare",
@@ -63523,32 +63573,8 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/252/1/bjp_lection_manifesto_english_2014.pdf",
       "related_promises": [],
       "query": "poor marginalized bridge gap left behind",
-      "evidence": [
-        {
-          "id": "639b5811ee9c0cbe51",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "United Nations Development Programme",
-          "source_url": "https://hdr.undp.org",
-          "title": "Closing the equity gap: water and sanitation data can help us to ensure no one is left behind - United Nations Development Programme",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOY1RTYkpRLXZyRGl0SVNRcnNaRTdEQUR6SDB4N1E0YVJsSHZ0THk0aWZSVV9SVUtSWTVjdmVCc1F1Y2dWazVaZjk5ZDE0Z2Q4NVdvUF9VZDktSEdxdUxua2E1Q0ZQaGNycmVNV1gwYncySTd3NXFuLXNJZ21mWHF6MEQxOG1fREdLQUZxVXJpSnYzeVVwOU41V3ByQWh3amVmejdjMmZ0SmlTX3Z0OUs2eg?oc=5",
-          "published_at": "2022-03-29T07:00:00+00:00",
-          "snippet": "Closing the equity gap: water and sanitation data can help us to ensure no one is left behind United Nations Development Programme",
-          "lexical_overlap": 0.158,
-          "relevance": 0.263,
-          "matched_terms": [
-            "behind",
-            "gap",
-            "left"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "behind",
-            "left"
-          ]
-        }
-      ],
-      "implementation_signal": "current_reporting_found",
+      "evidence": [],
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -64283,7 +64309,7 @@
     },
     {
       "id": "d2039bbba09140ddda",
-      "checked_at": "2026-10-24T16:17:31.480274+00:00",
+      "checked_at": "2026-10-29T21:49:54.841604+00:00",
       "promise_id": "BJP-2014-aaca57fdcf682e3cd1",
       "year": 2014,
       "category": "other",
@@ -64322,7 +64348,7 @@
     },
     {
       "id": "f45d428d785c8c7f13",
-      "checked_at": "2026-10-17T19:24:17.171601+00:00",
+      "checked_at": "2026-10-29T21:50:09.350209+00:00",
       "promise_id": "BJP-2014-c34e2d7b76d251fdc2",
       "year": 2014,
       "category": "women_social_justice",
@@ -64807,7 +64833,7 @@
     },
     {
       "id": "6e1c216bf6f161db18",
-      "checked_at": "2026-10-24T16:17:37.618724+00:00",
+      "checked_at": "2026-10-29T21:50:00.996301+00:00",
       "promise_id": "BJP-2014-b00b608010d208148b",
       "year": 2014,
       "category": "infrastructure",
@@ -65393,7 +65419,7 @@
     },
     {
       "id": "2a81dbbee69ca72312",
-      "checked_at": "2026-10-24T16:17:36.215580+00:00",
+      "checked_at": "2026-10-29T21:49:59.526155+00:00",
       "promise_id": "BJP-2014-ac4e93df5d79a22be3",
       "year": 2014,
       "category": "other",
@@ -65629,7 +65655,7 @@
     },
     {
       "id": "e685f384c15b827511",
-      "checked_at": "2026-10-24T16:17:33.071573+00:00",
+      "checked_at": "2026-10-29T21:49:56.484669+00:00",
       "promise_id": "BJP-2014-aad2417e16d593453a",
       "year": 2014,
       "category": "other",
@@ -65673,6 +65699,28 @@
           "promise_core_overlap": [
             "decision-making",
             "youth"
+          ]
+        },
+        {
+          "id": "8775320f5fe8f8b3c7",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Sentencing Project",
+          "source_url": "https://www.sentencingproject.org",
+          "title": "The Second Look Movement: An Assessment of the Nation’s Sentence Review Laws - The Sentencing Project",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTXVEencydmV0WlBMMXlPS0RYdmNTcTFVZFJGVW5BQkVmcm40MkVZLXZXbUJ0bU9BazZIQVJoX3ZsbS0xVktwSlBBUFZmNWZ4MGllcmpjc0EyY1QyNDdWaHlUbE92bktjdzR3WTdfRHR6T0ZwcnhEUlp4OUFrcFZHaGJUaVZEVy1KS1p5akcxb1hUdVplSlFXVG52VmlDZ2lyb3pSWHlINGNmODhEaU0tVndn?oc=5",
+          "published_at": "2024-05-15T10:58:27+00:00",
+          "snippet": "The Second Look Movement: An Assessment of the Nation’s Sentence Review Laws The Sentencing Project",
+          "lexical_overlap": 0.1,
+          "relevance": 0.17,
+          "matched_terms": [
+            "nation",
+            "review"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "nation",
+            "review"
           ]
         }
       ],
@@ -65797,7 +65845,7 @@
     },
     {
       "id": "73afe184bb187577a3",
-      "checked_at": "2026-10-14T07:37:06.385038+00:00",
+      "checked_at": "2026-10-29T21:50:06.510423+00:00",
       "promise_id": "BJP-2014-b9f464113c7ff24142",
       "year": 2014,
       "category": "education_skills",
@@ -66894,7 +66942,7 @@
     },
     {
       "id": "b6a0731be350fc91a0",
-      "checked_at": "2026-10-21T05:22:27.370264+00:00",
+      "checked_at": "2026-10-29T21:50:05.127530+00:00",
       "promise_id": "BJP-2014-b4c361036c75161d90",
       "year": 2014,
       "category": "education_skills",
@@ -66916,8 +66964,33 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/252/1/bjp_lection_manifesto_english_2014.pdf",
       "related_promises": [],
       "query": "skill development mission mode unprecedented scale",
-      "evidence": [],
-      "implementation_signal": "needs_research",
+      "evidence": [
+        {
+          "id": "3fec37c85a02078873",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Rock Paper Shotgun",
+          "source_url": "https://www.rockpapershotgun.com",
+          "title": "\"A decline of unprecedented scale and speed\" is hitting UK game development, trade association report finds - Rock Paper Shotgun",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPOFVLeFhGaFZvSUpOZ2Nhckd0QzhiX1RhMDNrc0kxRWpSaWVHNG1PcURIOE1ILWhUWHBxY2hzOS1sZU16dExWRXozTG8wSG0yOFFzRUIxQ2puNkp3TjhPUVNqYU1kUC1OZTVVZF9Ddmk2S29hWGJwZVNiUVF0VEdMUWg4WUZnSHhDczFnLUYtVEFPQXJMOFJHV2xvN19uTmhtaE1ETWMwZjl0M1NOVE0wR3NlSEozcWVxNmMwT2tEVmMyN213RUpyWUhockpudXM1b2JZ?oc=5",
+          "published_at": "2026-03-24T07:00:00+00:00",
+          "snippet": "\"A decline of unprecedented scale and speed\" is hitting UK game development, trade association report finds Rock Paper Shotgun",
+          "lexical_overlap": 0.15,
+          "relevance": 0.255,
+          "matched_terms": [
+            "development",
+            "scale",
+            "unprecedented"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "development",
+            "scale",
+            "unprecedented"
+          ]
+        }
+      ],
+      "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -68462,7 +68535,7 @@
     },
     {
       "id": "e207f9e9d1444792dd",
-      "checked_at": "2026-10-21T05:22:25.826834+00:00",
+      "checked_at": "2026-10-29T21:50:03.995055+00:00",
       "promise_id": "BJP-2014-b35800a047f5d155ff",
       "year": 2014,
       "category": "other",
@@ -68509,29 +68582,51 @@
           ]
         },
         {
-          "id": "e4c65333cf9e67028a",
+          "id": "065fcc876b6c6e0891",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Cyril Amarchand Mangaldas",
-          "source_url": "https://corporate.cyrilamarchandblogs.com",
-          "title": "RBI’s Consolidation Drive: One Stop Repository For The ARC Regulatory Framework - Cyril Amarchand Mangaldas",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNeUtBUjFxZ2pDeC1oLU9MSVlIYnpSYll0N3RBcVI1TEJicW5lTTZUUFVsVUJ0MXdWRjMyWkpORzcyQjVjUTNxUnJLX014RHpNMGNlZ1FNTS1DR2dyb0NCekp3WGd5Yzhtd29hbkhtSmNmeUpYd09WdXNQeDgxU3JOWE81TXYwNFlGa24zcHZFZ2JfZll2WE9tYW1GRld3R0NaeThNSmNBSGtTQ2JkV3BjQ0Q1WFFEOGJ4YzR6V1RQUDRJUWhtbkNB?oc=5",
-          "published_at": "2025-12-11T08:00:00+00:00",
-          "snippet": "RBI’s Consolidation Drive: One Stop Repository For The ARC Regulatory Framework Cyril Amarchand Mangaldas",
-          "lexical_overlap": 0.1,
-          "relevance": 0.17,
+          "source": "Invest India",
+          "source_url": "https://www.investindia.gov.in",
+          "title": "The role of regulatory bodies in India's financial sector: Wha... - Invest India",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdGh5RnVJTnlhYlRQaGRxemF0SkdUZS0zcENPWHRCbkNXZUZKaHJNNGtjS3RSbXdXV0NHY0RmdGpiLW9IcUxYM0R1ZTRYRU9Ibi1JT3FyWnhmVzFKSWp4bFIxaFRSQTBCQXN3M2I4VTd6WHZTZlNORzVWZFgxTHhJNEIzU1N6bHMwcW0zRmxjVHZKTzNMNXR0MUVLVzNvcE1SYkp1cEF6QWtvcVZrc0Vwck5ETTN3bWJKR1BOdXNn?oc=5",
+          "published_at": "2025-06-12T07:00:00+00:00",
+          "snippet": "The role of regulatory bodies in India's financial sector: Wha... Invest India",
+          "lexical_overlap": 0.133,
+          "relevance": 0.203,
           "matched_terms": [
-            "framework",
+            "financial",
             "regulatory"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "framework",
+            "financial",
+            "regulatory"
+          ]
+        },
+        {
+          "id": "66ec5431ceb42c64c6",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "EY",
+          "source_url": "https://www.ey.com",
+          "title": "Four regulatory priorities to drive financial institutions' focus in 2025 - EY",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOOWdoaVBFOXRhNXpQUHN3cDVhLWpQcTNnVDRpamVueDFfdjVKTjhSRGFQV3RVY21sWXhYQmhnc1lXazYwWjZHMW1uQWFLRnVVYURLcHRkZjQtTmZoZHFtTFZRcG8yaW1vSUtWTE9wMnFFWjFPVGdRaFpOU2lUTnRoVnRCbjM0YXBsR1FRd0FBcmQteVJDUk9NYnM1N0V0ek5TY3F1eGswc3BJbXNfc3JEMjJDQzh5ZHhFQ01JQ3VBeUZGLTg?oc=5",
+          "published_at": "2025-01-13T20:15:07+00:00",
+          "snippet": "Four regulatory priorities to drive financial institutions' focus in 2025 EY",
+          "lexical_overlap": 0.125,
+          "relevance": 0.195,
+          "matched_terms": [
+            "financial",
+            "regulatory"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "financial",
             "regulatory"
           ]
         }
       ],
-      "implementation_signal": "current_primary_evidence_found",
+      "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -69388,7 +69483,7 @@
     },
     {
       "id": "ac8f2f417114937fbb",
-      "checked_at": "2026-10-24T16:17:34.703291+00:00",
+      "checked_at": "2026-10-29T21:49:57.988655+00:00",
       "promise_id": "BJP-2014-ac2da4e21b69e4bc04",
       "year": 2014,
       "category": "jobs_economy",
@@ -69410,31 +69505,8 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/252/1/bjp_lection_manifesto_english_2014.pdf",
       "related_promises": [],
       "query": "facilitate setting software hardware manufacturing units",
-      "evidence": [
-        {
-          "id": "425ca5d4887f2e4b0d",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Electronic Hardware Manufacturing Sector - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1SV0NrOVhWTHVjNXZkVGVRcTJ5OGVaSFBkcnM5N0M2anU5S01hMEpqWXkwZEF1SDh0bzduVVU0cEdraTZEV2s3dUtYY1VwUU9IUVd5NTI2SE42R01IVmd2NlhaUzBYVTlaY2FJcDNMOHU?oc=5",
-          "published_at": "2022-03-30T07:00:00+00:00",
-          "snippet": "Electronic Hardware Manufacturing Sector Press Information Bureau",
-          "lexical_overlap": 0.167,
-          "relevance": 0.287,
-          "matched_terms": [
-            "hardware",
-            "manufacturing"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "hardware",
-            "manufacturing"
-          ]
-        }
-      ],
-      "implementation_signal": "current_primary_evidence_found",
+      "evidence": [],
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -69807,7 +69879,7 @@
     },
     {
       "id": "d49d46894eb50cd340",
-      "checked_at": "2026-10-26T09:16:09.706884+00:00",
+      "checked_at": "2026-10-29T21:49:43.679930+00:00",
       "promise_id": "BJP-2014-957d485352c99cbcc5",
       "year": 2014,
       "category": "infrastructure",
@@ -69849,6 +69921,28 @@
           "promise_core_overlap": [
             "companies",
             "endeavor"
+          ]
+        },
+        {
+          "id": "56f6cd1a29a6f61162",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "DealStreetAsia",
+          "source_url": "https://www.dealstreetasia.com",
+          "title": "Endeavor Indonesia gathers VCs, founders at summit; looks to grow global cohort - DealStreetAsia",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdV9xSWNnTnF4dndBSktpdkpLSG1qN2cxaWFrckhfQmZ1cjlKR3kwY0JFUm1MakZDbmRadC1wM2w1dVk1MTFYc185ajlkRFVKd05TZ1BYMVBqSzc1YUh0dnpEVTVyLVZkRTJZUmc2MWR4c3h2M2ZnN0FNd3FRbGVWb3lveURRSFN3MU5fbm1iX3ItXzI1aGx5Z1dCNzVNQ3gwa200UWlMbm5RRkRtTm5zUXlzTGptTFFjdldNN0hfMUFYdw?oc=5",
+          "published_at": "2026-03-26T07:00:00+00:00",
+          "snippet": "Endeavor Indonesia gathers VCs, founders at summit; looks to grow global cohort DealStreetAsia",
+          "lexical_overlap": 0.133,
+          "relevance": 0.203,
+          "matched_terms": [
+            "endeavor",
+            "global"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "endeavor",
+            "global"
           ]
         },
         {
@@ -69933,7 +70027,7 @@
     },
     {
       "id": "330c035315d868c845",
-      "checked_at": "2026-10-24T16:17:39.249167+00:00",
+      "checked_at": "2026-10-29T21:50:02.466767+00:00",
       "promise_id": "BJP-2014-b2d7152a99200dbde5",
       "year": 2014,
       "category": "other",
@@ -70355,7 +70449,7 @@
     },
     {
       "id": "6cfa4cd8fcf312a7d5",
-      "checked_at": "2026-10-24T16:17:25.769130+00:00",
+      "checked_at": "2026-10-29T21:49:48.533892+00:00",
       "promise_id": "BJP-2014-9caebccc3357db12df",
       "year": 2014,
       "category": "jobs_economy",
@@ -70386,30 +70480,7 @@
         }
       ],
       "query": "evolve economic model port-led development",
-      "evidence": [
-        {
-          "id": "c7d6ba9431814f5f50",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Nature",
-          "source_url": "https://www.nature.com",
-          "title": "Optimization of gravity model based on coopetition perspective and its application in synergetic development evaluation of coastal port groups in China - Nature",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBic2JGU3B1WGNYVFhac1ZYdmtMekFVcUJuNmgzeExKbkkyRXJsRUpNN2JEZmdsSFZLa2R6dklsUGtlODJiQVR3QzNOeGpJMXAxQXFOdHNpM3hUbjM5Sjln?oc=5",
-          "published_at": "2026-06-02T07:00:00+00:00",
-          "snippet": "Optimization of gravity model based on coopetition perspective and its application in synergetic development evaluation of coastal port groups in China Nature",
-          "lexical_overlap": 0.111,
-          "relevance": 0.181,
-          "matched_terms": [
-            "development",
-            "model"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "development",
-            "model"
-          ]
-        }
-      ],
+      "evidence": [],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -71272,7 +71343,7 @@
     },
     {
       "id": "859b460f66d2e2c14e",
-      "checked_at": "2026-10-26T09:16:11.322054+00:00",
+      "checked_at": "2026-10-29T21:49:45.347211+00:00",
       "promise_id": "BJP-2014-968f247255aaf93fb6",
       "year": 2014,
       "category": "other",
@@ -71296,39 +71367,87 @@
       "query": "come out responsible comprehensive energy policy",
       "evidence": [
         {
-          "id": "c142597f1f75ad27c6",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Shri Dharmendra Pradhan says that Atmanirbhar Bharat’ will drive our efforts in evolving a comprehensive energy security architecture in the country; - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9sejNwZElMVHppNkJ1SVp4V05vUUpGRTZYMUFHdm9pLUVaV0NSNGZDN2RTS3F0U01jSFkwbnFuTVJlUmxrelRGclpDT2dmX3RFYXNtZkE2UV9venZETlY4LWxiZU9XbnZmNVE?oc=5",
-          "published_at": "2020-09-29T07:00:00+00:00",
-          "snippet": "Shri Dharmendra Pradhan says that Atmanirbhar Bharat’ will drive our efforts in evolving a comprehensive energy security architecture in the country; Press Information Bureau",
-          "lexical_overlap": 0.105,
-          "relevance": 0.225,
+          "id": "bdc0a60cb9236d9fcb",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "National Governors Association",
+          "source_url": "https://www.nga.org",
+          "title": "Comprehensive Energy Planning 101 - National Governors Association",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5CRUZhbUc0cWtSWHpBUkhVMnFWY2p1OHEta0ozSW5GbnlfRFVNN05ENmExeURPZ3c4VTB5WERMekY1NURPMjdmdHhOanlLOG5mMFgxSGp1MktqdzF4bzBrUUo4WGxLUVlIYjhqU3k2SjU?oc=5",
+          "published_at": "2024-08-22T07:00:00+00:00",
+          "snippet": "Comprehensive Energy Planning 101 National Governors Association",
+          "lexical_overlap": 0.3,
+          "relevance": 0.405,
           "matched_terms": [
             "comprehensive",
-            "energy"
+            "energy",
+            "national"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
             "comprehensive",
-            "energy"
+            "energy",
+            "national"
           ]
         },
         {
-          "id": "514d44fcab5cc77bb5",
+          "id": "abb264a4834f1b7b18",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Frontiers",
-          "source_url": "https://www.frontiersin.org",
-          "title": "Ethical tensions in renewable energy transitions: a philosophical examination of innovation cycles, intergenerational justice, and the moral imperative of responsible decommissioning - Frontiers",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTk5PdkJCeHQ2eEJoUm1DNWNnYXk0ek52YW04MFZHRVVNYXRHMWVrNUJ5d0x2ZkM1TGRyRmtsNHp5UlB3TjZHRlBFUERCMEhCNHRKa2VkYksyeUFtMUNNZEU1MG8ydTRyLVdNRWZ3cnVDVGNLUGx6X21oRmZfcGRueTRtaFZBTVNMcmtkZFcxYXpmRXA5cDRNWkRGWWk1TGRn?oc=5",
-          "published_at": "2026-07-24T08:34:04+00:00",
-          "snippet": "Ethical tensions in renewable energy transitions: a philosophical examination of innovation cycles, intergenerational justice, and the moral imperative of responsible decommissioning Frontiers",
-          "lexical_overlap": 0.095,
-          "relevance": 0.165,
+          "source": "Intereconomics | Review of European Economic Policy",
+          "source_url": "https://www.intereconomics.eu",
+          "title": "Does Europe Need a Comprehensive Energy Policy? - Intereconomics | Review of European Economic Policy",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYnNIYXJ2Vjlpb3F4TnJKakxoQmhpT0xxMmViUnlhNEV6bHY1UFVveFVuVmY3NGdBaWFaclRTdEotd19Eb1U5QVlXeVFfX3otVWpaUmJaSUlsS2sxcVNsQVBnNlEtQjh0SjZtY3daZmxra3laam0wNHBic09JTUhMdEFVTkpRMVlVQXdaSHRCSm9tRVJ5d3BYSkdRWDlycTZyWl83OGt3MG9Jd0VyZi13T3dramVMSlFj?oc=5",
+          "published_at": "2020-01-27T21:59:24+00:00",
+          "snippet": "Does Europe Need a Comprehensive Energy Policy? Intereconomics | Review of European Economic Policy",
+          "lexical_overlap": 0.214,
+          "relevance": 0.319,
+          "matched_terms": [
+            "comprehensive",
+            "energy",
+            "policy"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "comprehensive",
+            "energy",
+            "policy"
+          ]
+        },
+        {
+          "id": "1e7bacdfc5e2a77923",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "energy.ec.europa.eu",
+          "source_url": "https://energy.ec.europa.eu",
+          "title": "National energy and climate plans - energy.ec.europa.eu",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbjB2bU5tS09uVlZDeDY0NlRfdlUxdXlraTlLRjFXa2ZzbWM1ZzhuOFhJUWNOZ05UUFlqWnI2SUpyNFRiUFpGc0ctV1Q5Qm1ITlNhVmE4eFN3WktlUEMtV2owZFdNMTZUME1VTzFyN2hISDZpcVBfUlhmZG9Hd25CdmJTRjU0SW50RnBIMVhqMA?oc=5",
+          "published_at": "2026-04-28T22:03:44+00:00",
+          "snippet": "National energy and climate plans energy.ec.europa.eu",
+          "lexical_overlap": 0.167,
+          "relevance": 0.237,
+          "matched_terms": [
+            "energy",
+            "national"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "energy",
+            "national"
+          ]
+        },
+        {
+          "id": "3ab967ca06d8eb5308",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "About Amazon",
+          "source_url": "https://www.aboutamazon.com",
+          "title": "A responsible path forward for America’s energy future - About Amazon",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPazFvajFYdW9OTTVvOVJxc0tDNGtzMVlvUEVQdTJtNHI5dWxLN3E4al9kNmxOUTBYTE96TkcwQUtmU0oyZFN6VWVpS2tpSGdFTU5hNzg2OC1SY2NDTkI1RThyUTBkekRmU2dVLXhXNEk4U2NVcDJKSjh2Z011YzJzY2hBa2lxaUN1NFZteXV6RXowczdybHhTSTVsZzZ5V183SW1j?oc=5",
+          "published_at": "2026-03-04T08:00:00+00:00",
+          "snippet": "A responsible path forward for America’s energy future About Amazon",
+          "lexical_overlap": 0.154,
+          "relevance": 0.224,
           "matched_terms": [
             "energy",
             "responsible"
@@ -71338,9 +71457,31 @@
             "energy",
             "responsible"
           ]
+        },
+        {
+          "id": "f26f20880bddcad438",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Center for American Progress",
+          "source_url": "https://www.americanprogress.org",
+          "title": "State Climate Action in 2026: How States Are Delivering Real Benefits Through Climate and Clean Energy Policy - Center for American Progress",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOcFhoazFwT2NEeHEyQXJ2OG9ZRFJfWTRHRDBjalZlR1BMbk9lQi1oNDdnTXVxYW4zdVBVV3RfYTBwMEFzeml1bWVuaWlyUnNVRVhWWGhDRll5cjJJbG1OM0wzay1xQWU4QjQ1OFg4Nmtqa2NYQ2FzeWpaRzJFSkNCcWUzcmxMS2dITlRQaHltZTdpU0hZWGgzMGVEQ2FjYzZnYzV0ajFxMUZOa2otRFZlN1ZZRzJkb3MyYWM0TjE3NGlRVWdXdDNFam1aWHVsRHJJanpOM3pzN0NWNUNKbmNGb2JyR3I?oc=5",
+          "published_at": "2026-04-24T07:00:00+00:00",
+          "snippet": "State Climate Action in 2026: How States Are Delivering Real Benefits Through Climate and Clean Energy Policy Center for American Progress",
+          "lexical_overlap": 0.105,
+          "relevance": 0.175,
+          "matched_terms": [
+            "energy",
+            "policy"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "energy",
+            "policy"
+          ]
         }
       ],
-      "implementation_signal": "current_primary_evidence_found",
+      "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -71869,7 +72010,7 @@
     },
     {
       "id": "2d72c688eea1c7f412",
-      "checked_at": "2026-10-24T16:17:28.068490+00:00",
+      "checked_at": "2026-10-29T21:49:50.986383+00:00",
       "promise_id": "BJP-2014-a318590da0f8574b76",
       "year": 2014,
       "category": "security_defence",
@@ -73034,7 +73175,7 @@
     },
     {
       "id": "440bde6c6d37828180",
-      "checked_at": "2026-10-24T16:17:29.555332+00:00",
+      "checked_at": "2026-10-29T21:49:52.456508+00:00",
       "promise_id": "BJP-2014-a362c3b8cd1141df24",
       "year": 2014,
       "category": "infrastructure",
