@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T23:14:36.060350+00:00",
+  "generated_at": "2026-10-29T02:28:10.007343+00:00",
   "capabilities": {
     "official_evidence_search": true,
     "verified_primary_gate": true,
@@ -16,8 +16,8 @@
     "promise_checked_this_run": 30,
     "promise_total_candidates": 841,
     "promise_coverage_pct": 101.3,
-    "primary_candidates": 558,
-    "secondary_candidates": 1040,
+    "primary_candidates": 555,
+    "secondary_candidates": 1039,
     "prior_fact_checks": 0,
     "publishable_auto_verdicts": 0,
     "claim_verdicts": {
@@ -29,8 +29,8 @@
       "fulfilled_by_deadline": 0,
       "target_reached_evidence": 0,
       "proven_unfulfilled_by_deadline": 0,
-      "progress_documented": 12,
-      "deadline_passed_unresolved": 47,
+      "progress_documented": 11,
+      "deadline_passed_unresolved": 48,
       "deadline_not_reached": 13,
       "insufficient_evidence": 38,
       "not_machine_measurable": 742,
@@ -101,25 +101,6 @@
       "numbers": [],
       "promise_matches": [],
       "evidence": [
-        {
-          "id": "50dc6734195f1b52af",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Deccan Chronicle",
-          "source_url": "https://www.deccanchronicle.com",
-          "title": "Five medical colleges to be opened this year: Krishna Babu - Deccan Chronicle",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWk1kbTVHdGFOOWRHa2tIX191M0hlb3AzX0hDUm9lR1lEajJDTDRkb1JKcXVqdVlhTlYxZlo2eHdDaFpLQU0zbXZSeG5BM2dQRXhtTXdNdlI2RC05YVBpRi1HcmZCbGhrNE1xM1JPS3NLMDRPLXZ6ZmhQUDlIT3F3a0JzeGlIWVMyQ19oOHhsd2Z3ZDlEVUNYQ3ZyRjAtTDJpSzJkRmZGZXZBUEc4eTcxelk2QWhER1V1ako3S0FnQdIBxAFBVV95cUxNRGVZYi1GaFcybF9DR05KZE5yYVJiQnNfNlpCbHY2UXJBOXRfdkp6ZGVkcU53T2VCVjd6UlRMd1RJZXZwUHhZSlVyQTdpZW5acURYLVZheFNvZTE5VF93d0JiaFBsSEt6cC1CZUFvU0pSeGFqdkpNeFF1V21rYzhWYVFvTkJSWlo2NFF1cUphbXY1YkdkbTV0WWtsTS1IN1pqZlhOMEJyNW96ZTlTb2ZqeW9fcktLUTlGWWVRcktMNlpyU2h6?oc=5",
-          "published_at": "2023-06-09T07:00:00+00:00",
-          "snippet": "Five medical colleges to be opened this year: Krishna Babu Deccan Chronicle",
-          "lexical_overlap": 0.3,
-          "relevance": 0.405,
-          "matched_terms": [
-            "colleges",
-            "medical",
-            "opened"
-          ],
-          "shared_numbers": []
-        },
         {
           "id": "79a5de7000dc444ee7",
           "scope": "news_search",
@@ -382,11 +363,30 @@
         "2014"
       ],
       "promise_matches": [],
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "0e2d9417e1acdf56ab",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "CNBC",
+          "source_url": "https://www.cnbc.com",
+          "title": "Warren Buffett: 'If I had been a female, my life would have been entirely different' - CNBC",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOV3BpbjltT3B2RHZwanlSTVVqWkVzVFVaYnNKa1lpQkZ1UlBlVHBFOEIzcVZlNzhnOXZvM2N0c0gwYVVNcFFpX1IzYk9pVXctcnRXck82cVREMU1ycDB1bW5JM05YSGtjaExlWkpaSFBZSWtfSUktVVRuVE9LYldjWHMtdDQ1UmV1QXJCSHhqNmxwY1otbkFoQWEtUDBFNUlwYl9Z0gGoAUFVX3lxTFBJQjZYdVNlWWlEdTN6QnVBZWVQc3JIcjA1XzVuWlVhV3UxWWlZY0hrVkVINjFOOVU1ekZsWHhGZzZDTm5mZkVtYnA5RTNKX2Y4TTEtdzF1c01QTUxpRmktMmtfVVNBY1BtbnlJV2ZGeHVYOGJzYXpDaU9fTE5xVDZGcXdvVDd4bTJOcXVHbTJqblNCV0stR09IN3A2UGZzOTg2a0JBQlVSUA?oc=5",
+          "published_at": "2018-10-16T07:00:00+00:00",
+          "snippet": "Warren Buffett: 'If I had been a female, my life would have been entirely different' CNBC",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
+          "matched_terms": [
+            "different",
+            "entirely"
+          ],
+          "shared_numbers": []
+        }
+      ],
       "fact_checks": [],
       "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
+        "level": "reporting_found",
+        "label": "Relevant reporting found; primary evidence still needed",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -448,26 +448,7 @@
       "query": "frameworks built nation recent along ecosystem",
       "numbers": [],
       "promise_matches": [],
-      "evidence": [
-        {
-          "id": "23915aaf989e67f10f",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "CSIS | Center for Strategic and International Studies",
-          "source_url": "https://www.csis.org",
-          "title": "Export Nation or Ecosystem Power: South Korea’s Choice in the AI Industrial Age - CSIS | Center for Strategic and International Studies",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZU5DblhJNmhFRG5vd0NrYXk2X3hEb1FlSk1rVnF4eFFiZGo1aWlTVmIyWGY5NUc2QUVpRWZIY054clppSU42eHdDWkZGUXVjcl9vb1Y1RWxTX3ppaDVCSGVNME9UOUpTTS16eE1HN0ZjejdHTS1tRlBkdlZiMEJmZG9JRVhVeFBIMENYT281YkJ5bkFEOHU2TlY1VzN4SEFBM0E?oc=5",
-          "published_at": "2026-07-07T07:00:00+00:00",
-          "snippet": "Export Nation or Ecosystem Power: South Korea’s Choice in the AI Industrial Age CSIS | Center for Strategic and International Studies",
-          "lexical_overlap": 0.08,
-          "relevance": 0.15,
-          "matched_terms": [
-            "ecosystem",
-            "nation"
-          ],
-          "shared_numbers": []
-        }
-      ],
+      "evidence": [],
       "fact_checks": [],
       "signal": {
         "level": "needs_research",
@@ -558,7 +539,7 @@
         "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
         "published_at": "2026-10-25T13:30:15+00:00"
       },
-      "query": "59 60 nirmala ji mentioned just now has",
+      "query": "60 59 nirmala ji mentioned just now has",
       "numbers": [
         "59",
         "60"
@@ -735,31 +716,6 @@
       ],
       "evidence": [
         {
-          "id": "9093fc80088a431121",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "STREET VENDORS UNDER PM SVANIDHI - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBsdFprYk1IckVSREczbmFqTi1ueEZjaDhLOUc1S1V3bXN6RkFyZ2c4cm1Odm93ZEdZcTBBY3VvdTZDaDFISGJaTlN6NENhMW04TFdTRGRMTFJuOElFV0MyY0p5MGw5UVVz?oc=5",
-          "published_at": "2026-07-27T07:00:00+00:00",
-          "snippet": "STREET VENDORS UNDER PM SVANIDHI Press Information Bureau",
-          "lexical_overlap": 0.308,
-          "relevance": 0.498,
-          "matched_terms": [
-            "pm",
-            "street",
-            "svanidhi",
-            "vendors"
-          ],
-          "shared_numbers": [],
-          "nli": {
-            "entailment": 0.0014,
-            "neutral": 0.9879,
-            "contradiction": 0.0107
-          }
-        },
-        {
           "id": "9860913f9848bd5052",
           "scope": "news_search",
           "tier": "secondary",
@@ -803,56 +759,6 @@
             "entailment": 0.0015,
             "neutral": 0.9865,
             "contradiction": 0.012
-          }
-        },
-        {
-          "id": "4a2a6c9ec1e80a96b6",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "PM SVANidhi restores dignity of street vendors: Housing Minister Hardeep S Puri - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBfN0FteFZwRkQ1M0xHUFJtQUJzLU00OUVPWWtXcDdqcXNWb0ZDZ2p0dTJFRVRJZnlGOG9hZUZycThqUjRYTDJsVFNQaVZKQzJGd0dEU2hKYjVzV2VERV9UUk1xRWxkVUIwdExjX1RTQVE?oc=5",
-          "published_at": "2024-02-16T08:00:00+00:00",
-          "snippet": "PM SVANidhi restores dignity of street vendors: Housing Minister Hardeep S Puri Press Information Bureau",
-          "lexical_overlap": 0.222,
-          "relevance": 0.412,
-          "matched_terms": [
-            "pm",
-            "street",
-            "svanidhi",
-            "vendors"
-          ],
-          "shared_numbers": [],
-          "nli": {
-            "entailment": 0.0014,
-            "neutral": 0.9895,
-            "contradiction": 0.0091
-          }
-        },
-        {
-          "id": "f5e28276c90649ddd0",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "PM SVANidhi Scheme facilitates provision of collateral free working capital loan to street vendors to restart their businesses - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5tT2JVblU1S1pGdThwV2x6NlkybDFXQzA4ZTV2UVljVXVEdmZNMTU5VkFsLWNKeDZKdDMtMWpzYUlmUXJHUXZiRWhOeklVTGpLVEROWkRHcmRxVVFka0RqUVF3WlJlMGRkb2c?oc=5",
-          "published_at": "2022-03-31T07:00:00+00:00",
-          "snippet": "PM SVANidhi Scheme facilitates provision of collateral free working capital loan to street vendors to restart their businesses Press Information Bureau",
-          "lexical_overlap": 0.182,
-          "relevance": 0.372,
-          "matched_terms": [
-            "pm",
-            "street",
-            "svanidhi",
-            "vendors"
-          ],
-          "shared_numbers": [],
-          "nli": {
-            "entailment": 0.002,
-            "neutral": 0.9856,
-            "contradiction": 0.0124
           }
         },
         {
@@ -956,6 +862,24 @@
           "matched_terms": [
             "pm",
             "street",
+            "svanidhi"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "2d5a3567fb9906dfd2",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "News On AIR",
+          "source_url": "https://newsonair.gov.in",
+          "title": "PM SVANidhi scheme completes six years of implementation - News On AIR",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRWdHWlR4U0JfVVFKeEExMk5TWUNZT1hVZ2xpeHNyQl9DU2s4aG5PYlRqX3djOWpNVUtmTWxDd2IzUENFNHJodW1lYlJSUDZRQlh1dU1ndlRLUmNUd1IwSVVTNkJGeGttMXpFOThsM29NRWtBSS14SnpyQ1RGaF9zM0RoNU55RENJSEE?oc=5",
+          "published_at": "2026-06-01T07:00:00+00:00",
+          "snippet": "PM SVANidhi scheme completes six years of implementation News On AIR",
+          "lexical_overlap": 0.125,
+          "relevance": 0.195,
+          "matched_terms": [
+            "pm",
             "svanidhi"
           ],
           "shared_numbers": []
@@ -1066,7 +990,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T23:13:48.294661+00:00",
+      "latest_checked_at": "2026-10-29T02:27:16.141780+00:00",
       "latest_claim_packet_id": "d4aab404e9ccc6ccf7"
     },
     {
@@ -1333,7 +1257,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T23:13:48.294729+00:00",
+      "latest_checked_at": "2026-10-29T02:27:16.141829+00:00",
       "latest_claim_packet_id": "884558fa72add4403d"
     },
     {
@@ -1423,13 +1347,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "needs_research",
+      "evidence_state": "reporting_found",
       "human_reviewed": false,
       "created_at": "2026-10-27T07:50:11.258438+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T23:13:48.294629+00:00",
+      "latest_checked_at": "2026-10-29T02:27:16.141765+00:00",
       "latest_claim_packet_id": "60ae96f665f22ef03b"
     },
     {
@@ -1477,7 +1401,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T23:13:48.294500+00:00",
+      "latest_checked_at": "2026-10-29T02:27:16.141648+00:00",
       "latest_claim_packet_id": "b8d4ab680299139905"
     },
     {
@@ -1549,7 +1473,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T23:13:48.294713+00:00",
+      "latest_checked_at": "2026-10-29T02:27:16.141813+00:00",
       "latest_claim_packet_id": "dac6e2327ebe0bd17a"
     },
     {
@@ -1765,7 +1689,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T23:13:48.294746+00:00",
+      "latest_checked_at": "2026-10-29T02:27:16.141845+00:00",
       "latest_claim_packet_id": "050ea98dd7879a06cd"
     },
     {
@@ -1957,7 +1881,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T23:13:48.294581+00:00",
+      "latest_checked_at": "2026-10-29T02:27:16.141718+00:00",
       "latest_claim_packet_id": "29371b53212e779eff"
     },
     {
@@ -2101,7 +2025,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T23:13:48.294549+00:00",
+      "latest_checked_at": "2026-10-29T02:27:16.141686+00:00",
       "latest_claim_packet_id": "b35543711de7918ea9"
     },
     {
@@ -2173,7 +2097,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T23:13:48.294566+00:00",
+      "latest_checked_at": "2026-10-29T02:27:16.141703+00:00",
       "latest_claim_packet_id": "ddb711a027259cf305"
     },
     {
@@ -2365,7 +2289,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T23:13:48.294771+00:00",
+      "latest_checked_at": "2026-10-29T02:27:16.141870+00:00",
       "latest_claim_packet_id": "5bb402465b7ccab062"
     },
     {
@@ -2509,7 +2433,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T23:13:48.294693+00:00",
+      "latest_checked_at": "2026-10-29T02:27:16.141796+00:00",
       "latest_claim_packet_id": "f5f9e7bb05cfa3199f"
     },
     {
@@ -2653,7 +2577,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T23:13:48.294759+00:00",
+      "latest_checked_at": "2026-10-29T02:27:16.141858+00:00",
       "latest_claim_packet_id": "00739b48a203bf3deb"
     },
     {
@@ -2797,7 +2721,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T23:13:48.294614+00:00",
+      "latest_checked_at": "2026-10-29T02:27:16.141750+00:00",
       "latest_claim_packet_id": "1d53d6d12eb863d5b2"
     },
     {
@@ -3040,7 +2964,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-28T23:13:48.294600+00:00",
+      "latest_checked_at": "2026-10-29T02:27:16.141737+00:00",
       "latest_claim_packet_id": "318b27cf844c2ade6a"
     },
     {
@@ -43305,8 +43229,8 @@
       }
     },
     {
-      "id": "0764c49dce738dbbee",
-      "checked_at": "2026-10-28T23:13:50.670902+00:00",
+      "id": "05e0979e7f32ba2f72",
+      "checked_at": "2026-10-29T02:27:18.082906+00:00",
       "promise_id": "BJP-2019-18c0750d5ed71bc3d1",
       "year": 2019,
       "category": "agriculture",
@@ -43332,7 +43256,7 @@
       "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
-      "query": "2022 10000 enable creation farmer producer organisations fpos",
+      "query": "10000 2022 enable creation farmer producer organisations fpos",
       "evidence": [
         {
           "id": "54958999ae6b9e6f18",
@@ -43356,30 +43280,6 @@
           "promise_core_overlap": [
             "farmer",
             "fpos",
-            "organisations",
-            "producer"
-          ]
-        },
-        {
-          "id": "6dba73a6b672f68e0e",
-          "scope": "broad_official_search",
-          "tier": "primary",
-          "source": "Ministry of Food Processing Industries",
-          "source_url": "https://www.mofpi.gov.in",
-          "title": "FARMER PRODUCER ORGANISATIONS POLICY & PROCESS GUIDELINES FOR - Ministry of Food Processing Industries",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNemRUS3BtTVBEWTdvNW13TEt4RVNGT05vRllBUmpUR1huVnJzdEp4NUFaNzN3Tk41ajVwcUtXVEU0N3owdWlqYkVDUlduUXdsRU43WmpnOFBDSDVOd21TZTJmM3Ita29WNVJTVTJGYlE4a2ZfWkQyZFRLSFJoOUZuWFYtY0ZfVmpaNkVOQ1AxVWVNYVBkTGc?oc=5",
-          "published_at": "2021-12-22T16:16:57+00:00",
-          "snippet": "FARMER PRODUCER ORGANISATIONS POLICY & PROCESS GUIDELINES FOR Ministry of Food Processing Industries",
-          "lexical_overlap": 0.158,
-          "relevance": 0.313,
-          "matched_terms": [
-            "farmer",
-            "organisations",
-            "producer"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "farmer",
             "organisations",
             "producer"
           ]
@@ -43453,51 +43353,27 @@
           ]
         },
         {
-          "id": "54db8b8e142dc04bc2",
+          "id": "531ed5a861c168b322",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "India Education Diary",
-          "source_url": "https://indiaeducationdiary.in",
-          "title": "Flipkart signs MoU with Society for Elimination of Rural Poverty (SERP) to enable market access & growth for Farmer Producers Organisations and Self-Help Groups in Telangana - India Education Diary",
-          "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxOT09PS3ZNTnB3al9RSUpZTllCWk43M1R5Y2JXMVRFbzhPYWF2ZVN2eUVxMWphWHNCLXZ6TDhxMG9wR2pfZWRkeTNrTjlxQmFkOVNaX1htcEZJQkR5NXd0bTBRMkwxUWU2REU0QU9KVk1QMm56TlBUWk81SzN4eVhQbV9RYmF4d29nNDJwU2hTbDl1NWY2LU9XVjlrdTFDU0ZIVGdGSTVqNlBLamFXSERDQk9zZ0o5TEtqRk93VHhrbDV5azZDMlk3UWg2T1EtYWFTZDZfYllabkVLM3k2ZGxoS2ltdmpXYW1GQUh5R1J5NFlKbUx5eG0weXhWOWN4d09DZjA2cmV6TlpjSkJpREcyNnM0SXRLRnBGeVNsOVdldlE4ckMwRmtsSA?oc=5",
-          "published_at": "2022-06-26T07:00:00+00:00",
-          "snippet": "Flipkart signs MoU with Society for Elimination of Rural Poverty (SERP) to enable market access & growth for Farmer Producers Organisations and Self-Help Groups in Telangana India Education Diary",
-          "lexical_overlap": 0.167,
-          "relevance": 0.307,
+          "source": "Outlook India",
+          "source_url": "https://www.outlookindia.com",
+          "title": "Farmer Producer Organization Scheme A Path To Farmers’ Prosperity - Outlook India",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMVpLQmxEZW5udS1scVRES3BVcEduZnhJaEdLcU1HY2hKWndwZ0g1dWpIRl9PRHdPaVQ5c2RFaV9PTVZ6akw3NGpnYjNudkwxaEJuOG81VlFJdVZ1emkzbTN0NXFlMHpnRlhqZHlTcFhjd21Ba1cxQWtoOVBGVTBkUy05bjFqSkhKOEI0SFhHeG9YSjQwT3lfNVNwNWRKVjN2Wl9rSEgyQWlXY1BCbzVMQll2eUNGMkZm0gHGAUFVX3lxTE16WE9xMW1VUnQzRmR2VGd0OWFPX2Q1RFN4S3ZWd2duMXBOdExXeWlzSXByV05JNmE5WWEzZnFBb1hzOFduZ0R5OXhsZko1N1JhclpXNlpVQ21QZFR0THFTdkVCc1B3ZHBJRFFWMU8wTzlOMDNOTjcxQVVNOWFsT3A2RXc0NzdYX3dBaFBmV0hsSlhsc2YxdWlhMHE2SFM5RTc4TU9xRGhTeWtWUW1wV3IwZ1hiTkJtQU1ZN3RVcUlZeDFXMlM4Zw?oc=5",
+          "published_at": "2024-01-16T08:00:00+00:00",
+          "snippet": "Farmer Producer Organization Scheme A Path To Farmers’ Prosperity Outlook India",
+          "lexical_overlap": 0.176,
+          "relevance": 0.281,
           "matched_terms": [
-            "access",
-            "enable",
             "farmer",
-            "organisations"
+            "farmers",
+            "producer"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "access",
             "farmer",
-            "organisations"
-          ]
-        },
-        {
-          "id": "1af39614098ce2c5d1",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "YourStory.com",
-          "source_url": "https://yourstory.com",
-          "title": "Flipkart signs MoU with SERP to enable market access, growth for FPOs, SHGs in Telangana - YourStory.com",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdGxJNXQ4NFR1ZldsQi1veEx3MUEzLW1keWV6d0kySm5zd0pVVVZrUnZiLWhQQlhTWkFfLUJvVVp2aFFNQzBZMGg2a0M2SWxSQUpEZFRsWDJUblpsb21JTDNiTVJ4OE8ycHplcVJyZlV3Z3pmTzhRZUhZN1VqQzVlUDFaNVQ1a21PSld0T093?oc=5",
-          "published_at": "2022-06-25T07:00:00+00:00",
-          "snippet": "Flipkart signs MoU with SERP to enable market access, growth for FPOs, SHGs in Telangana YourStory.com",
-          "lexical_overlap": 0.136,
-          "relevance": 0.241,
-          "matched_terms": [
-            "access",
-            "enable",
-            "fpos"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "access",
-            "fpos"
+            "farmers",
+            "producer"
           ]
         },
         {
@@ -43523,28 +43399,6 @@
           ]
         },
         {
-          "id": "34c66c9ca7d95b9063",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Agriculture Post",
-          "source_url": "https://agriculturepost.com",
-          "title": "Every block in India to have one farmer producer organisation: MoS Agriculture - Agriculture Post",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPRzhVZmdmNUZVNGU3WVJ0eWxtZWgtdG51eEFlSnRnTlVZQUQxeS10dHp0T1ZmNVlyS0I3OVFKMnU2N3pPUnByMzU0MjgtV2k4TGdSemFCaU9pajdlelBwb0RHMTFUczhxTUhHellCcTBZbDlXQjR4bGRBSnI1N3hTb21DTGEyX2YyaUJSSUJoamhDSVZDcXZsM0E4V24zR0ZfZF9lc2VuMGtuXzZJSzFwaUpzRU53cmZRc3VRdmduSU9GUHJUWjVXcThxVlhWSkJMSzZRU3AzZWhpUDFMX0RxdVY4dw?oc=5",
-          "published_at": "2022-03-16T07:00:00+00:00",
-          "snippet": "Every block in India to have one farmer producer organisation: MoS Agriculture Agriculture Post",
-          "lexical_overlap": 0.1,
-          "relevance": 0.17,
-          "matched_terms": [
-            "farmer",
-            "producer"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "farmer",
-            "producer"
-          ]
-        },
-        {
           "id": "c287fed5985db0f3f9",
           "scope": "news_search",
           "tier": "secondary",
@@ -43564,6 +43418,28 @@
           "promise_core_overlap": [
             "farmers",
             "fpos"
+          ]
+        },
+        {
+          "id": "07618ce32d181ef2b4",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Down To Earth",
+          "source_url": "https://www.downtoearth.org.in",
+          "title": "Heavy sway: Big corporations with power over farmer producer companies is diluting their purpose - Down To Earth",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOWmdHYVFuUlNEdnBBcDJhQ3BGWVRxVUkzWlZOY2NEeGNfVDZVTk1sa2JrOFZSbjF2dDEtSUFKcEhUY3VoZG42UEJhd3J5OUZsUVlrTDcyOUhtRHp6VGZCdUZfUW5nalpsTUtsRGFKZlIydjRwZjFidlo0VUtsQURoX1M5eHdQVXJJMHYtMDQwSGgwS1EzUURwdXZnenJYRnBGdTNWbUNhYVk2OXBIYUZTSDQ1QXo4bDNZamxZYjh1WkNDR0dMZmtUdGtuUVYwRC1qa0x3aXZiSEhFZFnSAegBQVVfeXFMUGd5TTgtUGhRNjRpd3JWb2d1RTZjX1pMR3lvYko1dDRZWUxDUTFaZjNYQWRDSzdrUC1FdmF2WE9oM3RUME56RGxUd3JJaGh0VnA5elRnTWNsaUEzbzU4TFE1UEt0Ylh2TldvS20yOXdfZHVDOFluMlJCbkR2N0tveWhYaUNqVGJRTGs0WG5WQjdjU3RFR1NTcF90RllEVUM0RnhtTDAzQlF5OTRrb3A0MEJMdDhfUUEwbGdKNXpsZmE4clJ5MlFJNUVvbV9KNUIxQUNQdGpYQ0tvNWR2cnExMnptdFhld3ZsVA?oc=5",
+          "published_at": "2023-04-20T07:00:00+00:00",
+          "snippet": "Heavy sway: Big corporations with power over farmer producer companies is diluting their purpose Down To Earth",
+          "lexical_overlap": 0.091,
+          "relevance": 0.161,
+          "matched_terms": [
+            "farmer",
+            "producer"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "farmer",
+            "producer"
           ]
         }
       ],
@@ -44794,7 +44670,7 @@
     },
     {
       "id": "f5811520c1d5623f19",
-      "checked_at": "2026-10-28T23:13:52.857021+00:00",
+      "checked_at": "2026-10-29T02:27:20.068407+00:00",
       "promise_id": "BJP-2019-1d3e95fa9344e842f3",
       "year": 2019,
       "category": "infrastructure",
@@ -44915,7 +44791,7 @@
     },
     {
       "id": "92d6920a15fb42f812",
-      "checked_at": "2026-10-28T23:14:09.247978+00:00",
+      "checked_at": "2026-10-29T02:27:37.501859+00:00",
       "promise_id": "BJP-2019-6abf03adda773fec98",
       "year": 2019,
       "category": "governance",
@@ -48351,7 +48227,7 @@
     },
     {
       "id": "1e0abc9f94016f3c7a",
-      "checked_at": "2026-10-28T23:13:54.327246+00:00",
+      "checked_at": "2026-10-29T02:27:21.859551+00:00",
       "promise_id": "BJP-2019-2af396deaf778cac73",
       "year": 2019,
       "category": "infrastructure",
@@ -48436,7 +48312,7 @@
     },
     {
       "id": "4af70c5cc4e5dd31ea",
-      "checked_at": "2026-10-28T23:14:00.292666+00:00",
+      "checked_at": "2026-10-29T02:27:28.140210+00:00",
       "promise_id": "BJP-2019-34c03859f07f1329c5",
       "year": 2019,
       "category": "infrastructure",
@@ -48462,28 +48338,6 @@
       "related_promises": [],
       "query": "2022 road connectivity complete dedicated freight corridor",
       "evidence": [
-        {
-          "id": "2f7cb9a95e16631273",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Project for Chennai Port to Maduravoyal corridor in Tamil Nadu to be completed by December 2024 - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBNHhkQlBoSDU0NXo5T2IwMDZITWRENTF0eC0tNzBHRTI3bHpvT1NrNktkeF9NOTQzUnVIRFl2Vmx2WHFRSVlrbEJYUkZrVHIyOWFrQ1BIMmliWG1pQUJjZ2JxTkdHRkRMLVE?oc=5",
-          "published_at": "2025-06-12T19:01:02+00:00",
-          "snippet": "Project for Chennai Port to Maduravoyal corridor in Tamil Nadu to be completed by December 2024 Press Information Bureau",
-          "lexical_overlap": 0.118,
-          "relevance": 0.238,
-          "matched_terms": [
-            "corridor",
-            "project"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "corridor",
-            "project"
-          ]
-        },
         {
           "id": "ec1d0cc8a5a0c1eb96",
           "scope": "news_search",
@@ -48647,17 +48501,17 @@
           ]
         }
       ],
-      "implementation_signal": "action_detected",
+      "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
       "outcome": {
-        "status": "progress_documented",
+        "status": "deadline_passed_unresolved",
         "deadline_year": 2022,
-        "proof_strength": "verified_primary_action_with_object_overlap",
-        "proof_evidence_id": "2f7cb9a95e16631273",
+        "proof_strength": "none",
+        "proof_evidence_id": null,
         "proof": null,
-        "reason": "Verified primary evidence overlaps the subject of the promise and documents implementation activity, but not the promised outcome."
+        "reason": "The extracted deadline (2022) has passed, but ClaimWatch does not have direct comparable post-deadline evidence proving fulfilment or non-fulfilment."
       }
     },
     {
@@ -50652,7 +50506,7 @@
     },
     {
       "id": "93bb9754ab7125c8f1",
-      "checked_at": "2026-10-28T23:14:04.913186+00:00",
+      "checked_at": "2026-10-29T02:27:32.928072+00:00",
       "promise_id": "BJP-2019-6013bbae5c9fbd8c5a",
       "year": 2019,
       "category": "women_social_justice",
@@ -50716,7 +50570,7 @@
     },
     {
       "id": "1d1782ad81aa54afcd",
-      "checked_at": "2026-10-28T23:14:07.237853+00:00",
+      "checked_at": "2026-10-29T02:27:35.223018+00:00",
       "promise_id": "BJP-2019-63e2ccda189fa85e2c",
       "year": 2019,
       "category": "health_welfare",
@@ -55796,7 +55650,7 @@
     },
     {
       "id": "21c782a6ad2ecb8987",
-      "checked_at": "2026-10-28T23:13:57.209290+00:00",
+      "checked_at": "2026-10-29T02:27:25.058586+00:00",
       "promise_id": "BJP-2019-2cfa1375f165d41707",
       "year": 2019,
       "category": "other",
@@ -57176,7 +57030,7 @@
     },
     {
       "id": "09db92a7679f9e887b",
-      "checked_at": "2026-10-28T23:14:02.122936+00:00",
+      "checked_at": "2026-10-29T02:27:30.297050+00:00",
       "promise_id": "BJP-2019-4fc8289de8caed52ff",
       "year": 2019,
       "category": "other",
@@ -61195,7 +61049,7 @@
     },
     {
       "id": "f58fc0e58de1af0704",
-      "checked_at": "2026-10-23T22:09:09.545994+00:00",
+      "checked_at": "2026-10-29T02:28:01.090915+00:00",
       "promise_id": "BJP-2014-6afe2a97846db24775",
       "year": 2014,
       "category": "other",
@@ -61240,13 +61094,35 @@
           ]
         },
         {
-          "id": "6603294fd37ee5d111",
+          "id": "ceca53b8fde558c699",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Urban Acres",
+          "source_url": "https://urbanacres.in",
+          "title": "Indian Railways Catering Staff Face a System Built to Fail - Urban Acres",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQ2NHMVl1RWpWUUU2eHVpZExPdlgzMjg1djRweVhzVDhhaGVnVXUyMEhZekFsUWhycElPejNNUk9SM2pIcXVaRnZIM3ZBbkpOQzVuVXpnOEp6ZnRaalpYcTJDcHl5TVp1a0RiT21GS2RJbG4wYlRrNnlnY1FOMWNQaHdiZGZGQnA5?oc=5",
+          "published_at": "2026-10-28T22:46:09+00:00",
+          "snippet": "Indian Railways Catering Staff Face a System Built to Fail Urban Acres",
+          "lexical_overlap": 0.154,
+          "relevance": 0.224,
+          "matched_terms": [
+            "built",
+            "system"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "built",
+            "system"
+          ]
+        },
+        {
+          "id": "11b38535f70c7ddebf",
           "scope": "news_search",
           "tier": "secondary",
           "source": "Fibre2Fashion",
           "source_url": "https://www.fibre2fashion.com",
           "title": "From Visibility to Accountability: Supply Chain Due Diligence in the Global Textile Industry - Fibre2Fashion",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPcDY5TWREOENGdl9lekZhaVZyZHlVZUsweVl6SXhtZ0toVDdFcmJxRzFmcnJ4UDBwLU1GQndTOWdEM05BT3lxQnVBeDFQdTkyeV9odHI5TzlxMGtlSGJxS1didEVYNU0weE5LdnlOd2hfbTd0ZGlsd0JUOTA0aVQ0UGtyZXpZVFAyamNycmoycjZiVmFpd3pUaTYtVk9Ta2xqMEtVRVMyTmlpNlI3YUh2TDFHVFBTaHFmMFJYaXMzNktWUGNtZExwMHgwZ1N2RkhONU5FT2h3eUp5MEdU0gHoAUFVX3lxTE5YNWxTb1pZZi1Odk1zaU90TlFWcmFCb04xUnRjV3ZhZ3diU1YzQXV1b2VBTjlTYzczZnNaU0UxSXNjTlgxMjVBakkta2ZGdTRXUmNwcExlNExGRDNPZEZFZGJEY19Vd2dJMmZaSUpUbkVkU1ExOEkySFNySXZVN0EzTWJoY0YtMjZ1bzdaaVZUdUVKNmpZTzJwYk1pZjAyU0FiRThQeDgyd2tIOUNZNkk5U1FObGhCbmRuT09zLTlqYnVwVjgxY3dCb1hLeHhDTDN3LTFrZXpKd2o0YWxlS0xBcTdCdHVNZzk?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPcDY5TWREOENGdl9lekZhaVZyZHlVZUsweVl6SXhtZ0toVDdFcmJxRzFmcnJ4UDBwLU1GQndTOWdEM05BT3lxQnVBeDFQdTkyeV9odHI5TzlxMGtlSGJxS1didEVYNU0weE5LdnlOd2hfbTd0ZGlsd0JUOTA0aVQ0UGtyZXpZVFAyamNycmoycjZiVmFpd3pUaTYtVk9Ta2xqMEtVRVMyTmlpNlI3YUh2TDFHVFBTaHFmMFJYaXMzNktWUGNtZExwMHgwZ1N2RkhONU5FT2h3eUp5MEdU?oc=5",
           "published_at": "2026-07-07T11:36:35+00:00",
           "snippet": "From Visibility to Accountability: Supply Chain Due Diligence in the Global Textile Industry Fibre2Fashion",
           "lexical_overlap": 0.143,
@@ -61982,7 +61858,7 @@
     },
     {
       "id": "13f175694bb3bd8826",
-      "checked_at": "2026-10-23T21:43:39.139838+00:00",
+      "checked_at": "2026-10-29T02:27:46.051750+00:00",
       "promise_id": "BJP-2014-3ea89cdcfb116ffe51",
       "year": 2014,
       "category": "governance",
@@ -62047,76 +61923,9 @@
           "promise_core_overlap": [
             "panchayati"
           ]
-        },
-        {
-          "id": "d0d7e3e2f4a1b5d939",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Drishti IAS",
-          "source_url": "https://www.drishtiias.com",
-          "title": "Strengthening Panchayati Raj Institutions in India - Drishti IAS",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVFRYdnV5N3VDWXNCRmR2LThaQkFXS0xqVjI4ZEw0WlFlYWdvdDl5VWZ5OXQ5Nlp5SlFLSTNmUlFIMGZqc3FaWGYzc21BcHRSN2Z3VnVzWTZlTU5nSnFfWGhlcXRrY2RNNklPdUtJSFI3Q1pyUlBpc0EtTy1mM2VQX1Mxc0NFUGZ6bkRrNUpmVFI4TUFJZUF0dFk2aWwzenhxNjV3dmRkdVRCcTB5U213cVZRMA?oc=5",
-          "published_at": "2025-11-05T08:00:00+00:00",
-          "snippet": "Strengthening Panchayati Raj Institutions in India Drishti IAS",
-          "lexical_overlap": 0.2,
-          "relevance": 0.305,
-          "matched_terms": [
-            "institutions",
-            "panchayati",
-            "raj"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "institutions",
-            "panchayati"
-          ]
-        },
-        {
-          "id": "b5ae66a8e5742bb743",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "ClearIAS",
-          "source_url": "https://www.clearias.com",
-          "title": "Devolution of powers and finances up to local levels - ClearIAS",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5PRTRCZ3QwMXJ0MmRVZTZ5ZW44bTBhdDUxeldxc1hkSm51ZkVXd05raUs0ZGtNWkF0TlptVWdUTnNVOFNTbWJQV3VGWTRKaEhvSWNGRm9TcUhyZw?oc=5",
-          "published_at": "2024-04-03T07:00:00+00:00",
-          "snippet": "Devolution of powers and finances up to local levels ClearIAS",
-          "lexical_overlap": 0.118,
-          "relevance": 0.188,
-          "matched_terms": [
-            "devolution",
-            "local"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "devolution",
-            "local"
-          ]
-        },
-        {
-          "id": "b8b3fff225eb10b3ac",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Brookings",
-          "source_url": "https://www.brookings.edu",
-          "title": "To enhance community services and empower workers, local governments are building their own gig work platforms - Brookings",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOZUFHcGlDaHNGWW9Sc2YtazZoYWNLRXlaSTgxOGxhZXpxeHJUX01KTFpJRlJxQThCUDhFQkhfQXF3T2NtUW1hejJ4VnczS3BpcWZvaTE2bnRGVFVybnJFRGFqOC1ad2hTOFZfT0dIQm5XeDFqTWZBTDczNDRremt0c011VEZQNDdPYU4yaXAxeEQ5bDZfdzJiZlZDUUxRTTRwSGdsLU1KZ0ViaExaNjJEc3UxWDYwdDVwZTNlV2UtSndJM1ZKN25sWlg5cWY1cUR1TGxlMFVqaWZFZVdvWkE?oc=5",
-          "published_at": "2023-05-09T07:00:00+00:00",
-          "snippet": "To enhance community services and empower workers, local governments are building their own gig work platforms Brookings",
-          "lexical_overlap": 0.087,
-          "relevance": 0.157,
-          "matched_terms": [
-            "empower",
-            "local"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "empower",
-            "local"
-          ]
         }
       ],
-      "implementation_signal": "current_reporting_found",
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -62131,7 +61940,7 @@
     },
     {
       "id": "a397879a60d8c34188",
-      "checked_at": "2026-10-23T21:43:50.253038+00:00",
+      "checked_at": "2026-10-29T02:27:56.296675+00:00",
       "promise_id": "BJP-2014-55047310c67a878a73",
       "year": 2014,
       "category": "governance",
@@ -62749,7 +62558,7 @@
     },
     {
       "id": "df076e7dea8ba67624",
-      "checked_at": "2026-10-28T23:14:11.623148+00:00",
+      "checked_at": "2026-10-29T02:27:40.722585+00:00",
       "promise_id": "BJP-2014-078252941779345656",
       "year": 2014,
       "category": "women_social_justice",
@@ -63071,7 +62880,7 @@
     },
     {
       "id": "df053b9595bad6e85e",
-      "checked_at": "2026-10-23T21:43:36.550710+00:00",
+      "checked_at": "2026-10-29T02:27:43.312420+00:00",
       "promise_id": "BJP-2014-33a08a5da1db206c21",
       "year": 2014,
       "category": "governance",
@@ -63095,6 +62904,28 @@
       "related_promises": [],
       "query": "apart reducing election expenses both political",
       "evidence": [
+        {
+          "id": "306bc44ddb3bc06884",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "Department of Legal Affairs",
+          "source_url": "https://www.legalaffairs.gov.in",
+          "title": "REVIEW OF THE WORKING OF POLITICAL PARTIES SPECIALLY IN RELATION TO ELECTIONS AND REFORM OPTIONS - Department of Legal Affairs",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPeU1DQzJCSXBYMU56RjhMSXF2QWtFZ0laUDNxRG9LMmhjTkZsdklxQ1VYWW1hVnZ6MndFaUt1aTc0bjNTZmQ4SFlhNHdlelZJcXM0eFdPUWpzaEg2emJ4SGFTQ3V5TnBPZ0ItUTFNVjd6YV9TbVdlM1VRYkpXT2xsZGdKV1d2S0o0OEJleUx1bVdOc29aWVE?oc=5",
+          "published_at": "2001-01-08T08:00:00+00:00",
+          "snippet": "REVIEW OF THE WORKING OF POLITICAL PARTIES SPECIALLY IN RELATION TO ELECTIONS AND REFORM OPTIONS Department of Legal Affairs",
+          "lexical_overlap": 0.091,
+          "relevance": 0.211,
+          "matched_terms": [
+            "parties",
+            "political"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "parties",
+            "political"
+          ]
+        },
         {
           "id": "9ccf575a0b19b9d973",
           "scope": "news_search",
@@ -63138,6 +62969,28 @@
             "both",
             "parties"
           ]
+        },
+        {
+          "id": "f8662bbb748dfd261e",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "American Psychological Association (APA)",
+          "source_url": "https://www.apa.org",
+          "title": "The impact of election stress: Is political anxiety harming your health? - American Psychological Association (APA)",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4ySmpnMmlLcG9qbDRmT0NCb3J1NXdZTlU1ZWhQbHdvZW82WWRaeThtMWFJY2oxZ1VRNHRxZkUzdVhxLWRSX3FYc3pfQlZvS3FhNnEyakJmYnFrOHp0TE5qaC1rODJybVFCWlVEQ09n?oc=5",
+          "published_at": "2024-07-23T07:00:00+00:00",
+          "snippet": "The impact of election stress: Is political anxiety harming your health? American Psychological Association (APA)",
+          "lexical_overlap": 0.091,
+          "relevance": 0.161,
+          "matched_terms": [
+            "election",
+            "political"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "election",
+            "political"
+          ]
         }
       ],
       "implementation_signal": "needs_research",
@@ -63155,7 +63008,7 @@
     },
     {
       "id": "82807a374ecc7d451b",
-      "checked_at": "2026-10-23T21:43:38.079391+00:00",
+      "checked_at": "2026-10-29T02:27:45.078700+00:00",
       "promise_id": "BJP-2014-33bb74a972956a068d",
       "year": 2014,
       "category": "other",
@@ -63232,7 +63085,7 @@
     },
     {
       "id": "f3692a36af7164fc21",
-      "checked_at": "2026-10-23T21:43:43.901335+00:00",
+      "checked_at": "2026-10-29T02:27:49.904280+00:00",
       "promise_id": "BJP-2014-4edd62da2296e72e53",
       "year": 2014,
       "category": "governance",
@@ -63695,7 +63548,7 @@
     },
     {
       "id": "e142a8d7c1cfb7afde",
-      "checked_at": "2026-10-23T21:43:42.340761+00:00",
+      "checked_at": "2026-10-29T02:27:48.365207+00:00",
       "promise_id": "BJP-2014-4e0c0b8e5a9a153e39",
       "year": 2014,
       "category": "women_social_justice",
@@ -63719,6 +63572,30 @@
       "related_promises": [],
       "query": "funds allocated schemes programmes obcs other",
       "evidence": [
+        {
+          "id": "2a6a92c999f0c26509",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Details of Central Funds for Other Backward Castes (OBCs) - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5OdE82R3llVjFfR3IwMy1RQm90SmFzeUEwLXJCT0FDYzE3Yi0yS0RfUUhUUkFObzJUbHlLNEtJb1F5SzNZanVvV3FrQ1dOcjlodzRNbnZibTBMbVhzVnIxUHF5Ti1SejBLZkJlX3l3?oc=5",
+          "published_at": "2015-03-19T07:00:00+00:00",
+          "snippet": "Details of Central Funds for Other Backward Castes (OBCs) Press Information Bureau",
+          "lexical_overlap": 0.158,
+          "relevance": 0.313,
+          "matched_terms": [
+            "funds",
+            "obcs",
+            "other"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "funds",
+            "obcs",
+            "other"
+          ]
+        },
         {
           "id": "ed715aba9c260f41f7",
           "scope": "preferred_official_search",
@@ -63843,7 +63720,7 @@
     },
     {
       "id": "32fb3948da10204b41",
-      "checked_at": "2026-10-23T22:09:14.115240+00:00",
+      "checked_at": "2026-10-29T02:28:05.435608+00:00",
       "promise_id": "BJP-2014-7a930c350638d35040",
       "year": 2014,
       "category": "other",
@@ -63991,6 +63868,28 @@
           "snippet": "Why is manual scavenging still happening in India? A caste-based crisis ignored India Water Portal",
           "lexical_overlap": 0.167,
           "relevance": 0.237,
+          "matched_terms": [
+            "manual",
+            "scavenging"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "manual",
+            "scavenging"
+          ]
+        },
+        {
+          "id": "37443aeaf237fc434e",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The News Minute",
+          "source_url": "https://www.thenewsminute.com",
+          "title": "TN saw five manual scavenging deaths in 18 days. All deterrents only on paper? - The News Minute",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMlVlVDN2M2ZYdkFKZFp3MW5RUUJ5MTVfUFFNNWlmYU1vcmhpeFVwVGFnUnhuZGJZLWlzMUhjckFYWEU5NGNyS2RJRE1pdlVLNkY1LVNsRXAwQlE4SXRCV0s4dDZoZ3hkUXJzRy1CUnFESUZVb09KdDE4M2VCR2tTVmZMeDJHSUl4bU1ZU1ItVGluV1VOcERTU0dkd3EwZ3BPakNBSDVCeGhXWTdqYmFqd0d2bmp3bUswWEHSAccBQVVfeXFMTU9oVDViU2tLODA3Z3lXVFlDNUZGZF9HS0dGUkZ5MkFyZUQ4blRfbHlmVDkwN24wZjBPYnA1eVZ6YzBUdUFEaFlEQ2tsUXRXR0h3UFdZQ0NzLS1mNEpfVGt0a2FwTmUwM3BHLUxVOXZGSW5TcWxKSmxYTmlsUjRNSWNvV2VJd0M4emd3YUFDdUEwZldqOGo2a3l2Um44RExOZFRPV2NUalc2UDFEbFpwaEY1bGFXMVhDbFBtb05yVHU0eHJNTWEzVQ?oc=5",
+          "published_at": "2023-05-23T07:00:00+00:00",
+          "snippet": "TN saw five manual scavenging deaths in 18 days. All deterrents only on paper? The News Minute",
+          "lexical_overlap": 0.143,
+          "relevance": 0.213,
           "matched_terms": [
             "manual",
             "scavenging"
@@ -65111,7 +65010,7 @@
     },
     {
       "id": "bcfa34986c3f0e554e",
-      "checked_at": "2026-10-23T21:43:45.673575+00:00",
+      "checked_at": "2026-10-29T02:27:51.873667+00:00",
       "promise_id": "BJP-2014-5243ed74f8075a10d2",
       "year": 2014,
       "category": "infrastructure",
@@ -65150,7 +65049,7 @@
     },
     {
       "id": "e0c479acc3fad2cc3e",
-      "checked_at": "2026-10-23T21:43:53.202854+00:00",
+      "checked_at": "2026-10-29T02:27:59.364504+00:00",
       "promise_id": "BJP-2014-64bce111061fada356",
       "year": 2014,
       "category": "women_social_justice",
@@ -65443,7 +65342,7 @@
     },
     {
       "id": "bd427b46c0e15d4653",
-      "checked_at": "2026-10-23T22:09:11.530319+00:00",
+      "checked_at": "2026-10-29T02:28:03.156041+00:00",
       "promise_id": "BJP-2014-6e96b6ae2db106ed95",
       "year": 2014,
       "category": "other",
@@ -65475,39 +65374,15 @@
       "query": "launch programme youth development",
       "evidence": [
         {
-          "id": "5429a93dfffdbfe770",
+          "id": "2f0b1242175307c38b",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Herald.co.zw",
-          "source_url": "https://www.heraldonline.co.zw",
-          "title": "Government, WFP launch youth leadership programme to boost empowerment and skills development - Herald.co.zw",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRjFPczROV0MxYkJwSmVpUGRELTRVcnE4SXZqNGR0OXJxeGJoS3FHZTQ5UGFHOWVORDFIV29hWDdNU1haMXlMQkFXX0lTV2Fvc05vZk5MWEFPaFlWY0lLMDl0aldxRWhCdVNrSXB3NEo0S29GcnY5YnVfYUhOODdnLUhZUFpuTEJ0S2ZNWnc1bEVLc0c3N2lRMHpqbUk3R1Nabzh1MGNXUXNMbm1vSGgtdWhqTVZOX09TZGU0VVNqMkU0UQ?oc=5",
-          "published_at": "2026-06-17T07:00:00+00:00",
-          "snippet": "Government, WFP launch youth leadership programme to boost empowerment and skills development Herald.co.zw",
-          "lexical_overlap": 0.333,
-          "relevance": 0.473,
-          "matched_terms": [
-            "development",
-            "launch",
-            "programme",
-            "youth"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "development",
-            "youth"
-          ]
-        },
-        {
-          "id": "ce50c0c0f2efdfa5fc",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "3News",
-          "source_url": "https://3news.com",
-          "title": "Ashanti Region launches Taekwondo awareness programme to promote youth development - 3News",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbkNkczBOd0ttSmpDemllNERwYVZIT1Jtd3NLN2ZRVjVxT1FiYTJSOU51RUQ2emJfeVNEc1N1ZlF1X2dHS0NJRmJyMGlGTml2c3lEdFZZdGtTNDBYNTY2WVZqUUpYYkM3b2lRa1JLWC1URmdEV2oxRzhicVhRN1AyV3BGVDVTV0VHaWE3cnhMdzZSeEswTFI2Z1lFY3RPTmVEZElwRE5vdFJMdWc?oc=5",
-          "published_at": "2026-09-26T07:00:00+00:00",
-          "snippet": "Ashanti Region launches Taekwondo awareness programme to promote youth development 3News",
+          "source": "APAC Media",
+          "source_url": "https://apacnewsnetwork.com",
+          "title": "NTPC Unchahar Launches Skill Development Programme for Rural Youth - APAC Media",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObWdTM0FuRlVpUEVJMVhnckxQTzFZMkhhWTE1OFZRUnJHc0RjMVZHckh6c01rRXN0ZWhUeFZrWU80Y2Q2eVlaZk5IaEhFQkdsMElxbHB4X09LcHJranZBRUoxY3VNaGVMVzZGQmZzWENnX2h1b0ZxcE51ZGQwOGVBNnpLWDJkLVh0Mk94X01jOFZSX0szWGdnN0JIOGlFeEhPeW9LUVVR?oc=5",
+          "published_at": "2026-08-03T07:00:00+00:00",
+          "snippet": "NTPC Unchahar Launches Skill Development Programme for Rural Youth APAC Media",
           "lexical_overlap": 0.273,
           "relevance": 0.378,
           "matched_terms": [
@@ -65545,17 +65420,17 @@
           ]
         },
         {
-          "id": "d349b2b6575df3a216",
+          "id": "b46c38ebc8752778a4",
           "scope": "news_search",
           "tier": "secondary",
           "source": "United Nations Development Programme",
           "source_url": "https://www.undp.org",
-          "title": "H.E. President Ruto Launches the Government-UNDP–KEPSA NextGen.Ke Youth Employment Programme - United Nations Development Programme",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbU1FQkFTMWxMeDZtV0VzMnk1cktpeGdJZTZfdWNhcFF4Nzh1UE5FR1BjZGJWYnlJanZhY2RYVEVqSUhJZjBPTnIwMjNpTVlta1I1WkZjdk1TZHJiS3FVdzBpeVJLZ0xLaXQ1MnpFbTlQOFNHMFhSNDNiQzhBVXJ0LU55SGNHUXpKd1dMR0lDZEFOdkkzN0JsZ01EYjMyRkFsU0F4LXpOZktXRmszTjRzYkE5WWdjUDZuX2VFd2pJUVFJTEpvd1E?oc=5",
-          "published_at": "2026-07-29T07:00:00+00:00",
-          "snippet": "H.E. President Ruto Launches the Government-UNDP–KEPSA NextGen.Ke Youth Employment Programme United Nations Development Programme",
-          "lexical_overlap": 0.214,
-          "relevance": 0.319,
+          "title": "UNDP Launches a Monthly Programme “Youth Talk” to Connect Young Voices - United Nations Development Programme",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQU0dKZElaLVV3V0dCdWpvRVVvazQtY2RoQzhHLThZY1FjNWJkdzJjX0dpLVVxTTVQd1hZQU5LZXota1hjYzdBMWhMaDVUVVR3TGFYWmxxLWl0TFRqLVdSWHFOWkxEcTVqTUxET3VoYU1oTHFlYkFhd1FrdF9wdl9iNGNoT2t3RHpWTVZuS1g0N2QwYkV5MXNDVGRFcDhXNlZUSHZPaFJR?oc=5",
+          "published_at": "2026-08-12T07:00:00+00:00",
+          "snippet": "UNDP Launches a Monthly Programme “Youth Talk” to Connect Young Voices United Nations Development Programme",
+          "lexical_overlap": 0.231,
+          "relevance": 0.336,
           "matched_terms": [
             "development",
             "programme",
@@ -65568,45 +65443,44 @@
           ]
         },
         {
-          "id": "d033888af0141cf48f",
+          "id": "1cca451a59a9a8164c",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Northamptonshire Telegraph",
-          "source_url": "https://www.northantstelegraph.co.uk",
-          "title": "Kettering Founder Launches Youth Programme - Northamptonshire Telegraph",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOM3FDLWpObEg5RWNnWmRMV01zQW5CampBRzNZb1JHX3JDMS1UeEp2bVFPNk5fT3BobTlGQldNZjQyZWhhNFUwRGFZcDUyQ0NFWGY5ZkhKNmlwNC1BcENRdG1uTHE4c3J6ejBsVklVbV9QZURwcGQ1czc3aHVCMmN1RWsxbEptcEVrRVVPWHBGOHZnVS0zYldZUjJvbm1wODQ?oc=5",
-          "published_at": "2026-10-06T15:06:00+00:00",
-          "snippet": "Kettering Founder Launches Youth Programme Northamptonshire Telegraph",
+          "source": "United Nations Development Programme",
+          "source_url": "https://www.undp.org",
+          "title": "Eswatini Launches YouthConnekt - United Nations Development Programme",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9COEdCYWZxUWRvY2ROZ2VrMnl1SlZXdlV4N2liVDl1Z2hPRUdHUUFTVW1XUGlMQVpkQzRNQ3dfb0tJVFdySksxNUUxd2UtZ3JwSVg5bDNkaHFabVBJaGxqUm11TkYza0EzamtkZTQ1OWxIdE0?oc=5",
+          "published_at": "2026-10-26T13:56:05+00:00",
+          "snippet": "Eswatini Launches YouthConnekt United Nations Development Programme",
           "lexical_overlap": 0.222,
           "relevance": 0.292,
           "matched_terms": [
-            "programme",
-            "youth"
+            "development",
+            "programme"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "youth"
+            "development"
           ]
         },
         {
-          "id": "81d90166045228b69f",
+          "id": "e5532e4e3775c8bf88",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "TVC News",
-          "source_url": "https://www.tvcnews.tv",
-          "title": "FG Launches National Youth Data Bank For Evidence-Based Development - - TVC News",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVncxOWJMSHUtM3AyWFJsN29HQVVCSmYxOENsVk1rdVEzb1J0ZVhadERQWnI2TEs4LTJ0T0xJWnVKenBnR2haT1RmZnlGOHNzWmFsV0U0WllyUFJMZzV3MF9uVjNYVHI2NXI2STU2RHFhWGVUWG16VjNLTUd6Uno1OVFoak5CWjROTmN5TEVISGROUmR3WlE?oc=5",
-          "published_at": "2026-09-29T07:00:00+00:00",
-          "snippet": "FG Launches National Youth Data Bank For Evidence-Based Development - TVC News",
-          "lexical_overlap": 0.167,
-          "relevance": 0.237,
+          "source": "fundsforNGOs - Grants and Resources for Sustainability",
+          "source_url": "https://www2.fundsforngos.org",
+          "title": "UNDP and IADE Launch Third Seed Funding Incubation Program for Timorese Youth Entrepreneurs - fundsforNGOs - Grants and Resources for Sustainability",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVHBhYUx4Z2VVTkJXUnVUdGJwQmhuQV9OVjJSXzBTTnFMTEJYN0laZkFwREttWmlnWmJxbjRqaGFDTlNoclRKTzN6ZHEwQml6dDlGNkxZazRYbnhTcFRTTHNJbkJseXl2bU4zeDlza29mZk1lT1hCby1oczdNNklWSjd1RFF3TkR5SDVudzFmWS1kQTk0b24zRms1T05oNFliNkVJQmlsaGJkVjVaWW5lN0xaUdIBuAFBVV95cUxQYUFJajRXT1hNY1B4VjZOTDU4cmc2eDRyV1lTNjFwSVJtMEZ0SFZpNTI5ZExlb1huVUQyTGxwaWdXcWhuc1BfQXI3TkJlTmxzM0xKNncwN0R3SmV4Z0RaZ0VrVFpYMnI2QkpxUW5rYnhYUHZyQ2VGTmZiQnhxWkE2LWhfZC1PU3owQ0dYWXUyUjNsbUVrVlRrdlZJQXpTUVJibmJybVhHX2xiRWI0NUxaSUI1TjZHUU5y?oc=5",
+          "published_at": "2026-09-23T07:00:00+00:00",
+          "snippet": "UNDP and IADE Launch Third Seed Funding Incubation Program for Timorese Youth Entrepreneurs fundsforNGOs - Grants and Resources for Sustainability",
+          "lexical_overlap": 0.118,
+          "relevance": 0.188,
           "matched_terms": [
-            "development",
+            "launch",
             "youth"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "development",
             "youth"
           ]
         }
@@ -66475,7 +66349,7 @@
     },
     {
       "id": "40086bd363cbef915e",
-      "checked_at": "2026-10-23T21:43:47.322424+00:00",
+      "checked_at": "2026-10-29T02:27:53.302543+00:00",
       "promise_id": "BJP-2014-529702c25e5214fcf6",
       "year": 2014,
       "category": "education_skills",
@@ -66649,7 +66523,7 @@
     },
     {
       "id": "82be108b5eff623671",
-      "checked_at": "2026-10-23T22:09:17.444568+00:00",
+      "checked_at": "2026-10-29T02:28:08.194880+00:00",
       "promise_id": "BJP-2014-84886843acec541fea",
       "year": 2014,
       "category": "jobs_economy",
@@ -67494,7 +67368,7 @@
     },
     {
       "id": "56d02b0fecb6984bd4",
-      "checked_at": "2026-10-23T21:43:48.607148+00:00",
+      "checked_at": "2026-10-29T02:27:54.561990+00:00",
       "promise_id": "BJP-2014-52ae491d8e13801703",
       "year": 2014,
       "category": "jobs_economy",
@@ -68308,7 +68182,7 @@
     },
     {
       "id": "05fef62acdbc1137b8",
-      "checked_at": "2026-10-23T22:09:13.202511+00:00",
+      "checked_at": "2026-10-29T02:28:04.566783+00:00",
       "promise_id": "BJP-2014-6fded38cd0be4d99df",
       "year": 2014,
       "category": "agriculture",
@@ -68395,7 +68269,7 @@
     },
     {
       "id": "705cc39b2f2423836c",
-      "checked_at": "2026-10-23T22:09:15.757758+00:00",
+      "checked_at": "2026-10-29T02:28:06.638629+00:00",
       "promise_id": "BJP-2014-7ce32720a96dc07476",
       "year": 2014,
       "category": "jobs_economy",
@@ -70007,7 +69881,7 @@
     },
     {
       "id": "3d8f3c0571e93b6b1c",
-      "checked_at": "2026-10-23T21:43:40.816940+00:00",
+      "checked_at": "2026-10-29T02:27:47.673259+00:00",
       "promise_id": "BJP-2014-43b46e0dcf90c84e69",
       "year": 2014,
       "category": "health_welfare",
@@ -71704,7 +71578,7 @@
     },
     {
       "id": "85febb2f4dcf7385f8",
-      "checked_at": "2026-10-23T21:43:34.942152+00:00",
+      "checked_at": "2026-10-29T02:27:41.902704+00:00",
       "promise_id": "BJP-2014-330d30cf38b1b654b2",
       "year": 2014,
       "category": "other",
@@ -71782,7 +71656,7 @@
     },
     {
       "id": "dcc8abd9f77703630b",
-      "checked_at": "2026-10-23T22:09:19.071143+00:00",
+      "checked_at": "2026-10-29T02:28:09.638349+00:00",
       "promise_id": "BJP-2014-85b87ae994425e2e65",
       "year": 2014,
       "category": "security_defence",
@@ -71818,6 +71692,28 @@
           "snippet": "PM’s Speech at the Conference of CMs on Internal Security Press Information Bureau",
           "lexical_overlap": 0.105,
           "relevance": 0.225,
+          "matched_terms": [
+            "internal",
+            "security"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "internal",
+            "security"
+          ]
+        },
+        {
+          "id": "1ec6081a0be07c3409",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "orfonline.org",
+          "source_url": "https://www.orfonline.org",
+          "title": "Building the resilience of India’s internal security apparatus - orfonline.org",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZXBKYmdKaVZ0X2VnZTQzZjcyLUxBNk4xaU1DZE1ZQjhKdXB1d0RWZHd2eFVjakQzMTZWXzk0dHhtSDBNYk4zSl9uV01BX1QtdUs4Y3FfS1BBOGxnVnR0eUpEZ2JCUy1aUDdkQjNkeTJOekVmQjlLeFFVSWdHYVZXdS1aX3RIRHZlZERKNjNVejZOaEJ4MG9tZDZkMHJwZw?oc=5",
+          "published_at": "2018-11-26T08:00:00+00:00",
+          "snippet": "Building the resilience of India’s internal security apparatus orfonline.org",
+          "lexical_overlap": 0.118,
+          "relevance": 0.188,
           "matched_terms": [
             "internal",
             "security"
@@ -72803,7 +72699,7 @@
     },
     {
       "id": "cfc9bb932164044007",
-      "checked_at": "2026-10-23T21:43:51.486728+00:00",
+      "checked_at": "2026-10-29T02:27:57.848353+00:00",
       "promise_id": "BJP-2014-61ac5895b299dbb0a7",
       "year": 2014,
       "category": "other",
