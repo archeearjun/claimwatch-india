@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T09:56:55.524822+00:00",
+  "generated_at": "2026-10-29T13:46:27.055444+00:00",
   "capabilities": {
     "official_evidence_search": true,
     "verified_primary_gate": true,
@@ -16,8 +16,8 @@
     "promise_checked_this_run": 30,
     "promise_total_candidates": 841,
     "promise_coverage_pct": 101.3,
-    "primary_candidates": 556,
-    "secondary_candidates": 1043,
+    "primary_candidates": 559,
+    "secondary_candidates": 1037,
     "prior_fact_checks": 0,
     "publishable_auto_verdicts": 0,
     "claim_verdicts": {
@@ -29,8 +29,8 @@
       "fulfilled_by_deadline": 0,
       "target_reached_evidence": 0,
       "proven_unfulfilled_by_deadline": 0,
-      "progress_documented": 11,
-      "deadline_passed_unresolved": 48,
+      "progress_documented": 12,
+      "deadline_passed_unresolved": 47,
       "deadline_not_reached": 13,
       "insufficient_evidence": 38,
       "not_machine_measurable": 742,
@@ -123,24 +123,6 @@
             "neutral": 0.9442,
             "contradiction": 0.0487
           }
-        },
-        {
-          "id": "69b949e6f234d1b887",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The South First",
-          "source_url": "https://thesouthfirst.com",
-          "title": "Telangana is all set to inaugurate 9 medical colleges — with basic infrastructure in place - The South First",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTzNTTjZMczc0TThucm03eUN5YnV0b28tTDA3el80NW8za1dxMWZ1ZldEZzBwcUVremdWLWxzNzVHV2tqcjl3YU1abmJST2FXY2h3cGRiZlJpVzVEUjUyUjlSTDFwc2x2Rk1DdVdtZlF5NHlDeTdpVkpxaG1fZDJWQS1pck9xak9NU09uWU5MbnVQVWVtcGs3U09OUHAxdTl4bU12YWV4ZEJ5VXJpa2hleWp3?oc=5",
-          "published_at": "2023-09-14T07:00:00+00:00",
-          "snippet": "Telangana is all set to inaugurate 9 medical colleges — with basic infrastructure in place The South First",
-          "lexical_overlap": 0.154,
-          "relevance": 0.224,
-          "matched_terms": [
-            "colleges",
-            "medical"
-          ],
-          "shared_numbers": []
         },
         {
           "id": "79a5de7000dc444ee7",
@@ -367,11 +349,31 @@
           ]
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "064d37d7767fab14bf",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Robinhood",
+          "source_url": "https://www.robinhood.com",
+          "title": "The Robinhood 24 Hour Market is Here - Robinhood",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUmVvR01YbFNVcVV6MVB0Tlo4VEFpQ0hXSXp5RGVJcWNLRVBWOVh1UmFKZFBEVWxoYkl5M2RvY05ZVEphM21nOVdtUlV3b1oyVm9WX3RtZmdPWU53bV9nR1o2RTFiU3JSRTgtMHM0MkZHTzZBY0xSS3U3X193ckNXWXh5cw?oc=5",
+          "published_at": "2023-05-10T07:00:00+00:00",
+          "snippet": "The Robinhood 24 Hour Market is Here Robinhood",
+          "lexical_overlap": 0.091,
+          "relevance": 0.236,
+          "matched_terms": [
+            "hour"
+          ],
+          "shared_numbers": [
+            "24"
+          ]
+        }
+      ],
       "fact_checks": [],
       "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
+        "level": "reporting_found",
+        "label": "Relevant reporting found; primary evidence still needed",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -404,11 +406,31 @@
         "2014"
       ],
       "promise_matches": [],
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "16024edfec0ea10a2d",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "BBC",
+          "source_url": "https://www.bbc.com",
+          "title": "Kevin Pietersen: Joe Root says England are 'very different' from 2014 - BBC",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1PZGU2QzhjTFllc1Q5TGNXMDh4ZU1ZZ21rRll1THpIcUFHdGNXSWdONnlqdThXRC1XWFZSY1BHTnBBczFKSjB4OHRFUE9YcDBpSU5nZ2NpVFpBSWFuZWxGUGJUVTg4Zw?oc=5",
+          "published_at": "2026-09-08T07:00:00+00:00",
+          "snippet": "Kevin Pietersen: Joe Root says England are 'very different' from 2014 BBC",
+          "lexical_overlap": 0.062,
+          "relevance": 0.208,
+          "matched_terms": [
+            "different"
+          ],
+          "shared_numbers": [
+            "2014"
+          ]
+        }
+      ],
       "fact_checks": [],
       "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
+        "level": "reporting_found",
+        "label": "Relevant reporting found; primary evidence still needed",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -470,26 +492,7 @@
       "query": "frameworks built nation recent along ecosystem",
       "numbers": [],
       "promise_matches": [],
-      "evidence": [
-        {
-          "id": "23915aaf989e67f10f",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "CSIS | Center for Strategic and International Studies",
-          "source_url": "https://www.csis.org",
-          "title": "Export Nation or Ecosystem Power: South Korea’s Choice in the AI Industrial Age - CSIS | Center for Strategic and International Studies",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZU5DblhJNmhFRG5vd0NrYXk2X3hEb1FlSk1rVnF4eFFiZGo1aWlTVmIyWGY5NUc2QUVpRWZIY054clppSU42eHdDWkZGUXVjcl9vb1Y1RWxTX3ppaDVCSGVNME9UOUpTTS16eE1HN0ZjejdHTS1tRlBkdlZiMEJmZG9JRVhVeFBIMENYT281YkJ5bkFEOHU2TlY1VzN4SEFBM0E?oc=5",
-          "published_at": "2026-07-07T07:00:00+00:00",
-          "snippet": "Export Nation or Ecosystem Power: South Korea’s Choice in the AI Industrial Age CSIS | Center for Strategic and International Studies",
-          "lexical_overlap": 0.08,
-          "relevance": 0.15,
-          "matched_terms": [
-            "ecosystem",
-            "nation"
-          ],
-          "shared_numbers": []
-        }
-      ],
+      "evidence": [],
       "fact_checks": [],
       "signal": {
         "level": "needs_research",
@@ -580,7 +583,7 @@
         "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
         "published_at": "2026-10-25T13:30:15+00:00"
       },
-      "query": "59 60 nirmala ji mentioned just now has",
+      "query": "60 59 nirmala ji mentioned just now has",
       "numbers": [
         "59",
         "60"
@@ -822,6 +825,31 @@
           "shared_numbers": []
         },
         {
+          "id": "f5e28276c90649ddd0",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "PM SVANidhi Scheme facilitates provision of collateral free working capital loan to street vendors to restart their businesses - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5tT2JVblU1S1pGdThwV2x6NlkybDFXQzA4ZTV2UVljVXVEdmZNMTU5VkFsLWNKeDZKdDMtMWpzYUlmUXJHUXZiRWhOeklVTGpLVEROWkRHcmRxVVFka0RqUVF3WlJlMGRkb2c?oc=5",
+          "published_at": "2022-03-31T07:00:00+00:00",
+          "snippet": "PM SVANidhi Scheme facilitates provision of collateral free working capital loan to street vendors to restart their businesses Press Information Bureau",
+          "lexical_overlap": 0.182,
+          "relevance": 0.372,
+          "matched_terms": [
+            "pm",
+            "street",
+            "svanidhi",
+            "vendors"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.002,
+            "neutral": 0.9856,
+            "contradiction": 0.0124
+          }
+        },
+        {
           "id": "25174439aa98ac4d28",
           "scope": "preferred_official_search",
           "tier": "primary",
@@ -1011,7 +1039,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T09:56:05.409391+00:00",
+      "latest_checked_at": "2026-10-29T13:45:42.019495+00:00",
       "latest_claim_packet_id": "d4aab404e9ccc6ccf7"
     },
     {
@@ -1278,7 +1306,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T09:56:05.409428+00:00",
+      "latest_checked_at": "2026-10-29T13:45:42.019523+00:00",
       "latest_claim_packet_id": "884558fa72add4403d"
     },
     {
@@ -1368,13 +1396,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "needs_research",
+      "evidence_state": "reporting_found",
       "human_reviewed": false,
       "created_at": "2026-10-27T07:50:11.258438+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T09:56:05.409379+00:00",
+      "latest_checked_at": "2026-10-29T13:45:42.019486+00:00",
       "latest_claim_packet_id": "60ae96f665f22ef03b"
     },
     {
@@ -1422,7 +1450,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T09:56:05.409279+00:00",
+      "latest_checked_at": "2026-10-29T13:45:42.019410+00:00",
       "latest_claim_packet_id": "b8d4ab680299139905"
     },
     {
@@ -1494,7 +1522,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T09:56:05.409416+00:00",
+      "latest_checked_at": "2026-10-29T13:45:42.019513+00:00",
       "latest_claim_packet_id": "dac6e2327ebe0bd17a"
     },
     {
@@ -1710,7 +1738,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T09:56:05.409442+00:00",
+      "latest_checked_at": "2026-10-29T13:45:42.019532+00:00",
       "latest_claim_packet_id": "050ea98dd7879a06cd"
     },
     {
@@ -1902,7 +1930,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T09:56:05.409341+00:00",
+      "latest_checked_at": "2026-10-29T13:45:42.019459+00:00",
       "latest_claim_packet_id": "29371b53212e779eff"
     },
     {
@@ -2046,7 +2074,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T09:56:05.409316+00:00",
+      "latest_checked_at": "2026-10-29T13:45:42.019442+00:00",
       "latest_claim_packet_id": "b35543711de7918ea9"
     },
     {
@@ -2118,7 +2146,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T09:56:05.409330+00:00",
+      "latest_checked_at": "2026-10-29T13:45:42.019451+00:00",
       "latest_claim_packet_id": "ddb711a027259cf305"
     },
     {
@@ -2310,7 +2338,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T09:56:05.409461+00:00",
+      "latest_checked_at": "2026-10-29T13:45:42.019545+00:00",
       "latest_claim_packet_id": "5bb402465b7ccab062"
     },
     {
@@ -2454,7 +2482,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T09:56:05.409403+00:00",
+      "latest_checked_at": "2026-10-29T13:45:42.019503+00:00",
       "latest_claim_packet_id": "f5f9e7bb05cfa3199f"
     },
     {
@@ -2598,7 +2626,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T09:56:05.409451+00:00",
+      "latest_checked_at": "2026-10-29T13:45:42.019539+00:00",
       "latest_claim_packet_id": "00739b48a203bf3deb"
     },
     {
@@ -2736,13 +2764,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "needs_research",
+      "evidence_state": "reporting_found",
       "human_reviewed": false,
       "created_at": "2026-10-27T07:50:11.256975+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T09:56:05.409368+00:00",
+      "latest_checked_at": "2026-10-29T13:45:42.019478+00:00",
       "latest_claim_packet_id": "1d53d6d12eb863d5b2"
     },
     {
@@ -2985,7 +3013,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T09:56:05.409356+00:00",
+      "latest_checked_at": "2026-10-29T13:45:42.019470+00:00",
       "latest_claim_packet_id": "318b27cf844c2ade6a"
     },
     {
@@ -39882,7 +39910,7 @@
     },
     {
       "id": "f19e1b490a861edac9",
-      "checked_at": "2026-10-27T20:06:20.536952+00:00",
+      "checked_at": "2026-10-29T13:46:22.945771+00:00",
       "promise_id": "BJP-2019-253a2cc725aa76f7ee",
       "year": 2019,
       "category": "governance",
@@ -40928,7 +40956,7 @@
     },
     {
       "id": "6aea403d082d672d8f",
-      "checked_at": "2026-10-20T21:56:10.584729+00:00",
+      "checked_at": "2026-10-29T13:46:12.169405+00:00",
       "promise_id": "BJP-2019-0f8b9a70b8e17fc406",
       "year": 2019,
       "category": "governance",
@@ -40953,91 +40981,25 @@
       "query": "police encourage expedited reforms states enable",
       "evidence": [
         {
-          "id": "8127be2c986bfc55e5",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "THISDAYLIVE",
-          "source_url": "https://www.thisdaylive.com",
-          "title": "Group Commends Tinubu, Urges Accelerated Action on State Police - THISDAYLIVE",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWFlaX1dhSXRzY1JFeVFYUTN1M3FTVWJVcUVpY21uZFhCLWp2VU9lOU9LdGsyOUEwc1ZYbkhzd1huanpab29WaHdZQWxGa3d4V1RHTDRVcEJ0NzhFVlZYOFJ3UmlSNkoyV1c0aUVCUjBtQnFDb3JobXg4bmt5Y3ZLdjdidkZUSzBqUTRRVjFiLTlnU3BZTkNOTFBFTU05bnBvMVl5Yw?oc=5",
-          "published_at": "2026-03-26T07:00:00+00:00",
-          "snippet": "Group Commends Tinubu, Urges Accelerated Action on State Police THISDAYLIVE",
-          "lexical_overlap": 0.105,
-          "relevance": 0.175,
+          "id": "82bf6ca05a196b0889",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Financial Incentives for undertaking mining reforms by States included in the Scheme for Special Assistance to States for Capital Investment FY 2026-27 - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1fVzJxZlFXOEtLZ0phZmNQbFVfVEFxR1hSeGNNcU5OSEcyZU1ZOHBRR1o3cE85ZlRIVUVnQkpoUl9qaXVGbjhkeGRwMnNoNEcyRlpXTGtabW1VSmlJVHB2UGZmSzdLcjNRY253WkxINmtVWkhqTGVEeHRiWmY?oc=5",
+          "published_at": "2026-04-24T07:00:00+00:00",
+          "snippet": "Financial Incentives for undertaking mining reforms by States included in the Scheme for Special Assistance to States for Capital Investment FY 2026-27 Press Information Bureau",
+          "lexical_overlap": 0.077,
+          "relevance": 0.197,
           "matched_terms": [
-            "police",
-            "state"
+            "reforms",
+            "states"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "police",
-            "state"
-          ]
-        },
-        {
-          "id": "cbf84412affe4e651d",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Premium Times Nigeria",
-          "source_url": "https://www.premiumtimesng.com",
-          "title": "Lawan, Gbajabiamila canvass reforms of correctional centres, police - Premium Times Nigeria",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNS3BLeS1KRHo3dzRPa1diZW5HWnN5bVhaeXlqY2VDd1pVY3lxdHZhSVpPc2ltOTFBeVltZUNGNWZtR1dnMHBaSmJYWXRkYkplOTc4YTZZTDZhYTFJWS1FSHJEbFFGNzl5WEJMOTMzb1RvdlFsa3BjdnBfRHlWVEdWd3kxdzE4Zlktc1hmVVpiV2FEZDB0b0pTckd0SWtXUG5RUm5leWsyelJ5RlpwazhVd2NmYXpJNk4welliUFFEdw?oc=5",
-          "published_at": "2021-04-21T07:00:00+00:00",
-          "snippet": "Lawan, Gbajabiamila canvass reforms of correctional centres, police Premium Times Nigeria",
-          "lexical_overlap": 0.1,
-          "relevance": 0.17,
-          "matched_terms": [
-            "police",
-            "reforms"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "police",
-            "reforms"
-          ]
-        },
-        {
-          "id": "f68a8f4b2171262e45",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Peoples Gazette Nigeria",
-          "source_url": "https://gazettengr.com",
-          "title": "Lagos assembly endorses Tinubu’s state police move - Peoples Gazette Nigeria",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE11SllPUW9obTl0UmluRFhKZ1ZuMUMzVjJPY29MTTR4QkliR1l3TzliMTN1eUlxbUJzNmhITHVXbENxNmE0ZFhRNVkzTDdWOHlQVnNteW05QUNZdjcwUW5tSVRUbmlwSThEcjVJZTNveW9TU3N4VElFNk0xTFRfZw?oc=5",
-          "published_at": "2026-07-09T07:00:00+00:00",
-          "snippet": "Lagos assembly endorses Tinubu’s state police move Peoples Gazette Nigeria",
-          "lexical_overlap": 0.1,
-          "relevance": 0.17,
-          "matched_terms": [
-            "police",
-            "state"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "police",
-            "state"
-          ]
-        },
-        {
-          "id": "d60acf6195364985f7",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Vanguard News",
-          "source_url": "https://www.vanguardngr.com",
-          "title": "Adams, Alao urge Tinubu, Senate to fast-track state police bill - Vanguard News",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOOUlrX0VWeUxyZkhQTTVWSF9Vc1RwZlUwcGtySGd5VWlkT1hCQkJEZmZqRWU3T0dpYXZsQnBZOGI2QnYzam5DOHYwSFEwel9GQXk3cmVYc0xXMG8tdDFSTmlsdy1nMGUzLVVveGFBSFdqSDhLVC1aMlFzT0RxUHRhWHViRUFuREh3RUtfbUNCWm5GTEtHeC1HSzVBVUo1R03SAaQBQVVfeXFMTTNZSDIyNmlndFRfb0ZhZXQzLUZiU3lTaEN6YjJaQUw2cGFjT1RPNU0ycnFpZW9JZExQNG5Mb3ZJZk8yNGZXeWFNQzJNa1pITkZRZ0g0VzFvSXRYcXdmZ0dmWWJ2Njh1Zm1uX1ExOU5KdTlHcGJnNnhpaHVVUEdqTDBlb3daQjNzNXEzWWNvYnZTZnRFYl9FYXlibVFhSUhZbmlYd1M?oc=5",
-          "published_at": "2026-06-17T07:00:00+00:00",
-          "snippet": "Adams, Alao urge Tinubu, Senate to fast-track state police bill Vanguard News",
-          "lexical_overlap": 0.095,
-          "relevance": 0.165,
-          "matched_terms": [
-            "police",
-            "state"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "police",
-            "state"
+            "reforms",
+            "states"
           ]
         },
         {
@@ -41052,28 +41014,6 @@
           "snippet": "Senate clears path for state police, retains federal oversight, guardrails The Guardian Nigeria News",
           "lexical_overlap": 0.091,
           "relevance": 0.161,
-          "matched_terms": [
-            "police",
-            "state"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "police",
-            "state"
-          ]
-        },
-        {
-          "id": "38df1da674cfcbbaa2",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Guardian Nigeria News",
-          "source_url": "https://guardian.ng",
-          "title": "Reps member hails passage of State Police Bill, urges Senate’s swift concurrence - The Guardian Nigeria News",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQmxyTUY0cGU0ak5qTG9Dbkcxc3BpN0lLS2d2dWFlWFBxSFd2azdnVEVUSXp2RVF0SnRXMDVQSXJCUUo1T05PSmxMR0hKR2RYOFpGVG53MVVuaUlreGI2dktLcy1JZDBrbEowbGZMTTNacGtlMU1rdGRPSkw2TnA1WEhMMEFhQUtfSk1kemdpdzJEYTd4Z0lBU3BtSGlpM2FEQmpnT0pHcw?oc=5",
-          "published_at": "2026-06-11T07:00:00+00:00",
-          "snippet": "Reps member hails passage of State Police Bill, urges Senate’s swift concurrence The Guardian Nigeria News",
-          "lexical_overlap": 0.083,
-          "relevance": 0.153,
           "matched_terms": [
             "police",
             "state"
@@ -41280,7 +41220,7 @@
     },
     {
       "id": "02adcc124387f3c1d0",
-      "checked_at": "2026-10-27T20:06:23.888251+00:00",
+      "checked_at": "2026-10-29T13:46:25.059032+00:00",
       "promise_id": "BJP-2019-282e738068a0aebcaf",
       "year": 2019,
       "category": "security_defence",
@@ -43346,7 +43286,7 @@
     },
     {
       "id": "05e0979e7f32ba2f72",
-      "checked_at": "2026-10-29T09:56:07.341745+00:00",
+      "checked_at": "2026-10-29T13:45:43.754499+00:00",
       "promise_id": "BJP-2019-18c0750d5ed71bc3d1",
       "year": 2019,
       "category": "agriculture",
@@ -43469,30 +43409,6 @@
           ]
         },
         {
-          "id": "531ed5a861c168b322",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Outlook India",
-          "source_url": "https://www.outlookindia.com",
-          "title": "Farmer Producer Organization Scheme A Path To Farmers’ Prosperity - Outlook India",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMVpLQmxEZW5udS1scVRES3BVcEduZnhJaEdLcU1HY2hKWndwZ0g1dWpIRl9PRHdPaVQ5c2RFaV9PTVZ6akw3NGpnYjNudkwxaEJuOG81VlFJdVZ1emkzbTN0NXFlMHpnRlhqZHlTcFhjd21Ba1cxQWtoOVBGVTBkUy05bjFqSkhKOEI0SFhHeG9YSjQwT3lfNVNwNWRKVjN2Wl9rSEgyQWlXY1BCbzVMQll2eUNGMkZm0gHGAUFVX3lxTE16WE9xMW1VUnQzRmR2VGd0OWFPX2Q1RFN4S3ZWd2duMXBOdExXeWlzSXByV05JNmE5WWEzZnFBb1hzOFduZ0R5OXhsZko1N1JhclpXNlpVQ21QZFR0THFTdkVCc1B3ZHBJRFFWMU8wTzlOMDNOTjcxQVVNOWFsT3A2RXc0NzdYX3dBaFBmV0hsSlhsc2YxdWlhMHE2SFM5RTc4TU9xRGhTeWtWUW1wV3IwZ1hiTkJtQU1ZN3RVcUlZeDFXMlM4Zw?oc=5",
-          "published_at": "2024-01-16T08:00:00+00:00",
-          "snippet": "Farmer Producer Organization Scheme A Path To Farmers’ Prosperity Outlook India",
-          "lexical_overlap": 0.176,
-          "relevance": 0.281,
-          "matched_terms": [
-            "farmer",
-            "farmers",
-            "producer"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "farmer",
-            "farmers",
-            "producer"
-          ]
-        },
-        {
           "id": "634c286094b85d4f4a",
           "scope": "news_search",
           "tier": "secondary",
@@ -43559,7 +43475,7 @@
           ]
         }
       ],
-      "implementation_signal": "current_primary_and_reporting_found",
+      "implementation_signal": "current_primary_evidence_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -44341,7 +44257,7 @@
     },
     {
       "id": "d3c9bbec44ad465d98",
-      "checked_at": "2026-10-20T21:56:03.551751+00:00",
+      "checked_at": "2026-10-29T13:46:05.891305+00:00",
       "promise_id": "BJP-2019-03d15b3af9df588858",
       "year": 2019,
       "category": "health_welfare",
@@ -44364,37 +44280,8 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
       "query": "bring fishermen ambit welfare programmes social",
-      "evidence": [
-        {
-          "id": "95e31f2bb54408413c",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Times of India",
-          "source_url": "https://timesofindia.indiatimes.com",
-          "title": "Social Security Board to bring commercial vehicle operators under welfare ambit - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPYi0zVWN3aUJ0Y285aUo2LXlMTHRuVGFXQXFfOEVIbm02QmNrajFUQnVnZXlFUnhGT0ZDMTRmUnVBUWl0QjZGb3BVUVBWZkRSMm5WdnFoZllBUkk0UTBUR0FKTXVuS2doeVNBdURMN2FQRENHUTJaakROMWFRczRFTzJIc3p2dkl0cFpQTVhpUFVKdXZlcndSZ1B4MzVsZnpMQmpjX1ozMmxkQVZwTDhHeVB4YUk4VnQwR0NPeWNZeGJTVnd0VjZKX05DVUwzRHlmdGR0WDUweEE0WkNIOWpCRFJ2VEZCRV9NOGfSAe8BQVVfeXFMUFI3bWxTX0pESzgxclVPN2dIRFUzaUM3ZDlNZXNNVVRMMFQzeFpKQ1dySWRIcl9VN2tCX3Jka2FRWkQzZFFKUXBVdEtjVWNqVVJ1cWhvOXpEdlVYdDQ5YUp6dGxEVWc1WTlnY3FsZWdfM0RCNGFpbjczdVozYmZidXdObGwwLTBsTnJYa0RneElPcXVSSkJycXRyVmFSbGcwM2htSEpwaUJ5Q0tZTmNXSDd0dnpsLU04WElfU09TN3BvWjNQUGpOanR6NXVHUEJrSzRYemNtaERxbE5keGJIdjFObnBQajRYdkthYjVCdmM?oc=5",
-          "published_at": "2026-04-27T07:00:00+00:00",
-          "snippet": "Social Security Board to bring commercial vehicle operators under welfare ambit The Times of India",
-          "lexical_overlap": 0.294,
-          "relevance": 0.469,
-          "matched_terms": [
-            "ambit",
-            "bring",
-            "security",
-            "social",
-            "welfare"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "ambit",
-            "bring",
-            "security",
-            "social",
-            "welfare"
-          ]
-        }
-      ],
-      "implementation_signal": "current_reporting_found",
+      "evidence": [],
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -44786,7 +44673,7 @@
     },
     {
       "id": "f5811520c1d5623f19",
-      "checked_at": "2026-10-29T09:56:09.201951+00:00",
+      "checked_at": "2026-10-29T13:45:45.543359+00:00",
       "promise_id": "BJP-2019-1d3e95fa9344e842f3",
       "year": 2019,
       "category": "infrastructure",
@@ -44907,7 +44794,7 @@
     },
     {
       "id": "92d6920a15fb42f812",
-      "checked_at": "2026-10-29T09:56:25.647322+00:00",
+      "checked_at": "2026-10-29T13:46:02.202132+00:00",
       "promise_id": "BJP-2019-6abf03adda773fec98",
       "year": 2019,
       "category": "governance",
@@ -45278,7 +45165,7 @@
     },
     {
       "id": "7f51ae159cad191abb",
-      "checked_at": "2026-10-20T21:56:13.447536+00:00",
+      "checked_at": "2026-10-29T13:46:14.844754+00:00",
       "promise_id": "BJP-2019-13a4a86da64f48071c",
       "year": 2019,
       "category": "governance",
@@ -46120,7 +46007,7 @@
     },
     {
       "id": "675769104f01398dbe",
-      "checked_at": "2026-10-20T21:56:16.419558+00:00",
+      "checked_at": "2026-10-29T13:46:18.403185+00:00",
       "promise_id": "BJP-2019-183199ef4b892c8e54",
       "year": 2019,
       "category": "other",
@@ -46181,7 +46068,7 @@
     },
     {
       "id": "37e4ab3975803e46be",
-      "checked_at": "2026-10-20T21:56:17.165685+00:00",
+      "checked_at": "2026-10-29T13:46:19.233261+00:00",
       "promise_id": "BJP-2019-1b0f88eb1723da919d",
       "year": 2019,
       "category": "jobs_economy",
@@ -46220,7 +46107,7 @@
     },
     {
       "id": "a0668ac8c1060d31b7",
-      "checked_at": "2026-10-27T20:06:17.128486+00:00",
+      "checked_at": "2026-10-29T13:46:19.902344+00:00",
       "promise_id": "BJP-2019-1b424568ca88b46af9",
       "year": 2019,
       "category": "other",
@@ -46259,7 +46146,7 @@
     },
     {
       "id": "b04bad435ad4019b39",
-      "checked_at": "2026-10-27T20:06:21.252264+00:00",
+      "checked_at": "2026-10-29T13:46:23.639469+00:00",
       "promise_id": "BJP-2019-2593f43e323dae56ae",
       "year": 2019,
       "category": "health_welfare",
@@ -47892,7 +47779,7 @@
     },
     {
       "id": "490d5ce988a8d6cc5f",
-      "checked_at": "2026-10-20T21:56:05.828564+00:00",
+      "checked_at": "2026-10-29T13:46:07.681995+00:00",
       "promise_id": "BJP-2019-06efa7edd4c8569780",
       "year": 2019,
       "category": "infrastructure",
@@ -48101,7 +47988,7 @@
     },
     {
       "id": "e03b559b2e478ecbfc",
-      "checked_at": "2026-10-20T21:56:14.635930+00:00",
+      "checked_at": "2026-10-29T13:46:16.817908+00:00",
       "promise_id": "BJP-2019-14816de03a0c4b331a",
       "year": 2019,
       "category": "infrastructure",
@@ -48125,32 +48012,6 @@
       "related_promises": [],
       "query": "bring technologies designs road construction operation",
       "evidence": [
-        {
-          "id": "7b48ebc0a93baa03c3",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "पीआईबी",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Road safety audit of all National Highways projects made mandatory at all stages of design, construction, operation & maintenance through third party auditors/experts - पीआईबी",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE15Z1dxMmRTeUREbTRvU3BGZ2NmRGJubTZFZ3plNjNiek8wS1RZeW9iUnJXVzZ4QW5uNmFjZE9wMzY2aUFLeExSa3lnSUExUEwxZnFxcVFaOVN4b2FrRWhmN0pHVUlwTzBa?oc=5",
-          "published_at": "2023-12-21T08:00:00+00:00",
-          "snippet": "Road safety audit of all National Highways projects made mandatory at all stages of design, construction, operation & maintenance through third party auditors/experts पीआईबी",
-          "lexical_overlap": 0.211,
-          "relevance": 0.401,
-          "matched_terms": [
-            "construction",
-            "maintenance",
-            "operation",
-            "road"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "construction",
-            "maintenance",
-            "operation",
-            "road"
-          ]
-        },
         {
           "id": "c3e557db61fc121d0b",
           "scope": "preferred_official_search",
@@ -48343,7 +48204,7 @@
     },
     {
       "id": "1e0abc9f94016f3c7a",
-      "checked_at": "2026-10-29T09:56:10.597121+00:00",
+      "checked_at": "2026-10-29T13:45:47.039415+00:00",
       "promise_id": "BJP-2019-2af396deaf778cac73",
       "year": 2019,
       "category": "infrastructure",
@@ -48428,7 +48289,7 @@
     },
     {
       "id": "4af70c5cc4e5dd31ea",
-      "checked_at": "2026-10-29T09:56:16.652345+00:00",
+      "checked_at": "2026-10-29T13:45:52.706028+00:00",
       "promise_id": "BJP-2019-34c03859f07f1329c5",
       "year": 2019,
       "category": "infrastructure",
@@ -48454,6 +48315,28 @@
       "related_promises": [],
       "query": "2022 road connectivity complete dedicated freight corridor",
       "evidence": [
+        {
+          "id": "2f7cb9a95e16631273",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Project for Chennai Port to Maduravoyal corridor in Tamil Nadu to be completed by December 2024 - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBNHhkQlBoSDU0NXo5T2IwMDZITWRENTF0eC0tNzBHRTI3bHpvT1NrNktkeF9NOTQzUnVIRFl2Vmx2WHFRSVlrbEJYUkZrVHIyOWFrQ1BIMmliWG1pQUJjZ2JxTkdHRkRMLVE?oc=5",
+          "published_at": "2025-06-12T19:01:02+00:00",
+          "snippet": "Project for Chennai Port to Maduravoyal corridor in Tamil Nadu to be completed by December 2024 Press Information Bureau",
+          "lexical_overlap": 0.118,
+          "relevance": 0.238,
+          "matched_terms": [
+            "corridor",
+            "project"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "corridor",
+            "project"
+          ]
+        },
         {
           "id": "ec1d0cc8a5a0c1eb96",
           "scope": "news_search",
@@ -48617,17 +48500,17 @@
           ]
         }
       ],
-      "implementation_signal": "current_reporting_found",
+      "implementation_signal": "action_detected",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
       "outcome": {
-        "status": "deadline_passed_unresolved",
+        "status": "progress_documented",
         "deadline_year": 2022,
-        "proof_strength": "none",
-        "proof_evidence_id": null,
+        "proof_strength": "verified_primary_action_with_object_overlap",
+        "proof_evidence_id": "2f7cb9a95e16631273",
         "proof": null,
-        "reason": "The extracted deadline (2022) has passed, but ClaimWatch does not have direct comparable post-deadline evidence proving fulfilment or non-fulfilment."
+        "reason": "Verified primary evidence overlaps the subject of the promise and documents implementation activity, but not the promised outcome."
       }
     },
     {
@@ -49424,7 +49307,7 @@
     },
     {
       "id": "5c56e5035a5cd9e4b4",
-      "checked_at": "2026-10-27T20:06:17.981497+00:00",
+      "checked_at": "2026-10-29T13:46:20.586044+00:00",
       "promise_id": "BJP-2019-1b5917690123e91614",
       "year": 2019,
       "category": "other",
@@ -49504,7 +49387,7 @@
     },
     {
       "id": "f89fbe33f372467c6f",
-      "checked_at": "2026-10-27T20:06:18.669452+00:00",
+      "checked_at": "2026-10-29T13:46:21.227647+00:00",
       "promise_id": "BJP-2019-2467e36c31b338bd14",
       "year": 2019,
       "category": "infrastructure",
@@ -49621,13 +49504,35 @@
           ]
         },
         {
-          "id": "bbb4c29a4c3e7e33c5",
+          "id": "fbbbae7a8681998a59",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Vietnam Briefing",
+          "source_url": "https://www.vietnam-briefing.com",
+          "title": "Vietnam's Inland Waterways: Key Routes, New Projects, and Opportunities - Vietnam Briefing",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOXFadzQ1S1ZBMGFSRm8xMGJYOFo4MXozdVRma2pONFJidExPWjNYeUhpUE4xOWl4MHFGZkJ0NGJ6dHhYVmJVTDBKZmdQU1JraEpHQl92anBmWnBiRGc0UjByc3ByVUtlUzlHMXNCMDdONkFfdDA3cE5FWS0xTFRIOGR6bm5kVFI3RTF6Y0x0eWQxZ2F4Q0pBWmlCQ1BYRW1DODlGOVBxQUVMRUFRS1FLVEVZazk?oc=5",
+          "published_at": "2025-06-06T07:00:00+00:00",
+          "snippet": "Vietnam's Inland Waterways: Key Routes, New Projects, and Opportunities Vietnam Briefing",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
+          "matched_terms": [
+            "inland",
+            "waterways"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "inland",
+            "waterways"
+          ]
+        },
+        {
+          "id": "ab18f98765ad7791b6",
           "scope": "news_search",
           "tier": "secondary",
           "source": "ET Infra",
-          "source_url": "https://infra.economictimes.indiatimes.com",
+          "source_url": "http://infra.economictimes.indiatimes.com",
           "title": "Budgeting for a sustainable transport system: Unprecedented thrust to inland waterways - ET Infra",
-          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOakVXZmtGUHZtMDNpbWREVS10WVJnd2Y5c09VeEFTVFZ4TWJ1S0Y0czZQWndUUXAyLWFtT0hxX0FCMHR4SGJGdE1seXVHNV95bDl0V1pCUzZULVNNenZHb3hqY0pXRUJzU05JTFZJOW5JUXg5SEU1ZzlNbTJTbklFbDh0YmVtazNDQk1lSkR2cmVmUUpvbEc0a0RWLXd5RGFyb2M5cE5QRUtodGE2RVBZZURSdjhUb3FVZEZGR1hTbGJvYnloVzVBU0g4YU11b2tnNkJsa25zRGlfeXROR040QVpnbUQ5bUV2RTRzR1NQbWJ1MTNYczNkWk85TjJGVnPSAYQCQVVfeXFMTmx4NWN0MFgtcU1fUC1EbjltYjBiRU5kcWMtR3F5Z0NRcDJTbTNTNHQwekRrT2YwcHQ1LUNUQmdzRmF6aU52azl4cEZhRm5Vc0NZdmFWWGc0aHE2N1YtUmdKUEVYZEZ6Zmd3alBNYU52c0JuYkFDeWJpcDZoelVEM0pBYk44S015d2FPYzhKYVJEVGQ4UEtfRWo5QnFXd0pUWTJnU3hRcVFRQjRhMmJhS2J4aEFoejBxZVdlMFpJcmptckU0M29KVmEyaWx3NUVkbDZ2SUpKZ3NxVjBSYTRmYWx2RUdzWFBjYjJsaEZ2d0QyNUdDNXoxY2IySnpRSTVFa1RQbFg?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNQjRvY2UyMFpIRlBhMldvOGlGcXR5clJLaXhYdENBcnQ1ekItQjE4OGRPUXc1SHJpSTZDcVRTVXJpamtMVEJhVW1PclJSNlNKYlNhdnNsekFOMVF5c1RpZHlZaVJ6aFg2MV9na3hfR0c4UFBnMGxWQ0x3TGZQeU4zT204TWV3REFaR3RGUkR5d0FEMzczWWVDZ3VhZExER2kwMVdHa3FnZ2pXbnF3MUl6Z2l5b3pGMGxxbTVRQWxKa0VwSnVUaGM2U1NHcWg1RnotMl9zd0o2eldQS1BKa1IwVHZFcXpQUWt1RUd1VVR5TFZQb2JHS3NoZlVtUGxWQdIBgwJBVV95cUxNQUN1d2dNV2MwT0hmcVN3cHZ6OXJzZ3JheVo1M0ZTRFdFTVhTa1pTVWxxTXhVQ3Fzb19ONEFQcS1lUy16VndvV19VbXByTG1EeE53aE1McG9Qa2ozazJRVUhZZ19CVnprUzBSem1uMUNuQ2E3bnRrdXZvdXdHZlVuanRBMVB6cDJHMlBFcFVBN09hRGdnQ3BBejN0NmsyTk4wd0oxVVlmRkhSYVUyMVEyaTUtM1BOUDdqNmpsUVkwV01fVlI4MUdldWJ3N21PSjlhTERKSHhjY2tDSXFIS1NJa0Q5RVBLRGVuQnkzbHZwamQ0ck5sSktKX0RLay0tbk9JTnVR?oc=5",
           "published_at": "2026-02-25T08:00:00+00:00",
           "snippet": "Budgeting for a sustainable transport system: Unprecedented thrust to inland waterways ET Infra",
           "lexical_overlap": 0.1,
@@ -49680,7 +49585,7 @@
     },
     {
       "id": "23ec967d08cd435ede",
-      "checked_at": "2026-10-27T20:06:25.550447+00:00",
+      "checked_at": "2026-10-29T13:46:26.741209+00:00",
       "promise_id": "BJP-2019-2b2326e33ac95b508b",
       "year": 2019,
       "category": "other",
@@ -50622,7 +50527,7 @@
     },
     {
       "id": "93bb9754ab7125c8f1",
-      "checked_at": "2026-10-29T09:56:21.238174+00:00",
+      "checked_at": "2026-10-29T13:45:57.496917+00:00",
       "promise_id": "BJP-2019-6013bbae5c9fbd8c5a",
       "year": 2019,
       "category": "women_social_justice",
@@ -50686,7 +50591,7 @@
     },
     {
       "id": "1d1782ad81aa54afcd",
-      "checked_at": "2026-10-29T09:56:23.497629+00:00",
+      "checked_at": "2026-10-29T13:45:59.668225+00:00",
       "promise_id": "BJP-2019-63e2ccda189fa85e2c",
       "year": 2019,
       "category": "health_welfare",
@@ -51560,7 +51465,7 @@
     },
     {
       "id": "a7b759d3e47ce2ff0c",
-      "checked_at": "2026-10-20T21:56:07.236613+00:00",
+      "checked_at": "2026-10-29T13:46:09.123612+00:00",
       "promise_id": "BJP-2019-076a0a2858076eff99",
       "year": 2019,
       "category": "other",
@@ -51615,17 +51520,17 @@
           ]
         },
         {
-          "id": "8489e64722be55e978",
+          "id": "98dc0bdf8adda2bf22",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Legal Service India",
-          "source_url": "https://www.legalserviceindia.com",
-          "title": "The Evolution of the UAE as a Global Arbitration Hub: Legislative, Jurisdictional, and Enforcement Developments - Legal Service India",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOODE0QVk4Z1Q3dzY1cE56MUtMTnUybXVUZy1jWDFWdHlOMTNXTzQxWkNWZC14bXR1Smx6OHloejMtVHo3RzJKT0ZUZU5rdjMtdWJ4YkZzN0VqdTZIOFdIeW50RGJWYlBwRlhUSkZIb1lKdXhCOFhjZE5USktOakpmNjlqUC1SV2VjWThZc0Fod1pibkVnSVZzMXRRR0VVeDk5WG9UX29VczU4WlRpOGdRWlV5VVlITko4OC03cElvQU8wT0VFcVJKcEJfZUZuSDA3ZUIxTU1USVJCRWlTb29HRDRuZEp3S21XX05MWTNLYw?oc=5",
-          "published_at": "2026-08-17T07:00:00+00:00",
-          "snippet": "The Evolution of the UAE as a Global Arbitration Hub: Legislative, Jurisdictional, and Enforcement Developments Legal Service India",
-          "lexical_overlap": 0.125,
-          "relevance": 0.195,
+          "source": "TheWire.in",
+          "source_url": "https://m.thewire.in",
+          "title": "How Realistic Is India’s Dream of Becoming a Global Arbitration Hub? - TheWire.in",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOenRaVXA3a3h3UnNwcnRpZ05LbFJYNkVpM2RtR3NtZ21RanpxSWxadjlLbjJ6LXJmSUhIcmZjdlhvX2xZTVZVY2lTSERzQklCM3hHaHBackRaVmN3RWVnbVI3SUlFZkFRMU9Pd2U0ZnAzc0daa0ZRS0x2ZWxEclo0bmdXTdIBkgFBVV95cUxPWTNmaDQ3V0ZuLVcxOG5PRGVkUW93YzRiX2xmTms1d1plalZCNnF5cHBEWXVkMTlQaXhfd1M3b1VITGtCbXZkOGdoMHBCZy1vMzJPTXJtQzJ0YktFQ0JtZDhHNzgxUmpaOXBhT2p5RUV3UEwtWXJERC1nMHdvb1dqc1VrS3BzT0kxbHJIWkpFalJNUQ?oc=5",
+          "published_at": "2018-04-29T07:00:00+00:00",
+          "snippet": "How Realistic Is India’s Dream of Becoming a Global Arbitration Hub? TheWire.in",
+          "lexical_overlap": 0.154,
+          "relevance": 0.224,
           "matched_terms": [
             "arbitration",
             "hub"
@@ -53032,7 +52937,7 @@
     },
     {
       "id": "ed231904ac58738907",
-      "checked_at": "2026-10-27T20:06:19.795765+00:00",
+      "checked_at": "2026-10-29T13:46:22.216985+00:00",
       "promise_id": "BJP-2019-24f93b2d2800e99dab",
       "year": 2019,
       "category": "culture_heritage",
@@ -54101,7 +54006,7 @@
     },
     {
       "id": "7bea1c9aa30f89d560",
-      "checked_at": "2026-10-20T21:56:11.514560+00:00",
+      "checked_at": "2026-10-29T13:46:13.195279+00:00",
       "promise_id": "BJP-2019-10122bac2895d9d8e9",
       "year": 2019,
       "category": "education_skills",
@@ -55766,7 +55671,7 @@
     },
     {
       "id": "21c782a6ad2ecb8987",
-      "checked_at": "2026-10-29T09:56:13.369366+00:00",
+      "checked_at": "2026-10-29T13:45:49.950585+00:00",
       "promise_id": "BJP-2019-2cfa1375f165d41707",
       "year": 2019,
       "category": "other",
@@ -57146,7 +57051,7 @@
     },
     {
       "id": "09db92a7679f9e887b",
-      "checked_at": "2026-10-29T09:56:18.654199+00:00",
+      "checked_at": "2026-10-29T13:45:54.865734+00:00",
       "promise_id": "BJP-2019-4fc8289de8caed52ff",
       "year": 2019,
       "category": "other",
@@ -58018,7 +57923,7 @@
     },
     {
       "id": "9d9d766bc3a740ed81",
-      "checked_at": "2026-10-27T20:06:24.642341+00:00",
+      "checked_at": "2026-10-29T13:46:25.861080+00:00",
       "promise_id": "BJP-2019-2af042dd84e9e5efcc",
       "year": 2019,
       "category": "health_welfare",
@@ -58944,7 +58849,7 @@
     },
     {
       "id": "2334f2cef4088efec2",
-      "checked_at": "2026-10-20T21:56:05.148474+00:00",
+      "checked_at": "2026-10-29T13:46:06.999654+00:00",
       "promise_id": "BJP-2019-06001e293d9fd7c2c8",
       "year": 2019,
       "category": "jobs_economy",
@@ -58967,8 +58872,33 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
       "query": "neighbourhood forward first policy extensively leverage",
-      "evidence": [],
-      "implementation_signal": "needs_research",
+      "evidence": [
+        {
+          "id": "59f0a7579ce679604f",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Drishti IAS",
+          "source_url": "https://www.drishtiias.com",
+          "title": "Relooking India’s Neighbourhood First Policy - Drishti IAS",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTzBpeW85UjRMQVA4dW5EUTFfb09XRUVhc1VUd2dBQkNlUTgzMHhMd0NKRkw5TjZKZF9SaEcyUWhIOS1VRk1PSmpvZGtyZlZjclJmYjhBM3g4RnpReW9jd2FfTEI0Ym0wNEJNVmdIaXVkLXVRQnJpblEzcTliRU9fcENGR0VBSjNLcmlXdXZmeEg2cFZGbUNtc001U1JUWDdBVTYxemtoTVNsejg?oc=5",
+          "published_at": "2024-03-20T07:00:00+00:00",
+          "snippet": "Relooking India’s Neighbourhood First Policy Drishti IAS",
+          "lexical_overlap": 0.2,
+          "relevance": 0.305,
+          "matched_terms": [
+            "first",
+            "neighbourhood",
+            "policy"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "first",
+            "neighbourhood",
+            "policy"
+          ]
+        }
+      ],
+      "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -58983,7 +58913,7 @@
     },
     {
       "id": "0329bd7f4d8a1ffb47",
-      "checked_at": "2026-10-20T21:56:09.000730+00:00",
+      "checked_at": "2026-10-29T13:46:10.668786+00:00",
       "promise_id": "BJP-2019-07f11700b842d1424b",
       "year": 2019,
       "category": "security_defence",
@@ -59008,51 +58938,31 @@
       "query": "global countries organizations coordination knowledge technology",
       "evidence": [
         {
-          "id": "cce37116dacdab5247",
+          "id": "1ca712f950bc7a4c04",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Frontiers",
-          "source_url": "https://www.frontiersin.org",
-          "title": "The evolution of the European space technology knowledge network - Frontiers",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOUc5Q0FVVE9sekV1WGlLeDNTWmVNR1Z5NmVnMGEwMnh3SDN6YndIOHJ6UUVjbWljdkZMSzh4aGhQWDJYQlNxdWtnRXQ2TTZQRFRfT1RPaU1UcTFDRjdtcnVjVVpCUVNIcnVZWi04b3NZSFJuNTVYR3VnZ1paMGJsWk9Tck5QRTJaWHN6a3BfYTVLTE1UZXBBdWx3?oc=5",
-          "published_at": "2026-08-13T15:53:13+00:00",
-          "snippet": "The evolution of the European space technology knowledge network Frontiers",
-          "lexical_overlap": 0.118,
-          "relevance": 0.188,
+          "source": "Nature",
+          "source_url": "https://www.nature.com",
+          "title": "Knowledge graph construction for “Blockchain & Tradable Green Certificate”: a dual-pathway analysis of international technology drive and domestic institution guidance - Nature",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rQXpZME5yMXBWUXJnbWx4Qml3OW9neThLdHpCUTg1WnRPVWRYRjJpdlV5ZExMX0h0T25ZTlZJMlY5THhYbUgtUC0yU1BHRUJqU1hoaWZOeUQ2clllSnJN?oc=5",
+          "published_at": "2026-05-20T07:00:00+00:00",
+          "snippet": "Knowledge graph construction for “Blockchain & Tradable Green Certificate”: a dual-pathway analysis of international technology drive and domestic institution guidance Nature",
+          "lexical_overlap": 0.12,
+          "relevance": 0.225,
           "matched_terms": [
+            "international",
             "knowledge",
             "technology"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
+            "international",
             "knowledge",
             "technology"
-          ]
-        },
-        {
-          "id": "76dcf7ef1d63a0597e",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "www.wam.ae",
-          "source_url": "https://www.wam.ae",
-          "title": "'Operation Confrontation Ghost' to continue with 30 countries, two international organisations: MOI - www.wam.ae",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVHZaNFNsSEI2Z05oM3hKNjl1emZtWTBYelE4emtCSTZSM1ZiQkMxaURsNmpUNi1Nd055Z095Rld3eTlianVteWQ0R0xYX1lzNW5vR1dNczk1VGZsNW1VbmlUNGV2LTdVb2dTU0RxSXBjQ1FyLXVJdkxPcFJkeFJzRWRBX2Fsb0dM?oc=5",
-          "published_at": "2026-09-29T07:00:00+00:00",
-          "snippet": "'Operation Confrontation Ghost' to continue with 30 countries, two international organisations: MOI www.wam.ae",
-          "lexical_overlap": 0.091,
-          "relevance": 0.161,
-          "matched_terms": [
-            "countries",
-            "international"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "countries",
-            "international"
           ]
         }
       ],
-      "implementation_signal": "needs_research",
+      "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -62674,7 +62584,7 @@
     },
     {
       "id": "df076e7dea8ba67624",
-      "checked_at": "2026-10-29T09:56:27.904640+00:00",
+      "checked_at": "2026-10-29T13:46:04.475410+00:00",
       "promise_id": "BJP-2014-078252941779345656",
       "year": 2014,
       "category": "women_social_justice",
@@ -62700,6 +62610,26 @@
       "related_promises": [],
       "query": "next five courts cases arbitration judiciary",
       "evidence": [
+        {
+          "id": "0c8da9e17d2ad05d95",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Settling of cases through Lok Adalat and Arbitration - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBydDk5YjZVVjM1ck4zS2FWQWw1Z3gwWnIwckxFcWtOZDhEU0xYMTEtT3gwMGFmVE1SdW82ck9BZ3Vvd2Rlakg3aFdKM1pkUklfZ3JFVzU3OWtITVVTX2FqZ0xVeVN6UjV5?oc=5",
+          "published_at": "2022-08-04T07:00:00+00:00",
+          "snippet": "Settling of cases through Lok Adalat and Arbitration Press Information Bureau",
+          "lexical_overlap": 0.176,
+          "relevance": 0.331,
+          "matched_terms": [
+            "arbitration",
+            "cases",
+            "lok"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": []
+        },
         {
           "id": "b1c00a883cde81cad8",
           "scope": "news_search",
