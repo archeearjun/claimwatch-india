@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T23:01:14.170705+00:00",
+  "generated_at": "2026-10-30T01:59:08.665764+00:00",
   "capabilities": {
     "official_evidence_search": true,
     "verified_primary_gate": true,
@@ -16,8 +16,8 @@
     "promise_checked_this_run": 30,
     "promise_total_candidates": 841,
     "promise_coverage_pct": 101.3,
-    "primary_candidates": 556,
-    "secondary_candidates": 1055,
+    "primary_candidates": 559,
+    "secondary_candidates": 1054,
     "prior_fact_checks": 0,
     "publishable_auto_verdicts": 0,
     "claim_verdicts": {
@@ -30,9 +30,9 @@
       "target_reached_evidence": 0,
       "proven_unfulfilled_by_deadline": 0,
       "progress_documented": 12,
-      "deadline_passed_unresolved": 47,
+      "deadline_passed_unresolved": 48,
       "deadline_not_reached": 13,
-      "insufficient_evidence": 38,
+      "insufficient_evidence": 37,
       "not_machine_measurable": 742,
       "audited_total": 852
     },
@@ -102,29 +102,6 @@
       "promise_matches": [],
       "evidence": [
         {
-          "id": "5bc359c2e21b19a422",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Norms for Permission for Opening of Medical Colleges - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE53dy1VTDhJNzhuTi1DTDZVNFdaVENKQ3V2cl92WHhRcWk3LUN1S3hDaGZnSUJrdG14NzJHWElvajhZNjQ0bkh3a1JkTWNySnQ1bEVZUUcxVmIyRDRpT05BcW81QzFVcDdsSnNGTg?oc=5",
-          "published_at": "2013-03-05T08:00:00+00:00",
-          "snippet": "Norms for Permission for Opening of Medical Colleges Press Information Bureau",
-          "lexical_overlap": 0.182,
-          "relevance": 0.302,
-          "matched_terms": [
-            "colleges",
-            "medical"
-          ],
-          "shared_numbers": [],
-          "nli": {
-            "entailment": 0.007,
-            "neutral": 0.9442,
-            "contradiction": 0.0487
-          }
-        },
-        {
           "id": "79a5de7000dc444ee7",
           "scope": "news_search",
           "tier": "secondary",
@@ -145,8 +122,8 @@
       ],
       "fact_checks": [],
       "signal": {
-        "level": "primary_evidence_found",
-        "label": "Relevant verified primary evidence candidate found",
+        "level": "reporting_found",
+        "label": "Relevant reporting found; primary evidence still needed",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -778,18 +755,19 @@
       ],
       "evidence": [
         {
-          "id": "8100904d3185b9b68e",
+          "id": "9860913f9848bd5052",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "IBEF",
-          "source_url": "https://www.ibef.org",
-          "title": "Empower Street Vendors with PM SVANidhi Scheme - IBEF",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9GX1FkVHBULV80WnVJSC1LTU9qMG9SNkp3NWltVjJOWUdBMVpsM2VXNXpXZVdBNTdVLVJOMGFPZUxiNmIzU0R2NUROc1czWGtWR05QMnRQbTlKaEpnMklUSnVNTEdkdUIzdXc?oc=5",
-          "published_at": "2024-06-08T13:31:59+00:00",
-          "snippet": "Empower Street Vendors with PM SVANidhi Scheme IBEF",
-          "lexical_overlap": 0.308,
-          "relevance": 0.448,
+          "source": "CNBC TV18",
+          "source_url": "https://www.cnbctv18.com",
+          "title": "76.95 lakh street vendors avail ₹18,475 crore collateral-free loans under PM SVANidhi - CNBC TV18",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNLVNJNjBHc2VVZmhFVDRPN181RzNfdjFpRWVwQkhjdW9xWk4xV09LWU9ndVdkcEhYOFZ6QVQ3dWRrUmVFbVlxdnFfOG5uZXl1cXJWZkpDX3VjQzU0SGhpaEg1U3llWE9EWGRhOE0tc1JZMFlFd1JxRnV6LWp4REh5NDJmdlR3SUVubTdXdXZWWWVRZ2staF9FNzdWbVJnOVFUVUZKcVdoSzdGZTQyVElTQUNlM0VWUDAyaklVT3Z2TmlNUTlnc2F1SkNsTjnSAdIBQVVfeXFMTWxGdXNtTlNaODVCaEJZcWE3WGNURVJXYTJpb2dIWXlveHVubW4xM0NJdFJQWmpOVHlmTl9PWnZfUm1SVkV1M0lNV0p4cE9ubkhVY2Q2aGExZnZyQTFZb3hNWHBkejRrRlMtYm1ReVR3SEVHZi0tX0xKeHBMd3lSRkdWd0pFaTJnSm5oOTNjTWQ2UEJ5elE1TnprZ2hzUGp4ZXpDY2FOM0Jsd1doejN1UU85WDJQQVVDNmxfUUFyYU1uZUljdXFfVGJ1dW05V0dGVmdB?oc=5",
+          "published_at": "2026-08-06T07:00:00+00:00",
+          "snippet": "76.95 lakh street vendors avail ₹18,475 crore collateral-free loans under PM SVANidhi CNBC TV18",
+          "lexical_overlap": 0.312,
+          "relevance": 0.488,
           "matched_terms": [
+            "loans",
             "pm",
             "street",
             "svanidhi",
@@ -821,26 +799,6 @@
             "neutral": 0.9865,
             "contradiction": 0.012
           }
-        },
-        {
-          "id": "5f82f1e163608f6189",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "IBEF",
-          "source_url": "https://www.ibef.org",
-          "title": "PM SVANidhi: Micro Credit Scheme for Street Vendors - IBEF",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQR3pJVDdCb2FpR19pdjJGbUwxZ0tZaHVSaU9TajdOWndrZVF0Qy1STG95WGpNWFJpVU5UM1hxN1ZZVDZlXzBrNEdEMWtpZnhEbTBuTHh6UVZEeVZCV0o2TTNlMmhyRjNmVndLTExxcVYtUWV0OGNXTDFBUWpleWlPNEE5WQ?oc=5",
-          "published_at": "2023-02-17T08:00:00+00:00",
-          "snippet": "PM SVANidhi: Micro Credit Scheme for Street Vendors IBEF",
-          "lexical_overlap": 0.286,
-          "relevance": 0.426,
-          "matched_terms": [
-            "pm",
-            "street",
-            "svanidhi",
-            "vendors"
-          ],
-          "shared_numbers": []
         },
         {
           "id": "f5e28276c90649ddd0",
@@ -893,6 +851,44 @@
           }
         },
         {
+          "id": "cb771e93a84b2d81d9",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "DD India",
+          "source_url": "https://ddindia.co.in",
+          "title": "Over 1.05 crore loans sanctioned under PM SVANidhi since 2020 - DD India",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORUJPSVNXQnNTYUh3YkJZbzFEM1haLVJWcU9rdXVPeXpLVVNheXhTVzAtal9yZ3VUNHZZS2NHNEVZUExXZWNvUkE2QzZZTFlPc1hiOW91dGdieWUwbU5fNGRqZmwwYUswTWJBTFVtSEthQXg3R0IxYWFDdlNscUpZcmZfeHlHV2dyMXRBc3ljVUJDcnRlZVo0?oc=5",
+          "published_at": "2026-06-01T07:00:00+00:00",
+          "snippet": "Over 1.05 crore loans sanctioned under PM SVANidhi since 2020 DD India",
+          "lexical_overlap": 0.214,
+          "relevance": 0.319,
+          "matched_terms": [
+            "loans",
+            "pm",
+            "svanidhi"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "4955173f87cfaf2ce0",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Times of India",
+          "source_url": "https://timesofindia.indiatimes.com",
+          "title": "LG directs banks to speed up PM SVANidhi loans as Delhi receives over 4.3 lakh applications - The Times of India",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPNE9HSHFZcnJQWFpueWYtUVlyaXVySHVsczRBUEFyZDBuVFZFcDlEc3dLY2hzQ1NRSlpGUE8tdjNVdGU3MzNfdzZMSE9abmZEVGxNX1VOSE9WOXhCTUJLY2JocHBLYmhzR1d3VVp1amtra0s1RFdjRi1vTGJlSm9FcG1sWUIydXhzSUh2UlBwNFUxN0JZWi15RUptTGczTDJBVmI1Rk1CZ3RRWlpLanR0ZC04anBSQmxvM25DZ2xzSUtYWUxWLWhBWnYwcnRQTC0zRkV0ekZ6RXM3NHVnNG5KU1B0cVZjT1JoU1VsMUhQdnd0SDk4U2lN0gH8AUFVX3lxTE5kbkxlYzgxT1BhbllNVVBGWkZjQXREUmVPRmd5a2F1dWFyblZjRTZrVUhxNUFoanVWQUtxTXpSNzZqaGIwUjRwTnh5dzVJUGU5OGEteHJKY2hTcjRyRmNmVVlPd2FHYUVmZUx4eVNoemFBY3hYT2ttTTYzd3VhVTJJVWdySVZMWjlRclFJRU5HZGx2TXN4cGVOaEZ4NG9QeG16UHRhU0pZd0tHR1g2XzVMOW9jbEpfLUNpc0dTZlV6MFc0TmRQWVBKZkVXQmhoOG12RTJ0eGhvTFZTNVloRkx3WHFKak9sZ0ZVQjB4WHFoZ2o0Y0tmb1dxVV9pbQ?oc=5",
+          "published_at": "2026-06-12T07:00:00+00:00",
+          "snippet": "LG directs banks to speed up PM SVANidhi loans as Delhi receives over 4.3 lakh applications The Times of India",
+          "lexical_overlap": 0.15,
+          "relevance": 0.255,
+          "matched_terms": [
+            "loans",
+            "pm",
+            "svanidhi"
+          ],
+          "shared_numbers": []
+        },
+        {
           "id": "eb7e0e2bf220518ef5",
           "scope": "preferred_official_search",
           "tier": "primary",
@@ -916,27 +912,28 @@
           }
         },
         {
-          "id": "10ab72a0082de17f60",
+          "id": "2dba54a7c6bab0b7ac",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "CMO Gujarat",
-          "source_url": "https://cmogujarat.gov.in",
-          "title": "PM SVANidhi Yojana convened in Ahmedabad - CMO Gujarat",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMW5KTTdDa1ZpNE01OWZZMHZoZFZvdTM4ako5TDc0WVJ2eVU1S3FDYnFPVHkycUx6RC00VWJqbDI2YW8wNlFNZHhYWDJtWGJTd1dWOWpyY1BUOWY3Rm9VTWZUb0lEN3lJQ1FBenV0eGpDakU4VzJSdWRWbXJubml0WmpTd3Q?oc=5",
-          "published_at": "2023-12-24T08:00:00+00:00",
-          "snippet": "PM SVANidhi Yojana convened in Ahmedabad CMO Gujarat",
-          "lexical_overlap": 0.133,
-          "relevance": 0.203,
+          "source": "Organiser",
+          "source_url": "https://organiser.org",
+          "title": "PM SVANidhi Success Story: How Modi Govt’s street vendor scheme transformed more than 75 lakh lives across Bharat - Organiser",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQZGlSaVEwQjRSNVA5MXgzMWNGZEtFZTBpWHlKMGxZblJwNi0xWWthMDVLdW5HS1lxbkEyMFJSX000TjVjVmEwblYtenBfV292YmtGMjRseWxZcDY5U0NuamNxSzBwWHk3VUpJdDFPQXB3MzJmOG9oYW9TeGRBNXBYV1BLaXAzMG9nZkszMlk2NGlMLWRNNVo4a3RmMnhEMmRvbHY4MmhleW8zWlRjTmttSVQzaVR3a2E3SVppYy1XS2g4SG5HNVdzaWM2ME5LM3BjbF9mTWlWOUFZRkxKSGNqLUVqSU9HekR2WXAxS0xJZ2PSAfYBQVVfeXFMTlFiNC1xcGVJOFZxc25ZNElMOU1VN2lVQ3BLZHNScGxwRllyaVFoZks1b2tLX2loN0thR0pZZm9BSkJ0d00xYmhzV0w4V01NNGN2ekR3bXc4OTRUTkdHUnh1M2s0blZ0Y1BBam02UmlRVmZJcGJSWUNiY3RhdDlyMXk5TVpoOVdBYzFDNVJLeFNGS3RxRUkxZDM1ZE5peEt4azJWVjR4M2ZIalozMVh2aHF1clo3MFl5Nk1SN2JYbG9sLUN3SFU1UmRVUzhjem14cmhiUXAwZTJvOGlWTzl0NklMZTBILVBBMFlTbG1xSl9FY2VOQm5R?oc=5",
+          "published_at": "2026-05-31T07:00:00+00:00",
+          "snippet": "PM SVANidhi Success Story: How Modi Govt’s street vendor scheme transformed more than 75 lakh lives across Bharat Organiser",
+          "lexical_overlap": 0.143,
+          "relevance": 0.248,
           "matched_terms": [
             "pm",
+            "street",
             "svanidhi"
           ],
           "shared_numbers": []
         },
         {
-          "id": "1fb7faa36ced241a76",
-          "scope": "news_search",
-          "tier": "secondary",
+          "id": "f04481ddb3b430e24d",
+          "scope": "preferred_official_search",
+          "tier": "primary",
           "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
           "title": "Over 5 lakh applications received under PM SVANidhi scheme - Press Information Bureau",
@@ -944,7 +941,30 @@
           "published_at": "2020-08-12T07:00:00+00:00",
           "snippet": "Over 5 lakh applications received under PM SVANidhi scheme Press Information Bureau",
           "lexical_overlap": 0.118,
-          "relevance": 0.188,
+          "relevance": 0.238,
+          "matched_terms": [
+            "pm",
+            "svanidhi"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.0024,
+            "neutral": 0.9879,
+            "contradiction": 0.0097
+          }
+        },
+        {
+          "id": "2d5a3567fb9906dfd2",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "News On AIR",
+          "source_url": "https://newsonair.gov.in",
+          "title": "PM SVANidhi scheme completes six years of implementation - News On AIR",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRWdHWlR4U0JfVVFKeEExMk5TWUNZT1hVZ2xpeHNyQl9DU2s4aG5PYlRqX3djOWpNVUtmTWxDd2IzUENFNHJodW1lYlJSUDZRQlh1dU1ndlRLUmNUd1IwSVVTNkJGeGttMXpFOThsM29NRWtBSS14SnpyQ1RGaF9zM0RoNU55RENJSEE?oc=5",
+          "published_at": "2026-06-01T07:00:00+00:00",
+          "snippet": "PM SVANidhi scheme completes six years of implementation News On AIR",
+          "lexical_overlap": 0.125,
+          "relevance": 0.195,
           "matched_terms": [
             "pm",
             "svanidhi"
@@ -1057,7 +1077,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T23:00:15.845995+00:00",
+      "latest_checked_at": "2026-10-30T01:58:20.556164+00:00",
       "latest_claim_packet_id": "d4aab404e9ccc6ccf7"
     },
     {
@@ -1324,7 +1344,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T23:00:15.846023+00:00",
+      "latest_checked_at": "2026-10-30T01:58:20.556211+00:00",
       "latest_claim_packet_id": "884558fa72add4403d"
     },
     {
@@ -1420,7 +1440,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T23:00:15.845986+00:00",
+      "latest_checked_at": "2026-10-30T01:58:20.556150+00:00",
       "latest_claim_packet_id": "60ae96f665f22ef03b"
     },
     {
@@ -1468,7 +1488,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T23:00:15.845903+00:00",
+      "latest_checked_at": "2026-10-30T01:58:20.556031+00:00",
       "latest_claim_packet_id": "b8d4ab680299139905"
     },
     {
@@ -1540,7 +1560,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T23:00:15.846015+00:00",
+      "latest_checked_at": "2026-10-30T01:58:20.556196+00:00",
       "latest_claim_packet_id": "dac6e2327ebe0bd17a"
     },
     {
@@ -1756,7 +1776,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T23:00:15.846033+00:00",
+      "latest_checked_at": "2026-10-30T01:58:20.556226+00:00",
       "latest_claim_packet_id": "050ea98dd7879a06cd"
     },
     {
@@ -1948,7 +1968,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T23:00:15.845956+00:00",
+      "latest_checked_at": "2026-10-30T01:58:20.556107+00:00",
       "latest_claim_packet_id": "29371b53212e779eff"
     },
     {
@@ -2086,13 +2106,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "primary_evidence_found",
+      "evidence_state": "reporting_found",
       "human_reviewed": false,
       "created_at": "2026-10-27T07:50:11.251666+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T23:00:15.845937+00:00",
+      "latest_checked_at": "2026-10-30T01:58:20.556066+00:00",
       "latest_claim_packet_id": "b35543711de7918ea9"
     },
     {
@@ -2164,7 +2184,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T23:00:15.845947+00:00",
+      "latest_checked_at": "2026-10-30T01:58:20.556093+00:00",
       "latest_claim_packet_id": "ddb711a027259cf305"
     },
     {
@@ -2356,7 +2376,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T23:00:15.846048+00:00",
+      "latest_checked_at": "2026-10-30T01:58:20.556253+00:00",
       "latest_claim_packet_id": "5bb402465b7ccab062"
     },
     {
@@ -2500,7 +2520,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T23:00:15.846004+00:00",
+      "latest_checked_at": "2026-10-30T01:58:20.556179+00:00",
       "latest_claim_packet_id": "f5f9e7bb05cfa3199f"
     },
     {
@@ -2644,7 +2664,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T23:00:15.846041+00:00",
+      "latest_checked_at": "2026-10-30T01:58:20.556241+00:00",
       "latest_claim_packet_id": "00739b48a203bf3deb"
     },
     {
@@ -2788,7 +2808,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T23:00:15.845977+00:00",
+      "latest_checked_at": "2026-10-30T01:58:20.556137+00:00",
       "latest_claim_packet_id": "1d53d6d12eb863d5b2"
     },
     {
@@ -3031,7 +3051,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-29T23:00:15.845969+00:00",
+      "latest_checked_at": "2026-10-30T01:58:20.556124+00:00",
       "latest_claim_packet_id": "318b27cf844c2ade6a"
     },
     {
@@ -5848,7 +5868,7 @@
     },
     {
       "id": "5fde91a58e6e3aee17",
-      "checked_at": "2026-10-26T13:38:14.589043+00:00",
+      "checked_at": "2026-10-30T01:58:45.996452+00:00",
       "promise_id": "BJP-2024-30994df3836e116dc6",
       "year": 2024,
       "category": "infrastructure",
@@ -12669,7 +12689,7 @@
     },
     {
       "id": "40e2042e25dee85104",
-      "checked_at": "2026-10-26T13:38:16.142226+00:00",
+      "checked_at": "2026-10-30T01:58:47.441744+00:00",
       "promise_id": "BJP-2024-35e481fc29712688d8",
       "year": 2024,
       "category": "health_welfare",
@@ -16900,7 +16920,7 @@
     },
     {
       "id": "2d936543480f574a8b",
-      "checked_at": "2026-10-24T20:48:16.840460+00:00",
+      "checked_at": "2026-10-30T01:58:53.924780+00:00",
       "promise_id": "BJP-2024-fe81027f7e8bda8008",
       "year": 2024,
       "category": "women_social_justice",
@@ -25484,7 +25504,7 @@
     },
     {
       "id": "ef7dec163c7f9088f5",
-      "checked_at": "2026-10-24T20:48:15.375541+00:00",
+      "checked_at": "2026-10-30T01:58:52.866491+00:00",
       "promise_id": "BJP-2024-f76976b35b029854ce",
       "year": 2024,
       "category": "infrastructure",
@@ -25555,17 +25575,40 @@
           ]
         },
         {
-          "id": "44915bf516c1a0010e",
+          "id": "3d83df35ea1e067545",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Construction World",
+          "source": "Construction World India",
           "source_url": "https://www.constructionworld.in",
-          "title": "Odisha to Develop 15,000 km Road Network by 2028 - Construction World",
+          "title": "Odisha to Develop 15,000 km Road Network by 2028 - Construction World India",
           "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPNFduaXpCSmhHY3ZEOGJHeDJoR1JWU3VRdFFVYlA2TE96T2FXdXplQzcyTHF3UjRWWjJJNFlZbUlpc09UT28xd0pQb1NXWDFSdDEwUnYwajQ5a0Y5eFI4c1VraVhrN3liaW5YM2xSc2hyYUw5SG9IbE9MUjdGSzYwVXpfSFZZZldBOEppYmJMVFhPcGluQXZPNEpncFBaNjNyUTVoal9QN01HUzQtZ0hVeVVGa1VOMmtGcWpLUGV5NDJETnlRTUVSQzlFSF9UNWJoamdoUzd3YlhVVktpOHc?oc=5",
           "published_at": "2025-04-04T07:00:00+00:00",
-          "snippet": "Odisha to Develop 15,000 km Road Network by 2028 Construction World",
+          "snippet": "Odisha to Develop 15,000 km Road Network by 2028 Construction World India",
           "lexical_overlap": 0.118,
           "relevance": 0.298,
+          "matched_terms": [
+            "km",
+            "road"
+          ],
+          "shared_numbers": [
+            "15000"
+          ],
+          "promise_core_overlap": [
+            "road"
+          ]
+        },
+        {
+          "id": "4da5e2ab6ce662053d",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Pragativadi",
+          "source_url": "https://pragativadi.com",
+          "title": "Odisha Govt Plans 15,000 km World-Class Road Network by 2030 - Pragativadi",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYVVvcnNScmdRbldxQm9Vc241em9FMmtIX2dUSVlEa3p1MnBHTmpFNDVkdVBOQWNzdGFkR09ZVmQyYTViZzhxcmJnQm5pLWhmYk9iSVJKSno1NDNNblJfRHYyOW9sWGZnck05RV9zdXVSQjVHWkRYVUNyR2ZqS3lycFl0NUx4NjdEYWlYNQ?oc=5",
+          "published_at": "2025-03-12T07:00:00+00:00",
+          "snippet": "Odisha Govt Plans 15,000 km World-Class Road Network by 2030 Pragativadi",
+          "lexical_overlap": 0.111,
+          "relevance": 0.291,
           "matched_terms": [
             "km",
             "road"
@@ -35063,7 +35106,7 @@
     },
     {
       "id": "34e5378739892dfeb4",
-      "checked_at": "2026-10-24T20:48:14.609114+00:00",
+      "checked_at": "2026-10-30T01:58:52.030136+00:00",
       "promise_id": "BJP-2024-d57312313242ff6b21",
       "year": 2024,
       "category": "education_skills",
@@ -35088,7 +35131,29 @@
       "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
       "related_promises": [],
       "query": "100 one nation student academic implementing achieve",
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "90aef1660061dba4d5",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "One Nation, One Election - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAxQldHSlRCMV9KRDdHT3h5aDRCMkd6Y0N0NHFzR1dIZk4yV0hCV05CTFFBSDcwV0d5anJva3RueU1yLWZMMENRblFmUG01S2VERUE4TktLUDI2MHAxVzJtYXA0YVlvNDQtZk0zNXlzek4?oc=5",
+          "published_at": "2024-12-17T08:00:00+00:00",
+          "snippet": "One Nation, One Election Press Information Bureau",
+          "lexical_overlap": 0.125,
+          "relevance": 0.245,
+          "matched_terms": [
+            "nation",
+            "one"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "nation"
+          ]
+        }
+      ],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -37268,7 +37333,7 @@
     },
     {
       "id": "785f3cf048095fab8d",
-      "checked_at": "2026-10-24T20:48:12.808894+00:00",
+      "checked_at": "2026-10-30T01:58:50.311770+00:00",
       "promise_id": "BJP-2024-7b32d484016c0dd074",
       "year": 2024,
       "category": "education_skills",
@@ -37323,34 +37388,6 @@
           ]
         },
         {
-          "id": "6dd40905f77ec28e75",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "As a part of countrywide outreach through a series of meets in different cities regarding ₹1 lakh crore Research, Development and Innovation (RDI) Fund, Union Minister Dr. Jitendra Singh today held an over two-hour interaction with the Mumbai Industry - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1YcDl4WTFzOFRvVmdVX24wS19XeE9tV1JVcU9oQUNNZTNFMWlkdzJLNEs2RnBsakRPblNnTkI5dzNncmVWdEhNelBJZmRnQzk2SE1admk5Y1JUT3d3T2ZjNVZBdVBLOFBU?oc=5",
-          "published_at": "2025-11-25T08:00:00+00:00",
-          "snippet": "As a part of countrywide outreach through a series of meets in different cities regarding ₹1 lakh crore Research, Development and Innovation (RDI) Fund, Union Minister Dr. Jitendra Singh today held an over two-hour interaction with the Mumbai Industry Press Information Bureau",
-          "lexical_overlap": 0.167,
-          "relevance": 0.467,
-          "matched_terms": [
-            "crore",
-            "fund",
-            "lakh",
-            "research"
-          ],
-          "shared_numbers": [
-            "1"
-          ],
-          "promise_core_overlap": [
-            "crore",
-            "fund",
-            "lakh",
-            "research"
-          ]
-        },
-        {
           "id": "23c244af8a080572b2",
           "scope": "preferred_official_search",
           "tier": "primary",
@@ -37369,32 +37406,6 @@
           "shared_numbers": [],
           "promise_core_overlap": [
             "research"
-          ]
-        },
-        {
-          "id": "1262d46e18b5ba9b35",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Moneycontrol.com",
-          "source_url": "https://www.moneycontrol.com",
-          "title": "Govt’s Rs 1 lakh crore RDI scheme to fund quantum, chip and AI innovation - Moneycontrol.com",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQOWctcDFwd3RNZ0k1X3kwQ0ZINzF0RVNDcC1JRlFudmxsQm1aQWhtdnNOa1RqR21iR0F4UEY2QkRIZUtXNHB3VVV0aTZtazl0SEtnV2g5anRqSmtaMDlBeU1hUmwzUmlxUVAtZzZuMW9PWVg2R1dsaWlnT09xUFJDSE1VaUJxY2N2OTVGUXVpd1dUYy1DcDd1bUE4aXRnMXlrWGQ5cE5iMFBFOTF0ZE1Rd0xISS1BY0p1SkFKVGdyTUdGVnJCbUlYZzYxOHBkN3JFc0ZvLXRVQ2JOeTlGdWpiYdIB5gFBVV95cUxNempyWmU3U0lHNUxVdGZxbnF3NV9UblUyZHhJMWNmbVZTQW9udzgtSlVJU2ZRemd0M01pMXQ1Nml4UVh1TUx4bm1nMGVfLWh1R3VpU1FNaXNzeUNEWThEVEgxcVVNckVoY01hRTl2U2h0UVNQVzlvdm5hT0FVM3Q0dUxIeXFiRlVFamF6ZmYtMm5wazhXTDdCTllNcTIwLXk5eU0wMm10eU5zSUsxUDRDUE5uYURybFFXeFFRQmNyZmJEUWxhMlk5Q2lvMURnSWxjVUhBaUVjTTJ0MWdQSXBFSjJZWjVIQQ?oc=5",
-          "published_at": "2025-11-13T08:00:00+00:00",
-          "snippet": "Govt’s Rs 1 lakh crore RDI scheme to fund quantum, chip and AI innovation Moneycontrol.com",
-          "lexical_overlap": 0.136,
-          "relevance": 0.351,
-          "matched_terms": [
-            "crore",
-            "fund",
-            "lakh"
-          ],
-          "shared_numbers": [
-            "1"
-          ],
-          "promise_core_overlap": [
-            "crore",
-            "fund",
-            "lakh"
           ]
         },
         {
@@ -37418,9 +37429,30 @@
           "promise_core_overlap": [
             "fund"
           ]
+        },
+        {
+          "id": "d735c7af26ecf6cb76",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Nature",
+          "source_url": "https://www.nature.com",
+          "title": "Fixing India’s research foundations before scaling up - Nature",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9uR0tDTk9Lcko4NXpuWTVqdGgwczVjVmdXM2xudHdWZlZ0MVJ0WlVzV1I2OVp1RHdnZ2FXZ2lXZFY5cDRNWXo1dGJHQi13Vm1TbjNnV0tpd2ZfbDQzTXJr?oc=5",
+          "published_at": "2026-04-16T07:00:00+00:00",
+          "snippet": "Fixing India’s research foundations before scaling up Nature",
+          "lexical_overlap": 0.118,
+          "relevance": 0.188,
+          "matched_terms": [
+            "research",
+            "up"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "research"
+          ]
         }
       ],
-      "implementation_signal": "current_primary_and_reporting_found",
+      "implementation_signal": "current_primary_evidence_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -38523,7 +38555,7 @@
     },
     {
       "id": "d79dcb75fce5eaf71e",
-      "checked_at": "2026-10-24T20:48:11.805388+00:00",
+      "checked_at": "2026-10-30T01:58:49.286731+00:00",
       "promise_id": "BJP-2024-66cb98354281c12bcb",
       "year": 2024,
       "category": "education_skills",
@@ -38550,70 +38582,57 @@
       "query": "1 lakh scientific research fund guarantee sustainable",
       "evidence": [
         {
-          "id": "51e4be94796908633e",
+          "id": "92542999c62e365009",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "IMPRI Impact and Policy Research Institute",
-          "source_url": "https://www.impriindia.com",
-          "title": "Infrastructure Risk Guarantee Fund (IRGF), 2026 - IMPRI Impact and Policy Research Institute",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPaUFhczBzSHhUNEF5b09vbUs0N3pwdGNGYksyUzl2blktN1NYX2JBVEVBU0UzWi1DSm1Ya19sMjgzTzZnNjZxMkZTb1dESkVZdU54Zk1aM0J0X3FQb19veDY2MlVtMG9yUE9sN0xtejRhYS1TUjhXYmhURXVyM2ZzekF3T1NiLWo1QVo5NmZtUzlyVlBrU0tucF9DSnhEOFlNbnQ2ckhrTTAyZTJsSHV3aUoycXV0UXlJNnBZdG1Cd00wdGVhemZhYXZFRXZGdVZBQnRLVlZFQXM3akZjQ1pn?oc=5",
-          "published_at": "2026-09-22T07:00:00+00:00",
-          "snippet": "Infrastructure Risk Guarantee Fund (IRGF), 2026 IMPRI Impact and Policy Research Institute",
-          "lexical_overlap": 0.158,
-          "relevance": 0.263,
+          "source": "ACKO Drive",
+          "source_url": "https://ackodrive.com",
+          "title": "Government Launches ₹1 Lakh Crore Fund for Research Commercialisation - ACKO Drive",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdUZTVG9hd0VmQkhLelMxR1lfRDllX0ZqSnB0TkZHRHgxaHpKWUlOeFBOcFVLUTJPZkdIMmNrcmZaLUpoWEIxTlVfSWZacndxQVdmcEVHUVM4cFNZZ0J0LUhFRnpXYXVxVDFBNE14NzhYOUJIb0F0SmtldVNucXZwWUNTZzVYUl9nSUozeTNwRlBFYnBPb1dqd1BrUnU?oc=5",
+          "published_at": "2025-09-11T07:00:00+00:00",
+          "snippet": "Government Launches ₹1 Lakh Crore Fund for Research Commercialisation ACKO Drive",
+          "lexical_overlap": 0.25,
+          "relevance": 0.5,
           "matched_terms": [
+            "crore",
             "fund",
-            "guarantee",
+            "lakh",
             "research"
           ],
-          "shared_numbers": [],
+          "shared_numbers": [
+            "1"
+          ],
           "promise_core_overlap": [
+            "crore",
             "fund",
+            "lakh",
             "research"
           ]
         },
         {
-          "id": "314d3f563956d890ed",
+          "id": "3139bb7daa938c0065",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "The Times of India",
-          "source_url": "https://timesofindia.indiatimes.com",
-          "title": "MDU professor’s research project gets ₹25 lakh grant for sustainable wheat farming - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNSEdOT1lraTR0d1lNWnladmhfc041Ulp2UU1feWZKZjAydHRzN3YxWFNMSkt3NjlPV0FlM3JRUXhTcy1rMjZmSUt0Vmd6ZEpVdGlmSm95bERzeWJRaTR1Z1lhVzEyVTBTZVVpVWRqdV9EZUp2RWFSaHk1TlhPbU1fODZyTzg5M0VjSmFfalhWRlltTXUzdjNrVlhOQmVsYUFhbEVEXzN6c1JYajEycnl4REFkYkNMQWRCY1MtNVRVMWdKdElmSzAzLUdzSkxOSU5pWF9wTEV3XzFQeW5yVVNrSDRheUpLLUNlTjFITnJ30gHzAUFVX3lxTE5GaWpWb2gxOWpUbU9Cekp2WlZpT3QydDFsWlVuRU1laWVWOEZLeUVHY3I0dEI5ZG55cXlNLVJoV3p6am8xUlpwVWIyS0hOdDYzLTBLR2NrX0hSSGtRVmJKQTZRRDVGdWpkN2c3Q1ZMMVotT005QkFBM2dBbW1vc0kzMVYyMVVsS3N0d1RqMjNPWFlTX2Jpb0NMYjBoOVpxUVJ2RkdiQW1vVWFlRWRhVk03OG01MUlVNGtQSjdmc3g5VzZ1WHAweHBDMTNTYkFNMzlnbGsyZklxdXFWNmFtbi1tMDRhSmFkT1BvMENFeFdqSzcwbw?oc=5",
-          "published_at": "2026-06-07T07:00:00+00:00",
-          "snippet": "MDU professor’s research project gets ₹25 lakh grant for sustainable wheat farming The Times of India",
-          "lexical_overlap": 0.15,
-          "relevance": 0.255,
+          "source": "The Hindu",
+          "source_url": "https://www.thehindu.com",
+          "title": "₹1 lakh crore fund for private sector research close to approval - The Hindu",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPei1iTjZwalM4aXBLeVMzYmQ3UHNSUXhweFM1NW85TTk1NWwwRU56QVdwczh4QkJGY2FOWm5jRUdod1VRMXVNWk1XVy1KeHMwRllxdlo0T1RUVzJsQ2F2X1VTeHNrTThlRzNXbmhoWm0zX29iZGNobTBMc2dfY0JGN04xWXFRUGk4cnBmQlY2NHFfV2thMUo2dDFBNDh2Q08xRHdINHBlUTJNNVlhbkVyd1hvTmkxSGhTcVd1N3lERdIBxgFBVV95cUxNT2ZESzdibFFqeERaejhxMEtRMUxvNTJzN0I0Uks2a3M5SVlRTkNyVkxZdjBRMHhJcy1VaHJYLW5fQTNzZ3RhdTdFX1BRcU92dy1tMUZKTVBSRGZlWlRWdFM2Y29mVVhxWlVGLXFQRldGcnYwaWxOUy1Wb2RqU1pXSllENW1MdWY5ZkhaUzJyTUl0M3ZydHhSYXJNY1BXbFFXVjUzclFFWjdOOTVyem90OWdab0JfVWVlbEdxVlBtazJjbWFVRUE?oc=5",
+          "published_at": "2025-03-06T08:00:00+00:00",
+          "snippet": "₹1 lakh crore fund for private sector research close to approval The Hindu",
+          "lexical_overlap": 0.235,
+          "relevance": 0.485,
           "matched_terms": [
-            "lakh",
-            "research",
-            "sustainable"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "lakh",
-            "research",
-            "sustainable"
-          ]
-        },
-        {
-          "id": "abb3a483c582dabe13",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "ANI News",
-          "source_url": "https://www.aninews.in",
-          "title": "Shoolini university scientists secure Rs 84 lakh grants for food innovation research - ANI News",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOOFN1SF9FV2h3V0pMaVFHdWRnVWtmLWlvcTVQamFCSllpYU1hd0t6RThEOGYtUzhQUWN6R3JYZDdmamQ0ZTJhaGI0OXoxVGx3QVlmV1dZaVk4YUlINHdmVDhQd3k0MS0wMWFVdGpOUzNvZFNDZzlZbElxMFV2NnZnNjBxNFlkMGNiMFlnYnRKZHhFQjRFWEdwdDM5azh5S3kyZldVcHZyNjZNQzNYMVMxUjVTWVI0dmJaeVFiU21NWl9jdF91YlhLTGRwajlqMGowaXZHMnF5b0pzWjFDODBoNUlR?oc=5",
-          "published_at": "2026-05-01T07:00:00+00:00",
-          "snippet": "Shoolini university scientists secure Rs 84 lakh grants for food innovation research ANI News",
-          "lexical_overlap": 0.091,
-          "relevance": 0.161,
-          "matched_terms": [
+            "crore",
+            "fund",
             "lakh",
             "research"
           ],
-          "shared_numbers": [],
+          "shared_numbers": [
+            "1"
+          ],
           "promise_core_overlap": [
+            "crore",
+            "fund",
             "lakh",
             "research"
           ]
@@ -42766,7 +42785,7 @@
     },
     {
       "id": "15bf19fff2ffe84700",
-      "checked_at": "2026-10-24T21:13:59.577818+00:00",
+      "checked_at": "2026-10-30T01:59:04.523361+00:00",
       "promise_id": "BJP-2019-8d3ccd4c629f570fac",
       "year": 2019,
       "category": "agriculture",
@@ -42851,7 +42870,7 @@
     },
     {
       "id": "cc142f697601acb0b8",
-      "checked_at": "2026-10-24T21:14:01.965956+00:00",
+      "checked_at": "2026-10-30T01:59:06.474384+00:00",
       "promise_id": "BJP-2019-b92e1f580b957b2f6f",
       "year": 2019,
       "category": "agriculture",
@@ -42877,31 +42896,6 @@
       "related_promises": [],
       "query": "60 pension small marginal farmers launch scheme",
       "evidence": [
-        {
-          "id": "ee0dfeabb4330dea58",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "www.indianpaycalculator.in",
-          "source_url": "https://www.indianpaycalculator.in",
-          "title": "₹3,000 pension for life after 60: the farmers' scheme few use - www.indianpaycalculator.in",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdW1TbkZDdFJBVWZzYVR2enZ6U0tBbXRiTUxKd09LenNSOEtNdndTbmxKSGlPbFBYNmlzMmRWZUE2MVZUMmRFVkI1N1kyOTVHUWczdXJCVFg3WHRaa3JaYkVZaFdrX1NZT3FOTmlBNTRPcFZqWFBIWVItemhsT3JjdGZGUVJ0em1tRDFOUlZockdvTlUxai1WRjVlSQ?oc=5",
-          "published_at": "2026-06-14T07:00:00+00:00",
-          "snippet": "₹3,000 pension for life after 60: the farmers' scheme few use www.indianpaycalculator.in",
-          "lexical_overlap": 0.167,
-          "relevance": 0.382,
-          "matched_terms": [
-            "farmers",
-            "pension",
-            "scheme"
-          ],
-          "shared_numbers": [
-            "60"
-          ],
-          "promise_core_overlap": [
-            "farmers",
-            "pension"
-          ]
-        },
         {
           "id": "c76b2580a4298b6e97",
           "scope": "news_search",
@@ -42929,17 +42923,40 @@
           ]
         },
         {
-          "id": "72e330e6a5d4c618c3",
+          "id": "5b2ed8b4d918e7097e",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "aitcofficial.org",
-          "source_url": "https://aitcofficial.org",
-          "title": "More farmers to be brought under pension scheme in Bengal - aitcofficial.org",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVkI1VnZYRE1SMG1mdGthemU3dE45REc0UXFRRkFzU05ZUVR3Z0tmSFdXbGxaWUFQbTRnV1dDTGFNcFREbHJnVG5FX21XYWRabURnQlI5SmhtR21zMEY5cHpGNDN5cV95MkVaejhRWXljbzhJQ1VHNzRLMVFwNHNjNE1EMVRuaWFMT2ZB?oc=5",
-          "published_at": "2025-09-17T10:58:36+00:00",
-          "snippet": "More farmers to be brought under pension scheme in Bengal aitcofficial.org",
-          "lexical_overlap": 0.188,
-          "relevance": 0.292,
+          "source": "The Times of India",
+          "source_url": "https://timesofindia.indiatimes.com",
+          "title": "Govt extends PM-Kisan scheme to all 14.5cr farmers, clears pension for farmers, traders - The Times of India",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPdldBRUlzREFLNEY0VHAxLWZ6bVBsdmREVFJlU3kwcDVJV05kamdaLUxlNk1DajZFMUQ2LTNDOTRHVUEtNWtfOC1lSHU2QV9SR3dPY3ZvMDUyTU9rQl96dk8yaFBpQXBseHJCTDA3d3pvZW9DeEw0TUJ0Y3ZXd0ZqdmZNQ2lqSDU3WUJueHlDWi1BRXYyaGtVU0pJdjY2YXYzMDlrVnllQ1V6MUVENXMzejA3X3NZT3RPYkJkWV9jWUY0d00yRHV0QlV6TzZQelhPSkVfdTJkb2g4VXpBTm8yNlctWW1DeUHSAewBQVVfeXFMTTFNVnkwbDNDdkpscTUtWEN5MmV2QVB0d2FOUnkybXU3VDRCa0NENldqcEhIWGdqZTVwZG43ci1hSkNiZFZWekhMby1xbkE3OTZyeWNORlk5TmVCdUo1ME14ZWdCeldoY294Sk5QSy1ZdHVhMzhRQmpFcUpvTWZVVkxkMGtpLVE4WVBFaHFTTEx1TG52RjRlSTAzVXJ6ZVZEa0ZBeXFGMmlBLV9pc2VGWjdFU1VPLXdIU2VkYmtXNFAwSlNvbHZPVENfSVIwTW1zekxPVEp5bm1UQjdIWnEtZkV0Rlg0dkV4YzF5b28?oc=5",
+          "published_at": "2019-06-01T07:00:00+00:00",
+          "snippet": "Govt extends PM-Kisan scheme to all 14.5cr farmers, clears pension for farmers, traders The Times of India",
+          "lexical_overlap": 0.158,
+          "relevance": 0.263,
+          "matched_terms": [
+            "farmers",
+            "pension",
+            "scheme"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "farmers",
+            "pension"
+          ]
+        },
+        {
+          "id": "c25cce238a49ba2c03",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Times of India",
+          "source_url": "https://timesofindia.indiatimes.com",
+          "title": "Bihar and Jharkhand among top two states enrolling for contributory pension scheme for farmers - The Times of India",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNemYzdnpCV1I0X2dJQTI5dklpV1dNelotRHF6aXV3RmNfWGNiaXRrbkd6bFo2aHh5ZUNrQ1JNNmFKV2JqU1pfYU1wZDJKYlIxaTE3LTRLeW5rN01jTm9mWGZoYVRQNnVIZ3BxUWRGeUoxX01YSFBEV2RGYnVEcDlnem43MHdCUGIxQkpONTRCWkNsbjZqX2xiTHpQeW81VV9IdExJTXVzOGM2dW4xOWFSUEFTdS1TS1lpM1p0QlZKRHhhVWphYnhzZjlzT3dFWV9NSjVxSWxtZUdxZ3Y4VEZzVFRQcUpseFdCRGF3a3pGbnAtVWdX0gH6AUFVX3lxTE1xTG8weW1ubTl3YnRhVHF2Z21VcFZwd01PY1Bwa2pBNzg3c3BVSmIwV0JvM3IzSWdPZ25QcDRfTnRyYjB5YUdZUlM5dmYwVzhsejltT2p5SkR4SjR5QURxS1M4NjBxRlNPTWRDaHd4ZlBjMG9CbkFpZXBLc256WFdEVVgxenM5VGJGeXNySWQwR1lZRkNMQmdKemlyTmJKN1VJWVFpTlJJejBqNGZ3eU95aXBFdEYtbW9sQjBkZmZneHlod19ScTVNYml1ZmJBRzdJdkktLUlwcll3SUt0bk1KY2U2ZU1tTXdJYkEwdmlVclhvcFM5ZFlVSWc?oc=5",
+          "published_at": "2024-09-30T07:00:00+00:00",
+          "snippet": "Bihar and Jharkhand among top two states enrolling for contributory pension scheme for farmers The Times of India",
+          "lexical_overlap": 0.143,
+          "relevance": 0.248,
           "matched_terms": [
             "farmers",
             "pension",
@@ -43472,7 +43489,7 @@
     },
     {
       "id": "0764c49dce738dbbee",
-      "checked_at": "2026-10-29T23:00:17.765034+00:00",
+      "checked_at": "2026-10-30T01:58:22.821824+00:00",
       "promise_id": "BJP-2019-18c0750d5ed71bc3d1",
       "year": 2019,
       "category": "agriculture",
@@ -43522,6 +43539,30 @@
           "promise_core_overlap": [
             "farmer",
             "fpos",
+            "organisations",
+            "producer"
+          ]
+        },
+        {
+          "id": "6dba73a6b672f68e0e",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "Ministry of Food Processing Industries",
+          "source_url": "https://www.mofpi.gov.in",
+          "title": "FARMER PRODUCER ORGANISATIONS POLICY & PROCESS GUIDELINES FOR - Ministry of Food Processing Industries",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNemRUS3BtTVBEWTdvNW13TEt4RVNGT05vRllBUmpUR1huVnJzdEp4NUFaNzN3Tk41ajVwcUtXVEU0N3owdWlqYkVDUlduUXdsRU43WmpnOFBDSDVOd21TZTJmM3Ita29WNVJTVTJGYlE4a2ZfWkQyZFRLSFJoOUZuWFYtY0ZfVmpaNkVOQ1AxVWVNYVBkTGc?oc=5",
+          "published_at": "2021-12-22T16:16:57+00:00",
+          "snippet": "FARMER PRODUCER ORGANISATIONS POLICY & PROCESS GUIDELINES FOR Ministry of Food Processing Industries",
+          "lexical_overlap": 0.158,
+          "relevance": 0.313,
+          "matched_terms": [
+            "farmer",
+            "organisations",
+            "producer"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "farmer",
             "organisations",
             "producer"
           ]
@@ -43595,30 +43636,6 @@
           ]
         },
         {
-          "id": "531ed5a861c168b322",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Outlook India",
-          "source_url": "https://www.outlookindia.com",
-          "title": "Farmer Producer Organization Scheme A Path To Farmers’ Prosperity - Outlook India",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMVpLQmxEZW5udS1scVRES3BVcEduZnhJaEdLcU1HY2hKWndwZ0g1dWpIRl9PRHdPaVQ5c2RFaV9PTVZ6akw3NGpnYjNudkwxaEJuOG81VlFJdVZ1emkzbTN0NXFlMHpnRlhqZHlTcFhjd21Ba1cxQWtoOVBGVTBkUy05bjFqSkhKOEI0SFhHeG9YSjQwT3lfNVNwNWRKVjN2Wl9rSEgyQWlXY1BCbzVMQll2eUNGMkZm0gHGAUFVX3lxTE16WE9xMW1VUnQzRmR2VGd0OWFPX2Q1RFN4S3ZWd2duMXBOdExXeWlzSXByV05JNmE5WWEzZnFBb1hzOFduZ0R5OXhsZko1N1JhclpXNlpVQ21QZFR0THFTdkVCc1B3ZHBJRFFWMU8wTzlOMDNOTjcxQVVNOWFsT3A2RXc0NzdYX3dBaFBmV0hsSlhsc2YxdWlhMHE2SFM5RTc4TU9xRGhTeWtWUW1wV3IwZ1hiTkJtQU1ZN3RVcUlZeDFXMlM4Zw?oc=5",
-          "published_at": "2024-01-16T08:00:00+00:00",
-          "snippet": "Farmer Producer Organization Scheme A Path To Farmers’ Prosperity Outlook India",
-          "lexical_overlap": 0.176,
-          "relevance": 0.281,
-          "matched_terms": [
-            "farmer",
-            "farmers",
-            "producer"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "farmer",
-            "farmers",
-            "producer"
-          ]
-        },
-        {
           "id": "634c286094b85d4f4a",
           "scope": "news_search",
           "tier": "secondary",
@@ -43685,7 +43702,7 @@
           ]
         }
       ],
-      "implementation_signal": "current_primary_and_reporting_found",
+      "implementation_signal": "current_primary_evidence_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -43907,7 +43924,7 @@
     },
     {
       "id": "70fe2283d47afca834",
-      "checked_at": "2026-10-24T20:48:23.559753+00:00",
+      "checked_at": "2026-10-30T01:59:00.445707+00:00",
       "promise_id": "BJP-2019-7022ba3c758763f81c",
       "year": 2019,
       "category": "other",
@@ -44130,7 +44147,7 @@
     },
     {
       "id": "7e60d580de560fb723",
-      "checked_at": "2026-10-24T21:14:00.292423+00:00",
+      "checked_at": "2026-10-30T01:59:05.245350+00:00",
       "promise_id": "BJP-2019-9ec1bc4450743184ce",
       "year": 2019,
       "category": "agriculture",
@@ -44906,7 +44923,7 @@
     },
     {
       "id": "f5811520c1d5623f19",
-      "checked_at": "2026-10-29T23:00:34.488819+00:00",
+      "checked_at": "2026-10-30T01:58:24.644739+00:00",
       "promise_id": "BJP-2019-1d3e95fa9344e842f3",
       "year": 2019,
       "category": "infrastructure",
@@ -44947,7 +44964,7 @@
     },
     {
       "id": "c7bf8608ddc94f1059",
-      "checked_at": "2026-10-24T20:48:18.288319+00:00",
+      "checked_at": "2026-10-30T01:58:55.501323+00:00",
       "promise_id": "BJP-2019-28da8f29c9f4615c7b",
       "year": 2019,
       "category": "infrastructure",
@@ -45027,7 +45044,7 @@
     },
     {
       "id": "92d6920a15fb42f812",
-      "checked_at": "2026-10-29T23:00:50.005736+00:00",
+      "checked_at": "2026-10-30T01:58:42.560987+00:00",
       "promise_id": "BJP-2019-6abf03adda773fec98",
       "year": 2019,
       "category": "governance",
@@ -46975,7 +46992,7 @@
     },
     {
       "id": "b00e9b2208eb04197c",
-      "checked_at": "2026-10-24T20:48:20.946325+00:00",
+      "checked_at": "2026-10-30T01:58:58.005772+00:00",
       "promise_id": "BJP-2019-4cb9695f385fa0608a",
       "year": 2019,
       "category": "infrastructure",
@@ -47002,6 +47019,50 @@
       "query": "100 waste mission disposal liquid emphasis faecal",
       "evidence": [
         {
+          "id": "9f9ff81d91bbb9fa7b",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "Haritha Keralam Mission",
+          "source_url": "https://haritham.kerala.gov.in",
+          "title": "Waste Management Sub Mission - Haritha Keralam Mission",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBtU1JsNVVMNFpIQ1gxOXMzcUg3V2NaS2JCMFBUeGV5UkROOU05YVZ5MVhKWnZIVU9la3pnUWZHREw0dHY3cENQUGZMWHY3Nk5uMnlpMTU1OUJxOG1TcEhpbQ?oc=5",
+          "published_at": "2024-07-02T09:04:44+00:00",
+          "snippet": "Waste Management Sub Mission Haritha Keralam Mission",
+          "lexical_overlap": 0.2,
+          "relevance": 0.355,
+          "matched_terms": [
+            "management",
+            "mission",
+            "waste"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "management",
+            "waste"
+          ]
+        },
+        {
+          "id": "622537838d63483cbc",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "Department of Drinking Water and Sanitation",
+          "source_url": "https://swachhbharatmission.ddws.gov.in",
+          "title": "Swachh Bharat Mission (Grameen) - Department of Drinking Water and Sanitation",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVHRsMzBKVjBJSEs1LWhCRWxnN2dzQVBjbHRaUU0xOXdsZmY0VnR6dlhyXzFzTnpYODdiUkNQMC1fUFZ6TDAybU9OMnk2bDVuTllVRjVDQVE0UXBzSU5aZjVpOEIxUHRTcnNUSGtXNHA3OHRCUmNWMGx6MmRaUWV5TFBabVhSM0dMSG93a0h6V2RWaFZOaVBSOE5EQ3ZPeHkyZ3MwTC1XcFJtUFpkQWpQQWJRY3llZFdM?oc=5",
+          "published_at": "2025-08-28T18:53:37+00:00",
+          "snippet": "Swachh Bharat Mission (Grameen) Department of Drinking Water and Sanitation",
+          "lexical_overlap": 0.118,
+          "relevance": 0.238,
+          "matched_terms": [
+            "mission",
+            "water"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "water"
+          ]
+        },
+        {
           "id": "1268b74f3dc575e6ab",
           "scope": "news_search",
           "tier": "secondary",
@@ -47024,7 +47085,7 @@
           ]
         }
       ],
-      "implementation_signal": "current_reporting_found",
+      "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -48388,7 +48449,7 @@
     },
     {
       "id": "1e0abc9f94016f3c7a",
-      "checked_at": "2026-10-29T23:00:36.005166+00:00",
+      "checked_at": "2026-10-30T01:58:26.230467+00:00",
       "promise_id": "BJP-2019-2af396deaf778cac73",
       "year": 2019,
       "category": "infrastructure",
@@ -48473,7 +48534,7 @@
     },
     {
       "id": "4af70c5cc4e5dd31ea",
-      "checked_at": "2026-10-29T23:00:41.234574+00:00",
+      "checked_at": "2026-10-30T01:58:32.875011+00:00",
       "promise_id": "BJP-2019-34c03859f07f1329c5",
       "year": 2019,
       "category": "infrastructure",
@@ -48500,28 +48561,6 @@
       "query": "2022 road connectivity complete dedicated freight corridor",
       "evidence": [
         {
-          "id": "2f7cb9a95e16631273",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Project for Chennai Port to Maduravoyal corridor in Tamil Nadu to be completed by December 2024 - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBNHhkQlBoSDU0NXo5T2IwMDZITWRENTF0eC0tNzBHRTI3bHpvT1NrNktkeF9NOTQzUnVIRFl2Vmx2WHFRSVlrbEJYUkZrVHIyOWFrQ1BIMmliWG1pQUJjZ2JxTkdHRkRMLVE?oc=5",
-          "published_at": "2025-06-12T19:01:02+00:00",
-          "snippet": "Project for Chennai Port to Maduravoyal corridor in Tamil Nadu to be completed by December 2024 Press Information Bureau",
-          "lexical_overlap": 0.118,
-          "relevance": 0.238,
-          "matched_terms": [
-            "corridor",
-            "project"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "corridor",
-            "project"
-          ]
-        },
-        {
           "id": "ec1d0cc8a5a0c1eb96",
           "scope": "news_search",
           "tier": "secondary",
@@ -48533,6 +48572,30 @@
           "snippet": "India’s Dedicated Freight Corridor Program: Progress and Prospects India Briefing",
           "lexical_overlap": 0.273,
           "relevance": 0.378,
+          "matched_terms": [
+            "corridor",
+            "dedicated",
+            "freight"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "corridor",
+            "dedicated",
+            "freight"
+          ]
+        },
+        {
+          "id": "b1ffee8e6f47df9c63",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Urban Acres",
+          "source_url": "https://urbanacres.in",
+          "title": "Dedicated Freight Corridor: India’s Rail Network Enters a New Phase - Urban Acres",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMk5QWk5iWGdfeTh1a2tqUTVBeHk4N0lPLXlyTkpMWWtsRDRldHZkUHFSQmQ0cUozUVgyR09MQV9od2dTTWFOY0dlNUFFeFNfY3ZPWmNZdVFYZWtsUW9pY0dqV3RxUjN6TjUwaS10MU5CWEs0ZUJ6R0dsWkxrX3J3a2N2bEFhN2JCNEdBZTZBdExydw?oc=5",
+          "published_at": "2026-09-14T07:00:00+00:00",
+          "snippet": "Dedicated Freight Corridor: India’s Rail Network Enters a New Phase Urban Acres",
+          "lexical_overlap": 0.231,
+          "relevance": 0.336,
           "matched_terms": [
             "corridor",
             "dedicated",
@@ -48658,46 +48721,24 @@
             "dedicated",
             "freight"
           ]
-        },
-        {
-          "id": "94f0d80ee7b7908961",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Vajiram & Ravi",
-          "source_url": "https://vajiramandravi.com",
-          "title": "Dedicated Freight Corridors, How They Cut Transit Time and Boost Rail Freight - Vajiram & Ravi",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5YNmx2WWxLTXRwU09nRzNtVEVfUkVKZ1dxZWNjZWhneHFNbWlLZXhnRjhxc1R3ZjQtSUt6NlhELXM0RU9oMVJZN1haTmVlM1VrWUxaUUxINE90a0dJaFR2NHJvOVMzRlFzNEZrcnpLdk44V1dQOE5vSi16UQ?oc=5",
-          "published_at": "2026-09-09T07:00:00+00:00",
-          "snippet": "Dedicated Freight Corridors, How They Cut Transit Time and Boost Rail Freight Vajiram & Ravi",
-          "lexical_overlap": 0.125,
-          "relevance": 0.195,
-          "matched_terms": [
-            "dedicated",
-            "freight"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "dedicated",
-            "freight"
-          ]
         }
       ],
-      "implementation_signal": "action_detected",
+      "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
       "outcome": {
-        "status": "progress_documented",
+        "status": "deadline_passed_unresolved",
         "deadline_year": 2022,
-        "proof_strength": "verified_primary_action_with_object_overlap",
-        "proof_evidence_id": "2f7cb9a95e16631273",
+        "proof_strength": "none",
+        "proof_evidence_id": null,
         "proof": null,
-        "reason": "Verified primary evidence overlaps the subject of the promise and documents implementation activity, but not the promised outcome."
+        "reason": "The extracted deadline (2022) has passed, but ClaimWatch does not have direct comparable post-deadline evidence proving fulfilment or non-fulfilment."
       }
     },
     {
       "id": "74b6d79abcfae25c0a",
-      "checked_at": "2026-10-24T20:48:19.500047+00:00",
+      "checked_at": "2026-10-30T01:58:56.744719+00:00",
       "promise_id": "BJP-2019-3969b0dcc7c4d20679",
       "year": 2019,
       "category": "jobs_economy",
@@ -50731,7 +50772,7 @@
     },
     {
       "id": "93bb9754ab7125c8f1",
-      "checked_at": "2026-10-29T23:00:45.610920+00:00",
+      "checked_at": "2026-10-30T01:58:37.615157+00:00",
       "promise_id": "BJP-2019-6013bbae5c9fbd8c5a",
       "year": 2019,
       "category": "women_social_justice",
@@ -50795,7 +50836,7 @@
     },
     {
       "id": "1d1782ad81aa54afcd",
-      "checked_at": "2026-10-29T23:00:47.712124+00:00",
+      "checked_at": "2026-10-30T01:58:39.709379+00:00",
       "promise_id": "BJP-2019-63e2ccda189fa85e2c",
       "year": 2019,
       "category": "health_welfare",
@@ -53896,7 +53937,7 @@
     },
     {
       "id": "1ffbffb12aae097085",
-      "checked_at": "2026-10-24T21:13:58.038690+00:00",
+      "checked_at": "2026-10-30T01:59:02.844995+00:00",
       "promise_id": "BJP-2019-7eaf62b2ec398619a4",
       "year": 2019,
       "category": "other",
@@ -54015,7 +54056,7 @@
     },
     {
       "id": "c172460db372589bbd",
-      "checked_at": "2026-10-24T21:14:02.682201+00:00",
+      "checked_at": "2026-10-30T01:59:07.237746+00:00",
       "promise_id": "BJP-2019-bdf84c05668b2f138c",
       "year": 2019,
       "category": "women_social_justice",
@@ -55919,7 +55960,7 @@
     },
     {
       "id": "21c782a6ad2ecb8987",
-      "checked_at": "2026-10-29T23:00:38.482055+00:00",
+      "checked_at": "2026-10-30T01:58:29.631048+00:00",
       "promise_id": "BJP-2019-2cfa1375f165d41707",
       "year": 2019,
       "category": "other",
@@ -57026,7 +57067,7 @@
     },
     {
       "id": "c1714de453cbe44257",
-      "checked_at": "2026-10-24T20:48:17.537155+00:00",
+      "checked_at": "2026-10-30T01:58:54.673599+00:00",
       "promise_id": "BJP-2019-177abae310a4a1867d",
       "year": 2019,
       "category": "jobs_economy",
@@ -57075,6 +57116,31 @@
             "dhan",
             "tribal",
             "vikas"
+          ]
+        },
+        {
+          "id": "dc676fbcd19ebdf261",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Coverage of PM Van Dhan Yojana proposed to be expanded from the current 18,000 SHGS to 50,000 Van Dhan SHGS, coverage of tribal gathers to be increased Three fold to 10 lakh - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1RcGo1anF0cFYyMWtLQklreFRKMENvYTJTOWFtQjRwU0NEaGRSTVhjVTZjNENiSHZLZVZXbVhFNmN5eU9BV1ZpOEltb0FYRkJjMGVmMnE1M0kyYzFxYVJ2SjhHYTk5TzBF?oc=5",
+          "published_at": "2020-06-15T07:00:00+00:00",
+          "snippet": "Coverage of PM Van Dhan Yojana proposed to be expanded from the current 18,000 SHGS to 50,000 Van Dhan SHGS, coverage of tribal gathers to be increased Three fold to 10 lakh PIB",
+          "lexical_overlap": 0.12,
+          "relevance": 0.385,
+          "matched_terms": [
+            "dhan",
+            "tribal",
+            "van"
+          ],
+          "shared_numbers": [
+            "50000"
+          ],
+          "promise_core_overlap": [
+            "dhan",
+            "tribal"
           ]
         },
         {
@@ -57195,42 +57261,19 @@
             "dhan",
             "vikas"
           ]
-        },
-        {
-          "id": "7fe487813fa3accece",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Van Dhan Clusters from Wokha, Nagaland are driving tribal entrepreneurship - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1LSC05Sm8yb3F6bmljNWZtZnNrV1g5dERNVlBlbE5Hczc1WmRhYVVYSkFNa2pvTzdjYWJjMTIzX1lOemE5WGNsSGFvV2d2Y2xrR3JFYnlxUjNTMDRaZUVCRW1KS3p2UDE5QkttdHNn?oc=5",
-          "published_at": "2021-11-26T08:00:00+00:00",
-          "snippet": "Van Dhan Clusters from Wokha, Nagaland are driving tribal entrepreneurship Press Information Bureau",
-          "lexical_overlap": 0.15,
-          "relevance": 0.255,
-          "matched_terms": [
-            "dhan",
-            "tribal",
-            "van"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "dhan",
-            "tribal"
-          ]
         }
       ],
-      "implementation_signal": "current_primary_and_reporting_found",
+      "implementation_signal": "action_detected",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
       "outcome": {
-        "status": "insufficient_evidence",
+        "status": "progress_documented",
         "deadline_year": null,
-        "proof_strength": "none",
-        "proof_evidence_id": null,
+        "proof_strength": "verified_primary_action_with_object_overlap",
+        "proof_evidence_id": "efc4b64fd9486d493b",
         "proof": null,
-        "reason": "Available evidence is not yet sufficient for a documented outcome."
+        "reason": "Verified primary evidence overlaps the subject of the promise and documents implementation activity, but not the promised outcome."
       }
     },
     {
@@ -57274,7 +57317,7 @@
     },
     {
       "id": "09db92a7679f9e887b",
-      "checked_at": "2026-10-29T23:00:43.209403+00:00",
+      "checked_at": "2026-10-30T01:58:34.942832+00:00",
       "promise_id": "BJP-2019-4fc8289de8caed52ff",
       "year": 2019,
       "category": "other",
@@ -57352,7 +57395,7 @@
     },
     {
       "id": "66df56931e1fdc933f",
-      "checked_at": "2026-10-24T21:13:57.280548+00:00",
+      "checked_at": "2026-10-30T01:59:02.139736+00:00",
       "promise_id": "BJP-2019-7cb3858ebb5dac9f88",
       "year": 2019,
       "category": "other",
@@ -57377,30 +57420,7 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
       "query": "5 km scheme every has access banking",
-      "evidence": [
-        {
-          "id": "35336dd300789a63c4",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Financial Inclusion in India: Banking Every Citizen, Empowering Every Household - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ndWt5ZFZDdmRSMVBOd0ZZcjlwTmhKVEd6N1UwWDFUUjBHLXNsY20waEJqT29pS1ZDYjF0NWFkRzJHSE1IZ1BGbTVEQldOZUtIcmhNcHR4Wmp2ajg5VGh1WG44XzhrQzBu?oc=5",
-          "published_at": "2026-08-12T07:00:00+00:00",
-          "snippet": "Financial Inclusion in India: Banking Every Citizen, Empowering Every Household Press Information Bureau",
-          "lexical_overlap": 0.111,
-          "relevance": 0.181,
-          "matched_terms": [
-            "banking",
-            "every"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "banking",
-            "every"
-          ]
-        }
-      ],
+      "evidence": [],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -58520,7 +58540,7 @@
     },
     {
       "id": "3c9c4d05232bec142b",
-      "checked_at": "2026-10-24T20:48:22.114209+00:00",
+      "checked_at": "2026-10-30T01:58:59.366012+00:00",
       "promise_id": "BJP-2019-4e483dbca3a7ecf2d0",
       "year": 2019,
       "category": "infrastructure",
@@ -58876,7 +58896,7 @@
     },
     {
       "id": "d59efec46eb848278a",
-      "checked_at": "2026-10-24T21:14:03.709760+00:00",
+      "checked_at": "2026-10-30T01:59:08.348680+00:00",
       "promise_id": "BJP-2019-d8cb79528538424f6d",
       "year": 2019,
       "category": "education_skills",
@@ -62844,7 +62864,7 @@
     },
     {
       "id": "df076e7dea8ba67624",
-      "checked_at": "2026-10-29T23:01:13.859835+00:00",
+      "checked_at": "2026-10-30T01:58:44.858963+00:00",
       "promise_id": "BJP-2014-078252941779345656",
       "year": 2014,
       "category": "women_social_justice",
@@ -62886,6 +62906,25 @@
             "arbitration",
             "cases",
             "lok"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": []
+        },
+        {
+          "id": "9ad7ac893d1adf52b6",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Supreme Court Observer",
+          "source_url": "https://www.scobserver.in",
+          "title": "Supreme Court Review 2023: Arbitration - Supreme Court Observer",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1NdGpLWGNJeDRKVGZ4RXprNzN0N0x3ZWNCcURQVlhIVzNPb1JkYVBUTkptVXB5QVBqZ0V3VlJRUm1Nc3laVnM3dENnakcwc2xLc1BJZHIxc1g1R3AwQ0l3cnIzUFpRRTFBTHFwcHNGM3lfTS1NOXNNTFBoZ0c?oc=5",
+          "published_at": "2023-12-27T08:00:00+00:00",
+          "snippet": "Supreme Court Review 2023: Arbitration Supreme Court Observer",
+          "lexical_overlap": 0.133,
+          "relevance": 0.203,
+          "matched_terms": [
+            "arbitration",
+            "review"
           ],
           "shared_numbers": [],
           "promise_core_overlap": []
