@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T01:59:08.665764+00:00",
+  "generated_at": "2026-10-30T06:31:31.298437+00:00",
   "capabilities": {
     "official_evidence_search": true,
     "verified_primary_gate": true,
@@ -16,8 +16,8 @@
     "promise_checked_this_run": 30,
     "promise_total_candidates": 841,
     "promise_coverage_pct": 101.3,
-    "primary_candidates": 559,
-    "secondary_candidates": 1054,
+    "primary_candidates": 558,
+    "secondary_candidates": 1057,
     "prior_fact_checks": 0,
     "publishable_auto_verdicts": 0,
     "claim_verdicts": {
@@ -29,8 +29,8 @@
       "fulfilled_by_deadline": 0,
       "target_reached_evidence": 0,
       "proven_unfulfilled_by_deadline": 0,
-      "progress_documented": 12,
-      "deadline_passed_unresolved": 48,
+      "progress_documented": 13,
+      "deadline_passed_unresolved": 47,
       "deadline_not_reached": 13,
       "insufficient_evidence": 37,
       "not_machine_measurable": 742,
@@ -102,6 +102,48 @@
       "promise_matches": [],
       "evidence": [
         {
+          "id": "50dc6734195f1b52af",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Deccan Chronicle",
+          "source_url": "https://www.deccanchronicle.com",
+          "title": "Five medical colleges to be opened this year: Krishna Babu - Deccan Chronicle",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWk1kbTVHdGFOOWRHa2tIX191M0hlb3AzX0hDUm9lR1lEajJDTDRkb1JKcXVqdVlhTlYxZlo2eHdDaFpLQU0zbXZSeG5BM2dQRXhtTXdNdlI2RC05YVBpRi1HcmZCbGhrNE1xM1JPS3NLMDRPLXZ6ZmhQUDlIT3F3a0JzeGlIWVMyQ19oOHhsd2Z3ZDlEVUNYQ3ZyRjAtTDJpSzJkRmZGZXZBUEc4eTcxelk2QWhER1V1ako3S0FnQdIBxAFBVV95cUxNRGVZYi1GaFcybF9DR05KZE5yYVJiQnNfNlpCbHY2UXJBOXRfdkp6ZGVkcU53T2VCVjd6UlRMd1RJZXZwUHhZSlVyQTdpZW5acURYLVZheFNvZTE5VF93d0JiaFBsSEt6cC1CZUFvU0pSeGFqdkpNeFF1V21rYzhWYVFvTkJSWlo2NFF1cUphbXY1YkdkbTV0WWtsTS1IN1pqZlhOMEJyNW96ZTlTb2ZqeW9fcktLUTlGWWVRcktMNlpyU2h6?oc=5",
+          "published_at": "2023-06-09T07:00:00+00:00",
+          "snippet": "Five medical colleges to be opened this year: Krishna Babu Deccan Chronicle",
+          "lexical_overlap": 0.3,
+          "relevance": 0.405,
+          "matched_terms": [
+            "colleges",
+            "medical",
+            "opened"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "5bc359c2e21b19a422",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Norms for Permission for Opening of Medical Colleges - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE53dy1VTDhJNzhuTi1DTDZVNFdaVENKQ3V2cl92WHhRcWk3LUN1S3hDaGZnSUJrdG14NzJHWElvajhZNjQ0bkh3a1JkTWNySnQ1bEVZUUcxVmIyRDRpT05BcW81QzFVcDdsSnNGTg?oc=5",
+          "published_at": "2013-03-05T08:00:00+00:00",
+          "snippet": "Norms for Permission for Opening of Medical Colleges Press Information Bureau",
+          "lexical_overlap": 0.182,
+          "relevance": 0.302,
+          "matched_terms": [
+            "colleges",
+            "medical"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.007,
+            "neutral": 0.9442,
+            "contradiction": 0.0487
+          }
+        },
+        {
           "id": "79a5de7000dc444ee7",
           "scope": "news_search",
           "tier": "secondary",
@@ -122,8 +164,8 @@
       ],
       "fact_checks": [],
       "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
+        "level": "primary_evidence_found",
+        "label": "Relevant verified primary evidence candidate found",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -385,22 +427,23 @@
       "promise_matches": [],
       "evidence": [
         {
-          "id": "0e2d9417e1acdf56ab",
+          "id": "16024edfec0ea10a2d",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "CNBC",
-          "source_url": "https://www.cnbc.com",
-          "title": "Warren Buffett: 'If I had been a female, my life would have been entirely different' - CNBC",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOV3BpbjltT3B2RHZwanlSTVVqWkVzVFVaYnNKa1lpQkZ1UlBlVHBFOEIzcVZlNzhnOXZvM2N0c0gwYVVNcFFpX1IzYk9pVXctcnRXck82cVREMU1ycDB1bW5JM05YSGtjaExlWkpaSFBZSWtfSUktVVRuVE9LYldjWHMtdDQ1UmV1QXJCSHhqNmxwY1otbkFoQWEtUDBFNUlwYl9Z0gGoAUFVX3lxTFBJQjZYdVNlWWlEdTN6QnVBZWVQc3JIcjA1XzVuWlVhV3UxWWlZY0hrVkVINjFOOVU1ekZsWHhGZzZDTm5mZkVtYnA5RTNKX2Y4TTEtdzF1c01QTUxpRmktMmtfVVNBY1BtbnlJV2ZGeHVYOGJzYXpDaU9fTE5xVDZGcXdvVDd4bTJOcXVHbTJqblNCV0stR09IN3A2UGZzOTg2a0JBQlVSUA?oc=5",
-          "published_at": "2018-10-16T07:00:00+00:00",
-          "snippet": "Warren Buffett: 'If I had been a female, my life would have been entirely different' CNBC",
-          "lexical_overlap": 0.111,
-          "relevance": 0.181,
+          "source": "BBC",
+          "source_url": "https://www.bbc.com",
+          "title": "Kevin Pietersen: Joe Root says England are 'very different' from 2014 - BBC",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1PZGU2QzhjTFllc1Q5TGNXMDh4ZU1ZZ21rRll1THpIcUFHdGNXSWdONnlqdThXRC1XWFZSY1BHTnBBczFKSjB4OHRFUE9YcDBpSU5nZ2NpVFpBSWFuZWxGUGJUVTg4Zw?oc=5",
+          "published_at": "2026-09-08T07:00:00+00:00",
+          "snippet": "Kevin Pietersen: Joe Root says England are 'very different' from 2014 BBC",
+          "lexical_overlap": 0.062,
+          "relevance": 0.208,
           "matched_terms": [
-            "different",
-            "entirely"
+            "different"
           ],
-          "shared_numbers": []
+          "shared_numbers": [
+            "2014"
+          ]
         }
       ],
       "fact_checks": [],
@@ -468,26 +511,7 @@
       "query": "frameworks built nation recent along ecosystem",
       "numbers": [],
       "promise_matches": [],
-      "evidence": [
-        {
-          "id": "23915aaf989e67f10f",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "CSIS | Center for Strategic and International Studies",
-          "source_url": "https://www.csis.org",
-          "title": "Export Nation or Ecosystem Power: South Korea’s Choice in the AI Industrial Age - CSIS | Center for Strategic and International Studies",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZU5DblhJNmhFRG5vd0NrYXk2X3hEb1FlSk1rVnF4eFFiZGo1aWlTVmIyWGY5NUc2QUVpRWZIY054clppSU42eHdDWkZGUXVjcl9vb1Y1RWxTX3ppaDVCSGVNME9UOUpTTS16eE1HN0ZjejdHTS1tRlBkdlZiMEJmZG9JRVhVeFBIMENYT281YkJ5bkFEOHU2TlY1VzN4SEFBM0E?oc=5",
-          "published_at": "2026-07-07T07:00:00+00:00",
-          "snippet": "Export Nation or Ecosystem Power: South Korea’s Choice in the AI Industrial Age CSIS | Center for Strategic and International Studies",
-          "lexical_overlap": 0.08,
-          "relevance": 0.15,
-          "matched_terms": [
-            "ecosystem",
-            "nation"
-          ],
-          "shared_numbers": []
-        }
-      ],
+      "evidence": [],
       "fact_checks": [],
       "signal": {
         "level": "needs_research",
@@ -755,38 +779,42 @@
       ],
       "evidence": [
         {
-          "id": "9860913f9848bd5052",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "CNBC TV18",
-          "source_url": "https://www.cnbctv18.com",
-          "title": "76.95 lakh street vendors avail ₹18,475 crore collateral-free loans under PM SVANidhi - CNBC TV18",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNLVNJNjBHc2VVZmhFVDRPN181RzNfdjFpRWVwQkhjdW9xWk4xV09LWU9ndVdkcEhYOFZ6QVQ3dWRrUmVFbVlxdnFfOG5uZXl1cXJWZkpDX3VjQzU0SGhpaEg1U3llWE9EWGRhOE0tc1JZMFlFd1JxRnV6LWp4REh5NDJmdlR3SUVubTdXdXZWWWVRZ2staF9FNzdWbVJnOVFUVUZKcVdoSzdGZTQyVElTQUNlM0VWUDAyaklVT3Z2TmlNUTlnc2F1SkNsTjnSAdIBQVVfeXFMTWxGdXNtTlNaODVCaEJZcWE3WGNURVJXYTJpb2dIWXlveHVubW4xM0NJdFJQWmpOVHlmTl9PWnZfUm1SVkV1M0lNV0p4cE9ubkhVY2Q2aGExZnZyQTFZb3hNWHBkejRrRlMtYm1ReVR3SEVHZi0tX0xKeHBMd3lSRkdWd0pFaTJnSm5oOTNjTWQ2UEJ5elE1TnprZ2hzUGp4ZXpDY2FOM0Jsd1doejN1UU85WDJQQVVDNmxfUUFyYU1uZUljdXFfVGJ1dW05V0dGVmdB?oc=5",
-          "published_at": "2026-08-06T07:00:00+00:00",
-          "snippet": "76.95 lakh street vendors avail ₹18,475 crore collateral-free loans under PM SVANidhi CNBC TV18",
-          "lexical_overlap": 0.312,
-          "relevance": 0.488,
+          "id": "9093fc80088a431121",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "STREET VENDORS UNDER PM SVANIDHI - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBsdFprYk1IckVSREczbmFqTi1ueEZjaDhLOUc1S1V3bXN6RkFyZ2c4cm1Odm93ZEdZcTBBY3VvdTZDaDFISGJaTlN6NENhMW04TFdTRGRMTFJuOElFV0MyY0p5MGw5UVVz?oc=5",
+          "published_at": "2026-07-27T07:00:00+00:00",
+          "snippet": "STREET VENDORS UNDER PM SVANIDHI Press Information Bureau",
+          "lexical_overlap": 0.308,
+          "relevance": 0.498,
           "matched_terms": [
-            "loans",
             "pm",
             "street",
             "svanidhi",
             "vendors"
           ],
-          "shared_numbers": []
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.0014,
+            "neutral": 0.9879,
+            "contradiction": 0.0107
+          }
         },
         {
-          "id": "298062dee55b994777",
+          "id": "b442e16d023cefbf1b",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "Press Information Bureau",
+          "source": "pib.gov.in",
           "source_url": "https://www.pib.gov.in",
-          "title": "PM SVANidhi: Advancing Financial Inclusion for Street Vendors - Press Information Bureau",
+          "title": "PM SVANidhi: Advancing Financial Inclusion for Street Vendors - pib.gov.in",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zVEpmWHF5a1BURTRnSnNMU1BuX09EWUxCSWIxV3BuVWt4dnJIUUd6VHJSSm5zYmh3dFU0WVVGVU1xcE5LSEhrSWNRaE43aFE4dWpscmFvenJBbGR3b3JzOHVkZ1ZpZlhk?oc=5",
           "published_at": "2026-05-30T07:00:00+00:00",
-          "snippet": "PM SVANidhi: Advancing Financial Inclusion for Street Vendors Press Information Bureau",
-          "lexical_overlap": 0.25,
-          "relevance": 0.44,
+          "snippet": "PM SVANidhi: Advancing Financial Inclusion for Street Vendors pib.gov.in",
+          "lexical_overlap": 0.267,
+          "relevance": 0.457,
           "matched_terms": [
             "pm",
             "street",
@@ -796,8 +824,98 @@
           "shared_numbers": [],
           "nli": {
             "entailment": 0.0015,
-            "neutral": 0.9865,
-            "contradiction": 0.012
+            "neutral": 0.99,
+            "contradiction": 0.0085
+          }
+        },
+        {
+          "id": "8100904d3185b9b68e",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "IBEF",
+          "source_url": "https://www.ibef.org",
+          "title": "Empower Street Vendors with PM SVANidhi Scheme - IBEF",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9GX1FkVHBULV80WnVJSC1LTU9qMG9SNkp3NWltVjJOWUdBMVpsM2VXNXpXZVdBNTdVLVJOMGFPZUxiNmIzU0R2NUROc1czWGtWR05QMnRQbTlKaEpnMklUSnVNTEdkdUIzdXc?oc=5",
+          "published_at": "2024-06-08T13:31:59+00:00",
+          "snippet": "Empower Street Vendors with PM SVANidhi Scheme IBEF",
+          "lexical_overlap": 0.308,
+          "relevance": 0.448,
+          "matched_terms": [
+            "pm",
+            "street",
+            "svanidhi",
+            "vendors"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "5f82f1e163608f6189",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "IBEF",
+          "source_url": "https://www.ibef.org",
+          "title": "PM SVANidhi: Micro Credit Scheme for Street Vendors - IBEF",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQR3pJVDdCb2FpR19pdjJGbUwxZ0tZaHVSaU9TajdOWndrZVF0Qy1STG95WGpNWFJpVU5UM1hxN1ZZVDZlXzBrNEdEMWtpZnhEbTBuTHh6UVZEeVZCV0o2TTNlMmhyRjNmVndLTExxcVYtUWV0OGNXTDFBUWpleWlPNEE5WQ?oc=5",
+          "published_at": "2023-02-17T08:00:00+00:00",
+          "snippet": "PM SVANidhi: Micro Credit Scheme for Street Vendors IBEF",
+          "lexical_overlap": 0.286,
+          "relevance": 0.426,
+          "matched_terms": [
+            "pm",
+            "street",
+            "svanidhi",
+            "vendors"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "4a2a6c9ec1e80a96b6",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "PM SVANidhi restores dignity of street vendors: Housing Minister Hardeep S Puri - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBfN0FteFZwRkQ1M0xHUFJtQUJzLU00OUVPWWtXcDdqcXNWb0ZDZ2p0dTJFRVRJZnlGOG9hZUZycThqUjRYTDJsVFNQaVZKQzJGd0dEU2hKYjVzV2VERV9UUk1xRWxkVUIwdExjX1RTQVE?oc=5",
+          "published_at": "2024-02-16T08:00:00+00:00",
+          "snippet": "PM SVANidhi restores dignity of street vendors: Housing Minister Hardeep S Puri Press Information Bureau",
+          "lexical_overlap": 0.222,
+          "relevance": 0.412,
+          "matched_terms": [
+            "pm",
+            "street",
+            "svanidhi",
+            "vendors"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.0014,
+            "neutral": 0.9895,
+            "contradiction": 0.0091
+          }
+        },
+        {
+          "id": "1cc22278e47ff9110b",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Cabinet approves restructuring & extension of lending period beyond 31.12.2024 of PM Street Vendors AtmaNirbhar Nidhi (PM SVANidhi) Scheme - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9fNk1LMHhpbTlfVXk3eS1SYVFyX2hucUZPXzYtaFlJZXR6OUNsV3VtNlMtLTZUQ01zOURHci1wcVR5c292YWtSY0RoOUxLeW9PRW50bG9hX1hTN1paRVlZVjNHLUZDVncy?oc=5",
+          "published_at": "2025-08-27T07:00:00+00:00",
+          "snippet": "Cabinet approves restructuring & extension of lending period beyond 31.12.2024 of PM Street Vendors AtmaNirbhar Nidhi (PM SVANidhi) Scheme PIB",
+          "lexical_overlap": 0.19,
+          "relevance": 0.38,
+          "matched_terms": [
+            "pm",
+            "street",
+            "svanidhi",
+            "vendors"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.0021,
+            "neutral": 0.99,
+            "contradiction": 0.0079
           }
         },
         {
@@ -826,69 +944,6 @@
           }
         },
         {
-          "id": "25174439aa98ac4d28",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Cabinet approves restructuring & extension of lending period beyond 31.12.2024 of PM Street Vendors AtmaNirbhar Nidhi (PM SVANidhi) Scheme - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9fNk1LMHhpbTlfVXk3eS1SYVFyX2hucUZPXzYtaFlJZXR6OUNsV3VtNlMtLTZUQ01zOURHci1wcVR5c292YWtSY0RoOUxLeW9PRW50bG9hX1hTN1paRVlZVjNHLUZDVncy?oc=5",
-          "published_at": "2025-08-27T07:00:00+00:00",
-          "snippet": "Cabinet approves restructuring & extension of lending period beyond 31.12.2024 of PM Street Vendors AtmaNirbhar Nidhi (PM SVANidhi) Scheme Press Information Bureau",
-          "lexical_overlap": 0.182,
-          "relevance": 0.372,
-          "matched_terms": [
-            "pm",
-            "street",
-            "svanidhi",
-            "vendors"
-          ],
-          "shared_numbers": [],
-          "nli": {
-            "entailment": 0.0019,
-            "neutral": 0.9907,
-            "contradiction": 0.0074
-          }
-        },
-        {
-          "id": "cb771e93a84b2d81d9",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "DD India",
-          "source_url": "https://ddindia.co.in",
-          "title": "Over 1.05 crore loans sanctioned under PM SVANidhi since 2020 - DD India",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORUJPSVNXQnNTYUh3YkJZbzFEM1haLVJWcU9rdXVPeXpLVVNheXhTVzAtal9yZ3VUNHZZS2NHNEVZUExXZWNvUkE2QzZZTFlPc1hiOW91dGdieWUwbU5fNGRqZmwwYUswTWJBTFVtSEthQXg3R0IxYWFDdlNscUpZcmZfeHlHV2dyMXRBc3ljVUJDcnRlZVo0?oc=5",
-          "published_at": "2026-06-01T07:00:00+00:00",
-          "snippet": "Over 1.05 crore loans sanctioned under PM SVANidhi since 2020 DD India",
-          "lexical_overlap": 0.214,
-          "relevance": 0.319,
-          "matched_terms": [
-            "loans",
-            "pm",
-            "svanidhi"
-          ],
-          "shared_numbers": []
-        },
-        {
-          "id": "4955173f87cfaf2ce0",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Times of India",
-          "source_url": "https://timesofindia.indiatimes.com",
-          "title": "LG directs banks to speed up PM SVANidhi loans as Delhi receives over 4.3 lakh applications - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPNE9HSHFZcnJQWFpueWYtUVlyaXVySHVsczRBUEFyZDBuVFZFcDlEc3dLY2hzQ1NRSlpGUE8tdjNVdGU3MzNfdzZMSE9abmZEVGxNX1VOSE9WOXhCTUJLY2JocHBLYmhzR1d3VVp1amtra0s1RFdjRi1vTGJlSm9FcG1sWUIydXhzSUh2UlBwNFUxN0JZWi15RUptTGczTDJBVmI1Rk1CZ3RRWlpLanR0ZC04anBSQmxvM25DZ2xzSUtYWUxWLWhBWnYwcnRQTC0zRkV0ekZ6RXM3NHVnNG5KU1B0cVZjT1JoU1VsMUhQdnd0SDk4U2lN0gH8AUFVX3lxTE5kbkxlYzgxT1BhbllNVVBGWkZjQXREUmVPRmd5a2F1dWFyblZjRTZrVUhxNUFoanVWQUtxTXpSNzZqaGIwUjRwTnh5dzVJUGU5OGEteHJKY2hTcjRyRmNmVVlPd2FHYUVmZUx4eVNoemFBY3hYT2ttTTYzd3VhVTJJVWdySVZMWjlRclFJRU5HZGx2TXN4cGVOaEZ4NG9QeG16UHRhU0pZd0tHR1g2XzVMOW9jbEpfLUNpc0dTZlV6MFc0TmRQWVBKZkVXQmhoOG12RTJ0eGhvTFZTNVloRkx3WHFKak9sZ0ZVQjB4WHFoZ2o0Y0tmb1dxVV9pbQ?oc=5",
-          "published_at": "2026-06-12T07:00:00+00:00",
-          "snippet": "LG directs banks to speed up PM SVANidhi loans as Delhi receives over 4.3 lakh applications The Times of India",
-          "lexical_overlap": 0.15,
-          "relevance": 0.255,
-          "matched_terms": [
-            "loans",
-            "pm",
-            "svanidhi"
-          ],
-          "shared_numbers": []
-        },
-        {
           "id": "eb7e0e2bf220518ef5",
           "scope": "preferred_official_search",
           "tier": "primary",
@@ -912,28 +967,27 @@
           }
         },
         {
-          "id": "2dba54a7c6bab0b7ac",
+          "id": "10ab72a0082de17f60",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Organiser",
-          "source_url": "https://organiser.org",
-          "title": "PM SVANidhi Success Story: How Modi Govt’s street vendor scheme transformed more than 75 lakh lives across Bharat - Organiser",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQZGlSaVEwQjRSNVA5MXgzMWNGZEtFZTBpWHlKMGxZblJwNi0xWWthMDVLdW5HS1lxbkEyMFJSX000TjVjVmEwblYtenBfV292YmtGMjRseWxZcDY5U0NuamNxSzBwWHk3VUpJdDFPQXB3MzJmOG9oYW9TeGRBNXBYV1BLaXAzMG9nZkszMlk2NGlMLWRNNVo4a3RmMnhEMmRvbHY4MmhleW8zWlRjTmttSVQzaVR3a2E3SVppYy1XS2g4SG5HNVdzaWM2ME5LM3BjbF9mTWlWOUFZRkxKSGNqLUVqSU9HekR2WXAxS0xJZ2PSAfYBQVVfeXFMTlFiNC1xcGVJOFZxc25ZNElMOU1VN2lVQ3BLZHNScGxwRllyaVFoZks1b2tLX2loN0thR0pZZm9BSkJ0d00xYmhzV0w4V01NNGN2ekR3bXc4OTRUTkdHUnh1M2s0blZ0Y1BBam02UmlRVmZJcGJSWUNiY3RhdDlyMXk5TVpoOVdBYzFDNVJLeFNGS3RxRUkxZDM1ZE5peEt4azJWVjR4M2ZIalozMVh2aHF1clo3MFl5Nk1SN2JYbG9sLUN3SFU1UmRVUzhjem14cmhiUXAwZTJvOGlWTzl0NklMZTBILVBBMFlTbG1xSl9FY2VOQm5R?oc=5",
-          "published_at": "2026-05-31T07:00:00+00:00",
-          "snippet": "PM SVANidhi Success Story: How Modi Govt’s street vendor scheme transformed more than 75 lakh lives across Bharat Organiser",
-          "lexical_overlap": 0.143,
-          "relevance": 0.248,
+          "source": "CMO Gujarat",
+          "source_url": "https://cmogujarat.gov.in",
+          "title": "PM SVANidhi Yojana convened in Ahmedabad - CMO Gujarat",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMW5KTTdDa1ZpNE01OWZZMHZoZFZvdTM4ako5TDc0WVJ2eVU1S3FDYnFPVHkycUx6RC00VWJqbDI2YW8wNlFNZHhYWDJtWGJTd1dWOWpyY1BUOWY3Rm9VTWZUb0lEN3lJQ1FBenV0eGpDakU4VzJSdWRWbXJubml0WmpTd3Q?oc=5",
+          "published_at": "2023-12-24T08:00:00+00:00",
+          "snippet": "PM SVANidhi Yojana convened in Ahmedabad CMO Gujarat",
+          "lexical_overlap": 0.133,
+          "relevance": 0.203,
           "matched_terms": [
             "pm",
-            "street",
             "svanidhi"
           ],
           "shared_numbers": []
         },
         {
-          "id": "f04481ddb3b430e24d",
-          "scope": "preferred_official_search",
-          "tier": "primary",
+          "id": "1fb7faa36ced241a76",
+          "scope": "news_search",
+          "tier": "secondary",
           "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
           "title": "Over 5 lakh applications received under PM SVANidhi scheme - Press Information Bureau",
@@ -941,30 +995,7 @@
           "published_at": "2020-08-12T07:00:00+00:00",
           "snippet": "Over 5 lakh applications received under PM SVANidhi scheme Press Information Bureau",
           "lexical_overlap": 0.118,
-          "relevance": 0.238,
-          "matched_terms": [
-            "pm",
-            "svanidhi"
-          ],
-          "shared_numbers": [],
-          "nli": {
-            "entailment": 0.0024,
-            "neutral": 0.9879,
-            "contradiction": 0.0097
-          }
-        },
-        {
-          "id": "2d5a3567fb9906dfd2",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "News On AIR",
-          "source_url": "https://newsonair.gov.in",
-          "title": "PM SVANidhi scheme completes six years of implementation - News On AIR",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRWdHWlR4U0JfVVFKeEExMk5TWUNZT1hVZ2xpeHNyQl9DU2s4aG5PYlRqX3djOWpNVUtmTWxDd2IzUENFNHJodW1lYlJSUDZRQlh1dU1ndlRLUmNUd1IwSVVTNkJGeGttMXpFOThsM29NRWtBSS14SnpyQ1RGaF9zM0RoNU55RENJSEE?oc=5",
-          "published_at": "2026-06-01T07:00:00+00:00",
-          "snippet": "PM SVANidhi scheme completes six years of implementation News On AIR",
-          "lexical_overlap": 0.125,
-          "relevance": 0.195,
+          "relevance": 0.188,
           "matched_terms": [
             "pm",
             "svanidhi"
@@ -1077,7 +1108,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-30T01:58:20.556164+00:00",
+      "latest_checked_at": "2026-10-30T06:30:47.814848+00:00",
       "latest_claim_packet_id": "d4aab404e9ccc6ccf7"
     },
     {
@@ -1344,7 +1375,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-30T01:58:20.556211+00:00",
+      "latest_checked_at": "2026-10-30T06:30:47.814896+00:00",
       "latest_claim_packet_id": "884558fa72add4403d"
     },
     {
@@ -1440,7 +1471,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-30T01:58:20.556150+00:00",
+      "latest_checked_at": "2026-10-30T06:30:47.814833+00:00",
       "latest_claim_packet_id": "60ae96f665f22ef03b"
     },
     {
@@ -1488,7 +1519,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-30T01:58:20.556031+00:00",
+      "latest_checked_at": "2026-10-30T06:30:47.814716+00:00",
       "latest_claim_packet_id": "b8d4ab680299139905"
     },
     {
@@ -1560,7 +1591,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-30T01:58:20.556196+00:00",
+      "latest_checked_at": "2026-10-30T06:30:47.814881+00:00",
       "latest_claim_packet_id": "dac6e2327ebe0bd17a"
     },
     {
@@ -1776,7 +1807,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-30T01:58:20.556226+00:00",
+      "latest_checked_at": "2026-10-30T06:30:47.814930+00:00",
       "latest_claim_packet_id": "050ea98dd7879a06cd"
     },
     {
@@ -1968,7 +1999,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-30T01:58:20.556107+00:00",
+      "latest_checked_at": "2026-10-30T06:30:47.814786+00:00",
       "latest_claim_packet_id": "29371b53212e779eff"
     },
     {
@@ -2106,13 +2137,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "reporting_found",
+      "evidence_state": "primary_evidence_found",
       "human_reviewed": false,
       "created_at": "2026-10-27T07:50:11.251666+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-30T01:58:20.556066+00:00",
+      "latest_checked_at": "2026-10-30T06:30:47.814754+00:00",
       "latest_claim_packet_id": "b35543711de7918ea9"
     },
     {
@@ -2184,7 +2215,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-30T01:58:20.556093+00:00",
+      "latest_checked_at": "2026-10-30T06:30:47.814771+00:00",
       "latest_claim_packet_id": "ddb711a027259cf305"
     },
     {
@@ -2376,7 +2407,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-30T01:58:20.556253+00:00",
+      "latest_checked_at": "2026-10-30T06:30:47.814958+00:00",
       "latest_claim_packet_id": "5bb402465b7ccab062"
     },
     {
@@ -2520,7 +2551,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-30T01:58:20.556179+00:00",
+      "latest_checked_at": "2026-10-30T06:30:47.814863+00:00",
       "latest_claim_packet_id": "f5f9e7bb05cfa3199f"
     },
     {
@@ -2664,7 +2695,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-30T01:58:20.556241+00:00",
+      "latest_checked_at": "2026-10-30T06:30:47.814945+00:00",
       "latest_claim_packet_id": "00739b48a203bf3deb"
     },
     {
@@ -2808,7 +2839,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-30T01:58:20.556137+00:00",
+      "latest_checked_at": "2026-10-30T06:30:47.814818+00:00",
       "latest_claim_packet_id": "1d53d6d12eb863d5b2"
     },
     {
@@ -3051,7 +3082,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-10-30T01:58:20.556124+00:00",
+      "latest_checked_at": "2026-10-30T06:30:47.814804+00:00",
       "latest_claim_packet_id": "318b27cf844c2ade6a"
     },
     {
@@ -3747,7 +3778,7 @@
     },
     {
       "id": "84a37138302d0ea24f",
-      "checked_at": "2026-10-28T12:51:11.211693+00:00",
+      "checked_at": "2026-10-30T06:31:14.418923+00:00",
       "promise_id": "BJP-2024-655f124c198f6b9ede",
       "year": 2024,
       "category": "health_welfare",
@@ -3772,50 +3803,6 @@
       "query": "free health treatment strengthening ayushman other",
       "evidence": [
         {
-          "id": "7e879867da37cee1fe",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "PM launches PM Ayushman Bharat Health Infrastructure Mission - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5MVDVrSDN0eC12V1g4Q1R3TXpLTjlhVWJkc24zRzVqb29rUkZoRG90MENpX0xUZGJrQVZiSDlPb0hfa3BNYmlyelVVR2hRcEZrbWdYSG1EekZQTDItNXFoeFJNem42RUwy?oc=5",
-          "published_at": "2021-10-25T07:00:00+00:00",
-          "snippet": "PM launches PM Ayushman Bharat Health Infrastructure Mission Press Information Bureau",
-          "lexical_overlap": 0.125,
-          "relevance": 0.245,
-          "matched_terms": [
-            "ayushman",
-            "health"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "ayushman",
-            "health"
-          ]
-        },
-        {
-          "id": "721ee8db758df00340",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://static.pib.gov.in",
-          "title": "Strengthening Healthcare Ecosystem in Madhya Pradesh Ayushman Bharat - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZUROQWh6QzZHeWo1NWxBZjBSaTQzdEQtbzk2OGw0cUNzS1BmNnIwQ2NaTHF1TnZwcmxFcGQzSzJyVWFTVzQtR3BlcXYtTkg2bklOemxPN1BNRzhIWGlmaF9md3FfczQ3Z3pERGZaY1JrUS1XTHBFT0hIbi10eG5IR3dkYlo2REEyYU1mYTU5MjdSSExTbFV3?oc=5",
-          "published_at": "2023-08-17T07:00:00+00:00",
-          "snippet": "Strengthening Healthcare Ecosystem in Madhya Pradesh Ayushman Bharat Press Information Bureau",
-          "lexical_overlap": 0.125,
-          "relevance": 0.245,
-          "matched_terms": [
-            "ayushman",
-            "strengthening"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "ayushman",
-            "strengthening"
-          ]
-        },
-        {
           "id": "c5f14f64a6c77dcd75",
           "scope": "news_search",
           "tier": "secondary",
@@ -3838,7 +3825,7 @@
           ]
         }
       ],
-      "implementation_signal": "current_primary_and_reporting_found",
+      "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -3853,7 +3840,7 @@
     },
     {
       "id": "9142cc4222ae957237",
-      "checked_at": "2026-10-28T12:51:14.900219+00:00",
+      "checked_at": "2026-10-30T06:31:17.929846+00:00",
       "promise_id": "BJP-2024-6f083d2624397d2590",
       "year": 2024,
       "category": "health_welfare",
@@ -3878,6 +3865,28 @@
       "query": "now further expand awas yojana every",
       "evidence": [
         {
+          "id": "0957a6f240f223a87a",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "ग्रामविकास विभाग",
+          "source_url": "https://rdd.maharashtra.gov.in",
+          "title": "Pradhan Mantri Awas Yojana – Rural | Rural Development and Panchayat Raj Department | India - ग्रामविकास विभाग",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBYY3pQSUF1SUsxaU95OU90RDAwdWJjbVQxVUh1RkpldlBpbVIybzZ6Tm55U1JQYnBIMWZJbU1xc0JIWVFjbDRfb0lQaWtaUjBGTWZrTWJBc1hWcGVjcVZyRml1bmZBamtfQUpickZ1U1V5ZzQ1ZEF0dmRqM2NOZzA?oc=5",
+          "published_at": "2025-01-29T08:00:00+00:00",
+          "snippet": "Pradhan Mantri Awas Yojana – Rural | Rural Development and Panchayat Raj Department | India ग्रामविकास विभाग",
+          "lexical_overlap": 0.1,
+          "relevance": 0.22,
+          "matched_terms": [
+            "awas",
+            "yojana"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "awas",
+            "yojana"
+          ]
+        },
+        {
           "id": "c37520a378a298f4d7",
           "scope": "preferred_official_search",
           "tier": "primary",
@@ -3899,37 +3908,15 @@
           ]
         },
         {
-          "id": "5b3719aea29d5573ed",
+          "id": "019881be16b66b1f46",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "The Indian Express",
-          "source_url": "https://indianexpress.com",
-          "title": "Pradhan Mantri Awas Yojana (PMAY): Know the eligibility, documents required, application process and more - The Indian Express",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdkNRVWpGQXlnTzN1TlVKQUhPcm85bURyVDFhZ0xqUnZpOG5zOGRVaTdjTE1YQWxKNzdBY2RvVEtYN1JrOWVLTkEyUzJFNEpjNm9xRDBFY1h5VW9xZHoxZXhkcUpfS3RyN2VVeXZUVlRoNGVFQ1p1OWIwMkZzUUYyZzQ0QVRSWjFQdThOZTlmX2VPbERJdDd5ZnpxNFlSRzc4c1FCX0Z1VzdoUTd1X2hHWkxPSGhWUdIBvAFBVV95cUxQcU9HcjdYdkFLeG9YR2hFbkxGUndWR2hXSm5leHdUSjZrTlh5UkhqUmI5c1dyMmROUUt6QWVkZ25wcHc3N3ZsS3JpMnhXd3lYSTVsNVM5WGpoVU9JWlVvNXFkVHgxUzI2V2o5RThHZW96X0d3YXFqcWtDZVJlby1VSmw5b3JTS2V5OXh5SFJydlZROW55TW9aMWNXUl93M1hFWHlQek5PVTZ2RHlhb1hWdlhvLWlHZU00RUI3RA?oc=5",
-          "published_at": "2024-06-25T07:00:00+00:00",
-          "snippet": "Pradhan Mantri Awas Yojana (PMAY): Know the eligibility, documents required, application process and more The Indian Express",
-          "lexical_overlap": 0.091,
-          "relevance": 0.161,
-          "matched_terms": [
-            "awas",
-            "yojana"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "awas",
-            "yojana"
-          ]
-        },
-        {
-          "id": "5b4a10dcfde4714450",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Press Information Bureau",
+          "source": "www.pib.gov.in",
           "source_url": "https://www.pib.gov.in",
-          "title": "Pradhan Mantri Awas Yojana - Urban Milestone: 1.25 crore houses sanctioned, 1 crore houses delivered - Press Information Bureau",
+          "title": "Pradhan Mantri Awas Yojana - Urban Milestone: 1.25 crore houses sanctioned, 1 crore houses delivered - www.pib.gov.in",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE11Y0tXUDBzTkFsUUdaZGh4VWJMUWIxSEh3VHM0dmFwZ2ltVERSUEtZeEp3c2hTRjltM2hMaTlVMWh3d0NFNzlzVVA0TDJNR1JTN3FzV2tKdng1ZXJGLUowYUtiR3Y1a0d5N2VXcVpxa0V2QnpFMmk1eVEwUQ?oc=5",
           "published_at": "2026-08-09T07:00:00+00:00",
-          "snippet": "Pradhan Mantri Awas Yojana - Urban Milestone: 1.25 crore houses sanctioned, 1 crore houses delivered Press Information Bureau",
+          "snippet": "Pradhan Mantri Awas Yojana - Urban Milestone: 1.25 crore houses sanctioned, 1 crore houses delivered www.pib.gov.in",
           "lexical_overlap": 0.087,
           "relevance": 0.157,
           "matched_terms": [
@@ -3943,7 +3930,7 @@
           ]
         }
       ],
-      "implementation_signal": "needs_research",
+      "implementation_signal": "current_primary_evidence_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -3958,7 +3945,7 @@
     },
     {
       "id": "922a69a41a45f72313",
-      "checked_at": "2026-10-28T12:51:17.155278+00:00",
+      "checked_at": "2026-10-30T06:31:20.377734+00:00",
       "promise_id": "BJP-2024-7149cef59f2dec82cb",
       "year": 2024,
       "category": "jobs_economy",
@@ -5085,7 +5072,7 @@
     },
     {
       "id": "0c1ecd38d1e0f89805",
-      "checked_at": "2026-10-28T12:51:16.259335+00:00",
+      "checked_at": "2026-10-30T06:31:19.190524+00:00",
       "promise_id": "BJP-2024-704ff770d89d64ede9",
       "year": 2024,
       "category": "education_skills",
@@ -6192,7 +6179,7 @@
     },
     {
       "id": "c45d622adfdfce52a6",
-      "checked_at": "2026-10-28T12:51:09.352421+00:00",
+      "checked_at": "2026-10-30T06:31:11.955433+00:00",
       "promise_id": "BJP-2024-63e8532ead1ce8f088",
       "year": 2024,
       "category": "health_welfare",
@@ -6217,8 +6204,8 @@
       "query": "further committed upholding dignity women continuing",
       "evidence": [
         {
-          "id": "2d2836740fad21b026",
-          "scope": "preferred_official_search",
+          "id": "7c63d63aaa1790aad7",
+          "scope": "broad_official_search",
           "tier": "primary",
           "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
@@ -6386,7 +6373,7 @@
     },
     {
       "id": "d0ebd64b8ab8e5cf50",
-      "checked_at": "2026-10-28T13:36:01.738463+00:00",
+      "checked_at": "2026-10-30T06:31:29.594438+00:00",
       "promise_id": "BJP-2024-7c63027b02dd8cb4d2",
       "year": 2024,
       "category": "women_social_justice",
@@ -6411,82 +6398,59 @@
       "query": "ensuring women health cancer well-being expand",
       "evidence": [
         {
-          "id": "c872da32e9aed5e4ca",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Steps taken by Government of India to improve Women’s Health - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9iQmVqTkNndTg3UWN1MkwwUU9TSTVhT2ZTTFFNWkdJZmh0aTJOYWEzSllCc2I5c2F2dlVSMjdwdEF0MzlWTXpaV2NKOGYwRU5nc0hRUXJubkVtem9IMlFBZEdBZ2J5YVRPOERpZzhWN2c?oc=5",
-          "published_at": "2023-08-08T07:00:00+00:00",
-          "snippet": "Steps taken by Government of India to improve Women’s Health Press Information Bureau",
+          "id": "09c2cab59e1e3014dc",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Nature",
+          "source_url": "https://www.nature.com",
+          "title": "Advances in biomonitoring technologies for women’s health - Nature",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBFSEJZU1QwM2tPNjh4ci04V29iMTNib2tnSEFkRndBREl0R1pzek8zMGZVUW9uaXpJeGExRkU2Um1HUWpKT3VBc3ZyWjI4YlFfUDVhdDJNcDk0MTEtblRF?oc=5",
+          "published_at": "2025-09-26T07:00:00+00:00",
+          "snippet": "Advances in biomonitoring technologies for women’s health Nature",
+          "lexical_overlap": 0.125,
+          "relevance": 0.195,
+          "matched_terms": [
+            "health",
+            "women"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "health",
+            "women"
+          ]
+        },
+        {
+          "id": "04c759da4dea10a47c",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "United Nations Development Programme",
+          "source_url": "https://www.undp.org",
+          "title": "Goal 3: Good health and well-being - United Nations Development Programme",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1vTWg4TzFYRE4xV0x5c2Rmbm42ZDkwaDN6elJwVHlHLUlYc2sxZXRHWTVKS1FWcnIwa3JoN05aQzVsT2ViRklseVhPWFdnbVd1amtUaTdfT1VMWGVhbWdtYXhOcUVVNDk2c28weXBfZw?oc=5",
+          "published_at": "2023-02-16T15:22:18+00:00",
+          "snippet": "Goal 3: Good health and well-being United Nations Development Programme",
           "lexical_overlap": 0.111,
-          "relevance": 0.231,
+          "relevance": 0.181,
           "matched_terms": [
             "health",
-            "women"
+            "well-being"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
             "health",
-            "women"
+            "well-being"
           ]
         },
         {
-          "id": "6ddc817bf438b54b9f",
+          "id": "26c3d1e23e08ad9edb",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Business Wire",
-          "source_url": "https://www.businesswire.com",
-          "title": "The MolinaCares Accord Grants $75,000 to Peninsula Community Health Services to Expand Mobile Mammography Access on the Kitsap Peninsula - Business Wire",
-          "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOMmdWc25kYS00YUJBeDNMRXpUWGhobDBrNF9EOWs0YVpBTVo0d09wdTlQNFRJeHdRQlBtNUV5NmJCTkpobll0QkJ2S3FvQXFUR3k2Y2I1UmVQSDVYTVlJZzlIeVNnVGhaaFJXSUhHNld0UWFfMHBHdW1pTDdPWV80bjRneEVhQW16MGdzTUJtall3VEh5N2tOeG1uMTI5ME1YbUhqYTdnOXZiYkhJREl2TE1qMkNXLUg5ZmdjVnJtNnVrbnBRaEo2TjFDblZjRHd4MlNKcnRhTEhURE5HV1REajVzaE1jcGNpb0hmNTYzdVZrY0JyOGQ4OEstTWFVcVhrckNTNWR4RF9LSFJZZHYtcWVUSmpMYXJYeE9vSVZnaw?oc=5",
-          "published_at": "2026-07-14T07:00:00+00:00",
-          "snippet": "The MolinaCares Accord Grants $75,000 to Peninsula Community Health Services to Expand Mobile Mammography Access on the Kitsap Peninsula Business Wire",
-          "lexical_overlap": 0.13,
-          "relevance": 0.235,
-          "matched_terms": [
-            "expand",
-            "health",
-            "services"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "health",
-            "services"
-          ]
-        },
-        {
-          "id": "871e87db1eb4eb985c",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Herald.co.zw",
-          "source_url": "https://www.heraldonline.co.zw",
-          "title": "Govt expands cancer treatment for rural women - Herald.co.zw",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPeklac3k5QzJpMm5mbW5wLTh0LVlzY0dybzdEZ1BTcUlmdVZJYlRRVVlCMzRCdlpoREhpZmRtb1lLdlFmVGlyc3daZENqOF9faW9JbzhCWUZNcWFMS1FibDNxZjdsY3ZSdDVoTHhjQlFzd19GUmEyRkkxeE1TSXZSdkM0VQ?oc=5",
-          "published_at": "2026-07-27T07:00:00+00:00",
-          "snippet": "Govt expands cancer treatment for rural women Herald.co.zw",
-          "lexical_overlap": 0.105,
-          "relevance": 0.175,
-          "matched_terms": [
-            "cancer",
-            "women"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "cancer",
-            "women"
-          ]
-        },
-        {
-          "id": "cb6106162e849a48b4",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "South Dakota State News (.gov)",
-          "source_url": "https://news.sd.gov",
-          "title": "South Dakota Department of Health Expands All Women Count! Eligibility - South Dakota State News (.gov)",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeEdHcWl0R0RXUUczZ0ZQcTh3eTZ0TUN1VzEyTllwSGtqV3pNUG9nSllHaWtDbnVkcWs3UGFZbW41SWlmOHZCLWc5bWxlOUZnVVZpUlR3QkVIUEJuOUNxWXJIV0VFS0Y4aW5kaGpyZHRnYzNxOGI3c3NxZXZVOGl4QWtYRFFTb20tVmZJMFZHbTREdw?oc=5",
-          "published_at": "2026-08-24T07:00:00+00:00",
-          "snippet": "South Dakota Department of Health Expands All Women Count! Eligibility South Dakota State News (.gov)",
+          "source": "McKinsey & Company",
+          "source_url": "https://www.mckinsey.com",
+          "title": "Closing the women’s health gap: A $1 trillion opportunity to improve lives and economies - McKinsey & Company",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQR1dGX3NaMjBtV0w0eUZndWR5WjdQN0NKRTV0cmh4eF84QllHbXpVVjREZWQ1ZjVuWldMWTVubWhHdFUtV2NOSEJnTUJ5MW5URmh4eWd6cmRDdTBuUnJXWEVRTG5Qb1ZlYmsyWWJQNlpsbHRRRmJ1NTBpQk9Lc3FMcTBiYS05S1RvbElaUVZIM1EzOW9LaHg3Mk1POGN5LTJ1dW5WZkJnTENaaXY1UWtxZ0JOYVNRSDB3MGZ5Ry1Wb1JIblNzYW5ldFB0alU2eU0?oc=5",
+          "published_at": "2024-01-17T08:00:00+00:00",
+          "snippet": "Closing the women’s health gap: A $1 trillion opportunity to improve lives and economies McKinsey & Company",
           "lexical_overlap": 0.095,
           "relevance": 0.165,
           "matched_terms": [
@@ -6497,29 +6461,6 @@
           "promise_core_overlap": [
             "health",
             "women"
-          ]
-        },
-        {
-          "id": "c1c7e678e68034ef50",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "National Health Executive",
-          "source_url": "https://www.nationalhealthexecutive.com",
-          "title": "Breast unit expands life-changing nipple tattoo service for breast cancer survivors - National Health Executive",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNFpsc2NicW4zV29zWDVPSlNJM2FjalRnOGE0MExMdTRLbGpJeUZLQUhQbWJhaU0yaE5BOHRtRWxCVkYyVkJyMUdVV21DNWY2WlAxSUt1ZkdTdlJDbFlQYXZaWFVrZDNJMXMwLWl1Y2NrRklERUI5cmpjRGJMR3J2Wk9hemxuZU1DT1ZBSVBjUzFLc1hQWnB5QXJpQlpJN05ETWtfU2FNSDVGUXJ6UFkxU3d4VWpDMmdYNVNTWlZjZllTWmk1VE1z?oc=5",
-          "published_at": "2026-08-21T07:00:00+00:00",
-          "snippet": "Breast unit expands life-changing nipple tattoo service for breast cancer survivors National Health Executive",
-          "lexical_overlap": 0.091,
-          "relevance": 0.161,
-          "matched_terms": [
-            "cancer",
-            "health"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "breast",
-            "cancer",
-            "health"
           ]
         },
         {
@@ -6545,7 +6486,7 @@
           ]
         }
       ],
-      "implementation_signal": "current_primary_and_reporting_found",
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -6560,7 +6501,7 @@
     },
     {
       "id": "ac5694412bdf8783dd",
-      "checked_at": "2026-10-28T13:36:03.523565+00:00",
+      "checked_at": "2026-10-30T06:31:30.813022+00:00",
       "promise_id": "BJP-2024-7dfa4ed5a91137a633",
       "year": 2024,
       "category": "education_skills",
@@ -10273,7 +10214,7 @@
     },
     {
       "id": "ed9a513b89d099f43a",
-      "checked_at": "2026-10-28T13:35:49.501999+00:00",
+      "checked_at": "2026-10-30T06:31:22.812438+00:00",
       "promise_id": "BJP-2024-72b047514af8695c55",
       "year": 2024,
       "category": "agriculture",
@@ -10374,7 +10315,7 @@
     },
     {
       "id": "31796104f8c289dc80",
-      "checked_at": "2026-10-28T13:35:56.047052+00:00",
+      "checked_at": "2026-10-30T06:31:27.385745+00:00",
       "promise_id": "BJP-2024-7a6c96d4de2d80a70d",
       "year": 2024,
       "category": "other",
@@ -10399,69 +10340,15 @@
       "query": "eliminating major veterinary diseases eliminate fmd",
       "evidence": [
         {
-          "id": "c9d372083b031ac1c7",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Union Cabinet clears new initiative to control Foot and Mouth Disease (FMD) and Brucellosis to support the livestock rearing farmers - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB0Z2x1aWlXc19oTHQwTTNlNVN4cGRvOXFNUTQwZ1h6NXpkb19jYlBCR1V2SnRDUWZYaTg0NXpOQ1J0OS1OR25rM2VBRm00VENfQjRlYllZSjdzeXdaTmotemVjYm5kV3psV1E?oc=5",
-          "published_at": "2019-05-31T07:00:00+00:00",
-          "snippet": "Union Cabinet clears new initiative to control Foot and Mouth Disease (FMD) and Brucellosis to support the livestock rearing farmers PIB",
-          "lexical_overlap": 0.286,
-          "relevance": 0.516,
-          "matched_terms": [
-            "brucellosis",
-            "control",
-            "disease",
-            "fmd",
-            "foot",
-            "mouth"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "brucellosis",
-            "control",
-            "disease",
-            "foot",
-            "mouth"
-          ]
-        },
-        {
-          "id": "b8a8e38008cb15f811",
+          "id": "9d51324ff05352f0ec",
           "scope": "preferred_official_search",
           "tier": "primary",
           "source": "Press Information Bureau",
           "source_url": "https://www.pib.gov.in",
-          "title": "FOOT AND MOUTH DISEASE (FMD) - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1KWVVNTGR5VkJobmxuMXRWSlQ4TzIzYWZ0U2t3Y2hsbFplOFFGdW9xNzF4dzhtWEZTN21TZERzVWdDc2VYeExRaXhRc3dMMXdkSHlOSkFrcm5jdTJ5NGhSM2JzMHlKT2kzZ2RNZko5eHA?oc=5",
-          "published_at": "2025-02-11T08:00:00+00:00",
-          "snippet": "FOOT AND MOUTH DISEASE (FMD) Press Information Bureau",
-          "lexical_overlap": 0.267,
-          "relevance": 0.457,
-          "matched_terms": [
-            "disease",
-            "fmd",
-            "foot",
-            "mouth"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "disease",
-            "foot",
-            "mouth"
-          ]
-        },
-        {
-          "id": "e55e472a5d12e007f7",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "www.pib.gov.in",
-          "source_url": "https://www.pib.gov.in",
-          "title": "NATIONAL ANIMAL DISEASE CONTROL PROGRAM - www.pib.gov.in",
+          "title": "NATIONAL ANIMAL DISEASE CONTROL PROGRAM - Press Information Bureau",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1TZHhiRXFxcVJ0bUh4eXE0cUJSaWpIa1NwWlItMEFOTEduTmdaNzlDVUZiTF9NTU94ZnZEYmZpTkY2SFJtNGE2M0RPd2UtYnBpMGFhX05xNDNEMFRMWVBfSnhIR1dTWkVXSXg3NnYyWVF0ZWRxOXNOb1Bn?oc=5",
           "published_at": "2025-03-18T07:00:00+00:00",
-          "snippet": "NATIONAL ANIMAL DISEASE CONTROL PROGRAM www.pib.gov.in",
+          "snippet": "NATIONAL ANIMAL DISEASE CONTROL PROGRAM Press Information Bureau",
           "lexical_overlap": 0.111,
           "relevance": 0.231,
           "matched_terms": [
@@ -10497,31 +10384,29 @@
           ]
         },
         {
-          "id": "541c22be1d8eb1b392",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Knews, Kathimerini",
-          "source_url": "https://knews.kathimerini.com.cy",
-          "title": "State Services order culling of 2,000 animals to eradicate foot and mouth disease - Knews, Kathimerini",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcVFYam54SS12QmozelRzazNWOFFqRkg4Y0tXVVFPbTVzaElzYV95amZVdF9LY0Z4TG1vRXlNcDQ2Zzl6U0psdENkeUJKMm9pekgxdXFwaUlSVW82RkpyRDU1RVpNbk5Kd0dyLXNGeXctSURlX3NQSF94aDE0ajJsdk1tV3MxaVRDRTRLUXptYm9MQjdmcGFiRkpPWW9MeDlEbFdBd01abjFPVFZ5WmJiX1ZhbkNKTHAwNG9NUjl0bw?oc=5",
-          "published_at": "2026-10-12T07:00:00+00:00",
-          "snippet": "State Services order culling of 2,000 animals to eradicate foot and mouth disease Knews, Kathimerini",
-          "lexical_overlap": 0.15,
-          "relevance": 0.255,
+          "id": "a4eeefadbf49055643",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Prime Minister Narendra Modi to launch National Animal Disease Control Programme on 11th September 2019 - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE01MlRXRS1ZOTFKUzkxbHRyVkQ5Y0xubVVTbUt2LVdib0ppUEdoVWV3OXFlTDZOeTFHWlA0bFJRNkV5enlMV1FwYUM5ZHdHYzNGZk9DZndrNTBjQzZPN1Ata1NrRkFhRlYzOXU0MWxhMnk?oc=5",
+          "published_at": "2019-09-09T07:00:00+00:00",
+          "snippet": "Prime Minister Narendra Modi to launch National Animal Disease Control Programme on 11th September 2019 Press Information Bureau",
+          "lexical_overlap": 0.095,
+          "relevance": 0.215,
           "matched_terms": [
-            "disease",
-            "foot",
-            "mouth"
+            "control",
+            "disease"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "disease",
-            "foot",
-            "mouth"
+            "control",
+            "disease"
           ]
         }
       ],
-      "implementation_signal": "current_primary_and_reporting_found",
+      "implementation_signal": "current_primary_evidence_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -15873,7 +15758,7 @@
     },
     {
       "id": "769e85497ef35d04bb",
-      "checked_at": "2026-10-28T12:51:07.140341+00:00",
+      "checked_at": "2026-10-30T06:31:09.666673+00:00",
       "promise_id": "BJP-2024-5a502a961387696185",
       "year": 2024,
       "category": "health_welfare",
@@ -18181,7 +18066,7 @@
     },
     {
       "id": "f2ebb5fd1c626d0a64",
-      "checked_at": "2026-10-28T12:51:08.158072+00:00",
+      "checked_at": "2026-10-30T06:31:10.780995+00:00",
       "promise_id": "BJP-2024-624d03ea5c16f4e1f8",
       "year": 2024,
       "category": "other",
@@ -18204,28 +18089,6 @@
       "related_promises": [],
       "query": "globally recognised certification mechanism yoga ayurveda",
       "evidence": [
-        {
-          "id": "78eefbacc91287ad87",
-          "scope": "broad_official_search",
-          "tier": "primary",
-          "source": "Embassy of India, Buenos Aires, Argentina",
-          "source_url": "https://www.indembarg.gov.in",
-          "title": "Certification on IDY Common Yoga Protocol - Embassy of India, Buenos Aires, Argentina",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPblh2LWhTb2FlZGNvZGhTVWR6bjJBVzAtcFBmX3R6LWhXQ20td0UzWEpWMEhZMXNOM25hREJUbmVvRWszdzYxVzVrOVFESl9fcFBKTXhnVHhkTHFqVnVSbEtha0xraXdnWUxrU09oQzF4SzQ0ZE9ZVWJ6Q1lYaE1tdThn?oc=5",
-          "published_at": "2021-07-27T01:06:58+00:00",
-          "snippet": "Certification on IDY Common Yoga Protocol Embassy of India, Buenos Aires, Argentina",
-          "lexical_overlap": 0.143,
-          "relevance": 0.263,
-          "matched_terms": [
-            "certification",
-            "yoga"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "certification",
-            "yoga"
-          ]
-        },
         {
           "id": "50befadcb4f8c8f370",
           "scope": "preferred_official_search",
@@ -22214,7 +22077,7 @@
     },
     {
       "id": "a850056f360a74ccf4",
-      "checked_at": "2026-10-28T13:35:52.830667+00:00",
+      "checked_at": "2026-10-30T06:31:25.093398+00:00",
       "promise_id": "BJP-2024-7487313c21c6a9979d",
       "year": 2024,
       "category": "jobs_economy",
@@ -27247,7 +27110,7 @@
     },
     {
       "id": "58d6d93bbb18507c54",
-      "checked_at": "2026-10-28T13:35:54.895623+00:00",
+      "checked_at": "2026-10-30T06:31:26.705982+00:00",
       "promise_id": "BJP-2024-7983f343e0ca238278",
       "year": 2024,
       "category": "security_defence",
@@ -27316,17 +27179,41 @@
           ]
         },
         {
-          "id": "3c479b820e7b70b15c",
+          "id": "eec35930d5f4c28bc4",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Nuclear Business Platform",
-          "source_url": "https://www.nuclearbusiness-platform.com",
-          "title": "Southeast Asia’s Nuclear Energy Expansion: A Strategic Market for Nuclear Business and Investment - Nuclear Business Platform",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNXFXOThNTlRXZHhrQ0t4MnI3bEFmMERwYmlfdXowdVBxSVVTWmt4bVFzSEFOU2o3WGZySTF5ODNkMlUtOWE2RDBrMnU5SkkwMVRZNmRxbVRSTHZPbnNZanFyWERjVEF1V2hyOWdSWEdXMksyWF9IZGF6cVd2WWJjd2ZhRUJpTzVVMGtNdGhjcklnNm1GQlpRazRXSQ?oc=5",
-          "published_at": "2025-02-13T08:00:00+00:00",
-          "snippet": "Southeast Asia’s Nuclear Energy Expansion: A Strategic Market for Nuclear Business and Investment Nuclear Business Platform",
-          "lexical_overlap": 0.1,
-          "relevance": 0.17,
+          "source": "The Times of India",
+          "source_url": "https://timesofindia.indiatimes.com",
+          "title": "100GW of nuclear power by 2047, 5 reactors this decade: Inside PM Modi's energy self-reliance plan - The Times of India",
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPZjlhZG5aMnRlcGlnbDl2WVBIWnRKV2IwNzJKaFZsWC1XSW5saVZCOENNRlhJWXpXSlFOSU5fY3lseWM3ZUlJdEJLU1BtZ3NoVEJxRmlHdlNrSGYwcWZwVmFTYzVLM0hzVVFkeEhMMENmRHhHRDFRMGJBS1A1YU5aN2s1ODZxa0dnZ3lzZzlxc3lCNUtPc1hGSkdYNV9IUmgwM0lILXdhT1l5MjBBMjZ6bnJHSzJoa3poOV9LM1FhZkhhcVZfaGRqaTlSVDNBWXcwUWtkUWxDYTNrcTRNSHNJQmlpTzQ4SVZPUTBwYjZBcHBJeXlhSFHSAfsBQVVfeXFMUDdDQTZpTFd3R1dadjZiT3dXck1GVV9uWGZIWmEyN0luckpWUUxBZlNQSTVxVFJRd2N6TkczalU3QzFpUnpoQjhtNDBZdGNDSllVc0tJYmR2ck12S3ZnOXExNTdJRVhEbEJKVTc2c3lVUWtWZDBpWU81NVc0eVdaeE91ZkVhMjdIRnJPczhjSTFJSDlZcVhyVUFRVXM1NGdaaFpjNm41YkQtQ3I1VmlwNmlHVFM2eFo0dTdLNzczMUpVZEY2MG9mY3V0UDhSNlpwN2dvVmIxa2oxajZkUjJnSk94a1lEb2FzaC1QSGg1Q0ZfX04xN09vcHhuR1E?oc=5",
+          "published_at": "2026-08-15T07:00:00+00:00",
+          "snippet": "100GW of nuclear power by 2047, 5 reactors this decade: Inside PM Modi's energy self-reliance plan The Times of India",
+          "lexical_overlap": 0.15,
+          "relevance": 0.255,
+          "matched_terms": [
+            "energy",
+            "nuclear",
+            "reactors"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "energy",
+            "nuclear",
+            "reactors"
+          ]
+        },
+        {
+          "id": "85fc8478e9b70faeb5",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Energetica India Magazine",
+          "source_url": "https://www.energetica-india.net",
+          "title": "The SHANTI Act and India’s Advancement in Nuclear Energy - Energetica India Magazine",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdlA5SFRRYTNMa1VXRkRjWU9oNFQyd293YWl5YXZwLUxhRzZReFNGVkNBZUpUQm9GbDllMU9mYTRzREt6UGVoN2hFdXdPemd4SVU0Tk0wZkhzc1VoNXhDTFlXT0RZbENISVQ0V05VZzQ4VUdkQjNUVHdTckJ1RGVEMFAtNmFKMlBhQ1hRcHh3VzltVEhoME8zdnNuZDlsQQ?oc=5",
+          "published_at": "2026-08-25T07:00:00+00:00",
+          "snippet": "The SHANTI Act and India’s Advancement in Nuclear Energy Energetica India Magazine",
+          "lexical_overlap": 0.118,
+          "relevance": 0.188,
           "matched_terms": [
             "energy",
             "nuclear"
@@ -27334,22 +27221,43 @@
           "shared_numbers": [],
           "promise_core_overlap": [
             "energy",
-            "investment",
             "nuclear"
           ]
         },
         {
-          "id": "509ec0c268de7f0d33",
+          "id": "8d9c1235b1393904b9",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "International Atomic Energy Agency",
-          "source_url": "http://www.iaea.org",
-          "title": "Five Reasons the Clean Energy Transition Needs Nuclear Power - International Atomic Energy Agency",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNLXg1d2dJT3BzdXZjTkFGSUlYNllkYzczaERZd0thQVRKa2ZwQXE0Nlc2b3hEZU1oZjhhdlI4NkwzSGJpbXRyZDZad2VYRFJ1dWQ4b1JjN1pRdUtVbUFkVDhDQzlLc0dJQ2J6ckh6NUVnMGx3dlotYml1b3pMYmozS19KU19hSDktajFVNjBCR1BiQlRndTVtNG1JNTk?oc=5",
-          "published_at": "2026-01-27T08:00:00+00:00",
-          "snippet": "Five Reasons the Clean Energy Transition Needs Nuclear Power International Atomic Energy Agency",
-          "lexical_overlap": 0.095,
-          "relevance": 0.165,
+          "source": "www.pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "India’s Energy Journey: Expanding Capacity, Strengthening Security - www.pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5jTEw2T3pSaVNXazdKWmFPT2ZCYWQ5cUdiajBZVk9RQjN4TDAxTmlqUERkMnhPRUJsTkI0ZTVuYmVsR1hWSFhid2c0Ujd3NzJZZktxUU5SMmdydndMRTZBdml4MlpGeDRZbkk1VlFwVi0yRFlqU1E?oc=5",
+          "published_at": "2026-08-13T07:00:00+00:00",
+          "snippet": "India’s Energy Journey: Expanding Capacity, Strengthening Security www.pib.gov.in",
+          "lexical_overlap": 0.105,
+          "relevance": 0.175,
+          "matched_terms": [
+            "energy",
+            "expanding"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "energy",
+            "expanding"
+          ]
+        },
+        {
+          "id": "8cc0a8d2d85e520660",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Spherical Insights",
+          "source_url": "https://www.sphericalinsights.com",
+          "title": "Vietnam AcceleraRtes Nuclear Power Push as Rising Electricity Demand Reshapes Energy Strategy - Expert View by Spherical Insights - Spherical Insights",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQeUJyT2FJZ2hYbVhCbktrelpJNkRxc2J3ZkRUV2hrcnU3WjdXU2EwVW9RUU1iMnhLVzJVeExIZXRFU2xpNHdRTFJiVE1VaTUzcllWTi1oMmhuclJ0cFphbTR1YlVKanBLVkdmOUV3NTlmUTB6NGxkbkZ1ZUpONWsxdU53Nk5DdkItVEs2Wlc2UnhHNk1pVTN1cHRnZ1lxVk5ib2VXZll5ZjYzVllabTNjemI5bDFtNVl2Ylhsc1hVZEpiU2Q3cXk2U0VKd0Rndw?oc=5",
+          "published_at": "2026-10-09T10:28:01+00:00",
+          "snippet": "Vietnam AcceleraRtes Nuclear Power Push as Rising Electricity Demand Reshapes Energy Strategy - Expert View by Spherical Insights Spherical Insights",
+          "lexical_overlap": 0.08,
+          "relevance": 0.15,
           "matched_terms": [
             "energy",
             "nuclear"
@@ -27361,7 +27269,7 @@
           ]
         }
       ],
-      "implementation_signal": "current_primary_evidence_found",
+      "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -31341,7 +31249,7 @@
     },
     {
       "id": "dd9607f6ad8bde361d",
-      "checked_at": "2026-10-28T12:51:18.679374+00:00",
+      "checked_at": "2026-10-30T06:31:21.687853+00:00",
       "promise_id": "BJP-2024-714e22f47c05a87b9c",
       "year": 2024,
       "category": "technology_digital",
@@ -31364,7 +31272,52 @@
       "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
       "related_promises": [],
       "query": "undertake institutional reforms simplify processes using",
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "a18fbf8d7f35701c8c",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "PM India",
+          "source_url": "https://www.pmindia.gov.in",
+          "title": "PM addresses Post-Budget Webinar on “Technology Reforms and Finance for Viksit Bharat” - PM India",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxON3ppUUp5RU1JSnI1ZnBuYkRxRnowcjZUQzJURlJIdnJJejBpR3F6QTJHYmxTT29lZ1BMLXJ1QjA2YUtWUWR4Y2wxSTVRVDM3TzAzWEh3ODY1VkNqZnZBOTd3cER1Sm1ySF9DYk9nYnBmT21hU3RqZVB4Mlc5WkJJdWZkcDA0QVhwOTdsWEhMUm9vWjlEWW1RenRQZVI1ZW04Tm1WTklOYXhxcTBzUGdzN0VYa0ZaTDY0RkttNVlqYU5uWUFwRmJv?oc=5",
+          "published_at": "2026-02-27T08:00:00+00:00",
+          "snippet": "PM addresses Post-Budget Webinar on “Technology Reforms and Finance for Viksit Bharat” PM India",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
+          "matched_terms": [
+            "reforms",
+            "technology"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "reforms",
+            "technology"
+          ]
+        },
+        {
+          "id": "55c9a462e12b4b4c17",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "bnpbd",
+          "source_url": "https://www.bnpbd.org",
+          "title": "Govt takes measures to simplify investment processes: PM - bnpbd",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9ELW04NkZDdVAyTDNoUklVQ04tV0p6NGI1LXFJcUpEQmdMTXAyeFdBS0I3ZEF4eHpKYlVUMGxpdW9OcV9kV0x3aGxZR2FvVHQxdFBncTZuVzZFV0RIWllhcC0wNk1oQQ?oc=5",
+          "published_at": "2026-06-16T20:45:14+00:00",
+          "snippet": "Govt takes measures to simplify investment processes: PM bnpbd",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
+          "matched_terms": [
+            "processes",
+            "simplify"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "processes",
+            "simplify"
+          ]
+        }
+      ],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -31380,7 +31333,7 @@
     },
     {
       "id": "56a2bb331eb4a6cc11",
-      "checked_at": "2026-10-28T13:35:50.682721+00:00",
+      "checked_at": "2026-10-30T06:31:23.564382+00:00",
       "promise_id": "BJP-2024-74392a1b409490ac51",
       "year": 2024,
       "category": "jobs_economy",
@@ -31438,6 +31391,50 @@
           "snippet": "Capacity Building Commission (CBC) begins training of DS/Director level officers from MDOs as Master trainers as part of Rashtriya Karmayogi – Large Scale Jan Seva’ Program Press Information Bureau",
           "lexical_overlap": 0.077,
           "relevance": 0.197,
+          "matched_terms": [
+            "building",
+            "capacity"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "building",
+            "capacity"
+          ]
+        },
+        {
+          "id": "41bbc63f57d08f8652",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "ANI News",
+          "source_url": "https://aninews.in",
+          "title": "AI integrated into government capacity building under iGOT Karmayogi: Jitendra Singh - ANI News",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOa29kOU44NGlJUVBNMVJZVTZ0VUNVdlc3cUxxTFhmUjJRNU9zM0I0VHJQTTZQcW9Rb3JGYlZzYWktSmNFNDB6N2tQQkJyVExOM3dJR1FRa2w0VThQNVZSUnQ3VXk4Q2hOaFVvNlkxZm95Z1Y2NXJrOUtoWnU2Q2ZZdUljbjZoUUV6MEh6RExsZm9xSlhYMDZYc3hBWTJrdEg5V0EyZ1FLWGo1UEdIejg0SENyY2RsMjNZdl93OUI5Um5iMml2MURCVDhSQQ?oc=5",
+          "published_at": "2026-01-08T08:00:00+00:00",
+          "snippet": "AI integrated into government capacity building under iGOT Karmayogi: Jitendra Singh ANI News",
+          "lexical_overlap": 0.1,
+          "relevance": 0.17,
+          "matched_terms": [
+            "building",
+            "capacity"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "building",
+            "capacity"
+          ]
+        },
+        {
+          "id": "430144cb54e824a910",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "IMPRI Impact and Policy Research Institute",
+          "source_url": "https://www.impriindia.com",
+          "title": "Mission Karmayogi: Civil Servants Capacity Building Program - IMPRI Impact and Policy Research Institute",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9BNmdsZXpCMFVVN0dUaEZmSGpTN3piZU5qR01oUjdueGp0ckRjeGdKMURkb2hucXVReU5ZdFM2Vk5CdzRXc1YyNmNEcHg3OEpwZ1h6X2kzZl9Vbi1HVTlGT3dhMVA?oc=5",
+          "published_at": "2023-01-10T08:00:00+00:00",
+          "snippet": "Mission Karmayogi: Civil Servants Capacity Building Program IMPRI Impact and Policy Research Institute",
+          "lexical_overlap": 0.091,
+          "relevance": 0.161,
           "matched_terms": [
             "building",
             "capacity"
@@ -33127,7 +33124,7 @@
     },
     {
       "id": "f3ec796b655fc1acdb",
-      "checked_at": "2026-10-28T12:51:10.636825+00:00",
+      "checked_at": "2026-10-30T06:31:13.094105+00:00",
       "promise_id": "BJP-2024-651016faed4182476c",
       "year": 2024,
       "category": "health_welfare",
@@ -33150,45 +33147,20 @@
       "query": "strengthen network aiims quality healthcare",
       "evidence": [
         {
-          "id": "f55ea22744849cc568",
+          "id": "b15ab2dfc5d4cf612e",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "The Times of India",
-          "source_url": "https://timesofindia.indiatimes.com",
-          "title": "President urges AIIMS Bilaspur doctors to take quality healthcare to remote Himachal - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOSm9Ka3N1YU00RDV1cGNvbjczYUdzczdSYVpsTXNHM2E5d1FIazdQSG80LS1tOTBNTjhZdUNYNWZqVjQtVWI2WDZMeDktQTBIMUk3SkxTRGVzMC1rRVVsMFJhQll1cmVpM3NpZTA0Q1RJWDRfSWJ6emltTXZjSzJsZzc0MkE5bld6ZGJlZHJBZ2hhdHpxRWxQRmJGaWtFbzhQNkZUMWtxeHliNEZuZ21GcFk0NXYyZS1KQTc5UndLOG43czBrSzJ1R2k2SFhBNWEwOFpVaklvRzJ5YVRXNHBuY1BYQ1pWckR6OFdXOVVJdWFCWEVL0gH6AUFVX3lxTE5BLTZfdmZwaS1qTFA0a0tBV0lKekttLWtBdVZ2Q3A3ZEdfb0psRWJsWVNPS1g0b0dOdlFIel9ESE9yVTNGYVNpdGd3ZTNDVzBQbUdPSXVHZFE0RlZWaEU0Q2RVMGYwT2lNajVEQndOUEJ3dTJfREdmQVFkTWM2Qzc4eGlPbzNoYnp2NW5Vb1JPclJyQW1Bd2kwUkduUE9JVDhFalJSZVVvVkduOEtYdlNQbWowbDZqdERDbUJ0dmVoTjBNcC1xbkFtMG10Rm9PS3YyY21WUFFxUmF4b3BlZmo4ZldWUkgxS0MtSi1sNXVmLTNrQVpwYWtIQ0E?oc=5",
-          "published_at": "2026-10-06T07:00:00+00:00",
-          "snippet": "President urges AIIMS Bilaspur doctors to take quality healthcare to remote Himachal The Times of India",
-          "lexical_overlap": 0.214,
-          "relevance": 0.319,
+          "source": "orfonline.org",
+          "source_url": "https://www.orfonline.org",
+          "title": "Beyond Buildings: Staffing India’s Expanding AIIMS Network - orfonline.org",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdmJtVk5QMHBMMWpwd1J4eEY1bDlXN1pFcHFlZmRsZXB5Q1NseTBFdW1KQTU4ZHp1RkJKam0tdkU3MmlCV3RRRWZLS25ldjdpRi0tMm53YkhOY1JxTWxOSGZYNHhlZHlIMExyaXh4SktwNVR2V09TR3d0NzlVOHREN2NTV2twaUtnc3pnNVQ3bmhkZFV5OWVQdHBQMkU?oc=5",
+          "published_at": "2026-05-20T07:00:00+00:00",
+          "snippet": "Beyond Buildings: Staffing India’s Expanding AIIMS Network orfonline.org",
+          "lexical_overlap": 0.167,
+          "relevance": 0.237,
           "matched_terms": [
             "aiims",
-            "healthcare",
-            "quality"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "aiims",
-            "healthcare",
-            "quality"
-          ]
-        },
-        {
-          "id": "9568f3bb3cd156f413",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Digital Health News",
-          "source_url": "https://www.digitalhealthnews.com",
-          "title": "AIIMS Patna & SHS Bihar Sign MoU to Strengthen State Emergency Health Care Network - Digital Health News",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSWxnZnRqdjNxMlNaTnRtVVpFRDdjLWJ0YmM0ZnBLMFlsZmtHbmUxNE9YRnNUVDdzaDBoeGFJZzJoQm91SW1IX3c4d2ZZR25NWFRRSGYwX0poZzhEVGtKdHAzTmZKMWVDVkNDdHdnNFd4UWQ2dmJXREtzTEdNV0NicW5GWUpfMjZudXpuMDI1ekNET2FEV1VVOThXblRGRmpzRzZXV3hGbEg2T24xTkZTSDVZYTQ?oc=5",
-          "published_at": "2026-08-11T07:00:00+00:00",
-          "snippet": "AIIMS Patna & SHS Bihar Sign MoU to Strengthen State Emergency Health Care Network Digital Health News",
-          "lexical_overlap": 0.176,
-          "relevance": 0.281,
-          "matched_terms": [
-            "aiims",
-            "network",
-            "strengthen"
+            "network"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
@@ -33197,66 +33169,47 @@
           ]
         },
         {
-          "id": "fb59a66b424c34017e",
+          "id": "eef26fe4e6aed724e6",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Hyderabad Mail",
-          "source_url": "https://hyderabadmail.com",
-          "title": "Nadda asks AIIMS Bibinagar to strengthen workforce, expand patient care - Hyderabad Mail",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOUl0ZlJ0ZkcwTEctOWpUakFhREEwTFNUVS1RcFgwYkdvVm1FcmpyNkpuX1E1dzNkMUNRSDVkdVhiQndWRTBaZWpyaGsyQTBHVVVZZGt3OTBSN05sZE1BTkpDVmtIUUU0UHZaWEhiZnhPNklrUUdwN05tTWxOaVRXVXpBTGgwVlFOTUFnZ0c0cURBblRnc3gzSw?oc=5",
-          "published_at": "2026-07-09T07:00:00+00:00",
-          "snippet": "Nadda asks AIIMS Bibinagar to strengthen workforce, expand patient care Hyderabad Mail",
-          "lexical_overlap": 0.133,
-          "relevance": 0.203,
+          "source": "Outlook India",
+          "source_url": "https://www.outlookindia.com",
+          "title": "AIIMS Delhi Unites Network To Launch Pan-India Research Consortium - Outlook India",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNnZvS21TRFNOczBHVTZDWFJUNkJmcGgyNEhwemE4ZFdOMHRPVVpqWmdiNVp0YWF5b1F1S1d3Z0NjVXJ3WHBIM090OXF1enc0Si1JZlNwRUdDTGRkSGxDYVN0cnpCVDdPQU1JZk5tdlBpZHFLM1g2aFlmZmFCb2lzMEF1VEdTNllEbGllVUN4R3Q0ZGliS1ZfZzZoNUd5aUNGRWN6T2NVMllFUTdzbnpqZnpETE5qR28?oc=5",
+          "published_at": "2026-01-31T08:00:00+00:00",
+          "snippet": "AIIMS Delhi Unites Network To Launch Pan-India Research Consortium Outlook India",
+          "lexical_overlap": 0.154,
+          "relevance": 0.224,
           "matched_terms": [
             "aiims",
-            "strengthen"
+            "network"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "aiims"
+            "aiims",
+            "network"
           ]
         },
         {
-          "id": "750ad7e18e3d0a9498",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "ANI News",
-          "source_url": "https://www.aninews.in",
-          "title": "Gujarat: ESIC signs MoUs with 6 healthcare institutions to provide super-speciality treatment to workers - ANI News",
-          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPLVdoWWxxYmdCaUU5ZGF2TmVWVkZuM0xNOHpyZE9yWHVpOUdKTlBVdlpRbU85UW0xblpkSXFfQkNkN3duY01XbHBpM2t3MEUzOUYzWk9PXzJsdjhYY082Y0djaHFGVVdMYVhhWFhJNjB0ZHB1LWZ0OTd5MUFEZmJKaE5hUldOSHVCNW9hRGxNZDlHbGFwWGRFMjM3aFlUNElZVDU1ZlRWb3R6bVBiVjJnZ296QUJ1U0N1dGRaY0h4N3hleVF3MThMMnJjZmJnLUd5MkV6bjR5WVdLOUdMSTVvMFdBOXJ1Q2didldON0dGY2lBZWpJYWdrUFM1TQ?oc=5",
-          "published_at": "2026-08-13T07:00:00+00:00",
-          "snippet": "Gujarat: ESIC signs MoUs with 6 healthcare institutions to provide super-speciality treatment to workers ANI News",
-          "lexical_overlap": 0.125,
-          "relevance": 0.195,
-          "matched_terms": [
-            "healthcare",
-            "provide"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "healthcare"
-          ]
-        },
-        {
-          "id": "ea3833a710e6209ad4",
+          "id": "9c27e038c2d45cab96",
           "scope": "news_search",
           "tier": "secondary",
           "source": "Medical Dialogues",
           "source_url": "https://medicaldialogues.in",
-          "title": "AIIMS Patna, Bihar State Health Society sign MoU to strengthen emergency care across the state - Medical Dialogues",
-          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQblhVZVBqbXk4QTV5MUF5T1lwX1B0bXY1b294QVlVMHpfQVA1dVZ0Qmx5TTBQNTBYeG51N19DdnRObEpxNVJuOUVrSnplV3VMOWJSUndfelJFcWplaDZOM2lMTVJOYTBWeWdLV2xwV0YwSW1XVTBSWXVGRUJWSUpOWWJ0SXFSdF9lRFNVVXhUMGVKSGs0S1J5NlFsQlJsRDNuLWtJMVhoNWZ4cmh4LXF4eGdiTkNMbTBEbnRaNDE1eDV1QXc5S0VaXzd2NEN4bk5lenhnVWwzM01zNGw4cUZYRGlPVkhfbEZka1hnajJEX2pvMDTSAfgBQVVfeXFMTWZZbGVsOWhjdS11cWk5cnpoUlhnN1A4dkNNT1RReDlGZWRDMWhjNnBXYTlOVWZQUVZUbzdUUS1jYXNTeWtkclJGSVB6T1cycFhkSHRGTk5mQWNpMDZWWHdkNEhFNlE3dUNVR00tYkgxekMtUDFxRDZmWDNLWTdPTVgzMU1aanVpYV9BQVFxbmRfVjRlb3g3ZHZrSlVPT0tjZ29rVHNRNXpWNUlYajRjQmtuS0JYQmlacjlxc0l6eDdfZDVmWDd3Z1ZRdUw3MFNqWlNJTzVTMUk4ZWFYWjlheUljdWo2c3QxQk9mRkxvSUtoaTN6aEJvRjM?oc=5",
-          "published_at": "2026-08-09T07:00:00+00:00",
-          "snippet": "AIIMS Patna, Bihar State Health Society sign MoU to strengthen emergency care across the state Medical Dialogues",
-          "lexical_overlap": 0.118,
-          "relevance": 0.188,
+          "title": "Delhi AIIMS Hosts SARANSH Workshop to Boost Evidence-Based Healthcare - Medical Dialogues",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNU21iNHQ4Wl9jNXh3bF83cHowamhYMjZEUXgtNW9HZ1JGQ0V1UlgwZUJTdHdyTjFWOTh5NHNGb3l5TWxZUFctWXZ4SWhpWkM2Q3BPYkZpV3hTWGptLS1zTF9IVGUzaVlKcUliXzc4d1JqdWhRNWNzTmFVQjNDWUFWZVdobm9CT29GZ0dfQnFCcjM1ZzlOdEU1eG13Sld1czBhbWhadzh5TnBmdnAyYmJlTVlrOTRmdFkzcWZ3ZkxIRm5kYmpmMGZEaTRYQ3ExN2Zmb2tV0gHYAUFVX3lxTE1DSXVRejVzREstdkdVNXBERU5pSkhwV2RDRl9pX1NVN05PcWZjRWJjR1JSQkJoMFpMU0Y2YUEyYTVkems2QnRwM0pKamZvMXhsdjJQckY2UUhrbUExVDRZbkFTYWNjRGFJbFNfWUppNzBmUXhOWXdWTGp2Vkg5QjBIVWppWl9hZ21saEVteVRTN3NORms0Z0J1U3dZYnNHYVVUUUdJY3ZwZUpHT0ctdTB1UmE2bEhsZ0hfcUtVTWVWUEJFVHpKTi1OUjZBd0pOMExsRElGU1M1Uw?oc=5",
+          "published_at": "2024-12-26T08:00:00+00:00",
+          "snippet": "Delhi AIIMS Hosts SARANSH Workshop to Boost Evidence-Based Healthcare Medical Dialogues",
+          "lexical_overlap": 0.143,
+          "relevance": 0.213,
           "matched_terms": [
             "aiims",
-            "strengthen"
+            "healthcare"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "aiims"
+            "aiims",
+            "healthcare"
           ]
         }
       ],
@@ -33275,7 +33228,7 @@
     },
     {
       "id": "c00ee53c09d1e78a1c",
-      "checked_at": "2026-10-28T12:51:12.762678+00:00",
+      "checked_at": "2026-10-30T06:31:15.973878+00:00",
       "promise_id": "BJP-2024-6ae9d0766a138184f2",
       "year": 2024,
       "category": "other",
@@ -34537,7 +34490,7 @@
     },
     {
       "id": "ee021c9df9163414ed",
-      "checked_at": "2026-10-28T12:51:13.628149+00:00",
+      "checked_at": "2026-10-30T06:31:16.716164+00:00",
       "promise_id": "BJP-2024-6c42cab0fef7bcdf50",
       "year": 2024,
       "category": "jobs_economy",
@@ -37136,7 +37089,7 @@
     },
     {
       "id": "1ef58b1b4ebcd0fefe",
-      "checked_at": "2026-10-28T13:35:53.841763+00:00",
+      "checked_at": "2026-10-30T06:31:25.779150+00:00",
       "promise_id": "BJP-2024-77e66648d636c61a7c",
       "year": 2024,
       "category": "environment",
@@ -37271,6 +37224,28 @@
           "promise_core_overlap": [
             "mausam",
             "weather"
+          ]
+        },
+        {
+          "id": "b2d951467533a0c7c3",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "DD News",
+          "source_url": "https://ddnews.gov.in",
+          "title": "PM Modi to launch ‘Mission Mausam’ on IMD’s 150th Foundation Day - DD News",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOeEtBRHZweUxqTHdONUhpbkNLZDJ0MHR3aVBrdE02bEVSdFZfRlFjRW9TZkxrNi13bnB3N1JnWTR3VlVJb2w3YjRFM2hMdjJPODY1d3JsLVNheFBUZjFtYmVMOXdDcEVFUDBQSU1MZnVMdE8wdkYzeF9TbVRoNlBxc0hKbWlfMzBJWWRqR216aXY?oc=5",
+          "published_at": "2025-01-13T08:00:39+00:00",
+          "snippet": "PM Modi to launch ‘Mission Mausam’ on IMD’s 150th Foundation Day DD News",
+          "lexical_overlap": 0.158,
+          "relevance": 0.263,
+          "matched_terms": [
+            "launch",
+            "mausam",
+            "mission"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "mausam"
           ]
         },
         {
@@ -39391,7 +39366,7 @@
     },
     {
       "id": "0e847e65416503d6f8",
-      "checked_at": "2026-10-28T13:35:57.722214+00:00",
+      "checked_at": "2026-10-30T06:31:28.325494+00:00",
       "promise_id": "BJP-2024-7b8eeb12539139f84a",
       "year": 2024,
       "category": "environment",
@@ -43489,7 +43464,7 @@
     },
     {
       "id": "0764c49dce738dbbee",
-      "checked_at": "2026-10-30T01:58:22.821824+00:00",
+      "checked_at": "2026-10-30T06:30:49.934156+00:00",
       "promise_id": "BJP-2019-18c0750d5ed71bc3d1",
       "year": 2019,
       "category": "agriculture",
@@ -43636,6 +43611,78 @@
           ]
         },
         {
+          "id": "54db8b8e142dc04bc2",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "India Education Diary",
+          "source_url": "https://indiaeducationdiary.in",
+          "title": "Flipkart signs MoU with Society for Elimination of Rural Poverty (SERP) to enable market access & growth for Farmer Producers Organisations and Self-Help Groups in Telangana - India Education Diary",
+          "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxOT09PS3ZNTnB3al9RSUpZTllCWk43M1R5Y2JXMVRFbzhPYWF2ZVN2eUVxMWphWHNCLXZ6TDhxMG9wR2pfZWRkeTNrTjlxQmFkOVNaX1htcEZJQkR5NXd0bTBRMkwxUWU2REU0QU9KVk1QMm56TlBUWk81SzN4eVhQbV9RYmF4d29nNDJwU2hTbDl1NWY2LU9XVjlrdTFDU0ZIVGdGSTVqNlBLamFXSERDQk9zZ0o5TEtqRk93VHhrbDV5azZDMlk3UWg2T1EtYWFTZDZfYllabkVLM3k2ZGxoS2ltdmpXYW1GQUh5R1J5NFlKbUx5eG0weXhWOWN4d09DZjA2cmV6TlpjSkJpREcyNnM0SXRLRnBGeVNsOVdldlE4ckMwRmtsSA?oc=5",
+          "published_at": "2022-06-26T07:00:00+00:00",
+          "snippet": "Flipkart signs MoU with Society for Elimination of Rural Poverty (SERP) to enable market access & growth for Farmer Producers Organisations and Self-Help Groups in Telangana India Education Diary",
+          "lexical_overlap": 0.167,
+          "relevance": 0.307,
+          "matched_terms": [
+            "access",
+            "enable",
+            "farmer",
+            "organisations"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "access",
+            "farmer",
+            "organisations"
+          ]
+        },
+        {
+          "id": "531ed5a861c168b322",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Outlook India",
+          "source_url": "https://www.outlookindia.com",
+          "title": "Farmer Producer Organization Scheme A Path To Farmers’ Prosperity - Outlook India",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMVpLQmxEZW5udS1scVRES3BVcEduZnhJaEdLcU1HY2hKWndwZ0g1dWpIRl9PRHdPaVQ5c2RFaV9PTVZ6akw3NGpnYjNudkwxaEJuOG81VlFJdVZ1emkzbTN0NXFlMHpnRlhqZHlTcFhjd21Ba1cxQWtoOVBGVTBkUy05bjFqSkhKOEI0SFhHeG9YSjQwT3lfNVNwNWRKVjN2Wl9rSEgyQWlXY1BCbzVMQll2eUNGMkZm0gHGAUFVX3lxTE16WE9xMW1VUnQzRmR2VGd0OWFPX2Q1RFN4S3ZWd2duMXBOdExXeWlzSXByV05JNmE5WWEzZnFBb1hzOFduZ0R5OXhsZko1N1JhclpXNlpVQ21QZFR0THFTdkVCc1B3ZHBJRFFWMU8wTzlOMDNOTjcxQVVNOWFsT3A2RXc0NzdYX3dBaFBmV0hsSlhsc2YxdWlhMHE2SFM5RTc4TU9xRGhTeWtWUW1wV3IwZ1hiTkJtQU1ZN3RVcUlZeDFXMlM4Zw?oc=5",
+          "published_at": "2024-01-16T08:00:00+00:00",
+          "snippet": "Farmer Producer Organization Scheme A Path To Farmers’ Prosperity Outlook India",
+          "lexical_overlap": 0.176,
+          "relevance": 0.281,
+          "matched_terms": [
+            "farmer",
+            "farmers",
+            "producer"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "farmer",
+            "farmers",
+            "producer"
+          ]
+        },
+        {
+          "id": "1af39614098ce2c5d1",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "YourStory.com",
+          "source_url": "https://yourstory.com",
+          "title": "Flipkart signs MoU with SERP to enable market access, growth for FPOs, SHGs in Telangana - YourStory.com",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdGxJNXQ4NFR1ZldsQi1veEx3MUEzLW1keWV6d0kySm5zd0pVVVZrUnZiLWhQQlhTWkFfLUJvVVp2aFFNQzBZMGg2a0M2SWxSQUpEZFRsWDJUblpsb21JTDNiTVJ4OE8ycHplcVJyZlV3Z3pmTzhRZUhZN1VqQzVlUDFaNVQ1a21PSld0T093?oc=5",
+          "published_at": "2022-06-25T07:00:00+00:00",
+          "snippet": "Flipkart signs MoU with SERP to enable market access, growth for FPOs, SHGs in Telangana YourStory.com",
+          "lexical_overlap": 0.136,
+          "relevance": 0.241,
+          "matched_terms": [
+            "access",
+            "enable",
+            "fpos"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "access",
+            "fpos"
+          ]
+        },
+        {
           "id": "634c286094b85d4f4a",
           "scope": "news_search",
           "tier": "secondary",
@@ -43658,39 +43705,17 @@
           ]
         },
         {
-          "id": "c287fed5985db0f3f9",
+          "id": "34c66c9ca7d95b9063",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Manorama Yearbook",
-          "source_url": "https://www.manoramayearbook.in",
-          "title": "1,100 new FPOs to be set up in cooperative sector | farmers | agriculture | FPO | cooperation - Manorama Yearbook",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbFVEWGloeEhoTTFHNlNmeXVrSFRnNF81MUNrR1dmeV9Ma1R0UlRlTHlHTHU4YWZWTjhQNzFFLTlZd284d0xEazlmbVFtWUZyanJDOWM1US1tRlBGY1dGZ1FmM0pLdXZMZ0hfUmdTRm5tR1EyMWpsUGxOamlrRzFwdXlZMm5kbjBjd0pVWm4yeVRzY3hGUjJkUmVNYURrZ1hwRW40aTJzTQ?oc=5",
-          "published_at": "2023-05-18T07:00:00+00:00",
-          "snippet": "1,100 new FPOs to be set up in cooperative sector | farmers | agriculture | FPO | cooperation Manorama Yearbook",
-          "lexical_overlap": 0.095,
-          "relevance": 0.165,
-          "matched_terms": [
-            "farmers",
-            "fpos"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "farmers",
-            "fpos"
-          ]
-        },
-        {
-          "id": "07618ce32d181ef2b4",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Down To Earth",
-          "source_url": "https://www.downtoearth.org.in",
-          "title": "Heavy sway: Big corporations with power over farmer producer companies is diluting their purpose - Down To Earth",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOWmdHYVFuUlNEdnBBcDJhQ3BGWVRxVUkzWlZOY2NEeGNfVDZVTk1sa2JrOFZSbjF2dDEtSUFKcEhUY3VoZG42UEJhd3J5OUZsUVlrTDcyOUhtRHp6VGZCdUZfUW5nalpsTUtsRGFKZlIydjRwZjFidlo0VUtsQURoX1M5eHdQVXJJMHYtMDQwSGgwS1EzUURwdXZnenJYRnBGdTNWbUNhYVk2OXBIYUZTSDQ1QXo4bDNZamxZYjh1WkNDR0dMZmtUdGtuUVYwRC1qa0x3aXZiSEhFZFnSAegBQVVfeXFMUGd5TTgtUGhRNjRpd3JWb2d1RTZjX1pMR3lvYko1dDRZWUxDUTFaZjNYQWRDSzdrUC1FdmF2WE9oM3RUME56RGxUd3JJaGh0VnA5elRnTWNsaUEzbzU4TFE1UEt0Ylh2TldvS20yOXdfZHVDOFluMlJCbkR2N0tveWhYaUNqVGJRTGs0WG5WQjdjU3RFR1NTcF90RllEVUM0RnhtTDAzQlF5OTRrb3A0MEJMdDhfUUEwbGdKNXpsZmE4clJ5MlFJNUVvbV9KNUIxQUNQdGpYQ0tvNWR2cnExMnptdFhld3ZsVA?oc=5",
-          "published_at": "2023-04-20T07:00:00+00:00",
-          "snippet": "Heavy sway: Big corporations with power over farmer producer companies is diluting their purpose Down To Earth",
-          "lexical_overlap": 0.091,
-          "relevance": 0.161,
+          "source": "Agriculture Post",
+          "source_url": "https://agriculturepost.com",
+          "title": "Every block in India to have one farmer producer organisation: MoS Agriculture - Agriculture Post",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPRzhVZmdmNUZVNGU3WVJ0eWxtZWgtdG51eEFlSnRnTlVZQUQxeS10dHp0T1ZmNVlyS0I3OVFKMnU2N3pPUnByMzU0MjgtV2k4TGdSemFCaU9pajdlelBwb0RHMTFUczhxTUhHellCcTBZbDlXQjR4bGRBSnI1N3hTb21DTGEyX2YyaUJSSUJoamhDSVZDcXZsM0E4V24zR0ZfZF9lc2VuMGtuXzZJSzFwaUpzRU53cmZRc3VRdmduSU9GUHJUWjVXcThxVlhWSkJMSzZRU3AzZWhpUDFMX0RxdVY4dw?oc=5",
+          "published_at": "2022-03-16T07:00:00+00:00",
+          "snippet": "Every block in India to have one farmer producer organisation: MoS Agriculture Agriculture Post",
+          "lexical_overlap": 0.1,
+          "relevance": 0.17,
           "matched_terms": [
             "farmer",
             "producer"
@@ -43702,7 +43727,7 @@
           ]
         }
       ],
-      "implementation_signal": "current_primary_evidence_found",
+      "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -44923,7 +44948,7 @@
     },
     {
       "id": "f5811520c1d5623f19",
-      "checked_at": "2026-10-30T01:58:24.644739+00:00",
+      "checked_at": "2026-10-30T06:30:51.585255+00:00",
       "promise_id": "BJP-2019-1d3e95fa9344e842f3",
       "year": 2019,
       "category": "infrastructure",
@@ -45044,7 +45069,7 @@
     },
     {
       "id": "92d6920a15fb42f812",
-      "checked_at": "2026-10-30T01:58:42.560987+00:00",
+      "checked_at": "2026-10-30T06:31:06.487656+00:00",
       "promise_id": "BJP-2019-6abf03adda773fec98",
       "year": 2019,
       "category": "governance",
@@ -45093,17 +45118,17 @@
           ]
         },
         {
-          "id": "0e308bf369f796a031",
+          "id": "ec146c5b1ff7a5532d",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "Press Information Bureau",
+          "source": "PIB",
           "source_url": "https://www.pib.gov.in",
-          "title": "Evidence-Based Rural Development Gets a Push with Rollout of First-Ever Panchayat Advancement Index (PAI) Baseline Report for FY 2022-23 - Press Information Bureau",
+          "title": "Evidence-Based Rural Development Gets a Push with Rollout of First-Ever Panchayat Advancement Index (PAI) Baseline Report for FY 2022-23 - PIB",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9aSkhNaGFxcWdiYmFZdzZyUHhVNXh5bXZlU0hSdWlsUW9qRXFIMXZ2N1h1MmtTRWFaOFA3T2k0ckszYWhhbHhsTDVQdWMzSzB4YVJxSGV1NEZVbE55aWJpTGxnYUJIWVZM?oc=5",
           "published_at": "2025-04-09T07:00:00+00:00",
-          "snippet": "Evidence-Based Rural Development Gets a Push with Rollout of First-Ever Panchayat Advancement Index (PAI) Baseline Report for FY 2022-23 Press Information Bureau",
-          "lexical_overlap": 0.04,
-          "relevance": 0.235,
+          "snippet": "Evidence-Based Rural Development Gets a Push with Rollout of First-Ever Panchayat Advancement Index (PAI) Baseline Report for FY 2022-23 PIB",
+          "lexical_overlap": 0.042,
+          "relevance": 0.237,
           "matched_terms": [
             "panchayat"
           ],
@@ -48449,7 +48474,7 @@
     },
     {
       "id": "1e0abc9f94016f3c7a",
-      "checked_at": "2026-10-30T01:58:26.230467+00:00",
+      "checked_at": "2026-10-30T06:30:53.046183+00:00",
       "promise_id": "BJP-2019-2af396deaf778cac73",
       "year": 2019,
       "category": "infrastructure",
@@ -48534,7 +48559,7 @@
     },
     {
       "id": "4af70c5cc4e5dd31ea",
-      "checked_at": "2026-10-30T01:58:32.875011+00:00",
+      "checked_at": "2026-10-30T06:30:57.919160+00:00",
       "promise_id": "BJP-2019-34c03859f07f1329c5",
       "year": 2019,
       "category": "infrastructure",
@@ -48561,6 +48586,28 @@
       "query": "2022 road connectivity complete dedicated freight corridor",
       "evidence": [
         {
+          "id": "2f7cb9a95e16631273",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Project for Chennai Port to Maduravoyal corridor in Tamil Nadu to be completed by December 2024 - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBNHhkQlBoSDU0NXo5T2IwMDZITWRENTF0eC0tNzBHRTI3bHpvT1NrNktkeF9NOTQzUnVIRFl2Vmx2WHFRSVlrbEJYUkZrVHIyOWFrQ1BIMmliWG1pQUJjZ2JxTkdHRkRMLVE?oc=5",
+          "published_at": "2025-06-12T19:01:02+00:00",
+          "snippet": "Project for Chennai Port to Maduravoyal corridor in Tamil Nadu to be completed by December 2024 Press Information Bureau",
+          "lexical_overlap": 0.118,
+          "relevance": 0.238,
+          "matched_terms": [
+            "corridor",
+            "project"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "corridor",
+            "project"
+          ]
+        },
+        {
           "id": "ec1d0cc8a5a0c1eb96",
           "scope": "news_search",
           "tier": "secondary",
@@ -48585,15 +48632,15 @@
           ]
         },
         {
-          "id": "b1ffee8e6f47df9c63",
+          "id": "3ca72531dcd6516972",
           "scope": "news_search",
           "tier": "secondary",
           "source": "Urban Acres",
           "source_url": "https://urbanacres.in",
-          "title": "Dedicated Freight Corridor: India’s Rail Network Enters a New Phase - Urban Acres",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMk5QWk5iWGdfeTh1a2tqUTVBeHk4N0lPLXlyTkpMWWtsRDRldHZkUHFSQmQ0cUozUVgyR09MQV9od2dTTWFOY0dlNUFFeFNfY3ZPWmNZdVFYZWtsUW9pY0dqV3RxUjN6TjUwaS10MU5CWEs0ZUJ6R0dsWkxrX3J3a2N2bEFhN2JCNEdBZTZBdExydw?oc=5",
-          "published_at": "2026-09-14T07:00:00+00:00",
-          "snippet": "Dedicated Freight Corridor: India’s Rail Network Enters a New Phase Urban Acres",
+          "title": "Dedicated Freight Corridor Network Now Fully Operational - Urban Acres",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNT1RGZ3paMlFlUGpFRmRqekp3ZVNJaE11SFRCVDl3UGl2YXZOY3d3VUpDM3BuWnljRlMwXzhiWThEdDBaNzZpY3ZCaGQ1VzlYVzMyOWxfTm91em5fdFhkRGxjOGhZbmFMYnJBVWJ3ZlZkSXNDMHNkd2RGai1ZMThUczRzdnZNRTZ3UlJXT21Ka0hoOERjdVE?oc=5",
+          "published_at": "2026-09-08T07:00:00+00:00",
+          "snippet": "Dedicated Freight Corridor Network Now Fully Operational Urban Acres",
           "lexical_overlap": 0.231,
           "relevance": 0.336,
           "matched_terms": [
@@ -48655,30 +48702,6 @@
           ]
         },
         {
-          "id": "36151813d5768670f4",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "IMPRI Impact and Policy Research Institute",
-          "source_url": "https://www.impriindia.com",
-          "title": "Dedicated Freight Corridor: What A Decade Of Rail Investment Achieved - IMPRI Impact and Policy Research Institute",
-          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOTUpYVnJZMFppdTNaZE13Qm9Xajhxc290akloNklFbEpkTGtCdDZCblV6X0dCejczZlpaVTB1SmRaS1AwZGlSOFJXalpnRlVEcEoxSGt0bTVxQWc0X3JkOHhGQjg2c2RwNkxkcTlfeWpxQ2dfN1AyM09iNzU3Y0ctNlhtczJselRxSmJKMGtkX3Vpdm1WeVYtZWp5b3JuSWtMRXBiX2U0N2RNQU1mRWlRUUNfeS1uSnY1N2ppTlRlM0dRYzVCeDRETkYwaTVsYXF2SGdhaHRPWWpTcGVmOUExVUdQOEpEbHFhYXFIbTB1WTV2XzA5dEdOVC0yQmJTUVE?oc=5",
-          "published_at": "2026-08-09T07:00:00+00:00",
-          "snippet": "Dedicated Freight Corridor: What A Decade Of Rail Investment Achieved IMPRI Impact and Policy Research Institute",
-          "lexical_overlap": 0.176,
-          "relevance": 0.281,
-          "matched_terms": [
-            "corridor",
-            "dedicated",
-            "freight"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "corridor",
-            "dedicated",
-            "freight"
-          ]
-        },
-        {
           "id": "6ce15b25c37e0c63c6",
           "scope": "news_search",
           "tier": "secondary",
@@ -48721,19 +48744,41 @@
             "dedicated",
             "freight"
           ]
+        },
+        {
+          "id": "94f0d80ee7b7908961",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Vajiram & Ravi",
+          "source_url": "https://vajiramandravi.com",
+          "title": "Dedicated Freight Corridors, How They Cut Transit Time and Boost Rail Freight - Vajiram & Ravi",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5YNmx2WWxLTXRwU09nRzNtVEVfUkVKZ1dxZWNjZWhneHFNbWlLZXhnRjhxc1R3ZjQtSUt6NlhELXM0RU9oMVJZN1haTmVlM1VrWUxaUUxINE90a0dJaFR2NHJvOVMzRlFzNEZrcnpLdk44V1dQOE5vSi16UQ?oc=5",
+          "published_at": "2026-09-09T07:00:00+00:00",
+          "snippet": "Dedicated Freight Corridors, How They Cut Transit Time and Boost Rail Freight Vajiram & Ravi",
+          "lexical_overlap": 0.125,
+          "relevance": 0.195,
+          "matched_terms": [
+            "dedicated",
+            "freight"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "dedicated",
+            "freight"
+          ]
         }
       ],
-      "implementation_signal": "current_reporting_found",
+      "implementation_signal": "action_detected",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
       "outcome": {
-        "status": "deadline_passed_unresolved",
+        "status": "progress_documented",
         "deadline_year": 2022,
-        "proof_strength": "none",
-        "proof_evidence_id": null,
+        "proof_strength": "verified_primary_action_with_object_overlap",
+        "proof_evidence_id": "2f7cb9a95e16631273",
         "proof": null,
-        "reason": "The extracted deadline (2022) has passed, but ClaimWatch does not have direct comparable post-deadline evidence proving fulfilment or non-fulfilment."
+        "reason": "Verified primary evidence overlaps the subject of the promise and documents implementation activity, but not the promised outcome."
       }
     },
     {
@@ -50772,7 +50817,7 @@
     },
     {
       "id": "93bb9754ab7125c8f1",
-      "checked_at": "2026-10-30T01:58:37.615157+00:00",
+      "checked_at": "2026-10-30T06:31:02.326173+00:00",
       "promise_id": "BJP-2019-6013bbae5c9fbd8c5a",
       "year": 2019,
       "category": "women_social_justice",
@@ -50836,7 +50881,7 @@
     },
     {
       "id": "1d1782ad81aa54afcd",
-      "checked_at": "2026-10-30T01:58:39.709379+00:00",
+      "checked_at": "2026-10-30T06:31:04.210300+00:00",
       "promise_id": "BJP-2019-63e2ccda189fa85e2c",
       "year": 2019,
       "category": "health_welfare",
@@ -55960,7 +56005,7 @@
     },
     {
       "id": "21c782a6ad2ecb8987",
-      "checked_at": "2026-10-30T01:58:29.631048+00:00",
+      "checked_at": "2026-10-30T06:30:55.413969+00:00",
       "promise_id": "BJP-2019-2cfa1375f165d41707",
       "year": 2019,
       "category": "other",
@@ -57317,7 +57362,7 @@
     },
     {
       "id": "09db92a7679f9e887b",
-      "checked_at": "2026-10-30T01:58:34.942832+00:00",
+      "checked_at": "2026-10-30T06:30:59.910012+00:00",
       "promise_id": "BJP-2019-4fc8289de8caed52ff",
       "year": 2019,
       "category": "other",
@@ -62864,7 +62909,7 @@
     },
     {
       "id": "df076e7dea8ba67624",
-      "checked_at": "2026-10-30T01:58:44.858963+00:00",
+      "checked_at": "2026-10-30T06:31:08.817157+00:00",
       "promise_id": "BJP-2014-078252941779345656",
       "year": 2014,
       "category": "women_social_justice",
@@ -62891,24 +62936,25 @@
       "query": "next five courts cases arbitration judiciary",
       "evidence": [
         {
-          "id": "0c8da9e17d2ad05d95",
-          "scope": "preferred_official_search",
+          "id": "e004bca175c44d8b46",
+          "scope": "broad_official_search",
           "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Settling of cases through Lok Adalat and Arbitration - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBydDk5YjZVVjM1ck4zS2FWQWw1Z3gwWnIwckxFcWtOZDhEU0xYMTEtT3gwMGFmVE1SdW82ck9BZ3Vvd2Rlakg3aFdKM1pkUklfZ3JFVzU3OWtITVVTX2FqZ0xVeVN6UjV5?oc=5",
-          "published_at": "2022-08-04T07:00:00+00:00",
-          "snippet": "Settling of cases through Lok Adalat and Arbitration Press Information Bureau",
-          "lexical_overlap": 0.176,
-          "relevance": 0.331,
+          "source": "Saket Courts - South",
+          "source_url": "https://southdelhi.dcourts.gov.in",
+          "title": "Case Status : Search by Case Number - Saket Courts - South",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1YYWlVSTVzSHY1YjdiNDdtczgxRVAzZzMtak1wZFRSVVI3YXJ6VlNRcEw3bUxMamZ0RVVaNGxWRVRJMEVlOUJPS3pGWVo2R201NFc2NGYyRldfTXZwSDdpUnAzdGZzLUNMZUpaa1VUN0JRdTFZVWlV?oc=5",
+          "published_at": "2023-08-16T14:56:08+00:00",
+          "snippet": "Case Status : Search by Case Number Saket Courts - South",
+          "lexical_overlap": 0.118,
+          "relevance": 0.238,
           "matched_terms": [
-            "arbitration",
-            "cases",
-            "lok"
+            "courts",
+            "number"
           ],
           "shared_numbers": [],
-          "promise_core_overlap": []
+          "promise_core_overlap": [
+            "courts"
+          ]
         },
         {
           "id": "9ad7ac893d1adf52b6",
