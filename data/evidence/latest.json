@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T18:09:40.618287+00:00",
+  "generated_at": "2026-11-01T20:31:58.848506+00:00",
   "capabilities": {
     "official_evidence_search": true,
     "verified_primary_gate": true,
@@ -16,7 +16,7 @@
     "promise_checked_this_run": 30,
     "promise_total_candidates": 841,
     "promise_coverage_pct": 101.3,
-    "primary_candidates": 549,
+    "primary_candidates": 553,
     "secondary_candidates": 1019,
     "prior_fact_checks": 0,
     "publishable_auto_verdicts": 0,
@@ -797,25 +797,29 @@
       ],
       "evidence": [
         {
-          "id": "9860913f9848bd5052",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "CNBC TV18",
-          "source_url": "https://www.cnbctv18.com",
-          "title": "76.95 lakh street vendors avail ₹18,475 crore collateral-free loans under PM SVANidhi - CNBC TV18",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNLVNJNjBHc2VVZmhFVDRPN181RzNfdjFpRWVwQkhjdW9xWk4xV09LWU9ndVdkcEhYOFZ6QVQ3dWRrUmVFbVlxdnFfOG5uZXl1cXJWZkpDX3VjQzU0SGhpaEg1U3llWE9EWGRhOE0tc1JZMFlFd1JxRnV6LWp4REh5NDJmdlR3SUVubTdXdXZWWWVRZ2staF9FNzdWbVJnOVFUVUZKcVdoSzdGZTQyVElTQUNlM0VWUDAyaklVT3Z2TmlNUTlnc2F1SkNsTjnSAdIBQVVfeXFMTWxGdXNtTlNaODVCaEJZcWE3WGNURVJXYTJpb2dIWXlveHVubW4xM0NJdFJQWmpOVHlmTl9PWnZfUm1SVkV1M0lNV0p4cE9ubkhVY2Q2aGExZnZyQTFZb3hNWHBkejRrRlMtYm1ReVR3SEVHZi0tX0xKeHBMd3lSRkdWd0pFaTJnSm5oOTNjTWQ2UEJ5elE1TnprZ2hzUGp4ZXpDY2FOM0Jsd1doejN1UU85WDJQQVVDNmxfUUFyYU1uZUljdXFfVGJ1dW05V0dGVmdB?oc=5",
-          "published_at": "2026-08-06T07:00:00+00:00",
-          "snippet": "76.95 lakh street vendors avail ₹18,475 crore collateral-free loans under PM SVANidhi CNBC TV18",
-          "lexical_overlap": 0.312,
-          "relevance": 0.488,
+          "id": "9093fc80088a431121",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "STREET VENDORS UNDER PM SVANIDHI - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBsdFprYk1IckVSREczbmFqTi1ueEZjaDhLOUc1S1V3bXN6RkFyZ2c4cm1Odm93ZEdZcTBBY3VvdTZDaDFISGJaTlN6NENhMW04TFdTRGRMTFJuOElFV0MyY0p5MGw5UVVz?oc=5",
+          "published_at": "2026-07-27T07:00:00+00:00",
+          "snippet": "STREET VENDORS UNDER PM SVANIDHI Press Information Bureau",
+          "lexical_overlap": 0.308,
+          "relevance": 0.498,
           "matched_terms": [
-            "loans",
             "pm",
             "street",
             "svanidhi",
             "vendors"
           ],
-          "shared_numbers": []
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.0014,
+            "neutral": 0.9879,
+            "contradiction": 0.0107
+          }
         },
         {
           "id": "b442e16d023cefbf1b",
@@ -843,25 +847,69 @@
           }
         },
         {
-          "id": "f2a2059cc840500834",
+          "id": "8100904d3185b9b68e",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Livemint",
-          "source_url": "https://www.livemint.com",
-          "title": "PM SVANidhi scheme: Street vendors receive loans worth ₹17,800 crore in 6 years; Key points to note while applying - Livemint",
-          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOSDN0eEctUE1fa3ZEcHNEbWFHR3Ata0xQMzh2TlEyaWpXVEVPY015WDFXamU0X2tCN1pEUmZ2dFZHcmRsZzhsakpKQ3BjTnFiWkpTY1VHQ2tEMktpVTdOMGlGX0NKbFJfOE9Sb1J0THUyOHp2eVozT0RoMlE4Q3owT3ZQVml0S0F5T2Q4eXR0TW43NldYcUp4YU92X3QyY2NlSUFSOVB0YWNJMXI5c05UcG5ldnRROUU0aGtWQ2cySU80VjFvMTdwNkVHdzd0aTIyYUg0bXBnS0psTU5SU2doQ0R1cFVKeGtOWnFDRjk5V09zdFAxdkHSAfsBQVVfeXFMUHhiWkRLQXhHbktLM3NCQUxkZmtfQjY1V0JGZGQxR0VpRXNUbjhnUDJVSHM2NFU2VTdnZjJGWWJfclo4SlhkSV9VZ1ljY1FUWE1RakZGZG5Ta2t0d0JoNmZyOUYtNmhPMTRPM2M1TFBzNjRDd2x0eEE0UFlIbzRmTnR0dl9RblFTMXMxczZzRVVMb0JCY2VpOU9Zcl9DUUg3ZDRfcXRPZWdYZ0MzN0w0QVc3aUd4djJ1VE92a00yM3FGVTdGNm01aW5VZ2dHclFGaGhfcXAteE9uaFlyR09pZGNJWmlncFYzQU9HcDRUMnVpQkRPaDdCNTlEY2c?oc=5",
-          "published_at": "2026-05-31T07:00:00+00:00",
-          "snippet": "PM SVANidhi scheme: Street vendors receive loans worth ₹17,800 crore in 6 years; Key points to note while applying Livemint",
-          "lexical_overlap": 0.25,
-          "relevance": 0.425,
+          "source": "IBEF",
+          "source_url": "https://www.ibef.org",
+          "title": "Empower Street Vendors with PM SVANidhi Scheme - IBEF",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9GX1FkVHBULV80WnVJSC1LTU9qMG9SNkp3NWltVjJOWUdBMVpsM2VXNXpXZVdBNTdVLVJOMGFPZUxiNmIzU0R2NUROc1czWGtWR05QMnRQbTlKaEpnMklUSnVNTEdkdUIzdXc?oc=5",
+          "published_at": "2024-06-08T13:31:59+00:00",
+          "snippet": "Empower Street Vendors with PM SVANidhi Scheme IBEF",
+          "lexical_overlap": 0.308,
+          "relevance": 0.448,
           "matched_terms": [
-            "loans",
             "pm",
             "street",
             "svanidhi",
             "vendors"
           ],
           "shared_numbers": []
+        },
+        {
+          "id": "5f82f1e163608f6189",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "IBEF",
+          "source_url": "https://www.ibef.org",
+          "title": "PM SVANidhi: Micro Credit Scheme for Street Vendors - IBEF",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQR3pJVDdCb2FpR19pdjJGbUwxZ0tZaHVSaU9TajdOWndrZVF0Qy1STG95WGpNWFJpVU5UM1hxN1ZZVDZlXzBrNEdEMWtpZnhEbTBuTHh6UVZEeVZCV0o2TTNlMmhyRjNmVndLTExxcVYtUWV0OGNXTDFBUWpleWlPNEE5WQ?oc=5",
+          "published_at": "2023-02-17T08:00:00+00:00",
+          "snippet": "PM SVANidhi: Micro Credit Scheme for Street Vendors IBEF",
+          "lexical_overlap": 0.286,
+          "relevance": 0.426,
+          "matched_terms": [
+            "pm",
+            "street",
+            "svanidhi",
+            "vendors"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "4a2a6c9ec1e80a96b6",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "PM SVANidhi restores dignity of street vendors: Housing Minister Hardeep S Puri - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBfN0FteFZwRkQ1M0xHUFJtQUJzLU00OUVPWWtXcDdqcXNWb0ZDZ2p0dTJFRVRJZnlGOG9hZUZycThqUjRYTDJsVFNQaVZKQzJGd0dEU2hKYjVzV2VERV9UUk1xRWxkVUIwdExjX1RTQVE?oc=5",
+          "published_at": "2024-02-16T08:00:00+00:00",
+          "snippet": "PM SVANidhi restores dignity of street vendors: Housing Minister Hardeep S Puri Press Information Bureau",
+          "lexical_overlap": 0.222,
+          "relevance": 0.412,
+          "matched_terms": [
+            "pm",
+            "street",
+            "svanidhi",
+            "vendors"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.0014,
+            "neutral": 0.9895,
+            "contradiction": 0.0091
+          }
         },
         {
           "id": "1cc22278e47ff9110b",
@@ -914,44 +962,6 @@
           }
         },
         {
-          "id": "cb771e93a84b2d81d9",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "DD India",
-          "source_url": "https://ddindia.co.in",
-          "title": "Over 1.05 crore loans sanctioned under PM SVANidhi since 2020 - DD India",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORUJPSVNXQnNTYUh3YkJZbzFEM1haLVJWcU9rdXVPeXpLVVNheXhTVzAtal9yZ3VUNHZZS2NHNEVZUExXZWNvUkE2QzZZTFlPc1hiOW91dGdieWUwbU5fNGRqZmwwYUswTWJBTFVtSEthQXg3R0IxYWFDdlNscUpZcmZfeHlHV2dyMXRBc3ljVUJDcnRlZVo0?oc=5",
-          "published_at": "2026-06-01T07:00:00+00:00",
-          "snippet": "Over 1.05 crore loans sanctioned under PM SVANidhi since 2020 DD India",
-          "lexical_overlap": 0.214,
-          "relevance": 0.319,
-          "matched_terms": [
-            "loans",
-            "pm",
-            "svanidhi"
-          ],
-          "shared_numbers": []
-        },
-        {
-          "id": "4955173f87cfaf2ce0",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Times of India",
-          "source_url": "https://timesofindia.indiatimes.com",
-          "title": "LG directs banks to speed up PM SVANidhi loans as Delhi receives over 4.3 lakh applications - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPNE9HSHFZcnJQWFpueWYtUVlyaXVySHVsczRBUEFyZDBuVFZFcDlEc3dLY2hzQ1NRSlpGUE8tdjNVdGU3MzNfdzZMSE9abmZEVGxNX1VOSE9WOXhCTUJLY2JocHBLYmhzR1d3VVp1amtra0s1RFdjRi1vTGJlSm9FcG1sWUIydXhzSUh2UlBwNFUxN0JZWi15RUptTGczTDJBVmI1Rk1CZ3RRWlpLanR0ZC04anBSQmxvM25DZ2xzSUtYWUxWLWhBWnYwcnRQTC0zRkV0ekZ6RXM3NHVnNG5KU1B0cVZjT1JoU1VsMUhQdnd0SDk4U2lN0gH8AUFVX3lxTE5kbkxlYzgxT1BhbllNVVBGWkZjQXREUmVPRmd5a2F1dWFyblZjRTZrVUhxNUFoanVWQUtxTXpSNzZqaGIwUjRwTnh5dzVJUGU5OGEteHJKY2hTcjRyRmNmVVlPd2FHYUVmZUx4eVNoemFBY3hYT2ttTTYzd3VhVTJJVWdySVZMWjlRclFJRU5HZGx2TXN4cGVOaEZ4NG9QeG16UHRhU0pZd0tHR1g2XzVMOW9jbEpfLUNpc0dTZlV6MFc0TmRQWVBKZkVXQmhoOG12RTJ0eGhvTFZTNVloRkx3WHFKak9sZ0ZVQjB4WHFoZ2o0Y0tmb1dxVV9pbQ?oc=5",
-          "published_at": "2026-06-12T07:00:00+00:00",
-          "snippet": "LG directs banks to speed up PM SVANidhi loans as Delhi receives over 4.3 lakh applications The Times of India",
-          "lexical_overlap": 0.15,
-          "relevance": 0.255,
-          "matched_terms": [
-            "loans",
-            "pm",
-            "svanidhi"
-          ],
-          "shared_numbers": []
-        },
-        {
           "id": "25eea1a46a053b4436",
           "scope": "preferred_official_search",
           "tier": "primary",
@@ -975,20 +985,19 @@
           }
         },
         {
-          "id": "2dba54a7c6bab0b7ac",
+          "id": "95a4a3fc7347ae0d36",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Organiser",
-          "source_url": "https://organiser.org",
-          "title": "PM SVANidhi Success Story: How Modi Govt’s street vendor scheme transformed more than 75 lakh lives across Bharat - Organiser",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQZGlSaVEwQjRSNVA5MXgzMWNGZEtFZTBpWHlKMGxZblJwNi0xWWthMDVLdW5HS1lxbkEyMFJSX000TjVjVmEwblYtenBfV292YmtGMjRseWxZcDY5U0NuamNxSzBwWHk3VUpJdDFPQXB3MzJmOG9oYW9TeGRBNXBYV1BLaXAzMG9nZkszMlk2NGlMLWRNNVo4a3RmMnhEMmRvbHY4MmhleW8zWlRjTmttSVQzaVR3a2E3SVppYy1XS2g4SG5HNVdzaWM2ME5LM3BjbF9mTWlWOUFZRkxKSGNqLUVqSU9HekR2WXAxS0xJZ2PSAfYBQVVfeXFMTlFiNC1xcGVJOFZxc25ZNElMOU1VN2lVQ3BLZHNScGxwRllyaVFoZks1b2tLX2loN0thR0pZZm9BSkJ0d00xYmhzV0w4V01NNGN2ekR3bXc4OTRUTkdHUnh1M2s0blZ0Y1BBam02UmlRVmZJcGJSWUNiY3RhdDlyMXk5TVpoOVdBYzFDNVJLeFNGS3RxRUkxZDM1ZE5peEt4azJWVjR4M2ZIalozMVh2aHF1clo3MFl5Nk1SN2JYbG9sLUN3SFU1UmRVUzhjem14cmhiUXAwZTJvOGlWTzl0NklMZTBILVBBMFlTbG1xSl9FY2VOQm5R?oc=5",
-          "published_at": "2026-05-31T07:00:00+00:00",
-          "snippet": "PM SVANidhi Success Story: How Modi Govt’s street vendor scheme transformed more than 75 lakh lives across Bharat Organiser",
-          "lexical_overlap": 0.143,
-          "relevance": 0.248,
+          "source": "www.pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Over 5 lakh applications received under PM SVANidhi scheme - www.pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE04RV91Qm9TN01pUFZKaVB0czljU05heHRPYjFjdEdvd1c5UHNqSWItR0JxYWhwZmQ0cjNTLS1NNUNwQ29xRU5BSHBoeDBKWk56cUZuZ1ZGdTkwemI0QTI3SnVzLUxBUTh5?oc=5",
+          "published_at": "2020-08-12T07:00:00+00:00",
+          "snippet": "Over 5 lakh applications received under PM SVANidhi scheme www.pib.gov.in",
+          "lexical_overlap": 0.118,
+          "relevance": 0.188,
           "matched_terms": [
             "pm",
-            "street",
             "svanidhi"
           ],
           "shared_numbers": []
@@ -1099,7 +1108,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-11-01T18:08:47.698732+00:00",
+      "latest_checked_at": "2026-11-01T20:31:08.995577+00:00",
       "latest_claim_packet_id": "d4aab404e9ccc6ccf7"
     },
     {
@@ -1366,7 +1375,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-11-01T18:08:47.698781+00:00",
+      "latest_checked_at": "2026-11-01T20:31:08.995624+00:00",
       "latest_claim_packet_id": "884558fa72add4403d"
     },
     {
@@ -1462,7 +1471,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-11-01T18:08:47.698721+00:00",
+      "latest_checked_at": "2026-11-01T20:31:08.995561+00:00",
       "latest_claim_packet_id": "60ae96f665f22ef03b"
     },
     {
@@ -1510,7 +1519,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-11-01T18:08:47.698622+00:00",
+      "latest_checked_at": "2026-11-01T20:31:08.995452+00:00",
       "latest_claim_packet_id": "b8d4ab680299139905"
     },
     {
@@ -1582,7 +1591,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-11-01T18:08:47.698767+00:00",
+      "latest_checked_at": "2026-11-01T20:31:08.995609+00:00",
       "latest_claim_packet_id": "dac6e2327ebe0bd17a"
     },
     {
@@ -1798,7 +1807,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-11-01T18:08:47.698793+00:00",
+      "latest_checked_at": "2026-11-01T20:31:08.995644+00:00",
       "latest_claim_packet_id": "050ea98dd7879a06cd"
     },
     {
@@ -1990,7 +1999,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-11-01T18:08:47.698685+00:00",
+      "latest_checked_at": "2026-11-01T20:31:08.995517+00:00",
       "latest_claim_packet_id": "29371b53212e779eff"
     },
     {
@@ -2134,7 +2143,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-11-01T18:08:47.698660+00:00",
+      "latest_checked_at": "2026-11-01T20:31:08.995487+00:00",
       "latest_claim_packet_id": "b35543711de7918ea9"
     },
     {
@@ -2206,7 +2215,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-11-01T18:08:47.698673+00:00",
+      "latest_checked_at": "2026-11-01T20:31:08.995504+00:00",
       "latest_claim_packet_id": "ddb711a027259cf305"
     },
     {
@@ -2398,7 +2407,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-11-01T18:08:47.698811+00:00",
+      "latest_checked_at": "2026-11-01T20:31:08.995666+00:00",
       "latest_claim_packet_id": "5bb402465b7ccab062"
     },
     {
@@ -2542,7 +2551,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-11-01T18:08:47.698754+00:00",
+      "latest_checked_at": "2026-11-01T20:31:08.995592+00:00",
       "latest_claim_packet_id": "f5f9e7bb05cfa3199f"
     },
     {
@@ -2686,7 +2695,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-11-01T18:08:47.698802+00:00",
+      "latest_checked_at": "2026-11-01T20:31:08.995655+00:00",
       "latest_claim_packet_id": "00739b48a203bf3deb"
     },
     {
@@ -2830,7 +2839,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-11-01T18:08:47.698710+00:00",
+      "latest_checked_at": "2026-11-01T20:31:08.995547+00:00",
       "latest_claim_packet_id": "1d53d6d12eb863d5b2"
     },
     {
@@ -3073,7 +3082,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-10-25T13:30:15+00:00",
       "last_seen": "2026-10-25T13:30:15+00:00",
-      "latest_checked_at": "2026-11-01T18:08:47.698699+00:00",
+      "latest_checked_at": "2026-11-01T20:31:08.995534+00:00",
       "latest_claim_packet_id": "318b27cf844c2ade6a"
     },
     {
@@ -4891,7 +4900,7 @@
     },
     {
       "id": "a986278ee651fd5bcf",
-      "checked_at": "2026-10-29T09:56:50.351071+00:00",
+      "checked_at": "2026-11-01T20:31:57.002709+00:00",
       "promise_id": "BJP-2024-a3955c8c99c21e4648",
       "year": 2024,
       "category": "health_welfare",
@@ -6229,7 +6238,7 @@
     },
     {
       "id": "b3b760b89a4e78b8b0",
-      "checked_at": "2026-10-29T09:56:29.351968+00:00",
+      "checked_at": "2026-11-01T20:31:35.503564+00:00",
       "promise_id": "BJP-2024-8a281628fc19d1b1db",
       "year": 2024,
       "category": "agriculture",
@@ -6254,24 +6263,93 @@
       "query": "one enhancing market access women product",
       "evidence": [
         {
-          "id": "5a764f59ce846994c9",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "fundsforNGOs",
-          "source_url": "https://www.fundsforngos.org",
-          "title": "A Sample Grant Proposal on “Market Linkages for Women-Led and Community-Based Enterprises” - fundsforNGOs",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaWIwbzhqU1dQYzV6ZDhoMTMzUDBpTGZZU0pUMy0wMEFWUlkwSVQ5dU4tU3FvNmpKQmRaUE9DUjNKaGRpbFh1aEZtWDFncV9RcmhkVHBVWUVDWVFDeGduOVJoN2t6QkJ1SHJ3Q0JpdG5LTVZ4ZXp2QTFiek9IMkxaRS1DZk1HNURraEVtbTNBUHZJMjFzeG9jSnhYdGxDZk1jMmRhN0hVYW9TcXdXLXhHbV9YalB6UldwVEpUZTNUcC1fQzN4dDZ2ejhseWM?oc=5",
-          "published_at": "2026-01-08T06:21:47+00:00",
-          "snippet": "A Sample Grant Proposal on “Market Linkages for Women-Led and Community-Based Enterprises” fundsforNGOs",
-          "lexical_overlap": 0.105,
-          "relevance": 0.175,
+          "id": "90663f5ac93aa2e490",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Womaniya: Building Inclusive Market Access for Women Entrepreneurs - pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBWVWJsQ09WalhvWXpFNzFERUJ5b0h3LUY5VzlGWWhUZnEtV2F1RGNKWHE3MjB4aTFzeDNBSGh5N3BwbXVibzNVblZkaGUyN2hxN3lNNWNGa0drckl1bHpmbG5tdEJuR3R1WVdzSXV0LVdnc3VCaGE1eFNn?oc=5",
+          "published_at": "2026-04-10T07:00:00+00:00",
+          "snippet": "Womaniya: Building Inclusive Market Access for Women Entrepreneurs pib.gov.in",
+          "lexical_overlap": 0.167,
+          "relevance": 0.322,
+          "matched_terms": [
+            "access",
+            "market",
+            "women"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "access",
+            "market",
+            "women"
+          ]
+        },
+        {
+          "id": "31fd614baf980fe2a7",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "www.pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "One District One Product (ODOP) - www.pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB0NUs2TXMtX3VnM3Fab3ZvQmJaVEFkY2F3aGFOUldBOG96VXJ5c0JPT2VfMnlPRjYzd0NnTUd6REhkRVBRLVU2RmxZRUVWZjk0eVJUNmhzUjcxcUlFWWJkM0Y1c1N0akh2WTVpZkJFdE45blg4aW9WdDFB?oc=5",
+          "published_at": "2026-01-23T08:00:00+00:00",
+          "snippet": "One District One Product (ODOP) www.pib.gov.in",
+          "lexical_overlap": 0.118,
+          "relevance": 0.238,
+          "matched_terms": [
+            "one",
+            "product"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "district",
+            "odop",
+            "product"
+          ]
+        },
+        {
+          "id": "5da1664f2a358db9b9",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Media Interaction on PMFME Scheme by Shri Devesh Deval highlights achievements in empowering Micro Food Processing Enterprises, Women Entrepreneurs and Rural Livelihoods - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQb1dJeVlVQkdLMDhPVjRPYzVSMnZmM3lWcTIwQnJmaU16YmVHUXpVcFNQd18zWWFNTFN3SUI2Mjc3bHVMSTFmdG5GZUxFM2VabXJ6bDRwdmpuaVNBWGtLNzB5MWJsQzNabnV2VFVRZ2o4NWhMX0liTWtoTWo4YzBGLVJuWkI0QQ?oc=5",
+          "published_at": "2026-05-22T07:00:00+00:00",
+          "snippet": "Media Interaction on PMFME Scheme by Shri Devesh Deval highlights achievements in empowering Micro Food Processing Enterprises, Women Entrepreneurs and Rural Livelihoods Press Information Bureau",
+          "lexical_overlap": 0.077,
+          "relevance": 0.197,
           "matched_terms": [
             "enterprises",
-            "market"
+            "women"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
             "enterprises",
+            "women"
+          ]
+        },
+        {
+          "id": "500efb294d1f2a08ab",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "VOI.ID",
+          "source_url": "https://voi.id",
+          "title": "Expand Access to the SME Market, Pertamina Holds SMEXPO in Several Cities - VOI.ID",
+          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBHc2FKek5nTC0wRG5hVGMxZUR4eW5VanpVaU4tSzFJTjRBZDhfUnRSZ2h2YW80dnlBU2szLWdOTklDbnI4X0Nv0gFCQVVfeXFMUDU5WlpMc1ZBSGh5SjZBV0x5UGZyYlJSbFRlVEMwNmR4R1FWUHhvaUoxRGxLbzZQQUlWcXNVTFVsZTFR?oc=5",
+          "published_at": "2026-11-01T00:56:20+00:00",
+          "snippet": "Expand Access to the SME Market, Pertamina Holds SMEXPO in Several Cities VOI.ID",
+          "lexical_overlap": 0.095,
+          "relevance": 0.165,
+          "matched_terms": [
+            "access",
+            "market"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "access",
             "market"
           ]
         },
@@ -6298,7 +6376,7 @@
           ]
         }
       ],
-      "implementation_signal": "needs_research",
+      "implementation_signal": "current_primary_evidence_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -7179,7 +7257,7 @@
     },
     {
       "id": "0bac16fe25139deb52",
-      "checked_at": "2026-10-29T09:56:52.175870+00:00",
+      "checked_at": "2026-11-01T20:31:58.366545+00:00",
       "promise_id": "BJP-2024-a39d12662158e33e35",
       "year": 2024,
       "category": "jobs_economy",
@@ -7224,15 +7302,15 @@
       "query": "towards making global manufacturing hub enhance",
       "evidence": [
         {
-          "id": "5c2e1b63a788f6cfe8",
+          "id": "08fa3ddba40be37286",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "Press Information Bureau",
+          "source": "www.pib.gov.in",
           "source_url": "https://www.pib.gov.in",
-          "title": "NITI Aayog Report on “Key Sectors to Position India as a Global Manufacturing Hub” - Press Information Bureau",
+          "title": "NITI Aayog Report on “Key Sectors to Position India as a Global Manufacturing Hub” - www.pib.gov.in",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9oVkhNYzU4U25nMV85c1NrcGlJd3hpZkJyTmNrY2NOcGxQc1JYU0o1LWI5TjlwemxDNEVMbFpPcUlzS05DaldOLXI2M0dtT25aRmJxenRkRWxKbDFEZWptZ0l4RXBkUURGeUM0cmJpWTRRRmRzdm5XTVEzVQ?oc=5",
           "published_at": "2026-08-13T07:00:00+00:00",
-          "snippet": "NITI Aayog Report on “Key Sectors to Position India as a Global Manufacturing Hub” Press Information Bureau",
+          "snippet": "NITI Aayog Report on “Key Sectors to Position India as a Global Manufacturing Hub” www.pib.gov.in",
           "lexical_overlap": 0.15,
           "relevance": 0.305,
           "matched_terms": [
@@ -7247,24 +7325,27 @@
           ]
         },
         {
-          "id": "c75cd288a6c05f0efd",
-          "scope": "broad_official_search",
-          "tier": "primary",
-          "source": "Skill India Digital Hub",
-          "source_url": "https://www.skillindiadigital.gov.in",
-          "title": "Please select sector to explore skill courses - Skill India Digital Hub",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE85eXVoNWxpU0F4aVphckpYSW91dE8xelNteDZ1UlU4NmtDSXpKQUVGcWZKZHZITThnWlFoMmdDUWk3c05YZGNuZWxFSm9DbmE2Q0FubTZmNDZtQlpJYWNqc3NDblZFT1FZd0pLTGQ4NVE?oc=5",
-          "published_at": "2024-06-25T10:39:25+00:00",
-          "snippet": "Please select sector to explore skill courses Skill India Digital Hub",
-          "lexical_overlap": 0.118,
-          "relevance": 0.238,
+          "id": "57016a1039eb806789",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Sanskriti IAS",
+          "source_url": "https://www.sanskritiias.com",
+          "title": "12 Years of Make in India: India’s Journey Towards a Global Manufacturing Hub - Sanskriti IAS",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQVRRNGNoX09UMGgtYnVnWTNEUXBTb3BhX2tXNlUzb21WMHBkc01XdmU4ZTZkRms5Ykx6dmxieFFxOGhqdExxVDFsQi01UlJjWTYwME1sMnVKYTEzOHNUVjR0VjFPWXNnN0NoXzRPZ2EweGt2UEpxUjZFV3VIUEZaUXp4dThKbVlMT3EyY2FjVkRuUV9RWVZza2lqVzZfNmRMMXNjNzNhckdoejduT045dVNHcHRWelliX1BBUQ?oc=5",
+          "published_at": "2026-09-25T10:32:22+00:00",
+          "snippet": "12 Years of Make in India: India’s Journey Towards a Global Manufacturing Hub Sanskriti IAS",
+          "lexical_overlap": 0.267,
+          "relevance": 0.407,
           "matched_terms": [
+            "global",
             "hub",
-            "sector"
+            "manufacturing",
+            "towards"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "sector"
+            "global",
+            "manufacturing"
           ]
         },
         {
@@ -7298,7 +7379,7 @@
           "source_url": "https://ddnews.gov.in",
           "title": "NITI Aayog identifies four key sectors to position India as global manufacturing hub - DD News",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOV28zQllKVU5NdnpGeV9KenRXWUxYaFNfT0RsSzRzTUV5R01yM2FLOWk2TE5IS2Jld1NrYy12eHpVaHg5czk5M3dBRDJiN1B1TUtDNllVcDYtWGxqSVAtZ09rOVVodkZsUFVnbnh4bkRfeGdlWU4xSVkzTzFWajNmT1JRTlI4OW5tLVJpal83b0prczNQRVFva2w2cjZKcF94S195am5DVXZSbVBad1ln?oc=5",
-          "published_at": "2026-08-13T07:00:00+00:00",
+          "published_at": "2026-08-13T13:07:31+00:00",
           "snippet": "NITI Aayog identifies four key sectors to position India as global manufacturing hub DD News",
           "lexical_overlap": 0.15,
           "relevance": 0.255,
@@ -7311,6 +7392,28 @@
           "promise_core_overlap": [
             "global",
             "manufacturing"
+          ]
+        },
+        {
+          "id": "c59d0ed20de5f88086",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Drishti IAS",
+          "source_url": "https://www.drishtiias.com",
+          "title": "The Rise of Indian Manufacturing Sector - Drishti IAS",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVzVGLXdDWmpNZEw0UnIzTVpOUWtxSGRXQVdZcGJRaUp3a20zRW1hQkUtc0NHX2FlWDRMTHA3Z2tqMWxZUzVoeG1oRFZCanE4UjktVE5obWhwUzJiNUE2SW0zOURYX1NQdUt4aWdGejZKLS1maTVGTmNRUUdvWFQ5T2FQU05EZ01BWDhac3NMeWZoSEJ2NGhlX3B3Mmw1b09UeHpURg?oc=5",
+          "published_at": "2025-09-23T07:00:00+00:00",
+          "snippet": "The Rise of Indian Manufacturing Sector Drishti IAS",
+          "lexical_overlap": 0.143,
+          "relevance": 0.213,
+          "matched_terms": [
+            "manufacturing",
+            "sector"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "manufacturing",
+            "sector"
           ]
         },
         {
@@ -9967,7 +10070,7 @@
     },
     {
       "id": "4535b0b1e9dd0c7c76",
-      "checked_at": "2026-10-25T21:47:10.079737+00:00",
+      "checked_at": "2026-11-01T20:31:33.028045+00:00",
       "promise_id": "BJP-2024-85c85c656add7b1a48",
       "year": 2024,
       "category": "other",
@@ -9990,48 +10093,29 @@
       "query": "set storage logistics facilities clusters",
       "evidence": [
         {
-          "id": "54560527ce7f9eab45",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Cold Storage Facilities for Perishable Crops - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Uakdka1A2MmNnYlJBMG81Vmh3clI2czBzUlp3eDJhcmszYWR0VHVINkU0WGo2WDdycGNfdXJMckdfU2FJNzBSVl90blFmc2x6TWhkQml4aVhHc1RyUlRpd0xmTWljM2VN?oc=5",
-          "published_at": "2025-07-22T07:00:00+00:00",
-          "snippet": "Cold Storage Facilities for Perishable Crops PIB",
-          "lexical_overlap": 0.2,
-          "relevance": 0.32,
+          "id": "9abf06d782806903ac",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Earthjustice",
+          "source_url": "https://earthjustice.org",
+          "title": "Advocates Unveil Actions to Rein In Unplanned Clustering Of Last-Mile Logistics Facilities - Earthjustice",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNmJEekxoSjgtQ3cyTmVuMkJtb19aeENmMUEwM19jNnR0R20xLWNlaU0zRGpJMW9wazdwN0d1MmprSlFna2FkVzNWSkxpeHQ2N3YyN242UHhLcEkyU1BEd2kyc1E3WFFqRkJZaDhOek9NMlhmTXZmb2FCS0oyZE81VUlQc3gzZTZDelI4czRaZ3RsZEhVNVhoa0IwUG5DQzRTU1hGSGRpTWNKX1dtLTRqRGsxZ2lhRUtBeVVWTWg5Y3JNM1Jj?oc=5",
+          "published_at": "2023-02-16T08:00:00+00:00",
+          "snippet": "Advocates Unveil Actions to Rein In Unplanned Clustering Of Last-Mile Logistics Facilities Earthjustice",
+          "lexical_overlap": 0.143,
+          "relevance": 0.213,
           "matched_terms": [
             "facilities",
-            "storage"
+            "logistics"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
             "facilities",
-            "storage"
+            "logistics"
           ]
-        },
-        {
-          "id": "080c329d12da6d2180",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Economic Times",
-          "source_url": "https://m.economictimes.com",
-          "title": "Reliance Industries to set up India’s largest data centre cluster in Andhra Pradesh - The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQNDdLRHBXQWtmclBweWZRaWFQUkV5OUZJLUtqbVFQdEhfNXFETUFKVUh0R0NrU2pQclk2ZkhuQjFBVGlBcUhaeU1RN1dMdW1SeWVtX2lCb3lFUmZUZEhnVVh4ekphMW1WWEc5clRrWS01S0gtUzFXaERiRFlQUjNES3psd204NHhMMGNBMEM2SHQya1lVWjh5VDNvYmdEYVU3ekVwZ1dZRjJvd0VwZm96cVFuVUplajBTbFA1dmhRSW1VQVpGb25FbVNWZE9NbHNWU3otV3JhUHk0S2lrZzdTMdIB5gFBVV95cUxNYkx5TjJjVHhiT0NvT3hyUmFEWVJhUDM4R3VSMy1WbVo0V19ETl9JcUUxOVk2ZzdQbmc2d3NReGJzdkoxbExLenpOeDAzajBHRWRmU1FxTUVDUXJ5UFFCcXdybWRRRm1EWWpYZDJMOXFnZVljZjV6SWxyN0U0V1RfNnhWRTJBOGJQSDcyTDJ3TGFjaFhWQVJ3MGlPNDh2SGhGcjRTQVZ6Qms2NDZKc0VldldzaFFTMGx3YkZnVl9tSERSZ3BVcVNiZlJ5clgxUVZ0SlpYLWY4MGVhamZVbDVJSmNfd0JkZw?oc=5",
-          "published_at": "2026-04-28T07:00:00+00:00",
-          "snippet": "Reliance Industries to set up India’s largest data centre cluster in Andhra Pradesh The Economic Times",
-          "lexical_overlap": 0.125,
-          "relevance": 0.195,
-          "matched_terms": [
-            "set",
-            "up"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": []
         }
       ],
-      "implementation_signal": "current_primary_evidence_found",
+      "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -10880,7 +10964,7 @@
     },
     {
       "id": "12147e9112bed70655",
-      "checked_at": "2026-10-29T09:56:43.837138+00:00",
+      "checked_at": "2026-11-01T20:31:49.925205+00:00",
       "promise_id": "BJP-2024-9ae4082ea81a9f9043",
       "year": 2024,
       "category": "infrastructure",
@@ -10947,29 +11031,6 @@
           "promise_core_overlap": [
             "atmanirbhar",
             "edible",
-            "pulses"
-          ]
-        },
-        {
-          "id": "99a9f8586e959ce480",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Awaz The Voice",
-          "source_url": "https://www.awazthevoice.in",
-          "title": "India needs to be atmanirbhar in oil seeds, pulses - Awaz The Voice",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWVZNekV5VHFIa2paQkZEMUNJRWZtS3hRVVRDYUpSQzlUSEgwODFYa1pGZU8xc0phbU5obERGN2dSSnRPc3pWSld1aF9fQy02b1hkeFR1ZjBKZS1NMzQweEtMQW5VQ3g4S0xkcEU1NUhoZmRDNlZ4d1J4X1FHTlVFUENFZl9ZWTlQV1NwZVQ0VnNEa1VKSXhMSnRmRFliYjdaNUE?oc=5",
-          "published_at": "2022-07-16T07:00:00+00:00",
-          "snippet": "India needs to be atmanirbhar in oil seeds, pulses Awaz The Voice",
-          "lexical_overlap": 0.188,
-          "relevance": 0.292,
-          "matched_terms": [
-            "atmanirbhar",
-            "oil",
-            "pulses"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "atmanirbhar",
             "pulses"
           ]
         },
@@ -15313,7 +15374,7 @@
     },
     {
       "id": "944b5d6918365450dd",
-      "checked_at": "2026-10-29T09:56:44.582197+00:00",
+      "checked_at": "2026-11-01T20:31:50.713418+00:00",
       "promise_id": "BJP-2024-9b96b851aac1ea9942",
       "year": 2024,
       "category": "other",
@@ -15336,15 +15397,15 @@
       "query": "towards eliminating sickle cell anaemia",
       "evidence": [
         {
-          "id": "d37ed3928d9f44dbcf",
+          "id": "0b201f6580a71d2b40",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "Press Information Bureau",
+          "source": "www.pib.gov.in",
           "source_url": "https://www.pib.gov.in",
-          "title": "Prime Minister launches National Sickle Cell Anaemia Elimination Mission from Shahdol, Madhya Pradesh - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBCQmxFZ24ycDhOMW1CaEFzQ29xT21UcGttRnZuQURXQk1ORXRrakU4bVpTckhIaFc5Ymc3TkVvNWhBdEJnaVZfRHNDNEd4WG9hVTJSUHNNS2dFTm1qbTA3OG0yNnlxS3lq?oc=5",
+          "title": "Prime Minister launches National Sickle Cell Anaemia Elimination Mission from Shahdol, Madhya Pradesh - www.pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0tNGtzRHBsdkZiSUpZaGpXQlpUTm82ejJhcmlJQmpvTW9wRnNlVXYyR1o0cm9NRENJYm5kcmd2SDYwTjlRMTFoRThxcVdpNkF5TGJLM2ZtMzBtYVgxWXV1Tnh3d0tiMjcyRTdKcExlbkxuUTNWdWZkd1NR?oc=5",
           "published_at": "2023-07-01T07:00:00+00:00",
-          "snippet": "Prime Minister launches National Sickle Cell Anaemia Elimination Mission from Shahdol, Madhya Pradesh Press Information Bureau",
+          "snippet": "Prime Minister launches National Sickle Cell Anaemia Elimination Mission from Shahdol, Madhya Pradesh www.pib.gov.in",
           "lexical_overlap": 0.188,
           "relevance": 0.342,
           "matched_terms": [
@@ -15406,17 +15467,17 @@
           ]
         },
         {
-          "id": "1b3d13357e8dadaa22",
+          "id": "833cc9462c29fbe4a8",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "Press Information Bureau",
+          "source": "PIB",
           "source_url": "https://www.pib.gov.in",
-          "title": "India achieves Milestone of 6 Crore Screenings under National Sickle Cell Anemia Elimination Mission - Press Information Bureau",
+          "title": "India achieves Milestone of 6 Crore Screenings under National Sickle Cell Anemia Elimination Mission - PIB",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9aZWY1cXpoeE5pMzhfVGFESnA1Zy13dUZ0YS1aZndtYmZTNmNIVjNLUU15WVNxRloxeTFmQW9iRXVrVnI5blpRMEQ1am16SnhtNTVjMVItbG5VcGxBRWt0WEJmdnZwRk4y?oc=5",
           "published_at": "2025-07-22T07:00:00+00:00",
-          "snippet": "India achieves Milestone of 6 Crore Screenings under National Sickle Cell Anemia Elimination Mission Press Information Bureau",
-          "lexical_overlap": 0.118,
-          "relevance": 0.238,
+          "snippet": "India achieves Milestone of 6 Crore Screenings under National Sickle Cell Anemia Elimination Mission PIB",
+          "lexical_overlap": 0.133,
+          "relevance": 0.253,
           "matched_terms": [
             "cell",
             "sickle"
@@ -15428,15 +15489,15 @@
           ]
         },
         {
-          "id": "b95c7730c07b625a49",
+          "id": "ddff8c016271bff0f1",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "Press Information Bureau",
+          "source": "www.pib.gov.in",
           "source_url": "https://www.pib.gov.in",
-          "title": "PRESIDENT OF INDIA GRACES INTERNATIONAL SICKLE CELL DAY COMMEMORATION AT OMKARESHWAR, MADHYA PRADESH - Press Information Bureau",
+          "title": "PRESIDENT OF INDIA GRACES INTERNATIONAL SICKLE CELL DAY COMMEMORATION AT OMKARESHWAR, MADHYA PRADESH - www.pib.gov.in",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9qZU1rc2R1eU5LNFgxR3dkYjZjRkJOb2NTQzRYLU8tR1Vjc19Ld0VybHR2T2I3dGU2VkNqYWJuWlZfSE5NaXpnbWZyR1ZwNnE0RGIxUjZiWjhtVTNxZzFqNUx4c2hsbkhmb0RsS2hpR1ZPQjE2TGJOR3h3?oc=5",
           "published_at": "2026-06-19T07:00:00+00:00",
-          "snippet": "PRESIDENT OF INDIA GRACES INTERNATIONAL SICKLE CELL DAY COMMEMORATION AT OMKARESHWAR, MADHYA PRADESH Press Information Bureau",
+          "snippet": "PRESIDENT OF INDIA GRACES INTERNATIONAL SICKLE CELL DAY COMMEMORATION AT OMKARESHWAR, MADHYA PRADESH www.pib.gov.in",
           "lexical_overlap": 0.118,
           "relevance": 0.238,
           "matched_terms": [
@@ -15445,30 +15506,6 @@
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "cell",
-            "sickle"
-          ]
-        },
-        {
-          "id": "020187ab8fc7310d08",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "GK Today",
-          "source_url": "https://www.gktoday.in",
-          "title": "India Targets Sickle Cell Anaemia Elimination by 2047 - GK Today",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbkV4UmdQaElnSDI4YmNsa3U4bkV0TF9LcjhyUHh0VVI2SmRTMnl2SUNpOGZBcGZTelMtSHV3LWJfWG5pbThNV0w5OHZtYnltVU9ueGxSSzYxbTFrNlcxNUZvU0ItbVZTcGUwOVVMTjVOZXg3SngzaEZMQVFSOTk1c1FwUQ?oc=5",
-          "published_at": "2026-06-20T07:00:00+00:00",
-          "snippet": "India Targets Sickle Cell Anaemia Elimination by 2047 GK Today",
-          "lexical_overlap": 0.333,
-          "relevance": 0.438,
-          "matched_terms": [
-            "anaemia",
-            "cell",
-            "sickle"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "anaemia",
             "cell",
             "sickle"
           ]
@@ -15541,6 +15578,28 @@
           "shared_numbers": [],
           "promise_core_overlap": [
             "anaemia",
+            "cell",
+            "sickle"
+          ]
+        },
+        {
+          "id": "c79d95a8e017a6074f",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The News Mill",
+          "source_url": "https://thenewsmill.com",
+          "title": "Novo Nordisk backs India’s goal to eliminate sickle cell disease by 2047 - The News Mill",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONXNLVHNJbXZCYnY3U3EtNDd1aThvUndCR2xEckotTHBxMnRrVUlFWkdBZkF5Q1RRNkhsNmQ4SGpxM0J2cHdNNFB6WndINVItQ3FCYlBFQWlaTVQxaUNLc0h4RkJOMWVsME5COUluYlprbjNqWEJNaUo4MVN5Sk1DV2NObk1za09WMGw0SjE0eFZ3blpKdTN5QjF6a3NDOXhZQkZGVWlwb2FuTTBNZi05QlZB?oc=5",
+          "published_at": "2026-10-15T07:00:00+00:00",
+          "snippet": "Novo Nordisk backs India’s goal to eliminate sickle cell disease by 2047 The News Mill",
+          "lexical_overlap": 0.143,
+          "relevance": 0.213,
+          "matched_terms": [
+            "cell",
+            "sickle"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
             "cell",
             "sickle"
           ]
@@ -17468,7 +17527,7 @@
     },
     {
       "id": "e205ef3d24b3af897f",
-      "checked_at": "2026-10-29T09:56:39.955190+00:00",
+      "checked_at": "2026-11-01T20:31:46.072077+00:00",
       "promise_id": "BJP-2024-94c9e741005d20a5d1",
       "year": 2024,
       "category": "education_skills",
@@ -17493,17 +17552,17 @@
       "query": "encourage classical bharatiya language research study",
       "evidence": [
         {
-          "id": "b93c0efa3b1c34914f",
+          "id": "dce535356ecb8a5a3f",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "Press Information Bureau",
+          "source": "PIB",
           "source_url": "https://www.pib.gov.in",
-          "title": "Classical Languages of India - Press Information Bureau",
+          "title": "Classical Languages of India - PIB",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5IWGFLdGNPeVoxRkpZSVlZNGxvZ3JsMFlsMVFxbWFuV01QeHdWaFNObGpmWVJWOTlqX2VudEw5Z2ZxZUVmVzYzaXk0d0J1RnVzaFh0UEFXTEtvd3BMV2hvMlJ0ODc4LWpO?oc=5",
           "published_at": "2025-10-27T07:00:00+00:00",
-          "snippet": "Classical Languages of India Press Information Bureau",
-          "lexical_overlap": 0.133,
-          "relevance": 0.253,
+          "snippet": "Classical Languages of India PIB",
+          "lexical_overlap": 0.154,
+          "relevance": 0.274,
           "matched_terms": [
             "classical",
             "languages"
@@ -18701,7 +18760,7 @@
     },
     {
       "id": "7f3565cb1fffbf6fc2",
-      "checked_at": "2026-10-29T09:56:33.271664+00:00",
+      "checked_at": "2026-11-01T20:31:39.465159+00:00",
       "promise_id": "BJP-2024-8c1b9fd8881d786fe5",
       "year": 2024,
       "category": "governance",
@@ -18726,17 +18785,17 @@
       "query": "armed forces central police enhancing capabilities",
       "evidence": [
         {
-          "id": "38663342ed60b8508e",
+          "id": "60c6d4beddb7397b66",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Vision IAS",
-          "source_url": "https://visionias.in",
-          "title": "POLICING POWER TO CENTRAL ARMED POLICE FORCES (CAPF) - Vision IAS",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQlBBY3dxWTMtWGhsQ0tQQTBORE5saDB6eXJSazBMYnc4UUJJMElkcVFrX2NXRGYtM0VrX2JhR19wcS03cmZYeEVacnY3NFJuajg0UXpHc3N4VHV1T2t3RXpwZWhSXzlTUDV4RlBHbGlzZU1fcFlvZUMxTWl4M3p6dGlyZ2EwUDhXdUhnU083b1lFbEhLS1ZwU0dmQ3dsbmV5bkdzLWZPZDc5b0VIeG40Z2dsY0xJNDBRVWlOVFYyX2FTQQ?oc=5",
-          "published_at": "2024-02-15T08:00:00+00:00",
-          "snippet": "POLICING POWER TO CENTRAL ARMED POLICE FORCES (CAPF) Vision IAS",
-          "lexical_overlap": 0.235,
-          "relevance": 0.375,
+          "source": "ThePrint",
+          "source_url": "https://theprint.in",
+          "title": "The worrying rise of militarisation in India’s Central Armed Police Forces - ThePrint",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQnFmc1VOWXpUOUFDbnZNbTZDUDgtUGx4dGxHd1hWNllycGk2dWwtYkh4N2xFU2ozSHNFSHN4YndCLXVIR3lkZ3VuWllTOFk3aExjRmpkM0I2RjRIU0pmSUVzd2VZUTNjbUwtUldjZndHbFdSZkh3MUNGeGpldmlGM2gwMjVSUDdqN01DbS1uNE1EdGdqWlBwQjkwQ0JsMmPSAaQBQVVfeXFMTUg5ZUdsN25ldDg4T0JoTVRGRndsYUdZaEdsb2MtM0gyaVRHYnpPWVRUa1QxTjRwdVV3RnJpZmRmWUhTRE9OR1FXYkswV3djcE5GN1RoRmlMQUpuOXJoWWFhaEVMNklBQVZuS3M2S0ZtWHFSMlQ3ZElPYnZrZFo1a3ZnSURoekUtY1d0UHgtUmdUVWJ2Nk9Rc09kbWkzLUZJWHVGQk4?oc=5",
+          "published_at": "2017-11-29T08:00:00+00:00",
+          "snippet": "The worrying rise of militarisation in India’s Central Armed Police Forces ThePrint",
+          "lexical_overlap": 0.25,
+          "relevance": 0.39,
           "matched_terms": [
             "armed",
             "central",
@@ -18748,6 +18807,52 @@
             "armed",
             "central",
             "forces",
+            "police"
+          ]
+        },
+        {
+          "id": "dcded85a1324a2dbff",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Singapore Police Force",
+          "source_url": "https://www.police.gov.sg",
+          "title": "Senior Minister Lee Hsien Loong Views Police Capabilities at Central Police Division - Singapore Police Force",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPSTE2QktzOTdubnhMcFVvVU9ENVRGNU9VbFpMdTRyU05ZQ0JVM2V4QVBxMTRqSjA5VkdFZmFGb2pxOXZQMUxJR2t4YUd2S19OLTZGU3BtajBFQzlMWFY5SloyLTVKVF9BQl9SMjZ6ZTF2LUZJMjhqbE02Yk5EZ0cxSGQ4S1JWc214RU95aWF1QmYxa3FBTzBiT2NudEJYU0hnVmlIR2pKc0NOME13NkQ4ZVhLZ1VuT1pGTXhDeThlT0pVcXVvUlJXZi1QTmZjMTlWSXplRjRWMA?oc=5",
+          "published_at": "2026-04-15T07:00:00+00:00",
+          "snippet": "Senior Minister Lee Hsien Loong Views Police Capabilities at Central Police Division Singapore Police Force",
+          "lexical_overlap": 0.15,
+          "relevance": 0.255,
+          "matched_terms": [
+            "capabilities",
+            "central",
+            "police"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "capabilities",
+            "central",
+            "police"
+          ]
+        },
+        {
+          "id": "0d4282ebe32239078b",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "US Central Command (.mil)",
+          "source_url": "https://www.centcom.mil",
+          "title": "W.Va., Qatar Military Police continue bilateral training, interoperability development - US Central Command (.mil)",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxONTRFMFhQajFWR3BmTDZmbk41ZTZ5cTNjOFEwclk2bF9TbTF6VmJTVkpMS1RxaWpETHBSaTZhZ1gtb21aNWg4WHRqVncxM2FkY3RLS2NxemtvSmhFMmpsZ1NEN0t2ZmpaM01UakIyV1pLVXgtcmZrZVoyNU43ZzVCUmEwUFNWUUlfTVNtdW1rUmEwNzNtOXdSNkxFM3Z4ZFMtSml5NWJQUWpld1lTOE9waWZGVEF2S1o1ZmU2WkZGNDdoTnVKX3VxMy1VQUhJaG1qX3lQU3lmcGdTX0tURGlkdDVFanBQWXE3SE01cEpqaw?oc=5",
+          "published_at": "2025-09-29T07:00:00+00:00",
+          "snippet": "W.Va., Qatar Military Police continue bilateral training, interoperability development US Central Command (.mil)",
+          "lexical_overlap": 0.087,
+          "relevance": 0.157,
+          "matched_terms": [
+            "central",
+            "police"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "central",
             "police"
           ]
         }
@@ -18767,7 +18872,7 @@
     },
     {
       "id": "ca9dbbcd27421a3b67",
-      "checked_at": "2026-10-29T09:56:38.526571+00:00",
+      "checked_at": "2026-11-01T20:31:44.712551+00:00",
       "promise_id": "BJP-2024-948c83fc9a470cda63",
       "year": 2024,
       "category": "infrastructure",
@@ -18792,53 +18897,29 @@
       "query": "accelerate development robust infrastructure along indo-china",
       "evidence": [
         {
-          "id": "228c031cb25123e07e",
+          "id": "503f8af99ca80cb5f7",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Swarajya",
-          "source_url": "https://swarajyamag.com",
-          "title": "India-China Border In BJP Manifesto — Here's What It Says About Development Of Infrastructure Along The Frontier - Swarajya",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMExQTlZ6TGdMeWN0WW13Y3h0dXRtRUUwZVdmbGZuaDhTUnVGckZCeHJKVG5peTFYang5WXFTVHpmNXVBeFJWMTZfbzBhR1NLVzUyNXhyTk50MlgwekpFRW9EZTM5R2RUZGZEZ0RqNklUSVUzamhvSENBRmdTWVdkeVdWRmhYeENaRGJSdWY4cTFKZldZdEV6QUhObnhDanRjNWVCM3J5a3VKa2dJZ1dxYW1ZcFlhOHBoZEZvTFF6VTljU19URFBLbmozVnJvdkJySDBETlIydUzSAegBQVVfeXFMTm8xQXVmWFNheXVfVUdMdGZXSVJCQ2dxLUlnbmtVaU40M0dRYzlUdG9RZUd0WG9FSUFBVHlMeGJPOUpicWFWZUVxdXdJdzVzbTVQYnNJTGVNbDlZYXFid2ExV2xiWmtVdkEyRXEwR0ZRTy1BZFk0TE1FVE93ZndFZTVoc0s2UzJhazNzYXoxeW96R2tNcHliY0NTLVNzTUl4UnBBWDhYX3d2WG85Ul9YSHpyREc5bXUwdm1iX2pXZ1VlYVZMRlRtSU9yVEZqWFpZRmlfT2ktT21FVzk5MlNCWlN6MXBhc0EwaQ?oc=5",
-          "published_at": "2024-04-14T07:00:00+00:00",
-          "snippet": "India-China Border In BJP Manifesto — Here's What It Says About Development Of Infrastructure Along The Frontier Swarajya",
-          "lexical_overlap": 0.176,
-          "relevance": 0.281,
+          "source": "ET Government",
+          "source_url": "https://government.economictimes.indiatimes.com",
+          "title": "UP focuses on infrastructure, MSMEs, AI to accelerate $1-trillion economy goal - ET Government",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPOGdWVUlzbFV4MV9NTGlzMFhjMjYydW15MjM5b2NfcUZuWm16OGpoZlFxNWhrLTVWNXRUZU04Y0NBTncyMmdlc25QMGp2WGNmWkRWbGRwa2IyVHFkT1pUdVdqZ0NZZDF2Yk1hSUtnMXhXUEtfMzVjdVJjOERINU84d3AyLVhjc3NtRnpNX3lHUDBzdmJocG8zY1VqZ2xjV2Vob1VHWmdfY3RkWG1UOUhpYmxMUzcyTGhoZlN4ZTVBdUxxdVZxQThkV3lmcmRObWw4bV80WDFCQ2VkbGFWXzRR0gHjAUFVX3lxTFBRNXMyVnRfTGU0S2hoZWRacWZvVkhzNHJRYVFmMUtHRlZfM0FZcWc4THV6S0RWNkJhQ1dSNkpVQi0xckhrVFY0T2R6NE5lcXljaEczMTBYZ0s3LVk1NXRVTklFOFdSenVBektEdlZ1QkhfVWJjejVSbmF4a0IyUHRmSVV6Y2xzMDdWaFdzb0d6a0dXeXBaelUwWXRFZHhicUl4SG1hUjNmZVVEZ0JGTXR3UXUyWWlaak8wWG5kYVZ1MWxYekc4czVBbDdZRUZOc0xPUG1TSzVrLVpkckk2dno0WnBj?oc=5",
+          "published_at": "2026-07-19T07:00:00+00:00",
+          "snippet": "UP focuses on infrastructure, MSMEs, AI to accelerate $1-trillion economy goal ET Government",
+          "lexical_overlap": 0.118,
+          "relevance": 0.188,
           "matched_terms": [
-            "along",
-            "development",
+            "accelerate",
             "infrastructure"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "along",
-            "development",
-            "infrastructure"
-          ]
-        },
-        {
-          "id": "ec018f84d8d6c18505",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "orfonline.org",
-          "source_url": "https://www.orfonline.org",
-          "title": "China’s Infrastructure Buildup Near India’s Northern Borders: The Eight-Year Surge Since Doklam - orfonline.org",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUHlkYW9uNy1DQU5iTVJ6S1VvQ3dCMUNEWHRWbTRYUHl3RXJOcDNGbXJVQ0tObGdWVHdGZzAxQjN4bjRfSjNDUktpT3U0UVVobDhWXy1vcU5EeGc0Y0U0QUU3UkNDelZPd3cyUmFSVjIxaWVEVVVOeVhfUHNiLUZVSk9KUnFCOVM4cHRBMnN5V0FxcFh1aWowMGtaRTgtRmhjRTZTMFcwbHZ0el85RG9GMkVhUHlESkZxbW5uRmNMQVNYQ3JnMTZkQQ?oc=5",
-          "published_at": "2025-11-04T08:00:00+00:00",
-          "snippet": "China’s Infrastructure Buildup Near India’s Northern Borders: The Eight-Year Surge Since Doklam orfonline.org",
-          "lexical_overlap": 0.105,
-          "relevance": 0.175,
-          "matched_terms": [
-            "borders",
-            "infrastructure"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "borders",
+            "accelerate",
             "infrastructure"
           ]
         }
       ],
-      "implementation_signal": "current_reporting_found",
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -18853,7 +18934,7 @@
     },
     {
       "id": "694adb4cdab6e81f44",
-      "checked_at": "2026-10-29T09:56:41.587185+00:00",
+      "checked_at": "2026-11-01T20:31:47.870748+00:00",
       "promise_id": "BJP-2024-96967dcf7479c2d141",
       "year": 2024,
       "category": "infrastructure",
@@ -23521,7 +23602,7 @@
     },
     {
       "id": "1406d5dae22611c004",
-      "checked_at": "2026-10-25T21:47:11.714892+00:00",
+      "checked_at": "2026-11-01T20:31:34.741566+00:00",
       "promise_id": "BJP-2024-865c6bc1c54f12411c",
       "year": 2024,
       "category": "other",
@@ -27029,7 +27110,7 @@
     },
     {
       "id": "bbbff514d5d11228c1",
-      "checked_at": "2026-10-29T09:56:46.157268+00:00",
+      "checked_at": "2026-11-01T20:31:52.439633+00:00",
       "promise_id": "BJP-2024-9f63cff23087b836ac",
       "year": 2024,
       "category": "infrastructure",
@@ -27075,39 +27156,17 @@
           ]
         },
         {
-          "id": "c5746e55cbac36c50b",
+          "id": "d40527d1bfc3871b77",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Firstpost",
-          "source_url": "https://www.firstpost.com",
-          "title": "India to develop 44 airports under hub-and-spoke model to boost overseas connectivity - Firstpost",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMTNjS184Y01ua2lnT213QjYxWUFnZDJxNjhNRFY5aGxXM1ZzN3RLMXRsTkkwd3M3RjUzUmI2bmRQSnZpZDg1Wkx4MV9lcUk3RzBMTUlxN2JQVkxSSDk1b0VnVnhOb2RwYklmV3UzQzBZYmFkcmw1cWZKMzFUaWxtZ2hJOHkxSXFXZFRVcHRmSzlPemRUcHdiMWFRSjB5VmxsWkxudjAzMDRlemxfQ2VnYlh2V2lPOVdaZE9lZjdXQ3ROOTVhaDBIZFEzZHVJNDDSAdQBQVVfeXFMTWF5UlZQVGNJa191b1d1MzRuQmxsMkN5Tnpud3FFcFBRY19rZVlxUTdEMXQxM0pwX1ROd3liMjhPZmZrTHRxTDNhS3FzekhReDhjMW9zMzk3THUzUFg3THlrTEdEeGVnamRCSkFER2t4cWNGRU5rN2VZZmxpcXNhbTB1Ni0tMmNWaW9Vc1hUNFAtVldJRzltYjdSallUMUhlYzlDMEd1TEVMWVdsWlN0VVlpVUNyYk5XcWVGN1BtSWJJTXNVS0xRYTFvZG1XX0kyQVVlOEk?oc=5",
+          "source": "The Economic Times",
+          "source_url": "https://m.economictimes.com",
+          "title": "Govt plans 44 airports for Hub and Spoke flights to boost global connectivity - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNZmROX0NKTG5WdS16SWNxYVpUVU81VUhZQ3RQXzBkTTRTSGk2ckZHNUNKMEoxeEtXSTNyOGFYdmdLUzFnUVRNR3ZXOU0yamxFb0k0VlVwUUxrT2RmN0RqN0pGQVlJdjBtc3VnWFYtWEZfSUd2Y1AzT2JKVVhkaHEyN2VaVDZPQl91dEIteDFzT1JRcUFjaXRrNmtUMDNjZkNlOExPcUpwenNhYUVIdGI0RzFrNk9ZbWU4LVVwLTFNaFFKVWdueUppanR5WVoybXI4QnN2U3RxSGZ5bmF5VXpyUVVyX0I1UVA2NnJ1Y2pnNTlZMm1IVVB0QlNQVzVmNG9veW4tZGtB0gGLAkFVX3lxTE9Nb0s0VWpsaUZMRGxQZHkwQXNlbmlqdzJnZl9Od1F2dzlVTnlxRE9ObFZFQlZfRkEwejBKT3J5TFhIRUwxQVp6S0NIQzA4NTVfTHFtXzlUb041WHVGR3g0S2YyS2xPUEV4VmtRblR2bU1Ob1I4TDF4NVNKbkMxRENuTzNhS2xKLVRTb0NWSmN2VnB4SDNhVFIwWkg3S2F2VVRkeW9INVZEUE1YVWNLd2FyenE5ZkVkeEtURU82d2FsaTZnM1F4cFVFbUd0TjlRU21GS3hrMXRlVlNCeTNfVHRUNFlGbW56bjkzWTZscGlsVnRKQjBsd0FUTG1Ea21uMGtuNHRuT2w1dEtSdw?oc=5",
           "published_at": "2026-07-28T07:00:00+00:00",
-          "snippet": "India to develop 44 airports under hub-and-spoke model to boost overseas connectivity Firstpost",
-          "lexical_overlap": 0.118,
-          "relevance": 0.188,
-          "matched_terms": [
-            "airports",
-            "connectivity"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "airports",
-            "connectivity"
-          ]
-        },
-        {
-          "id": "52ce31c3f5f9929ac0",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "ET TravelWorld",
-          "source_url": "http://travel.economictimes.indiatimes.com",
-          "title": "Rajasthan plans airstrip upgrades, new airports to boost connectivity and economy - ET TravelWorld",
-          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNNHlPNGx3T29JUm5PeVdGY3A2TGUycld2VENkRjZVSHFhdkpZbEhkU000cENnNXRxdjExb3k2bU04aUVuWGNMdG5XMjFMTTZnNzNGODg0WnByZGtkczJ4S3Q5dkVMNjhERFBrYXBpVUcxWlZiM3NvbFdsQWRncTNBSWg0dE5VeDFlTU9YQUlEbldHWENzbHBQdVQ4U3ZHOFE2SHRnSjJlVmE4ZGVtdHlTVDZubUxmU1c3czduS3hZRmZ0M3pySjVzUWtQQWtMRm5WRlBPTmI4Ri04UUVGaGtzemdWeHJuc3p6NVJ5WlZkU2hRdEE2UmxwaNIB_gFBVV95cUxQSjV4V2tQYnUyTlo2cjRYTm05UFFKd053U2pVVkZ4b0g1RTdVU01ndXM5U1psLWEtMEM2aWowS1hkLW1TLTB3dzBEZUlxVkVaaERyZGZybnZKWkRVZjAtV29tUlpKZzhhdmtLVEFmX2FUZTJYSzVUeHNILWtSY1JERkktbnROaDZ3VDQ3cXRheFhXZWFiZzVoV2pyQ0c1YUFucDZzZTIzazhyczR2cE5OZHdWYjdVakVSYWlYbm5FQmJDVDZTazlsTGhnMl9nSkZGbTN1MHRvcm1CQk5fUWlUTmZ5T3VjVXg5VWFtZFoyN0tUaXlrN3dsZVlvYUpRQQ?oc=5",
-          "published_at": "2026-03-10T07:00:00+00:00",
-          "snippet": "Rajasthan plans airstrip upgrades, new airports to boost connectivity and economy ET TravelWorld",
-          "lexical_overlap": 0.105,
-          "relevance": 0.175,
+          "snippet": "Govt plans 44 airports for Hub and Spoke flights to boost global connectivity The Economic Times",
+          "lexical_overlap": 0.1,
+          "relevance": 0.17,
           "matched_terms": [
             "airports",
             "connectivity"
@@ -28566,7 +28625,7 @@
     },
     {
       "id": "dbdb955660512e39f3",
-      "checked_at": "2026-10-29T09:56:46.907000+00:00",
+      "checked_at": "2026-11-01T20:31:53.500491+00:00",
       "promise_id": "BJP-2024-a10b2dd37e50ccfc46",
       "year": 2024,
       "category": "other",
@@ -28591,15 +28650,15 @@
       "query": "encourage mixed use transit oriented development",
       "evidence": [
         {
-          "id": "b28d73965025e3b449",
+          "id": "ab7bcf2e0cf40c3675",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "Press Information Bureau",
+          "source": "www.pib.gov.in",
           "source_url": "https://www.pib.gov.in",
-          "title": "UD Ministry approves Transit Oriented Development Policy for Delhi - Press Information Bureau",
+          "title": "UD Ministry approves Transit Oriented Development Policy for Delhi - www.pib.gov.in",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1fc0tfZm9lelVuTVF2dnU1bDNENldWcFVRNDZJS19TYnRkLTZfb0g0WHBwZ1oyMWxYTGtqOUNkem9OT2VUZjJSWjV3dE14RldwQ1B1TnBQV3kwVWJxcWxCMkRvUElVQm1YcGNncmN3?oc=5",
           "published_at": "2015-07-14T07:00:00+00:00",
-          "snippet": "UD Ministry approves Transit Oriented Development Policy for Delhi Press Information Bureau",
+          "snippet": "UD Ministry approves Transit Oriented Development Policy for Delhi www.pib.gov.in",
           "lexical_overlap": 0.2,
           "relevance": 0.355,
           "matched_terms": [
@@ -28615,15 +28674,15 @@
           ]
         },
         {
-          "id": "57399b7facb453f735",
+          "id": "171b7c1ad76ca8380c",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "Press Information Bureau",
+          "source": "www.pib.gov.in",
           "source_url": "https://www.pib.gov.in",
-          "title": "Policy for Transit Oriented Development (TOD) in MPD-2021 and Regulations for Transit Oriented Development (TOD) and Charges, 2026 for providing affordable housing in NCT of Delhi - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB4X29Va3hZc01qT1BKWXgyNlBlMU8xSjZmRmRQNTRTUnVrTlc4T0lDdDJ4a1REenFVQzl0MTdqYlhZYlU3Z3l1aHZTYW50dGdYTGtJbmlwYXlOSVFJMXJleThkRmRRaF9EVjBNYURpd0xzSmtkOUI4TUVR?oc=5",
+          "title": "Policy for Transit Oriented Development (TOD) in MPD-2021 and Regulations for Transit Oriented Development (TOD) and Charges, 2026 for providing affordable housing in NCT of Delhi - www.pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1PR2dlUU5wTHlNM0wtcnpfYTh4cGJ5QnlrV0RfZ1VGeUhpcDJxT25RLWd4N3RfZlo1T0hhZTlfeVBmeFZUbFVqSDI3N2pRZmwyVTlQRU5PbjBXNjVRM0ZyNXptRFl3eF95MjlDbVN4RHlnWlhtdWlWbGRB?oc=5",
           "published_at": "2026-04-07T07:00:00+00:00",
-          "snippet": "Policy for Transit Oriented Development (TOD) in MPD-2021 and Regulations for Transit Oriented Development (TOD) and Charges, 2026 for providing affordable housing in NCT of Delhi Press Information Bureau",
+          "snippet": "Policy for Transit Oriented Development (TOD) in MPD-2021 and Regulations for Transit Oriented Development (TOD) and Charges, 2026 for providing affordable housing in NCT of Delhi www.pib.gov.in",
           "lexical_overlap": 0.15,
           "relevance": 0.305,
           "matched_terms": [
@@ -28637,31 +28696,9 @@
             "oriented",
             "transit"
           ]
-        },
-        {
-          "id": "bbb832e78ff2c4b66b",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Transportation For America",
-          "source_url": "https://t4america.org",
-          "title": "To improve transit service, we need better transit-oriented development - Transportation For America",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUUJoNHhmZF8wWmFoTlBFSDcxek9lYjNSa2I5MnBWNTFuRklycUNfN0tVdjMzUkxaaUw5NTdISU9yQ3J2TnVtVmlVOXM0b0xfd2s1MmN3SmJ4b1p0R0lMR0VtYUxTbVlNSEJ1TWNHR214ZmlReWhjaWYxbHZaUzdUNzMzaXVWbGJpaUM5Z2FUSG9YLWswZVlYbjk4azU1WGNNdVRfZklfMA?oc=5",
-          "published_at": "2026-05-13T07:00:00+00:00",
-          "snippet": "To improve transit service, we need better transit-oriented development Transportation For America",
-          "lexical_overlap": 0.143,
-          "relevance": 0.213,
-          "matched_terms": [
-            "development",
-            "transit"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "development",
-            "transit"
-          ]
         }
       ],
-      "implementation_signal": "current_primary_and_reporting_found",
+      "implementation_signal": "current_primary_evidence_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -28676,7 +28713,7 @@
     },
     {
       "id": "bff66f56d69eb95f0b",
-      "checked_at": "2026-10-29T09:56:48.518467+00:00",
+      "checked_at": "2026-11-01T20:31:55.324407+00:00",
       "promise_id": "BJP-2024-a20133fb24325a03c3",
       "year": 2024,
       "category": "jobs_economy",
@@ -29523,7 +29560,7 @@
     },
     {
       "id": "0c47e9f317e37e2192",
-      "checked_at": "2026-10-29T09:56:36.989390+00:00",
+      "checked_at": "2026-11-01T20:31:43.152637+00:00",
       "promise_id": "BJP-2024-93545e25c9ae721263",
       "year": 2024,
       "category": "other",
@@ -30606,7 +30643,7 @@
     },
     {
       "id": "628a96dbf3b4d8c8e7",
-      "checked_at": "2026-10-29T09:56:42.794223+00:00",
+      "checked_at": "2026-11-01T20:31:48.760861+00:00",
       "promise_id": "BJP-2024-9a1afbf447b87244aa",
       "year": 2024,
       "category": "other",
@@ -30631,6 +30668,30 @@
       "query": "ecosystem creation alternate dispute resolution towards",
       "evidence": [
         {
+          "id": "b93556d99b9356f24f",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "www.pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Use of Alternate Dispute Resolution mechanisms to reduce the burden on the judiciary and thereby enable timely justice dispensation to citizens of the country - www.pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1iRi1RREJkaHFxazZrX044ak94cjlYM3pFbkx3NmZkdnBCaXRmZC1ZNXdCVlRibjFxdFNpcGpWLVJTQWgyZzhaOUxxTWE4RlRWYTdwOGZ6bHdDVVp6ei02a0l6bklZWUFESGYyZU1pNmI?oc=5",
+          "published_at": "2024-08-02T07:00:00+00:00",
+          "snippet": "Use of Alternate Dispute Resolution mechanisms to reduce the burden on the judiciary and thereby enable timely justice dispensation to citizens of the country www.pib.gov.in",
+          "lexical_overlap": 0.12,
+          "relevance": 0.275,
+          "matched_terms": [
+            "alternate",
+            "dispute",
+            "resolution"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "alternate",
+            "dispute",
+            "resolution"
+          ]
+        },
+        {
           "id": "70bb98c5e2dd8bcbff",
           "scope": "preferred_official_search",
           "tier": "primary",
@@ -30649,6 +30710,30 @@
           "shared_numbers": [],
           "promise_core_overlap": [
             "dispute",
+            "resolution"
+          ]
+        },
+        {
+          "id": "607f3c89102e16c685",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Live Law",
+          "source_url": "https://www.livelaw.in",
+          "title": "Reimagining India's Dispute Resolution Framework - Live Law",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE15Q3I1RnBvd1hYUnkxOGo3cVI2ZDBUVkhVeHFoX3pURFhzekpZMmxKMFQ2WXdoWVZsRTMzX3BNd1pVUllsQkpOWGp5Vlg4SUxWbTV3d0VWS2x3NGQ2bS04Q1U1MUJfQW5kZUtvR0ZjX2dUZXBfbDA1dGdLcGNrd9IBgwFBVV95cUxNVmpnQXFIZnVkQjEyekdLNlNPNTRoY2JGbjdObmM3VmxwU1RUenZuS0thdldJRjgtYzVTQV93dEZHTE1RNnlLU201UE9zNWNOcXlUdWNDUGo1N2lTTjVSQ1pnZXRqUVJGQWYxR2VrRkRSQ3J2dWRBelZ6WWM5UjZzWEJHSQ?oc=5",
+          "published_at": "2026-03-08T08:00:00+00:00",
+          "snippet": "Reimagining India's Dispute Resolution Framework Live Law",
+          "lexical_overlap": 0.2,
+          "relevance": 0.305,
+          "matched_terms": [
+            "dispute",
+            "framework",
+            "resolution"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "dispute",
+            "framework",
             "resolution"
           ]
         },
@@ -30673,30 +30758,6 @@
           "promise_core_overlap": [
             "dispute",
             "ecosystem",
-            "resolution"
-          ]
-        },
-        {
-          "id": "13d504b30d5e3b9eb9",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Vidhi Centre for Legal Policy",
-          "source_url": "https://vidhilegalpolicy.in",
-          "title": "ODR: The Future of Dispute Resolution in India - Vidhi Centre for Legal Policy",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQS0o0d3VNcTR2bEpWcDlQTmlrZHJTZWoyWU1WYnJuSnpTclZTT0NnTk8zNEhBMFVqOUJuWjF2Rmw2T0p4Nk1JOVJyczhqSUZaSjhUQnlFNGlTRDF5MUxaOGpnYWxXbF9rVjNjdVJNa1Nac2JLMWxwMzBqdWpQTXg0ZkhfVm15QQ?oc=5",
-          "published_at": "2020-07-28T07:00:00+00:00",
-          "snippet": "ODR: The Future of Dispute Resolution in India Vidhi Centre for Legal Policy",
-          "lexical_overlap": 0.176,
-          "relevance": 0.281,
-          "matched_terms": [
-            "dispute",
-            "legal",
-            "resolution"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "dispute",
-            "legal",
             "resolution"
           ]
         },
@@ -30746,6 +30807,28 @@
             "dispute",
             "ecosystem",
             "resolution"
+          ]
+        },
+        {
+          "id": "8c5ba80acfee1004ab",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "orfonline.org",
+          "source_url": "https://www.orfonline.org",
+          "title": "Time Is of the Essence: Building a Future-Ready Maritime Legal Ecosystem - orfonline.org",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcmVGWW9hdHJaeHhIWlBfTER1RUk2MzQtSXY1SDJ0dE1RdW05VTZrdjAtUEtMV2llejRTaUlkaUE1ai1JWU93VVZfRVRUTGhhN0VTX3RaTlduVldROEZOT243SnlmRnNRdjJOMVh0TXpIM3dESWpyMmVGNGp4Z0xJMTVvZlRLRHZmMzBZQnVaMWtDMENuZUJ1RVVhUGpSd3RoNWJqdEswTC1sZlZYVjZv?oc=5",
+          "published_at": "2026-10-03T12:57:36+00:00",
+          "snippet": "Time Is of the Essence: Building a Future-Ready Maritime Legal Ecosystem orfonline.org",
+          "lexical_overlap": 0.105,
+          "relevance": 0.175,
+          "matched_terms": [
+            "ecosystem",
+            "legal"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "ecosystem",
+            "legal"
           ]
         }
       ],
@@ -31870,7 +31953,7 @@
     },
     {
       "id": "97453b061f41ed34c1",
-      "checked_at": "2026-10-29T09:56:31.855407+00:00",
+      "checked_at": "2026-11-01T20:31:37.874788+00:00",
       "promise_id": "BJP-2024-8af14c51fa3978d88f",
       "year": 2024,
       "category": "governance",
@@ -31895,13 +31978,13 @@
       "query": "police modernising forces assist states transforming",
       "evidence": [
         {
-          "id": "65ae60df42f9ff1715",
+          "id": "930078bfc37d000723",
           "scope": "preferred_official_search",
           "tier": "primary",
           "source": "pib.gov.in",
           "source_url": "https://www.pib.gov.in",
           "title": "WOMEN REPRESENTATION IN POLICE FORCES - pib.gov.in",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE52WThVRXpwLUJnNDlJclE5UXdKQ3lKcE84MlRXZXB6bzFyN296NC1PRGxmUkxhN001QWk3aEJsWGlMTS1hVDl5MElrTTk2TDVMZ2pVb1pVVTlkV3hYa2dkek5OX3R5ZnZx?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5VSGI0dG9COWdwN3ZRZmx2WFRZX2dnQTRlN1RWdTJMZ0x5U0tkc3h4TGc2MzRyNGRTekl1M0F0RlFEU1hKM2xaa3EyOXNuZXFZOUhjSGhhMzBESVI1VDZGS1BZa1FTS29LbjFmYmFJZks?oc=5",
           "published_at": "2023-12-13T08:00:00+00:00",
           "snippet": "WOMEN REPRESENTATION IN POLICE FORCES pib.gov.in",
           "lexical_overlap": 0.125,
@@ -31913,28 +31996,6 @@
           "shared_numbers": [],
           "promise_core_overlap": [
             "forces",
-            "police"
-          ]
-        },
-        {
-          "id": "05f0fac3439122d3a1",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "ProPublica",
-          "source_url": "https://www.propublica.org",
-          "title": "Unfettered and Unaccountable: How Trump Is Building a Violent, Shadowy Federal Police Force - ProPublica",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSDNNSHJXdFFid0Y3b0k1bm45bzc3b194ZnQtZ2k3SGppd3N6WEJaRjd5U2VhV3Z2anVad2FmeHdwUDRNbmdWYnRwS3hRdzN2UksxTG8tQXFGYVJ2cTExMEFaUGRwNzJZYi02YU9wVzZqTEVZb0dxc1ZjTjhwb1NzelRET0ZiSy05dEt2MHIyVzg2bGc?oc=5",
-          "published_at": "2025-10-18T07:00:00+00:00",
-          "snippet": "Unfettered and Unaccountable: How Trump Is Building a Violent, Shadowy Federal Police Force ProPublica",
-          "lexical_overlap": 0.095,
-          "relevance": 0.165,
-          "matched_terms": [
-            "force",
-            "police"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "force",
             "police"
           ]
         },
@@ -34616,7 +34677,7 @@
     },
     {
       "id": "0048f52cd2e63cb506",
-      "checked_at": "2026-10-29T09:56:30.548409+00:00",
+      "checked_at": "2026-11-01T20:31:36.217075+00:00",
       "promise_id": "BJP-2024-8a3185cea679ba7fa6",
       "year": 2024,
       "category": "jobs_economy",
@@ -34641,15 +34702,41 @@
       "query": "sports manufacturing incentivising good incentivize goods",
       "evidence": [
         {
-          "id": "1a40367d19e4e6786e",
+          "id": "231feeef0573522328",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "Press Information Bureau",
+          "source": "pib.gov.in",
           "source_url": "https://www.pib.gov.in",
-          "title": "Cabinet approves Khelo India Sports Goods Manufacturing Scheme for Building a Globally Competitive Sports Manufacturing Ecosystem - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9EeGdjQ3dGc2N3bDdMdVVrdmhkMHc4Y0pWV2FwMnVBeGZsU21aZ1ZXal9rWm5aZFRsV0NaTktuWk5faUVmTDlUVkdmeVVIRGRkazZDOWRJNGgyUVRCcW5KdThDNkdRM2FkcWpDVkdQaVlLeXVsa01zdnprRU5Ndw?oc=5",
+          "title": "Cabinet approves Khelo India Sports Goods Manufacturing Scheme for Building a Globally Competitive Sports Manufacturing Ecosystem - pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRWZpWTBDVjc4cWtTTktxTjZEak1WVDNLbjlzS3lENHI3MEJIdU1TZUJhemo5TXNTMUhXTUpkX19jdURiUEprR3MxOHpPODdNVnF6c1g3amFuaUJHMVhlMjNzcFhqQXR2cG5hUEFwYU1BR1JlM1hFSTh5UDFJcUs4dHBIZ3lqUQ?oc=5",
           "published_at": "2026-10-28T10:15:00+00:00",
-          "snippet": "Cabinet approves Khelo India Sports Goods Manufacturing Scheme for Building a Globally Competitive Sports Manufacturing Ecosystem Press Information Bureau",
+          "snippet": "Cabinet approves Khelo India Sports Goods Manufacturing Scheme for Building a Globally Competitive Sports Manufacturing Ecosystem pib.gov.in",
+          "lexical_overlap": 0.19,
+          "relevance": 0.38,
+          "matched_terms": [
+            "ecosystem",
+            "goods",
+            "manufacturing",
+            "sports"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "ecosystem",
+            "goods",
+            "manufacturing",
+            "sports"
+          ]
+        },
+        {
+          "id": "28c92e8d4d2af49e07",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "www.pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Cabinet approves Khelo India Sports Goods Manufacturing Scheme for Building a Globally Competitive Sports Manufacturing Ecosystem - www.pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4xT3c1cHJPM1RNUDYtMTJaS25iTUVuLXlubkthT1g0RFFESEtZQWo5R3MybHNCdHRPQ1daSGVkV0hGWDUyQlZiUW04WU52OGt6ZTk5QVVOM09vUVlpYU9fVXdvS3dicTV6YzBtNEJ0LUpOS09YQW12RjdRU28?oc=5",
+          "published_at": "2026-10-28T10:15:00+00:00",
+          "snippet": "Cabinet approves Khelo India Sports Goods Manufacturing Scheme for Building a Globally Competitive Sports Manufacturing Ecosystem www.pib.gov.in",
           "lexical_overlap": 0.182,
           "relevance": 0.372,
           "matched_terms": [
@@ -34662,52 +34749,6 @@
           "promise_core_overlap": [
             "ecosystem",
             "goods",
-            "manufacturing",
-            "sports"
-          ]
-        },
-        {
-          "id": "8f38ddcc97bc774abc",
-          "scope": "broad_official_search",
-          "tier": "primary",
-          "source": "Punjab Bureau of Investment Promotion",
-          "source_url": "http://investpunjab.gov.in",
-          "title": "Punjab Sports and Leather Goods Manufacturing Policy - Punjab Bureau of Investment Promotion",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeFBDT04tekRTNzJ5dXFhM0pfQXF5X2s2UXVmd0xzNEZNVWYydWZsSmp4cWt5Mzg2SFlRR2hKVm4zcHFCYzJMelZXdnB1S0FzOVM5OFJZS2ZyNFJVWF9NYy10Rmo2Rjd4WndORDhoNVB1WXJmZGhwZzc5SmxGZmJVZy1RWTkteEFTWlhzSXB3?oc=5",
-          "published_at": "2026-03-13T08:54:09+00:00",
-          "snippet": "Punjab Sports and Leather Goods Manufacturing Policy Punjab Bureau of Investment Promotion",
-          "lexical_overlap": 0.167,
-          "relevance": 0.322,
-          "matched_terms": [
-            "goods",
-            "manufacturing",
-            "sports"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "goods",
-            "manufacturing",
-            "sports"
-          ]
-        },
-        {
-          "id": "ef7a391750200198ee",
-          "scope": "broad_official_search",
-          "tier": "primary",
-          "source": "NITI Aayog",
-          "source_url": "https://www.niti.gov.in",
-          "title": "Realising the Export Potential of India’s Sports Equipment Manufacturing Sector - NITI Aayog",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOaExQMkhqSzd2ekJqeE5FY0tSRTN3NDZsZW52WVNVN2FQQ0tUYmVvOW00eUdUOTR0Z25wMVBNWGZTazhsSW5pWEVfZHVpV2Q0TmRCd2l0T2o4aGJoRlo0TU45RkhaNEMzVXlQdGcyYlZyUlBfMDVhUkNNcGVidVpSaW51TkgydlhZRW9hcmZWMUN6ZHJKdU1UZ2JVMFBIYUgwZUhnZ0dqaS1HLWlSTWV2R3JRQktGOXdLeXRac3FBR3dDbWstMFVDX1RONG93dw?oc=5",
-          "published_at": "2026-05-09T07:27:06+00:00",
-          "snippet": "Realising the Export Potential of India’s Sports Equipment Manufacturing Sector NITI Aayog",
-          "lexical_overlap": 0.105,
-          "relevance": 0.225,
-          "matched_terms": [
-            "manufacturing",
-            "sports"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
             "manufacturing",
             "sports"
           ]
@@ -35407,7 +35448,7 @@
     },
     {
       "id": "f8b81d136e527d4c61",
-      "checked_at": "2026-10-29T09:56:35.945988+00:00",
+      "checked_at": "2026-11-01T20:31:42.157334+00:00",
       "promise_id": "BJP-2024-921084b4a33d5bfbde",
       "year": 2024,
       "category": "culture_heritage",
@@ -35432,43 +35473,39 @@
       "query": "local state governments bodies prepare special",
       "evidence": [
         {
-          "id": "fc66742c5a89fc04da",
+          "id": "1439f91bf44f4fc7c4",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "DD News",
-          "source_url": "https://ddnews.gov.in",
-          "title": "Tripura govt preparing master plan to modernise urban local bodies: CM Saha - DD News",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPM1kzV1N6TEo4VnlwYk9zRGNFUUZRcURsRGg3N3RqNE4xNEp1UGRlZDZBQmhNdG14cnA4TUE0S3lLcGoxamRueXpnbUxFcjhRRmhqM281UFhKUTU2MHJPUVRENXd3WlpGclhRZEFmZzlLN0hmQWdpQXJRV3U3Uk4tUnB6QjJtcm5pTkl5VURTd1pBTy1tRmlucjdEQXNfbkViSWc?oc=5",
-          "published_at": "2026-10-05T07:00:00+00:00",
-          "snippet": "Tripura govt preparing master plan to modernise urban local bodies: CM Saha DD News",
-          "lexical_overlap": 0.19,
-          "relevance": 0.33,
+          "source": "StateTech Magazine",
+          "source_url": "https://statetechmagazine.com",
+          "title": "A Guide to AI Governance for State and Local Agencies - StateTech Magazine",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdkhES2dzdzliM0lxalZXMG16TGFVX19sZWRRMFNpR2FDQmZGN3V6Tjd1R0RzTFlvcTVOOWdFcERIUGtDTHg3b2lSanp2am5Ra29NX0dkY2pNQzZKYjBsM1NMU0JZWUx3ZzRPNHE0N3gyWVNLMEEzUm0yeEZITnY1U3JkMVlCWUdkY3lYTi1OVllvYXhv?oc=5",
+          "published_at": "2025-08-13T07:00:00+00:00",
+          "snippet": "A Guide to AI Governance for State and Local Agencies StateTech Magazine",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
           "matched_terms": [
-            "bodies",
             "local",
-            "master",
-            "plan"
+            "state"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "bodies",
             "local",
-            "master",
-            "plan"
+            "state"
           ]
         },
         {
-          "id": "2b2fb55de9b95b4534",
+          "id": "f294c57d7e587cd50d",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "The Hindu",
-          "source_url": "https://www.thehindu.com",
-          "title": "Andhra Pradesh govt. steps up legal battle for 34 per cent BC quota in local bodies - The Hindu",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPRGt2cktTb250enMzNTJxZE5IUV9NTHpndmdVeHMzcHBVTGR0N2RuQTZEMjBOQVl4VnVLV19mdHdEUTNkbmMyRDZoOVZKRUIzZUUzamc5YjY5SlNBWnZ4ZHU5bGZTXzR4Z2NEaTVCd0l4Q2lKRkR3UjJKVWkzaUxVQ1daZnltOEJ5Y2tCS1ZvNk1MQ3kxb1Zydmw0YlRwRmRHbGZNX0dOclJvUXl6RnYzQ0NFOFNkcHpRSjNpbTYzUklnaVZ4eWIwRGlsdXBUdXI0eFRob0J0X1ptdFNuSUc3YkVlMlZpdklBWDdWatIB8wFBVV95cUxPRlFZVU01THloT0ctZllUUE51RF9aUXNsNWdBWEZHQXNlLUJWSFVQUjJrWmFtdDZpZEU4MTJ3d21MRzMwMEJ0dE4zcjFYYXk0RWQtSURqdmVkR2NHUER5MUJ4YzFZb20tal9TeHlJTzhUQkw3MWVxT3BQZjNnQklSNXhFYTh2WExTTXNnWjl1QXdJVnN4ME9VWVhaWHd4S1ZkLThCT1BLZGluUkR0bDUxZTExNGluQ0dMaVRHcVB1Y0FsUXZmRWM3Wm9fbW0yLWRPc1ZQS09RUDVwd1ctRnk2NUJWdHFjNTk1WDVZaUpSOVBSVTQ?oc=5",
-          "published_at": "2026-10-06T07:00:00+00:00",
-          "snippet": "Andhra Pradesh govt. steps up legal battle for 34 per cent BC quota in local bodies The Hindu",
-          "lexical_overlap": 0.083,
-          "relevance": 0.153,
+          "source": "United Nations Development Programme",
+          "source_url": "https://www.undp.org",
+          "title": "Perception of integrity in local self-government bodies - United Nations Development Programme",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMTc5ekVRaXg0MHp1SjZONEx1UUhxZURSOEZpdjA3LVFaeHk3MFhNaUlmc3BaTlFHZDFPVzdEY0gxMERMUUwzYkw4NHlmaTRKcUpDT0YtYzM0RS1jMFZmMTFLR0t1R0FrYnVwLVdoY0lLTC1weHVUcm5TVDQ1SmN5dS1PeENybGdJNFBuTGRlTFdFaTlPNEE?oc=5",
+          "published_at": "2025-05-22T07:00:00+00:00",
+          "snippet": "Perception of integrity in local self-government bodies United Nations Development Programme",
+          "lexical_overlap": 0.105,
+          "relevance": 0.175,
           "matched_terms": [
             "bodies",
             "local"
@@ -35480,7 +35517,7 @@
           ]
         }
       ],
-      "implementation_signal": "current_reporting_found",
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -37913,7 +37950,7 @@
     },
     {
       "id": "c76b339cfab56b4cbc",
-      "checked_at": "2026-10-29T09:56:34.206755+00:00",
+      "checked_at": "2026-11-01T20:31:40.672298+00:00",
       "promise_id": "BJP-2024-8f3ebaf12ad9d2d3cd",
       "year": 2024,
       "category": "health_welfare",
@@ -42568,7 +42605,7 @@
     },
     {
       "id": "0764c49dce738dbbee",
-      "checked_at": "2026-11-01T18:08:49.762636+00:00",
+      "checked_at": "2026-11-01T20:31:11.005714+00:00",
       "promise_id": "BJP-2019-18c0750d5ed71bc3d1",
       "year": 2019,
       "category": "agriculture",
@@ -42618,6 +42655,30 @@
           "promise_core_overlap": [
             "farmer",
             "fpos",
+            "organisations",
+            "producer"
+          ]
+        },
+        {
+          "id": "6dba73a6b672f68e0e",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "Ministry of Food Processing Industries",
+          "source_url": "https://www.mofpi.gov.in",
+          "title": "FARMER PRODUCER ORGANISATIONS POLICY & PROCESS GUIDELINES FOR - Ministry of Food Processing Industries",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNemRUS3BtTVBEWTdvNW13TEt4RVNGT05vRllBUmpUR1huVnJzdEp4NUFaNzN3Tk41ajVwcUtXVEU0N3owdWlqYkVDUlduUXdsRU43WmpnOFBDSDVOd21TZTJmM3Ita29WNVJTVTJGYlE4a2ZfWkQyZFRLSFJoOUZuWFYtY0ZfVmpaNkVOQ1AxVWVNYVBkTGc?oc=5",
+          "published_at": "2021-12-22T16:16:57+00:00",
+          "snippet": "FARMER PRODUCER ORGANISATIONS POLICY & PROCESS GUIDELINES FOR Ministry of Food Processing Industries",
+          "lexical_overlap": 0.158,
+          "relevance": 0.313,
+          "matched_terms": [
+            "farmer",
+            "organisations",
+            "producer"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "farmer",
             "organisations",
             "producer"
           ]
@@ -42691,6 +42752,54 @@
           ]
         },
         {
+          "id": "54db8b8e142dc04bc2",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "India Education Diary",
+          "source_url": "https://indiaeducationdiary.in",
+          "title": "Flipkart signs MoU with Society for Elimination of Rural Poverty (SERP) to enable market access & growth for Farmer Producers Organisations and Self-Help Groups in Telangana - India Education Diary",
+          "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxOT09PS3ZNTnB3al9RSUpZTllCWk43M1R5Y2JXMVRFbzhPYWF2ZVN2eUVxMWphWHNCLXZ6TDhxMG9wR2pfZWRkeTNrTjlxQmFkOVNaX1htcEZJQkR5NXd0bTBRMkwxUWU2REU0QU9KVk1QMm56TlBUWk81SzN4eVhQbV9RYmF4d29nNDJwU2hTbDl1NWY2LU9XVjlrdTFDU0ZIVGdGSTVqNlBLamFXSERDQk9zZ0o5TEtqRk93VHhrbDV5azZDMlk3UWg2T1EtYWFTZDZfYllabkVLM3k2ZGxoS2ltdmpXYW1GQUh5R1J5NFlKbUx5eG0weXhWOWN4d09DZjA2cmV6TlpjSkJpREcyNnM0SXRLRnBGeVNsOVdldlE4ckMwRmtsSA?oc=5",
+          "published_at": "2022-06-26T07:00:00+00:00",
+          "snippet": "Flipkart signs MoU with Society for Elimination of Rural Poverty (SERP) to enable market access & growth for Farmer Producers Organisations and Self-Help Groups in Telangana India Education Diary",
+          "lexical_overlap": 0.167,
+          "relevance": 0.307,
+          "matched_terms": [
+            "access",
+            "enable",
+            "farmer",
+            "organisations"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "access",
+            "farmer",
+            "organisations"
+          ]
+        },
+        {
+          "id": "1af39614098ce2c5d1",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "YourStory.com",
+          "source_url": "https://yourstory.com",
+          "title": "Flipkart signs MoU with SERP to enable market access, growth for FPOs, SHGs in Telangana - YourStory.com",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdGxJNXQ4NFR1ZldsQi1veEx3MUEzLW1keWV6d0kySm5zd0pVVVZrUnZiLWhQQlhTWkFfLUJvVVp2aFFNQzBZMGg2a0M2SWxSQUpEZFRsWDJUblpsb21JTDNiTVJ4OE8ycHplcVJyZlV3Z3pmTzhRZUhZN1VqQzVlUDFaNVQ1a21PSld0T093?oc=5",
+          "published_at": "2022-06-25T07:00:00+00:00",
+          "snippet": "Flipkart signs MoU with SERP to enable market access, growth for FPOs, SHGs in Telangana YourStory.com",
+          "lexical_overlap": 0.136,
+          "relevance": 0.241,
+          "matched_terms": [
+            "access",
+            "enable",
+            "fpos"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "access",
+            "fpos"
+          ]
+        },
+        {
           "id": "634c286094b85d4f4a",
           "scope": "news_search",
           "tier": "secondary",
@@ -42735,7 +42844,7 @@
           ]
         }
       ],
-      "implementation_signal": "current_primary_evidence_found",
+      "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -44100,7 +44209,7 @@
     },
     {
       "id": "f5811520c1d5623f19",
-      "checked_at": "2026-11-01T18:08:51.686081+00:00",
+      "checked_at": "2026-11-01T20:31:12.884347+00:00",
       "promise_id": "BJP-2019-1d3e95fa9344e842f3",
       "year": 2019,
       "category": "infrastructure",
@@ -44221,7 +44330,7 @@
     },
     {
       "id": "92d6920a15fb42f812",
-      "checked_at": "2026-11-01T18:09:11.538423+00:00",
+      "checked_at": "2026-11-01T20:31:29.393052+00:00",
       "promise_id": "BJP-2019-6abf03adda773fec98",
       "year": 2019,
       "category": "governance",
@@ -47627,7 +47736,7 @@
     },
     {
       "id": "1e0abc9f94016f3c7a",
-      "checked_at": "2026-11-01T18:08:53.092584+00:00",
+      "checked_at": "2026-11-01T20:31:14.548318+00:00",
       "promise_id": "BJP-2019-2af396deaf778cac73",
       "year": 2019,
       "category": "infrastructure",
@@ -47712,7 +47821,7 @@
     },
     {
       "id": "4af70c5cc4e5dd31ea",
-      "checked_at": "2026-11-01T18:08:58.865509+00:00",
+      "checked_at": "2026-11-01T20:31:20.455334+00:00",
       "promise_id": "BJP-2019-34c03859f07f1329c5",
       "year": 2019,
       "category": "infrastructure",
@@ -49899,7 +50008,7 @@
     },
     {
       "id": "93bb9754ab7125c8f1",
-      "checked_at": "2026-11-01T18:09:03.448244+00:00",
+      "checked_at": "2026-11-01T20:31:25.115582+00:00",
       "promise_id": "BJP-2019-6013bbae5c9fbd8c5a",
       "year": 2019,
       "category": "women_social_justice",
@@ -49963,7 +50072,7 @@
     },
     {
       "id": "1d1782ad81aa54afcd",
-      "checked_at": "2026-11-01T18:09:09.295597+00:00",
+      "checked_at": "2026-11-01T20:31:27.129581+00:00",
       "promise_id": "BJP-2019-63e2ccda189fa85e2c",
       "year": 2019,
       "category": "health_welfare",
@@ -54966,7 +55075,7 @@
     },
     {
       "id": "21c782a6ad2ecb8987",
-      "checked_at": "2026-11-01T18:08:56.080782+00:00",
+      "checked_at": "2026-11-01T20:31:17.401721+00:00",
       "promise_id": "BJP-2019-2cfa1375f165d41707",
       "year": 2019,
       "category": "other",
@@ -56347,7 +56456,7 @@
     },
     {
       "id": "09db92a7679f9e887b",
-      "checked_at": "2026-11-01T18:09:00.856926+00:00",
+      "checked_at": "2026-11-01T20:31:22.501952+00:00",
       "promise_id": "BJP-2019-4fc8289de8caed52ff",
       "year": 2019,
       "category": "other",
@@ -61766,7 +61875,7 @@
     },
     {
       "id": "df076e7dea8ba67624",
-      "checked_at": "2026-11-01T18:09:13.689290+00:00",
+      "checked_at": "2026-11-01T20:31:31.511190+00:00",
       "promise_id": "BJP-2014-078252941779345656",
       "year": 2014,
       "category": "women_social_justice",
