@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T11:33:52.055169+00:00",
+  "generated_at": "2026-11-02T18:22:18.997863+00:00",
   "capabilities": {
     "official_evidence_search": true,
     "verified_primary_gate": true,
@@ -16,8 +16,8 @@
     "promise_checked_this_run": 30,
     "promise_total_candidates": 841,
     "promise_coverage_pct": 101.3,
-    "primary_candidates": 548,
-    "secondary_candidates": 1021,
+    "primary_candidates": 538,
+    "secondary_candidates": 1006,
     "prior_fact_checks": 0,
     "publishable_auto_verdicts": 0,
     "claim_verdicts": {
@@ -37,35 +37,39 @@
       "audited_total": 852
     },
     "claim_memory": {
-      "families_total": 89,
+      "families_total": 103,
       "repeated_families": 0,
       "repeated_contradicted_families": 0,
       "repeated_supported_families": 0,
-      "occurrences_total": 89
+      "occurrences_total": 103
     }
   },
   "claim_packets": [
     {
-      "id": "b8d4ab680299139905",
-      "claim": "Friends, After independence, large cities were developed in the country, grand institutions were established, large hospitals were built, and massive airports were constructed.",
+      "id": "dbc9cd03ddc90d7981",
+      "claim": "गर्व इस महान राष्ट्र के नागरिक होने का और कृतज्ञता सरदार वल्लभ भाई पटेल के प्रति, जिन्होंने आजादी के बाद 550 से ज्यादा रियासतों को एक किया।",
       "extraction": {
         "reasons": [
-          "accomplishment"
+          "number"
         ],
-        "numbers": [],
+        "numbers": [
+          "550"
+        ],
         "context_before": ""
       },
       "claim_source": {
-        "id": "2e6329cf1164f3c116dc",
+        "id": "5fb94e2429eca379660e",
         "kind": "official_speech_or_video",
-        "title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
+        "title": "PM’s speech during Rashtriya Ekta Diwas",
         "source": "PMIndia",
         "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
-        "published_at": "2026-10-25T13:30:15+00:00"
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+        "published_at": "2026-10-31T17:23:05+00:00"
       },
-      "query": "were large friends after independence cities",
-      "numbers": [],
+      "query": "550 गर इस मह और तज ञत",
+      "numbers": [
+        "550"
+      ],
       "promise_matches": [],
       "evidence": [],
       "fact_checks": [],
@@ -79,244 +83,26 @@
       "human_reviewed": false
     },
     {
-      "id": "b35543711de7918ea9",
-      "claim": "Medical colleges are being opened in smaller towns.",
+      "id": "94b635846ee3a128d9",
+      "claim": "गणतंत्र हमें उन फैसलों को संविधान की मर्यादा में आगे बढ़ाने का मार्ग दिखाता है, संविधान हमें जनता के प्रति जवाबदेह रखता है, और एकता हमें एक राष्ट्र के रूप में आगे बढ़ने की शक्ति देती है।",
       "extraction": {
         "reasons": [
-          "accomplishment"
-        ],
-        "numbers": [],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "2e6329cf1164f3c116dc",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
-        "published_at": "2026-10-25T13:30:15+00:00"
-      },
-      "query": "medical colleges opened smaller towns",
-      "numbers": [],
-      "promise_matches": [],
-      "evidence": [
-        {
-          "id": "69b949e6f234d1b887",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The South First",
-          "source_url": "https://thesouthfirst.com",
-          "title": "Telangana is all set to inaugurate 9 medical colleges — with basic infrastructure in place - The South First",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTzNTTjZMczc0TThucm03eUN5YnV0b28tTDA3el80NW8za1dxMWZ1ZldEZzBwcUVremdWLWxzNzVHV2tqcjl3YU1abmJST2FXY2h3cGRiZlJpVzVEUjUyUjlSTDFwc2x2Rk1DdVdtZlF5NHlDeTdpVkpxaG1fZDJWQS1pck9xak9NU09uWU5MbnVQVWVtcGs3U09OUHAxdTl4bU12YWV4ZEJ5VXJpa2hleWp3?oc=5",
-          "published_at": "2023-09-14T07:00:00+00:00",
-          "snippet": "Telangana is all set to inaugurate 9 medical colleges — with basic infrastructure in place The South First",
-          "lexical_overlap": 0.154,
-          "relevance": 0.224,
-          "matched_terms": [
-            "colleges",
-            "medical"
-          ],
-          "shared_numbers": []
-        },
-        {
-          "id": "79a5de7000dc444ee7",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Careers360",
-          "source_url": "https://news.careers360.com",
-          "title": "MUHS Nashik plans 865 new colleges: 51 for MBBS, most in small towns; big push for allied health sciences - Careers360",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPWnJSSDhNcnc4YUkydEtZSnJ5RHZ4MUdyeGpWY2JfQURpdjAxYm16U2FDZGJLV1JJNHg5SmliTHVUNkRUTnBwUS0yVVMxZWp5RVhPTXJrZm95SHcwSUVZY245WUVtcVVHcVpPaUdNXzFMUjFiMUdqVHhjc1ZxY1ZVWkpmM0IxOGlaX3A1M05Ob1VHWWxMWHJRYXJ1STZ3R1pkQ0t1aWdKUWJtSVBPLW9MZ2hSazlmZGg3bDZRTjNvOER2dnpid2d1Q2FlVTZWcENEN1NYd3pqdVY3Z3NRNUo5Xy11Tk5NUktLWl85NdIB8gFBVV95cUxPYmFlbWJtanE1ZDJndFQ1bEMxazM3czRnUmt2aUZRMVd0YnNENFRnNlZ3R0U3MU82VzVqY0xqLUR3clFlLU1lVTVjemhacFFoTmZVeHI2aEFScVk2SjVQdzZrTW1iemdZQnZRcU9EdUR1a2N3V3kwQm5LN0J6bDc3QVBIeEhRcHV4ZlVhMFNuTWdaWG11RUhxUnFRZWxxN3FiMG5BczloYlZnQkNlV2Z1enJfcXZpYzg4Uk5lZTBMcWg1Smo0emZ3dHZpVG0xcVJEZmd1bFNVNHVOVDFVOU5pcGlxSUI3ZTNqdlh2QzRkc2t5dw?oc=5",
-          "published_at": "2026-10-28T06:35:38+00:00",
-          "snippet": "MUHS Nashik plans 865 new colleges: 51 for MBBS, most in small towns; big push for allied health sciences Careers360",
-          "lexical_overlap": 0.118,
-          "relevance": 0.188,
-          "matched_terms": [
-            "colleges",
-            "towns"
-          ],
-          "shared_numbers": []
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "ddb711a027259cf305",
-      "claim": "Nearly 1.75 lakh Ayushman Arogya Mandirs have been established in villages.",
-      "extraction": {
-        "reasons": [
-          "number",
-          "comparison",
-          "accomplishment"
-        ],
-        "numbers": [
-          "1.75 lakh"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "2e6329cf1164f3c116dc",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
-        "published_at": "2026-10-25T13:30:15+00:00"
-      },
-      "query": "1.75 nearly lakh ayushman arogya mandirs have",
-      "numbers": [
-        "1.75"
-      ],
-      "promise_matches": [
-        {
-          "id": "BJP-2024-a276e1cca801c9e683",
-          "year": 2024,
-          "category": "health_welfare",
-          "page": 60,
-          "anchor": "MODI KI GUARANTEE FOR SWASTHA BHARAT Strengthening Ayushman Arogya Mandirs We will further strengthen …",
-          "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
-          "similarity": 0.25,
-          "matched_terms": [
-            "arogya",
-            "ayushman",
-            "mandirs"
-          ]
-        },
-        {
-          "id": "BJP-2024-17398d785095df2953",
-          "year": 2024,
-          "category": "health_welfare",
-          "page": 61,
-          "anchor": "Strengthening Ayushman Arogya Mandirs We will further strengthen the Ayushman Arogya Mandirs and upgrade …",
-          "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
-          "similarity": 0.25,
-          "matched_terms": [
-            "arogya",
-            "ayushman",
-            "mandirs"
-          ]
-        }
-      ],
-      "evidence": [
-        {
-          "id": "603177818250764352",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "ET HealthWorld",
-          "source_url": "https://health.economictimes.indiatimes.com",
-          "title": "Delhi govt to roll out 70 Ayushman Arogya Mandirs by May: Health official - ET HealthWorld",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSWxHRGdhYmhBMmh0SjJtbkNsNmFOdU80TG93RzY0SnA0Q29hVjVzb1llTU1qUXlNVnN6VThNS0phVHQ2OXV2aFNFWXpGcGk2UEh4S0RjaVVvWElXa18yNm52SVZMOXc1bkxUaVVyTGZqNkNVbkJlQnBOekxPRThCTzlsRVRYZVNPQ3VSamNvSXp6Uy1DMUtWVGVJclFGVWlrWHNteTZFQzI0bF84ZV9RRzdzQ0l3bld4S242dTlBMVp3TU5nSnEwVjVPVmluQWZ5Y0dWQ9IB2gFBVV95cUxQMTNkd0lpNkZHcVBERjBjZVdpNDUzZmU1S0plLUZNMHhoSGViaXpWWXUzaHp3TXJaQU5Ja05iaWdHLXpjNjFwZERtYkhUV3lkQkY4aC16cXBDYW1HZTgtakRRUlNyUVh3b1l1dDlnVno5TER2VUpfSndNOTRzZzBCQ0hnUW9xc1FpUHNMMnN2WDJSb3RKNDVwdlp5ZEVjTGZFdE5ZeGNuR2c3al9weUZfaHQwdk1VdkVHbUFQNjVFdEFCbmJOVnd1M0RDY3VZeU5YWVp3dlFUNkpMZw?oc=5",
-          "published_at": "2025-04-20T07:00:00+00:00",
-          "snippet": "Delhi govt to roll out 70 Ayushman Arogya Mandirs by May: Health official ET HealthWorld",
-          "lexical_overlap": 0.188,
-          "relevance": 0.292,
-          "matched_terms": [
-            "arogya",
-            "ayushman",
-            "mandirs"
-          ],
-          "shared_numbers": []
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "29371b53212e779eff",
-      "claim": "In the 1960s and 70s, banks were nationalised in the name of the poor.",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "1960",
-          "70"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "2e6329cf1164f3c116dc",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
-        "published_at": "2026-10-25T13:30:15+00:00"
-      },
-      "query": "banks were nationalised name poor",
-      "numbers": [],
-      "promise_matches": [],
-      "evidence": [
-        {
-          "id": "a238b839b6c2da996c",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "PW",
-          "source_url": "https://www.pw.live",
-          "title": "Nationalised Banks in India 2025: List, Meaning & Benefits - PW",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE41bl83Q0VfbV9sRFFPdWFaTlpZbmttQmR4VDJIa01YN3BObTR2WmhFUHFCbkg2eUYzcXY1MUhkZ3VBM3ZfUU9IeFRaUUJjSkdUOVlzZ2w0TDFINFNOaTV1bHN5TV9iX2p6Y19wY3JTZEExam5fRXdNTQ?oc=5",
-          "published_at": "2025-08-31T13:07:28+00:00",
-          "snippet": "Nationalised Banks in India 2025: List, Meaning & Benefits PW",
-          "lexical_overlap": 0.222,
-          "relevance": 0.292,
-          "matched_terms": [
-            "banks",
-            "nationalised"
-          ],
-          "shared_numbers": []
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "318b27cf844c2ade6a",
-      "claim": "Yet, until 2014, more than half of the country’s population was excluded from the banking ecosystem.",
-      "extraction": {
-        "reasons": [
-          "number",
           "comparison"
         ],
-        "numbers": [
-          "2014"
-        ],
+        "numbers": [],
         "context_before": ""
       },
       "claim_source": {
-        "id": "2e6329cf1164f3c116dc",
+        "id": "5fb94e2429eca379660e",
         "kind": "official_speech_or_video",
-        "title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
+        "title": "PM’s speech during Rashtriya Ekta Diwas",
         "source": "PMIndia",
         "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
-        "published_at": "2026-10-25T13:30:15+00:00"
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+        "published_at": "2026-10-31T17:23:05+00:00"
       },
-      "query": "2014 yet until than half population was",
-      "numbers": [
-        "2014"
-      ],
+      "query": "हम आग बढ गणत उन सल",
+      "numbers": [],
       "promise_matches": [],
       "evidence": [],
       "fact_checks": [],
@@ -330,147 +116,30 @@
       "human_reviewed": false
     },
     {
-      "id": "1d53d6d12eb863d5b2",
-      "claim": "Today, digital banking in India has connected everyone to 24-hour financial services.",
-      "extraction": {
-        "reasons": [
-          "number",
-          "accomplishment"
-        ],
-        "numbers": [
-          "24"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "2e6329cf1164f3c116dc",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
-        "published_at": "2026-10-25T13:30:15+00:00"
-      },
-      "query": "24 digital banking has connected everyone hour",
-      "numbers": [
-        "24"
-      ],
-      "promise_matches": [
-        {
-          "id": "BJP-2019-7cb3858ebb5dac9f88",
-          "year": 2019,
-          "category": "other",
-          "page": 33,
-          "anchor": "With this scheme, we will ensure that every Indian has access to banking facilities …",
-          "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
-          "similarity": 0.154,
-          "matched_terms": [
-            "banking",
-            "has"
-          ]
-        },
-        {
-          "id": "BJP-2019-9d236247e9b15a03ee",
-          "year": 2019,
-          "category": "women_social_justice",
-          "page": 25,
-          "anchor": "In order to establish India as a hub of financial services, we will expedite …",
-          "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
-          "similarity": 0.154,
-          "matched_terms": [
-            "financial",
-            "services"
-          ]
-        }
-      ],
-      "evidence": [],
-      "fact_checks": [],
-      "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "60ae96f665f22ef03b",
-      "claim": "But prior to 2014, there was an entirely different era of ‘phone banking’.",
+      "id": "642341b132db9d17ef",
+      "claim": "साथियों, इस वर्ष उस महान कार्य को भी 75 वर्ष पूरे हुए हैं।",
       "extraction": {
         "reasons": [
           "number"
         ],
         "numbers": [
-          "2014"
+          "75 वर्ष"
         ],
         "context_before": ""
       },
       "claim_source": {
-        "id": "2e6329cf1164f3c116dc",
+        "id": "5fb94e2429eca379660e",
         "kind": "official_speech_or_video",
-        "title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
+        "title": "PM’s speech during Rashtriya Ekta Diwas",
         "source": "PMIndia",
         "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
-        "published_at": "2026-10-25T13:30:15+00:00"
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+        "published_at": "2026-10-31T17:23:05+00:00"
       },
-      "query": "2014 but prior there was entirely different",
+      "query": "75 वर इस उस मह",
       "numbers": [
-        "2014"
+        "75"
       ],
-      "promise_matches": [],
-      "evidence": [
-        {
-          "id": "0e2d9417e1acdf56ab",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "CNBC",
-          "source_url": "https://www.cnbc.com",
-          "title": "Warren Buffett: 'If I had been a female, my life would have been entirely different' - CNBC",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOV3BpbjltT3B2RHZwanlSTVVqWkVzVFVaYnNKa1lpQkZ1UlBlVHBFOEIzcVZlNzhnOXZvM2N0c0gwYVVNcFFpX1IzYk9pVXctcnRXck82cVREMU1ycDB1bW5JM05YSGtjaExlWkpaSFBZSWtfSUktVVRuVE9LYldjWHMtdDQ1UmV1QXJCSHhqNmxwY1otbkFoQWEtUDBFNUlwYl9Z0gGoAUFVX3lxTFBJQjZYdVNlWWlEdTN6QnVBZWVQc3JIcjA1XzVuWlVhV3UxWWlZY0hrVkVINjFOOVU1ekZsWHhGZzZDTm5mZkVtYnA5RTNKX2Y4TTEtdzF1c01QTUxpRmktMmtfVVNBY1BtbnlJV2ZGeHVYOGJzYXpDaU9fTE5xVDZGcXdvVDd4bTJOcXVHbTJqblNCV0stR09IN3A2UGZzOTg2a0JBQlVSUA?oc=5",
-          "published_at": "2018-10-16T07:00:00+00:00",
-          "snippet": "Warren Buffett: 'If I had been a female, my life would have been entirely different' CNBC",
-          "lexical_overlap": 0.111,
-          "relevance": 0.181,
-          "matched_terms": [
-            "different",
-            "entirely"
-          ],
-          "shared_numbers": []
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "d4aab404e9ccc6ccf7",
-      "claim": "A select few in Delhi and those connected with influential circles were granted loans worth thousands of crores through phone calls.",
-      "extraction": {
-        "reasons": [
-          "accomplishment"
-        ],
-        "numbers": [],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "2e6329cf1164f3c116dc",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
-        "published_at": "2026-10-25T13:30:15+00:00"
-      },
-      "query": "select few delhi connected influential circles",
-      "numbers": [],
       "promise_matches": [],
       "evidence": [],
       "fact_checks": [],
@@ -484,174 +153,27 @@
       "human_reviewed": false
     },
     {
-      "id": "f5f9e7bb05cfa3199f",
-      "claim": "The frameworks built by the nation in recent years, along with the new ecosystem developed under Digital India, have extended banking to every single citizen.",
-      "extraction": {
-        "reasons": [
-          "accomplishment"
-        ],
-        "numbers": [],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "2e6329cf1164f3c116dc",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
-        "published_at": "2026-10-25T13:30:15+00:00"
-      },
-      "query": "frameworks built nation recent along ecosystem",
-      "numbers": [],
-      "promise_matches": [],
-      "evidence": [],
-      "fact_checks": [],
-      "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "dac6e2327ebe0bd17a",
-      "claim": "Friends, It was from this very land of Odisha that a former Prime Minister of the country once stated that when one rupee is sent from Delhi, only 15 paise reaches the people.",
+      "id": "02039f1ebb6ecc1447",
+      "claim": "साथियों, सरदार पटेल के 150वें जन्मदिवस पर, मैंने यहीं उनके चरणों में खड़े होकर कहा था, “जब तक, जब तक देश नक्सलवाद, माओवादी आतंक से पूरी तरह मुक्त नहीं हो जाता, हम चैन से बैठने वाले नहीं हैं”।",
       "extraction": {
         "reasons": [
           "number"
         ],
         "numbers": [
-          "15"
+          "150"
         ],
         "context_before": ""
       },
       "claim_source": {
-        "id": "2e6329cf1164f3c116dc",
+        "id": "5fb94e2429eca379660e",
         "kind": "official_speech_or_video",
-        "title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
+        "title": "PM’s speech during Rashtriya Ekta Diwas",
         "source": "PMIndia",
         "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
-        "published_at": "2026-10-25T13:30:15+00:00"
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+        "published_at": "2026-10-31T17:23:05+00:00"
       },
-      "query": "15 friends was very land odisha former",
-      "numbers": [
-        "15"
-      ],
-      "promise_matches": [],
-      "evidence": [
-        {
-          "id": "1465969a14662145be",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Economic Times",
-          "source_url": "https://m.economictimes.com",
-          "title": "Tenant staying after lease expiry? When landlords can evict with just 15 days’ notice - The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOV3ZnZmIyWnFhYTZIUTJQU2lKcG5PTFlUZm83eWJkQW04QkJTdUVPZTUyUmlSMHdGNVpQLThLTFhabVp5czVCdU5nbDluZUxOSHpkZ21ucFd5WVAtSWJ2VUxEMkVLekY1UGtRYW9SMFV2X0tZUWhwbVh4WW83V2Rlal90Sy1sa05DQ3JUSENFSlZkZDA0LWF5aVBORFlfWFY2eVRFakJMVk5OdHU3RWZ3YkIyUzYyXy1tQmd5eFJXSWZlQW1hbWt6OERCQ2wtSnk4U0p1cWU2MmE0M3lSdjBxQW82NWRqZzNGWjhR0gHwAUFVX3lxTFBmUGhqTWtyQ2VOWDlSVWJPZUNWODFhTHdUMTZjRjFRWHNVbm5TcG50YU5GdWxZRVVnbGdpaFZ4RW8zZjNwY0JSUzJ0aHBYSTlJNnZvU3NjNDBsT2ItZEFZdU1yY1lWS2lqd0NDQTJka1ZaQVhTZktreWhfdUJ3Z1VKdUZIcmRLcmdHLTdTalZsT0tzZnduQm9PVlVnVDRKWHJ1eVdleDhyTHBJblVOZTgzTkNSR3FPZWJ0SktlakZwbTZ6SmVvdjZSTHRsa2lCdDVlWm1KWFJLaEVoUVNYSndiSDlKSTg3SHdvdWZ3YnZMWA?oc=5",
-          "published_at": "2026-02-04T08:00:00+00:00",
-          "snippet": "Tenant staying after lease expiry? When landlords can evict with just 15 days’ notice The Economic Times",
-          "lexical_overlap": 0.042,
-          "relevance": 0.187,
-          "matched_terms": [
-            "when"
-          ],
-          "shared_numbers": [
-            "15"
-          ]
-        },
-        {
-          "id": "ca19b6f6379068cb03",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "ETV Bharat",
-          "source_url": "https://www.etvbharat.com",
-          "title": "15-Year-Old Girl Found Four Months Pregnant In Odisha's Kalahandi, Child Welfare Team Steps In - ETV Bharat",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQN2IzdFNTVVhQWE8wbkItamxQRkVIRWNESmU3NDBIak9ZajVNZ3kybklmbXh0eVJOdEQyU1g0c1NYMkRDLVhTZWY3eFl3V18tWU1hdFFPaDZkQ1l2d0FCZjhLN0d3SlFua2Jxc3lmUkhNMzUzMTFTcUM5cmpaTzRaMnJNZGZla2FJaVlZbm1WX05GN091bW84WXZkWWEtaFNtdmdFbnM2SUZNR251WjVadHBad0ZMTUxXbEdzUFMxUE4xaGNqUTFWaHpCR2JkcEpMWDl3cVMwUXY5LUNyTGlVUnRkTW3SAeoBQVVfeXFMT09GdEJkaC1vMExxcGlmMy1weTdrNTNPZXFXdkJfU2I3bzN2czhURkU4VjFLT3FnRzA1UlI4Y3FqNFgwUnZYUzdrTG5FeWd6RU12dTJ6empuTFBwaW5TZ0x2WEpnM0JPdVJBVTJLQU96WTU0bTkza2RsaVZVS09OeEc3dEdrTGxqbXlkQURBTmNtU1k0LXhtcldUSmNhMTdkaHRPd0h4eEFVcWtmSFFNUVNvQmIzNkxLVzg2NEppbkxJUU1rY3BGX3VwNDdxS2JYdFdsOTBXc0Z0UnFPZjZ3SUJsOURwUUZTUWxR?oc=5",
-          "published_at": "2026-09-05T07:00:00+00:00",
-          "snippet": "15-Year-Old Girl Found Four Months Pregnant In Odisha's Kalahandi, Child Welfare Team Steps In ETV Bharat",
-          "lexical_overlap": 0.042,
-          "relevance": 0.187,
-          "matched_terms": [
-            "odisha"
-          ],
-          "shared_numbers": [
-            "15"
-          ]
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "884558fa72add4403d",
-      "claim": "As Nirmala ji mentioned just now, this has been made possible solely because of the approximately 59 to 60 crore Jan Dhan accounts opened in the country.",
-      "extraction": {
-        "reasons": [
-          "number",
-          "accomplishment"
-        ],
-        "numbers": [
-          "59",
-          "60 crore"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "2e6329cf1164f3c116dc",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
-        "published_at": "2026-10-25T13:30:15+00:00"
-      },
-      "query": "59 60 nirmala ji mentioned just now has",
-      "numbers": [
-        "59",
-        "60"
-      ],
-      "promise_matches": [],
-      "evidence": [],
-      "fact_checks": [],
-      "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "050ea98dd7879a06cd",
-      "claim": "From small entrepreneurs to traditional artisans, from street vendors to workers in the unorganised sector, they have received the benefits of formal banking for the first time.",
-      "extraction": {
-        "reasons": [
-          "accomplishment"
-        ],
-        "numbers": [],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "2e6329cf1164f3c116dc",
-        "kind": "official_speech_or_video",
-        "title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
-        "published_at": "2026-10-25T13:30:15+00:00"
-      },
-      "query": "small entrepreneurs traditional artisans street vendors",
+      "query": "जब तक नह सरद पट जन",
       "numbers": [],
       "promise_matches": [],
       "evidence": [],
@@ -666,87 +188,36 @@
       "human_reviewed": false
     },
     {
-      "id": "00739b48a203bf3deb",
-      "claim": "Through the Mudra Yojana, 13 crore people have become first-time entrepreneurs.",
+      "id": "a2d9ff6dcff4b4b6d6",
+      "claim": "2015 में देश के एक सौ छब्बीस जिले वामपंथी उग्रवाद से प्रभावित थे।",
       "extraction": {
         "reasons": [
           "number"
         ],
         "numbers": [
-          "13 crore"
+          "2015"
         ],
         "context_before": ""
       },
       "claim_source": {
-        "id": "2e6329cf1164f3c116dc",
+        "id": "5fb94e2429eca379660e",
         "kind": "official_speech_or_video",
-        "title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
+        "title": "PM’s speech during Rashtriya Ekta Diwas",
         "source": "PMIndia",
         "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
-        "published_at": "2026-10-25T13:30:15+00:00"
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+        "published_at": "2026-10-31T17:23:05+00:00"
       },
-      "query": "13 mudra yojana crore have become first-time",
+      "query": "2015 एक छब मप उग रव रभ",
       "numbers": [
-        "13"
+        "2015"
       ],
-      "promise_matches": [
-        {
-          "id": "BJP-2019-c2a3dbd42d5ad35cea",
-          "year": 2019,
-          "category": "jobs_economy",
-          "page": 27,
-          "anchor": "We will guarantee 50% of the loan amount for female entrepreneurs and 25% of …",
-          "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
-          "similarity": 0.167,
-          "matched_terms": [
-            "crore",
-            "entrepreneurs"
-          ]
-        },
-        {
-          "id": "BJP-2024-6b0dfb49a975b3ea0c",
-          "year": 2024,
-          "category": "agriculture",
-          "page": 17,
-          "anchor": "We will now empower three crore rural women to become Lakhpati Didis.",
-          "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
-          "similarity": 0.167,
-          "matched_terms": [
-            "become",
-            "crore"
-          ]
-        }
-      ],
-      "evidence": [
-        {
-          "id": "0c7e6adeb1b3830018",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "A Decade of Growth with PM Mudra Yojana - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE04YmdydVdNeDRNdXAtQ0tqOXVPbFJZd3k4c3VMM3Q0M1VESFBDLWtXRmlVTGZ2S0IzVk4tZXB4eTRjaHVlOWRkWUtPWU1raUtSY2tGUE81THUzSXU1RWZzMXQtMGxpbkZI?oc=5",
-          "published_at": "2025-04-07T07:00:00+00:00",
-          "snippet": "A Decade of Growth with PM Mudra Yojana PIB",
-          "lexical_overlap": 0.182,
-          "relevance": 0.302,
-          "matched_terms": [
-            "mudra",
-            "yojana"
-          ],
-          "shared_numbers": [],
-          "nli": {
-            "entailment": 0.0015,
-            "neutral": 0.9914,
-            "contradiction": 0.0072
-          }
-        }
-      ],
+      "promise_matches": [],
+      "evidence": [],
       "fact_checks": [],
       "signal": {
-        "level": "primary_evidence_found",
-        "label": "Relevant verified primary evidence candidate found",
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -754,8 +225,45 @@
       "human_reviewed": false
     },
     {
-      "id": "5bb402465b7ccab062",
-      "claim": "PM SVANidhi has provided loans to lakhs of street vendors for the first time.",
+      "id": "29642e86c122b4b0c6",
+      "claim": "मार्च 2026 तक देश में ऐसा कोई जिला नहीं रह गया, जो अब भी नक्सलवाद से प्रभावित हो।",
+      "extraction": {
+        "reasons": [
+          "number"
+        ],
+        "numbers": [
+          "2026"
+        ],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "5fb94e2429eca379660e",
+        "kind": "official_speech_or_video",
+        "title": "PM’s speech during Rashtriya Ekta Diwas",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+        "published_at": "2026-10-31T17:23:05+00:00"
+      },
+      "query": "2026 तक ऐस नह रह गय अब",
+      "numbers": [
+        "2026"
+      ],
+      "promise_matches": [],
+      "evidence": [],
+      "fact_checks": [],
+      "signal": {
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "7fe771d9ba12d4da0d",
+      "claim": "मैं आज उन सभी वीर जवानों को भी नमन करता हूँ, जिन्होंने देश के इन क्षेत्रों में शांति स्थापित करने के लिए सर्वोच्च बलिदान दिया।",
       "extraction": {
         "reasons": [
           "accomplishment"
@@ -764,263 +272,288 @@
         "context_before": ""
       },
       "claim_source": {
-        "id": "2e6329cf1164f3c116dc",
+        "id": "5fb94e2429eca379660e",
         "kind": "official_speech_or_video",
-        "title": "PM’s address during inauguration key RBI facilities in Bhubaneswar",
+        "title": "PM’s speech during Rashtriya Ekta Diwas",
         "source": "PMIndia",
         "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-during-inauguration-key-rbi-facilities-in-bhubaneswar/",
-        "published_at": "2026-10-25T13:30:15+00:00"
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+        "published_at": "2026-10-31T17:23:05+00:00"
       },
-      "query": "pm svanidhi has provided loans lakhs",
+      "query": "आज उन सभ जव नमन करत",
       "numbers": [],
-      "promise_matches": [
-        {
-          "id": "BJP-2024-e4e50bb2901af6baa0",
-          "year": 2024,
-          "category": "other",
-          "page": 31,
-          "anchor": "We will continue to further expand PM Svanidhi to cover street vendors, travelling salesmen …",
-          "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
-          "similarity": 0.214,
-          "matched_terms": [
-            "street",
-            "svanidhi",
-            "vendors"
-          ]
-        }
-      ],
-      "evidence": [
-        {
-          "id": "c7d5836c05c03433c3",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "www.pib.gov.in",
-          "source_url": "https://www.pib.gov.in",
-          "title": "STREET VENDORS UNDER PM SVANIDHI - www.pib.gov.in",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA3TTFuYTBzN3NDWmprbWpONTRIbzdDVzViUXRlNnNVVVJpNlBId1lxZnoyR1pkOXZBNU42N3dTaHd5WGg0b3o4aXhPWG5ZY2VMVHhfbUFWampnSzJzTnRWalRZTVRPYWpJM1htRVQxNHU3Nm9FTk9CN3dFVQ?oc=5",
-          "published_at": "2026-07-27T07:00:00+00:00",
-          "snippet": "STREET VENDORS UNDER PM SVANIDHI www.pib.gov.in",
-          "lexical_overlap": 0.308,
-          "relevance": 0.498,
-          "matched_terms": [
-            "pm",
-            "street",
-            "svanidhi",
-            "vendors"
-          ],
-          "shared_numbers": [],
-          "nli": {
-            "entailment": 0.0014,
-            "neutral": 0.9887,
-            "contradiction": 0.0099
-          }
-        },
-        {
-          "id": "9860913f9848bd5052",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "CNBC TV18",
-          "source_url": "https://www.cnbctv18.com",
-          "title": "76.95 lakh street vendors avail ₹18,475 crore collateral-free loans under PM SVANidhi - CNBC TV18",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNLVNJNjBHc2VVZmhFVDRPN181RzNfdjFpRWVwQkhjdW9xWk4xV09LWU9ndVdkcEhYOFZ6QVQ3dWRrUmVFbVlxdnFfOG5uZXl1cXJWZkpDX3VjQzU0SGhpaEg1U3llWE9EWGRhOE0tc1JZMFlFd1JxRnV6LWp4REh5NDJmdlR3SUVubTdXdXZWWWVRZ2staF9FNzdWbVJnOVFUVUZKcVdoSzdGZTQyVElTQUNlM0VWUDAyaklVT3Z2TmlNUTlnc2F1SkNsTjnSAdIBQVVfeXFMTWxGdXNtTlNaODVCaEJZcWE3WGNURVJXYTJpb2dIWXlveHVubW4xM0NJdFJQWmpOVHlmTl9PWnZfUm1SVkV1M0lNV0p4cE9ubkhVY2Q2aGExZnZyQTFZb3hNWHBkejRrRlMtYm1ReVR3SEVHZi0tX0xKeHBMd3lSRkdWd0pFaTJnSm5oOTNjTWQ2UEJ5elE1TnprZ2hzUGp4ZXpDY2FOM0Jsd1doejN1UU85WDJQQVVDNmxfUUFyYU1uZUljdXFfVGJ1dW05V0dGVmdB?oc=5",
-          "published_at": "2026-08-06T07:00:00+00:00",
-          "snippet": "76.95 lakh street vendors avail ₹18,475 crore collateral-free loans under PM SVANidhi CNBC TV18",
-          "lexical_overlap": 0.312,
-          "relevance": 0.488,
-          "matched_terms": [
-            "loans",
-            "pm",
-            "street",
-            "svanidhi",
-            "vendors"
-          ],
-          "shared_numbers": []
-        },
-        {
-          "id": "b442e16d023cefbf1b",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "pib.gov.in",
-          "source_url": "https://www.pib.gov.in",
-          "title": "PM SVANidhi: Advancing Financial Inclusion for Street Vendors - pib.gov.in",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zVEpmWHF5a1BURTRnSnNMU1BuX09EWUxCSWIxV3BuVWt4dnJIUUd6VHJSSm5zYmh3dFU0WVVGVU1xcE5LSEhrSWNRaE43aFE4dWpscmFvenJBbGR3b3JzOHVkZ1ZpZlhk?oc=5",
-          "published_at": "2026-05-30T07:00:00+00:00",
-          "snippet": "PM SVANidhi: Advancing Financial Inclusion for Street Vendors pib.gov.in",
-          "lexical_overlap": 0.267,
-          "relevance": 0.457,
-          "matched_terms": [
-            "pm",
-            "street",
-            "svanidhi",
-            "vendors"
-          ],
-          "shared_numbers": [],
-          "nli": {
-            "entailment": 0.0015,
-            "neutral": 0.99,
-            "contradiction": 0.0085
-          }
-        },
-        {
-          "id": "1cc22278e47ff9110b",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Cabinet approves restructuring & extension of lending period beyond 31.12.2024 of PM Street Vendors AtmaNirbhar Nidhi (PM SVANidhi) Scheme - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9fNk1LMHhpbTlfVXk3eS1SYVFyX2hucUZPXzYtaFlJZXR6OUNsV3VtNlMtLTZUQ01zOURHci1wcVR5c292YWtSY0RoOUxLeW9PRW50bG9hX1hTN1paRVlZVjNHLUZDVncy?oc=5",
-          "published_at": "2025-08-27T07:00:00+00:00",
-          "snippet": "Cabinet approves restructuring & extension of lending period beyond 31.12.2024 of PM Street Vendors AtmaNirbhar Nidhi (PM SVANidhi) Scheme PIB",
-          "lexical_overlap": 0.19,
-          "relevance": 0.38,
-          "matched_terms": [
-            "pm",
-            "street",
-            "svanidhi",
-            "vendors"
-          ],
-          "shared_numbers": [],
-          "nli": {
-            "entailment": 0.0021,
-            "neutral": 0.99,
-            "contradiction": 0.0079
-          }
-        },
-        {
-          "id": "2ba5167a2362e70761",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "www.pib.gov.in",
-          "source_url": "https://www.pib.gov.in",
-          "title": "PM SVANidhi Scheme facilitates provision of collateral free working capital loan to street vendors to restart their businesses - www.pib.gov.in",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5tT2JVblU1S1pGdThwV2x6NlkybDFXQzA4ZTV2UVljVXVEdmZNMTU5VkFsLWNKeDZKdDMtMWpzYUlmUXJHUXZiRWhOeklVTGpLVEROWkRHcmRxVVFka0RqUVF3WlJlMGRkb2c?oc=5",
-          "published_at": "2022-03-31T07:00:00+00:00",
-          "snippet": "PM SVANidhi Scheme facilitates provision of collateral free working capital loan to street vendors to restart their businesses www.pib.gov.in",
-          "lexical_overlap": 0.182,
-          "relevance": 0.372,
-          "matched_terms": [
-            "pm",
-            "street",
-            "svanidhi",
-            "vendors"
-          ],
-          "shared_numbers": [],
-          "nli": {
-            "entailment": 0.0021,
-            "neutral": 0.9811,
-            "contradiction": 0.0168
-          }
-        },
-        {
-          "id": "8dd4961bd60b1c49a7",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "www.pib.gov.in",
-          "source_url": "https://www.pib.gov.in",
-          "title": "SVANidhi: Empowering Street Vendors - www.pib.gov.in",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1FaENoTUU2T3hzMEpSZ2hTcGFnSXY5b3pVMkVacTFlcmFRd3dhTUZUNXdHNm40NFlYOUs5a2FGdkJPdTlpcG1YUWhjMVJWeGRDOVFSMVhTQ2ZFcXNMYlNlamxJUWNSbDhKUm41bmxtUUs0dWUwbjZlRzN3?oc=5",
-          "published_at": "2025-12-20T08:00:00+00:00",
-          "snippet": "SVANidhi: Empowering Street Vendors www.pib.gov.in",
-          "lexical_overlap": 0.214,
-          "relevance": 0.369,
-          "matched_terms": [
-            "street",
-            "svanidhi",
-            "vendors"
-          ],
-          "shared_numbers": [],
-          "nli": {
-            "entailment": 0.0017,
-            "neutral": 0.9894,
-            "contradiction": 0.0089
-          }
-        },
-        {
-          "id": "cb771e93a84b2d81d9",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "DD India",
-          "source_url": "https://ddindia.co.in",
-          "title": "Over 1.05 crore loans sanctioned under PM SVANidhi since 2020 - DD India",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORUJPSVNXQnNTYUh3YkJZbzFEM1haLVJWcU9rdXVPeXpLVVNheXhTVzAtal9yZ3VUNHZZS2NHNEVZUExXZWNvUkE2QzZZTFlPc1hiOW91dGdieWUwbU5fNGRqZmwwYUswTWJBTFVtSEthQXg3R0IxYWFDdlNscUpZcmZfeHlHV2dyMXRBc3ljVUJDcnRlZVo0?oc=5",
-          "published_at": "2026-06-01T07:00:00+00:00",
-          "snippet": "Over 1.05 crore loans sanctioned under PM SVANidhi since 2020 DD India",
-          "lexical_overlap": 0.214,
-          "relevance": 0.319,
-          "matched_terms": [
-            "loans",
-            "pm",
-            "svanidhi"
-          ],
-          "shared_numbers": []
-        },
-        {
-          "id": "4955173f87cfaf2ce0",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Times of India",
-          "source_url": "https://timesofindia.indiatimes.com",
-          "title": "LG directs banks to speed up PM SVANidhi loans as Delhi receives over 4.3 lakh applications - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPNE9HSHFZcnJQWFpueWYtUVlyaXVySHVsczRBUEFyZDBuVFZFcDlEc3dLY2hzQ1NRSlpGUE8tdjNVdGU3MzNfdzZMSE9abmZEVGxNX1VOSE9WOXhCTUJLY2JocHBLYmhzR1d3VVp1amtra0s1RFdjRi1vTGJlSm9FcG1sWUIydXhzSUh2UlBwNFUxN0JZWi15RUptTGczTDJBVmI1Rk1CZ3RRWlpLanR0ZC04anBSQmxvM25DZ2xzSUtYWUxWLWhBWnYwcnRQTC0zRkV0ekZ6RXM3NHVnNG5KU1B0cVZjT1JoU1VsMUhQdnd0SDk4U2lN0gH8AUFVX3lxTE5kbkxlYzgxT1BhbllNVVBGWkZjQXREUmVPRmd5a2F1dWFyblZjRTZrVUhxNUFoanVWQUtxTXpSNzZqaGIwUjRwTnh5dzVJUGU5OGEteHJKY2hTcjRyRmNmVVlPd2FHYUVmZUx4eVNoemFBY3hYT2ttTTYzd3VhVTJJVWdySVZMWjlRclFJRU5HZGx2TXN4cGVOaEZ4NG9QeG16UHRhU0pZd0tHR1g2XzVMOW9jbEpfLUNpc0dTZlV6MFc0TmRQWVBKZkVXQmhoOG12RTJ0eGhvTFZTNVloRkx3WHFKak9sZ0ZVQjB4WHFoZ2o0Y0tmb1dxVV9pbQ?oc=5",
-          "published_at": "2026-06-12T07:00:00+00:00",
-          "snippet": "LG directs banks to speed up PM SVANidhi loans as Delhi receives over 4.3 lakh applications The Times of India",
-          "lexical_overlap": 0.15,
-          "relevance": 0.255,
-          "matched_terms": [
-            "loans",
-            "pm",
-            "svanidhi"
-          ],
-          "shared_numbers": []
-        },
-        {
-          "id": "cafcca8acb5dcd1c73",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "ANI News",
-          "source_url": "https://www.aninews.in",
-          "title": "PNB disburses 73,000 digital, 8 lakh offline PM SVANidhi loans, targets 5 lakh digital loans in next five years - ANI News",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQbl9JWFNpMXR2RlJjdGN4TG9zcVU1d010eXBOYk9BeGkyaFhfSzNtN3lPbG1DNlVwZU9fWUxSNUt5M3oyM095R0FnYUdWR2cwYlkzczdrbFdBNTFIOGh1dUhmeGhtRVRwRXZTVG5XMTlpeFJnSk1ObUpBX0g2MGxIOG95eW5XR19LU0dxU19wMUs1T01PaDRmRmpKZE4tUEo3Yi1GVUJBU0x6TWZHdE5QOEVXeXBLeHJVWXdVbjdxVmhIb1I0SnNWbi1rZ2dCdGhiRUlpRk13STdjSDlfUzRYbWgwQk1naThaSTFGVFhmT20?oc=5",
-          "published_at": "2026-07-01T07:00:00+00:00",
-          "snippet": "PNB disburses 73,000 digital, 8 lakh offline PM SVANidhi loans, targets 5 lakh digital loans in next five years ANI News",
-          "lexical_overlap": 0.15,
-          "relevance": 0.255,
-          "matched_terms": [
-            "loans",
-            "pm",
-            "svanidhi"
-          ],
-          "shared_numbers": []
-        },
-        {
-          "id": "25eea1a46a053b4436",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "www.pib.gov.in",
-          "source_url": "https://www.pib.gov.in",
-          "title": "PM SVANidhi: From Survival to Self-Reliance - www.pib.gov.in",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9DZktBUHcwT1J0RzBOak53eWUtMVBvem5LS2hEQlAxc2FITG13c2xxY3NPM2tVMkY2djY4Vmc2dklmdFB3OWpZSFJWd3lRM2RYdWhvMDAwV2thV0t3WUhnVGtJOXhoRlNSeVZQQlNoSHRmS2VWMG1lVEtn?oc=5",
-          "published_at": "2026-05-30T07:00:00+00:00",
-          "snippet": "PM SVANidhi: From Survival to Self-Reliance www.pib.gov.in",
-          "lexical_overlap": 0.133,
-          "relevance": 0.253,
-          "matched_terms": [
-            "pm",
-            "svanidhi"
-          ],
-          "shared_numbers": [],
-          "nli": {
-            "entailment": 0.0012,
-            "neutral": 0.9885,
-            "contradiction": 0.0103
-          }
-        }
-      ],
+      "promise_matches": [],
+      "evidence": [],
       "fact_checks": [],
       "signal": {
-        "level": "primary_evidence_found",
-        "label": "Relevant verified primary evidence candidate found",
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "a82d9c1ffd8f022558",
+      "claim": "साथियों, आज भारत पहले से अधिक सुरक्षित है, आज भारत अधिक संकल्पित है, और इसका एक बड़ा कारण, देशवासियों का बढ़ा हुआ आत्मविश्वास है।",
+      "extraction": {
+        "reasons": [
+          "comparison"
+        ],
+        "numbers": [],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "5fb94e2429eca379660e",
+        "kind": "official_speech_or_video",
+        "title": "PM’s speech during Rashtriya Ekta Diwas",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+        "published_at": "2026-10-31T17:23:05+00:00"
+      },
+      "query": "आज रत अध पहल रक कल",
+      "numbers": [],
+      "promise_matches": [],
+      "evidence": [],
+      "fact_checks": [],
+      "signal": {
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "eb13fb7efb48fddad0",
+      "claim": "ये रिपोर्ट बताती है कि 2024 से पहले के 10-12 वर्षों में, 50 करोड़ भारतीयों ने गरीबी को परास्त किया है।",
+      "extraction": {
+        "reasons": [
+          "number"
+        ],
+        "numbers": [
+          "2024",
+          "10",
+          "12 वर्ष",
+          "50 करोड़"
+        ],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "5fb94e2429eca379660e",
+        "kind": "official_speech_or_video",
+        "title": "PM’s speech during Rashtriya Ekta Diwas",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+        "published_at": "2026-10-31T17:23:05+00:00"
+      },
+      "query": "50 2024 बत पहल वर कर रत गर",
+      "numbers": [
+        "10",
+        "12",
+        "2024",
+        "50"
+      ],
+      "promise_matches": [],
+      "evidence": [],
+      "fact_checks": [],
+      "signal": {
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "89c4773d1e13db46ab",
+      "claim": "यानी पहले जहाँ 100 में से 27 लोग, एक चौथाई से भी ज्यादा, 100 में से 27 लोग भीषण गरीबी की चपेट में थे, आज ये संख्या कम होते होते 100 में सिर्फ 3 से भी कम रह गई है।",
+      "extraction": {
+        "reasons": [
+          "number"
+        ],
+        "numbers": [
+          "100",
+          "27",
+          "100",
+          "27",
+          "100",
+          "3"
+        ],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "5fb94e2429eca379660e",
+        "kind": "official_speech_or_video",
+        "title": "PM’s speech during Rashtriya Ekta Diwas",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+        "published_at": "2026-10-31T17:23:05+00:00"
+      },
+      "query": "3 27 कम पहल जह एक षण गर",
+      "numbers": [
+        "100",
+        "27",
+        "3"
+      ],
+      "promise_matches": [],
+      "evidence": [],
+      "fact_checks": [],
+      "signal": {
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "cb68ef1884550190ef",
+      "claim": "ये सब इसलिए हुआ, क्योंकि पिछले 12 वर्षों से देश, गरीब कल्याण, गरीबों को सशक्त करने को प्राथमिकता दे रहा है।",
+      "extraction": {
+        "reasons": [
+          "number"
+        ],
+        "numbers": [
+          "12 वर्ष"
+        ],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "5fb94e2429eca379660e",
+        "kind": "official_speech_or_video",
+        "title": "PM’s speech during Rashtriya Ekta Diwas",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+        "published_at": "2026-10-31T17:23:05+00:00"
+      },
+      "query": "12 गर सब इसल छल वर कल",
+      "numbers": [
+        "12"
+      ],
+      "promise_matches": [],
+      "evidence": [],
+      "fact_checks": [],
+      "signal": {
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "b936379ea313e43d8b",
+      "claim": "इन 12 वर्षों में, देश को लीकेज फ्री व्यवस्था मिली।",
+      "extraction": {
+        "reasons": [
+          "number"
+        ],
+        "numbers": [
+          "12 वर्ष"
+        ],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "5fb94e2429eca379660e",
+        "kind": "official_speech_or_video",
+        "title": "PM’s speech during Rashtriya Ekta Diwas",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+        "published_at": "2026-10-31T17:23:05+00:00"
+      },
+      "query": "12 इन वर यवस",
+      "numbers": [
+        "12"
+      ],
+      "promise_matches": [],
+      "evidence": [],
+      "fact_checks": [],
+      "signal": {
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "33b242e178dd0e4b2f",
+      "claim": "करोड़ों लोगों को बीमा की सुरक्षा मिली, जिसने संकट के समय करोड़ों भारतीयों को संबल दिया।",
+      "extraction": {
+        "reasons": [
+          "accomplishment"
+        ],
+        "numbers": [],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "5fb94e2429eca379660e",
+        "kind": "official_speech_or_video",
+        "title": "PM’s speech during Rashtriya Ekta Diwas",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+        "published_at": "2026-10-31T17:23:05+00:00"
+      },
+      "query": "कर रक सन कट समय रत",
+      "numbers": [],
+      "promise_matches": [],
+      "evidence": [],
+      "fact_checks": [],
+      "signal": {
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "fdc611fa5bec3fb45e",
+      "claim": "2014 से पहले देश में 25 करोड़ लोगों के पास भी सामाजिक सुरक्षा कवच नहीं था।",
+      "extraction": {
+        "reasons": [
+          "number"
+        ],
+        "numbers": [
+          "2014",
+          "25 करोड़"
+        ],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "5fb94e2429eca379660e",
+        "kind": "official_speech_or_video",
+        "title": "PM’s speech during Rashtriya Ekta Diwas",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+        "published_at": "2026-10-31T17:23:05+00:00"
+      },
+      "query": "2014 25 पहल कर रक कवच नह",
+      "numbers": [
+        "2014",
+        "25"
+      ],
+      "promise_matches": [],
+      "evidence": [],
+      "fact_checks": [],
+      "signal": {
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -1029,6 +562,54 @@
     }
   ],
   "claim_families": [
+    {
+      "id": "5d0fc022cc486ec46b",
+      "canonical_claim": "2014 से पहले देश में 25 करोड़ लोगों के पास भी सामाजिक सुरक्षा कवच नहीं था।",
+      "occurrences": [
+        {
+          "id": "db54a6d44d2cbbe666",
+          "text": "2014 से पहले देश में 25 करोड़ लोगों के पास भी सामाजिक सुरक्षा कवच नहीं था।",
+          "source_title": "PM’s speech during Rashtriya Ekta Diwas",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+          "published_at": "2026-10-31T17:23:05+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-11-02T18:21:28.781878+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-31T17:23:05+00:00",
+      "last_seen": "2026-10-31T17:23:05+00:00",
+      "latest_checked_at": "2026-11-02T18:21:28.781903+00:00",
+      "latest_claim_packet_id": "fdc611fa5bec3fb45e"
+    },
+    {
+      "id": "0f4ed5b3c6aff34f0b",
+      "canonical_claim": "2015 में देश के एक सौ छब्बीस जिले वामपंथी उग्रवाद से प्रभावित थे।",
+      "occurrences": [
+        {
+          "id": "2c420420377b8f0672",
+          "text": "2015 में देश के एक सौ छब्बीस जिले वामपंथी उग्रवाद से प्रभावित थे।",
+          "source_title": "PM’s speech during Rashtriya Ekta Diwas",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+          "published_at": "2026-10-31T17:23:05+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-11-02T18:21:23.557927+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-31T17:23:05+00:00",
+      "last_seen": "2026-10-31T17:23:05+00:00",
+      "latest_checked_at": "2026-11-02T18:21:23.557940+00:00",
+      "latest_claim_packet_id": "a2d9ff6dcff4b4b6d6"
+    },
     {
       "id": "1876deedf04e66b7b2",
       "canonical_claim": "A commemorative postage stamp and coin marking this 100-year journey have just been released.",
@@ -3170,6 +2751,294 @@
       "last_seen": "2026-10-05T10:24:58+00:00",
       "latest_checked_at": "2026-10-14T05:27:17.808355+00:00",
       "latest_claim_packet_id": "aceda866d7e8ef92a8"
+    },
+    {
+      "id": "25d7747a6b2a763e8e",
+      "canonical_claim": "इन 12 वर्षों में, देश को लीकेज फ्री व्यवस्था मिली।",
+      "occurrences": [
+        {
+          "id": "4d4f3e4728b7f190c3",
+          "text": "इन 12 वर्षों में, देश को लीकेज फ्री व्यवस्था मिली।",
+          "source_title": "PM’s speech during Rashtriya Ekta Diwas",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+          "published_at": "2026-10-31T17:23:05+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-11-02T18:21:28.743095+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-31T17:23:05+00:00",
+      "last_seen": "2026-10-31T17:23:05+00:00",
+      "latest_checked_at": "2026-11-02T18:21:28.743139+00:00",
+      "latest_claim_packet_id": "b936379ea313e43d8b"
+    },
+    {
+      "id": "f40b0e74409be47a60",
+      "canonical_claim": "करोड़ों लोगों को बीमा की सुरक्षा मिली, जिसने संकट के समय करोड़ों भारतीयों को संबल दिया।",
+      "occurrences": [
+        {
+          "id": "f553e6b3e61fc1c753",
+          "text": "करोड़ों लोगों को बीमा की सुरक्षा मिली, जिसने संकट के समय करोड़ों भारतीयों को संबल दिया।",
+          "source_title": "PM’s speech during Rashtriya Ekta Diwas",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+          "published_at": "2026-10-31T17:23:05+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-11-02T18:21:28.779179+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-31T17:23:05+00:00",
+      "last_seen": "2026-10-31T17:23:05+00:00",
+      "latest_checked_at": "2026-11-02T18:21:28.779237+00:00",
+      "latest_claim_packet_id": "33b242e178dd0e4b2f"
+    },
+    {
+      "id": "96faefea2263c3012d",
+      "canonical_claim": "गणतंत्र हमें उन फैसलों को संविधान की मर्यादा में आगे बढ़ाने का मार्ग दिखाता है, संविधान हमें जनता के प्रति जवाबदेह रखता है, और एकता हमें एक राष्ट्र के रूप में आगे बढ़ने की शक्ति देती है।",
+      "occurrences": [
+        {
+          "id": "d612b3e1609da02e87",
+          "text": "गणतंत्र हमें उन फैसलों को संविधान की मर्यादा में आगे बढ़ाने का मार्ग दिखाता है, संविधान हमें जनता के प्रति जवाबदेह रखता है, और एकता हमें एक राष्ट्र के रूप में आगे बढ़ने की शक्ति देती है।",
+          "source_title": "PM’s speech during Rashtriya Ekta Diwas",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+          "published_at": "2026-10-31T17:23:05+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-11-02T18:21:23.550816+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-31T17:23:05+00:00",
+      "last_seen": "2026-10-31T17:23:05+00:00",
+      "latest_checked_at": "2026-11-02T18:21:23.550835+00:00",
+      "latest_claim_packet_id": "94b635846ee3a128d9"
+    },
+    {
+      "id": "2979d5eea2ec59be27",
+      "canonical_claim": "गर्व इस महान राष्ट्र के नागरिक होने का और कृतज्ञता सरदार वल्लभ भाई पटेल के प्रति, जिन्होंने आजादी के बाद 550 से ज्यादा रियासतों को एक किया।",
+      "occurrences": [
+        {
+          "id": "a3982e73f9c7f5a91b",
+          "text": "गर्व इस महान राष्ट्र के नागरिक होने का और कृतज्ञता सरदार वल्लभ भाई पटेल के प्रति, जिन्होंने आजादी के बाद 550 से ज्यादा रियासतों को एक किया।",
+          "source_title": "PM’s speech during Rashtriya Ekta Diwas",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+          "published_at": "2026-10-31T17:23:05+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-11-02T18:21:23.548089+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-31T17:23:05+00:00",
+      "last_seen": "2026-10-31T17:23:05+00:00",
+      "latest_checked_at": "2026-11-02T18:21:23.548137+00:00",
+      "latest_claim_packet_id": "dbc9cd03ddc90d7981"
+    },
+    {
+      "id": "c215fb5bd645eb1dfc",
+      "canonical_claim": "मार्च 2026 तक देश में ऐसा कोई जिला नहीं रह गया, जो अब भी नक्सलवाद से प्रभावित हो।",
+      "occurrences": [
+        {
+          "id": "afe7fa18f26bd0ea23",
+          "text": "मार्च 2026 तक देश में ऐसा कोई जिला नहीं रह गया, जो अब भी नक्सलवाद से प्रभावित हो।",
+          "source_title": "PM’s speech during Rashtriya Ekta Diwas",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+          "published_at": "2026-10-31T17:23:05+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-11-02T18:21:23.560046+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-31T17:23:05+00:00",
+      "last_seen": "2026-10-31T17:23:05+00:00",
+      "latest_checked_at": "2026-11-02T18:21:23.560057+00:00",
+      "latest_claim_packet_id": "29642e86c122b4b0c6"
+    },
+    {
+      "id": "88b3bda71ffccd5cca",
+      "canonical_claim": "मैं आज उन सभी वीर जवानों को भी नमन करता हूँ, जिन्होंने देश के इन क्षेत्रों में शांति स्थापित करने के लिए सर्वोच्च बलिदान दिया।",
+      "occurrences": [
+        {
+          "id": "10e8402bfdb7fe942b",
+          "text": "मैं आज उन सभी वीर जवानों को भी नमन करता हूँ, जिन्होंने देश के इन क्षेत्रों में शांति स्थापित करने के लिए सर्वोच्च बलिदान दिया।",
+          "source_title": "PM’s speech during Rashtriya Ekta Diwas",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+          "published_at": "2026-10-31T17:23:05+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-11-02T18:21:23.562378+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-31T17:23:05+00:00",
+      "last_seen": "2026-10-31T17:23:05+00:00",
+      "latest_checked_at": "2026-11-02T18:21:23.562388+00:00",
+      "latest_claim_packet_id": "7fe771d9ba12d4da0d"
+    },
+    {
+      "id": "f5fb4856419ed41a5d",
+      "canonical_claim": "यानी पहले जहाँ 100 में से 27 लोग, एक चौथाई से भी ज्यादा, 100 में से 27 लोग भीषण गरीबी की चपेट में थे, आज ये संख्या कम होते होते 100 में सिर्फ 3 से भी कम रह गई है।",
+      "occurrences": [
+        {
+          "id": "b0eb129e14cdffd8b4",
+          "text": "यानी पहले जहाँ 100 में से 27 लोग, एक चौथाई से भी ज्यादा, 100 में से 27 लोग भीषण गरीबी की चपेट में थे, आज ये संख्या कम होते होते 100 में सिर्फ 3 से भी कम रह गई है।",
+          "source_title": "PM’s speech during Rashtriya Ekta Diwas",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+          "published_at": "2026-10-31T17:23:05+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-11-02T18:21:28.649270+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-31T17:23:05+00:00",
+      "last_seen": "2026-10-31T17:23:05+00:00",
+      "latest_checked_at": "2026-11-02T18:21:28.649284+00:00",
+      "latest_claim_packet_id": "89c4773d1e13db46ab"
+    },
+    {
+      "id": "d139517fa1cc44af5e",
+      "canonical_claim": "ये रिपोर्ट बताती है कि 2024 से पहले के 10-12 वर्षों में, 50 करोड़ भारतीयों ने गरीबी को परास्त किया है।",
+      "occurrences": [
+        {
+          "id": "efa4fb0cec36510aae",
+          "text": "ये रिपोर्ट बताती है कि 2024 से पहले के 10-12 वर्षों में, 50 करोड़ भारतीयों ने गरीबी को परास्त किया है।",
+          "source_title": "PM’s speech during Rashtriya Ekta Diwas",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+          "published_at": "2026-10-31T17:23:05+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-11-02T18:21:28.646597+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-31T17:23:05+00:00",
+      "last_seen": "2026-10-31T17:23:05+00:00",
+      "latest_checked_at": "2026-11-02T18:21:28.646615+00:00",
+      "latest_claim_packet_id": "eb13fb7efb48fddad0"
+    },
+    {
+      "id": "0a85e7dee18f9a054c",
+      "canonical_claim": "ये सब इसलिए हुआ, क्योंकि पिछले 12 वर्षों से देश, गरीब कल्याण, गरीबों को सशक्त करने को प्राथमिकता दे रहा है।",
+      "occurrences": [
+        {
+          "id": "d4374c83e8a370fddf",
+          "text": "ये सब इसलिए हुआ, क्योंकि पिछले 12 वर्षों से देश, गरीब कल्याण, गरीबों को सशक्त करने को प्राथमिकता दे रहा है।",
+          "source_title": "PM’s speech during Rashtriya Ekta Diwas",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+          "published_at": "2026-10-31T17:23:05+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-11-02T18:21:28.684215+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-31T17:23:05+00:00",
+      "last_seen": "2026-10-31T17:23:05+00:00",
+      "latest_checked_at": "2026-11-02T18:21:28.684261+00:00",
+      "latest_claim_packet_id": "cb68ef1884550190ef"
+    },
+    {
+      "id": "cc61fee2a55df41162",
+      "canonical_claim": "साथियों, आज भारत पहले से अधिक सुरक्षित है, आज भारत अधिक संकल्पित है, और इसका एक बड़ा कारण, देशवासियों का बढ़ा हुआ आत्मविश्वास है।",
+      "occurrences": [
+        {
+          "id": "0ba403c3371d66c2d9",
+          "text": "साथियों, आज भारत पहले से अधिक सुरक्षित है, आज भारत अधिक संकल्पित है, और इसका एक बड़ा कारण, देशवासियों का बढ़ा हुआ आत्मविश्वास है।",
+          "source_title": "PM’s speech during Rashtriya Ekta Diwas",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+          "published_at": "2026-10-31T17:23:05+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-11-02T18:21:28.644074+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-31T17:23:05+00:00",
+      "last_seen": "2026-10-31T17:23:05+00:00",
+      "latest_checked_at": "2026-11-02T18:21:28.644120+00:00",
+      "latest_claim_packet_id": "a82d9c1ffd8f022558"
+    },
+    {
+      "id": "1b1ecbf1bc28fed955",
+      "canonical_claim": "साथियों, इस वर्ष उस महान कार्य को भी 75 वर्ष पूरे हुए हैं।",
+      "occurrences": [
+        {
+          "id": "cbbaa13d94cae85b87",
+          "text": "साथियों, इस वर्ष उस महान कार्य को भी 75 वर्ष पूरे हुए हैं।",
+          "source_title": "PM’s speech during Rashtriya Ekta Diwas",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+          "published_at": "2026-10-31T17:23:05+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-11-02T18:21:23.552729+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-31T17:23:05+00:00",
+      "last_seen": "2026-10-31T17:23:05+00:00",
+      "latest_checked_at": "2026-11-02T18:21:23.552745+00:00",
+      "latest_claim_packet_id": "642341b132db9d17ef"
+    },
+    {
+      "id": "6c29d7a1809de056e8",
+      "canonical_claim": "साथियों, सरदार पटेल के 150वें जन्मदिवस पर, मैंने यहीं उनके चरणों में खड़े होकर कहा था, “जब तक, जब तक देश नक्सलवाद, माओवादी आतंक से पूरी तरह मुक्त नहीं हो जाता, हम चैन से बैठने वाले नहीं हैं”।",
+      "occurrences": [
+        {
+          "id": "b69314fc6f1ebec6f1",
+          "text": "साथियों, सरदार पटेल के 150वें जन्मदिवस पर, मैंने यहीं उनके चरणों में खड़े होकर कहा था, “जब तक, जब तक देश नक्सलवाद, माओवादी आतंक से पूरी तरह मुक्त नहीं हो जाता, हम चैन से बैठने वाले नहीं हैं”।",
+          "source_title": "PM’s speech during Rashtriya Ekta Diwas",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+          "published_at": "2026-10-31T17:23:05+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-11-02T18:21:23.555962+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-31T17:23:05+00:00",
+      "last_seen": "2026-10-31T17:23:05+00:00",
+      "latest_checked_at": "2026-11-02T18:21:23.555977+00:00",
+      "latest_claim_packet_id": "02039f1ebb6ecc1447"
     }
   ],
   "promise_packets": [
@@ -3994,7 +3863,7 @@
     },
     {
       "id": "a081073775e081af29",
-      "checked_at": "2026-10-19T22:40:42.771656+00:00",
+      "checked_at": "2026-11-02T18:22:10.192912+00:00",
       "promise_id": "BJP-2024-8dd2c05b5494b80def",
       "year": 2024,
       "category": "other",
@@ -5921,7 +5790,7 @@
     },
     {
       "id": "d0ebd64b8ab8e5cf50",
-      "checked_at": "2026-10-30T06:31:29.594438+00:00",
+      "checked_at": "2026-11-02T18:21:53.216446+00:00",
       "promise_id": "BJP-2024-7c63027b02dd8cb4d2",
       "year": 2024,
       "category": "women_social_justice",
@@ -5946,59 +5815,37 @@
       "query": "ensuring women health cancer well-being expand",
       "evidence": [
         {
-          "id": "09c2cab59e1e3014dc",
+          "id": "871e87db1eb4eb985c",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Nature",
-          "source_url": "https://www.nature.com",
-          "title": "Advances in biomonitoring technologies for women’s health - Nature",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBFSEJZU1QwM2tPNjh4ci04V29iMTNib2tnSEFkRndBREl0R1pzek8zMGZVUW9uaXpJeGExRkU2Um1HUWpKT3VBc3ZyWjI4YlFfUDVhdDJNcDk0MTEtblRF?oc=5",
-          "published_at": "2025-09-26T07:00:00+00:00",
-          "snippet": "Advances in biomonitoring technologies for women’s health Nature",
-          "lexical_overlap": 0.125,
-          "relevance": 0.195,
+          "source": "Herald.co.zw",
+          "source_url": "https://www.heraldonline.co.zw",
+          "title": "Govt expands cancer treatment for rural women - Herald.co.zw",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPeklac3k5QzJpMm5mbW5wLTh0LVlzY0dybzdEZ1BTcUlmdVZJYlRRVVlCMzRCdlpoREhpZmRtb1lLdlFmVGlyc3daZENqOF9faW9JbzhCWUZNcWFMS1FibDNxZjdsY3ZSdDVoTHhjQlFzd19GUmEyRkkxeE1TSXZSdkM0VQ?oc=5",
+          "published_at": "2026-07-27T07:00:00+00:00",
+          "snippet": "Govt expands cancer treatment for rural women Herald.co.zw",
+          "lexical_overlap": 0.105,
+          "relevance": 0.175,
           "matched_terms": [
-            "health",
+            "cancer",
             "women"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "health",
+            "cancer",
             "women"
           ]
         },
         {
-          "id": "04c759da4dea10a47c",
+          "id": "cb6106162e849a48b4",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "United Nations Development Programme",
-          "source_url": "https://www.undp.org",
-          "title": "Goal 3: Good health and well-being - United Nations Development Programme",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1vTWg4TzFYRE4xV0x5c2Rmbm42ZDkwaDN6elJwVHlHLUlYc2sxZXRHWTVKS1FWcnIwa3JoN05aQzVsT2ViRklseVhPWFdnbVd1amtUaTdfT1VMWGVhbWdtYXhOcUVVNDk2c28weXBfZw?oc=5",
-          "published_at": "2023-02-16T15:22:18+00:00",
-          "snippet": "Goal 3: Good health and well-being United Nations Development Programme",
-          "lexical_overlap": 0.111,
-          "relevance": 0.181,
-          "matched_terms": [
-            "health",
-            "well-being"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "health",
-            "well-being"
-          ]
-        },
-        {
-          "id": "26c3d1e23e08ad9edb",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "McKinsey & Company",
-          "source_url": "https://www.mckinsey.com",
-          "title": "Closing the women’s health gap: A $1 trillion opportunity to improve lives and economies - McKinsey & Company",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQR1dGX3NaMjBtV0w0eUZndWR5WjdQN0NKRTV0cmh4eF84QllHbXpVVjREZWQ1ZjVuWldMWTVubWhHdFUtV2NOSEJnTUJ5MW5URmh4eWd6cmRDdTBuUnJXWEVRTG5Qb1ZlYmsyWWJQNlpsbHRRRmJ1NTBpQk9Lc3FMcTBiYS05S1RvbElaUVZIM1EzOW9LaHg3Mk1POGN5LTJ1dW5WZkJnTENaaXY1UWtxZ0JOYVNRSDB3MGZ5Ry1Wb1JIblNzYW5ldFB0alU2eU0?oc=5",
-          "published_at": "2024-01-17T08:00:00+00:00",
-          "snippet": "Closing the women’s health gap: A $1 trillion opportunity to improve lives and economies McKinsey & Company",
+          "source": "South Dakota State News (.gov)",
+          "source_url": "https://news.sd.gov",
+          "title": "South Dakota Department of Health Expands All Women Count! Eligibility - South Dakota State News (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeEdHcWl0R0RXUUczZ0ZQcTh3eTZ0TUN1VzEyTllwSGtqV3pNUG9nSllHaWtDbnVkcWs3UGFZbW41SWlmOHZCLWc5bWxlOUZnVVZpUlR3QkVIUEJuOUNxWXJIV0VFS0Y4aW5kaGpyZHRnYzNxOGI3c3NxZXZVOGl4QWtYRFFTb20tVmZJMFZHbTREdw?oc=5",
+          "published_at": "2026-08-24T07:00:00+00:00",
+          "snippet": "South Dakota Department of Health Expands All Women Count! Eligibility South Dakota State News (.gov)",
           "lexical_overlap": 0.095,
           "relevance": 0.165,
           "matched_terms": [
@@ -6009,6 +5856,29 @@
           "promise_core_overlap": [
             "health",
             "women"
+          ]
+        },
+        {
+          "id": "c1c7e678e68034ef50",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "National Health Executive",
+          "source_url": "https://www.nationalhealthexecutive.com",
+          "title": "Breast unit expands life-changing nipple tattoo service for breast cancer survivors - National Health Executive",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNFpsc2NicW4zV29zWDVPSlNJM2FjalRnOGE0MExMdTRLbGpJeUZLQUhQbWJhaU0yaE5BOHRtRWxCVkYyVkJyMUdVV21DNWY2WlAxSUt1ZkdTdlJDbFlQYXZaWFVrZDNJMXMwLWl1Y2NrRklERUI5cmpjRGJMR3J2Wk9hemxuZU1DT1ZBSVBjUzFLc1hQWnB5QXJpQlpJN05ETWtfU2FNSDVGUXJ6UFkxU3d4VWpDMmdYNVNTWlZjZllTWmk1VE1z?oc=5",
+          "published_at": "2026-08-21T07:00:00+00:00",
+          "snippet": "Breast unit expands life-changing nipple tattoo service for breast cancer survivors National Health Executive",
+          "lexical_overlap": 0.091,
+          "relevance": 0.161,
+          "matched_terms": [
+            "cancer",
+            "health"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "breast",
+            "cancer",
+            "health"
           ]
         },
         {
@@ -6049,7 +5919,7 @@
     },
     {
       "id": "ac5694412bdf8783dd",
-      "checked_at": "2026-10-30T06:31:30.813022+00:00",
+      "checked_at": "2026-11-02T18:21:54.761862+00:00",
       "promise_id": "BJP-2024-7dfa4ed5a91137a633",
       "year": 2024,
       "category": "education_skills",
@@ -6073,28 +5943,6 @@
       "related_promises": [],
       "query": "women shgs service integrating sector empower",
       "evidence": [
-        {
-          "id": "40c6dbd0faa7dda0b6",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "India Budget",
-          "source_url": "https://www.indiabudget.gov.in",
-          "title": "SOCIAL SECTOR: BENEFITS THAT EMPOWER - India Budget",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPLWxCcWVwdTBXQ29kdzVMOEpoaTFDZzE2eVpHc3gxNlM4VlBqMGlCNkJhY3hqb0lVSmU2Q3Fma3pTMGtOdUZQbk1xNGlaaGxCNGE5R2JPTlNPa25IUTdlY2l3LXNlVWUxY291Tmp2akd0WEZaNkxYamx3Tmpwd0ptb0xHZDNfcVlUMlNVNnhn?oc=5",
-          "published_at": "2025-01-22T20:38:23+00:00",
-          "snippet": "SOCIAL SECTOR: BENEFITS THAT EMPOWER India Budget",
-          "lexical_overlap": 0.133,
-          "relevance": 0.253,
-          "matched_terms": [
-            "empower",
-            "sector"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "empower",
-            "sector"
-          ]
-        },
         {
           "id": "728b79ce2725c9b886",
           "scope": "news_search",
@@ -6120,7 +5968,7 @@
           ]
         }
       ],
-      "implementation_signal": "current_primary_and_reporting_found",
+      "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -6135,7 +5983,7 @@
     },
     {
       "id": "7fb65aac5663af5d29",
-      "checked_at": "2026-10-28T13:36:11.651780+00:00",
+      "checked_at": "2026-11-02T18:22:00.233607+00:00",
       "promise_id": "BJP-2024-816757f4ddc401b9e4",
       "year": 2024,
       "category": "women_social_justice",
@@ -6160,25 +6008,46 @@
       "query": "systematically implement representation women parliament state",
       "evidence": [
         {
-          "id": "86150cb5a6a8087b5a",
+          "id": "dc56f8c32bef2dde24",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Down To Earth",
-          "source_url": "https://www.downtoearth.org.in",
-          "title": "By failing to secure meaningful proportional representation for women in the 21st century, Parliament has failed a historic test of justice - Down To Earth",
-          "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPdHB5eXcwTDBNQzdpQnRlR0JEaE9XZWtCblNHTWhzREZnQW1iS3JZN1lzZks3Q0lrdW9zQ1JyYzI2aXVLa3VTcGN0NUkxVFBxYU12ZndPR2JvbWF4d1NTWVBrTmR4LWVaUFhlNjdkUzVJTUtaZTJmQXR3SG1rb2o4REU4T0ttRFI1MGVTMXJOSkRuYmlhU0p1NjJoa3EtdHo2R0tEUHFHRGFTdk0zXzNIbEVaZFVzSC1ic0E0YWNKYllWMmZzMTBhY200a1I5VzZBR19fRVpSWVlQNnJDdEF0SzVKcHVYbHZ2THFfeEk4TzhrUHd6eW16WXFqenBuMzNVUEQzNGZsanVWQzZGWFHSAZsCQVVfeXFMUHlZaFZZa1g2dEFOWjFVRHlldzczdS15Q1FSbFo1MTZWUXdLT2JibXFfc0E4dVc0ZGhGb2JHXzRXYUhERTNNMk9KQ3M5WjF6M0RNdGFzaTJIaDFWYTZjTmNmVENHdHdFU0JfMWhZREwwZ0pfUnZJYjlOTFRsRllUVEg3azhIME00c2xuZGNxVG41X2owY2dkajBFQ2FGU3pYTkRfdmpzaWw1d25VTlVYOWxBZi1aUDJSNXhVajZ5R2pIZF9WbXlDV2gtVE0wX19WSXVEVzR0YnptZDgtTDFOWXhwbVdzanZjbnhHUTdjMVdiXzhOLXJ0Nk1WNnBsNzNRVTk0S1RiZ2hudW5lWjlYcXBkemI3aDhpd1g3dw?oc=5",
-          "published_at": "2026-05-29T07:00:00+00:00",
-          "snippet": "By failing to secure meaningful proportional representation for women in the 21st century, Parliament has failed a historic test of justice Down To Earth",
-          "lexical_overlap": 0.143,
-          "relevance": 0.248,
+          "source": "The Times of India",
+          "source_url": "https://timesofindia.indiatimes.com",
+          "title": "Women activists: Govt must implement 33% women’s quota at current strength of Parliament - The Times of India",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPT09XOTBzS1lzZkR5blRwSXROMlpjRGpOaGY2ZFdMdjJKak0tNk81YXNrc2FKRnpLZlJuN1lxQUczczFvejJDSmt6ZEQ4ZUQxMVFNZEh3ckx4NnUteWtlM3lISnFGenlGd05TZjR5ak5JMnlYNmNmVFUzcmh6aFZ4VmtlSDdqM2lPTk5ZNFFRdkZHZ2h3aFY4ZGVYV2NfaHBYRjVVNmhPQUpJeHFiWjl2Y3ZCaDY4cXlXbDlNM3E2cmx0YmtwU0VkUUFYaHBVaTV0VFVncVAzb3h5VEstUWRCeGlqdUpybDVr0gHuAUFVX3lxTE9NQllNOEdsRTdRbXpnTTREVFZXUlJacUlYUUVnNFdpeXV5VUhERnd4bV9iZ3BEY0dBcUl1RUhnc2dEY0VSbHFjQ05PWm1kckptZ0VqN3o5VnZGdi1Senh4bmlERWtjaGZOeW5HU0s1dzVzdF9EbTViQ2FURjBmQ1djblE3ODN3ODJUSGxtcjcteGl0eWFEdWhDZEtoTTl1dXZ1YTVvZG9VbF9oWDJzWWwtUTdRY0xBVHVxZUNLZEhjN0Z2blJ4WTM1b01IMGI2SDhtTnRrNjk2VGNUb1Z4VXBDS0xlbFNlQUV2T05TM0E?oc=5",
+          "published_at": "2026-07-11T07:00:00+00:00",
+          "snippet": "Women activists: Govt must implement 33% women’s quota at current strength of Parliament The Times of India",
+          "lexical_overlap": 0.2,
+          "relevance": 0.305,
           "matched_terms": [
+            "implement",
             "parliament",
-            "representation",
             "women"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
             "parliament",
+            "women"
+          ]
+        },
+        {
+          "id": "6d9a0390170391cd19",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Assam Tribune",
+          "source_url": "https://assamtribune.com",
+          "title": "The Missing Conversation: Women’s Political Representation in the Sixth Schedule Areas of Northeast India - The Assam Tribune",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOYVZWMGppNk5CUG8yWmZ0dGZfbHlCcnpQcDlxNzNsNnlBTVZCdldhencyVEVuRnVnWVhIdS1OUktseHhCbWJvTllBeUszeVpQRWZOM29nM0lmQjVHZVNzNGFQVFE0RzJwTnA0LS1uOWJDMkJKNnZHN0NpaklKQ0dYWWlnanJJbUVLdk1CVmJMbEdZUnMtenl5NmlvUjF2aENaTTlMZkNnR0lJR2ZjbjBqOGg3ay1iTmpaRk9QNkhBYXEzQUFfanQxMVhDN2Q5d0dBWTltVldoT055Vmkw0gHiAUFVX3lxTE1wbmJNY3JHUUhlYzBtaXRBYS1hWWhMbWtIZDcyUWE3bGFFT1JjZWFfc0xyTGIyUE1oQXJWUG13OUs4c3FZT05DdHAtSnRqVjlCUUlUSTFaRFhFUVFrZVFtcW1jX2VFa0M3SGJhNWVYWTFlNTFtWEYyRmljRDAtQ09jTTFiQUE3b2Y5d3lmZW5jdmdKVmZLVnY1T2NKbXBfYWJ6RFJUYVdFend4eEhFMkh4dThiVU5VbndMZVlQQVF6bWhtX1AwOWJxbm9LWlZPRnZOMFFpVi1fS2IzbEowSnZXenc?oc=5",
+          "published_at": "2026-06-22T07:00:00+00:00",
+          "snippet": "The Missing Conversation: Women’s Political Representation in the Sixth Schedule Areas of Northeast India The Assam Tribune",
+          "lexical_overlap": 0.118,
+          "relevance": 0.188,
+          "matched_terms": [
+            "representation",
+            "women"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
             "representation",
             "women"
           ]
@@ -7011,7 +6880,7 @@
     },
     {
       "id": "c1302da14dfb046999",
-      "checked_at": "2026-10-28T13:36:18.848637+00:00",
+      "checked_at": "2026-11-02T18:22:06.662353+00:00",
       "promise_id": "BJP-2024-855c000d7e8435a61e",
       "year": 2024,
       "category": "other",
@@ -7036,24 +6905,24 @@
       "query": "strictly implement law strict punishment playing",
       "evidence": [
         {
-          "id": "6c5943cabe5ec87d91",
+          "id": "9323e0dc93ed5f4a7b",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "BBC",
-          "source_url": "https://www.bbc.com",
-          "title": "Indonesia's Aceh introduces strict anti-gay law - BBC",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB1NWg1UE1IUHdJa2dGTzJBQmtFRFJYTThpNGF1OHVwcG1wWDg0dDZJNDRWVHppaDBvQVkySmRYMHpheGFQRXNrZHRKc0szRTZpTXF4bFRiYw?oc=5",
-          "published_at": "2015-10-23T07:00:00+00:00",
-          "snippet": "Indonesia's Aceh introduces strict anti-gay law BBC",
-          "lexical_overlap": 0.143,
-          "relevance": 0.213,
+          "source": "Lieber Institute West Point",
+          "source_url": "https://lieber.westpoint.edu",
+          "title": "Retaliation, Retribution, and Punishment and International Law - Lieber Institute West Point",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNdTBrbTB0bTF4eWpEcnNNR21YRmJsVDItaFgyNzJZeEk5cWFnUjBBbDZ5dWtwbmg2dUFOaGdPQW84RkRUT1hFZS0xOW9tWFVrMHViUjg5M2IzMzlnYUhRTGZNOGhJX0gtbDhYSnlKWi1CdlpUMUZkb3BiMXphTEFoQTYteUR5WUFEQUE?oc=5",
+          "published_at": "2024-04-18T07:00:00+00:00",
+          "snippet": "Retaliation, Retribution, and Punishment and International Law Lieber Institute West Point",
+          "lexical_overlap": 0.125,
+          "relevance": 0.195,
           "matched_terms": [
             "law",
-            "strict"
+            "punishment"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "strict"
+            "punishment"
           ]
         }
       ],
@@ -7072,7 +6941,7 @@
     },
     {
       "id": "192ae3435e0fdc05ae",
-      "checked_at": "2026-10-28T13:36:23.268468+00:00",
+      "checked_at": "2026-11-02T18:22:09.243303+00:00",
       "promise_id": "BJP-2024-8b1ebf7f912d9f693a",
       "year": 2024,
       "category": "other",
@@ -7097,17 +6966,81 @@
       "query": "global centres establishing high-value services further",
       "evidence": [
         {
-          "id": "1409eb3606cb0a00e2",
+          "id": "4b744c2d991638028c",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "www.pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Budget 2026–27 Sets the Stage for India as a Global Hub for Cloud and AI Infrastructure - www.pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9aZmxZRXYxWDMzWGpWdWxhNFl1ajVCdUZIbjFTWXBxQzY3aDhTM2dlaDc2b1I5MnNiTWxtNXBPMEpNMG1HRHZvam9OcVdiOUFDMnBBRnVQX3pKMzJlRG9RV3RZNEJVaVlHUUJCejZndDd6VHM0bW1jcmFB?oc=5",
+          "published_at": "2026-02-14T08:00:00+00:00",
+          "snippet": "Budget 2026–27 Sets the Stage for India as a Global Hub for Cloud and AI Infrastructure www.pib.gov.in",
+          "lexical_overlap": 0.095,
+          "relevance": 0.215,
+          "matched_terms": [
+            "global",
+            "hub"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "global"
+          ]
+        },
+        {
+          "id": "f7a3d1190e0e1acb48",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Union Minister Ashwini Vaishnaw Highlights Google AI Hub as a Game-Changer for India’s Digital Economy, Driving AI-First Infrastructure, Clean Energy, and High-Value Job Creation - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1VYUpNWW96RHU4dlllT0dyN3ZIbDlMbk9FeFVTb2pWSGxmb2VIRVJWNWhQMkZHZ2pNbVFZU0Q5emtSOE9iRE9XOEFYbEhaRDVvVFNZQVpoTWFjbGNDSEtTTk5KUEV6Y0JP?oc=5",
+          "published_at": "2025-10-14T07:00:00+00:00",
+          "snippet": "Union Minister Ashwini Vaishnaw Highlights Google AI Hub as a Game-Changer for India’s Digital Economy, Driving AI-First Infrastructure, Clean Energy, and High-Value Job Creation PIB",
+          "lexical_overlap": 0.077,
+          "relevance": 0.197,
+          "matched_terms": [
+            "high-value",
+            "hub"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "high-value"
+          ]
+        },
+        {
+          "id": "9117a171daa3895dbc",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Organiser",
-          "source_url": "https://organiser.org",
-          "title": "UP signs 15 MoUs at GCC summit, targets global firms with investment push, skill development & high-value jobs - Organiser",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPVjV6YXlDY1ViZnNweEExV044V25YNzJoUnRhTUlBS3Jfak1ibVppdlVsVVpyWUxiUnRSWTFPTU5kaFpYeGlMN2N2R2V2SGhrSC1GMzZjU1R4dWFKV3g5MkEtU0R3Zlh0U1pBZzRTeDdENnVwc0dmLUpra0E5YmlibE5Gc1piOWlueU9VOTJqWFVRaU0tbW5BNTJYX1R2eGdLdzZ0NUpMVGwzMTVZMHBvTV8tNXRiRlBER0FDTkQycDlUQXFHeWVNOVdKYzRIVmxQY25UaTVianZxZDlJS1l1WlJ3eXBWempqTGfSAe8BQVVfeXFMUGM2TElYTTY4SkhBYkEwUWh4SGNLZnNkdGRTYXNnLTZuYWpWYzhNSXNsT0dkS2N6bzFvRTlNT3ZTTVhRUDZMWDl4dFlPeldPXzVVMG1QMUs2TlZCVFhDaTFrME1zWHJ3QzVXTjRUZThBMlhTb3ZRVEVJUVU3WFVUYjhjYXVyOVJjT21OZGc1TW1zXzNQS1BSeWxUd0RjcGRfSnNaMTFqaHlWa3R6ZGZXd2R4NVZYUm8xcXRLT0didlNSUnVYd1poVzdhTmhqN1F5bXRZMzYyOEwzdzZZY1phdV84VnZhS2t0c2dCZUo4WTg?oc=5",
-          "published_at": "2026-10-27T14:50:57+00:00",
-          "snippet": "UP signs 15 MoUs at GCC summit, targets global firms with investment push, skill development & high-value jobs Organiser",
-          "lexical_overlap": 0.08,
-          "relevance": 0.15,
+          "source": "orfonline.org",
+          "source_url": "https://www.orfonline.org",
+          "title": "Capability in the Age of AI: India’s GCCs and the Future of White-Collar Work - orfonline.org",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPS290dGtERU1HdVIyTDZJYTdXZE0zdDJEQlFVM08tOEU5TEJ2T2dSc08wWmw4VU1TOXJ4NE9neWE4SGU1ZkFoaGRLNWl6dG5aaVNUdzc3VGdvMXVmcWhZSEhteE52UzZfVUo1c1NJYTYwV1BPQjlJcE5uNWo1VzcxN1RNTDFDU0Q0WWJrOE1CalRJS29FUW9PRlpTR3ozNXotSlJHWmRqNy14MzBBemZFMA?oc=5",
+          "published_at": "2026-06-16T07:00:00+00:00",
+          "snippet": "Capability in the Age of AI: India’s GCCs and the Future of White-Collar Work orfonline.org",
+          "lexical_overlap": 0.105,
+          "relevance": 0.175,
+          "matched_terms": [
+            "capability",
+            "gccs"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "capability",
+            "gccs"
+          ]
+        },
+        {
+          "id": "c700f15af86aaa8a5d",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Tech Observer Magazine",
+          "source_url": "https://techobserver.in",
+          "title": "India’s GCC boom shifts from scale to policy-led race for high-value global work - Tech Observer Magazine",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbmYweUF0QWMzOEJ4cVZPbUJoMHhuY0dscnkwZ1RLcXl2NTBlQnJEOTZmX0FfdF83eW5FWlQzOHBMM1VNaGhaM0hoeUh0SUt4R2ljR19Tc2FibHYzSlFCODJ1OTN2V1VySXhaeDhQY0d3bjg5NElDUUJ4WkxUUEhVcWNYa1NTanNQZXVJMDJYeTVzYkR6QzNyUFduUm83ZHQ4dDNrS016RlBsenRiMHJTSzFSRU9NLWx1ZlZoclpTdEQ0VmPSAcgBQVVfeXFMTlNmTDZIWTlRcXJKQkV4cU1NVmFyTFphTFZBRVVxNDZuWExRSEsxZ2RmWDR1M3JTNnFsclNUSHNaVDc1WVVLU2pULWFnZVlJVXJFaENrbGlzcmRYaXJTZXpiQmgyZF9tWEdCWVRXMlMySEhDZUlkNEcwVzBIWElYeUpjbTYzZ0M2b3VxQy1ZWExiOVg1S0h4VkVaNE9wdWwwU2Vab2U1a0JaN19uVzhNcWdsa2JSOFFScHJUaVF4anlGeWtuMzRaZlg?oc=5",
+          "published_at": "2026-08-15T07:00:00+00:00",
+          "snippet": "India’s GCC boom shifts from scale to policy-led race for high-value global work Tech Observer Magazine",
+          "lexical_overlap": 0.091,
+          "relevance": 0.161,
           "matched_terms": [
             "global",
             "high-value"
@@ -7115,7 +7048,30 @@
           "shared_numbers": [],
           "promise_core_overlap": [
             "global",
-            "high-value"
+            "high-value",
+            "tech"
+          ]
+        },
+        {
+          "id": "2d53b18c106c9b3d9e",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Instagram",
+          "source_url": "https://www.instagram.com",
+          "title": "The Tamil Nadu Government signed an MoU with US-based Walgreens India Private Limited to establish its first Global Capability Centre at DLF Downtown, Taramani, along Chennai’s newly announced OMR GCC corridor. The agreement was signed in the p - Instagram",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4xZG9wNHUzWFBOMkJQTGI2OFhSczgtU2o5WlhjRkRSSWRyQXh5ejdCb2RicTJOOFRrbTdxak1ZN2tjWms1SFlDQ1RaNkhhYV9iblE?oc=5",
+          "published_at": "2026-09-18T07:00:00+00:00",
+          "snippet": "The Tamil Nadu Government signed an MoU with US-based Walgreens India Private Limited to establish its first Global Capability Centre at DLF Downtown, Taramani, along Chennai’s newly announced OMR GCC corridor. The agreement was signed in the p Instagram",
+          "lexical_overlap": 0.077,
+          "relevance": 0.147,
+          "matched_terms": [
+            "capability",
+            "global"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "capability",
+            "global"
           ]
         }
       ],
@@ -9926,7 +9882,7 @@
     },
     {
       "id": "7c9b9b801e5a60b910",
-      "checked_at": "2026-10-28T13:36:13.881401+00:00",
+      "checked_at": "2026-11-02T18:22:02.340036+00:00",
       "promise_id": "BJP-2024-823f080bf9f3323958",
       "year": 2024,
       "category": "agriculture",
@@ -9949,53 +9905,8 @@
       "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
       "related_promises": [],
       "query": "further launch technology-enabled irrigation initiatives implement",
-      "evidence": [
-        {
-          "id": "581c4163459da648c1",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "www.pib.gov.in",
-          "source_url": "https://www.pib.gov.in",
-          "title": "NEW IRRIGATION TECHNOLOGY - www.pib.gov.in",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9zYmRwUmpjd01ERlpiYVFpVE5MdXdWSGwyQ0V3b1FnN1Rnd2wxMWNtQU5QRkNuZWtBcm5BRnJKYVVRUVhyRkYyTzNnRGlTWnNOMEo3SmxOYkVyM2ZVTzVGMkdqbFVNRFhiNjc1ekJ3?oc=5",
-          "published_at": "2022-02-10T08:00:00+00:00",
-          "snippet": "NEW IRRIGATION TECHNOLOGY www.pib.gov.in",
-          "lexical_overlap": 0.143,
-          "relevance": 0.263,
-          "matched_terms": [
-            "irrigation",
-            "technology"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "irrigation",
-            "technology"
-          ]
-        },
-        {
-          "id": "5d2f4239533c8f8269",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "WATER MANAGEMENT AND CONSERVATION - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBwekRpU3pmdks3bUJmNG9EaE9wVXVSdWt4MDlidTA5cmhubl84bkpPcEFCOHgxX19oTHlDSEdoOVZrc3dLYjRzR1lnSnhMNHZmdjdPMWtydEs4ZGhaUDVuRW9HVHJHenprRDJNUy1UdGxBMEFHcGgxY0VCSQ?oc=5",
-          "published_at": "2026-08-03T07:00:00+00:00",
-          "snippet": "WATER MANAGEMENT AND CONSERVATION Press Information Bureau",
-          "lexical_overlap": 0.133,
-          "relevance": 0.253,
-          "matched_terms": [
-            "management",
-            "water"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "management",
-            "water"
-          ]
-        }
-      ],
-      "implementation_signal": "current_primary_evidence_found",
+      "evidence": [],
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -13518,7 +13429,7 @@
     },
     {
       "id": "f259d055dcd6d51ee0",
-      "checked_at": "2026-10-28T13:36:12.505931+00:00",
+      "checked_at": "2026-11-02T18:22:00.899370+00:00",
       "promise_id": "BJP-2024-821affbe402fdc4f69",
       "year": 2024,
       "category": "jobs_economy",
@@ -13570,33 +13481,6 @@
           ]
         },
         {
-          "id": "2d19b35e0462235b8c",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Dak Ghar Niryat Kendra Expands Export Services with Automated IGST Refund and electronic payment reconciliation facility - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBkMGZwS2pOVFJVS0h4eEdWZjRRNDI3UnZzam44aW9vR3NUQ3ZzNFh0NTBEZ1hPbFh0Q0dWV0F4RDUzaVRQUVlNVmFfdTJuVlR1eHJ5MGhCbnVtOGFoN0lQa3dkSEMwY19f?oc=5",
-          "published_at": "2024-09-17T07:00:00+00:00",
-          "snippet": "Dak Ghar Niryat Kendra Expands Export Services with Automated IGST Refund and electronic payment reconciliation facility Press Information Bureau",
-          "lexical_overlap": 0.217,
-          "relevance": 0.442,
-          "matched_terms": [
-            "dak",
-            "export",
-            "facility",
-            "ghar",
-            "niryat"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "export",
-            "facility",
-            "ghar",
-            "niryat"
-          ]
-        },
-        {
           "id": "3886fd564be9fa132b",
           "scope": "preferred_official_search",
           "tier": "primary",
@@ -13622,15 +13506,15 @@
           ]
         },
         {
-          "id": "8361ef85592ef776fc",
+          "id": "ec37b3d0ce8b6423ac",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "Press Information Bureau",
+          "source": "www.pib.gov.in",
           "source_url": "https://www.pib.gov.in",
-          "title": "Postal Department organizes Workshop on E-commerce Exports and Dak Ghar Niryat Kendra - Press Information Bureau",
+          "title": "Postal Department organizes Workshop on E-commerce Exports and Dak Ghar Niryat Kendra - www.pib.gov.in",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5lZU92YWhZWnlsX09odEhUSDhoNzRvX2hfa0NkOEMtYnR1aDJKWURMQ2pmcFhwNHhpZUUwVTQxdks2UWVVWmhzSDlyYU5yVUJ6TVR4SUp4ZWF1MkxBSVk3TjJseE5zQ09Z?oc=5",
           "published_at": "2023-08-28T07:00:00+00:00",
-          "snippet": "Postal Department organizes Workshop on E-commerce Exports and Dak Ghar Niryat Kendra Press Information Bureau",
+          "snippet": "Postal Department organizes Workshop on E-commerce Exports and Dak Ghar Niryat Kendra www.pib.gov.in",
           "lexical_overlap": 0.136,
           "relevance": 0.291,
           "matched_terms": [
@@ -13643,36 +13527,9 @@
             "ghar",
             "niryat"
           ]
-        },
-        {
-          "id": "ba681855f9a8ca05c9",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Sarkaritel.com",
-          "source_url": "https://www.sarkaritel.com",
-          "title": "Dak Ghar Niryat Kendra Expands Export Services with Automated IGST Refund and electronic payment reconciliation facility - Sarkaritel.com",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPNkFLTU1yTTdwVE1RSndwREJLMFlKel9WZkVUUDV2REZ4Y0Ewb3hpbG9hR2RPdWZBZTI3WDFoZC05QXRha2ltdGp5UnZvREFHRFpjZTZlWFRvUzZUYzlkakNKV3AxMHVIYjJ6UUtZTVVkR1Nxc2FnOFJ4WlFuVU5Gc3NzcDJTZ0RWUEtKWnRfa0lpSU9VUW5WeHIxRzZjTmw5RWNIRFhVNmR4WkFraFJKS3RvRVI4RTlIZUktdnFDY0J0X2MwMWxsVklnUjhVeUk1MFZkaE1CLXU0RW1HSmJwN3d3?oc=5",
-          "published_at": "2024-09-18T07:00:00+00:00",
-          "snippet": "Dak Ghar Niryat Kendra Expands Export Services with Automated IGST Refund and electronic payment reconciliation facility Sarkaritel.com",
-          "lexical_overlap": 0.217,
-          "relevance": 0.392,
-          "matched_terms": [
-            "dak",
-            "export",
-            "facility",
-            "ghar",
-            "niryat"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "export",
-            "facility",
-            "ghar",
-            "niryat"
-          ]
         }
       ],
-      "implementation_signal": "current_primary_and_reporting_found",
+      "implementation_signal": "current_primary_evidence_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -13687,7 +13544,7 @@
     },
     {
       "id": "3971dfdeb96e58e6c3",
-      "checked_at": "2026-10-19T22:40:46.311222+00:00",
+      "checked_at": "2026-11-02T18:22:12.824218+00:00",
       "promise_id": "BJP-2024-947a51453d6ed35853",
       "year": 2024,
       "category": "jobs_economy",
@@ -13712,40 +13569,18 @@
       "query": "affordable insurance products launching launch small",
       "evidence": [
         {
-          "id": "8325df71bf4697457c",
+          "id": "4e9e0fd716a08086fc",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "JD Power",
-          "source_url": "https://www.jdpower.com",
-          "title": "2026 U.S. Small Commercial Insurance Study - JD Power",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYmF2TmxHbENqWkRpaFlya1luME1BNmZpNkY3dXl0MUJiR1p1UDJLYmd2XzdqMVlSQXVVLTNHWnN5MHRudXBMNWd0aG9TZk9LcXoyWTVzaDM5bEJmTXBNeEhITXdONG5SVmFGbTU4UFc4czM1cnRONkRmRDhTZTJTTGoyeFZYR0tOaW1IVTRsVGJJZ291?oc=5",
-          "published_at": "2026-08-18T07:00:00+00:00",
-          "snippet": "2026 U.S. Small Commercial Insurance Study JD Power",
+          "source": "CGIAR",
+          "source_url": "https://www.cgiar.org",
+          "title": "Affordable insurance for smallholder farmers and herders - CGIAR",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVjFOSUN3TFY1a2VZOGNTbWQ3Q1kwRElOT29HSDZ6RGM0UEVFWVhaV3Jzc0Ria29JNEI2dVFNalFVdHZTQ19XLXJDcHhxTGd3aTV4QmVfTk9hN2hWLXU1RFZFOGZlVHUwazdNVDk2LXFkVDI5SnVuQktRS0V6YTg1bTFqdG00ckVsMFBGemFEQnhIbUdP?oc=5",
+          "published_at": "2021-01-24T08:00:00+00:00",
+          "snippet": "Affordable insurance for smallholder farmers and herders CGIAR",
           "lexical_overlap": 0.125,
           "relevance": 0.195,
           "matched_terms": [
-            "insurance",
-            "small"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "insurance",
-            "small"
-          ]
-        },
-        {
-          "id": "2f302afcc14ff18609",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "TheWire.in",
-          "source_url": "https://m.thewire.in",
-          "title": "Marking its 20-year legacy, Star Health launches Value Plus affordable health insurance with nearly 20% lower premiums - TheWire.in",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPWThGcEsyZlVUQlpYUW1vNDNuVlBSSmtTNTBfVWVTbWxHQnAzbmF4MGhONkhzaXZTM25wZnQyaGE2OTZ5TE04TV95TnVweWFhVUlIUFFINEE4WDhaSEktQnJkQkJwX2FIYzBYeUwyUU13aHVoUVpfMHFteHdLRk4zUzdZdTFMSkVEX1JfSV9xdEU1Ymt6eEdVRWN5bjVJTmpOdWlCTzZtLTBKN19GcWN0VEpGRV9BbmQycXFyOTdHRmFVa3B4eVZDem51bmJRUkdoeG1BcC00TlNVclFDRHAzVjcyQkE1QndlcXFN0gHwAUFVX3lxTE51eElSaGw5ZlJ6WVh0VmJFSUpPUkhtOE85c1JEeUY3VGtnNFc4V1FBZm16SXZNOFZCbHZwZnhSbzFzNXFoTVl5Tmh6RWJWcU1yZ2ZkdFAxYTluTmFsMjF6VTA0YmZCa3pqUi04YzZNUFZiOUgya19JdG13Z1ozTjV4MmZrdWdjZUhsU1pMbTFYUl9GSU9rRFNLRW9JUnlzUFg0T2U3ZFR1VU9saFc4d2E4Y2liTm9QenVXWmVYSmV1cl9jUklOUGprdk5FUWpVaW8zcmtmMjFzdDdqOUVrdkJGNWEyRXN2MGk3TDNZRE50Uw?oc=5",
-          "published_at": "2026-05-21T07:00:00+00:00",
-          "snippet": "Marking its 20-year legacy, Star Health launches Value Plus affordable health insurance with nearly 20% lower premiums TheWire.in",
-          "lexical_overlap": 0.087,
-          "relevance": 0.157,
-          "matched_terms": [
             "affordable",
             "insurance"
           ],
@@ -13756,47 +13591,25 @@
           ]
         },
         {
-          "id": "fb6f99dceaa8212455",
+          "id": "897c613eb235f3beb0",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "PR Newswire",
-          "source_url": "https://www.prnewswire.com",
-          "title": "Bamboo Insurance Launches Texas Essential Homeowner Program, with Flexible, Affordable Coverage Options - PR Newswire",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPTGNnTnBDMUpzRGlYUzNrZ1QtMjg0V1FnVFItWnN1RFhoN0tzUmpyLWozNWR6c1dyWHNKeWFHR2o1eGlndnFDZEVQemhoaEJseHVvcUFEWGpTMXJoaDVlOE1ERG1oZExUX3JlSlU5eU8zcWE3SXI1R2c1NTdLZzc1OEpuMUU2eGhzYnc4OFE5Qy1hREdpcl92SzdWR3lGTFhpN1doX1hTamVIeHJxelM5Rm4tRXZIbDhLMFVBaTgyOWFTclRwZUpxS0g4ME85WG1Eemt3OGhGZW1OT2llMkR2XzBEbllIN1gtNDNQaHBR?oc=5",
-          "published_at": "2026-09-04T07:00:00+00:00",
-          "snippet": "Bamboo Insurance Launches Texas Essential Homeowner Program, with Flexible, Affordable Coverage Options PR Newswire",
-          "lexical_overlap": 0.087,
-          "relevance": 0.157,
-          "matched_terms": [
-            "affordable",
-            "insurance"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "affordable",
-            "insurance"
-          ]
-        },
-        {
-          "id": "19a0c54ca1e6eb8dd9",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Hartford Business Journal",
-          "source_url": "https://hartfordbusiness.com",
-          "title": "CT launches $5M tax credit to help small businesses offer health insurance - Hartford Business Journal",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdWNwTTlqemdIQTR6UzBFNER1M3FyYkNLMXZodkFHc1F4YTNXOXV0SV91N3c4ZnJmWjQ0Q0JIY181TnYyTXY5Z3V3Rk80U0JBOTdmak5CTjMtaXZjQjk0dHVQVEpoajF5YTB3S2ZIUWNCeDE3YVZ4cW9BeE9hN1h0Z0pZcXJ6czZZX2IyNHJyLWEtUkMzS1hTZXVwMTVOd0RoWTdheHR2U1YxbmFfT1hyVg?oc=5",
-          "published_at": "2026-09-14T07:00:00+00:00",
-          "snippet": "CT launches $5M tax credit to help small businesses offer health insurance Hartford Business Journal",
-          "lexical_overlap": 0.087,
-          "relevance": 0.157,
+          "source": "PBS",
+          "source_url": "https://www.pbs.org",
+          "title": "Health subsidies expire, launching millions of Americans into 2026 with steep insurance hikes - PBS",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYjNsRTJKTmRQVXhabmUxUHR1WWxsN2MzR2hiaFVDTzh3Z0ZzSWVHVTE5bFBWM2w5eVZ2dzNpOFQzQXZLWUowY3pVNjZzVGp5STJ1R1o5RVZnQjB5ZVpkYnk2aEV4alNTSDNyU2NpcVgyc3U3S1I0d2Z6SzNYcWNka05Zajlqd1A4eE1YTzZRZk5nWjhOanRFUGlPd0Y1dzRScmV0T1FtLUs0VkdxNFJFX2Z3cjhVbEhYZlE4OGh5SEV0clNGM2Rj?oc=5",
+          "published_at": "2026-01-01T08:00:00+00:00",
+          "snippet": "Health subsidies expire, launching millions of Americans into 2026 with steep insurance hikes PBS",
+          "lexical_overlap": 0.1,
+          "relevance": 0.17,
           "matched_terms": [
             "insurance",
-            "small"
+            "launching"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
             "insurance",
-            "small"
+            "launching"
           ]
         },
         {
@@ -19999,7 +19812,7 @@
     },
     {
       "id": "077d25bb9106334ec1",
-      "checked_at": "2026-10-19T22:40:51.549290+00:00",
+      "checked_at": "2026-11-02T18:22:16.896039+00:00",
       "promise_id": "BJP-2024-9b138b87234ed95d51",
       "year": 2024,
       "category": "jobs_economy",
@@ -20022,8 +19835,31 @@
       "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
       "related_promises": [],
       "query": "committed increase employment self-employment enhancement livelihood",
-      "evidence": [],
-      "implementation_signal": "needs_research",
+      "evidence": [
+        {
+          "id": "d968307c94791a5d52",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "DOLE",
+          "source_url": "https://dole.gov.ph",
+          "title": "Over 445K Filipinos gain livelihood, emergency employment thru DOLE in Q3 2025 - DOLE",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPckZKb05nUXgyVFRwLXN3d2YtZ2Z0VWhGY29xU29Eb3BvTUc2SnJ5UTJSUG4zSElEN1h0Q0o3ZXF0V0lMOXA1YWlYbjU0cDdwbjJ0WldZeU1QOWwtdHlyYWliQ0xSNFJ2WkVjTmZHNEFvYW9GaHZEb1IyMFZCYTVoTk5yV0p4bWlLUWFESkZULXlsZVV1dm1WZEl3LUtXWkdQTXVuYzBR?oc=5",
+          "published_at": "2025-11-10T08:00:00+00:00",
+          "snippet": "Over 445K Filipinos gain livelihood, emergency employment thru DOLE in Q3 2025 DOLE",
+          "lexical_overlap": 0.143,
+          "relevance": 0.213,
+          "matched_terms": [
+            "employment",
+            "livelihood"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "employment",
+            "livelihood"
+          ]
+        }
+      ],
+      "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -21410,7 +21246,7 @@
     },
     {
       "id": "6260b1cbbb261fba5e",
-      "checked_at": "2026-10-28T13:36:05.923555+00:00",
+      "checked_at": "2026-11-02T18:21:56.239671+00:00",
       "promise_id": "BJP-2024-7dff28fb28f1c43194",
       "year": 2024,
       "category": "other",
@@ -21445,6 +21281,29 @@
       "query": "balanced development inclusive launch initiative foster",
       "evidence": [
         {
+          "id": "dac0a319e78bff09fd",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "African Development Bank Group",
+          "source_url": "https://www.afdb.org",
+          "title": "African Development Bank, UNDP, AI Hub for Sustainable Development and partners launch the AI 10 Billion Initiative during 2026 Nairobi AI Forum - African Development Bank Group",
+          "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPRFJTbkpmQ1UxT1F4OXlvbjhFVjI1SDBxdHZJYUpGVDU2bkdBOGhPUlYtWlcxZDJvQ2xQRk9zM3VYWDRfQmNfNXNPbC1kUUhnU0txWGlkRm5LS0hib0wxSEw3MF9tTjliWXRXSmlKNk5rSkFuNEdGTHJoU2U3bXAwN0k3WnltNW5yWEFrdlZPcDNhX2xZVlFHT2lZLU9fMjRLZ0F0d0oxZml2MUNBTVJkaHBqQ1Q5OFB1Z1NWMnFOMGc2RkJvcEQzanVIbnVkQkh6NmF0dEhXZW1oeWUtM28wWVplRzFFdWFDbWRwZjZMVFAwODBwU0xwQUU5c08wNHpTWF9RRVJVVm9XaGNaa2JUTk91U0ZaVkl1TE5ycVdFNWw?oc=5",
+          "published_at": "2026-02-23T08:00:00+00:00",
+          "snippet": "African Development Bank, UNDP, AI Hub for Sustainable Development and partners launch the AI 10 Billion Initiative during 2026 Nairobi AI Forum African Development Bank Group",
+          "lexical_overlap": 0.15,
+          "relevance": 0.255,
+          "matched_terms": [
+            "development",
+            "initiative",
+            "launch"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "development",
+            "initiative"
+          ]
+        },
+        {
           "id": "49d95e202fc3ac70e4",
           "scope": "news_search",
           "tier": "secondary",
@@ -21465,53 +21324,9 @@
             "foster",
             "inclusive"
           ]
-        },
-        {
-          "id": "0fd99152184ec2cf4d",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "مكتب أبوظبي الإعلامي",
-          "source_url": "https://www.mediaoffice.abudhabi",
-          "title": "Department of Community Development launches commemorative IncluCoin for Sustainable Impact to fund inclusive projects and initiatives - مكتب أبوظبي الإعلامي",
-          "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNbUppWFdRNEhjbHAxRFRqbWUzWW1OR1JRa0QyQ0ZCRWFtbkxGSnU3ZThxTC1odFo1aHo5Tnk0b0xUaDAtMU1iNmtIM0p5T2lnTjZPWDVHSmxfRG5BQllLQXZUdVN4U0l4T0ZPSGx6bmFSNW4tQkl5b25BQzNZanBPdl9uYWJhTV9lVGM4M0FhUGNQNnBncUxMdGlIZlZxZHdySEktaU1TeU4yQ1QtMDJlcl92bDh6Nmt0bllMakxVYTFvMWhEaUszUmthcUJYZXJKRjliYlRvRlZuYlBxcFR4MjY3azNJTUZEYy1fZ3RMX3dZLXlCakh6dFFNRXZJbE8wSUs0SEx6TVVzaTNVekE?oc=5",
-          "published_at": "2026-06-23T07:00:00+00:00",
-          "snippet": "Department of Community Development launches commemorative IncluCoin for Sustainable Impact to fund inclusive projects and initiatives مكتب أبوظبي الإعلامي",
-          "lexical_overlap": 0.095,
-          "relevance": 0.165,
-          "matched_terms": [
-            "development",
-            "inclusive"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "development",
-            "inclusive"
-          ]
-        },
-        {
-          "id": "f2fe668f94318f678f",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Economic Commission for Africa (ECA)",
-          "source_url": "http://www.uneca.org",
-          "title": "Fostering Environmentally and Socially Responsible, Decarbonized, Inclusive, and Transformative Value Chains for Energy Transition Minerals in the Southern African Development Community (SADC) Region | Events - Economic Commission for Africa (ECA)",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONjllc2tDV3ZwbWlsSWhOdGM1M0J2R2xtOFFtcUVmOHRXcWNEWlA4TGNzVlNkb1l0UGNwbW5fN2I1aEVtZ0dvaTF5RmJvUHdEakNUTGE3cV9iX1d0Qk1FUWx4eGttUWxQaWdHcDI3X0FpdEotWTEtQjdtS0pUaDNoNTNYY2hhQ1VUZ3NENzJsQXhIZXNVMklJY0pYTEdQWHg1R3V4Z3R4clIwbnFiNGp0R0VPdjhKX1VXSlFiYzNQUmdRdW5mejR5ZmZR?oc=5",
-          "published_at": "2026-06-02T07:00:00+00:00",
-          "snippet": "Fostering Environmentally and Socially Responsible, Decarbonized, Inclusive, and Transformative Value Chains for Energy Transition Minerals in the Southern African Development Community (SADC) Region | Events Economic Commission for Africa (ECA)",
-          "lexical_overlap": 0.091,
-          "relevance": 0.161,
-          "matched_terms": [
-            "development",
-            "inclusive"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "development",
-            "inclusive"
-          ]
         }
       ],
-      "implementation_signal": "needs_research",
+      "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -21526,7 +21341,7 @@
     },
     {
       "id": "83c645816dccdc85e6",
-      "checked_at": "2026-10-28T13:36:08.095917+00:00",
+      "checked_at": "2026-11-02T18:21:57.906773+00:00",
       "promise_id": "BJP-2024-7e4cc700c423b12567",
       "year": 2024,
       "category": "jobs_economy",
@@ -21551,17 +21366,17 @@
       "query": "strength product build become major nation",
       "evidence": [
         {
-          "id": "ac1ac6f2336f5d1a90",
+          "id": "6e602f0ef869b06ef2",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "VnEconomy",
-          "source_url": "https://en.vneconomy.vn",
-          "title": "Strong enterprises build national strength: Top leader - VnEconomy",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeERLVlJCdk1BanEzaE1fanRlOGlUMmR3cWlFUGl2Q1NFbUx3eWItRXZtRUplQWVuLVZXd1Qzd0dnNlhRSVVvMllSd1pzQVpQX3gzeTVVZjk0bk9naktfNjV3VEh4cDBUODExZVNMWU1fQ0xuV3BWbWxKQVBGZ0o1N0J5RTMzY0Zi?oc=5",
-          "published_at": "2026-10-13T08:00:00+00:00",
-          "snippet": "Strong enterprises build national strength: Top leader VnEconomy",
-          "lexical_overlap": 0.125,
-          "relevance": 0.195,
+          "source": "National Institute on Aging (.gov)",
+          "source_url": "https://www.nia.nih.gov",
+          "title": "How can strength training build healthier bodies as we age? - National Institute on Aging (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbFdvTW9oMHctUk1mNF90WVBxRHp1WVhLcjFWbWdBMTk1REV5OGhmTWVxZGpBNWU1djhxbnpVdnFCa1FBNkx6ejFhS0tpbmp6OFpaNjJwaDE4Yi16NzZSUW1vNXlRM1ZQbGxxWVVwLXBnQ25QZzAwd1F3OEVuaTJ6SS1nY2pfN1g5SWk4aA?oc=5",
+          "published_at": "2022-06-30T07:00:00+00:00",
+          "snippet": "How can strength training build healthier bodies as we age? National Institute on Aging (.gov)",
+          "lexical_overlap": 0.105,
+          "relevance": 0.175,
           "matched_terms": [
             "build",
             "strength"
@@ -21569,28 +21384,6 @@
           "shared_numbers": [],
           "promise_core_overlap": [
             "build",
-            "strength"
-          ]
-        },
-        {
-          "id": "a7d211a25a3b2afab1",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Báo VietNamNet",
-          "source_url": "https://vietnamnet.vn",
-          "title": "Vietnam says strong maritime nation must be built on strength from within - Báo VietNamNet",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYWxockFpVkd4SHkxZ1VyQWtoRnltQ2NnYTJlUXQ2djd4cDVQUzVCVHV5aHUxNzNJMFpkd2tweFppeXpOaDgzMUVvV3ZLS0k5a2pVREhoOVU4WjdJV05uelFSTnJHZkxtTnZqUkxFa3d1emZQelVkMHFMbmE5d1NYZ2pPUWc4clBlRUlsd2llZFNzYk1DcTZmMUV6RnB1TDFZR2NnUTlBcE8yYmRtb3Z4bw?oc=5",
-          "published_at": "2026-10-02T07:00:00+00:00",
-          "snippet": "Vietnam says strong maritime nation must be built on strength from within Báo VietNamNet",
-          "lexical_overlap": 0.111,
-          "relevance": 0.181,
-          "matched_terms": [
-            "nation",
-            "strength"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "nation",
             "strength"
           ]
         }
@@ -26704,7 +26497,7 @@
     },
     {
       "id": "cf8cf79ba76650e555",
-      "checked_at": "2026-10-28T13:36:09.841765+00:00",
+      "checked_at": "2026-11-02T18:21:59.051053+00:00",
       "promise_id": "BJP-2024-7e5a4f863a059e1436",
       "year": 2024,
       "category": "technology_digital",
@@ -26729,15 +26522,15 @@
       "query": "smart establishing grid nationwide grids integrated",
       "evidence": [
         {
-          "id": "ae83a096316455cb83",
+          "id": "42a9a94f7dcd3f35cb",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Vajiram & Ravi",
-          "source_url": "https://vajiramandravi.com",
-          "title": "Smart Grid - Vajiram & Ravi",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBHTFlqU2FxNGJlRW5ucHI2ZTJYMEdMazhERVQ5by1ROURHalNFTGtwTWlqSERGckJLR1QxSnBlT0kxZkJMVEZOMzdXcGdqMXdzekhWYkZEWFZaV09I?oc=5",
-          "published_at": "2026-07-10T07:00:00+00:00",
-          "snippet": "Smart Grid Vajiram & Ravi",
+          "source": "The Economist",
+          "source_url": "https://www.economist.com",
+          "title": "Building the smart grid - The Economist",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQlpvWG8xRlJCbFNMRlRsUWVGR3hJSlFNNGdON19TREs1SnZSY2FJU3hoVXhvNTdHRDQ3VzI0bkoxYXJycFNNY1pDRmtHb0djOTBHVTRyUzA2alJ6aTlJblQ1N0VWd2lXOC1zNXNUZk9zWnNRdGdLUkhJeDMwSUhlQ2FmaHhNREdp?oc=5",
+          "published_at": "2009-06-06T07:00:00+00:00",
+          "snippet": "Building the smart grid The Economist",
           "lexical_overlap": 0.143,
           "relevance": 0.213,
           "matched_terms": [
@@ -26751,24 +26544,24 @@
           ]
         },
         {
-          "id": "7493f72cf4844acefe",
+          "id": "9f9aa11f1c648a8e24",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Market Data Forecast",
-          "source_url": "https://www.marketdataforecast.com",
-          "title": "Europe Smart Grid Market Size, Share & Trends, 2034 - Market Data Forecast",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1saExzbmhpN043N2J5Y3BEUzFLUTZ2VFVSN1ZYNGNONnlYX0ZBd2oxdlNyd3RIQkJDWERhWVg2anRSUWVIWW1mYzRCNUlvZXhKa2k4NDdLYVR2OFhjX0NpUXF6elFQYk15dFM0XzRseTg1MVc1UERUV01PdkdlalU?oc=5",
-          "published_at": "2026-09-01T07:00:00+00:00",
-          "snippet": "Europe Smart Grid Market Size, Share & Trends, 2034 Market Data Forecast",
-          "lexical_overlap": 0.105,
-          "relevance": 0.175,
+          "source": "Enlit World",
+          "source_url": "https://www.enlit.world",
+          "title": "Israel Electric Corporation taps Landis+Gyr for nationwide smart meter rollout - Enlit World",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdWNUcXZ0cnhNenZESGlTQTR2ZFk1WFNyVE1NbVJqT05Iem40LXBoa0E1ZXpHR0EwazZzeFQxS0s0RWZNSXpYMGt6cExmT3RuR09vMVF0b0t6Ny04b3BzWXdLOENKMFdVRjZCa0Qtc25UdDJWV295ZmZfZFA5eHgxUnliME0zXzhUUkFQM2xXSUEtaXg0NXNRR295c3N4Qnl5TThRUTc0X2IxRWFycldR?oc=5",
+          "published_at": "2023-07-12T07:00:00+00:00",
+          "snippet": "Israel Electric Corporation taps Landis+Gyr for nationwide smart meter rollout Enlit World",
+          "lexical_overlap": 0.091,
+          "relevance": 0.161,
           "matched_terms": [
-            "grid",
+            "nationwide",
             "smart"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "grid",
+            "nationwide",
             "smart"
           ]
         }
@@ -26788,7 +26581,7 @@
     },
     {
       "id": "7df66474b1b9015a13",
-      "checked_at": "2026-10-19T22:40:44.504483+00:00",
+      "checked_at": "2026-11-02T18:22:11.424956+00:00",
       "promise_id": "BJP-2024-8e8ab6c7c64f451d34",
       "year": 2024,
       "category": "technology_digital",
@@ -26813,29 +26606,6 @@
       "query": "expand bharatnet every village broadband making",
       "evidence": [
         {
-          "id": "9e4c8cdb9284fd85aa",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Communications Today",
-          "source_url": "https://www.communicationstoday.co.in",
-          "title": "BharatNet to expand rural broadband in Maharashtra - Communications Today",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMF9lbHJrQm43TjRLa2hHSllJYnhvRnlRQXJUa1hKckxISGVrcEJKN0xNTE56WHVTN2VSdHUyTlNPR0w3b1JjZWIxeVUzeUZVX3BTc2gxQmRIV2phTEp4aGpCYm52SU1oaW8yYW5idkNoclBROGk3ajBfR3BYUFRmdVhwbmRFUzViSFhvSkd4T0h4clk?oc=5",
-          "published_at": "2026-10-03T07:00:00+00:00",
-          "snippet": "BharatNet to expand rural broadband in Maharashtra Communications Today",
-          "lexical_overlap": 0.25,
-          "relevance": 0.355,
-          "matched_terms": [
-            "bharatnet",
-            "broadband",
-            "expand"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "bharatnet",
-            "broadband"
-          ]
-        },
-        {
           "id": "38ab08f59cee37a1a0",
           "scope": "news_search",
           "tier": "secondary",
@@ -26858,51 +26628,6 @@
             "broadband",
             "internet"
           ]
-        },
-        {
-          "id": "1e7cde666337a01afa",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Times of India",
-          "source_url": "https://timesofindia.indiatimes.com",
-          "title": "Jharkhand, Centre sign pact for BharatNet phase III to expand broadband across rural areas - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOWGh5Mlg5Rk40a3NqSjhCQmUxemNHRVF0Z053Tk9JM2ltb2psSk8tVVNTQ0JkeGtQU0R4TkpmTjBoWFNUSUZoNGxhTlBmLXM2d0JPVExvd2RwdkxDRTVqVmxnN2ZGVGdxWkUxSnRJX1NneE1Ob1JBTTQwRnZ3dTdwN3BJQWRka2NWYldiRF9CRGp3ZEJMMHBXdUFJX1dZN2ZlcklsaWRZNnk5dHJEei1lS2FGN0tnU05tcGtZams2VlZ3Zy1XMUJ1elZXb3BWUDBGOURzanJKejF6dUVMWl9JZ2FYU1Q1Q1RndWtZVFFnTUVWWXloc3fSAfsBQVVfeXFMTmg5QnRwQVdXTUlra3VleXFMOWFMZFV1VDhpS2tSa3Rta240RkR2Z3paZ29TSGRYYXBncFJnVDdrZng5Q3Q3eWhtc1RsQjhNV3VMT0FPTHNDNlZJb25WdXF4dk5qa1RXM0dLcWlwVzFlQ3JvNVhhRXltVzVTQ2dkLUMxNFd6WDdGb0taaVV3VVc4Uk9NTmp6d0lxdnoteVVlVUJ5a3ZRalI1b1ZWeXBCTjhua0xMWE1teEFpcnhPT0pyNlppdjIwNGtTd05KcEh0NFVJdzlYcnRBckpIanZxOEozWjBBQ2FCZ2VXQ1FZODgwWEd6M04zQ1RWSUE?oc=5",
-          "published_at": "2026-09-10T07:00:00+00:00",
-          "snippet": "Jharkhand, Centre sign pact for BharatNet phase III to expand broadband across rural areas The Times of India",
-          "lexical_overlap": 0.167,
-          "relevance": 0.272,
-          "matched_terms": [
-            "bharatnet",
-            "broadband",
-            "expand"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "bharatnet",
-            "broadband"
-          ]
-        },
-        {
-          "id": "95b691ead61d232942",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "SME Futures",
-          "source_url": "https://smefutures.com",
-          "title": "India Mobile Congress 2026: DoT official says affordable internet key to connecting rural MSMEs through BharatNet - SME Futures",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZU5MLS0xZjY0SjI4TlBfSFpWZ19QUVlGZkJid3ppOW9ZZ0ZLbGU5X1doMzFxRnU4d0dGa3pwUnNuLVNxYWpfejk0bWhkamVfcERFblhJZm9Ldmp5bHdvamRXSWlrYW1GdVdURzBINXA1QzN1dVJRWEJtcVNJY294N2g1OA?oc=5",
-          "published_at": "2026-10-12T07:20:51+00:00",
-          "snippet": "India Mobile Congress 2026: DoT official says affordable internet key to connecting rural MSMEs through BharatNet SME Futures",
-          "lexical_overlap": 0.1,
-          "relevance": 0.17,
-          "matched_terms": [
-            "bharatnet",
-            "internet"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "bharatnet",
-            "internet"
-          ]
         }
       ],
       "implementation_signal": "current_reporting_found",
@@ -26920,7 +26645,7 @@
     },
     {
       "id": "6f428185247060ba60",
-      "checked_at": "2026-10-19T22:40:49.652927+00:00",
+      "checked_at": "2026-11-02T18:22:15.533400+00:00",
       "promise_id": "BJP-2024-9a0aa08cfe33891c53",
       "year": 2024,
       "category": "infrastructure",
@@ -26945,35 +26670,35 @@
       "query": "international airports expansion line vision enhanced",
       "evidence": [
         {
-          "id": "d1443b2ef01e37143c",
+          "id": "b17984b968c0d8d987",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Routesonline",
-          "source_url": "https://www.routesonline.com",
-          "title": "Red Sea International Airport marks 2025 with workforce growth, industry recognition and sustainability milestones - Routesonline",
-          "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxPTG1DSmx2blNNbHExalUzUUJUQmxmYXBjcFlDMjBvQk9BZFMwdkR0OGJOZVhGRExBQThHNlFuRXYydTFacHZSdl9OZnlWZnZYakN4VXp2QnJGb25aNnBMcHFrQ21kZTRFRjU4bjl2ODhhY2dLUVpnZFN0R2pqN014OS1FeHNxTk1LN0dkUmlBYTV1TkRWWkQ1MmhYVnkzSkVpY2V5ZTRfX0E0QkQwazM2YWJfMWNJUXZFQlRpaXZWQ0JNb2plRjVLbTV4NFNVU2FUbEdBRTV4RTNCMzc0ZWx2VnRqcFdXX1VqU1d3TVNmYjZ1cTlGa1o4aEZocG5NX0pqX1hLVF9tSXpoWkJ2d0hweUY2YU13Qk52N3h5bFlOYUF2SzJ2SWNaZnFFU0JLcFV0?oc=5",
-          "published_at": "2026-01-11T08:00:00+00:00",
-          "snippet": "Red Sea International Airport marks 2025 with workforce growth, industry recognition and sustainability milestones Routesonline",
-          "lexical_overlap": 0.095,
-          "relevance": 0.165,
+          "source": "Gulf Today",
+          "source_url": "https://www.gulftoday.ae",
+          "title": "Al Maktoum International Airport reflects Dubai’s ambitious vision - Gulf Today",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcl85c0twcnNhUGVJWXFPMnJlSU9fUFVzcnM1YTdFaXBSMFA0a2tRLVFMXzU1V3BTZEpBOTM5dkIxWUtsS0VMYnpYOFJpTXE5S0NWX1RpM0RPTl84R1BHbXVTalNGMWRJOUdQcFpPbjBNb2UxdWNsMnVQZ1dYZ1ZPZmxrVjhnSGcyTDl1REg3QUJzdjNobHdOQkg3ZFd1OU9rVmtIZ29oWXNtM2t6UkJN?oc=5",
+          "published_at": "2026-06-15T07:00:00+00:00",
+          "snippet": "Al Maktoum International Airport reflects Dubai’s ambitious vision Gulf Today",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
           "matched_terms": [
-            "growth",
-            "international"
+            "international",
+            "vision"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "growth",
-            "international"
+            "international",
+            "vision"
           ]
         },
         {
-          "id": "6bcf07c781ff2ce79e",
+          "id": "fea974c4eb8cabcd51",
           "scope": "news_search",
           "tier": "secondary",
           "source": "Saudi Gazette",
           "source_url": "https://saudigazette.com.sa",
           "title": "Jeddah Airports explores future airport expansion plans with Singapore’s Surbana Jurong - Saudi Gazette",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5LQWlIUGpmZ0tUVHU2U2JUbGJtLUlBNzdZR0RpNVlPTEQzaTdCdEFib2ZmUWF4TzhRS2tzR09ocFhCYjFSX0h1V2F1WGlodmE1RHI3dw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQLVEzWXJUWThZTm9XWVdlYU5fcG1XNkdKMmxUT0ExU1FDczdJU2ZvTTY3MGctdFNJX1pGWEczOEppOGRfNWU1bzlJdWd0ay1jUUFUVFROV2NJeXJiZXh5Y3p5aWFEc2w3eE9rOVN1MFh4N0NjX2pOQUFCMEQ3VHFrdjh2dkZqU3Bva0lkMGZKdTdsNzkzbXhra3VGUjY0Q2FzMHVycU05ZEl3S2paRURGbE9sZ1NzcEVzNS05OTdwVmJrV3Q0U0tFSVQ4TlhnNU9XOG1mOA?oc=5",
           "published_at": "2026-05-19T07:00:00+00:00",
           "snippet": "Jeddah Airports explores future airport expansion plans with Singapore’s Surbana Jurong Saudi Gazette",
           "lexical_overlap": 0.095,
@@ -30612,7 +30337,7 @@
     },
     {
       "id": "2ae012e10f32f36174",
-      "checked_at": "2026-10-28T13:36:20.821587+00:00",
+      "checked_at": "2026-11-02T18:22:08.038694+00:00",
       "promise_id": "BJP-2024-86facf696cbbd2c15e",
       "year": 2024,
       "category": "other",
@@ -32249,7 +31974,7 @@
     },
     {
       "id": "2a8d7ad4e41a28ed20",
-      "checked_at": "2026-10-28T13:36:16.992138+00:00",
+      "checked_at": "2026-11-02T18:22:05.150014+00:00",
       "promise_id": "BJP-2024-850b2d38d940bb1e3f",
       "year": 2024,
       "category": "jobs_economy",
@@ -32292,28 +32017,6 @@
           "shared_numbers": [],
           "promise_core_overlap": [
             "production",
-            "vaccine"
-          ]
-        },
-        {
-          "id": "7d4c460855dc1ce152",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "World Health Organization (WHO)",
-          "source_url": "https://www.who.int",
-          "title": "Accelerating COVID-19 Vaccine Deployment - World Health Organization (WHO)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNb1VteU9kdmE1VXdHY25Vc3FPcnR3NC1LbTNuczBqVzZ4VkdDaUJ3c3BIQ2RwcFRiNGdKVDhwek5TY05MbGpjQTJLWnh1bmpDSUlIMkkyaDl4c0czSXhiMERkZ1ZOQThzd20xTTVReWl5VVVBRmJ5RDZ5UzIzWUFVdndUcjR3Z1k?oc=5",
-          "published_at": "2022-04-20T07:00:00+00:00",
-          "snippet": "Accelerating COVID-19 Vaccine Deployment World Health Organization (WHO)",
-          "lexical_overlap": 0.111,
-          "relevance": 0.181,
-          "matched_terms": [
-            "accelerating",
-            "vaccine"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "accelerating",
             "vaccine"
           ]
         }
@@ -34784,7 +34487,7 @@
     },
     {
       "id": "fe0a1bab8d950c6823",
-      "checked_at": "2026-10-19T22:40:53.390167+00:00",
+      "checked_at": "2026-11-02T18:22:18.675634+00:00",
       "promise_id": "BJP-2024-9cd3e77be7238c9398",
       "year": 2024,
       "category": "jobs_economy",
@@ -34807,23 +34510,47 @@
       "query": "sports startups help technology ecosystem",
       "evidence": [
         {
-          "id": "b7e581edb70dd96952",
+          "id": "231feeef0573522328",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Cabinet approves Khelo India Sports Goods Manufacturing Scheme for Building a Globally Competitive Sports Manufacturing Ecosystem - pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRWZpWTBDVjc4cWtTTktxTjZEak1WVDNLbjlzS3lENHI3MEJIdU1TZUJhemo5TXNTMUhXTUpkX19jdURiUEprR3MxOHpPODdNVnF6c1g3amFuaUJHMVhlMjNzcFhqQXR2cG5hUEFwYU1BR1JlM1hFSTh5UDFJcUs4dHBIZ3lqUQ?oc=5",
+          "published_at": "2026-10-28T10:15:00+00:00",
+          "snippet": "Cabinet approves Khelo India Sports Goods Manufacturing Scheme for Building a Globally Competitive Sports Manufacturing Ecosystem pib.gov.in",
+          "lexical_overlap": 0.111,
+          "relevance": 0.231,
+          "matched_terms": [
+            "ecosystem",
+            "sports"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "ecosystem",
+            "sports"
+          ]
+        },
+        {
+          "id": "e41991d5d3a68e0878",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "IBM",
-          "source_url": "https://www.ibm.com",
-          "title": "AI is redefining the future of sports: Startups can now get in the game - IBM",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWDZURDg2dTdRQzJuZWtNalFqTzdXZHpsQlNaY0FBU0ZWcmpuS1JuMkZ6eXNlN2ZuY1BPaHdxWFl4UHJjNjRaaGpqZmtvaHhMZTUxWl9xVXFFbTg3MjNRVHVoWkQxZk9OV21pY19ReFhWSU1hNWM0RmJMWEdPbmcxc2VXQjFsVHV2dDBVWktGR09DUjgwS3A4TXB0eE4tR1hDUC1kWl9Ld2JmYWpk?oc=5",
-          "published_at": "2026-04-14T07:00:00+00:00",
-          "snippet": "AI is redefining the future of sports: Startups can now get in the game IBM",
-          "lexical_overlap": 0.143,
-          "relevance": 0.213,
+          "source": "Yahoo Finance",
+          "source_url": "https://finance.yahoo.com",
+          "title": "Duets Launches a New Ecosystem for Startups Building in Sports and Entertainment - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVmM1U1ktRk83bzJyUWg2N2Y1VDhXb1gzb1lwdXB4TktuVk1DRUNhZjluRE40cC00ZjI5S2draE9CYXh2ejhKTGRVazhQM2h1WVVEYkRDbFdDaXZTYkpIdDQtOUxIbmlDOVFPYloyQ3N6MUNwRWZ5MHZyMmx3dUljNlNHRENXbzFjTFJBY2tfbEdHRnZxT0I3SnV6UUNYWnFJODc2QW9Uc0xnTEk?oc=5",
+          "published_at": "2026-10-29T16:00:00+00:00",
+          "snippet": "Duets Launches a New Ecosystem for Startups Building in Sports and Entertainment Yahoo Finance",
+          "lexical_overlap": 0.231,
+          "relevance": 0.336,
           "matched_terms": [
+            "ecosystem",
             "sports",
             "startups"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
+            "ecosystem",
             "sports",
             "startups"
           ]
@@ -34858,7 +34585,7 @@
           "source_url": "https://www.fortunebusinessinsights.com",
           "title": "Sports Technology Market Size, Share | Industry Report [2032] - Fortune Business Insights",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE83MERUUnFLX3BETG0zc3VmSlVXQjZZRXJSVmtxdHBzcVRBWjdabEpOMGhCSFlUa1h5SUp1SU92d3BFQ0M4ZjNsNUd0NTR6QnMyenNaVmx3THk1Ri1LU1M2aF9ZeHpqdkg3RVJnYkpNU0RtREZYWjdxTHpHVQ?oc=5",
-          "published_at": "2026-09-28T07:00:00+00:00",
+          "published_at": "2026-10-12T07:00:00+00:00",
           "snippet": "Sports Technology Market Size, Share | Industry Report [2032] Fortune Business Insights",
           "lexical_overlap": 0.133,
           "relevance": 0.203,
@@ -34895,7 +34622,7 @@
           ]
         }
       ],
-      "implementation_signal": "current_reporting_found",
+      "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -36536,7 +36263,7 @@
     },
     {
       "id": "efdbb3746c94ee5d04",
-      "checked_at": "2026-10-28T13:36:14.719551+00:00",
+      "checked_at": "2026-11-02T18:22:03.508598+00:00",
       "promise_id": "BJP-2024-834418ad9ca673ce7f",
       "year": 2024,
       "category": "education_skills",
@@ -36585,28 +36312,6 @@
             "national",
             "research"
           ]
-        },
-        {
-          "id": "97c8f1b2ddba8b45bf",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Research, Development and Innovation Fund Announces First Cohort of 19 Second Level Fund Managers - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ONGlnQU9uNW5UcjBKd2pYVVl2RFNKbmM5d1BvUTNLcXpUc1lfeWFDRlE5STk4ZnZ4UW5XYzg1MU45dU5TaHpfUEdHaWM1bzFaQ0lSM0FfckY0Mm1jTGQ0UVQ3ZWhvQUVW?oc=5",
-          "published_at": "2026-10-12T07:00:00+00:00",
-          "snippet": "Research, Development and Innovation Fund Announces First Cohort of 19 Second Level Fund Managers Press Information Bureau",
-          "lexical_overlap": 0.095,
-          "relevance": 0.215,
-          "matched_terms": [
-            "development",
-            "research"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "development",
-            "research"
-          ]
         }
       ],
       "implementation_signal": "current_primary_evidence_found",
@@ -36624,7 +36329,7 @@
     },
     {
       "id": "1725a0d7f557b39613",
-      "checked_at": "2026-10-19T22:40:47.666794+00:00",
+      "checked_at": "2026-11-02T18:22:14.041894+00:00",
       "promise_id": "BJP-2024-95c8b379fa819d1a0b",
       "year": 2024,
       "category": "technology_digital",
@@ -36647,51 +36352,7 @@
       "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
       "related_promises": [],
       "query": "graphene mission strengthen graphene-based technology programmes",
-      "evidence": [
-        {
-          "id": "8bb40f79d0af88e862",
-          "scope": "broad_official_search",
-          "tier": "primary",
-          "source": "Department of Science and Technology",
-          "source_url": "https://dst.gov.in",
-          "title": "IISER & SPEL Pune jointly develop indigenous Graphene-Supercapacitor - Department of Science and Technology",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMHhHOGdmYU90N2sxaTZRTmhOSVcyZjB1VVZvcUJDd3ExZkE2VzQxUi1kM2ZCV2FLckFuRWhFTGwtZEM4OHJWWm9NZ2ROSW94NEw0U0pkaUZWRk1TTWpsNU1uWm5SVWVhZ2tJYjdObjF6SmMxeFlQdU5kTGhtVkg0ZlJxYmtMdEFfSE1UbTRR?oc=5",
-          "published_at": "2019-12-18T08:00:00+00:00",
-          "snippet": "IISER & SPEL Pune jointly develop indigenous Graphene-Supercapacitor Department of Science and Technology",
-          "lexical_overlap": 0.111,
-          "relevance": 0.231,
-          "matched_terms": [
-            "develop",
-            "technology"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "technology"
-          ]
-        },
-        {
-          "id": "93098efd7c45c7f591",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "kalkine.ca",
-          "source_url": "https://kalkine.ca",
-          "title": "Graphene Manufacturing Group Ltd. (TSXV:GMG) Gains Momentum as Battery Technology Progress and Graphene Innovation Drive Investor Interest - kalkine.ca",
-          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxObmxPMExrVVhXUUcyRFZ2VWxPTEdVb2tYclpWemZEY3VJZFk5QkxFSmtUdUR1c0hZaG5OT1V3Tl9Ga2c4WVhzZWNpTVp1Q1dGQll2c2RtQ1l2Z3VYUXlhNXVHSkYtcUx6Z2F5TGZ0ZF96M1huX3lQV0R5QXUyQTRRUzk2WUhBUENmQ1J4ZGZBcjduR0lkS001SWt1SHp5bDh4RTNTVXVLZ3FPQzFWS0VTMTRfUzMyaXByelV1dmZHTk1hU2dmSGdlRUpVQl9icXc5YllNNmczUEd2X0h0RHFyVjVSc05QNEtmdjFoRnpOWmloM3UteHY0bA?oc=5",
-          "published_at": "2026-09-10T07:00:00+00:00",
-          "snippet": "Graphene Manufacturing Group Ltd. (TSXV:GMG) Gains Momentum as Battery Technology Progress and Graphene Innovation Drive Investor Interest kalkine.ca",
-          "lexical_overlap": 0.083,
-          "relevance": 0.153,
-          "matched_terms": [
-            "graphene",
-            "technology"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "graphene",
-            "technology"
-          ]
-        }
-      ],
+      "evidence": [],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -42526,8 +42187,8 @@
       }
     },
     {
-      "id": "05e0979e7f32ba2f72",
-      "checked_at": "2026-11-02T11:32:47.167281+00:00",
+      "id": "0764c49dce738dbbee",
+      "checked_at": "2026-11-02T18:21:30.811785+00:00",
       "promise_id": "BJP-2019-18c0750d5ed71bc3d1",
       "year": 2019,
       "category": "agriculture",
@@ -42553,7 +42214,7 @@
       "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
-      "query": "10000 2022 enable creation farmer producer organisations fpos",
+      "query": "2022 10000 enable creation farmer producer organisations fpos",
       "evidence": [
         {
           "id": "54958999ae6b9e6f18",
@@ -42650,6 +42311,29 @@
           ]
         },
         {
+          "id": "1af39614098ce2c5d1",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "YourStory.com",
+          "source_url": "https://yourstory.com",
+          "title": "Flipkart signs MoU with SERP to enable market access, growth for FPOs, SHGs in Telangana - YourStory.com",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdGxJNXQ4NFR1ZldsQi1veEx3MUEzLW1keWV6d0kySm5zd0pVVVZrUnZiLWhQQlhTWkFfLUJvVVp2aFFNQzBZMGg2a0M2SWxSQUpEZFRsWDJUblpsb21JTDNiTVJ4OE8ycHplcVJyZlV3Z3pmTzhRZUhZN1VqQzVlUDFaNVQ1a21PSld0T093?oc=5",
+          "published_at": "2022-06-25T07:00:00+00:00",
+          "snippet": "Flipkart signs MoU with SERP to enable market access, growth for FPOs, SHGs in Telangana YourStory.com",
+          "lexical_overlap": 0.136,
+          "relevance": 0.241,
+          "matched_terms": [
+            "access",
+            "enable",
+            "fpos"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "access",
+            "fpos"
+          ]
+        },
+        {
           "id": "634c286094b85d4f4a",
           "scope": "news_search",
           "tier": "secondary",
@@ -42669,6 +42353,28 @@
           ],
           "promise_core_overlap": [
             "farmers"
+          ]
+        },
+        {
+          "id": "f3259ba28f1eed4040",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Krishi Jagran",
+          "source_url": "https://krishijagran.com",
+          "title": "10,000 FPOs Scheme will Bring a Revolutionary Change in Agri Sector: Narendra Tomar - Krishi Jagran",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaHJFOHRKWnJlcGNwRGQxUlplWDJLZFRhMzY0NkxqNFR6N3VPYk9qR1huWlE3R1E1T1JKTHdZalVQSkRBRUk1WXZOVUpUSzY4SVJ2dlcxMWhsQVc5YXdYRlRaeHBEeVp5cjMtU0hJeGJEOHY1Si1lQXhENFpLV2hFZG0tVVl0YUtLRUpMUllKa0tpR0R6WVZNY3NtOWwzNGJSbjlBVEtyTFZ0V2cwbnh5OXI0UC1JeEx6TWN6VHlHQW5DX3Ju0gHMAUFVX3lxTE1KWDRrUU1ZcFJMdzZOOU85UVY5RHAzLWE5YV9SdFhrbUs2b2F6SHVUb2UwZFR1RDNhbFdGX1o2aXp2UDN0YW90NFNReXR4RHlWbTY0T0FPbGdQNlVFdHN6MFpNdm5CMTlxN3dZUmtKQjlrR3JLbUY4VU9nWG03X25qVkVCWWtkUHkxRVFQUXNZSlY0S1BzNHNpMzY0WG4xR2lMX1g1WjY2YVFjM293ZXljTGNhckNaSHZlVDBBZ3ZqOFlacE5lQ0RtTlZ5TA?oc=5",
+          "published_at": "2022-04-22T07:00:00+00:00",
+          "snippet": "10,000 FPOs Scheme will Bring a Revolutionary Change in Agri Sector: Narendra Tomar Krishi Jagran",
+          "lexical_overlap": 0.048,
+          "relevance": 0.193,
+          "matched_terms": [
+            "fpos"
+          ],
+          "shared_numbers": [
+            "10000"
+          ],
+          "promise_core_overlap": [
+            "fpos"
           ]
         },
         {
@@ -42716,7 +42422,7 @@
           ]
         }
       ],
-      "implementation_signal": "current_primary_evidence_found",
+      "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -44081,7 +43787,7 @@
     },
     {
       "id": "f5811520c1d5623f19",
-      "checked_at": "2026-11-02T11:32:48.992783+00:00",
+      "checked_at": "2026-11-02T18:21:32.591048+00:00",
       "promise_id": "BJP-2019-1d3e95fa9344e842f3",
       "year": 2019,
       "category": "infrastructure",
@@ -44202,7 +43908,7 @@
     },
     {
       "id": "92d6920a15fb42f812",
-      "checked_at": "2026-11-02T11:33:04.520521+00:00",
+      "checked_at": "2026-11-02T18:21:48.986606+00:00",
       "promise_id": "BJP-2019-6abf03adda773fec98",
       "year": 2019,
       "category": "governance",
@@ -44229,15 +43935,15 @@
       "query": "2022 every gram panchayat connected high speed",
       "evidence": [
         {
-          "id": "2ad37fa13b20d527de",
+          "id": "5dc320f75911428cc2",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "Press Information Bureau",
+          "source": "www.pib.gov.in",
           "source_url": "https://www.pib.gov.in",
-          "title": "Release of Panchayat Advancement Index (PAI) 2022-23 - Press Information Bureau",
+          "title": "Release of Panchayat Advancement Index (PAI) 2022-23 - www.pib.gov.in",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE91OTJpU3p0RGViS28wWnFyQzF0WWxNelhfeUc0TUE2cXhrcTlGZGllaFN3YkhvbFp5aGJpRlJJN1VxT2Q5U1N1bGJ2MHNIQlg5WmU1TGNZdWplT1d2NndJaTBZU0V6Ym56NU5Tdl9VVkY?oc=5",
           "published_at": "2025-04-09T07:00:00+00:00",
-          "snippet": "Release of Panchayat Advancement Index (PAI) 2022-23 Press Information Bureau",
+          "snippet": "Release of Panchayat Advancement Index (PAI) 2022-23 www.pib.gov.in",
           "lexical_overlap": 0.059,
           "relevance": 0.254,
           "matched_terms": [
@@ -47643,7 +47349,7 @@
     },
     {
       "id": "1e0abc9f94016f3c7a",
-      "checked_at": "2026-11-02T11:32:50.502269+00:00",
+      "checked_at": "2026-11-02T18:21:34.121688+00:00",
       "promise_id": "BJP-2019-2af396deaf778cac73",
       "year": 2019,
       "category": "infrastructure",
@@ -47728,7 +47434,7 @@
     },
     {
       "id": "4af70c5cc4e5dd31ea",
-      "checked_at": "2026-11-02T11:32:56.096257+00:00",
+      "checked_at": "2026-11-02T18:21:39.812603+00:00",
       "promise_id": "BJP-2019-34c03859f07f1329c5",
       "year": 2019,
       "category": "infrastructure",
@@ -47774,30 +47480,6 @@
           "promise_core_overlap": [
             "corridor",
             "project"
-          ]
-        },
-        {
-          "id": "297f0f7c63214d2533",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "urbanacres.in",
-          "source_url": "https://urbanacres.in",
-          "title": "Dedicated Freight Corridor Network Now Fully Operational - urbanacres.in",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNT1RGZ3paMlFlUGpFRmRqekp3ZVNJaE11SFRCVDl3UGl2YXZOY3d3VUpDM3BuWnljRlMwXzhiWThEdDBaNzZpY3ZCaGQ1VzlYVzMyOWxfTm91em5fdFhkRGxjOGhZbmFMYnJBVWJ3ZlZkSXNDMHNkd2RGai1ZMThUczRzdnZNRTZ3UlJXT21Ka0hoOERjdVE?oc=5",
-          "published_at": "2026-09-08T07:00:00+00:00",
-          "snippet": "Dedicated Freight Corridor Network Now Fully Operational urbanacres.in",
-          "lexical_overlap": 0.25,
-          "relevance": 0.355,
-          "matched_terms": [
-            "corridor",
-            "dedicated",
-            "freight"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "corridor",
-            "dedicated",
-            "freight"
           ]
         },
         {
@@ -47904,6 +47586,28 @@
           "snippet": "Dedicated Freight Corridors Strengthen India’s Logistics Network https://www.usthadian.com/",
           "lexical_overlap": 0.133,
           "relevance": 0.203,
+          "matched_terms": [
+            "dedicated",
+            "freight"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "dedicated",
+            "freight"
+          ]
+        },
+        {
+          "id": "94f0d80ee7b7908961",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Vajiram & Ravi",
+          "source_url": "https://vajiramandravi.com",
+          "title": "Dedicated Freight Corridors, How They Cut Transit Time and Boost Rail Freight - Vajiram & Ravi",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5YNmx2WWxLTXRwU09nRzNtVEVfUkVKZ1dxZWNjZWhneHFNbWlLZXhnRjhxc1R3ZjQtSUt6NlhELXM0RU9oMVJZN1haTmVlM1VrWUxaUUxINE90a0dJaFR2NHJvOVMzRlFzNEZrcnpLdk44V1dQOE5vSi16UQ?oc=5",
+          "published_at": "2026-09-09T07:00:00+00:00",
+          "snippet": "Dedicated Freight Corridors, How They Cut Transit Time and Boost Rail Freight Vajiram & Ravi",
+          "lexical_overlap": 0.125,
+          "relevance": 0.195,
           "matched_terms": [
             "dedicated",
             "freight"
@@ -49930,7 +49634,7 @@
     },
     {
       "id": "93bb9754ab7125c8f1",
-      "checked_at": "2026-11-02T11:33:00.449770+00:00",
+      "checked_at": "2026-11-02T18:21:44.776115+00:00",
       "promise_id": "BJP-2019-6013bbae5c9fbd8c5a",
       "year": 2019,
       "category": "women_social_justice",
@@ -49971,7 +49675,7 @@
     },
     {
       "id": "1d1782ad81aa54afcd",
-      "checked_at": "2026-11-02T11:33:02.733777+00:00",
+      "checked_at": "2026-11-02T18:21:46.856941+00:00",
       "promise_id": "BJP-2019-63e2ccda189fa85e2c",
       "year": 2019,
       "category": "health_welfare",
@@ -55041,7 +54745,7 @@
     },
     {
       "id": "21c782a6ad2ecb8987",
-      "checked_at": "2026-11-02T11:32:53.303791+00:00",
+      "checked_at": "2026-11-02T18:21:36.801718+00:00",
       "promise_id": "BJP-2019-2cfa1375f165d41707",
       "year": 2019,
       "category": "other",
@@ -56422,7 +56126,7 @@
     },
     {
       "id": "09db92a7679f9e887b",
-      "checked_at": "2026-11-02T11:32:57.827400+00:00",
+      "checked_at": "2026-11-02T18:21:41.760636+00:00",
       "promise_id": "BJP-2019-4fc8289de8caed52ff",
       "year": 2019,
       "category": "other",
@@ -61833,7 +61537,7 @@
     },
     {
       "id": "df076e7dea8ba67624",
-      "checked_at": "2026-11-02T11:33:33.862858+00:00",
+      "checked_at": "2026-11-02T18:21:51.560209+00:00",
       "promise_id": "BJP-2014-078252941779345656",
       "year": 2014,
       "category": "women_social_justice",
