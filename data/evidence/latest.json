@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T06:43:54.595718+00:00",
+  "generated_at": "2026-11-07T07:07:43.379465+00:00",
   "capabilities": {
     "official_evidence_search": true,
     "verified_primary_gate": true,
@@ -16,8 +16,8 @@
     "promise_checked_this_run": 30,
     "promise_total_candidates": 841,
     "promise_coverage_pct": 101.3,
-    "primary_candidates": 611,
-    "secondary_candidates": 1005,
+    "primary_candidates": 629,
+    "secondary_candidates": 1028,
     "prior_fact_checks": 0,
     "publishable_auto_verdicts": 0,
     "claim_verdicts": {
@@ -29,28 +29,29 @@
       "fulfilled_by_deadline": 0,
       "target_reached_evidence": 1,
       "proven_unfulfilled_by_deadline": 0,
-      "progress_documented": 10,
+      "progress_documented": 9,
       "deadline_passed_unresolved": 47,
       "deadline_not_reached": 13,
       "insufficient_evidence": 37,
-      "not_machine_measurable": 744,
+      "not_machine_measurable": 745,
       "audited_total": 852
     },
     "claim_memory": {
-      "families_total": 103,
+      "families_total": 117,
       "repeated_families": 0,
       "repeated_contradicted_families": 0,
       "repeated_supported_families": 0,
-      "occurrences_total": 103
+      "occurrences_total": 117
     }
   },
   "claim_packets": [
     {
-      "id": "dbc9cd03ddc90d7981",
-      "claim": "गर्व इस महान राष्ट्र के नागरिक होने का और कृतज्ञता सरदार वल्लभ भाई पटेल के प्रति, जिन्होंने आजादी के बाद 550 से ज्यादा रियासतों को एक किया।",
+      "id": "e2faab8e9322dbe38b",
+      "claim": "Pride in being a citizen of this great nation, and gratitude towards Sardar Vallabhbhai Patel, who united more than 550 princely states after Independence.",
       "extraction": {
         "reasons": [
-          "number"
+          "number",
+          "comparison"
         ],
         "numbers": [
           "550"
@@ -66,16 +67,41 @@
         "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
         "published_at": "2026-10-31T17:23:05+00:00"
       },
-      "query": "550 गर इस मह और तज ञत",
+      "query": "550 pride citizen great nation gratitude towards",
       "numbers": [
         "550"
       ],
       "promise_matches": [],
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "eaaa4747fcd71be26d",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "www.pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Prime Minister Shri Narendra Modi participates in Rashtriya Ekta Diwas Celebrations marking the 151st birth anniversary of Sardar Vallabhbhai Patel - www.pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQXBNQkYweENsckM1eVUtdEtrV0pHa1BrbzdEb0xiLWlnZEIwQVlVSjFLUjlfX0h5cWVHdThQM0x6d1RaWE85OUx4MHBGWDZqNlBXWXpXRUFLX1pPUUtnSG0wT2dnSzVOTjFIZjBzYTRuYi1FR21zMmllWnR4UnoxMFh3?oc=5",
+          "published_at": "2026-10-31T15:54:00+00:00",
+          "snippet": "Prime Minister Shri Narendra Modi participates in Rashtriya Ekta Diwas Celebrations marking the 151st birth anniversary of Sardar Vallabhbhai Patel www.pib.gov.in",
+          "lexical_overlap": 0.12,
+          "relevance": 0.275,
+          "matched_terms": [
+            "patel",
+            "sardar",
+            "vallabhbhai"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.0034,
+            "neutral": 0.9466,
+            "contradiction": 0.05
+          }
+        }
+      ],
       "fact_checks": [],
       "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
+        "level": "primary_evidence_found",
+        "label": "Relevant verified primary evidence candidate found",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -83,47 +109,14 @@
       "human_reviewed": false
     },
     {
-      "id": "94b635846ee3a128d9",
-      "claim": "गणतंत्र हमें उन फैसलों को संविधान की मर्यादा में आगे बढ़ाने का मार्ग दिखाता है, संविधान हमें जनता के प्रति जवाबदेह रखता है, और एकता हमें एक राष्ट्र के रूप में आगे बढ़ने की शक्ति देती है।",
-      "extraction": {
-        "reasons": [
-          "comparison"
-        ],
-        "numbers": [],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "5fb94e2429eca379660e",
-        "kind": "official_speech_or_video",
-        "title": "PM’s speech during Rashtriya Ekta Diwas",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
-        "published_at": "2026-10-31T17:23:05+00:00"
-      },
-      "query": "हम आग बढ गणत उन सल",
-      "numbers": [],
-      "promise_matches": [],
-      "evidence": [],
-      "fact_checks": [],
-      "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "642341b132db9d17ef",
-      "claim": "साथियों, इस वर्ष उस महान कार्य को भी 75 वर्ष पूरे हुए हैं।",
+      "id": "9e7df92d355db845bb",
+      "claim": "Friends, This year marks the 75th anniversary of that great work as well.",
       "extraction": {
         "reasons": [
           "number"
         ],
         "numbers": [
-          "75 वर्ष"
+          "75"
         ],
         "context_before": ""
       },
@@ -136,16 +129,51 @@
         "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
         "published_at": "2026-10-31T17:23:05+00:00"
       },
-      "query": "75 वर इस उस मह",
-      "numbers": [
-        "75"
-      ],
+      "query": "friends marks th anniversary great work",
+      "numbers": [],
       "promise_matches": [],
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "0a0a8f89046e0ce074",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "BetterUp",
+          "source_url": "https://www.betterup.com",
+          "title": "Work Anniversary Messages to Thank Coworkers for Their Contributions - BetterUp",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1DeU1GYmQ4N0x3TXpadjFLRzFUQ283bUV4V3Z2MDV0blhsT3NLaks0Qy14bFV4N2dmOW5WX1RGeVJ3U2tNWnh2NXo0MVNYcWw2aWdtazBQWkp4YnItVjh4LVEtRE54Zw?oc=5",
+          "published_at": "2023-12-21T08:00:00+00:00",
+          "snippet": "Work Anniversary Messages to Thank Coworkers for Their Contributions BetterUp",
+          "lexical_overlap": 0.167,
+          "relevance": 0.237,
+          "matched_terms": [
+            "anniversary",
+            "work"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "d5b206fa0b93060773",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "World Trade Organization",
+          "source_url": "https://www.wto.org",
+          "title": "2025 News items - Marking 30th anniversary, the WTO reflects on historic achievements and future challenges - World Trade Organization",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1pcmlwQ2hUbUdPVlEzV0tpTXZ2OUNXd3JIN2hlQUNtT0MyTlA1Z0FYcDBuWkxlOXY4RWYwekhLUW1jMmJjd3ZKLWVMVWpSUkM0X2FjQzNoN2syZEJmQXZId2ZmY3JzT3RDUG5qQ0Z1NA?oc=5",
+          "published_at": "2025-04-10T16:57:36+00:00",
+          "snippet": "2025 News items - Marking 30th anniversary, the WTO reflects on historic achievements and future challenges World Trade Organization",
+          "lexical_overlap": 0.105,
+          "relevance": 0.175,
+          "matched_terms": [
+            "anniversary",
+            "th"
+          ],
+          "shared_numbers": []
+        }
+      ],
       "fact_checks": [],
       "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
+        "level": "reporting_found",
+        "label": "Relevant reporting found; primary evidence still needed",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -153,8 +181,8 @@
       "human_reviewed": false
     },
     {
-      "id": "02039f1ebb6ecc1447",
-      "claim": "साथियों, सरदार पटेल के 150वें जन्मदिवस पर, मैंने यहीं उनके चरणों में खड़े होकर कहा था, “जब तक, जब तक देश नक्सलवाद, माओवादी आतंक से पूरी तरह मुक्त नहीं हो जाता, हम चैन से बैठने वाले नहीं हैं”।",
+      "id": "eaa7919332ffda542a",
+      "claim": "Friends, Last year, we celebrated the 150th birth anniversary of Sardar Patel.",
       "extraction": {
         "reasons": [
           "number"
@@ -173,14 +201,109 @@
         "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
         "published_at": "2026-10-31T17:23:05+00:00"
       },
-      "query": "जब तक नह सरद पट जन",
+      "query": "friends last celebrated th birth anniversary",
       "numbers": [],
-      "promise_matches": [],
-      "evidence": [],
+      "promise_matches": [
+        {
+          "id": "BJP-2014-fcf05855d736ce004f",
+          "year": 2014,
+          "category": "health_welfare",
+          "page": 34,
+          "anchor": "We will ensure a 'Swachh Bharat' by Gandhiji's 150th birth anniversary in 2019, taking …",
+          "source_url": "https://library.bjp.org/jspui/handle/123456789/252",
+          "similarity": 0.154,
+          "matched_terms": [
+            "anniversary",
+            "birth"
+          ]
+        },
+        {
+          "id": "BJP-2024-1305f2ed9572bf1a27",
+          "year": 2024,
+          "category": "other",
+          "page": 35,
+          "anchor": "We will take this forward by declaring the year 2025 (the 150th Birth Anniversary …",
+          "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
+          "similarity": 0.154,
+          "matched_terms": [
+            "anniversary",
+            "birth"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "300135b4fdf77d93d6",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "English rendering of PM’s speech at closing ceremony of year-long celebrations of 400th birth anniversary of Lachit Borphukan in New Delhi - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Kd0NFUmVRbmRVa2lZd2pTQ2JtWHhuRWVjbUQ3N18yczFPOHZSbGNIR3JYRERza1VWSVdEeUoyYmRxNW9lY3N3T1FDSEppbnl3U0JOekVfZno2eWRpaHVhQUJEdHh4ajJC?oc=5",
+          "published_at": "2022-11-25T08:00:00+00:00",
+          "snippet": "English rendering of PM’s speech at closing ceremony of year-long celebrations of 400th birth anniversary of Lachit Borphukan in New Delhi PIB",
+          "lexical_overlap": 0.15,
+          "relevance": 0.305,
+          "matched_terms": [
+            "anniversary",
+            "birth",
+            "th"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.0013,
+            "neutral": 0.1329,
+            "contradiction": 0.8658
+          }
+        },
+        {
+          "id": "9d941bf74de399144f",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "English rendering of PM's video message during the concluding ceremony of year-long celebrations of Acharya Shri S N Goenka’s 100th birth anniversary - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1qdFNMZnlWZVVuVjVwTnFUT055Rm5aZVo5SHFTUEgyZGVTNnpTdERUZVFTR0Zfa05IaGU3MVhxVWtrX0U5ZkliY21ZZERUczhfSlZsTmhTUm5qekRLeVJTc2NfbUpXUms4?oc=5",
+          "published_at": "2024-02-04T08:00:00+00:00",
+          "snippet": "English rendering of PM's video message during the concluding ceremony of year-long celebrations of Acharya Shri S N Goenka’s 100th birth anniversary Press Information Bureau",
+          "lexical_overlap": 0.143,
+          "relevance": 0.298,
+          "matched_terms": [
+            "anniversary",
+            "birth",
+            "th"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.0028,
+            "neutral": 0.5858,
+            "contradiction": 0.4114
+          }
+        },
+        {
+          "id": "64781ceadb44bec58a",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The New Indian Express",
+          "source_url": "https://www.newindianexpress.com",
+          "title": "A legend lives on: Celebrating the 68th birth anniversary of famed actor Shankar Nag - The New Indian Express",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOQjJoNkw3TlYtbkgtNG84Zi1ZTWtIWWdhMktpNDJxaElBSWNQS0J0aVRGbkJORjdkamFaRjU2dTc2ZldCNWQzcWFWbDI1SDg4aEZpRUc5Q2dza0pWLUVwSlV0ZS1XUnZXMVFucWdlSmxwSHQxQlZOeENOejJVVlNVZ2R6am9wN0ZGSGNVbC1rREwzZlFNOUkyRmFIaGF5ZzJsakhpdFdCMkVXNkZHbTUtNVdFTV85Slp1UHYxVWl1bkxZX19EWDdpWTB6T0p3ZU5lcE1wTmMwdURLYU44WTVTeDZpRUtCUUhKRkdRZGpfQdIB_AFBVV95cUxQM1ZpSnppZmNhcFdYdWtqcl94eWM2UW95RXYyWS1wQVoyVG9Dc1FFcEpoRmNyVERDZk54YV9vNG43MnV5VHU5SmZlekZHREhpZ0RIYVZlcXlXRzdsWnRRMXVHYjFlUUhSZ3NLSTN6cERlUVdsb0RqLVpIM2VncEVDbWhCXzI4WkZDLWNQc3pXNlZoLTh4Y2llMnZYc1E5Y0ZobHd3ZE1TaEMzXzB5S1BZYVBqYUZrMm9kTHdBSkxyVFlmOWUtRUNkM1M1VlZHcTRkYlhDXy14cjVTeDFBRzIwbDZRSmtpVHk2ekRObWktLWJRTXJKYnlwT2tZUTg?oc=5",
+          "published_at": "2022-11-09T08:00:00+00:00",
+          "snippet": "A legend lives on: Celebrating the 68th birth anniversary of famed actor Shankar Nag The New Indian Express",
+          "lexical_overlap": 0.188,
+          "relevance": 0.292,
+          "matched_terms": [
+            "anniversary",
+            "birth",
+            "th"
+          ],
+          "shared_numbers": []
+        }
+      ],
       "fact_checks": [],
       "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
+        "level": "primary_evidence_found",
+        "label": "Relevant verified primary evidence candidate found",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -188,14 +311,14 @@
       "human_reviewed": false
     },
     {
-      "id": "a2d9ff6dcff4b4b6d6",
-      "claim": "2015 में देश के एक सौ छब्बीस जिले वामपंथी उग्रवाद से प्रभावित थे।",
+      "id": "5bff0c2c60bb6cb26a",
+      "claim": "And today, as we celebrate his 151st birth anniversary, we can say with satisfaction that the nation has fulfilled those resolutions within a very short period of time.",
       "extraction": {
         "reasons": [
           "number"
         ],
         "numbers": [
-          "2015"
+          "151"
         ],
         "context_before": ""
       },
@@ -208,16 +331,123 @@
         "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
         "published_at": "2026-10-31T17:23:05+00:00"
       },
-      "query": "2015 एक छब मप उग रव रभ",
-      "numbers": [
-        "2015"
-      ],
+      "query": "celebrate his st birth anniversary say",
+      "numbers": [],
       "promise_matches": [],
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "babef539db77b5e55f",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "www.pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Commemorating 125th Birth Anniversary of Dr. Harekrushna Mahtab’s Enduring Legacy - www.pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ubkFkdklrTnBYbW5tNlE3X183SkwzemV2ejRsUGF5MnFEQ2pxQ05uRlFadlEyeXBhUC14Z3dpN1hUbjVTTVlEbS1pUmlPUGphZkJPU1YtOGpnZjRJUG5ld1BJVWR1dnJsVVhPTElIcHY?oc=5",
+          "published_at": "2024-11-21T08:00:00+00:00",
+          "snippet": "Commemorating 125th Birth Anniversary of Dr. Harekrushna Mahtab’s Enduring Legacy www.pib.gov.in",
+          "lexical_overlap": 0.091,
+          "relevance": 0.211,
+          "matched_terms": [
+            "anniversary",
+            "birth"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "300135b4fdf77d93d6",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "English rendering of PM’s speech at closing ceremony of year-long celebrations of 400th birth anniversary of Lachit Borphukan in New Delhi - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Kd0NFUmVRbmRVa2lZd2pTQ2JtWHhuRWVjbUQ3N18yczFPOHZSbGNIR3JYRERza1VWSVdEeUoyYmRxNW9lY3N3T1FDSEppbnl3U0JOekVfZno2eWRpaHVhQUJEdHh4ajJC?oc=5",
+          "published_at": "2022-11-25T08:00:00+00:00",
+          "snippet": "English rendering of PM’s speech at closing ceremony of year-long celebrations of 400th birth anniversary of Lachit Borphukan in New Delhi PIB",
+          "lexical_overlap": 0.08,
+          "relevance": 0.2,
+          "matched_terms": [
+            "anniversary",
+            "birth"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "7bd29503b6c58b90ec",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "English rendering of PM‘s speech at a programme celebrating 100th birth Anniversary of Bharat Ratna Dr. Bhupen Hazarika in Guwahati, Assam - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBYU0hycjhMNFVxSklZU3g0bTFhLTQ2VmZoSUFuS3dWNkJmV1JRTVVrQ2NpREFlS2llbkhxdTZmZTNrUkJfLUc0VTQySi1DX25BNzVRZFU1NHRYSEV0SFYwN2RzWGd5bjRJ?oc=5",
+          "published_at": "2025-09-13T07:00:00+00:00",
+          "snippet": "English rendering of PM‘s speech at a programme celebrating 100th birth Anniversary of Bharat Ratna Dr. Bhupen Hazarika in Guwahati, Assam PIB",
+          "lexical_overlap": 0.077,
+          "relevance": 0.197,
+          "matched_terms": [
+            "anniversary",
+            "birth"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "49c6ecc89c90105a1a",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "www.pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Union Home Minister and Minister of Cooperation Shri Amit Shah addresses the inaugural ceremony of centenary year celebrations commemorating birth anniversary of former VHP president Ashok Singhal - www.pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVUVWOEE1emYzWlZCQWlEbGFRQkpIXzRfLXZEalNOY243N1JYUlpmN2N1NldpXzFHMEswd0U2dlk5TnZINGZJM3ZKa3NpeGRKd21FWlZGVXRkX2RhQ2JPeTJxdFRUZjgwZ05MR2kzUElvYkdBeHZUbW5ONS1jTXJtRkZUcw?oc=5",
+          "published_at": "2026-09-27T07:00:00+00:00",
+          "snippet": "Union Home Minister and Minister of Cooperation Shri Amit Shah addresses the inaugural ceremony of centenary year celebrations commemorating birth anniversary of former VHP president Ashok Singhal www.pib.gov.in",
+          "lexical_overlap": 0.077,
+          "relevance": 0.197,
+          "matched_terms": [
+            "anniversary",
+            "birth"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "0cf5c9f23b8000ec47",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Office of His Holiness The Dalai Lama",
+          "source_url": "https://www.dalailama.com",
+          "title": "Celebrating His Holiness the Dalai Lama’s 91st Birthday - The Office of His Holiness The Dalai Lama",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNLVhrVXlFcU54ZWZxdGFHcHdkWVZTN3EyM2VZX2FVWmNGYkNOY25Xa1JkN0otRzlnUXZ0bWhKczRCLVVvZDBhWl9DX1lPeEt3Z0VmT0RybDNxYW5zd1ZDOU1qVi1UcXNBeW5TOHpIZWQ1RHVQcDlrdnZPVi1KbG5yVkpmTkVhWlNZZmRwQmJn?oc=5",
+          "published_at": "2026-07-06T15:04:55+00:00",
+          "snippet": "Celebrating His Holiness the Dalai Lama’s 91st Birthday The Office of His Holiness The Dalai Lama",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
+          "matched_terms": [
+            "his",
+            "st"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "737009e4c7bd532286",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Reuters",
+          "source_url": "https://www.reuters.com",
+          "title": "Happy birthday, America? At 250, nation may be too divided to celebrate as one - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdnd2dHJxMnFOUW5WTGhuUmZPcGhzQm44bFNyeExuOE81R0dsLU1SN0xYbElpdnRqX3VmLVB2dTgzTFFsZU9EV3llOF9YM1dDTHUwVVhYdUxYWEJmMjVzV3JBREZuVi1SbWZ2eTk5bUdVVnRGWWFYX1ZUSTlldWJucmN2NXc3bjZsQ1JvUExNanhtcEhxbFFSVWYzRmtfcUsyN241blNLbjQ3aXVDanZNMA?oc=5",
+          "published_at": "2026-06-30T07:00:00+00:00",
+          "snippet": "Happy birthday, America? At 250, nation may be too divided to celebrate as one Reuters",
+          "lexical_overlap": 0.105,
+          "relevance": 0.175,
+          "matched_terms": [
+            "celebrate",
+            "nation"
+          ],
+          "shared_numbers": []
+        }
+      ],
       "fact_checks": [],
       "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
+        "level": "reporting_found",
+        "label": "Relevant reporting found; primary evidence still needed",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -225,8 +455,168 @@
       "human_reviewed": false
     },
     {
-      "id": "29642e86c122b4b0c6",
-      "claim": "मार्च 2026 तक देश में ऐसा कोई जिला नहीं रह गया, जो अब भी नक्सलवाद से प्रभावित हो।",
+      "id": "0f286a25cc5e94cdc8",
+      "claim": "In these two years, the country has achieved several unprecedented accomplishments.",
+      "extraction": {
+        "reasons": [
+          "accomplishment"
+        ],
+        "numbers": [],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "5fb94e2429eca379660e",
+        "kind": "official_speech_or_video",
+        "title": "PM’s speech during Rashtriya Ekta Diwas",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+        "published_at": "2026-10-31T17:23:05+00:00"
+      },
+      "query": "two has achieved several unprecedented accomplishments",
+      "numbers": [],
+      "promise_matches": [],
+      "evidence": [
+        {
+          "id": "2d739cab5210bb2dc7",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "وزارة الخارجية الإماراتية",
+          "source_url": "https://www.mofa.gov.ae",
+          "title": "With the biggest-ever participation of the Philippines, Unprecedented accomplishments made in COP28 UAE - وزارة الخارجية الإماراتية",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1TZmtSUXoyd3RwNzlOMFdJZVlIT2dWSHA0TEQteURvajRqR1Z5aFk0dkp2T1JqT3E0eGt0a1NCdE1MT3Z0MHMwMG52NVBFMUFLNm1sNzVsZnpUX24tajVzYkJYSlNWaU1mT1pweDQ2bnJRMWJhSVE?oc=5",
+          "published_at": "2026-09-10T03:01:20+00:00",
+          "snippet": "With the biggest-ever participation of the Philippines, Unprecedented accomplishments made in COP28 UAE وزارة الخارجية الإماراتية",
+          "lexical_overlap": 0.133,
+          "relevance": 0.203,
+          "matched_terms": [
+            "accomplishments",
+            "unprecedented"
+          ],
+          "shared_numbers": []
+        }
+      ],
+      "fact_checks": [],
+      "signal": {
+        "level": "reporting_found",
+        "label": "Relevant reporting found; primary evidence still needed",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "b09e5335ac2e2ff729",
+      "claim": "In 2015, 126 districts of the country were affected by Left-wing extremism.",
+      "extraction": {
+        "reasons": [
+          "number"
+        ],
+        "numbers": [
+          "2015",
+          "126"
+        ],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "5fb94e2429eca379660e",
+        "kind": "official_speech_or_video",
+        "title": "PM’s speech during Rashtriya Ekta Diwas",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+        "published_at": "2026-10-31T17:23:05+00:00"
+      },
+      "query": "126 2015 districts were affected left-wing extremism",
+      "numbers": [
+        "126",
+        "2015"
+      ],
+      "promise_matches": [],
+      "evidence": [
+        {
+          "id": "7cd20996b202d13568",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The New Indian Express",
+          "source_url": "https://www.newindianexpress.com",
+          "title": "Districts affected by left-wing extremism down to 38 in 2024 from 126 in 2013: Home Ministry - The New Indian Express",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQMlh2U2ZTWkdDV2RYN1AyNlFZa3Nfa3pZdkhheVNyU0VKc2diTjNodEZ4OGlqWDZYTjg3WUxPcG9IVXlheS05QVJzdFE3ME1YYWxWaTFsZmFfcElVWFMwX0NGclRhazkxSkJJcWxUbjZvb3hfeTNyYXRPRVZUYnRXcHRPSGRJUHV6UHJQcUpHOEhrTVRSRXVMb0xiNHJSeVhYbEx2Umc1T1hJS282UklFdG5pSms4ZmNhY3ZJamFjc3I1NWdSbFY4TU9ST1pxQ19NSV9BdW9BYk5iZ9IB5wFBVV95cUxONXo4SDlhSkZyby1iN1BGa0JSaElvd08xX05maHNfcWF5dmYzajdDQ291SHlOQm9zSDMwQnhuMWRseHZvQnFha0V1UmM5OUNmS3RXbHdPUjJDV2VNb2l2NmZ6YUlQNGJqeFNRWDVEdDVHaU55NDZhRU5lWFdmbGpSZXVOSzB1X0RuSkFjc2VDZ25uT1RZWjdJalBycDgyWi15V1lReThjaXFxZmU4QlNlZl8ycXRqbEVkNkhkUE9aSk1VUjNsNVlucVlDTUtoZl9qb1Y0eHNTSXJ3SHdXMHh1bDQzYU5NTkU?oc=5",
+          "published_at": "2024-12-10T08:00:00+00:00",
+          "snippet": "Districts affected by left-wing extremism down to 38 in 2024 from 126 in 2013: Home Ministry The New Indian Express",
+          "lexical_overlap": 0.444,
+          "relevance": 0.694,
+          "matched_terms": [
+            "affected",
+            "districts",
+            "extremism",
+            "left-wing"
+          ],
+          "shared_numbers": [
+            "126"
+          ]
+        },
+        {
+          "id": "42af82c238aa560d01",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "LWE AFFECTED DISTRICTS - pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE91cENyMXVTc3VTMXNMaGFhUi1UYnpLUndmckpIVURqeGxudnBIVTl3OUI3d3FVRGhwcm5fVDBUdV9HVGZxMHNFVk9fOWVTaUpNbnc3cnJiNGE0dmRLMHBjVW0wWGUwV2h2eENmZzF4WG8?oc=5",
+          "published_at": "2024-12-10T08:00:00+00:00",
+          "snippet": "LWE AFFECTED DISTRICTS pib.gov.in",
+          "lexical_overlap": 0.25,
+          "relevance": 0.37,
+          "matched_terms": [
+            "affected",
+            "districts"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.0013,
+            "neutral": 0.9882,
+            "contradiction": 0.0105
+          }
+        },
+        {
+          "id": "e55a0912fc647d7b55",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "News On AIR",
+          "source_url": "https://newsonair.gov.in",
+          "title": "Country becomes free of left-wing extremism after nearly six decades: MoS HM in RS - News On AIR",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOFJfU3BXU2l6NExOSTh4SGhZY3ZfRTM0ZnZRdUVpOERaUWctNm4wYW9zTFpmVGRMMTF4eloxbDlGZk4xemJwS3hkZUpYUmQ2Vm5qYWlVS1VtN3AzNjJFTzJnREVzRlUtME9id0NmRGxQRmdoY1J6S3UzY1o1djB5U0VJS2ZrVXdlRVc4b3ZIbTMtTGNjd1JLc3BnU3ZHY0RCRGhJWk91RTlsWTA?oc=5",
+          "published_at": "2026-07-29T07:00:00+00:00",
+          "snippet": "Country becomes free of left-wing extremism after nearly six decades: MoS HM in RS News On AIR",
+          "lexical_overlap": 0.125,
+          "relevance": 0.245,
+          "matched_terms": [
+            "extremism",
+            "left-wing"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.0013,
+            "neutral": 0.9807,
+            "contradiction": 0.018
+          }
+        }
+      ],
+      "fact_checks": [],
+      "signal": {
+        "level": "primary_evidence_found",
+        "label": "Relevant verified primary evidence candidate found",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "967a45450613a0ad45",
+      "claim": "By March 2026, not a single district remained in the country that was still affected by Naxalism.",
       "extraction": {
         "reasons": [
           "number"
@@ -245,7 +635,7 @@
         "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
         "published_at": "2026-10-31T17:23:05+00:00"
       },
-      "query": "2026 तक ऐस नह रह गय अब",
+      "query": "2026 march not single district remained was",
       "numbers": [
         "2026"
       ],
@@ -262,8 +652,8 @@
       "human_reviewed": false
     },
     {
-      "id": "7fe771d9ba12d4da0d",
-      "claim": "मैं आज उन सभी वीर जवानों को भी नमन करता हूँ, जिन्होंने देश के इन क्षेत्रों में शांति स्थापित करने के लिए सर्वोच्च बलिदान दिया।",
+      "id": "c17ca94df00c48af2f",
+      "claim": "Friends, This time, at this Unity Day celebration, families from Naxal-affected regions have joined us here as special guests.",
       "extraction": {
         "reasons": [
           "accomplishment"
@@ -280,14 +670,33 @@
         "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
         "published_at": "2026-10-31T17:23:05+00:00"
       },
-      "query": "आज उन सभ जव नमन करत",
+      "query": "friends time unity day celebration families",
       "numbers": [],
       "promise_matches": [],
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "236ce4ab11ec03468c",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "IJF",
+          "source_url": "https://www.ijf.org",
+          "title": "Unity, Friendship and Peace: A Celebration of Judo, Culture and Azerbaijan - IJF",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeE9wSGpkSnl2X0VnbzJuVjFpc0VXS0ZqeFNJeUhJRFZZT3RVc1RnTTFUWDNWTFQxTnFrRVpuamd0OExNdllQQTZfdGUtSEVBYkg5SHVQZ1FUUVByTWN4TFVJR2g5X0hxNXNFWXh1bTdwRDZkV2dIb2VkRzl4RXhnTzFicmZLcHVXenV0SzNLeUpLakpQUEh4Q0lpc0VMbVlXVW00?oc=5",
+          "published_at": "2026-10-05T07:00:00+00:00",
+          "snippet": "Unity, Friendship and Peace: A Celebration of Judo, Culture and Azerbaijan IJF",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
+          "matched_terms": [
+            "celebration",
+            "unity"
+          ],
+          "shared_numbers": []
+        }
+      ],
       "fact_checks": [],
       "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
+        "level": "reporting_found",
+        "label": "Relevant reporting found; primary evidence still needed",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -295,8 +704,8 @@
       "human_reviewed": false
     },
     {
-      "id": "a82d9c1ffd8f022558",
-      "claim": "साथियों, आज भारत पहले से अधिक सुरक्षित है, आज भारत अधिक संकल्पित है, और इसका एक बड़ा कारण, देशवासियों का बढ़ा हुआ आत्मविश्वास है।",
+      "id": "d6596a4ba1be64018f",
+      "claim": "Today, I would certainly like to speak about one such major national achievement.",
       "extraction": {
         "reasons": [
           "comparison"
@@ -313,7 +722,7 @@
         "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
         "published_at": "2026-10-31T17:23:05+00:00"
       },
-      "query": "आज रत अध पहल रक कल",
+      "query": "certainly like speak about one major",
       "numbers": [],
       "promise_matches": [],
       "evidence": [],
@@ -328,17 +737,14 @@
       "human_reviewed": false
     },
     {
-      "id": "eb13fb7efb48fddad0",
-      "claim": "ये रिपोर्ट बताती है कि 2024 से पहले के 10-12 वर्षों में, 50 करोड़ भारतीयों ने गरीबी को परास्त किया है।",
+      "id": "7b01525781a1d79d18",
+      "claim": "The report states that in the ten to twelve years before 2024, fifty crore Indians defeated poverty.",
       "extraction": {
         "reasons": [
           "number"
         ],
         "numbers": [
-          "2024",
-          "10",
-          "12 वर्ष",
-          "50 करोड़"
+          "2024"
         ],
         "context_before": ""
       },
@@ -351,12 +757,9 @@
         "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
         "published_at": "2026-10-31T17:23:05+00:00"
       },
-      "query": "12 50 बत पहल वर कर रत गर",
+      "query": "2024 report states ten twelve before fifty",
       "numbers": [
-        "10",
-        "12",
-        "2024",
-        "50"
+        "2024"
       ],
       "promise_matches": [],
       "evidence": [],
@@ -371,19 +774,18 @@
       "human_reviewed": false
     },
     {
-      "id": "89c4773d1e13db46ab",
-      "claim": "यानी पहले जहाँ 100 में से 27 लोग, एक चौथाई से भी ज्यादा, 100 में से 27 लोग भीषण गरीबी की चपेट में थे, आज ये संख्या कम होते होते 100 में सिर्फ 3 से भी कम रह गई है।",
+      "id": "13fbe62008016e055a",
+      "claim": "That means where earlier 27 out of every 100 people, more than one-fourth of the population, were trapped in extreme poverty, today that number has fallen to less than 3 out of every 100 people.",
       "extraction": {
         "reasons": [
-          "number"
+          "number",
+          "comparison"
         ],
         "numbers": [
-          "100",
           "27",
           "100",
-          "27",
-          "100",
-          "3"
+          "3",
+          "100"
         ],
         "context_before": ""
       },
@@ -396,7 +798,7 @@
         "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
         "published_at": "2026-10-31T17:23:05+00:00"
       },
-      "query": "100 27 कम पहल जह एक षण गर",
+      "query": "3 100 out every than means where earlier",
       "numbers": [
         "100",
         "27",
@@ -415,82 +817,8 @@
       "human_reviewed": false
     },
     {
-      "id": "cb68ef1884550190ef",
-      "claim": "ये सब इसलिए हुआ, क्योंकि पिछले 12 वर्षों से देश, गरीब कल्याण, गरीबों को सशक्त करने को प्राथमिकता दे रहा है।",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "12 वर्ष"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "5fb94e2429eca379660e",
-        "kind": "official_speech_or_video",
-        "title": "PM’s speech during Rashtriya Ekta Diwas",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
-        "published_at": "2026-10-31T17:23:05+00:00"
-      },
-      "query": "12 गर सब इसल छल वर कल",
-      "numbers": [
-        "12"
-      ],
-      "promise_matches": [],
-      "evidence": [],
-      "fact_checks": [],
-      "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "b936379ea313e43d8b",
-      "claim": "इन 12 वर्षों में, देश को लीकेज फ्री व्यवस्था मिली।",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "12 वर्ष"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "5fb94e2429eca379660e",
-        "kind": "official_speech_or_video",
-        "title": "PM’s speech during Rashtriya Ekta Diwas",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
-        "published_at": "2026-10-31T17:23:05+00:00"
-      },
-      "query": "12 इन वर यवस",
-      "numbers": [
-        "12"
-      ],
-      "promise_matches": [],
-      "evidence": [],
-      "fact_checks": [],
-      "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "33b242e178dd0e4b2f",
-      "claim": "करोड़ों लोगों को बीमा की सुरक्षा मिली, जिसने संकट के समय करोड़ों भारतीयों को संबल दिया।",
+      "id": "aee5e9b7f062aa37a9",
+      "claim": "During these twelve years, the nation received a leak-proof system.",
       "extraction": {
         "reasons": [
           "accomplishment"
@@ -507,10 +835,86 @@
         "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
         "published_at": "2026-10-31T17:23:05+00:00"
       },
-      "query": "कर रक सन कट समय रत",
+      "query": "during twelve nation received leak-proof system",
       "numbers": [],
       "promise_matches": [],
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "6d8b9c4e4282394728",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Nationwide testing of indigenous Cell Broadcasting system underway to ensure swift dissemination of warnings during natural and man-made disasters - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9oVlFKdDdtSkZuZDVSbVRYcTNLaTQtdDJDZkJuTmhiMXkxT2xnVlM4WTVrNkhOYUpiYzNrb3FpRVF2S0VzUmZ2RUtCRzZld0FiLTQ4NFVIZDQ2UDI4UUdEQXRfOXFMSTQ4?oc=5",
+          "published_at": "2025-06-30T07:00:00+00:00",
+          "snippet": "Nationwide testing of indigenous Cell Broadcasting system underway to ensure swift dissemination of warnings during natural and man-made disasters PIB",
+          "lexical_overlap": 0.1,
+          "relevance": 0.22,
+          "matched_terms": [
+            "during",
+            "system"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.0022,
+            "neutral": 0.9757,
+            "contradiction": 0.0221
+          }
+        }
+      ],
+      "fact_checks": [],
+      "signal": {
+        "level": "primary_evidence_found",
+        "label": "Relevant verified primary evidence candidate found",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "8da188f67da42242aa",
+      "claim": "Crores of people received the protection of insurance, which became a source of support during times of crisis.",
+      "extraction": {
+        "reasons": [
+          "accomplishment"
+        ],
+        "numbers": [],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "5fb94e2429eca379660e",
+        "kind": "official_speech_or_video",
+        "title": "PM’s speech during Rashtriya Ekta Diwas",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+        "published_at": "2026-10-31T17:23:05+00:00"
+      },
+      "query": "crores received protection insurance which became",
+      "numbers": [],
+      "promise_matches": [],
+      "evidence": [
+        {
+          "id": "b8464d4dd7ce4cc088",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "www.pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Narendra Modi Govt Rolls Out Maritime Insurance Pool with ₹12,980 Crores Sovereign Guarantee - www.pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9Ka2o1YWFtakc0WFNRa2JvUThrUXZBZVdCbDNoRDhKTVJHcDVFcVBkUzZwMUF6N0MtX2dUZ3NxLUtEN0MzcHo5ZV91OGlqQWlmVjUtYXNVZy1aRkVIbFU2WlhnNDA4MEZSZ1JHWC1zaVdXdU83Uzhmbkx3?oc=5",
+          "published_at": "2026-04-18T07:00:00+00:00",
+          "snippet": "Narendra Modi Govt Rolls Out Maritime Insurance Pool with ₹12,980 Crores Sovereign Guarantee www.pib.gov.in",
+          "lexical_overlap": 0.095,
+          "relevance": 0.215,
+          "matched_terms": [
+            "crores",
+            "insurance"
+          ],
+          "shared_numbers": []
+        }
+      ],
       "fact_checks": [],
       "signal": {
         "level": "needs_research",
@@ -522,15 +926,15 @@
       "human_reviewed": false
     },
     {
-      "id": "fdc611fa5bec3fb45e",
-      "claim": "2014 से पहले देश में 25 करोड़ लोगों के पास भी सामाजिक सुरक्षा कवच नहीं था।",
+      "id": "fcdfebaadb9548b5bd",
+      "claim": "Before 2014, even 25 crore people in the country did not have any social security coverage.",
       "extraction": {
         "reasons": [
           "number"
         ],
         "numbers": [
           "2014",
-          "25 करोड़"
+          "25 crore"
         ],
         "context_before": ""
       },
@@ -543,13 +947,34 @@
         "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
         "published_at": "2026-10-31T17:23:05+00:00"
       },
-      "query": "25 2014 पहल कर रक कवच नह",
+      "query": "2014 25 before even crore did not have",
       "numbers": [
         "2014",
         "25"
       ],
       "promise_matches": [],
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "04f80148fb1ceeaf3b",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "www.pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Total person days generated between FY 2006-07 to FY 2013-14 were 1660 crore, whereas, the total person days between FY 2014-15 to FY 2024-25 has been 2923 crore - www.pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1FTzNycnhORDBKYVkybHM0U2lnakU4RjFpT192NDNnUWstOFJVUURjYTZ1NVRkZG9ySGRPUnlvTWowZTVCQWJSSjYzSHRuc3VLaDQ3SzdHZ2RqcnRPZTNsandWdkswRmhFSlpIdDVYdDA?oc=5",
+          "published_at": "2024-10-27T07:00:00+00:00",
+          "snippet": "Total person days generated between FY 2006-07 to FY 2013-14 were 1660 crore, whereas, the total person days between FY 2014-15 to FY 2024-25 has been 2923 crore www.pib.gov.in",
+          "lexical_overlap": 0.045,
+          "relevance": 0.35,
+          "matched_terms": [
+            "crore"
+          ],
+          "shared_numbers": [
+            "2014",
+            "25"
+          ]
+        }
+      ],
       "fact_checks": [],
       "signal": {
         "level": "needs_research",
@@ -926,6 +1351,30 @@
       "latest_claim_packet_id": "b9c2b1070d3a92b3e9"
     },
     {
+      "id": "76543854d4dccd6a10",
+      "canonical_claim": "And today, as we celebrate his 151st birth anniversary, we can say with satisfaction that the nation has fulfilled those resolutions within a very short period of time.",
+      "occurrences": [
+        {
+          "id": "9153435a7338a5b767",
+          "text": "And today, as we celebrate his 151st birth anniversary, we can say with satisfaction that the nation has fulfilled those resolutions within a very short period of time.",
+          "source_title": "PM’s speech during Rashtriya Ekta Diwas",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+          "published_at": "2026-10-31T17:23:05+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "reporting_found",
+      "human_reviewed": false,
+      "created_at": "2026-11-07T07:07:07.653651+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-31T17:23:05+00:00",
+      "last_seen": "2026-10-31T17:23:05+00:00",
+      "latest_checked_at": "2026-11-07T07:07:07.653660+00:00",
+      "latest_claim_packet_id": "5bff0c2c60bb6cb26a"
+    },
+    {
       "id": "48d56b8cb74ceb50af",
       "canonical_claim": "As Mansukh Bhai mentioned earlier, more than ₹36,000 crore has been allocated for expanding Khelo India and strengthening sports federations.",
       "occurrences": [
@@ -1022,6 +1471,30 @@
       "latest_claim_packet_id": "497f5d9cb27d070bb6"
     },
     {
+      "id": "3fec86f3cfb9b44457",
+      "canonical_claim": "Before 2014, even 25 crore people in the country did not have any social security coverage.",
+      "occurrences": [
+        {
+          "id": "8ec348477c5104de29",
+          "text": "Before 2014, even 25 crore people in the country did not have any social security coverage.",
+          "source_title": "PM’s speech during Rashtriya Ekta Diwas",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+          "published_at": "2026-10-31T17:23:05+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-11-07T07:07:07.717371+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-31T17:23:05+00:00",
+      "last_seen": "2026-10-31T17:23:05+00:00",
+      "latest_checked_at": "2026-11-07T07:07:07.717380+00:00",
+      "latest_claim_packet_id": "fcdfebaadb9548b5bd"
+    },
+    {
       "id": "5671ab04730ed97a32",
       "canonical_claim": "But in the 21st century, especially in this third decade, a major transformation is taking place.",
       "occurrences": [
@@ -1068,6 +1541,78 @@
       "last_seen": "2026-10-25T13:30:15+00:00",
       "latest_checked_at": "2026-11-02T11:32:45.145586+00:00",
       "latest_claim_packet_id": "60ae96f665f22ef03b"
+    },
+    {
+      "id": "8749b2fb80e192c533",
+      "canonical_claim": "By March 2026, not a single district remained in the country that was still affected by Naxalism.",
+      "occurrences": [
+        {
+          "id": "b3a1b9f733d917bffc",
+          "text": "By March 2026, not a single district remained in the country that was still affected by Naxalism.",
+          "source_title": "PM’s speech during Rashtriya Ekta Diwas",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+          "published_at": "2026-10-31T17:23:05+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-11-07T07:07:07.657278+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-31T17:23:05+00:00",
+      "last_seen": "2026-10-31T17:23:05+00:00",
+      "latest_checked_at": "2026-11-07T07:07:07.657284+00:00",
+      "latest_claim_packet_id": "967a45450613a0ad45"
+    },
+    {
+      "id": "7a6621c5db76839f58",
+      "canonical_claim": "Crores of people received the protection of insurance, which became a source of support during times of crisis.",
+      "occurrences": [
+        {
+          "id": "32e807a4a127b18eef",
+          "text": "Crores of people received the protection of insurance, which became a source of support during times of crisis.",
+          "source_title": "PM’s speech during Rashtriya Ekta Diwas",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+          "published_at": "2026-10-31T17:23:05+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-11-07T07:07:07.715791+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-31T17:23:05+00:00",
+      "last_seen": "2026-10-31T17:23:05+00:00",
+      "latest_checked_at": "2026-11-07T07:07:07.715829+00:00",
+      "latest_claim_packet_id": "8da188f67da42242aa"
+    },
+    {
+      "id": "f83922fc0166323461",
+      "canonical_claim": "During these twelve years, the nation received a leak-proof system.",
+      "occurrences": [
+        {
+          "id": "895b8e236112a24cf3",
+          "text": "During these twelve years, the nation received a leak-proof system.",
+          "source_title": "PM’s speech during Rashtriya Ekta Diwas",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+          "published_at": "2026-10-31T17:23:05+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "primary_evidence_found",
+      "human_reviewed": false,
+      "created_at": "2026-11-07T07:07:07.697855+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-31T17:23:05+00:00",
+      "last_seen": "2026-10-31T17:23:05+00:00",
+      "latest_checked_at": "2026-11-07T07:07:07.697861+00:00",
+      "latest_claim_packet_id": "aee5e9b7f062aa37a9"
     },
     {
       "id": "cea6c7e36bb7620cc4",
@@ -1190,6 +1735,30 @@
       "latest_claim_packet_id": "dac6e2327ebe0bd17a"
     },
     {
+      "id": "bf9ecb173ff4a77375",
+      "canonical_claim": "Friends, Last year, we celebrated the 150th birth anniversary of Sardar Patel.",
+      "occurrences": [
+        {
+          "id": "81597d4844ae154bbd",
+          "text": "Friends, Last year, we celebrated the 150th birth anniversary of Sardar Patel.",
+          "source_title": "PM’s speech during Rashtriya Ekta Diwas",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+          "published_at": "2026-10-31T17:23:05+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "primary_evidence_found",
+      "human_reviewed": false,
+      "created_at": "2026-11-07T07:07:07.651948+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-31T17:23:05+00:00",
+      "last_seen": "2026-10-31T17:23:05+00:00",
+      "latest_checked_at": "2026-11-07T07:07:07.651987+00:00",
+      "latest_claim_packet_id": "eaa7919332ffda542a"
+    },
+    {
       "id": "668ffb0340c95c433d",
       "canonical_claim": "Friends, New opportunities for youth are created only when the country’s economy grows, when investment increases, new industries are set up, and new sectors expand.",
       "occurrences": [
@@ -1238,6 +1807,30 @@
       "latest_claim_packet_id": "eaf894d11c6d2020fd"
     },
     {
+      "id": "c38fbf686e5e365a09",
+      "canonical_claim": "Friends, This time, at this Unity Day celebration, families from Naxal-affected regions have joined us here as special guests.",
+      "occurrences": [
+        {
+          "id": "d935358ba651efbfd0",
+          "text": "Friends, This time, at this Unity Day celebration, families from Naxal-affected regions have joined us here as special guests.",
+          "source_title": "PM’s speech during Rashtriya Ekta Diwas",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+          "published_at": "2026-10-31T17:23:05+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "reporting_found",
+      "human_reviewed": false,
+      "created_at": "2026-11-07T07:07:07.658690+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-31T17:23:05+00:00",
+      "last_seen": "2026-10-31T17:23:05+00:00",
+      "latest_checked_at": "2026-11-07T07:07:07.658696+00:00",
+      "latest_claim_packet_id": "c17ca94df00c48af2f"
+    },
+    {
       "id": "68c8c668a3a6ffcafa",
       "canonical_claim": "Friends, This year also marks 25 years since the 9/11 terrorist attacks.",
       "occurrences": [
@@ -1260,6 +1853,30 @@
       "last_seen": "2026-09-27T06:45:05+00:00",
       "latest_checked_at": "2026-10-01T14:28:22.324492+00:00",
       "latest_claim_packet_id": "71aa213d13ff043097"
+    },
+    {
+      "id": "e12988858f5211e87b",
+      "canonical_claim": "Friends, This year marks the 75th anniversary of that great work as well.",
+      "occurrences": [
+        {
+          "id": "f9698077d814ef23b5",
+          "text": "Friends, This year marks the 75th anniversary of that great work as well.",
+          "source_title": "PM’s speech during Rashtriya Ekta Diwas",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+          "published_at": "2026-10-31T17:23:05+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "reporting_found",
+      "human_reviewed": false,
+      "created_at": "2026-11-07T07:07:07.603848+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-31T17:23:05+00:00",
+      "last_seen": "2026-10-31T17:23:05+00:00",
+      "latest_checked_at": "2026-11-07T07:07:07.603885+00:00",
+      "latest_claim_packet_id": "9e7df92d355db845bb"
     },
     {
       "id": "8cdbded253031977f7",
@@ -1454,6 +2071,30 @@
       "latest_claim_packet_id": "5188ec0a1ee72de85f"
     },
     {
+      "id": "38218c2fa2c0f2fbe0",
+      "canonical_claim": "In 2015, 126 districts of the country were affected by Left-wing extremism.",
+      "occurrences": [
+        {
+          "id": "6fade0e91e0e014189",
+          "text": "In 2015, 126 districts of the country were affected by Left-wing extremism.",
+          "source_title": "PM’s speech during Rashtriya Ekta Diwas",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+          "published_at": "2026-10-31T17:23:05+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "primary_evidence_found",
+      "human_reviewed": false,
+      "created_at": "2026-11-07T07:07:07.656003+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-31T17:23:05+00:00",
+      "last_seen": "2026-10-31T17:23:05+00:00",
+      "latest_checked_at": "2026-11-07T07:07:07.656009+00:00",
+      "latest_claim_packet_id": "b09e5335ac2e2ff729"
+    },
+    {
       "id": "952f2cc1145f4088dd",
       "canonical_claim": "In Mixed Martial Arts, Soft Tennis, and certain sailing events, our players created new history by winning medals for the first time.",
       "occurrences": [
@@ -1644,6 +2285,30 @@
       "last_seen": "2026-09-19T08:41:02+00:00",
       "latest_checked_at": "2026-09-29T06:16:21.734900+00:00",
       "latest_claim_packet_id": "88c310688bc40a1b57"
+    },
+    {
+      "id": "b4be88ffd57e08bb1b",
+      "canonical_claim": "In these two years, the country has achieved several unprecedented accomplishments.",
+      "occurrences": [
+        {
+          "id": "1301fffc01d9fc55b8",
+          "text": "In these two years, the country has achieved several unprecedented accomplishments.",
+          "source_title": "PM’s speech during Rashtriya Ekta Diwas",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+          "published_at": "2026-10-31T17:23:05+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "reporting_found",
+      "human_reviewed": false,
+      "created_at": "2026-11-07T07:07:07.654841+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-31T17:23:05+00:00",
+      "last_seen": "2026-10-31T17:23:05+00:00",
+      "latest_checked_at": "2026-11-07T07:07:07.654848+00:00",
+      "latest_claim_packet_id": "0f286a25cc5e94cdc8"
     },
     {
       "id": "41ecf5ed508c101ebc",
@@ -2006,6 +2671,30 @@
       "latest_claim_packet_id": "5bb402465b7ccab062"
     },
     {
+      "id": "705f56d201408c66fe",
+      "canonical_claim": "Pride in being a citizen of this great nation, and gratitude towards Sardar Vallabhbhai Patel, who united more than 550 princely states after Independence.",
+      "occurrences": [
+        {
+          "id": "9e53317a3537eab41a",
+          "text": "Pride in being a citizen of this great nation, and gratitude towards Sardar Vallabhbhai Patel, who united more than 550 princely states after Independence.",
+          "source_title": "PM’s speech during Rashtriya Ekta Diwas",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+          "published_at": "2026-10-31T17:23:05+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "primary_evidence_found",
+      "human_reviewed": false,
+      "created_at": "2026-11-07T07:07:07.587098+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-31T17:23:05+00:00",
+      "last_seen": "2026-10-31T17:23:05+00:00",
+      "latest_checked_at": "2026-11-07T07:07:07.587137+00:00",
+      "latest_claim_packet_id": "e2faab8e9322dbe38b"
+    },
+    {
       "id": "1f2274104d864243fb",
       "canonical_claim": "Reflecting on his 30-year journey, he mentioned that I am his friend.",
       "occurrences": [
@@ -2052,6 +2741,30 @@
       "last_seen": "2026-09-27T06:45:05+00:00",
       "latest_checked_at": "2026-10-01T14:28:22.324464+00:00",
       "latest_claim_packet_id": "996d9590b2e6e7dad8"
+    },
+    {
+      "id": "9dc04586321427179f",
+      "canonical_claim": "That means where earlier 27 out of every 100 people, more than one-fourth of the population, were trapped in extreme poverty, today that number has fallen to less than 3 out of every 100 people.",
+      "occurrences": [
+        {
+          "id": "86e5e00f3d72ba7855",
+          "text": "That means where earlier 27 out of every 100 people, more than one-fourth of the population, were trapped in extreme poverty, today that number has fallen to less than 3 out of every 100 people.",
+          "source_title": "PM’s speech during Rashtriya Ekta Diwas",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+          "published_at": "2026-10-31T17:23:05+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-11-07T07:07:07.696625+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-31T17:23:05+00:00",
+      "last_seen": "2026-10-31T17:23:05+00:00",
+      "latest_checked_at": "2026-11-07T07:07:07.696633+00:00",
+      "latest_claim_packet_id": "13fbe62008016e055a"
     },
     {
       "id": "88a5ac3c2a87f04457",
@@ -2196,6 +2909,30 @@
       "last_seen": "2026-09-27T06:45:05+00:00",
       "latest_checked_at": "2026-10-01T14:28:22.324523+00:00",
       "latest_claim_packet_id": "e5dfba58007d029fbc"
+    },
+    {
+      "id": "08b5c062c515b0ca3c",
+      "canonical_claim": "The report states that in the ten to twelve years before 2024, fifty crore Indians defeated poverty.",
+      "occurrences": [
+        {
+          "id": "5b581e273d4374285c",
+          "text": "The report states that in the ten to twelve years before 2024, fifty crore Indians defeated poverty.",
+          "source_title": "PM’s speech during Rashtriya Ekta Diwas",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+          "published_at": "2026-10-31T17:23:05+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-11-07T07:07:07.694912+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-31T17:23:05+00:00",
+      "last_seen": "2026-10-31T17:23:05+00:00",
+      "latest_checked_at": "2026-11-07T07:07:07.694921+00:00",
+      "latest_claim_packet_id": "7b01525781a1d79d18"
     },
     {
       "id": "8ee6e625ac2315ff5a",
@@ -2388,6 +3125,30 @@
       "last_seen": "2026-09-19T08:41:02+00:00",
       "latest_checked_at": "2026-09-29T06:16:21.734805+00:00",
       "latest_claim_packet_id": "ec5a3ff341e75db6b8"
+    },
+    {
+      "id": "e856107fd6fd79417e",
+      "canonical_claim": "Today, I would certainly like to speak about one such major national achievement.",
+      "occurrences": [
+        {
+          "id": "37867a7a130e93dfe8",
+          "text": "Today, I would certainly like to speak about one such major national achievement.",
+          "source_title": "PM’s speech during Rashtriya Ekta Diwas",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-rashtriya-ekta-diwas/",
+          "published_at": "2026-10-31T17:23:05+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-11-07T07:07:07.693362+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-10-31T17:23:05+00:00",
+      "last_seen": "2026-10-31T17:23:05+00:00",
+      "latest_checked_at": "2026-11-07T07:07:07.693401+00:00",
+      "latest_claim_packet_id": "d6596a4ba1be64018f"
     },
     {
       "id": "0903ecf4ec768e2426",
@@ -42151,7 +42912,7 @@
     },
     {
       "id": "1bab6d98d7c66e4c8c",
-      "checked_at": "2026-10-24T10:56:59.099518+00:00",
+      "checked_at": "2026-11-07T07:07:29.562810+00:00",
       "promise_id": "BJP-2019-8338e65a5511a5dfa0",
       "year": 2019,
       "category": "other",
@@ -42265,7 +43026,7 @@
     },
     {
       "id": "7b0664c6ab207389ca",
-      "checked_at": "2026-10-29T16:57:05.972232+00:00",
+      "checked_at": "2026-11-07T07:07:39.645868+00:00",
       "promise_id": "BJP-2019-98cf7321ee347d7f34",
       "year": 2019,
       "category": "security_defence",
@@ -42290,15 +43051,15 @@
       "query": "policy terrorism firmly zero tolerance against",
       "evidence": [
         {
-          "id": "262156462567b48f73",
+          "id": "eb51fe4d33fe74931d",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "Press Information Bureau",
+          "source": "PIB",
           "source_url": "https://www.pib.gov.in",
-          "title": "PARLIAMENTS OF 10 BRICS NATIONS STRONGLY CONDEMN PAHALGAM TERRORIST ATTACK AND AGREE TO COOPERATE ON A POLICY OF ZERO TOLERANCE AGAINST TERRORISM - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5DRGJFRldnSjBBd3ZjMlEtUTRQUmZCeDFfdGVDMi1DZzJCYTFMZlhtb3pZUC1nd2xKaWhtWTE1bXI5Ymh1RFZqaDloN1BOOUdZazRaWXZjd1MzQVkxb1dRLWZMU0l4X3ZCNmlWOXFJM1U?oc=5",
+          "title": "PARLIAMENTS OF 10 BRICS NATIONS STRONGLY CONDEMN PAHALGAM TERRORIST ATTACK AND AGREE TO COOPERATE ON A POLICY OF ZERO TOLERANCE AGAINST TERRORISM - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBhdDliRzJDdm1TM2lxVXZILVFWOGowdklfYzNmN3F0dXRQbGd5aEdIVmFGUFVTbzY1cVR1UW4xUlJjeVdvb2xHanI2eV95QWJla2JEakR3Z2dIc005Y1JxR1VXZmpBRTdq?oc=5",
           "published_at": "2025-06-06T07:00:00+00:00",
-          "snippet": "PARLIAMENTS OF 10 BRICS NATIONS STRONGLY CONDEMN PAHALGAM TERRORIST ATTACK AND AGREE TO COOPERATE ON A POLICY OF ZERO TOLERANCE AGAINST TERRORISM Press Information Bureau",
+          "snippet": "PARLIAMENTS OF 10 BRICS NATIONS STRONGLY CONDEMN PAHALGAM TERRORIST ATTACK AND AGREE TO COOPERATE ON A POLICY OF ZERO TOLERANCE AGAINST TERRORISM PIB",
           "lexical_overlap": 0.217,
           "relevance": 0.442,
           "matched_terms": [
@@ -42318,15 +43079,15 @@
           ]
         },
         {
-          "id": "c3944095663d1bd96b",
+          "id": "8a7894d497ec443d3d",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "Press Information Bureau",
+          "source": "www.pib.gov.in",
           "source_url": "https://www.pib.gov.in",
-          "title": "Reinforcing commitment to strengthening national security and Modi Government’s policy of zero tolerance to terrorism, Union Home Ministry under leadership of Home Minister Shri Amit Shah today declared nine individuals as designated terrorists under pro - Press Information Bureau",
+          "title": "Reinforcing commitment to strengthening national security and Modi Government’s policy of zero tolerance to terrorism, Union Home Ministry under leadership of Home Minister Shri Amit Shah today declared nine individuals as designated terrorists under pro - www.pib.gov.in",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA5SzluMTJYNS1objM0cU93ZmNPSW91am9hVVhsY0ROcEcxUTM2YndmSmpySE9weDlZc0hMajlIM2NnWHdHWWwtd084RXBQbTlEMUVWT2dVOE5NeVplSlRHeDk2ZDhGaHN1dUE?oc=5",
           "published_at": "2020-07-01T07:00:00+00:00",
-          "snippet": "Reinforcing commitment to strengthening national security and Modi Government’s policy of zero tolerance to terrorism, Union Home Ministry under leadership of Home Minister Shri Amit Shah today declared nine individuals as designated terrorists under pro Press Information Bureau",
+          "snippet": "Reinforcing commitment to strengthening national security and Modi Government’s policy of zero tolerance to terrorism, Union Home Ministry under leadership of Home Minister Shri Amit Shah today declared nine individuals as designated terrorists under pro www.pib.gov.in",
           "lexical_overlap": 0.167,
           "relevance": 0.357,
           "matched_terms": [
@@ -42345,18 +43106,19 @@
           ]
         },
         {
-          "id": "d39ce13c0bdcdc2546",
+          "id": "c9998ba408841f9f57",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "News18",
-          "source_url": "https://www.news18.com",
-          "title": "BRICS Condemns Pahalgam Terror Attack, Calls For ‘Zero Tolerance Policy’ On Terrorism - News18",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNHltOVNxaVowMlpmaHNsNEF5ZE1YeTQxMHpkMUFoWHoybVpnOXNJUklST1J6N0NpdC1QVXd6NlZvUzI3VkVOSUZoeDBrOXpLQmlHNGtmNnZSVVBIY3FZeUt5WHhjNHRaQjRndTY4Rk1nNEpFWnRXcHVZbFl2VEMyYWJ4WEZiUlB6VnlhV0Q4Q1UzajhEeDFJeF9LWVVrMjJsdlBkeGFOSHUwNVctSHIzdC1RcHlWVlc5TnpPQ2JzR2JjTmPSAcgBQVVfeXFMTXl1ZjZtUmJNUjBHV0NfOWpSWVh4MWJ2NFBfLWhzSkQzazBNVlUwUzlBbEZXX0NRTFQ0M256T05UWDB3SjcyeUZacnlVRFljamZLcVJ3aXFTd1RreVFNYmgwVFh3cFZGZ084bl9IelI5SFQwanRWLTFSVXAyTUwxRUVmdkxrRHZ4amEwVFEtQnhfQmdOM3RpN1pOazNiMFpmODduRjJjZXczZzJLaW5fRVBTczhIYXdIcVBjRXo0NHNnZU9oa29qM08?oc=5",
-          "published_at": "2026-09-12T07:00:00+00:00",
-          "snippet": "BRICS Condemns Pahalgam Terror Attack, Calls For ‘Zero Tolerance Policy’ On Terrorism News18",
-          "lexical_overlap": 0.211,
-          "relevance": 0.351,
+          "source": "Centre for Strategic and Contemporary Research",
+          "source_url": "https://cscr.pk",
+          "title": "Pakistan’s Zero Tolerance Policy against Terrorism - Centre for Strategic and Contemporary Research",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQejlmT1lLNmhGV25TUC10MXBWNDIzS1IzS2gwNENTMl8xUFZOODAtcDBrdFlEUmJOLTlrcW9Hc1lyUjUtSGdwQUNqSFJBNTEtVEFnREVsOHVRaVFmQk11Y0dvbGlUMGZOVFJhY082NnFwaWRycE9IcnhqUDlSRTdMQk5jeWpoZm53NnRXZGc5cGJyQUk0VkN5aWtsQ3NPVzA?oc=5",
+          "published_at": "2023-03-22T07:00:00+00:00",
+          "snippet": "Pakistan’s Zero Tolerance Policy against Terrorism Centre for Strategic and Contemporary Research",
+          "lexical_overlap": 0.294,
+          "relevance": 0.469,
           "matched_terms": [
+            "against",
             "policy",
             "terrorism",
             "tolerance",
@@ -42364,6 +43126,7 @@
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
+            "against",
             "policy",
             "terrorism",
             "tolerance",
@@ -42371,69 +43134,53 @@
           ]
         },
         {
-          "id": "2ed4ec8c3edd039f86",
+          "id": "8d5f62ad230c90cbb9",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "The Times of India",
-          "source_url": "https://timesofindia.indiatimes.com",
-          "title": "'Zero tolerance' on terror: Brics declaration strongly condemns Pahalgam attack - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPNmdLWVR6ajQ2ZThBUm00UGw2UUFNVWhkVFQ4VHpjSWNNZTI5QXNVb1RsTF82NlRJY3FkaXlabmVpSDZqWF9TWk1GRVYwSk9TSjBXZjNTcWl3Z2U2Z0RJdWRQTHdId0FOa0ZsYnVuSnBzZmVnZVZsbERfUk9Jb2hISkNfSUgzSFkwQmpYeFowTThMRHVZMndzSlpZcm9HMVlmUTZJM0huQmlvaVlWRU15eWUyU0xMWm5vUVZyZzR6eWZpeE5CS1R4ejY5d0E2NU5jTjlXTkh0Ni01T2Rn0gHiAUFVX3lxTE1pdllQV21VN1ZVT19aYUtMVFk0RVdKVUdkVVpzYUpwMmdpUjA1S2ZIS2NnQW9CQ1dGZ2JlRzdIektGN19uMFp3U21aM1NJQzhldU1oYmtGNW1DbldCSk5tZnU3alM3SmZabjZmemJ5U213Q3ByaEFUcnpPVWNMZFZKWVFYRC1PdlNiWnZVNjlwODVRZWg0bUIxX0NscDdBekIyTl9rNDcwNE41QmhpdDhNYWZxVjdpVlpIb1diSGY4aFROaThJc3phSm11dnNHWmNTOHVfOVNWQlg1Ym1uem9TbGc?oc=5",
-          "published_at": "2026-09-12T07:00:00+00:00",
-          "snippet": "'Zero tolerance' on terror: Brics declaration strongly condemns Pahalgam attack The Times of India",
-          "lexical_overlap": 0.1,
-          "relevance": 0.17,
+          "source": "News On AIR",
+          "source_url": "https://newsonair.gov.in",
+          "title": "India, Indonesia reaffirm zero tolerance against terrorism - News On AIR",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWXA0cWJkaUxKQi1KWTlHVXVrbkNrajAxWVJZa1M4SFlidlZVYzlSYVZWVnB1eVYxRU5qSjNxQ3BFRU1rNUoyeHRIWlUxVzVXZnBKaFlJZnYxcDJlV1VERjh0SjVOUnc1SnhvZXRiQ0FCbEFGVVFNOHZCUlkxOVRzdkp2eWp1R1Vmd0VF?oc=5",
+          "published_at": "2026-07-08T07:00:00+00:00",
+          "snippet": "India, Indonesia reaffirm zero tolerance against terrorism News On AIR",
+          "lexical_overlap": 0.25,
+          "relevance": 0.39,
           "matched_terms": [
+            "against",
+            "terrorism",
             "tolerance",
             "zero"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
+            "against",
+            "terrorism",
             "tolerance",
             "zero"
           ]
         },
         {
-          "id": "c64c9f569d9aa4ad7f",
+          "id": "1558478b0e8c9adf32",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Bangladesh Sangbad Sangstha (BSS)",
-          "source_url": "https://www.bssnews.net",
-          "title": "Bangladesh seeks global support against evolving terrorism threats - Bangladesh Sangbad Sangstha (BSS)",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBpUEtqbFRUUmw1MUpMNkVNdHpMd0J5UnlaU1RONVNILUNKUzc3M3Nwbmh1em1VeDVpQVMwTC14NWFnWi1zeS1FZVpSUlJCXzhoTjJz?oc=5",
-          "published_at": "2026-07-02T07:00:00+00:00",
-          "snippet": "Bangladesh seeks global support against evolving terrorism threats Bangladesh Sangbad Sangstha (BSS)",
-          "lexical_overlap": 0.095,
-          "relevance": 0.165,
+          "source": "News On AIR",
+          "source_url": "https://newsonair.gov.in",
+          "title": "India and Egypt reaffirm zero tolerance towards terrorism at Joint Working Group meeting in New Delhi - News On AIR",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcWNJeFNLSVEwNmxjenhhcTVWdVJFZmpmdmk3MjltOVhFcmIwVWdad1lzaGdWd1hSeWc2MGFJR2JKb3dCT1RBYzJDcThGWHRtcnNLUmxhTmlFQmsyYW1oYlVtdGRZSXA4OHlFdjY0S3d3UUU0SS1JR0tUeGpOakpJQVQ2Y2hQRUwyNE5TRmVhTWllSFl6UnN0MEFxRml4c1ZhRjBTQXBUd2tObXFuYjNMcGZHT3NpWUpoMFoyRDZBUGFJY1pQUUE?oc=5",
+          "published_at": "2026-05-21T07:00:00+00:00",
+          "snippet": "India and Egypt reaffirm zero tolerance towards terrorism at Joint Working Group meeting in New Delhi News On AIR",
+          "lexical_overlap": 0.136,
+          "relevance": 0.241,
           "matched_terms": [
-            "against",
-            "terrorism"
+            "terrorism",
+            "tolerance",
+            "zero"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "against",
-            "terrorism"
-          ]
-        },
-        {
-          "id": "bd5ec5b1561a94da87",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "ANI News",
-          "source_url": "https://www.aninews.in",
-          "title": "Global unity against terrorism: BJP's Ravinder Raina on BRICS condemnation of Pahalgam attack - ANI News",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxONVA2OFVlR0doSGhIVjYzQjVaV3VwcmRzMU5TMHl1Y3dIVmw4X01ZS1hQYmkyNm9LX2JrYTdZRVVtTXJyQVdLSFJacmdodW5LQTg3cHZDM3gtUWtjLU5IN19FS1RwMThGUFd0QTBBazlRRXQzVHFsM1A4OE5CUGgtNWJaNTRSbGhTdllBTzVudmRpUEx2VDdhX2JNMHBFVXkzVEpGTlpaMEJHYXNTS2xuV0hPeHc5QndXemRiSGROVUMwak5qanVNbnlNeWRwZjRXSmxJYkxmdlBBdXVta3ZJWWRRN2g5bkpZTVBWMVdoUQ?oc=5",
-          "published_at": "2026-09-13T07:00:00+00:00",
-          "snippet": "Global unity against terrorism: BJP's Ravinder Raina on BRICS condemnation of Pahalgam attack ANI News",
-          "lexical_overlap": 0.091,
-          "relevance": 0.161,
-          "matched_terms": [
-            "against",
-            "terrorism"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "against",
-            "terrorism"
+            "terrorism",
+            "tolerance",
+            "zero"
           ]
         }
       ],
@@ -43995,7 +44742,7 @@
     },
     {
       "id": "0764c49dce738dbbee",
-      "checked_at": "2026-11-07T06:40:02.989034+00:00",
+      "checked_at": "2026-11-07T07:07:09.372242+00:00",
       "promise_id": "BJP-2019-18c0750d5ed71bc3d1",
       "year": 2019,
       "category": "agriculture",
@@ -44022,8 +44769,197 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
       "query": "2022 10000 enable creation farmer producer organisations fpos",
-      "evidence": [],
-      "implementation_signal": "needs_research",
+      "evidence": [
+        {
+          "id": "c795d0e1a68ab8a872",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "पीआईबी",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Funding for Farmer Producer Organisations (FPOs) - पीआईबी",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9jQVJ4ZWZyNWJvZ1Zha0V0bjNFS1luZkd4V0RPQ0pBSzFRcWthWFF4akRROS1LdHFtVmlQbmdzRGdsU3VmSWhUZlFQLV83YlVsS0VhRXlpOC1vMC1JbWJsQUFVZEl5RVZQ?oc=5",
+          "published_at": "2022-03-22T07:00:00+00:00",
+          "snippet": "Funding for Farmer Producer Organisations (FPOs) पीआईबी",
+          "lexical_overlap": 0.286,
+          "relevance": 0.476,
+          "matched_terms": [
+            "farmer",
+            "fpos",
+            "organisations",
+            "producer"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "farmer",
+            "fpos",
+            "organisations",
+            "producer"
+          ]
+        },
+        {
+          "id": "ebad02834f74455e8b",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "पीआईबी",
+          "source_url": "https://www.pib.gov.in",
+          "title": "CCEA approves scheme for \"Formation and Promotion of Farmer Producer Organizations (FPOs) \" to form and promote 10,000 new FPOs - पीआईबी",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Bc1hqeloxbmtHbVBFbUpZOWJ6d0QzZ1hWRnpSWWNpcnh5WksxN3djeXNVZ3Q5OHNHbXNQVXc5QUVMQ2NWdFFyaHNiWE1NcjA0ZkxfMmk5VXRCMzI0TV9QTFpCZmVnbjd6?oc=5",
+          "published_at": "2020-02-19T08:00:00+00:00",
+          "snippet": "CCEA approves scheme for \"Formation and Promotion of Farmer Producer Organizations (FPOs) \" to form and promote 10,000 new FPOs पीआईबी",
+          "lexical_overlap": 0.143,
+          "relevance": 0.408,
+          "matched_terms": [
+            "farmer",
+            "fpos",
+            "producer"
+          ],
+          "shared_numbers": [
+            "10000"
+          ],
+          "promise_core_overlap": [
+            "farmer",
+            "fpos",
+            "producer"
+          ]
+        },
+        {
+          "id": "6728636e409d5eca13",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "www.pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Farmer Producer Organizations (FPOs) by Primary Agricultural Credit Societies (PACS) - www.pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5HWmlxY0lsN0s5cG5IaV9aQVpyLTJ1a2JpbUtrYlBXMU1CZ0toczBSM1VUcnJLSE5LdFdQdy1Na2hzNkdCaENGZlAxUUZLQ2RPcWNYU3hyUVF5YU1kVHh4SnJ0ZmJXcFhLNFFzckJRNTQ?oc=5",
+          "published_at": "2023-12-20T08:00:00+00:00",
+          "snippet": "Farmer Producer Organizations (FPOs) by Primary Agricultural Credit Societies (PACS) www.pib.gov.in",
+          "lexical_overlap": 0.143,
+          "relevance": 0.298,
+          "matched_terms": [
+            "farmer",
+            "fpos",
+            "producer"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "farmer",
+            "fpos",
+            "producer"
+          ]
+        },
+        {
+          "id": "b82b313f3942c64635",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "10,000 FPOs Achieved under Government’s Flagship Scheme - pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11anpMcmctUXlnTEItQXN0d2FGQ3pDWVYxMXhuMTVXcnBOcEV2ME51SXM2elF6VmtVRS1lM1Q3YVhfa1BXS191aTJJSGhxSG40ckM5YVp3S0VXbE1IeFFxOHA3eFA2cml2?oc=5",
+          "published_at": "2025-02-28T08:00:00+00:00",
+          "snippet": "10,000 FPOs Achieved under Government’s Flagship Scheme pib.gov.in",
+          "lexical_overlap": 0.059,
+          "relevance": 0.254,
+          "matched_terms": [
+            "fpos"
+          ],
+          "shared_numbers": [
+            "10000"
+          ],
+          "promise_core_overlap": [
+            "fpos"
+          ]
+        },
+        {
+          "id": "37cbc94f78addf5188",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "The Farm Acts are steps taken by the Government towards doubling farmers income by 2022 -- Agriculture Minister Narendra Singh Tomar - pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE50dWRxRkdQbVRYbnBTZmtiUGdmOXBIT3QwY2F6RHhpd0pZZzR2OGluOHlHa0FPUWRiYlBSRmJsUFlMSEZ0cjcwOE5yZVBtaFlaRk15U1FHVmJsQlRiMThIb1RtZG50OVpPUzJBeVdxUG0?oc=5",
+          "published_at": "2020-12-17T08:00:00+00:00",
+          "snippet": "The Farm Acts are steps taken by the Government towards doubling farmers income by 2022 -- Agriculture Minister Narendra Singh Tomar pib.gov.in",
+          "lexical_overlap": 0.042,
+          "relevance": 0.237,
+          "matched_terms": [
+            "farmers"
+          ],
+          "shared_numbers": [
+            "2022"
+          ],
+          "promise_core_overlap": [
+            "farmers"
+          ]
+        },
+        {
+          "id": "531ed5a861c168b322",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Outlook India",
+          "source_url": "https://www.outlookindia.com",
+          "title": "Farmer Producer Organization Scheme A Path To Farmers’ Prosperity - Outlook India",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMVpLQmxEZW5udS1scVRES3BVcEduZnhJaEdLcU1HY2hKWndwZ0g1dWpIRl9PRHdPaVQ5c2RFaV9PTVZ6akw3NGpnYjNudkwxaEJuOG81VlFJdVZ1emkzbTN0NXFlMHpnRlhqZHlTcFhjd21Ba1cxQWtoOVBGVTBkUy05bjFqSkhKOEI0SFhHeG9YSjQwT3lfNVNwNWRKVjN2Wl9rSEgyQWlXY1BCbzVMQll2eUNGMkZm0gHGAUFVX3lxTE16WE9xMW1VUnQzRmR2VGd0OWFPX2Q1RFN4S3ZWd2duMXBOdExXeWlzSXByV05JNmE5WWEzZnFBb1hzOFduZ0R5OXhsZko1N1JhclpXNlpVQ21QZFR0THFTdkVCc1B3ZHBJRFFWMU8wTzlOMDNOTjcxQVVNOWFsT3A2RXc0NzdYX3dBaFBmV0hsSlhsc2YxdWlhMHE2SFM5RTc4TU9xRGhTeWtWUW1wV3IwZ1hiTkJtQU1ZN3RVcUlZeDFXMlM4Zw?oc=5",
+          "published_at": "2024-01-16T08:00:00+00:00",
+          "snippet": "Farmer Producer Organization Scheme A Path To Farmers’ Prosperity Outlook India",
+          "lexical_overlap": 0.176,
+          "relevance": 0.281,
+          "matched_terms": [
+            "farmer",
+            "farmers",
+            "producer"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "farmer",
+            "farmers",
+            "producer"
+          ]
+        },
+        {
+          "id": "dd7820458d183592db",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "The Farm Acts are steps taken by the Government towards doubling farmers income by 2022 -- Agriculture Minister Narendra Singh Tomar - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE53cDJRZVNzTXVKRjN6WkpXaWlIM0lsZ3JubmkzNTVscm43bmlyZlQxZXlnNUFoOC1QR01CMy1KRW1oVzQ4bHg4NmxWZ09ESW5iekJJdHR2dmVVU2drNktqMjJzQTlITjF5?oc=5",
+          "published_at": "2020-12-17T08:00:00+00:00",
+          "snippet": "The Farm Acts are steps taken by the Government towards doubling farmers income by 2022 -- Agriculture Minister Narendra Singh Tomar Press Information Bureau",
+          "lexical_overlap": 0.04,
+          "relevance": 0.185,
+          "matched_terms": [
+            "farmers"
+          ],
+          "shared_numbers": [
+            "2022"
+          ],
+          "promise_core_overlap": [
+            "farmers"
+          ]
+        },
+        {
+          "id": "07618ce32d181ef2b4",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Down To Earth",
+          "source_url": "https://www.downtoearth.org.in",
+          "title": "Heavy sway: Big corporations with power over farmer producer companies is diluting their purpose - Down To Earth",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOWmdHYVFuUlNEdnBBcDJhQ3BGWVRxVUkzWlZOY2NEeGNfVDZVTk1sa2JrOFZSbjF2dDEtSUFKcEhUY3VoZG42UEJhd3J5OUZsUVlrTDcyOUhtRHp6VGZCdUZfUW5nalpsTUtsRGFKZlIydjRwZjFidlo0VUtsQURoX1M5eHdQVXJJMHYtMDQwSGgwS1EzUURwdXZnenJYRnBGdTNWbUNhYVk2OXBIYUZTSDQ1QXo4bDNZamxZYjh1WkNDR0dMZmtUdGtuUVYwRC1qa0x3aXZiSEhFZFnSAegBQVVfeXFMUGd5TTgtUGhRNjRpd3JWb2d1RTZjX1pMR3lvYko1dDRZWUxDUTFaZjNYQWRDSzdrUC1FdmF2WE9oM3RUME56RGxUd3JJaGh0VnA5elRnTWNsaUEzbzU4TFE1UEt0Ylh2TldvS20yOXdfZHVDOFluMlJCbkR2N0tveWhYaUNqVGJRTGs0WG5WQjdjU3RFR1NTcF90RllEVUM0RnhtTDAzQlF5OTRrb3A0MEJMdDhfUUEwbGdKNXpsZmE4clJ5MlFJNUVvbV9KNUIxQUNQdGpYQ0tvNWR2cnExMnptdFhld3ZsVA?oc=5",
+          "published_at": "2023-04-20T07:00:00+00:00",
+          "snippet": "Heavy sway: Big corporations with power over farmer producer companies is diluting their purpose Down To Earth",
+          "lexical_overlap": 0.091,
+          "relevance": 0.161,
+          "matched_terms": [
+            "farmer",
+            "producer"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "farmer",
+            "producer"
+          ]
+        }
+      ],
+      "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -44428,7 +45364,7 @@
     },
     {
       "id": "ea11c276b842f8c9b7",
-      "checked_at": "2026-10-27T22:39:37.732554+00:00",
+      "checked_at": "2026-11-07T07:07:36.762453+00:00",
       "promise_id": "BJP-2019-9335e1bbb1f80b372a",
       "year": 2019,
       "category": "agriculture",
@@ -44475,6 +45411,52 @@
             "crore",
             "hectares",
             "land"
+          ]
+        },
+        {
+          "id": "87e767c9954df4f7c6",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Gujarat Samachar",
+          "source_url": "https://english.gujaratsamachar.com",
+          "title": "Gujarat's Soil Fertility Declines: Over 1 Crore Hectares of Land at Risk from Soil Erosion, Salinity and Desertification - Gujarat Samachar",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcTRjX2FkRDRsOUczVmRTY0l5d0tlWVFRR051SXdYMnY4cS1hWnhfUEk1eW9JUHJyT1YzdXplQlBkem5SSnFmdWlMOV85WjlvV1B3YjRHblZ5MFZCaTA4MGxWS2VtNTg1azh6SUw5M1VKLWpYeUFkY0lxMURVU0pWN2g5d2JkaW9QWGEwUldMZ3RuUDV5TzJsTUxQRk5qZDNKYmc?oc=5",
+          "published_at": "2026-10-12T07:00:00+00:00",
+          "snippet": "Gujarat's Soil Fertility Declines: Over 1 Crore Hectares of Land at Risk from Soil Erosion, Salinity and Desertification Gujarat Samachar",
+          "lexical_overlap": 0.143,
+          "relevance": 0.248,
+          "matched_terms": [
+            "crore",
+            "hectares",
+            "land"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "crore",
+            "hectares",
+            "land"
+          ]
+        },
+        {
+          "id": "3e24fa7714e6ffc868",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Times of India",
+          "source_url": "https://timesofindia.indiatimes.com",
+          "title": "Over 1.4 crore hectares affected by drought; more tehsils likely to be added to list of affected areas: A - The Times of India",
+          "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPSWFvcXc1MHBCN1hSM1loRHV3R054SGYxY01ib0JQZ3FxekpTb2xVU040OGRCZng2WHE1RjFfRlZVSGRTNk9ZZlVCWlNRcWxaaFZ0RzZheDlFYmdWR0ZpSVVlMFB0ZWNpanBnZ29YTkdEdnlheXUwMGxNZGY2V3dvbjRka29YOEczV2lyRWdQNk1iUHltRHFYc3BmZU50aHRLN2xqX1NZU004UXhFcTU5UjVwLTBIb0R6ZThDS2xMVzdNZXFDaDc4RkJHc0h3RURaY3lLTEFObW5mQTJaaXdaRUN0akVyX0dIVk9zbVFia2Z0OGFYR0pBU0R3Nmt3RkZ2NmlfOG9SbjR5MlgzazVpcmNWMmJyeXptM1ZQcThNLUd6UXFyY1lkcNIBrgJBVV95cUxQSEpBOWJuMlNDTG1zZHBMQTRlM1hIV0VOQ2diOHp6SVBvNXRucmU4dDdsdmllaU5qeWpWZlVDY1lGU2Y0RVJNMS1SekRpaHJDcTNiWmIwOVJ1bEQtaUtBNVlaOWNzZE5PajVSQ1piOExzaUMwNjFLeS1KeEVNOUhPNEpRV3o0d1ZhNXM4ZDZ2ZEJHX21ZSUM2OENqM3FMZnNVTFNoVkpoNDU5OXViTzZKN1VkN2NuYVZDRW5yZTRSYTNmT01LWEtNaWtXUFFYdUVxNy1EcnpoX3BTV0tEam1IbnBzYlNzS0VNeEhEV2RYTDdFQVBrU0FObkI4RVl0NkZfbmpYTzBvM0tidnFIdXhXeWRUZ1hfTXczMXJwdXRQOElLZUJmS0tSUkpsUFhsdw?oc=5",
+          "published_at": "2026-11-05T18:45:00+00:00",
+          "snippet": "Over 1.4 crore hectares affected by drought; more tehsils likely to be added to list of affected areas: A The Times of India",
+          "lexical_overlap": 0.1,
+          "relevance": 0.17,
+          "matched_terms": [
+            "crore",
+            "hectares"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "crore",
+            "hectares"
           ]
         }
       ],
@@ -45413,7 +46395,7 @@
     },
     {
       "id": "f5811520c1d5623f19",
-      "checked_at": "2026-11-07T06:40:09.983143+00:00",
+      "checked_at": "2026-11-07T07:07:10.984591+00:00",
       "promise_id": "BJP-2019-1d3e95fa9344e842f3",
       "year": 2019,
       "category": "infrastructure",
@@ -45534,7 +46516,7 @@
     },
     {
       "id": "92d6920a15fb42f812",
-      "checked_at": "2026-11-07T06:41:07.967106+00:00",
+      "checked_at": "2026-11-07T07:07:23.376269+00:00",
       "promise_id": "BJP-2019-6abf03adda773fec98",
       "year": 2019,
       "category": "governance",
@@ -45559,7 +46541,74 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
       "query": "2022 every gram panchayat connected high speed",
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "5dc320f75911428cc2",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "www.pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Release of Panchayat Advancement Index (PAI) 2022-23 - www.pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE91OTJpU3p0RGViS28wWnFyQzF0WWxNelhfeUc0TUE2cXhrcTlGZGllaFN3YkhvbFp5aGJpRlJJN1VxT2Q5U1N1bGJ2MHNIQlg5WmU1TGNZdWplT1d2NndJaTBZU0V6Ym56NU5Tdl9VVkY?oc=5",
+          "published_at": "2025-04-09T07:00:00+00:00",
+          "snippet": "Release of Panchayat Advancement Index (PAI) 2022-23 www.pib.gov.in",
+          "lexical_overlap": 0.059,
+          "relevance": 0.254,
+          "matched_terms": [
+            "panchayat"
+          ],
+          "shared_numbers": [
+            "2022"
+          ],
+          "promise_core_overlap": [
+            "panchayat"
+          ]
+        },
+        {
+          "id": "ec146c5b1ff7a5532d",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Evidence-Based Rural Development Gets a Push with Rollout of First-Ever Panchayat Advancement Index (PAI) Baseline Report for FY 2022-23 - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9aSkhNaGFxcWdiYmFZdzZyUHhVNXh5bXZlU0hSdWlsUW9qRXFIMXZ2N1h1MmtTRWFaOFA3T2k0ckszYWhhbHhsTDVQdWMzSzB4YVJxSGV1NEZVbE55aWJpTGxnYUJIWVZM?oc=5",
+          "published_at": "2025-04-09T07:00:00+00:00",
+          "snippet": "Evidence-Based Rural Development Gets a Push with Rollout of First-Ever Panchayat Advancement Index (PAI) Baseline Report for FY 2022-23 PIB",
+          "lexical_overlap": 0.042,
+          "relevance": 0.237,
+          "matched_terms": [
+            "panchayat"
+          ],
+          "shared_numbers": [
+            "2022"
+          ],
+          "promise_core_overlap": [
+            "panchayat"
+          ]
+        },
+        {
+          "id": "92658b299eb8db4fdc",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Down To Earth",
+          "source_url": "https://www.downtoearth.org.in",
+          "title": "To meet 2017 target, one million rural households need to be connected with piped water supply every day - Down To Earth",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPXzJQb3FpVjNvUFdua080RTZMU0JORnV6emZLZWZtbmQxVWZRMFFMZlp1Mm0xNVo2X0FEU3pnSkhQU01KQTBEeDI4UTdabzh3ZTlvYzZ6M1pIa2UzZlpubEdON2pZRkQzcjUyN0drQ1Q4Tk13OURpMUVhRGNKR3pfd3pINXpiY051Vy1BTlIya1NJUzhsaTFfWHY4UQ?oc=5",
+          "published_at": "2017-10-26T07:00:00+00:00",
+          "snippet": "To meet 2017 target, one million rural households need to be connected with piped water supply every day Down To Earth",
+          "lexical_overlap": 0.087,
+          "relevance": 0.157,
+          "matched_terms": [
+            "connected",
+            "every"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "connected",
+            "every"
+          ]
+        }
+      ],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -45575,7 +46624,7 @@
     },
     {
       "id": "30a6f241984c70e7a1",
-      "checked_at": "2026-10-27T22:39:32.720308+00:00",
+      "checked_at": "2026-11-07T07:07:33.192998+00:00",
       "promise_id": "BJP-2019-8fb8520a8e86b9fa8d",
       "year": 2019,
       "category": "other",
@@ -45598,29 +46647,7 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
       "query": "reaches defining milestone independence pledge adopt",
-      "evidence": [
-        {
-          "id": "0c321bd6b73a4ffd2d",
-          "scope": "broad_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "ADDRESS TO THE NATION BY HON’BLE PRESIDENT OF INDIA SMT. DROUPADI MURMU ON THE EVE OF THE 76TH INDEPENDENCE DAY - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ZWkNOZ1pjVnJaZzBQOFBfa2NtYXgwOXNiTW1vbEw0WElPZk9xNUZlaXI5OGdXNXc4dXFrZWRSTWkwRi1Yc0t4dllZMkZyYWRkbmZoY0QxWDVvOXA0MFBEeGVLcGFhNk0w?oc=5",
-          "published_at": "2022-08-14T07:00:00+00:00",
-          "snippet": "ADDRESS TO THE NATION BY HON’BLE PRESIDENT OF INDIA SMT. DROUPADI MURMU ON THE EVE OF THE 76TH INDEPENDENCE DAY Press Information Bureau",
-          "lexical_overlap": 0.08,
-          "relevance": 0.2,
-          "matched_terms": [
-            "independence",
-            "th"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "independence"
-          ]
-        }
-      ],
+      "evidence": [],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -45925,7 +46952,7 @@
     },
     {
       "id": "e7830fb4120ad56b15",
-      "checked_at": "2026-10-29T16:57:09.082620+00:00",
+      "checked_at": "2026-11-07T07:07:41.927924+00:00",
       "promise_id": "BJP-2019-aa77def8cc401cb502",
       "year": 2019,
       "category": "agriculture",
@@ -45950,17 +46977,17 @@
       "query": "goods service tax while social security",
       "evidence": [
         {
-          "id": "f1a060f6cf5f6479c6",
+          "id": "67a5bd74b41c1ce4f4",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "Press Information Bureau",
+          "source": "pib.gov.in",
           "source_url": "https://www.pib.gov.in",
-          "title": "Frequently Asked Questions (FAQs) on Goods and Services Tax (GST) - Press Information Bureau",
+          "title": "Frequently Asked Questions (FAQs) on Goods and Services Tax (GST) - pib.gov.in",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8zc0Z5enRjZ19RaUVFdjRjbVgxMWdFYmNMNllCV3VFdVNNNjBrRFg0Q2RZbU9xM3hGMjRDNWdiMVFGX2ktVFo0SWhycnRCNmN4emY5S09ldks1NG50RFVGODk5anNQNDRkWnRUZHFB?oc=5",
           "published_at": "2016-08-03T07:00:00+00:00",
-          "snippet": "Frequently Asked Questions (FAQs) on Goods and Services Tax (GST) Press Information Bureau",
-          "lexical_overlap": 0.095,
-          "relevance": 0.215,
+          "snippet": "Frequently Asked Questions (FAQs) on Goods and Services Tax (GST) pib.gov.in",
+          "lexical_overlap": 0.1,
+          "relevance": 0.22,
           "matched_terms": [
             "goods",
             "tax"
@@ -45971,24 +46998,25 @@
           ]
         },
         {
-          "id": "230b04aca9db53724a",
+          "id": "ae653cc332f3f5792e",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "MultiState",
-          "source_url": "https://www.multistate.us",
-          "title": "State Digital Advertising Tax Laws & Digital Goods Taxes 2026 - MultiState",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcG1RcjcxSVlSY3gzRnliZlZqQ0hwbFJtamE1c2ZpQ3NEMDNOMUhKRGJlell4VVRjcEx4alF5aEZJeWM3WFNsa0g5QmJWem55Z3ozZEFjVVZSQ05qeWJtc3puRVhJa1dKcE16RXFUYU9KZnY1MWM2V01vQnFLV19OUnVCZDZYVVA4UVVZOVE0bm9rb0NmN2ttZjRwMnhSZ3d2WVphb0dDQnlacDNYSFNtb0VBb0RCZl9k?oc=5",
-          "published_at": "2026-07-30T07:00:00+00:00",
-          "snippet": "State Digital Advertising Tax Laws & Digital Goods Taxes 2026 MultiState",
+          "source": "Congressional Budget Office (.gov)",
+          "source_url": "https://www.cbo.gov",
+          "title": "Testimony on Social Security’s Finances - Congressional Budget Office (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1qM0R4aWt2dUVnRUdjNmdTRHZJM3JfNWQ3NDBhYkU0MlFuTmZMQ1E3U0hFN0NleEloejNtbGdYbzVpSTBTeUx0ODBLbXNndw?oc=5",
+          "published_at": "2026-03-25T07:00:00+00:00",
+          "snippet": "Testimony on Social Security’s Finances Congressional Budget Office (.gov)",
           "lexical_overlap": 0.111,
           "relevance": 0.181,
           "matched_terms": [
-            "goods",
-            "tax"
+            "security",
+            "social"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "goods"
+            "security",
+            "social"
           ]
         }
       ],
@@ -47130,7 +48158,7 @@
     },
     {
       "id": "5a2808291029bf45c0",
-      "checked_at": "2026-10-27T22:39:35.351134+00:00",
+      "checked_at": "2026-11-07T07:07:34.968767+00:00",
       "promise_id": "BJP-2019-922eaf72168d01aebd",
       "year": 2019,
       "category": "jobs_economy",
@@ -47474,7 +48502,7 @@
     },
     {
       "id": "6a5eeb99a65179915b",
-      "checked_at": "2026-10-24T10:56:58.529897+00:00",
+      "checked_at": "2026-11-07T07:07:28.926693+00:00",
       "promise_id": "BJP-2019-804c74cae3cec83084",
       "year": 2019,
       "category": "other",
@@ -47499,40 +48527,15 @@
       "query": "mission level sustainable solid waste management",
       "evidence": [
         {
-          "id": "1173806943326a9389",
-          "scope": "broad_official_search",
-          "tier": "primary",
-          "source": "Eco Clubs For Mission LiFE",
-          "source_url": "https://ecoclubs.education.gov.in",
-          "title": "Swachhata Hi Seva · Solid Waste Management Drive - Eco Clubs For Mission LiFE",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1lUm1zLWxBUnpZTURob3VBTDJncVFxSWJvRmpnNDdvMHQ5enhoUERlM0VVbnhSQktBN2d1aTU5Skh5c2dzcDBpX0FXMGV6QmlQNTJvZlJRdGNlNU1KWGhsQw?oc=5",
-          "published_at": "2026-09-16T06:55:30+00:00",
-          "snippet": "Swachhata Hi Seva · Solid Waste Management Drive Eco Clubs For Mission LiFE",
-          "lexical_overlap": 0.25,
-          "relevance": 0.44,
-          "matched_terms": [
-            "management",
-            "mission",
-            "solid",
-            "waste"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "management",
-            "solid",
-            "waste"
-          ]
-        },
-        {
-          "id": "549d90f9551fd0fe9d",
+          "id": "1c901aedd079de635c",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "Press Information Bureau",
+          "source": "pib.gov.in",
           "source_url": "https://www.pib.gov.in",
-          "title": "DDWS Holds a National Level Review Meeting with Deputy Commissioners/ District Magistrates/ Collectors on Jal Jeevan Mission 2.0 and Solid Waste Management Rules 2026 under Swachh Bharat Mission (Grameen) - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9hcGNIQ2dwLUliMFRCVmdNeERReDRvaXZBeGZpU0YxbkRXSGZhTkRvclNsVGNoWkVXcnFZZWd4bnlialp5VUFWX2VSWDN6OEtMcmw4QjZJT01BWlBPS3lHVDJiVnV1ZzN4?oc=5",
+          "title": "DDWS Holds a National Level Review Meeting with Deputy Commissioners/ District Magistrates/ Collectors on Jal Jeevan Mission 2.0 and Solid Waste Management Rules 2026 under Swachh Bharat Mission (Grameen) - pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0zY1Y1eXBRZG9XVDhYR21yMGU1ZkUyUUE3M3pKZk85Ml9GRFZaWmRldjltdzFoRGxQTVAtNHkzSGpZV0pMMUN5czQyVHNNM05ZOWJOVTdwNGVQMDdpcjg1M3lRQlctaEJKdmRGMGZNRTUtaFpobnRrODln?oc=5",
           "published_at": "2026-05-22T07:00:00+00:00",
-          "snippet": "DDWS Holds a National Level Review Meeting with Deputy Commissioners/ District Magistrates/ Collectors on Jal Jeevan Mission 2.0 and Solid Waste Management Rules 2026 under Swachh Bharat Mission (Grameen) Press Information Bureau",
+          "snippet": "DDWS Holds a National Level Review Meeting with Deputy Commissioners/ District Magistrates/ Collectors on Jal Jeevan Mission 2.0 and Solid Waste Management Rules 2026 under Swachh Bharat Mission (Grameen) pib.gov.in",
           "lexical_overlap": 0.19,
           "relevance": 0.38,
           "matched_terms": [
@@ -47550,40 +48553,94 @@
           ]
         },
         {
-          "id": "b8e397c51a191749e3",
+          "id": "098e2f7bb1c1440ada",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "News On AIR",
-          "source_url": "https://newsonair.gov.in",
-          "title": "Ladakh Intensifies Waste Management Awareness Campaign Under Swachh Bharat Mission Gramin - News On AIR",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQVRIb25iSml5T01JZGViYWEtcl9ackNoMWZyZkxWZ196UDRZbDE1Q1U0T1JaR21KWlpDRHF4QVJZY0pQV3ptTGhTelYtZjVpLVc4VWYxc1VTNXFKTjlPLXhHeS0yX1RMaUkwblFjbWJYR1pPVVdISVF6bnh5T2J3U3RleGtzVXJ1T25Jb19nOWpKVkdGcGJUUmpjY1MyZFRLdnRSbWI4T055bGxJNkZoWnJyM1dkUQ?oc=5",
-          "published_at": "2026-06-03T07:00:00+00:00",
-          "snippet": "Ladakh Intensifies Waste Management Awareness Campaign Under Swachh Bharat Mission Gramin News On AIR",
-          "lexical_overlap": 0.176,
-          "relevance": 0.281,
+          "source": "CEEW",
+          "source_url": "https://www.ceew.in",
+          "title": "How can Indian Cities Boost Sustainable Solid Waste Management? - CEEW",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZk5xdEhORzh3a0J4VWNfNS1YVHZmT2hqdURPVVdmRGFOZFd3NktYTDhhUkxURmdpTHUwZTVYRzBRQ1pDQTI2akNVRmpLV2Y2bkU2R1ZGQ3JQcjlydHp6cHE0R3ZNVm1kMlV4dVlXX2o3amk3YTV1UTExNXhYamdLM0QteVdPMXBobmNoRGdpR3otM0Joa1pvem5lalVZRk9ycWxRY0J1S3k?oc=5",
+          "published_at": "2025-03-04T08:00:00+00:00",
+          "snippet": "How can Indian Cities Boost Sustainable Solid Waste Management? CEEW",
+          "lexical_overlap": 0.308,
+          "relevance": 0.448,
+          "matched_terms": [
+            "management",
+            "solid",
+            "sustainable",
+            "waste"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "management",
+            "solid",
+            "sustainable",
+            "waste"
+          ]
+        },
+        {
+          "id": "23c9198d32d24cc5e8",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Hindu",
+          "source_url": "https://www.thehindu.com",
+          "title": "T.N. govt. issues order for new State-level mission for solid waste management - The Hindu",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPcUZzaHY2eWVLMW5tRVNNOTA4U25nbzRYSlBaSnNxVVE4WHhYeDFFOWx2VVpWZDFPWnZDSWR5MUpCMUdka3FfRXVjX2ZYN0tkS3RSclZRY00zeHdoSENIMDIxSnZoT0hxeUlVZXZGeG5KMy1DRHUzS0p1V3Q4clowUTExdG5XeUgxWGhGRWpWSGdoTS1fblExT1ZfcmZIOTlvWF9qa3hxS3loc1ljWGpTUVVJZk5CWk9rMGgyU196b3FjZ0lnSGdzMFhJUWpvdTg2YVNnTUxkV1c3ckhlT0HSAeQBQVVfeXFMUGNwR1NqMHp5anB6RFlRNXVhdmZIT2RoT2xYZGR1MjF2dTVmTVpRQWNjdHR5T0MxNDZxdldGblZnek9tLWJQZ1B4OHFpU3lwOHd2MGJWdTlVMXI4ZWRJS2lrSFFJOE9sNTd6TVJlTFFXdDgteU1GQ3E2VGVaUlY4MlgzOE5HbTRjdFNUcm9LSHJPcDBOWWNMV2c0VGgtM1FITnlVRmFvbHFoeENNeFQxcmFBaldVM3ZPcDh3WGwyODQ1V0o3RE43S1ZMZ1BvMEw2WWZvYmpaUXFmcGYyY3lyT0dzQlhD?oc=5",
+          "published_at": "2025-04-03T07:00:00+00:00",
+          "snippet": "T.N. govt. issues order for new State-level mission for solid waste management The Hindu",
+          "lexical_overlap": 0.286,
+          "relevance": 0.426,
           "matched_terms": [
             "management",
             "mission",
+            "solid",
             "waste"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
             "management",
+            "solid",
             "waste"
           ]
         },
         {
-          "id": "b0c8ce4590e0175da3",
+          "id": "f7c38d5cbfd22e9226",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Rising Kashmir",
-          "source_url": "https://risingkashmir.com",
-          "title": "Capacity building session on Solid Waste Management Rules 2026 held in Kulgam - Rising Kashmir",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORGhLVzJaTmpNOVZTTGNhWWtDdjZaWlg3VHZBYnU2R1ljUVhpNUpvX3FicU80cEc5Ti14NzVnN3lDaUpFN0ZUYi14ZWlXZEFGbVNJMVBtcVpSbmZhcEt4NU9pN2cxN2NFd2MtcV8yRzZaZ202Sks3VUN5TzluVG93aXpQREFxTTQyZ0MtM09ZY1pRNi0wOG9DMFc2b1RrMnd3aDNUYW03TWdPUDlmRlhYdllnUndaTjJDbllVWS1uVXVYbG1FTWRPYnZVR3RWRXV2cEhUdmdRaUhLOGc?oc=5",
-          "published_at": "2026-09-10T07:00:00+00:00",
-          "snippet": "Capacity building session on Solid Waste Management Rules 2026 held in Kulgam Rising Kashmir",
-          "lexical_overlap": 0.176,
-          "relevance": 0.281,
+          "source": "cseindia.org",
+          "source_url": "https://www.cseindia.org",
+          "title": "Sustainable Solid Waste Management With Special Focus on Fractions Recovered from Dumpsite Remediation to Strengthen Implementation of SBM 2.0 - cseindia.org",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZ1ZQVkVFZjdFcVV4QXhZd1NVN1RxUkJULVlvOC0yeXo1ZFdEbzEyY004Qm9TWEFiSmFjN2NUMkJkZXA4bFFqZlAtdDFVRWJvUW4zZmMzUEk4UlAxQ3A1ZEp5bW01dXVkX3lmQnEwM1VFUzBDQlhTaWVQRmJranJJdVJwNjBXdnEwTE1JVXJ5UlpkSk1XRThSTXpKc0RFeW5zQTZrUDlRcERnbzBoTGhYUklRTERZTk5URXBJdzJfaFo?oc=5",
+          "published_at": "2024-04-10T06:44:25+00:00",
+          "snippet": "Sustainable Solid Waste Management With Special Focus on Fractions Recovered from Dumpsite Remediation to Strengthen Implementation of SBM 2.0 cseindia.org",
+          "lexical_overlap": 0.2,
+          "relevance": 0.34,
+          "matched_terms": [
+            "management",
+            "solid",
+            "sustainable",
+            "waste"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "management",
+            "solid",
+            "sustainable",
+            "waste"
+          ]
+        },
+        {
+          "id": "86ec6476a063b26793",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "DIPR Nagaland",
+          "source_url": "https://ipr.nagaland.gov.in",
+          "title": "LECTURE ON SOLID WASTE MANAGEMENT ORGANISED AT NU - DIPR Nagaland",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQb0trQmdMcjVJZ2NKQ2ZtSURlT0wwWjJVMll3V2JyOVJRYUI1RklLeHN0VjZtWkI1U2w1dVlzTHVnNktrYk5fakU0ZEhheEhxcUwxNVVwLS05cjRpVUVCaEVOaHFMWWRndjJpQUhFQU9TQTFmNkhpdHJ4SUZBb1Z5UG9uZ0pDWERvMWxxZA?oc=5",
+          "published_at": "2026-10-22T07:00:00+00:00",
+          "snippet": "LECTURE ON SOLID WASTE MANAGEMENT ORGANISED AT NU DIPR Nagaland",
+          "lexical_overlap": 0.214,
+          "relevance": 0.319,
           "matched_terms": [
             "management",
             "solid",
@@ -47597,17 +48654,41 @@
           ]
         },
         {
-          "id": "a46812de88107526ef",
+          "id": "b706ce71dcb9b26973",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Kashmir Convener",
-          "source_url": "https://kashmirconvener.com",
-          "title": "Two-Day UT-Level Workshop on Solid Waste Management, Planning Begins at IMPA Srinagar - Kashmir Convener",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQT3dta0V6RWhMRnRDTndwRWpjUGU4b1RqcnY2b2lqSS1Mcm5UNVZhVmg0VVNWa1pzU2ZKUzAtNllfZmFSdy1vbkhKdUN2b1VITkN2MUdZNnU0cGFKN0tjRVliclRXbzhqVWgyLTF3WGJZWXhnX1BYYUU0WlVkclppUDJITWgtTFVqRGVodjBxTHNZS0ZPanluU053dnJKeHhSaEdnR0duOTJiU3lQeGFDUk9HVQ?oc=5",
-          "published_at": "2026-06-24T07:00:00+00:00",
-          "snippet": "Two-Day UT-Level Workshop on Solid Waste Management, Planning Begins at IMPA Srinagar Kashmir Convener",
-          "lexical_overlap": 0.167,
-          "relevance": 0.272,
+          "source": "orfonline.org",
+          "source_url": "https://www.orfonline.org",
+          "title": "Rethinking Waste-to-Energy: The Indispensable Role of Sustainable Waste Management - orfonline.org",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOanhXVHBGQ1o2NEpjQl80UVRVUGZGdk1Zcm5MdFdvTDFCeGl3eV82ZkV5RkVwc0ppQmE1QnNaLU9UeTlyQXo2aGxlZ0syWjJnU2V4VmNhR3RWYllQNzZqQ21uM2RMQ2RHanRQZDU1U1hUMXppZ2R5V19ZTXRIb3BTUE9fRU1iRGp0OS1oUnR3eVd0S3BLMWJjQ29QWnRXbVE5MEV3cE9vYVNnbzBjSmM2VGo4NDM5RFU?oc=5",
+          "published_at": "2025-04-28T07:00:00+00:00",
+          "snippet": "Rethinking Waste-to-Energy: The Indispensable Role of Sustainable Waste Management orfonline.org",
+          "lexical_overlap": 0.2,
+          "relevance": 0.305,
+          "matched_terms": [
+            "management",
+            "sustainable",
+            "waste"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "management",
+            "sustainable",
+            "waste"
+          ]
+        },
+        {
+          "id": "0e03296c9a0a2e081e",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Frontiers",
+          "source_url": "https://www.frontiersin.org",
+          "title": "Municipal solid waste management systems in Nelson Mandela Bay Municipality: a comparative analysis across diverse income groups - Frontiers",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbkVKcjFZcE9oZFJxZ0lLY1VMZExSSE9iRlZHSGhCbU1PaVZxQXVuUHNnb29qMTBGQlcyLUZpVU1mWUxWMTMwOU9XYXNLU2FfVXA0LTRBQlhNdUkydUM0X1VKVmxQNXBBMUxKeTFHWEZxOFJjSlhfUThFSk5FbUdUZ0hVakxnVkh4djY4X0xJMm1UOHIzVldJ?oc=5",
+          "published_at": "2026-09-15T09:52:54+00:00",
+          "snippet": "Municipal solid waste management systems in Nelson Mandela Bay Municipality: a comparative analysis across diverse income groups Frontiers",
+          "lexical_overlap": 0.143,
+          "relevance": 0.248,
           "matched_terms": [
             "management",
             "solid",
@@ -47618,48 +48699,6 @@
             "management",
             "solid",
             "waste"
-          ]
-        },
-        {
-          "id": "197ff61a391575ba2b",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Arunachal Times",
-          "source_url": "https://arunachaltimes.in",
-          "title": "Dosing Kumku Clean & Green Village Mission inaugurated - The Arunachal Times",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYVFHUXNyOWoyc3VPd0dpRkotUXhTRFFpRFV4eE5KbWlVY3oxZUZ3ZEx0aTlZMTRUYTVtYWlDRDZTZk5WczNIb3pUUWJ2Umw0NEx3YWk2V2lYYzc4eDVTT2dGclNpNmhNRkJERHRMSnNodzRlOU5KQ2Nab3Bsb2t2Z2YyeHlFbWFoZ3p2SWxwTQ?oc=5",
-          "published_at": "2026-07-27T07:00:00+00:00",
-          "snippet": "Dosing Kumku Clean & Green Village Mission inaugurated The Arunachal Times",
-          "lexical_overlap": 0.125,
-          "relevance": 0.195,
-          "matched_terms": [
-            "mission",
-            "village"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "village"
-          ]
-        },
-        {
-          "id": "838109c968e6d40a83",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Organiser Weekly",
-          "source_url": "https://organiser.org",
-          "title": "Swachh Bharat Mission: How rural India turned sanitation into a sustainable people’s movement - Organiser Weekly",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdXFObjR2M3AyNVg3WHBsYTh5QzNzMk1WWGo4Rmo1Yk5WQzJaUE1vZGtOLUg2OGI1eWRCSXBOWENpYzlWTFpzZ0xlTURiN2t5VDhWalBDT1pFZktRaHFqcWFHc3Q5dzYxTmVFNy1Yb28wb2lFRThWNDRyQXkydGFQdTlFWWJPcEJkNmJ2Z2wwQWtwSXhFNHU1VHVFTWpHRG81Ykx4U2gtczhiUUFBalFJRGtBQlBYcGFyQ21jSHRvZU5oVGR0LXRfV0J2LTQxTVpoSEJ2elBn0gHbAUFVX3lxTE42NjhSbVJOT1NHX19CclNjRVc4U2NmX1NBVkR0X3kxUHlQQm9aMDkwb1hQOUlsOHlCR2p3M0pNU3I3SzVPLWt0UlpUTlRHdTREMHhlOVl4ZXo5ZG9EWDA0R1dBUjJVXzM3MUppUms0cFBoTXU5QThjMG00ZEdKRnNUM0pnUGk2d0pydkdBM2dRZ2s2VWoyRS1RYmJENTVZeGlTR1lhOWh1YmEyRkNLQWhWdjFuSTRMRmNHVzJaVmw2WGczMXV6cU9jc002SWZNcnZDbG82SGd4R2VIUQ?oc=5",
-          "published_at": "2026-09-26T07:00:00+00:00",
-          "snippet": "Swachh Bharat Mission: How rural India turned sanitation into a sustainable people’s movement Organiser Weekly",
-          "lexical_overlap": 0.118,
-          "relevance": 0.188,
-          "matched_terms": [
-            "mission",
-            "sustainable"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "sustainable"
           ]
         }
       ],
@@ -47717,7 +48756,7 @@
     },
     {
       "id": "bcb497e4796657ed0f",
-      "checked_at": "2026-10-27T22:39:30.812048+00:00",
+      "checked_at": "2026-11-07T07:07:31.686283+00:00",
       "promise_id": "BJP-2019-88d625e0bb4b621c2e",
       "year": 2019,
       "category": "infrastructure",
@@ -47742,63 +48781,85 @@
       "query": "infrastructure fast pace public private investment",
       "evidence": [
         {
-          "id": "95bb2d3354bfa9821e",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Vietnam+ (VietnamPlus)",
-          "source_url": "https://en.vietnamplus.vn",
-          "title": "Ho Chi Minh City seeks private investment to develop transport infrastructure - Vietnam+ (VietnamPlus)",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRmttVVVsSUNMUUthdWtRR0FpcTJqUmRIYmpzbERSSWxvbjZKbHhkMkFzSVFscG5hdnBNS21MX2FFZkVKVVFqWU1rTUdwTVoza1FMaEo2NVlTZGZSWWNlOHhJaHl4Zlc4N3dKeDYwUi1VSWVHZkFDOEtaczg0QWpPenExaHFJR254d0VOMnBPNzB0c0hSUERRTHkyN0hMWU9KTUZwWGNrb0pmdTFLTi00QzJNdXZIeDc3T2c?oc=5",
-          "published_at": "2026-10-27T05:39:00+00:00",
-          "snippet": "Ho Chi Minh City seeks private investment to develop transport infrastructure Vietnam+ (VietnamPlus)",
-          "lexical_overlap": 0.143,
-          "relevance": 0.248,
+          "id": "001912c66b2f04f26b",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "Invest India",
+          "source_url": "https://www.investindia.gov.in",
+          "title": "Public Private Partnerships Driving Economic Growth - Invest India",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOV19VcWE5YkU1N1JBdDRGMFZkTHdWR0Zodmtsd0dVeXpyZUl4UEZKZHlkd3ZlRmtKdVdQdThoX0NHTFpOaDBNZUQ0M2FSdTZqb2xub2RHYklESGxxc0YyNXRuVnV6bE12Y2RXTW1TTWdvYy1rYld5TGNHRnhkVEd5NWxvMldQaEN4NnFCcFN3UUc5U1BDQXczLUpVc3R1NnNm?oc=5",
+          "published_at": "2022-02-11T08:00:00+00:00",
+          "snippet": "Public Private Partnerships Driving Economic Growth Invest India",
+          "lexical_overlap": 0.118,
+          "relevance": 0.238,
           "matched_terms": [
-            "infrastructure",
-            "investment",
-            "private"
+            "private",
+            "public"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "infrastructure",
-            "investment",
-            "private"
+            "private",
+            "public"
           ]
         },
         {
-          "id": "ecee79c59e3bd0eaad",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "BNamericas",
-          "source_url": "https://www.bnamericas.com",
-          "title": "Economy, not law, seen as main risk to Mexico infrastructure investment - BNamericas",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVWxRaVJsOFBqN3lpOVlsQWR0bVRBX1R2NzVUT1pKQkFJbUY4SExVXy1yWm1OUUdqN1ZSOWpyeTlMTUJLQ0JzbFE3Mm1lUzI1Zkc5YzMzRENWOW02elRjVl9yUGVFbnZSNHNkWENta2hTWlpyMVJMd3B4bWw5a2N1c0pValMwb0xlTnY5bGlfU0s4MTRCQlNNeThvQmFxTnZuZWV1SHFIZ05kcXhP?oc=5",
-          "published_at": "2026-10-26T18:53:17+00:00",
-          "snippet": "Economy, not law, seen as main risk to Mexico infrastructure investment BNamericas",
-          "lexical_overlap": 0.1,
-          "relevance": 0.17,
-          "matched_terms": [
-            "infrastructure",
-            "investment"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "infrastructure",
-            "investment"
-          ]
-        },
-        {
-          "id": "b67b03f90834dbfc89",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "UN Trade and Development (UNCTAD)",
-          "source_url": "https://unctad.org",
-          "title": "International investment in sustainable infrastructure: The role of public-private partnerships | - UN Trade and Development (UNCTAD)",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQc0ptVko3WlUyYWdraWNfNW9HVlRqUHlGbEdFaGVkdkJlN0gzVWtzd0loTEVWMFpCNkIxUW9KWEpLcFlOS2tmbE10R0RWNEk4YmtZdWZzNnRQRzc5VGJsRUduSWVGZlRyMENyb0ZzTzBWTFFqYk1ScFVEQzk4X1RBOFVkUndNQ1dzQlVrUmRDT1pkWG5zRHBhbXdzeFZIc19yXzZhb3VGMjBvenUyTnRCcENUV1dWZw?oc=5",
-          "published_at": "2026-01-16T08:00:00+00:00",
-          "snippet": "International investment in sustainable infrastructure: The role of public-private partnerships | UN Trade and Development (UNCTAD)",
+          "id": "656fc8d7f0ae6508f7",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "ECONOMIC SURVEY UNDERLINES THE IMPORTANCE OF PRIVATE PARTICIPATION IN INFRASTRUCTURE SECTOR TO REALIZE VIKSIT BHARAT@2047 - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1pWEE5OGREMk9NUFRSaVNtQXlqSTh3RWV0TTh0QW9BQkRHMlRHRVIzanRJRHBRcUFESmg4YkJtVUc4RXJsaUIxelg1MjVZNjdpLUZHRy1kbVhIVGdab1JER3UzUjQ4YkpzZ1lzeVlyckRidUw3MkJHLTR3?oc=5",
+          "published_at": "2025-01-31T08:00:00+00:00",
+          "snippet": "ECONOMIC SURVEY UNDERLINES THE IMPORTANCE OF PRIVATE PARTICIPATION IN INFRASTRUCTURE SECTOR TO REALIZE VIKSIT BHARAT@2047 PIB",
           "lexical_overlap": 0.095,
-          "relevance": 0.165,
+          "relevance": 0.215,
+          "matched_terms": [
+            "infrastructure",
+            "private"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "infrastructure",
+            "private"
+          ]
+        },
+        {
+          "id": "1a7dc83bb4abbdd2fe",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Firstpost",
+          "source_url": "https://www.firstpost.com",
+          "title": "India private investment revival gathers pace as economy grows 7.8% in Q1 - Firstpost",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZ21UUGZBcFlZX1dGQ2hkSjdMNzlSeFRoeHRqQnk3NXRreW9LNTU1RHpCY21pS3pscHpPekw5N0JOUHdLN0d3N3FadkNvTS1iYXV1ZjF4SGlQZTRpbVFJQ3UzaFpkTEdmSGtxekFxVmtpR3EtNUxyNW8xRnRMNmJabGNidGdyTzk1cmJUUWxVUEJIdy1XNloyR2U1VDU5blVCazNxeDAtVlc4Z3N20gGyAUFVX3lxTE12TURjN2FyRlc5S2lTZUt2VVgwTVVKd00yb3h6YVFFZVJHVk1uS2pyV0hoN2k5NVJlMlpOeTZxNm9vUmNUVi1EQUdNSTVXSF9BZklwekpvR2stY0JPS0YxSWdkNE96NVFzeGFOazgtdXdqRGIzczFoZHVfQ1JMTmRzMUw4VzNOYzhmdk5wbzRhcmktNmVJd2FHWFFVd1pqdVVWQkpIZzhFUXdpbnlsY3NUOHc?oc=5",
+          "published_at": "2026-09-01T07:00:00+00:00",
+          "snippet": "India private investment revival gathers pace as economy grows 7.8% in Q1 Firstpost",
+          "lexical_overlap": 0.167,
+          "relevance": 0.272,
+          "matched_terms": [
+            "investment",
+            "pace",
+            "private"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "investment",
+            "pace",
+            "private"
+          ]
+        },
+        {
+          "id": "9574002cd7aacf1e6f",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Boston Consulting Group",
+          "source_url": "https://www.bcg.com",
+          "title": "Infrastructure Investment in an Uncertain World - Boston Consulting Group",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZnFtLUV0MUY2ZklHa0VocGItVm9vcTY3M18zR2cyTXJhRG5CVFlyZTlPRngwUGpaX0N4TUtqRVBaWTN4M2FBblFFS1ZMVzJfMHFwYmZnenBSNnlGZmdsQjRMQ0xaLVBqRFo3VHNjSUkwaGg2Wjk2WGZXN2ZQYUxnNjlHZ25yY0xtYUVMN0xhUQ?oc=5",
+          "published_at": "2026-01-27T08:00:00+00:00",
+          "snippet": "Infrastructure Investment in an Uncertain World Boston Consulting Group",
+          "lexical_overlap": 0.118,
+          "relevance": 0.188,
           "matched_terms": [
             "infrastructure",
             "investment"
@@ -47810,29 +48871,29 @@
           ]
         },
         {
-          "id": "e5f091f6a9dce701d6",
+          "id": "628524d3bd8de63554",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Asian Infrastructure Investment Bank (AIIB)",
-          "source_url": "https://www.aiib.org",
-          "title": "AIIB’s 2025 Impact Report Shows Sustainable Infrastructure Delivering for People, Communities and Economies - Asian Infrastructure Investment Bank (AIIB)",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOWG43QjhTeVo3YkE4aU5rZERyTEhmT1Nhckc1bTZkU2lhZ210MjJucE1GWlhzTkFtb25Pcy13YVc4dC0xOVc2WjlkZmNOMnJ3c1ZMUHROc3NOT2dudzZNdmZqaXVuZWlyenZmNy14a3ZtU2J4aFAyUHQyMWVfRE5YaFRvZkNmRXdCNmhleHh2Zk8wak0xbmNTdWt2S05wc1R2N2dJa1h0ay1DSU9ELTA5RlB3ZTBNMG1qZTVtbkpRRFZsS3hsNjYwZFRkXzUzaHBEUFlyQTR2aTRKT0J4VWVrVEFNMnNtUTJCOUM4?oc=5",
-          "published_at": "2026-07-27T07:00:00+00:00",
-          "snippet": "AIIB’s 2025 Impact Report Shows Sustainable Infrastructure Delivering for People, Communities and Economies Asian Infrastructure Investment Bank (AIIB)",
-          "lexical_overlap": 0.091,
-          "relevance": 0.161,
+          "source": "World Bank Group",
+          "source_url": "https://www.worldbank.org",
+          "title": "Public Investment Powers Morocco's Strongest Growth in a Decade — with Digital Transformation as the Next Horizon - World Bank Group",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQWhSTTBZOEdqdTY1TTZnUGozT21DdDZfOGNTVmFSR2tBWFdvUnZBdDR3VnVIalF3OVpZTFRfMmpPMUNVb0dzMFdsVzlCejQ4U1RFZngxWXFHcWR6WjRSUU9Hb2luTG8yaWJwYlVGcFlfajJ2U042MVhWRlRNeDd6ems3aTBldVhrWGZ1QnBES3VQZG5pZjF0dFozRWotNHN5eVZITEU4Mkk1SjFsMHhDaXItdUZLNXJQVUFkLWxxWQ?oc=5",
+          "published_at": "2026-07-23T07:00:00+00:00",
+          "snippet": "Public Investment Powers Morocco's Strongest Growth in a Decade — with Digital Transformation as the Next Horizon World Bank Group",
+          "lexical_overlap": 0.083,
+          "relevance": 0.153,
           "matched_terms": [
-            "infrastructure",
-            "investment"
+            "investment",
+            "public"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "infrastructure",
-            "investment"
+            "investment",
+            "public"
           ]
         }
       ],
-      "implementation_signal": "current_reporting_found",
+      "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -47925,7 +48986,7 @@
     },
     {
       "id": "04dddb4c6ce90476bc",
-      "checked_at": "2026-10-29T16:57:10.743549+00:00",
+      "checked_at": "2026-11-07T07:07:43.170584+00:00",
       "promise_id": "BJP-2019-b6046cf982ba083d0d",
       "year": 2019,
       "category": "infrastructure",
@@ -47950,15 +49011,15 @@
       "query": "set five regional centres excellence urban",
       "evidence": [
         {
-          "id": "a9a9864b862debb718",
+          "id": "e1b8a7a5f5ea150a2c",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "Press Information Bureau",
+          "source": "PIB",
           "source_url": "https://www.pib.gov.in",
-          "title": "Cabinet approves National Scheme for Industrial Training Institute (ITI) Upgradation and Setting up of Five National Centres of Excellence for Skilling - Press Information Bureau",
+          "title": "Cabinet approves National Scheme for Industrial Training Institute (ITI) Upgradation and Setting up of Five National Centres of Excellence for Skilling - PIB",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1UMGpQMm5oVjl4NXpqdWdxdUVLQUphUHV6cVR6UU5NNEhwZFNCWVh3T1E4WFVKX04yQnBjVnZkUEhqTWIxVVZVTXlBZUtqbXNQSEJlMHhRNHZlRExqaklZeUJVcFF4QlhQOEpz?oc=5",
           "published_at": "2025-05-07T07:00:00+00:00",
-          "snippet": "Cabinet approves National Scheme for Industrial Training Institute (ITI) Upgradation and Setting up of Five National Centres of Excellence for Skilling Press Information Bureau",
+          "snippet": "Cabinet approves National Scheme for Industrial Training Institute (ITI) Upgradation and Setting up of Five National Centres of Excellence for Skilling PIB",
           "lexical_overlap": 0.2,
           "relevance": 0.39,
           "matched_terms": [
@@ -47975,41 +49036,17 @@
           ]
         },
         {
-          "id": "15657164c9c82682f3",
+          "id": "5c2633b2c298f696ac",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "Press Information Bureau",
+          "source": "pib.gov.in",
           "source_url": "https://www.pib.gov.in",
-          "title": "Ministry of Education Approves Five Centres of Excellence for Studies in Classical Languages - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1jY3RJU3h5QXVWUnhlTUgxMVl3ZHdKV25VVlNRNUJWb2daU281RGkwOEZSVC1TdjFhWnkxNXFtNlVkVzNhdDhQMHAyTjVOakpFTExvUDc0ZGRrS2c1VXV4U09SZDNxanljYlpGcTh1U254czlleE9TTlA2dS0?oc=5",
+          "title": "Ministry of Education Approves Five Centres of Excellence for Studies in Classical Languages - pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9pRzQyWU1LVHZScmNYdEM2Ti1uTDJhS0E5WEUtN1hkTkdrN1BudXppR1k2Ym1CUHU1YlNkVEtyNEYzOWtkblNzMHJ4VVhQaDBHcHhkSEo1Q2JxLUl5MTdrSXpHZFgwUmJvWkhBcTVaR09lZkJfQmdZZTZfb0Vodw?oc=5",
           "published_at": "2026-10-03T07:00:00+00:00",
-          "snippet": "Ministry of Education Approves Five Centres of Excellence for Studies in Classical Languages Press Information Bureau",
-          "lexical_overlap": 0.176,
-          "relevance": 0.331,
-          "matched_terms": [
-            "centres",
-            "excellence",
-            "five"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "centres",
-            "excellence",
-            "five"
-          ]
-        },
-        {
-          "id": "f5b6441afd7870b45d",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Second Phase of NAKSHA Capacity Building Programme to be launched across five National Centres of Excellence from June 2 - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1GaDRtU3ZRS284b2d0OUJ1eTUxRXBqV3BpT3IyYm44NzBLUF82eWV6Y2M4Yk5PSHdyQUdlT0JpZUZ2THp1YkpEcHBHNFdFTTZMSU1nTEVjc2t0TThFMFhHSWNSbm9lcXNS?oc=5",
-          "published_at": "2025-06-01T07:00:00+00:00",
-          "snippet": "Second Phase of NAKSHA Capacity Building Programme to be launched across five National Centres of Excellence from June 2 Press Information Bureau",
-          "lexical_overlap": 0.15,
-          "relevance": 0.305,
+          "snippet": "Ministry of Education Approves Five Centres of Excellence for Studies in Classical Languages pib.gov.in",
+          "lexical_overlap": 0.188,
+          "relevance": 0.342,
           "matched_terms": [
             "centres",
             "excellence",
@@ -48043,41 +49080,19 @@
             "centres",
             "excellence"
           ]
-        },
-        {
-          "id": "379fc45e2e4471c288",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Second Batch of Phase 2 of the NAKSHA Capacity Building Programme to be inaugurated across Four National Centres of Excellence from June 16 - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1nbTEyVEtwbVJDNW5qSlpMRzlIcXdLQjdzdmE0ZTFXMUlqektEVGE2UnhCbXBud0Y3X3Z1QjJmSGhzOHBTaFVTcmt5OFVpMV9WZENfeDBnY1Z4YVBFQ1dWdHYyYWNFMHN3?oc=5",
-          "published_at": "2025-06-15T07:00:00+00:00",
-          "snippet": "Second Batch of Phase 2 of the NAKSHA Capacity Building Programme to be inaugurated across Four National Centres of Excellence from June 16 Press Information Bureau",
-          "lexical_overlap": 0.091,
-          "relevance": 0.211,
-          "matched_terms": [
-            "centres",
-            "excellence"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "centres",
-            "excellence"
-          ]
         }
       ],
-      "implementation_signal": "action_detected",
+      "implementation_signal": "current_primary_evidence_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
       "outcome": {
-        "status": "progress_documented",
+        "status": "not_machine_measurable",
         "deadline_year": null,
-        "proof_strength": "verified_primary_action_with_object_overlap",
-        "proof_evidence_id": "a9a9864b862debb718",
+        "proof_strength": "none",
+        "proof_evidence_id": null,
         "proof": null,
-        "reason": "Verified primary evidence overlaps the subject of the promise and documents implementation activity, but not the promised outcome."
+        "reason": "The extracted commitment does not contain a sufficiently specific numeric or time-bound target for automatic outcome proof."
       }
     },
     {
@@ -48846,7 +49861,7 @@
     },
     {
       "id": "1e0abc9f94016f3c7a",
-      "checked_at": "2026-11-07T06:40:17.443551+00:00",
+      "checked_at": "2026-11-07T07:07:12.223150+00:00",
       "promise_id": "BJP-2019-2af396deaf778cac73",
       "year": 2019,
       "category": "infrastructure",
@@ -48931,7 +49946,7 @@
     },
     {
       "id": "4af70c5cc4e5dd31ea",
-      "checked_at": "2026-11-07T06:40:33.231842+00:00",
+      "checked_at": "2026-11-07T07:07:16.431517+00:00",
       "promise_id": "BJP-2019-34c03859f07f1329c5",
       "year": 2019,
       "category": "infrastructure",
@@ -48956,8 +49971,145 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
       "query": "2022 road connectivity complete dedicated freight corridor",
-      "evidence": [],
-      "implementation_signal": "needs_research",
+      "evidence": [
+        {
+          "id": "c1a8150f16f5b1481b",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Times of India",
+          "source_url": "https://timesofindia.indiatimes.com",
+          "title": "Rs 20,700 crore, 326 km more: India completes its Dedicated Freight Corridor network as PM Modi inaugurat - The Times of India",
+          "url": "https://news.google.com/rss/articles/CBMijwNBVV95cUxNMlRLZF9sX3JpRHJubzZJT2c4cXdpSWZNTDMtY3ZzelhkZTNxckdIWTRfWERMVzR4TlpHNjVDTWtaTk9BWHRNcE45ZW54OW10UlA5aUxTWGtKS2F6dC1DNjgxVUlKZ0JJVkdjTmJEYUVjajdxRnd5UXUyeDJfaFRPUnRkdm9wdFV5eHUzamxMYjVKX2NHWExBZmpSTjk2dTBFZm5LRi1rUlZxenhLaXJKWi0zRUt0ZWtocGt1Q01IZUNwUjdBOGZwd0FOVVpFMnZPbzhjUkFJQWFuZGtKU1BBM1BDMzVXR1hrbFk0QUFmYUJRM0g1U2dVbzc4ZkZWQTJaZE1CcWVxTnRlNzBfUDAxVVFrQjlIMExMNGZjeG1qM2pROWVZUF9qS2pFWTNvQXNDVldRRFpvQmZUZnh5VG4xRElVdDVoeG4xNHBkUnRGbVctRGt3eklEbGJlOWR6alJsZjBmMk9BR2FROG9YYXNuSUcyandEZUF1WUNuaVZmSmlhRC1fYjFKZVNxbEdCR1nSAZQDQVVfeXFMTVlJbTNsaS1uVE9ERFdrVmtKVGt3MnU1TVRITWluMktNMUlib0lfOG1wdnJDdVNkSnlFNU1kWmJYa1RLVlMxRXdLTHl4aHY2UDk1aGNwRmV3aTYzUFA5M0lZZG1HRC1CdmgwaWIxdlRHX1hVYjVYdno5T2FsSGZEZWwyaFF0Z0FDNDBuVkhCc2xqMjVsMkw1MzVqUDBsVVZ3V0hvTnRBMGRSZWlzV2U2bklYMEE5Y3JNT0doeEhycHV5Zkhvd0pXeHRDQlFLR1VxbFRBejJteW9xSi15Q0JPZ1QtQ1FHZ1I3aFNqSEFLSDZKVkkycFNmdzlMX2Z0TkM2WWFCVk5hZ1ZsV3h6VnFiUVZVdDVQXzRhVEpyRF91bDQ4UzA5VXp1akQ5Q3FZdGhQN24wV3Q3ZlRMY0VhRVN6eFBXNmpkZkZEME1La2hMUTRuLXlXb2xfMGFOcGh4dFU0YWd2VS1ZdW9IeWdadW1fOVZoQW80Q2FpVUlLR3VyMFIxR2NEMlZZZVF1a1hUaG5jdWFXYjU?oc=5",
+          "published_at": "2026-09-08T07:00:00+00:00",
+          "snippet": "Rs 20,700 crore, 326 km more: India completes its Dedicated Freight Corridor network as PM Modi inaugurat The Times of India",
+          "lexical_overlap": 0.2,
+          "relevance": 0.305,
+          "matched_terms": [
+            "corridor",
+            "dedicated",
+            "freight"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "corridor",
+            "dedicated",
+            "freight"
+          ]
+        },
+        {
+          "id": "204037f70d01c9b45a",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "ClearIAS",
+          "source_url": "https://www.clearias.com",
+          "title": "Dedicated Freight Corridors - ClearIAS",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBnbVRtT2VzQnVmV25LUWZxUUJRLVRrMmE1ZmJ0WE9OYmxIU0dUd3BGR2FhTUdqVlM5YmFpWUc3WENMS19WaFJTaWEtS3hvUTZFNUN0R3VoZTZvQkRVY3VMcGJvWQ?oc=5",
+          "published_at": "2026-09-17T07:00:00+00:00",
+          "snippet": "Dedicated Freight Corridors ClearIAS",
+          "lexical_overlap": 0.222,
+          "relevance": 0.292,
+          "matched_terms": [
+            "dedicated",
+            "freight"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "dedicated",
+            "freight"
+          ]
+        },
+        {
+          "id": "36151813d5768670f4",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "IMPRI Impact and Policy Research Institute",
+          "source_url": "https://www.impriindia.com",
+          "title": "Dedicated Freight Corridor: What A Decade Of Rail Investment Achieved - IMPRI Impact and Policy Research Institute",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOTUpYVnJZMFppdTNaZE13Qm9Xajhxc290akloNklFbEpkTGtCdDZCblV6X0dCejczZlpaVTB1SmRaS1AwZGlSOFJXalpnRlVEcEoxSGt0bTVxQWc0X3JkOHhGQjg2c2RwNkxkcTlfeWpxQ2dfN1AyM09iNzU3Y0ctNlhtczJselRxSmJKMGtkX3Vpdm1WeVYtZWp5b3JuSWtMRXBiX2U0N2RNQU1mRWlRUUNfeS1uSnY1N2ppTlRlM0dRYzVCeDRETkYwaTVsYXF2SGdhaHRPWWpTcGVmOUExVUdQOEpEbHFhYXFIbTB1WTV2XzA5dEdOVC0yQmJTUVE?oc=5",
+          "published_at": "2026-08-09T07:00:00+00:00",
+          "snippet": "Dedicated Freight Corridor: What A Decade Of Rail Investment Achieved IMPRI Impact and Policy Research Institute",
+          "lexical_overlap": 0.176,
+          "relevance": 0.281,
+          "matched_terms": [
+            "corridor",
+            "dedicated",
+            "freight"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "corridor",
+            "dedicated",
+            "freight"
+          ]
+        },
+        {
+          "id": "6ce15b25c37e0c63c6",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Vajiram & Ravi",
+          "source_url": "https://vajiramandravi.com",
+          "title": "Dedicated Freight Corridors – Backbone of India’s Logistics Revolution - Vajiram & Ravi",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUW9FREJnbVFGZnRnMHNmZWN3enczbml4NU5YZkNDNVgzN2JmbldzOGNkUXpPTkJIM01JcDg3TGlDT1ZER28waEtoWlJNY05zVlZWOWRSU2VQWTlCbFMwbmZLVWEzMXpEWTczanhkNHF0TjlWa3VxLVByOWFybGw1SFh6OEJBdnVnc1VfQmtDYjlPeFFlR2Rwcy1zT2xacWFtbFg2YjBnbFcxbEp4MHRWVw?oc=5",
+          "published_at": "2026-09-16T07:00:00+00:00",
+          "snippet": "Dedicated Freight Corridors – Backbone of India’s Logistics Revolution Vajiram & Ravi",
+          "lexical_overlap": 0.154,
+          "relevance": 0.224,
+          "matched_terms": [
+            "dedicated",
+            "freight"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "dedicated",
+            "freight"
+          ]
+        },
+        {
+          "id": "d1997391a51c39a65f",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "https://www.usthadian.com/",
+          "source_url": "https://www.usthadian.com",
+          "title": "Dedicated Freight Corridors Strengthen India’s Logistics Network - https://www.usthadian.com/",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUlJqZ2NiOHBPMzFXMHV5QlBiYl9HaXpwbjFsaFdOeS1pTktWb1NnRGRXVXcxa1VDNldFN3pGeTlmUUFFM3pTY0VidW1Kbk1NUlBBMWFHbXFzcGhNUXVaYWFOY3IzZ1JZM0g5NGVzaDhVajhYS29VZjhKbTByRGFLanJMalBYbkdjOFYweUd4cGJqMkFE?oc=5",
+          "published_at": "2026-09-19T07:00:00+00:00",
+          "snippet": "Dedicated Freight Corridors Strengthen India’s Logistics Network https://www.usthadian.com/",
+          "lexical_overlap": 0.133,
+          "relevance": 0.203,
+          "matched_terms": [
+            "dedicated",
+            "freight"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "dedicated",
+            "freight"
+          ]
+        },
+        {
+          "id": "94f0d80ee7b7908961",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Vajiram & Ravi",
+          "source_url": "https://vajiramandravi.com",
+          "title": "Dedicated Freight Corridors, How They Cut Transit Time and Boost Rail Freight - Vajiram & Ravi",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5YNmx2WWxLTXRwU09nRzNtVEVfUkVKZ1dxZWNjZWhneHFNbWlLZXhnRjhxc1R3ZjQtSUt6NlhELXM0RU9oMVJZN1haTmVlM1VrWUxaUUxINE90a0dJaFR2NHJvOVMzRlFzNEZrcnpLdk44V1dQOE5vSi16UQ?oc=5",
+          "published_at": "2026-09-09T07:00:00+00:00",
+          "snippet": "Dedicated Freight Corridors, How They Cut Transit Time and Boost Rail Freight Vajiram & Ravi",
+          "lexical_overlap": 0.125,
+          "relevance": 0.195,
+          "matched_terms": [
+            "dedicated",
+            "freight"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "dedicated",
+            "freight"
+          ]
+        }
+      ],
+      "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -50179,7 +51331,7 @@
     },
     {
       "id": "d999a1a48e72631387",
-      "checked_at": "2026-10-27T22:39:31.598616+00:00",
+      "checked_at": "2026-11-07T07:07:32.321997+00:00",
       "promise_id": "BJP-2019-8cffdc9a66606ac9e9",
       "year": 2019,
       "category": "other",
@@ -50900,7 +52052,7 @@
     },
     {
       "id": "93bb9754ab7125c8f1",
-      "checked_at": "2026-11-07T06:40:50.698138+00:00",
+      "checked_at": "2026-11-07T07:07:19.932949+00:00",
       "promise_id": "BJP-2019-6013bbae5c9fbd8c5a",
       "year": 2019,
       "category": "women_social_justice",
@@ -50941,7 +52093,7 @@
     },
     {
       "id": "1d1782ad81aa54afcd",
-      "checked_at": "2026-11-07T06:41:00.241123+00:00",
+      "checked_at": "2026-11-07T07:07:21.725788+00:00",
       "promise_id": "BJP-2019-63e2ccda189fa85e2c",
       "year": 2019,
       "category": "health_welfare",
@@ -52298,7 +53450,7 @@
     },
     {
       "id": "57bde732b688fc24dc",
-      "checked_at": "2026-11-03T19:51:32.569307+00:00",
+      "checked_at": "2026-11-07T07:07:25.934107+00:00",
       "promise_id": "BJP-2019-7a1c49ab393f087f85",
       "year": 2019,
       "category": "health_welfare",
@@ -52520,7 +53672,7 @@
     },
     {
       "id": "243957e0a5fa1edab5",
-      "checked_at": "2026-10-29T16:57:07.291896+00:00",
+      "checked_at": "2026-11-07T07:07:40.608780+00:00",
       "promise_id": "BJP-2019-9b88005a89e22e2e00",
       "year": 2019,
       "category": "jobs_economy",
@@ -52553,6 +53705,28 @@
       "query": "strive towards semiconductor manufacturing within",
       "evidence": [
         {
+          "id": "8d4ae466ac59b59288",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Yahoo! Finance Canada",
+          "source_url": "https://ca.finance.yahoo.com",
+          "title": "Should You Invest in the Strive U.S. Semiconductor ETF (SHOC)? - Yahoo! Finance Canada",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNmtfTU1zV3ZDUUJERkp2eERJQjlCWE8tMnhLeFFKY0NWcXM1MWtmT2otOGZaeVZaQXRVT3dFNWJxSUx6M0RmNXFnSVFTVzlTNlRYcVJfejFsdDVicUxoREVhcjFrdDU1V2k5b1ZyQ01sY0xWVWp1UzRYUUhoMVZJU1hTSHNrcU9LR2c?oc=5",
+          "published_at": "2026-11-04T10:20:02+00:00",
+          "snippet": "Should You Invest in the Strive U.S. Semiconductor ETF (SHOC)? Yahoo! Finance Canada",
+          "lexical_overlap": 0.154,
+          "relevance": 0.224,
+          "matched_terms": [
+            "semiconductor",
+            "strive"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "semiconductor",
+            "strive"
+          ]
+        },
+        {
           "id": "eff4174971c88d7099",
           "scope": "news_search",
           "tier": "secondary",
@@ -52575,7 +53749,7 @@
           ]
         }
       ],
-      "implementation_signal": "needs_research",
+      "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -54106,7 +55280,7 @@
     },
     {
       "id": "9fa6a8cb360861a5bf",
-      "checked_at": "2026-10-24T10:56:56.932457+00:00",
+      "checked_at": "2026-11-07T07:07:27.893865+00:00",
       "promise_id": "BJP-2019-7f0c9b86d5de4f1bca",
       "year": 2019,
       "category": "jobs_economy",
@@ -54145,7 +55319,7 @@
     },
     {
       "id": "8ffcfcf4d9f6e9a84c",
-      "checked_at": "2026-10-27T22:39:40.134539+00:00",
+      "checked_at": "2026-11-07T07:07:39.034611+00:00",
       "promise_id": "BJP-2019-986f2b5edfbd336896",
       "year": 2019,
       "category": "other",
@@ -54306,7 +55480,7 @@
     },
     {
       "id": "39dd6148a8ed1ad929",
-      "checked_at": "2026-10-27T22:39:36.341218+00:00",
+      "checked_at": "2026-11-07T07:07:35.746368+00:00",
       "promise_id": "BJP-2019-9271dae6e5c2bb22c4",
       "year": 2019,
       "category": "infrastructure",
@@ -55095,7 +56269,7 @@
     },
     {
       "id": "81065030ce5ce5ea7e",
-      "checked_at": "2026-10-24T10:57:00.810971+00:00",
+      "checked_at": "2026-11-07T07:07:30.763197+00:00",
       "promise_id": "BJP-2019-8506e9ac8ae3349c93",
       "year": 2019,
       "category": "other",
@@ -55180,7 +56354,7 @@
     },
     {
       "id": "a65f572baa587c53db",
-      "checked_at": "2026-10-27T22:39:39.014269+00:00",
+      "checked_at": "2026-11-07T07:07:37.655602+00:00",
       "promise_id": "BJP-2019-9793b8740f642378fc",
       "year": 2019,
       "category": "education_skills",
@@ -55667,7 +56841,7 @@
     },
     {
       "id": "b165f00dc2a90a9570",
-      "checked_at": "2026-10-27T22:39:34.000957+00:00",
+      "checked_at": "2026-11-07T07:07:34.122660+00:00",
       "promise_id": "BJP-2019-8fdd13769d35c9976c",
       "year": 2019,
       "category": "jobs_economy",
@@ -55690,7 +56864,30 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
       "query": "formulate policy reskilling upskilling evolve fiexible",
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "cf497269a39ea04433",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "World Economic Forum",
+          "source_url": "https://www.weforum.org",
+          "title": "Reskilling and upskilling: Lifelong learning opportunities - World Economic Forum",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNM0tITDJSS0w5aEt6enZ2UU9BNXVtWDVYcm0yNUxEVDkxZzMyUndxc3UtX3BUaElERFN5bC1FT2NudlQya3ltVUx3c2NSUlFHU0JzWU1TT2dPZmJFcHNNTnlBdVdWM3VnN2MzTUlDUGZaXzViRmxRZnpWS0d0QU04STludkNZaVhmU0tsR0Z1QmVPcUhmaHJsb3ppOWRxeDlVdTRRdi0tNXhFLTR6cTRHUW9XajVwU1poTDBybmJldmVfRWJj?oc=5",
+          "published_at": "2025-01-17T08:00:00+00:00",
+          "snippet": "Reskilling and upskilling: Lifelong learning opportunities World Economic Forum",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
+          "matched_terms": [
+            "reskilling",
+            "upskilling"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "reskilling",
+            "upskilling"
+          ]
+        }
+      ],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -56116,7 +57313,7 @@
     },
     {
       "id": "21c782a6ad2ecb8987",
-      "checked_at": "2026-11-07T06:40:23.957829+00:00",
+      "checked_at": "2026-11-07T07:07:14.510934+00:00",
       "promise_id": "BJP-2019-2cfa1375f165d41707",
       "year": 2019,
       "category": "other",
@@ -57508,7 +58705,7 @@
     },
     {
       "id": "09db92a7679f9e887b",
-      "checked_at": "2026-11-07T06:40:40.923840+00:00",
+      "checked_at": "2026-11-07T07:07:18.073991+00:00",
       "promise_id": "BJP-2019-4fc8289de8caed52ff",
       "year": 2019,
       "category": "other",
@@ -58011,7 +59208,7 @@
     },
     {
       "id": "ae076585e8155b45e0",
-      "checked_at": "2026-10-29T16:57:09.948296+00:00",
+      "checked_at": "2026-11-07T07:07:42.528982+00:00",
       "promise_id": "BJP-2019-aed9f5538fecc49274",
       "year": 2019,
       "category": "women_social_justice",
@@ -58752,7 +59949,7 @@
     },
     {
       "id": "c5bd3cbd23199cdaed",
-      "checked_at": "2026-11-03T19:51:33.780603+00:00",
+      "checked_at": "2026-11-07T07:07:27.033038+00:00",
       "promise_id": "BJP-2019-7a27655590b93cfed7",
       "year": 2019,
       "category": "other",
@@ -62819,7 +64016,7 @@
     },
     {
       "id": "df076e7dea8ba67624",
-      "checked_at": "2026-11-07T06:41:15.236356+00:00",
+      "checked_at": "2026-11-07T07:07:25.276195+00:00",
       "promise_id": "BJP-2014-078252941779345656",
       "year": 2014,
       "category": "women_social_justice",
@@ -62844,7 +64041,66 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/252/1/bjp_lection_manifesto_english_2014.pdf",
       "related_promises": [],
       "query": "next five courts cases arbitration judiciary",
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "0c8da9e17d2ad05d95",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Press Information Bureau",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Settling of cases through Lok Adalat and Arbitration - Press Information Bureau",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBydDk5YjZVVjM1ck4zS2FWQWw1Z3gwWnIwckxFcWtOZDhEU0xYMTEtT3gwMGFmVE1SdW82ck9BZ3Vvd2Rlakg3aFdKM1pkUklfZ3JFVzU3OWtITVVTX2FqZ0xVeVN6UjV5?oc=5",
+          "published_at": "2022-08-04T07:00:00+00:00",
+          "snippet": "Settling of cases through Lok Adalat and Arbitration Press Information Bureau",
+          "lexical_overlap": 0.176,
+          "relevance": 0.331,
+          "matched_terms": [
+            "arbitration",
+            "cases",
+            "lok"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": []
+        },
+        {
+          "id": "0f2455757fd1e1d73a",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Supreme Court Observer",
+          "source_url": "https://www.scobserver.in",
+          "title": "2025 Supreme Court Half-Yearly Review: Arbitration - Supreme Court Observer",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQM0FEQVFYNUdFRENuakRWa3lWRXFDTVdIa1RFeS1KTFlUZVpCVnNIcllQbDcyT1hDZUZrN08wWUNTSHRxU3g2a2Frd0s4THA1YnVMaUk5QlNDbEtCdzNYVURqYlJFdmNGWFpCN2lIaFl3eFYtMDdtbHlzanNhc25adDYtR01IdlBGc253Tg?oc=5",
+          "published_at": "2025-07-11T07:00:00+00:00",
+          "snippet": "2025 Supreme Court Half-Yearly Review: Arbitration Supreme Court Observer",
+          "lexical_overlap": 0.125,
+          "relevance": 0.195,
+          "matched_terms": [
+            "arbitration",
+            "review"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": []
+        },
+        {
+          "id": "b1c00a883cde81cad8",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Supreme Court Observer",
+          "source_url": "https://www.scobserver.in",
+          "title": "Supreme Court Review 2025: Arbitration and the limits of judicial repair - Supreme Court Observer",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdnVNc21iUGMzcGoycTQ0N2hhS0wzbE90RkpGdndjMEJtX1ZJS1pza29SWmJPbmFudG5kRmJ4QjJ0Z21LanhRN3d5eDl1a3pabDB4bXpvem5VSURMMVNmcWctb29KQ1V3VGxXVmlGdzY3MWxRV3NoSDlubkNHNWRxVFdqWFdwUDVLVHNJVURxbHNSc0c4OW1iNFYwamdyOUdXdkk1YmQ4VDZ4QQ?oc=5",
+          "published_at": "2026-01-17T08:00:00+00:00",
+          "snippet": "Supreme Court Review 2025: Arbitration and the limits of judicial repair Supreme Court Observer",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
+          "matched_terms": [
+            "arbitration",
+            "review"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": []
+        }
+      ],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -74276,228 +75532,7 @@
       }
     }
   ],
-  "errors": [
-    {
-      "stage": "claim_evidence_search",
-      "claim": "गर्व इस महान राष्ट्र के नागरिक होने का और कृतज्ञता सरदार वल्लभ भाई पटेल के प्रति, जिन्होंने आजादी के बाद 550 से ज्यादा र",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "claim_evidence_search",
-      "claim": "गणतंत्र हमें उन फैसलों को संविधान की मर्यादा में आगे बढ़ाने का मार्ग दिखाता है, संविधान हमें जनता के प्रति जवाबदेह रखता ",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "claim_evidence_search",
-      "claim": "साथियों, इस वर्ष उस महान कार्य को भी 75 वर्ष पूरे हुए हैं।",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "claim_evidence_search",
-      "claim": "साथियों, सरदार पटेल के 150वें जन्मदिवस पर, मैंने यहीं उनके चरणों में खड़े होकर कहा था, “जब तक, जब तक देश नक्सलवाद, माओवाद",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "claim_evidence_search",
-      "claim": "2015 में देश के एक सौ छब्बीस जिले वामपंथी उग्रवाद से प्रभावित थे।",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "claim_evidence_search",
-      "claim": "मार्च 2026 तक देश में ऐसा कोई जिला नहीं रह गया, जो अब भी नक्सलवाद से प्रभावित हो।",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "claim_evidence_search",
-      "claim": "मैं आज उन सभी वीर जवानों को भी नमन करता हूँ, जिन्होंने देश के इन क्षेत्रों में शांति स्थापित करने के लिए सर्वोच्च बलिदान",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "claim_evidence_search",
-      "claim": "साथियों, आज भारत पहले से अधिक सुरक्षित है, आज भारत अधिक संकल्पित है, और इसका एक बड़ा कारण, देशवासियों का बढ़ा हुआ आत्मवि",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "claim_evidence_search",
-      "claim": "ये रिपोर्ट बताती है कि 2024 से पहले के 10-12 वर्षों में, 50 करोड़ भारतीयों ने गरीबी को परास्त किया है।",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "claim_evidence_search",
-      "claim": "यानी पहले जहाँ 100 में से 27 लोग, एक चौथाई से भी ज्यादा, 100 में से 27 लोग भीषण गरीबी की चपेट में थे, आज ये संख्या कम हो",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "claim_evidence_search",
-      "claim": "ये सब इसलिए हुआ, क्योंकि पिछले 12 वर्षों से देश, गरीब कल्याण, गरीबों को सशक्त करने को प्राथमिकता दे रहा है।",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "claim_evidence_search",
-      "claim": "इन 12 वर्षों में, देश को लीकेज फ्री व्यवस्था मिली।",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "claim_evidence_search",
-      "claim": "करोड़ों लोगों को बीमा की सुरक्षा मिली, जिसने संकट के समय करोड़ों भारतीयों को संबल दिया।",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "claim_evidence_search",
-      "claim": "2014 से पहले देश में 25 करोड़ लोगों के पास भी सामाजिक सुरक्षा कवच नहीं था।",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "promise_evidence_search",
-      "promise_id": "BJP-2019-18c0750d5ed71bc3d1",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "promise_evidence_search",
-      "promise_id": "BJP-2019-1d3e95fa9344e842f3",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "promise_evidence_search",
-      "promise_id": "BJP-2019-2af396deaf778cac73",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "promise_evidence_search",
-      "promise_id": "BJP-2019-2cfa1375f165d41707",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "promise_evidence_search",
-      "promise_id": "BJP-2019-34c03859f07f1329c5",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "promise_evidence_search",
-      "promise_id": "BJP-2019-4fc8289de8caed52ff",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "promise_evidence_search",
-      "promise_id": "BJP-2019-6013bbae5c9fbd8c5a",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "promise_evidence_search",
-      "promise_id": "BJP-2019-63e2ccda189fa85e2c",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "promise_evidence_search",
-      "promise_id": "BJP-2019-6abf03adda773fec98",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "promise_evidence_search",
-      "promise_id": "BJP-2014-078252941779345656",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "promise_evidence_search",
-      "promise_id": "BJP-2019-45244c63267cbf1a4f",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "promise_evidence_search",
-      "promise_id": "BJP-2019-46b61e0ef804a6ec32",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "promise_evidence_search",
-      "promise_id": "BJP-2019-4e091a63a04484df8d",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "promise_evidence_search",
-      "promise_id": "BJP-2019-52724f1537a4eff94f",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "promise_evidence_search",
-      "promise_id": "BJP-2019-52db407f9a7c469ddf",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "promise_evidence_search",
-      "promise_id": "BJP-2019-535d15c04bef68b515",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "promise_evidence_search",
-      "promise_id": "BJP-2019-5722f2b2318cd450c4",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "promise_evidence_search",
-      "promise_id": "BJP-2019-59c85f19322d124b76",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "promise_evidence_search",
-      "promise_id": "BJP-2019-5e96a542127fc400a3",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "promise_evidence_search",
-      "promise_id": "BJP-2019-63ac27ba3e23716f6c",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "promise_evidence_search",
-      "promise_id": "BJP-2019-662e5ba66d6870ec3e",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "promise_evidence_search",
-      "promise_id": "BJP-2019-678d8d3e4dbac754ed",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "promise_evidence_search",
-      "promise_id": "BJP-2019-6ae07ade78e7049562",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "promise_evidence_search",
-      "promise_id": "BJP-2019-6bde0655d8cf9daf4b",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "promise_evidence_search",
-      "promise_id": "BJP-2019-6bdfdd553009c923c4",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "promise_evidence_search",
-      "promise_id": "BJP-2019-6d20591e5292611ff4",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "promise_evidence_search",
-      "promise_id": "BJP-2019-7663da2317c7bdb964",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "promise_evidence_search",
-      "promise_id": "BJP-2019-7682c0b322b7d7cdca",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "promise_evidence_search",
-      "promise_id": "BJP-2019-7806d2804561d2eefb",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "promise_evidence_search",
-      "promise_id": "BJP-2019-78f1dac130fcf39ac6",
-      "error": "HTTPError"
-    }
-  ],
+  "errors": [],
   "notes": [
     "Evidence candidates are not verdicts.",
     "Official-search results are discarded unless they share substantive terms or numeric values with the claim.",
