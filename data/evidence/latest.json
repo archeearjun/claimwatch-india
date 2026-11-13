@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T20:05:25.001608+00:00",
+  "generated_at": "2026-11-13T22:00:00.880507+00:00",
   "capabilities": {
     "official_evidence_search": true,
     "verified_primary_gate": true,
@@ -16,8 +16,8 @@
     "promise_checked_this_run": 30,
     "promise_total_candidates": 841,
     "promise_coverage_pct": 101.3,
-    "primary_candidates": 703,
-    "secondary_candidates": 1024,
+    "primary_candidates": 706,
+    "secondary_candidates": 1033,
     "prior_fact_checks": 0,
     "publishable_auto_verdicts": 0,
     "claim_verdicts": {
@@ -92,6 +92,49 @@
           "shared_numbers": []
         },
         {
+          "id": "c76e65f6c037578136",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Moneycontrol.com",
+          "source_url": "https://www.moneycontrol.com",
+          "title": "Happy Diwali 2026: 60+ best wishes, quotes and images to share with friends and family - Moneycontrol.com",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQVGJLbWNnMi03RzFyWV9DWWxSUXJzcUhnMGtJano0eGF1WTc4R1ZGWTlzdWE0VWNoTUFyLTlCRzYzZnp0RVNQSjhsUVdSOTExWV9hcV9kSFRKQng0NU1iaEtwU09aenNfb190d3RSeG9pSGNoTFE1LS1lU3pMMzNyeG1wbUI4RExvTC1vVWNwcDc5LXdlVVZ4YzF5RFQ1aHpJZGlNMU9nZTRUNUpWVHFUMk9FRVY5ZVhlODdqV2E4cEU3aDFoMG5Hb0tvUW83T3RYVnpoTHFSS0dkSUJ00gHiAUFVX3lxTE9Cckg3SGZaeVAyaDZYcnFBWlVGYnQ3SjVfSFVPV2xRSFgxWkRTNWl5b0VTcTVZd2NKQmR3TWdxSXF1dkl5amdGZ1V5dk9GRnpHTGhRNUJtWG5QNlFoWDk2cmlZdkp5a0xNOXBiZnFHM2x2bTJFUUc0RmVLNW9na0JSa2xxLW11UkJremRvYWk4NEE1ZUhuei11VVdEYjFlN3BRaWI4cjh3VFlWdURZSm9HU2pDdkk4emJJNUVPUno0SkNNdjNOZ1J2ZFBjb2lKWTROSnVRTHRDemhhb29HUllpOEE?oc=5",
+          "published_at": "2026-11-08T03:49:35+00:00",
+          "snippet": "Happy Diwali 2026: 60+ best wishes, quotes and images to share with friends and family Moneycontrol.com",
+          "lexical_overlap": 0.154,
+          "relevance": 0.334,
+          "matched_terms": [
+            "diwali",
+            "friends"
+          ],
+          "shared_numbers": [
+            "2026"
+          ]
+        },
+        {
+          "id": "8b296366499bc5715b",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "Embassy of India, Baku",
+          "source_url": "https://www.indianembassybaku.gov.in",
+          "title": "Remarks of Ambassador Abhay Kumar during the special Diwali event at Embassy of India, Baku - Embassy of India, Baku",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQWjF5bEVlc3BMZ1ZvSUtJN3lKWFNOaXJzQzNHR1NaRVBYS0FVSWFuYjBPbFVSdnNQLW5MRng5amV4eEJTVjZHSlYwRTVJWUJKSUFXUGs3ejBYbmdnN182c0ptY1NhY0ZtU1FIR0FLTndPNDNBcThlbWg2VkhBbjlPMTV0OE5XUUczNXlzWkNyMlZtUGgxMVRiMmcySlBYWDFxd0tzSzM2QWlfRjNaV2RHVzJ1REt4d0xlTDIyQkl2Wks5SmtzNFBYWTdKUnZ6blIwVFB5YWhtTy01ZV9RMGlWZFRoVmxmcWFFWVFBS29sUE9oQQ?oc=5",
+          "published_at": "2026-11-09T08:00:00+00:00",
+          "snippet": "Remarks of Ambassador Abhay Kumar during the special Diwali event at Embassy of India, Baku Embassy of India, Baku",
+          "lexical_overlap": 0.167,
+          "relevance": 0.287,
+          "matched_terms": [
+            "diwali",
+            "special"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.0026,
+            "neutral": 0.9849,
+            "contradiction": 0.0125
+          }
+        },
+        {
           "id": "8010ad8ae083b2a0df",
           "scope": "news_search",
           "tier": "secondary",
@@ -151,8 +194,8 @@
       ],
       "fact_checks": [],
       "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
+        "level": "primary_evidence_found",
+        "label": "Relevant verified primary evidence candidate found",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -219,17 +262,37 @@
         "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-interaction-with-the-security-forces-in-bastar-chhattisgarh/",
         "published_at": "2026-11-08T10:00:24+00:00"
       },
-      "query": "20 230 there was time when than districts",
+      "query": "230 20 there was time when than districts",
       "numbers": [
         "20",
         "230"
       ],
       "promise_matches": [],
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "52ee8be364bb2b332f",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Ohio Capital Journal",
+          "source_url": "https://ohiocapitaljournal.com",
+          "title": "OhioSEE program is providing glasses to students in about 230 school districts in 15 counties - Ohio Capital Journal",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMGdWQnpBb1VPMG44QWhocUJXRzYyOWF1YnE4dloybGZiQWJETl85VzV1a095NDhWc0ZPUTE2dmF1YngzRWtsbjB0X2s0NC1FaXM1eVN5QTdFSzh1a2JWeThpTVNZQzNwLXZwQk5YaWlrcU9YTldyNjQ1R3QxUUJfREl3Slo5V1BwQlZmalhTNDZUYXR1eEI3UE9Bbl8zTEp4dVVkQnVTQ0xyT3RlcTA5VVk1Si05MTY0cjhVUlpXb0pjcEswWG5YdDJaWjdCQkNXTVE?oc=5",
+          "published_at": "2026-06-02T07:00:00+00:00",
+          "snippet": "OhioSEE program is providing glasses to students in about 230 school districts in 15 counties Ohio Capital Journal",
+          "lexical_overlap": 0.045,
+          "relevance": 0.19,
+          "matched_terms": [
+            "districts"
+          ],
+          "shared_numbers": [
+            "230"
+          ]
+        }
+      ],
       "fact_checks": [],
       "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
+        "level": "reporting_found",
+        "label": "Relevant reporting found; primary evidence still needed",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -1150,7 +1213,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-11-08T10:00:24+00:00",
       "last_seen": "2026-11-08T10:00:24+00:00",
-      "latest_checked_at": "2026-11-13T20:04:43.367809+00:00",
+      "latest_checked_at": "2026-11-13T21:59:18.884263+00:00",
       "latest_claim_packet_id": "d1ca716e377ed3a9a4"
     },
     {
@@ -1198,7 +1261,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-11-08T10:00:24+00:00",
       "last_seen": "2026-11-08T10:00:24+00:00",
-      "latest_checked_at": "2026-11-13T20:04:43.367861+00:00",
+      "latest_checked_at": "2026-11-13T21:59:18.884333+00:00",
       "latest_claim_packet_id": "cff3a6385309e34818"
     },
     {
@@ -1240,13 +1303,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "reporting_found",
+      "evidence_state": "primary_evidence_found",
       "human_reviewed": false,
       "created_at": "2026-11-09T00:52:41.749509+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-11-08T10:00:24+00:00",
       "last_seen": "2026-11-08T10:00:24+00:00",
-      "latest_checked_at": "2026-11-13T20:04:43.367783+00:00",
+      "latest_checked_at": "2026-11-13T21:59:18.884229+00:00",
       "latest_claim_packet_id": "6f47caeaa4b182a73b"
     },
     {
@@ -1438,7 +1501,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-11-08T10:00:24+00:00",
       "last_seen": "2026-11-08T10:00:24+00:00",
-      "latest_checked_at": "2026-11-13T20:04:43.367875+00:00",
+      "latest_checked_at": "2026-11-13T21:59:18.884350+00:00",
       "latest_claim_packet_id": "65a990af87cc3b2e5a"
     },
     {
@@ -1582,7 +1645,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-11-08T10:00:24+00:00",
       "last_seen": "2026-11-08T10:00:24+00:00",
-      "latest_checked_at": "2026-11-13T20:04:43.367841+00:00",
+      "latest_checked_at": "2026-11-13T21:59:18.884301+00:00",
       "latest_claim_packet_id": "c9296cb84238f6adaa"
     },
     {
@@ -1630,7 +1693,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-11-08T10:00:24+00:00",
       "last_seen": "2026-11-08T10:00:24+00:00",
-      "latest_checked_at": "2026-11-13T20:04:43.367868+00:00",
+      "latest_checked_at": "2026-11-13T21:59:18.884342+00:00",
       "latest_claim_packet_id": "c04aea4419bad26075"
     },
     {
@@ -1750,7 +1813,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-11-08T10:00:24+00:00",
       "last_seen": "2026-11-08T10:00:24+00:00",
-      "latest_checked_at": "2026-11-13T20:04:43.367889+00:00",
+      "latest_checked_at": "2026-11-13T21:59:18.884365+00:00",
       "latest_claim_packet_id": "9b6c6525a7ab94e1ae"
     },
     {
@@ -2110,7 +2173,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-11-08T10:00:24+00:00",
       "last_seen": "2026-11-08T10:00:24+00:00",
-      "latest_checked_at": "2026-11-13T20:04:43.367849+00:00",
+      "latest_checked_at": "2026-11-13T21:59:18.884318+00:00",
       "latest_claim_packet_id": "34770d214e181f002f"
     },
     {
@@ -2350,7 +2413,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-11-08T10:00:24+00:00",
       "last_seen": "2026-11-08T10:00:24+00:00",
-      "latest_checked_at": "2026-11-13T20:04:43.367833+00:00",
+      "latest_checked_at": "2026-11-13T21:59:18.884292+00:00",
       "latest_claim_packet_id": "badb659ac1ccc63d2f"
     },
     {
@@ -2470,7 +2533,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-11-08T10:00:24+00:00",
       "last_seen": "2026-11-08T10:00:24+00:00",
-      "latest_checked_at": "2026-11-13T20:04:43.367826+00:00",
+      "latest_checked_at": "2026-11-13T21:59:18.884283+00:00",
       "latest_claim_packet_id": "d57bddc495459d1c90"
     },
     {
@@ -2998,7 +3061,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-11-08T10:00:24+00:00",
       "last_seen": "2026-11-08T10:00:24+00:00",
-      "latest_checked_at": "2026-11-13T20:04:43.367855+00:00",
+      "latest_checked_at": "2026-11-13T21:59:18.884326+00:00",
       "latest_claim_packet_id": "32ffed46d2181c5c55"
     },
     {
@@ -3112,13 +3175,13 @@
         }
       ],
       "current_verdict": null,
-      "evidence_state": "needs_research",
+      "evidence_state": "reporting_found",
       "human_reviewed": false,
       "created_at": "2026-11-09T00:52:41.753918+00:00",
       "occurrence_count": 1,
       "first_seen": "2026-11-08T10:00:24+00:00",
       "last_seen": "2026-11-08T10:00:24+00:00",
-      "latest_checked_at": "2026-11-13T20:04:43.367818+00:00",
+      "latest_checked_at": "2026-11-13T21:59:18.884275+00:00",
       "latest_claim_packet_id": "dc0d779e78fb7b0d0a"
     },
     {
@@ -3166,7 +3229,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-11-08T10:00:24+00:00",
       "last_seen": "2026-11-08T10:00:24+00:00",
-      "latest_checked_at": "2026-11-13T20:04:43.367881+00:00",
+      "latest_checked_at": "2026-11-13T21:59:18.884357+00:00",
       "latest_claim_packet_id": "c88d791198c59089a5"
     },
     {
@@ -3505,7 +3568,7 @@
       "occurrence_count": 1,
       "first_seen": "2026-11-08T10:00:24+00:00",
       "last_seen": "2026-11-08T10:00:24+00:00",
-      "latest_checked_at": "2026-11-13T20:04:43.367894+00:00",
+      "latest_checked_at": "2026-11-13T21:59:18.884373+00:00",
       "latest_claim_packet_id": "0cefc2e3b2c400911a"
     },
     {
@@ -4323,7 +4386,7 @@
     },
     {
       "id": "2c1f57300278cd75a7",
-      "checked_at": "2026-11-10T09:46:31.617381+00:00",
+      "checked_at": "2026-11-13T21:59:39.421424+00:00",
       "promise_id": "BJP-2024-43cb6e6562719ce89e",
       "year": 2024,
       "category": "infrastructure",
@@ -8215,7 +8278,7 @@
     },
     {
       "id": "e390a6f5bc9dd16814",
-      "checked_at": "2026-11-01T18:09:36.504556+00:00",
+      "checked_at": "2026-11-13T21:59:54.331298+00:00",
       "promise_id": "BJP-2024-6073d1426ea81d77ff",
       "year": 2024,
       "category": "jobs_economy",
@@ -9223,7 +9286,7 @@
     },
     {
       "id": "e42f4317993305dc3d",
-      "checked_at": "2026-11-08T16:42:51.502822+00:00",
+      "checked_at": "2026-11-13T21:59:46.376407+00:00",
       "promise_id": "BJP-2024-54a80fd6fec30d1a84",
       "year": 2024,
       "category": "infrastructure",
@@ -10500,7 +10563,7 @@
     },
     {
       "id": "c2801f01c04061998f",
-      "checked_at": "2026-11-10T09:46:32.205978+00:00",
+      "checked_at": "2026-11-13T21:59:40.042849+00:00",
       "promise_id": "BJP-2024-43efca13d495985c8d",
       "year": 2024,
       "category": "health_welfare",
@@ -10934,7 +10997,7 @@
     },
     {
       "id": "1ec7a37f4b15b384ee",
-      "checked_at": "2026-10-27T14:30:27.363555+00:00",
+      "checked_at": "2026-11-13T21:59:58.337241+00:00",
       "promise_id": "BJP-2024-65eb86c4b8860c602a",
       "year": 2024,
       "category": "agriculture",
@@ -10959,15 +11022,41 @@
       "query": "storage grain network facilities rural areas",
       "evidence": [
         {
-          "id": "5715310c4b40e18989",
+          "id": "bc73fb1ba67b0f24c8",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "Press Information Bureau",
+          "source": "PIB",
           "source_url": "https://www.pib.gov.in",
-          "title": "World's Largest Cooperative Foodgrain Storage Scheme - Press Information Bureau",
+          "title": "World’s Largest Grain Storage Plan - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5GcFFzb1ExRXRvZXRUNTJMdlBMYnZOeFFSd3gtdV93c242dk1Oa1k3N2RfOHlVWlBhOFRYU3J2MGl6UkdJQVJadmxJTGtMTUI3NDJmMnVGTFdObUdvdUhFUElRMXlwUlp0?oc=5",
+          "published_at": "2024-02-06T08:00:00+00:00",
+          "snippet": "World’s Largest Grain Storage Plan PIB",
+          "lexical_overlap": 0.286,
+          "relevance": 0.476,
+          "matched_terms": [
+            "grain",
+            "largest",
+            "storage",
+            "world"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "grain",
+            "largest",
+            "storage",
+            "world"
+          ]
+        },
+        {
+          "id": "208aafaa5bd88919a1",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "www.pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "World's Largest Cooperative Foodgrain Storage Scheme - www.pib.gov.in",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE03ZnRKRE9uLTdCUHRIaDV3emZSQ09jWE1oWUkxTi1Wb1AyX2hMTDI5VTdOOWtPZXV4amk5cldZUVpXR21mcDhKM2F0RjZTTTA4b1Z2WVZKUk9XeW1Qc3o2aHFWVXdtc2ItZVlHLWtvMHdzREhvRmVJVHF3?oc=5",
           "published_at": "2025-12-16T08:00:00+00:00",
-          "snippet": "World's Largest Cooperative Foodgrain Storage Scheme Press Information Bureau",
+          "snippet": "World's Largest Cooperative Foodgrain Storage Scheme www.pib.gov.in",
           "lexical_overlap": 0.167,
           "relevance": 0.322,
           "matched_terms": [
@@ -10984,15 +11073,15 @@
           ]
         },
         {
-          "id": "aeb558617eee30feca",
+          "id": "823a9edb33a4cf6563",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://static.pib.gov.in",
-          "title": "Decentralised Grain Storage Plan in Coopera4ve Sector - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcUtUdnBtMFlEZlNqdFpKU0Y3TFV6amhUcC1BNEplTEVCenFNQU9tYkNYTzExaUc4cFlxbndPZDU5TnBuTldOXzVPSE1QekdGNmd6ZUZWTVd3VTBkSzQ4QWxNaVpGblBCU3BqMGtoUVlTRXJrbTlRb0doQWtmeW9ZUEJQQmNxQUtYdVBJSEpfM1JRQTVlc1V2MTg0M1pwVjNYck1WZg?oc=5",
+          "source": "www.pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Decentralised Grain Storage Plan in Cooperative Sector - www.pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5mQ2VFa0lIYVJhTkpLU25XVVlMVTZTaFU2VURBYnA1ckVXeDhPalJDWklQS1ZpNFJoSXVPMTFSLXl2QkhkWXpBNkhkdHVVYXdwM0gyVTU1Z0JtRlFTeE1OSlFUNnNKekx5Yk9RNGZQXzNMeC1EbGdGckY1MA?oc=5",
           "published_at": "2026-09-03T07:00:00+00:00",
-          "snippet": "Decentralised Grain Storage Plan in Coopera4ve Sector Press Information Bureau",
+          "snippet": "Decentralised Grain Storage Plan in Cooperative Sector www.pib.gov.in",
           "lexical_overlap": 0.105,
           "relevance": 0.225,
           "matched_terms": [
@@ -11001,6 +11090,7 @@
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
+            "cooperative",
             "grain",
             "sector",
             "storage"
@@ -11037,6 +11127,30 @@
           ]
         },
         {
+          "id": "2cff08896c540dee5c",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "DD News",
+          "source_url": "https://ddnews.gov.in",
+          "title": "From farm gate to storage hub: How cooperatives are reshaping India’s decentralised grain storage network - DD News",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQa293Q3ZYOElhalpxdmdISUhJeC1tZTQyM3hEM3VmemUtOTBfV1JJTFFGbnpoeUJ2MVNRRG4wcnhOeGtRbHl6eE9xaU1iRUgxc2t5RFR1REJWbllsZnVsdmFvOU5UWmhZeWFFRE5VUHdBUHRIWXN0SGlGdU5rNVBldU1oRmhJR1IwR1V4ckJMUk1aQnN5UDJqeWJnc2xhUEpzNXJwOXpPT0hhYWN0a1BsT3l0S2JlaHV4ZFNkNUpCLU03MkNYZ0p6WQ?oc=5",
+          "published_at": "2026-09-03T07:00:00+00:00",
+          "snippet": "From farm gate to storage hub: How cooperatives are reshaping India’s decentralised grain storage network DD News",
+          "lexical_overlap": 0.143,
+          "relevance": 0.248,
+          "matched_terms": [
+            "grain",
+            "network",
+            "storage"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "grain",
+            "network",
+            "storage"
+          ]
+        },
+        {
           "id": "d8db197232d84aead6",
           "scope": "news_search",
           "tier": "secondary",
@@ -11059,48 +11173,48 @@
           ]
         },
         {
-          "id": "e7db587816dc8d782b",
+          "id": "f191329269b0160015",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "World Grain",
-          "source_url": "https://www.world-grain.com",
-          "title": "MFA gaining four elevators from ADM - World Grain",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUzJuRTZQVFJWQmVqT09ZSzh6X1g3N3B3MzRkOFE0bG94amlsdURzd3NUNno4MEhIYnZtQzVLbkg3akRuNGxGc29PTG9zRER3TGozbV9WVmNGcVkzVWYxb1Zzd3AwQ1V1RG9vR3pLTV9ra01HaFBNX1BnNWg1YVJiYTl3TWg?oc=5",
-          "published_at": "2026-04-21T07:00:00+00:00",
-          "snippet": "MFA gaining four elevators from ADM World Grain",
-          "lexical_overlap": 0.118,
-          "relevance": 0.188,
+          "source": "Vision IAS",
+          "source_url": "https://visionias.in",
+          "title": "Grain Storage Systems in India - Vision IAS",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTW9WX0tXSEZKbzNQWEVtdjQ3bUZGU3RNWjd3MXNSVlJyTU4zeWtkQXFfMEZYOV8xeVRvYl81WEpQY3MxdnVkYXZ5aHRaUEUyb1dBUFp0VUNmZmp6MExTMFJWVk16WTZuQThlMTV5NmNpSU95RzMwLTlnY1lGWmc4c29WU2VvYzBEcVVTdFVJdXFFOFV6NDlSYUs0UEF0S3pVdHNjb3FR?oc=5",
+          "published_at": "2026-03-31T07:00:00+00:00",
+          "snippet": "Grain Storage Systems in India Vision IAS",
+          "lexical_overlap": 0.133,
+          "relevance": 0.203,
           "matched_terms": [
             "grain",
-            "world"
+            "storage"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
             "grain",
-            "world"
+            "storage"
           ]
         },
         {
-          "id": "45b2ed119eb3183454",
+          "id": "b6939f30e5823e8427",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Organiser",
-          "source_url": "https://organiser.org",
-          "title": "How India’s new cooperative grain network could help farmers avoid distress sales - Organiser",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQajhxTmJObFVxd3lrZGZPaUZvb3V2Skd6MjVEc0lnci1JNTYyUTNNbXkzZGNkNXVkZWNuaENtQlNBeXhkVVV3UXJPVHpkN0g1Mm1mQ0VEMHk5YmJjTG9zWjBGcGhqWFhjTnNFSHZOU0pISHFFZk9PTWpUS1h6ajhwdjNYbnJhVGFIb3pfZWtEQ3cyNGlMZy1tQzNaS1VXLWd2RjBOUVlHMkN6NkRDLXdfUVBNM2lQT2VfQ2tDV1dGWENDWk1yem5J0gHMAUFVX3lxTE1YWkM3S1psanlqQS1RLWZqd2hCalk2dnJUdDdWSVB2enZRTjVwNFVjNTE2dktaYVJHc2lyTkY5TFBYdXBmaEItbHJra0JLZHBIUjQ0VmtEYy1JSnlSMkthVFJyeUtXTjNwYU5feWdSaV9WUXJNMVhJcmNTa0FTQVI5OW00elg0cVZNMkJ2U1dyYWt4OTZfV2Uzc2I4a0ktY3F3MTVDSGFSSjJ5eGJwNDRqbnVnVjVRRVhwcGkxR3RGMFJtb1ZfdnMwM2c2ag?oc=5",
-          "published_at": "2026-09-06T07:00:00+00:00",
-          "snippet": "How India’s new cooperative grain network could help farmers avoid distress sales Organiser",
-          "lexical_overlap": 0.1,
-          "relevance": 0.17,
+          "source": "AgroSpectrum India",
+          "source_url": "https://agrospectrumindia.com",
+          "title": "Govt’s Cooperative Grain Storage Mission marks structural shift, expands to 704 sites nationwide - AgroSpectrum India",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQNkhsUDY1eFppeFk5clFTRG5nM1NnVHdJU2t1bTNGMVpmQlVybENKZTJvbHQxQjBKci1IbU5HQ1NFTVBna29ZUHdkOVBUWmxDLXg4N1RCMkdRTEpJTVVnMXFneHJiSWRhR1dUNThVck5rb3RXa18ycVZjYzBQVWdoYkRTZEVqZDIzV1dBRjZNbTBTbnZxbFVTYnBfdEdEeHpkVGZYLVNYUXZWamZWQjdSNzV3Qk52dlA5dDZVdnNSZHhYN2UwWHJFSzBTMjYtUVp3ZnZVSjhZRllMdDA?oc=5",
+          "published_at": "2025-12-12T08:00:00+00:00",
+          "snippet": "Govt’s Cooperative Grain Storage Mission marks structural shift, expands to 704 sites nationwide AgroSpectrum India",
+          "lexical_overlap": 0.091,
+          "relevance": 0.161,
           "matched_terms": [
             "grain",
-            "network"
+            "storage"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
             "cooperative",
             "grain",
-            "network"
+            "storage"
           ]
         }
       ],
@@ -13523,7 +13637,7 @@
     },
     {
       "id": "cb59def3366c77ac4d",
-      "checked_at": "2026-11-08T16:42:54.869707+00:00",
+      "checked_at": "2026-11-13T21:59:49.614420+00:00",
       "promise_id": "BJP-2024-58a1c2266f05032eda",
       "year": 2024,
       "category": "infrastructure",
@@ -13593,6 +13707,28 @@
           "promise_core_overlap": [
             "along",
             "facilities",
+            "highways",
+            "national"
+          ]
+        },
+        {
+          "id": "1054dabc0cd203987a",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "IBEF",
+          "source_url": "https://www.ibef.org",
+          "title": "Highways in India, Explore India's National Highways - IBEF",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9xOWh4N01Mcll4NzVOWjVud3pFS0tieG5ldXV2Y3p5NXR3OEFzTTY1WE93b0lEV3JtT1l0X1J0V191N01WVUFEc1IteS1pOV9oUTBN?oc=5",
+          "published_at": "2017-09-25T23:46:08+00:00",
+          "snippet": "Highways in India, Explore India's National Highways IBEF",
+          "lexical_overlap": 0.143,
+          "relevance": 0.213,
+          "matched_terms": [
+            "highways",
+            "national"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
             "highways",
             "national"
           ]
@@ -18581,7 +18717,7 @@
     },
     {
       "id": "63dfad09f356b3e6af",
-      "checked_at": "2026-11-01T18:09:37.914381+00:00",
+      "checked_at": "2026-11-13T21:59:55.380412+00:00",
       "promise_id": "BJP-2024-6333766a67df6a6bd0",
       "year": 2024,
       "category": "other",
@@ -18604,7 +18740,30 @@
       "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
       "related_promises": [],
       "query": "rich democratic traditions going back millennia",
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "8343318e74b121e369",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "ANI News",
+          "source_url": "https://www.aninews.in",
+          "title": "Ancient roots, modern practice: India showcases millennia of democratic tradition to a global audience - ANI News",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNakZRcjVLZXUzeS1HMzZiM0RSVDlaM3ZlLWNOeThEeEVkbk5oSmp6UTdrd0duVlpSajIxYl9oZ2U2RE9NNnZ2QnlpRDZzYlhOdnh0ajZraUtwQWtYb090YWdsSy1jV1Zrczgza3dfRjkzdDRPTDdaWGxPSGhpd2VmRWM0ajNydGpNZkFCdXdWd0NQRTB6M21IT0ZVUFFIMUY0RFRJNm51alhNQ05KY0lqRUhjY3dtdU1CTjdreDJVQWFuaHAxM2N0b3llV1hxUU5YVFdPbVY3a1FuMVFaT0Z5ckhtNWNEV3lIRFpGUHFIWnZ2YmZXMlJV?oc=5",
+          "published_at": "2026-01-29T08:00:00+00:00",
+          "snippet": "Ancient roots, modern practice: India showcases millennia of democratic tradition to a global audience ANI News",
+          "lexical_overlap": 0.105,
+          "relevance": 0.175,
+          "matched_terms": [
+            "democratic",
+            "millennia"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "democratic",
+            "millennia"
+          ]
+        }
+      ],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -22591,7 +22750,7 @@
     },
     {
       "id": "a4b1e5a7ff7122636d",
-      "checked_at": "2026-11-08T16:42:52.348739+00:00",
+      "checked_at": "2026-11-13T21:59:47.119604+00:00",
       "promise_id": "BJP-2024-551494f3f4b1435a3b",
       "year": 2024,
       "category": "jobs_economy",
@@ -22616,13 +22775,13 @@
       "query": "rare earths strategic developing mineral industry",
       "evidence": [
         {
-          "id": "7cf24fb114a851fb9d",
+          "id": "37ffa764eed0e7155b",
           "scope": "preferred_official_search",
           "tier": "primary",
           "source": "www.pib.gov.in",
           "source_url": "https://www.pib.gov.in",
           "title": "India Steps Up Exploration, Mining and Value Addition of Rare-Earth Minerals - www.pib.gov.in",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBUT1Roek81V2V0Z1BCZFUtNFFCZUF5NVpiOE85Q01VZkxXcGtQRWtmUkpMYy1JTE41NHZjVTJaajY5cG1kQUVTMVpOMy1qcW1sNkN3QVNSOWlHME1XcDBKNlBkclRleTk1NjJKMzE3REY?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBRbGpuMnZvY2IxNzhCaU5MeEdkTG54OHl4R18weUd1aGs3UjhwbGNUbm5wdGVhajlZbHpkWVJSOXpnX0VBei1nelUzWll1ckw2Q0tmc0kxSU8zdFlscUFPM1kzQW9Hd2JtTDFGZzVIUmwxU0J3T3doWFJR?oc=5",
           "published_at": "2026-02-03T08:00:00+00:00",
           "snippet": "India Steps Up Exploration, Mining and Value Addition of Rare-Earth Minerals www.pib.gov.in",
           "lexical_overlap": 0.111,
@@ -22704,6 +22863,28 @@
             "minerals",
             "strategic"
           ]
+        },
+        {
+          "id": "dcce5c7561cfff9040",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "CSIS | Center for Strategic and International Studies",
+          "source_url": "https://www.csis.org",
+          "title": "Industrial Policy Is Back—And Minerals Are at the Center - CSIS | Center for Strategic and International Studies",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZWZwRWxuY1Nja1NSSVp2S0RNeFl0VW1sc1RNWG9pZDZSS1hkdkRubVZjQlRuNVlxSFdZdTBWT0tjV25mbTdqUTdJdzZTX21HVlNKOVkxWnBXZk9uUFpTNVZaakFkMnVVRHZJVFNpVWxrYWhuSVZ4OHRMSXN4SFFnVFdR?oc=5",
+          "published_at": "2026-02-26T08:00:00+00:00",
+          "snippet": "Industrial Policy Is Back—And Minerals Are at the Center CSIS | Center for Strategic and International Studies",
+          "lexical_overlap": 0.125,
+          "relevance": 0.195,
+          "matched_terms": [
+            "minerals",
+            "strategic"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "minerals",
+            "strategic"
+          ]
         }
       ],
       "implementation_signal": "current_primary_and_reporting_found",
@@ -22721,7 +22902,7 @@
     },
     {
       "id": "51b1b2a5a54bbb31c8",
-      "checked_at": "2026-11-01T18:09:39.147528+00:00",
+      "checked_at": "2026-11-13T21:59:56.553416+00:00",
       "promise_id": "BJP-2024-634f0b9b3396c7f1d6",
       "year": 2024,
       "category": "jobs_economy",
@@ -22766,14 +22947,14 @@
       "query": "manufacturing making global aviation mro hub",
       "evidence": [
         {
-          "id": "776a15b917a956c44e",
+          "id": "36cb140c7d8505b0f5",
           "scope": "news_search",
           "tier": "secondary",
           "source": "ET Infra",
-          "source_url": "https://infra.economictimes.indiatimes.com",
+          "source_url": "http://infra.economictimes.indiatimes.com",
           "title": "India must move beyond MRO to become global aviation manufacturing hub: AIESL CEO - ET Infra",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNdEx6RUtYOWZrUVh3MUZESk1BVWw4blR5cDVTY3FISEpHZkhRVTVlZmNVOE5GQnItQWdudWRndWVrOU52bmVhUXZ2Y2lodUJaelpOajljLTg2YU5mNGF5ZUxPcEdfTkxSaDJYNVR6cHo5WGFiZkJiNklXQWUwUXJDTnpuWE05ZFhKeTVPWXVxU3cxYTZVY01FbWtfeWkwNmhKN0tPenkwLXo1Z1FSOEh1cHo4OHB0RTBibjYzaDZMcElFN0IybDRBaE9iQnNYd0tEZkdjM3RSUUc1LTc3aGVSMXhtX2pZS0R4NUY0UDVB0gHzAUFVX3lxTE5GOW12TWZEcGNsLVBiNGxRQXgwa2ZQZDhEVW5rVGVjczJzdFBqNGFObE9DRjFOWDRMOVRDaWk0UDY3U3ZUTW9QMmFOdE9IZ3BidER6ZHZacHN2ZnROMkR3c0NPY1Y5akRxNTMwenBYOHZVT1g4SDNINTZ5WFZmRGVvdXM0cWEtNnR2c1N0RXdGYlVtemg5NE1pWFBFa1A1TGxYS2VzWmJSdUV2T3FOZTQ3cXlWTVFWcmc3bDM0c0htYldpUHpDWjhmVVZSSUkxN2VSUG9GNEdsV1hzSE9hVUdVa1NpYU5xNzA0bDNRdEVySU1WOA?oc=5",
-          "published_at": "2026-05-28T07:00:00+00:00",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPemNFUF9SSTVjWkFoVlEwb1dyRGVHdUhNSmRTZXFGdFZaaTd0ZGtuTnNVZkJnNXdvNWtQbWtaZjBJUTJET2Nad3RxeDZ0ZlBUdkEwREVORUtnamVBeFh2Y19xUlhBNWVvN1JYMHphcGVxVGxLaWpkRE9yc0NMTTBJbFkwSDY5dGlzVkZQaHJweXVLdTlhTTUwMTdIV3ItTUZVZWZpME02azVDNGFRYkhuNnM5OW5LRFNIY2hxREZYQmg5QXFMRnJjUk9fa1cyUGJlSWp5U2VSQ2JER0MyRXdUOUxtQVQySmYzeldXU9IB8gFBVV95cUxNb1ltNnpmc0Nrb0JRblJkTk1wdlNGa3U3eUxZZG9Xc3FsaWNGVXdneUFWRXBsMW5BcXpkN2Q5ZDhoWUV0ZzJUVWstd3ZrQzVJbENuTnpVSS14bEJCQ19pMHpPNjN5aWJpekJUalBOMFFvY3NnT2FMTGxkaG5sWDd6V1BubW5JZkMwOW5IWjc4aU5WZno2djBRMVJrRlZwekprTkZBang0SnhNSHVpZHY0bXBrMG1RaUZHdklmdzUzaWJSdmdwaG5hcG13cmlEX0U3Ynp3cXRNOHdtX0dZdDJpQnBmUGNvOUZqdXVkemF4R25QQQ?oc=5",
+          "published_at": "2026-05-29T07:00:00+00:00",
           "snippet": "India must move beyond MRO to become global aviation manufacturing hub: AIESL CEO ET Infra",
           "lexical_overlap": 0.278,
           "relevance": 0.453,
@@ -22792,29 +22973,46 @@
           ]
         },
         {
-          "id": "9337e95fe7b4be0fcd",
+          "id": "8d808cdd49fa2b2172",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "LinkedIn",
-          "source_url": "https://www.linkedin.com",
-          "title": "Safran opens its largest aircraft engine MRO facility in Hyderabad. PM Modi says it will help make India a global MRO hub; Aviation Minister Naidu aims to position India as the world’s aviation hub. 🇮🇳✈️ Madeeha Mujawar reports #Aviation #Safran #Hydera - LinkedIn",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObGY1NmE0UVE0RkJkUW5sYkpwc3NObXhJMlFHRXlaZEhtTnNVcXBITU51Sk1oQ0NTbWM1eXVOaFh3T2dFeEhwdDVFSXJMLTJNSWtqX0JFdEpkd1JXdURnRjlWMHRlVURwS2RCTEVuVExOcTViLVBsSUVRSnIzV3htTnh3aXVyTW5PUXUtdnczeGtUc0lxb2JraXVUcXVjV2ZPbVE?oc=5",
-          "published_at": "2025-11-26T08:00:00+00:00",
-          "snippet": "Safran opens its largest aircraft engine MRO facility in Hyderabad. PM Modi says it will help make India a global MRO hub; Aviation Minister Naidu aims to position India as the world’s aviation hub. 🇮🇳✈️ Madeeha Mujawar reports #Aviation #Safran #Hydera LinkedIn",
-          "lexical_overlap": 0.238,
-          "relevance": 0.413,
+          "source": "Airline Routes & Ground Services",
+          "source_url": "https://airlinergs.com",
+          "title": "Incheon Airport targets Asia MRO hub status with aircraft conversion and maintenance plans - Airline Routes & Ground Services",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcXhzRDdGYlVhbHlGbEZzZ3dfMXVUVkJWNEE4N3pvZGFoTDFKSVlpc0ptVDc0bkxrNjEtWkJzLWdfbDh6M3RyZ0NzT2NIUTY5b1NBV2RzaTJMeTdyVmRmYlRzMTFadjR5ZXhhVndEX09zQ1hCVjNBd3Bxb2w0RGNFTnZVTnZZMkZpSlJpSXp1RTNWRk5kOVR6QktPNngwM1FNVXVHUmtkNGZhMDh6UHV1LVFZUFQ?oc=5",
+          "published_at": "2026-08-11T07:00:00+00:00",
+          "snippet": "Incheon Airport targets Asia MRO hub status with aircraft conversion and maintenance plans Airline Routes & Ground Services",
+          "lexical_overlap": 0.136,
+          "relevance": 0.241,
           "matched_terms": [
             "aircraft",
-            "aviation",
-            "global",
             "hub",
             "mro"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "aircraft",
+            "aircraft"
+          ]
+        },
+        {
+          "id": "f3f4e7685a418d20f3",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Indian Aerospace and Defence Bulletin",
+          "source_url": "https://www.iadb.in",
+          "title": "Civil Aviation MRO: India’s Emerging AI Opportunity - Indian Aerospace and Defence Bulletin",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdS1RQXN2NTBuZU1LcmU0a3FuSGRVeHJ5VzE2UGZlOFNnVWdKS1JnMjVWRVJ2YUZrVXctcHd6cFFiQ3VTSzZNb24wOTh2TVRPWGc5T1NraVFST1pyQ3V3Y05QTmpqZVNnRjNCalpVM203bGNfMEVzcVNRbjFKLVFUdXpCLUc3bnhu?oc=5",
+          "published_at": "2026-03-11T07:00:00+00:00",
+          "snippet": "Civil Aviation MRO: India’s Emerging AI Opportunity Indian Aerospace and Defence Bulletin",
+          "lexical_overlap": 0.118,
+          "relevance": 0.188,
+          "matched_terms": [
             "aviation",
-            "global"
+            "mro"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "aviation"
           ]
         },
         {
@@ -22825,7 +23023,7 @@
           "source_url": "https://www.edb.gov.sg",
           "title": "Singapore’s aerospace sector gains altitude as Asia leads global aviation growth - Singapore Economic Development Board (EDB)",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOLTdlZjM3bXdpZjVOU2VqQVo2d1VqZFpKclFsYUlFWkFYQkhid0VCRkV6UGNYOW1FdXdGVFlwaU82NmRfMlRqNkd0S2VNSWJFWlVKWE4zUlNVSnNXblNZZDlBUnpFTjJzR1dSc09IYUZpSHNScU5VZVNybjRpbmI5Z01UUHJ3SjV0cTVmU2k1Q0JIenZSOEhzeGxSY29Ycm9ZUjM3bnlzclQwVUtZbFhYa2dCZ2Y4RDQ5U1RNaQ?oc=5",
-          "published_at": "2026-10-27T07:00:00+00:00",
+          "published_at": "2026-11-02T08:00:00+00:00",
           "snippet": "Singapore’s aerospace sector gains altitude as Asia leads global aviation growth Singapore Economic Development Board (EDB)",
           "lexical_overlap": 0.091,
           "relevance": 0.161,
@@ -28095,7 +28293,7 @@
     },
     {
       "id": "37b6035bb4e313a2f1",
-      "checked_at": "2026-11-08T16:42:50.342701+00:00",
+      "checked_at": "2026-11-13T21:59:45.187223+00:00",
       "promise_id": "BJP-2024-53c475dd338f8b1977",
       "year": 2024,
       "category": "infrastructure",
@@ -28189,25 +28387,27 @@
           ]
         },
         {
-          "id": "b04475fcb751f1502b",
+          "id": "617fdc922df9118911",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "www.wsp.com",
-          "source_url": "https://www.wsp.com",
-          "title": "Enhancing Airport Master Planning in Latin America - www.wsp.com",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOR2FfWFA1WUlKMVI1QWQ2WU9YNVlQM3JlUm5vRU96OXQ2ZEpwTUNZUjE4S3NqWGJkcXY5cHVHTHBpdWhOS2pJTEtEdDVvZGF5RTRuNUJqQUNjMEdTTS1PSmZzOE5sZzFXaGNUalJpSmRnekVVdlBCSDItTkFhZ0l1eVJlRXNvcTRFbFV4SFd3?oc=5",
-          "published_at": "2025-07-03T07:00:00+00:00",
-          "snippet": "Enhancing Airport Master Planning in Latin America www.wsp.com",
-          "lexical_overlap": 0.105,
-          "relevance": 0.175,
+          "source": "Vietnam.vn",
+          "source_url": "https://www.vietnam.vn",
+          "title": "Developing a master plan for Con Dao Airport, aiming for a capacity of 5 million passengers per year. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdE1qRHNYTkpfRXpzM2JYNXhfbE5tbmRJRlJycGJpMnp6WlZoTGY5LWlYQTY0c3U4M05mbkRrRnVkM1hoT3lxTl93RXI1QXRVU0RWNWpwOC1RZWZZRUtFZmM3dTRsZzB2WEtJaG9JZ3Q5ei1Jc2F1YmZHYzhadTZrQ3VaaWliaXdQdHFvZEhuRnIzdG02SW1LcQ?oc=5",
+          "published_at": "2026-11-13T16:11:27+00:00",
+          "snippet": "Developing a master plan for Con Dao Airport, aiming for a capacity of 5 million passengers per year. Vietnam.vn",
+          "lexical_overlap": 0.136,
+          "relevance": 0.241,
           "matched_terms": [
             "airport",
-            "master"
+            "master",
+            "plan"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
             "airport",
-            "master"
+            "master",
+            "plan"
           ]
         },
         {
@@ -28230,29 +28430,6 @@
           "promise_core_overlap": [
             "airport",
             "transform"
-          ]
-        },
-        {
-          "id": "ff9da252490b4b66ad",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "International Civil Aviation Organization",
-          "source_url": "https://www.icao.int",
-          "title": "GISS 2026 Concludes with Global Commitments to Strengthen Aviation Implementation and Capacity - International Civil Aviation Organization",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcWdua0Fnblg2M2NFYnpra1dRUVU4dldPc2JwYVlFU3VTWXdYbVUtbzJQM2Vpbk9haWh4THZSdVQ0eTNKWHJObHhIWnpOMFI5NExPV0JDQklIUW5JamJiSXZMamxicmlhS1R4d25iRk1SYy1EQzVIXzZWNVZFczNhZ3lQcjVWZDhvQmdZcU1fcFhPZnQ2REpnNE5fX3hrcTVsUVpMVUZoaXhSaTlHSkRJMUJB?oc=5",
-          "published_at": "2026-04-16T17:35:09+00:00",
-          "snippet": "GISS 2026 Concludes with Global Commitments to Strengthen Aviation Implementation and Capacity International Civil Aviation Organization",
-          "lexical_overlap": 0.095,
-          "relevance": 0.165,
-          "matched_terms": [
-            "aviation",
-            "civil"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "aviation",
-            "civil",
-            "international"
           ]
         }
       ],
@@ -32180,7 +32357,7 @@
     },
     {
       "id": "baef570bbaf1af34cc",
-      "checked_at": "2026-11-08T16:42:48.595661+00:00",
+      "checked_at": "2026-11-13T21:59:42.362258+00:00",
       "promise_id": "BJP-2024-4b6daec7c6b3eeb0bc",
       "year": 2024,
       "category": "other",
@@ -32264,7 +32441,7 @@
     },
     {
       "id": "cc1925fca7d053b4f5",
-      "checked_at": "2026-11-08T16:42:53.665367+00:00",
+      "checked_at": "2026-11-13T21:59:48.426357+00:00",
       "promise_id": "BJP-2024-5622b4ced9f27eb0e1",
       "year": 2024,
       "category": "women_social_justice",
@@ -34584,7 +34761,7 @@
     },
     {
       "id": "96a6c0c3b87d89f7f0",
-      "checked_at": "2026-10-27T14:30:29.027371+00:00",
+      "checked_at": "2026-11-13T21:59:59.396607+00:00",
       "promise_id": "BJP-2024-66f8be8c678498ebea",
       "year": 2024,
       "category": "governance",
@@ -34608,29 +34785,6 @@
       "related_promises": [],
       "query": "fiscal autonomy panchayati raj institutions electoral",
       "evidence": [
-        {
-          "id": "e4134da96e8087052d",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "INSIGHTS IAS",
-          "source_url": "https://www.insightsonindia.com",
-          "title": "Panchayati Raj Institutions India - INSIGHTS IAS",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNEFoZE41RmwtUThFNy1MZ0U1TFZ6c3JCWk5neXAyaHh2Q2taaWVHbTBtajZhVXR0UkFONzVtbUtnd3NMdnU2X3B1Um9VcUZadHpDcmlqemNzN2NqUGc5T3lYczNTN2ZjTW9pMDRqU1BWbDlWWl8xM3hGalU5cXhmc0JJUQ?oc=5",
-          "published_at": "2025-02-17T08:00:00+00:00",
-          "snippet": "Panchayati Raj Institutions India INSIGHTS IAS",
-          "lexical_overlap": 0.214,
-          "relevance": 0.319,
-          "matched_terms": [
-            "institutions",
-            "panchayati",
-            "raj"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "institutions",
-            "panchayati"
-          ]
-        },
         {
           "id": "8ab646dd64ee2af8dc",
           "scope": "news_search",
@@ -36339,7 +36493,7 @@
     },
     {
       "id": "bacb7a890bcd06a8c2",
-      "checked_at": "2026-11-08T16:42:47.551479+00:00",
+      "checked_at": "2026-11-13T21:59:41.274154+00:00",
       "promise_id": "BJP-2024-4afca1ab669402baa1",
       "year": 2024,
       "category": "other",
@@ -36401,7 +36555,7 @@
     },
     {
       "id": "0210ad15f9930f717e",
-      "checked_at": "2026-11-08T16:42:57.447214+00:00",
+      "checked_at": "2026-11-13T21:59:52.177808+00:00",
       "promise_id": "BJP-2024-5b2e364069e27e4f88",
       "year": 2024,
       "category": "education_skills",
@@ -36440,7 +36594,7 @@
     },
     {
       "id": "c8423556c32e655be7",
-      "checked_at": "2026-10-27T14:30:30.589611+00:00",
+      "checked_at": "2026-11-13T22:00:00.670030+00:00",
       "promise_id": "BJP-2024-6810e93cb011a5f9ba",
       "year": 2024,
       "category": "education_skills",
@@ -36463,8 +36617,59 @@
       "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
       "related_promises": [],
       "query": "upgrade existing institutions focused funding capacity",
-      "evidence": [],
-      "implementation_signal": "needs_research",
+      "evidence": [
+        {
+          "id": "7079da138834b09d3c",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "fundsforNGOs - Grants and Resources for Sustainability",
+          "source_url": "https://www2.fundsforngos.org",
+          "title": "Seeding Research, Networking and Capacity Building at Minority-Serving Institutions (US) - fundsforNGOs - Grants and Resources for Sustainability",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMjkzRWw5YUFqT2J2RVVqMktkU3l3WFBMUl9jcGFJQ05BRHhDTFdNdjB6b0NKdjZ5RVNHUm1IbllZcGFjRmt3eFpKWGltT2s0Z255dnZpTXR5dTd4UVJLOHNNVGFxOWNBaEVzS3BqMzhvUW4yRERkZnJ2OEpBR1JPM2RpQ1cya2ZCYU4zd0NidFdXX3NpLXBIQnR0NDN2ZnJyWldrNGQtVi1jeWJPWUZQSGRuLUFYa1FNZ2k0WHc1VHJfQW5FTDJr0gHMAUFVX3lxTE1OeEJaYXI2UGhqQkJGNllBVjBfbmU0LXRRX0RTNEYweElQTkVGZGpqeDlvaG1rVkx5SXhiZDAtNVN6SmItWGlxcEVkZVE4QThWNkg5b05FcUNPT1VZSW0zQlB5OVowS2p4QlhXUHNMSzFPWVo1M2JMNzJNbV9KcGF3RWQ0c19HaVJLVkpld2tRVHNTQUg3TmpraGpuS19fanpTcUFIa3poYnhENnFuekJINEF6VmI5cWQzWG1xTHVGWUg3bTJzLUVlYlpnQQ?oc=5",
+          "published_at": "2026-09-16T09:42:25+00:00",
+          "snippet": "Seeding Research, Networking and Capacity Building at Minority-Serving Institutions (US) fundsforNGOs - Grants and Resources for Sustainability",
+          "lexical_overlap": 0.2,
+          "relevance": 0.34,
+          "matched_terms": [
+            "building",
+            "capacity",
+            "institutions",
+            "research"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "building",
+            "capacity",
+            "grants",
+            "institutions",
+            "research"
+          ]
+        },
+        {
+          "id": "85ee8ce90f7199afc7",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "fundsforNGOs - Grants and Resources for Sustainability",
+          "source_url": "https://www2.fundsforngos.org",
+          "title": "Engagement Award: Building Capacity for Small Organizations (United States) - fundsforNGOs - Grants and Resources for Sustainability",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVzcwSVVxNHRLek1vcXJHS0xXTGV2X1EzWUxHTG5kdVZuTFd5TW9XQTE0aDZHYjhHcVFYOWNzRVlYQ01fOVdJbjRvYTQyOFFBTjk4cDRPb2pSS29sUE96dFg5bUU3ZEtqdzF0VEtnXzI1MFVsOG9UWTlhbzFNVjRsamJZM1VUY2xrWW45RGhXOTJLeFhfMkhtekZTYXd1bFBMbVJYQ29sZGl3eG9FV1ZoYkc3S3QwOTJOY2JZalhYam5NQ2ZqZ3fSAcsBQVVfeXFMTm14dHUyR09kWW1nQXBFUU5mVk9xNHRWNi1HanRZRGZ0VDhYQzlEbzRZa0tfeGxCQ3NEYkM1YWdNUDlEeUJoYS05dkdPX00zTklsMnFyQ1M0am15ckIwUWtzYS1nTEpjODYyVUNZTjlQVHMybmRnRGhCeUplOGJsdUhZeG54R1IxQXUzb1QwYVNack03UWJ3YWE3SFFHaHpTd0hWR29RVjNnclB1S1RBc0N4V29rU2RXamFnUkpPeXJyVmpTa3FXZWVLazg?oc=5",
+          "published_at": "2026-08-06T08:56:50+00:00",
+          "snippet": "Engagement Award: Building Capacity for Small Organizations (United States) fundsforNGOs - Grants and Resources for Sustainability",
+          "lexical_overlap": 0.091,
+          "relevance": 0.161,
+          "matched_terms": [
+            "building",
+            "capacity"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "building",
+            "capacity",
+            "grants"
+          ]
+        }
+      ],
+      "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -37607,7 +37812,7 @@
     },
     {
       "id": "b96cbeea087eff9237",
-      "checked_at": "2026-11-08T16:42:58.113793+00:00",
+      "checked_at": "2026-11-13T21:59:53.252774+00:00",
       "promise_id": "BJP-2024-6018d529261fd26abe",
       "year": 2024,
       "category": "infrastructure",
@@ -37641,6 +37846,27 @@
       "query": "traditional sports khelo including include scheme",
       "evidence": [
         {
+          "id": "695993fe358c117ee9",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "Khelo India",
+          "source_url": "https://www.kheloindia.gov.in",
+          "title": "Khelo India Scheme - Khelo India",
+          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFAtNWIzNEh3dWU2dXJwdUhObDhkYTJvRl81NVI2RVRweEdKZjRvZWtMdENGUEFVWHFrV0c5cWoxbUFnNXN2?oc=5",
+          "published_at": "2018-01-25T22:41:15+00:00",
+          "snippet": "Khelo India Scheme Khelo India",
+          "lexical_overlap": 0.333,
+          "relevance": 0.453,
+          "matched_terms": [
+            "khelo",
+            "scheme"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "khelo"
+          ]
+        },
+        {
           "id": "44620634e94dffc5c2",
           "scope": "preferred_official_search",
           "tier": "primary",
@@ -37652,29 +37878,6 @@
           "snippet": "Ministry has accredited 247 sports academies across the country under Khelo India Scheme: Shri Anurag Thakur पीआईबी",
           "lexical_overlap": 0.214,
           "relevance": 0.369,
-          "matched_terms": [
-            "khelo",
-            "scheme",
-            "sports"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "khelo",
-            "sports"
-          ]
-        },
-        {
-          "id": "d7474e36f8fe5afc84",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "www.pib.gov.in",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Ministry has accredited 247 sports academies across the country under Khelo India Scheme: Shri Anurag Thakur - www.pib.gov.in",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB3UFpZVXlxTmRGQ2VZUmU0VE15X1NSRHRxQkgwTl9pR18yX0Z4RHB6ZV9acERtUEdFcTZLYS12WXlaRWJLTnhrMjhqeXpSd2ZGREFzWndUOUhJNmVYVlFsS3Y2MkpZTVpfNmc?oc=5",
-          "published_at": "2022-03-29T07:00:00+00:00",
-          "snippet": "Ministry has accredited 247 sports academies across the country under Khelo India Scheme: Shri Anurag Thakur www.pib.gov.in",
-          "lexical_overlap": 0.188,
-          "relevance": 0.342,
           "matched_terms": [
             "khelo",
             "scheme",
@@ -39136,7 +39339,7 @@
     },
     {
       "id": "25e3b19b19001b94f5",
-      "checked_at": "2026-11-08T16:42:49.569334+00:00",
+      "checked_at": "2026-11-13T21:59:44.295039+00:00",
       "promise_id": "BJP-2024-4f05bf6ef1bcb2d9ff",
       "year": 2024,
       "category": "education_skills",
@@ -40669,7 +40872,7 @@
     },
     {
       "id": "45be02db4792d42335",
-      "checked_at": "2026-11-08T16:42:56.288417+00:00",
+      "checked_at": "2026-11-13T21:59:51.033285+00:00",
       "promise_id": "BJP-2024-59f019351872640c29",
       "year": 2024,
       "category": "infrastructure",
@@ -40715,6 +40918,28 @@
           "promise_core_overlap": [
             "governments",
             "state",
+            "water"
+          ]
+        },
+        {
+          "id": "1ba8699249dfd082bd",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "U.S. Environmental Protection Agency (.gov)",
+          "source_url": "https://www.epa.gov",
+          "title": "Compliance Advisors for Sustainable Water Systems Program - U.S. Environmental Protection Agency (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQazZZMHdTbVVuV0Q4Z3IxeHJHOFdIRFpRemNvUGZyZDhobDgxb1BiaXU5Y2VjRnRUWFl3b3ByM0ZOemxDQzluSUxYekptdDl1VEN2LXNidDA1WnBTb3pBbUg5Mlg5bnh2bFFmY21XSUFaV202UXdFXzNJX0t4dHJJZXJvcy1JTkt2aFJyVg?oc=5",
+          "published_at": "2026-07-13T07:00:00+00:00",
+          "snippet": "Compliance Advisors for Sustainable Water Systems Program U.S. Environmental Protection Agency (.gov)",
+          "lexical_overlap": 0.1,
+          "relevance": 0.17,
+          "matched_terms": [
+            "systems",
+            "water"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "systems",
             "water"
           ]
         }
@@ -42347,7 +42572,7 @@
     },
     {
       "id": "8287cfb84dfcd98ee6",
-      "checked_at": "2026-11-01T18:09:40.379001+00:00",
+      "checked_at": "2026-11-13T21:59:57.613731+00:00",
       "promise_id": "BJP-2024-63585a79a6d24865e1",
       "year": 2024,
       "category": "environment",
@@ -42372,6 +42597,28 @@
       "query": "human-animal conflict managing state governments stakeholders",
       "evidence": [
         {
+          "id": "988b9bd273c3e2f516",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "Kerala State Planning Board",
+          "source_url": "https://spb.kerala.gov.in",
+          "title": "Human wildlife conflict.pdf - Kerala State Planning Board",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYWtTdkVmTllPNjlpUkZqRGhpZ1FpcnFic2xEWmFVVFMzSkZ4R2xsaGpPX0poSGpHWnFQRnFVYTNQb3FHanYxcklGUDFtRmRXYjhyQ2FaOXJSdzQ2d1R2YXNqdm9iRV9HTUdHRjBxcko3eGJvX0hKRURDSFR6UDZDN0h4SDM1dDhaV3BMZWdjNU1YaFBE?oc=5",
+          "published_at": "2023-06-08T07:37:23+00:00",
+          "snippet": "Human wildlife conflict.pdf Kerala State Planning Board",
+          "lexical_overlap": 0.111,
+          "relevance": 0.231,
+          "matched_terms": [
+            "conflict",
+            "state"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "conflict",
+            "state"
+          ]
+        },
+        {
           "id": "b9a7116e1308d33952",
           "scope": "news_search",
           "tier": "secondary",
@@ -42392,9 +42639,31 @@
             "conflict",
             "human-animal"
           ]
+        },
+        {
+          "id": "1ca9d7cc8be6ffcfb9",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The New Indian Express",
+          "source_url": "https://www.newindianexpress.com",
+          "title": "Human-animal conflict: Can a joint effort bring peace to the Southern forest belt? - The New Indian Express",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOLWtjNFBsb09peWVaZi0yV1lhNmQ0Tmc3YjNUY0ZYc0NQUm9tRmxrNFNRTC01T3M2XzN6OExtSHk1RWxlUHNxQkh3dEZGa2ZEdl9NeVpiVXFoTlRnZUxtcjMzV0pyclc1OGl1MVc1bHROWmlWOEdFeml0elE0dUNndUFzSWdybUI0bXY5QTR3Ni1KMFlleVdoWjZEUXZBWXp2UnVGa21pS2hTOGRqRVcyUmdJNHhBSWVXYi1Jd1hfNFZEY3lzWGRYOXoweXPSAdoBQVVfeXFMT281dlNST0Jmck04cFVoMzJNZG5TV2ZxZjcyNTlWTWhfVkxNTEIxUVRJNnhkQ0czbGhVTGprckJYOC1GUjBHdjVDd19IQUdfTmcyTXdyaFJQdGVlVnI4c0piY25BWE9aY0tpcUMyWnBFQTUyeEc0bjMxdzZTcjdWbGs2UnRLU3dob1RyUzF4MEpuM09tZ2N0b3NRaWllRHpKMkppU1VORG16QVdRcFRIX2RiM1d1N2FoT2U1SlpzMmVaQk1OTEZhWm9jWkFCc1NGVFlpN1ZfSjhJaVE?oc=5",
+          "published_at": "2024-08-06T07:00:00+00:00",
+          "snippet": "Human-animal conflict: Can a joint effort bring peace to the Southern forest belt? The New Indian Express",
+          "lexical_overlap": 0.1,
+          "relevance": 0.17,
+          "matched_terms": [
+            "conflict",
+            "human-animal"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "conflict",
+            "human-animal"
+          ]
         }
       ],
-      "implementation_signal": "current_reporting_found",
+      "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -45772,8 +46041,8 @@
       }
     },
     {
-      "id": "05e0979e7f32ba2f72",
-      "checked_at": "2026-11-13T20:04:45.081889+00:00",
+      "id": "0764c49dce738dbbee",
+      "checked_at": "2026-11-13T21:59:20.592006+00:00",
       "promise_id": "BJP-2019-18c0750d5ed71bc3d1",
       "year": 2019,
       "category": "agriculture",
@@ -45799,7 +46068,7 @@
       "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
-      "query": "10000 2022 enable creation farmer producer organisations fpos",
+      "query": "2022 10000 enable creation farmer producer organisations fpos",
       "evidence": [
         {
           "id": "7ba7b3f4350246031a",
@@ -47474,7 +47743,7 @@
     },
     {
       "id": "f5811520c1d5623f19",
-      "checked_at": "2026-11-13T20:04:46.954292+00:00",
+      "checked_at": "2026-11-13T21:59:22.450638+00:00",
       "promise_id": "BJP-2019-1d3e95fa9344e842f3",
       "year": 2019,
       "category": "infrastructure",
@@ -47595,7 +47864,7 @@
     },
     {
       "id": "92d6920a15fb42f812",
-      "checked_at": "2026-11-13T20:05:01.004230+00:00",
+      "checked_at": "2026-11-13T21:59:36.244716+00:00",
       "promise_id": "BJP-2019-6abf03adda773fec98",
       "year": 2019,
       "category": "governance",
@@ -51040,7 +51309,7 @@
     },
     {
       "id": "1e0abc9f94016f3c7a",
-      "checked_at": "2026-11-13T20:04:48.354329+00:00",
+      "checked_at": "2026-11-13T21:59:23.877247+00:00",
       "promise_id": "BJP-2019-2af396deaf778cac73",
       "year": 2019,
       "category": "infrastructure",
@@ -51125,7 +51394,7 @@
     },
     {
       "id": "4af70c5cc4e5dd31ea",
-      "checked_at": "2026-11-13T20:04:52.910434+00:00",
+      "checked_at": "2026-11-13T21:59:28.217619+00:00",
       "promise_id": "BJP-2019-34c03859f07f1329c5",
       "year": 2019,
       "category": "infrastructure",
@@ -53274,7 +53543,7 @@
     },
     {
       "id": "93bb9754ab7125c8f1",
-      "checked_at": "2026-11-13T20:04:57.043951+00:00",
+      "checked_at": "2026-11-13T21:59:32.231823+00:00",
       "promise_id": "BJP-2019-6013bbae5c9fbd8c5a",
       "year": 2019,
       "category": "women_social_justice",
@@ -53315,7 +53584,7 @@
     },
     {
       "id": "1d1782ad81aa54afcd",
-      "checked_at": "2026-11-13T20:04:59.097113+00:00",
+      "checked_at": "2026-11-13T21:59:34.148160+00:00",
       "promise_id": "BJP-2019-63e2ccda189fa85e2c",
       "year": 2019,
       "category": "health_welfare",
@@ -58846,7 +59115,7 @@
     },
     {
       "id": "21c782a6ad2ecb8987",
-      "checked_at": "2026-11-13T20:04:50.822534+00:00",
+      "checked_at": "2026-11-13T21:59:26.179344+00:00",
       "promise_id": "BJP-2019-2cfa1375f165d41707",
       "year": 2019,
       "category": "other",
@@ -60255,7 +60524,7 @@
     },
     {
       "id": "09db92a7679f9e887b",
-      "checked_at": "2026-11-13T20:04:54.835164+00:00",
+      "checked_at": "2026-11-13T21:59:30.169703+00:00",
       "promise_id": "BJP-2019-4fc8289de8caed52ff",
       "year": 2019,
       "category": "other",
@@ -65802,7 +66071,7 @@
     },
     {
       "id": "df076e7dea8ba67624",
-      "checked_at": "2026-11-13T20:05:03.627360+00:00",
+      "checked_at": "2026-11-13T21:59:38.412908+00:00",
       "promise_id": "BJP-2014-078252941779345656",
       "year": 2014,
       "category": "women_social_justice",
