@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T07:15:09.135691+00:00",
+  "generated_at": "2026-11-15T09:21:52.198464+00:00",
   "capabilities": {
     "official_evidence_search": true,
     "verified_primary_gate": true,
@@ -16,8 +16,8 @@
     "promise_checked_this_run": 30,
     "promise_total_candidates": 841,
     "promise_coverage_pct": 101.3,
-    "primary_candidates": 701,
-    "secondary_candidates": 1025,
+    "primary_candidates": 719,
+    "secondary_candidates": 1038,
     "prior_fact_checks": 0,
     "publishable_auto_verdicts": 0,
     "claim_verdicts": {
@@ -37,177 +37,228 @@
       "audited_total": 852
     },
     "claim_memory": {
-      "families_total": 131,
+      "families_total": 145,
       "repeated_families": 0,
       "repeated_contradicted_families": 0,
       "repeated_supported_families": 0,
-      "occurrences_total": 131
+      "occurrences_total": 145
     }
   },
   "claim_packets": [
     {
-      "id": "6f47caeaa4b182a73b",
-      "claim": "And friends, This Diwali of 2026 is truly special.",
+      "id": "3fb06a967697eca526",
+      "claim": "Both these occasions convey a profound message about India’s values and our culture.",
       "extraction": {
         "reasons": [
-          "number"
+          "comparison"
         ],
-        "numbers": [
-          "2026"
-        ],
+        "numbers": [],
         "context_before": ""
       },
       "claim_source": {
-        "id": "7e412819b35a71547593",
+        "id": "93d3c9b3d1489d6af3ef",
         "kind": "official_speech_or_video",
-        "title": "PM’s speech during interaction with the Security Forces in Bastar, Chhattisgarh",
+        "title": "PM’s address at the inauguration of COSMOS-Mysuru Planetarium in Mysuru, Karnataka",
         "source": "PMIndia",
         "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-interaction-with-the-security-forces-in-bastar-chhattisgarh/",
-        "published_at": "2026-11-08T10:00:24+00:00"
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-inauguration-of-cosmos-mysuru-planetarium-in-mysuru-karnataka/",
+        "published_at": "2026-11-13T12:56:36+00:00"
       },
-      "query": "2026 friends diwali truly special",
-      "numbers": [
-        "2026"
+      "query": "both occasions convey profound message about",
+      "numbers": [],
+      "promise_matches": [],
+      "evidence": [],
+      "fact_checks": [],
+      "signal": {
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "5494c879ea6d9aba92",
+      "claim": "The University of Mysore was established during the reign of Maharaja Nalwadi Krishnaraja Wadiyar.",
+      "extraction": {
+        "reasons": [
+          "accomplishment"
+        ],
+        "numbers": [],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "93d3c9b3d1489d6af3ef",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address at the inauguration of COSMOS-Mysuru Planetarium in Mysuru, Karnataka",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-inauguration-of-cosmos-mysuru-planetarium-in-mysuru-karnataka/",
+        "published_at": "2026-11-13T12:56:36+00:00"
+      },
+      "query": "university mysore was established during reign",
+      "numbers": [],
+      "promise_matches": [],
+      "evidence": [],
+      "fact_checks": [],
+      "signal": {
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "1bcd8469d3a5663a57",
+      "claim": "These institutions have provided generations of students and researchers with opportunities to advance.",
+      "extraction": {
+        "reasons": [
+          "accomplishment"
+        ],
+        "numbers": [],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "93d3c9b3d1489d6af3ef",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address at the inauguration of COSMOS-Mysuru Planetarium in Mysuru, Karnataka",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-inauguration-of-cosmos-mysuru-planetarium-in-mysuru-karnataka/",
+        "published_at": "2026-11-13T12:56:36+00:00"
+      },
+      "query": "institutions have provided generations students researchers",
+      "numbers": [],
+      "promise_matches": [
+        {
+          "id": "BJP-2019-ba551e363dbc574aed",
+          "year": 2019,
+          "category": "education_skills",
+          "page": 25,
+          "anchor": "We will aim to spread this to the 95% of students who afiend state …",
+          "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
+          "similarity": 0.154,
+          "matched_terms": [
+            "institutions",
+            "students"
+          ]
+        }
       ],
+      "evidence": [],
+      "fact_checks": [],
+      "signal": {
+        "level": "needs_research",
+        "label": "No sufficiently relevant evidence candidate found automatically",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "7ab353fa95d12aef77",
+      "claim": "Atal Ji added Jai Vigyan to it, and then I added Jai Anusandhan as well.",
+      "extraction": {
+        "reasons": [
+          "accomplishment"
+        ],
+        "numbers": [],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "93d3c9b3d1489d6af3ef",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address at the inauguration of COSMOS-Mysuru Planetarium in Mysuru, Karnataka",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-inauguration-of-cosmos-mysuru-planetarium-in-mysuru-karnataka/",
+        "published_at": "2026-11-13T12:56:36+00:00"
+      },
+      "query": "added jai atal ji vigyan then",
+      "numbers": [],
       "promise_matches": [],
       "evidence": [
         {
-          "id": "e0946ce14098fe137e",
+          "id": "c73aef088cf75f3dec",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "www.pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "“JAI JAWAN, JAI KISAN, JAI VIGYAN, JAI ANUSANDHAN”- SLOGANOF NEW INDIA-PM NARENDRA MODI - www.pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1xaVpTZk04bnFIVEtyanZLT1VsRzR5WFdrOVdvNGhFVDV0U0kxM05lcC1aSHV2NHVBRWdSMkwtaXhZLVRIUGxpSUpNUWZNNUtYbmJOeEZyaTc5aFl4a05ubGhpdF9iZHo4RHc?oc=5",
+          "published_at": "2019-01-03T08:00:00+00:00",
+          "snippet": "“JAI JAWAN, JAI KISAN, JAI VIGYAN, JAI ANUSANDHAN”- SLOGANOF NEW INDIA-PM NARENDRA MODI www.pib.gov.in",
+          "lexical_overlap": 0.2,
+          "relevance": 0.355,
+          "matched_terms": [
+            "anusandhan",
+            "jai",
+            "vigyan"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.0137,
+            "neutral": 0.9689,
+            "contradiction": 0.0174
+          }
+        },
+        {
+          "id": "984e34ca0376a2ba5d",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "NDTV",
+          "source_url": "https://www.ndtv.com",
+          "title": "PM Modi Adds Jai Anusandhan To Jai Jawan, Jai Kisan And Jai Vigyan - NDTV",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSnFBcUtac0dfTEc4bXhuSUJ3MVBReW04MTEwYTNpRjJvNHRVdVpDV29RMFRITnlfd2wwQUpuZXk2TkZnYVk4N2FFQjhvUkJVSlhla1VBbFZoWVMxWUpXYjl4OEo3MTVXQ0JUOFFubkpFT0doQmlQTERxWFlqSHRoaWtYYmtzNUtoUzRkdm8yQk9oWUhLTF9VVmZGemVMSURrVE9wSUtjTmQ?oc=5",
+          "published_at": "2019-01-03T08:00:00+00:00",
+          "snippet": "PM Modi Adds Jai Anusandhan To Jai Jawan, Jai Kisan And Jai Vigyan NDTV",
+          "lexical_overlap": 0.231,
+          "relevance": 0.336,
+          "matched_terms": [
+            "anusandhan",
+            "jai",
+            "vigyan"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "05a58801fd5ba0a6b7",
           "scope": "news_search",
           "tier": "secondary",
           "source": "ANI News",
           "source_url": "https://www.aninews.in",
-          "title": "The Diwali Gift Hamper Checklist: 7 Things That Make a Gift Feel Truly Special - ANI News",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSXdmSzh0WDRCRjdKSTBlMkoyX01wVU5PdTZMODJIdGI3dno1emJPWDBzOVRKU1dsRGwwVldrZGZTYXp2TVIwYnotcmkyaWFtSGxMLTFuWndrWFNqWXhlNVJHZjc2ZmxEV0JJZGFHZUo2cWszZDV4eFVhNm1XRVNta3ZkMkJEX3NBRUNHWVM2NExMM1BESzNWc0xJaDYtLXVYM29DNnBaMUJPR0t0Ung0YllOZ3RaUVh6NkNoQ1FMUWhvcEk4SUpB?oc=5",
-          "published_at": "2026-10-24T07:00:00+00:00",
-          "snippet": "The Diwali Gift Hamper Checklist: 7 Things That Make a Gift Feel Truly Special ANI News",
-          "lexical_overlap": 0.25,
-          "relevance": 0.355,
+          "title": "\"Jai Jawaan, Jai Kisaan, Jai Vigyaan, Jai Anusandhan\", says PM Modi to farmers - ANI News",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMXJJVXc2NlVJLXRCd3JIcUkzN085OWxTZGtmaU1CVFBEY0JsSk9sUXpyYjhUQU1zN0VXN3lDUTh5OXJrRXJPcFBKV19kd21UTk5lYXp2SjNQNmFSZU9PNUg1R0hVd1pIT0FPVk1uRHlTenhsdXU0TGF1YTVwb3pkRGdRTFB6SVhCT1JMMm5lbGJqcGdJLVNhMmZWVEMxSWkyYm5ISmVzRXp1dEV4UEdISFRTNjM0cDZ4TVo0MUNRYWE?oc=5",
+          "published_at": "2024-08-12T07:00:00+00:00",
+          "snippet": "\"Jai Jawaan, Jai Kisaan, Jai Vigyaan, Jai Anusandhan\", says PM Modi to farmers ANI News",
+          "lexical_overlap": 0.133,
+          "relevance": 0.203,
           "matched_terms": [
-            "diwali",
-            "special",
-            "truly"
+            "anusandhan",
+            "jai"
           ],
           "shared_numbers": []
         },
         {
-          "id": "c76e65f6c037578136",
+          "id": "0406afe1061189e26d",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Moneycontrol.com",
-          "source_url": "https://www.moneycontrol.com",
-          "title": "Happy Diwali 2026: 60+ best wishes, quotes and images to share with friends and family - Moneycontrol.com",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQVGJLbWNnMi03RzFyWV9DWWxSUXJzcUhnMGtJano0eGF1WTc4R1ZGWTlzdWE0VWNoTUFyLTlCRzYzZnp0RVNQSjhsUVdSOTExWV9hcV9kSFRKQng0NU1iaEtwU09aenNfb190d3RSeG9pSGNoTFE1LS1lU3pMMzNyeG1wbUI4RExvTC1vVWNwcDc5LXdlVVZ4YzF5RFQ1aHpJZGlNMU9nZTRUNUpWVHFUMk9FRVY5ZVhlODdqV2E4cEU3aDFoMG5Hb0tvUW83T3RYVnpoTHFSS0dkSUJ00gHiAUFVX3lxTE9Cckg3SGZaeVAyaDZYcnFBWlVGYnQ3SjVfSFVPV2xRSFgxWkRTNWl5b0VTcTVZd2NKQmR3TWdxSXF1dkl5amdGZ1V5dk9GRnpHTGhRNUJtWG5QNlFoWDk2cmlZdkp5a0xNOXBiZnFHM2x2bTJFUUc0RmVLNW9na0JSa2xxLW11UkJremRvYWk4NEE1ZUhuei11VVdEYjFlN3BRaWI4cjh3VFlWdURZSm9HU2pDdkk4emJJNUVPUno0SkNNdjNOZ1J2ZFBjb2lKWTROSnVRTHRDemhhb29HUllpOEE?oc=5",
-          "published_at": "2026-11-08T03:49:35+00:00",
-          "snippet": "Happy Diwali 2026: 60+ best wishes, quotes and images to share with friends and family Moneycontrol.com",
-          "lexical_overlap": 0.154,
-          "relevance": 0.334,
+          "source": "OpIndia",
+          "source_url": "https://www.opindia.com",
+          "title": "Jai Jawan, Jai Kisan, Jai Vigyan: How former Prime Minister Vajpayee led India to new dawn in science after Pokhran tests - OpIndia",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQNldqSWRrMzNQQ0FXX2pxOHA2c2d0Y1JNVWRrZE40T1dtWG5qbkc3OU0tdi1zQWRoTk5WQnBnQ3ZET19DZlYydFRYOTRkaEhJREtqUjVUcFZlNmtNcXJvXzFzeEZvVmxMNUtaNWV5dGNuaXc5b1JmNEtjRkJKUC1sNTMxR252ckR5X1Z3R2U2UWtidXUtRzRiQW81bEw0eUx3WHgybkZmclU1QkpKTXVwRFUtVzVVQl8wQ1p2NXB5YUNfYTQzUFRWNm1NRkJYWjR3RFVXT3NhblY5YkQyTG5UVGpBNGFOQQ?oc=5",
+          "published_at": "2018-08-16T07:00:00+00:00",
+          "snippet": "Jai Jawan, Jai Kisan, Jai Vigyan: How former Prime Minister Vajpayee led India to new dawn in science after Pokhran tests OpIndia",
+          "lexical_overlap": 0.1,
+          "relevance": 0.17,
           "matched_terms": [
-            "diwali",
-            "friends"
-          ],
-          "shared_numbers": [
-            "2026"
-          ]
-        },
-        {
-          "id": "bfae09e0dc41d5b115",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "HGTV",
-          "source_url": "https://www.hgtv.com",
-          "title": "36 Best Diwali Gift Ideas for Family and Friends - HGTV",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1iMDM4cGxpUzlfcXQwMlV6UFI3MW1wMll3NzJ1cm9KdUZSbGhFakxBeDVHT0FxbldnWk1felMtaUdFRjFFVzBaYXdTTGsyYTgtUXZyQ0hlUThnbjdwUlhkaWhKTGJIeWNnR2NR?oc=5",
-          "published_at": "2026-10-22T07:00:00+00:00",
-          "snippet": "36 Best Diwali Gift Ideas for Family and Friends HGTV",
-          "lexical_overlap": 0.222,
-          "relevance": 0.292,
-          "matched_terms": [
-            "diwali",
-            "friends"
+            "jai",
+            "vigyan"
           ],
           "shared_numbers": []
-        },
-        {
-          "id": "8b296366499bc5715b",
-          "scope": "broad_official_search",
-          "tier": "primary",
-          "source": "Embassy of India, Baku",
-          "source_url": "https://www.indianembassybaku.gov.in",
-          "title": "Remarks of Ambassador Abhay Kumar during the special Diwali event at Embassy of India, Baku - Embassy of India, Baku",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQWjF5bEVlc3BMZ1ZvSUtJN3lKWFNOaXJzQzNHR1NaRVBYS0FVSWFuYjBPbFVSdnNQLW5MRng5amV4eEJTVjZHSlYwRTVJWUJKSUFXUGs3ejBYbmdnN182c0ptY1NhY0ZtU1FIR0FLTndPNDNBcThlbWg2VkhBbjlPMTV0OE5XUUczNXlzWkNyMlZtUGgxMVRiMmcySlBYWDFxd0tzSzM2QWlfRjNaV2RHVzJ1REt4d0xlTDIyQkl2Wks5SmtzNFBYWTdKUnZ6blIwVFB5YWhtTy01ZV9RMGlWZFRoVmxmcWFFWVFBS29sUE9oQQ?oc=5",
-          "published_at": "2026-11-09T08:00:00+00:00",
-          "snippet": "Remarks of Ambassador Abhay Kumar during the special Diwali event at Embassy of India, Baku Embassy of India, Baku",
-          "lexical_overlap": 0.167,
-          "relevance": 0.287,
-          "matched_terms": [
-            "diwali",
-            "special"
-          ],
-          "shared_numbers": [],
-          "nli": {
-            "entailment": 0.0026,
-            "neutral": 0.9849,
-            "contradiction": 0.0125
-          }
-        },
-        {
-          "id": "b9e08c83a81c79faef",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Times of India",
-          "source_url": "https://timesofindia.indiatimes.com",
-          "title": "Happy Choti Diwali 2026: Images, Wishes, Messages, Greetings, and Status Updates to Share on WhatsApp, In - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNU3AzVlJNUC1fQ1pTdkZaRkh5UmwyQS1BSDJkZDZfOUE5d2NOQWI5bUZZMkREU2pKemZkTk5mT1N1RTd1TENmWThtOGltYWNZeFlqRWJHLUNyNTk1OUNOVkxBNzF5d0ZVVFNqV293SWZCdHVnRVBiRmNJUVlzQ1NYTG9yOUNfOHB2M0k4cU5KYWxFTDFrczBaWDk4bFhhWmRLemVicHFNTDNEejd6UEVmRHhKYzBoSk9oVHpBcWduS0cyOFliMWRSRFcwWEJNWTYzOHVoMjNKQnluU0hIZzdWRElNbTJ6Rm96UG9WbnVQR25neU1Na1NJSjRleVlaUVRTS2VFTlZLeVBGZUVpaXd2MXNXYkI0OU95RWI0VFQ3X2ludmPSAagCQVVfeXFMTVk2enYxV2FobnZiV3h5Vy1VNnh5V0dmSHpWMWdFb3BIUEJodVVLUWNna2F3UjA3eGZldjZYV3g5THpNWEtxU1ZzTG1pcWdreGJYZ2JvbVhxRDIyQkUwR2hOVkd6dXcwODJkaWJBRjNQRHdwOXRGV21TZmVmbDVRMno5NzJCNVRpMmJNQ3NGeFQ4Y1NNZUx1R2UwY05ER2lremtvcjR3ZlNrY3FWRldJYnlxU2xKX1FyVGdsU25fdEZCWklDcGp5ck5oVDh6TTkzdHJrYkFoZU5xV1dEaGRVRmtxaTExcHNDWkVxNlNBZkFmdF83bW9CQlo5LXZiZjh0OEtCX1Q3aDBNbkR2U25mWFQxWUhTRlRyMWNtdVB1Vnk2Q3Z4MW8zZEc?oc=5",
-          "published_at": "2026-11-07T02:06:00+00:00",
-          "snippet": "Happy Choti Diwali 2026: Images, Wishes, Messages, Greetings, and Status Updates to Share on WhatsApp, In The Times of India",
-          "lexical_overlap": 0.067,
-          "relevance": 0.212,
-          "matched_terms": [
-            "diwali"
-          ],
-          "shared_numbers": [
-            "2026"
-          ]
-        },
-        {
-          "id": "8010ad8ae083b2a0df",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Times of India",
-          "source_url": "https://timesofindia.indiatimes.com",
-          "title": "Happy Diwali 2026: Best 40 Vibrant Wishes, Messages, Quotes, Images, Greetings Card to Share on Instagram - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQTFpUNFNmUWFFUHlNQkppbkVrRHpVYml1UGFBNFZQdVB5T0lWaUg3eDBYano5a0pEV1RuUVZnWThpbmVxYU5PMEZqZWxTZlZSRHY1aTlSbGczQXlEbkR4MXZ2RS05cGJEdUZMZUxUQ1lsUW94N3N4NUNJYVg1eEQ1R3dIeFJzRmZyOG84YWQ5cDlrWFh4TFlwbUtyU1YtV2ZkSTVHOVNITVQ2X2dmSElYM3pnQlBfaDc1MFk5QlRBY2Z6Nk02Ry1IRFVJeTN0YTFmc2dxVVV0aTZnYTFnQjlfNXo4S3hZamJ6UXp3SktvcjNWN2NEaWNaZHhrSnRLcWNKa3AyMlBocGdNR2x6eTZlR05jQVRaUXhFQnFGeNIBogJBVV95cUxPTmF0OHkzY3JCbE0tY0VhanBQdUF5Z0FIQ2JtenpXZkRVcGJiNG1YUEE5T2ZRT0MyZllONzl2b0Z6ZGx3bEVBSVJyM29xYWxFMlVrZ3hlU0VVWGxpWXBKbXlOREQtQkJManNMRUtqS2g1d21jLUhKTHR2MzZCc3cxVmhPMmlaUzZRcG5Zdzl1aXllZE9Xem8yYmtWVUttdVNPYXVIMFdsUDlHdFg2Z20tUTNZQWNNeDEtbHhrc2dWVF9uU3l6SGxmbThodTJSaHdIVDBmWWFxRnhLN3VjcGhLWTFySzl4MEU0bWo1R0ZJdmlzRDdwa2hGRE5xTktma1Q5bHhtUXRCNFZqaThGRlprSXlVRVl1ZXhrRkUzd1pfOHN4dw?oc=5",
-          "published_at": "2026-11-07T14:30:00+00:00",
-          "snippet": "Happy Diwali 2026: Best 40 Vibrant Wishes, Messages, Quotes, Images, Greetings Card to Share on Instagram The Times of India",
-          "lexical_overlap": 0.062,
-          "relevance": 0.208,
-          "matched_terms": [
-            "diwali"
-          ],
-          "shared_numbers": [
-            "2026"
-          ]
-        },
-        {
-          "id": "6b2a4927b2dad960a9",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Jagran Josh",
-          "source_url": "https://www.jagranjosh.com",
-          "title": "Happy Diwali 2026 Wishes: 67+ Best Messages, Quotes, WhatsApp Status, Instagram Captions And Greetings - Jagran Josh",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQTmpHQTNpdzVmMk14WU1wXzd2dGdOZ1RtZ3pZNmFMbDhXeV96ZDI4czJQRl9oTkgySmdVcEtfM2w1TFNSck95VkJoX0k1aVMyOHZEUVRkUnZFcU92Wi1EXzl3V0lBMFAzeV9Fd3NRY01uZlRuVHUzQndYeWNySmowb1NkU1Nwc0d1UnZrY3hRTkhKQkp4NERmR2RZYnhvOEx1MzN2M3RKbk1FekxJem94VXZqa010M0l4cW9vRnBhOHlrUGxZODBSVjM0M1BwOFdBdnVfNzFCd0EyM19aeWtiOVZTdnFDTEM5STFj0gHyAUFVX3lxTE9oekl4ZERwSHJ5S3JiRkhDYWpXOVFhSUtrTG9FdGxfWkEwaEt6emNZbnVGSGJQY1kzR0FSeG4tTUljUGoxWXVKOGU0WndJV010OGFsUGdsZXo2a1Q4b0dfZGpHaG9YVUxhUFhUdk5XOU1MN0ZyV056a1ZiMGo4ZXNDVU5wOF9tY0RIN2ZjakJTZGtGMjJFeHVLSnNNRU1xdGJ5STd3YnAtUUs2R3pLbjNEdm1qcXJ0RU5HSWZXMWVST1ZUWlVYYnFZRjM5MXZSMUlMZm1fWlRoLXhjbmRTWW05eU84TDZ4dzdJLWx0YV92OG9B?oc=5",
-          "published_at": "2026-11-08T03:43:26+00:00",
-          "snippet": "Happy Diwali 2026 Wishes: 67+ Best Messages, Quotes, WhatsApp Status, Instagram Captions And Greetings Jagran Josh",
-          "lexical_overlap": 0.062,
-          "relevance": 0.208,
-          "matched_terms": [
-            "diwali"
-          ],
-          "shared_numbers": [
-            "2026"
-          ]
         }
       ],
       "fact_checks": [],
@@ -221,413 +272,63 @@
       "human_reviewed": false
     },
     {
-      "id": "d1ca716e377ed3a9a4",
-      "claim": "And I have also come to express, on behalf of 140 crore Indians, gratitude for your sacrifice, dedication, and spirit of service.",
+      "id": "a57bbc986db52b2c00",
+      "claim": "The India of the 21st century is moving forward with this very vision.",
       "extraction": {
         "reasons": [
           "number"
         ],
         "numbers": [
-          "140 crore"
+          "21"
         ],
         "context_before": ""
       },
       "claim_source": {
-        "id": "7e412819b35a71547593",
+        "id": "93d3c9b3d1489d6af3ef",
         "kind": "official_speech_or_video",
-        "title": "PM’s speech during interaction with the Security Forces in Bastar, Chhattisgarh",
+        "title": "PM’s address at the inauguration of COSMOS-Mysuru Planetarium in Mysuru, Karnataka",
         "source": "PMIndia",
         "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-interaction-with-the-security-forces-in-bastar-chhattisgarh/",
-        "published_at": "2026-11-08T10:00:24+00:00"
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-inauguration-of-cosmos-mysuru-planetarium-in-mysuru-karnataka/",
+        "published_at": "2026-11-13T12:56:36+00:00"
       },
-      "query": "140 have come express behalf crore indians",
-      "numbers": [
-        "140"
-      ],
-      "promise_matches": [],
-      "evidence": [],
-      "fact_checks": [],
-      "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "dc0d779e78fb7b0d0a",
-      "claim": "There was a time when more than 230 districts across nearly 20 states of the country were affected by Naxalism.",
-      "extraction": {
-        "reasons": [
-          "number",
-          "comparison"
-        ],
-        "numbers": [
-          "230",
-          "20"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7e412819b35a71547593",
-        "kind": "official_speech_or_video",
-        "title": "PM’s speech during interaction with the Security Forces in Bastar, Chhattisgarh",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-interaction-with-the-security-forces-in-bastar-chhattisgarh/",
-        "published_at": "2026-11-08T10:00:24+00:00"
-      },
-      "query": "20 230 there was time when than districts",
-      "numbers": [
-        "20",
-        "230"
-      ],
-      "promise_matches": [],
-      "evidence": [],
-      "fact_checks": [],
-      "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "d57bddc495459d1c90",
-      "claim": "Just remember, in 2010, nearby in Dantewada, 76 CRPF personnel were martyred in an encounter with Naxalites.",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "2010",
-          "76"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7e412819b35a71547593",
-        "kind": "official_speech_or_video",
-        "title": "PM’s speech during interaction with the Security Forces in Bastar, Chhattisgarh",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-interaction-with-the-security-forces-in-bastar-chhattisgarh/",
-        "published_at": "2026-11-08T10:00:24+00:00"
-      },
-      "query": "76 2010 just remember nearby dantewada crpf personnel",
-      "numbers": [
-        "2010",
-        "76"
-      ],
-      "promise_matches": [],
-      "evidence": [
-        {
-          "id": "293104769444d3ec12",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "OpIndia",
-          "source_url": "https://www.opindia.com",
-          "title": "Chhattisgarh: Sukma Maoist attack a rerun of the 2010 Dantewada attack - OpIndia",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbGhRYi00S1l6aUxNSlNxUjR4LVpoOFYtRTZpNXR2SWQ3RHNaOVhvbVRTXzFEbXJkeFg4dXdwYnZacWVDTXVSa3p6a2I0ano1UFpXSmxjN19FTzViN3NYV21UMGRNaDJRLXdYRGxMa0pFZ0N0QWJsOEVEaF9fSVVMODZLT1NjM1R4ampDZXdtZURHMVRrdWdmbHhTdVh4RjZieHV4ZTU1d2RRejFKdnNaWmIyVWFiOEtxWlln?oc=5",
-          "published_at": "2021-04-06T07:00:00+00:00",
-          "snippet": "Chhattisgarh: Sukma Maoist attack a rerun of the 2010 Dantewada attack OpIndia",
-          "lexical_overlap": 0.062,
-          "relevance": 0.208,
-          "matched_terms": [
-            "dantewada"
-          ],
-          "shared_numbers": [
-            "2010"
-          ]
-        },
-        {
-          "id": "4bd63d3f8ae9e1e9fc",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "BOOM Fact Check",
-          "source_url": "https://www.boomlive.in",
-          "title": "Old Photo From 2010 Dantewada Attack Resurfaces As Pulwama | BOOM - BOOM Fact Check",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOYm4wR2JOcDZqV3pteTl3b3I4RWNUWWVCMWN5Qk1Ya19nODBKUGN0alBTa203V3pZNkZIejJRYXB5V1d4LVhhSjRRYkhkeWhvSklYN3Uwc21CTlB5dll1OVp0TzBFakhnREVxalVBQmdyc2xCN0h5dE41UUo5SW9saVBkLThIWkhxdmfSAY8BQVVfeXFMTXZzMExBdERFRl9ib3JsNGd6cnF6LV9keWNOZk1OcVJDZFZ5NGdmaGJWQkxjWU52Y0xWR3Jsa3A2cDMxSndIZDNtSlZPNC1EWFp1blFKQzRZRXRhcVZYSVNhY0FtcEUwWDM2Qkd2RFk1QlItSEg4SVhMUlNTQnQtTVFUY3lMdjBOcVVrNWJZS3M?oc=5",
-          "published_at": "2019-02-17T08:00:00+00:00",
-          "snippet": "Old Photo From 2010 Dantewada Attack Resurfaces As Pulwama | BOOM BOOM Fact Check",
-          "lexical_overlap": 0.056,
-          "relevance": 0.201,
-          "matched_terms": [
-            "dantewada"
-          ],
-          "shared_numbers": [
-            "2010"
-          ]
-        },
-        {
-          "id": "4fd7b881ab61cbef2e",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Economic Times",
-          "source_url": "https://m.economictimes.com",
-          "title": "CRPF goes a year without losing personnel in operations for first time in 47 years - The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZDQzNGdmaGstMmRsSkJkZENhck9wb0JtXzFXOEU5TUZEazZIT205ZXo0MnhjMHRSSThWQ1lLQXh5UlpzUTVzQTN2OEFIOTdGdDRvRV93OXhjRy01RGZCYmlibXJQanhxdEp2dTh5ZFI0Vm9XalNTZ2dvM2oyeGVhSFZXdjh0SU1iRXVUcFpOa1FrMFR2WjdMa2dUXzZVYTFrLXZOVFZFQU9lTE1nLUNKcFBORXdJVzB3Q0tGNlpGRTVfRWZLQzRKYjl0dUtIVWxEOUHSAdcBQVVfeXFMTU5PQVAxeWNJMVAxVDZqZVgtdnVCVm4xT3JOdTQ4WDlCNUlOYkdHWTJXNnJ3UFFHekRRcU41eDh6OEprT0kzY1pxaE5CUGxpOUZQTWdyS0IzMjJ3YVJYV1EyMmgyak93NWJDcThtSE5sakxFTTY2ckgwYktsRVZvaVYtdmMwOFI3ZEZfeFQ1cnZud3JCUkpvczZXem5JZExCYkJvQmd0WkZfdWlBRHFlUzZySEhlNlVzYXBGVDdpMEc1MXhPSmxzdGlvNDRWb0xLTjR1bEdkZjQ?oc=5",
-          "published_at": "2026-11-03T08:00:00+00:00",
-          "snippet": "CRPF goes a year without losing personnel in operations for first time in 47 years The Economic Times",
-          "lexical_overlap": 0.111,
-          "relevance": 0.181,
-          "matched_terms": [
-            "crpf",
-            "personnel"
-          ],
-          "shared_numbers": []
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "badb659ac1ccc63d2f",
-      "claim": "In the same year, another incident in Dantewada claimed the lives of 44 innocent civilians.",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "44"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7e412819b35a71547593",
-        "kind": "official_speech_or_video",
-        "title": "PM’s speech during interaction with the Security Forces in Bastar, Chhattisgarh",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-interaction-with-the-security-forces-in-bastar-chhattisgarh/",
-        "published_at": "2026-11-08T10:00:24+00:00"
-      },
-      "query": "44 same another incident dantewada claimed lives",
-      "numbers": [
-        "44"
-      ],
-      "promise_matches": [],
-      "evidence": [],
-      "fact_checks": [],
-      "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "c9296cb84238f6adaa",
-      "claim": "During this period, more than one thousand security personnel sacrificed their lives in Chhattisgarh alone.",
-      "extraction": {
-        "reasons": [
-          "comparison"
-        ],
-        "numbers": [],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7e412819b35a71547593",
-        "kind": "official_speech_or_video",
-        "title": "PM’s speech during interaction with the Security Forces in Bastar, Chhattisgarh",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-interaction-with-the-security-forces-in-bastar-chhattisgarh/",
-        "published_at": "2026-11-08T10:00:24+00:00"
-      },
-      "query": "during period than one thousand security",
+      "query": "st century moving forward very vision",
       "numbers": [],
       "promise_matches": [],
-      "evidence": [],
-      "fact_checks": [],
-      "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "34770d214e181f002f",
-      "claim": "If you look at the figures from 2004 to 2013, every year more of our brave soldiers were martyred than the number of Naxalites eliminated.",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "2004",
-          "2013"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7e412819b35a71547593",
-        "kind": "official_speech_or_video",
-        "title": "PM’s speech during interaction with the Security Forces in Bastar, Chhattisgarh",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-interaction-with-the-security-forces-in-bastar-chhattisgarh/",
-        "published_at": "2026-11-08T10:00:24+00:00"
-      },
-      "query": "2013 2004 if you look figures every brave",
-      "numbers": [
-        "2004",
-        "2013"
-      ],
-      "promise_matches": [],
-      "evidence": [],
-      "fact_checks": [],
-      "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "32ffed46d2181c5c55",
-      "claim": "The political will that was lacking in the country for this task was restored in 2014.",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "2014"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7e412819b35a71547593",
-        "kind": "official_speech_or_video",
-        "title": "PM’s speech during interaction with the Security Forces in Bastar, Chhattisgarh",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-interaction-with-the-security-forces-in-bastar-chhattisgarh/",
-        "published_at": "2026-11-08T10:00:24+00:00"
-      },
-      "query": "2014 was political lacking task restored",
-      "numbers": [
-        "2014"
-      ],
-      "promise_matches": [],
-      "evidence": [],
-      "fact_checks": [],
-      "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "cff3a6385309e34818",
-      "claim": "And after 2014, we saw both the situation and the statistics begin to change.",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "2014"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7e412819b35a71547593",
-        "kind": "official_speech_or_video",
-        "title": "PM’s speech during interaction with the Security Forces in Bastar, Chhattisgarh",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-interaction-with-the-security-forces-in-bastar-chhattisgarh/",
-        "published_at": "2026-11-08T10:00:24+00:00"
-      },
-      "query": "2014 after saw both situation statistics begin",
-      "numbers": [
-        "2014"
-      ],
-      "promise_matches": [],
-      "evidence": [],
-      "fact_checks": [],
-      "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "c04aea4419bad26075",
-      "claim": "For years, discussions revolved around the number of security personnel being killed compared to the number of Naxalites.",
-      "extraction": {
-        "reasons": [
-          "comparison"
-        ],
-        "numbers": [],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7e412819b35a71547593",
-        "kind": "official_speech_or_video",
-        "title": "PM’s speech during interaction with the Security Forces in Bastar, Chhattisgarh",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-interaction-with-the-security-forces-in-bastar-chhattisgarh/",
-        "published_at": "2026-11-08T10:00:24+00:00"
-      },
-      "query": "number discussions revolved around security personnel",
-      "numbers": [],
-      "promise_matches": [
-        {
-          "id": "BJP-2019-25c5846c0dd73a8b30",
-          "year": 2019,
-          "category": "health_welfare",
-          "page": 23,
-          "anchor": "With our efiofis we will double the number of MBBS and Specialist doctors in …",
-          "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
-          "similarity": 0.143,
-          "matched_terms": [
-            "compared",
-            "number"
-          ]
-        }
-      ],
       "evidence": [
         {
-          "id": "6e5ffff1320a3f366d",
+          "id": "12672eccd12b93d21e",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Help Net Security",
-          "source_url": "https://www.helpnetsecurity.com",
-          "title": "Most dark web activity revolves around a handful of topics - Help Net Security",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5oVV9yWGhXX2ctWTRzZVRDbXp4SGJLUnZYRWpnMUg2MlU5ZWJyeUUxY3p0WXRtVmQ4VWtoTDNTZzhHQW5aa2hJS3RVb0dudDNTbXFsN205LVQ0amIzc0s2aExvc0RvNUpDSmlXOGJnQVBQZzc3OGhqT3dn?oc=5",
-          "published_at": "2026-05-21T07:00:00+00:00",
-          "snippet": "Most dark web activity revolves around a handful of topics Help Net Security",
-          "lexical_overlap": 0.111,
-          "relevance": 0.181,
+          "source": "Bipartisan Policy Center",
+          "source_url": "https://bipartisanpolicy.org",
+          "title": "What's in the 21st Century ROAD to Housing Act? (March 2026 Version) - Bipartisan Policy Center",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSVpTbzN2eHpyVHBHdVhnbU9MdDc5Z1VTckxlXzl2djBIOHo3VE9PbE5QV0ZLQ3AzWm1YSWtBeUZmUG5rNlhBSkZYdmJ0UEMxZEF5WHRXM1pKTWZQTTIwQ1hJTFp0WjlWQ3RGVzBBVzBPQURKblpaWXhQa3QzUTRIaXhDSkVKM0o2a055QkNB?oc=5",
+          "published_at": "2026-03-10T15:53:01+00:00",
+          "snippet": "What's in the 21st Century ROAD to Housing Act? (March 2026 Version) Bipartisan Policy Center",
+          "lexical_overlap": 0.133,
+          "relevance": 0.203,
           "matched_terms": [
-            "around",
-            "security"
+            "century",
+            "st"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "fb39b61a078cae2bba",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "National League of Cities",
+          "source_url": "https://www.nlc.org",
+          "title": "10 Things for Local Leaders to Know About the “21st Century ROAD to Housing Act” - National League of Cities",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPeEk0cEVuRmxCWHpPWThFQURpMkJYRVFFZm9KdDZLTERYZVZNRzdPZmpvTFd1U0EzVFdGR1V1LTNzMnFQSDJuYk16bWNNXzEtSFFSRTlOdDROektkTWlEU09WUW9qbkhtbXU1UHVkU3l0UWY0Q2gwM29Vd0ppbUFmVDFRVDVqazBCSmhoRVJ5eFRPYmRkVWtIQnN4OWhINk56Y0gtOGNhNlNINi1ralVMTXdlSC1STlNfRDM4?oc=5",
+          "published_at": "2026-07-02T07:00:00+00:00",
+          "snippet": "10 Things for Local Leaders to Know About the “21st Century ROAD to Housing Act” National League of Cities",
+          "lexical_overlap": 0.118,
+          "relevance": 0.188,
+          "matched_terms": [
+            "century",
+            "st"
           ],
           "shared_numbers": []
         }
@@ -643,104 +344,8 @@
       "human_reviewed": false
     },
     {
-      "id": "65a990af87cc3b2e5a",
-      "claim": "But after 47 years, for the first time, not a single CRPF jawan lost his life during duty over the past year.",
-      "extraction": {
-        "reasons": [
-          "number"
-        ],
-        "numbers": [
-          "47 years"
-        ],
-        "context_before": ""
-      },
-      "claim_source": {
-        "id": "7e412819b35a71547593",
-        "kind": "official_speech_or_video",
-        "title": "PM’s speech during interaction with the Security Forces in Bastar, Chhattisgarh",
-        "source": "PMIndia",
-        "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-interaction-with-the-security-forces-in-bastar-chhattisgarh/",
-        "published_at": "2026-11-08T10:00:24+00:00"
-      },
-      "query": "47 but after first time not single",
-      "numbers": [
-        "47"
-      ],
-      "promise_matches": [],
-      "evidence": [
-        {
-          "id": "72e620131e2badc0f3",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "PinkNews",
-          "source_url": "https://www.thepinknews.com",
-          "title": "‘I started dating men for the first time at 47 – this is what it’s really like’ - PinkNews",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOT2ZyTldpaksza1d5M1RPOUhfQnJBVmx3d2FTNGkyQ3d1TjhQckdzTTRkdHIzMnV6cU9lYmhQYnNOWmwwTXVhNXVGTDRTQ2VnUU9xcUNFUndkc3I1Z0tlc0ltT2tnY3lVVmhJd1JNV0c4cjVwMTFzRTZVM01DX1hGTDdGZnVYM3I4QU9oZHVPcUl1c1JhWFVwdmNqbGloS0huWUs1TzBIaDZ4RjJrNE1aS0U3Wm4?oc=5",
-          "published_at": "2026-03-27T07:00:00+00:00",
-          "snippet": "‘I started dating men for the first time at 47 – this is what it’s really like’ PinkNews",
-          "lexical_overlap": 0.105,
-          "relevance": 0.285,
-          "matched_terms": [
-            "first",
-            "time"
-          ],
-          "shared_numbers": [
-            "47"
-          ]
-        },
-        {
-          "id": "4928e029d34f9cf52b",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Parents",
-          "source_url": "https://www.parents.com",
-          "title": "I Had My First Kid at 47—Here’s What I Learned About Having Kids Later in Life - Parents",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVDJVS0hlUmo5OTU4R01FdW13WENTUWdONjV6Yjc2ODdMaDd3bVY0SldwOUNTVGg4MmlHWHVFeEYtVHBIS3pzcmVteGhRNHZzRlBOY3loZEtwME9iUVdnTXVoUFMtcUxFcmxwSGVtOWpuSGpkOGxmTFF6dmY1S0JZYUU4alp2OEJ6VG9yV0ctT1Y3Z0oxa01EdHlvUWFrRVVrM3Y4bUVFUE5XM1NpS0FB?oc=5",
-          "published_at": "2026-07-13T07:00:00+00:00",
-          "snippet": "I Had My First Kid at 47—Here’s What I Learned About Having Kids Later in Life Parents",
-          "lexical_overlap": 0.087,
-          "relevance": 0.267,
-          "matched_terms": [
-            "first",
-            "life"
-          ],
-          "shared_numbers": [
-            "47"
-          ]
-        },
-        {
-          "id": "e157ac83133d6a6e03",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "MLQ.ai",
-          "source_url": "https://mlq.ai",
-          "title": "SpaceX catches a Starship upper stage with its launch tower for the first time - MLQ.ai",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWjdKNkNxNWZjRlRkZUR0eUVfSGNTYXU4QnNQblBkakN0MUkwQXo1RDRRcTVnTXRfU2kyZ3FTLUd0UXhrUnp3QnJRQ1V4QVhaZi1CMEdTX3pwdTIxWWZ3bEFuTTRYWi13RzlMRjR2UnJVMG1zc2hHNjl1b2F6YWFhYzhVbElSLU5QczE4ZVhLaEtfR2hRZ1gteFEzM2RZQzJv?oc=5",
-          "published_at": "2026-11-14T23:03:16+00:00",
-          "snippet": "SpaceX catches a Starship upper stage with its launch tower for the first time MLQ.ai",
-          "lexical_overlap": 0.095,
-          "relevance": 0.165,
-          "matched_terms": [
-            "first",
-            "time"
-          ],
-          "shared_numbers": []
-        }
-      ],
-      "fact_checks": [],
-      "signal": {
-        "level": "reporting_found",
-        "label": "Relevant reporting found; primary evidence still needed",
-        "publishable_verdict": false,
-        "verdict": "pending"
-      },
-      "verdict": "pending",
-      "human_reviewed": false
-    },
-    {
-      "id": "c88d791198c59089a5",
-      "claim": "Therefore, until this goal was achieved, we continued to work with determination.",
+      "id": "137a99377638e088a8",
+      "claim": "This year, Indian students achieved major successes in the International Olympiads as well.",
       "extraction": {
         "reasons": [
           "accomplishment"
@@ -749,15 +354,890 @@
         "context_before": ""
       },
       "claim_source": {
-        "id": "7e412819b35a71547593",
+        "id": "93d3c9b3d1489d6af3ef",
         "kind": "official_speech_or_video",
-        "title": "PM’s speech during interaction with the Security Forces in Bastar, Chhattisgarh",
+        "title": "PM’s address at the inauguration of COSMOS-Mysuru Planetarium in Mysuru, Karnataka",
         "source": "PMIndia",
         "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-interaction-with-the-security-forces-in-bastar-chhattisgarh/",
-        "published_at": "2026-11-08T10:00:24+00:00"
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-inauguration-of-cosmos-mysuru-planetarium-in-mysuru-karnataka/",
+        "published_at": "2026-11-13T12:56:36+00:00"
       },
-      "query": "therefore until goal was achieved continued",
+      "query": "students achieved major successes international olympiads",
+      "numbers": [],
+      "promise_matches": [],
+      "evidence": [
+        {
+          "id": "2702461035509c8428",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "DD News",
+          "source_url": "https://ddnews.gov.in",
+          "title": "PM Modi applauds Indian students’ stellar performance at International Science Olympiads, calls it a matter of national pride - DD News",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNWGFqOUt1bWkxaklrM0FzMGE4Q3ExUE9BNjlkc01uZFU2aThHQlNXOHd3cWNHb3BKMFBHbXpqTkdadWVmNE41RE5OcUdvTy1Kd1hWQ1pVdTRWSjFZTGkyLWNmN2VBTDdqM21GMkNiUEtxWC1HNWRlblZxSUszdlRybWJQMkF6Uy1wWGJxb1RXNmFOWG1pUmUyYVp0YlZyUzRNQ0FITHc0U0wzOF80NnRjOVA2UGRwLVFXejFYWWVsWXluY0VMenhIbFlQd05DTVpxTlcybkhxWDN1WVlGQnM5TEY3SQ?oc=5",
+          "published_at": "2026-07-26T07:00:00+00:00",
+          "snippet": "PM Modi applauds Indian students’ stellar performance at International Science Olympiads, calls it a matter of national pride DD News",
+          "lexical_overlap": 0.167,
+          "relevance": 0.322,
+          "matched_terms": [
+            "international",
+            "olympiads",
+            "students"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.0041,
+            "neutral": 0.9922,
+            "contradiction": 0.0036
+          }
+        },
+        {
+          "id": "4f5caf3a5a0cb75027",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Trinity College Dublin",
+          "source_url": "https://www.tcd.ie",
+          "title": "Major success for Irish secondary school students at 53rd International Chemistry Olympiad - Trinity College Dublin",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOMzRjQ3VvRFdQQVhVSlZNZndySXlXMm9tREZIaC1Zb3Q5bUZVQm1TZ2RsWER5bkEwYVdCR3FpSWExd2JSWnU1Q3lDdXFrQWJUREkzR2Q3NHVOaWhobXUwTXZkOGRzbnhrbTVBY1NocmMzRjNqMldmNWpuV2R3TUlzb0ZyeXNvTHdnWWpZVGpabVVnV0RISGZzR1MtSm0xOVNuTmwweG5mUWtESUNwM3B2Q0RmdERFVFdUZEZzNFpNWWZ0UnFGdjdTS2VHMA?oc=5",
+          "published_at": "2021-10-06T07:00:00+00:00",
+          "snippet": "Major success for Irish secondary school students at 53rd International Chemistry Olympiad Trinity College Dublin",
+          "lexical_overlap": 0.176,
+          "relevance": 0.281,
+          "matched_terms": [
+            "international",
+            "major",
+            "students"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "de492ccde86cb40537",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Официальный сайт Мэра Москвы",
+          "source_url": "https://www.mos.ru",
+          "title": "Sergei Sobyanin congratulates Moscow school pupils on their successes in international Olympiads - Официальный сайт Мэра Москвы",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBpV2ZsZnZPSVNubmNRSURkd2JOd3pwa1ZmYzdHZlFGVlRSalJJUU4tQkF5bDdNc0JsS3dHSWNtam9sNmxPZ3ZTT1llalFXNElFTC1BaGRHaw?oc=5",
+          "published_at": "2025-12-12T08:00:00+00:00",
+          "snippet": "Sergei Sobyanin congratulates Moscow school pupils on their successes in international Olympiads Официальный сайт Мэра Москвы",
+          "lexical_overlap": 0.176,
+          "relevance": 0.281,
+          "matched_terms": [
+            "international",
+            "olympiads",
+            "successes"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "daaea5cec3bb5dd1f5",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "DAE-Nurtured Olympiad Programme Powers India's Yuva Shakti at International Science and Mathematics Olympiads 2026 - pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9kejd4UG92MVRpRXMtRnJSdS1PUm42ampEb0dRcVAzbENRVlR6QTNTeGlVTjFORjBGa0VsNGwzUWxDMHZZSmVLcXdnQ3doUHBybWR4YWFfYVV3SW56X2l5VVViVTVEQnpCaXU0cDlxLW1TQzdBMEJxMkZOMnE?oc=5",
+          "published_at": "2026-07-22T07:00:00+00:00",
+          "snippet": "DAE-Nurtured Olympiad Programme Powers India's Yuva Shakti at International Science and Mathematics Olympiads 2026 pib.gov.in",
+          "lexical_overlap": 0.118,
+          "relevance": 0.238,
+          "matched_terms": [
+            "international",
+            "olympiads"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.0068,
+            "neutral": 0.9885,
+            "contradiction": 0.0046
+          }
+        },
+        {
+          "id": "a8f1c306cd529e87a6",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "Department of Atomic Energy (DAE)",
+          "source_url": "https://dae.gov.in",
+          "title": "DAE-Nurtured Olympiad Programme Powers India's Yuva Shakti at International Science and Mathematics Olympiads 2026 - Department of Atomic Energy (DAE)",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORl9ra1huRW1VSW1oWURmd01LU1ZValQ1bXhmaVpCeDRrMjB3dVZGVE45ME1SNDdQNk1JaFBNaHo3YTgwS0N2UkdQSnZxaEFfN3FKanlVbjQzNXJyMkpTbUFJZ1RvUi12elhMQXpzbGtjVHQzNGxjVUtnUERUeXBRVzljVE9lZGk5OWs5eGx5V2Fxb1ZvZHo0TTdTdkFZMWhLRExVQ3BYdExKR3FER09SaVFBTXRveG53OEVFdlV3LXRLR2V6d2JiYjRVZnVVdw?oc=5",
+          "published_at": "2026-07-27T07:00:00+00:00",
+          "snippet": "DAE-Nurtured Olympiad Programme Powers India's Yuva Shakti at International Science and Mathematics Olympiads 2026 Department of Atomic Energy (DAE)",
+          "lexical_overlap": 0.105,
+          "relevance": 0.225,
+          "matched_terms": [
+            "international",
+            "olympiads"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.0064,
+            "neutral": 0.9899,
+            "contradiction": 0.0037
+          }
+        },
+        {
+          "id": "202f59d3e9d89ac0ce",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "turkmenistan.gov.tm",
+          "source_url": "https://www.turkmenistan.gov.tm",
+          "title": "Students from Turkmenistan Achieve Success at the International Mathematics Olympiad in Moscow - turkmenistan.gov.tm",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOd0pNZm83QTFxdjhYQmNIUV9zZEVJR2VubzJQVGFoTmdaN2FjN3c4YVZtazZkbVcyXzJOVkpaaGlVS05HVUFISHZGaE14OE1xQWkzbTNLdTVBeGhJa0ctckZiOWhkYm50THl3bkFfTmVBcGQyeTRzcVBKa0h6czVmV3ZyQVp3ZnBvTXcxMXk4bXRaRzJTeDFLSUFud1p0QnlkSy1GOHhONFQ4VVJFRWJ0Yk45b3BWR0pYdEdxcmZhUVJUWUUw?oc=5",
+          "published_at": "2025-12-05T08:00:00+00:00",
+          "snippet": "Students from Turkmenistan Achieve Success at the International Mathematics Olympiad in Moscow turkmenistan.gov.tm",
+          "lexical_overlap": 0.133,
+          "relevance": 0.203,
+          "matched_terms": [
+            "international",
+            "students"
+          ],
+          "shared_numbers": []
+        }
+      ],
+      "fact_checks": [],
+      "signal": {
+        "level": "primary_evidence_found",
+        "label": "Relevant verified primary evidence candidate found",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "13495a197106cf0b32",
+      "claim": "This has been a record achievement for India.",
+      "extraction": {
+        "reasons": [
+          "comparison"
+        ],
+        "numbers": [],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "93d3c9b3d1489d6af3ef",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address at the inauguration of COSMOS-Mysuru Planetarium in Mysuru, Karnataka",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-inauguration-of-cosmos-mysuru-planetarium-in-mysuru-karnataka/",
+        "published_at": "2026-11-13T12:56:36+00:00"
+      },
+      "query": "has record achievement",
+      "numbers": [],
+      "promise_matches": [],
+      "evidence": [
+        {
+          "id": "9b0aaaf53bdaa99d46",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "ThePrint",
+          "source_url": "https://theprint.in",
+          "title": "PM Modi’s biggest achievement is not breaking PM Nehru’s record - ThePrint",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdWxLTEpRTGlKeE02a2FVR2VRYkRwd01oYmhyeFJyZ0J0bDBac1UzOTVMZnI5UldjZE55OFBpMWZzZF9tSGlIN0ZqLWo2LWR1bDg3WHpsSFVsU1NRTmhoaGZiVlZhT20xWTEtYVgwSFJ5SlpnVWVYdTlTbkpHeEkySWNHWmFMeElzQ01fd1dQMGFmM05aT25oM3Y5ZmJPWjM4a1VETGZucnNEcmFs0gGyAUFVX3lxTFBoZGJVRzBiVzNva0YzTjg2VW9oeW9ZV2dUaXEtVGtkNmJCRFlyZXJmbzVDazJGWjBoRURtbjNXSm1WdzZic2ZIZi1kWHRJY19KMzZ0NktoV0Z5RTFNQ0IxVE9odUlYX2hyZU9iQV9Cc2ZZWXlPRGpXYzVfY1ZzSEdHYXRCSnpyOURqcXR0V2ZaajZrcWJVQzF4dFRyZkhHeF8tOGxUT0J5Z0Z6OHJaYVVyZlE?oc=5",
+          "published_at": "2026-06-10T07:00:00+00:00",
+          "snippet": "PM Modi’s biggest achievement is not breaking PM Nehru’s record ThePrint",
+          "lexical_overlap": 0.222,
+          "relevance": 0.292,
+          "matched_terms": [
+            "achievement",
+            "record"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "b2f290e6d6d586fc71",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Yahoo Sports",
+          "source_url": "https://sports.yahoo.com",
+          "title": "Barcelona teenage superstar smashes Vinicius’ record with another landmark achievement - Yahoo Sports",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMlhnMDZLMXNvdUJNSnhoUFM2R1FySEhYNmZqbHh6bUNFbEdJV245blc2SlJTMFBicWE5ZEV2R1lQX0cxZWRMd1E1STRiaVJXc2libDFsNThfVGpYNnhoWG1Iak11aDR0SHlmd2Q5c1R4S3VIXzlDcVBaYzFPbWh5V096Vmp6OTRRNDVmUDhWemphOU1ZZExhTw?oc=5",
+          "published_at": "2026-09-21T07:00:00+00:00",
+          "snippet": "Barcelona teenage superstar smashes Vinicius’ record with another landmark achievement Yahoo Sports",
+          "lexical_overlap": 0.167,
+          "relevance": 0.237,
+          "matched_terms": [
+            "achievement",
+            "record"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "6f75f954666e19c132",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Tourism Times",
+          "source_url": "https://thetourismtimes.com",
+          "title": "‘Nothing Is Impossible’: Hari Budha Magar shares Seven Summits world record achievement - The Tourism Times",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdVZvNlBNZEZpa1h2MTl4VnF3cjJzUmQ0OEJUWDJweE5lY0o3dmt6RkVXTU9wX05zWGt1aFdEVXhmd21fV3RZUTZuY2dNcGd6X2FfVkRSa3RSMUlsSlJhd1hORUZpSHFmQ2ZYYlF0QmllNXV3REY2Ym9jSkpDaEFKTWU3bUNiSGdJVmNLZzVjdG9zRUxObjlBV09IM0RwNkJqUGJKVUU2Y0xUWGk1MkxMMHBjRHN6eUVHOWdMd0pzNkkxcHl6?oc=5",
+          "published_at": "2026-01-18T08:00:00+00:00",
+          "snippet": "‘Nothing Is Impossible’: Hari Budha Magar shares Seven Summits world record achievement The Tourism Times",
+          "lexical_overlap": 0.143,
+          "relevance": 0.213,
+          "matched_terms": [
+            "achievement",
+            "record"
+          ],
+          "shared_numbers": []
+        }
+      ],
+      "fact_checks": [],
+      "signal": {
+        "level": "reporting_found",
+        "label": "Relevant reporting found; primary evidence still needed",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "d30ec27bdcdbd1c450",
+      "claim": "Through Chandrayaan-3, ISRO made India the first country in the world to land near the Moon’s South Pole.",
+      "extraction": {
+        "reasons": [
+          "number"
+        ],
+        "numbers": [
+          "3"
+        ],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "93d3c9b3d1489d6af3ef",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address at the inauguration of COSMOS-Mysuru Planetarium in Mysuru, Karnataka",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-inauguration-of-cosmos-mysuru-planetarium-in-mysuru-karnataka/",
+        "published_at": "2026-11-13T12:56:36+00:00"
+      },
+      "query": "3 chandrayaan-3 isro made first world land",
+      "numbers": [
+        "3"
+      ],
+      "promise_matches": [],
+      "evidence": [
+        {
+          "id": "808b0a6273aff65c5d",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "BBC",
+          "source_url": "https://www.bbc.com",
+          "title": "Chandrayaan-3: India makes historic landing near Moon's south pole - BBC",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1RcHAta1BubldYS19oNVJSZEZPY1lONlRtX2JOY0lsMkVBYkNkYkhoQ1pzQVJUdnJEcmt1a0xDOHpOMkZPWWRoQjRPN0Y2c3I4U01qZERlaVJqRTlibVRF?oc=5",
+          "published_at": "2023-08-23T07:00:00+00:00",
+          "snippet": "Chandrayaan-3: India makes historic landing near Moon's south pole BBC",
+          "lexical_overlap": 0.357,
+          "relevance": 0.642,
+          "matched_terms": [
+            "chandrayaan-3",
+            "moon",
+            "near",
+            "pole",
+            "south"
+          ],
+          "shared_numbers": [
+            "3"
+          ]
+        },
+        {
+          "id": "dadb7a93b0eb4e73a2",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "ISRO",
+          "source_url": "https://www.isro.gov.in",
+          "title": "Chandrayaan-3 - ISRO",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0wZ0h4SkF5OFp6V3dycUJ0Y3N5NnNjb0tqZVlKU2kyelB6SWNGN2ItSEF4R3VMR0tFdjBHU1RoUmdBOGtCOEdpUmlkVkJVaE8wajRn?oc=5",
+          "published_at": "2023-07-07T07:57:20+00:00",
+          "snippet": "Chandrayaan-3 ISRO",
+          "lexical_overlap": 0.2,
+          "relevance": 0.43,
+          "matched_terms": [
+            "chandrayaan-3",
+            "isro"
+          ],
+          "shared_numbers": [
+            "3"
+          ],
+          "nli": {
+            "entailment": 0.0015,
+            "neutral": 0.9534,
+            "contradiction": 0.045
+          }
+        },
+        {
+          "id": "6d87c04257a56eab6a",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Interesting Engineering",
+          "source_url": "https://interestingengineering.com",
+          "title": "India’s Chandrayaan-3 successfully lands on lunar south pole - Interesting Engineering",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNlB4Wl9UNG5wRFZzc2xMWE5VOVBqanZqbGRKRG1uOVZ3MW9mSTZyaDQ5MGoyWWM2QmhPdjl0VnRUNFVOUWhXZ0haV012ZHJmamlnb0RoVXhVUjM0RXV0QmVTeE1OVGh3Nk5JTGNMb2hJRkVwbVZYRlU4RkhlajJHclRuUlNIM2F2WktvYmNKcDEyTGpFMDlHYTNfUldHaGZDWHFrMA?oc=5",
+          "published_at": "2023-08-23T07:00:00+00:00",
+          "snippet": "India’s Chandrayaan-3 successfully lands on lunar south pole Interesting Engineering",
+          "lexical_overlap": 0.2,
+          "relevance": 0.415,
+          "matched_terms": [
+            "chandrayaan-3",
+            "pole",
+            "south"
+          ],
+          "shared_numbers": [
+            "3"
+          ]
+        },
+        {
+          "id": "d055e34306a2d765ad",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "BBC",
+          "source_url": "https://www.bbc.com",
+          "title": "Chandrayaan-3: India lunar rover Pragyaan takes a walk on the Moon - BBC",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBzZEZmUVNvT04zdzZ3dVM5bk1XelFSTzU5MzZjZmVMb3J2Qzd6YUQxYUt0Q1VoWmZoZk9LdlFzc3Q4QUFJRkc0OTRYM0FFNkV0VjF6Y3ByLXp4WXVSWFFv?oc=5",
+          "published_at": "2023-08-24T07:00:00+00:00",
+          "snippet": "Chandrayaan-3: India lunar rover Pragyaan takes a walk on the Moon BBC",
+          "lexical_overlap": 0.125,
+          "relevance": 0.305,
+          "matched_terms": [
+            "chandrayaan-3",
+            "moon"
+          ],
+          "shared_numbers": [
+            "3"
+          ]
+        }
+      ],
+      "fact_checks": [],
+      "signal": {
+        "level": "structured_support_candidate",
+        "label": "Relevant primary evidence shares claim terms and numeric values",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "baa9c6c6579e0c9aa5",
+      "claim": "In the form of Aditya-L1, India has received its first solar observatory in space.",
+      "extraction": {
+        "reasons": [
+          "accomplishment"
+        ],
+        "numbers": [],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "93d3c9b3d1489d6af3ef",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address at the inauguration of COSMOS-Mysuru Planetarium in Mysuru, Karnataka",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-inauguration-of-cosmos-mysuru-planetarium-in-mysuru-karnataka/",
+        "published_at": "2026-11-13T12:56:36+00:00"
+      },
+      "query": "form aditya-l1 has received first solar",
+      "numbers": [],
+      "promise_matches": [
+        {
+          "id": "BJP-2024-f504439d87fd018543",
+          "year": 2024,
+          "category": "infrastructure",
+          "page": 68,
+          "anchor": "Positioning Bharat as Leading Space Power We will launch Gaganyaan, Bharat’s first human spaceflight …",
+          "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
+          "similarity": 0.154,
+          "matched_terms": [
+            "first",
+            "space"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ddb2891b480990df4e",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "StudyIQ",
+          "source_url": "https://www.studyiq.com",
+          "title": "Aditya-L1 Mission: India’s First Solar Observatory, Objectives and Key Facts - StudyIQ",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBuby1icDR1eU5zdjRmdlloNl9DUFZhZGRfQmMtVEQ2RFlNNnRISVNoSXcxQ2dNWThrd2dWTm1kVmd4MXRkX1pQNEFNd3R2R0pWMnlPYktEWE13aklvMUJwMg?oc=5",
+          "published_at": "2026-04-06T07:00:00+00:00",
+          "snippet": "Aditya-L1 Mission: India’s First Solar Observatory, Objectives and Key Facts StudyIQ",
+          "lexical_overlap": 0.308,
+          "relevance": 0.448,
+          "matched_terms": [
+            "aditya-l1",
+            "first",
+            "observatory",
+            "solar"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "0904aee585078724b6",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Vajiram & Ravi",
+          "source_url": "https://vajiramandravi.com",
+          "title": "Aditya-L1: India’s First Dedicated Solar Mission - Vajiram & Ravi",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5XajF2a1poZ3l3Uldsc2NUT1VGNFVUb0VlUnN0bmlDdUpuRWlJTEFHa1J1ZHM1U01MU0t4djByekJFVHdMVHMwVHhBdmFIZS1uUDVrMi1hQUJ4QWs?oc=5",
+          "published_at": "2026-07-10T07:00:00+00:00",
+          "snippet": "Aditya-L1: India’s First Dedicated Solar Mission Vajiram & Ravi",
+          "lexical_overlap": 0.25,
+          "relevance": 0.355,
+          "matched_terms": [
+            "aditya-l1",
+            "first",
+            "solar"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "c13be750ffa0443d82",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "www.pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Aditya-L1: India’s First Solar Mission – 11th Aditya-L1 Workshop Inaugurated at Pondicherry University - www.pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5lakw1enRJRUJESWtlZExPbVFmOW5lSnh2eEMxNWMzcVgxRFIwWFNSOTRrbUxaTjNWNFNhN05XV1E2Tk9iejVaYW9NWWlKNV9xQTM1MHJIS2t1bVBHNW9Zb2stMDNjVHFl?oc=5",
+          "published_at": "2025-10-19T07:00:00+00:00",
+          "snippet": "Aditya-L1: India’s First Solar Mission – 11th Aditya-L1 Workshop Inaugurated at Pondicherry University www.pib.gov.in",
+          "lexical_overlap": 0.176,
+          "relevance": 0.331,
+          "matched_terms": [
+            "aditya-l1",
+            "first",
+            "solar"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.0066,
+            "neutral": 0.9572,
+            "contradiction": 0.0362
+          }
+        },
+        {
+          "id": "6f29c15b7a727db577",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "VELC on board Aditya-L1 reveals asymmetric expansion of solar eruption that could impact space weather - pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1FR1VPWi1kNUtmWFFrM0VpS3RxZW55MUxBRTJPZkY2S3oyVThBOFA1NkVjSElodk1iZDZwRGY3TndPR2lPcnhqV25RakNjS2paZHhKeTl6WkFQZ0ZjTXc0TXdPdlRZd2xSOXlwU21LRVN2amhiLVlUUUpOblE?oc=5",
+          "published_at": "2026-11-03T08:00:00+00:00",
+          "snippet": "VELC on board Aditya-L1 reveals asymmetric expansion of solar eruption that could impact space weather pib.gov.in",
+          "lexical_overlap": 0.167,
+          "relevance": 0.322,
+          "matched_terms": [
+            "aditya-l1",
+            "solar",
+            "space"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.0012,
+            "neutral": 0.9684,
+            "contradiction": 0.0305
+          }
+        },
+        {
+          "id": "0db0b191098f265556",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Times of India",
+          "source_url": "https://timesofindia.indiatimes.com",
+          "title": "Aditya-L1, India’s first solar mission lifts off successfully: Highlights - The Times of India",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZTI1cDR3OWlzeHNOUFI4S2VMU01sLS1xQV8zX3JvTWp4Y3JMckNZSDFZMDQ5bENwYl95WHdPWll6V0NpNnJvY1VQUTJyZVBGekNKcEVmT2V3UHltX2F6MTliNU9UUGZaOF9CUmZkdTV5VWFlNV9SNWtqZVBINFd4a2x4M21uTFdIZWJBenRsY2trWVViaEFwYmRhVjcxZ2UxUzRvcnlRaHVJUE5Vd0tNRE1ITDI0d9IBuwFBVV95cUxPa1RTdU00cW1vb3FSMGlEcWNESjNZWHY2M2czUDNTbXdna3NvQWY5bjJzeFJZUGgyNUJkNUc4R2pqdW1URW03dGhneVJXdmQ1WlN4R2NwZWxWR1hFV3Bpbm5COW1Bd3NzMmp3YncyQ1pFOWp1MkZoQkZlSldyeXV5NzVZdnpjRUhOVG1mZUpITFREZjVtSzRtN25ibU5yVElnQUxKTm02YlNSMjVxZ3dncFA0dWxqblF5M2dn?oc=5",
+          "published_at": "2023-09-02T07:00:00+00:00",
+          "snippet": "Aditya-L1, India’s first solar mission lifts off successfully: Highlights The Times of India",
+          "lexical_overlap": 0.214,
+          "relevance": 0.319,
+          "matched_terms": [
+            "aditya-l1",
+            "first",
+            "solar"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "f512658318b7cc3ea0",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "ISRO",
+          "source_url": "https://www.isro.gov.in",
+          "title": "Historic First: India’s Solar Ultra-violet Imaging Telescope (SUIT) onboard Aditya-L1 Captures Unprecedented Solar Flare Details - ISRO",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1YS0tCVXdZZnZtSDVoYWY3NEUyaWNJU0daZnhVX25YLVVwb1lEdFRwSk0zdURPTG9JOW9zSVJfSEdfQVpvMjIyU3lQT1I3NzU4OXQ4d0NpMThUWnhDRThvY2JCcDhsNTRQZnQzeVo3RE8?oc=5",
+          "published_at": "2025-02-28T08:00:00+00:00",
+          "snippet": "Historic First: India’s Solar Ultra-violet Imaging Telescope (SUIT) onboard Aditya-L1 Captures Unprecedented Solar Flare Details ISRO",
+          "lexical_overlap": 0.158,
+          "relevance": 0.263,
+          "matched_terms": [
+            "aditya-l1",
+            "first",
+            "solar"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "6c4e5229cd994c3f33",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "“Sunshine moment for India,” says Dr Jitendra Singh as PSLV-XL launches India’s first Solar Mission - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ZbExwaHNYUFlpWmNDelVyemU2M0dxS0xYaHQ5Z2h5cFduT3VxeVRDdFhGVWxYUW9hTC1PN0hzWEJIUUVLTUZobUNhTWdITDRSd2JmWW9DRWlmQm8xV3ZMdTJkdUlIYlVy?oc=5",
+          "published_at": "2023-09-02T07:00:00+00:00",
+          "snippet": "“Sunshine moment for India,” says Dr Jitendra Singh as PSLV-XL launches India’s first Solar Mission PIB",
+          "lexical_overlap": 0.118,
+          "relevance": 0.238,
+          "matched_terms": [
+            "first",
+            "solar"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.0055,
+            "neutral": 0.9739,
+            "contradiction": 0.0205
+          }
+        },
+        {
+          "id": "2337794fa56e040c38",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "BBC",
+          "source_url": "https://www.bbc.com",
+          "title": "Aditya-L1: Indian solar mission's new findings throw light on enduring Sun mysteries - BBC",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9JUDRPWnVvalF1RjZQaXBKcUpoUDRtTnROZWwzYWZiZ0ZaVzBoVmdfZzlIQlZIVERHbEQwendiOGVmS1NmVlFpQXgtMTFvNWwxaEtRUkFUOVJVZw?oc=5",
+          "published_at": "2026-08-14T07:00:00+00:00",
+          "snippet": "Aditya-L1: Indian solar mission's new findings throw light on enduring Sun mysteries BBC",
+          "lexical_overlap": 0.125,
+          "relevance": 0.195,
+          "matched_terms": [
+            "aditya-l1",
+            "solar"
+          ],
+          "shared_numbers": []
+        }
+      ],
+      "fact_checks": [],
+      "signal": {
+        "level": "primary_evidence_found",
+        "label": "Relevant verified primary evidence candidate found",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "4ca600fcd2068636b9",
+      "claim": "Friends, Our government opened up the space sector.",
+      "extraction": {
+        "reasons": [
+          "accomplishment"
+        ],
+        "numbers": [],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "93d3c9b3d1489d6af3ef",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address at the inauguration of COSMOS-Mysuru Planetarium in Mysuru, Karnataka",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-inauguration-of-cosmos-mysuru-planetarium-in-mysuru-karnataka/",
+        "published_at": "2026-11-13T12:56:36+00:00"
+      },
+      "query": "friends opened up space sector",
+      "numbers": [],
+      "promise_matches": [],
+      "evidence": [
+        {
+          "id": "227fcf94d1c45c3e12",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "SpaceQ",
+          "source_url": "https://spaceq.ca",
+          "title": "Jeremy Hansen asks space sector to work like his Moon crew - SpaceQ",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE01RVhCTXBkNEJPVGtUQ3hGbG9VRDU3amZTQ3hvcU5FRnNoeEZVdElrNGEyT2RBWDRmUV9OMEp0OUw2Um5PMERnbnlNTGZCanlFXzU4QlRpTkd0RDNKNEowMTBnU3JaUGtZTFZWS1V3?oc=5",
+          "published_at": "2026-10-20T07:00:00+00:00",
+          "snippet": "Jeremy Hansen asks space sector to work like his Moon crew SpaceQ",
+          "lexical_overlap": 0.143,
+          "relevance": 0.213,
+          "matched_terms": [
+            "sector",
+            "space"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "acf294c428084a9326",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "ANI News",
+          "source_url": "https://www.aninews.in",
+          "title": "\"A Wealth of Opportunities\": Astronaut Shubhanshu Shukla on India's growing space sector for younger generations - ANI News",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPcnhqcDUtZGRzRXF5ZE9RSDdGdnJfakt4QzZhUWxtcThZakR4UUVPdzJaTW01azZTMDB2blZsVGxGMUtFVHdpNC1PR2VRS2lNeVVCdWRLMGoyZi05SE5fQWMtam9ZdG5DUjBGT3hmN19xdmg2M1lMME9STUZCSkJURHNaWEtmajJpRW9pbkFrcmdfV0p3aWZpWk1QSUZwX0wwLTRpTWt2a21qbWV6a1hqS3hZaVBEa2lTcFE3SzJJekFwa1dQTWlSYUNUWkkzbkF0RS1YVUJQRVBSZnZQMXZQNWlmVlBMR2ZVdW1haUdUa0g2NGdGVWdUaEI3UDZaOUt0aWc?oc=5",
+          "published_at": "2026-09-16T07:00:00+00:00",
+          "snippet": "\"A Wealth of Opportunities\": Astronaut Shubhanshu Shukla on India's growing space sector for younger generations ANI News",
+          "lexical_overlap": 0.133,
+          "relevance": 0.203,
+          "matched_terms": [
+            "sector",
+            "space"
+          ],
+          "shared_numbers": []
+        }
+      ],
+      "fact_checks": [],
+      "signal": {
+        "level": "reporting_found",
+        "label": "Relevant reporting found; primary evidence still needed",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "986812acc8ad38372c",
+      "claim": "This created new opportunities for the private sector.",
+      "extraction": {
+        "reasons": [
+          "accomplishment"
+        ],
+        "numbers": [],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "93d3c9b3d1489d6af3ef",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address at the inauguration of COSMOS-Mysuru Planetarium in Mysuru, Karnataka",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-inauguration-of-cosmos-mysuru-planetarium-in-mysuru-karnataka/",
+        "published_at": "2026-11-13T12:56:36+00:00"
+      },
+      "query": "created opportunities private sector",
+      "numbers": [],
+      "promise_matches": [
+        {
+          "id": "BJP-2014-29339b11a15283906f",
+          "year": 2014,
+          "category": "technology_digital",
+          "page": 42,
+          "anchor": "We will also encourage and incentivize private sector investments - both domestic and foreign, …",
+          "source_url": "https://library.bjp.org/jspui/handle/123456789/252",
+          "similarity": 0.222,
+          "matched_terms": [
+            "private",
+            "sector"
+          ]
+        },
+        {
+          "id": "BJP-2024-9d6b9eef5c0972b641",
+          "year": 2024,
+          "category": "education_skills",
+          "page": 20,
+          "anchor": "We will work with the private sector to expand the incubator network and link …",
+          "source_url": "https://www.bjp.org/hi/pressreleases/bjps-manifesto-general-election-2024-bjp-sankalp-patra-2024",
+          "similarity": 0.222,
+          "matched_terms": [
+            "private",
+            "sector"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "0597c5c9bb31b8c51b",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "United Nations Development Programme",
+          "source_url": "https://www.undp.org",
+          "title": "Syria’s Private Sector: Strategic Opportunities For Economic Renewal - United Nations Development Programme",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWjdrWkdsMVhRaVJXMmh0Q18wU29oRjhncVNJNVhkZklEQjUtMjdkT0drZ1U2dVUzWmNUUTIyUXhUQTRBOGdwel8wZVIyRHU4UGZ6bENrRXktVXhKek5rcXFlTVVJSjNLS19NWVl4Z3pPeXczc01rbTFaNjJPTG1hMEZ5cHN6SU4xMW42cG5ILWpfengzbVcxanFn?oc=5",
+          "published_at": "2026-01-22T08:00:00+00:00",
+          "snippet": "Syria’s Private Sector: Strategic Opportunities For Economic Renewal United Nations Development Programme",
+          "lexical_overlap": 0.25,
+          "relevance": 0.355,
+          "matched_terms": [
+            "opportunities",
+            "private",
+            "sector"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "38d67068b448ecf411",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "PREFACE OF ECONOMIC SURVEY 2023-24 CALLS FOR STEERING THE COUNTRY THROUGH MULTIPLE COMPACTS AND CONSENSUS WITH GOVERNMENTS, PRIVATE SECTOR AND ACADMIA - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9GRGRvU2t4eDBKbUhNb2hDcUhOV3BQdFZVbXgzVFhwRjVVMFRaTUtSaVl2MVZVaTU0Y1ZqTTJKcmh4cXFlSUZqUE9RYUdRcFZEMEFXQWQ0Vi1QdE51ajZrSnBFLVRFR1FY?oc=5",
+          "published_at": "2024-07-22T07:00:00+00:00",
+          "snippet": "PREFACE OF ECONOMIC SURVEY 2023-24 CALLS FOR STEERING THE COUNTRY THROUGH MULTIPLE COMPACTS AND CONSENSUS WITH GOVERNMENTS, PRIVATE SECTOR AND ACADMIA PIB",
+          "lexical_overlap": 0.133,
+          "relevance": 0.253,
+          "matched_terms": [
+            "private",
+            "sector"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.0239,
+            "neutral": 0.956,
+            "contradiction": 0.0201
+          }
+        },
+        {
+          "id": "66c137cad53fa75d95",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "www.pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Government, NGOs and private sector must work collectively to economic inequalities in the country: Vice President - www.pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1qWWlrQWxfRmRIbEt4SVZtRkF3Vl9BczUxWl85S1NiWVFyZ2VrTjBtWW90ZlhRUndXV0dEVTlRTU5BRm82ZGZkN2F1NldjSF80T2NXUUVKSTZ1ZkFHTjhSYmZJYXE3aHhobmc?oc=5",
+          "published_at": "2025-05-14T22:42:13+00:00",
+          "snippet": "Government, NGOs and private sector must work collectively to economic inequalities in the country: Vice President www.pib.gov.in",
+          "lexical_overlap": 0.133,
+          "relevance": 0.253,
+          "matched_terms": [
+            "private",
+            "sector"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.0064,
+            "neutral": 0.9874,
+            "contradiction": 0.0062
+          }
+        },
+        {
+          "id": "c00d923dd36575f982",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "CNBC",
+          "source_url": "https://www.cnbc.com",
+          "title": "Private sector jobs rose by 90,000 in September, better than expected, ADP reports - CNBC",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQ2xLejFTVlVad3VDSndOeUlxWUQ1djdKdVgzQy1aZTFZZUVsTG9FMENvTjRzdEtzdF9GVjhVeXZnVVVndWFSa3h1UWdxTzd1LVY2TVJjNldCYzh5M1pVcDczbkFNdDhvQ0wtUTNGVjBlSTRWaDZrZEN3XzVSMUxTVUNRcXIzY0YyYmlMV1hHTnYtV1BNMzI2UG5UT3Y0TnVNS2hHYkk3SnByRXMxdWxobF9MNVBGNDTSAbwBQVVfeXFMTUVTSE5tLVJSRlB3eUdSMjhraFZQdzlSM0t1bkFJTWZYdGVWMEwwX2wxbnhmNEJfS1NXLTdBdmw0Y2dPSmlYNWVlWWpRMi1pdW9yemtjS3MwYnRkZkpfLW9oYUh5MWpoUVQ0LWFMN0dsekprUU82QWZfRlZSVUZkRmsxYWRKeEtpVG45U0hGSVQ1OWJBQjI4cWhDNDVfdF9iQXFuNy1OUmgyVDh6c0pCblY5UDRQNjZJZTdkSjk?oc=5",
+          "published_at": "2026-09-30T07:00:00+00:00",
+          "snippet": "Private sector jobs rose by 90,000 in September, better than expected, ADP reports CNBC",
+          "lexical_overlap": 0.154,
+          "relevance": 0.224,
+          "matched_terms": [
+            "private",
+            "sector"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "2a5be687b297d45e3b",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "TheCable",
+          "source_url": "https://www.thecable.ng",
+          "title": "Waheed Olagunju asks FG, private sector to strengthen collaboration for economic development - TheCable",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSHRnZ2dGRWFObS11am14WlpqUHkzNGZQOXF5M0g1MnNPZDUxeHJPOGdOcThDelJpSU9IaFNEdms3cnFJRWxRNWp5emFTWExTWVNqNWtOMzJwR2dRMjh2Mk1UT3huTVBaRTlOd2wyQVotZkttU29VZ2hsZ0FaaFc4dGFsNTE4MkZkbEhIWHFoZjgxaFJObDcxX0NEQVpBQTBaUTdDMmVINFlQcEptTmlnbVVRMXNVRjg?oc=5",
+          "published_at": "2026-11-13T21:53:00+00:00",
+          "snippet": "Waheed Olagunju asks FG, private sector to strengthen collaboration for economic development TheCable",
+          "lexical_overlap": 0.154,
+          "relevance": 0.224,
+          "matched_terms": [
+            "private",
+            "sector"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "d855d7445224a25931",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "International Finance Corporation (IFC)",
+          "source_url": "https://www.ifc.org",
+          "title": "IDA Private Sector Window: Investing Where It’s Needed Most - International Finance Corporation (IFC)",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORTR5OWcxd0M4dmR0d0t5Qk1LdGhydVhlNURHVTdhQVc0ZjVJdUgyNmd5RGVVdkM4VF9YS2oyWVdKQl9waERkY3Q1aUdHdmtBN1NmaFg0UDJOOG5ZNE94a0NqWXY1WlgtTDdKMWM1alNLNDJ4NkhaQV81SzNWdkE2UEZZUVZ4aWRqdDFEY1lFX0NndHluR19WWlhDQmhoc2lVSWR2c0tR?oc=5",
+          "published_at": "2026-09-28T07:00:00+00:00",
+          "snippet": "IDA Private Sector Window: Investing Where It’s Needed Most International Finance Corporation (IFC)",
+          "lexical_overlap": 0.143,
+          "relevance": 0.213,
+          "matched_terms": [
+            "private",
+            "sector"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "77538f05b1f102dab1",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "THISDAYLIVE",
+          "source_url": "https://www.thisdaylive.com",
+          "title": "Uzodimma: Govt, Private Sector Must Partner to Create Rural Jobs, Tackle Poverty - THISDAYLIVE",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQN0c1WDZLQ09mV3NjSk5fTFNmNkhEc1VVUUtuaVkxU2Z1Tmc5OFVyV0Q3S2pOVW1LYmVDYTJZejZKcDA5QWZsR1dLcV9FNXpHS0ZhMXpBT01FZ0dEemFTMjAxc1BqS1RGM3Vma1FBUEtsSkhWbXIxVHJQZm9KS2RBZmFvSVozeTFqLVJOVTBuUnl4ZFhsQjdDMWVhUlFNbE1RNEpVUnh4QVp3ODc0XzNjcGxCTE9ySV9l?oc=5",
+          "published_at": "2026-11-14T01:56:41+00:00",
+          "snippet": "Uzodimma: Govt, Private Sector Must Partner to Create Rural Jobs, Tackle Poverty THISDAYLIVE",
+          "lexical_overlap": 0.143,
+          "relevance": 0.213,
+          "matched_terms": [
+            "private",
+            "sector"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "4b19a1eb30b3bc10c9",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Asian Development Bank",
+          "source_url": "https://www.adb.org",
+          "title": "ADB Signs Private Sector Deal to Strengthen Mongolia's Cashmere Value Chain, Create Inclusive Jobs - Asian Development Bank",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbVFRN0FDXzluYzBzV0dPRU96cVZTNTQxcjNZajJyN09NVGFELV9vc0dWYUlsUWZ6dk9CUGNQemtSbzF4ZTFGRzFxTDlWVUZoeE5uekVCNlNqRklLTGxId092LVlwMU1aeExuQXRKeV9Ta0I4OHhoRGlpZjluSlJwaFJaMGk5YVBtUzlhZHA0c0tzMXBZbUp3NVNfWFdrcXV6SVk4UXI3cGZPYjFTcDZYRGlrNFo4aHRp?oc=5",
+          "published_at": "2026-09-17T23:32:56+00:00",
+          "snippet": "ADB Signs Private Sector Deal to Strengthen Mongolia's Cashmere Value Chain, Create Inclusive Jobs Asian Development Bank",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
+          "matched_terms": [
+            "private",
+            "sector"
+          ],
+          "shared_numbers": []
+        }
+      ],
+      "fact_checks": [],
+      "signal": {
+        "level": "primary_evidence_found",
+        "label": "Relevant verified primary evidence candidate found",
+        "publishable_verdict": false,
+        "verdict": "pending"
+      },
+      "verdict": "pending",
+      "human_reviewed": false
+    },
+    {
+      "id": "40d8bde4c1f2c09af6",
+      "claim": "This is the scientific approach of a New India, where new discoveries are being encouraged, new technologies are being developed and new opportunities are being created for our youth.",
+      "extraction": {
+        "reasons": [
+          "accomplishment"
+        ],
+        "numbers": [],
+        "context_before": ""
+      },
+      "claim_source": {
+        "id": "93d3c9b3d1489d6af3ef",
+        "kind": "official_speech_or_video",
+        "title": "PM’s address at the inauguration of COSMOS-Mysuru Planetarium in Mysuru, Karnataka",
+        "source": "PMIndia",
+        "channel_title": null,
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-inauguration-of-cosmos-mysuru-planetarium-in-mysuru-karnataka/",
+        "published_at": "2026-11-13T12:56:36+00:00"
+      },
+      "query": "scientific approach where discoveries encouraged technologies",
       "numbers": [],
       "promise_matches": [],
       "evidence": [],
@@ -772,51 +1252,223 @@
       "human_reviewed": false
     },
     {
-      "id": "9b6c6525a7ab94e1ae",
-      "claim": "Friends, Just before Diwali this year, a piece of news emerged that is being discussed across the country and around the world.",
+      "id": "c35e95e69d89c82423",
+      "claim": "This information is provided by the Real-Time Train Tracking System developed by Indian Railways and ISRO.",
       "extraction": {
         "reasons": [
-          "comparison"
+          "accomplishment"
         ],
         "numbers": [],
         "context_before": ""
       },
       "claim_source": {
-        "id": "7e412819b35a71547593",
+        "id": "93d3c9b3d1489d6af3ef",
         "kind": "official_speech_or_video",
-        "title": "PM’s speech during interaction with the Security Forces in Bastar, Chhattisgarh",
+        "title": "PM’s address at the inauguration of COSMOS-Mysuru Planetarium in Mysuru, Karnataka",
         "source": "PMIndia",
         "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-interaction-with-the-security-forces-in-bastar-chhattisgarh/",
-        "published_at": "2026-11-08T10:00:24+00:00"
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-inauguration-of-cosmos-mysuru-planetarium-in-mysuru-karnataka/",
+        "published_at": "2026-11-13T12:56:36+00:00"
       },
-      "query": "friends just before diwali piece news",
+      "query": "information provided real-time train tracking system",
       "numbers": [],
       "promise_matches": [],
       "evidence": [
         {
-          "id": "7fa6a53d6889dc52e9",
+          "id": "0b49fbe87c40fe8f5a",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "Upstox",
-          "source_url": "https://upstox.com",
-          "title": "Diwali 2025 gift ideas for family and friends: Unique picks that blend fun and finance - Upstox",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOU2tld0RHdE5UN0FkSDI4a3ZmVm0zWEdSQVc0M3hFZ3Y3b0ltUFlIMm5xOHRhN3R0UjZDdUZmNUkwMVY2NGJLOXpYNEtoQ2FFMkMtQktpb2xya1ZIazhpQ05Rb2xSQVh5TzFqR1h3LUtMOGM1SzhxSDUwVjdpVjlWLXZqdGNLZGxOTWdyQkVaWGEzZmZ2RnRYSVlKQWN4QXE3clJaQWtQQW9oTHprZ01HTm5kSlgtcjBsclhKTW5OT1NMeHVOTzhXc21FaXRsbUpYYUVaTEtaaWs0OHNTb2xESjZPNF9TU2NwRVVnRzdR?oc=5",
-          "published_at": "2025-10-16T07:00:00+00:00",
-          "snippet": "Diwali 2025 gift ideas for family and friends: Unique picks that blend fun and finance Upstox",
-          "lexical_overlap": 0.105,
-          "relevance": 0.175,
+          "source": "The Hindu",
+          "source_url": "https://www.thehindu.com",
+          "title": "Indian Railways ties up with ISRO for real-time train tracking - The Hindu",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOa0hfc0paNmNkRGR5N2FyZGx1RGgydGhUcTVxRmlZN2Z4cFFSWW9ONHN0cERTcWhpTGdEYlhiMDhhazloZ3VVX3ZhZzZoUENFbXJNQTBod2tqVXFMYzRVSWxUcmFEZzkzWlBZb1N3allqZThzQlpMQmJvQXpVSldtWkQ0QXFwLWcxclptLWQ2d3FFQmdpT2x3LWxCUDJhNXFud0JoUEJWcFJMaGswckV6T0tVbW9VR2xmTjJnVWNB0gHEAUFVX3lxTE9EaHFpZlZGNFhScUhBbFl1Y1ZUUHhwazVHclpsbFVsSjZiV2JIRk85RFNHUmNwZ1M4bjFuUE1sai1uZFNYdkhqdm5NSzRXcTJNdXA5bVZxVFVCQ3g3UlJ2Nlp0UmkzOU9GMUo0bmR3YlNrenNZVzJwQ0hDYjRDSGZRNlMwdlFab0pkNFgxeTUxU3E0TkFWNWlWdjc1NzgycGRBdDF1dGUzUTgtWjdoTGc3ZTRCYW5WWXRicjZLZnZaaGItc1E?oc=5",
+          "published_at": "2023-03-06T08:00:00+00:00",
+          "snippet": "Indian Railways ties up with ISRO for real-time train tracking The Hindu",
+          "lexical_overlap": 0.417,
+          "relevance": 0.592,
           "matched_terms": [
-            "diwali",
-            "friends"
+            "isro",
+            "railways",
+            "real-time",
+            "tracking",
+            "train"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "a5fcb7abf9112cae2f",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Economic Times",
+          "source_url": "https://m.economictimes.com",
+          "title": "Avantel bags Rs 460 crore contract for Indian Railways' real-time train tracking system - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQUjlYWF9qRDAyZkd1SHdvc2YtUGxidWFKY0JKZU0zcENjNnVZXzR0U21lZ3hSTXFxbEhTZFFXcVgxWXVBWXpoT3dSczBpQ1JDYkNOb1dmc1JCWGNBeng4Ykd6ZUdsVzBicWNJa0dsQzJtb0ZZeHlDcVlBNnpSU2dETWQ4R1M3UnE0WDhESWV0dVkwb2lTckRLdjJKOXFTQkhDb1A0aU1ORnVwblNpMWZWNFdKYzdVc0YzMzFjRUFXOGlXNURfdmt4M1VUT0xYZUFkTHlIa1o2eTdpMzRaNnM0LVZtM1k1ckNWZjlsTGUzOFZmWmJKbGZ2YWNJaHYtNHFWYmozMTgzSdIBjAJBVV95cUxNSTc5el9IR3Z2c1lvc1JWQnczc2NWaFZKS2hwMExyV1E4YTBtQTRxZU15U3VPeFBkRGhxcFZfVEJrUUhWeFQ4bldNNW9meDNaNE4zVEtVYWR6Y1RVVXZfbnpldEFVTmRnTmNEdVBydEs3a1VmUkFrNmVwQWZSZWJRNkM2OHVUZDVEQzZsNjkxWmxRWGhxTHkxdEJTRUZ0dng2dmt1NUtjSlBxMHlYYzJGOVhEZksxOXU5cDh2V1ZfZF90emNWVnZmQVpoVWp4U0dlY09kRDRNYXdMMEJ6QmRteFR0NkRQSWNMUjJGRmVKRkpLdG4yaVUyRmZBa3VSQmM3VTVpN0V5bks3SHlW?oc=5",
+          "published_at": "2026-03-25T07:00:00+00:00",
+          "snippet": "Avantel bags Rs 460 crore contract for Indian Railways' real-time train tracking system The Economic Times",
+          "lexical_overlap": 0.312,
+          "relevance": 0.488,
+          "matched_terms": [
+            "railways",
+            "real-time",
+            "system",
+            "tracking",
+            "train"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "dc5287a570d1beff32",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "www.pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Real Time Train Information System (RTIS) based on ‘SIMRAN’ becomes Functional from 19TH October 2011 - www.pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE12UUFrNV81YjUzclQ0UFItSjJEZDRrV1ZwWWpTa1pQWHdrVHBmNFJuZTNRZ0lRWFJNUVBjZWQyaG4xU3RaQ1FmNF9lYzlSVDN5LWVxNTFOMS1sU0hHV1lpbjJEclhqT3JjeHRLaQ?oc=5",
+          "published_at": "2011-10-20T07:00:00+00:00",
+          "snippet": "Real Time Train Information System (RTIS) based on ‘SIMRAN’ becomes Functional from 19TH October 2011 www.pib.gov.in",
+          "lexical_overlap": 0.143,
+          "relevance": 0.298,
+          "matched_terms": [
+            "information",
+            "system",
+            "train"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.0016,
+            "neutral": 0.98,
+            "contradiction": 0.0185
+          }
+        },
+        {
+          "id": "18efa9d9d726940c31",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "www.pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Ultra Modern Signalling System in Railways - www.pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Kb1lmc1JDaXRJdzF5MXRrNU1scGN5LU1GakR1aWZqRzZScHpPbTREdjNDWWg5NWJsRG1UZ0VuRjdtTURJbWZWMzZCVldXbmtHbDVtRXNhMC1FQW4tT3gyY3ZpX2RHTzVt?oc=5",
+          "published_at": "2018-01-03T08:00:00+00:00",
+          "snippet": "Ultra Modern Signalling System in Railways www.pib.gov.in",
+          "lexical_overlap": 0.133,
+          "relevance": 0.253,
+          "matched_terms": [
+            "railways",
+            "system"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.0045,
+            "neutral": 0.895,
+            "contradiction": 0.1006
+          }
+        },
+        {
+          "id": "42df05955fe910b07d",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Indian Railways using newer technologies for tracking of trains - pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9HYVhiREJrZ05mcDZFSE54Q05CMFMtdWJsT3MxV2o3RGtjVEphYkVwcTBPYnVaNzlUY0dRU081QmRIOGE0SzJXdUVrUkJVci1GVU5yVGkxMThNdmZLWmFoakY5WVdza29HeVR3N2NtRkw?oc=5",
+          "published_at": "2025-05-18T03:19:14+00:00",
+          "snippet": "Indian Railways using newer technologies for tracking of trains pib.gov.in",
+          "lexical_overlap": 0.133,
+          "relevance": 0.253,
+          "matched_terms": [
+            "railways",
+            "tracking"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.0071,
+            "neutral": 0.9784,
+            "contradiction": 0.0145
+          }
+        },
+        {
+          "id": "26c3ee220e913ea48d",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Moneycontrol.com",
+          "source_url": "https://www.moneycontrol.com",
+          "title": "Google Maps gets live Mumbai local train updates; real-time tracking now rolling out on Where Is My Train - Moneycontrol.com",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOeEdQY2xjVHVoMDBTOEtWUk5sWHdZTzlzMnpIQlFQTlhDQ3Fjc1BjN09fRTFVRmtkR2JKWnotSE80ZVFTNk9iUm9qSXE4QkVqTzFoMEUzMC1USjN5UDZPTEFtcWpMWlktMFVmUC1YelJoTV9ucVpUNmcyT2wzVEVtclQ1MHVrekxVRUI2U0NxNEs5Nm9VQW5MYXJQeFZ6V194VWtTMzhDUHVYLUZCcTNJdE5RSWJocDFaOEVLOUhzZHNVZTNsWXFtUGc3MG1XZTgyTklFazdfTXJIblR0ajZGR29md2wwOUFKNVVfT05nLWJsaXVRZHYxWlVR0gH_AUFVX3lxTFBZUmJLZFZWanNmNlZHVkxLczBMU1UyRE02LUxpdlhpT19zUDRLamk1NWlNTjl3ejZxampEa1AwQUt4anZVMVU5S09neHVITDduZUpUX3E0dDA2MXdZMjlzbXp0SlJVVWhtdnZLemZXb3h5cHhWb0YzM0JKSzRjaG4wTmFHTkszYjUta0VUUHlDLWFCWExIeU5nZllfYkJVWklUMU8ySUI4X2RFTE1lbmtDdmVvWGtPNFZWaUkxbnVfTnFNUXFIU1pzejZ3LWxyeGhpY1dKRHdFbmZqYjV4TC1RUE1rYTdGbzRQYXh3enhfTGZ0cl8zdE5LQ0Y0WFZyQQ?oc=5",
+          "published_at": "2026-06-03T07:00:00+00:00",
+          "snippet": "Google Maps gets live Mumbai local train updates; real-time tracking now rolling out on Where Is My Train Moneycontrol.com",
+          "lexical_overlap": 0.136,
+          "relevance": 0.241,
+          "matched_terms": [
+            "real-time",
+            "tracking",
+            "train"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "d4a8326baed76430dc",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "Digital Sansad",
+          "source_url": "https://sansad.in",
+          "title": "GOVERNMENT OF INDIA MINISTRY OF RAILWAYS RAJYA SABHA UNSTARRED QUESTION NO. 2328 ANSWERED ON 19.12.2025 KAVACH AUTOMATIC TRAIN P - Digital Sansad",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5iV3Rubk5GbzBQQzVhMmFTWERfZ0NfSUh3dTlyVFBmN1Z0ajVEMm1TVnQ5emU5QjFaUU84dEY2bGdtWHhUQzJKM0FSOUdUV2hDRUhISzdRNWl5cjEwaFhMMDdIZ1JwSVJQMUlGcWdOLUhGMXI3?oc=5",
+          "published_at": "2024-07-16T07:00:00+00:00",
+          "snippet": "GOVERNMENT OF INDIA MINISTRY OF RAILWAYS RAJYA SABHA UNSTARRED QUESTION NO. 2328 ANSWERED ON 19.12.2025 KAVACH AUTOMATIC TRAIN P Digital Sansad",
+          "lexical_overlap": 0.1,
+          "relevance": 0.22,
+          "matched_terms": [
+            "railways",
+            "train"
+          ],
+          "shared_numbers": [],
+          "nli": {
+            "entailment": 0.0045,
+            "neutral": 0.888,
+            "contradiction": 0.1074
+          }
+        },
+        {
+          "id": "c19504f635c16aab5e",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "www.pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Indian Railways undertakes various IT initiatives to improve train operations and provide better passenger experience - www.pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1tTWszdUE0VGlRcnZLMWdudktndVJRUWlLejVSdFdjRGJUcnU5WVJzQ2RlNE5jbnpfLW5uYXlnYWdrSXBKWmVfMk8zQUFVWWlUM3J1WENRenhxTXJzTFFvMnllclh6bTRq?oc=5",
+          "published_at": "2018-09-07T07:00:00+00:00",
+          "snippet": "Indian Railways undertakes various IT initiatives to improve train operations and provide better passenger experience www.pib.gov.in",
+          "lexical_overlap": 0.095,
+          "relevance": 0.215,
+          "matched_terms": [
+            "railways",
+            "train"
+          ],
+          "shared_numbers": []
+        },
+        {
+          "id": "4b370c68e3de37902c",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "ET TravelWorld",
+          "source_url": "http://travel.economictimes.indiatimes.com",
+          "title": "Google Maps partners with Yatri for real-time Mumbai local train updates - ET TravelWorld",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdk1vX05XLWZXZlpWTXktdVVhS0txemxobzY3N3NxTWJqd1poUWpDb0RwSDBWeDlyMUFETlk5R3VRdUxZNnhicWZxeEJxYmpTcklsYUpLaTdEYmZEYjFJVnA1cDYxNDFLaTlQOHUzV3g3cXl5S19xdWZfQXVvRkdfRENpdWo2X0lHbjhWNTdlb3ZyZnA3X2Z1ZGJSUi1BcXJvaGpsMERJZVlwc2tRby1nRE5nX2U5VjVRUUhIUkxGcnVvOXk5a3VKUVAzVWJ6NkdYUWROUl9HbF9yd9IB3wFBVV95cUxQekR5UlQxaVpDTXVuUkZZRUVYV0hsRTBUUllzN3VkWnduV2I4OG15eXZwa2ZsamRoenZfaGNKLWVhZkxrNXczS2VDa19GbnlNZF9oNWp6VzBPN0F0M2dvbTBYdGhOTS14S0VyVGJHZkNoRFo5UjQtRlZmcTR0ZnowYzBiSWJQek9NOVhJMVhnM1JCaEdTcnhlNFUtU0hIUkVtRkxPN0hNNGs3T3hJTmtGSldKQmxZZGF2aExMdjNyem43RlpoMnNTY3VZaHdPOFl2aVFxbWJkdFFZQW80WHRJ?oc=5",
+          "published_at": "2026-06-05T07:00:00+00:00",
+          "snippet": "Google Maps partners with Yatri for real-time Mumbai local train updates ET TravelWorld",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
+          "matched_terms": [
+            "real-time",
+            "train"
           ],
           "shared_numbers": []
         }
       ],
       "fact_checks": [],
       "signal": {
-        "level": "needs_research",
-        "label": "No sufficiently relevant evidence candidate found automatically",
+        "level": "primary_evidence_found",
+        "label": "Relevant verified primary evidence candidate found",
         "publishable_verdict": false,
         "verdict": "pending"
       },
@@ -824,65 +1476,51 @@
       "human_reviewed": false
     },
     {
-      "id": "0cefc2e3b2c400911a",
-      "claim": "What decades of slogans about removing poverty could not achieve, the country accomplished in just twelve years.",
+      "id": "0f95ad7ffc10d05743",
+      "claim": "More than one crore students have so far benefited from the country’s over 10,000 Atal Tinkering Labs.",
       "extraction": {
         "reasons": [
+          "number",
           "comparison"
         ],
-        "numbers": [],
+        "numbers": [
+          "10,000"
+        ],
         "context_before": ""
       },
       "claim_source": {
-        "id": "7e412819b35a71547593",
+        "id": "93d3c9b3d1489d6af3ef",
         "kind": "official_speech_or_video",
-        "title": "PM’s speech during interaction with the Security Forces in Bastar, Chhattisgarh",
+        "title": "PM’s address at the inauguration of COSMOS-Mysuru Planetarium in Mysuru, Karnataka",
         "source": "PMIndia",
         "channel_title": null,
-        "url": "https://www.pmindia.gov.in/en/news_updates/pms-speech-during-interaction-with-the-security-forces-in-bastar-chhattisgarh/",
-        "published_at": "2026-11-08T10:00:24+00:00"
+        "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-inauguration-of-cosmos-mysuru-planetarium-in-mysuru-karnataka/",
+        "published_at": "2026-11-13T12:56:36+00:00"
       },
-      "query": "what decades slogans about removing poverty",
-      "numbers": [],
+      "query": "10000 than one crore students have so",
+      "numbers": [
+        "10000"
+      ],
       "promise_matches": [],
       "evidence": [
         {
-          "id": "34a1c8dce6f1e9c969",
+          "id": "1676b8e828cb347955",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "The Times of India",
-          "source_url": "https://timesofindia.indiatimes.com",
-          "title": "Poverty removal not just slogan: PM Modi on World Bank data - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaWZwamlZemZCVmE1YWlNbDd5Qy1tZW1GOWMtanJ4U0FkSWs3RmtyV2IwOFhKT0JPbldMOWRMN2VoNFBPWGRzYy1YQlllTHE1Q05mZ2pWQU5nVGlCWVZ2ZEk3SnYzb0ZZVHJEQTJFWTlXSjR4emlKTGw0TWZkeFBURXlIMGw4WDk0TUJOWkw2dThyMkI4Y3QycEVfNTlJMFpNd0F6OWtsOVNVakNCRjdaeHF5cHRNRjFUQnBvSUFhdXpsS09z0gHKAUFVX3lxTE1YQU9yaTcxZjBoNlFDNzNaMjFlWEl3TWlTU1ZLLTcyZkRkX0VNZDJFZzlfMDB3U3F4Qi1ib1U2NDVkMWVVa1ozdldCaW9GZ0QtdXM1aE9HQ0U1Zllob3BqNThVTWNKcVVqckI4S0NyZEdpN1JDeWloRC11dk4xNHlvSVI4WDVERmVyamxzU1ZTaFFJX0FzamY4ZllJVW8xU2Y2QVVrNWwtTm8zSDVLczdIcVFDSkNiNEVYaE14RG9SVlBfNUc5M0Q0VHc?oc=5",
-          "published_at": "2026-11-02T08:00:00+00:00",
-          "snippet": "Poverty removal not just slogan: PM Modi on World Bank data The Times of India",
-          "lexical_overlap": 0.167,
-          "relevance": 0.272,
+          "source": "Livemint",
+          "source_url": "https://www.livemint.com",
+          "title": "Post office savings: Can ₹10 lakh FD and ₹10,000 RD create ₹1 crore in 20 yrs? Check how inflation impacts returns - Livemint",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOTWcwejFyb2hkMDEzVml0ZDZVZDFXS2daZXVLZDFsdHFPZGhVSk1Ydlk0TUk0RmRuTTV1OExQT3BkaUtNTFlFM05kTk5rSVRMNjZIanFJRFExZHo5Ukw2WUpTaE5OWWVNUl9kX2YxV3ZMRkZyOWVWYlJ4VGhKa0VKZ0FPYkJpaTVkbUJiWWhudzZWVkRGaEVhbkNNNVJGbjNFbTJtbjBISERRSFpHVUxwdlAxT1ZMekNNdmJDUU8xU0hDcU45dkx1OGxLY051TDZNTlI3aVMyOUxTX1ZqYWJhcDd2ZklhT1BWdmczRS1ERjdLWDJrc0hQbUE3d0p4OEEwdUHSAYcCQVVfeXFMUGhadXdWR1NrMTdvcG5mTlVmenhoM0g3VkdDYUFPQ2JrUl9CWm4zN1R3Q3B2d1Zic01LdWVzTnNJUEVSV1VZck9FMUZEVl9TM2NFQW1Ya0FrZVk2RHhBS1lJVjV2anExajdsa1JzTkxGV1JfZEJjTjB3VVlCcUw5Q0I0ek1CY0N4OExGWGpWaUxCQk9BR3JNUkxVME8yclJuQmlHdFA4alJvQjlVWjFyckdFd3dLNDBSY240RjJ0U0RRWTYzcUJCaE5TTjA5U3ptR0hTTURNbW5FRXhMblpla3dBeFlPZ0tmcTExRUNKSllwbFpiN3liTzFJUERrV2xWOEJoZFIzaEk?oc=5",
+          "published_at": "2026-05-11T07:00:00+00:00",
+          "snippet": "Post office savings: Can ₹10 lakh FD and ₹10,000 RD create ₹1 crore in 20 yrs? Check how inflation impacts returns Livemint",
+          "lexical_overlap": 0.04,
+          "relevance": 0.185,
           "matched_terms": [
-            "just",
-            "not",
-            "poverty"
+            "crore"
           ],
-          "shared_numbers": []
-        },
-        {
-          "id": "8eb2a2ead00ce01e4a",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "World Economic Forum",
-          "source_url": "https://www.weforum.org",
-          "title": "This is what Nelson Mandela said about peace, poverty, freedom and racism - World Economic Forum",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVFZRZVBXdlllNjByaTc4UFNORFhaeGNheGtILUYyRGl5SzNvVl9HX1UyZ2taYXhPdVp6NGRUUVpZT2lQUDFETkdDREZGdTVFUmpDNmVESU9hYXZNdk9FQWVkdElFRXFnUDVMc1duY0d3S0Q5U1o5MEVSV24wcF9jMWlFODM5bVFjTnpuYWl3bVBxdkU?oc=5",
-          "published_at": "2020-07-17T07:00:00+00:00",
-          "snippet": "This is what Nelson Mandela said about peace, poverty, freedom and racism World Economic Forum",
-          "lexical_overlap": 0.158,
-          "relevance": 0.263,
-          "matched_terms": [
-            "about",
-            "poverty",
-            "what"
-          ],
-          "shared_numbers": []
+          "shared_numbers": [
+            "10000"
+          ]
         }
       ],
       "fact_checks": [],
@@ -1429,6 +2067,30 @@
       "latest_claim_packet_id": "47f28dd1ec0e8f34f5"
     },
     {
+      "id": "e4807efaebe3a560d7",
+      "canonical_claim": "Atal Ji added Jai Vigyan to it, and then I added Jai Anusandhan as well.",
+      "occurrences": [
+        {
+          "id": "0629acf01f7f2ae948",
+          "text": "Atal Ji added Jai Vigyan to it, and then I added Jai Anusandhan as well.",
+          "source_title": "PM’s address at the inauguration of COSMOS-Mysuru Planetarium in Mysuru, Karnataka",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-inauguration-of-cosmos-mysuru-planetarium-in-mysuru-karnataka/",
+          "published_at": "2026-11-13T12:56:36+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "primary_evidence_found",
+      "human_reviewed": false,
+      "created_at": "2026-11-15T09:21:11.413802+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-11-13T12:56:36+00:00",
+      "last_seen": "2026-11-13T12:56:36+00:00",
+      "latest_checked_at": "2026-11-15T09:21:11.413818+00:00",
+      "latest_claim_packet_id": "7ab353fa95d12aef77"
+    },
+    {
       "id": "cc49fbf8f362057085",
       "canonical_claim": "Before 2014, India had only a few hundred startups.",
       "occurrences": [
@@ -1475,6 +2137,30 @@
       "last_seen": "2026-10-31T17:23:05+00:00",
       "latest_checked_at": "2026-11-08T22:30:48.162263+00:00",
       "latest_claim_packet_id": "fcdfebaadb9548b5bd"
+    },
+    {
+      "id": "29532134867b876c35",
+      "canonical_claim": "Both these occasions convey a profound message about India’s values and our culture.",
+      "occurrences": [
+        {
+          "id": "05a70016a430f28165",
+          "text": "Both these occasions convey a profound message about India’s values and our culture.",
+          "source_title": "PM’s address at the inauguration of COSMOS-Mysuru Planetarium in Mysuru, Karnataka",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-inauguration-of-cosmos-mysuru-planetarium-in-mysuru-karnataka/",
+          "published_at": "2026-11-13T12:56:36+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-11-15T09:21:11.383327+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-11-13T12:56:36+00:00",
+      "last_seen": "2026-11-13T12:56:36+00:00",
+      "latest_checked_at": "2026-11-15T09:21:11.383371+00:00",
+      "latest_claim_packet_id": "3fb06a967697eca526"
     },
     {
       "id": "381ffa462259ab673e",
@@ -1859,6 +2545,30 @@
       "last_seen": "2026-09-19T08:41:02+00:00",
       "latest_checked_at": "2026-09-29T06:16:21.734880+00:00",
       "latest_claim_packet_id": "563dcbf44d99aa521e"
+    },
+    {
+      "id": "801e8a9b7908d45ca9",
+      "canonical_claim": "Friends, Our government opened up the space sector.",
+      "occurrences": [
+        {
+          "id": "edac1dd18ff82f652a",
+          "text": "Friends, Our government opened up the space sector.",
+          "source_title": "PM’s address at the inauguration of COSMOS-Mysuru Planetarium in Mysuru, Karnataka",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-inauguration-of-cosmos-mysuru-planetarium-in-mysuru-karnataka/",
+          "published_at": "2026-11-13T12:56:36+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "reporting_found",
+      "human_reviewed": false,
+      "created_at": "2026-11-15T09:21:11.572115+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-11-13T12:56:36+00:00",
+      "last_seen": "2026-11-13T12:56:36+00:00",
+      "latest_checked_at": "2026-11-15T09:21:11.572151+00:00",
+      "latest_claim_packet_id": "4ca600fcd2068636b9"
     },
     {
       "id": "195c9a5c9ec004eca8",
@@ -2389,6 +3099,30 @@
       "latest_claim_packet_id": "88c310688bc40a1b57"
     },
     {
+      "id": "920d6e827f9a3619fd",
+      "canonical_claim": "In the form of Aditya-L1, India has received its first solar observatory in space.",
+      "occurrences": [
+        {
+          "id": "593e41c183c03c4a13",
+          "text": "In the form of Aditya-L1, India has received its first solar observatory in space.",
+          "source_title": "PM’s address at the inauguration of COSMOS-Mysuru Planetarium in Mysuru, Karnataka",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-inauguration-of-cosmos-mysuru-planetarium-in-mysuru-karnataka/",
+          "published_at": "2026-11-13T12:56:36+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "primary_evidence_found",
+      "human_reviewed": false,
+      "created_at": "2026-11-15T09:21:11.549196+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-11-13T12:56:36+00:00",
+      "last_seen": "2026-11-13T12:56:36+00:00",
+      "latest_checked_at": "2026-11-15T09:21:11.549252+00:00",
+      "latest_claim_packet_id": "baa9c6c6579e0c9aa5"
+    },
+    {
       "id": "d4e7ea79a95b2d1ad0",
       "canonical_claim": "In the same year, another incident in Dantewada claimed the lives of 44 innocent civilians.",
       "occurrences": [
@@ -2579,6 +3313,30 @@
       "last_seen": "2026-10-13T06:13:56+00:00",
       "latest_checked_at": "2026-10-21T05:21:35.013963+00:00",
       "latest_claim_packet_id": "864cecb3d0726343a3"
+    },
+    {
+      "id": "5b90edbdfb0e9906ce",
+      "canonical_claim": "More than one crore students have so far benefited from the country’s over 10,000 Atal Tinkering Labs.",
+      "occurrences": [
+        {
+          "id": "69b1a9f1560aca3f1c",
+          "text": "More than one crore students have so far benefited from the country’s over 10,000 Atal Tinkering Labs.",
+          "source_title": "PM’s address at the inauguration of COSMOS-Mysuru Planetarium in Mysuru, Karnataka",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-inauguration-of-cosmos-mysuru-planetarium-in-mysuru-karnataka/",
+          "published_at": "2026-11-13T12:56:36+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "reporting_found",
+      "human_reviewed": false,
+      "created_at": "2026-11-15T09:21:11.680038+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-11-13T12:56:36+00:00",
+      "last_seen": "2026-11-13T12:56:36+00:00",
+      "latest_checked_at": "2026-11-15T09:21:11.680054+00:00",
+      "latest_claim_packet_id": "0f95ad7ffc10d05743"
     },
     {
       "id": "b32c6a9c05899ce9c9",
@@ -2917,6 +3675,30 @@
       "latest_claim_packet_id": "13fbe62008016e055a"
     },
     {
+      "id": "874769dfa0b732a451",
+      "canonical_claim": "The India of the 21st century is moving forward with this very vision.",
+      "occurrences": [
+        {
+          "id": "57a7ff579890a3eb74",
+          "text": "The India of the 21st century is moving forward with this very vision.",
+          "source_title": "PM’s address at the inauguration of COSMOS-Mysuru Planetarium in Mysuru, Karnataka",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-inauguration-of-cosmos-mysuru-planetarium-in-mysuru-karnataka/",
+          "published_at": "2026-11-13T12:56:36+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "reporting_found",
+      "human_reviewed": false,
+      "created_at": "2026-11-15T09:21:11.471255+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-11-13T12:56:36+00:00",
+      "last_seen": "2026-11-13T12:56:36+00:00",
+      "latest_checked_at": "2026-11-15T09:21:11.471296+00:00",
+      "latest_claim_packet_id": "a57bbc986db52b2c00"
+    },
+    {
       "id": "88a5ac3c2a87f04457",
       "canonical_claim": "The Migration and Mobility Partnership Agreement and the Young Professionals Agreement signed today will open up many new opportunities in Switzerland for Indian students, researchers, professionals, and young people.",
       "occurrences": [
@@ -2939,6 +3721,30 @@
       "last_seen": "2026-10-05T10:24:58+00:00",
       "latest_checked_at": "2026-10-14T05:27:17.808343+00:00",
       "latest_claim_packet_id": "775a9a25cc5414cbea"
+    },
+    {
+      "id": "7520798264caf98932",
+      "canonical_claim": "The University of Mysore was established during the reign of Maharaja Nalwadi Krishnaraja Wadiyar.",
+      "occurrences": [
+        {
+          "id": "ee6761de2ef0fc063c",
+          "text": "The University of Mysore was established during the reign of Maharaja Nalwadi Krishnaraja Wadiyar.",
+          "source_title": "PM’s address at the inauguration of COSMOS-Mysuru Planetarium in Mysuru, Karnataka",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-inauguration-of-cosmos-mysuru-planetarium-in-mysuru-karnataka/",
+          "published_at": "2026-11-13T12:56:36+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-11-15T09:21:11.386049+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-11-13T12:56:36+00:00",
+      "last_seen": "2026-11-13T12:56:36+00:00",
+      "latest_checked_at": "2026-11-15T09:21:11.386067+00:00",
+      "latest_claim_packet_id": "5494c879ea6d9aba92"
     },
     {
       "id": "ee0a188288c76836fa",
@@ -3227,6 +4033,174 @@
       "last_seen": "2026-11-08T10:00:24+00:00",
       "latest_checked_at": "2026-11-15T07:14:31.741578+00:00",
       "latest_claim_packet_id": "c88d791198c59089a5"
+    },
+    {
+      "id": "5345eb75a262947fb2",
+      "canonical_claim": "These institutions have provided generations of students and researchers with opportunities to advance.",
+      "occurrences": [
+        {
+          "id": "86378d37b26dbbd26d",
+          "text": "These institutions have provided generations of students and researchers with opportunities to advance.",
+          "source_title": "PM’s address at the inauguration of COSMOS-Mysuru Planetarium in Mysuru, Karnataka",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-inauguration-of-cosmos-mysuru-planetarium-in-mysuru-karnataka/",
+          "published_at": "2026-11-13T12:56:36+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-11-15T09:21:11.410969+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-11-13T12:56:36+00:00",
+      "last_seen": "2026-11-13T12:56:36+00:00",
+      "latest_checked_at": "2026-11-15T09:21:11.411009+00:00",
+      "latest_claim_packet_id": "1bcd8469d3a5663a57"
+    },
+    {
+      "id": "fa4f4efc2a61370d50",
+      "canonical_claim": "This created new opportunities for the private sector.",
+      "occurrences": [
+        {
+          "id": "1dc4cb67fb67382fa6",
+          "text": "This created new opportunities for the private sector.",
+          "source_title": "PM’s address at the inauguration of COSMOS-Mysuru Planetarium in Mysuru, Karnataka",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-inauguration-of-cosmos-mysuru-planetarium-in-mysuru-karnataka/",
+          "published_at": "2026-11-13T12:56:36+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "primary_evidence_found",
+      "human_reviewed": false,
+      "created_at": "2026-11-15T09:21:11.627001+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-11-13T12:56:36+00:00",
+      "last_seen": "2026-11-13T12:56:36+00:00",
+      "latest_checked_at": "2026-11-15T09:21:11.627040+00:00",
+      "latest_claim_packet_id": "986812acc8ad38372c"
+    },
+    {
+      "id": "e5a54f0336e22db133",
+      "canonical_claim": "This has been a record achievement for India.",
+      "occurrences": [
+        {
+          "id": "a951f4eea9e266fb79",
+          "text": "This has been a record achievement for India.",
+          "source_title": "PM’s address at the inauguration of COSMOS-Mysuru Planetarium in Mysuru, Karnataka",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-inauguration-of-cosmos-mysuru-planetarium-in-mysuru-karnataka/",
+          "published_at": "2026-11-13T12:56:36+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "reporting_found",
+      "human_reviewed": false,
+      "created_at": "2026-11-15T09:21:11.508276+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-11-13T12:56:36+00:00",
+      "last_seen": "2026-11-13T12:56:36+00:00",
+      "latest_checked_at": "2026-11-15T09:21:11.508311+00:00",
+      "latest_claim_packet_id": "13495a197106cf0b32"
+    },
+    {
+      "id": "1632e6b47f78f743e6",
+      "canonical_claim": "This information is provided by the Real-Time Train Tracking System developed by Indian Railways and ISRO.",
+      "occurrences": [
+        {
+          "id": "ab50e917147745b06c",
+          "text": "This information is provided by the Real-Time Train Tracking System developed by Indian Railways and ISRO.",
+          "source_title": "PM’s address at the inauguration of COSMOS-Mysuru Planetarium in Mysuru, Karnataka",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-inauguration-of-cosmos-mysuru-planetarium-in-mysuru-karnataka/",
+          "published_at": "2026-11-13T12:56:36+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "primary_evidence_found",
+      "human_reviewed": false,
+      "created_at": "2026-11-15T09:21:11.676791+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-11-13T12:56:36+00:00",
+      "last_seen": "2026-11-13T12:56:36+00:00",
+      "latest_checked_at": "2026-11-15T09:21:11.676809+00:00",
+      "latest_claim_packet_id": "c35e95e69d89c82423"
+    },
+    {
+      "id": "2f56e91f6172f88001",
+      "canonical_claim": "This is the scientific approach of a New India, where new discoveries are being encouraged, new technologies are being developed and new opportunities are being created for our youth.",
+      "occurrences": [
+        {
+          "id": "aa777679f3044fb807",
+          "text": "This is the scientific approach of a New India, where new discoveries are being encouraged, new technologies are being developed and new opportunities are being created for our youth.",
+          "source_title": "PM’s address at the inauguration of COSMOS-Mysuru Planetarium in Mysuru, Karnataka",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-inauguration-of-cosmos-mysuru-planetarium-in-mysuru-karnataka/",
+          "published_at": "2026-11-13T12:56:36+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "needs_research",
+      "human_reviewed": false,
+      "created_at": "2026-11-15T09:21:11.673590+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-11-13T12:56:36+00:00",
+      "last_seen": "2026-11-13T12:56:36+00:00",
+      "latest_checked_at": "2026-11-15T09:21:11.673631+00:00",
+      "latest_claim_packet_id": "40d8bde4c1f2c09af6"
+    },
+    {
+      "id": "c5c851df3d6ef3fed4",
+      "canonical_claim": "This year, Indian students achieved major successes in the International Olympiads as well.",
+      "occurrences": [
+        {
+          "id": "5792f80d52a34e8243",
+          "text": "This year, Indian students achieved major successes in the International Olympiads as well.",
+          "source_title": "PM’s address at the inauguration of COSMOS-Mysuru Planetarium in Mysuru, Karnataka",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-inauguration-of-cosmos-mysuru-planetarium-in-mysuru-karnataka/",
+          "published_at": "2026-11-13T12:56:36+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "primary_evidence_found",
+      "human_reviewed": false,
+      "created_at": "2026-11-15T09:21:11.474079+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-11-13T12:56:36+00:00",
+      "last_seen": "2026-11-13T12:56:36+00:00",
+      "latest_checked_at": "2026-11-15T09:21:11.474095+00:00",
+      "latest_claim_packet_id": "137a99377638e088a8"
+    },
+    {
+      "id": "dc36f33b88227397eb",
+      "canonical_claim": "Through Chandrayaan-3, ISRO made India the first country in the world to land near the Moon’s South Pole.",
+      "occurrences": [
+        {
+          "id": "68ac820ba2eb042672",
+          "text": "Through Chandrayaan-3, ISRO made India the first country in the world to land near the Moon’s South Pole.",
+          "source_title": "PM’s address at the inauguration of COSMOS-Mysuru Planetarium in Mysuru, Karnataka",
+          "source": "PMIndia",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-at-the-inauguration-of-cosmos-mysuru-planetarium-in-mysuru-karnataka/",
+          "published_at": "2026-11-13T12:56:36+00:00",
+          "match_score": 1.0
+        }
+      ],
+      "current_verdict": null,
+      "evidence_state": "structured_support_candidate",
+      "human_reviewed": false,
+      "created_at": "2026-11-15T09:21:11.511532+00:00",
+      "occurrence_count": 1,
+      "first_seen": "2026-11-13T12:56:36+00:00",
+      "last_seen": "2026-11-13T12:56:36+00:00",
+      "latest_checked_at": "2026-11-15T09:21:11.511550+00:00",
+      "latest_claim_packet_id": "d30ec27bdcdbd1c450"
     },
     {
       "id": "36fafc5e30728db833",
@@ -45958,8 +46932,8 @@
       }
     },
     {
-      "id": "0764c49dce738dbbee",
-      "checked_at": "2026-11-15T07:14:33.391192+00:00",
+      "id": "05e0979e7f32ba2f72",
+      "checked_at": "2026-11-15T09:21:13.372110+00:00",
       "promise_id": "BJP-2019-18c0750d5ed71bc3d1",
       "year": 2019,
       "category": "agriculture",
@@ -45985,7 +46959,7 @@
       "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
-      "query": "2022 10000 enable creation farmer producer organisations fpos",
+      "query": "10000 2022 enable creation farmer producer organisations fpos",
       "evidence": [
         {
           "id": "7ba7b3f4350246031a",
@@ -47638,7 +48612,7 @@
     },
     {
       "id": "f5811520c1d5623f19",
-      "checked_at": "2026-11-15T07:14:35.228200+00:00",
+      "checked_at": "2026-11-15T09:21:15.109172+00:00",
       "promise_id": "BJP-2019-1d3e95fa9344e842f3",
       "year": 2019,
       "category": "infrastructure",
@@ -47759,7 +48733,7 @@
     },
     {
       "id": "92d6920a15fb42f812",
-      "checked_at": "2026-11-15T07:14:48.379180+00:00",
+      "checked_at": "2026-11-15T09:21:29.251788+00:00",
       "promise_id": "BJP-2019-6abf03adda773fec98",
       "year": 2019,
       "category": "governance",
@@ -51182,7 +52156,7 @@
     },
     {
       "id": "1e0abc9f94016f3c7a",
-      "checked_at": "2026-11-15T07:14:36.604172+00:00",
+      "checked_at": "2026-11-15T09:21:16.581089+00:00",
       "promise_id": "BJP-2019-2af396deaf778cac73",
       "year": 2019,
       "category": "infrastructure",
@@ -51267,7 +52241,7 @@
     },
     {
       "id": "4af70c5cc4e5dd31ea",
-      "checked_at": "2026-11-15T07:14:40.934810+00:00",
+      "checked_at": "2026-11-15T09:21:20.996383+00:00",
       "promise_id": "BJP-2019-34c03859f07f1329c5",
       "year": 2019,
       "category": "infrastructure",
@@ -53438,7 +54412,7 @@
     },
     {
       "id": "93bb9754ab7125c8f1",
-      "checked_at": "2026-11-15T07:14:44.637190+00:00",
+      "checked_at": "2026-11-15T09:21:25.119677+00:00",
       "promise_id": "BJP-2019-6013bbae5c9fbd8c5a",
       "year": 2019,
       "category": "women_social_justice",
@@ -53502,7 +54476,7 @@
     },
     {
       "id": "1d1782ad81aa54afcd",
-      "checked_at": "2026-11-15T07:14:46.513948+00:00",
+      "checked_at": "2026-11-15T09:21:27.142856+00:00",
       "promise_id": "BJP-2019-63e2ccda189fa85e2c",
       "year": 2019,
       "category": "health_welfare",
@@ -58983,7 +59957,7 @@
     },
     {
       "id": "21c782a6ad2ecb8987",
-      "checked_at": "2026-11-15T07:14:38.806305+00:00",
+      "checked_at": "2026-11-15T09:21:18.904547+00:00",
       "promise_id": "BJP-2019-2cfa1375f165d41707",
       "year": 2019,
       "category": "other",
@@ -60391,7 +61365,7 @@
     },
     {
       "id": "09db92a7679f9e887b",
-      "checked_at": "2026-11-15T07:14:42.701468+00:00",
+      "checked_at": "2026-11-15T09:21:23.009137+00:00",
       "promise_id": "BJP-2019-4fc8289de8caed52ff",
       "year": 2019,
       "category": "other",
@@ -63556,7 +64530,7 @@
     },
     {
       "id": "2b6aee4578a28d5666",
-      "checked_at": "2026-11-13T15:23:51.936693+00:00",
+      "checked_at": "2026-11-15T09:21:34.421734+00:00",
       "promise_id": "BJP-2014-24b8755de0955368c2",
       "year": 2014,
       "category": "governance",
@@ -63577,8 +64551,31 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/252/1/bjp_lection_manifesto_english_2014.pdf",
       "related_promises": [],
       "query": "system which eliminates scope corruption",
-      "evidence": [],
-      "implementation_signal": "needs_research",
+      "evidence": [
+        {
+          "id": "e6efc1e334732ce1f8",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "SciELO México",
+          "source_url": "http://www.scielo.org.mx",
+          "title": "Mexican Administrative Law Against Corruption: Scope and Future - SciELO México",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPa3JsZFFjYXM5WmxsU1ZiN0g3TlI0WERVM3lJWTh2OUoyZ0xFQjA3TFdoMjNNR014VFBYcS1wNHdZSmFJeHRGb0lwdm5MeXRDOXJyaE5SODg0WFNWY0VySUJXSGo1ODBkN2ZUQVdfZk4taGFvVnlIbEJkODhUUlFYdGRFLVlIazU2a0E?oc=5",
+          "published_at": "2022-07-30T06:02:34+00:00",
+          "snippet": "Mexican Administrative Law Against Corruption: Scope and Future SciELO México",
+          "lexical_overlap": 0.154,
+          "relevance": 0.224,
+          "matched_terms": [
+            "corruption",
+            "scope"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "corruption",
+            "scope"
+          ]
+        }
+      ],
+      "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -65102,7 +66099,7 @@
     },
     {
       "id": "13f175694bb3bd8826",
-      "checked_at": "2026-10-29T02:27:46.051750+00:00",
+      "checked_at": "2026-11-15T09:21:45.455089+00:00",
       "promise_id": "BJP-2014-3ea89cdcfb116ffe51",
       "year": 2014,
       "category": "governance",
@@ -65127,15 +66124,36 @@
       "query": "committed strengthen self-governance local level empower",
       "evidence": [
         {
-          "id": "bff50705ccb715ab01",
+          "id": "178c8ba94a68369052",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "Press Information Bureau",
+          "source": "PIB",
           "source_url": "https://www.pib.gov.in",
-          "title": "Rashtriya Panchayati Raj Diwas - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9YMkZ2cldUSGdWaWgyTktQQVJaYU5XNWhmeUJoR0FGOEtaMURoR05zdzZUMWlZdzZ1RGY1N2doYTh0OHRpVlRDOGVTR2MyVlFPMmlPVXJ4dmE4UjRuYk1jRzBmbkZzMkNvQlFhZTFDTjc2MFZGQ1dhLU9Ib0s?oc=5",
+          "title": "Year End Review 2024: Ministry of Panchayati Raj - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5MTGRfZzVHNTIwOFFNRG9PQW9sYTBFbEFCRjg1Q0VZMWsydzU3MkQ2OHV1SW1qOXJWVW14LTRGLURZaVAxc3E3YjBULWFmcGhHcHRnNEN5V013aGVFVFczM2VCTWQ4ZEV1?oc=5",
+          "published_at": "2025-01-04T08:00:00+00:00",
+          "snippet": "Year End Review 2024: Ministry of Panchayati Raj PIB",
+          "lexical_overlap": 0.125,
+          "relevance": 0.245,
+          "matched_terms": [
+            "panchayati",
+            "raj"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "panchayati"
+          ]
+        },
+        {
+          "id": "eb733094322f308276",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "www.pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Rashtriya Panchayati Raj Diwas - www.pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5VX2ZJdngxWTd6a1czX1M0ZEpwUmlMSTN4S0dvT0J4YWZEcFlhejVCMUFIdmt2azlnZkxzMUU5ZHNPWlZ2Rm1CWmpKWDNJb1lfTmZ5akM3WTNzdnVPZndCUUQ3OG1rTTJE?oc=5",
           "published_at": "2026-04-24T07:00:00+00:00",
-          "snippet": "Rashtriya Panchayati Raj Diwas Press Information Bureau",
+          "snippet": "Rashtriya Panchayati Raj Diwas www.pib.gov.in",
           "lexical_overlap": 0.118,
           "relevance": 0.238,
           "matched_terms": [
@@ -65148,15 +66166,15 @@
           ]
         },
         {
-          "id": "0bddc9067350029d94",
+          "id": "c47afb237924d44873",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "Press Information Bureau",
+          "source": "www.pib.gov.in",
           "source_url": "https://www.pib.gov.in",
-          "title": "Year End Review 2024: Ministry of Panchayati Raj - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5MTGRfZzVHNTIwOFFNRG9PQW9sYTBFbEFCRjg1Q0VZMWsydzU3MkQ2OHV1SW1qOXJWVW14LTRGLURZaVAxc3E3YjBULWFmcGhHcHRnNEN5V013aGVFVFczM2VCTWQ4ZEV1?oc=5",
-          "published_at": "2025-01-04T08:00:00+00:00",
-          "snippet": "Year End Review 2024: Ministry of Panchayati Raj Press Information Bureau",
+          "title": "Year End Review 2025: Ministry of Panchayati Raj - www.pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4wRndTTHA0ZXNfOGhzTFZscHFpQ0d3aGNHWC1QbmlwRm5NTW1kLWl2OGs2eXdsQ1hUMG9wYzY1MlJWZEUwZ0h0b1pTcVJLb2xuRzRXOHdHSXpHWnpYOGFqdmtKV05HZVRR?oc=5",
+          "published_at": "2025-12-29T08:00:00+00:00",
+          "snippet": "Year End Review 2025: Ministry of Panchayati Raj www.pib.gov.in",
           "lexical_overlap": 0.111,
           "relevance": 0.231,
           "matched_terms": [
@@ -65892,7 +66910,7 @@
     },
     {
       "id": "df076e7dea8ba67624",
-      "checked_at": "2026-11-15T07:14:50.572590+00:00",
+      "checked_at": "2026-11-15T09:21:31.275482+00:00",
       "promise_id": "BJP-2014-078252941779345656",
       "year": 2014,
       "category": "women_social_justice",
@@ -65939,13 +66957,13 @@
           "promise_core_overlap": []
         },
         {
-          "id": "6cc2f8809e29b60a8c",
+          "id": "33f97b96a0936f1db1",
           "scope": "broad_official_search",
           "tier": "primary",
           "source": "eCourt India High Courts Services",
           "source_url": "https://hcservices.ecourts.gov.in",
           "title": "Case Status : Search by Case Number - eCourt India High Courts Services",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNT0V6eGN5WVhxYzRUd2dtWlotLUdOejhwb3lra0VSaVp6bEthT1dQTHpmbm5uVHJYaWcza0pLZVBFckpNQXY5Mjc4Wmd5a2Fzd3Zab3NtMjdaMU5jNnVtTXpVdTFDOEdMczlGT0JpOVdMNTQ3aDVhTmlHOUxacHNwRmNCTHplbnB1VFhGVG5KNzI2ZXV0SHMtUUVUU1dCYVpabFFyUGpCT0w5eHVWVENGVHNodw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbzNBTWZmM184XzgxbmRiRHl1LVpha1dZanEwV1ZybVY0cmM4T2N1Wnp6WWJiMFgzVTlhTVppYnNIRnlxLXF2OXpWdTk2Z1hVLXhTSm81ODBmN2ZRVW5nLURVbTFVR1VpQVJPeW02b3p6TWMzU3lzZTlaZjU2UlZlQlBPNXpQRHg5TmVPWTViYzViWVNSUTdKTlg3VUJRSnlkWmxLNUVJUVBKc3lWQzlhSUdpbHoxd0k1Q3p4Qg?oc=5",
           "published_at": "2026-01-02T08:00:00+00:00",
           "snippet": "Case Status : Search by Case Number eCourt India High Courts Services",
           "lexical_overlap": 0.111,
@@ -66032,7 +67050,7 @@
     },
     {
       "id": "2bf86876bdd62c9887",
-      "checked_at": "2026-11-13T15:23:49.697094+00:00",
+      "checked_at": "2026-11-15T09:21:32.362964+00:00",
       "promise_id": "BJP-2014-103f1a0801190b6c2d",
       "year": 2014,
       "category": "infrastructure",
@@ -66340,7 +67358,7 @@
     },
     {
       "id": "df053b9595bad6e85e",
-      "checked_at": "2026-10-29T02:27:43.312420+00:00",
+      "checked_at": "2026-11-15T09:21:43.686385+00:00",
       "promise_id": "BJP-2014-33a08a5da1db206c21",
       "year": 2014,
       "category": "governance",
@@ -66376,28 +67394,6 @@
           "snippet": "REVIEW OF THE WORKING OF POLITICAL PARTIES SPECIALLY IN RELATION TO ELECTIONS AND REFORM OPTIONS Department of Legal Affairs",
           "lexical_overlap": 0.091,
           "relevance": 0.211,
-          "matched_terms": [
-            "parties",
-            "political"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "parties",
-            "political"
-          ]
-        },
-        {
-          "id": "9ccf575a0b19b9d973",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "orfonline.org",
-          "source_url": "https://www.orfonline.org",
-          "title": "Towards public financing of elections and political parties in India: Lessons from global experiences - orfonline.org",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVXo5V1h3Y2RYV294RklrNC1HWkg2eV9udWJXLVE2bkdFRHRBMTBiRFJyY1I3UHI5VGg3elQzRE1Wd2cwdU94Qlh3VTl0N1Nfc3liWWVXQXBrWHdBTld6M1hnLU81Y0kySUZfcGYyRXZfaWZYOHM5b2l1a3lzWHdxVWxjSlJ1QnQ5OEp4QUVLZ3MxN1phb1lhenRMZFdTNlJRdHNMTC1QOFp0R3NNUWFJaExZYVRPenlSZWtaUktEd0ZTckNQcV9EeGNBcHRMMmNB?oc=5",
-          "published_at": "2017-11-24T08:00:00+00:00",
-          "snippet": "Towards public financing of elections and political parties in India: Lessons from global experiences orfonline.org",
-          "lexical_overlap": 0.095,
-          "relevance": 0.165,
           "matched_terms": [
             "parties",
             "political"
@@ -66468,7 +67464,7 @@
     },
     {
       "id": "82807a374ecc7d451b",
-      "checked_at": "2026-10-29T02:27:45.078700+00:00",
+      "checked_at": "2026-11-15T09:21:44.755850+00:00",
       "promise_id": "BJP-2014-33bb74a972956a068d",
       "year": 2014,
       "category": "other",
@@ -66490,8 +67486,31 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/252/1/bjp_lection_manifesto_english_2014.pdf",
       "related_promises": [],
       "query": "electoral committed initiate reforms eliminate criminals",
-      "evidence": [],
-      "implementation_signal": "needs_research",
+      "evidence": [
+        {
+          "id": "a19bc41c152db0e935",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "S3WaaS",
+          "source_url": "https://cdnbbsr.s3waas.gov.in",
+          "title": "Electoral Reforms - S3WaaS",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTHVLM3JMYlBFYXB1aEh0VjJPTWtZanFzRXVLWDZoVXhlbEpyVVNDREhKWC14WG14RTkxbTUzSXlSY3dhUnI4QTMzVmtSTjRQVWVPNWREWkNxaTBrSG9paXk1SS10MVp3amZQUGtWUXRtMkZZem9wbmJxNUlrbDdtcVE2eXJSN1phS29hZXJRd2hNcEdNV0pfOU5WRQ?oc=5",
+          "published_at": "2015-03-12T07:00:00+00:00",
+          "snippet": "Electoral Reforms S3WaaS",
+          "lexical_overlap": 0.286,
+          "relevance": 0.406,
+          "matched_terms": [
+            "electoral",
+            "reforms"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "electoral",
+            "reforms"
+          ]
+        }
+      ],
+      "implementation_signal": "current_primary_evidence_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -66506,7 +67525,7 @@
     },
     {
       "id": "61e3add3ed7c63af5f",
-      "checked_at": "2026-11-13T15:23:56.842734+00:00",
+      "checked_at": "2026-11-15T09:21:38.905017+00:00",
       "promise_id": "BJP-2014-2c89489e4094f7acc3",
       "year": 2014,
       "category": "other",
@@ -66529,30 +67548,7 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/252/1/bjp_lection_manifesto_english_2014.pdf",
       "related_promises": [],
       "query": "steps benefits scheme reach common man",
-      "evidence": [
-        {
-          "id": "9c53d3c444302bb285",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Mayo Clinic Press",
-          "source_url": "https://mcpress.mayoclinic.org",
-          "title": "How Many Steps A Day is Good? | Does Hitting 10,000 Steps A Day Really Make A Difference? - Mayo Clinic Press",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQa1FpelBvMnpQUHF2SngwenBSSXFOT3N0XzNvcUN5THpQd0kySFVpcW9DNERjSGc2NHVKZzU0c0JBQ0FKb0g2OFhKWUFmSG9fUnVqOXl3NnNUMF9YZDBaajRVdXdMTHNmTkZHZGQ1SmNqLS05aExybGo4MW9UbnRwMnRqbXVWbFFVR3dlTGdZamVrOUtqLWFQRkhhZEp3UnZDVkg0V1J4Q18?oc=5",
-          "published_at": "2024-08-22T07:00:00+00:00",
-          "snippet": "How Many Steps A Day is Good? | Does Hitting 10,000 Steps A Day Really Make A Difference? Mayo Clinic Press",
-          "lexical_overlap": 0.087,
-          "relevance": 0.157,
-          "matched_terms": [
-            "does",
-            "steps"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "does",
-            "steps"
-          ]
-        }
-      ],
+      "evidence": [],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -66568,7 +67564,7 @@
     },
     {
       "id": "f3692a36af7164fc21",
-      "checked_at": "2026-10-29T02:27:49.904280+00:00",
+      "checked_at": "2026-11-15T09:21:48.435251+00:00",
       "promise_id": "BJP-2014-4edd62da2296e72e53",
       "year": 2014,
       "category": "governance",
@@ -67009,7 +68005,7 @@
     },
     {
       "id": "e142a8d7c1cfb7afde",
-      "checked_at": "2026-10-29T02:27:48.365207+00:00",
+      "checked_at": "2026-11-15T09:21:47.278365+00:00",
       "promise_id": "BJP-2014-4e0c0b8e5a9a153e39",
       "year": 2014,
       "category": "women_social_justice",
@@ -67034,15 +68030,15 @@
       "query": "funds allocated schemes programmes obcs other",
       "evidence": [
         {
-          "id": "2a6a92c999f0c26509",
+          "id": "c99acf1e28b9486da9",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "Press Information Bureau",
+          "source": "www.pib.gov.in",
           "source_url": "https://www.pib.gov.in",
-          "title": "Details of Central Funds for Other Backward Castes (OBCs) - Press Information Bureau",
+          "title": "Details of Central Funds for Other Backward Castes (OBCs) - www.pib.gov.in",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5OdE82R3llVjFfR3IwMy1RQm90SmFzeUEwLXJCT0FDYzE3Yi0yS0RfUUhUUkFObzJUbHlLNEtJb1F5SzNZanVvV3FrQ1dOcjlodzRNbnZibTBMbVhzVnIxUHF5Ti1SejBLZkJlX3l3?oc=5",
           "published_at": "2015-03-19T07:00:00+00:00",
-          "snippet": "Details of Central Funds for Other Backward Castes (OBCs) Press Information Bureau",
+          "snippet": "Details of Central Funds for Other Backward Castes (OBCs) www.pib.gov.in",
           "lexical_overlap": 0.158,
           "relevance": 0.313,
           "matched_terms": [
@@ -67058,17 +68054,17 @@
           ]
         },
         {
-          "id": "ed715aba9c260f41f7",
+          "id": "71671db4e5962dc470",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "Press Information Bureau",
+          "source": "पीआईबी",
           "source_url": "https://www.pib.gov.in",
-          "title": "WELFARE SCHEMES, SCHOLARSHIPS AND SOCIAL PROTECTION PROGRAMMES - Press Information Bureau",
+          "title": "WELFARE SCHEMES, SCHOLARSHIPS AND SOCIAL PROTECTION PROGRAMMES - पीआईबी",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5HejRKUE40cDd1WkQtMC1RbW04N3Q0VmNrc2RseGp1UV9fdU03M1Fud3NNaTlFU2VBMmdKbUgxMVh3cUhVWXZWQkdIVzlERlBNdV9KQ1lxd3JxS2F3cE5NQ09GTkNDWXFy?oc=5",
           "published_at": "2026-03-24T07:00:00+00:00",
-          "snippet": "WELFARE SCHEMES, SCHOLARSHIPS AND SOCIAL PROTECTION PROGRAMMES Press Information Bureau",
-          "lexical_overlap": 0.105,
-          "relevance": 0.225,
+          "snippet": "WELFARE SCHEMES, SCHOLARSHIPS AND SOCIAL PROTECTION PROGRAMMES पीआईबी",
+          "lexical_overlap": 0.118,
+          "relevance": 0.238,
           "matched_terms": [
             "programmes",
             "schemes"
@@ -67783,7 +68779,7 @@
     },
     {
       "id": "85e0014f728260585b",
-      "checked_at": "2026-11-13T15:23:57.935546+00:00",
+      "checked_at": "2026-11-15T09:21:39.926480+00:00",
       "promise_id": "BJP-2014-2f1b625165d0de2206",
       "year": 2014,
       "category": "other",
@@ -68533,7 +69529,7 @@
     },
     {
       "id": "bcfa34986c3f0e554e",
-      "checked_at": "2026-11-03T07:17:29.563221+00:00",
+      "checked_at": "2026-11-15T09:21:49.689975+00:00",
       "promise_id": "BJP-2014-5243ed74f8075a10d2",
       "year": 2014,
       "category": "infrastructure",
@@ -69916,7 +70912,7 @@
     },
     {
       "id": "40086bd363cbef915e",
-      "checked_at": "2026-11-03T07:17:30.743135+00:00",
+      "checked_at": "2026-11-15T09:21:50.689431+00:00",
       "promise_id": "BJP-2014-529702c25e5214fcf6",
       "year": 2014,
       "category": "education_skills",
@@ -70782,7 +71778,7 @@
     },
     {
       "id": "921f554b653dc3cee1",
-      "checked_at": "2026-11-13T15:23:50.780156+00:00",
+      "checked_at": "2026-11-15T09:21:33.368750+00:00",
       "promise_id": "BJP-2014-17bcbe1d97d2cbccf2",
       "year": 2014,
       "category": "education_skills",
@@ -70821,7 +71817,7 @@
     },
     {
       "id": "d8a5bbffcbf08f4e5a",
-      "checked_at": "2026-11-13T15:23:58.681831+00:00",
+      "checked_at": "2026-11-15T09:21:40.583457+00:00",
       "promise_id": "BJP-2014-2f2ca3c2a417162bca",
       "year": 2014,
       "category": "health_welfare",
@@ -70942,7 +71938,7 @@
     },
     {
       "id": "56d02b0fecb6984bd4",
-      "checked_at": "2026-11-03T07:17:31.955468+00:00",
+      "checked_at": "2026-11-15T09:21:51.710102+00:00",
       "promise_id": "BJP-2014-52ae491d8e13801703",
       "year": 2014,
       "category": "jobs_economy",
@@ -71597,7 +72593,7 @@
     },
     {
       "id": "8e2c46b3af65ee4b1e",
-      "checked_at": "2026-11-13T15:23:54.524176+00:00",
+      "checked_at": "2026-11-15T09:21:36.745563+00:00",
       "promise_id": "BJP-2014-2bd93b1482e42832f3",
       "year": 2014,
       "category": "other",
@@ -71657,31 +72653,29 @@
           ]
         },
         {
-          "id": "a35c4ea7a2d3cc7fe2",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "ThePrint",
-          "source_url": "https://theprint.in",
-          "title": "Banking sector NPAs fall over 50 percent in five years to Rs 4.08 lakh crore, govt informs Parliament - ThePrint",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPajgwLW52eV9ZajFVdlZWRm5xeV9jWVFBWWx6cEd0V2JiWERQUGwydmRnQ2FoN3RnNER3bF9tSnZUMFlyamtFNWlvRTJoeGI3TjF2M3k5cnNSalAta19IYVlTVGU1dDJkNUNXUThoSTZlX3pJRE1MWkFyTHdoaDNyREFvbE1FcE5tRF9BRExOYXgzajJ2dkdIbFFud2UzRHY3QndnU054Q0w4dC1mdE5tejA5Z0Jhd0wwbEdsZktrVENiNHhVTV9JTENQcXA4TENLbmEw0gHYAUFVX3lxTE1oU2ZiMnhuUWxfdExySVROQXp0aHV3NkpJdnA3N2xmOW8xNWZ6MmlJQThFQUxNdXdFSEp3aVJPMkFZX1A4eXlRWXhwSkFfVXdWMkhzMVI5dEl3cmhLTEoxWEg3NlVybFBUWHN2RE5WbktPNXJxeHNPUXJkeXVteU1wSlN4a21abGEzLUtpeEN3LUxUbTdlLVd6LVBYTlVZY21QVkhkaUlrUjlmOEVXbks2SWFLUGFqUTU4ekR0NTcxYWQ4TFdVTERTMW9tSExMdnZFODlkSS1GUg?oc=5",
-          "published_at": "2026-07-21T07:00:00+00:00",
-          "snippet": "Banking sector NPAs fall over 50 percent in five years to Rs 4.08 lakh crore, govt informs Parliament ThePrint",
-          "lexical_overlap": 0.176,
-          "relevance": 0.281,
+          "id": "477997a0acb6c48fa6",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "www.pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Gross NPAs of Public Sector Banks (PSBs) have declined by Rs. 89,189 crore from the peak of Rs. 8,95,601 crore in March 2018 to Rs. 8,06,412 crore in March 2019New Delhi, June 25, 2019 - www.pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBtM05kbU1sVHQyYy1jNVBUZktkNF8wTDd2eVgwOHRXZzh5Y0tMRm5QZXcwbzkzXzdyeHRMS1cwbktXSmY1RF9JblEwTFN6akZDT0tOc00yc244OXh3ZmRCZmV6bE9zUGdYcUE?oc=5",
+          "published_at": "2025-05-16T10:22:23+00:00",
+          "snippet": "Gross NPAs of Public Sector Banks (PSBs) have declined by Rs. 89,189 crore from the peak of Rs. 8,95,601 crore in March 2018 to Rs. 8,06,412 crore in March 2019New Delhi, June 25, 2019 www.pib.gov.in",
+          "lexical_overlap": 0.095,
+          "relevance": 0.215,
           "matched_terms": [
-            "banking",
             "npas",
             "sector"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "banking",
             "npas",
             "sector"
           ]
         }
       ],
-      "implementation_signal": "current_primary_and_reporting_found",
+      "implementation_signal": "current_primary_evidence_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -73694,7 +74688,7 @@
     },
     {
       "id": "3d8f3c0571e93b6b1c",
-      "checked_at": "2026-10-29T02:27:47.673259+00:00",
+      "checked_at": "2026-11-15T09:21:46.527491+00:00",
       "promise_id": "BJP-2014-43b46e0dcf90c84e69",
       "year": 2014,
       "category": "health_welfare",
@@ -73719,15 +74713,15 @@
       "query": "issue identity cards unorganized sector labourers",
       "evidence": [
         {
-          "id": "988b826f4060d12027",
+          "id": "536809ae890c590dba",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "Press Information Bureau",
+          "source": "www.pib.gov.in",
           "source_url": "https://www.pib.gov.in",
-          "title": "Labour Minister Shri Bhupender Yadav distributes e-Shram Cards and approval letters for Relief Schemes to unorganized workers in Mumbai - Press Information Bureau",
+          "title": "Labour Minister Shri Bhupender Yadav distributes e-Shram Cards and approval letters for Relief Schemes to unorganized workers in Mumbai - www.pib.gov.in",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ULWVzWk5SZ3VBUXdrbElnTTN6RVpQMDdid1h4bHJ2SVZoVjVVWnRDMHpCQTgzc1JLdUtYQUJ3RGVkTW80SXAzcGtuUEh1djZOZ3J2azFreFE0Q3pHYk14a3dfclR1RUxt?oc=5",
           "published_at": "2021-09-25T07:00:00+00:00",
-          "snippet": "Labour Minister Shri Bhupender Yadav distributes e-Shram Cards and approval letters for Relief Schemes to unorganized workers in Mumbai Press Information Bureau",
+          "snippet": "Labour Minister Shri Bhupender Yadav distributes e-Shram Cards and approval letters for Relief Schemes to unorganized workers in Mumbai www.pib.gov.in",
           "lexical_overlap": 0.077,
           "relevance": 0.197,
           "matched_terms": [
@@ -73738,30 +74732,6 @@
           "promise_core_overlap": [
             "cards",
             "unorganized"
-          ]
-        },
-        {
-          "id": "0dfb7768886f2ee8e7",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Live Law",
-          "source_url": "https://www.livelaw.in",
-          "title": "Supreme Court Directs States/UTs To Issue Ration Cards To 8 Crore Unorganised Sector Workers Registered... - Live Law",
-          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOdjA4ZnpUSVZEaTE4WkhlNjM0UUk0YS1zQzFCbVp5YllJdHZDSl9jQlJ1TkYyT0FvNFBBalh6WHNla1RqN1k3Mk82RF9KaFpVUkVCN0V1M1A3d3I0cjJ6azFMWlhJdmI0WWVPeG9iZDE5WEhkcnd3TzM1Y3NRaUE5X1RaNEd2YnhxV2g4dVVqamlxTjJMS0dSMHhDUFFSNFAwTmVPQ0tVY0hCNGs2M1UyUFlvM3BIMEFLazB6NEMxNERMM3gycnc5OHNuSS1SMU9mMWJiRlNWdVBuZHhfRGsxblBwVy1pRVVxZ1FUYU1leWlXMGl6ZjBPUNIB_gFBVV95cUxPNWhiVWFral9BN2Y2bEhNems4WnpQdVZWYXZRWVRrUVNraWxQNDZ6UE9DaXItby1WYWZ0M2RnX0MtUXZ2ekhIcVRjck8zOWE4ZmlsRVZUamhUbGhrc3VQQjF5YXE0UzhzcllPd0pIdk5scDFDMkM5akVCVTZQLXJIaVloX2FCSTZYRVR1M0JFUGxyOXZzSHJMZFF3YmRDYXdtWExacXhRZEJQbXI0X1JoTDZRdENHWmtZSHM3ajZSenhCVDA2Q1g5YlJENGdpUFNKNGVHejZnWFpMVjZmaWFpRHdYTTBQLWNfYTdIUUhQVm9LcVhEc0JBUnV6VUlIUQ?oc=5",
-          "published_at": "2024-03-22T07:00:00+00:00",
-          "snippet": "Supreme Court Directs States/UTs To Issue Ration Cards To 8 Crore Unorganised Sector Workers Registered... Live Law",
-          "lexical_overlap": 0.125,
-          "relevance": 0.23,
-          "matched_terms": [
-            "cards",
-            "issue",
-            "sector"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "cards",
-            "issue",
-            "sector"
           ]
         },
         {
@@ -73787,7 +74757,7 @@
           ]
         }
       ],
-      "implementation_signal": "current_reporting_found",
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -73940,7 +74910,7 @@
     },
     {
       "id": "755464ed1e55bdc250",
-      "checked_at": "2026-11-13T15:23:53.419903+00:00",
+      "checked_at": "2026-11-15T09:21:35.704755+00:00",
       "promise_id": "BJP-2014-29454189e982b6b818",
       "year": 2014,
       "category": "infrastructure",
@@ -75123,7 +76093,7 @@
     },
     {
       "id": "4bb7e4e6457e3a163f",
-      "checked_at": "2026-11-13T15:23:55.543252+00:00",
+      "checked_at": "2026-11-15T09:21:37.719538+00:00",
       "promise_id": "BJP-2014-2bf14d145f1c160570",
       "year": 2014,
       "category": "technology_digital",
@@ -75145,8 +76115,31 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/252/1/bjp_lection_manifesto_english_2014.pdf",
       "related_promises": [],
       "query": "science technology truly uplifts indeed humanity",
-      "evidence": [],
-      "implementation_signal": "needs_research",
+      "evidence": [
+        {
+          "id": "01663745ea4095bd00",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "Department of Science and Technology (DST)",
+          "source_url": "https://www.dst.gov.in",
+          "title": "National Mission on Interdisciplinary Cyber-Physical Systems - Department of Science and Technology (DST)",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcHRBOVUtSXNuRHBUWENlQWZSVzlMb29JUUtwS3dFSk9XUkotZlhkNHU1RHdrN3FnbzF4dHlsLUx6TVNGelZmM2N1bGs2N2c5dnU1RWhRSFZKd21pYWhRQ3lZaXZ1ZThNdHhHaW1WQUhMSktIVDZEX25GZ29oVDhaZlVfak1tY0h1OEE?oc=5",
+          "published_at": "2026-11-13T19:54:07+00:00",
+          "snippet": "National Mission on Interdisciplinary Cyber-Physical Systems Department of Science and Technology (DST)",
+          "lexical_overlap": 0.143,
+          "relevance": 0.263,
+          "matched_terms": [
+            "science",
+            "technology"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "science",
+            "technology"
+          ]
+        }
+      ],
+      "implementation_signal": "current_primary_evidence_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -75546,7 +76539,7 @@
     },
     {
       "id": "85febb2f4dcf7385f8",
-      "checked_at": "2026-11-13T15:24:00.927449+00:00",
+      "checked_at": "2026-11-15T09:21:42.641570+00:00",
       "promise_id": "BJP-2014-330d30cf38b1b654b2",
       "year": 2014,
       "category": "other",
@@ -76560,7 +77553,7 @@
     },
     {
       "id": "4bd48a4a07fd711521",
-      "checked_at": "2026-11-13T15:23:59.825321+00:00",
+      "checked_at": "2026-11-15T09:21:41.590999+00:00",
       "promise_id": "BJP-2014-31c64db30f0956eeb5",
       "year": 2014,
       "category": "infrastructure",
