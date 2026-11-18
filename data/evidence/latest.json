@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T04:17:36.003004+00:00",
+  "generated_at": "2026-11-18T07:59:13.851270+00:00",
   "capabilities": {
     "official_evidence_search": true,
     "verified_primary_gate": true,
@@ -16,8 +16,8 @@
     "promise_checked_this_run": 30,
     "promise_total_candidates": 841,
     "promise_coverage_pct": 101.3,
-    "primary_candidates": 682,
-    "secondary_candidates": 953,
+    "primary_candidates": 685,
+    "secondary_candidates": 954,
     "prior_fact_checks": 0,
     "publishable_auto_verdicts": 0,
     "claim_verdicts": {
@@ -4537,7 +4537,7 @@
     },
     {
       "id": "84a37138302d0ea24f",
-      "checked_at": "2026-10-30T06:31:14.418923+00:00",
+      "checked_at": "2026-11-18T07:59:02.211400+00:00",
       "promise_id": "BJP-2024-655f124c198f6b9ede",
       "year": 2024,
       "category": "health_welfare",
@@ -4562,6 +4562,28 @@
       "query": "free health treatment strengthening ayushman other",
       "evidence": [
         {
+          "id": "492626af6f09b68761",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "static.pib.gov.in",
+          "source_url": "https://static.pib.gov.in",
+          "title": "Strengthening Healthcare Ecosystem in Madhya Pradesh Ayushman Bharat - static.pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZUROQWh6QzZHeWo1NWxBZjBSaTQzdEQtbzk2OGw0cUNzS1BmNnIwQ2NaTHF1TnZwcmxFcGQzSzJyVWFTVzQtR3BlcXYtTkg2bklOemxPN1BNRzhIWGlmaF9md3FfczQ3Z3pERGZaY1JrUS1XTHBFT0hIbi10eG5IR3dkYlo2REEyYU1mYTU5MjdSSExTbFV3?oc=5",
+          "published_at": "2023-08-17T07:00:00+00:00",
+          "snippet": "Strengthening Healthcare Ecosystem in Madhya Pradesh Ayushman Bharat static.pib.gov.in",
+          "lexical_overlap": 0.125,
+          "relevance": 0.245,
+          "matched_terms": [
+            "ayushman",
+            "strengthening"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "ayushman",
+            "strengthening"
+          ]
+        },
+        {
           "id": "c5f14f64a6c77dcd75",
           "scope": "news_search",
           "tier": "secondary",
@@ -4584,7 +4606,7 @@
           ]
         }
       ],
-      "implementation_signal": "current_reporting_found",
+      "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -4599,7 +4621,7 @@
     },
     {
       "id": "9142cc4222ae957237",
-      "checked_at": "2026-11-07T22:44:27.584067+00:00",
+      "checked_at": "2026-11-18T07:59:04.647199+00:00",
       "promise_id": "BJP-2024-6f083d2624397d2590",
       "year": 2024,
       "category": "health_welfare",
@@ -4646,40 +4668,17 @@
           ]
         },
         {
-          "id": "091ce698c3c97d261c",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "The Financial Express",
-          "source_url": "https://www.financialexpress.com",
-          "title": "Pradhan Mantri Awas Yojana Expansion: PMAY benefits to be extended to THESE sections now – Details inside - The Financial Express",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNeFd4clYtMF9nU1RlUjlsb0I1S1FJeWFLc2RuTnRqVU14ME9zZDAweTVDSlFkVjJFUld2amliOUo4bDk4Vk9WcEYtSFJWbDVFT2stSjd4M3RBTmhXVWktcU92MUgxc0JpR3E3c0NCeDlCNTQ3VlVxbUxjMURWLVRDdjF2dm91V1BFX1dsRmZaX3pMc2NPNWpfTTVadkFQZXlWb0daS1BqVE9tNFFDMzlYbndQcW90M2Y4c1kwbmpuNnczQkhlcWJGVDdXWGtoaDc5NnA3S2FuVXIxWGV2aE11ejhrZXDSAesBQVVfeXFMUFhzS1NuM3NrVmdHVVNhaTZNZm1VRU9wSTF2MHh2VmVhWFdCeXZkVFo4QWx3VFBjLXU2MDRiVTZuQmtEd09lUmxmYXJOVi1BRU5zbTZleEhFclRWX2U5MXA0MEE1aWt0d2JRZVIwUnZRX1VhckJVb2lQeWRBLU40TkgzakVLYVJfRTBibHJ2MkUtM3hMVFlCZHE3QUhEblFXbXdZMzA3WHJmdDZqdW96NTNiTTE5LUQ0SUphbFc2Tmx5emtVZnZnVXcxWjM0YkR3QXhjTVk5dmRfSHQzcHhjZGtIZzF2UjRRMGk5WQ?oc=5",
-          "published_at": "2024-09-04T07:00:00+00:00",
-          "snippet": "Pradhan Mantri Awas Yojana Expansion: PMAY benefits to be extended to THESE sections now – Details inside The Financial Express",
-          "lexical_overlap": 0.13,
-          "relevance": 0.235,
-          "matched_terms": [
-            "awas",
-            "now",
-            "yojana"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "awas",
-            "yojana"
-          ]
-        },
-        {
-          "id": "78e592bd38c613ac95",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "PM India",
-          "source_url": "https://www.pmindia.gov.in",
-          "title": "PM interacts with beneficiaries of Bihar’s Mukhyamantri Mahila Rojgar Yojana - PM India",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdlFHcjdvT3FkQzAxT0lraFYxU0lzbDg5eHhXRWh5SGl3ajg1eFJhMFdqWGlkZlYxTVpHMHpXVER4UkdJYnNTWDAxWlFlT0wwbVlHdm1NS3V3bTFVVWFtZHNyM0I4bEVVcFFoUlp0S0w4VzBXaTRoc3FGWmxTMl94YXZCT3NKZWk1eW96a3p1ZVExcHY0QUQ0U0dzU19TbDBfNzFkTGQyLWI0cjF3eGFVMjdRazJ2R2hXNzBZ?oc=5",
+          "id": "d179ce616a4ddb592e",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "English rendering of PM’s interaction with beneficiaries of Bihar's Mukhyamantri Mahila Rojgar Yojana via video conferencing - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9CUXcwQnFkcVV2dy1YSkJwTGUzdVozMkVraFVncmFxM2RZQXQwRlJ0WkxKSmlNekhWTW5mNmhvYUNqZUNReE56M3kyQnhnell5QUt0djNsLWI3eWFHTzBjTG0wY2RSR0Zk?oc=5",
           "published_at": "2025-09-26T07:00:00+00:00",
-          "snippet": "PM interacts with beneficiaries of Bihar’s Mukhyamantri Mahila Rojgar Yojana PM India",
-          "lexical_overlap": 0.111,
-          "relevance": 0.181,
+          "snippet": "English rendering of PM’s interaction with beneficiaries of Bihar's Mukhyamantri Mahila Rojgar Yojana via video conferencing PIB",
+          "lexical_overlap": 0.083,
+          "relevance": 0.203,
           "matched_terms": [
             "pm",
             "yojana"
@@ -4690,7 +4689,7 @@
           ]
         }
       ],
-      "implementation_signal": "current_primary_and_reporting_found",
+      "implementation_signal": "current_primary_evidence_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -4705,7 +4704,7 @@
     },
     {
       "id": "922a69a41a45f72313",
-      "checked_at": "2026-11-07T22:44:29.753574+00:00",
+      "checked_at": "2026-11-18T07:59:06.600221+00:00",
       "promise_id": "BJP-2024-7149cef59f2dec82cb",
       "year": 2024,
       "category": "jobs_economy",
@@ -5782,7 +5781,7 @@
     },
     {
       "id": "0c1ecd38d1e0f89805",
-      "checked_at": "2026-11-07T22:44:28.705137+00:00",
+      "checked_at": "2026-11-18T07:59:05.711491+00:00",
       "promise_id": "BJP-2024-704ff770d89d64ede9",
       "year": 2024,
       "category": "education_skills",
@@ -5807,17 +5806,17 @@
       "query": "launch internship programmes blend academic practical",
       "evidence": [
         {
-          "id": "39a485b7c458c3ba7f",
+          "id": "7996becbe09a46caf2",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "पीआईबी",
+          "source": "www.pib.gov.in",
           "source_url": "https://www.pib.gov.in",
-          "title": "IIT Madras launches multiple New Programmes for the Academic Year 2025-26 - पीआईबी",
+          "title": "IIT Madras launches multiple New Programmes for the Academic Year 2025-26 - www.pib.gov.in",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ITWR6OXJYYm1ZS0t5R3FpbVVrVktId0pvbzgtczhudlJXbHVrTUQyZW9qajFrMjV4TU5xZUhkSjBxR19pVFJGbmh2X05vYXg0MEV5a1dXZ1BYemtoenZGMmNUcm8xb1hi?oc=5",
           "published_at": "2025-05-26T07:00:00+00:00",
-          "snippet": "IIT Madras launches multiple New Programmes for the Academic Year 2025-26 पीआईबी",
-          "lexical_overlap": 0.167,
-          "relevance": 0.287,
+          "snippet": "IIT Madras launches multiple New Programmes for the Academic Year 2025-26 www.pib.gov.in",
+          "lexical_overlap": 0.143,
+          "relevance": 0.263,
           "matched_terms": [
             "academic",
             "programmes"
@@ -5826,6 +5825,27 @@
           "promise_core_overlap": [
             "academic",
             "programmes"
+          ]
+        },
+        {
+          "id": "8afba8a4468996e129",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "TahawulTech.com",
+          "source_url": "https://www.tahawultech.com",
+          "title": "UAE Cyber Security Council and Fortinet launch internship programme for Emirati cyber talent - TahawulTech.com",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQeXUzbU1pNk5IazFRU0JZVF9SeDk0SGFtU1I2eFU0SndGeV8yQXo5czNSbllaTzBsMHdfczBnS19McjZja0dKcVh2czY1d1JHQVlFWHJKMC1xYjlMb1dXbXM5UkFjakNmaFo2WG9IbWVjbURoOU9WY2hOZVctakVCSFlwM1VRSjk0S011UlZYQnZ0UWFRajFGMXFvb2k4T1MwSTJ5RTJLYlFxczh3MU9SYTNPazRmdmUtSnJPbTFMaHpKOE1ERW1CTw?oc=5",
+          "published_at": "2026-09-22T07:00:00+00:00",
+          "snippet": "UAE Cyber Security Council and Fortinet launch internship programme for Emirati cyber talent TahawulTech.com",
+          "lexical_overlap": 0.118,
+          "relevance": 0.188,
+          "matched_terms": [
+            "internship",
+            "launch"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "internship"
           ]
         }
       ],
@@ -6730,7 +6750,7 @@
     },
     {
       "id": "c45d622adfdfce52a6",
-      "checked_at": "2026-10-30T06:31:11.955433+00:00",
+      "checked_at": "2026-11-18T07:58:58.216965+00:00",
       "promise_id": "BJP-2024-63e8532ead1ce8f088",
       "year": 2024,
       "category": "health_welfare",
@@ -6753,30 +6773,7 @@
       "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
       "related_promises": [],
       "query": "further committed upholding dignity women continuing",
-      "evidence": [
-        {
-          "id": "7c63d63aaa1790aad7",
-          "scope": "broad_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "National Symposium on ‘Women’s Safety at Work and Public Spaces’, in collaboration with the University of Lucknow - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1qdDcwR3lRMVNZdTRrbW1kbGdiZndTUWh6QTFCSkNwUTNBLVF0NFZ3YmZsNy1oNkdETjZDbEU0SWV0YmUtSWhGMVlSUlhEUUlydHZjaFZMeUMtSjNhTUNHQi0ybUpYMGRL?oc=5",
-          "published_at": "2025-07-27T07:00:00+00:00",
-          "snippet": "National Symposium on ‘Women’s Safety at Work and Public Spaces’, in collaboration with the University of Lucknow Press Information Bureau",
-          "lexical_overlap": 0.095,
-          "relevance": 0.215,
-          "matched_terms": [
-            "public",
-            "women"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "public",
-            "women"
-          ]
-        }
-      ],
+      "evidence": [],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -6924,7 +6921,7 @@
     },
     {
       "id": "d0ebd64b8ab8e5cf50",
-      "checked_at": "2026-11-07T22:44:38.426847+00:00",
+      "checked_at": "2026-11-18T07:59:13.646117+00:00",
       "promise_id": "BJP-2024-7c63027b02dd8cb4d2",
       "year": 2024,
       "category": "women_social_justice",
@@ -6993,36 +6990,14 @@
           ]
         },
         {
-          "id": "04c759da4dea10a47c",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "United Nations Development Programme",
-          "source_url": "https://www.undp.org",
-          "title": "Goal 3: Good health and well-being - United Nations Development Programme",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1vTWg4TzFYRE4xV0x5c2Rmbm42ZDkwaDN6elJwVHlHLUlYc2sxZXRHWTVKS1FWcnIwa3JoN05aQzVsT2ViRklseVhPWFdnbVd1amtUaTdfT1VMWGVhbWdtYXhOcUVVNDk2c28weXBfZw?oc=5",
-          "published_at": "2023-02-16T15:22:18+00:00",
-          "snippet": "Goal 3: Good health and well-being United Nations Development Programme",
-          "lexical_overlap": 0.111,
-          "relevance": 0.181,
-          "matched_terms": [
-            "health",
-            "well-being"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "health",
-            "well-being"
-          ]
-        },
-        {
-          "id": "4d42455b1fca5951b4",
+          "id": "f2cfa33653006881a3",
           "scope": "news_search",
           "tier": "secondary",
           "source": "Gates Foundation",
           "source_url": "https://www.gatesfoundation.org",
           "title": "The Future of Women's Health: 8 New Technologies Improving Lives - Gates Foundation",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNamtrb0EwaGdFRVp2T0dBUTVnTVU0bm9kMXBXYlZ5MlBCcmRXMlRia0Z2YV9UMWVVRllPVjR5WkVWUENWeGd5UEJxM0JWV2F5X2tYaTlwamNJREV6MTI4V2dhNFltNERSWjJJeHVZTWw5b3hpaG5yTnBmWUdqZ0cydWg5SHhycDlfN2YtTGlWLWVYREVrSkJUSnJPZHdiazZz?oc=5",
-          "published_at": "2023-08-09T19:59:55+00:00",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYkx1RWZjd3JpNGdNWEtRVE1ZdGZYWVN4T2pIblpqVUFaMjB2Z0I5X1lLTWxTbGlKbXNfanpQbGp0Ui1VbGZJdWtVNTVJbnM1OElTeXBCX3p0c1FIVW5waFRTMzk4TG40QThrUDVMZVJxSHZoRWx0NHlLa2txYl8yN0lKZ2Z3MlFpSEd4WmFzd1F2dDQtc196dkgwTDJ5Y1d0U1JJ?oc=5",
+          "published_at": "2026-11-12T17:24:26+00:00",
           "snippet": "The Future of Women's Health: 8 New Technologies Improving Lives Gates Foundation",
           "lexical_overlap": 0.111,
           "relevance": 0.181,
@@ -11156,7 +11131,7 @@
     },
     {
       "id": "ed9a513b89d099f43a",
-      "checked_at": "2026-11-07T22:44:31.955363+00:00",
+      "checked_at": "2026-11-18T07:59:08.146208+00:00",
       "promise_id": "BJP-2024-72b047514af8695c55",
       "year": 2024,
       "category": "agriculture",
@@ -11179,7 +11154,29 @@
       "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
       "related_promises": [],
       "query": "increase msp time have ensured unprecedented",
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "ac5dbae715a3ab409b",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "The Indian Express",
+          "source_url": "https://indianexpress.com",
+          "title": "BJP promises to hike MSP from time to time - The Indian Express",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSkVYNFBsYmp3RE4tLU5nZVZhUTFqbEJsLWV3azdONG5aZlczVXZLUnYxVUdFcmJUOG4tdzRQTGNjVWlHUklJSzVZa0E1SjdnS2xJbDZkRTRyRThWcTlZRXNaSkRRa1BKSkJrWmtfRHlKS1NlY2RlMzN2SXd3SHJxamV3OFhDVXJfZVdmXzQ2SEphSnJlTzVKSnFhYzVTWXRoMDluUURzT0lSbmVTVElWWHpB0gG4AUFVX3lxTE1zVF9BalVJZVY4S1RobzhoV1djNjBzYllnZkk0ZWNYRXZDaEg0MnBZUGtRQVhFd1pYc2xPZExoUEZ6LWpFemtNX0RzQ3V6TUllc0hvcGJTenVBcnNjenROZnE4ZkprakpjYUlSNXRqNTgwQXlTQ09hZzVkcTd4WS1YbklqbTRsdW5wbXpkc3RidHlJQ1dydmZSUG5PZ3JPS29ZRUtGY245MDRwRnlqT09xbXRFSmZMcDA?oc=5",
+          "published_at": "2024-04-15T07:00:00+00:00",
+          "snippet": "BJP promises to hike MSP from time to time The Indian Express",
+          "lexical_overlap": 0.167,
+          "relevance": 0.237,
+          "matched_terms": [
+            "msp",
+            "time"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "time"
+          ]
+        }
+      ],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -11234,7 +11231,7 @@
     },
     {
       "id": "31796104f8c289dc80",
-      "checked_at": "2026-11-07T22:44:35.902552+00:00",
+      "checked_at": "2026-11-18T07:59:11.674409+00:00",
       "promise_id": "BJP-2024-7a6c96d4de2d80a70d",
       "year": 2024,
       "category": "other",
@@ -16269,7 +16266,7 @@
     },
     {
       "id": "769e85497ef35d04bb",
-      "checked_at": "2026-10-30T06:31:09.666673+00:00",
+      "checked_at": "2026-11-18T07:58:56.307975+00:00",
       "promise_id": "BJP-2024-5a502a961387696185",
       "year": 2024,
       "category": "health_welfare",
@@ -16294,15 +16291,60 @@
       "query": "tribal focussed approach healthcare towards elimination",
       "evidence": [
         {
-          "id": "83b5f2f5a31afc6c56",
+          "id": "37dff6d3ecc29e2be2",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "Press Information Bureau",
+          "source": "PIB",
           "source_url": "https://www.pib.gov.in",
-          "title": "Integrating Tribal Healers into Community Healthcare: National Capacity Building Programme for Tribal Healers Begins - Press Information Bureau",
+          "title": "Government has focused on developing Tribal human resource with a holistic approach over last 9 years :Shri Arjun Munda - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBBSU4xQ3p1cTRNekFNaUhRa0tVSXBFTGVVZkNwSmwzcExndlBEVzc0N1EteW9laVRudzhHSEdLMk1mUmxjcHozNERzQ0RjSEt1RTVlUVZRZkR6YXB1ajRzT3RwQ29ONTUz?oc=5",
+          "published_at": "2023-06-14T07:00:00+00:00",
+          "snippet": "Government has focused on developing Tribal human resource with a holistic approach over last 9 years :Shri Arjun Munda PIB",
+          "lexical_overlap": 0.087,
+          "relevance": 0.207,
+          "matched_terms": [
+            "approach",
+            "tribal"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "approach",
+            "tribal"
+          ]
+        },
+        {
+          "id": "9310cdacbe98ed9147",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "PIB",
+          "source_url": "https://www.pib.gov.in",
+          "title": "National Tribal Health Conclave 2025 under DhartiAabaJanjatiya Gram Utkarsh Abhiyan - Advancing Holistic Healthcare for Tribal Communities - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1jR3BsN3lXRGY5dXlrTnFjTkFpN0l2UE4wTUZjM3FzVGJ0X2N3UkU5OWFkOWNyMWhCclcxNHdxaDFyRHg5ektEYkZ4TGh4T1ZBWWh3dE82ZXpOcmhHWl9yTEZha2IzNGNx?oc=5",
+          "published_at": "2025-01-22T08:00:00+00:00",
+          "snippet": "National Tribal Health Conclave 2025 under DhartiAabaJanjatiya Gram Utkarsh Abhiyan - Advancing Holistic Healthcare for Tribal Communities PIB",
+          "lexical_overlap": 0.087,
+          "relevance": 0.207,
+          "matched_terms": [
+            "healthcare",
+            "tribal"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "health",
+            "healthcare",
+            "tribal"
+          ]
+        },
+        {
+          "id": "7a97120a72be22e5ef",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "www.pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Integrating Tribal Healers into Community Healthcare: National Capacity Building Programme for Tribal Healers Begins - www.pib.gov.in",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBEYnpJYUJueEhQaXlwTDJyZDhrY1YzYUFScU96aVloLWZKOUZRWi0tSFZNajcyUVlWbTBzeElBR2lNM2Z6cThjcG0wdEdER25yaExZQzBvd3VHeHZHU2hvQV90dGI1ZXUtSTlUNk5lX2NlZ01DQTN6U2tR?oc=5",
           "published_at": "2026-01-16T08:00:00+00:00",
-          "snippet": "Integrating Tribal Healers into Community Healthcare: National Capacity Building Programme for Tribal Healers Begins Press Information Bureau",
+          "snippet": "Integrating Tribal Healers into Community Healthcare: National Capacity Building Programme for Tribal Healers Begins www.pib.gov.in",
           "lexical_overlap": 0.087,
           "relevance": 0.207,
           "matched_terms": [
@@ -16316,60 +16358,15 @@
           ]
         },
         {
-          "id": "d2bfa665eabbbf6626",
+          "id": "a13819074f057a85f2",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "Press Information Bureau",
+          "source": "pib.gov.in",
           "source_url": "https://www.pib.gov.in",
-          "title": "Government has focused on developing Tribal human resource with a holistic approach over last 9 years :Shri Arjun Munda - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBBSU4xQ3p1cTRNekFNaUhRa0tVSXBFTGVVZkNwSmwzcExndlBEVzc0N1EteW9laVRudzhHSEdLMk1mUmxjcHozNERzQ0RjSEt1RTVlUVZRZkR6YXB1ajRzT3RwQ29ONTUz?oc=5",
-          "published_at": "2023-06-14T07:00:00+00:00",
-          "snippet": "Government has focused on developing Tribal human resource with a holistic approach over last 9 years :Shri Arjun Munda Press Information Bureau",
-          "lexical_overlap": 0.08,
-          "relevance": 0.2,
-          "matched_terms": [
-            "approach",
-            "tribal"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "approach",
-            "tribal"
-          ]
-        },
-        {
-          "id": "7f82de936590ca11a0",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "National Tribal Health Conclave 2025 under DhartiAabaJanjatiya Gram Utkarsh Abhiyan - Advancing Holistic Healthcare for Tribal Communities - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1jR3BsN3lXRGY5dXlrTnFjTkFpN0l2UE4wTUZjM3FzVGJ0X2N3UkU5OWFkOWNyMWhCclcxNHdxaDFyRHg5ektEYkZ4TGh4T1ZBWWh3dE82ZXpOcmhHWl9yTEZha2IzNGNx?oc=5",
-          "published_at": "2025-01-22T08:00:00+00:00",
-          "snippet": "National Tribal Health Conclave 2025 under DhartiAabaJanjatiya Gram Utkarsh Abhiyan - Advancing Holistic Healthcare for Tribal Communities Press Information Bureau",
-          "lexical_overlap": 0.08,
-          "relevance": 0.2,
-          "matched_terms": [
-            "healthcare",
-            "tribal"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "health",
-            "healthcare",
-            "tribal"
-          ]
-        },
-        {
-          "id": "1d96af28330d105b17",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "Press Information Bureau",
-          "source_url": "https://www.pib.gov.in",
-          "title": "National Tribal Health Conclave 2025 under Dharti Aaba Janjatiya Gram Utkarsh Abhiyan - Advancing Holistic Healthcare for Tribal Communities - Press Information Bureau",
+          "title": "National Tribal Health Conclave 2025 under Dharti Aaba Janjatiya Gram Utkarsh Abhiyan - Advancing Holistic Healthcare for Tribal Communities - pib.gov.in",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9xcWtPRHRnQm1yNlM5bDVNTjhORjZFbGdfeVgwaC1hV3pJckxhTUFya2dJZE8yVE1pblhnVmZkUkgyM0VtWVg2Y091Q3BHRW5LVmVTUU5jck5mTjJhTHF3SC1ScGNBaVpxUlg0M2ZzenA?oc=5",
           "published_at": "2025-01-21T08:00:00+00:00",
-          "snippet": "National Tribal Health Conclave 2025 under Dharti Aaba Janjatiya Gram Utkarsh Abhiyan - Advancing Holistic Healthcare for Tribal Communities Press Information Bureau",
+          "snippet": "National Tribal Health Conclave 2025 under Dharti Aaba Janjatiya Gram Utkarsh Abhiyan - Advancing Holistic Healthcare for Tribal Communities pib.gov.in",
           "lexical_overlap": 0.077,
           "relevance": 0.197,
           "matched_terms": [
@@ -16404,6 +16401,30 @@
           "promise_core_overlap": [
             "approach",
             "elimination",
+            "tribal"
+          ]
+        },
+        {
+          "id": "3f1e2c66d556f536aa",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Frontiers",
+          "source_url": "https://www.frontiersin.org",
+          "title": "Malaria and malnutrition in tribal areas of India: implications for paediatric health - Frontiers",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWUFTXzZ1ODZwVUxTTXhGQjFLcm9GMFZDNmRYU0RwRW9Pak9ibkdwQkZVWG9EOUZhQ3J2czQxRFVvUm9IMk8wOXhxRTFXQWZIY2FXQ2pVSTlXS2g3dmFSdVJITHFFZjR6RXVUX0J1bkdteC1HY0F5c1dsSzlNby1lOHFMVTVlU3BsQTRVQ2tkX2RmYkpRSFE1NTl3?oc=5",
+          "published_at": "2025-05-13T07:00:00+00:00",
+          "snippet": "Malaria and malnutrition in tribal areas of India: implications for paediatric health Frontiers",
+          "lexical_overlap": 0.111,
+          "relevance": 0.181,
+          "matched_terms": [
+            "malnutrition",
+            "tribal"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "areas",
+            "health",
+            "malnutrition",
             "tribal"
           ]
         }
@@ -18384,7 +18405,7 @@
     },
     {
       "id": "f2ebb5fd1c626d0a64",
-      "checked_at": "2026-10-30T06:31:10.780995+00:00",
+      "checked_at": "2026-11-18T07:58:57.268582+00:00",
       "promise_id": "BJP-2024-624d03ea5c16f4e1f8",
       "year": 2024,
       "category": "other",
@@ -18407,6 +18428,28 @@
       "related_promises": [],
       "query": "globally recognised certification mechanism yoga ayurveda",
       "evidence": [
+        {
+          "id": "78eefbacc91287ad87",
+          "scope": "broad_official_search",
+          "tier": "primary",
+          "source": "Embassy of India, Buenos Aires, Argentina",
+          "source_url": "https://www.indembarg.gov.in",
+          "title": "Certification on IDY Common Yoga Protocol - Embassy of India, Buenos Aires, Argentina",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPblh2LWhTb2FlZGNvZGhTVWR6bjJBVzAtcFBmX3R6LWhXQ20td0UzWEpWMEhZMXNOM25hREJUbmVvRWszdzYxVzVrOVFESl9fcFBKTXhnVHhkTHFqVnVSbEtha0xraXdnWUxrU09oQzF4SzQ0ZE9ZVWJ6Q1lYaE1tdThn?oc=5",
+          "published_at": "2021-07-27T01:06:58+00:00",
+          "snippet": "Certification on IDY Common Yoga Protocol Embassy of India, Buenos Aires, Argentina",
+          "lexical_overlap": 0.143,
+          "relevance": 0.263,
+          "matched_terms": [
+            "certification",
+            "yoga"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "certification",
+            "yoga"
+          ]
+        },
         {
           "id": "50befadcb4f8c8f370",
           "scope": "preferred_official_search",
@@ -22829,7 +22872,7 @@
     },
     {
       "id": "a850056f360a74ccf4",
-      "checked_at": "2026-11-07T22:44:33.843569+00:00",
+      "checked_at": "2026-11-18T07:59:09.759763+00:00",
       "promise_id": "BJP-2024-7487313c21c6a9979d",
       "year": 2024,
       "category": "jobs_economy",
@@ -25227,7 +25270,7 @@
     },
     {
       "id": "3670a3464dd4243db5",
-      "checked_at": "2026-10-28T12:51:06.127583+00:00",
+      "checked_at": "2026-11-18T07:58:55.643138+00:00",
       "promise_id": "BJP-2024-5830e52423a342f405",
       "year": 2024,
       "category": "other",
@@ -28290,7 +28333,7 @@
     },
     {
       "id": "58d6d93bbb18507c54",
-      "checked_at": "2026-11-07T22:44:35.307800+00:00",
+      "checked_at": "2026-11-18T07:59:11.035914+00:00",
       "promise_id": "BJP-2024-7983f343e0ca238278",
       "year": 2024,
       "category": "security_defence",
@@ -28315,17 +28358,17 @@
       "query": "energy nuclear expanding expand component mix",
       "evidence": [
         {
-          "id": "7ccdb5fd7ca642dfbb",
+          "id": "6b930eaafbf853c6f2",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "PIB",
+          "source": "pib.gov.in",
           "source_url": "https://www.pib.gov.in",
-          "title": "PARLIAMENT QUESTION: PLANS FOR EXPANDING NUCLEAR POWER CAPACITY - PIB",
+          "title": "PARLIAMENT QUESTION: PLANS FOR EXPANDING NUCLEAR POWER CAPACITY - pib.gov.in",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9zSFA0TUE4RlJmS2R6bDdyekF0czN1Yy1IVWpPNzBKYnhBQzR1TkpVMkZtWlJYX3pRaFQwNE9ldXZBeEJCTl92aG05dkJzZTA3R201Nksyb3AwVjV3RTAyQUQxdjR3czlP?oc=5",
           "published_at": "2024-12-12T08:00:00+00:00",
-          "snippet": "PARLIAMENT QUESTION: PLANS FOR EXPANDING NUCLEAR POWER CAPACITY PIB",
-          "lexical_overlap": 0.111,
-          "relevance": 0.231,
+          "snippet": "PARLIAMENT QUESTION: PLANS FOR EXPANDING NUCLEAR POWER CAPACITY pib.gov.in",
+          "lexical_overlap": 0.105,
+          "relevance": 0.225,
           "matched_terms": [
             "expanding",
             "nuclear"
@@ -32799,7 +32842,7 @@
     },
     {
       "id": "dd9607f6ad8bde361d",
-      "checked_at": "2026-11-07T22:44:30.895325+00:00",
+      "checked_at": "2026-11-18T07:59:07.231409+00:00",
       "promise_id": "BJP-2024-714e22f47c05a87b9c",
       "year": 2024,
       "category": "technology_digital",
@@ -32822,7 +32865,52 @@
       "pdf_url": "https://www.bjp.org/files/inline-documents/Modi-Ki-Guarantee-Sankalp-Patra-English_0.pdf",
       "related_promises": [],
       "query": "undertake institutional reforms simplify processes using",
-      "evidence": [],
+      "evidence": [
+        {
+          "id": "2ae0fab75fdaaa8af7",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "www.pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Prime Minister Shri Narendra Modi addresses Post-Budget Webinar on “Technology Reforms and Finance for Viksit Bharat” - www.pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE83ZkEwWFBiMDVuemFhMkpOd0d3d1VsTUNlRDBQYU80dWRXLVQwR0FneHhtMkx1ZWlDa0NURTd0eWZuTFQyT0Y4OGVQaFRQdTVjZUV4VnFpZi1aN2M0ZWphWjB2ZDFGZGVZ?oc=5",
+          "published_at": "2026-02-27T08:00:00+00:00",
+          "snippet": "Prime Minister Shri Narendra Modi addresses Post-Budget Webinar on “Technology Reforms and Finance for Viksit Bharat” www.pib.gov.in",
+          "lexical_overlap": 0.095,
+          "relevance": 0.215,
+          "matched_terms": [
+            "reforms",
+            "technology"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "reforms",
+            "technology"
+          ]
+        },
+        {
+          "id": "396e3715138db1ce02",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "www.pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "DoSJE introduces Key Reforms and Digital Initiatives to Simplify Scholarship Access - www.pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE15ZklYQnprOHNabGtscjB2eGY0N1JQZlJpRjNxZlJ2ZHJYOUpETFFaRmpuMjVVeDFsNUZRT2l2cThtUE9jXzVRU3Fjc0RhUjJYNmI0bXBKd0RhQ1Y5WE9pa1ljMFBrM2s4X3FLTm13Y0F0VEMtQ2I1ckF3WQ?oc=5",
+          "published_at": "2026-06-19T07:00:00+00:00",
+          "snippet": "DoSJE introduces Key Reforms and Digital Initiatives to Simplify Scholarship Access www.pib.gov.in",
+          "lexical_overlap": 0.091,
+          "relevance": 0.211,
+          "matched_terms": [
+            "reforms",
+            "simplify"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "reforms",
+            "simplify"
+          ]
+        }
+      ],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -32838,7 +32926,7 @@
     },
     {
       "id": "56a2bb331eb4a6cc11",
-      "checked_at": "2026-11-07T22:44:32.652029+00:00",
+      "checked_at": "2026-11-18T07:59:08.753288+00:00",
       "promise_id": "BJP-2024-74392a1b409490ac51",
       "year": 2024,
       "category": "jobs_economy",
@@ -32907,17 +32995,39 @@
           ]
         },
         {
-          "id": "41bbc63f57d08f8652",
+          "id": "430144cb54e824a910",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "ANI News",
-          "source_url": "https://aninews.in",
-          "title": "AI integrated into government capacity building under iGOT Karmayogi: Jitendra Singh - ANI News",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOa29kOU44NGlJUVBNMVJZVTZ0VUNVdlc3cUxxTFhmUjJRNU9zM0I0VHJQTTZQcW9Rb3JGYlZzYWktSmNFNDB6N2tQQkJyVExOM3dJR1FRa2w0VThQNVZSUnQ3VXk4Q2hOaFVvNlkxZm95Z1Y2NXJrOUtoWnU2Q2ZZdUljbjZoUUV6MEh6RExsZm9xSlhYMDZYc3hBWTJrdEg5V0EyZ1FLWGo1UEdIejg0SENyY2RsMjNZdl93OUI5Um5iMml2MURCVDhSQQ?oc=5",
-          "published_at": "2026-01-08T08:00:00+00:00",
-          "snippet": "AI integrated into government capacity building under iGOT Karmayogi: Jitendra Singh ANI News",
-          "lexical_overlap": 0.1,
-          "relevance": 0.17,
+          "source": "IMPRI Impact and Policy Research Institute",
+          "source_url": "https://www.impriindia.com",
+          "title": "Mission Karmayogi: Civil Servants Capacity Building Program - IMPRI Impact and Policy Research Institute",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9BNmdsZXpCMFVVN0dUaEZmSGpTN3piZU5qR01oUjdueGp0ckRjeGdKMURkb2hucXVReU5ZdFM2Vk5CdzRXc1YyNmNEcHg3OEpwZ1h6X2kzZl9Vbi1HVTlGT3dhMVA?oc=5",
+          "published_at": "2023-01-10T08:00:00+00:00",
+          "snippet": "Mission Karmayogi: Civil Servants Capacity Building Program IMPRI Impact and Policy Research Institute",
+          "lexical_overlap": 0.091,
+          "relevance": 0.161,
+          "matched_terms": [
+            "building",
+            "capacity"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "building",
+            "capacity"
+          ]
+        },
+        {
+          "id": "b772b829decc5d0ad9",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "www.pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Sādhana Saptah 2026: India's Largest collaborative Capacity Building Initiative Begins on 2nd April - www.pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4wdlBBSDVIZDhsMHFORWZIZUtUUXd3TUNSdV94YV9LalN6elN2bS1oX3RqMXFDTWc3cjZXcF9mc3ozclRWZnY3QnFuX0NLMFlNaEFESnFiS2QtUm5ZcVRDdzdJbmpES09f?oc=5",
+          "published_at": "2026-03-31T07:00:00+00:00",
+          "snippet": "Sādhana Saptah 2026: India's Largest collaborative Capacity Building Initiative Begins on 2nd April www.pib.gov.in",
+          "lexical_overlap": 0.087,
+          "relevance": 0.157,
           "matched_terms": [
             "building",
             "capacity"
@@ -34718,7 +34828,7 @@
     },
     {
       "id": "f3ec796b655fc1acdb",
-      "checked_at": "2026-10-30T06:31:13.094105+00:00",
+      "checked_at": "2026-11-18T07:58:59.100258+00:00",
       "promise_id": "BJP-2024-651016faed4182476c",
       "year": 2024,
       "category": "health_welfare",
@@ -34741,6 +34851,29 @@
       "query": "strengthen network aiims quality healthcare",
       "evidence": [
         {
+          "id": "9568f3bb3cd156f413",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Digital Health News",
+          "source_url": "https://www.digitalhealthnews.com",
+          "title": "AIIMS Patna & SHS Bihar Sign MoU to Strengthen State Emergency Health Care Network - Digital Health News",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSWxnZnRqdjNxMlNaTnRtVVpFRDdjLWJ0YmM0ZnBLMFlsZmtHbmUxNE9YRnNUVDdzaDBoeGFJZzJoQm91SW1IX3c4d2ZZR25NWFRRSGYwX0poZzhEVGtKdHAzTmZKMWVDVkNDdHdnNFd4UWQ2dmJXREtzTEdNV0NicW5GWUpfMjZudXpuMDI1ekNET2FEV1VVOThXblRGRmpzRzZXV3hGbEg2T24xTkZTSDVZYTQ?oc=5",
+          "published_at": "2026-08-11T07:00:00+00:00",
+          "snippet": "AIIMS Patna & SHS Bihar Sign MoU to Strengthen State Emergency Health Care Network Digital Health News",
+          "lexical_overlap": 0.176,
+          "relevance": 0.281,
+          "matched_terms": [
+            "aiims",
+            "network",
+            "strengthen"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "aiims",
+            "network"
+          ]
+        },
+        {
           "id": "b15ab2dfc5d4cf612e",
           "scope": "news_search",
           "tier": "secondary",
@@ -34761,50 +34894,6 @@
             "aiims",
             "network"
           ]
-        },
-        {
-          "id": "eef26fe4e6aed724e6",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Outlook India",
-          "source_url": "https://www.outlookindia.com",
-          "title": "AIIMS Delhi Unites Network To Launch Pan-India Research Consortium - Outlook India",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNnZvS21TRFNOczBHVTZDWFJUNkJmcGgyNEhwemE4ZFdOMHRPVVpqWmdiNVp0YWF5b1F1S1d3Z0NjVXJ3WHBIM090OXF1enc0Si1JZlNwRUdDTGRkSGxDYVN0cnpCVDdPQU1JZk5tdlBpZHFLM1g2aFlmZmFCb2lzMEF1VEdTNllEbGllVUN4R3Q0ZGliS1ZfZzZoNUd5aUNGRWN6T2NVMllFUTdzbnpqZnpETE5qR28?oc=5",
-          "published_at": "2026-01-31T08:00:00+00:00",
-          "snippet": "AIIMS Delhi Unites Network To Launch Pan-India Research Consortium Outlook India",
-          "lexical_overlap": 0.154,
-          "relevance": 0.224,
-          "matched_terms": [
-            "aiims",
-            "network"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "aiims",
-            "network"
-          ]
-        },
-        {
-          "id": "9c27e038c2d45cab96",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Medical Dialogues",
-          "source_url": "https://medicaldialogues.in",
-          "title": "Delhi AIIMS Hosts SARANSH Workshop to Boost Evidence-Based Healthcare - Medical Dialogues",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNU21iNHQ4Wl9jNXh3bF83cHowamhYMjZEUXgtNW9HZ1JGQ0V1UlgwZUJTdHdyTjFWOTh5NHNGb3l5TWxZUFctWXZ4SWhpWkM2Q3BPYkZpV3hTWGptLS1zTF9IVGUzaVlKcUliXzc4d1JqdWhRNWNzTmFVQjNDWUFWZVdobm9CT29GZ0dfQnFCcjM1ZzlOdEU1eG13Sld1czBhbWhadzh5TnBmdnAyYmJlTVlrOTRmdFkzcWZ3ZkxIRm5kYmpmMGZEaTRYQ3ExN2Zmb2tV0gHYAUFVX3lxTE1DSXVRejVzREstdkdVNXBERU5pSkhwV2RDRl9pX1NVN05PcWZjRWJjR1JSQkJoMFpMU0Y2YUEyYTVkems2QnRwM0pKamZvMXhsdjJQckY2UUhrbUExVDRZbkFTYWNjRGFJbFNfWUppNzBmUXhOWXdWTGp2Vkg5QjBIVWppWl9hZ21saEVteVRTN3NORms0Z0J1U3dZYnNHYVVUUUdJY3ZwZUpHT0ctdTB1UmE2bEhsZ0hfcUtVTWVWUEJFVHpKTi1OUjZBd0pOMExsRElGU1M1Uw?oc=5",
-          "published_at": "2024-12-26T08:00:00+00:00",
-          "snippet": "Delhi AIIMS Hosts SARANSH Workshop to Boost Evidence-Based Healthcare Medical Dialogues",
-          "lexical_overlap": 0.143,
-          "relevance": 0.213,
-          "matched_terms": [
-            "aiims",
-            "healthcare"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "aiims",
-            "healthcare"
-          ]
         }
       ],
       "implementation_signal": "current_reporting_found",
@@ -34822,7 +34911,7 @@
     },
     {
       "id": "c00ee53c09d1e78a1c",
-      "checked_at": "2026-11-07T22:44:25.654400+00:00",
+      "checked_at": "2026-11-18T07:59:02.898079+00:00",
       "promise_id": "BJP-2024-6ae9d0766a138184f2",
       "year": 2024,
       "category": "other",
@@ -34847,17 +34936,17 @@
       "query": "trauma care emergency mission launching launch",
       "evidence": [
         {
-          "id": "19ac757a2232c3d9ad",
+          "id": "83765c3398395b6f29",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "pib.gov.in",
+          "source": "PIB",
           "source_url": "https://www.pib.gov.in",
-          "title": "Update on Financial Support for Critical Care and Emergency Centres - pib.gov.in",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA5VHJVY2tuSXdVQ2lYSm1waXJHSlB6RXYwV0thMjFHUTRvSWh0eXpmNFE3bjlpaXU2b01PRzJjOVJhOFVPMmhxX0VFbl9qdVE1SUh0di0zM3ZwYlR3SGZrVjJkT1hoa1pMOVB3RXBEWTg?oc=5",
-          "published_at": "2025-05-19T11:13:09+00:00",
-          "snippet": "Update on Financial Support for Critical Care and Emergency Centres pib.gov.in",
-          "lexical_overlap": 0.118,
-          "relevance": 0.238,
+          "title": "Update on Financial Support for Critical Care and Emergency Centres - PIB",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9uMVlyU0FkUm9ZMklyUHMtdkVRZVdKaDhuMU9qRWZVX3doaFFZLTFxQi1jSkgxOVBucWtiZDN1QUJWRlk1dGFHTlVpRE1SX2ZkaUlBZDZPZzNRWWRoUzZnVnl0enJhQkJT?oc=5",
+          "published_at": "2023-08-04T07:00:00+00:00",
+          "snippet": "Update on Financial Support for Critical Care and Emergency Centres PIB",
+          "lexical_overlap": 0.125,
+          "relevance": 0.245,
           "matched_terms": [
             "care",
             "emergency"
@@ -34869,17 +34958,17 @@
           ]
         },
         {
-          "id": "25b481464028823240",
+          "id": "19ac757a2232c3d9ad",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "Press Information Bureau",
+          "source": "pib.gov.in",
           "source_url": "https://www.pib.gov.in",
-          "title": "Update on Financial Support for Critical Care and Emergency Centres - Press Information Bureau",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9uMVlyU0FkUm9ZMklyUHMtdkVRZVdKaDhuMU9qRWZVX3doaFFZLTFxQi1jSkgxOVBucWtiZDN1QUJWRlk1dGFHTlVpRE1SX2ZkaUlBZDZPZzNRWWRoUzZnVnl0enJhQkJT?oc=5",
-          "published_at": "2023-08-04T07:00:00+00:00",
-          "snippet": "Update on Financial Support for Critical Care and Emergency Centres Press Information Bureau",
-          "lexical_overlap": 0.111,
-          "relevance": 0.231,
+          "title": "Update on Financial Support for Critical Care and Emergency Centres - pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA5VHJVY2tuSXdVQ2lYSm1waXJHSlB6RXYwV0thMjFHUTRvSWh0eXpmNFE3bjlpaXU2b01PRzJjOVJhOFVPMmhxX0VFbl9qdVE1SUh0di0zM3ZwYlR3SGZrVjJkT1hoa1pMOVB3RXBEWTg?oc=5",
+          "published_at": "2025-05-19T11:13:09+00:00",
+          "snippet": "Update on Financial Support for Critical Care and Emergency Centres pib.gov.in",
+          "lexical_overlap": 0.118,
+          "relevance": 0.238,
           "matched_terms": [
             "care",
             "emergency"
@@ -36365,7 +36454,7 @@
     },
     {
       "id": "ee021c9df9163414ed",
-      "checked_at": "2026-11-07T22:44:26.416924+00:00",
+      "checked_at": "2026-11-18T07:59:03.580069+00:00",
       "promise_id": "BJP-2024-6c42cab0fef7bcdf50",
       "year": 2024,
       "category": "jobs_economy",
@@ -39243,7 +39332,7 @@
     },
     {
       "id": "1ef58b1b4ebcd0fefe",
-      "checked_at": "2026-11-07T22:44:34.538851+00:00",
+      "checked_at": "2026-11-18T07:59:10.338108+00:00",
       "promise_id": "BJP-2024-77e66648d636c61a7c",
       "year": 2024,
       "category": "environment",
@@ -39293,41 +39382,18 @@
           ]
         },
         {
-          "id": "73ae3ef384e5451d74",
+          "id": "7a3d52b2e193d34e99",
           "scope": "preferred_official_search",
           "tier": "primary",
           "source": "www.pib.gov.in",
           "source_url": "https://www.pib.gov.in",
           "title": "PARLIAMENT QUESTION: IMPLEMENTATION OF MISSION MAUSAM - www.pib.gov.in",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5zd0tfZmNocmU5Z0tyNmc5Y3l3NURrVzZibmNPd0lQRUFMV1Y4eTNSREFHTWlKZ2xKUDZxd1g1RFByRzgwbEdib2dwRHQwOEI5NW1IRWtSY0FFa3htRkJUNkZIaFpZRmRi?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB3blhFazNPZVNmajFoX3JTSEs0cjgySy1aWWxpQ2RZS0JBczVPbnJMUEpmUmNUMzlvMFZvWjZZYjFWY3FCTTF4eFl0cjdsTnZRSENUY1psaWhkUHJkYlcxV0JqbFB5WDdxc1YxRW5jUXRnZmI5SkR5WndNYw?oc=5",
           "published_at": "2026-07-22T07:00:00+00:00",
           "snippet": "PARLIAMENT QUESTION: IMPLEMENTATION OF MISSION MAUSAM www.pib.gov.in",
           "lexical_overlap": 0.111,
           "relevance": 0.231,
           "matched_terms": [
-            "mausam",
-            "mission"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "mausam"
-          ]
-        },
-        {
-          "id": "d87a93148f9f9b3586",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Business Standard",
-          "source_url": "https://www.business-standard.com",
-          "title": "PM Modi to launch Mission Mausam on Jan 14 to make India more weather-ready - Business Standard",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORFZralRiSWZRb3kwMHY3dllvWThPdEdWbVU3b0tTdGxQbC1ZRWFuTjJwekpCU0Y0enBXOWRIeE5NZldHYVdaVGI3SnppSnhGaTkzcC13UVdoOUlDZnlYLXBxNmNIMl84WFA0REVLaUZ0V21TLVFnaGZYSTNNcUkzaGdaaWNhbVd6RjFBUG5yVGZMUExPejJmWmJ1YlZyTWdFRG9iY0NHRTdvX2lyZzdxVUdhanJvV1QwOTBfM2hhb0NpZ9IBxwFBVV95cUxQR2czamJqYjlhaU0wR0psT19mSVd5dXZxbUVQZUZaaHFyMFpLRUluWDNfblR4Z3BORDVDc3YxNjd3VFE3VC1SZGpZOWRLdWVLVGNMak94VUJReEhOSkpmMUs5ZUJodlF6Mzcxc05KTWthc1k1bnY5RnhrM1Y4dEU5RHY4UE13THVJaFQ1VHlfT1hvbmpFUzBVWWtJR0UtaEZ1LUxPSjBMcnNuTWo3T0V4WUZvbHVPbVNiMWMwcGU0UDVJazBRZ1Z3?oc=5",
-          "published_at": "2025-01-14T08:00:00+00:00",
-          "snippet": "PM Modi to launch Mission Mausam on Jan 14 to make India more weather-ready Business Standard",
-          "lexical_overlap": 0.235,
-          "relevance": 0.375,
-          "matched_terms": [
-            "launch",
-            "make",
             "mausam",
             "mission"
           ],
@@ -39360,17 +39426,40 @@
           ]
         },
         {
-          "id": "47583213dc6469e1ce",
+          "id": "cbe02ef8859bda6d5d",
           "scope": "news_search",
           "tier": "secondary",
-          "source": "INSIGHTS IAS",
-          "source_url": "https://www.insightsonindia.com",
-          "title": "Mission Mausam - INSIGHTS IAS",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBwZnZnQXFsZmVSZW91MVZHYzA2RDVfOHN5UEVGWHFKckgxckpDZWZUaUJadW5meVN4X3RmOFItLWh5SWpWQjZ4ZUNjQk5PTGg5NFVubzVwdjFYSlhXb3dXczBaWlpDSGR5SkFoQg?oc=5",
-          "published_at": "2025-01-14T08:00:00+00:00",
-          "snippet": "Mission Mausam INSIGHTS IAS",
-          "lexical_overlap": 0.143,
-          "relevance": 0.213,
+          "source": "www.pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "IITM Inaugurates X-Band Doppler Weather Radar at Mahabaleshwar; Signs MoU with ISRO’s SAC under Mission Mausam - www.pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9lN2ZSTFFYR2l1MUs1Q3dFYmJTcWJMMFlXcDlhdGV5ZGFrTy1yczFybzVJMmhHN2NUMERqSzdaUGo4bUF0OGhsWGhYSVJfNzBINDlWalpLX2tKOFFFSUZwdkFKbFpoTU9V?oc=5",
+          "published_at": "2026-04-26T07:00:00+00:00",
+          "snippet": "IITM Inaugurates X-Band Doppler Weather Radar at Mahabaleshwar; Signs MoU with ISRO’s SAC under Mission Mausam www.pib.gov.in",
+          "lexical_overlap": 0.12,
+          "relevance": 0.225,
+          "matched_terms": [
+            "mausam",
+            "mission",
+            "weather"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "mausam",
+            "weather"
+          ]
+        },
+        {
+          "id": "7524db852d8a95c44c",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "GK Today",
+          "source_url": "https://www.gktoday.in",
+          "title": "Mission Mausam Urban Testbed Launched - GK Today",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1xNTR2TVVLVE55WjRyc2hwM292QWtFOGZpTnVZZjBEdjVCSDZpVF8yN2YwSURHNHAwVnVvVXp1WDlyNWVFQ0ZVdVhTSnFnNHlLWmRKOF91Qks1d0dCdjdSWWpBM1NpUUtEWjZiWUhn?oc=5",
+          "published_at": "2026-05-06T07:00:00+00:00",
+          "snippet": "Mission Mausam Urban Testbed Launched GK Today",
+          "lexical_overlap": 0.125,
+          "relevance": 0.195,
           "matched_terms": [
             "mausam",
             "mission"
@@ -41415,7 +41504,7 @@
     },
     {
       "id": "0e847e65416503d6f8",
-      "checked_at": "2026-11-07T22:44:37.195038+00:00",
+      "checked_at": "2026-11-18T07:59:12.610696+00:00",
       "promise_id": "BJP-2024-7b8eeb12539139f84a",
       "year": 2024,
       "category": "environment",
@@ -41440,32 +41529,6 @@
       "query": "green launch aravalli project corridor protect",
       "evidence": [
         {
-          "id": "035e6822a0282fa518",
-          "scope": "broad_official_search",
-          "tier": "primary",
-          "source": "News On AIR",
-          "source_url": "https://newsonair.gov.in",
-          "title": "SC ruling endorses Govt’s sustained efforts to protect Aravalli Range through Green Wall Project: Environment Minister Bhupender Yadav | Akashvani News - News On AIR",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTXVqOWVtdFhpYS1MZDYxbFhOSDNUa3BqaEFxc1J3aXB3UjQ4OEY4WVhFT2NiZGhtbE45WUlXQWhNWUtTZTdZc3JYWTBPNlhYSm5vU1pDVHdpOGJ3NnpIby1lN2pBSWFzeVE4cUo1NmFiMUFiRTZJMUxCODU5bzJZZ1h2dFpCRW9LTEE1Q0VpaWpzRlg0bnBhbG5ldFFJdTZqeWJkRHlGaFJmUWdEWGhtNlgxWVNiaFFqRVBFdDluX2lnN00?oc=5",
-          "published_at": "2026-05-26T20:36:50+00:00",
-          "snippet": "SC ruling endorses Govt’s sustained efforts to protect Aravalli Range through Green Wall Project: Environment Minister Bhupender Yadav | Akashvani News News On AIR",
-          "lexical_overlap": 0.174,
-          "relevance": 0.364,
-          "matched_terms": [
-            "aravalli",
-            "green",
-            "project",
-            "protect"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "aravalli",
-            "green",
-            "project",
-            "protect"
-          ]
-        },
-        {
           "id": "50d23c33a4c65e3ce9",
           "scope": "preferred_official_search",
           "tier": "primary",
@@ -41477,6 +41540,30 @@
           "snippet": "Shri Bhupender Yadav launches Aravalli Green Wall Project, a major initiative to green 5 km buffer area around the Aravalli Hill Range in four states www.pib.gov.in",
           "lexical_overlap": 0.125,
           "relevance": 0.28,
+          "matched_terms": [
+            "aravalli",
+            "green",
+            "project"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "aravalli",
+            "green",
+            "project"
+          ]
+        },
+        {
+          "id": "1f0c33ffb99190ae94",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "AffairsCloud",
+          "source_url": "https://affairscloud.com",
+          "title": "Union Forest Minister Bhupender Yadav launched Aravalli Green Wall Project - AffairsCloud",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQS1hfOHpEcUhyOEpDdXdwaDJJUlFHZG5qMUpPcTV0amJVbjFXZUNfSkpmVU9EWTVWcjdwTEJPcmxJV3FyX2VvOUpZNFJHZm85eTl4YW5zQm84U3gzTXUzVWluekZ3SXFJc0ZCR3gwYWhKOEFjcVNwZzZudWl0UUlScXhuLVhycG1CblVGUXR6dTg4UXRUcU9JSUpWX2pJR3BGX3c?oc=5",
+          "published_at": "2023-03-27T07:00:00+00:00",
+          "snippet": "Union Forest Minister Bhupender Yadav launched Aravalli Green Wall Project AffairsCloud",
+          "lexical_overlap": 0.167,
+          "relevance": 0.272,
           "matched_terms": [
             "aravalli",
             "green",
@@ -41557,29 +41644,6 @@
           "promise_core_overlap": [
             "combat",
             "desertification",
-            "project"
-          ]
-        },
-        {
-          "id": "e0e28903240eae31a5",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Hindustan Times",
-          "source_url": "https://www.hindustantimes.com",
-          "title": "Govt to soon launch Green Wall project to save exploited Aravallis | India News - Hindustan Times",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONzkzWTd0aDZsM1V5WDZfeG5CODM4cDNQS1ZEanVRdHVtX3l1WFdqOXd4SjUxOXduR09iVGpYZm5TZndPRXA5bGc5TTc5Z1hfbG9MeWhyOHlaTXgxREUtQW93cXl4alpTemFFRWVZVkZYeHA3bXNWMno5WVpyMnA4d0ZxZGhWUi1teUJJeHplU1AwUGxUanlzRlNEcndZVXN3bXlfTWd1azN6eURYWElINV95VlNFVU9fQTdSLWt6aVhETUF1UjlhQtIBzgFBVV95cUxOZWFuUmdaTHZPSUVDeU9BcFlCc1R4M2xxNERIWDI4SHNrUjRJa01KZmlpYUhIMU1ISUt5NHR0d1FpZklPUUJMbVRKREZINTFjdWJsZ19IbFg0Zm5tNXV4Wm56M2F1SjNid0F6NldweWNYZHpZZjRnMmRhSTFsay1KbHROanZiZ2JMakVNMmw3VWJNMUEwOGdNNU9vVFNQOE5LMmNYR2xrVXZXeHQyZm1TSDJ0SFptTUx5d203aVJqd1I0TVkyWTlfcmU1dFptUQ?oc=5",
-          "published_at": "2025-06-04T07:00:00+00:00",
-          "snippet": "Govt to soon launch Green Wall project to save exploited Aravallis | India News Hindustan Times",
-          "lexical_overlap": 0.15,
-          "relevance": 0.255,
-          "matched_terms": [
-            "green",
-            "launch",
-            "project"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "green",
             "project"
           ]
         },
@@ -45531,7 +45595,7 @@
     },
     {
       "id": "0764c49dce738dbbee",
-      "checked_at": "2026-11-18T04:16:57.045604+00:00",
+      "checked_at": "2026-11-18T07:58:36.268130+00:00",
       "promise_id": "BJP-2019-18c0750d5ed71bc3d1",
       "year": 2019,
       "category": "agriculture",
@@ -46932,7 +46996,7 @@
     },
     {
       "id": "f5811520c1d5623f19",
-      "checked_at": "2026-11-18T04:16:58.913525+00:00",
+      "checked_at": "2026-11-18T07:58:37.918580+00:00",
       "promise_id": "BJP-2019-1d3e95fa9344e842f3",
       "year": 2019,
       "category": "infrastructure",
@@ -47053,7 +47117,7 @@
     },
     {
       "id": "92d6920a15fb42f812",
-      "checked_at": "2026-11-18T04:17:13.082901+00:00",
+      "checked_at": "2026-11-18T07:58:50.625238+00:00",
       "promise_id": "BJP-2019-6abf03adda773fec98",
       "year": 2019,
       "category": "governance",
@@ -50433,7 +50497,7 @@
     },
     {
       "id": "1e0abc9f94016f3c7a",
-      "checked_at": "2026-11-18T04:17:00.394972+00:00",
+      "checked_at": "2026-11-18T07:58:39.265300+00:00",
       "promise_id": "BJP-2019-2af396deaf778cac73",
       "year": 2019,
       "category": "infrastructure",
@@ -50518,7 +50582,7 @@
     },
     {
       "id": "4af70c5cc4e5dd31ea",
-      "checked_at": "2026-11-18T04:17:04.984861+00:00",
+      "checked_at": "2026-11-18T07:58:43.553147+00:00",
       "promise_id": "BJP-2019-34c03859f07f1329c5",
       "year": 2019,
       "category": "infrastructure",
@@ -50608,6 +50672,30 @@
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
+            "dedicated",
+            "freight"
+          ]
+        },
+        {
+          "id": "36151813d5768670f4",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "IMPRI Impact and Policy Research Institute",
+          "source_url": "https://www.impriindia.com",
+          "title": "Dedicated Freight Corridor: What A Decade Of Rail Investment Achieved - IMPRI Impact and Policy Research Institute",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOTUpYVnJZMFppdTNaZE13Qm9Xajhxc290akloNklFbEpkTGtCdDZCblV6X0dCejczZlpaVTB1SmRaS1AwZGlSOFJXalpnRlVEcEoxSGt0bTVxQWc0X3JkOHhGQjg2c2RwNkxkcTlfeWpxQ2dfN1AyM09iNzU3Y0ctNlhtczJselRxSmJKMGtkX3Vpdm1WeVYtZWp5b3JuSWtMRXBiX2U0N2RNQU1mRWlRUUNfeS1uSnY1N2ppTlRlM0dRYzVCeDRETkYwaTVsYXF2SGdhaHRPWWpTcGVmOUExVUdQOEpEbHFhYXFIbTB1WTV2XzA5dEdOVC0yQmJTUVE?oc=5",
+          "published_at": "2026-08-09T07:00:00+00:00",
+          "snippet": "Dedicated Freight Corridor: What A Decade Of Rail Investment Achieved IMPRI Impact and Policy Research Institute",
+          "lexical_overlap": 0.176,
+          "relevance": 0.281,
+          "matched_terms": [
+            "corridor",
+            "dedicated",
+            "freight"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "corridor",
             "dedicated",
             "freight"
           ]
@@ -52596,7 +52684,7 @@
     },
     {
       "id": "93bb9754ab7125c8f1",
-      "checked_at": "2026-11-18T04:17:09.243631+00:00",
+      "checked_at": "2026-11-18T07:58:47.142114+00:00",
       "promise_id": "BJP-2019-6013bbae5c9fbd8c5a",
       "year": 2019,
       "category": "women_social_justice",
@@ -52660,7 +52748,7 @@
     },
     {
       "id": "1d1782ad81aa54afcd",
-      "checked_at": "2026-11-18T04:17:11.205275+00:00",
+      "checked_at": "2026-11-18T07:58:48.911707+00:00",
       "promise_id": "BJP-2019-63e2ccda189fa85e2c",
       "year": 2019,
       "category": "health_welfare",
@@ -57712,7 +57800,7 @@
     },
     {
       "id": "21c782a6ad2ecb8987",
-      "checked_at": "2026-11-18T04:17:02.782230+00:00",
+      "checked_at": "2026-11-18T07:58:41.528339+00:00",
       "promise_id": "BJP-2019-2cfa1375f165d41707",
       "year": 2019,
       "category": "other",
@@ -58949,7 +59037,7 @@
     },
     {
       "id": "09db92a7679f9e887b",
-      "checked_at": "2026-11-18T04:17:06.994848+00:00",
+      "checked_at": "2026-11-18T07:58:45.261109+00:00",
       "promise_id": "BJP-2019-4fc8289de8caed52ff",
       "year": 2019,
       "category": "other",
@@ -64318,7 +64406,7 @@
     },
     {
       "id": "df076e7dea8ba67624",
-      "checked_at": "2026-11-18T04:17:15.336832+00:00",
+      "checked_at": "2026-11-18T07:58:52.540230+00:00",
       "promise_id": "BJP-2014-078252941779345656",
       "year": 2014,
       "category": "women_social_justice",
@@ -75574,18 +75662,7 @@
       }
     }
   ],
-  "errors": [
-    {
-      "stage": "promise_evidence_search",
-      "promise_id": "BJP-2024-0a109d22735e55e102",
-      "error": "HTTPError"
-    },
-    {
-      "stage": "promise_evidence_search",
-      "promise_id": "BJP-2024-0b2632cde2e6fd7988",
-      "error": "HTTPError"
-    }
-  ],
+  "errors": [],
   "notes": [
     "Evidence candidates are not verdicts.",
     "Official-search results are discarded unless they share substantive terms or numeric values with the claim.",
