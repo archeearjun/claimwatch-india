@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T07:59:07.342933+00:00",
+  "generated_at": "2026-11-19T13:00:43.806975+00:00",
   "capabilities": {
     "official_evidence_search": true,
     "verified_primary_gate": true,
@@ -16,8 +16,8 @@
     "promise_checked_this_run": 30,
     "promise_total_candidates": 841,
     "promise_coverage_pct": 101.3,
-    "primary_candidates": 708,
-    "secondary_candidates": 962,
+    "primary_candidates": 696,
+    "secondary_candidates": 959,
     "prior_fact_checks": 0,
     "publishable_auto_verdicts": 0,
     "claim_verdicts": {
@@ -45833,8 +45833,8 @@
       }
     },
     {
-      "id": "0764c49dce738dbbee",
-      "checked_at": "2026-11-19T07:58:28.944871+00:00",
+      "id": "05e0979e7f32ba2f72",
+      "checked_at": "2026-11-19T13:00:05.418486+00:00",
       "promise_id": "BJP-2019-18c0750d5ed71bc3d1",
       "year": 2019,
       "category": "agriculture",
@@ -45860,7 +45860,7 @@
       "source_url": "https://library.bjp.org/jspui/handle/123456789/2988",
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/2988/1/BJP-Election-english-2019.pdf",
       "related_promises": [],
-      "query": "2022 10000 enable creation farmer producer organisations fpos",
+      "query": "10000 2022 enable creation farmer producer organisations fpos",
       "evidence": [
         {
           "id": "7ba7b3f4350246031a",
@@ -45885,6 +45885,32 @@
             "farmer",
             "fpos",
             "organisations",
+            "producer"
+          ]
+        },
+        {
+          "id": "dba727db7d57724f4c",
+          "scope": "preferred_official_search",
+          "tier": "primary",
+          "source": "www.pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "CCEA approves scheme for \"Formation and Promotion of Farmer Producer Organizations (FPOs) \" to form and promote 10,000 new FPOs - www.pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Bc1hqeloxbmtHbVBFbUpZOWJ6d0QzZ1hWRnpSWWNpcnh5WksxN3djeXNVZ3Q5OHNHbXNQVXc5QUVMQ2NWdFFyaHNiWE1NcjA0ZkxfMmk5VXRCMzI0TV9QTFpCZmVnbjd6?oc=5",
+          "published_at": "2020-02-19T08:00:00+00:00",
+          "snippet": "CCEA approves scheme for \"Formation and Promotion of Farmer Producer Organizations (FPOs) \" to form and promote 10,000 new FPOs www.pib.gov.in",
+          "lexical_overlap": 0.13,
+          "relevance": 0.395,
+          "matched_terms": [
+            "farmer",
+            "fpos",
+            "producer"
+          ],
+          "shared_numbers": [
+            "10000"
+          ],
+          "promise_core_overlap": [
+            "farmer",
+            "fpos",
             "producer"
           ]
         },
@@ -45957,6 +45983,30 @@
           ]
         },
         {
+          "id": "531ed5a861c168b322",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "Outlook India",
+          "source_url": "https://www.outlookindia.com",
+          "title": "Farmer Producer Organization Scheme A Path To Farmers’ Prosperity - Outlook India",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMVpLQmxEZW5udS1scVRES3BVcEduZnhJaEdLcU1HY2hKWndwZ0g1dWpIRl9PRHdPaVQ5c2RFaV9PTVZ6akw3NGpnYjNudkwxaEJuOG81VlFJdVZ1emkzbTN0NXFlMHpnRlhqZHlTcFhjd21Ba1cxQWtoOVBGVTBkUy05bjFqSkhKOEI0SFhHeG9YSjQwT3lfNVNwNWRKVjN2Wl9rSEgyQWlXY1BCbzVMQll2eUNGMkZm0gHGAUFVX3lxTE16WE9xMW1VUnQzRmR2VGd0OWFPX2Q1RFN4S3ZWd2duMXBOdExXeWlzSXByV05JNmE5WWEzZnFBb1hzOFduZ0R5OXhsZko1N1JhclpXNlpVQ21QZFR0THFTdkVCc1B3ZHBJRFFWMU8wTzlOMDNOTjcxQVVNOWFsT3A2RXc0NzdYX3dBaFBmV0hsSlhsc2YxdWlhMHE2SFM5RTc4TU9xRGhTeWtWUW1wV3IwZ1hiTkJtQU1ZN3RVcUlZeDFXMlM4Zw?oc=5",
+          "published_at": "2024-01-16T08:00:00+00:00",
+          "snippet": "Farmer Producer Organization Scheme A Path To Farmers’ Prosperity Outlook India",
+          "lexical_overlap": 0.176,
+          "relevance": 0.281,
+          "matched_terms": [
+            "farmer",
+            "farmers",
+            "producer"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "farmer",
+            "farmers",
+            "producer"
+          ]
+        },
+        {
           "id": "fc3b91799c1f44e794",
           "scope": "news_search",
           "tier": "secondary",
@@ -46001,7 +46051,7 @@
           ]
         }
       ],
-      "implementation_signal": "current_primary_evidence_found",
+      "implementation_signal": "current_primary_and_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -47278,7 +47328,7 @@
     },
     {
       "id": "f5811520c1d5623f19",
-      "checked_at": "2026-11-19T07:58:30.669354+00:00",
+      "checked_at": "2026-11-19T13:00:07.423190+00:00",
       "promise_id": "BJP-2019-1d3e95fa9344e842f3",
       "year": 2019,
       "category": "infrastructure",
@@ -47399,7 +47449,7 @@
     },
     {
       "id": "92d6920a15fb42f812",
-      "checked_at": "2026-11-19T07:58:43.864914+00:00",
+      "checked_at": "2026-11-19T13:00:21.398327+00:00",
       "promise_id": "BJP-2019-6abf03adda773fec98",
       "year": 2019,
       "category": "governance",
@@ -47426,31 +47476,9 @@
       "query": "2022 every gram panchayat connected high speed",
       "evidence": [
         {
-          "id": "5dc320f75911428cc2",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "www.pib.gov.in",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Release of Panchayat Advancement Index (PAI) 2022-23 - www.pib.gov.in",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE91OTJpU3p0RGViS28wWnFyQzF0WWxNelhfeUc0TUE2cXhrcTlGZGllaFN3YkhvbFp5aGJpRlJJN1VxT2Q5U1N1bGJ2MHNIQlg5WmU1TGNZdWplT1d2NndJaTBZU0V6Ym56NU5Tdl9VVkY?oc=5",
-          "published_at": "2025-04-09T07:00:00+00:00",
-          "snippet": "Release of Panchayat Advancement Index (PAI) 2022-23 www.pib.gov.in",
-          "lexical_overlap": 0.059,
-          "relevance": 0.254,
-          "matched_terms": [
-            "panchayat"
-          ],
-          "shared_numbers": [
-            "2022"
-          ],
-          "promise_core_overlap": [
-            "panchayat"
-          ]
-        },
-        {
-          "id": "ec146c5b1ff7a5532d",
-          "scope": "preferred_official_search",
-          "tier": "primary",
+          "id": "02cd845956f3482bd9",
+          "scope": "news_search",
+          "tier": "secondary",
           "source": "PIB",
           "source_url": "https://www.pib.gov.in",
           "title": "Evidence-Based Rural Development Gets a Push with Rollout of First-Ever Panchayat Advancement Index (PAI) Baseline Report for FY 2022-23 - PIB",
@@ -47458,7 +47486,7 @@
           "published_at": "2025-04-09T07:00:00+00:00",
           "snippet": "Evidence-Based Rural Development Gets a Push with Rollout of First-Ever Panchayat Advancement Index (PAI) Baseline Report for FY 2022-23 PIB",
           "lexical_overlap": 0.042,
-          "relevance": 0.237,
+          "relevance": 0.187,
           "matched_terms": [
             "panchayat"
           ],
@@ -50779,7 +50807,7 @@
     },
     {
       "id": "1e0abc9f94016f3c7a",
-      "checked_at": "2026-11-19T07:58:31.980548+00:00",
+      "checked_at": "2026-11-19T13:00:09.037816+00:00",
       "promise_id": "BJP-2019-2af396deaf778cac73",
       "year": 2019,
       "category": "infrastructure",
@@ -50864,7 +50892,7 @@
     },
     {
       "id": "4af70c5cc4e5dd31ea",
-      "checked_at": "2026-11-19T07:58:36.400053+00:00",
+      "checked_at": "2026-11-19T13:00:13.806654+00:00",
       "promise_id": "BJP-2019-34c03859f07f1329c5",
       "year": 2019,
       "category": "infrastructure",
@@ -52942,7 +52970,7 @@
     },
     {
       "id": "93bb9754ab7125c8f1",
-      "checked_at": "2026-11-19T07:58:40.390034+00:00",
+      "checked_at": "2026-11-19T13:00:17.856358+00:00",
       "promise_id": "BJP-2019-6013bbae5c9fbd8c5a",
       "year": 2019,
       "category": "women_social_justice",
@@ -52983,7 +53011,7 @@
     },
     {
       "id": "1d1782ad81aa54afcd",
-      "checked_at": "2026-11-19T07:58:42.170528+00:00",
+      "checked_at": "2026-11-19T13:00:19.834494+00:00",
       "promise_id": "BJP-2019-63e2ccda189fa85e2c",
       "year": 2019,
       "category": "health_welfare",
@@ -58138,7 +58166,7 @@
     },
     {
       "id": "21c782a6ad2ecb8987",
-      "checked_at": "2026-11-19T07:58:34.269112+00:00",
+      "checked_at": "2026-11-19T13:00:11.482658+00:00",
       "promise_id": "BJP-2019-2cfa1375f165d41707",
       "year": 2019,
       "category": "other",
@@ -59375,7 +59403,7 @@
     },
     {
       "id": "09db92a7679f9e887b",
-      "checked_at": "2026-11-19T07:58:38.207603+00:00",
+      "checked_at": "2026-11-19T13:00:15.693843+00:00",
       "promise_id": "BJP-2019-4fc8289de8caed52ff",
       "year": 2019,
       "category": "other",
@@ -62199,7 +62227,7 @@
     },
     {
       "id": "92f4f289aa6bff6bae",
-      "checked_at": "2026-11-16T02:02:33.363318+00:00",
+      "checked_at": "2026-11-19T13:00:42.719155+00:00",
       "promise_id": "BJP-2014-57d26610af4e3fb2a1",
       "year": 2014,
       "category": "women_social_justice",
@@ -63454,7 +63482,7 @@
     },
     {
       "id": "6cf3b00187410c85f6",
-      "checked_at": "2026-11-16T02:02:22.509490+00:00",
+      "checked_at": "2026-11-19T13:00:31.256825+00:00",
       "promise_id": "BJP-2014-39b45e31e6a626afad",
       "year": 2014,
       "category": "other",
@@ -63491,7 +63519,7 @@
     },
     {
       "id": "4b09958de42662f9eb",
-      "checked_at": "2026-11-16T02:02:30.987567+00:00",
+      "checked_at": "2026-11-19T13:00:40.017270+00:00",
       "promise_id": "BJP-2014-4e29817d170c4c4929",
       "year": 2014,
       "category": "other",
@@ -64050,7 +64078,7 @@
     },
     {
       "id": "2af8e50642d7e29104",
-      "checked_at": "2026-11-16T02:02:18.803804+00:00",
+      "checked_at": "2026-11-19T13:00:27.566231+00:00",
       "promise_id": "BJP-2014-2bbc02742af2126362",
       "year": 2014,
       "category": "environment",
@@ -64858,7 +64886,7 @@
     },
     {
       "id": "df076e7dea8ba67624",
-      "checked_at": "2026-11-19T07:58:45.923613+00:00",
+      "checked_at": "2026-11-19T13:00:22.306155+00:00",
       "promise_id": "BJP-2014-078252941779345656",
       "year": 2014,
       "category": "women_social_justice",
@@ -64883,106 +64911,7 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/252/1/bjp_lection_manifesto_english_2014.pdf",
       "related_promises": [],
       "query": "next five courts cases arbitration judiciary",
-      "evidence": [
-        {
-          "id": "75f1d1d5c979f72711",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "pib.gov.in",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Settling of cases through Lok Adalat and Arbitration - pib.gov.in",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBydDk5YjZVVjM1ck4zS2FWQWw1Z3gwWnIwckxFcWtOZDhEU0xYMTEtT3gwMGFmVE1SdW82ck9BZ3Vvd2Rlakg3aFdKM1pkUklfZ3JFVzU3OWtITVVTX2FqZ0xVeVN6UjV5?oc=5",
-          "published_at": "2022-08-04T07:00:00+00:00",
-          "snippet": "Settling of cases through Lok Adalat and Arbitration pib.gov.in",
-          "lexical_overlap": 0.188,
-          "relevance": 0.342,
-          "matched_terms": [
-            "arbitration",
-            "cases",
-            "lok"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": []
-        },
-        {
-          "id": "028f4e7c6c9f4685f5",
-          "scope": "broad_official_search",
-          "tier": "primary",
-          "source": "eCourt India High Courts Services",
-          "source_url": "https://hcservices.ecourts.gov.in",
-          "title": "Case Status : Search by Case Number - eCourt India High Courts Services",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQ1BtbUZBeTd5UHFsV0dxeTRtMy00MjdBcllJRm1vUko0Slo0cXJoazJSTzdsMW5GYjZta01iU1ZnTnRycC1XckFIVXhzOGRQbS1SckVNRXNsVFFTNktfek1KRy1jb2lKQzFlMVRzN1JES1o3WWE5NjUwaWlKcUNNRmRROFkwVHBxTWtFSFBlbnl3ME42Z3pqdGhySHN4T05adFM5X0NlVFZSWktJWG5UUUxmYVREbTI2UmJxLS1Jam1HUQ?oc=5",
-          "published_at": "2026-01-02T08:00:00+00:00",
-          "snippet": "Case Status : Search by Case Number eCourt India High Courts Services",
-          "lexical_overlap": 0.111,
-          "relevance": 0.231,
-          "matched_terms": [
-            "courts",
-            "number"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "courts"
-          ]
-        },
-        {
-          "id": "9ad7ac893d1adf52b6",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Supreme Court Observer",
-          "source_url": "https://www.scobserver.in",
-          "title": "Supreme Court Review 2023: Arbitration - Supreme Court Observer",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1NdGpLWGNJeDRKVGZ4RXprNzN0N0x3ZWNCcURQVlhIVzNPb1JkYVBUTkptVXB5QVBqZ0V3VlJRUm1Nc3laVnM3dENnakcwc2xLc1BJZHIxc1g1R3AwQ0l3cnIzUFpRRTFBTHFwcHNGM3lfTS1NOXNNTFBoZ0c?oc=5",
-          "published_at": "2023-12-27T08:00:00+00:00",
-          "snippet": "Supreme Court Review 2023: Arbitration Supreme Court Observer",
-          "lexical_overlap": 0.133,
-          "relevance": 0.203,
-          "matched_terms": [
-            "arbitration",
-            "review"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": []
-        },
-        {
-          "id": "0f2455757fd1e1d73a",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Supreme Court Observer",
-          "source_url": "https://www.scobserver.in",
-          "title": "2025 Supreme Court Half-Yearly Review: Arbitration - Supreme Court Observer",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQM0FEQVFYNUdFRENuakRWa3lWRXFDTVdIa1RFeS1KTFlUZVpCVnNIcllQbDcyT1hDZUZrN08wWUNTSHRxU3g2a2Frd0s4THA1YnVMaUk5QlNDbEtCdzNYVURqYlJFdmNGWFpCN2lIaFl3eFYtMDdtbHlzanNhc25adDYtR01IdlBGc253Tg?oc=5",
-          "published_at": "2025-07-11T07:00:00+00:00",
-          "snippet": "2025 Supreme Court Half-Yearly Review: Arbitration Supreme Court Observer",
-          "lexical_overlap": 0.125,
-          "relevance": 0.195,
-          "matched_terms": [
-            "arbitration",
-            "review"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": []
-        },
-        {
-          "id": "b1c00a883cde81cad8",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "Supreme Court Observer",
-          "source_url": "https://www.scobserver.in",
-          "title": "Supreme Court Review 2025: Arbitration and the limits of judicial repair - Supreme Court Observer",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdnVNc21iUGMzcGoycTQ0N2hhS0wzbE90RkpGdndjMEJtX1ZJS1pza29SWmJPbmFudG5kRmJ4QjJ0Z21LanhRN3d5eDl1a3pabDB4bXpvem5VSURMMVNmcWctb29KQ1V3VGxXVmlGdzY3MWxRV3NoSDlubkNHNWRxVFdqWFdwUDVLVHNJVURxbHNSc0c4OW1iNFYwamdyOUdXdkk1YmQ4VDZ4QQ?oc=5",
-          "published_at": "2026-01-17T08:00:00+00:00",
-          "snippet": "Supreme Court Review 2025: Arbitration and the limits of judicial repair Supreme Court Observer",
-          "lexical_overlap": 0.111,
-          "relevance": 0.181,
-          "matched_terms": [
-            "arbitration",
-            "review"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": []
-        }
-      ],
+      "evidence": [],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -65221,7 +65150,7 @@
     },
     {
       "id": "9ab7cec20b37b6138e",
-      "checked_at": "2026-11-16T02:02:15.321078+00:00",
+      "checked_at": "2026-11-19T13:00:24.746447+00:00",
       "promise_id": "BJP-2014-25aa0b747c820e5b93",
       "year": 2014,
       "category": "other",
@@ -65503,7 +65432,7 @@
     },
     {
       "id": "4b0325d3a7148fa2b3",
-      "checked_at": "2026-11-16T02:02:32.112673+00:00",
+      "checked_at": "2026-11-19T13:00:41.402035+00:00",
       "promise_id": "BJP-2014-57bcf542e13c9c5e0a",
       "year": 2014,
       "category": "infrastructure",
@@ -65805,7 +65734,7 @@
     },
     {
       "id": "70f6c9ead8522dd4c1",
-      "checked_at": "2026-11-16T02:02:16.244855+00:00",
+      "checked_at": "2026-11-19T13:00:25.276747+00:00",
       "promise_id": "BJP-2014-277f1c4467efd095c2",
       "year": 2014,
       "category": "infrastructure",
@@ -65844,7 +65773,7 @@
     },
     {
       "id": "f7ce14e7ee8c0d12fa",
-      "checked_at": "2026-11-16T02:02:23.230352+00:00",
+      "checked_at": "2026-11-19T13:00:32.132261+00:00",
       "promise_id": "BJP-2014-3f4fa713d92720d659",
       "year": 2014,
       "category": "infrastructure",
@@ -67282,7 +67211,7 @@
     },
     {
       "id": "c0faab8d37fc5ad501",
-      "checked_at": "2026-11-16T02:02:24.075431+00:00",
+      "checked_at": "2026-11-19T13:00:33.502569+00:00",
       "promise_id": "BJP-2014-3fc202bbd1a34b4292",
       "year": 2014,
       "category": "health_welfare",
@@ -67307,133 +67236,24 @@
       "query": "senior citizens committed welfare especially security",
       "evidence": [
         {
-          "id": "80ecd74921a764d26b",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "www.pib.gov.in",
-          "source_url": "https://www.pib.gov.in",
-          "title": "National Helpline for Senior Citizens Elderline 14567 - www.pib.gov.in",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA2RW9rdk1pdEZ1bUhicGFXNmlQRGM1a0QtUmlCQzJsSkQ3S1duSm1KNF9MYVA0NUtLYkstMEFVbm9kUGZHQ19HU2RXMElhVHNBc0RDb3ZKX25FSjk4UnRQRDc0S1BlS2dQb0Y3empTUXJ3eTRLcTUwdmR6WQ?oc=5",
-          "published_at": "2026-07-15T07:00:00+00:00",
-          "snippet": "National Helpline for Senior Citizens Elderline 14567 www.pib.gov.in",
-          "lexical_overlap": 0.143,
-          "relevance": 0.263,
-          "matched_terms": [
-            "citizens",
-            "senior"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "senior"
-          ]
-        },
-        {
-          "id": "67ff1c186204becece",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "www.pib.gov.in",
-          "source_url": "https://www.pib.gov.in",
-          "title": "President of India Presented “Vayoshreshtha Samman – 2019” to Eminent Senior Citizens & Institutions - www.pib.gov.in",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0yeS1SQTM4ZU9uR3FzNEtIMk9VN0N4eFY1Z1hRR3oyZjV1Snp6YW1mazNqQ1picnJQTmdMZDZzM2tzd19uUjZtSWJ5dU9LYTFCaWU2d29IQXRac251Z2xoNF9kTzg0QXFQ?oc=5",
-          "published_at": "2019-10-03T07:00:00+00:00",
-          "snippet": "President of India Presented “Vayoshreshtha Samman – 2019” to Eminent Senior Citizens & Institutions www.pib.gov.in",
-          "lexical_overlap": 0.118,
-          "relevance": 0.238,
-          "matched_terms": [
-            "citizens",
-            "senior"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "senior"
-          ]
-        },
-        {
-          "id": "2b70668cefe1d445f9",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "President of India launches Key Initiatives for Senior Citizens at ‘Ageing with Dignity’ Event at Rashtrapati Bhawan today - PIB",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE56SUtrOXdXWVk2eFNoLWFsbFZ2c3hNeThneGtsTHV5SGRsUVo4Yi1rYXVlREh0aV9pOHNpbDAxSlpPWU5nVGVpRUUyODFEMGZ2b2huRUZteFNOU3R2SFo3V3hjYmNfa3Bj?oc=5",
-          "published_at": "2025-05-02T07:00:00+00:00",
-          "snippet": "President of India launches Key Initiatives for Senior Citizens at ‘Ageing with Dignity’ Event at Rashtrapati Bhawan today PIB",
-          "lexical_overlap": 0.111,
-          "relevance": 0.231,
-          "matched_terms": [
-            "citizens",
-            "senior"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "senior"
-          ]
-        },
-        {
-          "id": "eb48b29098948efced",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "www.pib.gov.in",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Five Senior Citizen Homes Inaugurated Across Five States; MoU Signed to Strengthen Elderly Welfare; Innovative Programmes Promote Inter-generational Bonding - www.pib.gov.in",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE56dzc1R1UyRnoyb2thUG9mOV9OclIxVE1uXzBENEN0U0tCNGtwM3cwQ1dRQi1RSzhPYngxTXdKTXNuZjMxZEhGLUVOX2VValNIc29RckRUQlJFeVNrUmxSUTNibEcyNEVw?oc=5",
-          "published_at": "2026-07-24T07:00:00+00:00",
-          "snippet": "Five Senior Citizen Homes Inaugurated Across Five States; MoU Signed to Strengthen Elderly Welfare; Innovative Programmes Promote Inter-generational Bonding www.pib.gov.in",
-          "lexical_overlap": 0.091,
-          "relevance": 0.211,
-          "matched_terms": [
-            "senior",
-            "welfare"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "senior",
-            "welfare"
-          ]
-        },
-        {
-          "id": "df0bc1020852961a9f",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "www.pib.gov.in",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Union Minister Dr. Virendra Kumar Chairs 5th Meeting of National Council for Senior Citizens; Reviews Key Initiatives, Policy Issues Concerning The Welfare, Healthcare And Empowerment Of Elderly - www.pib.gov.in",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9rZzN0SF9UTmZuVm52T3o1MVkzek5DYmoxVjJ1TUUyem9YTS1LcHZ6THlJeUpjczBrM0NFVHlhbkg1a28zZ2c5WXB3eG50TzJmdlJCb0hyMXVqc2h2bmY1Q3haVHRkSkI0?oc=5",
-          "published_at": "2026-08-14T07:00:00+00:00",
-          "snippet": "Union Minister Dr. Virendra Kumar Chairs 5th Meeting of National Council for Senior Citizens; Reviews Key Initiatives, Policy Issues Concerning The Welfare, Healthcare And Empowerment Of Elderly www.pib.gov.in",
-          "lexical_overlap": 0.091,
-          "relevance": 0.211,
-          "matched_terms": [
-            "citizens",
-            "senior"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "senior",
-            "welfare"
-          ]
-        },
-        {
-          "id": "1b33768a9b4255ff16",
+          "id": "72d248022fdc380c23",
           "scope": "news_search",
           "tier": "secondary",
           "source": "www.pib.gov.in",
           "source_url": "https://www.pib.gov.in",
-          "title": "Government Strengthens Welfare and Social Security Measures for Senior Citizens Under Atal Vayo Abhyudaya Yojana - www.pib.gov.in",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE56VHBJWEMtdXdkNEhvTS1GenQ2YjlNSFI1WkZlcXEzb3RuaXVaeGVTQ2NqY09ZcGxSdWNlOF91bzVfeWlFeWtTeXJ3c2hYdl9KalFkVC02blgxLTB4bnRMM3pDMW55dU1iWXVtQmhUb0Z6YzRDUGpvUV9ucw?oc=5",
-          "published_at": "2026-07-28T07:00:00+00:00",
-          "snippet": "Government Strengthens Welfare and Social Security Measures for Senior Citizens Under Atal Vayo Abhyudaya Yojana www.pib.gov.in",
-          "lexical_overlap": 0.222,
-          "relevance": 0.362,
+          "title": "MoSJE and Ministry of Defence Join Hands to Strengthen Welfare of Senior Citizens in Cantonment Areas Across The Country - www.pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOanlKVlFiT1A2aEk1R19qU0JueUlVS1g1T0FENkFRMHo0WXJNUE5oR0o4NmlDMVN2dkV2Wm4xYmhLNEFKdzIwMzBEcEhZTGdvcFdSeUZlNEpwUm5vekhKOEQ1Q0JqbnF6WS1XQ0dSdnhoYTZSYTZyVk9WV3BBa0luek5n?oc=5",
+          "published_at": "2026-11-16T13:00:00+00:00",
+          "snippet": "MoSJE and Ministry of Defence Join Hands to Strengthen Welfare of Senior Citizens in Cantonment Areas Across The Country www.pib.gov.in",
+          "lexical_overlap": 0.158,
+          "relevance": 0.263,
           "matched_terms": [
             "citizens",
-            "security",
             "senior",
             "welfare"
           ],
           "shared_numbers": [],
           "promise_core_overlap": [
-            "security",
             "senior",
             "welfare"
           ]
@@ -67452,6 +67272,49 @@
           "relevance": 0.255,
           "matched_terms": [
             "citizens",
+            "senior",
+            "welfare"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "senior",
+            "welfare"
+          ]
+        },
+        {
+          "id": "4d817dd8d2caafac2e",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "www.pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "National Helpline for Senior Citizens Elderline 14567 - www.pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5DdVdiblpJTUF6akYzRFhHYkQ2WG5LdmYwVjk3eEItYzdVSzNKRmxWZjk3amxxNkZpdHFFRUFoNHNTcDdtZjY3Nk9Fekd6TjUxTG1JX0RaOUppZnBObVYxU0l3TU9yTHRJck1LdVhZU3lCU09qbVd3Xy1R?oc=5",
+          "published_at": "2026-07-15T07:00:00+00:00",
+          "snippet": "National Helpline for Senior Citizens Elderline 14567 www.pib.gov.in",
+          "lexical_overlap": 0.143,
+          "relevance": 0.213,
+          "matched_terms": [
+            "citizens",
+            "senior"
+          ],
+          "shared_numbers": [],
+          "promise_core_overlap": [
+            "senior"
+          ]
+        },
+        {
+          "id": "30f0407cc28770662c",
+          "scope": "news_search",
+          "tier": "secondary",
+          "source": "www.pib.gov.in",
+          "source_url": "https://www.pib.gov.in",
+          "title": "Five Senior Citizen Homes Inaugurated Across Five States; MoU Signed to Strengthen Elderly Welfare; Innovative Programmes Promote Inter-generational Bonding - www.pib.gov.in",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE56dzc1R1UyRnoyb2thUG9mOV9OclIxVE1uXzBENEN0U0tCNGtwM3cwQ1dRQi1RSzhPYngxTXdKTXNuZjMxZEhGLUVOX2VValNIc29RckRUQlJFeVNrUmxSUTNibEcyNEVw?oc=5",
+          "published_at": "2026-07-24T07:00:00+00:00",
+          "snippet": "Five Senior Citizen Homes Inaugurated Across Five States; MoU Signed to Strengthen Elderly Welfare; Innovative Programmes Promote Inter-generational Bonding www.pib.gov.in",
+          "lexical_overlap": 0.091,
+          "relevance": 0.161,
+          "matched_terms": [
             "senior",
             "welfare"
           ],
@@ -70245,7 +70108,7 @@
     },
     {
       "id": "e99e1b98beca899816",
-      "checked_at": "2026-11-03T23:20:39.663677+00:00",
+      "checked_at": "2026-11-19T13:00:23.699483+00:00",
       "promise_id": "BJP-2014-23958d5cf217123e5a",
       "year": 2014,
       "category": "health_welfare",
@@ -70268,30 +70131,7 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/252/1/bjp_lection_manifesto_english_2014.pdf",
       "related_promises": [],
       "query": "sanitation introduce ratings measuring ranking cities",
-      "evidence": [
-        {
-          "id": "201ca0eeccf85966df",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "PwC India",
-          "source_url": "https://www.pwc.in",
-          "title": "PwC India and Centre for Water and Sanitation launch a jointly developed framework for ESG assessment of Indian cities - PwC India",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNN3U2elBXZVJzbk13M0xqRW1zVl8taEMxVlZ0Y01UUzBTMjR0RGJRemw4WUdhUk1RWHFNNzlGenlrUFNyakpFazB4NDNnYlZHSU52UmZQelJnVjI4OXd3WUhnX0lIVl9MOF9uNXRpamx1LXlaendHTE9yemZMMjdpQnhpZlByZnowdFFhX255M1FrTjMwUTMySTVWbDVYRy1tejlWTWVxWlF1SkhvampFVWxlNDRfQWJTM2szNDVXbk5pdmpnVXBodWViMW53Y2NDNXFlREhGSUtvUQ?oc=5",
-          "published_at": "2023-12-12T13:47:03+00:00",
-          "snippet": "PwC India and Centre for Water and Sanitation launch a jointly developed framework for ESG assessment of Indian cities PwC India",
-          "lexical_overlap": 0.105,
-          "relevance": 0.175,
-          "matched_terms": [
-            "cities",
-            "sanitation"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "cities",
-            "sanitation"
-          ]
-        }
-      ],
+      "evidence": [],
       "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
@@ -70612,7 +70452,7 @@
     },
     {
       "id": "0f9fe1aa08721191dd",
-      "checked_at": "2026-11-16T02:02:21.373225+00:00",
+      "checked_at": "2026-11-19T13:00:30.077163+00:00",
       "promise_id": "BJP-2014-3698d04e78761be52a",
       "year": 2014,
       "category": "jobs_economy",
@@ -71587,7 +71427,7 @@
     },
     {
       "id": "70a9f02600cd9199d2",
-      "checked_at": "2026-11-16T02:02:34.021352+00:00",
+      "checked_at": "2026-11-19T13:00:43.542786+00:00",
       "promise_id": "BJP-2014-585ea3ade663b4d2e0",
       "year": 2014,
       "category": "jobs_economy",
@@ -72832,7 +72672,7 @@
     },
     {
       "id": "4358a1580cd41b09ba",
-      "checked_at": "2026-11-16T02:02:26.599145+00:00",
+      "checked_at": "2026-11-19T13:00:36.334476+00:00",
       "promise_id": "BJP-2014-4521296985c20a4f92",
       "year": 2014,
       "category": "women_social_justice",
@@ -73024,7 +72864,7 @@
     },
     {
       "id": "7a8fdf5dede1a84e9e",
-      "checked_at": "2026-11-16T02:02:20.167515+00:00",
+      "checked_at": "2026-11-19T13:00:28.759193+00:00",
       "promise_id": "BJP-2014-306bbcc94e12bf5edc",
       "year": 2014,
       "category": "infrastructure",
@@ -73063,7 +72903,7 @@
     },
     {
       "id": "1883a804ef9f04160d",
-      "checked_at": "2026-11-16T02:02:28.629829+00:00",
+      "checked_at": "2026-11-19T13:00:37.732710+00:00",
       "promise_id": "BJP-2014-46fe7842653afeca0b",
       "year": 2014,
       "category": "other",
@@ -73084,31 +72924,8 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/252/1/bjp_lection_manifesto_english_2014.pdf",
       "related_promises": [],
       "query": "address comprehensive manner multiple dimensions",
-      "evidence": [
-        {
-          "id": "37e35bd3c0ef43d584",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "www.pib.gov.in",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Union Home Minister and Minister of Cooperation, Shri Amit Shah, reviews country's preparedness to deal with potential floods and heat waves in a comprehensive manner during an important high-level meeting held in New Delhi - www.pib.gov.in",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE93ZnRhVEJFUndyclJiUk1rNnhfZmdqYnBFWFhwTW9pVnJrWnZNNTAyTlRuQmFOanp4ZEdPZF9pZ19EeTNaN1J0dUJEbElfMlVTamh0bVVudW1OblJzYTYwQlJlYkRWckl0T0VXeU5yN1Mzb1k1ck1tNDlB?oc=5",
-          "published_at": "2026-05-10T07:00:00+00:00",
-          "snippet": "Union Home Minister and Minister of Cooperation, Shri Amit Shah, reviews country's preparedness to deal with potential floods and heat waves in a comprehensive manner during an important high-level meeting held in New Delhi www.pib.gov.in",
-          "lexical_overlap": 0.105,
-          "relevance": 0.225,
-          "matched_terms": [
-            "comprehensive",
-            "manner"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "comprehensive",
-            "manner"
-          ]
-        }
-      ],
-      "implementation_signal": "current_primary_evidence_found",
+      "evidence": [],
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -73588,7 +73405,7 @@
     },
     {
       "id": "2c52476f9dd70fdb23",
-      "checked_at": "2026-11-16T02:02:17.604081+00:00",
+      "checked_at": "2026-11-19T13:00:26.247970+00:00",
       "promise_id": "BJP-2014-29339b11a15283906f",
       "year": 2014,
       "category": "technology_digital",
@@ -73611,75 +73428,8 @@
       "pdf_url": "https://library.bjp.org/jspui/bitstream/123456789/252/1/bjp_lection_manifesto_english_2014.pdf",
       "related_promises": [],
       "query": "encourage incentivize private sector investments both",
-      "evidence": [
-        {
-          "id": "41444aefe8e1152822",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "www.pib.gov.in",
-          "source_url": "https://www.pib.gov.in",
-          "title": "Encouraged by the Government’s initiatives, the private sector is increasingly investing in AI in India - www.pib.gov.in",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE12R0lsaFNfUTFhZFZwaExSNWZ6RWZpVWVfUGlSMUYxWEgtclRTdGNQZkRxaWN1TGhaVlI1YVdVbnlBc0tEZlRqSzAtVDNxWkx6LUpfOFRYdnZvMnBRMy10UURtUkRwZnBX?oc=5",
-          "published_at": "2026-02-11T08:00:00+00:00",
-          "snippet": "Encouraged by the Government’s initiatives, the private sector is increasingly investing in AI in India www.pib.gov.in",
-          "lexical_overlap": 0.1,
-          "relevance": 0.22,
-          "matched_terms": [
-            "private",
-            "sector"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "private",
-            "sector"
-          ]
-        },
-        {
-          "id": "c5b1c76a4771e1bb9d",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "TradingView",
-          "source_url": "https://www.tradingview.com",
-          "title": "No response from private sector in round-2 of coal gasification scheme - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQYlZJd25KLXFMN1pUcW54cjcyRUlUZVBiN0N2RzN4SXA5bVhxaGlGRHZEWE9MWmhNRjc5ZTgwak9wdVhLTi1MUUpiMVVtM1ZsV3d1VXJYZ3hVMW9UMmNxTHJZUTlKNkU3TDd3bzIxVVVvQ180d0Z5Y1pXa19jQUtpa2ptenNudnh6R3BZODljaUNCYVJXdVhBUGdCaDF6RTVENVhyTzJOUmZoZ3N1cWVZNkVmZGRZZGVfbXJNVHNjY1Y4UXU2QXc?oc=5",
-          "published_at": "2026-11-11T23:39:30+00:00",
-          "snippet": "No response from private sector in round-2 of coal gasification scheme TradingView",
-          "lexical_overlap": 0.105,
-          "relevance": 0.175,
-          "matched_terms": [
-            "private",
-            "sector"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "private",
-            "sector"
-          ]
-        },
-        {
-          "id": "24d4a5f979834ae2df",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "International Institute for Sustainable Development",
-          "source_url": "https://www.iisd.org",
-          "title": "Paying For It: How governments can help the private sector overcome financial barriers to investing in adaptation - International Institute for Sustainable Development",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0wdUlUckgtQlNRWGM3US1KTkdHdE1PX3RtcWpZbGVFYjZnMGZZbVNxanZjcE1Rc05jTWFwd3ZkYmlLUklSd2o2aGVVSUhzaUxucEEteVhDajFnNFFzTld5c3BXSnFqRXk0S2w0UHpJMmw2VTZvRjdyVG9VdkFRdw?oc=5",
-          "published_at": "2020-08-05T16:07:41+00:00",
-          "snippet": "Paying For It: How governments can help the private sector overcome financial barriers to investing in adaptation International Institute for Sustainable Development",
-          "lexical_overlap": 0.08,
-          "relevance": 0.15,
-          "matched_terms": [
-            "private",
-            "sector"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "private",
-            "sector"
-          ]
-        }
-      ],
-      "implementation_signal": "current_primary_evidence_found",
+      "evidence": [],
+      "implementation_signal": "needs_research",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -73694,7 +73444,7 @@
     },
     {
       "id": "c47684ec686f98505d",
-      "checked_at": "2026-11-16T02:02:29.934100+00:00",
+      "checked_at": "2026-11-19T13:00:38.892344+00:00",
       "promise_id": "BJP-2014-4c560c7a333044edb6",
       "year": 2014,
       "category": "infrastructure",
@@ -73743,17 +73493,17 @@
           ]
         },
         {
-          "id": "479e38ce1bd86e0789",
+          "id": "03c8009afa6d6154a2",
           "scope": "preferred_official_search",
           "tier": "primary",
-          "source": "पीआईबी",
+          "source": "www.pib.gov.in",
           "source_url": "https://www.pib.gov.in",
-          "title": "Jal Jeevan Mission deploys first-of-its-kind sensor-based IoT devices to monitor rural drinking water supply systems - पीआईबी",
+          "title": "Jal Jeevan Mission deploys first-of-its-kind sensor-based IoT devices to monitor rural drinking water supply systems - www.pib.gov.in",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE40MFpUOHNra0RtMGg3SFFIbVBnd2w5NVFNdzkwTS16dnMzTDNTaFhJeDV6R1Z4TG95akI3TEZWZUJOTHAxSmVTeWk0bmdsRlhwdTlJaTEwLW1sNnRJVTFYVjNIMndxSFpK?oc=5",
           "published_at": "2021-03-31T07:00:00+00:00",
-          "snippet": "Jal Jeevan Mission deploys first-of-its-kind sensor-based IoT devices to monitor rural drinking water supply systems पीआईबी",
-          "lexical_overlap": 0.143,
-          "relevance": 0.298,
+          "snippet": "Jal Jeevan Mission deploys first-of-its-kind sensor-based IoT devices to monitor rural drinking water supply systems www.pib.gov.in",
+          "lexical_overlap": 0.136,
+          "relevance": 0.291,
           "matched_terms": [
             "drinking",
             "supply",
@@ -73763,28 +73513,6 @@
           "promise_core_overlap": [
             "drinking",
             "supply",
-            "water"
-          ]
-        },
-        {
-          "id": "deb4c056b188c04ba5",
-          "scope": "broad_official_search",
-          "tier": "primary",
-          "source": "Invest India Grid",
-          "source_url": "https://indiainvestmentgrid.gov.in",
-          "title": "Invest in Water Treatment Plants SubSector in India | IIG - Invest India Grid",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeTU4N3dvM0RhUEQxVFNzNGxRSklmdXl1YU9SR3VNdVA0ZS03bk9oSnZiUkVTNG8yd19qd1FRXzNnejZacDBhVjBHVDJXWDhicldkV2xRVlUxdDcwSjBROFY2S2ZwUDFjVXZvbEgtaDFtQkdIWWZ0d3NIT3oyem9DeXVrTkpjLV9S?oc=5",
-          "published_at": "2023-06-04T03:59:05+00:00",
-          "snippet": "Invest in Water Treatment Plants SubSector in India | IIG Invest India Grid",
-          "lexical_overlap": 0.143,
-          "relevance": 0.263,
-          "matched_terms": [
-            "grid",
-            "water"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "grid",
             "water"
           ]
         },
@@ -74078,7 +73806,7 @@
     },
     {
       "id": "83955a46a428fa13e5",
-      "checked_at": "2026-11-16T02:02:25.352333+00:00",
+      "checked_at": "2026-11-19T13:00:35.042016+00:00",
       "promise_id": "BJP-2014-432761e5acca4c6702",
       "year": 2014,
       "category": "other",
@@ -74098,28 +73826,6 @@
       "related_promises": [],
       "query": "encourage cleaner production",
       "evidence": [
-        {
-          "id": "72a1becc11e4289796",
-          "scope": "preferred_official_search",
-          "tier": "primary",
-          "source": "PIB",
-          "source_url": "https://www.pib.gov.in",
-          "title": "STEPS TO ENCOURAGE NATURAL GAS PRODUCTION - PIB",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1EbVpBUFJ6YmxYOVRpLW1KQldUb2x6djI3Wk9wWFN5cFdBWlpYbGZpT0c2X25aeGdMbDZEcUJhd1A1ZFlVbm1BZUY5R2w5aDVRQm03ZG5RbXl6S3MwdUJ0N1RLMkV4RnRLZmpiMFJCQUdQYU9ueUN3azNRUQ?oc=5",
-          "published_at": "2024-12-09T08:00:00+00:00",
-          "snippet": "STEPS TO ENCOURAGE NATURAL GAS PRODUCTION PIB",
-          "lexical_overlap": 0.286,
-          "relevance": 0.406,
-          "matched_terms": [
-            "encourage",
-            "production"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "encourage",
-            "production"
-          ]
-        },
         {
           "id": "de9a3c75981ee13b01",
           "scope": "news_search",
@@ -74163,31 +73869,9 @@
             "cleaner",
             "production"
           ]
-        },
-        {
-          "id": "d5d14cf31b915517ab",
-          "scope": "news_search",
-          "tier": "secondary",
-          "source": "www.info.gov.hk",
-          "source_url": "https://www.info.gov.hk",
-          "title": "Meeting of Hong Kong-Guangdong Joint Working Group on Cleaner Production takes forward co-operation in cleaner production (with photos) - www.info.gov.hk",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5SMVhyZ0VLQldYNDRYRnY2c1dCbzRlRXROcGFUM2swci1Neng5ai00MnZkaTBTbjd1Tk1MSl9jangyNlBpdjdmcDlCU2MtWUhlU2dFSFJkZDlCa3lMSmkzR1ZwSTM4Wm9leHdkcWtDemhQQQ?oc=5",
-          "published_at": "2026-10-27T07:00:00+00:00",
-          "snippet": "Meeting of Hong Kong-Guangdong Joint Working Group on Cleaner Production takes forward co-operation in cleaner production (with photos) www.info.gov.hk",
-          "lexical_overlap": 0.118,
-          "relevance": 0.188,
-          "matched_terms": [
-            "cleaner",
-            "production"
-          ],
-          "shared_numbers": [],
-          "promise_core_overlap": [
-            "cleaner",
-            "production"
-          ]
         }
       ],
-      "implementation_signal": "current_primary_and_reporting_found",
+      "implementation_signal": "current_reporting_found",
       "status": "pending",
       "human_reviewed": false,
       "status_reason": "This is an automated implementation-evidence signal. Final fulfilment requires the original target and current metric to be directly comparable.",
@@ -74958,7 +74642,7 @@
     },
     {
       "id": "27be77ee995bf7f76d",
-      "checked_at": "2026-11-16T02:02:27.507382+00:00",
+      "checked_at": "2026-11-19T13:00:37.262315+00:00",
       "promise_id": "BJP-2014-454fa8bc963ec810be",
       "year": 2014,
       "category": "security_defence",
@@ -75477,7 +75161,7 @@
     },
     {
       "id": "0b52557402c4160738",
-      "checked_at": "2026-11-03T23:20:37.820871+00:00",
+      "checked_at": "2026-11-19T13:00:23.103860+00:00",
       "promise_id": "BJP-2014-22691f3e52e99bb12c",
       "year": 2014,
       "category": "security_defence",
@@ -76388,7 +76072,43 @@
       }
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "stage": "promise_evidence_search",
+      "promise_id": "BJP-2014-078252941779345656",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "promise_evidence_search",
+      "promise_id": "BJP-2014-22691f3e52e99bb12c",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "promise_evidence_search",
+      "promise_id": "BJP-2014-23958d5cf217123e5a",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "promise_evidence_search",
+      "promise_id": "BJP-2014-277f1c4467efd095c2",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "promise_evidence_search",
+      "promise_id": "BJP-2014-29339b11a15283906f",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "promise_evidence_search",
+      "promise_id": "BJP-2014-46fe7842653afeca0b",
+      "error": "HTTPError"
+    },
+    {
+      "stage": "promise_evidence_search",
+      "promise_id": "BJP-2014-57bcf542e13c9c5e0a",
+      "error": "HTTPError"
+    }
+  ],
   "notes": [
     "Evidence candidates are not verdicts.",
     "Official-search results are discarded unless they share substantive terms or numeric values with the claim.",
